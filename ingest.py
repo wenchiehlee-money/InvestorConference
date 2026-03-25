@@ -35,6 +35,7 @@ KNOWN_TW_STOCKS = {
     "3231": ("Wistron", "緯創"),
     "3034": ("Novatek", "聯詠"),
     "8299": ("Phison", "群聯"),
+    "4938": ("Pegatron", "和碩"),
 }
 
 # Companies that host earnings call MP4 directly on their own IR site
@@ -49,6 +50,8 @@ KNOWN_TW_DIRECT_IR = {
 KNOWN_TW_PLAYWRIGHT_IR = {
     "2382": "https://www.quantatw.com/Quanta/chinese/investment/financials_icp.aspx",  # 廣達 — JS-rendered
     "8299": "https://www.phison.com/zh-tw/investor-relations/shareholder-services/investor-meeting-information",  # 群聯 — YouTube links in DOM
+    "2330": "https://ottlive.hinet.net/webapp/tsmc/watch?v=2766",      # 台積電 2025Q4 — ottlive HLS m3u8 intercept
+    "2454": "https://ottlive.hinet.net/webapp/mediatek/watch?v=3556",  # 聯發科 2025Q4 — ottlive HLS m3u8 intercept
 }
 
 # IR portal URLs for Taiwan stocks that host webcast on their own IR sites
