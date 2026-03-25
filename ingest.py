@@ -775,6 +775,110 @@ def download_pdfs(stock_id: str, year: str, quarter: str,
     return downloaded
 
 
+# ── README Generator ─────────────────────────────────────────────────────────
+
+def update_readme() -> None:
+    """Regenerate README.md from repo state + upcoming_earnings.csv."""
+    import csv as _csv
+
+    repo = INVESTOR_CONFERENCE_REPO
+    audio_pat = re.compile(r'^(\d{4})_(\d{4})_q(\d)\.(mp3|m4a|wav)$', re.I)
+    pdf_pat   = re.compile(r'^(\d{4})_(\d{4})_q(\d)_ir.*\.pdf$', re.I)
+
+    entries = {}  # key=(stock_id, year, quarter) → dict
+
+    for d in sorted(repo.iterdir()):
+        if not d.is_dir() or not re.match(r'^\d{4}$', d.name):
+            continue
+        stock_id = d.name
+        for f in sorted(d.iterdir()):
+            m = audio_pat.match(f.name)
+            if m:
+                _, year, qnum, _ = m.groups()
+                key = (stock_id, year, qnum)
+                if key not in entries:
+                    entries[key] = {"stock_id": stock_id, "year": year, "quarter": qnum,
+                                    "audio_min": None, "has_pdf": False, "conf_date": ""}
+                try:
+                    r = subprocess.run(
+                        ["ffprobe", "-v", "quiet", "-show_entries", "format=duration",
+                         "-of", "csv=p=0", str(f)],
+                        capture_output=True, encoding="utf-8", errors="replace", timeout=15,
+                    )
+                    entries[key]["audio_min"] = float(r.stdout.strip()) / 60
+                except Exception:
+                    pass
+            m2 = pdf_pat.match(f.name)
+            if m2:
+                _, year, qnum = m2.groups()[:3]
+                key = (stock_id, year, qnum)
+                if key not in entries:
+                    entries[key] = {"stock_id": stock_id, "year": year, "quarter": qnum,
+                                    "audio_min": None, "has_pdf": False, "conf_date": ""}
+                entries[key]["has_pdf"] = True
+
+    rows = sorted(entries.values(),
+                  key=lambda r: (r["year"], r["quarter"], r["stock_id"]), reverse=True)
+
+    # Read upcoming_earnings.csv — filter 法說會 events
+    upcoming_ir = []
+    csv_path = repo / "upcoming_earnings.csv"
+    if csv_path.exists():
+        with open(csv_path, encoding="utf-8-sig") as fh:
+            for row in _csv.DictReader(fh):
+                if row.get("類別") == "法說會":
+                    upcoming_ir.append(row)
+    upcoming_ir.sort(key=lambda r: r.get("開始日期", ""))
+
+    # Match conf_date from CSV into ingested rows
+    for row in rows:
+        sid = row["stock_id"]
+        for ev in upcoming_ir:
+            ev_name = ev.get("事件名稱", "")
+            if f"({sid})" in ev_name or f"（{sid}）" in ev_name:
+                row["conf_date"] = ev.get("開始日期", "")
+                break
+
+    # Build README lines
+    lines = [
+        "# InvestorConference",
+        "",
+        "台股法人說明會（法說會）音檔與投資人關係資料收錄庫。",
+        "",
+        "## 已收錄資料",
+        "",
+        "| 公司 | 季度 | 音檔 | IR PDFs | 法說日期 |",
+        "|:-----|:-----|-----:|:-------:|:--------:|",
+    ]
+    for r in rows:
+        _, chi = KNOWN_TW_STOCKS.get(r["stock_id"], (r["stock_id"], r["stock_id"]))
+        name  = f"[{r['stock_id']} {chi}]({r['stock_id']}/)"
+        qstr  = f"{r['year']} Q{r['quarter']}"
+        audio = f"{r['audio_min']:.1f} min" if r["audio_min"] is not None else "無"
+        pdf   = "✓" if r["has_pdf"] else "✗"
+        lines.append(f"| {name} | {qstr} | {audio} | {pdf} | {r['conf_date']} |")
+
+    lines += [
+        "",
+        "## 近期法說會",
+        "",
+        "| 公司 | 日期 | MOPS |",
+        "|:-----|:----:|:----:|",
+    ]
+    for ev in upcoming_ir:
+        name  = ev.get("事件名稱", "")
+        date  = ev.get("開始日期", "")
+        link1 = ev.get("Link1", "")
+        mops  = f"[↗]({link1})" if link1 else ""
+        lines.append(f"| {name} | {date} | {mops} |")
+
+    lines.append("")
+
+    readme_path = repo / "README.md"
+    readme_path.write_text("\n".join(lines), encoding="utf-8")
+    print(f"[README] ✓ Updated: {readme_path}")
+
+
 # ── InvestorConference Commit/Push ───────────────────────────────────────────
 
 def commit_push_files(stock_id: str, year: str, quarter: str,
@@ -815,9 +919,12 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
         print(f"[git] Moved → {target_pdf}")
         git("add", str(target_pdf.relative_to(repo)))
 
+    # Regenerate README.md and stage it
+    update_readme()
+    git("add", "README.md")
+
     extras = f" + {len(pdf_paths)} PDF(s)" if pdf_paths else ""
     msg = (f"feat: add {stock_id} {year} Q{quarter} earnings call audio{extras}\n\n"
-           f"Source: webcast-eqs.com HLS stream via ingest_poc.py\n"
            f"Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>")
     if not git("commit", "-m", msg):
         print(f"[git] commit failed")
@@ -1011,16 +1118,25 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(
-        description="Smart Ingestion v4.1 — Earnings Call Audio Downloader"
+        description="Smart Ingestion v5.0 — Earnings Call Audio Downloader"
     )
-    parser.add_argument("stock_id", help="Stock ID (e.g. 2357, NVDA)")
-    parser.add_argument("year",     help="Year (e.g. 2025)")
-    parser.add_argument("quarter",  help="Quarter (1-4)")
+    parser.add_argument("stock_id", nargs="?", help="Stock ID (e.g. 2357, NVDA)")
+    parser.add_argument("year",     nargs="?", help="Year (e.g. 2025)")
+    parser.add_argument("quarter",  nargs="?", help="Quarter (1-4)")
     parser.add_argument(
         "--push", action="store_true",
-        help="After download, commit + push to InvestorConference repo (removes local copy)",
+        help="After download, commit + push to InvestorConference repo",
+    )
+    parser.add_argument(
+        "--update-readme", action="store_true",
+        help="Regenerate README.md from repo state + upcoming_earnings.csv, then exit",
     )
     args = parser.parse_args()
 
-    ingest_earnings_audio(args.stock_id, args.year, args.quarter,
-                          auto_push=args.push)
+    if args.update_readme:
+        update_readme()
+    elif args.stock_id and args.year and args.quarter:
+        ingest_earnings_audio(args.stock_id, args.year, args.quarter,
+                              auto_push=args.push)
+    else:
+        parser.print_help()
