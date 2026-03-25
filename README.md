@@ -27,7 +27,7 @@
 | 4938 和碩 | 2025 Q4 | 2026-03-11 | 無 | [中](4938/4938_2025_q4_ir.pdf) | [EN](4938/4938_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 2454 聯發科 | 2025 Q4 | 2026-03-10 | [63.9 min](2454/2454_2025_q4.mp3) | [中](2454/2454_2025_q4_ir.pdf) | [EN](2454/2454_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 2480 敦陽科 | 2025 Q4 | 2026-03-10 | [57.2 min](2480/2480_2025_q4.m4a) | [中](2480/2480_2025_q4_ir.pdf) | [EN](2480/2480_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
-| 2308 台達電 | — | 2026-03-10 | — | — | — | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
+| 2308 台達電 | 2025 Q4 | 2026-03-10 | [61.9 min](2308/2308_2025_q4.mp3) | [中](2308/2308_2025_q4_ir.pdf) | [EN](2308/2308_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 7765 中華資安 | — | 2026-03-05 | — | — | — | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 6669 緯穎 | — | 2026-02-26 | — | — | — | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 2301 光寶科 | — | 2026-02-25 | — | — | — | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |

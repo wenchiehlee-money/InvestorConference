@@ -53,6 +53,7 @@ KNOWN_TW_PLAYWRIGHT_IR = {
     "8299": "https://www.phison.com/zh-tw/investor-relations/shareholder-services/investor-meeting-information",  # 群聯 — YouTube links in DOM
     "2330": "https://ottlive.hinet.net/webapp/tsmc/watch?v=2766",      # 台積電 2025Q4 — ottlive HLS m3u8 intercept
     "2454": "https://ottlive.hinet.net/webapp/mediatek/watch?v=3556",  # 聯發科 2025Q4 — ottlive HLS m3u8 intercept
+    "2308": "https://www.deltaww.com/zh-TW/investors/analyst-meeting", # 台達電 — ccdntech.com HLS, video URL in HTML source
 }
 
 # IR portal URLs for Taiwan stocks that host webcast on their own IR sites
