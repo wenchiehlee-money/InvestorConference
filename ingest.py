@@ -782,10 +782,18 @@ def update_readme() -> None:
     import csv as _csv
 
     repo = INVESTOR_CONFERENCE_REPO
-    audio_pat = re.compile(r'^(\d{4})_(\d{4})_q(\d)\.(mp3|m4a|wav)$', re.I)
-    pdf_pat   = re.compile(r'^(\d{4})_(\d{4})_q(\d)_ir.*\.pdf$', re.I)
+    audio_pat  = re.compile(r'^(\d{4})_(\d{4})_q(\d)\.(mp3|m4a|wav)$', re.I)
+    pdf_cn_pat = re.compile(r'^(\d{4})_(\d{4})_q(\d)_ir\.pdf$', re.I)
+    pdf_en_pat = re.compile(r'^(\d{4})_(\d{4})_q(\d)_ir_en\.pdf$', re.I)
 
     entries = {}  # key=(stock_id, year, quarter) → dict
+
+    def _entry(stock_id, year, qnum):
+        key = (stock_id, year, qnum)
+        if key not in entries:
+            entries[key] = {"stock_id": stock_id, "year": year, "quarter": qnum,
+                            "audio_min": None, "pdf_cn": None, "pdf_en": None}
+        return entries[key]
 
     for d in sorted(repo.iterdir()):
         if not d.is_dir() or not re.match(r'^\d{4}$', d.name):
@@ -795,27 +803,24 @@ def update_readme() -> None:
             m = audio_pat.match(f.name)
             if m:
                 _, year, qnum, _ = m.groups()
-                key = (stock_id, year, qnum)
-                if key not in entries:
-                    entries[key] = {"stock_id": stock_id, "year": year, "quarter": qnum,
-                                    "audio_min": None, "has_pdf": False, "conf_date": ""}
+                e = _entry(stock_id, year, qnum)
                 try:
                     r = subprocess.run(
                         ["ffprobe", "-v", "quiet", "-show_entries", "format=duration",
                          "-of", "csv=p=0", str(f)],
                         capture_output=True, encoding="utf-8", errors="replace", timeout=15,
                     )
-                    entries[key]["audio_min"] = float(r.stdout.strip()) / 60
+                    e["audio_min"] = float(r.stdout.strip()) / 60
                 except Exception:
                     pass
-            m2 = pdf_pat.match(f.name)
+            m2 = pdf_cn_pat.match(f.name)
             if m2:
                 _, year, qnum = m2.groups()[:3]
-                key = (stock_id, year, qnum)
-                if key not in entries:
-                    entries[key] = {"stock_id": stock_id, "year": year, "quarter": qnum,
-                                    "audio_min": None, "has_pdf": False, "conf_date": ""}
-                entries[key]["has_pdf"] = True
+                _entry(stock_id, year, qnum)["pdf_cn"] = f"{stock_id}/{f.name}"
+            m3 = pdf_en_pat.match(f.name)
+            if m3:
+                _, year, qnum = m3.groups()[:3]
+                _entry(stock_id, year, qnum)["pdf_en"] = f"{stock_id}/{f.name}"
 
     rows = list(entries.values())
 
@@ -868,19 +873,21 @@ def update_readme() -> None:
 
         if ingested:
             _, chi = KNOWN_TW_STOCKS.get(sid, (sid, sid))
-            name  = f"[{sid} {chi}]({sid}/)"
-            qstr  = f"{ingested['year']} Q{ingested['quarter']}"
-            audio = f"{ingested['audio_min']:.1f} min" if ingested["audio_min"] is not None else "無"
-            pdf   = "✓" if ingested["has_pdf"] else "✗"
+            name   = f"{sid} {chi}"
+            qstr   = f"{ingested['year']} Q{ingested['quarter']}"
+            audio  = f"{ingested['audio_min']:.1f} min" if ingested["audio_min"] is not None else "無"
+            pdf_cn = f"[中]({ingested['pdf_cn']})" if ingested["pdf_cn"] else "—"
+            pdf_en = f"[EN]({ingested['pdf_en']})" if ingested["pdf_en"] else "—"
         else:
-            name  = ev_name
-            qstr  = "—"
-            audio = "—"
-            pdf   = "—"
+            name   = ev_name
+            qstr   = "—"
+            audio  = "—"
+            pdf_cn = "—"
+            pdf_en = "—"
 
         merged.append({
             "name": name, "quarter": qstr, "date": date,
-            "audio": audio, "pdf": pdf,
+            "audio": audio, "pdf_cn": pdf_cn, "pdf_en": pdf_en,
             "mops": f"[↗]({link1})" if link1 else "",
         })
 
@@ -890,13 +897,16 @@ def update_readme() -> None:
         if key in matched_keys:
             continue
         _, chi = KNOWN_TW_STOCKS.get(r["stock_id"], (r["stock_id"], r["stock_id"]))
-        audio = f"{r['audio_min']:.1f} min" if r["audio_min"] is not None else "無"
+        audio  = f"{r['audio_min']:.1f} min" if r["audio_min"] is not None else "無"
+        pdf_cn = f"[中]({r['pdf_cn']})" if r["pdf_cn"] else "—"
+        pdf_en = f"[EN]({r['pdf_en']})" if r["pdf_en"] else "—"
         merged.append({
-            "name":    f"[{r['stock_id']} {chi}]({r['stock_id']}/)",
+            "name":    f"{r['stock_id']} {chi}",
             "quarter": f"{r['year']} Q{r['quarter']}",
             "date":    "",
             "audio":   audio,
-            "pdf":     "✓" if r["has_pdf"] else "✗",
+            "pdf_cn":  pdf_cn,
+            "pdf_en":  pdf_en,
             "mops":    "",
         })
 
@@ -911,13 +921,13 @@ def update_readme() -> None:
         "",
         "## 法說會一覽",
         "",
-        "| 公司 | 季度 | 法說日期 | 音檔 | IR PDFs | MOPS |",
-        "|:-----|:----:|:--------:|-----:|:-------:|:----:|",
+        "| 公司 | 季度 | 法說日期 | 音檔 | IR PDF | IR PDF (EN) | MOPS |",
+        "|:-----|:----:|:--------:|-----:|:------:|:-----------:|:----:|",
     ]
     for m in merged:
         lines.append(
             f"| {m['name']} | {m['quarter']} | {m['date']} "
-            f"| {m['audio']} | {m['pdf']} | {m['mops']} |"
+            f"| {m['audio']} | {m['pdf_cn']} | {m['pdf_en']} | {m['mops']} |"
         )
 
     lines.append("")
