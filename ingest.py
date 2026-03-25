@@ -900,8 +900,8 @@ def update_readme() -> None:
             "mops":    "",
         })
 
-    # Sort by date ascending; entries without date sink to the bottom
-    merged.sort(key=lambda x: (x["date"] == "", x["date"], x["name"]))
+    # Sort by date descending (newest first); entries without date sink to the bottom
+    merged.sort(key=lambda x: (x["date"] != "", x["date"]), reverse=True)
 
     # Build README
     lines = [
