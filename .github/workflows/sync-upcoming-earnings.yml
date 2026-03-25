@@ -1,0 +1,64 @@
+name: Sync Upcoming Earnings CSV
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # daily 01:00 UTC (09:00 TWN)
+  workflow_dispatch:
+
+concurrency:
+  group: sync-upcoming-earnings-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: [self-hosted, macOS]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up PATH
+        run: |
+          echo "/opt/homebrew/bin" >> $GITHUB_PATH
+          echo "/usr/local/bin"    >> $GITHUB_PATH
+
+      - name: Configure SSH for github-investment
+        run: |
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          KEY=""
+          for f in ~/.ssh/id_ed25519_wenchiehlee_investment ~/.ssh/id_ed25519_investment; do
+            [ -f "$f" ] && KEY="$f" && break
+          done
+          [ -z "$KEY" ] && KEY=$(grep -A3 "Host github.com" ~/.ssh/config 2>/dev/null | grep IdentityFile | awk '{print $2}' | head -1)
+          if [ -z "$KEY" ]; then echo "✗ No investment SSH key found"; exit 1; fi
+          echo "✓ Using key: $KEY"
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Clone / pull InvestorEvents
+        run: |
+          REPO_DIR="../InvestorEvents"
+          if [ -d "$REPO_DIR/.git" ]; then
+            git -C "$REPO_DIR" pull --rebase
+          else
+            git clone git@github.com:wenchiehlee-investment/InvestorEvents.git "$REPO_DIR"
+          fi
+          echo "✓ InvestorEvents at $REPO_DIR"
+          ls "$REPO_DIR/upcoming_earnings.csv"
+
+      - name: Copy CSV into repo root
+        run: |
+          cp ../InvestorEvents/upcoming_earnings.csv upcoming_earnings.csv
+          echo "✓ Copied upcoming_earnings.csv ($(wc -l < upcoming_earnings.csv) lines)"
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "Mac-mini Runner"
+          git config user.email "runner@mac-mini.local"
+          git add upcoming_earnings.csv
+          if git diff --cached --quiet; then
+            echo "No changes — CSV is up to date."
+          else
+            git commit -m "chore: sync upcoming_earnings.csv from InvestorEvents [skip ci]"
+            git pull --rebase -X ours origin main
+            git push
+            echo "✓ Pushed updated CSV"
+          fi
