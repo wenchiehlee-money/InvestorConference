@@ -1,0 +1,60 @@
+name: Ingest Earnings Audio
+
+on:
+  workflow_dispatch:
+    inputs:
+      stock_id:
+        description: 'Stock ID (e.g. 2357, 2330, NVDA)'
+        required: true
+        default: '3231'
+      year:
+        description: 'Year (e.g. 2025)'
+        required: true
+        default: '2025'
+      quarter:
+        description: 'Quarter (1–4)'
+        required: true
+        default: '4'
+      push:
+        description: 'Commit & push audio after download'
+        type: boolean
+        default: true
+
+jobs:
+  ingest:
+    runs-on: [self-hosted, macOS]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up PATH
+        run: |
+          echo "/opt/homebrew/bin" >> $GITHUB_PATH
+          echo "/usr/local/bin"    >> $GITHUB_PATH
+
+      - name: Install Python dependencies
+        run: |
+          pip3 install -q requests playwright yt-dlp
+          python3 -m playwright install chromium --with-deps 2>/dev/null || \
+          python3 -m playwright install chromium
+
+      - name: Run ingest.py
+        run: |
+          PUSH_FLAG=${{ inputs.push == true && '--push' || '' }}
+          python3 ingest.py \
+            "${{ inputs.stock_id }}" \
+            "${{ inputs.year }}" \
+            "${{ inputs.quarter }}" \
+            $PUSH_FLAG
+
+      - name: Verify output
+        run: |
+          FILE="tmp/${{ inputs.stock_id }}_${{ inputs.year }}_q${{ inputs.quarter }}.m4a"
+          if [ -f "$FILE" ]; then
+            echo "✓ Audio kept locally: $FILE"
+            ls -lh "$FILE"
+          elif [ "${{ inputs.push }}" = "true" ]; then
+            echo "✓ Audio committed to repo (local tmp copy removed)"
+          else
+            echo "✗ Audio file not found" && exit 1
+          fi
