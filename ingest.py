@@ -817,8 +817,7 @@ def update_readme() -> None:
                                     "audio_min": None, "has_pdf": False, "conf_date": ""}
                 entries[key]["has_pdf"] = True
 
-    rows = sorted(entries.values(),
-                  key=lambda r: (r["year"], r["quarter"], r["stock_id"]), reverse=True)
+    rows = list(entries.values())
 
     # Read upcoming_earnings.csv — filter 法說會 events
     upcoming_ir = []
@@ -828,49 +827,98 @@ def update_readme() -> None:
             for row in _csv.DictReader(fh):
                 if row.get("類別") == "法說會":
                     upcoming_ir.append(row)
-    upcoming_ir.sort(key=lambda r: r.get("開始日期", ""))
 
-    # Match conf_date from CSV into ingested rows
-    for row in rows:
-        sid = row["stock_id"]
-        for ev in upcoming_ir:
-            ev_name = ev.get("事件名稱", "")
-            if f"({sid})" in ev_name or f"（{sid}）" in ev_name:
-                row["conf_date"] = ev.get("開始日期", "")
-                break
+    def _expected_quarter(date_str: str):
+        """Return (year, quarter) the fiscal quarter reported on a given conference date."""
+        if not date_str:
+            return None, None
+        try:
+            y, mo = int(date_str[:4]), int(date_str[5:7])
+        except (ValueError, IndexError):
+            return None, None
+        if 1 <= mo <= 4:
+            return str(y - 1), "4"
+        if 5 <= mo <= 6:
+            return str(y), "1"
+        if 7 <= mo <= 9:
+            return str(y), "2"
+        return str(y), "3"
 
-    # Build README lines
+    # Build merged rows: one row per CSV event (with optional ingested data),
+    # plus any ingested entries that have no matching CSV event.
+    merged = []
+    matched_keys = set()
+
+    for ev in upcoming_ir:
+        ev_name = ev.get("事件名稱", "")
+        date    = ev.get("開始日期", "")
+        link1   = ev.get("Link1", "")
+        m = re.search(r'[（(](\d{4})[）)]', ev_name)
+        sid = m.group(1) if m else None
+
+        exp_year, exp_q = _expected_quarter(date)
+        ingested = None
+        if sid and exp_year:
+            key = (sid, exp_year, exp_q)
+            for r in rows:
+                if (r["stock_id"], r["year"], r["quarter"]) == key:
+                    ingested = r
+                    matched_keys.add(key)
+                    break
+
+        if ingested:
+            _, chi = KNOWN_TW_STOCKS.get(sid, (sid, sid))
+            name  = f"[{sid} {chi}]({sid}/)"
+            qstr  = f"{ingested['year']} Q{ingested['quarter']}"
+            audio = f"{ingested['audio_min']:.1f} min" if ingested["audio_min"] is not None else "無"
+            pdf   = "✓" if ingested["has_pdf"] else "✗"
+        else:
+            name  = ev_name
+            qstr  = "—"
+            audio = "—"
+            pdf   = "—"
+
+        merged.append({
+            "name": name, "quarter": qstr, "date": date,
+            "audio": audio, "pdf": pdf,
+            "mops": f"[↗]({link1})" if link1 else "",
+        })
+
+    # Add ingested entries with no CSV event (older quarters, etc.)
+    for r in rows:
+        key = (r["stock_id"], r["year"], r["quarter"])
+        if key in matched_keys:
+            continue
+        _, chi = KNOWN_TW_STOCKS.get(r["stock_id"], (r["stock_id"], r["stock_id"]))
+        audio = f"{r['audio_min']:.1f} min" if r["audio_min"] is not None else "無"
+        merged.append({
+            "name":    f"[{r['stock_id']} {chi}]({r['stock_id']}/)",
+            "quarter": f"{r['year']} Q{r['quarter']}",
+            "date":    "",
+            "audio":   audio,
+            "pdf":     "✓" if r["has_pdf"] else "✗",
+            "mops":    "",
+        })
+
+    # Sort by date ascending; entries without date sink to the bottom
+    merged.sort(key=lambda x: (x["date"] == "", x["date"], x["name"]))
+
+    # Build README
     lines = [
         "# InvestorConference",
         "",
         "台股法人說明會（法說會）音檔與投資人關係資料收錄庫。",
         "",
-        "## 已收錄資料",
+        "## 法說會一覽",
         "",
-        "| 公司 | 季度 | 音檔 | IR PDFs | 法說日期 |",
-        "|:-----|:-----|-----:|:-------:|:--------:|",
+        "| 公司 | 季度 | 法說日期 | 音檔 | IR PDFs | MOPS |",
+        "|:-----|:----:|:--------:|-----:|:-------:|:----:|",
     ]
-    for r in rows:
-        _, chi = KNOWN_TW_STOCKS.get(r["stock_id"], (r["stock_id"], r["stock_id"]))
-        name  = f"[{r['stock_id']} {chi}]({r['stock_id']}/)"
-        qstr  = f"{r['year']} Q{r['quarter']}"
-        audio = f"{r['audio_min']:.1f} min" if r["audio_min"] is not None else "無"
-        pdf   = "✓" if r["has_pdf"] else "✗"
-        lines.append(f"| {name} | {qstr} | {audio} | {pdf} | {r['conf_date']} |")
-
-    lines += [
-        "",
-        "## 近期法說會",
-        "",
-        "| 公司 | 日期 | MOPS |",
-        "|:-----|:----:|:----:|",
-    ]
-    for ev in upcoming_ir:
-        name  = ev.get("事件名稱", "")
-        date  = ev.get("開始日期", "")
-        link1 = ev.get("Link1", "")
-        mops  = f"[↗]({link1})" if link1 else ""
-        lines.append(f"| {name} | {date} | {mops} |")
+    for m in merged:
+        lines.append(
+            f"| {m['name']} | {m['quarter']} | {m['date']} "
+            f"| {m['audio']} | {m['pdf']} | {m['mops']} |"
+        )
 
     lines.append("")
 
