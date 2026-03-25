@@ -872,16 +872,25 @@ def update_readme() -> None:
                     matched_keys.add(key)
                     break
 
+        # Normalise company name: prefer KNOWN_TW_STOCKS, else parse from event name
+        if sid:
+            _, chi = KNOWN_TW_STOCKS.get(sid, ("", ""))
+            if not chi:
+                # e.g. "鴻海(2317) 法說會" → "鴻海"
+                chi = re.sub(r'[（(]\d{4}[）)].*', '', ev_name).strip()
+            display_name = f"{sid} {chi}"
+        else:
+            display_name = ev_name
+
         if ingested:
-            _, chi = KNOWN_TW_STOCKS.get(sid, (sid, sid))
-            name   = f"{sid} {chi}"
+            name   = display_name
             qstr   = f"{ingested['year']} Q{ingested['quarter']}"
             dur    = f"{ingested['audio_min']:.1f} min" if ingested["audio_min"] is not None else "無"
             audio  = f"[{dur}]({ingested['audio_path']})" if ingested["audio_path"] else dur
             pdf_cn = f"[中]({ingested['pdf_cn']})" if ingested["pdf_cn"] else "—"
             pdf_en = f"[EN]({ingested['pdf_en']})" if ingested["pdf_en"] else "—"
         else:
-            name   = ev_name
+            name   = display_name
             qstr   = "—"
             audio  = "—"
             pdf_cn = "—"
