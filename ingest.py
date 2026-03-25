@@ -792,7 +792,7 @@ def update_readme() -> None:
         key = (stock_id, year, qnum)
         if key not in entries:
             entries[key] = {"stock_id": stock_id, "year": year, "quarter": qnum,
-                            "audio_min": None, "pdf_cn": None, "pdf_en": None}
+                            "audio_min": None, "audio_path": None, "pdf_cn": None, "pdf_en": None}
         return entries[key]
 
     for d in sorted(repo.iterdir()):
@@ -804,6 +804,7 @@ def update_readme() -> None:
             if m:
                 _, year, qnum, _ = m.groups()
                 e = _entry(stock_id, year, qnum)
+                e["audio_path"] = f"{stock_id}/{f.name}"
                 try:
                     r = subprocess.run(
                         ["ffprobe", "-v", "quiet", "-show_entries", "format=duration",
@@ -875,7 +876,8 @@ def update_readme() -> None:
             _, chi = KNOWN_TW_STOCKS.get(sid, (sid, sid))
             name   = f"{sid} {chi}"
             qstr   = f"{ingested['year']} Q{ingested['quarter']}"
-            audio  = f"{ingested['audio_min']:.1f} min" if ingested["audio_min"] is not None else "無"
+            dur    = f"{ingested['audio_min']:.1f} min" if ingested["audio_min"] is not None else "無"
+            audio  = f"[{dur}]({ingested['audio_path']})" if ingested["audio_path"] else dur
             pdf_cn = f"[中]({ingested['pdf_cn']})" if ingested["pdf_cn"] else "—"
             pdf_en = f"[EN]({ingested['pdf_en']})" if ingested["pdf_en"] else "—"
         else:
@@ -897,7 +899,8 @@ def update_readme() -> None:
         if key in matched_keys:
             continue
         _, chi = KNOWN_TW_STOCKS.get(r["stock_id"], (r["stock_id"], r["stock_id"]))
-        audio  = f"{r['audio_min']:.1f} min" if r["audio_min"] is not None else "無"
+        dur    = f"{r['audio_min']:.1f} min" if r["audio_min"] is not None else "無"
+        audio  = f"[{dur}]({r['audio_path']})" if r["audio_path"] else dur
         pdf_cn = f"[中]({r['pdf_cn']})" if r["pdf_cn"] else "—"
         pdf_en = f"[EN]({r['pdf_en']})" if r["pdf_en"] else "—"
         merged.append({
