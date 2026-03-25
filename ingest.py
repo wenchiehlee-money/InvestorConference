@@ -34,6 +34,7 @@ KNOWN_TW_STOCKS = {
     "2480": ("Stark Technology", "敦陽科"),
     "3231": ("Wistron", "緯創"),
     "3034": ("Novatek", "聯詠"),
+    "8299": ("Phison", "群聯"),
 }
 
 # Companies that host earnings call MP4 directly on their own IR site
@@ -47,6 +48,7 @@ KNOWN_TW_DIRECT_IR = {
 # (stock_id -> IR earnings-call page URL)
 KNOWN_TW_PLAYWRIGHT_IR = {
     "2382": "https://www.quantatw.com/Quanta/chinese/investment/financials_icp.aspx",  # 廣達 — JS-rendered
+    "8299": "https://www.phison.com/zh-tw/investor-relations/shareholder-services/investor-meeting-information",  # 群聯 — YouTube links in DOM
 }
 
 # IR portal URLs for Taiwan stocks that host webcast on their own IR sites
@@ -545,6 +547,9 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
                             date_str = m.group(1) if m else ""
                             dom_videos.append((src, date_str))
                             print(f"[PW-IR] DOM video: {src[:80]}...")
+                        elif re.search(r'(?:youtu\.be/|youtube\.com/watch\?v=)([a-zA-Z0-9_-]{11})', src):
+                            dom_videos.append((src, ""))
+                            print(f"[PW-IR] DOM YouTube: {src[:80]}...")
                 except Exception:
                     pass
 
@@ -567,6 +572,28 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
             if y == target_year and month_min <= mo <= month_max:
                 print(f"[PW-IR] Matched Q{quarter} {year}: {url[:80]}...")
                 return url, date_str
+
+    # For YouTube URLs without date: check title via yt-dlp
+    yt_candidates = [(u, d) for u, d in all_videos
+                     if re.search(r'(?:youtu\.be/|youtube\.com/watch)', u)]
+    if yt_candidates:
+        q_str = f"Q{quarter}"
+        for yt_url, _ in yt_candidates:
+            try:
+                r = subprocess.run(
+                    ["yt-dlp", "--get-title", "--no-warnings", yt_url],
+                    capture_output=True, encoding="utf-8", errors="replace", timeout=15,
+                )
+                title = r.stdout.strip()
+                if target_year in title or (year in title and q_str.lower() in title.lower()):
+                    print(f"[PW-IR] YouTube title match: {title}")
+                    return yt_url, ""
+            except Exception:
+                continue
+        # No title match — use first YouTube candidate (most recent = first on page)
+        url, _ = yt_candidates[0]
+        print(f"[PW-IR] YouTube fallback (first on page): {url[:80]}...")
+        return url, ""
 
     # Fallback: first intercepted (most recent)
     url, date_str = all_videos[0]
