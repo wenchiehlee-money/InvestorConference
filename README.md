@@ -6,12 +6,12 @@
 
 | 公司 | 季度 | 法說日期 | 音檔 | IR (TW) | IR (EN) | MOPS |
 |:-----|:----:|:--------:|-----:|:-------:|:-------:|:----:|
-| 台積電(TSM) 財報 | — | 2026-04-16 | — | — | — | [↗](https://finance.yahoo.com/quote/TSM/financials/) |
-| 2330 台積電 | — | 2026-04-16 | — | — | — | [↗](https://finance.yahoo.com/quote/2330.TW/financials/) |
-| ASML(ASML) 財報 | — | 2026-04-15 | — | — | — | [↗](https://finance.yahoo.com/quote/ASML/financials/) |
-| 2408 南亞科 | — | 2026-04-13 | — | — | — | [↗](https://finance.yahoo.com/quote/2408.TW/financials/) |
-| 2882 國泰金 | — | 2026-03-27 | — | — | — | [↗](https://finance.yahoo.com/quote/2882.TW/financials/) |
-| 2317 鴻海 | — | 2026-03-26 | — | — | — | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
+| 台積電(TSM) 財報 | 2025 Q4 | 2026-04-16 | — | — | — | [↗](https://finance.yahoo.com/quote/TSM/financials/) |
+| 2330 台積電 | 2025 Q4 | 2026-04-16 | — | — | — | [↗](https://finance.yahoo.com/quote/2330.TW/financials/) |
+| ASML(ASML) 財報 | 2025 Q4 | 2026-04-15 | — | — | — | [↗](https://finance.yahoo.com/quote/ASML/financials/) |
+| 2408 南亞科 | 2025 Q4 | 2026-04-13 | — | — | — | [↗](https://finance.yahoo.com/quote/2408.TW/financials/) |
+| 2882 國泰金 | 2025 Q4 | 2026-03-27 | — | — | — | [↗](https://finance.yahoo.com/quote/2882.TW/financials/) |
+| 2317 鴻海 | 2025 Q4 | 2026-03-26 | — | — | — | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 2382 廣達 | 2025 Q4 | 2026-03-20 | 無 | [中](2382/2382_2025_q4_ir.pdf) | [EN](2382/2382_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 2356 英業達 | 2025 Q4 | 2026-03-20 | 無 | [中](2356/2356_2025_q4_ir.pdf) | [EN](2356/2356_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 2357 華碩 | 2025 Q4 | 2026-03-18 | [59.8 min](2357/2357_2025_q4.m4a) | [中](2357/2357_2025_q4_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |

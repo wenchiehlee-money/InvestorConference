@@ -906,7 +906,7 @@ def update_readme() -> None:
             except (ValueError, TypeError):
                 continue
             name   = display_name
-            qstr   = "—"
+            qstr   = f"{exp_year} Q{exp_q}" if exp_year and exp_q else "—"
             audio  = "—"
             pdf_cn = "—"
             pdf_en = "—"
