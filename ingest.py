@@ -835,7 +835,7 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
     output_path = save_dir / f"{stock_id}_{year}_q{quarter}.m4a"
     _conf_date: list = [None]   # mutable cell so inner functions can write it
 
-    def verify_audio_length(path: Path, min_minutes: float = 20.0) -> bool:
+    def verify_audio_length(path: Path, min_minutes: float = 45.0) -> bool:
         """Verify audio is at least min_minutes long using ffprobe."""
         try:
             r = subprocess.run(
