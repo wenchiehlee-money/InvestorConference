@@ -827,14 +827,13 @@ def update_readme() -> None:
 
     rows = list(entries.values())
 
-    # Read upcoming_earnings.csv — filter 法說會 events
+    # Read upcoming_earnings.csv — all event types (法說會 + 財報公告)
     upcoming_ir = []
     csv_path = repo / "upcoming_earnings.csv"
     if csv_path.exists():
         with open(csv_path, encoding="utf-8-sig") as fh:
             for row in _csv.DictReader(fh):
-                if row.get("類別") == "法說會":
-                    upcoming_ir.append(row)
+                upcoming_ir.append(row)
 
     def _expected_quarter(date_str: str):
         """Return (year, quarter) the fiscal quarter reported on a given conference date."""
@@ -856,21 +855,23 @@ def update_readme() -> None:
     # plus any ingested entries that have no matching CSV event.
     from datetime import date as _date, timedelta
     today     = _date.today()
-    two_weeks = today + timedelta(weeks=2)
+    two_weeks = today + timedelta(weeks=4)
 
     merged = []
     matched_keys = set()
 
     for ev in upcoming_ir:
-        ev_name = ev.get("事件名稱", "")
-        date    = ev.get("開始日期", "")
-        link1   = ev.get("Link1", "")
+        ev_name  = ev.get("事件名稱", "")
+        ev_class = ev.get("類別", "")
+        date     = ev.get("開始日期", "")
+        link1    = ev.get("Link1", "")
         m = re.search(r'[（(](\d{4})[）)]', ev_name)
         sid = m.group(1) if m else None
 
+        # Only 法說會 events are matched to ingested audio/PDF data
         exp_year, exp_q = _expected_quarter(date)
         ingested = None
-        if sid and exp_year:
+        if ev_class == "法說會" and sid and exp_year:
             key = (sid, exp_year, exp_q)
             for r in rows:
                 if (r["stock_id"], r["year"], r["quarter"]) == key:
@@ -886,7 +887,8 @@ def update_readme() -> None:
                 chi = re.sub(r'[（(]\d{4}[）)].*', '', ev_name).strip()
             display_name = f"{sid} {chi}"
         else:
-            display_name = ev_name
+            # Clean duplicate tickers e.g. "台積電(TSM)(TSM) 財報" → "台積電(TSM) 財報"
+            display_name = re.sub(r'\((\w+)\)\(\1\)', r'(\1)', ev_name)
 
         if ingested:
             name   = display_name
