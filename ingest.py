@@ -835,9 +835,32 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
     output_path = save_dir / f"{stock_id}_{year}_q{quarter}.m4a"
     _conf_date: list = [None]   # mutable cell so inner functions can write it
 
+    def verify_audio_length(path: Path, min_minutes: float = 20.0) -> bool:
+        """Verify audio is at least min_minutes long using ffprobe."""
+        try:
+            r = subprocess.run(
+                ["ffprobe", "-v", "quiet", "-show_entries", "format=duration",
+                 "-of", "csv=p=0", str(path)],
+                capture_output=True, encoding="utf-8", errors="replace", timeout=15,
+            )
+            duration_sec = float(r.stdout.strip())
+            minutes = duration_sec / 60
+            print(f"[Verify] Audio length: {minutes:.1f} min", end="")
+            if minutes < min_minutes:
+                print(f" ✗ TOO SHORT (expected ≥{min_minutes:.0f} min) — rejecting")
+                path.unlink(missing_ok=True)
+                return False
+            print(f" ✓")
+            return True
+        except Exception as e:
+            print(f"[Verify] ffprobe failed: {e} — skipping length check")
+            return True  # don't reject if ffprobe unavailable
+
     def done() -> str:
         """Called after every successful audio download — also downloads PDFs."""
         print(f"\n✓ SUCCESS: {output_path}")
+        if not verify_audio_length(output_path):
+            return None
         pdf_paths = download_pdfs(stock_id, year, quarter, save_dir)
         # MOPS PDFs — use conf_date discovered during audio scraping
         if _conf_date[0]:
