@@ -854,6 +854,10 @@ def update_readme() -> None:
 
     # Build merged rows: one row per CSV event (with optional ingested data),
     # plus any ingested entries that have no matching CSV event.
+    from datetime import date as _date, timedelta
+    today     = _date.today()
+    two_weeks = today + timedelta(weeks=2)
+
     merged = []
     matched_keys = set()
 
@@ -892,6 +896,13 @@ def update_readme() -> None:
             pdf_cn = f"[中]({ingested['pdf_cn']})" if ingested["pdf_cn"] else "—"
             pdf_en = f"[EN]({ingested['pdf_en']})" if ingested["pdf_en"] else "—"
         else:
+            # CSV-only row (not yet ingested): only include if within next 2 weeks
+            try:
+                ev_date = _date.fromisoformat(date)
+                if not (today <= ev_date <= two_weeks):
+                    continue
+            except (ValueError, TypeError):
+                continue
             name   = display_name
             qstr   = "—"
             audio  = "—"
