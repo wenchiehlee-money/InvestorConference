@@ -36,6 +36,7 @@ KNOWN_TW_STOCKS = {
     "3034": ("Novatek", "聯詠"),
     "8299": ("Phison", "群聯"),
     "4938": ("Pegatron", "和碩"),
+    "2356": ("Inventec", "英業達"),
 }
 
 # Companies that host earnings call MP4 directly on their own IR site

@@ -8,7 +8,7 @@
 |:-----|:----:|:--------:|-----:|:-------:|:-------:|:----:|
 | 2317 鴻海 | — | 2026-03-26 | — | — | — | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 2382 廣達 | 2025 Q4 | 2026-03-20 | 無 | [中](2382/2382_2025_q4_ir.pdf) | [EN](2382/2382_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
-| 2356 英業達 | — | 2026-03-20 | — | — | — | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
+| 2356 英業達 | 2025 Q4 | 2026-03-20 | 無 | [中](2356/2356_2025_q4_ir.pdf) | [EN](2356/2356_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 3034 聯詠 | — | 2026-03-19 | — | — | — | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 3022 威強電 | — | 2026-03-18 | — | — | — | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 6214 精誠 | — | 2026-03-18 | — | — | — | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
