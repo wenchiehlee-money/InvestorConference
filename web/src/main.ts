@@ -1,6 +1,7 @@
 import './style.css'
 import { loadAll } from './data/loader'
 import { parseEntries } from './data/parser'
+import { renderPlayerView } from './player/index'
 import type { AudioEntry, ContentType } from './types'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
@@ -15,6 +16,43 @@ loadAll()
   .catch(err => {
     app.innerHTML = `<p class="error">資料載入失敗：${String(err)}</p>`
   })
+
+// ── Routing ───────────────────────────────────────────────────────────────────
+
+let playerCleanup: (() => void) | null = null
+
+function navigateToPlayer(entry: AudioEntry): void {
+  sessionStorage.setItem('fm-scroll', String(window.scrollY))
+  history.pushState({ view: 'player' }, '', '#player')
+  showPlayer(entry)
+}
+
+function showPlayer(entry: AudioEntry): void {
+  playerCleanup?.()
+  playerCleanup = null
+  app.innerHTML = ''
+  renderPlayerView(entry, app, goBack).then(cleanup => {
+    playerCleanup = cleanup
+  })
+}
+
+function goBack(): void {
+  playerCleanup?.()
+  playerCleanup = null
+  history.back()
+}
+
+window.addEventListener('popstate', () => {
+  if (!location.hash || location.hash === '#') {
+    playerCleanup?.()
+    playerCleanup = null
+    renderFileManager(allEntries)
+    requestAnimationFrame(() => {
+      const scroll = sessionStorage.getItem('fm-scroll')
+      if (scroll) window.scrollTo(0, Number(scroll))
+    })
+  }
+})
 
 // ── File Manager shell ────────────────────────────────────────────────────────
 
@@ -62,6 +100,16 @@ function renderFileManager(entries: AudioEntry[]): void {
     document.querySelectorAll('#view-tabs button').forEach(b => b.classList.remove('active'))
     btn.classList.add('active')
     renderContent()
+  })
+
+  // Entry click → navigate to player
+  document.getElementById('content')!.addEventListener('click', e => {
+    const row = (e.target as HTMLElement).closest<HTMLElement>('.entry-row')
+    if (!row) return
+    const id      = row.dataset['id'] ?? ''
+    const quarter = row.dataset['quarter'] ?? ''
+    const entry   = allEntries.find(en => en.id === id && en.quarterLabel === quarter)
+    if (entry) navigateToPlayer(entry)
   })
 
   renderContent()
