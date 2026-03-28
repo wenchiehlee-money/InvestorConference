@@ -1,4 +1,4 @@
-import { rawUrl } from './github'
+import { rawUrl, mediaUrl } from './github'
 import type { LoadedData } from './loader'
 import type {
   AudioEntry,
@@ -122,7 +122,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
         srts: [],
         pdfs: [],
       }))
-      entry.audioUrl = rawUrl(path)
+      entry.audioUrl = mediaUrl(path)
       entry.durationSec = data.durations[path]
 
     } else if ((m = path.match(IR_SRT_RE))) {
@@ -163,7 +163,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
         srts: [],
         pdfs: [],
       }))
-      entry.audioUrl = rawUrl(path)
+      entry.audioUrl = mediaUrl(path)
       entry.durationSec = data.durations[path]
 
     } else if ((m = path.match(GTC_SRT_RE))) {
@@ -202,7 +202,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
         srts: [],
         pdfs: [],
       }))
-      entry.audioUrl = rawUrl(path)
+      entry.audioUrl = mediaUrl(path)
       entry.durationSec = data.durations[path]
 
     } else if ((m = path.match(POD_SRT_RE))) {

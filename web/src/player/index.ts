@@ -79,8 +79,14 @@ export async function renderPlayerView(
     const currentTimeEl = container.querySelector<HTMLElement>('.current-time')!
 
     playPauseBtn.addEventListener('click', () => {
-      if (audio!.paused) audio!.play()
-      else               audio!.pause()
+      if (audio!.paused) {
+        audio!.play().catch(err => {
+          console.error('Audio play failed:', err)
+          playPauseBtn.textContent = '▶ 播放（載入失敗）'
+        })
+      } else {
+        audio!.pause()
+      }
     })
     stopBtn.addEventListener('click', () => {
       audio!.pause()
