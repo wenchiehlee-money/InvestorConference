@@ -15,17 +15,18 @@ import type {
 /** 法說會: numeric top-level folder, e.g. 2382/2382_2025_q3.mp3 */
 const IR_AUDIO_RE = /^(\d+)\/(\d+)_(\d{4})_q(\d)\.(?:mp3|m4a|wav)$/i
 const IR_PDF_RE   = /^(\d+)\/(\d+)_(\d{4})_q(\d)_([^/]+)\.pdf$/i
-const IR_SRT_RE   = /^(\d+)\/(\d+)_(\d{4})_q(\d)(?:_turboscribe)?\.srt$/i
+/** GT SRT: {stem}_GT.srt  |  Gen SRT: {stem}.srt */
+const IR_SRT_RE   = /^(\d+)\/(\d+)_(\d{4})_q(\d)(_GT)?\.srt$/i
 
 /** GTC: top-level GTC/ folder */
 const GTC_AUDIO_RE = /^GTC\/(.+)\.(?:mp3|m4a|wav)$/i
 const GTC_PDF_RE   = /^GTC\/(.+?)_([^/]+)\.pdf$/i
-const GTC_SRT_RE   = /^GTC\/(.+?)(?:_turboscribe)?\.srt$/i
+const GTC_SRT_RE   = /^GTC\/(.+?)(_GT)?\.srt$/i
 
 /** Podcast: top-level Podcast/ folder */
 const POD_AUDIO_RE = /^Podcast\/(.+)\.(?:mp3|m4a|wav)$/i
 const POD_PDF_RE   = /^Podcast\/(.+?)_([^/]+)\.pdf$/i
-const POD_SRT_RE   = /^Podcast\/(.+?)(?:_turboscribe)?\.srt$/i
+const POD_SRT_RE   = /^Podcast\/(.+?)(_GT)?\.srt$/i
 
 // ── lookup helpers ────────────────────────────────────────────────────────────
 
@@ -135,7 +136,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
         srts: [],
         pdfs: [],
       }))
-      const badge: SrtFile['badge'] = path.includes('_turboscribe') ? 'GT' : 'Gen'
+      const badge: SrtFile['badge'] = path.includes('_GT.') ? 'GT' : 'Gen'
       entry.srts.push({ url: rawUrl(path), badge })
 
     } else if ((m = path.match(IR_PDF_RE))) {
@@ -175,7 +176,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
         srts: [],
         pdfs: [],
       }))
-      const badge: SrtFile['badge'] = path.includes('_turboscribe') ? 'GT' : 'Gen'
+      const badge: SrtFile['badge'] = path.includes('_GT.') ? 'GT' : 'Gen'
       entry.srts.push({ url: rawUrl(path), badge })
 
     } else if ((m = path.match(GTC_PDF_RE))) {
@@ -214,7 +215,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
         srts: [],
         pdfs: [],
       }))
-      const badge: SrtFile['badge'] = path.includes('_turboscribe') ? 'GT' : 'Gen'
+      const badge: SrtFile['badge'] = path.includes('_GT.') ? 'GT' : 'Gen'
       entry.srts.push({ url: rawUrl(path), badge })
 
     } else if ((m = path.match(POD_PDF_RE))) {
