@@ -3,6 +3,7 @@ import shutil
 import subprocess
 import re
 import warnings
+import json
 import requests
 from pathlib import Path
 
@@ -966,6 +967,36 @@ def update_readme() -> None:
 
 # ── InvestorConference Commit/Push ───────────────────────────────────────────
 
+def update_audio_durations(repo: Path, audio_path: Path) -> None:
+    """Update audio_durations.json with the duration of the given audio file."""
+    durations_file = repo / "audio_durations.json"
+    try:
+        r = subprocess.run(
+            ["ffprobe", "-v", "quiet", "-show_entries", "format=duration",
+             "-of", "default=noprint_wrappers=1:nokey=1", str(audio_path)],
+            capture_output=True, text=True,
+        )
+        duration_sec = int(float(r.stdout.strip()))
+    except Exception as e:
+        print(f"[durations] ffprobe failed: {e}")
+        return
+
+    durations = {}
+    if durations_file.exists():
+        try:
+            durations = json.loads(durations_file.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
+    key = str(audio_path.relative_to(repo)).replace("\\", "/")
+    durations[key] = duration_sec
+    durations_file.write_text(
+        json.dumps(durations, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    print(f"[durations] Updated {key} → {duration_sec}s")
+
+
 def commit_push_files(stock_id: str, year: str, quarter: str,
                       audio_path: Path, pdf_paths: list = None) -> str | None:
     """
@@ -1003,6 +1034,10 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
         shutil.move(str(pdf), str(target_pdf))
         print(f"[git] Moved → {target_pdf}")
         git("add", str(target_pdf.relative_to(repo)))
+
+    # Update audio_durations.json
+    update_audio_durations(repo, target_audio)
+    git("add", "audio_durations.json")
 
     # Regenerate README.md and stage it
     update_readme()
