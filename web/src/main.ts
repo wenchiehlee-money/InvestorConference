@@ -5,7 +5,6 @@ import { renderPlayerView } from './player/index'
 import type { AudioEntry, ContentType } from './types'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
-
 app.innerHTML = `<p class="loading">載入中…</p>`
 
 loadAll()
@@ -16,6 +15,12 @@ loadAll()
   .catch(err => {
     app.innerHTML = `<p class="error">資料載入失敗：${String(err)}</p>`
   })
+
+// ── HTML escaping ─────────────────────────────────────────────────────────────
+
+const esc = (s: string) =>
+  s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+const escAttr = (s: string) => esc(s).replace(/"/g, '&quot;')
 
 // ── Routing ───────────────────────────────────────────────────────────────────
 
@@ -54,90 +59,123 @@ window.addEventListener('popstate', () => {
   }
 })
 
-// ── File Manager shell ────────────────────────────────────────────────────────
+// ── File Manager state ────────────────────────────────────────────────────────
 
-type ViewMode = '公司分組' | '法說日期' | '列表' | '搜尋'
+type ViewMode = '列表' | '公司分組' | '法說日期' | '搜尋'
 
 let currentType: ContentType | 'all' = 'all'
-let currentView: ViewMode = '公司分組'
+let currentView: ViewMode = '列表'
+let quickSearch = ''
 let allEntries: AudioEntry[] = []
+
+// ── File Manager render ───────────────────────────────────────────────────────
 
 function renderFileManager(entries: AudioEntry[]): void {
   allEntries = entries
 
   app.innerHTML = `
-    <header>
-      <h1>InvestorConference Player</h1>
-      <nav id="type-filter" class="filter-bar">
-        <button data-type="all" class="active">全部</button>
-        <button data-type="法說會">法說會</button>
-        <button data-type="GTC大會">GTC 大會</button>
-        <button data-type="Podcast">Podcast</button>
-      </nav>
-      <nav id="view-tabs" class="view-tabs">
-        <button data-view="公司分組" class="active">公司分組</button>
-        <button data-view="法說日期">法說日期</button>
-        <button data-view="列表">列表</button>
-        <button data-view="搜尋">🔍 搜尋</button>
-      </nav>
-    </header>
-    <main id="content"></main>
+    <div class="fm-page">
+      <div class="fm-page-header">
+        <h1 class="fm-page-title">法說會逐字稿 Player</h1>
+        <p class="fm-page-subtitle">公開法說會音訊、字幕、投影片一站瀏覽</p>
+      </div>
+
+      <div class="fm-toolbar">
+        <div class="fm-search-wrap">
+          <span class="fm-search-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+          </span>
+          <input id="quick-search" type="search" class="fm-search-input"
+            placeholder="搜尋股號／股名" value="${escAttr(quickSearch)}">
+        </div>
+        <select id="type-select" class="fm-select">
+          <option value="all"${currentType === 'all'     ? ' selected' : ''}>全類型</option>
+          <option value="法說會"${currentType === '法說會'  ? ' selected' : ''}>法說會</option>
+          <option value="GTC大會"${currentType === 'GTC大會' ? ' selected' : ''}>GTC 大會</option>
+          <option value="Podcast"${currentType === 'Podcast' ? ' selected' : ''}>Podcast</option>
+        </select>
+      </div>
+
+      <div class="fm-view-tabs" id="view-tabs">
+        ${(['列表', '公司分組', '法說日期', '搜尋'] as ViewMode[]).map(v => `
+          <button data-view="${v}"${currentView === v ? ' class="active"' : ''}>
+            ${v === '搜尋' ? '🔍 全文搜尋' : v}
+          </button>
+        `).join('')}
+      </div>
+
+      <div id="content" class="fm-content"></div>
+    </div>
   `
 
-  document.getElementById('type-filter')!.addEventListener('click', e => {
-    const btn = (e.target as HTMLElement).closest('button')
-    if (!btn) return
-    currentType = btn.dataset['type'] as ContentType | 'all'
-    document.querySelectorAll('#type-filter button').forEach(b => b.classList.remove('active'))
-    btn.classList.add('active')
+  document.getElementById('quick-search')!.addEventListener('input', e => {
+    quickSearch = (e.target as HTMLInputElement).value.trim()
+    renderContent()
+  })
+
+  document.getElementById('type-select')!.addEventListener('change', e => {
+    currentType = (e.target as HTMLSelectElement).value as ContentType | 'all'
     renderContent()
   })
 
   document.getElementById('view-tabs')!.addEventListener('click', e => {
     const btn = (e.target as HTMLElement).closest('button')
-    if (!btn) return
+    if (!btn?.dataset['view']) return
     currentView = btn.dataset['view'] as ViewMode
     document.querySelectorAll('#view-tabs button').forEach(b => b.classList.remove('active'))
     btn.classList.add('active')
     renderContent()
   })
 
-  // Entry click → navigate to player
   document.getElementById('content')!.addEventListener('click', e => {
-    const row = (e.target as HTMLElement).closest<HTMLElement>('.entry-row')
-    if (!row) return
+    const target = e.target as HTMLElement
+    // Let PDF links and checkboxes handle their own events
+    if (target.closest('a') || target.closest('input')) return
+    const row = target.closest<HTMLElement>('.fm-data-row, .entry-row, .search-match')
+    if (!row || row.classList.contains('no-srt')) return
     const id      = row.dataset['id'] ?? ''
     const quarter = row.dataset['quarter'] ?? ''
     const entry   = allEntries.find(en => en.id === id && en.quarterLabel === quarter)
-    if (entry) navigateToPlayer(entry)
+    if (entry && entry.srts.length > 0) navigateToPlayer(entry)
   })
 
   renderContent()
 }
 
 function filteredEntries(): AudioEntry[] {
-  if (currentType === 'all') return allEntries
-  return allEntries.filter(e => e.contentType === currentType)
+  let entries = currentType === 'all'
+    ? allEntries
+    : allEntries.filter(e => e.contentType === currentType)
+  if (quickSearch) {
+    const q = quickSearch.toLowerCase()
+    entries = entries.filter(e =>
+      e.id.toLowerCase().includes(q) ||
+      e.companyName.toLowerCase().includes(q)
+    )
+  }
+  return entries
 }
 
 function renderContent(): void {
   const content = document.getElementById('content')!
   const entries = filteredEntries()
 
-  if (entries.length === 0) {
-    content.innerHTML = '<p class="empty">目前沒有資料。</p>'
+  if (entries.length === 0 && currentView !== '搜尋') {
+    content.innerHTML = '<p class="empty">目前沒有符合的資料。</p>'
     return
   }
 
   switch (currentView) {
-    case '公司分組':   content.innerHTML = renderGroupedByCompany(entries); break
-    case '法說日期':   content.innerHTML = renderGroupedByDate(entries);    break
-    case '列表':       content.innerHTML = renderFlatList(entries);         break
-    case '搜尋':       renderSearchView(content);                           break
+    case '列表':     content.innerHTML = renderFlatList(entries);         break
+    case '公司分組': content.innerHTML = renderGroupedByCompany(entries); break
+    case '法說日期': content.innerHTML = renderGroupedByDate(entries);    break
+    case '搜尋':     renderSearchView(content);                           break
   }
 }
 
-// ── duration formatting ───────────────────────────────────────────────────────
+// ── Duration formatting ───────────────────────────────────────────────────────
 
 function fmtDuration(sec?: number): string {
   if (!sec) return ''
@@ -148,27 +186,128 @@ function fmtDuration(sec?: number): string {
   return `${m}:${String(s).padStart(2, '0')}`
 }
 
-// ── entry row HTML ────────────────────────────────────────────────────────────
+function fmtDurationHHMMSS(sec: number): string {
+  const h = Math.floor(sec / 3600)
+  const m = Math.floor((sec % 3600) / 60)
+  const s = sec % 60
+  return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`
+}
 
-function entryRowHtml(entry: AudioEntry): string {
-  const srtBadges = entry.srts
-    .map(s => `<span class="badge badge-${s.badge.toLowerCase()}">${s.badge}</span>`)
-    .join(' ')
-  const pdfCount = entry.pdfs.length
-    ? `<span class="pdf-count">📄×${entry.pdfs.length}</span>`
-    : ''
-  const duration = entry.durationSec
-    ? `<span class="duration">${fmtDuration(entry.durationSec)}</span>`
-    : ''
-  const date = entry.irDate ? `<span class="ir-date">${entry.irDate}</span>` : ''
-  const quarter = entry.quarterLabel
-    ? `<span class="quarter">${entry.quarterLabel}</span>`
-    : ''
+// ── SVG icons ─────────────────────────────────────────────────────────────────
+
+const ICON_DOC = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/>
+</svg>`
+
+const ICON_CAL = `<svg class="cell-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+</svg>`
+
+const ICON_CLOCK = `<svg class="cell-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+</svg>`
+
+const ICON_LINK = `<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+</svg>`
+
+// ── Flat List (AlphaMemo style) ───────────────────────────────────────────────
+
+function renderFlatList(entries: AudioEntry[]): string {
+  const rows = entries.map(e => {
+    const irPdf   = e.pdfs.find(p => p.label === 'ir')
+    const irEnPdf = e.pdfs.find(p => p.label === 'ir_en')
+    const noSrt   = e.srts.length === 0
+    const name    = e.companyName !== e.id ? e.companyName : ''
+
+    const srtBadgesHtml = e.srts
+      .map(s => `<span class="badge badge-${s.badge.toLowerCase()}">${s.badge}</span>`)
+      .join('')
+
+    const zhPdf = irPdf
+      ? `<a class="pdf-pill" href="${escAttr(irPdf.url)}" target="_blank" rel="noopener">${ICON_LINK} 簡報</a>`
+      : `<span class="pdf-pill empty">-</span>`
+
+    const enPdf = irEnPdf
+      ? `<a class="pdf-pill" href="${escAttr(irEnPdf.url)}" target="_blank" rel="noopener">${ICON_LINK} Deck</a>`
+      : `<span class="pdf-pill empty">-</span>`
+
+    return `
+      <div class="fm-data-row${noSrt ? ' no-srt' : ''}"
+           data-id="${escAttr(e.id)}"
+           data-quarter="${escAttr(e.quarterLabel)}"
+           data-date="${escAttr(e.irDate)}">
+        <div class="fm-col-center">
+          <input type="checkbox" class="row-checkbox"${noSrt ? ' disabled' : ''}>
+        </div>
+        <div class="stock-cell">
+          <div class="stock-icon-wrap">${ICON_DOC}</div>
+          <div class="stock-info">
+            <span class="stock-name">${esc(name || e.id)}</span>
+            ${name ? `<span class="stock-code">${esc(e.id)}</span>` : ''}
+            ${srtBadgesHtml ? `<div class="srt-badges">${srtBadgesHtml}</div>` : ''}
+          </div>
+        </div>
+        <div class="date-cell">
+          ${ICON_CAL}
+          ${esc(e.irDate || e.quarterLabel || '-')}
+        </div>
+        <div class="dur-cell">
+          ${e.durationSec
+            ? `${ICON_CLOCK} ${fmtDurationHHMMSS(e.durationSec)}`
+            : '-'}
+        </div>
+        <div class="fm-col-center">${zhPdf}</div>
+        <div class="fm-col-center">${enPdf}</div>
+      </div>
+    `
+  }).join('')
 
   return `
-    <div class="entry-row" data-id="${entry.id}" data-quarter="${entry.quarterLabel}" data-date="${entry.irDate}">
-      <span class="entry-meta">${quarter} ${date}</span>
-      <span class="entry-badges">${srtBadges} ${pdfCount} ${duration}</span>
+    <div class="fm-list-wrap">
+      <div class="fm-header-row">
+        <div class="fm-col-center">AI 討論</div>
+        <div style="padding-left:54px">股名</div>
+        <div class="fm-col-center">日期</div>
+        <div class="fm-col-center">時長</div>
+        <div class="fm-col-center">中文簡報</div>
+        <div class="fm-col-center">英文簡報</div>
+      </div>
+      ${rows || '<p class="empty">目前沒有資料。</p>'}
+    </div>
+  `
+}
+
+// ── Entry row for grouped views ───────────────────────────────────────────────
+
+function entryRowHtml(entry: AudioEntry): string {
+  const irPdf   = entry.pdfs.find(p => p.label === 'ir')
+  const irEnPdf = entry.pdfs.find(p => p.label === 'ir_en')
+  const noSrt   = entry.srts.length === 0
+
+  const srtBadges = entry.srts
+    .map(s => `<span class="badge badge-${s.badge.toLowerCase()}">${s.badge}</span>`)
+    .join('')
+
+  const pdfLinks = [
+    irPdf   ? `<a class="pdf-pill" href="${escAttr(irPdf.url)}"   target="_blank" rel="noopener">${ICON_LINK} 簡報</a>` : '',
+    irEnPdf ? `<a class="pdf-pill" href="${escAttr(irEnPdf.url)}" target="_blank" rel="noopener">${ICON_LINK} Deck</a>`  : '',
+  ].filter(Boolean).join('')
+
+  return `
+    <div class="entry-row${noSrt ? ' no-srt' : ''}"
+         data-id="${escAttr(entry.id)}"
+         data-quarter="${escAttr(entry.quarterLabel)}"
+         data-date="${escAttr(entry.irDate)}">
+      <span class="entry-quarter">
+        ${entry.quarterLabel ? `<span class="quarter">${esc(entry.quarterLabel)}</span>` : ''}
+        ${entry.irDate       ? `<span class="ir-date">${esc(entry.irDate)}</span>`       : ''}
+      </span>
+      <span class="entry-srt">${srtBadges}</span>
+      <span class="entry-pdfs">${pdfLinks}</span>
+      <span class="entry-dur">
+        ${entry.durationSec ? `${ICON_CLOCK} ${fmtDuration(entry.durationSec)}` : ''}
+      </span>
     </div>
   `
 }
@@ -178,9 +317,8 @@ function entryRowHtml(entry: AudioEntry): string {
 function renderGroupedByCompany(entries: AudioEntry[]): string {
   const groups = new Map<string, AudioEntry[]>()
   for (const e of entries) {
-    const key = e.id
-    if (!groups.has(key)) groups.set(key, [])
-    groups.get(key)!.push(e)
+    if (!groups.has(e.id)) groups.set(e.id, [])
+    groups.get(e.id)!.push(e)
   }
 
   let html = ''
@@ -190,8 +328,8 @@ function renderGroupedByCompany(entries: AudioEntry[]): string {
     html += `
       <details class="company-group" open>
         <summary class="company-header">
-          <span class="company-name">${name}</span>
-          <span class="company-desc">${first.businessDesc}</span>
+          <span class="company-name">${esc(name)}</span>
+          <span class="company-desc">${esc(first.businessDesc)}</span>
         </summary>
         <div class="company-entries">
           ${group.map(entryRowHtml).join('')}
@@ -207,12 +345,11 @@ function renderGroupedByCompany(entries: AudioEntry[]): string {
 function renderGroupedByDate(entries: AudioEntry[]): string {
   const groups = new Map<string, AudioEntry[]>()
   for (const e of entries) {
-    const key = e.irDate || '日期未知'
+    const key = e.irDate || e.quarterLabel || '日期未知'
     if (!groups.has(key)) groups.set(key, [])
     groups.get(key)!.push(e)
   }
 
-  // Sorted date keys (desc)
   const sortedKeys = [...groups.keys()].sort((a, b) => b.localeCompare(a))
 
   let html = ''
@@ -220,11 +357,13 @@ function renderGroupedByDate(entries: AudioEntry[]): string {
     const group = groups.get(date)!
     html += `
       <details class="date-group" open>
-        <summary class="date-header">${date}</summary>
+        <summary class="date-header">${esc(date)}</summary>
         <div class="date-entries">
           ${group.map(e => `
             <div class="date-entry-row">
-              <span class="company-name">${e.companyName !== e.id ? `${e.companyName} ${e.id}` : e.id}</span>
+              <span class="date-company-name">
+                ${esc(e.companyName !== e.id ? `${e.companyName} ${e.id}` : e.id)}
+              </span>
               ${entryRowHtml(e)}
             </div>
           `).join('')}
@@ -235,65 +374,38 @@ function renderGroupedByDate(entries: AudioEntry[]): string {
   return html
 }
 
-// ── 平鋪列表 view ─────────────────────────────────────────────────────────────
-
-function renderFlatList(entries: AudioEntry[]): string {
-  const rows = entries.map(e => `
-    <tr class="entry-row" data-id="${e.id}" data-quarter="${e.quarterLabel}" data-date="${e.irDate}">
-      <td>${e.companyName !== e.id ? `${e.companyName} ${e.id}` : e.id}</td>
-      <td>${e.quarterLabel}</td>
-      <td>${e.irDate}</td>
-      <td>
-        ${e.srts.map(s => `<span class="badge badge-${s.badge.toLowerCase()}">${s.badge}</span>`).join(' ')}
-      </td>
-      <td>${e.pdfs.length ? `📄×${e.pdfs.length}` : ''}</td>
-      <td>${fmtDuration(e.durationSec)}</td>
-    </tr>
-  `).join('')
-
-  return `
-    <table class="flat-list">
-      <thead>
-        <tr>
-          <th>公司</th><th>季度</th><th>法說日期</th><th>字幕</th><th>PDF</th><th>時長</th>
-        </tr>
-      </thead>
-      <tbody>${rows}</tbody>
-    </table>
-  `
-}
-
 // ── 全文搜尋 view ─────────────────────────────────────────────────────────────
 
 function renderSearchView(container: HTMLElement): void {
   container.innerHTML = `
     <div class="search-bar">
-      <input id="search-input" type="search" placeholder="搜尋字幕內容…" autofocus />
+      <input id="search-input" type="search" placeholder="搜尋逐字稿關鍵字…" autofocus>
     </div>
     <div id="search-results"></div>
   `
 
   const input = document.getElementById('search-input') as HTMLInputElement
+  let debounceTimer = 0
   input.addEventListener('input', () => {
-    const q = input.value.trim()
-    if (q.length < 2) {
-      document.getElementById('search-results')!.innerHTML = ''
-      return
-    }
-    runSearch(q)
+    clearTimeout(debounceTimer)
+    debounceTimer = window.setTimeout(() => {
+      const q = input.value.trim()
+      if (q.length < 2) {
+        document.getElementById('search-results')!.innerHTML = ''
+        return
+      }
+      runSearch(q)
+    }, 300)
   })
 }
 
 function runSearch(query: string): void {
   const resultsEl = document.getElementById('search-results')!
-  resultsEl.innerHTML = '<p class="loading">搜尋中…</p>'
 
   const entries = filteredEntries()
   const srtUrls: { entry: AudioEntry; srt: { url: string; badge: string } }[] = []
   for (const entry of entries) {
-    for (const srt of entry.srts) {
-      srtUrls.push({ entry, srt })
-    }
+    for (const srt of entry.srts) srtUrls.push({ entry, srt })
   }
 
   if (srtUrls.length === 0) {
@@ -303,10 +415,10 @@ function runSearch(query: string): void {
 
   const matches: { entry: AudioEntry; badge: string; lines: string[] }[] = []
   let pending = srtUrls.length
+  let completed = 0
 
   resultsEl.innerHTML = `<p class="loading">搜尋中 (0/${srtUrls.length})…</p>`
 
-  let completed = 0
   for (const { entry, srt } of srtUrls) {
     fetch(srt.url)
       .then(r => r.text())
@@ -315,11 +427,10 @@ function runSearch(query: string): void {
         const lines = text.split('\n').filter(l => l.toLowerCase().includes(q))
         if (lines.length > 0) {
           matches.push({ entry, badge: srt.badge, lines })
-          // Progressive render
           renderSearchResults(resultsEl, matches, query, completed, srtUrls.length)
         }
       })
-      .catch(() => { /* skip failed SRT */ })
+      .catch(() => {})
       .finally(() => {
         completed++
         pending--
@@ -337,7 +448,10 @@ function renderSearchResults(
   completed: number,
   total: number,
 ): void {
-  const progress = completed < total ? `<p class="loading">搜尋中 (${completed}/${total})…</p>` : ''
+  const progress = completed < total
+    ? `<p class="loading">搜尋中 (${completed}/${total})…</p>`
+    : ''
+
   if (matches.length === 0) {
     container.innerHTML = progress + (completed === total ? '<p class="empty">無符合結果。</p>' : '')
     return
@@ -349,14 +463,16 @@ function renderSearchResults(
   }
 
   const rows = matches.map(({ entry, badge, lines }) => `
-    <div class="search-match entry-row" data-id="${entry.id}" data-quarter="${entry.quarterLabel}">
+    <div class="search-match"
+         data-id="${escAttr(entry.id)}"
+         data-quarter="${escAttr(entry.quarterLabel)}">
       <div class="match-header">
-        <span class="company-name">${entry.companyName !== entry.id ? `${entry.companyName} ${entry.id}` : entry.id}</span>
-        <span class="quarter">${entry.quarterLabel}</span>
-        <span class="badge badge-${badge.toLowerCase()}">${badge}</span>
+        <span class="company-name">${esc(entry.companyName !== entry.id ? `${entry.companyName} ${entry.id}` : entry.id)}</span>
+        <span class="quarter">${esc(entry.quarterLabel)}</span>
+        <span class="badge badge-${badge.toLowerCase()}">${esc(badge)}</span>
       </div>
       <ul class="match-lines">
-        ${lines.slice(0, 5).map(l => `<li>${hl(l)}</li>`).join('')}
+        ${lines.slice(0, 5).map(l => `<li>${hl(esc(l))}</li>`).join('')}
         ${lines.length > 5 ? `<li class="more">…還有 ${lines.length - 5} 行</li>` : ''}
       </ul>
     </div>
