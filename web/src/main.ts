@@ -312,6 +312,25 @@ function entryRowHtml(entry: AudioEntry): string {
   `
 }
 
+// ── Grouped header rows ───────────────────────────────────────────────────────
+
+const COMPANY_GROUP_HEADER = `
+  <div class="entry-row entry-col-header">
+    <span class="entry-quarter">季別／日期</span>
+    <span class="entry-srt">字幕</span>
+    <span class="entry-pdfs">簡報</span>
+    <span class="entry-dur">時長</span>
+  </div>`
+
+const DATE_GROUP_HEADER = `
+  <div class="entry-row entry-col-header">
+    <span class="entry-company">股名</span>
+    <span class="entry-quarter">季別</span>
+    <span class="entry-srt">字幕</span>
+    <span class="entry-pdfs">簡報</span>
+    <span class="entry-dur">時長</span>
+  </div>`
+
 // ── 公司分組 view ─────────────────────────────────────────────────────────────
 
 function renderGroupedByCompany(entries: AudioEntry[]): string {
@@ -321,7 +340,7 @@ function renderGroupedByCompany(entries: AudioEntry[]): string {
     groups.get(e.id)!.push(e)
   }
 
-  let html = ''
+  let html = COMPANY_GROUP_HEADER
   for (const [id, group] of groups) {
     const first = group[0]
     const name = first.companyName !== id ? `${first.companyName} ${id}` : id
@@ -352,7 +371,7 @@ function renderGroupedByDate(entries: AudioEntry[]): string {
 
   const sortedKeys = [...groups.keys()].sort((a, b) => b.localeCompare(a))
 
-  let html = ''
+  let html = DATE_GROUP_HEADER
   for (const date of sortedKeys) {
     const group = groups.get(date)!
     const rows = group.map(e => {
