@@ -355,19 +355,38 @@ function renderGroupedByDate(entries: AudioEntry[]): string {
   let html = ''
   for (const date of sortedKeys) {
     const group = groups.get(date)!
+    const rows = group.map(e => {
+      const irPdf   = e.pdfs.find(p => p.label === 'ir')
+      const irEnPdf = e.pdfs.find(p => p.label === 'ir_en')
+      const noSrt   = e.srts.length === 0
+      const name    = e.companyName !== e.id ? `${e.companyName} ${e.id}` : e.id
+      const srtBadges = e.srts
+        .map(s => `<span class="badge badge-${s.badge.toLowerCase()}">${s.badge}</span>`)
+        .join('')
+      const pdfLinks = [
+        irPdf   ? `<a class="pdf-pill" href="${escAttr(irPdf.url)}"   target="_blank" rel="noopener">${ICON_LINK} 簡報</a>` : '',
+        irEnPdf ? `<a class="pdf-pill" href="${escAttr(irEnPdf.url)}" target="_blank" rel="noopener">${ICON_LINK} Deck</a>`  : '',
+      ].filter(Boolean).join('')
+
+      return `
+        <div class="entry-row${noSrt ? ' no-srt' : ''}"
+             data-id="${escAttr(e.id)}"
+             data-quarter="${escAttr(e.quarterLabel)}">
+          <span class="entry-company">${esc(name)}</span>
+          <span class="entry-quarter"><span class="quarter">${esc(e.quarterLabel)}</span></span>
+          <span class="entry-srt">${srtBadges}</span>
+          <span class="entry-pdfs">${pdfLinks}</span>
+          <span class="entry-dur">
+            ${e.durationSec ? `${ICON_CLOCK} ${fmtDuration(e.durationSec)}` : ''}
+          </span>
+        </div>
+      `
+    }).join('')
+
     html += `
       <details class="date-group" open>
         <summary class="date-header">${esc(date)}</summary>
-        <div class="date-entries">
-          ${group.map(e => `
-            <div class="date-entry-row">
-              <span class="date-company-name">
-                ${esc(e.companyName !== e.id ? `${e.companyName} ${e.id}` : e.id)}
-              </span>
-              ${entryRowHtml(e)}
-            </div>
-          `).join('')}
-        </div>
+        <div class="date-entries">${rows}</div>
       </details>
     `
   }
