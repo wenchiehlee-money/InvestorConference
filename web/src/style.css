@@ -395,12 +395,12 @@ summary.company-header:hover, summary.date-header:hover {
 }
 
 /* entry row columns */
-.entry-company { flex: 1; font-weight: 500; font-size: 13px; color: var(--gray-900); min-width: 120px; }
-.entry-quarter { min-width: 90px;  display: flex; gap: 8px; align-items: center; flex-shrink: 0; }
+.entry-company { flex: 1; font-weight: 500; font-size: 14px; color: var(--gray-900); min-width: 120px; }
+.entry-quarter { min-width: 90px;  display: flex; gap: 8px; align-items: center; flex-shrink: 0; font-size: 13px; }
 .entry-srt     { min-width: 60px;  display: flex; gap: 3px;  align-items: center; flex-shrink: 0; }
 .entry-pdfs    { min-width: 120px; display: flex; gap: 4px;  align-items: center; flex-shrink: 0; }
 .entry-dur     { min-width: 80px;  display: flex; gap: 4px;  align-items: center; justify-content: flex-end;
-                 color: var(--gray-500); font-size: 12px; font-variant-numeric: tabular-nums; flex-shrink: 0; }
+                 color: var(--gray-500); font-size: 13px; font-variant-numeric: tabular-nums; flex-shrink: 0; }
 /* In company-group, entry-quarter fills available space (no entry-company sibling) */
 .company-entries .entry-row .entry-quarter { flex: 1; min-width: 140px; }
 
