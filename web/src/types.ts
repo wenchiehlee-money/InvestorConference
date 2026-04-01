@@ -24,7 +24,7 @@ export interface AudioEntry {
   businessDesc: string
   /** e.g. '2025 Q3' */
   quarterLabel: string
-  /** YYYY-MM-DD from upcoming_earnings.csv 開始日期 */
+  /** YYYY-MM-DD from raw_event_upcoming_earnings.csv 開始日期 */
   irDate: string
   /** raw URL to audio file (may be undefined if audio not committed) */
   audioUrl?: string

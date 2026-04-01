@@ -101,14 +101,14 @@ Client 端過濾 `.m4a` / `.mp3` / `.wav` / `_turboscribe.srt` / `.srt` / `.pdf`
 
 對照邏輯：路徑頂層資料夾為**數字** → TW 市場；為**英文 ticker** → US 市場。
 
-**法說日期**：`upcoming_earnings.csv`（sync 自 `wenchiehlee-investment/InvestorEvents`）
+**法說日期**：`raw_event_upcoming_earnings.csv`（sync 自 `wenchiehlee-investment/InvestorEvents`）
 
-對照邏輯：從路徑取 Stock ID，在 `upcoming_earnings.csv` 找 `類別=法說會` 且 `事件名稱` 含該 ID 的列，取 `開始日期`。
+對照邏輯：從路徑取 Stock ID，在 `raw_event_upcoming_earnings.csv` 找 `類別=法說會` 且 `事件名稱` 含該 ID 的列，取 `開始日期`。
 
 > **待辦**：以下三個 sync workflow 尚未建立：
 > - `.github/workflows/sync-companyinfo.yml`（`raw_companyinfo.csv`）
 > - `.github/workflows/sync-conceptstocks.yml`（`raw_conceptstock_company_metadata.csv`）
-> - `.github/workflows/sync-investorevents.yml`（`upcoming_earnings.csv`）
+> - `.github/workflows/sync-investorevents.yml`（`raw_event_upcoming_earnings.csv`）
 
 ### 音訊內容類型
 
@@ -126,7 +126,7 @@ Client 端過濾 `.m4a` / `.mp3` / `.wav` / `_turboscribe.srt` / `.srt` / `.pdf`
 | Stock ID | 從路徑解析（e.g. `2382`）|
 | 名稱 | 公司名稱或節目名稱（從公司資訊 CSV 對照）|
 | Period | 從檔名解析（e.g. `2025 Q3`）|
-| 法說日期 | 從 `upcoming_earnings.csv` 對照（法說會類型才有）|
+| 法說日期 | 從 `raw_event_upcoming_earnings.csv` 對照（法說會類型才有）|
 | Duration | 從 `audio_durations.json` 讀取（單一 request 取得全部）|
 | GT SRT | `{stem}_turboscribe.srt` 存在 → 綠色 badge「GT」|
 | Gen SRT | `{stem}.srt` 存在 → 藍色 badge「Gen」|
@@ -279,4 +279,4 @@ Client 端過濾 `.m4a` / `.mp3` / `.wav` / `_turboscribe.srt` / `.srt` / `.pdf`
 | Q7 | 路徑規則：數字=法說會，`GTC/`=GTC，`Podcast/`=Podcast | ✅ 已確認 |
 | Q8 | Stage 音訊不進此 repo，無需過濾 | ✅ 已確認 |
 | Q9 | 公司資訊：TW 用 `raw_companyinfo.csv`；US 用 `raw_conceptstock_company_metadata.csv` | ✅ 已確認，sync workflow 待建 |
-| Q10 | 法說日期：`upcoming_earnings.csv`（`開始日期`）| ✅ 已確認，sync workflow 待建 |
+| Q10 | 法說日期：`raw_event_upcoming_earnings.csv`（`開始日期`）| ✅ 已確認，sync workflow 待建 |

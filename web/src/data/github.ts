@@ -29,4 +29,4 @@ export const COMPANY_INFO_CSV_URL = rawUrl('raw_companyinfo.csv')
 export const CONCEPT_STOCK_CSV_URL = rawUrl('raw_conceptstock_company_metadata.csv')
 
 /** CSV synced from wenchiehlee-investment/InvestorEvents */
-export const UPCOMING_EARNINGS_CSV_URL = rawUrl('upcoming_earnings.csv')
+export const UPCOMING_EARNINGS_CSV_URL = rawUrl('raw_event_upcoming_earnings.csv')

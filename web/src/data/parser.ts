@@ -47,7 +47,7 @@ function buildCompanyMap(
 }
 
 /**
- * Extract IR date from upcoming_earnings.csv.
+ * Extract IR date from raw_event_upcoming_earnings.csv.
  * 事件名稱 contains the stock code somewhere, e.g. "2382 廣達 2025 Q3 法說會".
  */
 function buildEarningsMap(earnings: EarningsRow[]): Map<string, string> {

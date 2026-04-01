@@ -781,7 +781,7 @@ def download_pdfs(stock_id: str, year: str, quarter: str,
 # ── README Generator ─────────────────────────────────────────────────────────
 
 def update_readme() -> None:
-    """Regenerate README.md from repo state + upcoming_earnings.csv."""
+    """Regenerate README.md from repo state + raw_event_upcoming_earnings.csv."""
     import csv as _csv
 
     repo = INVESTOR_CONFERENCE_REPO
@@ -828,9 +828,9 @@ def update_readme() -> None:
 
     rows = list(entries.values())
 
-    # Read upcoming_earnings.csv — all event types (法說會 + 財報公告)
+    # Read raw_event_upcoming_earnings.csv — all event types (法說會 + 財報公告)
     upcoming_ir = []
-    csv_path = repo / "upcoming_earnings.csv"
+    csv_path = repo / "raw_event_upcoming_earnings.csv"
     if csv_path.exists():
         with open(csv_path, encoding="utf-8-sig") as fh:
             for row in _csv.DictReader(fh):
@@ -1249,7 +1249,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--update-readme", action="store_true",
-        help="Regenerate README.md from repo state + upcoming_earnings.csv, then exit",
+        help="Regenerate README.md from repo state + raw_event_upcoming_earnings.csv, then exit",
     )
     args = parser.parse_args()
 
