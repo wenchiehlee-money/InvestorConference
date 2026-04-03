@@ -13,7 +13,7 @@ InvestorConference SRT Player 是一個純 client-side 靜態 web app，使用 T
 - File Manager：列表、公司分組、法說日期分組、全文搜尋
 - Player Detail：播放音訊、檢視字幕、開啟 PDF、切換 Diff 模式
 
-這份 spec 以目前程式碼為準，未實作項目另外列在「Refinement 提案」，不再和已上線行為混寫。
+這份 spec 以目前程式碼為準。已實作功能寫在前段，未實作功能統一整理在「尚未實作（Backlog）」區塊，避免和現況描述混淆。
 
 ---
 
@@ -71,7 +71,7 @@ GTC / Podcast：
 - `GT`：檔名包含 `_GT.srt`
 - `Gen`：一般 `.srt`
 
-注意：舊 draft 提到 `_turboscribe.srt`。目前程式碼不是這樣判定，實作依據是 `_GT.srt`。
+注意：舊 draft 曾提到 `_turboscribe.srt`。目前程式碼不是這樣判定，實作依據是 `_GT.srt`。
 
 ### AudioEntry 欄位
 
@@ -161,14 +161,6 @@ GTC / Podcast：
 - 最多顯示每個 SRT 前 5 行結果
 - 以 `<mark>` 做簡單關鍵字 highlight
 
-### 與舊 draft 不一致處
-
-以下功能目前尚未實作：
-- 多關鍵字 AND 邏輯
-- 前後文裁切約 20 字
-- 顯示 cue timestamp 並點進後直接定位到該 cue
-- 搜尋完成後依 view 再分組排序
-
 ---
 
 ## Player Detail
@@ -233,12 +225,9 @@ Diff Mode 只在 GT 與 Gen 同時存在時出現，而且預設為開啟。
 - 如果後面緊接對應 `gen` 片段，會用 `title` 顯示 `Gen: ...`
 - 單純新增的 Gen 片段會以 `[text]` 形式插入顯示
 
-### 與舊 draft 不一致處
-
-以下敘述不精確：
-- 不是字詞 tooltip 展開 UI，而是原生 `title` tooltip
-- 不是保證「點擊差異標記」才看得到替代文字，hover 即可看到 title
-- Diff 演算法目前是 LCS；spec 不應再寫成 `LCS / Myers`
+補充：
+- 目前是原生 `title` tooltip，不是自訂 popover UI
+- Diff 演算法目前是 LCS，不是 Myers
 
 ---
 
@@ -257,29 +246,66 @@ Diff Mode 只在 GT 與 Gen 同時存在時出現，而且預設為開啟。
 
 ---
 
-## 目前已知落差
+## 尚未實作（Backlog）
 
-以下是舊 draft 與現況的主要落差，應視為 backlog，不應描述成已完成：
-- Filter Bar 不是 pill button，而是類型下拉選單
-- 沒有排序 dropdown，也沒有欄位排序
-- 沒有固定 10 行字幕窗與第 5 行 highlight bar
-- 沒有搜尋結果 timestamp 定位
-- 沒有多關鍵字 AND 搜尋
-- 沒有 richer diff tooltip/popover UI
-- 沒有真正的 list → detail 深連結模型
-- 列表中的 checkbox 尚未有實際功能
+### 1. 全文搜尋升級
+
+- 功能：cue-level 搜尋結果、顯示 timestamp、顯示前後文、點擊後直接定位到對應 cue
+- 目前狀態：目前僅支援 line-level 關鍵字搜尋，顯示的是原始文字行，且不能直接把 player 定位到特定 cue
+- 建議優先級：高
+
+### 2. 多關鍵字搜尋
+
+- 功能：支援空白分隔、多關鍵字 AND 邏輯
+- 目前狀態：目前只支援單一查詢字串的 includes 比對
+- 建議優先級：中
+
+### 3. Player 閱讀模式
+
+- 功能：固定行數字幕窗、視覺中心線、active/past/future 更清楚的閱讀層次
+- 目前狀態：目前是 render 全部 cue，並用 `scrollIntoView` 讓 active cue 保持可見
+- 建議優先級：高
+
+### 4. 深連結導覽
+
+- 功能：以 route / query / hash 精準表示 entry 與 cue 位置，可直接分享與回訪
+- 目前狀態：目前只有 `#player` 與 `history.pushState`，沒有 entry-level 或 cue-level deep link
+- 建議優先級：中
+
+### 5. 排序模型
+
+- 功能：欄位排序與排序 dropdown
+- 目前狀態：目前只有固定排序與固定分組方式，沒有互動式排序能力
+- 建議優先級：中
+
+### 6. 列表頁 checkbox 決策
+
+- 功能：定義 checkbox 的實際用途，或移除該 UI
+- 目前狀態：目前 checkbox 只有視覺存在，沒有任何行為
+- 建議優先級：中
+
+### 7. 列表頁 PDF 呈現擴充
+
+- 功能：除 `ir` / `ir_en` 外，也能通用顯示其他 label，例如 `qa`
+- 目前狀態：目前列表頁只特別顯示 `ir` 與 `ir_en`
+- 建議優先級：低
+
+### 8. Diff UI 強化
+
+- 功能：更清楚的差異 tooltip / popover 呈現
+- 目前狀態：目前僅使用原生 `title` tooltip
+- 建議優先級：低
 
 ---
 
 ## Refinement 提案
 
-### 方向一：先把 spec 分層
+### 方向一：依優先級實作 backlog
 
-建議把 spec 拆成兩層，避免之後再失真：
-- `Current Behavior`: 只記錄程式碼已存在的功能
-- `Planned Refinements`: 只記錄想做但未做的項目，附優先級與驗收條件
-
-這份檔案現在已接近這種結構，後續應維持。
+建議優先順序：
+- 第一優先：全文搜尋升級、Player 閱讀模式
+- 第二優先：深連結導覽、排序模型、checkbox 決策
+- 第三優先：PDF 呈現擴充、Diff UI 強化
 
 ### 方向二：把 roadmap 拆成 3 個小里程碑
 
@@ -293,8 +319,6 @@ Diff Mode 只在 GT 與 Gen 同時存在時出現，而且預設為開啟。
 - 點擊結果時把 cue id 放進 route state 或 query/hash
 - player 初始化時自動定位並高亮目標 cue
 
-這是目前產品價值最高、也最直接補齊 spec 落差的一段。
-
 #### Milestone 2: Player 可讀性升級
 
 目標：讓 detail view 更像「閱讀器」而不是單純字幕列表。
@@ -304,8 +328,6 @@ Diff Mode 只在 GT 與 Gen 同時存在時出現，而且預設為開啟。
 - 建立視覺中心線，而不是只用 `scrollIntoView(nearest)`
 - active / past / future cue 狀態分層更明確
 - 補上 keyboard controls
-
-如果真的要保留「第 5 行 bar」這個概念，應在這個階段做，而不是先寫進 spec 當已完成。
 
 #### Milestone 3: File Manager 決策工具化
 
@@ -325,4 +347,4 @@ Diff Mode 只在 GT 與 Gen 同時存在時出現，而且預設為開啟。
 - 返回列表後，scroll 恢復誤差不超過一個 viewport
 - GT / Gen diff 關閉後，字幕內容與主軸 SRT 完全一致
 
-這會比現在的敘述型 spec 更能約束實作。
+這會比敘述型 spec 更能約束實作。
