@@ -112,7 +112,7 @@ GTC / Podcast：
 - 英文簡報
 
 行為說明：
-- 有字幕才可點進 player；無字幕列會加上 `no-srt` 樣式並禁用 checkbox
+- 有音訊或字幕即可點進 player；只有同時缺少音訊與字幕時，列才會加上 `no-srt` 樣式並禁用 checkbox
 - checkbox 目前只有 UI，尚未接任何批次動作
 - 目前列表頁只特別顯示 `ir` 與 `ir_en` 兩種 label
 - 目前 PDF link 仍是直接開啟檔案；產品方向將改為「點擊後進入站內 PDF Viewer」
@@ -174,7 +174,8 @@ GTC / Podcast：
 ### 列互動規則
 
 - **點擊列** → 進入 SRT Player 詳細頁
-- **無 SRT**（GT 與 Gen 皆無）→ 整行呈灰色、無法點擊
+- **無 SRT 但有音訊** → 仍可進入 player，頁內顯示音訊控制與 PDF，字幕區顯示 `尚無字幕檔。`
+- **無音訊且無 SRT** → 整行呈灰色且不可點擊
 - **有 GT + Gen** → 預設開啟 Diff Mode（見 SRT Player 章節）
 
 ---
@@ -242,7 +243,7 @@ Player 頁面目前包含：
 - GT 與 Gen 會並行 fetch
 - 若 GT 存在，GT 是主軸
 - 若 GT 不存在，改用 Gen
-- 若兩者都不存在，顯示 `尚無字幕檔。`
+- 若兩者都不存在，顯示 `尚無字幕檔。`，但若 `audioUrl` 存在，音訊控制列與 PDF links 仍可正常使用
 
 ### 字幕顯示
 

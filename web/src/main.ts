@@ -134,11 +134,11 @@ function renderFileManager(entries: AudioEntry[]): void {
     // Let PDF links and checkboxes handle their own events
     if (target.closest('a') || target.closest('input')) return
     const row = target.closest<HTMLElement>('.fm-data-row, .entry-row, .search-match')
-    if (!row || row.classList.contains('no-srt')) return
+    if (!row) return
     const id      = row.dataset['id'] ?? ''
     const quarter = row.dataset['quarter'] ?? ''
     const entry   = allEntries.find(en => en.id === id && en.quarterLabel === quarter)
-    if (entry && entry.srts.length > 0) navigateToPlayer(entry)
+    if (entry && (entry.audioUrl || entry.srts.length > 0)) navigateToPlayer(entry)
   })
 
   renderContent()
@@ -217,7 +217,7 @@ function renderFlatList(entries: AudioEntry[]): string {
   const rows = entries.map(e => {
     const irPdf   = e.pdfs.find(p => p.label === 'ir')
     const irEnPdf = e.pdfs.find(p => p.label === 'ir_en')
-    const noSrt   = e.srts.length === 0
+    const noPlayable = !e.audioUrl && e.srts.length === 0
     const name    = e.companyName !== e.id ? e.companyName : ''
 
     const srtBadgesHtml = e.srts
@@ -233,12 +233,12 @@ function renderFlatList(entries: AudioEntry[]): string {
       : `<span class="pdf-pill empty">-</span>`
 
     return `
-      <div class="fm-data-row${noSrt ? ' no-srt' : ''}"
+      <div class="fm-data-row${noPlayable ? ' no-srt' : ''}"
            data-id="${escAttr(e.id)}"
            data-quarter="${escAttr(e.quarterLabel)}"
            data-date="${escAttr(e.irDate)}">
         <div class="fm-col-center">
-          <input type="checkbox" class="row-checkbox"${noSrt ? ' disabled' : ''}>
+          <input type="checkbox" class="row-checkbox"${noPlayable ? ' disabled' : ''}>
         </div>
         <div class="stock-cell">
           <div class="stock-icon-wrap">${ICON_DOC}</div>
@@ -283,7 +283,7 @@ function renderFlatList(entries: AudioEntry[]): string {
 function entryRowHtml(entry: AudioEntry): string {
   const irPdf   = entry.pdfs.find(p => p.label === 'ir')
   const irEnPdf = entry.pdfs.find(p => p.label === 'ir_en')
-  const noSrt   = entry.srts.length === 0
+  const noPlayable = !entry.audioUrl && entry.srts.length === 0
 
   const srtBadges = entry.srts
     .map(s => `<span class="badge badge-${s.badge.toLowerCase()}">${s.badge}</span>`)
@@ -295,7 +295,7 @@ function entryRowHtml(entry: AudioEntry): string {
   ].filter(Boolean).join('')
 
   return `
-    <div class="entry-row${noSrt ? ' no-srt' : ''}"
+    <div class="entry-row${noPlayable ? ' no-srt' : ''}"
          data-id="${escAttr(entry.id)}"
          data-quarter="${escAttr(entry.quarterLabel)}"
          data-date="${escAttr(entry.irDate)}">
@@ -377,7 +377,7 @@ function renderGroupedByDate(entries: AudioEntry[]): string {
     const rows = group.map(e => {
       const irPdf   = e.pdfs.find(p => p.label === 'ir')
       const irEnPdf = e.pdfs.find(p => p.label === 'ir_en')
-      const noSrt   = e.srts.length === 0
+      const noPlayable = !e.audioUrl && e.srts.length === 0
       const name    = e.companyName !== e.id ? `${e.companyName} ${e.id}` : e.id
       const srtBadges = e.srts
         .map(s => `<span class="badge badge-${s.badge.toLowerCase()}">${s.badge}</span>`)
@@ -388,7 +388,7 @@ function renderGroupedByDate(entries: AudioEntry[]): string {
       ].filter(Boolean).join('')
 
       return `
-        <div class="entry-row${noSrt ? ' no-srt' : ''}"
+        <div class="entry-row${noPlayable ? ' no-srt' : ''}"
              data-id="${escAttr(e.id)}"
              data-quarter="${escAttr(e.quarterLabel)}">
           <span class="entry-company">${esc(name)}</span>
