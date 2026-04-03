@@ -8,7 +8,6 @@
 - [x] `2454 2025 Q4` audio + PDF 已落地並推上 `main`
 - [x] `2454 2025 Q4` 產物已統一為 `.m4a`，不再保留舊 `.mp3`
 - [x] `audio_durations.json` 已補上 `2454 2025 Q1~Q4 .m4a` 時長
-- [x] GitHub Pages deploy 現在會在 `audio_durations.json` 更新時自動觸發
 - [x] Web player 現在允許「只有音訊、沒有 SRT」的 entry 進入 player；無字幕時仍可播放音訊與開啟 PDF
 
 ## Remaining TODO
