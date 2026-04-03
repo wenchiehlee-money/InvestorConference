@@ -76,7 +76,7 @@ function renderFileManager(entries: AudioEntry[]): void {
   app.innerHTML = `
     <div class="fm-page">
       <div class="fm-page-header">
-        <h1 class="fm-page-title">法說會逐字稿 Player</h1>
+        <h1 class="fm-page-title">法說會逐字稿</h1>
         <p class="fm-page-subtitle">公開法說會音訊、字幕、投影片一站瀏覽</p>
       </div>
 
