@@ -106,7 +106,7 @@ GTC / Podcast：
 目前主列表欄位是：
 - AI 討論
 - 股名
-- 日期
+- 法說日期
 - 時長
 - 中文簡報
 - 英文簡報
@@ -148,12 +148,12 @@ GTC / Podcast：
 | 類型 | 法說會 / GTC 大會 / Podcast |
 | Stock ID | 從路徑解析（e.g. `2382`）|
 | 名稱 | 公司名稱或節目名稱（從公司資訊 CSV 對照）|
-| Period | 從檔名解析（e.g. `2025 Q3`）|
+| 季度 | 從檔名解析（e.g. `2025 Q3`）|
 | 法說日期 | 從 `raw_event_upcoming_earnings.csv` 對照（法說會類型才有）|
-| Duration | 從 `audio_durations.json` 讀取（單一 request 取得全部）|
+| 時長 | 從 `audio_durations.json` 讀取（單一 request 取得全部）|
 | GT SRT | `{stem}_turboscribe.srt` 存在 → 綠色 badge「GT」|
 | Gen SRT | `{stem}.srt` 存在 → 藍色 badge「Gen」|
-| PDF | 同目錄 `.pdf` 數量（e.g. 📄×2）|
+| 中文/英文簡報 | 同目錄 `.pdf` 數量（e.g. 📄×2）|
 
 ### Filter Bar
 
