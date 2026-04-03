@@ -57,6 +57,19 @@ KNOWN_TW_PLAYWRIGHT_IR = {
     "2308": "https://www.deltaww.com/zh-TW/investors/analyst-meeting", # 台達電 — ccdntech.com HLS, video URL in HTML source
 }
 
+# Quarter-specific replay pages for companies whose webcast URLs change each quarter.
+# Keys use (stock_id, year, quarter).
+KNOWN_TW_PLAYWRIGHT_IR_BY_QUARTER = {
+    ("2330", "2025", "1"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=1981",
+    ("2330", "2025", "2"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=2393",
+    ("2330", "2025", "3"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=2503",
+    ("2330", "2025", "4"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=2766",
+    ("2454", "2025", "1"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=2088",
+    ("2454", "2025", "2"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=2413",
+    ("2454", "2025", "3"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=2531",
+    ("2454", "2025", "4"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=3556",
+}
+
 # IR portal URLs for Taiwan stocks that host webcast on their own IR sites
 # (stock_id -> IR page URL)
 KNOWN_TW_IR = {
@@ -107,6 +120,14 @@ def get_company_name(stock_id: str) -> tuple:
             pass
 
     return (stock_id, stock_id)
+
+
+def resolve_tw_playwright_ir_url(stock_id: str, year: str, quarter: str):
+    """Return the quarter-specific Playwright IR URL when known, otherwise the stock default."""
+    return KNOWN_TW_PLAYWRIGHT_IR_BY_QUARTER.get(
+        (stock_id, year, quarter),
+        KNOWN_TW_PLAYWRIGHT_IR.get(stock_id),
+    )
 
 
 # ── TWSE irconference.twse.com.tw Direct Downloader ──────────────────────────
@@ -781,7 +802,7 @@ def download_pdfs(stock_id: str, year: str, quarter: str,
 # ── README Generator ─────────────────────────────────────────────────────────
 
 def update_readme() -> None:
-    """Regenerate README.md from repo state + raw_event_upcoming_earnings.csv."""
+    """Regenerate README.md from repo state + upcoming_earnings.csv."""
     import csv as _csv
 
     repo = INVESTOR_CONFERENCE_REPO
@@ -828,9 +849,9 @@ def update_readme() -> None:
 
     rows = list(entries.values())
 
-    # Read raw_event_upcoming_earnings.csv — all event types (法說會 + 財報公告)
+    # Read upcoming_earnings.csv — all event types (法說會 + 財報公告)
     upcoming_ir = []
-    csv_path = repo / "raw_event_upcoming_earnings.csv"
+    csv_path = repo / "upcoming_earnings.csv"
     if csv_path.exists():
         with open(csv_path, encoding="utf-8-sig") as fh:
             for row in _csv.DictReader(fh):
@@ -1137,8 +1158,8 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
             if direct_ir_url:
                 _, conf_date = scrape_tw_direct_ir(stock_id, direct_ir_url, year, quarter)
                 _conf_date[0] = conf_date
-            elif KNOWN_TW_PLAYWRIGHT_IR.get(stock_id):
-                pw_ir_url = KNOWN_TW_PLAYWRIGHT_IR[stock_id]
+            elif resolve_tw_playwright_ir_url(stock_id, year, quarter):
+                pw_ir_url = resolve_tw_playwright_ir_url(stock_id, year, quarter)
                 _, conf_date = scrape_playwright_direct_ir(stock_id, pw_ir_url, year, quarter)
                 _conf_date[0] = conf_date
         return done()
@@ -1160,7 +1181,7 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
                 print(f"[Direct-IR] yt-dlp failed. Falling back...")
 
         # Step 0b: JS-rendered IR site (Playwright intercept, e.g. quantatw.com for 廣達)
-        pw_ir_url = KNOWN_TW_PLAYWRIGHT_IR.get(stock_id)
+        pw_ir_url = resolve_tw_playwright_ir_url(stock_id, year, quarter)
         if pw_ir_url:
             mp4_url, conf_date = scrape_playwright_direct_ir(stock_id, pw_ir_url, year, quarter)
             if mp4_url:
@@ -1249,7 +1270,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--update-readme", action="store_true",
-        help="Regenerate README.md from repo state + raw_event_upcoming_earnings.csv, then exit",
+        help="Regenerate README.md from repo state + upcoming_earnings.csv, then exit",
     )
     args = parser.parse_args()
 
