@@ -62,7 +62,7 @@ KNOWN_TW_PLAYWRIGHT_IR = {
 # Keys use (stock_id, year, quarter).
 KNOWN_TW_PLAYWRIGHT_IR_BY_QUARTER = {
     ("2330", "2025", "1"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=1981",
-    ("2330", "2025", "2"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=2393",
+    ("2330", "2025", "2"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=2394",
     ("2330", "2025", "3"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=2503",
     ("2330", "2025", "4"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=2766",
     ("2454", "2025", "1"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=2088",
