@@ -6,6 +6,7 @@ import warnings
 import json
 import requests
 from pathlib import Path
+from urllib.parse import urljoin
 
 # Suppress InsecureRequestWarning for MOPS (Taiwan gov site SSL quirks on Windows)
 warnings.filterwarnings("ignore", message="Unverified HTTPS request")
@@ -128,6 +129,100 @@ def resolve_tw_playwright_ir_url(stock_id: str, year: str, quarter: str):
         (stock_id, year, quarter),
         KNOWN_TW_PLAYWRIGHT_IR.get(stock_id),
     )
+
+
+def discover_mediatek_hinet_page(year: str, quarter: str) -> tuple[str | None, str | None]:
+    """
+    Discover a MediaTek Hinet watch page for the requested quarter.
+
+    The newer Hinet pages embed the real HLS URL in HTML/JS, so match by the
+    stream date first instead of trusting the human-facing title text.
+
+    Returns (watch_page_url, conf_date_yyyymmdd).
+    """
+    if quarter == "4":
+        target_year = str(int(year) + 1)
+        month_min, month_max = 1, 4
+    elif quarter == "1":
+        target_year = year
+        month_min, month_max = 4, 6
+    elif quarter == "2":
+        target_year = year
+        month_min, month_max = 7, 9
+    else:
+        target_year = year
+        month_min, month_max = 10, 12
+
+    watch_pages: list[str] = []
+
+    def probe_watch_page(url: str) -> tuple[str | None, str | None]:
+        print(f"[MediaTek] Probing watch page: {url}")
+        try:
+            resp = requests.get(url, timeout=20, headers={"User-Agent": UA})
+            html = resp.text
+        except Exception as e:
+            print(f"[MediaTek] Probe failed: {e}")
+            return None, None
+
+        stream_m = re.search(r'"url":"(https:\/\/.*?playlist\.m3u8)"', html)
+        if not stream_m:
+            stream_m = re.search(r"(https?://[^\s\"']+playlist\.m3u8)", html, re.I)
+        if not stream_m:
+            return None, None
+
+        stream_url = stream_m.group(1).replace("\/", "/")
+        date_m = re.search(r'(\d{8})', stream_url)
+        conf_date = date_m.group(1) if date_m else None
+        if conf_date:
+            y, mo = conf_date[:4], int(conf_date[4:6])
+            if y == target_year and month_min <= mo <= month_max:
+                print(f"[MediaTek] Matched watch page by stream date: {url}")
+                return url, conf_date
+
+        date_m = re.search(r"Time[:：]\s*(\d{4})-(\d{2})-(\d{2})", html, re.I)
+        if date_m:
+            conf_date = "".join(date_m.groups())
+            y, mo = conf_date[:4], int(conf_date[4:6])
+            if y == target_year and month_min <= mo <= month_max:
+                print(f"[MediaTek] Matched watch page by title time: {url}")
+                return url, conf_date
+
+        return None, None
+
+    vod_url = "https://webpage-ott2b.cdn.hinet.net/webpage/vod?contentProvider=mediatek"
+    try:
+        resp = requests.get(vod_url, timeout=20, headers={"User-Agent": UA})
+        html = resp.text
+        hrefs = re.findall(
+            r"href=[\"']([^\"']*watch\?contentProvider=mediatek[^\"']*v=\d+[^\"']*)[\"']",
+            html,
+            re.I,
+        )
+        seen = set()
+        for href in hrefs:
+            watch_url = urljoin(vod_url, href.replace("&amp;", "&"))
+            if watch_url not in seen:
+                seen.add(watch_url)
+                watch_pages.append(watch_url)
+    except Exception as e:
+        print(f"[MediaTek] VOD list fetch failed: {e}")
+
+    watch_pages.extend([
+        "https://ottlive-ott2b2.cdn.hinet.net/mediatek/index.html",
+        "https://webpage-ott2b.cdn.hinet.net/webpage/live?contentProvider=mediatek",
+    ])
+
+    for watch_url in watch_pages:
+        matched_url, conf_date = probe_watch_page(watch_url)
+        if matched_url:
+            return matched_url, conf_date
+
+    fallback = KNOWN_TW_PLAYWRIGHT_IR_BY_QUARTER.get(("2454", year, quarter))
+    if fallback:
+        print(f"[MediaTek] Falling back to pinned watch page: {fallback}")
+        return fallback, None
+
+    return KNOWN_TW_PLAYWRIGHT_IR.get("2454"), None
 
 
 # ── TWSE irconference.twse.com.tw Direct Downloader ──────────────────────────
@@ -321,7 +416,10 @@ def extract_webcast_eqs_stream(webcast_url: str) -> str | None:
 
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
+            browser = p.chromium.launch(
+                headless=True,
+                args=["--no-sandbox", "--disable-setuid-sandbox"],
+            )
             ctx = browser.new_context(user_agent=UA)
             ctx.add_cookies(pw_cookies)
 
@@ -422,7 +520,10 @@ def scrape_mops_playwright(stock_id: str, year: str, quarter: str) -> dict:
     print(f"[MOPS-PW] Launching browser for stock {stock_id} ...")
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
+            browser = p.chromium.launch(
+                headless=True,
+                args=["--no-sandbox", "--disable-setuid-sandbox"],
+            )
             ctx = browser.new_context(user_agent=UA)
 
             # MOPS opens the result in a NEW PAGE (popup) — intercept context.on("page")
@@ -520,12 +621,6 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
       Q2 → target_year=year, months Jul–Sep
       Q3 → target_year=year, months Oct–Dec
     """
-    try:
-        from playwright.sync_api import sync_playwright
-    except ImportError:
-        print("[PW-IR] playwright not installed — pip install playwright && playwright install chromium")
-        return None, None
-
     # Quarter → expected conference month range
     if quarter == "4":
         target_year = str(int(year) + 1)
@@ -539,6 +634,39 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
     else:  # Q3
         target_year = year
         month_min, month_max = 10, 12
+
+    # Newer Hinet pages embed the HLS URL in page HTML; use it directly when present.
+    try:
+        resp = requests.get(ir_url, timeout=20, headers={"User-Agent": UA})
+        html = resp.text
+        embedded = []
+        for m in re.finditer(r'"url":"(https:\/\/.*?playlist\.m3u8)"', html):
+            url = m.group(1).replace("\/", "/")
+            dm = re.search(r'(\d{8})', url)
+            embedded.append((url, dm.group(1) if dm else ""))
+        for m in re.finditer(r"(https?://[^\s\"']+\.(?:mp4|m3u8|flv)(?:\?[^\s\"']*)?)", html, re.I):
+            url = m.group(1)
+            dm = re.search(r'(\d{8})', url)
+            embedded.append((url, dm.group(1) if dm else ""))
+        if embedded:
+            print(f"[PW-IR] Found {len(embedded)} embedded media candidate(s) in HTML")
+            for url, date_str in embedded:
+                if len(date_str) == 8:
+                    y, mo = date_str[:4], int(date_str[4:6])
+                    if y == target_year and month_min <= mo <= month_max:
+                        print(f"[PW-IR] HTML match: {url[:80]}...")
+                        return url, date_str
+            url, date_str = embedded[0]
+            print(f"[PW-IR] HTML fallback: {url[:80]}...")
+            return url, date_str
+    except Exception as e:
+        print(f"[PW-IR] HTML probe failed: {e}")
+
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        print("[PW-IR] playwright not installed — pip install playwright && playwright install chromium")
+        return None, None
 
     captured_videos = []   # list of (url, date_str)
 
@@ -556,11 +684,14 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
 
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
+            browser = p.chromium.launch(
+                headless=True,
+                args=["--no-sandbox", "--disable-setuid-sandbox"],
+            )
             page = browser.new_page(user_agent=UA)
             page.on("response", on_response)
 
-            page.goto(ir_url, wait_until="networkidle", timeout=30000)
+            page.goto(ir_url, wait_until="domcontentloaded", timeout=30000)
             page.wait_for_timeout(3000)  # let lazy JS finish
 
             # Scan DOM for video/source/iframe src attrs
@@ -1158,10 +1289,15 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
             if direct_ir_url:
                 _, conf_date = scrape_tw_direct_ir(stock_id, direct_ir_url, year, quarter)
                 _conf_date[0] = conf_date
-            elif resolve_tw_playwright_ir_url(stock_id, year, quarter):
-                pw_ir_url = resolve_tw_playwright_ir_url(stock_id, year, quarter)
-                _, conf_date = scrape_playwright_direct_ir(stock_id, pw_ir_url, year, quarter)
-                _conf_date[0] = conf_date
+            else:
+                hinted_conf_date = None
+                if stock_id == "2454":
+                    pw_ir_url, hinted_conf_date = discover_mediatek_hinet_page(year, quarter)
+                else:
+                    pw_ir_url = resolve_tw_playwright_ir_url(stock_id, year, quarter)
+                if pw_ir_url:
+                    _, conf_date = scrape_playwright_direct_ir(stock_id, pw_ir_url, year, quarter)
+                    _conf_date[0] = conf_date or hinted_conf_date
         return done()
 
     target_url = None
@@ -1181,11 +1317,15 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
                 print(f"[Direct-IR] yt-dlp failed. Falling back...")
 
         # Step 0b: JS-rendered IR site (Playwright intercept, e.g. quantatw.com for 廣達)
-        pw_ir_url = resolve_tw_playwright_ir_url(stock_id, year, quarter)
+        hinted_conf_date = None
+        if stock_id == "2454":
+            pw_ir_url, hinted_conf_date = discover_mediatek_hinet_page(year, quarter)
+        else:
+            pw_ir_url = resolve_tw_playwright_ir_url(stock_id, year, quarter)
         if pw_ir_url:
             mp4_url, conf_date = scrape_playwright_direct_ir(stock_id, pw_ir_url, year, quarter)
             if mp4_url:
-                _conf_date[0] = conf_date
+                _conf_date[0] = conf_date or hinted_conf_date
                 print(f"\n[PW-IR] Downloading: {mp4_url[:80]}...")
                 if download_audio(mp4_url, output_path, no_check_cert=True):
                     return done()
