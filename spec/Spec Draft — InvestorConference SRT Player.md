@@ -70,7 +70,7 @@ GTC / Podcast：
 ### SRT badge 規則
 
 - `GT`：檔名包含 `_GT.srt`
-- `Gen`：一般 `.srt`
+- `FIN`：一般 `.srt`
 
 注意：舊 draft 曾提到 `_turboscribe.srt`。目前程式碼不是這樣判定，實作依據是 `_GT.srt`。
 
@@ -152,7 +152,7 @@ GTC / Podcast：
 | 法說日期 | 從 `raw_event_upcoming_earnings.csv` 對照（法說會類型才有）|
 | 時長 | 從 `audio_durations.json` 讀取（單一 request 取得全部）|
 | GT SRT | `{stem}_turboscribe.srt` 存在 → 綠色 badge「GT」|
-| Gen SRT | `{stem}.srt` 存在 → 藍色 badge「Gen」|
+| FIN SRT | `{stem}.srt` 存在 → 藍色 badge「FIN」|
 | 中文/英文簡報 | 同目錄 `.pdf` 數量（e.g. 📄×2）|
 
 ### Filter Bar
@@ -176,7 +176,7 @@ GTC / Podcast：
 - **點擊列** → 進入 SRT Player 詳細頁
 - **無 SRT 但有音訊** → 仍可進入 player，頁內顯示音訊控制與 PDF，字幕區顯示 `尚無字幕檔。`
 - **無音訊且無 SRT** → 整行呈灰色且不可點擊
-- **有 GT + Gen** → 預設開啟 Diff Mode（見 SRT Player 章節）
+- **有 GT + FIN** → 預設開啟 Diff Mode（見 SRT Player 章節）
 
 ---
 
@@ -213,7 +213,7 @@ Player 頁面目前包含：
 - 標題列：公司名/代號、季度、法說日期
 - business description
 - PDF links
-- Diff 模式切換 checkbox（僅在 GT + Gen 都存在時顯示）
+- Diff 模式切換 checkbox（僅在 GT + FIN 都存在時顯示）
 - 字幕區
 - 音訊控制列
 
@@ -240,9 +240,9 @@ Player 頁面目前包含：
 
 ### 字幕載入與主軸
 
-- GT 與 Gen 會並行 fetch
+- GT 與 FIN 會並行 fetch
 - 若 GT 存在，GT 是主軸
-- 若 GT 不存在，改用 Gen
+- 若 GT 不存在，改用 FIN
 - 若兩者都不存在，顯示 `尚無字幕檔。`，但若 `audioUrl` 存在，音訊控制列與 PDF links 仍可正常使用
 
 ### 字幕顯示
@@ -304,15 +304,15 @@ PDF Viewer 不應取代 Player Detail，而是和 Player Detail 並列：
 
 ### 已實作行為
 
-Diff Mode 只在 GT 與 Gen 同時存在時出現，而且預設為開啟。
+Diff Mode 只在 GT 與 FIN 同時存在時出現，而且預設為開啟。
 
 目前行為：
 - 以 GT cue 為主軸
-- 以 cue `index` 對齊 Gen cue
+- 以 cue `index` 對齊 FIN cue
 - 文字 diff 是 whitespace token 為基礎的 LCS diff
 - `gt` 差異片段用橘色底線樣式
-- 如果後面緊接對應 `gen` 片段，會用 `title` 顯示 `Gen: ...`
-- 單純新增的 Gen 片段會以 `[text]` 形式插入顯示
+- 如果後面緊接對應 `FIN` 片段，會用 `title` 顯示 `FIN: ...`
+- 單純新增的 FIN 片段會以 `[text]` 形式插入顯示
 
 補充：
 - 目前是原生 `title` tooltip，不是自訂 popover UI
@@ -450,7 +450,7 @@ Diff Mode 只在 GT 與 Gen 同時存在時出現，而且預設為開啟。
 - 搜尋任一關鍵字後，3 秒內出現第一批結果
 - 點擊搜尋結果後，自動播放並定位到對應 cue ±1 秒內
 - 返回列表後，scroll 恢復誤差不超過一個 viewport
-- GT / Gen diff 關閉後，字幕內容與主軸 SRT 完全一致
+- GT / FIN diff 關閉後，字幕內容與主軸 SRT 完全一致
 
 這會比敘述型 spec 更能約束實作。
 
