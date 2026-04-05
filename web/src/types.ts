@@ -3,8 +3,8 @@ export type ContentType = '法說會' | 'GTC大會' | 'Podcast'
 export interface SrtFile {
   /** raw URL to the .srt file */
   url: string
-  /** 'GT' = turboscribe, 'Gen' = generated */
-  badge: 'GT' | 'Gen'
+  /** 'GT' = turboscribe, 'FIN' = final/original */
+  badge: 'GT' | 'FIN'
 }
 
 export interface PdfFile {

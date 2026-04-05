@@ -306,7 +306,7 @@ body {
 }
 
 .badge-gt  { background: #dcfce7; color: #166534; }
-.badge-gen { background: #dbeafe; color: #1e40af; }
+.badge-fin { background: #dbeafe; color: #1e40af; }
 
 /* Checkbox */
 .row-checkbox {
@@ -602,7 +602,7 @@ mark { background: rgba(242, 178, 28, 0.35); border-radius: 2px; padding: 0 1px;
   cursor: help;
 }
 
-.diff-gen {
+.diff-fin {
   color: #1565c0;
   font-style: italic;
   cursor: help;

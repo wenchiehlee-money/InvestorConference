@@ -15,7 +15,7 @@ import type {
 /** 法說會: numeric top-level folder, e.g. 2382/2382_2025_q3.mp3 */
 const IR_AUDIO_RE = /^(\d+)\/(\d+)_(\d{4})_q(\d)\.(?:mp3|m4a|wav)$/i
 const IR_PDF_RE   = /^(\d+)\/(\d+)_(\d{4})_q(\d)_([^/]+)\.pdf$/i
-/** GT SRT: {stem}_GT.srt  |  Gen SRT: {stem}.srt */
+/** GT SRT: {stem}_GT.srt  |  FIN SRT: {stem}.srt */
 const IR_SRT_RE   = /^(\d+)\/(\d+)_(\d{4})_q(\d)(_GT)?\.srt$/i
 
 /** GTC: top-level GTC/ folder */
@@ -136,7 +136,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
         srts: [],
         pdfs: [],
       }))
-      const badge: SrtFile['badge'] = path.includes('_GT.') ? 'GT' : 'Gen'
+      const badge: SrtFile['badge'] = path.includes('_GT.') ? 'GT' : 'FIN'
       entry.srts.push({ url: rawUrl(path), badge })
 
     } else if ((m = path.match(IR_PDF_RE))) {
@@ -176,7 +176,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
         srts: [],
         pdfs: [],
       }))
-      const badge: SrtFile['badge'] = path.includes('_GT.') ? 'GT' : 'Gen'
+      const badge: SrtFile['badge'] = path.includes('_GT.') ? 'GT' : 'FIN'
       entry.srts.push({ url: rawUrl(path), badge })
 
     } else if ((m = path.match(GTC_PDF_RE))) {
@@ -215,7 +215,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
         srts: [],
         pdfs: [],
       }))
-      const badge: SrtFile['badge'] = path.includes('_GT.') ? 'GT' : 'Gen'
+      const badge: SrtFile['badge'] = path.includes('_GT.') ? 'GT' : 'FIN'
       entry.srts.push({ url: rawUrl(path), badge })
 
     } else if ((m = path.match(POD_PDF_RE))) {

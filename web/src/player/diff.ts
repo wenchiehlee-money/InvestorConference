@@ -1,16 +1,16 @@
 export interface DiffSpan {
   text: string
-  type: 'same' | 'gt' | 'gen'
+  type: 'same' | 'gt' | 'fin'
 }
 
-/** Word-level LCS diff. Returns spans describing how gt and gen differ. */
-export function diffWords(gt: string, gen: string): DiffSpan[] {
-  if (!gt && !gen) return []
-  if (!gen) return [{ text: gt, type: 'gt' }]
-  if (!gt) return [{ text: gen, type: 'gen' }]
+/** Word-level LCS diff. Returns spans describing how gt and fin differ. */
+export function diffWords(gt: string, fin: string): DiffSpan[] {
+  if (!gt && !fin) return []
+  if (!fin) return [{ text: gt, type: 'gt' }]
+  if (!gt) return [{ text: fin, type: 'fin' }]
 
   const a = tokenize(gt)
-  const b = tokenize(gen)
+  const b = tokenize(fin)
 
   const dp = buildLCS(a, b)
   const tokens = backtrack(dp, a, b)
@@ -39,8 +39,8 @@ function backtrack(
   dp: number[][],
   a: string[],
   b: string[],
-): Array<{ token: string; type: 'same' | 'gt' | 'gen' }> {
-  const result: Array<{ token: string; type: 'same' | 'gt' | 'gen' }> = []
+): Array<{ token: string; type: 'same' | 'gt' | 'fin' }> {
+  const result: Array<{ token: string; type: 'same' | 'gt' | 'fin' }> = []
   let i = a.length
   let j = b.length
 
@@ -49,7 +49,7 @@ function backtrack(
       result.push({ token: a[i - 1], type: 'same' })
       i--; j--
     } else if (j > 0 && (i === 0 || dp[i][j - 1] >= dp[i - 1][j])) {
-      result.push({ token: b[j - 1], type: 'gen' })
+      result.push({ token: b[j - 1], type: 'fin' })
       j--
     } else {
       result.push({ token: a[i - 1], type: 'gt' })
@@ -61,7 +61,7 @@ function backtrack(
 }
 
 function mergeSpans(
-  tokens: Array<{ token: string; type: 'same' | 'gt' | 'gen' }>,
+  tokens: Array<{ token: string; type: 'same' | 'gt' | 'fin' }>,
 ): DiffSpan[] {
   if (tokens.length === 0) return []
   const spans: DiffSpan[] = [{ text: tokens[0].token, type: tokens[0].type }]
@@ -83,8 +83,8 @@ const escAttr = (s: string) => esc(s).replace(/"/g, '&quot;')
 /**
  * Convert DiffSpan[] to HTML.
  * - same  → plain text
- * - gt    → orange-underlined; if followed by gen → tooltip "Gen: {alt}"
- * - gen   → insertion shown as [text] in brackets
+ * - gt    → orange-underlined; if followed by fin → tooltip "FIN: {alt}"
+ * - fin   → insertion shown as [text] in brackets
  */
 export function renderSpansHtml(spans: DiffSpan[]): string {
   let html = ''
@@ -93,18 +93,18 @@ export function renderSpansHtml(spans: DiffSpan[]): string {
     if (s.type === 'same') {
       html += esc(s.text)
     } else if (s.type === 'gt') {
-      let genAlt = ''
-      if (i + 1 < spans.length && spans[i + 1].type === 'gen') {
-        genAlt = spans[i + 1].text
+      let finAlt = ''
+      if (i + 1 < spans.length && spans[i + 1].type === 'fin') {
+        finAlt = spans[i + 1].text
         i++
       }
-      const tooltip = genAlt
-        ? `Gen: ${genAlt.trim()}`
-        : 'Gen: (已刪除)'
+      const tooltip = finAlt
+        ? `FIN: ${finAlt.trim()}`
+        : 'FIN: (已刪除)'
       html += ` <span class="diff-gt" title="${escAttr(tooltip)}">${esc(s.text)}</span>`
     } else {
-      // pure gen insertion
-      html += ` <span class="diff-gen" title="Gen 新增">[${esc(s.text.trim())}]</span>`
+      // pure fin insertion
+      html += ` <span class="diff-fin" title="FIN 新增">[${esc(s.text.trim())}]</span>`
     }
   }
   return html.trim()

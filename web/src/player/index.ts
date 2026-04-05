@@ -16,7 +16,7 @@ export async function renderPlayerView(
   onBack: () => void,
 ): Promise<() => void> {
   const hasBothSrts =
-    entry.srts.some(s => s.badge === 'GT') && entry.srts.some(s => s.badge === 'Gen')
+    entry.srts.some(s => s.badge === 'GT') && entry.srts.some(s => s.badge === 'FIN')
 
   const titleParts = [
     entry.companyName !== entry.id ? `${entry.companyName} ${entry.id}` : entry.id,
@@ -55,7 +55,7 @@ export async function renderPlayerView(
             ${hasBothSrts
               ? `<label class="diff-toggle-label">
                    <input type="checkbox" id="diff-mode" checked>
-                   Diff 模式（GT <span class="badge badge-gt">GT</span> vs Gen <span class="badge badge-gen">Gen</span>）
+                   Diff 模式（GT <span class="badge badge-gt">GT</span> vs FIN <span class="badge badge-fin">FIN</span>）
                  </label>`
               : ''}
           </div>
@@ -105,19 +105,19 @@ export async function renderPlayerView(
 
   // ── fetch SRTs ─────────────────────────────────────────────────────────────
   const gtSrt  = entry.srts.find(s => s.badge === 'GT')
-  const genSrt = entry.srts.find(s => s.badge === 'Gen')
+  const finSrt = entry.srts.find(s => s.badge === 'FIN')
 
   let gtCues:  SrtCue[] = []
-  let genCues: SrtCue[] = []
+  let finCues: SrtCue[] = []
 
-  const [gtResult, genResult] = await Promise.allSettled([
+  const [gtResult, finResult] = await Promise.allSettled([
     gtSrt  ? fetch(gtSrt.url).then(r => r.text())  : Promise.resolve(''),
-    genSrt ? fetch(genSrt.url).then(r => r.text()) : Promise.resolve(''),
+    finSrt ? fetch(finSrt.url).then(r => r.text()) : Promise.resolve(''),
   ])
   if (gtResult.status  === 'fulfilled' && gtResult.value)  gtCues  = parseSrt(gtResult.value)
-  if (genResult.status === 'fulfilled' && genResult.value) genCues = parseSrt(genResult.value)
+  if (finResult.status === 'fulfilled' && finResult.value) finCues = parseSrt(finResult.value)
 
-  const primaryCues = gtCues.length > 0 ? gtCues : genCues
+  const primaryCues = gtCues.length > 0 ? gtCues : finCues
   const subtitleWindow = container.querySelector<HTMLElement>('.subtitle-window')!
 
   if (primaryCues.length === 0) {
@@ -125,7 +125,7 @@ export async function renderPlayerView(
     return () => { audio?.pause() }
   }
 
-  const genCueMap = new Map(genCues.map(c => [c.index, c]))
+  const finCueMap = new Map(finCues.map(c => [c.index, c]))
   let diffMode = hasBothSrts
 
   // ── diff toggle ───────────────────────────────────────────────────────────
@@ -140,9 +140,9 @@ export async function renderPlayerView(
     subtitleWindow.innerHTML = primaryCues
       .map(cue => {
         let textHtml: string
-        if (diffMode && gtCues.length > 0 && genCueMap.size > 0) {
-          const genCue = genCueMap.get(cue.index)
-          const spans  = diffWords(cue.text, genCue?.text ?? '')
+        if (diffMode && gtCues.length > 0 && finCueMap.size > 0) {
+          const finCue = finCueMap.get(cue.index)
+          const spans  = diffWords(cue.text, finCue?.text ?? '')
           textHtml     = renderSpansHtml(spans)
         } else {
           textHtml = esc(cue.text)
