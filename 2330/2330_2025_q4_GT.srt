@@ -11,7 +11,7 @@
 (01:14) followed by our guidance for the first quarter 2026.
 (01:18) Afterwards, Mr. Huang and TSMC's Chairman and CEO, Dr. C.C. Wei,
 (01:26) will jointly provide the company's key messages.
-(03:09) Then we will open both the floor and the line for the question-and-answer session. As usual, I would like to remind everybody that today's discussions may contain forward- looking statements that are subject to significant risks and uncertainties, which could cause actual results to differ materially from those contained in the forward-looking statements. Please refer to the safe harbor notice that appears in our press release. And now I would like to turn the microphone over to TSMC's CFO, Mr. Wendell Huang, for the summary of operations and the current quarter guidance. Jen-Chau Huang Thank you, Jeff. Good afternoon, everyone. Thank you for joining us today. My presentation will start with financial highlights for the fourth quarter of 2025 and a recap of full year 2025. After that, I will provide the guidance for the first quarter of 2026. Fourth quarter revenue increased 5.7% sequentially in NT, supported by strong demand for our leading-edge process technologies. In U.S. dollar terms, revenue increased 1.9% sequentially to TWD 33.7 billion, slightly ahead of our fourth quarter guidance. Gross margin increased by 2.8 percentage points sequentially to 62.3%, primarily due to cost improvement efforts, favorable foreign exchange rate and high capacity utilization rate. The operating expenses accounted for 8.4% of net revenue compared to 8.9% in the third quarter of '25 due to operating leverage.
+(03:09) Then we will open both the floor and the line for the question-and-answer session. As usual, I would like to remind everybody that today's discussions may contain forward- looking statements that are subject to significant risks and uncertainties, which could cause actual results to differ materially from those contained in the forward-looking statements. Please refer to the safe harbor notice that appears in our press release. And now I would like to turn the microphone over to TSMC's CFO, Mr. Wendell Huang, for the summary of operations and the current quarter guidance. Thank you, Jeff. Good afternoon, everyone. Thank you for joining us today. My presentation will start with financial highlights for the fourth quarter of 2025 and a recap of full year 2025. After that, I will provide the guidance for the first quarter of 2026. Fourth quarter revenue increased 5.7% sequentially in NT, supported by strong demand for our leading-edge process technologies. In U.S. dollar terms, revenue increased 1.9% sequentially to TWD 33.7 billion, slightly ahead of our fourth quarter guidance. Gross margin increased by 2.8 percentage points sequentially to 62.3%, primarily due to cost improvement efforts, favorable foreign exchange rate and high capacity utilization rate. The operating expenses accounted for 8.4% of net revenue compared to 8.9% in the third quarter of '25 due to operating leverage.
 (03:24) Thus,
 (03:26) operating margin increased sequentially by 3.4 percentage points to 54%.
 (03:35) Overall, our fourth quarter EPS was TWD 19.5 and
@@ -463,7 +463,7 @@
 (47:51) 3DIC?
 (47:53) Is it on SoIC
 (47:58) packaging solutions, is on panel level? Sort of what is the key areas
-(48:00) we're focusing on relative to the CapEx? Jen-Chau Huang Okay. Laura,
+(48:00) we're focusing on relative to the CapEx? Okay. Laura,
 (48:23) the revenue contribution last year from advanced packaging is close to 10%. It's about 8%. For this year, we expect it to be slightly over 10%. Okay. We expect it to grow in the next 5 years, higher or faster than the corporate. And the CapEx, yes, you're right, in the past, it's about 10%, lower than 10%.
 (48:31) Now we're saying advanced packaging together with mask making and others accounted for between 10% to 20%.
 (48:39) So you can see that the investment amount is higher.
@@ -657,7 +657,7 @@
 (63:09) Okay. So Brett's question is on pricing.
 (63:14) He notes that our --
 (63:17) which he looking at the blended wafer price
-(63:49) is increasing close to 20% according to his estimates. Of course, that's blended both on price and mix, but it's a leading edge and also we have mentioned earning our value. So he wants to know is the new normal going forward? C.C. Wei This is a tough question. I'll get the CFO to answer. Jen-Chau Huang Okay. Every new node that we have a price. The price will increase. The blended ASP
+(63:49) is increasing close to 20% according to his estimates. Of course, that's blended both on price and mix, but it's a leading edge and also we have mentioned earning our value. So he wants to know is the new normal going forward? C.C. Wei This is a tough question. I'll get the CFO to answer. Okay. Every new node that we have a price. The price will increase. The blended ASP
 (63:54) will increase I think they continue this way in the past and will continue with the way going forward.
 (63:57) But Brett, I think you're asking about
 (63:59) the contribution from pricing to the profitability.
@@ -761,7 +761,7 @@
 (70:12) 2 nanometers, as we said, is a fast ramp in 2026,
 (70:15) very strong customer interest and demand.
 (70:18) So what -- do we have any revenue percentage to guide for in 2026?
-(70:23) Jen-Chau Huang Yes. Sunny,
+(70:23) Yes. Sunny,
 (70:26) the 2-nanometer will be a bigger node
 (70:31) than 3-nanometer from the start,
 (70:34) okay? But it's less meaningful nowadays
@@ -849,7 +849,7 @@
 (76:59) significant step up in CapEx, I think we're saying it takes time to --
 (77:01) for that capacity to come out.
 (77:06) So that's the first part.
-(77:07) Jen-Chau Huang Yes. I think Bruce,
+(77:07) Yes. I think Bruce,
 (77:10) what C.C. said was
 (77:11) the productivity was our main focus
 (77:14) in '26 and '27
