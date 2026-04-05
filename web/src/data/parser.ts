@@ -15,18 +15,18 @@ import type {
 /** 法說會: numeric top-level folder, e.g. 2382/2382_2025_q3.mp3 */
 const IR_AUDIO_RE = /^(\d+)\/(\d+)_(\d{4})_q(\d)\.(?:mp3|m4a|wav)$/i
 const IR_PDF_RE   = /^(\d+)\/(\d+)_(\d{4})_q(\d)_([^/]+)\.pdf$/i
-/** GT SRT: {stem}_GT.srt  |  FIN SRT: {stem}.srt */
-const IR_SRT_RE   = /^(\d+)\/(\d+)_(\d{4})_q(\d)(_GT)?\.srt$/i
+/** GT SRT: {stem}_GT.srt  |  FIN SRT: {stem}.srt or {stem}_FIN.srt */
+const IR_SRT_RE   = /^(\d+)\/(\d+)_(\d{4})_q(\d)(?:_GT|_FIN)?\.srt$/i
 
 /** GTC: top-level GTC/ folder */
 const GTC_AUDIO_RE = /^GTC\/(.+)\.(?:mp3|m4a|wav)$/i
 const GTC_PDF_RE   = /^GTC\/(.+?)_([^/]+)\.pdf$/i
-const GTC_SRT_RE   = /^GTC\/(.+?)(_GT)?\.srt$/i
+const GTC_SRT_RE   = /^GTC\/(.+?)(?:_GT|_FIN)?\.srt$/i
 
 /** Podcast: top-level Podcast/ folder */
 const POD_AUDIO_RE = /^Podcast\/(.+)\.(?:mp3|m4a|wav)$/i
 const POD_PDF_RE   = /^Podcast\/(.+?)_([^/]+)\.pdf$/i
-const POD_SRT_RE   = /^Podcast\/(.+?)(_GT)?\.srt$/i
+const POD_SRT_RE   = /^Podcast\/(.+?)(?:_GT|_FIN)?\.srt$/i
 
 // ── lookup helpers ────────────────────────────────────────────────────────────
 
