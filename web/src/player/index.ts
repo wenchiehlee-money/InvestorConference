@@ -179,22 +179,29 @@ export async function renderPlayerView(
       finByGt.set(gtCue.startSec, '')
     }
     for (const finCue of finCues) {
-      let nearestGt = gtCues[0]
-      let minDist = Math.abs(gtCues[0].startSec - finCue.startSec)
-      let bestSim = charOverlap(finCue.text, gtCues[0].text)
-      for (const gt of gtCues) {
-        const d = Math.abs(gt.startSec - finCue.startSec)
-        if (d < minDist) {
-          minDist = d; nearestGt = gt
-          bestSim = charOverlap(finCue.text, gt.text)
-        } else if (d === minDist) {
-          // Tie in distance: prefer the GT cue whose text is more similar
-          const sim = charOverlap(finCue.text, gt.text)
-          if (sim > bestSim) { nearestGt = gt; bestSim = sim }
+      // faster-whisper timestamps are consistently a few seconds earlier than GT,
+      // so nearest-by-time often picks the *next* GT cue instead of the correct one.
+      // Fix: within a ±30s time window, prefer the GT cue with the highest character
+      // overlap with the FIN text. Fall back to nearest-by-time only when overlap ties.
+      const WINDOW = 30
+      let pool = gtCues.filter(gt => Math.abs(gt.startSec - finCue.startSec) <= WINDOW)
+      if (pool.length === 0) {
+        pool = [gtCues.reduce((b, gt) =>
+          Math.abs(gt.startSec - finCue.startSec) < Math.abs(b.startSec - finCue.startSec) ? gt : b
+        )]
+      }
+      let bestGt   = pool[0]
+      let bestSim  = charOverlap(finCue.text, pool[0].text)
+      let bestDist = Math.abs(pool[0].startSec - finCue.startSec)
+      for (const gt of pool.slice(1)) {
+        const sim  = charOverlap(finCue.text, gt.text)
+        const dist = Math.abs(gt.startSec - finCue.startSec)
+        if (sim > bestSim || (sim === bestSim && dist < bestDist)) {
+          bestSim = sim; bestDist = dist; bestGt = gt
         }
       }
-      const prev = finByGt.get(nearestGt.startSec) ?? ''
-      finByGt.set(nearestGt.startSec, prev ? prev + ' ' + finCue.text : finCue.text)
+      const prev = finByGt.get(bestGt.startSec) ?? ''
+      finByGt.set(bestGt.startSec, prev ? prev + ' ' + finCue.text : finCue.text)
     }
 
     subtitleWindow.innerHTML = gtCues.map((gtCue, i) => {
