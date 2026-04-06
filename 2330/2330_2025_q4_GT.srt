@@ -1,6 +1,6 @@
 (00:05) 各位投資界及媒體的朋友們,大家午安。
-(00:09) 我是臺積電法人關係處的蘇志凱。
-(00:13) 歡迎您參加臺積公司2025年第四季的法人說明會。
+(00:09) 我是台積電法人關係處的蘇志凱。
+(00:13) 歡迎您參加台積公司2025年第四季的法人說明會。
 (00:21) 由於本法說會是向全球投資人同時連線轉播,
 (00:25) 所以我們會全程使用英文,
 (00:28) 請您見諒。
@@ -17,7 +17,7 @@
 (01:14) followed by our guidance for the first quarter 2026.
 (01:18) Afterwards, Mr. Huang and TSMC's Chairman and CEO, Dr. C.C. Wei,
 (01:26) will jointly provide the company's key messages.
-(03:09) Then we will open both the floor and the line for the question-and-answer session. As usual, I would like to remind everybody that today's discussions may contain forward- looking statements that are subject to significant risks and uncertainties, which could cause actual results to differ materially from those contained in the forward-looking statements. Please refer to the safe harbor notice that appears in our press release. And now I would like to turn the microphone over to TSMC's CFO, Mr. Wendell Huang, for the summary of operations and the current quarter guidance. Thank you, Jeff. Good afternoon, everyone. Thank you for joining us today. My presentation will start with financial highlights for the fourth quarter of 2025 and a recap of full year 2025. After that, I will provide the guidance for the first quarter of 2026. Fourth quarter revenue increased 5.7% sequentially in NT, supported by strong demand for our leading-edge process technologies. In U.S. dollar terms, revenue increased 1.9% sequentially to TWD 33.7 billion, slightly ahead of our fourth quarter guidance. Gross margin increased by 2.8 percentage points sequentially to 62.3%, primarily due to cost improvement efforts, favorable foreign exchange rate and high capacity utilization rate. The operating expenses accounted for 8.4% of net revenue compared to 8.9% in the third quarter of '25 due to operating leverage.
+(01:49) Then we will open both the floor and the line for the question-and-answer session. As usual, I would like to remind everybody that today's discussions may contain forward- looking statements that are subject to significant risks and uncertainties, which could cause actual results to differ materially from those contained in the forward-looking statements. Please refer to the safe harbor notice that appears in our press release. And now I would like to turn the microphone over to TSMC's CFO, Mr. Wendell Huang, for the summary of operations and the current quarter guidance. Thank you, Jeff. Good afternoon, everyone. Thank you for joining us today. My presentation will start with financial highlights for the fourth quarter of 2025 and a recap of full year 2025. After that, I will provide the guidance for the first quarter of 2026. Fourth quarter revenue increased 5.7% sequentially in NT, supported by strong demand for our leading-edge process technologies. In U.S. dollar terms, revenue increased 1.9% sequentially to TWD 33.7 billion, slightly ahead of our fourth quarter guidance. Gross margin increased by 2.8 percentage points sequentially to 62.3%, primarily due to cost improvement efforts, favorable foreign exchange rate and high capacity utilization rate. The operating expenses accounted for 8.4% of net revenue compared to 8.9% in the third quarter of '25 due to operating leverage.
 (03:24) Thus,
 (03:26) operating margin increased sequentially by 3.4 percentage points to 54%.
 (03:35) Overall, our fourth quarter EPS was TWD 19.5 and
