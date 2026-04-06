@@ -23,6 +23,8 @@ on:
 jobs:
   ingest:
     runs-on: ubuntu-latest
+    env:
+      STEM: ${{ inputs.stock_id }}_${{ inputs.year }}_q${{ inputs.quarter }}
 
     steps:
       - uses: actions/checkout@v4
@@ -47,14 +49,59 @@ jobs:
             "${{ inputs.quarter }}" \
             $PUSH_FLAG
 
-      - name: Verify output
+      - name: Collect outputs
+        id: collect
         run: |
-          FILE="tmp/${{ inputs.stock_id }}_${{ inputs.year }}_q${{ inputs.quarter }}.m4a"
-          if [ -f "$FILE" ]; then
-            echo "✓ Audio kept locally: $FILE"
-            ls -lh "$FILE"
-          elif [ "${{ inputs.push }}" = "true" ]; then
-            echo "✓ Audio committed to repo (local tmp copy removed)"
-          else
-            echo "✗ Audio file not found" && exit 1
+          set -euo pipefail
+          shopt -s nullglob
+
+          ASSET_DIR="artifacts/${STEM}"
+          mkdir -p "$ASSET_DIR"
+
+          audio_found=0
+          for candidate in \
+            "tmp/${STEM}.m4a" \
+            "tmp/${STEM}.mp3" \
+            "${{ inputs.stock_id }}/${STEM}.m4a" \
+            "${{ inputs.stock_id }}/${STEM}.mp3"
+          do
+            if [ -f "$candidate" ]; then
+              cp "$candidate" "$ASSET_DIR/"
+              echo "Collected audio: $candidate"
+              audio_found=1
+            fi
+          done
+
+          pdf_found=0
+          for candidate in "tmp/${STEM}"_*.pdf "${{ inputs.stock_id }}/${STEM}"_*.pdf
+          do
+            if [ -f "$candidate" ]; then
+              cp "$candidate" "$ASSET_DIR/"
+              echo "Collected PDF: $candidate"
+              pdf_found=1
+            fi
+          done
+
+          if [ "$audio_found" -ne 1 ]; then
+            echo "✗ Audio output not found in tmp/ or ${{ inputs.stock_id }}/" >&2
+            exit 1
           fi
+
+          if [ "$pdf_found" -ne 1 ]; then
+            echo "✗ PDF output not found in tmp/ or ${{ inputs.stock_id }}/" >&2
+            exit 1
+          fi
+
+          echo "asset_dir=$ASSET_DIR" >> "$GITHUB_OUTPUT"
+
+      - name: Verify outputs
+        run: |
+          set -euo pipefail
+          echo "✓ Collected assets:"
+          ls -lh "${{ steps.collect.outputs.asset_dir }}"
+
+      - name: Upload outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.STEM }}
+          path: ${{ steps.collect.outputs.asset_dir }}

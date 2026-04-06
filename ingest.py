@@ -604,6 +604,124 @@ def scrape_mops_playwright(stock_id: str, year: str, quarter: str) -> dict:
 
 # ── JS-rendered Direct-IR Scraper (Playwright) ───────────────────────────────
 
+def _quarter_date_window(year: str, quarter: str) -> tuple[str, int, int]:
+    """Return the expected conference year and month window for a quarter."""
+    if quarter == "4":
+        return str(int(year) + 1), 1, 4
+    if quarter == "1":
+        return year, 4, 6
+    if quarter == "2":
+        return year, 7, 9
+    return year, 10, 12
+
+
+def _probe_delta_ccdntech_url(url: str, expect_playlist: bool = False) -> bool:
+    """Return True when a Delta ccdntech URL looks live."""
+    try:
+        resp = requests.get(url, timeout=15, headers={"User-Agent": UA})
+        body = resp.text
+        if expect_playlist:
+            return resp.status_code == 200 and "#EXTM3U" in body
+        return resp.status_code == 200 and (
+            "CCDNPlayer" in body or "open-video" in body or "jwplayer" in body
+        )
+    except Exception:
+        return False
+
+
+
+def _extract_delta_landing_video(stock_id: str, year: str, quarter: str) -> tuple[str | None, str | None]:
+    """Resolve Delta's Chinese replay URL from page data or verified URL patterns."""
+    if stock_id != "2308":
+        return None, None
+
+    target_year, month_min, month_max = _quarter_date_window(year, quarter)
+    quarter_label = f"第{'一二三四'[int(quarter) - 1]}季法人說明會"
+    candidate_pages = [
+        "https://landing.deltaww.com/zh-TW/Investors/Analyst-Meeting",
+        "https://www.deltaww.com/zh-TW/investors/analyst-meeting",
+    ]
+    matched_conf_date = None
+
+    for page_url in candidate_pages:
+        try:
+            resp = requests.get(page_url, timeout=20, headers={"User-Agent": UA})
+            html = resp.text
+        except Exception as e:
+            print(f"[Delta] Landing page fetch failed: {e}")
+            continue
+
+        blocks = re.findall(r'<div class="meeting-list">(.*?)</ul></div>', html, re.S)
+        if not blocks:
+            continue
+
+        print(f"[Delta] Found {len(blocks)} meeting block(s) on {page_url}")
+        for block in blocks:
+            date_m = re.search(r'<li class="date">\s*(\d{4})/(\d{1,2})/(\d{1,2})\s*</li>', block)
+            title_m = re.search(r'<li class="title">\s*([^<]+?)\s*</li>', block)
+            if not date_m or not title_m:
+                continue
+
+            conf_year = date_m.group(1)
+            conf_month = int(date_m.group(2))
+            conf_date = f"{date_m.group(1)}{int(date_m.group(2)):02d}{int(date_m.group(3)):02d}"
+            title = title_m.group(1).strip()
+            if conf_year != target_year or not (month_min <= conf_month <= month_max):
+                continue
+            if quarter_label not in title:
+                continue
+
+            matched_conf_date = conf_date
+            zh_m = re.search(
+                r'class="open-video"[^>]*data-url="([^"]+)"[^>]*>\s*(?:Chinese|中文影片|中文)\s*<',
+                block,
+                re.I,
+            )
+            if zh_m:
+                video_url = zh_m.group(1).replace('&amp;', '&')
+                direct_hls = None
+                m = re.search(r'vod41/([^&]+)', video_url)
+                if m:
+                    direct_hls = f"https://cdn41.ccdntech.com/vod-http/_definst_/vod41/{m.group(1)}/playlist.m3u8"
+                if direct_hls and _probe_delta_ccdntech_url(direct_hls, expect_playlist=True):
+                    print(f"[Delta] Matched landing-page Chinese HLS: {direct_hls[:80]}...")
+                    return direct_hls, conf_date
+                print(f"[Delta] Matched landing-page Chinese video: {video_url[:80]}...")
+                return video_url, conf_date
+
+        print(f"[Delta] No matching Chinese video block found on {page_url}")
+
+    if not matched_conf_date:
+        return None, None
+
+    yyyy = matched_conf_date[:4]
+    mmdd = matched_conf_date[4:]
+    hls_candidates = [
+        f"https://cdn41.ccdntech.com/vod-http/_definst_/vod41/{yyyy}_{mmdd}_中文_1.mp4/playlist.m3u8",
+        f"https://cdn41.ccdntech.com/vod-http/_definst_/vod41/{matched_conf_date}_中文_1.mp4/playlist.m3u8",
+        f"https://cdn41.ccdntech.com/vod-http/_definst_/vod41/{mmdd}_TW_1.mp4/playlist.m3u8",
+        f"https://cdn41.ccdntech.com/vod-http/_definst_/vod41/{mmdd}_中文_1.mp4/playlist.m3u8",
+    ]
+    for url in hls_candidates:
+        if _probe_delta_ccdntech_url(url, expect_playlist=True):
+            print(f"[Delta] Matched synthesized Chinese HLS URL: {url[:80]}...")
+            return url, matched_conf_date
+
+    player_candidates = [
+        f"https://crs.ccdntech.com/rds/playerh7vodcdn?vod41/{yyyy}_{mmdd}_中文_1.mp4&cname&hls",
+        f"https://crs.ccdntech.com/rds/playerh7vodcdn?vod41/{matched_conf_date}_中文_1.mp4&cname&hls",
+        f"https://crs.ccdntech.com/rds/playerh7vodcdn?vod41/{mmdd}_TW_1.mp4&cname&hls",
+        f"https://crs.ccdntech.com/rds/playerh7vodcdn?vod41/{mmdd}_中文_1.mp4&cname&hls",
+    ]
+    for url in player_candidates:
+        if _probe_delta_ccdntech_url(url):
+            print(f"[Delta] Matched synthesized Chinese player URL: {url[:80]}...")
+            return url, matched_conf_date
+
+    print(f"[Delta] Could not verify a Chinese replay URL for {matched_conf_date}")
+    return None, matched_conf_date
+
+
 def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: str) -> tuple:
     """
     Use Playwright to render a JS-heavy IR page and intercept video URLs.
@@ -622,18 +740,12 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
       Q3 → target_year=year, months Oct–Dec
     """
     # Quarter → expected conference month range
-    if quarter == "4":
-        target_year = str(int(year) + 1)
-        month_min, month_max = 1, 4
-    elif quarter == "1":
-        target_year = year
-        month_min, month_max = 4, 6
-    elif quarter == "2":
-        target_year = year
-        month_min, month_max = 7, 9
-    else:  # Q3
-        target_year = year
-        month_min, month_max = 10, 12
+    target_year, month_min, month_max = _quarter_date_window(year, quarter)
+
+    # Delta's page opens replay URLs via JS data-url attributes; parse those first.
+    delta_video_url, delta_conf_date = _extract_delta_landing_video(stock_id, year, quarter)
+    if delta_video_url:
+        return delta_video_url, delta_conf_date
 
     # Newer Hinet pages embed the HLS URL in page HTML; use it directly when present.
     try:
@@ -1277,6 +1389,9 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
                 stock_id, _conf_date[0], year, quarter, save_dir)
             pdf_paths = pdf_paths + [p for p in mops_pdfs if p not in pdf_paths]
         if auto_push:
+            if not pdf_paths:
+                print("[git] Skipping commit/push because no PDF was downloaded.")
+                return str(output_path)
             pushed = commit_push_files(stock_id, year, quarter, output_path, pdf_paths)
             return pushed or str(output_path)
         return str(output_path)
