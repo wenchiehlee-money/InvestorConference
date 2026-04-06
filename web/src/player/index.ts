@@ -158,42 +158,36 @@ export async function renderPlayerView(
       return
     }
 
-    // DIFF MODE: Union-based alignment
-    // We create a combined set of timestamps from both GT and FIN
-    const allStarts = Array.from(new Set([
-      ...gtCues.map(c => c.startSec),
-      ...finCues.map(c => c.startSec)
-    ])).sort((a, b) => a - b)
+    // DIFF MODE: GT-anchored alignment
+    // Each FIN cue is assigned to its nearest GT cue, then concatenated and diffed.
+    // This handles cases where GT and FIN have different segmentation granularity
+    // (e.g. GT has long sentences while FIN has short phrases) or timestamp offsets.
+    const finByGt = new Map<number, string>() // gtCue.startSec → concatenated FIN text
+    for (const gtCue of gtCues) {
+      finByGt.set(gtCue.startSec, '')
+    }
+    for (const finCue of finCues) {
+      let nearestGt = gtCues[0]
+      let minDist = Math.abs(gtCues[0].startSec - finCue.startSec)
+      for (const gt of gtCues) {
+        const d = Math.abs(gt.startSec - finCue.startSec)
+        if (d < minDist) { minDist = d; nearestGt = gt }
+      }
+      const prev = finByGt.get(nearestGt.startSec) ?? ''
+      finByGt.set(nearestGt.startSec, prev ? prev + ' ' + finCue.text : finCue.text)
+    }
 
-    subtitleWindow.innerHTML = allStarts.map((start, i) => {
-      // Find the best matching cue for this timestamp in both sets
-      const gtCue  = gtCues.find(c => Math.abs(c.startSec - start) < 0.5)
-      const finCue = finCues.find(c => Math.abs(c.startSec - start) < 0.5)
-
+    subtitleWindow.innerHTML = gtCues.map((gtCue, i) => {
+      const finText = finByGt.get(gtCue.startSec) ?? ''
       let displayHtml: string
-      if (gtCue && finCue) {
-        // Check if they are fundamentally different (e.g. junk vs real text)
-        // A simple heuristic: if they have very few words in common or 
-        // one is significantly shorter than the other.
-        const gtWords = gtCue.text.split(/\s+/).length
-        const finWords = finCue.text.split(/\s+/).length
-        
-        // If they are likely totally different contents (junk at 1:49)
-        // just show them as a delete/insert pair without word-level merging
-        if (gtWords > 50 && finWords < 15) {
-           displayHtml = `<span class="diff-gt" title="FIN 缺失此長段落">${esc(gtCue.text)}</span> <span class="diff-fin" title="FIN 垃圾內容">[${esc(finCue.text)}]</span>`
-        } else {
-           const spans = diffWords(gtCue.text, finCue.text)
-           displayHtml = renderSpansHtml(spans)
-        }
+      if (!finText) {
+        displayHtml = renderSpansHtml([{ text: gtCue.text, type: 'gt' }])
       } else {
-        const spans = diffWords(gtCue?.text ?? '', finCue?.text ?? '')
+        const spans = diffWords(gtCue.text, finText)
         displayHtml = renderSpansHtml(spans)
       }
-
-      const sourceTag = gtCue && finCue ? '' : (gtCue ? '<small>GT</small>' : '<small>FIN</small>')
-      return `<div class="cue" id="cue-u-${i}" data-start="${start}">
-        <span class="cue-time">[${fmtTime(start)}] ${sourceTag}</span>
+      return `<div class="cue" id="cue-d-${i}" data-start="${gtCue.startSec}">
+        <span class="cue-time">[${fmtTime(gtCue.startSec)}]</span>
         <span class="cue-text">${displayHtml}</span>
       </div>`
     }).join('')
@@ -220,17 +214,12 @@ export async function renderPlayerView(
     // In diff mode, we need to search our synthesized union timestamps
     let activeId = ''
     if (diffMode && gtCues.length > 0 && finCues.length > 0) {
-      const allStarts = Array.from(new Set([
-        ...gtCues.map(c => c.startSec),
-        ...finCues.map(c => c.startSec)
-      ])).sort((a, b) => a - b)
-      
       let index = -1
-      for (let i = 0; i < allStarts.length; i++) {
-        if (t >= allStarts[i]) index = i
+      for (let i = 0; i < gtCues.length; i++) {
+        if (t >= gtCues[i].startSec) index = i
         else break
       }
-      if (index !== -1) activeId = `cue-u-${index}`
+      if (index !== -1) activeId = `cue-d-${index}`
     } else {
       const primary = gtCues.length > 0 ? gtCues : finCues
       const active = primary.find(c => t >= c.startSec && t <= c.endSec)
