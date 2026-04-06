@@ -18,7 +18,22 @@ export function diffWords(gt: string, fin: string): DiffSpan[] {
 }
 
 function tokenize(text: string): string[] {
-  return text.trim().split(/\s+/).filter(Boolean)
+  // For Chinese/CJK text there are no spaces, so whitespace-splitting produces
+  // one giant token per sentence — any single-char difference marks the whole
+  // sentence orange.  Instead we split character-by-character, but keep
+  // alphanumeric runs (e.g. "2025", "4.9%", "Q&A") as single tokens.
+  const tokens: string[] = []
+  let buf = ''
+  for (const ch of text.trim()) {
+    if (/[a-zA-Z0-9]/.test(ch)) {
+      buf += ch
+    } else {
+      if (buf) { tokens.push(buf); buf = '' }
+      if (!/\s/.test(ch)) tokens.push(ch)
+    }
+  }
+  if (buf) tokens.push(buf)
+  return tokens.filter(Boolean)
 }
 
 function buildLCS(a: string[], b: string[]): number[][] {
