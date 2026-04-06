@@ -182,41 +182,42 @@ export async function renderPlayerView(
     }
 
     // DIFF MODE: GT-anchored alignment
-    // Each FIN cue is assigned to its nearest GT cue, then concatenated and diffed.
-    // This handles cases where GT and FIN have different segmentation granularity
-    // (e.g. GT has long sentences while FIN has short phrases) or timestamp offsets.
-    const finByGt = new Map<number, string>() // gtCue.startSec → concatenated FIN text
-    for (const gtCue of gtCues) {
-      finByGt.set(gtCue.startSec, '')
-    }
+    // Key by GT array index (not startSec) so multiple GT cues sharing the same
+    // timestamp don't collide in the map. Within a ±30s window, prefer the GT cue
+    // whose text has the longest common substring with the FIN cue text.
+    const finByGt = new Map<number, string>() // GT index → concatenated FIN text
+    for (let gi = 0; gi < gtCues.length; gi++) finByGt.set(gi, '')
+
     for (const finCue of finCues) {
-      // faster-whisper timestamps are consistently a few seconds earlier than GT,
-      // so nearest-by-time often picks the *next* GT cue instead of the correct one.
-      // Fix: within a ±30s time window, prefer the GT cue with the highest character
-      // overlap with the FIN text. Fall back to nearest-by-time only when overlap ties.
       const WINDOW = 30
-      let pool = gtCues.filter(gt => Math.abs(gt.startSec - finCue.startSec) <= WINDOW)
-      if (pool.length === 0) {
-        pool = [gtCues.reduce((b, gt) =>
-          Math.abs(gt.startSec - finCue.startSec) < Math.abs(b.startSec - finCue.startSec) ? gt : b
-        )]
-      }
-      let bestGt   = pool[0]
-      let bestSim  = longestCommonSubstringLen(finCue.text,pool[0].text)
-      let bestDist = Math.abs(pool[0].startSec - finCue.startSec)
-      for (const gt of pool.slice(1)) {
-        const sim  = longestCommonSubstringLen(finCue.text,gt.text)
-        const dist = Math.abs(gt.startSec - finCue.startSec)
+      const pool = gtCues
+        .map((gt, gi) => ({ gt, gi, dist: Math.abs(gt.startSec - finCue.startSec) }))
+        .filter(e => e.dist <= WINDOW)
+      const candidates = pool.length > 0
+        ? pool
+        : [gtCues.reduce<{ gt: typeof gtCues[0]; gi: number; dist: number }>(
+            (b, gt, gi) => {
+              const d = Math.abs(gt.startSec - finCue.startSec)
+              return d < b.dist ? { gt, gi, dist: d } : b
+            },
+            { gt: gtCues[0], gi: 0, dist: Infinity }
+          )]
+
+      let bestGi   = candidates[0].gi
+      let bestSim  = longestCommonSubstringLen(finCue.text, candidates[0].gt.text)
+      let bestDist = candidates[0].dist
+      for (const { gt, gi, dist } of candidates.slice(1)) {
+        const sim = longestCommonSubstringLen(finCue.text, gt.text)
         if (sim > bestSim || (sim === bestSim && dist < bestDist)) {
-          bestSim = sim; bestDist = dist; bestGt = gt
+          bestSim = sim; bestDist = dist; bestGi = gi
         }
       }
-      const prev = finByGt.get(bestGt.startSec) ?? ''
-      finByGt.set(bestGt.startSec, prev ? prev + ' ' + finCue.text : finCue.text)
+      const prev = finByGt.get(bestGi) ?? ''
+      finByGt.set(bestGi, prev ? prev + ' ' + finCue.text : finCue.text)
     }
 
     subtitleWindow.innerHTML = gtCues.map((gtCue, i) => {
-      const finText = finByGt.get(gtCue.startSec) ?? ''
+      const finText = finByGt.get(i) ?? ''
       let displayHtml: string
       if (!finText) {
         displayHtml = renderSpansHtml([{ text: gtCue.text, type: 'gt' }])
