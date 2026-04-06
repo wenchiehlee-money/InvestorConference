@@ -332,7 +332,7 @@
 (32:23) Thank you, Wendell.
 (32:26) Thank you, C.C.
 (32:26) This does conclude our prepared statements.
-(32:29) [Operator Instructions] So now let's begin the question-and-answer session.
+(32:29) So now let's begin the question-and-answer session.
 (32:32) I think
 (32:33) we'll
 (32:36) take the first
@@ -932,7 +932,7 @@
 (73:11) AI revenue is growing like 15% a year, 15% plus a year.
 (73:16) But token consumption for the last few quarters is 15% a quarter.
 (73:20) So the gap is still there, right?
-(73:23) I mean that's why [indiscernible] was talking about the chip war.
+(73:23) I mean that's why Elon Musk was talking about the chip war.
 (73:26) So can you share with us that in your assumption
 (73:31) when you provide 50% plus AI
 (73:37) revenue growth, what kind of token consumption
