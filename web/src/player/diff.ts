@@ -14,7 +14,7 @@ export function diffWords(gt: string, fin: string): DiffSpan[] {
 
   const dp = buildLCS(a, b)
   const tokens = backtrack(dp, a, b)
-  return mergeSpans(tokens)
+  return suppressPunctuationDiffs(mergeSpans(tokens))
 }
 
 function tokenize(text: string): string[] {
@@ -83,13 +83,44 @@ function mergeSpans(
   for (let i = 1; i < tokens.length; i++) {
     const last = spans[spans.length - 1]
     if (last.type === tokens[i].type) {
-      // Add a space between words of the same type
-      last.text += ' ' + tokens[i].token
+      // Only insert a space between alphanumeric tokens (English words, numbers).
+      // CJK characters are concatenated directly — no spaces between them.
+      const needsSpace =
+        /[a-zA-Z0-9]$/.test(last.text) || /^[a-zA-Z0-9]/.test(tokens[i].token)
+      last.text += needsSpace ? ' ' + tokens[i].token : tokens[i].token
     } else {
       spans.push({ text: tokens[i].token, type: tokens[i].type })
     }
   }
   return spans
+}
+
+// Punctuation characters (CJK fullwidth and ASCII) whose differences are
+// considered non-key and should be suppressed in the diff display.
+const PUNCT_RE = /^[，,、。.!！?？；;：:""''「」（）()【】\[\]—–\-…·～~]+$/
+
+/**
+ * Convert punctuation-only diff spans to 'same' so that minor punctuation
+ * differences (e.g. fullwidth ，vs halfwidth ,) are not highlighted.
+ * Only substantive character differences (key CER) remain marked.
+ */
+function suppressPunctuationDiffs(spans: DiffSpan[]): DiffSpan[] {
+  const result: DiffSpan[] = []
+  for (let i = 0; i < spans.length; i++) {
+    const s = spans[i]
+    if (s.type === 'gt' && PUNCT_RE.test(s.text)) {
+      // GT punctuation: absorb the paired FIN punctuation (if any) and show as same
+      if (i + 1 < spans.length && spans[i + 1].type === 'fin' && PUNCT_RE.test(spans[i + 1].text)) {
+        i++ // skip the FIN punctuation span
+      }
+      result.push({ text: s.text, type: 'same' })
+    } else if (s.type === 'fin' && PUNCT_RE.test(s.text)) {
+      // FIN-only punctuation insertion — silently drop it
+    } else {
+      result.push(s)
+    }
+  }
+  return result
 }
 
 const esc = (s: string) =>
