@@ -17,7 +17,10 @@
 (01:14) followed by our guidance for the first quarter 2026.
 (01:18) Afterwards, Mr. Huang and TSMC's Chairman and CEO, Dr. C.C. Wei,
 (01:26) will jointly provide the company's key messages.
-(01:49) Then we will open both the floor and the line for the question-and-answer session. As usual, I would like to remind everybody that today's discussions may contain forward- looking statements that are subject to significant risks and uncertainties, which could cause actual results to differ materially from those contained in the forward-looking statements. Please refer to the safe harbor notice that appears in our press release. And now I would like to turn the microphone over to TSMC's CFO, Mr. Wendell Huang, for the summary of operations and the current quarter guidance. Thank you, Jeff. Good afternoon, everyone. Thank you for joining us today. My presentation will start with financial highlights for the fourth quarter of 2025 and a recap of full year 2025. After that, I will provide the guidance for the first quarter of 2026. Fourth quarter revenue increased 5.7% sequentially in NT, supported by strong demand for our leading-edge process technologies. In U.S. dollar terms, revenue increased 1.9% sequentially to TWD 33.7 billion, slightly ahead of our fourth quarter guidance. Gross margin increased by 2.8 percentage points sequentially to 62.3%, primarily due to cost improvement efforts, favorable foreign exchange rate and high capacity utilization rate. The operating expenses accounted for 8.4% of net revenue compared to 8.9% in the third quarter of '25 due to operating leverage.
+(01:49) Then we will open both the floor and the line for the question-and-answer session. As usual, I would like to remind everybody that today's discussions may contain forward-looking statements that are subject to significant risks and uncertainties, which could cause actual results to differ materially from those contained in the forward-looking statements.
+(02:02) Please refer to the safe harbor notice that appears in our press release. And now I would like to turn the microphone over to TSMC's CFO, Mr. Wendell Huang, for the summary of operations and the current quarter guidance. Thank you, Jeff. Good afternoon, everyone.
+(02:36) Thank you for joining us today. My presentation will start with financial highlights for the fourth quarter of 2025 and a recap of full year 2025. After that, I will provide the guidance for the first quarter of 2026. Fourth quarter revenue increased 5.7% sequentially in NT, supported by strong demand for our leading-edge process technologies.
+(03:09) In U.S. dollar terms, revenue increased 1.9% sequentially to TWD 33.7 billion, slightly ahead of our fourth quarter guidance. Gross margin increased by 2.8 percentage points sequentially to 62.3%, primarily due to cost improvement efforts, favorable foreign exchange rate and high capacity utilization rate. The operating expenses accounted for 8.4% of net revenue compared to 8.9% in the third quarter of '25 due to operating leverage.
 (03:24) Thus,
 (03:26) operating margin increased sequentially by 3.4 percentage points to 54%.
 (03:35) Overall, our fourth quarter EPS was TWD 19.5 and
@@ -167,7 +170,10 @@
 (17:41) our CapEx dollars amount totaled USD 101 billion,
 (17:47) but is expected to be significantly higher in the next 3 years.
 (17:53) Having said that,
-(17:54) we continue to work closely with our customers to plan our capacity while sticking to our disciplines to ensure a healthy overall capacity utilization rate through the cycle.
+(17:54) we continue to work closely with our
+(18:08) customers to plan our capacity while sticking
+(18:14) to our disciplines to ensure a healthy
+(18:19) overall capacity utilization rate through the cycle.
 (18:25) Our pricing will remain strategic, not opportunistic to earn our value. We will work diligently with our suppliers to drive greater cost improvements. We will also leverage our manufacturing excellence to generate more wafer output and drive greater a cross node capacity optimization in our fab operations to support our profitability.
 (18:33) By taking such actions,
 (18:36) we believe a long-term gross margins of 56% and higher through the cycle is achievable,
@@ -320,7 +326,10 @@
 (33:25) So C.C., it definitely feels like you have heard what your customers have said to you over the last 3, 4 months.
 (33:33) Could you give us a little bit more color on what you're hearing from your customers' customers on demand
 (33:40) because this is a very big step-up in the capacity commitment.
-(34:17) There is definitely a lot of concern in the financial market, especially about whether we are in a bit of a bubble. And obviously, you are the one who is putting up all the capital in this industry. So you've definitely considered this very careful as well. So give us a little bit more detail in terms of what you're hearing from the customers and your views on
+(34:17) There is definitely a lot of concern in the financial market, especially about whether we are in
+(34:19) a bit of a bubble. And obviously, you are the one who is putting up all the
+(34:21) capital in this industry. So you've definitely considered this very careful as well. So give us a
+(34:23) little bit more detail in terms of what you're hearing from the customers and your views on
 (34:25) the cycle, given if you think about typical semiconductor cycle, we've already probably lasted a little longer than usual cycles, but this is definitely doesn't feel like a typical semiconductor cycle. Jeff Su Okay. Gokul, let me summarize your question for the benefit of those online and those in- person. So again, Gokul's question is really, he would like to hear C.C.'s views about the overall
 (34:29) AI-related
 (34:33) demand and the semiconductor cycle. So again, Gokul notes that as Wendell
@@ -446,7 +455,8 @@
 (44:53) So as I said, those cloud service providers are smart, very smart. If I knew that, I will -- anyway.
 (45:06) So they say that they work on the power supply 5, 6 years ago. So today,
 (45:15) their message to me is silicon from TSMC is a bottleneck and ask me not to pay attention
-(46:06) to all others because they have to solve the silicon bottleneck first. But indeed, we look at the power supply all over the world, especially in the U.S. Not only that, we also look at the who support those kind of power supply like a turbine, like the nuclear power plant, the plant or those kind of things. We also look at the supplier of the rack. We also look at the supplier of the cooling system, everything. So far, so good. So we have to work hard to narrow the gap between the demand and supply from TSMC.
+(46:06) to all others because they have to solve the silicon bottleneck first. But indeed, we look at the power supply all over the world, especially in the U.S. Not only that, we also look at the who support those kind of power supply like a turbine, like the nuclear power plant,
+(46:15) the plant or those kind of things. We also look at the supplier of the rack. We also look at the supplier of the cooling system, everything. So far, so good. So we have to work hard to narrow the gap between the demand and supply from TSMC.
 (46:18) Did that answer your question? Chia Yi Chen That's great to know that it will not be the constraint for the further AI
 (46:24) developments. Yes.
 (46:25) And my second question is on the leading-edge advanced packaging.
@@ -459,7 +469,10 @@
 (46:46) is roughly about 10%.
 (46:48) Yes. But now it could be up to like 20%.
 (46:52) So I'm just wondering
-(47:02) that for the expansion, can you give us more detail about what kind of the plans you are looking for. Will you focus more on like 3DIC, SoIC? Or you also start to work on more advanced like panel based in the longer term? I also think before we talk about that, we'll work more closely with OSATs partner on the
+(47:02) that for the expansion, can you give us more detail about what kind of the
+(47:07) plans you are looking for. Will you focus more on like 3DIC, SoIC?
+(47:09) Or you also start to work on more advanced like panel based in the longer term?
+(47:15) I also think before we talk about that, we'll work more closely with OSATs partner on the
 (47:17) leading-edge advanced packaging.
 (47:30) So just wondering what kind of the process will be the key expansion plan in the space. Jeff Su Okay. So Laura's
 (47:40) second question is more related to advanced packaging. What was the revenue contribution of what we call the back end, which is
@@ -482,7 +495,9 @@
 (49:15) So my first question is about outside of AI, what do you see for those end markets,
 (49:28) right? You talked about the memory costs, et cetera. So can you give us some your underlying assumption for PC
 (49:35) shipments, smartphone shipments, et cetera? And also in your HPC,
-(49:47) there are some other business like networking and general servers. Can you comment about the growth potential for those segments? Jeff Su Okay. Charlie's
+(49:47) there are some other business like networking and general servers.
+(49:48) Can you comment about the growth
+(49:50) potential for those segments? Jeff Su Okay. Charlie's
 (49:52) first question is very specific. Well, generally, he wants to know about how do we see the non-AI demand, especially in the context where the certain component costs such as memory costs are rising.
 (50:00) So he wants to know what do we see the impact on the PC and smartphone markets in terms of shipments.
 (50:06) He's also asking very specifically, what about networking, what about general server, each of these different segments.
@@ -595,10 +610,17 @@
 (57:17) about the further demand softness in this year and next year or particularly next year.
 (57:25) So can management comment about what your client or your clients' client, how to resolve
 (57:38) this memory tightness or we call memory urgency issue? Jeff Su Okay. So Arthur's
-(57:45) second question is on the impact from the memory price increase and the demand softness. I believe this question really because C.C. already shared the impact this year. He wants to know what is the impact for 2027? C.C. Wei For
+(57:45) second question is on the impact from the memory price
+(57:49) increase and the demand softness. I believe this question really because C.C.
+(57:50) already shared the impact this year.
+(57:51) He wants to know what is the impact for 2027? C.C. Wei For
 (57:53) TSMC,
-(58:02) no impact. As I just mentioned, most of my customers now focus on high-end smartphone or PCs. So those kind of demand has less sensitive to the components price. So they continue to give us
-(58:21) a very healthy forecast this year and next year. Jeff Su Okay. Thank you, C.C. All right. Let's -- operator, let's move on to the next participant from the line, please. Operator Next one,
+(58:02) no impact. As I just mentioned,
+(58:06) most of my customers now focus on high-end smartphone or PCs.
+(58:14) So those kind of demand has less sensitive to
+(58:19) the components price. So they continue to give us
+(58:21) a very healthy forecast this year and next year. Jeff Su Okay. Thank you, C.C. All right.
+(58:23) Let's -- operator, let's move on to the next participant from the line, please. Operator Next one,
 (58:28) Brett Simpson,
 (58:37) Arete. Brett Simpson My question is really on AI.
 (58:40) I mean, TSMC has been supply constrained for your AI customers,
@@ -663,7 +685,8 @@
 (63:09) Okay. So Brett's question is on pricing.
 (63:14) He notes that our --
 (63:17) which he looking at the blended wafer price
-(63:49) is increasing close to 20% according to his estimates. Of course, that's blended both on price and mix, but it's a leading edge and also we have mentioned earning our value. So he wants to know is the new normal going forward? C.C. Wei This is a tough question. I'll get the CFO to answer. Okay. Every new node that we have a price. The price will increase. The blended ASP
+(63:49) is increasing close to 20% according to his estimates. Of course, that's blended both on price and mix, but it's a leading edge and also we have mentioned earning our value. So he wants to know
+(63:51) is the new normal going forward? C.C. Wei This is a tough question. I'll get the CFO to answer. Okay. Every new node that we have a price. The price will increase. The blended ASP
 (63:54) will increase I think they continue this way in the past and will continue with the way going forward.
 (63:57) But Brett, I think you're asking about
 (63:59) the contribution from pricing to the profitability.
@@ -775,7 +798,9 @@
 (70:42) when the new node starts
 (70:44) because the corporate, as a whole,
 (70:47) the revenue has become much bigger
-(71:12) than before. So yes, revenue dollar, it's a bigger node. But percentage-wise, less meaningful. Jeff Su Okay. And then the second part of Sunny's question from a technology perspective, as she noted increasing cost per transistor, as we said, CapEx per k going higher. So the question very simply, what's the value? What's driving smartphone, HPC
+(71:12) than before. So yes, revenue dollar, it's a bigger node. But percentage-wise, less meaningful. Jeff Su Okay.
+(71:13) And then the second part of Sunny's question from a technology perspective, as she noted increasing cost per transistor,
+(71:14) as we said, CapEx per k going higher. So the question very simply, what's the value? What's driving smartphone, HPC
 (71:15) customers actually to see -- we're seeing a widening out of the adoption of N2.
 (71:17) So what is the value that is providing
 (71:18) that the customers are willing to adopt N2? C.C. Wei
