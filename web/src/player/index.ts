@@ -6,6 +6,18 @@ const esc = (s: string) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 const escAttr = (s: string) => esc(s).replace(/"/g, '&quot;')
 
+/** Count characters shared between a and b (frequency-aware bag intersection). */
+function charOverlap(a: string, b: string): number {
+  const freq = new Map<string, number>()
+  for (const ch of b) freq.set(ch, (freq.get(ch) ?? 0) + 1)
+  let count = 0
+  for (const ch of a) {
+    const f = freq.get(ch) ?? 0
+    if (f > 0) { count++; freq.set(ch, f - 1) }
+  }
+  return count
+}
+
 /**
  * Render the SRT player into `container`.
  * Returns a cleanup function to call before navigating away.
@@ -169,9 +181,17 @@ export async function renderPlayerView(
     for (const finCue of finCues) {
       let nearestGt = gtCues[0]
       let minDist = Math.abs(gtCues[0].startSec - finCue.startSec)
+      let bestSim = charOverlap(finCue.text, gtCues[0].text)
       for (const gt of gtCues) {
         const d = Math.abs(gt.startSec - finCue.startSec)
-        if (d < minDist) { minDist = d; nearestGt = gt }
+        if (d < minDist) {
+          minDist = d; nearestGt = gt
+          bestSim = charOverlap(finCue.text, gt.text)
+        } else if (d === minDist) {
+          // Tie in distance: prefer the GT cue whose text is more similar
+          const sim = charOverlap(finCue.text, gt.text)
+          if (sim > bestSim) { nearestGt = gt; bestSim = sim }
+        }
       }
       const prev = finByGt.get(nearestGt.startSec) ?? ''
       finByGt.set(nearestGt.startSec, prev ? prev + ' ' + finCue.text : finCue.text)
