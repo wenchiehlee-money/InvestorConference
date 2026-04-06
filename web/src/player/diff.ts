@@ -68,6 +68,7 @@ function mergeSpans(
   for (let i = 1; i < tokens.length; i++) {
     const last = spans[spans.length - 1]
     if (last.type === tokens[i].type) {
+      // Add a space between words of the same type
       last.text += ' ' + tokens[i].token
     } else {
       spans.push({ text: tokens[i].token, type: tokens[i].type })

@@ -125,7 +125,6 @@ export async function renderPlayerView(
     return () => { audio?.pause() }
   }
 
-  const finCueMap = new Map(finCues.map(c => [c.index, c]))
   let diffMode = hasBothSrts
 
   // ── diff toggle ───────────────────────────────────────────────────────────
@@ -140,8 +139,9 @@ export async function renderPlayerView(
     subtitleWindow.innerHTML = primaryCues
       .map(cue => {
         let textHtml: string
-        if (diffMode && gtCues.length > 0 && finCueMap.size > 0) {
-          const finCue = finCueMap.get(cue.index)
+        if (diffMode && gtCues.length > 0 && finCues.length > 0) {
+          // Find a FIN cue that overlaps or is very close in time to the GT cue
+          const finCue = finCues.find(f => Math.abs(f.startSec - cue.startSec) <= 2)
           const spans  = diffWords(cue.text, finCue?.text ?? '')
           textHtml     = renderSpansHtml(spans)
         } else {
