@@ -114,13 +114,23 @@ export async function renderPlayerView(
     gtSrt  ? fetch(gtSrt.url).then(r => r.text())  : Promise.resolve(''),
     finSrt ? fetch(finSrt.url).then(r => r.text()) : Promise.resolve(''),
   ])
-  if (gtResult.status  === 'fulfilled' && gtResult.value)  gtCues  = parseSrt(gtResult.value)
-  if (finResult.status === 'fulfilled' && finResult.value) finCues = parseSrt(finResult.value)
+  
+  if (gtResult.status === 'fulfilled' && gtResult.value) {
+    gtCues = parseSrt(gtResult.value)
+  } else if (gtResult.status === 'rejected') {
+    console.error('Failed to fetch GT SRT:', gtResult.reason)
+  }
 
-  const primaryCues = gtCues.length > 0 ? gtCues : finCues
+  if (finResult.status === 'fulfilled' && finResult.value) {
+    finCues = parseSrt(finResult.value)
+  } else if (finResult.status === 'rejected') {
+    console.error('Failed to fetch FIN SRT:', finResult.reason)
+  }
+
+  const hasAnySrt = gtCues.length > 0 || finCues.length > 0
   const subtitleWindow = container.querySelector<HTMLElement>('.subtitle-window')!
 
-  if (primaryCues.length === 0) {
+  if (!hasAnySrt) {
     subtitleWindow.innerHTML = '<p class="empty">尚無字幕檔。</p>'
     return () => { audio?.pause() }
   }
@@ -136,23 +146,39 @@ export async function renderPlayerView(
 
   // ── subtitle render ───────────────────────────────────────────────────────
   function renderSubtitles() {
-    subtitleWindow.innerHTML = primaryCues
-      .map(cue => {
-        let textHtml: string
-        if (diffMode && gtCues.length > 0 && finCues.length > 0) {
-          // Find a FIN cue that overlaps or is very close in time to the GT cue
-          const finCue = finCues.find(f => Math.abs(f.startSec - cue.startSec) <= 2)
-          const spans  = diffWords(cue.text, finCue?.text ?? '')
-          textHtml     = renderSpansHtml(spans)
-        } else {
-          textHtml = esc(cue.text)
-        }
-        return `<div class="cue" id="cue-${cue.index}" data-start="${cue.startSec}">
+    // If not in diff mode, or if we only have one SRT, just show the primary one
+    if (!diffMode || gtCues.length === 0 || finCues.length === 0) {
+      const primary = gtCues.length > 0 ? gtCues : finCues
+      subtitleWindow.innerHTML = primary.map(cue => `
+        <div class="cue" id="cue-${cue.index}" data-start="${cue.startSec}">
           <span class="cue-time">[${fmtTime(cue.startSec)}]</span>
-          <span class="cue-text">${textHtml}</span>
-        </div>`
-      })
-      .join('')
+          <span class="cue-text">${esc(cue.text)}</span>
+        </div>
+      `).join('')
+      return
+    }
+
+    // DIFF MODE: Union-based alignment
+    // We create a combined set of timestamps from both GT and FIN
+    const allStarts = Array.from(new Set([
+      ...gtCues.map(c => c.startSec),
+      ...finCues.map(c => c.startSec)
+    ])).sort((a, b) => a - b)
+
+    subtitleWindow.innerHTML = allStarts.map((start, i) => {
+      // Find the best matching cue for this timestamp in both sets
+      // (using 1s tolerance for the union points)
+      const gtCue  = gtCues.find(c => Math.abs(c.startSec - start) < 1)
+      const finCue = finCues.find(c => Math.abs(c.startSec - start) < 1)
+
+      const textHtml = diffWords(gtCue?.text ?? '', finCue?.text ?? '')
+      const displayHtml = renderSpansHtml(textHtml)
+
+      return `<div class="cue" id="cue-u-${i}" data-start="${start}">
+        <span class="cue-time">[${fmtTime(start)}] ${gtCue && finCue ? '' : (gtCue ? '<small>GT</small>' : '<small>FIN</small>')}</span>
+        <span class="cue-text">${displayHtml}</span>
+      </div>`
+    }).join('')
   }
 
   renderSubtitles()
@@ -172,8 +198,28 @@ export async function renderPlayerView(
 
   function onTimeUpdate() {
     const t = audio!.currentTime
-    const active = primaryCues.find(c => t >= c.startSec && t <= c.endSec)
-    const newEl = active ? document.getElementById(`cue-${active.index}`) : null
+    
+    // In diff mode, we need to search our synthesized union timestamps
+    let activeId = ''
+    if (diffMode && gtCues.length > 0 && finCues.length > 0) {
+      const allStarts = Array.from(new Set([
+        ...gtCues.map(c => c.startSec),
+        ...finCues.map(c => c.startSec)
+      ])).sort((a, b) => a - b)
+      
+      let index = -1
+      for (let i = 0; i < allStarts.length; i++) {
+        if (t >= allStarts[i]) index = i
+        else break
+      }
+      if (index !== -1) activeId = `cue-u-${index}`
+    } else {
+      const primary = gtCues.length > 0 ? gtCues : finCues
+      const active = primary.find(c => t >= c.startSec && t <= c.endSec)
+      if (active) activeId = `cue-${active.index}`
+    }
+
+    const newEl = activeId ? document.getElementById(activeId) : null
     if (newEl === activeCueEl) return
     activeCueEl?.classList.remove('cue-active')
     activeCueEl = newEl
