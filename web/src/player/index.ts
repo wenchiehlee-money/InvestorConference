@@ -6,16 +6,27 @@ const esc = (s: string) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 const escAttr = (s: string) => esc(s).replace(/"/g, '&quot;')
 
-/** Count characters shared between a and b (frequency-aware bag intersection). */
-function charOverlap(a: string, b: string): number {
-  const freq = new Map<string, number>()
-  for (const ch of b) freq.set(ch, (freq.get(ch) ?? 0) + 1)
-  let count = 0
-  for (const ch of a) {
-    const f = freq.get(ch) ?? 0
-    if (f > 0) { count++; freq.set(ch, f - 1) }
+/**
+ * Length of the longest common substring shared by a and b.
+ * Much more precise than character-overlap for alignment: it requires characters
+ * to appear *consecutively* in both strings, so "年成長也是24%" correctly matches
+ * the GT cue containing "年成長也是24%" rather than one that merely shares the
+ * same individual characters in a different order/context.
+ */
+function longestCommonSubstringLen(a: string, b: string): number {
+  const m = a.length, n = b.length
+  if (m === 0 || n === 0) return 0
+  let maxLen = 0
+  let prev = new Array(n + 1).fill(0)
+  for (let i = 1; i <= m; i++) {
+    const curr = new Array(n + 1).fill(0)
+    for (let j = 1; j <= n; j++) {
+      curr[j] = a[i - 1] === b[j - 1] ? prev[j - 1] + 1 : 0
+      if (curr[j] > maxLen) maxLen = curr[j]
+    }
+    prev = curr
   }
-  return count
+  return maxLen
 }
 
 /**
@@ -191,10 +202,10 @@ export async function renderPlayerView(
         )]
       }
       let bestGt   = pool[0]
-      let bestSim  = charOverlap(finCue.text, pool[0].text)
+      let bestSim  = longestCommonSubstringLen(finCue.text,pool[0].text)
       let bestDist = Math.abs(pool[0].startSec - finCue.startSec)
       for (const gt of pool.slice(1)) {
-        const sim  = charOverlap(finCue.text, gt.text)
+        const sim  = longestCommonSubstringLen(finCue.text,gt.text)
         const dist = Math.abs(gt.startSec - finCue.startSec)
         if (sim > bestSim || (sim === bestSim && dist < bestDist)) {
           bestSim = sim; bestDist = dist; bestGt = gt
