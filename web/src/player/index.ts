@@ -167,15 +167,33 @@ export async function renderPlayerView(
 
     subtitleWindow.innerHTML = allStarts.map((start, i) => {
       // Find the best matching cue for this timestamp in both sets
-      // (using 1s tolerance for the union points)
-      const gtCue  = gtCues.find(c => Math.abs(c.startSec - start) < 1)
-      const finCue = finCues.find(c => Math.abs(c.startSec - start) < 1)
+      const gtCue  = gtCues.find(c => Math.abs(c.startSec - start) < 0.5)
+      const finCue = finCues.find(c => Math.abs(c.startSec - start) < 0.5)
 
-      const textHtml = diffWords(gtCue?.text ?? '', finCue?.text ?? '')
-      const displayHtml = renderSpansHtml(textHtml)
+      let displayHtml: string
+      if (gtCue && finCue) {
+        // Check if they are fundamentally different (e.g. junk vs real text)
+        // A simple heuristic: if they have very few words in common or 
+        // one is significantly shorter than the other.
+        const gtWords = gtCue.text.split(/\s+/).length
+        const finWords = finCue.text.split(/\s+/).length
+        
+        // If they are likely totally different contents (junk at 1:49)
+        // just show them as a delete/insert pair without word-level merging
+        if (gtWords > 50 && finWords < 15) {
+           displayHtml = `<span class="diff-gt" title="FIN 缺失此長段落">${esc(gtCue.text)}</span> <span class="diff-fin" title="FIN 垃圾內容">[${esc(finCue.text)}]</span>`
+        } else {
+           const spans = diffWords(gtCue.text, finCue.text)
+           displayHtml = renderSpansHtml(spans)
+        }
+      } else {
+        const spans = diffWords(gtCue?.text ?? '', finCue?.text ?? '')
+        displayHtml = renderSpansHtml(spans)
+      }
 
+      const sourceTag = gtCue && finCue ? '' : (gtCue ? '<small>GT</small>' : '<small>FIN</small>')
       return `<div class="cue" id="cue-u-${i}" data-start="${start}">
-        <span class="cue-time">[${fmtTime(start)}] ${gtCue && finCue ? '' : (gtCue ? '<small>GT</small>' : '<small>FIN</small>')}</span>
+        <span class="cue-time">[${fmtTime(start)}] ${sourceTag}</span>
         <span class="cue-text">${displayHtml}</span>
       </div>`
     }).join('')
