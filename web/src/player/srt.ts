@@ -13,8 +13,10 @@ export interface SrtCue {
  */
 export function parseSrt(raw: string): SrtCue[] {
   const normalized = raw.replace(/\r\n/g, '\n').replace(/^\uFEFF/, '').trim()
-  if (/^\(\d+:\d+\)/.test(normalized)) {
-    return parseTurboscribe(normalized)
+  const lines = normalized.split('\n')
+  const turboscribeStart = lines.findIndex(line => /^\(\d+:\d+\)/.test(line.trim()))
+  if (turboscribeStart !== -1) {
+    return parseTurboscribe(lines.slice(turboscribeStart).join('\n'))
   }
   return parseStandardSrt(normalized)
 }
