@@ -1,0 +1,312 @@
+[METADATA]
+Source: 8299_2025_q4.m4a
+Method: Anchored Rescue + Dictionary Fix | Original Method: Anchored Rescue (Base=exp7, Language=mixed)
+Generated-At: 2026-04-09 04:49 CST
+---
+
+(00:16.060) In this call,
+(00:22.100) business highlights,
+(00:23.920) and some land market outlook.
+(02:49.180) around 13 30 percent uh
+(03:38.730) Gross margin, 41.6% is good.
+(04:12.140) I can ship today $30,
+(04:26.530) cq1 mainly collect the order from cq4 uh
+(04:52.880) 馬上實現獲利
+(04:53.880) 我們最主要的
+(04:54.960) 我們的這個鹽件呢
+(04:56.320) 都是Lizern IN在用的
+(04:57.720) 那更多的系統呢
+(04:59.260) 我們的訂單是接在第二季第三季
+(05:01.640) 那裡那是單價出貨出來第四季
+(05:04.160) 所以我們的庫存主要呢
+(05:06.540) 要給長期的這個Lizern IN客戶使用
+(05:08.740) 那由此可意見呢
+(05:10.420) 其實第一季
+(05:11.300) 我們的毛利率一定會在持續的成長
+(05:15.300) 那有分析師擔心我們的什麼低價庫存呢
+(05:18.600) 我只能說他在睡覺講夢話講太多了
+(05:20.620) 這個呢很長時間不會發生
+(05:40.070) And this EPS,
+(05:47.690) But again,
+(05:49.070) in CQ1 this year,
+(05:55.490) the order coming from CQ4.
+(05:56.930) In this so-called EPS part,
+(06:04.380) in our new tap out,
+(06:10.460) But I'm not worried about this part.
+(06:14.900) 因為後面呢我們的這個負擔會越來越輕
+(06:16.300) 因為很多關照要 take out 的都連接掉了
+(06:19.440) 所以後面的負擔變輕之後呢
+(06:21.260) 獲利相對的變得比較好
+(06:21.900) So income statement
+(06:31.040) and the CQ4
+(06:32.880) It's a 5.2 billion
+(06:34.920) I think it's a close to a 40% growth QOQ
+(06:38.960) Just we have a better profit
+(07:00.360) better future okay
+(07:35.160) 2026,
+(08:11.490) This inventory,
+(08:32.090) from low cost.
+(08:36.730) Okay.
+(08:40.190) We also share the Nantiv.
+(08:42.570) What's the difference?
+(08:50.190) And this we need to depreciate by month
+(08:53.930) So we just highlight to everyone here
+(09:01.570) The difference between TIF and NANTIL
+(09:04.440) has implemented a stock market share
+(09:09.820) Hope that can let cadres
+(09:14.320) The cost of this part is not too big
+(09:28.720) February,
+(09:34.980) But we hit the top billion revenue
+(09:43.760) it.
+(09:58.110) it.
+(09:58.570) Okay, some business highlights.
+(10:18.030) We get the share
+(10:33.250) But one thing I want to highlight,
+(10:36.690) the controller's shipment definitely,
+(10:44.320) Without Flash, who will buy controllers?
+(11:15.420) Going to the mobile,
+(11:24.280) And this is our shipment growth.
+(11:38.760) 年手機可能減少接近兩億顆表示減少兩億顆
+(11:41.260) But,
+(11:41.820) in Fison 2026,
+(11:43.760) the number of mobile controllers by 4K,
+(11:50.000) we win the share.
+(11:55.680) But of course,
+(11:56.240) human 10 times growth worldwide,
+(12:19.880) We also become the wedding niche,
+(12:25.700) to the BMC,
+(12:27.120) to a lot of automotive.
+(12:50.940) due to their every CSP,
+(12:59.240) Phison will win many, many businesses.
+(16:56.540) the top line,
+(16:57.340) the bottom line of enterprise,
+(16:58.640) now we show you here.
+(17:18.610) This is a summary in Chinese.
+(17:30.040) they had to try it.
+(17:34.840) So we not only made a product line,
+(17:36.620) we have almost a lot of what he wants.
+(17:38.460) In a server, we need EMMC,
+(17:41.100) we need SATA boot drive,
+(17:42.620) NVMe boot drive,
+(17:43.580) we need Retimer,
+(17:44.340) we need main drive,
+(17:45.180) we need customization.
+(17:45.980) In other words,
+(17:46.080) we are all attacking them one by one,
+(17:48.360) so after this incident,
+(18:21.380) no matter the price go up 10 times,
+(19:19.600) We also got the UFS,
+(19:26.380) Japan and China automotive makers.
+(20:37.190) The go to the retirement.
+(21:06.250) the server OEM,
+(21:40.390) This is our new business.
+(21:47.240) You know DRAM shortage.
+(21:53.280) Okay, AI need DRAM. No DRAM, no AI.
+(22:09.300) This is happening.
+(22:18.500) high model,
+(22:24.660) With the Phyton solution,
+(22:29.320) the whole system can run the AI.
+(22:38.470) Without DRAM, there is no AI.
+(22:40.430) Without AI, the CPU can't sell.
+(22:42.330) The PC company can't sell.
+(22:46.850) plus our solutions.
+(22:48.770) Originally, 96G can only sell one.
+(22:51.630) Now 96G can sell two, three, six.
+(23:16.000) Okay,
+(23:16.220) Fison Adaptive,
+(23:22.280) every GPU companies.
+(23:29.950) We also engaged with the many PC OEMs.
+(23:37.000) CES,
+(24:07.210) 今天電腦展所有的這個PC公司基本上都會把這個方案拿出來
+(24:08.690) 因為已經沒有選擇了,沒有D-RAM就沒有AI
+(24:27.890) So what trigger what kind of industry?
+(24:38.420) We also win a lot of Cosmic ESSP.
+(25:19.750) more cash to buy more inventory.
+(26:08.280) We got everything.
+(26:32.460) We control our R&D expense.
+(27:04.050) We keep buying the CQ1's inventory.
+(27:19.140) You have to ask yourself.
+(27:29.330) Okay.
+(27:56.260) analysts can easily,
+(28:16.580) but even I buy inventory today,
+(28:19.470) CQ3,
+(28:24.580) but we have a value to go to enterprise,
+(28:27.540) go to the AI adaptive.
+(29:42.150) There is a deliberate misguidance
+(29:48.810) But low-priced warehouses are very good
+(29:49.890) Make more money
+(29:53.010) We get a lot of business
+(29:57.930) Good things can make a lot of money
+(29:59.950) But through this low-priced warehouse
+(30:18.790) 太著重在趴數呢,很多時候呢,會這個把焦點給混濁掉。
+(30:22.530) 而且呢,讓一些這個散戶不懂的,你把它騙掉,這個沒有良心啦。
+(30:28.610) OK,
+(30:29.130) last summary,
+(30:30.090) in the last 30 years,
+(30:33.670) all the semiconductor did by Intel.
+(31:00.820) we work hard,
+(31:10.530) In the coming years,
+(31:11.230) due to Fison,
+(31:12.650) our special culture,
+(31:13.830) we invest a lot in R&D,
+(31:15.090) we try to collect cash,
+(31:17.170) we make money,
+(31:18.110) we are aggressive,
+(31:19.170) we make the fast decisions,
+(31:20.510) Fison can grow in this AI era.
+(31:33.100) Everyone follows its way of doing it.
+(32:45.780) OK, let me finish some Q&A here.
+(32:56.240) the ratio is 52%,
+(33:02.020) 56% just because we need cash.
+(33:51.900) We just approved this morning,
+(34:00.860) Why we need?
+(34:14.220) the customer needs are very strong
+(34:15.940) we have to buy the stock if possible
+(34:29.300) It's easy to get in and out
+(34:30.500) but we are doing long-term business
+(34:42.320) Controllers 16%,
+(34:53.420) retail 3%.
+(35:10.280) From this point of view,
+(35:12.660) the future growth of QNN Electronics
+(35:18.120) as well as industrial applications.
+(35:22.820) will definitely be reduced
+(35:29.440) will exceed the decline of controllers.
+(35:33.360) After two or three years,
+(35:34.980) the demand will come back.
+(36:17.920) So this is my report here.
+(36:28.780) Thank you, KS, for the promising update.
+(36:35.070) We are now opening the session.
+(36:40.000) As a reminder,
+(36:40.960) if you have questions,
+(36:53.360) My first question is about the LTA.
+(37:10.540) If yes,
+(39:01.360) And compared to maybe a few months ago,
+(39:11.400) improvement on the moment.
+(40:14.980) please unmute yourself.
+(40:21.030) Thank you,
+(40:24.460) Cass,
+(41:16.400) Okay.
+(41:30.050) Second half.
+(42:06.200) go to $20, you trade, you minus $10.
+(42:09.230) Faisal is different.
+(42:10.370) We are design-in.
+(42:19.830) fast because it's a design-in.
+(48:00.020) Okay, sir, very clear.
+(48:15.520) I don't see any difficulty.
+(48:17.120) But if we don't have a real customers,
+(48:20.580) I better not to invest right now
+(48:37.960) very clear sir. By the way,
+(49:21.740) your inventory cost should be
+(49:37.330) Yeah, everybody knows this.
+(52:15.780) uh,
+(53:20.650) by next 61, 1.9, uh, data by last meter.
+(53:34.990) I heard the rumor,
+(53:36.490) my competitors going to China,
+(53:38.530) Mojo House,
+(53:39.410) sport market flash to build the boot.
+(53:46.310) Yeah.
+(55:52.430) if I got the rich father,
+(55:56.590) but I pay 3% a year,
+(56:22.170) This year, mobile will increase.
+(56:31.380) So we good.
+(56:48.680) 現在大概500多億臺幣的庫存了
+(56:55.450) We never gave 4Ks
+(57:01.950) And CQ3, CQ4 I don't see it turn to weak
+(57:12.940) 毛利率呢, Q1, Q2 應該會維持很強
+(57:15.840) Q3, Q4 不見得會跌很多
+(57:19.920) 但是可能不會比CQ1 CQ2好除非價格在漲
+(57:25.260) 但是呢下半年的所謂的進amount的利潤呢一定會比上半年好了
+(57:27.520) 因為單價如果繼續漲上去的話
+(57:28.080) How you require prepayment?
+(57:31.460) Why you require prepayment?
+(57:33.600) I got 50 plus billion inventory today
+(57:38.530) I need to keep buying more
+(57:40.710) I need to time to cycle time to process
+(57:44.300) Customer pay me 60 days
+(57:46.200) How can I run the business?
+(57:49.380) 所以我現在需要的就是
+(57:49.940) 所以我現在需要的就是
+(57:57.790) Okay, next
+(58:11.250) I said by SRB.
+(58:12.390) We keep freight of SRB.
+(58:16.830) I use this way.
+(58:23.190) 表示說我們的庫存總容量其實是雖然過去兩個 quarter 用掉很多
+(58:25.070) 但是也補回很多,所以呢這個總容量其實不變啦
+(58:28.870) 但是因為單價提高,所以金額跟著提高
+(58:33.910) 第二題,1M26,什麼叫1M26?
+(58:38.420) Generally,
+(58:39.500) generally,
+(58:40.360) reasonable expect 1200億
+(60:22.990) we try to make the streaming smooth.
+(60:30.860) Please mute, please.
+(60:32.280) Hello, CIT.
+(60:41.460) This is not from me, okay?
+(60:42.980) This is from analyst, famous analyst.
+(60:45.860) Smartphone, most likely 200 million set.
+(60:48.870) PC, five to 10%.
+(61:32.600) NVIDIA is
+(62:22.780) I'm curious that
+(63:11.260) I'll hand it back to you.
+(63:31.050) Sorry, can you hear me?
+(63:32.560) Yes.
+(63:36.740) Just one follow up from me.
+(63:39.330) Have you considered,
+(63:41.840) I cannot remember,
+(63:56.560) But this time talking about prepayment.
+(64:07.090) So definitely we have experience.
+(64:18.220) Some under discussing, but not in rush.
+(64:22.700) Oh, okay. It made an option.
+(64:28.010) If all the condition good, why not?
+(64:32.890) Understood.
+(64:48.300) The first question is,
+(64:59.630) Yes, answer is yes.
+(65:10.820) Yes ICMS is a TLC.
+(66:01.570) Okay. I think all questions done.
+(66:15.140) Michael from KGI.
+(66:22.060) No,
+(66:22.480) I think I don't see questions here.
+(66:31.340) Yeah, maybe we will turn over to Tony.
+(66:37.490) Tony, you have a question?
+(66:40.650) Oh, no, I don't.
+(66:41.470) Okay, good.
+(66:42.610) So I think...
+(66:43.470) And next question will...
+(66:44.430) Okay, please, please.
+(66:47.250) Michael...
+(66:47.730) From Simon Wu.
+(66:48.830) Yeah.
+(66:49.310) Yeah,
+(66:49.610) thanks again. Quickly,
+(66:57.270) right?
+(66:58.370) CQ4.
+(66:59.550) Yeah. So any quarter,
+(67:01.890) the ratio will be up to 19,
+(67:05.110) 20,
+(67:05.830) 30% for the next few years?
+(67:07.990) No, I mentioned CQ1 over 30%.
+(67:10.550) I'm sorry?
+(67:28.010) Which part was the key contributor?
+(67:31.860) This page, this page, this page.
+(67:34.880) So the key contributor is all here.
+(67:39.350) It's all here. It's happening.
+(67:41.070) But design win means kind of...
+(67:52.550) Yes.
+(69:58.320) enterprise solution or AI.
+(70:05.980) Thank you. We're working really hard.
+(70:15.290) No,
+(70:15.730) the Alex Kuang. Alex Kuang,
+(70:20.290) 4Q,
+(70:21.880) 34 billion NT.
+(70:40.420) OK,
+(70:40.860) so any other questions? Crystal,
+(70:47.240) if no question,
+(70:49.420) we have to end up today's call.
+(71:59.730) We will conclude the call.
+(72:01.250) Thank you.
+(72:11.490) mistreat the investor.
+(72:12.690) This is really not right, okay?
+(72:14.410) So make some study.
+(72:15.690) You need call, you can call me.
+(72:17.090) I can share with you.
+(72:18.010) We have to be professional, okay?
+(72:20.430) Thank you.
