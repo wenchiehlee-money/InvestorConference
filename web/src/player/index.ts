@@ -7,6 +7,16 @@ const esc = (s: string) =>
 const escAttr = (s: string) => esc(s).replace(/"/g, '&quot;')
 
 /**
+ * Alignment similarity between a FIN cue and a GT cue.
+ * Only the first len(gtText) characters of finText are compared; this ensures
+ * that when a FIN cue has merged multiple GT segments into one, it aligns to
+ * the GT cue matching its *beginning* rather than one matching a later portion.
+ */
+function alignSim(finText: string, gtText: string): number {
+  return longestCommonSubstringLen(finText.slice(0, gtText.length), gtText)
+}
+
+/**
  * Length of the longest common substring shared by a and b.
  * Much more precise than character-overlap for alignment: it requires characters
  * to appear *consecutively* in both strings, so "年成長也是24%" correctly matches
@@ -182,54 +192,109 @@ export async function renderPlayerView(
     }
 
     // DIFF MODE: GT-anchored alignment
-    // Key by GT array index (not startSec) so multiple GT cues sharing the same
-    // timestamp don't collide in the map. Within a ±30s window, prefer the GT cue
-    // whose text has the longest common substring with the FIN cue text.
-    const finByGt = new Map<number, string>() // GT index → concatenated FIN text
-    for (let gi = 0; gi < gtCues.length; gi++) finByGt.set(gi, '')
-
-    for (const finCue of finCues) {
-      const WINDOW = 30
-      const pool = gtCues
-        .map((gt, gi) => ({ gt, gi, dist: Math.abs(gt.startSec - finCue.startSec) }))
-        .filter(e => e.dist <= WINDOW)
-      const candidates = pool.length > 0
-        ? pool
-        : [gtCues.reduce<{ gt: typeof gtCues[0]; gi: number; dist: number }>(
-            (b, gt, gi) => {
-              const d = Math.abs(gt.startSec - finCue.startSec)
-              return d < b.dist ? { gt, gi, dist: d } : b
-            },
-            { gt: gtCues[0], gi: 0, dist: Infinity }
-          )]
-
-      let bestGi   = candidates[0].gi
-      let bestSim  = longestCommonSubstringLen(finCue.text, candidates[0].gt.text)
-      let bestDist = candidates[0].dist
-      for (const { gt, gi, dist } of candidates.slice(1)) {
-        const sim = longestCommonSubstringLen(finCue.text, gt.text)
-        if (sim > bestSim || (sim === bestSim && dist < bestDist)) {
-          bestSim = sim; bestDist = dist; bestGi = gi
-        }
-      }
-      const prev = finByGt.get(bestGi) ?? ''
-      finByGt.set(bestGi, prev ? prev + ' ' + finCue.text : finCue.text)
+    // Use Disjoint Set Union (DSU) to group GT cues that are linked by shared FIN cues.
+    const parent = new Array(gtCues.length).fill(0).map((_, i) => i)
+    function find(i: number): number {
+      let r = i
+      while (parent[r] !== r) r = parent[r]
+      while (parent[i] !== r) { const p = parent[i]; parent[i] = r; i = p }
+      return r
+    }
+    function union(i: number, j: number) {
+      const rootI = find(i); const rootJ = find(j)
+      if (rootI !== rootJ) parent[rootI] = rootJ
     }
 
-    subtitleWindow.innerHTML = gtCues.map((gtCue, i) => {
-      const finText = finByGt.get(i) ?? ''
-      let displayHtml: string
-      if (!finText) {
-        displayHtml = renderSpansHtml([{ text: gtCue.text, type: 'gt' }])
-      } else {
-        const spans = diffWords(gtCue.text, finText)
-        displayHtml = renderSpansHtml(spans)
+    const norm = (s: string) => s.replace(/\s+/g, '').replace(/[，,、。.!！?？；;：:""''「」（）()【】\[\]—–\-…·～~]/g, '')
+    const giToFis = new Map<number, Set<number>>()
+    for (let gi = 0; gi < gtCues.length; gi++) giToFis.set(gi, new Set())
+
+    for (let fi = 0; fi < finCues.length; fi++) {
+      const finCue = finCues[fi]
+      const finNorm = norm(finCue.text)
+      if (!finNorm) continue
+
+      const WINDOW = 30
+      const candidates = gtCues
+        .map((gt, gi) => ({ gt, gi, dist: Math.abs(gt.startSec - finCue.startSec) }))
+        .filter(e => e.dist <= WINDOW)
+      
+      if (candidates.length === 0) continue
+
+      // Primary selection: alignSim trims finText to len(GT) before LCS,
+      // so a FIN cue that merges multiple GT segments matches the GT whose
+      // text appears at the *start* of the FIN cue, not the longest overall match.
+      let best = candidates[0]
+      let bestSim = alignSim(finNorm, norm(best.gt.text))
+      for (const cand of candidates.slice(1)) {
+        const sim = alignSim(finNorm, norm(cand.gt.text))
+        if (sim > bestSim || (sim === bestSim && cand.dist < best.dist)) {
+          bestSim = sim; best = cand
+        }
       }
-      return `<div class="cue" id="cue-d-${i}" data-start="${gtCue.startSec}">
-        <span class="cue-time">[${fmtTime(gtCue.startSec, true)}]</span>
-        <span class="cue-text">${displayHtml}</span>
-      </div>`
-    }).join('')
+
+      const coveredGis = [best.gi]
+      for (const cand of candidates) {
+        if (cand.gi === best.gi) continue
+        const gtNorm = norm(cand.gt.text)
+        const sim = longestCommonSubstringLen(finNorm, gtNorm)
+        // If the FIN cue covers at least 50% of this GT cue or shares 4+ chars, link them
+        if (sim >= gtNorm.length * 0.5 || sim >= 4) {
+          coveredGis.push(cand.gi)
+        }
+      }
+
+      for (const gi of coveredGis) {
+        giToFis.get(gi)!.add(fi)
+        union(coveredGis[0], gi)
+      }
+    }
+
+    const giToGroupId = new Map<number, number>()
+    const groupHtml: string[] = []
+    const processedGis = new Set<number>()
+
+    for (let i = 0; i < gtCues.length; i++) {
+      if (processedGis.has(i)) continue
+      
+      const startI = i
+      const root = find(i)
+      // Group consecutive cues belonging to the same component
+      while (i + 1 < gtCues.length && find(i + 1) === root) {
+        i++
+      }
+      const endI = i
+
+      const groupGtText = gtCues.slice(startI, endI + 1).map(c => c.text).join('')
+      const finIdSet = new Set<number>()
+      for (let k = startI; k <= endI; k++) {
+        giToGroupId.set(k, startI)
+        processedGis.add(k)
+        for (const fi of giToFis.get(k)!) finIdSet.add(fi)
+      }
+
+      const groupFinText = Array.from(finIdSet)
+        .sort((a, b) => finCues[a].startSec - finCues[b].startSec)
+        .map(fid => finCues[fid].text)
+        .join(' ')
+
+      let displayHtml: string
+      if (!groupFinText) {
+        displayHtml = renderSpansHtml([{ text: groupGtText, type: 'gt' }])
+      } else {
+        displayHtml = renderSpansHtml(diffWords(groupGtText, groupFinText))
+      }
+
+      groupHtml.push(`
+        <div class="cue" id="cue-d-${startI}" data-start="${gtCues[startI].startSec}">
+          <span class="cue-time">[${fmtTime(gtCues[startI].startSec, true)}]</span>
+          <span class="cue-text">${displayHtml}</span>
+        </div>
+      `)
+    }
+
+    subtitleWindow.innerHTML = groupHtml.join('')
+    ;(subtitleWindow as any)._giToGroupId = giToGroupId
   }
 
   renderSubtitles()
@@ -250,7 +315,7 @@ export async function renderPlayerView(
   function onTimeUpdate() {
     const t = audio!.currentTime
     
-    // In diff mode, we need to search our synthesized union timestamps
+    // In diff mode, we use the mapping to find the merged cue
     let activeId = ''
     if (diffMode && gtCues.length > 0 && finCues.length > 0) {
       let index = -1
@@ -258,7 +323,10 @@ export async function renderPlayerView(
         if (t >= gtCues[i].startSec) index = i
         else break
       }
-      if (index !== -1) activeId = `cue-d-${index}`
+      if (index !== -1) {
+        const groupId = ((subtitleWindow as any)._giToGroupId as Map<number, number>)?.get(index)
+        activeId = `cue-d-${groupId ?? index}`
+      }
     } else {
       const primary = gtCues.length > 0 ? gtCues : finCues
       const active = primary.find(c => t >= c.startSec && t <= c.endSec)
