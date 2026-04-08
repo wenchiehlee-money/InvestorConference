@@ -1286,6 +1286,16 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
             print(f"[git] {' '.join(args)}: {result.stderr.strip()}")
         return result.returncode == 0
 
+    # Find and remove old audio formats with same stem
+    stem = audio_path.stem
+    for old_audio in target_dir.glob(f"{stem}.*"):
+        if old_audio.suffix.lower() in [".mp3", ".m4a", ".wav"] and \
+           old_audio.suffix.lower() != audio_path.suffix.lower():
+            print(f"[git] Removing old audio format: {old_audio.name}")
+            git("rm", str(old_audio.relative_to(repo)))
+            if old_audio.exists():
+                old_audio.unlink()
+
     # Move audio
     target_audio = target_dir / audio_path.name
     shutil.move(str(audio_path), str(target_audio))
