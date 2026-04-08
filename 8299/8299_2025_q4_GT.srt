@@ -1,1631 +1,1631 @@
-(00:00) 謝謝大家今天參加
-(00:02) Pfizer的Full-Squadron Results Conference的會議
-(00:05) 我的名字是Estoria Chen
-(00:07) 我來自Sinopec的COST
-(00:11) 今天我們很榮幸邀請到KF
-(00:13) Pfizer的總經理與我們一起
-(00:16) 在這個會議中
-(00:18) KF會首先提供一些更新
-(00:20) 關於Pfizer的Full-Squadron Results
-(00:23) 商業分析和市場的更新
-(00:26) 接著我們會開啟會議中的問題
-(00:31) 請記住
-(00:33) 如果您有任何疑問
-(00:35) 在這個會議中
-(00:36) 可以寫下您的疑問在聊天室
-(00:38) 我們會為您提出疑問
-(00:40) 現在我會讓KF來回應您的問題
-(00:45) 謝謝KF
-(00:46) 謝謝
-(00:48) 早上好
-(00:49) 各位先生女士們
-(00:51) 今天會議的主題是
-(00:53) 2025 CQ4和2025 Earnings Call
-(01:03) 這是我們Devenue的4Q分析
-(01:06) 我想在這裡分享幾分鐘
-(01:09) 控制器本身
-(01:11) Devenue的數量正在增加
-(01:13) 但比例正在下降
-(01:14) 因為Devenue的比例增加太多
-(01:18) 消費者來說
-(01:19) 您可能會有些疑問
-(01:20) 為什麼CQ4的比例增加
-(01:23) 因為在CQ3
-(01:25) 我們有很多銷售商
-(01:27) 他們擔心CQ4的市場可能下跌
-(01:31) 他們放置訂單
-(01:32) 他們不想推進
-(01:33) 他們推出
-(01:34) CQ4後來推進
-(01:37) 價格下降
-(01:38) 所以
-(01:39) 這就是為什麼
-(01:40) 這增加了很大的數字
-(01:42) 但是
-(01:44) 這個數字
-(01:45) 稍微降到一個數字
-(01:47) 因為現在我們主要關注
-(01:49) 非消費者的生意
-(01:51) 還有價格
-(01:52) CQ4是10%
-(01:58) 其實我們做了很多設計
-(02:00) 我會跟您分享
-(02:01) 我們做了很多設計
-(02:03) 從去年CQ3到CQ4
-(02:07) 在這個CQ1
-(02:09) 企業SSD的比例
-(02:11) 會超過30%的非消費者
-(02:15) 在2026年
-(02:17) 我相信
-(02:18) 是企業生產的最大部分資金
-(02:22) 我們做了很多設計
-(02:23) 我們也累積了很多
-(02:27) 企業生產的元素
-(02:29) 然後到
-(02:30) OEM設計
-(02:32) 主要是手機和電腦
-(02:35) 您知道
-(02:36) 供應鏈太緊繃
-(02:37) 我們幾乎每個品牌
-(02:40) 都贏得了設計
-(02:42) 所以這也帶來很大的
-(02:46) 資金的部分
-(02:48) 是非常穩定的
-(02:50) 大約13-13%
-(02:53) 我們在去年的主要的
-(02:55) 營業活動
-(02:56) 控制的是營收增加的單位
-(02:58) 但是佔比減少，消費類主要是因為CQ3很多客戶不看好，就把訂單推到CQ4
-(03:05) 但是後來在漲價情況底下，他們把它拿走，所以金額就增加了
-(03:10) 在企業級部分，我們其實工作的很努力
-(03:13) CQ4從10%開始，CQ1已經看到超過30幾%的一個營收
-(03:19) 這個比例會非常的一個快速的成長
-(03:25) 所以
-(03:27) CQ4的增值是9.5億美元，是全球的增值
-(03:33) CQ5的增值是22億美元，也是全球的增值
-(03:39) CQ4的增值是41.6%
-(03:41) 有些投資者會問，為什麼CQ5的增值只有41%
-(03:48) 為什麼沒有其他比如說Motorhouse的增值50%
-(03:51) 我想和大家分享一下，Fisern的業務不是交易
-(03:55) 我們是設計在內，設計在外，還有長期供應
-(03:59) 很多的訂單，我們會在CQ4購買，主要是在CQ2和CQ3購買
-(04:04) 這是一個設計在內，設計在外的業務
-(04:08) 如果我的業務是交易，我會比較容易，我可以在上個月買10美元，我可以在今天購買30美元
-(04:14) 但是我們不會做交易
-(04:17) 所以CQ4的增值是41%,我們相信CQ1的增值會有所改善
-(04:25) 因為CQ1的訂單，主要是從CQ4購買的訂單
-(04:34) 因為一直有被問到說，這個為什麼群聯的毛利利第四季會是這個41%不像其他的什麼40幾%50%等等的
-(04:43) 我是要澄清一下，群聯電子的生意，我們不是貿易體系
-(04:46) 貿易體系其實很簡單，我買一個顆粒進來5塊錢，下個月20塊錢把它賣掉，那就馬上實現獲利
-(04:54) 我們最主要的，我們的這個元件都是Design-in在用的
-(04:58) 那更多的系統，我們的訂單是接在第二季第三季，那是單價出貨出來第四季
-(05:05) 所以我們的庫存主要要給長期的Design-in客戶使用
-(05:09) 那由此可預見，其實第一季我們的毛利利一定會在持續的成長
-(05:14) 那有分析是擔心我們的什麼低價庫存呢，我只能說他在睡覺講夢話想太多了，這個呢很長時間不會發生了
-(05:25) So the earning EPS is 21.7, because later we share with you, we also have increased our R&D expense in the R&D activity and also the new master tap out
-(05:40) And this earning per share, I think to find some is really, we are proud and comfortable
-(05:48) But again in CQ1 this year, we can see the slightly improve on this, because the shipment in CQ1, the order coming from CQ4
-(05:58) 在這個所謂的EPS部分呢，我們在第四季其實也大量的這個在獎金，在我們的這個新的tap out,我們任列了這個光照
-(06:08) 所以在費用上面增加了不少，但是對於這部分呢我不擔心，因為後面呢我們的這個負擔會越來越輕，因為很多光照要tap out的都任列掉了
-(06:18) 所以後面的負擔變輕之後呢，獲利相對的變得比較好
-(06:25) So income statement, I think I like to share with you is mainly our R&D expense in the CQ4
-(06:33) It's a 5.2 billion, I think it's close to the 40% growth QOQ
-(06:39) Just we have a better profit, we need to have a more compensation to our staff and also increase a few master out and also increase some test equipment
-(06:49) So this is the reason the expense increase, but Pfizer is different with other company, when we make good money, we make investment, this to create our better future
-(07:02) OK,在這個研發費用部分確實增加，主要是因為公司好的獲利獎金自然的要提列
-(07:10) 然後新的光照，我們明年有大量光照，就從去年看今年有大量光照，我們開始部分就來任列，把費用先任列掉
-(07:19) 那讓後面的經營變得比較的輕盈
-(07:24) This is 25, our income statement, revenue is all time high
-(07:29) R&D expense is go to the 13 billion, still increase, but I need to give a highlight
-(07:35) 26, R&D expense definitely increase because we have more new design in the advanced design, the 4nm and some other new technology development
-(07:46) But overall, we believe this investment will bring us Pfizer the better return in the future
-(07:53) So this is what's the difference between Pfizer and other company
-(07:56) In the balance sheet, cash flow is still doing good
-(08:05) Inventory wise, we have around 35 billion inventory by NCQ4
-(08:12) This inventory, to be honest, is not low cost inventory, it's a very low cost inventory
-(08:18) Because we have committed this for many months
-(08:21) I don't want to keep highlighting low cost, but since analysts question about low cost
-(08:26) So I want to highlight, we have a good enough low cost
-(08:30) But Pfizer's value is not only coming from low cost, it's coming from our design, our products and our innovation
-(08:40) We also share the Nantive, what's the difference?
-(08:44) I think the gap is slightly small, just because we issue the stock option to our staff
-(08:50) And this we need to depreciate by monthly, so this increase some overhead
-(08:54) So we just highlight to everyone here
-(08:56) No other difference, only mainly is the stock option expense
-(09:02) TIF and Nantive, the main difference is Nantive has issued a stock option to all staff in the second half of last year
-(09:09) So we hope that the staff will have better motivation to develop the company
-(09:14) So the cost of this part is not too large, relatively small
-(09:19) But this can stimulate more employees to create more motivation to reach our growth
-(09:29) February, working days is smallest in the year, but we hit the top billion revenue
-(09:39) And definitely March, we can see the other big growth, because we can't stop it
-(09:45) 整個人力我們現在停不下來，整個市場需求真的是
-(09:50) 現在不需要再花時間講缺貨，講缺貨浪費時間
-(09:54) 我們努力希望能夠不要出貨太積極
-(09:58) 但是擋不下來
-(10:01) OK, some business highlight
-(10:03) Client controller you supply, for instance, the control shipment growth 490%
-(10:09) 490% worldwide, revenue will grow for 50%
-(10:13) This means what? We win the share, we gain the share
-(10:18) 我們得到了市佔率
-(10:20) You may agree, the name flash is getting tight supply
-(10:24) Means the shipment of SSD is going to decline
-(10:28) But our controller still growing, means we win the market share
-(10:33) But one thing I want to highlight, 26th coming quarters
-(10:37) The controller shipment definitely, obviously is going to declining
-(10:42) Controller在2026年一定會下降，沒有flash,誰會買controller
-(10:47) 如果有人說2026年controller會成長，我必須說那可能在講夢話，因為沒有flash
-(10:53) But Phison we OK, why? Because we have a control business
-(10:56) We also have our module business, which can compensate our revenue
-(11:01) We grow from the modules, and we can grow from our gross profit
-(11:05) So in the client SSD, we win the share, we win the gross margin
-(11:10) We also win the business, so we are very comfortable about this performance
-(11:17) Going to the mobile
-(11:18) Phison is the biggest mobile controller supplier at the year 2025
-(11:24) And this is our shipment growth
-(11:26) Again, if you keep doing the report, 26th mobile phone may decline more than 200 million set
-(11:34) 2026年手機可能減少接近2億顆，表示減少2億顆controller
-(11:39) 所以controller成長性會有問題
-(11:41) But Phison 2026, the mobile controllers by forecast, we still increase
-(11:48) Because we win the design win, we win the share
-(11:52) Also our module shipment, you can see is unbelievable
-(11:56) But of course, shipment 10 times growth, why?
-(11:59) Revenue 12 times growth, why? Because of price and we win the share
-(12:04) Then analysts may ask, oh, you consume too many your inventory
-(12:08) Don't worry, don't worry, we still can use for many, many, many months
-(12:13) Don't worry, okay?
-(12:16) So in mobile, we are the biggest controller supplier
-(12:20) We also become the very niche customized module supplier
-(12:24) To the industrial, to the BMC, to a lot of automotive
-(12:29) This helping Phison to gain much better the gross margin profit
-(12:36) Then we go to talk about our enterprise
-(12:40) 2025 CQ4 is a small business to us
-(12:44) But from now on, enterprise will be Phison biggest, our biggest business
-(12:49) So due to the AI, due to the every CSP, near cloud, hyperscale, server makers
-(12:56) They are looking for a lot of SSD
-(12:58) Phison, we win many, many business
-(13:01) So this later I would like to bring down to you
-(13:04) Phison now we combine boot drive, main drive, customer drive, AI drive
-(13:09) EMMC, retimer, we have almost every storage need in the AI ecosystems
-(13:18) And we are proud of that
-(13:20) We also putting our Pascari into the tier 1 NAS customers
-(13:25) Due to the NAND shortage, a lot of tier 1, tier 2, tier 3, tier
-(13:29) No matter what tier, they came to Phison to ask for cooperation
-(13:33) Because of this, we win so many design window
-(13:36) So my people, they are already working hard
-(13:38) That's why we need to pay more bonus to them
-(13:41) So this slide is very important for today's meeting
-(13:44) I like to share to you one by one
-(13:48) This is mainly we call the boot drive
-(13:52) Name makers, now they focus mainly to the main drive
-(13:56) They work away from boot drive
-(13:57) Phison now become the important supplier in the boot drive
-(14:02) Here I want to bring down
-(14:03) We win the two tier 1 CSP
-(14:08) The big name
-(14:10) The shipment starting
-(14:12) One already start to ship
-(14:14) The other one start from coming May
-(14:16) Means after two months
-(14:17) It's a big CSP
-(14:20) The tier 1 OEM who are selling the servers
-(14:23) We win their boot drive
-(14:26) And the shipment starting from second half
-(14:28) Today they are auditing Phison in my Phison headquarters
-(14:33) Hyperscale, we got the two new design window
-(14:36) Mainly US customers
-(14:40) AI platform
-(14:41) You know who is AI platform
-(14:43) So we got the one design window
-(14:45) We are there and we try to gain the more design window
-(14:48) A lot of project customized is ongoing
-(14:52) And talking about the main storage
-(14:55) We also got the tier 1 OEM who are making the server
-(14:58) We got two design window
-(15:01) One, the other one is coming
-(15:03) Due to the SA shortage
-(15:04) We are getting more tier 1
-(15:09) Today the tier 1
-(15:11) They are executive here
-(15:13) In the meeting they are very open-minded
-(15:15) They said hey, they never look to tier 2
-(15:18) They don't know who is Phison
-(15:19) But few months ago due to shortage
-(15:21) They have to but they doubt Phison can make it or not
-(15:24) So they visit here
-(15:26) Stay few days, we open the lab
-(15:28) We work with them, they are surprised
-(15:30) So we win not only one project
-(15:32) We win all the potential supply chain projects
-(15:36) So not only one model
-(15:38) We almost win every model
-(15:40) Because we have good enough engineers
-(15:42) Supply chain, the product mix
-(15:45) And also we have a very good inventories to supply
-(15:49) So we also win the hyperscale 2
-(15:53) By the way, this 2 is big
-(15:54) By the way, it's very famous right now
-(15:58) And the AI storage 7
-(16:01) Every storage supply to the AMD
-(16:04) NVIDIA ecosystem
-(16:06) We almost win everyone
-(16:08) We ship the main drive to them
-(16:10) The infrastructure software
-(16:12) Is mainly provide software
-(16:13) We got 2 new design in
-(16:15) Hopefully shipment happen by CQ4
-(16:17) Enterprise AI customers
-(16:20) 2 design win
-(16:21) This also is a big guy
-(16:23) Mainly supply the brand AI server
-(16:27) To the worldwide market
-(16:28) And we also win the big QLC qualifier
-(16:32) And we shipping 1 SR5
-(16:35) Of QLC enterprise SSD
-(16:38) From February
-(16:40) From last month
-(16:41) And 1 SR5 have to ship until May
-(16:44) So this is our record
-(16:46) 1 SR5 enterprise SSD
-(16:48) 122 terabyte
-(16:49) We ship to the tier 1 CSP
-(16:51) So if you don't believe
-(16:55) Ryzen can gain the W
-(16:56) The top line
-(16:58) The bottom line of enterprise
-(16:59) Now we show you here
-(17:01) This is all our design win
-(17:04) And more are coming
-(17:07) Because the solution is ready
-(17:09) We have so many product mix
-(17:12) And we have enough R&D resources
-(17:14) By the way, we have the good supply
-(17:17) From our NAND suppliers
-(17:20) 這邊中文總結一下
-(17:22) 有曾經還是懷疑
-(17:23) 全聯電子在enterprise裡面的佈局
-(17:25) 都說這個不可能
-(17:27) 但是今天我們達出來
-(17:29) 因為遇到市場缺貨
-(17:30) 他們不得不來試看看
-(17:32) 試過之後才發現這個地方真的好用
-(17:35) 所以我們不只做一個產品線
-(17:37) 我們他要的我們幾乎都
-(17:38) 一個server裡面需要EMMC
-(17:41) 需要SATA boot drive
-(17:43) NVMe boot drive
-(17:44) 需要retimer需要main drive
-(17:45) 需要客製化
-(17:46) 我們通通一次性一站式的來攻擊他們
-(17:51) 所以經過這個事件之後
-(17:53) 我們會得到更多更多威力
-(17:55) 更多的未來的生意機會
-(17:56) 我們現在只是煩惱
-(17:57) 錢不夠用庫存不夠用
-(18:00) 那現在我們在解決錢和庫存的問題
-(18:05) 這是我們想和大家分享的
-(18:07) 如果我們去購物
-(18:10) PChome或Amazon
-(18:11) 或去購物商
-(18:14) SSD的購買會下降
-(18:16) 因為價格太高
-(18:17) 但在工業方面他們必須購買
-(18:19) 因為他們必須購買每一件產品
-(18:21) 無論價格上升10倍
-(18:23) 10倍20倍30倍
-(18:24) 他們仍然必須購買
-(18:25) 所以Pfizer現在會把更多的供應鏈
-(18:29) 放到Embedded Design Business
-(18:32) 這主要是在自動化方面
-(18:34) 我覺得我們有太多的名字
-(18:36) 我不想花時間在這裡
-(18:37) 我只想給大家展示
-(18:39) 幾乎每一個平臺
-(18:40) 每一個中國OEM都面臨庫存的短缺
-(18:45) 所以我們有足夠的
-(18:47) 再一次我想重複
-(18:49) Anna Lee說Pfizer是低成本的庫存
-(18:51) 讓我提醒大家
-(18:52) 我們有一個元件
-(18:54) 我們保留了超過30萬件
-(18:57) 30萬件
-(18:59) 價格從2美元
-(19:01) 現在升到25美元
-(19:03) 我們保留這個
-(19:04) 只供應自動化
-(19:06) 所以30萬件庫存
-(19:08) 可以持續多年
-(19:10) 所以很多自動化的庫存
-(19:13) 他們來訪問Pfizer
-(19:14) 要Pfizer供應給他們
-(19:17) 所以不僅是低成本
-(19:20) 我們也有UFS
-(19:21) 我們有BGA
-(19:22) 我們有很多的設計
-(19:24) 有美國 歐洲 日本
-(19:26) 還有中國的自動化製品
-(19:30) 所以Consumer Products Portable SSD
-(19:33) 我們有一個專案
-(19:34) 跟南韓OEM合作
-(19:36) 他們獲得了獎項
-(19:37) 是Pfizer的產品
-(19:39) 是第一款USB Gen 4自動化控制器
-(19:43) 在MicroSD卡
-(19:44) SD卡是歷史
-(19:45) 但我們不再在市場上
-(19:48) 我們主要在遊戲
-(19:51) 自動化
-(19:53) 我們獲得了一張EB卡
-(19:55) 我們也會獲得
-(19:58) 更多的機械製品
-(20:00) OK
-(20:01) 這都是關於設計
-(20:03) 客戶的信任
-(20:06) OK
-(20:09) 一級的日本客戶
-(20:13) OK 我們再回到
-(20:14) Retirement Determiner
-(20:15) 這裡有幾個關鍵的分析
-(20:17) Pfizer是最大的
-(20:19) 5.0 Determiner供應者
-(20:21) OK
-(20:22) Pfizer 6.0 Determiner
-(20:25) 我們開始運輸
-(20:28) 到伺服器
-(20:29) OK 主要運輸到自動化
-(20:31) 我們獲得了這麼多的調查
-(20:33) PCIe Determiner 6
-(20:35) OK
-(20:37) 我們再回到Retirement
-(20:40) 由於Inference
-(20:42) 開始受歡迎
-(20:44) 最近我們獲得了一個大專案
-(20:46) 基於B300平臺
-(20:49) 是幾百萬件的Retirement
-(20:52) 遺憾的是我們沒有儲備
-(20:53) 所以我們請TSM供應我們
-(20:55) 現在我們開始運輸Retirement
-(20:57) 到100萬件每專案
-(21:00) 因此我們獲得了這項任務
-(21:04) 順帶一提 由於很多
-(21:06) CSP
-(21:08) 伺服器 OEM
-(21:09) 他們面臨儲存的短缺
-(21:12) 他們來找Pfizer幫忙
-(21:14) Pfizer供應他們Boot Drive
-(21:16) 供應他們Main Drive
-(21:18) 我們也幫助了Retirement
-(21:20) 我們希望他們接受我們的Retirement
-(21:21) 由此我們獲得了優惠
-(21:24) 伺服器現在缺SSD
-(21:26) 缺開機碟
-(21:28) 他們找我們幫忙
-(21:29) 我們很樂意幫忙
-(21:30) 但是同時也有請求
-(21:32) 把Retirement bundle在一起銷售
-(21:34) 所以我們也因為這樣子
-(21:35) 打進去好幾家的伺服器公司
-(21:38) 開始使用我們的Retirement
-(21:41) 這個是我們新的生意
-(21:44) OK 到Adaptive
-(21:46) 我們繼續談Adaptive
-(21:50) 上星期說
-(21:51) CQ2的價格升了50%
-(21:53) OK
-(21:56) AI需要DRAM
-(21:57) 沒有DRAM沒有AI
-(21:59) Pfizer我們使用
-(22:00) 我們的Sysadaptive
-(22:02) 儲存解決方案來啟動AI
-(22:05) 這是證明
-(22:06) 我不想再花時間解釋了
-(22:08) 這是正在發生的
-(22:12) 所以很多PC
-(22:14) 手機 伺服器
-(22:18) 他們需要DRAM
-(22:22) DRAM很昂貴
-(22:23) OK
-(22:24) 我們使用Fizer解決方案
-(22:26) 降低DRAM
-(22:27) 解決方案降低價格
-(22:30) 整個系統可以運作AI
-(22:33) OK
-(22:35) 簡單重點就是
-(22:37) AI要走入地端
-(22:39) 沒有DRAM就沒有AI
-(22:40) 沒有AI CPU賣不掉
-(22:42) PC公司賣不掉
-(22:44) 群演把DRAM的容量降低
-(22:47) 加上我們的方案
-(22:49) 你本來96G只能賣一臺
-(22:52) 你現在96G可以賣兩臺
-(22:53) 可以賣三臺
-(22:54) 可以賣六臺
-(22:56) 加上群演方案
-(22:57) 它跑得動
-(22:58) 你的產出就增加
-(23:00) 這個誰高興
-(23:01) 賣CPU的高興
-(23:03) 做PC的高興
-(23:04) 賣PC的更高興
-(23:06) 因為有東西可以賣
-(23:07) 買PC的高興
-(23:09) 它買得到相對便宜的AI PC
-(23:10) 所以這個已經在發生中了
-(23:15) OK
-(23:17) Fizer Adaptive
-(23:18) 我們已經與
-(23:21) 每個CPU公司合作
-(23:22) 每個GPU公司合作
-(23:24) 我們也開始與
-(23:27) 手機公司合作
-(23:28) 我們也與名人合作
-(23:30) 我們也與很多PC OEM合作
-(23:34) 這是給大家看的
-(23:37) CES我們有一些
-(23:38) demo
-(23:40) 我們有一些產品
-(23:43) 這是一個模型
-(23:45) 正在進入市場
-(23:46) OK
-(23:47) 所以Computex
-(23:49) 這個月
-(23:50) 你可以看到
-(23:51) Fizer AI的解決方案
-(23:53) 在哪裡
-(23:54) 每個AI機器
-(23:56) 絕對會與
-(23:58) Fizer Adaptive的AI解決方案合作
-(24:00) 因為我們可以
-(24:01) 降低成本
-(24:02) 讓它變得更受歡迎
-(24:04) 今天電腦展所有的PC公司
-(24:06) 基本上都會把這個方案拿出來
-(24:08) 因為已經沒有選擇了
-(24:09) 沒有DWAM就沒有AI
-(24:11) 那有了我們方案
-(24:12) 就可以把任何一臺
-(24:14) 有小算力的CPU
-(24:16) 把它轉成是AIPC
-(24:19) 所以
-(24:20) Fizer
-(24:22) 我們不再是消費者
-(24:23) 我們不再是交易
-(24:25) 所以AI正在發生
-(24:26) AI影響正在來臨
-(24:28) 所以
-(24:29) 影響什麼樣的工業
-(24:31) AI影響
-(24:32) Fizer我們贏得了很多的配置
-(24:34) 如我所說
-(24:35) 我們有CSP
-(24:36) 我們有OEM
-(24:37) 我們有Hyperscale
-(24:39) 我們也贏得了很多Cosmic ESSP
-(24:41) OK
-(24:42) Devon News 給你們看
-(24:43) CQ1
-(24:44) Doomfield Supplies
-(24:46) 我們贏得了Retirement Determiner
-(24:48) 因為我們有Bundle
-(24:50) EMMC低能耗
-(24:52) 我們持有30MPS
-(24:54) 供應到自動化
-(24:56) 供應到OEM
-(24:59) 然後
-(25:00) 到Edge機器
-(25:01) 如我所說
-(25:03) AIPC
-(25:05) 與Intel AMD CPU
-(25:07) 與Adaptive
-(25:08) 是由Computex發生的
-(25:11) 因此
-(25:14) 因此
-(25:15) Fizer現在
-(25:16) 我們正在努力購買更多現金
-(25:19) 購買更多儲存
-(25:23) 所以
-(25:24) 今天Fizer
-(25:25) 我們正在進行
-(25:26) 複雜的儲存解決
-(25:28) 在AI ecosystem
-(25:31) 我們提供了控制器
-(25:33) 我們提供了儲存模組
-(25:35) 我們提供了Enterprise SSD
-(25:37) 我們提供了Adaptive Solution
-(25:39) 我們提供了Retirement
-(25:42) 還有我們的客戶AI服務
-(25:45) 我們也在幫助一些
-(25:47) 組織
-(25:48) 去發展
-(25:50) 空間資料儲存系統
-(25:54) 我們幫助發展系統
-(25:56) 所以CQ2
-(25:57) 我們會向你們報告
-(25:59) 我們正在建立儲存系統
-(26:01) 為專業應用
-(26:03) 所以Fizer是完全不同的
-(26:06) 我們正在進行儲存系統
-(26:08) 我們得到了一切
-(26:10) 去年已經轉型
-(26:12) 從過去的消費者到Embedded
-(26:14) 現在基本上
-(26:15) 所有的AI裡面的方案
-(26:18) 我們基本上都有
-(26:19) 現在唯一的頭痛的就是
-(26:21) 錢不夠用
-(26:22) 跟貨不夠用
-(26:26) 所以R&D的成本
-(26:28) 仍然保持在20%
-(26:30) 我們不會聘請那麼多工程師
-(26:32) 我們控制我們的R&D成本
-(26:34) 我們嘗試使用AI來提升
-(26:36) 我們的R&D效率
-(26:40) OK
-(26:41) 這篇文章
-(26:42) 我需要花點時間
-(26:43) 因為Analyst說
-(26:44) 低成本儲存系統
-(26:46) OK
-(26:48) 我們從這部分開始
-(26:50) CQ2我們買儲存系統
-(26:52) 同一天
-(26:53) 這個儲存系統是高成本
-(26:55) 在那天
-(26:56) 但是去到
-(26:59) 兩年半後
-(27:00) 這個變成低成本
-(27:01) 所以Analyst說
-(27:03) 你開心
-(27:05) 我們一直買CQ1的儲存系統
-(27:08) 哦，這是高成本
-(27:10) 然後問題是
-(27:11) 一年半後
-(27:12) 價格保持低
-(27:16) 保持低還是增長
-(27:18) 你要問問自己
-(27:20) 每兩三個月
-(27:22) 價格增長50%
-(27:23) 所以我需要儲存儲存系統
-(27:25) 給我的供應商
-(27:26) 所以我們相信
-(27:27) 價格仍然會增長
-(27:30) OK
-(27:31) 我們假設
-(27:32) 這是增長X
-(27:35) 這是Y
-(27:36) 這是Z
-(27:37) Y絕對大於Z
-(27:40) 因為你說是低成本
-(27:42) 這正在發生
-(27:43) 那麼問題是
-(27:44) Z會低於Y
-(27:46) 你可能對
-(27:48) 你可能錯
-(27:49) 我不知道
-(27:50) 但是問題是
-(27:53) 這是10歲的學生
-(27:55) 數學
-(27:56) OK
-(27:57) 不要太狹窄
-(27:58) OK
-(27:59) 閱讀
-(28:01) Z低於Y
-(28:03) 所以什麼
-(28:05) 我們獲得了增長
-(28:06) 最終
-(28:08) EPS來自增長
-(28:10) 並不是來自百分比
-(28:12) 所以你為什麼擔心
-(28:14) 低成本儲存
-(28:15) 儲存可以消耗很多年
-(28:17) 但是
-(28:18) 即使我今天買儲存
-(28:20) CQ3
-(28:21) 我們相信價格仍然
-(28:23) 可以保持高
-(28:25) 但是我們有價值
-(28:27) 去Enterprise
-(28:28) 去AI Adaptive
-(28:29) 這會幫助Physon
-(28:31) 獲得更多增長
-(28:33) 給更多EPS
-(28:36) 所以總結在這裡
-(28:39) 如果沒有事發生
-(28:41) Physon顯示我們的增長
-(28:42) 37%
-(28:43) 以及前面的3%
-(28:46) CQ4
-(28:48) 根據測試
-(28:49) 低成本
-(28:50) 40%增長
-(28:52) 接下來
-(28:55) 我不知道
-(28:56) 如果我能夠50%或者60%
-(28:59) 我們來看看
-(29:00) 時間會告訴我們
-(29:01) 不過
-(29:02) But one thing for sure is, revenue increase, gross profit increase, at the end, EPS increase a lot.
-(29:14) And I have a confidence, in this period, the gross margin definitely will be bigger than our regular.
-(29:22) This I have a confidence.
-(29:23) So, don't be that shallow.
-(29:25) Use a simple mathematics and the low cost inventory.
-(29:28) So, we have our own value, not only low cost.
-(29:32) We got so many activity R&D, we win everything.
-(29:35) 這邊我要澄清，因為一些分析真的膚淺，而且呢，我不曉得是不是有故意的誤導，用一個簡單的數學去講一些東西。
-(29:46) 但是，群聯的價值不來自於低價的庫存。
-(29:49) 但低價庫存很好，多賺錢嘛。
-(29:51) 因為低價庫存可以得到更多的design機會，我們得到很多的生意。
-(29:55) 保證未來的客戶群和營收是好事。
-(30:01) 但是透過低價庫存賺到錢，投資研發得到機會，我們一直努力擴大以後的版圖。
-(30:10) 更重要的是，透過這個努力可以一直創造更好的最後的EPS,這才是我們要的。
-(30:17) 太著重在爬樹，很多時候會把焦點給混濁掉，而且讓一些散戶不懂的，你把他騙掉，這個沒有良心。
-(30:29) 最後，總結。
-(30:31) 在過去30年，所有的半導體都是由英特爾做的。
-(30:37) 英特爾告訴你5年的規劃，5年你想做什麼。
-(30:40) 所有的生態系統都跟隨英特爾。
-(30:43) 今天AI,NVIDIA每年都在改變模式。
-(30:48) 所有的生態系統，老實說，他們不知道該怎麼做，因為改變得太快了。
-(30:53) 5成的價值來自於NVIDIA。
-(30:57) 我們很靈活，我們有資源，我們很激進，我們很努力，我們可以跟隨AI的動力。
-(31:08) 這就是5成的優勢。
-(31:10) 在未來的幾年，由於5成的特殊文化，我們投資了很多R&D,我們嘗試收集現金，我們賺錢，我們很激進，我們做了快速的決定。
-(31:21) 5成可以成長在這個AI時代。
-(31:26) 過去的三四十年，英特爾帶領大家半導體的路。
-(31:30) 他告訴你今年什麼CPU,明年什麼CPU,五年什麼東西。
-(31:33) 大家跟著他的方式做，按部就班。
-(31:36) 在那個情況下，只有大型公司有資源才能得到那個機會，小公司很難。
-(31:43) AI每一年變一個世代，很多大型公司的決策跟得比較慢，反而創造了機會給全聯電子。
-(31:51) 全聯電子的機會在於什麼？
-(31:54) 我們有充足人力資源，有很好的IP portfolio,有成熟的產品線，還有重要的是人員的穩定性。
-(32:02) 公司有錢，賺錢，捨得花錢。
-(32:05) 那因為AI變化很快，我們跟進變化更快，所以我們贏到了很多很多的生意。
-(32:12) 所以看全聯電子不要再看全聯電子第一家庫存，第一家庫存好事，那是天上掉下來的，不拿白不拿。
-(32:19) 但是因為這種情況底下，我們會有更好的投資，得到更好的將來。
-(32:26) 所以感謝NVIDIA創造這個AI機會，讓我們這種彈性的公司可以得到成長。
-(32:31) 不然全聯電子憑什麼拿到剛才講的Enterprise這麼多的Design In呢？
-(32:36) 在過去這是不可能的，人家看你都不看你啦。
-(32:39) 但是因為這個機會，我們得到之後，全聯電子的紀錄是隻要拿下來了，這輩子就是我們的，而且會擴大。
-(32:48) OK,讓我來結束這個Q&A。
-(32:51) 債券，我們決定第二半17NT,為什麼呢？
-(32:57) OK,比例是52%,整個一年是55%,56%。
-(33:02) 就因為我們需要現金，我們需要保留儲存，我們需要買儲存，我們需要做服務給生態系統。
-(33:10) 所以今年我們在債券上有一點點保守，希望你們能夠理解。
-(33:14) 但是現金保留在Physon手上，會幫助Physon增長更多的生意。
-(33:19) 我們決定去年配17塊是52%,整年度是56%,主要是我們需要大量現金，因為庫存已經拉到快500億了，已經超過500億了，我們需要大量現金。
-(33:33) 500億不是我想拉，是因為客戶的需求，下半年需求，我要先把東西買下來，然後等到產出給他錢拿回來一段時間，所以我需要大量的現金。
-(33:41) 我希望經過這個高峰期之後，全年現金水位充足，在未來時間裡面我們再加大配股息的比例。
-(33:53) 我們今天早上就透過了，我們和銀行簽訂了400多億的信義貸款，為什麼我們需要呢？因為我們需要保留我們的現金流量，我們需要保留我們的英文策略。
-(34:08) 我們今天董事會透過連帶4億美金，主要還是因為整個資金需求很強，客戶的需求很強，我們必須要把庫存可以的話買下來，然後放比較久來滿足客戶每天的需求。
-(34:21) 所以這個還是因為為了因應這個需求來做的。
-(34:26) 所以我們如果是貿易公司，我就不希望做這個事了，左進右出很快，但是我們是做長期生意的。
-(34:35) 這個頁面，我認為可以給大家看出一個很大的分別。
-(34:39) 這是Pfizer的資料庫。
-(34:42) 控制器60%,工業元件14%,企業35%。
-(34:50) Embedded ODM,PC和手機30%。
-(34:54) 銷售，銷售3%。
-(34:57) 意味著什麼呢？意味著Pfizer將所有我的資源，我的名字，轉移到Manly Enterprise和Embedded ODM。
-(35:05) 所以大家可以看到，在未來的幾年，Pfizer的增長會來自於Enterprise和Embedded。
-(35:12) 從這個來看，群聯電子未來的成長動能，絕對是在企業及Embedded,就是手機和PC的應用，還有工業的應用。
-(35:20) 當然，控制器，我認為今年的出貨量絕對是減少的，因為沒有Fresh,誰買控制器。
-(35:26) 但是，群聯電子模組的成長金額會超過控制器的衰退。
-(35:33) 控制器可能兩三年之後需求會回來，我們持續開發新的控制器。
-(35:39) 所以，控制器公司今天只靠控制器一定會很麻煩。
-(35:43) 所以，控制器公司已經轉型開始賣模組了，大量賣模組。
-(35:48) 現在有庫存還好，可以得到毛利利。
-(35:51) 等到庫存變貴的時候，那個分析師寫報告應該是要看這種公司。
-(35:56) 你去買Fresh做成模組之後，毛利利馬上變個位數了。
-(36:01) 這個不是發生在群聯電子了。
-(36:05) ESG,我們還在做得很好。
-(36:08) 所以，我想和大家分享一下，我們一直在盡全力，
-(36:11) 不僅是利潤，也是管理能力。
-(36:15) 我希望每個投資者都能安心。
-(36:18) 這是我的報告。
-(36:31) 謝謝KS的保證的更新。
-(36:35) 我們現在正在開放Q&A。
-(36:40) 如果大家有問題，請使用提問功能。
-(36:44) 也可以在聊天欄開啟提問欄。
-(36:47) 我們會為您提出問題。
-(36:50) 我們現在等待一些問題。
-(36:52) 我會先問一些問題。
-(36:54) 我第一個問題是關於LTA。
-(36:58) 由於NAND的價值在增長，
-(37:01) 我們是否開始和LTA的客戶商討？
-(37:05) 或是和NAND的客戶商討更好的供應？
-(37:11) 如果是的話，請分享更多的資訊。
-(37:14) 如果不是的話，
-(37:15) 如果有可能的LTA,
-(37:17) 我們會如何維持我們的供應？
-(37:22) Physons和NAND供應商的關係非常密切。
-(37:27) 我們需要Physons和NAND供應商，
-(37:30) 因為是企業的SSD。
-(37:32) Physons擁有一個LTA和六個NAND供應商。
-(37:37) 有些NAND供應商要求準備。
-(37:42) 這還在進行中。
-(37:43) 還沒有固定。
-(37:44) 但我們相信很快會被固定。
-(37:49) 我的客戶，
-(37:50) 我剛才提到的T1客戶，
-(37:53) Bootstrap,Hyperscale,CSP,OEM。
-(37:57) 他們也要求Physons的LTA。
-(37:59) Physons會盡力貢獻LTA。
-(38:03) 我們從供應商得到LTA,
-(38:05) 然後向客戶貢獻。
-(38:08) 但對於小型客戶，
-(38:10) 我們不能貢獻LTA,
-(38:12) 但我們會盡力提供更多的供應，
-(38:17) 以支援他們。
-(38:19) LTA現在很難談判。
-(38:23) 談到LTA,
-(38:25) 忘記價錢。
-(38:27) 你只要贏得LTA,
-(38:29) 你就能夠生存。
-(38:34) 非常清楚，謝謝。
-(38:36) 接下來有關供應商的問題。
-(38:40) 我只是在想，
-(38:43) 我們知道你和我們的NAND供應商
-(38:51) 我們的策略是
-(38:52) 在未來保證更多的NAND。
-(38:55) 我記得你之前說過
-(38:59) 你的位置和保證是更好的。
-(39:03) 相比幾個月前，
-(39:08) 可不可以給我們更多的資訊
-(39:10) 關於保證的進步。
-(39:15) 好。
-(39:17) 多年來，在記憶體市場中，
-(39:19) 所有人都在說供應商。
-(39:21) 我認為供應商今天並不可行。
-(39:25) 今天是一個評價的創造。
-(39:28) 你如何創造價值
-(39:30) 讓供應商告訴你
-(39:32) 他們的供應商
-(39:34) 比其他供應商更好。
-(39:36) 好嗎？
-(39:37) 這是一個專頁
-(39:38) Physon一直向NAND供應商展示。
-(39:42) DRAM缺口。
-(39:44) 沒有DRAM,沒有AI。
-(39:46) Physon使用DRAM,
-(39:48) 我們啟動了AI生態系統。
-(39:51) 他們很高興看到這件事。
-(39:54) 因為這件事，
-(39:55) 我們可以得到更多的供應。
-(40:01) 我們必須向他們展示我們的改變。
-(40:08) 非常有幫助。
-(40:11) 下一個問題來自丹尼和諾莫拉。
-(40:15) 丹尼，請自我介紹。
-(40:22) 你好，凱斯。
-(40:23) 是的。
-(40:25) 謝謝你，凱斯，
-(40:27) 給我們這麼詳盡的介紹。
-(40:30) 我的第一個問題是
-(40:32) 關於你的企業SSD的銷售貢獻。
-(40:37) 你剛才提到
-(40:38) 在第一季
-(40:39) 你的銷售可能會增加到30%。
-(40:45) 我很好奇
-(40:47) 如果你有四年目標
-(40:49) 在企業SSD的貢獻方面。
-(40:59) 你剛才提到
-(41:02) 你不再是一家貿易企業，
-(41:06) 而是一家設計型企業。
-(41:09) 如何會影響你的成本
-(41:12) 在未來四季內？
-(41:16) 這是我的第一個問題。
-(41:17) 好的。
-(41:18) SSD的銷售
-(41:20) CQ1是非常保證的。
-(41:22) 我認為CQ2
-(41:24) 肯定會增加到30%。
-(41:25) 因為我們有足夠的銷售企業。
-(41:29) CQ2
-(41:31) 當然，你無法相信銷售貨幣的數字。
-(41:35) 但我們還是在談企業企業。
-(41:38) 無論如何，
-(41:39) SSD的企業
-(41:40) 都將成為今年Pfizer的
-(41:42) 主要利潤和利潤贊助者。
-(41:46) 好的。
-(41:47) 然後談到Pfizer的銷售貨幣股份。
-(41:50) 我們從來沒有
-(41:52) 我只是想解釋
-(41:53) 當我談到
-(41:55) 我可以輕易創造
-(41:57) 我從貿易的增長範圍
-(41:59) 我購買10美元
-(42:00) 我貿易30美元
-(42:01) 不需要任何價格，對嗎？
-(42:02) 但是當價格升至30美元
-(42:06) 市場升至20美元
-(42:07) 你貿易
-(42:08) 你減少10美元
-(42:09) Pfizer是不同的
-(42:10) 我們是設計者
-(42:11) 我們採取元素
-(42:13) 我們建立產品
-(42:14) 所以當市場價格升幅大幅增加
-(42:17) 我的產品無法那麼快
-(42:20) 因為是設計者
-(42:23) 但是當市場價格升幅大幅增加
-(42:25) 我仍然可以保持利潤
-(42:27) 所以貿易貨幣股份
-(42:29) 它們很快就會受損
-(42:31) 當價格穩定
-(42:33) 但是Pfizer仍然可以賺錢
-(42:35) 因為我們創造了價值
-(42:37) 在產品上的一部分
-(42:39) 作為一個產品
-(42:42) 是的
-(42:43) 我可以作一個補充嗎？
-(42:45) 關於LTA
-(42:46) 我認為是很重要的
-(42:48) 在今年以來保持供應
-(42:51) 請您給我們更多的資訊
-(42:55) 關於我們與產品製造商討論的LTA
-(43:01) 我們能否說
-(43:03) 我們能夠保持更多的產品供應
-(43:07) 在這個迴圈和之前的迴圈之間
-(43:11) 也請您給我們一些意見
-(43:15) 關於未來四季的產品價格趨勢
-(43:18) 您還會看到
-(43:19) 例如強勁的雙數字
-(43:22) QOQ增長
-(43:24) 在下個四季
-(43:27) 是的
-(43:28) 在這段時間
-(43:29) 當我對所有的主要供應商說話
-(43:31) 我總是說感謝
-(43:33) 謝謝
-(43:34) 但是我需要更多
-(43:36) 我需要更多
-(43:37) 無論他們能給我多少
-(43:39) 我仍然需要更多
-(43:40) 但我只是感謝他們對我們的支援
-(43:42) 所以如何獲得更多的供應
-(43:45) 我需要展示我的價值
-(43:47) 所以在這個頁面
-(43:48) 我們在這個貨櫃
-(43:50) 所以如果這些客戶需要更多
-(43:54) 我無法滿足
-(43:55) 他們需要幫助我去到供應商
-(43:58) 請供應商展示給我
-(44:00) OK
-(44:02) OK
-(44:04) 我們也嘗試取得更多的供應商
-(44:09) 或交換給我們的供應商
-(44:12) 請他們多付一些供應
-(44:16) 但總體來說
-(44:17) 每個人去到供應商
-(44:20) 他們總是說不足夠
-(44:22) 他們需要更多
-(44:23) 但很遺憾的是
-(44:24) 他們也無法滿足你們的要求
-(44:27) 但逐漸逐漸
-(44:29) 每個月每個月
-(44:31) Pfizer不斷增加我們的供應
-(44:34) 在LTA的頂峰
-(44:40) 那你對下個四季
-(44:45) 在中國的新年之前
-(44:48) 我會說
-(44:51) 他們停止生產
-(44:53) 然後需求稍微變得柔軟
-(44:56) 但成本價格
-(44:58) 昨天下跌50%
-(45:04) 昨天下跌50%
-(45:06) 我們很驚訝
-(45:07) OK
-(45:08) 所以現在我不知道
-(45:10) 下個月或一個月後
-(45:11) 我完全不知道
-(45:12) 但我可以肯定的說
-(45:14) 供應是非常非常緊張
-(45:19) 明白了
-(45:20) 昨天下跌50%
-(45:23) 也就是說
-(45:24) 下個四季的底線
-(45:26) 價格大約會在第一四季
-(45:27) 下跌50%
-(45:29) 是的
-(45:30) 這是基本的情況
-(45:32) 是的
-(45:33) 好
-(45:35) 第二個問題
-(45:37) 因為GTC在角落
-(45:40) 你剛才提到
-(45:42) 其實在這個頁面
-(45:43) 你提到
-(45:45) 新設計的新規模
-(45:47) 所以我們看到
-(45:48) 你的產品已經使用
-(45:50) 在Boot Drive
-(45:52) 在GR系統
-(45:57) 所以
-(46:00) 什麼樣的新產品
-(46:03) 我們可能可以進入
-(46:06) Platform或GPU公司
-(46:10) Donny
-(46:11) 對不起
-(46:12) 在NDA下
-(46:13) 我們不能說任何話
-(46:14) 你只能等待GTC發生
-(46:17) OK
-(46:18) 但它會是不同的產品
-(46:20) 對吧
-(46:21) 它不再只是Boot Drive
-(46:23) 也許
-(46:24) 例如你剛才提到的
-(46:25) 也許是主機板或其他東西
-(46:28) Physons的強項是
-(46:31) 我們很擅長Customize
-(46:36) OK
-(46:37) 沒問題
-(46:38) 謝謝KS
-(46:39) 我會再回覆你
-(46:40) 謝謝
-(46:42) 謝謝
-(46:44) 下一條問題
-(46:45) 來自Simon Wu
-(46:47) Bank of America
-(46:49) 好的 謝謝
-(46:51) 你好 KS
-(46:52) 恭喜
-(46:53) 很棒的結果
-(46:56) 謝謝
-(46:58) 所以
-(47:00) 長遠來說
-(47:01) 你有什麼想法
-(47:03) HPF
-(47:05) 你好
-(47:06) 我是Bank of America的
-(47:08) Flash
-(47:10) 謝謝
-(47:11) 好的
-(47:12) HPF
-(47:13) 你應該去訪問韓國和美國的名人
-(47:16) 但從我的角度
-(47:18) 我想我已經解釋過幾次
-(47:20) 首先
-(47:21) Flash的記憶體有一個生命迴圈
-(47:25) OK
-(47:26) 你把Flash和GPU組合起來
-(47:29) 當Flash的生命結束
-(47:31) GPU就會消失
-(47:32) 第二
-(47:33) 他們有一個所謂的
-(47:35) 氣溫差別
-(47:37) Flash是80度
-(47:40) 所以氣溫如何控制
-(47:42) 是一個問題
-(47:44) 但HPF
-(47:45) 一定會發生
-(47:48) 在某些應用
-(47:49) 但我懷疑
-(47:51) HPF會去到
-(47:53) GPU的普通用途
-(47:55) 我懷疑
-(47:58) OK
-(48:00) 好的 非常清楚
-(48:03) 你現在正在研發HPF控制器
-(48:07) 好的
-(48:08) 讓我解釋給你聽
-(48:10) Physon的宣告
-(48:12) Physon一定可以研發HPF控制器
-(48:16) 我看不到任何困難
-(48:17) 但是
-(48:18) 如果我們沒有真正的客戶
-(48:21) 我最好不要投資現在
-(48:23) 因為我的工程師
-(48:24) 正在忙於這項專案
-(48:27) 所以我們在等待
-(48:28) 當真正的客戶來找我們
-(48:31) 我們可以在12到16個月內
-(48:34) 完成這項設計
-(48:36) 是的
-(48:38) 非常清楚
-(48:41) 順帶一提
-(48:43) 50%的價格升值
-(48:45) 對於你的產品
-(48:46) 你是說最近
-(48:47) 對不起
-(48:48) 什麼意思
-(48:49) 50%
-(48:50) 供應商提高了價格
-(48:52) 晚上
-(48:54) 供應商的意思是
-(48:55) 什麼
-(48:56) 是的
-(48:58) 突然
-(48:59) 50%的價格升值
-(49:01) 意味著
-(49:03) Nanded Source的價格
-(49:05) 是的
-(49:06) 這是不好的
-(49:07) 或者你不購買
-(49:09) 不購買
-(49:10) 對不起
-(49:11) 我意思是
-(49:12) 你有選擇
-(49:13) 你選擇購買還是不購買
-(49:16) 好的
-(49:17) 假設
-(49:18) 如果你提高了價格
-(49:23) 你的成本
-(49:25) 你的收入
-(49:26) 你的成本應該提高
-(49:28) 你的成本應該提高
-(49:30) 除非你提高了
-(49:32) 你的產品的價格
-(49:34) 我
-(49:37) 是的
-(49:39) 大家都知道
-(49:41) 是的
-(49:42) 我試著解釋這個頁
-(49:45) 好的
-(49:46) 這是一個好頁
-(49:52) 好的
-(49:54) 所以你說
-(49:55) 價格升值
-(49:56) Nanded的價格升值
-(49:57) 你的產品的價格升值
-(49:59) 你的成本應該提高
-(50:01) 百分比可能不太好
-(50:03) 但成本是好的
-(50:06) 是的
-(50:07) 抱歉
-(50:08) 非常複雜
-(50:10) 即使你說
-(50:12) 這是中學的數學
-(50:14) 我努力了
-(50:17) 所以
-(50:20) Nanded的價格升值
-(50:23) 你可以立即提高產品的價格
-(50:25) 立即
-(50:26) Simon
-(50:27) 短缺
-(50:28) 客戶不接受
-(50:29) 不要問
-(50:31) 短缺
-(50:32) 對嗎
-(50:34) 對你的產品
-(50:35) 也是
-(50:36) 是的
-(50:39) 然後你可以提高價格
-(50:41) 我必須
-(50:42) 為什麼我會減價
-(50:44) 對嗎
-(50:45) 好的
-(50:46) 是的
-(50:48) 不要給我
-(50:49) 給我的供應商
-(50:50) 不是因為我
-(50:53) 所以Q4的結果
-(50:56) 或者20
-(50:57) 20
-(51:00) 大致上是基於
-(51:02) Nanded的價格升值
-(51:05) 我們也有一些商業設計
-(51:07) OEM
-(51:09) 是的
-(51:10) 36會有兩個因素，一個是我們可以取得低成本，另一個是我們可以贏得許多新的專案，值得的專案。
-(51:21) 抱歉，我剛才問了你的對手。你的對手也說他們在賣USB充電器，那你覺得哪個比較好？你覺得USB充電器市場大嗎？
-(51:44) Simon,你知道嗎？你問我，我的答案是你跟薯條相比。你知道嗎？你問我薯條的問題，我是薯條，所以我不知道該怎麼回答你。
-(51:58) 但那時候告訴你，別擔心，別擔心。我不想過度使用我們做的事情，我們有一個NDA,但我的答案是薯條跟薯條相比，尺寸完全不一樣。
-(52:17) 那薯條市場的尺寸為什麼可以越來越大？
-(52:24) 不是因為尺寸越來越大，而是因為名牌公司離薯條遠了。
-(52:32) 抱歉抱歉，你是說？
-(52:33) 名牌公司，名牌製造商，之前他們提供薯條和Main Drive,對吧？他們製造了薯條的EOL,End of Life,他們專注在Main Drive,所以誰提供薯條和Phyton?
-(52:49) 我的對手，但我可以問一個問題嗎？我的對手有足夠的名牌資產嗎？
-(52:58) 沒有。
-(53:00) 很好的問題，沒有，意思是市場是30美元，他們要買30美元，對吧？
-(53:06) 我的價格是5美元，所以我說薯條要求薯條。
-(53:13) 我明白了。
-(53:15) 薯條的平均收入是多少？
-(53:20) 視乎480GB,960GB,1.9GB,不重要。
-(53:27) 他們有資產嗎？還是他們有LTA?如果他們沒有LTA,他們怎麼能確保他們能夠獲得？
-(53:35) 我聽說我的對手去中國，Motorhouse,購買Spoke,Marketflash來建造薯條。
-(53:43) 對，對，對。
-(53:44) 那麼他們有多少%的資產能夠獲得？
-(53:47) 對，但是今天已經有著非常有名的GPU在市場上，下一代的GPU可能是今年第二代。
-(54:01) 那麼您會建議什麼？您會建議NAND接觸嗎？還是主流的GPU?
-(54:14) 我們會依照使用者的要求。
-(54:18) 我們會依照使用者的要求。
-(54:20) 這些都是我的使用者，他們問我做什麼，我就做什麼。
-(54:23) 我無法透露。你看，我的對手把名字放在這裡，我沒有。
-(54:29) 我尊重NDA。
-(54:31) 是的，是的。
-(54:32) OK,今天NAND的價格很強，產品的價格也很強。
-(54:42) 您不會期待稍微軟化的價格趨勢或價格下跌到今年年底嗎？
-(54:49) 我今年睡得很好，不擔心，沒有噩夢，今年很好。
-(54:55) 嗯，嗯，嗯，嗯。
-(54:57) 下一年，就擔心下一年。
-(54:59) 今年我忙著睡得好，噩夢，對吧？
-(55:06) 是的，是的。
-(55:20) Python政策是55%。
-(55:22) 55%。
-(55:23) 是的，但今年我離開了。
-(55:25) 分別來說，您賠償的錢是一半或三百萬美元。
-(55:36) 因為您賠償了稅金，但您賠償了你的工作資金。
-(55:42) 是的。
-(55:43) 稅率增加了。
-(55:44) 是的。
-(55:45) 所以，賠償成本，我不知道，也許3%?
-(55:52) 如果我有一個富有的父親，我不需要擔心。
-(55:57) 我賠償3%一年，我賠償200%一年。
-(56:01) 為什麼不？
-(56:02) 嗯，嗯，嗯，嗯。
-(56:03) 好的，好的。
-(56:05) 一切都清楚了，先生。
-(56:06) 謝謝。
-(56:07) 我們很快就會見面。
-(56:09) 謝謝。
-(56:10) 還有座位，座位上有幾個問題。
-(56:13) 我可以進去嗎？
-(56:16) 好的，請進去。
-(56:17) 請進去。
-(56:19) 您對您的控制商業的看法如何？
-(56:22) 今年，我們增加了手機。
-(56:26) 客戶SSD大多數下跌，但我認為是少數下跌。
-(56:31) 所以我們很好。
-(56:33) 但是純粹的控制房會很困難。
-(56:36) 無論如何。
-(56:37) 第二，現在的運營水平和他們的訓練。
-(56:42) 本月底，我收到報告。
-(56:44) 我們現在有超過50BNT。
-(56:48) 現在大概500多億臺幣的庫存。
-(56:51) 您對公司的增長趨勢的看法如何？
-(56:56) 我們從來沒有預測過。
-(56:59) 但是確定CQ1和CQ2非常強大。
-(57:03) 而CQ3和CQ4,我不覺得變得弱。
-(57:06) 也許會變得低，因為價格增長了很多。
-(57:10) 但如果我們能夠達到最低的金額，那就會很好。
-(57:29) 您對準備如何？
-(57:32) 為什麼需要準備？
-(57:33) 因為我需要錢。
-(57:34) 我今天收到超過50BNT的庫存。
-(57:39) 我需要買更多。
-(57:41) 我需要時間去迴圈，時間去處理。
-(57:44) 客戶給我60天。
-(57:46) 我怎麼做生意？
-(57:48) 所以我現在需要的就是現金，補足庫存，
-(57:53) 把客戶的這個付款年數縮短，來滿足我們的這個需求。
-(57:58) 下一個問題。
-(58:00) 您對公司的增長趨勢的看法如何？
-(58:02) 是否增長了，穩定了，增長得更快，我們可以購買？
-(58:06) 公司的增長趨勢是由SRX購買。
-(58:13) 我們保留SRX的優惠。
-(58:17) 我用這個方式。
-(58:18) 表示說我們的庫存總容量其實是，
-(58:23) 雖然過去兩個quarter用掉很多，但是也補回很多。
-(58:27) 所以這個總容量其實不變。
-(58:29) 但是因為單價提高，所以金額跟著提高。
-(58:34) 第二題。
-(58:36) 1M26,什麼叫1M26?
-(58:39) 哦，一般來說，一般來說，
-(58:43) 一般來說，
-(58:46) 1200億，我覺得很合理。
-(58:49) 很合理，也許，也許更多。
-(58:52) 然後，我覺得您可以等到3月份。
-(58:54) 3月份也可能會提供給您。
-(58:58) 3月份讓人家嚇一跳。
-(59:00) 我們會有足夠的名字嗎？
-(59:02) 答案是對的。
-(59:05) Q3的問題是對的。
-(59:07) Q4。
-(59:08) 一些高階交易商已經在期待EPS200。
-(59:12) 請問神。
-(59:13) 這個我無法回答，但我會盡我所能。
-(59:20) 我想知道，
-(59:21) Romain的控制器，IC,WiFi,PCIe Gen 7。
-(59:25) Pfizer現在是一個前進的製造商。
-(59:27) 我們在前線。
-(59:28) 所以我們有一個Gen 6。
-(59:29) 我們的Gen 6系統控制器已經準備好。
-(59:33) 現在正在發展程式。
-(59:34) 希望到8月份，
-(59:36) 我們會提供SSD市場的樣本。
-(59:39) Gen 7正在進行中。
-(59:41) 這主要是設計AI系統。
-(59:43) 如我所說，
-(59:44) Intel領導了30年，
-(59:46) 告訴你5年後會發生什麼。
-(59:48) 但NVIDIA沒有。
-(59:49) 所以Gen 6將很快到來。
-(59:51) Gen 7,然後再兩年後。
-(59:53) 所以我們必須投資。
-(59:57) NVIDIA ICMS TLC
-(59:59) NVIDIA問題，
-(60:04) 我無法回答。
-(60:06) 所以我們跳過了。
-(60:09) 想知道，
-(60:10) 現在要多久才能購買新型號？
-(60:14) 這非常複雜。
-(60:16) 非常複雜。
-(60:17) 因為需要包裝、測試、組裝、安裝。
-(60:21) 但總體來說，
-(60:23) 我們嘗試把流程做得順滑。
-(60:31) 請稍等，
-(60:32) 你好嗎？
-(60:35) CIT。
-(60:36) 你投資多少錢？
-(60:38) 客戶資料，
-(60:39) 手機，
-(60:42) 這不是來自我。
-(60:43) 這是來自分析師。
-(60:44) 有名的分析師。
-(60:45) 手機，
-(60:47) 大約200萬套裝。
-(60:49) 電腦，
-(60:50) 5-10%。
-(60:52) 但電腦，
-(60:54) 減少DRAM,
-(60:56) 我想電腦的下降可能會比較小。
-(60:59) 好的。
-(61:00) 這是來自ChatBot。
-(61:03) 我想我們已經完成了
-(61:06) ChatBot的問題。
-(61:07) 下一個問題來自網上投資者，
-(61:10) 是Michael,
-(61:11) 來自HDI。
-(61:14) 你好，Michael。
-(61:15) 你好，KS。
-(61:16) 恭喜你
-(61:20) 在4Q上表現出色。
-(61:22) 我第一個問題是
-(61:26) NVIDIA ICMS的機會。
-(61:29) NVIDIA正在研究
-(61:30) 影響流程效率。
-(61:33) NVIDIA正在研究
-(61:34) 增加NAND的輸出和輸出。
-(61:37) 我們看過一些產品，
-(61:40) 例如Kioxia的Axial Flash,
-(61:42) 或三星的Z-NAND,
-(61:44) 也正在吸引注意。
-(61:48) 同時，
-(61:49) 控制器也正在變得更重要。
-(61:52) 未來的控制器
-(61:53) 是否與ICMS結合，
-(61:55) 或是與Axial Flash或Z-NAND結合，
-(61:59) 可能使用PCIe Gen 6。
-(62:01) 好的，Michael,
-(62:03) 我想你把所有問題混在一起，
-(62:05) 我只是提醒，
-(62:06) Axial NAND和Z-NAND
-(62:08) 不是給ICMS的，
-(62:09) 主要是給高效能流程，
-(62:12) 低能量流程。
-(62:16) 是不同的應用。
-(62:22) 我很好奇，
-(62:25) 因為我們的NP規劃
-(62:28) 對於Z-NAND Gen 6
-(62:30) 已經超過了一些原廠，
-(62:33) 所以我很好奇，
-(62:35) 我們的成功
-(62:36) 對於Z-NAND Gen 6
-(62:38) 是否可以幫助我們
-(62:40) 在ICMS獲得一些投資。
-(62:43) 好的，
-(62:44) 首先，
-(62:45) 我們不能說太多，
-(62:46) 但總結來說，
-(62:49) Physon已經有
-(62:50) 基礎控制器，
-(62:52) SILICON BUCKET,
-(62:54) 可在7月或8月
-(62:55) 提供樣品。
-(62:57) 在這個市場，
-(62:59) OEM伺服器只有Gen 6,
-(63:01) 只有AI,
-(63:02) 所以Physon已經開發了
-(63:03) M2AI,
-(63:04) 就這樣。
-(63:07) 明白，明白，
-(63:08) 謝謝，謝謝。
-(63:09) 我沒有其他問題。
-(63:10) 謝謝。
-(63:13) 謝謝，
-(63:14) 下一個問題是
-(63:15) Danny,
-(63:16) Nomura。
-(63:23) 嗨，Danny。
-(63:27) 我們可能
-(63:29) 從聊天室開始。
-(63:31) 不好意思，
-(63:32) 你可以聽到我嗎？
-(63:33) 是的，
-(63:34) 我可以聽到你。
-(63:35) 不好意思，
-(63:36) 我只有一個問題，
-(63:39) 就是
-(63:41) 你有沒有考慮，
-(63:42) 我忘記了，
-(63:43) 你有沒有考慮
-(63:45) 簽署
-(63:46) Long-Term Contract
-(63:48) 與名人
-(63:49) 在之前的迴圈，
-(63:50) 所以這是你第一次
-(63:53) 考慮這樣做的迴圈？
-(63:54) 不，不，不，
-(63:55) 我們有LTA
-(63:57) 但這次我們是在說
-(63:58) 準備。
-(63:59) 哦，準備，是的。
-(64:00) 而Physon
-(64:01) 在2008年
-(64:03) 準備到Hynix,
-(64:05) 幾次到Toshiba,
-(64:06) Kyoto,
-(64:07) 所以
-(64:08) 我們肯定有經驗。
-(64:11) 好的，
-(64:13) 沒有任何準備
-(64:15) 直到現在。
-(64:18) 有些在討論中，
-(64:21) 但是
-(64:23) 哦，好的，
-(64:25) 但是
-(64:26) 這可能是一個選擇，
-(64:28) 如果
-(64:31) 為什麼不？
-(64:32) 好的，明白。
-(64:34) 謝謝你們。
-(64:38) 有兩個問題
-(64:40) 在聊天室，
-(64:41) 也許我們可以從聊天室開始。
-(64:48) 好的，
-(64:49) 第一個問題是
-(64:51) 是否有ESSD的增長趨勢
-(64:54) 在ESSD的價格
-(64:56) 超過QLC?
-(64:58) 是的，
-(64:59) 由於AI的影響。
-(65:01) 答案是是的，
-(65:02) 因為QLC的需求很大，
-(65:04) 所以它是一個很大的供應鏈。
-(65:07) 是的，
-(65:09) 是否超過QLC?
-(65:10) 是的，
-(65:11) ICMS是一個TLC,
-(65:14) 因此，
-(65:18) 下一個問題是
-(65:19) 是否有儲存的轉變
-(65:20) 正在來臨？
-(65:24) 需求很大，
-(65:26) 我們一直在買儲存，
-(65:27) 當然，
-(65:28) 你問我
-(65:31) 因為我們可以維持
-(65:33) 更多的四周，
-(65:34) 但是現在
-(65:35) 它不能
-(65:37) 由我管理，
-(65:38) 客戶已經需要一部分，
-(65:40) 因此，
-(65:41) 現在我們開始
-(65:42) 不管
-(65:43) 管理儲存的儲存
-(65:45) 客戶需要
-(65:46) 我們只是轉移，
-(65:48) 為什麼？
-(65:50) 去買新的儲存，
-(65:52) 所以現在我們不會
-(65:54) 太多的控制儲存。
-(65:58) 然後答案是
-(66:00) 儲存的轉變
-(66:01) 可能會更快。
-(66:06) 好的，
-(66:09) 我想所有問題都解決了。
-(66:12) 也許我們回到
-(66:13) 網上投資者
-(66:14) Michael
-(66:15) KGI
-(66:19) Michael
-(66:20) 你解鎖了
-(66:21) 你自己解鎖了
-(66:26) 不
-(66:29) 不，
-(66:30) 我也看不到問題
-(66:32) 也許
-(66:33) 我們回到
-(66:35) Donny
-(66:37) Donny 你有問題嗎？
-(66:41) 不，
-(66:43) 所以我想
-(66:45) 好的，
-(66:46) 請
-(66:47) Michael
-(66:48) Simon
-(66:49) 再次感謝
-(66:51) 很快的
-(66:53) 企業解決
-(66:55) 收入貢獻
-(66:56) 是10%
-(66:57) 對嗎？
-(66:59) CQ4
-(67:01) 所以任何顏色
-(67:02) 比例
-(67:03) 會到
-(67:05) 中間
-(67:06) 20 30%
-(67:07) 未來幾年
-(67:08) 不
-(67:09) CQ1超過30%
-(67:12) 對不起
-(67:13) 這個月
-(67:14) CQ1
-(67:15) 這個月
-(67:16) 超過30%
-(67:19) 我一直提到
-(67:20) 是的
-(67:21) 所以已經
-(67:22) 三次上升
-(67:24) 是的
-(67:25) 對比
-(67:28) 哪個部分
-(67:30) 是關鍵的貢獻
-(67:31) 或者
-(67:32) 這個頁
-(67:33) 這個頁
-(67:34) 這個頁
-(67:35) 是的
-(67:37) 關鍵貢獻
-(67:38) 已經在這裡
-(67:40) 已經在這裡
-(67:42) 但設計意義
-(67:43) 意義
-(67:44) 設計贏得
-(67:45) 意義
-(67:47) 意義
-(67:49) 設計贏得
-(67:50) 意義
-(67:51) 實際銷售
-(67:52) 認可
-(67:53) 是的
-(67:55) 是的
-(67:56) 好的
-(67:57) 然後
-(67:58) 你的行銷量表
-(68:00) 已經
-(68:02) 35%
-(68:03) 行銷量表
-(68:04) 網際網路解決方案
-(68:05) 是的
-(68:06) 所以
-(68:08) 當你達成了
-(68:09) 如此強大的增長
-(68:11) 網際網路解決方案
-(68:13) 你如何增加
-(68:16) 網際網路解決方案
-(68:20) 我需要
-(68:21) 把我的價值帶給
-(68:23) 名牌供應商
-(68:25) 好的
-(68:26) 全是我的客戶
-(68:29) 我設計了
-(68:30) 設計贏得
-(68:31) 他們會幫我取得名字
-(68:34) 他們有肌肉
-(68:37) 所以
-(68:39) 做這件事情
-(68:40) 你應該得到
-(68:41) 更多的QRC
-(68:43) 和
-(68:44) 網際網路解決方案
-(68:45) 我需要
-(68:46) 我需要
-(68:47) TRC, QRC
-(68:48) QRC
-(68:49) So, as you answered
-(68:51) So, long term agreement
-(68:53) No, no
-(68:54) I say prepayment basis
-(68:56) You are lending, sourcing
-(68:58) So, prepayment is still the
-(69:00) What?
-(69:03) Three quarters?
-(69:04) For the rest of this year
-(69:05) What do you mean the prepayment
-(69:06) For how long? One year?
-(69:08) Prepayment is not triggered yet
-(69:10) Still under negotiating
-(69:13) Not yet happened
-(69:14) So, usually the prepayment means
-(69:16) OK, you pay half a million dollar
-(69:18) For example
-(69:19) And then you get the chips
-(69:21) Until the
-(69:22) Hey, Simon, Simon
-(69:23) This is all confidential
-(69:24) I can't disclose here, OK?
-(69:26) We have a very strict NDA
-(69:29) I see
-(69:30) OK
-(69:32) Prepayment happened, what?
-(69:35) 2018 or
-(69:37) We have a prepayment with Hynix
-(69:39) 2007, 2008
-(69:40) We have a prepayment Toshiba 2012
-(69:42) 16, 20, 23
-(69:44) I see
-(69:46) Latest one is when the cloud was very strong
-(69:50) 2017, 2018 then
-(69:52) Yeah
-(69:54) So, this time prepayment trigger point
-(69:57) Obviously enterprise solution
-(69:59) Or AI
-(70:00) Yeah
-(70:01) Yeah
-(70:02) Very clear, wow
-(70:04) Good job
-(70:05) Thank you so much
-(70:06) Thank you, we are working very hard
-(70:08) Great, great
-(70:09) OK, trouble Eric asking what?
-(70:13) Inventory? Inventory?
-(70:18) No, no, no, no
-(70:19) Alex Guang
-(70:20) Alex Guang
-(70:21) 4Q
-(70:23) 34 billion NT
-(70:26) And Eric Chen
-(70:27) 3 months ago you mentioned you see no end of supply shortage
-(70:31) When compared this month
-(70:32) Yes, endless
-(70:34) Endless
-(70:35) I don't know how many years
-(70:37) So, let's pray for that
-(70:39) Not too long, please
-(70:42) OK, so any other questions?
-(70:47) Crystal, if
-(70:48) Sorry, if no question
-(70:50) We have to end up to this call
-(70:52) Yeah, we do not have any questions online
-(70:55) Oh, sorry
-(70:56) I see another question from the chat box
-(70:58) Maybe the last one
-(71:00) How long currently
-(71:01) The inventor want to know
-(71:03) Yeah, they want to know how long it currently takes
-(71:05) Python to ship newly purchased inventory
-(71:08) And what are your thoughts on the capital
-(71:10) Actually
-(71:11) OK, they said
-(71:12) By manufacturers
-(71:13) Some new purchase inventory generally
-(71:15) Start to ship in the March
-(71:17) Why? Because shortage
-(71:19) OK
-(71:20) Means what?
-(71:21) Means some high cost inventory
-(71:22) Start to ship
-(71:24) But we still able to make
-(71:25) Marching on that
-(71:26) So, don't worry that much
-(71:27) Yeah
-(71:31) How about 100 million LPS?
-(71:35) Yeah, you expert
-(71:37) Ongoing
-(71:38) Not easier
-(71:39) But we will make it on time
-(71:41) Again, this is the end of the year
-(71:42) I cannot share that much
-(71:47) OK
-(71:48) We have answered
-(71:49) All the questions online
-(71:52) And
-(71:54) Thank you KS for your time
-(71:56) And thank you everybody for joining
-(71:58) Join us today
-(72:00) We will conclude the call
-(72:01) Yeah, thank you
-(72:02) My last ask
-(72:04) I wish analysts do some better homework
-(72:07) Don't, you know
-(72:08) Give a very shallow analysis to the market
-(72:11) Mistreat the investor
-(72:13) This is really not right
-(72:14) OK, so make some study
-(72:16) You need call, you can call me
-(72:17) I can share with you
-(72:18) We have to be professional
-(72:19) OK, thank you
-(72:23) Thank you
+(00:00.000) 謝謝大家今天參加
+(00:02.000) Pfizer的Full-Squadron Results Conference的會議
+(00:05.000) 我的名字是Estoria Chen
+(00:07.000) 我來自Sinopec的COST
+(00:11.000) 今天我們很榮幸邀請到KF
+(00:13.000) Pfizer的總經理與我們一起
+(00:16.000) 在這個會議中
+(00:18.000) KF會首先提供一些更新
+(00:20.000) 關於Pfizer的Full-Squadron Results
+(00:23.000) 商業分析和市場的更新
+(00:26.000) 接著我們會開啟會議中的問題
+(00:31.000) 請記住
+(00:33.000) 如果您有任何疑問
+(00:35.000) 在這個會議中
+(00:36.000) 可以寫下您的疑問在聊天室
+(00:38.000) 我們會為您提出疑問
+(00:40.000) 現在我會讓KF來回應您的問題
+(00:45.000) 謝謝KF
+(00:46.000) 謝謝
+(00:48.000) 早上好
+(00:49.000) 各位先生女士們
+(00:51.000) 今天會議的主題是
+(00:53.000) 2025 CQ4和2025 Earnings Call
+(01:03.000) 這是我們Devenue的4Q分析
+(01:06.000) 我想在這裡分享幾分鐘
+(01:09.000) 控制器本身
+(01:11.000) Devenue的數量正在增加
+(01:13.000) 但比例正在下降
+(01:14.000) 因為Devenue的比例增加太多
+(01:18.000) 消費者來說
+(01:19.000) 您可能會有些疑問
+(01:20.000) 為什麼CQ4的比例增加
+(01:23.000) 因為在CQ3
+(01:25.000) 我們有很多銷售商
+(01:27.000) 他們擔心CQ4的市場可能下跌
+(01:31.000) 他們放置訂單
+(01:32.000) 他們不想推進
+(01:33.000) 他們推出
+(01:34.000) CQ4後來推進
+(01:37.000) 價格下降
+(01:38.000) 所以
+(01:39.000) 這就是為什麼
+(01:40.000) 這增加了很大的數字
+(01:42.000) 但是
+(01:44.000) 這個數字
+(01:45.000) 稍微降到一個數字
+(01:47.000) 因為現在我們主要關注
+(01:49.000) 非消費者的生意
+(01:51.000) 還有價格
+(01:52.000) CQ4是10%
+(01:58.000) 其實我們做了很多設計
+(02:00.000) 我會跟您分享
+(02:01.000) 我們做了很多設計
+(02:03.000) 從去年CQ3到CQ4
+(02:07.000) 在這個CQ1
+(02:09.000) 企業SSD的比例
+(02:11.000) 會超過30%的非消費者
+(02:15.000) 在2026年
+(02:17.000) 我相信
+(02:18.000) 是企業生產的最大部分資金
+(02:22.000) 我們做了很多設計
+(02:23.000) 我們也累積了很多
+(02:27.000) 企業生產的元素
+(02:29.000) 然後到
+(02:30.000) OEM設計
+(02:32.000) 主要是手機和電腦
+(02:35.000) 您知道
+(02:36.000) 供應鏈太緊繃
+(02:37.000) 我們幾乎每個品牌
+(02:40.000) 都贏得了設計
+(02:42.000) 所以這也帶來很大的
+(02:46.000) 資金的部分
+(02:48.000) 是非常穩定的
+(02:50.000) 大約13-13%
+(02:53.000) 我們在去年的主要的
+(02:55.000) 營業活動
+(02:56.000) 控制的是營收增加的單位
+(02:58.000) 但是佔比減少，消費類主要是因為CQ3很多客戶不看好，就把訂單推到CQ4
+(03:05.000) 但是後來在漲價情況底下，他們把它拿走，所以金額就增加了
+(03:10.000) 在企業級部分，我們其實工作的很努力
+(03:13.000) CQ4從10%開始，CQ1已經看到超過30幾%的一個營收
+(03:19.000) 這個比例會非常的一個快速的成長
+(03:25.000) 所以
+(03:27.000) CQ4的增值是9.5億美元，是全球的增值
+(03:33.000) CQ5的增值是22億美元，也是全球的增值
+(03:39.000) CQ4的增值是41.6%
+(03:41.000) 有些投資者會問，為什麼CQ5的增值只有41%
+(03:48.000) 為什麼沒有其他比如說Motorhouse的增值50%
+(03:51.000) 我想和大家分享一下，Fisern的業務不是交易
+(03:55.000) 我們是設計在內，設計在外，還有長期供應
+(03:59.000) 很多的訂單，我們會在CQ4購買，主要是在CQ2和CQ3購買
+(04:04.000) 這是一個設計在內，設計在外的業務
+(04:08.000) 如果我的業務是交易，我會比較容易，我可以在上個月買10美元，我可以在今天購買30美元
+(04:14.000) 但是我們不會做交易
+(04:17.000) 所以CQ4的增值是41%,我們相信CQ1的增值會有所改善
+(04:25.000) 因為CQ1的訂單，主要是從CQ4購買的訂單
+(04:34.000) 因為一直有被問到說，這個為什麼群聯的毛利利第四季會是這個41%不像其他的什麼40幾%50%等等的
+(04:43.000) 我是要澄清一下，群聯電子的生意，我們不是貿易體系
+(04:46.000) 貿易體系其實很簡單，我買一個顆粒進來5塊錢，下個月20塊錢把它賣掉，那就馬上實現獲利
+(04:54.000) 我們最主要的，我們的這個元件都是Design-in在用的
+(04:58.000) 那更多的系統，我們的訂單是接在第二季第三季，那是單價出貨出來第四季
+(05:05.000) 所以我們的庫存主要要給長期的Design-in客戶使用
+(05:09.000) 那由此可預見，其實第一季我們的毛利利一定會在持續的成長
+(05:14.000) 那有分析是擔心我們的什麼低價庫存呢，我只能說他在睡覺講夢話想太多了，這個呢很長時間不會發生了
+(05:25.000) So the earning EPS is 21.7, because later we share with you, we also have increased our R&D expense in the R&D activity and also the new master tap out
+(05:40.000) And this earning per share, I think to find some is really, we are proud and comfortable
+(05:48.000) But again in CQ1 this year, we can see the slightly improve on this, because the shipment in CQ1, the order coming from CQ4
+(05:58.000) 在這個所謂的EPS部分呢，我們在第四季其實也大量的這個在獎金，在我們的這個新的tap out,我們任列了這個光照
+(06:08.000) 所以在費用上面增加了不少，但是對於這部分呢我不擔心，因為後面呢我們的這個負擔會越來越輕，因為很多光照要tap out的都任列掉了
+(06:18.000) 所以後面的負擔變輕之後呢，獲利相對的變得比較好
+(06:25.000) So income statement, I think I like to share with you is mainly our R&D expense in the CQ4
+(06:33.000) It's a 5.2 billion, I think it's close to the 40% growth QOQ
+(06:39.000) Just we have a better profit, we need to have a more compensation to our staff and also increase a few master out and also increase some test equipment
+(06:49.000) So this is the reason the expense increase, but Pfizer is different with other company, when we make good money, we make investment, this to create our better future
+(07:02.000) OK,在這個研發費用部分確實增加，主要是因為公司好的獲利獎金自然的要提列
+(07:10.000) 然後新的光照，我們明年有大量光照，就從去年看今年有大量光照，我們開始部分就來任列，把費用先任列掉
+(07:19.000) 那讓後面的經營變得比較的輕盈
+(07:24.000) This is 25, our income statement, revenue is all time high
+(07:29.000) R&D expense is go to the 13 billion, still increase, but I need to give a highlight
+(07:35.000) 26, R&D expense definitely increase because we have more new design in the advanced design, the 4nm and some other new technology development
+(07:46.000) But overall, we believe this investment will bring us Pfizer the better return in the future
+(07:53.000) So this is what's the difference between Pfizer and other company
+(07:56.000) In the balance sheet, cash flow is still doing good
+(08:05.000) Inventory wise, we have around 35 billion inventory by NCQ4
+(08:12.000) This inventory, to be honest, is not low cost inventory, it's a very low cost inventory
+(08:18.000) Because we have committed this for many months
+(08:21.000) I don't want to keep highlighting low cost, but since analysts question about low cost
+(08:26.000) So I want to highlight, we have a good enough low cost
+(08:30.000) But Pfizer's value is not only coming from low cost, it's coming from our design, our products and our innovation
+(08:40.000) We also share the Nantive, what's the difference?
+(08:44.000) I think the gap is slightly small, just because we issue the stock option to our staff
+(08:50.000) And this we need to depreciate by monthly, so this increase some overhead
+(08:54.000) So we just highlight to everyone here
+(08:56.000) No other difference, only mainly is the stock option expense
+(09:02.000) TIF and Nantive, the main difference is Nantive has issued a stock option to all staff in the second half of last year
+(09:09.000) So we hope that the staff will have better motivation to develop the company
+(09:14.000) So the cost of this part is not too large, relatively small
+(09:19.000) But this can stimulate more employees to create more motivation to reach our growth
+(09:29.000) February, working days is smallest in the year, but we hit the top billion revenue
+(09:39.000) And definitely March, we can see the other big growth, because we can't stop it
+(09:45.000) 整個人力我們現在停不下來，整個市場需求真的是
+(09:50.000) 現在不需要再花時間講缺貨，講缺貨浪費時間
+(09:54.000) 我們努力希望能夠不要出貨太積極
+(09:58.000) 但是擋不下來
+(10:01.000) OK, some business highlight
+(10:03.000) Client controller you supply, for instance, the control shipment growth 490%
+(10:09.000) 490% worldwide, revenue will grow for 50%
+(10:13.000) This means what? We win the share, we gain the share
+(10:18.000) 我們得到了市佔率
+(10:20.000) You may agree, the name flash is getting tight supply
+(10:24.000) Means the shipment of SSD is going to decline
+(10:28.000) But our controller still growing, means we win the market share
+(10:33.000) But one thing I want to highlight, 26th coming quarters
+(10:37.000) The controller shipment definitely, obviously is going to declining
+(10:42.000) Controller在2026年一定會下降，沒有flash,誰會買controller
+(10:47.000) 如果有人說2026年controller會成長，我必須說那可能在講夢話，因為沒有flash
+(10:53.000) But Phison we OK, why? Because we have a control business
+(10:56.000) We also have our module business, which can compensate our revenue
+(11:01.000) We grow from the modules, and we can grow from our gross profit
+(11:05.000) So in the client SSD, we win the share, we win the gross margin
+(11:10.000) We also win the business, so we are very comfortable about this performance
+(11:17.000) Going to the mobile
+(11:18.000) Phison is the biggest mobile controller supplier at the year 2025
+(11:24.000) And this is our shipment growth
+(11:26.000) Again, if you keep doing the report, 26th mobile phone may decline more than 200 million set
+(11:34.000) 2026年手機可能減少接近2億顆，表示減少2億顆controller
+(11:39.000) 所以controller成長性會有問題
+(11:41.000) But Phison 2026, the mobile controllers by forecast, we still increase
+(11:48.000) Because we win the design win, we win the share
+(11:52.000) Also our module shipment, you can see is unbelievable
+(11:56.000) But of course, shipment 10 times growth, why?
+(11:59.000) Revenue 12 times growth, why? Because of price and we win the share
+(12:04.000) Then analysts may ask, oh, you consume too many your inventory
+(12:08.000) Don't worry, don't worry, we still can use for many, many, many months
+(12:13.000) Don't worry, okay?
+(12:16.000) So in mobile, we are the biggest controller supplier
+(12:20.000) We also become the very niche customized module supplier
+(12:24.000) To the industrial, to the BMC, to a lot of automotive
+(12:29.000) This helping Phison to gain much better the gross margin profit
+(12:36.000) Then we go to talk about our enterprise
+(12:40.000) 2025 CQ4 is a small business to us
+(12:44.000) But from now on, enterprise will be Phison biggest, our biggest business
+(12:49.000) So due to the AI, due to the every CSP, near cloud, hyperscale, server makers
+(12:56.000) They are looking for a lot of SSD
+(12:58.000) Phison, we win many, many business
+(13:01.000) So this later I would like to bring down to you
+(13:04.000) Phison now we combine boot drive, main drive, customer drive, AI drive
+(13:09.000) EMMC, retimer, we have almost every storage need in the AI ecosystems
+(13:18.000) And we are proud of that
+(13:20.000) We also putting our Pascari into the tier 1 NAS customers
+(13:25.000) Due to the NAND shortage, a lot of tier 1, tier 2, tier 3, tier
+(13:29.000) No matter what tier, they came to Phison to ask for cooperation
+(13:33.000) Because of this, we win so many design window
+(13:36.000) So my people, they are already working hard
+(13:38.000) That's why we need to pay more bonus to them
+(13:41.000) So this slide is very important for today's meeting
+(13:44.000) I like to share to you one by one
+(13:48.000) This is mainly we call the boot drive
+(13:52.000) Name makers, now they focus mainly to the main drive
+(13:56.000) They work away from boot drive
+(13:57.000) Phison now become the important supplier in the boot drive
+(14:02.000) Here I want to bring down
+(14:03.000) We win the two tier 1 CSP
+(14:08.000) The big name
+(14:10.000) The shipment starting
+(14:12.000) One already start to ship
+(14:14.000) The other one start from coming May
+(14:16.000) Means after two months
+(14:17.000) It's a big CSP
+(14:20.000) The tier 1 OEM who are selling the servers
+(14:23.000) We win their boot drive
+(14:26.000) And the shipment starting from second half
+(14:28.000) Today they are auditing Phison in my Phison headquarters
+(14:33.000) Hyperscale, we got the two new design window
+(14:36.000) Mainly US customers
+(14:40.000) AI platform
+(14:41.000) You know who is AI platform
+(14:43.000) So we got the one design window
+(14:45.000) We are there and we try to gain the more design window
+(14:48.000) A lot of project customized is ongoing
+(14:52.000) And talking about the main storage
+(14:55.000) We also got the tier 1 OEM who are making the server
+(14:58.000) We got two design window
+(15:01.000) One, the other one is coming
+(15:03.000) Due to the SA shortage
+(15:04.000) We are getting more tier 1
+(15:09.000) Today the tier 1
+(15:11.000) They are executive here
+(15:13.000) In the meeting they are very open-minded
+(15:15.000) They said hey, they never look to tier 2
+(15:18.000) They don't know who is Phison
+(15:19.000) But few months ago due to shortage
+(15:21.000) They have to but they doubt Phison can make it or not
+(15:24.000) So they visit here
+(15:26.000) Stay few days, we open the lab
+(15:28.000) We work with them, they are surprised
+(15:30.000) So we win not only one project
+(15:32.000) We win all the potential supply chain projects
+(15:36.000) So not only one model
+(15:38.000) We almost win every model
+(15:40.000) Because we have good enough engineers
+(15:42.000) Supply chain, the product mix
+(15:45.000) And also we have a very good inventories to supply
+(15:49.000) So we also win the hyperscale 2
+(15:53.000) By the way, this 2 is big
+(15:54.000) By the way, it's very famous right now
+(15:58.000) And the AI storage 7
+(16:01.000) Every storage supply to the AMD
+(16:04.000) NVIDIA ecosystem
+(16:06.000) We almost win everyone
+(16:08.000) We ship the main drive to them
+(16:10.000) The infrastructure software
+(16:12.000) Is mainly provide software
+(16:13.000) We got 2 new design in
+(16:15.000) Hopefully shipment happen by CQ4
+(16:17.000) Enterprise AI customers
+(16:20.000) 2 design win
+(16:21.000) This also is a big guy
+(16:23.000) Mainly supply the brand AI server
+(16:27.000) To the worldwide market
+(16:28.000) And we also win the big QLC qualifier
+(16:32.000) And we shipping 1 SR5
+(16:35.000) Of QLC enterprise SSD
+(16:38.000) From February
+(16:40.000) From last month
+(16:41.000) And 1 SR5 have to ship until May
+(16:44.000) So this is our record
+(16:46.000) 1 SR5 enterprise SSD
+(16:48.000) 122 terabyte
+(16:49.000) We ship to the tier 1 CSP
+(16:51.000) So if you don't believe
+(16:55.000) Ryzen can gain the W
+(16:56.000) The top line
+(16:58.000) The bottom line of enterprise
+(16:59.000) Now we show you here
+(17:01.000) This is all our design win
+(17:04.000) And more are coming
+(17:07.000) Because the solution is ready
+(17:09.000) We have so many product mix
+(17:12.000) And we have enough R&D resources
+(17:14.000) By the way, we have the good supply
+(17:17.000) From our NAND suppliers
+(17:20.000) 這邊中文總結一下
+(17:22.000) 有曾經還是懷疑
+(17:23.000) 全聯電子在enterprise裡面的佈局
+(17:25.000) 都說這個不可能
+(17:27.000) 但是今天我們達出來
+(17:29.000) 因為遇到市場缺貨
+(17:30.000) 他們不得不來試看看
+(17:32.000) 試過之後才發現這個地方真的好用
+(17:35.000) 所以我們不只做一個產品線
+(17:37.000) 我們他要的我們幾乎都
+(17:38.000) 一個server裡面需要EMMC
+(17:41.000) 需要SATA boot drive
+(17:43.000) NVMe boot drive
+(17:44.000) 需要retimer需要main drive
+(17:45.000) 需要客製化
+(17:46.000) 我們通通一次性一站式的來攻擊他們
+(17:51.000) 所以經過這個事件之後
+(17:53.000) 我們會得到更多更多威力
+(17:55.000) 更多的未來的生意機會
+(17:56.000) 我們現在只是煩惱
+(17:57.000) 錢不夠用庫存不夠用
+(18:00.000) 那現在我們在解決錢和庫存的問題
+(18:05.000) 這是我們想和大家分享的
+(18:07.000) 如果我們去購物
+(18:10.000) PChome或Amazon
+(18:11.000) 或去購物商
+(18:14.000) SSD的購買會下降
+(18:16.000) 因為價格太高
+(18:17.000) 但在工業方面他們必須購買
+(18:19.000) 因為他們必須購買每一件產品
+(18:21.000) 無論價格上升10倍
+(18:23.000) 10倍20倍30倍
+(18:24.000) 他們仍然必須購買
+(18:25.000) 所以Pfizer現在會把更多的供應鏈
+(18:29.000) 放到Embedded Design Business
+(18:32.000) 這主要是在自動化方面
+(18:34.000) 我覺得我們有太多的名字
+(18:36.000) 我不想花時間在這裡
+(18:37.000) 我只想給大家展示
+(18:39.000) 幾乎每一個平臺
+(18:40.000) 每一個中國OEM都面臨庫存的短缺
+(18:45.000) 所以我們有足夠的
+(18:47.000) 再一次我想重複
+(18:49.000) Anna Lee說Pfizer是低成本的庫存
+(18:51.000) 讓我提醒大家
+(18:52.000) 我們有一個元件
+(18:54.000) 我們保留了超過30萬件
+(18:57.000) 30萬件
+(18:59.000) 價格從2美元
+(19:01.000) 現在升到25美元
+(19:03.000) 我們保留這個
+(19:04.000) 只供應自動化
+(19:06.000) 所以30萬件庫存
+(19:08.000) 可以持續多年
+(19:10.000) 所以很多自動化的庫存
+(19:13.000) 他們來訪問Pfizer
+(19:14.000) 要Pfizer供應給他們
+(19:17.000) 所以不僅是低成本
+(19:20.000) 我們也有UFS
+(19:21.000) 我們有BGA
+(19:22.000) 我們有很多的設計
+(19:24.000) 有美國 歐洲 日本
+(19:26.000) 還有中國的自動化製品
+(19:30.000) 所以Consumer Products Portable SSD
+(19:33.000) 我們有一個專案
+(19:34.000) 跟南韓OEM合作
+(19:36.000) 他們獲得了獎項
+(19:37.000) 是Pfizer的產品
+(19:39.000) 是第一款USB Gen 4自動化控制器
+(19:43.000) 在MicroSD卡
+(19:44.000) SD卡是歷史
+(19:45.000) 但我們不再在市場上
+(19:48.000) 我們主要在遊戲
+(19:51.000) 自動化
+(19:53.000) 我們獲得了一張EB卡
+(19:55.000) 我們也會獲得
+(19:58.000) 更多的機械製品
+(20:00.000) OK
+(20:01.000) 這都是關於設計
+(20:03.000) 客戶的信任
+(20:06.000) OK
+(20:09.000) 一級的日本客戶
+(20:13.000) OK 我們再回到
+(20:14.000) Retirement Determiner
+(20:15.000) 這裡有幾個關鍵的分析
+(20:17.000) Pfizer是最大的
+(20:19.000) 5.0 Determiner供應者
+(20:21.000) OK
+(20:22.000) Pfizer 6.0 Determiner
+(20:25.000) 我們開始運輸
+(20:28.000) 到伺服器
+(20:29.000) OK 主要運輸到自動化
+(20:31.000) 我們獲得了這麼多的調查
+(20:33.000) PCIe Determiner 6
+(20:35.000) OK
+(20:37.000) 我們再回到Retirement
+(20:40.000) 由於Inference
+(20:42.000) 開始受歡迎
+(20:44.000) 最近我們獲得了一個大專案
+(20:46.000) 基於B300平臺
+(20:49.000) 是幾百萬件的Retirement
+(20:52.000) 遺憾的是我們沒有儲備
+(20:53.000) 所以我們請TSM供應我們
+(20:55.000) 現在我們開始運輸Retirement
+(20:57.000) 到100萬件每專案
+(21:00.000) 因此我們獲得了這項任務
+(21:04.000) 順帶一提 由於很多
+(21:06.000) CSP
+(21:08.000) 伺服器 OEM
+(21:09.000) 他們面臨儲存的短缺
+(21:12.000) 他們來找Pfizer幫忙
+(21:14.000) Pfizer供應他們Boot Drive
+(21:16.000) 供應他們Main Drive
+(21:18.000) 我們也幫助了Retirement
+(21:20.000) 我們希望他們接受我們的Retirement
+(21:21.000) 由此我們獲得了優惠
+(21:24.000) 伺服器現在缺SSD
+(21:26.000) 缺開機碟
+(21:28.000) 他們找我們幫忙
+(21:29.000) 我們很樂意幫忙
+(21:30.000) 但是同時也有請求
+(21:32.000) 把Retirement bundle在一起銷售
+(21:34.000) 所以我們也因為這樣子
+(21:35.000) 打進去好幾家的伺服器公司
+(21:38.000) 開始使用我們的Retirement
+(21:41.000) 這個是我們新的生意
+(21:44.000) OK 到Adaptive
+(21:46.000) 我們繼續談Adaptive
+(21:50.000) 上星期說
+(21:51.000) CQ2的價格升了50%
+(21:53.000) OK
+(21:56.000) AI需要DRAM
+(21:57.000) 沒有DRAM沒有AI
+(21:59.000) Pfizer我們使用
+(22:00.000) 我們的Sysadaptive
+(22:02.000) 儲存解決方案來啟動AI
+(22:05.000) 這是證明
+(22:06.000) 我不想再花時間解釋了
+(22:08.000) 這是正在發生的
+(22:12.000) 所以很多PC
+(22:14.000) 手機 伺服器
+(22:18.000) 他們需要DRAM
+(22:22.000) DRAM很昂貴
+(22:23.000) OK
+(22:24.000) 我們使用Fizer解決方案
+(22:26.000) 降低DRAM
+(22:27.000) 解決方案降低價格
+(22:30.000) 整個系統可以運作AI
+(22:33.000) OK
+(22:35.000) 簡單重點就是
+(22:37.000) AI要走入地端
+(22:39.000) 沒有DRAM就沒有AI
+(22:40.000) 沒有AI CPU賣不掉
+(22:42.000) PC公司賣不掉
+(22:44.000) 群演把DRAM的容量降低
+(22:47.000) 加上我們的方案
+(22:49.000) 你本來96G只能賣一臺
+(22:52.000) 你現在96G可以賣兩臺
+(22:53.000) 可以賣三臺
+(22:54.000) 可以賣六臺
+(22:56.000) 加上群演方案
+(22:57.000) 它跑得動
+(22:58.000) 你的產出就增加
+(23:00.000) 這個誰高興
+(23:01.000) 賣CPU的高興
+(23:03.000) 做PC的高興
+(23:04.000) 賣PC的更高興
+(23:06.000) 因為有東西可以賣
+(23:07.000) 買PC的高興
+(23:09.000) 它買得到相對便宜的AI PC
+(23:10.000) 所以這個已經在發生中了
+(23:15.000) OK
+(23:17.000) Fizer Adaptive
+(23:18.000) 我們已經與
+(23:21.000) 每個CPU公司合作
+(23:22.000) 每個GPU公司合作
+(23:24.000) 我們也開始與
+(23:27.000) 手機公司合作
+(23:28.000) 我們也與名人合作
+(23:30.000) 我們也與很多PC OEM合作
+(23:34.000) 這是給大家看的
+(23:37.000) CES我們有一些
+(23:38.000) demo
+(23:40.000) 我們有一些產品
+(23:43.000) 這是一個模型
+(23:45.000) 正在進入市場
+(23:46.000) OK
+(23:47.000) 所以Computex
+(23:49.000) 這個月
+(23:50.000) 你可以看到
+(23:51.000) Fizer AI的解決方案
+(23:53.000) 在哪裡
+(23:54.000) 每個AI機器
+(23:56.000) 絕對會與
+(23:58.000) Fizer Adaptive的AI解決方案合作
+(24:00.000) 因為我們可以
+(24:01.000) 降低成本
+(24:02.000) 讓它變得更受歡迎
+(24:04.000) 今天電腦展所有的PC公司
+(24:06.000) 基本上都會把這個方案拿出來
+(24:08.000) 因為已經沒有選擇了
+(24:09.000) 沒有DWAM就沒有AI
+(24:11.000) 那有了我們方案
+(24:12.000) 就可以把任何一臺
+(24:14.000) 有小算力的CPU
+(24:16.000) 把它轉成是AIPC
+(24:19.000) 所以
+(24:20.000) Fizer
+(24:22.000) 我們不再是消費者
+(24:23.000) 我們不再是交易
+(24:25.000) 所以AI正在發生
+(24:26.000) AI影響正在來臨
+(24:28.000) 所以
+(24:29.000) 影響什麼樣的工業
+(24:31.000) AI影響
+(24:32.000) Fizer我們贏得了很多的配置
+(24:34.000) 如我所說
+(24:35.000) 我們有CSP
+(24:36.000) 我們有OEM
+(24:37.000) 我們有Hyperscale
+(24:39.000) 我們也贏得了很多Cosmic ESSP
+(24:41.000) OK
+(24:42.000) Devon News 給你們看
+(24:43.000) CQ1
+(24:44.000) Doomfield Supplies
+(24:46.000) 我們贏得了Retirement Determiner
+(24:48.000) 因為我們有Bundle
+(24:50.000) EMMC低能耗
+(24:52.000) 我們持有30MPS
+(24:54.000) 供應到自動化
+(24:56.000) 供應到OEM
+(24:59.000) 然後
+(25:00.000) 到Edge機器
+(25:01.000) 如我所說
+(25:03.000) AIPC
+(25:05.000) 與Intel AMD CPU
+(25:07.000) 與Adaptive
+(25:08.000) 是由Computex發生的
+(25:11.000) 因此
+(25:14.000) 因此
+(25:15.000) Fizer現在
+(25:16.000) 我們正在努力購買更多現金
+(25:19.000) 購買更多儲存
+(25:23.000) 所以
+(25:24.000) 今天Fizer
+(25:25.000) 我們正在進行
+(25:26.000) 複雜的儲存解決
+(25:28.000) 在AI ecosystem
+(25:31.000) 我們提供了控制器
+(25:33.000) 我們提供了儲存模組
+(25:35.000) 我們提供了Enterprise SSD
+(25:37.000) 我們提供了Adaptive Solution
+(25:39.000) 我們提供了Retirement
+(25:42.000) 還有我們的客戶AI服務
+(25:45.000) 我們也在幫助一些
+(25:47.000) 組織
+(25:48.000) 去發展
+(25:50.000) 空間資料儲存系統
+(25:54.000) 我們幫助發展系統
+(25:56.000) 所以CQ2
+(25:57.000) 我們會向你們報告
+(25:59.000) 我們正在建立儲存系統
+(26:01.000) 為專業應用
+(26:03.000) 所以Fizer是完全不同的
+(26:06.000) 我們正在進行儲存系統
+(26:08.000) 我們得到了一切
+(26:10.000) 去年已經轉型
+(26:12.000) 從過去的消費者到Embedded
+(26:14.000) 現在基本上
+(26:15.000) 所有的AI裡面的方案
+(26:18.000) 我們基本上都有
+(26:19.000) 現在唯一的頭痛的就是
+(26:21.000) 錢不夠用
+(26:22.000) 跟貨不夠用
+(26:26.000) 所以R&D的成本
+(26:28.000) 仍然保持在20%
+(26:30.000) 我們不會聘請那麼多工程師
+(26:32.000) 我們控制我們的R&D成本
+(26:34.000) 我們嘗試使用AI來提升
+(26:36.000) 我們的R&D效率
+(26:40.000) OK
+(26:41.000) 這篇文章
+(26:42.000) 我需要花點時間
+(26:43.000) 因為Analyst說
+(26:44.000) 低成本儲存系統
+(26:46.000) OK
+(26:48.000) 我們從這部分開始
+(26:50.000) CQ2我們買儲存系統
+(26:52.000) 同一天
+(26:53.000) 這個儲存系統是高成本
+(26:55.000) 在那天
+(26:56.000) 但是去到
+(26:59.000) 兩年半後
+(27:00.000) 這個變成低成本
+(27:01.000) 所以Analyst說
+(27:03.000) 你開心
+(27:05.000) 我們一直買CQ1的儲存系統
+(27:08.000) 哦，這是高成本
+(27:10.000) 然後問題是
+(27:11.000) 一年半後
+(27:12.000) 價格保持低
+(27:16.000) 保持低還是增長
+(27:18.000) 你要問問自己
+(27:20.000) 每兩三個月
+(27:22.000) 價格增長50%
+(27:23.000) 所以我需要儲存儲存系統
+(27:25.000) 給我的供應商
+(27:26.000) 所以我們相信
+(27:27.000) 價格仍然會增長
+(27:30.000) OK
+(27:31.000) 我們假設
+(27:32.000) 這是增長X
+(27:35.000) 這是Y
+(27:36.000) 這是Z
+(27:37.000) Y絕對大於Z
+(27:40.000) 因為你說是低成本
+(27:42.000) 這正在發生
+(27:43.000) 那麼問題是
+(27:44.000) Z會低於Y
+(27:46.000) 你可能對
+(27:48.000) 你可能錯
+(27:49.000) 我不知道
+(27:50.000) 但是問題是
+(27:53.000) 這是10歲的學生
+(27:55.000) 數學
+(27:56.000) OK
+(27:57.000) 不要太狹窄
+(27:58.000) OK
+(27:59.000) 閱讀
+(28:01.000) Z低於Y
+(28:03.000) 所以什麼
+(28:05.000) 我們獲得了增長
+(28:06.000) 最終
+(28:08.000) EPS來自增長
+(28:10.000) 並不是來自百分比
+(28:12.000) 所以你為什麼擔心
+(28:14.000) 低成本儲存
+(28:15.000) 儲存可以消耗很多年
+(28:17.000) 但是
+(28:18.000) 即使我今天買儲存
+(28:20.000) CQ3
+(28:21.000) 我們相信價格仍然
+(28:23.000) 可以保持高
+(28:25.000) 但是我們有價值
+(28:27.000) 去Enterprise
+(28:28.000) 去AI Adaptive
+(28:29.000) 這會幫助Physon
+(28:31.000) 獲得更多增長
+(28:33.000) 給更多EPS
+(28:36.000) 所以總結在這裡
+(28:39.000) 如果沒有事發生
+(28:41.000) Physon顯示我們的增長
+(28:42.000) 37%
+(28:43.000) 以及前面的3%
+(28:46.000) CQ4
+(28:48.000) 根據測試
+(28:49.000) 低成本
+(28:50.000) 40%增長
+(28:52.000) 接下來
+(28:55.000) 我不知道
+(28:56.000) 如果我能夠50%或者60%
+(28:59.000) 我們來看看
+(29:00.000) 時間會告訴我們
+(29:01.000) 不過
+(29:02.000) But one thing for sure is, revenue increase, gross profit increase, at the end, EPS increase a lot.
+(29:14.000) And I have a confidence, in this period, the gross margin definitely will be bigger than our regular.
+(29:22.000) This I have a confidence.
+(29:23.000) So, don't be that shallow.
+(29:25.000) Use a simple mathematics and the low cost inventory.
+(29:28.000) So, we have our own value, not only low cost.
+(29:32.000) We got so many activity R&D, we win everything.
+(29:35.000) 這邊我要澄清，因為一些分析真的膚淺，而且呢，我不曉得是不是有故意的誤導，用一個簡單的數學去講一些東西。
+(29:46.000) 但是，群聯的價值不來自於低價的庫存。
+(29:49.000) 但低價庫存很好，多賺錢嘛。
+(29:51.000) 因為低價庫存可以得到更多的design機會，我們得到很多的生意。
+(29:55.000) 保證未來的客戶群和營收是好事。
+(30:01.000) 但是透過低價庫存賺到錢，投資研發得到機會，我們一直努力擴大以後的版圖。
+(30:10.000) 更重要的是，透過這個努力可以一直創造更好的最後的EPS,這才是我們要的。
+(30:17.000) 太著重在爬樹，很多時候會把焦點給混濁掉，而且讓一些散戶不懂的，你把他騙掉，這個沒有良心。
+(30:29.000) 最後，總結。
+(30:31.000) 在過去30年，所有的半導體都是由英特爾做的。
+(30:37.000) 英特爾告訴你5年的規劃，5年你想做什麼。
+(30:40.000) 所有的生態系統都跟隨英特爾。
+(30:43.000) 今天AI,NVIDIA每年都在改變模式。
+(30:48.000) 所有的生態系統，老實說，他們不知道該怎麼做，因為改變得太快了。
+(30:53.000) 5成的價值來自於NVIDIA。
+(30:57.000) 我們很靈活，我們有資源，我們很激進，我們很努力，我們可以跟隨AI的動力。
+(31:08.000) 這就是5成的優勢。
+(31:10.000) 在未來的幾年，由於5成的特殊文化，我們投資了很多R&D,我們嘗試收集現金，我們賺錢，我們很激進，我們做了快速的決定。
+(31:21.000) 5成可以成長在這個AI時代。
+(31:26.000) 過去的三四十年，英特爾帶領大家半導體的路。
+(31:30.000) 他告訴你今年什麼CPU,明年什麼CPU,五年什麼東西。
+(31:33.000) 大家跟著他的方式做，按部就班。
+(31:36.000) 在那個情況下，只有大型公司有資源才能得到那個機會，小公司很難。
+(31:43.000) AI每一年變一個世代，很多大型公司的決策跟得比較慢，反而創造了機會給全聯電子。
+(31:51.000) 全聯電子的機會在於什麼？
+(31:54.000) 我們有充足人力資源，有很好的IP portfolio,有成熟的產品線，還有重要的是人員的穩定性。
+(32:02.000) 公司有錢，賺錢，捨得花錢。
+(32:05.000) 那因為AI變化很快，我們跟進變化更快，所以我們贏到了很多很多的生意。
+(32:12.000) 所以看全聯電子不要再看全聯電子第一家庫存，第一家庫存好事，那是天上掉下來的，不拿白不拿。
+(32:19.000) 但是因為這種情況底下，我們會有更好的投資，得到更好的將來。
+(32:26.000) 所以感謝NVIDIA創造這個AI機會，讓我們這種彈性的公司可以得到成長。
+(32:31.000) 不然全聯電子憑什麼拿到剛才講的Enterprise這麼多的Design In呢？
+(32:36.000) 在過去這是不可能的，人家看你都不看你啦。
+(32:39.000) 但是因為這個機會，我們得到之後，全聯電子的紀錄是隻要拿下來了，這輩子就是我們的，而且會擴大。
+(32:48.000) OK,讓我來結束這個Q&A。
+(32:51.000) 債券，我們決定第二半17NT,為什麼呢？
+(32:57.000) OK,比例是52%,整個一年是55%,56%。
+(33:02.000) 就因為我們需要現金，我們需要保留儲存，我們需要買儲存，我們需要做服務給生態系統。
+(33:10.000) 所以今年我們在債券上有一點點保守，希望你們能夠理解。
+(33:14.000) 但是現金保留在Physon手上，會幫助Physon增長更多的生意。
+(33:19.000) 我們決定去年配17塊是52%,整年度是56%,主要是我們需要大量現金，因為庫存已經拉到快500億了，已經超過500億了，我們需要大量現金。
+(33:33.000) 500億不是我想拉，是因為客戶的需求，下半年需求，我要先把東西買下來，然後等到產出給他錢拿回來一段時間，所以我需要大量的現金。
+(33:41.000) 我希望經過這個高峰期之後，全年現金水位充足，在未來時間裡面我們再加大配股息的比例。
+(33:53.000) 我們今天早上就透過了，我們和銀行簽訂了400多億的信義貸款，為什麼我們需要呢？因為我們需要保留我們的現金流量，我們需要保留我們的英文策略。
+(34:08.000) 我們今天董事會透過連帶4億美金，主要還是因為整個資金需求很強，客戶的需求很強，我們必須要把庫存可以的話買下來，然後放比較久來滿足客戶每天的需求。
+(34:21.000) 所以這個還是因為為了因應這個需求來做的。
+(34:26.000) 所以我們如果是貿易公司，我就不希望做這個事了，左進右出很快，但是我們是做長期生意的。
+(34:35.000) 這個頁面，我認為可以給大家看出一個很大的分別。
+(34:39.000) 這是Pfizer的資料庫。
+(34:42.000) 控制器60%,工業元件14%,企業35%。
+(34:50.000) Embedded ODM,PC和手機30%。
+(34:54.000) 銷售，銷售3%。
+(34:57.000) 意味著什麼呢？意味著Pfizer將所有我的資源，我的名字，轉移到Manly Enterprise和Embedded ODM。
+(35:05.000) 所以大家可以看到，在未來的幾年，Pfizer的增長會來自於Enterprise和Embedded。
+(35:12.000) 從這個來看，群聯電子未來的成長動能，絕對是在企業及Embedded,就是手機和PC的應用，還有工業的應用。
+(35:20.000) 當然，控制器，我認為今年的出貨量絕對是減少的，因為沒有Fresh,誰買控制器。
+(35:26.000) 但是，群聯電子模組的成長金額會超過控制器的衰退。
+(35:33.000) 控制器可能兩三年之後需求會回來，我們持續開發新的控制器。
+(35:39.000) 所以，控制器公司今天只靠控制器一定會很麻煩。
+(35:43.000) 所以，控制器公司已經轉型開始賣模組了，大量賣模組。
+(35:48.000) 現在有庫存還好，可以得到毛利利。
+(35:51.000) 等到庫存變貴的時候，那個分析師寫報告應該是要看這種公司。
+(35:56.000) 你去買Fresh做成模組之後，毛利利馬上變個位數了。
+(36:01.000) 這個不是發生在群聯電子了。
+(36:05.000) ESG,我們還在做得很好。
+(36:08.000) 所以，我想和大家分享一下，我們一直在盡全力，
+(36:11.000) 不僅是利潤，也是管理能力。
+(36:15.000) 我希望每個投資者都能安心。
+(36:18.000) 這是我的報告。
+(36:31.000) 謝謝KS的保證的更新。
+(36:35.000) 我們現在正在開放Q&A。
+(36:40.000) 如果大家有問題，請使用提問功能。
+(36:44.000) 也可以在聊天欄開啟提問欄。
+(36:47.000) 我們會為您提出問題。
+(36:50.000) 我們現在等待一些問題。
+(36:52.000) 我會先問一些問題。
+(36:54.000) 我第一個問題是關於LTA。
+(36:58.000) 由於NAND的價值在增長，
+(37:01.000) 我們是否開始和LTA的客戶商討？
+(37:05.000) 或是和NAND的客戶商討更好的供應？
+(37:11.000) 如果是的話，請分享更多的資訊。
+(37:14.000) 如果不是的話，
+(37:15.000) 如果有可能的LTA,
+(37:17.000) 我們會如何維持我們的供應？
+(37:22.000) Physons和NAND供應商的關係非常密切。
+(37:27.000) 我們需要Physons和NAND供應商，
+(37:30.000) 因為是企業的SSD。
+(37:32.000) Physons擁有一個LTA和六個NAND供應商。
+(37:37.000) 有些NAND供應商要求準備。
+(37:42.000) 這還在進行中。
+(37:43.000) 還沒有固定。
+(37:44.000) 但我們相信很快會被固定。
+(37:49.000) 我的客戶，
+(37:50.000) 我剛才提到的T1客戶，
+(37:53.000) Bootstrap,Hyperscale,CSP,OEM。
+(37:57.000) 他們也要求Physons的LTA。
+(37:59.000) Physons會盡力貢獻LTA。
+(38:03.000) 我們從供應商得到LTA,
+(38:05.000) 然後向客戶貢獻。
+(38:08.000) 但對於小型客戶，
+(38:10.000) 我們不能貢獻LTA,
+(38:12.000) 但我們會盡力提供更多的供應，
+(38:17.000) 以支援他們。
+(38:19.000) LTA現在很難談判。
+(38:23.000) 談到LTA,
+(38:25.000) 忘記價錢。
+(38:27.000) 你只要贏得LTA,
+(38:29.000) 你就能夠生存。
+(38:34.000) 非常清楚，謝謝。
+(38:36.000) 接下來有關供應商的問題。
+(38:40.000) 我只是在想，
+(38:43.000) 我們知道你和我們的NAND供應商
+(38:51.000) 我們的策略是
+(38:52.000) 在未來保證更多的NAND。
+(38:55.000) 我記得你之前說過
+(38:59.000) 你的位置和保證是更好的。
+(39:03.000) 相比幾個月前，
+(39:08.000) 可不可以給我們更多的資訊
+(39:10.000) 關於保證的進步。
+(39:15.000) 好。
+(39:17.000) 多年來，在記憶體市場中，
+(39:19.000) 所有人都在說供應商。
+(39:21.000) 我認為供應商今天並不可行。
+(39:25.000) 今天是一個評價的創造。
+(39:28.000) 你如何創造價值
+(39:30.000) 讓供應商告訴你
+(39:32.000) 他們的供應商
+(39:34.000) 比其他供應商更好。
+(39:36.000) 好嗎？
+(39:37.000) 這是一個專頁
+(39:38.000) Physon一直向NAND供應商展示。
+(39:42.000) DRAM缺口。
+(39:44.000) 沒有DRAM,沒有AI。
+(39:46.000) Physon使用DRAM,
+(39:48.000) 我們啟動了AI生態系統。
+(39:51.000) 他們很高興看到這件事。
+(39:54.000) 因為這件事，
+(39:55.000) 我們可以得到更多的供應。
+(40:01.000) 我們必須向他們展示我們的改變。
+(40:08.000) 非常有幫助。
+(40:11.000) 下一個問題來自丹尼和諾莫拉。
+(40:15.000) 丹尼，請自我介紹。
+(40:22.000) 你好，凱斯。
+(40:23.000) 是的。
+(40:25.000) 謝謝你，凱斯，
+(40:27.000) 給我們這麼詳盡的介紹。
+(40:30.000) 我的第一個問題是
+(40:32.000) 關於你的企業SSD的銷售貢獻。
+(40:37.000) 你剛才提到
+(40:38.000) 在第一季
+(40:39.000) 你的銷售可能會增加到30%。
+(40:45.000) 我很好奇
+(40:47.000) 如果你有四年目標
+(40:49.000) 在企業SSD的貢獻方面。
+(40:59.000) 你剛才提到
+(41:02.000) 你不再是一家貿易企業，
+(41:06.000) 而是一家設計型企業。
+(41:09.000) 如何會影響你的成本
+(41:12.000) 在未來四季內？
+(41:16.000) 這是我的第一個問題。
+(41:17.000) 好的。
+(41:18.000) SSD的銷售
+(41:20.000) CQ1是非常保證的。
+(41:22.000) 我認為CQ2
+(41:24.000) 肯定會增加到30%。
+(41:25.000) 因為我們有足夠的銷售企業。
+(41:29.000) CQ2
+(41:31.000) 當然，你無法相信銷售貨幣的數字。
+(41:35.000) 但我們還是在談企業企業。
+(41:38.000) 無論如何，
+(41:39.000) SSD的企業
+(41:40.000) 都將成為今年Pfizer的
+(41:42.000) 主要利潤和利潤贊助者。
+(41:46.000) 好的。
+(41:47.000) 然後談到Pfizer的銷售貨幣股份。
+(41:50.000) 我們從來沒有
+(41:52.000) 我只是想解釋
+(41:53.000) 當我談到
+(41:55.000) 我可以輕易創造
+(41:57.000) 我從貿易的增長範圍
+(41:59.000) 我購買10美元
+(42:00.000) 我貿易30美元
+(42:01.000) 不需要任何價格，對嗎？
+(42:02.000) 但是當價格升至30美元
+(42:06.000) 市場升至20美元
+(42:07.000) 你貿易
+(42:08.000) 你減少10美元
+(42:09.000) Pfizer是不同的
+(42:10.000) 我們是設計者
+(42:11.000) 我們採取元素
+(42:13.000) 我們建立產品
+(42:14.000) 所以當市場價格升幅大幅增加
+(42:17.000) 我的產品無法那麼快
+(42:20.000) 因為是設計者
+(42:23.000) 但是當市場價格升幅大幅增加
+(42:25.000) 我仍然可以保持利潤
+(42:27.000) 所以貿易貨幣股份
+(42:29.000) 它們很快就會受損
+(42:31.000) 當價格穩定
+(42:33.000) 但是Pfizer仍然可以賺錢
+(42:35.000) 因為我們創造了價值
+(42:37.000) 在產品上的一部分
+(42:39.000) 作為一個產品
+(42:42.000) 是的
+(42:43.000) 我可以作一個補充嗎？
+(42:45.000) 關於LTA
+(42:46.000) 我認為是很重要的
+(42:48.000) 在今年以來保持供應
+(42:51.000) 請您給我們更多的資訊
+(42:55.000) 關於我們與產品製造商討論的LTA
+(43:01.000) 我們能否說
+(43:03.000) 我們能夠保持更多的產品供應
+(43:07.000) 在這個迴圈和之前的迴圈之間
+(43:11.000) 也請您給我們一些意見
+(43:15.000) 關於未來四季的產品價格趨勢
+(43:18.000) 您還會看到
+(43:19.000) 例如強勁的雙數字
+(43:22.000) QOQ增長
+(43:24.000) 在下個四季
+(43:27.000) 是的
+(43:28.000) 在這段時間
+(43:29.000) 當我對所有的主要供應商說話
+(43:31.000) 我總是說感謝
+(43:33.000) 謝謝
+(43:34.000) 但是我需要更多
+(43:36.000) 我需要更多
+(43:37.000) 無論他們能給我多少
+(43:39.000) 我仍然需要更多
+(43:40.000) 但我只是感謝他們對我們的支援
+(43:42.000) 所以如何獲得更多的供應
+(43:45.000) 我需要展示我的價值
+(43:47.000) 所以在這個頁面
+(43:48.000) 我們在這個貨櫃
+(43:50.000) 所以如果這些客戶需要更多
+(43:54.000) 我無法滿足
+(43:55.000) 他們需要幫助我去到供應商
+(43:58.000) 請供應商展示給我
+(44:00.000) OK
+(44:02.000) OK
+(44:04.000) 我們也嘗試取得更多的供應商
+(44:09.000) 或交換給我們的供應商
+(44:12.000) 請他們多付一些供應
+(44:16.000) 但總體來說
+(44:17.000) 每個人去到供應商
+(44:20.000) 他們總是說不足夠
+(44:22.000) 他們需要更多
+(44:23.000) 但很遺憾的是
+(44:24.000) 他們也無法滿足你們的要求
+(44:27.000) 但逐漸逐漸
+(44:29.000) 每個月每個月
+(44:31.000) Pfizer不斷增加我們的供應
+(44:34.000) 在LTA的頂峰
+(44:40.000) 那你對下個四季
+(44:45.000) 在中國的新年之前
+(44:48.000) 我會說
+(44:51.000) 他們停止生產
+(44:53.000) 然後需求稍微變得柔軟
+(44:56.000) 但成本價格
+(44:58.000) 昨天下跌50%
+(45:04.000) 昨天下跌50%
+(45:06.000) 我們很驚訝
+(45:07.000) OK
+(45:08.000) 所以現在我不知道
+(45:10.000) 下個月或一個月後
+(45:11.000) 我完全不知道
+(45:12.000) 但我可以肯定的說
+(45:14.000) 供應是非常非常緊張
+(45:19.000) 明白了
+(45:20.000) 昨天下跌50%
+(45:23.000) 也就是說
+(45:24.000) 下個四季的底線
+(45:26.000) 價格大約會在第一四季
+(45:27.000) 下跌50%
+(45:29.000) 是的
+(45:30.000) 這是基本的情況
+(45:32.000) 是的
+(45:33.000) 好
+(45:35.000) 第二個問題
+(45:37.000) 因為GTC在角落
+(45:40.000) 你剛才提到
+(45:42.000) 其實在這個頁面
+(45:43.000) 你提到
+(45:45.000) 新設計的新規模
+(45:47.000) 所以我們看到
+(45:48.000) 你的產品已經使用
+(45:50.000) 在Boot Drive
+(45:52.000) 在GR系統
+(45:57.000) 所以
+(46:00.000) 什麼樣的新產品
+(46:03.000) 我們可能可以進入
+(46:06.000) Platform或GPU公司
+(46:10.000) Donny
+(46:11.000) 對不起
+(46:12.000) 在NDA下
+(46:13.000) 我們不能說任何話
+(46:14.000) 你只能等待GTC發生
+(46:17.000) OK
+(46:18.000) 但它會是不同的產品
+(46:20.000) 對吧
+(46:21.000) 它不再只是Boot Drive
+(46:23.000) 也許
+(46:24.000) 例如你剛才提到的
+(46:25.000) 也許是主機板或其他東西
+(46:28.000) Physons的強項是
+(46:31.000) 我們很擅長Customize
+(46:36.000) OK
+(46:37.000) 沒問題
+(46:38.000) 謝謝KS
+(46:39.000) 我會再回覆你
+(46:40.000) 謝謝
+(46:42.000) 謝謝
+(46:44.000) 下一條問題
+(46:45.000) 來自Simon Wu
+(46:47.000) Bank of America
+(46:49.000) 好的 謝謝
+(46:51.000) 你好 KS
+(46:52.000) 恭喜
+(46:53.000) 很棒的結果
+(46:56.000) 謝謝
+(46:58.000) 所以
+(47:00.000) 長遠來說
+(47:01.000) 你有什麼想法
+(47:03.000) HPF
+(47:05.000) 你好
+(47:06.000) 我是Bank of America的
+(47:08.000) Flash
+(47:10.000) 謝謝
+(47:11.000) 好的
+(47:12.000) HPF
+(47:13.000) 你應該去訪問韓國和美國的名人
+(47:16.000) 但從我的角度
+(47:18.000) 我想我已經解釋過幾次
+(47:20.000) 首先
+(47:21.000) Flash的記憶體有一個生命迴圈
+(47:25.000) OK
+(47:26.000) 你把Flash和GPU組合起來
+(47:29.000) 當Flash的生命結束
+(47:31.000) GPU就會消失
+(47:32.000) 第二
+(47:33.000) 他們有一個所謂的
+(47:35.000) 氣溫差別
+(47:37.000) Flash是80度
+(47:40.000) 所以氣溫如何控制
+(47:42.000) 是一個問題
+(47:44.000) 但HPF
+(47:45.000) 一定會發生
+(47:48.000) 在某些應用
+(47:49.000) 但我懷疑
+(47:51.000) HPF會去到
+(47:53.000) GPU的普通用途
+(47:55.000) 我懷疑
+(47:58.000) OK
+(48:00.000) 好的 非常清楚
+(48:03.000) 你現在正在研發HPF控制器
+(48:07.000) 好的
+(48:08.000) 讓我解釋給你聽
+(48:10.000) Physon的宣告
+(48:12.000) Physon一定可以研發HPF控制器
+(48:16.000) 我看不到任何困難
+(48:17.000) 但是
+(48:18.000) 如果我們沒有真正的客戶
+(48:21.000) 我最好不要投資現在
+(48:23.000) 因為我的工程師
+(48:24.000) 正在忙於這項專案
+(48:27.000) 所以我們在等待
+(48:28.000) 當真正的客戶來找我們
+(48:31.000) 我們可以在12到16個月內
+(48:34.000) 完成這項設計
+(48:36.000) 是的
+(48:38.000) 非常清楚
+(48:41.000) 順帶一提
+(48:43.000) 50%的價格升值
+(48:45.000) 對於你的產品
+(48:46.000) 你是說最近
+(48:47.000) 對不起
+(48:48.000) 什麼意思
+(48:49.000) 50%
+(48:50.000) 供應商提高了價格
+(48:52.000) 晚上
+(48:54.000) 供應商的意思是
+(48:55.000) 什麼
+(48:56.000) 是的
+(48:58.000) 突然
+(48:59.000) 50%的價格升值
+(49:01.000) 意味著
+(49:03.000) Nanded Source的價格
+(49:05.000) 是的
+(49:06.000) 這是不好的
+(49:07.000) 或者你不購買
+(49:09.000) 不購買
+(49:10.000) 對不起
+(49:11.000) 我意思是
+(49:12.000) 你有選擇
+(49:13.000) 你選擇購買還是不購買
+(49:16.000) 好的
+(49:17.000) 假設
+(49:18.000) 如果你提高了價格
+(49:23.000) 你的成本
+(49:25.000) 你的收入
+(49:26.000) 你的成本應該提高
+(49:28.000) 你的成本應該提高
+(49:30.000) 除非你提高了
+(49:32.000) 你的產品的價格
+(49:34.000) 我
+(49:37.000) 是的
+(49:39.000) 大家都知道
+(49:41.000) 是的
+(49:42.000) 我試著解釋這個頁
+(49:45.000) 好的
+(49:46.000) 這是一個好頁
+(49:52.000) 好的
+(49:54.000) 所以你說
+(49:55.000) 價格升值
+(49:56.000) Nanded的價格升值
+(49:57.000) 你的產品的價格升值
+(49:59.000) 你的成本應該提高
+(50:01.000) 百分比可能不太好
+(50:03.000) 但成本是好的
+(50:06.000) 是的
+(50:07.000) 抱歉
+(50:08.000) 非常複雜
+(50:10.000) 即使你說
+(50:12.000) 這是中學的數學
+(50:14.000) 我努力了
+(50:17.000) 所以
+(50:20.000) Nanded的價格升值
+(50:23.000) 你可以立即提高產品的價格
+(50:25.000) 立即
+(50:26.000) Simon
+(50:27.000) 短缺
+(50:28.000) 客戶不接受
+(50:29.000) 不要問
+(50:31.000) 短缺
+(50:32.000) 對嗎
+(50:34.000) 對你的產品
+(50:35.000) 也是
+(50:36.000) 是的
+(50:39.000) 然後你可以提高價格
+(50:41.000) 我必須
+(50:42.000) 為什麼我會減價
+(50:44.000) 對嗎
+(50:45.000) 好的
+(50:46.000) 是的
+(50:48.000) 不要給我
+(50:49.000) 給我的供應商
+(50:50.000) 不是因為我
+(50:53.000) 所以Q4的結果
+(50:56.000) 或者20
+(50:57.000) 20
+(51:00.000) 大致上是基於
+(51:02.000) Nanded的價格升值
+(51:05.000) 我們也有一些商業設計
+(51:07.000) OEM
+(51:09.000) 是的
+(51:10.000) 36會有兩個因素，一個是我們可以取得低成本，另一個是我們可以贏得許多新的專案，值得的專案。
+(51:21.000) 抱歉，我剛才問了你的對手。你的對手也說他們在賣USB充電器，那你覺得哪個比較好？你覺得USB充電器市場大嗎？
+(51:44.000) Simon,你知道嗎？你問我，我的答案是你跟薯條相比。你知道嗎？你問我薯條的問題，我是薯條，所以我不知道該怎麼回答你。
+(51:58.000) 但那時候告訴你，別擔心，別擔心。我不想過度使用我們做的事情，我們有一個NDA,但我的答案是薯條跟薯條相比，尺寸完全不一樣。
+(52:17.000) 那薯條市場的尺寸為什麼可以越來越大？
+(52:24.000) 不是因為尺寸越來越大，而是因為名牌公司離薯條遠了。
+(52:32.000) 抱歉抱歉，你是說？
+(52:33.000) 名牌公司，名牌製造商，之前他們提供薯條和Main Drive,對吧？他們製造了薯條的EOL,End of Life,他們專注在Main Drive,所以誰提供薯條和Phyton?
+(52:49.000) 我的對手，但我可以問一個問題嗎？我的對手有足夠的名牌資產嗎？
+(52:58.000) 沒有。
+(53:00.000) 很好的問題，沒有，意思是市場是30美元，他們要買30美元，對吧？
+(53:06.000) 我的價格是5美元，所以我說薯條要求薯條。
+(53:13.000) 我明白了。
+(53:15.000) 薯條的平均收入是多少？
+(53:20.000) 視乎480GB,960GB,1.9GB,不重要。
+(53:27.000) 他們有資產嗎？還是他們有LTA?如果他們沒有LTA,他們怎麼能確保他們能夠獲得？
+(53:35.000) 我聽說我的對手去中國，Motorhouse,購買Spoke,Marketflash來建造薯條。
+(53:43.000) 對，對，對。
+(53:44.000) 那麼他們有多少%的資產能夠獲得？
+(53:47.000) 對，但是今天已經有著非常有名的GPU在市場上，下一代的GPU可能是今年第二代。
+(54:01.000) 那麼您會建議什麼？您會建議NAND接觸嗎？還是主流的GPU?
+(54:14.000) 我們會依照使用者的要求。
+(54:18.000) 我們會依照使用者的要求。
+(54:20.000) 這些都是我的使用者，他們問我做什麼，我就做什麼。
+(54:23.000) 我無法透露。你看，我的對手把名字放在這裡，我沒有。
+(54:29.000) 我尊重NDA。
+(54:31.000) 是的，是的。
+(54:32.000) OK,今天NAND的價格很強，產品的價格也很強。
+(54:42.000) 您不會期待稍微軟化的價格趨勢或價格下跌到今年年底嗎？
+(54:49.000) 我今年睡得很好，不擔心，沒有噩夢，今年很好。
+(54:55.000) 嗯，嗯，嗯，嗯。
+(54:57.000) 下一年，就擔心下一年。
+(54:59.000) 今年我忙著睡得好，噩夢，對吧？
+(55:06.000) 是的，是的。
+(55:20.000) Python政策是55%。
+(55:22.000) 55%。
+(55:23.000) 是的，但今年我離開了。
+(55:25.000) 分別來說，您賠償的錢是一半或三百萬美元。
+(55:36.000) 因為您賠償了稅金，但您賠償了你的工作資金。
+(55:42.000) 是的。
+(55:43.000) 稅率增加了。
+(55:44.000) 是的。
+(55:45.000) 所以，賠償成本，我不知道，也許3%?
+(55:52.000) 如果我有一個富有的父親，我不需要擔心。
+(55:57.000) 我賠償3%一年，我賠償200%一年。
+(56:01.000) 為什麼不？
+(56:02.000) 嗯，嗯，嗯，嗯。
+(56:03.000) 好的，好的。
+(56:05.000) 一切都清楚了，先生。
+(56:06.000) 謝謝。
+(56:07.000) 我們很快就會見面。
+(56:09.000) 謝謝。
+(56:10.000) 還有座位，座位上有幾個問題。
+(56:13.000) 我可以進去嗎？
+(56:16.000) 好的，請進去。
+(56:17.000) 請進去。
+(56:19.000) 您對您的控制商業的看法如何？
+(56:22.000) 今年，我們增加了手機。
+(56:26.000) 客戶SSD大多數下跌，但我認為是少數下跌。
+(56:31.000) 所以我們很好。
+(56:33.000) 但是純粹的控制房會很困難。
+(56:36.000) 無論如何。
+(56:37.000) 第二，現在的運營水平和他們的訓練。
+(56:42.000) 本月底，我收到報告。
+(56:44.000) 我們現在有超過50BNT。
+(56:48.000) 現在大概500多億臺幣的庫存。
+(56:51.000) 您對公司的增長趨勢的看法如何？
+(56:56.000) 我們從來沒有預測過。
+(56:59.000) 但是確定CQ1和CQ2非常強大。
+(57:03.000) 而CQ3和CQ4,我不覺得變得弱。
+(57:06.000) 也許會變得低，因為價格增長了很多。
+(57:10.000) 但如果我們能夠達到最低的金額，那就會很好。
+(57:29.000) 您對準備如何？
+(57:32.000) 為什麼需要準備？
+(57:33.000) 因為我需要錢。
+(57:34.000) 我今天收到超過50BNT的庫存。
+(57:39.000) 我需要買更多。
+(57:41.000) 我需要時間去迴圈，時間去處理。
+(57:44.000) 客戶給我60天。
+(57:46.000) 我怎麼做生意？
+(57:48.000) 所以我現在需要的就是現金，補足庫存，
+(57:53.000) 把客戶的這個付款年數縮短，來滿足我們的這個需求。
+(57:58.000) 下一個問題。
+(58:00.000) 您對公司的增長趨勢的看法如何？
+(58:02.000) 是否增長了，穩定了，增長得更快，我們可以購買？
+(58:06.000) 公司的增長趨勢是由SRX購買。
+(58:13.000) 我們保留SRX的優惠。
+(58:17.000) 我用這個方式。
+(58:18.000) 表示說我們的庫存總容量其實是，
+(58:23.000) 雖然過去兩個quarter用掉很多，但是也補回很多。
+(58:27.000) 所以這個總容量其實不變。
+(58:29.000) 但是因為單價提高，所以金額跟著提高。
+(58:34.000) 第二題。
+(58:36.000) 1M26,什麼叫1M26?
+(58:39.000) 哦，一般來說，一般來說，
+(58:43.000) 一般來說，
+(58:46.000) 1200億，我覺得很合理。
+(58:49.000) 很合理，也許，也許更多。
+(58:52.000) 然後，我覺得您可以等到3月份。
+(58:54.000) 3月份也可能會提供給您。
+(58:58.000) 3月份讓人家嚇一跳。
+(59:00.000) 我們會有足夠的名字嗎？
+(59:02.000) 答案是對的。
+(59:05.000) Q3的問題是對的。
+(59:07.000) Q4。
+(59:08.000) 一些高階交易商已經在期待EPS200。
+(59:12.000) 請問神。
+(59:13.000) 這個我無法回答，但我會盡我所能。
+(59:20.000) 我想知道，
+(59:21.000) Romain的控制器，IC,WiFi,PCIe Gen 7。
+(59:25.000) Pfizer現在是一個前進的製造商。
+(59:27.000) 我們在前線。
+(59:28.000) 所以我們有一個Gen 6。
+(59:29.000) 我們的Gen 6系統控制器已經準備好。
+(59:33.000) 現在正在發展程式。
+(59:34.000) 希望到8月份，
+(59:36.000) 我們會提供SSD市場的樣本。
+(59:39.000) Gen 7正在進行中。
+(59:41.000) 這主要是設計AI系統。
+(59:43.000) 如我所說，
+(59:44.000) Intel領導了30年，
+(59:46.000) 告訴你5年後會發生什麼。
+(59:48.000) 但NVIDIA沒有。
+(59:49.000) 所以Gen 6將很快到來。
+(59:51.000) Gen 7,然後再兩年後。
+(59:53.000) 所以我們必須投資。
+(59:57.000) NVIDIA ICMS TLC
+(59:59.000) NVIDIA問題，
+(60:04.000) 我無法回答。
+(60:06.000) 所以我們跳過了。
+(60:09.000) 想知道，
+(60:10.000) 現在要多久才能購買新型號？
+(60:14.000) 這非常複雜。
+(60:16.000) 非常複雜。
+(60:17.000) 因為需要包裝、測試、組裝、安裝。
+(60:21.000) 但總體來說，
+(60:23.000) 我們嘗試把流程做得順滑。
+(60:31.000) 請稍等，
+(60:32.000) 你好嗎？
+(60:35.000) CIT。
+(60:36.000) 你投資多少錢？
+(60:38.000) 客戶資料，
+(60:39.000) 手機，
+(60:42.000) 這不是來自我。
+(60:43.000) 這是來自分析師。
+(60:44.000) 有名的分析師。
+(60:45.000) 手機，
+(60:47.000) 大約200萬套裝。
+(60:49.000) 電腦，
+(60:50.000) 5-10%。
+(60:52.000) 但電腦，
+(60:54.000) 減少DRAM,
+(60:56.000) 我想電腦的下降可能會比較小。
+(60:59.000) 好的。
+(61:00.000) 這是來自ChatBot。
+(61:03.000) 我想我們已經完成了
+(61:06.000) ChatBot的問題。
+(61:07.000) 下一個問題來自網上投資者，
+(61:10.000) 是Michael,
+(61:11.000) 來自HDI。
+(61:14.000) 你好，Michael。
+(61:15.000) 你好，KS。
+(61:16.000) 恭喜你
+(61:20.000) 在4Q上表現出色。
+(61:22.000) 我第一個問題是
+(61:26.000) NVIDIA ICMS的機會。
+(61:29.000) NVIDIA正在研究
+(61:30.000) 影響流程效率。
+(61:33.000) NVIDIA正在研究
+(61:34.000) 增加NAND的輸出和輸出。
+(61:37.000) 我們看過一些產品，
+(61:40.000) 例如Kioxia的Axial Flash,
+(61:42.000) 或三星的Z-NAND,
+(61:44.000) 也正在吸引注意。
+(61:48.000) 同時，
+(61:49.000) 控制器也正在變得更重要。
+(61:52.000) 未來的控制器
+(61:53.000) 是否與ICMS結合，
+(61:55.000) 或是與Axial Flash或Z-NAND結合，
+(61:59.000) 可能使用PCIe Gen 6。
+(62:01.000) 好的，Michael,
+(62:03.000) 我想你把所有問題混在一起，
+(62:05.000) 我只是提醒，
+(62:06.000) Axial NAND和Z-NAND
+(62:08.000) 不是給ICMS的，
+(62:09.000) 主要是給高效能流程，
+(62:12.000) 低能量流程。
+(62:16.000) 是不同的應用。
+(62:22.000) 我很好奇，
+(62:25.000) 因為我們的NP規劃
+(62:28.000) 對於Z-NAND Gen 6
+(62:30.000) 已經超過了一些原廠，
+(62:33.000) 所以我很好奇，
+(62:35.000) 我們的成功
+(62:36.000) 對於Z-NAND Gen 6
+(62:38.000) 是否可以幫助我們
+(62:40.000) 在ICMS獲得一些投資。
+(62:43.000) 好的，
+(62:44.000) 首先，
+(62:45.000) 我們不能說太多，
+(62:46.000) 但總結來說，
+(62:49.000) Physon已經有
+(62:50.000) 基礎控制器，
+(62:52.000) SILICON BUCKET,
+(62:54.000) 可在7月或8月
+(62:55.000) 提供樣品。
+(62:57.000) 在這個市場，
+(62:59.000) OEM伺服器只有Gen 6,
+(63:01.000) 只有AI,
+(63:02.000) 所以Physon已經開發了
+(63:03.000) M2AI,
+(63:04.000) 就這樣。
+(63:07.000) 明白，明白，
+(63:08.000) 謝謝，謝謝。
+(63:09.000) 我沒有其他問題。
+(63:10.000) 謝謝。
+(63:13.000) 謝謝，
+(63:14.000) 下一個問題是
+(63:15.000) Danny,
+(63:16.000) Nomura。
+(63:23.000) 嗨，Danny。
+(63:27.000) 我們可能
+(63:29.000) 從聊天室開始。
+(63:31.000) 不好意思，
+(63:32.000) 你可以聽到我嗎？
+(63:33.000) 是的，
+(63:34.000) 我可以聽到你。
+(63:35.000) 不好意思，
+(63:36.000) 我只有一個問題，
+(63:39.000) 就是
+(63:41.000) 你有沒有考慮，
+(63:42.000) 我忘記了，
+(63:43.000) 你有沒有考慮
+(63:45.000) 簽署
+(63:46.000) Long-Term Contract
+(63:48.000) 與名人
+(63:49.000) 在之前的迴圈，
+(63:50.000) 所以這是你第一次
+(63:53.000) 考慮這樣做的迴圈？
+(63:54.000) 不，不，不，
+(63:55.000) 我們有LTA
+(63:57.000) 但這次我們是在說
+(63:58.000) 準備。
+(63:59.000) 哦，準備，是的。
+(64:00.000) 而Physon
+(64:01.000) 在2008年
+(64:03.000) 準備到Hynix,
+(64:05.000) 幾次到Toshiba,
+(64:06.000) Kyoto,
+(64:07.000) 所以
+(64:08.000) 我們肯定有經驗。
+(64:11.000) 好的，
+(64:13.000) 沒有任何準備
+(64:15.000) 直到現在。
+(64:18.000) 有些在討論中，
+(64:21.000) 但是
+(64:23.000) 哦，好的，
+(64:25.000) 但是
+(64:26.000) 這可能是一個選擇，
+(64:28.000) 如果
+(64:31.000) 為什麼不？
+(64:32.000) 好的，明白。
+(64:34.000) 謝謝你們。
+(64:38.000) 有兩個問題
+(64:40.000) 在聊天室，
+(64:41.000) 也許我們可以從聊天室開始。
+(64:48.000) 好的，
+(64:49.000) 第一個問題是
+(64:51.000) 是否有ESSD的增長趨勢
+(64:54.000) 在ESSD的價格
+(64:56.000) 超過QLC?
+(64:58.000) 是的，
+(64:59.000) 由於AI的影響。
+(65:01.000) 答案是是的，
+(65:02.000) 因為QLC的需求很大，
+(65:04.000) 所以它是一個很大的供應鏈。
+(65:07.000) 是的，
+(65:09.000) 是否超過QLC?
+(65:10.000) 是的，
+(65:11.000) ICMS是一個TLC,
+(65:14.000) 因此，
+(65:18.000) 下一個問題是
+(65:19.000) 是否有儲存的轉變
+(65:20.000) 正在來臨？
+(65:24.000) 需求很大，
+(65:26.000) 我們一直在買儲存，
+(65:27.000) 當然，
+(65:28.000) 你問我
+(65:31.000) 因為我們可以維持
+(65:33.000) 更多的四周，
+(65:34.000) 但是現在
+(65:35.000) 它不能
+(65:37.000) 由我管理，
+(65:38.000) 客戶已經需要一部分，
+(65:40.000) 因此，
+(65:41.000) 現在我們開始
+(65:42.000) 不管
+(65:43.000) 管理儲存的儲存
+(65:45.000) 客戶需要
+(65:46.000) 我們只是轉移，
+(65:48.000) 為什麼？
+(65:50.000) 去買新的儲存，
+(65:52.000) 所以現在我們不會
+(65:54.000) 太多的控制儲存。
+(65:58.000) 然後答案是
+(66:00.000) 儲存的轉變
+(66:01.000) 可能會更快。
+(66:06.000) 好的，
+(66:09.000) 我想所有問題都解決了。
+(66:12.000) 也許我們回到
+(66:13.000) 網上投資者
+(66:14.000) Michael
+(66:15.000) KGI
+(66:19.000) Michael
+(66:20.000) 你解鎖了
+(66:21.000) 你自己解鎖了
+(66:26.000) 不
+(66:29.000) 不，
+(66:30.000) 我也看不到問題
+(66:32.000) 也許
+(66:33.000) 我們回到
+(66:35.000) Donny
+(66:37.000) Donny 你有問題嗎？
+(66:41.000) 不，
+(66:43.000) 所以我想
+(66:45.000) 好的，
+(66:46.000) 請
+(66:47.000) Michael
+(66:48.000) Simon
+(66:49.000) 再次感謝
+(66:51.000) 很快的
+(66:53.000) 企業解決
+(66:55.000) 收入貢獻
+(66:56.000) 是10%
+(66:57.000) 對嗎？
+(66:59.000) CQ4
+(67:01.000) 所以任何顏色
+(67:02.000) 比例
+(67:03.000) 會到
+(67:05.000) 中間
+(67:06.000) 20 30%
+(67:07.000) 未來幾年
+(67:08.000) 不
+(67:09.000) CQ1超過30%
+(67:12.000) 對不起
+(67:13.000) 這個月
+(67:14.000) CQ1
+(67:15.000) 這個月
+(67:16.000) 超過30%
+(67:19.000) 我一直提到
+(67:20.000) 是的
+(67:21.000) 所以已經
+(67:22.000) 三次上升
+(67:24.000) 是的
+(67:25.000) 對比
+(67:28.000) 哪個部分
+(67:30.000) 是關鍵的貢獻
+(67:31.000) 或者
+(67:32.000) 這個頁
+(67:33.000) 這個頁
+(67:34.000) 這個頁
+(67:35.000) 是的
+(67:37.000) 關鍵貢獻
+(67:38.000) 已經在這裡
+(67:40.000) 已經在這裡
+(67:42.000) 但設計意義
+(67:43.000) 意義
+(67:44.000) 設計贏得
+(67:45.000) 意義
+(67:47.000) 意義
+(67:49.000) 設計贏得
+(67:50.000) 意義
+(67:51.000) 實際銷售
+(67:52.000) 認可
+(67:53.000) 是的
+(67:55.000) 是的
+(67:56.000) 好的
+(67:57.000) 然後
+(67:58.000) 你的行銷量表
+(68:00.000) 已經
+(68:02.000) 35%
+(68:03.000) 行銷量表
+(68:04.000) 網際網路解決方案
+(68:05.000) 是的
+(68:06.000) 所以
+(68:08.000) 當你達成了
+(68:09.000) 如此強大的增長
+(68:11.000) 網際網路解決方案
+(68:13.000) 你如何增加
+(68:16.000) 網際網路解決方案
+(68:20.000) 我需要
+(68:21.000) 把我的價值帶給
+(68:23.000) 名牌供應商
+(68:25.000) 好的
+(68:26.000) 全是我的客戶
+(68:29.000) 我設計了
+(68:30.000) 設計贏得
+(68:31.000) 他們會幫我取得名字
+(68:34.000) 他們有肌肉
+(68:37.000) 所以
+(68:39.000) 做這件事情
+(68:40.000) 你應該得到
+(68:41.000) 更多的QRC
+(68:43.000) 和
+(68:44.000) 網際網路解決方案
+(68:45.000) 我需要
+(68:46.000) 我需要
+(68:47.000) TRC, QRC
+(68:48.000) QRC
+(68:49.000) So, as you answered
+(68:51.000) So, long term agreement
+(68:53.000) No, no
+(68:54.000) I say prepayment basis
+(68:56.000) You are lending, sourcing
+(68:58.000) So, prepayment is still the
+(69:00.000) What?
+(69:03.000) Three quarters?
+(69:04.000) For the rest of this year
+(69:05.000) What do you mean the prepayment
+(69:06.000) For how long? One year?
+(69:08.000) Prepayment is not triggered yet
+(69:10.000) Still under negotiating
+(69:13.000) Not yet happened
+(69:14.000) So, usually the prepayment means
+(69:16.000) OK, you pay half a million dollar
+(69:18.000) For example
+(69:19.000) And then you get the chips
+(69:21.000) Until the
+(69:22.000) Hey, Simon, Simon
+(69:23.000) This is all confidential
+(69:24.000) I can't disclose here, OK?
+(69:26.000) We have a very strict NDA
+(69:29.000) I see
+(69:30.000) OK
+(69:32.000) Prepayment happened, what?
+(69:35.000) 2018 or
+(69:37.000) We have a prepayment with Hynix
+(69:39.000) 2007, 2008
+(69:40.000) We have a prepayment Toshiba 2012
+(69:42.000) 16, 20, 23
+(69:44.000) I see
+(69:46.000) Latest one is when the cloud was very strong
+(69:50.000) 2017, 2018 then
+(69:52.000) Yeah
+(69:54.000) So, this time prepayment trigger point
+(69:57.000) Obviously enterprise solution
+(69:59.000) Or AI
+(70:00.000) Yeah
+(70:01.000) Yeah
+(70:02.000) Very clear, wow
+(70:04.000) Good job
+(70:05.000) Thank you so much
+(70:06.000) Thank you, we are working very hard
+(70:08.000) Great, great
+(70:09.000) OK, trouble Eric asking what?
+(70:13.000) Inventory? Inventory?
+(70:18.000) No, no, no, no
+(70:19.000) Alex Guang
+(70:20.000) Alex Guang
+(70:21.000) 4Q
+(70:23.000) 34 billion NT
+(70:26.000) And Eric Chen
+(70:27.000) 3 months ago you mentioned you see no end of supply shortage
+(70:31.000) When compared this month
+(70:32.000) Yes, endless
+(70:34.000) Endless
+(70:35.000) I don't know how many years
+(70:37.000) So, let's pray for that
+(70:39.000) Not too long, please
+(70:42.000) OK, so any other questions?
+(70:47.000) Crystal, if
+(70:48.000) Sorry, if no question
+(70:50.000) We have to end up to this call
+(70:52.000) Yeah, we do not have any questions online
+(70:55.000) Oh, sorry
+(70:56.000) I see another question from the chat box
+(70:58.000) Maybe the last one
+(71:00.000) How long currently
+(71:01.000) The inventor want to know
+(71:03.000) Yeah, they want to know how long it currently takes
+(71:05.000) Python to ship newly purchased inventory
+(71:08.000) And what are your thoughts on the capital
+(71:10.000) Actually
+(71:11.000) OK, they said
+(71:12.000) By manufacturers
+(71:13.000) Some new purchase inventory generally
+(71:15.000) Start to ship in the March
+(71:17.000) Why? Because shortage
+(71:19.000) OK
+(71:20.000) Means what?
+(71:21.000) Means some high cost inventory
+(71:22.000) Start to ship
+(71:24.000) But we still able to make
+(71:25.000) Marching on that
+(71:26.000) So, don't worry that much
+(71:27.000) Yeah
+(71:31.000) How about 100 million LPS?
+(71:35.000) Yeah, you expert
+(71:37.000) Ongoing
+(71:38.000) Not easier
+(71:39.000) But we will make it on time
+(71:41.000) Again, this is the end of the year
+(71:42.000) I cannot share that much
+(71:47.000) OK
+(71:48.000) We have answered
+(71:49.000) All the questions online
+(71:52.000) And
+(71:54.000) Thank you KS for your time
+(71:56.000) And thank you everybody for joining
+(71:58.000) Join us today
+(72:00.000) We will conclude the call
+(72:01.000) Yeah, thank you
+(72:02.000) My last ask
+(72:04.000) I wish analysts do some better homework
+(72:07.000) Don't, you know
+(72:08.000) Give a very shallow analysis to the market
+(72:11.000) Mistreat the investor
+(72:13.000) This is really not right
+(72:14.000) OK, so make some study
+(72:16.000) You need call, you can call me
+(72:17.000) I can share with you
+(72:18.000) We have to be professional
+(72:19.000) OK, thank you
+(72:23.000) Thank you

@@ -122,7 +122,7 @@ export async function renderPlayerView(
     audio.addEventListener('pause', () => { playPauseBtn.textContent = '▶ 播放' })
     audio.addEventListener('ended', () => { playPauseBtn.textContent = '▶ 播放' })
     audio.addEventListener('timeupdate', () => {
-      currentTimeEl.textContent = fmtTime(audio!.currentTime)
+      currentTimeEl.textContent = fmtTime(audio!.currentTime, false)
     })
   }
 
@@ -174,7 +174,7 @@ export async function renderPlayerView(
       const primary = gtCues.length > 0 ? gtCues : finCues
       subtitleWindow.innerHTML = primary.map(cue => `
         <div class="cue" id="cue-${cue.index}" data-start="${cue.startSec}">
-          <span class="cue-time">[${fmtTime(cue.startSec)}]</span>
+          <span class="cue-time">[${fmtTime(cue.startSec, true)}]</span>
           <span class="cue-text">${esc(cue.text)}</span>
         </div>
       `).join('')
@@ -226,7 +226,7 @@ export async function renderPlayerView(
         displayHtml = renderSpansHtml(spans)
       }
       return `<div class="cue" id="cue-d-${i}" data-start="${gtCue.startSec}">
-        <span class="cue-time">[${fmtTime(gtCue.startSec)}]</span>
+        <span class="cue-time">[${fmtTime(gtCue.startSec, true)}]</span>
         <span class="cue-text">${displayHtml}</span>
       </div>`
     }).join('')

@@ -14,7 +14,7 @@ export interface SrtCue {
 export function parseSrt(raw: string): SrtCue[] {
   const normalized = raw.replace(/\r\n/g, '\n').replace(/^\uFEFF/, '').trim()
   const lines = normalized.split('\n')
-  const turboscribeStart = lines.findIndex(line => /^\(\d+:\d+\)/.test(line.trim()))
+  const turboscribeStart = lines.findIndex(line => /^\(\d+:\d+(?:\.\d+)?\)/.test(line.trim()))
   if (turboscribeStart !== -1) {
     return parseTurboscribe(lines.slice(turboscribeStart).join('\n'))
   }
@@ -22,16 +22,23 @@ export function parseSrt(raw: string): SrtCue[] {
 }
 
 // ── Turboscribe format ────────────────────────────────────────────────────────
-// Each line: (MM:SS) text   where MM is total minutes (may exceed 59)
+// Each line: (MM:SS) text  OR  (MM:SS.mmm) text
+// MM is total minutes (may exceed 59)
 
 function parseTurboscribe(text: string): SrtCue[] {
   const cues: SrtCue[] = []
 
   for (const line of text.split('\n')) {
-    const m = line.match(/^\((\d+):(\d+)\)\s*(.+)$/)
+    // Regex matches (MM:SS) or (MM:SS.mmm)
+    const m = line.match(/^\((\d+):(\d+)(?:\.(\d+))?\)\s*(.+)$/)
     if (!m) continue
-    const startSec = parseInt(m[1], 10) * 60 + parseInt(m[2], 10)
-    const lineText = m[3].trim()
+    
+    const mins = parseInt(m[1], 10)
+    const secs = parseInt(m[2], 10)
+    const ms   = m[3] ? parseInt(m[3], 10) : 0
+    
+    const startSec = mins * 60 + secs + (ms / 1000)
+    const lineText = m[4].trim()
     if (!lineText) continue
     cues.push({ index: cues.length + 1, startSec, endSec: 0, text: lineText })
   }
@@ -76,10 +83,18 @@ function parseStandardSrt(text: string): SrtCue[] {
   return cues
 }
 
-export function fmtTime(sec: number): string {
+export function fmtTime(sec: number, showMs = true): string {
   const h = Math.floor(sec / 3600)
   const m = Math.floor((sec % 3600) / 60)
   const s = Math.floor(sec % 60)
-  if (h > 0) return `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`
-  return `${m}:${String(s).padStart(2, '0')}`
+  const ms = Math.round((sec % 1) * 1000)
+  
+  let base = ''
+  if (h > 0) {
+    base = `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`
+  } else {
+    base = `${m}:${String(s).padStart(2, '0')}`
+  }
+  
+  return showMs ? `${base}.${String(ms).padStart(3, '0')}` : base
 }
