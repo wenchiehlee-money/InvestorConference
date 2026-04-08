@@ -1,0 +1,104 @@
+[METADATA]
+Source: 2454_2025_q4.m4a
+Method: Anchored Rescue + Dictionary Fix | Original Method: Anchored Rescue (Base=exp7, Language=en)
+Generated-At: 2026-04-08 20:26 CST
+---
+
+(00:29.000) Ms. Wang, please go ahead.
+(02:44.000) Growth margin for 2025 was 47.5%
+(03:17.000) compared with $161 billion in 2024.
+(04:34.000) down 9.3% sequentially,
+(04:38.000) and down 3.6% year-over-year.
+(04:54.000) down 1% year-over-year.
+(08:08.000) including Wi-Fi 7, Gmodem, and 10G PON.
+(09:26.000) Looking ahead to 2026,
+(10:47.000) AI system architecture,
+(10:49.000) critical IP development,
+(10:51.000) and advanced technologies.
+(10:55.000) With these efforts,
+(11:47.000) HVM 、IVR 。
+(12:33.000) Codevelop Custom ADAS Chips
+(12:44.000) and deep vehicle integration
+(16:07.000) Within this,
+(16:09.000) flagship SOCs competed,
+(16:12.000) robust,
+(16:13.000) and contributed US$3 million in revenue.
+(18:50.000) In 2026,
+(19:26.000) For the first quarter of 2026,
+(19:36.000) Several products,
+(19:38.000) such as connectivity,
+(19:39.000) TV and computing devices,
+(19:41.000) recover from the low normality.
+(19:46.000) POWER-IC,
+(23:01.000) to prevent possible echo effect
+(23:03.000) We thank you for your cooperation
+(24:33.000) but that's my estimate. Thank you.
+(25:53.000) for the project
+(25:54.000) I'll probably start with OPEX
+(25:58.000) I think OPEX ratio
+(25:59.000) which is scaling to the revenue
+(26:01.000) so far for the full year
+(26:04.000) also for next year
+(26:05.000) I think we are looking for the flattish
+(26:07.000) okay the ratio should be similar
+(26:09.000) but given the fact
+(26:10.000) the revenue will grow
+(26:11.000) so the OPEX dollar
+(26:12.000) will continue to increase
+(26:13.000) we will basically invest more
+(26:15.000) like I think
+(26:16.000) our CEO explained
+(26:17.000) we're going to invest more
+(26:19.000) for all key technologies
+(26:21.000) profitability wise
+(26:23.000) I think that's the same approach
+(28:38.000) Thank you.
+(28:38.000) Thank you very much.
+(28:41.000) Thank you.
+(28:53.000) My question is also about ESIC.
+(33:27.000) FlatShift Smartphone SoC
+(34:01.000) I think for full year 2026,
+(34:18.000) and also the guidance this year,
+(34:25.000) And how do we achieve that?
+(34:43.000) and that's point number one
+(34:45.000) point number two
+(36:07.000) Goku,
+(38:18.000) Business Opportunities
+(38:20.000) Thank you
+(38:22.000) And just to follow up
+(38:24.000) So this current project
+(38:26.000) that is going into production
+(38:28.000) pretty soon this year
+(38:30.000) Do you think that
+(38:32.000) the deployment model
+(38:33.000) is going to be different
+(38:35.000) compared to previously
+(38:36.000) that you were working on
+(38:38.000) some different workload
+(38:39.000) compared to
+(38:41.000) what your competitor is working on
+(38:43.000) I'm just asking because
+(38:44.000) so far if you look at
+(38:46.000) Data Center AI
+(38:46.000) most of the demand
+(38:48.000) has been largely
+(38:49.000) at the very high end
+(38:50.000) of the spectrum
+(49:28.000) for 2006 and also 2007, thank you
+(51:28.000) that's the range certainly.
+(51:48.000) there should be some.
+(51:55.000) And the supply,
+(51:59.000) from supply point of view,
+(52:00.000) and I also said earlier,
+(57:04.000) But I don't think
+(57:07.000) I'm not sure that's the right thinking
+(57:16.000) With the smartphone
+(57:21.000) And it may be just a mid-end
+(57:25.000) Because you can
+(57:27.000) Depending on what you need
+(57:56.000) That's physics.
+(58:26.000) and that will both ends.
+(61:06.000) Smartphone
+(63:38.000) and you may now disconnect
+(63:45.000) You may disconnect now
+(63:46.000) Goodbye
