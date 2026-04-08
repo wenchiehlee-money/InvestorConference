@@ -238,8 +238,8 @@ export async function renderPlayerView(
         if (cand.gi === best.gi) continue
         const gtNorm = norm(cand.gt.text)
         const sim = longestCommonSubstringLen(finNorm, gtNorm)
-        // If the FIN cue covers at least 50% of this GT cue or shares 4+ chars, link them
-        if (sim >= gtNorm.length * 0.5 || sim >= 4) {
+        // Only link if FIN covers a substantial fraction of the GT cue AND enough chars
+        if (sim >= gtNorm.length * 0.6 && sim >= 6) {
           coveredGis.push(cand.gi)
         }
       }
