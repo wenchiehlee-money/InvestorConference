@@ -1,168 +1,154 @@
 [METADATA]
 Source: 2412_2025_q4.m4a
-Method: Anchored Rescue + Dictionary Fix | Original Method: Anchored Rescue (Base=exp7, Language=zh)
-Generated-At: 2026-04-09 11:21 CST
+Method: Anchored Rescue + Dictionary Fix | Original Method: Anchored Rescue (Base=exp7, Language=en)
+Generated-At: 2026-04-09 18:35 CST
 ---
 
-(03:28.750) 中文字幕提供
-(04:49.340) 我們將將AI Edge Computing進入AIDC,
-(04:54.010) 以創建新的領域,
-(05:02.250) 在第四季度
-(05:05.030) 我們受到多項獎勵
-(05:22.340) 字幕志願者 楊棟樑
-(07:03.010) 我們的5G訂閱市場的股份增加了39.2%,
-(07:10.560) 並且更加確保了我們的業務主要位置。
-(07:15.160) 5G運輸率在我們的手機用戶中
-(07:19.820) 從2025年末到46.4%
-(07:32.310) 從2025年末到46.4%
-(07:35.950) 這種強烈的運動
-(07:37.390) 我們特別鼓舞
-(07:44.920) 我們期望這次的新增率是4.7%年度
-(07:51.890) 後來我們也看到了3.6%年度
-(07:57.170) 我們期望這次的新增率是4.7%年度
-(09:25.650) 優優獨播劇場——YoYo Television Series Exclusive
-(10:12.680) 中文字幕提供
-(10:30.340) World Cup
-(10:31.960) Asia Games
-(10:33.410) and etc.
-(10:37.440) throughout 2026
-(10:39.480) Meanwhile
-(10:42.500) obscription
-(10:43.810) recorded 11%
-(10:50.000) double-digit gains
-(11:08.270) In the first quarter
-(11:31.290) 中文字幕提供
-(11:53.070) 中文字幕提供
-(12:24.000) 優優獨播劇場——YoYo Television Series Exclusive
-(14:09.470) 中文字幕提供
-(14:09.830) 中產策略和政府的
-(14:14.120) 最後的執行
-(14:17.580) 國際執行
-(14:24.550) 提供了五個
-(14:26.420) 新的策略
-(14:28.360) 在第四季
-(14:29.880) 國際價值
-(14:31.900) 接近150億
-(14:35.220) 我們期望
-(14:36.530) 再次複雜
-(14:37.830) 在下年
-(14:40.910) 顯示
-(14:46.660) 我們的國際資源的
-(14:50.760) 在第四季
-(14:51.970) 我們的國際資源
-(14:53.770) 收入
-(14:54.880) 每年減少了7%
-(15:33.070) 中文字幕提供
-(15:40.060) 高效率的ICT
-(15:53.620) 我們繼續
-(16:01.390) 我們在美國
-(16:13.180) 這些項目將有很大的影響
-(16:20.470) 現在我們來到10項
-(16:26.070) 我們的三個商業群的金融表現
-(16:29.550) 在第一季度
-(16:57.550) 中文字幕提供
-(17:01.790) Compared to cities,
-(18:56.250) 中文字幕提供
-(19:56.060) 中文字幕提供
-(20:20.840) 這就能夠展示我們的持續的賺錢
-(20:24.000) 並且在10年內
-(20:28.680) 最高的EPS
-(20:35.550) 股份的股份仍然是32.82%
-(20:40.450) 所以現在我們來延伸我們的觀點
-(20:45.670) 在最後三個顏色上顯示
-(20:52.050) 中文字幕提供
-(21:20.590) 中華 precision test
-(21:24.150) second
-(21:59.820) 中文字幕提供
-(22:08.960) 優優獨播劇場——YoYo Television Series Exclusive
-(23:01.740) 中文字幕提供
-(23:13.510) 同時,
-(23:19.810) 因此我們的股份不可靠近4G和5G的線上的費用。
-(23:26.480) We Repay Older Loans
-(23:46.670) 我們的金融健康
-(23:52.130) 我們的費用比例
-(23:58.020) 我們的現時比例
-(24:03.130) 最主要的是
-(24:08.530) 我們的費用比例
-(24:13.230) 我們將評測我們的表現
-(24:16.710) 從行業活動中的收入
-(24:23.170) 這個變化主要是
-(24:27.510) 特別是在25和24年間
-(24:32.570) 在投資方面
-(24:35.060) CAPEX的收入
-(24:41.800) 第一,關於電腦費用,費用降低了1.4億。
-(24:48.210) 這降低與我們的路線相關,
-(24:52.840) 現在我們已經超過5G的運行 cycle。
-(24:59.620) 第二,關於電腦費用,費用增加了2%,
-(25:03.540) 增加主要是由計劃計劃的計劃。
-(25:19.640) 雖然這些微微的改變,
-(25:42.140) 中文字幕提供
-(26:12.570) EPS
-(26:13.150) and EBITDA
-(26:17.950) Again,
-(26:38.310) Slide 16
-(26:42.910) 16
-(26:47.090) Looking ahead
-(27:45.620) 所以根據這些預測,
-(27:48.080) 我們期望我們的EPA在4.82和5.02的範圍中。
-(27:52.280) NT5.02.
-(29:11.040) 我們將數字的自信
-(29:16.470) 這就結束了我們的金融資源評論
-(29:20.530) 謝謝您的關注
-(29:22.270) 此時我們想打開
-(29:26.070) Yes, thank you
-(29:29.060) 女士們女士們
-(29:32.040) 如果您有任何問題
-(32:41.040) 您可以提供更多詳細的詳細,
-(32:44.600) 例如您正在調查3.5%至4%的行業費用增加,
-(32:51.150) 這也比利潤增長更高。
-(32:54.560) 您可以提供更多詳細的詳細,謝謝。
-(33:18.520) 好的,非常感謝Raja。
-(33:51.040) 第二是關於線路和電腦
-(33:58.040) 第三是IDC
-(34:00.780) 我應該說的是
-(34:09.180) the satellite
-(34:11.190) 所以這是第一個部分
-(34:27.040) 我認為這兩個主要部分
-(34:31.100) 有兩個原因
-(34:33.420) 第一個是人工資源 才能
-(34:37.350) the talents
-(34:38.170) 我認為我們在增長
-(34:42.790) in growing
-(34:45.270) 我們有很多的業務在IDC
-(34:48.610) 我們需要很多AI關係的才能
-(34:51.790) 所以投資人工資源是一個重要的領域
-(34:54.450) 是一個重要的區域
-(34:58.070) 第二是電力
-(35:00.830) 我認為我們不太確定
-(35:04.500) 臺灣的電力政策
-(35:07.570) 所以我們有點擔心
-(35:10.080) 這也是第二個大問題
-(35:14.260) 第二個是關於減少
-(35:19.800) 在早期時期
-(35:22.180) 雖然我們嘗試訓練很多電力
-(35:26.940) 但在最近的幾年
-(35:32.780) in our CAPEX policy
-(35:34.980) in the early
-(35:42.560) so you will see
-(35:43.920) 你會看到我們的收入指數
-(35:46.740) 你會看到
-(35:52.600) these two portions
-(35:54.200) 比我們的PPE的加幅
-(36:00.200) If you can share
-(36:16.050) how much is from IDC
-(36:37.130) 是2026年的第二大不動物資金的部分
-(36:45.900) 然後我想再提一下動物資金的一點
-(36:51.240) 我們知道5G資金投資的投資是在最高的階段
-(36:58.860) 但是在2026年
-(37:07.160) 例如網絡分析
-(37:10.020) 但在2026年以來,
-(37:11.500) 整體的mobile capex仍然是2025年以上。
-(37:19.100) 我明白了,這很幫助。
-(37:24.540) 如果以後可以提供更多的非mobile capex的解決方式,
-(37:30.220) 這會非常幫助。
-(37:30.300) 因為你現在的capex仍然是非mobile capex,
-(37:36.620) 所以這會非常幫助你將來有更多的詳細。
-(37:41.600) 謝謝。
-(37:42.080) 好的,謝謝您的意見
-(38:36.570) Slash IR
+(00:00.470) Good afternoon,
+(00:49.770) Thank you. Ms. Tsai, please begin.
+(01:40.670) President Lin, please go ahead.
+(01:44.130) Thank you, Angela.
+(01:45.170) Hello, everyone.
+(01:50.800) To begin,
+(01:57.860) driven by our dedicated efforts.
+(02:01.260) Telecom's revenue,
+(02:02.620) income,
+(02:03.180) income before tax,
+(02:05.530) CPS for 2025,
+(02:17.810) continued commitment,
+(02:27.280) enhancing terms specified.
+(03:26.560) Further pool enhancement.
+(03:28.280) In terms of ICT business,
+(04:07.940) Furthermore,
+(04:08.740) Furthermore,
+(04:15.380) satellite,
+(04:40.980) and infrastructure management.
+(04:49.340) we are introducing AI Edgecom.
+(05:07.250) recognizing both our ESG accomplishments
+(06:45.280) 39.7%,
+(06:47.780) mainly driven by continued
+(06:52.420) we are pleased with
+(06:54.100) We are pleased with this strong result.
+(07:03.070) The 5G market share increased to 39.2%,
+(07:35.950) Given this solid momentum,
+(08:06.500) In the fourth quarter,
+(08:17.380) our fixed broadband,
+(09:28.400) In the fourth quarter,
+(09:29.480) our multiple play packages,
+(09:36.440) increased by 17% year-over-year,
+(09:52.840) In 2025,
+(09:59.660) resulting in overall subscription loss,
+(10:18.490) bundle this January,
+(10:31.740) Asia Games,
+(10:33.410) and etc.,
+(10:39.480) Meanwhile,
+(11:08.490) In the first quarter,
+(11:35.720) continuing to show strong momentum,
+(11:53.030) Revenue from IDC,
+(12:20.920) revenue from 5G private network surged,
+(12:40.950) respectively.
+(12:41.990) Due to a high base this year,
+(13:06.220) Notably,
+(13:06.700) despite the quarterly frustration,
+(13:27.620) leading financial in Taiwan.
+(13:32.300) Furthermore,
+(13:47.820) In addition to further leverage our sea,
+(14:16.380) Last year,
+(14:30.960) nearing NT150 million.
+(14:50.620) In the fourth quarter,
+(15:10.130) However,
+(15:38.180) aiming to provide a more timely,
+(15:54.280) We maintain an optimistic development.
+(16:02.130) We have selected states,
+(16:06.860) including key projects in California,
+(16:47.360) However,
+(16:47.680) income before tax slightly decreased,
+(17:06.940) Recording the project,
+(17:20.690) business tax increased year-over-year.
+(18:11.600) furthermore, we are pleased to report
+(19:10.290) Revenue and operations.
+(20:10.070) As a result of this performance,
+(20:14.540) EPS increased from NT 1.16 to NT
+(20:28.260) years. Finally,
+(20:46.350) shown in the last three columns.
+(20:53.940) the full year,
+(20:54.480) total revenue reached NT$236.11 billion,
+(21:00.010) a solid increase of 2.7% compared to
+(21:11.050) we saw strong momentum in
+(21:32.810) growth areas such as IDC,
+(21:35.330) cloud,
+(21:36.130) and cybersecurity. Third,
+(21:38.130) we maintain steady growth across our
+(21:59.540) year-over-year. Consequently,
+(22:02.220) full-year EPS reached
+(22:19.420) stable at 37.6%,
+(22:22.220) broadly consistent with the prior year.
+(22:26.310) these results reflect
+(22:27.910) reflect high-quality earnings growth.
+(22:34.090) in our core telecom business,
+(22:40.230) cloud service,
+(24:33.460) On the investment front,
+(24:35.040) CapEx declined by 3.7% to $27.7 billion.
+(25:09.480) Consequently,
+(25:19.100) year. Despite this slight variation,
+(25:49.060) showing stronger than expected demand.
+(25:55.900) were all in line with our forecast.
+(26:08.770) income from operations,
+(26:17.930) Again,
+(26:18.530) Again,
+(26:29.020) alongside our ICT business,
+(26:38.250) So now, moving on to slide 16.
+(26:49.000) Looking ahead,
+(27:45.560) So given these projections,
+(27:52.280) NT 5.02.
+(29:00.720) alongside building our IDC data center.
+(29:28.260) Yes, thank you.
+(30:58.260) Thank you.
+(30:58.880) Thank you.
+(31:30.630) if you would like to ask questions.
+(31:32.370) Thank you.
+(31:33.030) Now,
+(31:33.350) the first one to ask questions,
+(32:13.310) correct me if I pronounce it wrongly.
+(32:17.050) Okay, Rajesh Panjwani from J.P. Morgan.
+(32:22.770) Go ahead, please.
+(32:26.230) Thank you very much.
+(32:27.990) A quick question on the CAPEX.
+(32:31.080) If you can give some more detail
+(32:37.960) which is almost 24% for 2026?
+(32:49.330) in the operating costs,
+(33:18.540) Thank you very much, Racha.
+(33:21.940) So the first question is about CapEx,
+(33:27.170) about more detail on mobile CAPAs,
+(33:58.900) And the third one is the IDC.
+(34:09.260) the satellite portion.
+(34:14.520) So this is about the increase,
+(34:23.310) about 3.5% of the creating cost.
+(34:45.850) We have a lot of the sectors in IDC.
+(34:49.110) We need a lot of the AI-related talents.
+(34:57.870) And the second is electricity.
+(35:22.100) although we tried to train
+(35:31.940) It's a key velocity in our capex policy.
+(35:42.600) So you will see,
+(35:44.000) as you see in our cash flow statements,
+(36:00.560) If you can share,
+(36:12.230) like,
+(36:16.050) how much is from IDC?
+(36:20.890) Actually,
+(36:46.080) Okay.
+(36:59.340) But for 2026,
+(37:01.300) actually,
+(37:22.080) I got it. This is helpful.
+(37:41.800) Thank you.
+(37:42.240) Okay, thank you for your opinion.
+(37:47.700) As a reminder,
+(37:58.370) Thank you.
+(37:59.010) Thank you.
+(38:06.990) I will turn it over to President Lin.
+(38:09.050) Please go ahead, please.
+(38:10.680) President Lin
+(38:15.770) Happy New Year.
+(38:19.930) Thank you, President Lin.
+(38:36.530) slash IR under the IR calendar section.
+(38:40.030) You may now disconnect.
+(38:41.640) Thank you again and goodbye.
