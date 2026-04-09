@@ -1,154 +1,71 @@
 [METADATA]
 Source: 2412_2025_q4.m4a
-Method: Anchored Rescue + Dictionary Fix | Original Method: Anchored Rescue (Base=exp7, Language=en)
-Generated-At: 2026-04-09 21:00 CST
+Method: Anchored Rescue + Dictionary Fix | Original Method: Anchored Rescue (Base=exp12, Language=en)
+Generated-At: 2026-04-10 00:50 CST
 ---
 
-(00:00.470) Good afternoon,
-(00:49.770) Thank you. Ms. Tsai, please begin.
-(01:40.670) President Lin, please go ahead.
-(01:44.130) Thank you, Angela.
-(01:45.170) Hello, everyone.
-(01:50.800) To begin,
-(01:57.860) driven by our dedicated efforts.
-(02:01.260) Telecom's revenue,
-(02:02.620) income,
-(02:03.180) income before tax,
-(02:05.530) CPS for 2025,
-(02:17.810) continued commitment,
-(02:27.280) enhancing terms specified.
-(03:26.560) Further pool enhancement.
-(03:28.280) In terms of ICT business,
-(04:07.940) Furthermore,
-(04:08.740) Furthermore,
-(04:15.380) satellite,
-(04:40.980) and infrastructure management.
-(04:49.340) we are introducing AI Edgecom.
-(05:07.250) recognizing both our ESG accomplishments
-(06:45.280) 39.7%,
-(06:47.780) mainly driven by continued
-(06:52.420) we are pleased with
-(06:54.100) We are pleased with this strong result.
-(07:03.070) The 5G market share increased to 39.2%,
-(07:35.950) Given this solid momentum,
-(08:06.500) In the fourth quarter,
-(08:17.380) our fixed broadband,
-(09:28.400) In the fourth quarter,
-(09:29.480) our multiple play packages,
-(09:36.440) increased by 17% year-over-year,
-(09:52.840) In 2025,
-(09:59.660) resulting in overall subscription loss,
-(10:18.490) bundle this January,
-(10:31.740) Asia Games,
-(10:33.410) and etc.,
-(10:39.480) Meanwhile,
-(11:08.490) In the first quarter,
-(11:35.720) continuing to show strong momentum,
-(11:53.030) Revenue from IDC,
-(12:20.920) revenue from 5G private network surged,
-(12:40.950) respectively.
-(12:41.990) Due to a high base this year,
-(13:06.220) Notably,
-(13:06.700) despite the quarterly frustration,
-(13:27.620) leading financial in Taiwan.
-(13:32.300) Furthermore,
-(13:47.820) In addition to further leverage our sea,
-(14:16.380) Last year,
-(14:30.960) nearing NT150 million.
-(14:50.620) In the fourth quarter,
-(15:10.130) However,
-(15:38.180) aiming to provide a more timely,
-(15:54.280) We maintain an optimistic development.
-(16:02.130) We have selected states,
-(16:06.860) including key projects in California,
-(16:47.360) However,
-(16:47.680) income before tax slightly decreased,
-(17:06.940) Recording the project,
-(17:20.690) business tax increased year-over-year.
-(18:11.600) furthermore, we are pleased to report
-(19:10.290) Revenue and operations.
-(20:10.070) As a result of this performance,
-(20:14.540) EPS increased from NT 1.16 to NT
-(20:28.260) years. Finally,
-(20:46.350) shown in the last three columns.
-(20:53.940) the full year,
-(20:54.480) total revenue reached NT$236.11 billion,
-(21:00.010) a solid increase of 2.7% compared to
-(21:11.050) we saw strong momentum in
-(21:32.810) growth areas such as IDC,
-(21:35.330) cloud,
-(21:36.130) and cybersecurity. Third,
-(21:38.130) we maintain steady growth across our
-(21:59.540) year-over-year. Consequently,
-(22:02.220) full-year EPS reached
-(22:19.420) stable at 37.6%,
-(22:22.220) broadly consistent with the prior year.
-(22:26.310) these results reflect
-(22:27.910) reflect high-quality earnings growth.
-(22:34.090) in our core telecom business,
-(22:40.230) cloud service,
-(24:33.460) On the investment front,
-(24:35.040) CapEx declined by 3.7% to $27.7 billion.
-(25:09.480) Consequently,
-(25:19.100) year. Despite this slight variation,
-(25:49.060) showing stronger than expected demand.
-(25:55.900) were all in line with our forecast.
-(26:08.770) income from operations,
-(26:17.930) Again,
-(26:18.530) Again,
-(26:29.020) alongside our ICT business,
-(26:38.250) So now, moving on to slide 16.
-(26:49.000) Looking ahead,
-(27:45.560) So given these projections,
-(27:52.280) NT 5.02.
-(29:00.720) alongside building our IDC data center.
-(29:28.260) Yes, thank you.
-(30:58.260) Thank you.
-(30:58.880) Thank you.
-(31:30.630) if you would like to ask questions.
-(31:32.370) Thank you.
-(31:33.030) Now,
-(31:33.350) the first one to ask questions,
-(32:13.310) correct me if I pronounce it wrongly.
-(32:17.050) Okay, Rajesh Panjwani from J.P. Morgan.
-(32:22.770) Go ahead, please.
-(32:26.230) Thank you very much.
-(32:27.990) A quick question on the CAPEX.
-(32:31.080) If you can give some more detail
-(32:37.960) which is almost 24% for 2026?
-(32:49.330) in the operating costs,
-(33:18.540) Thank you very much, Racha.
-(33:21.940) So the first question is about CapEx,
-(33:27.170) about more detail on mobile CAPAs,
+(00:49.840) Thank you. Ms. Cai, please begin.
+(01:40.860) President Lin, please go ahead.
+(01:43.920) Thank you, Angela.
+(01:45.640) And hello, everyone.
+(01:59.040) Driven by our dedicated efforts,
+(06:27.560) with record highs across all dimensions.
+(06:53.240) We are pleased with this strong result.
+(08:10.940) Let's move on to slide six.
+(08:13.480) for our fixed broadband business update.
+(12:21.020) Revenue from 5G private network surged,
+(12:42.180) due to a high base last year.
+(14:32.360) nearing NT150 million.
+(18:25.980) IBG's fixed line services revenue
+(18:30.040) by 20.2% year-over-year.
+(18:39.640) Thank you, President.
+(19:10.580) Revenue and operations.
+(20:35.640) The EBITDA margin stood at 32.82%.
+(20:46.740) shown in the last three columns.
+(20:56.800) NT$236.11 billion,
+(21:34.140) such as IDC, cloud, and cybersecurity.
+(24:33.700) On the investment front,
+(24:35.700) CapEx declined by 3.7% to $27.7 billion.
+(26:39.480) So now moving on to slide 16.
+(26:43.820) Please see our guidance for 2026.
+(29:21.000) Thank you for your attention.
+(29:28.100) Yes, thank you.
+(30:01.360) webcast page.
+(30:02.600) Thank you.
+(30:17.200) star key and 1.
+(30:18.800) Thank you.
+(30:58.480) Thank you.
+(31:32.640) Thank you.
+(32:16.800) Okay, Rajesh Panjwani from J.P. Morgan.
+(32:22.960) Go ahead, please.
+(32:26.080) Thank you very much.
+(32:28.700) A quick question on the CapEx.
+(32:38.020) which is almost 24% for 2026,
+(33:16.120) Thank you very much, Rajan.
+(33:32.640) in 2026.
+(33:49.620) the fixed line maintenance.
 (33:58.900) And the third one is the IDC.
-(34:09.260) the satellite portion.
-(34:14.520) So this is about the increase,
-(34:23.310) about 3.5% of the creating cost.
-(34:45.850) We have a lot of the sectors in IDC.
-(34:49.110) We need a lot of the AI-related talents.
-(34:57.870) And the second is electricity.
-(35:22.100) although we tried to train
-(35:31.940) It's a key velocity in our capex policy.
-(35:42.600) So you will see,
-(35:44.000) as you see in our cash flow statements,
-(36:00.560) If you can share,
-(36:12.230) like,
-(36:16.050) how much is from IDC?
-(36:20.890) Actually,
-(36:46.080) Okay.
-(36:59.340) But for 2026,
-(37:01.300) actually,
-(37:22.080) I got it. This is helpful.
-(37:41.800) Thank you.
-(37:42.240) Okay, thank you for your opinion.
-(37:47.700) As a reminder,
-(37:58.370) Thank you.
-(37:59.010) Thank you.
-(38:06.990) I will turn it over to President Lin.
-(38:09.050) Please go ahead, please.
-(38:10.680) President Lin
-(38:15.770) Happy New Year.
-(38:19.930) Thank you, President Lin.
-(38:36.530) slash IR under the IR calendar section.
-(38:40.030) You may now disconnect.
-(38:41.640) Thank you again and goodbye.
+(34:14.820) So this is for the first part.
+(34:46.060) We have a lot of the sectors in IDC.
+(34:49.240) We need a lot of the AI-related talents.
+(34:58.800) And the second is electricity.
+(35:08.060) so we are a bit cautious.
+(35:18.300) The third one is about depreciation.
+(36:16.260) how much is from IDC?
+(36:28.140) for each non-mobile item.
+(37:21.580) I got it. This is helpful.
+(37:42.400) okay thank you for your uh opinion
+(37:57.340) like to ask questions.
+(37:58.800) Thank you.
+(38:07.300) I will turn it over to President Lin.
+(38:09.840) Please go ahead, please.
+(38:10.840) President Lin Yat- Okay.
+(38:14.840) Happy New Year.
+(38:19.680) Yes, thank you, President Lin.
+(38:21.720) And ladies and gentlemen,
+(38:23.360) we thank you for your participation
+(38:25.020) in Chung Hua Telecom's conference.
+(38:36.840) slash IR under the IR calendar section.
+(38:40.580) You may now disconnect.
+(38:41.880) Thank you again and goodbye.
+(38:46.840) Thank you.
