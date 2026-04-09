@@ -169,12 +169,16 @@ export async function renderPlayerView(
       if (!pdfDoc) return
       if (renderTask) { renderTask.cancel(); renderTask = null }
       const page = await pdfDoc.getPage(pageNum)
+      const dpr = window.devicePixelRatio || 1
       const wrapWidth = canvasWrap.clientWidth - 16
       const baseVP = page.getViewport({ scale: 1 })
-      const scale = Math.max(0.5, Math.min(wrapWidth / baseVP.width, 2.5))
-      const vp = page.getViewport({ scale })
+      const cssScale = Math.max(0.5, Math.min(wrapWidth / baseVP.width, 2.5))
+      const renderScale = cssScale * dpr
+      const vp = page.getViewport({ scale: renderScale })
       canvasEl.width  = vp.width
       canvasEl.height = vp.height
+      canvasEl.style.width  = `${Math.round(vp.width / dpr)}px`
+      canvasEl.style.height = `${Math.round(vp.height / dpr)}px`
       const ctx = canvasEl.getContext('2d')!
       renderTask = page.render({ canvasContext: ctx, canvas: canvasEl, viewport: vp })
       try { await renderTask.promise } catch { /* cancelled */ }
