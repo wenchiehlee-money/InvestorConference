@@ -1092,9 +1092,9 @@ def update_readme() -> None:
 
     rows = list(entries.values())
 
-    # Read upcoming_earnings.csv — all event types (法說會 + 財報公告)
+    # Read raw_event_upcoming_earnings.csv — all event types (法說會 + 財報公告)
     upcoming_ir = []
-    csv_path = repo / "upcoming_earnings.csv"
+    csv_path = repo / "raw_event_upcoming_earnings.csv"
     if csv_path.exists():
         with open(csv_path, encoding="utf-8-sig") as fh:
             for row in _csv.DictReader(fh):
@@ -1130,13 +1130,14 @@ def update_readme() -> None:
         ev_class = ev.get("類別", "")
         date     = ev.get("開始日期", "")
         link1    = ev.get("Link1", "")
-        m = re.search(r'[（(](\d{4})[）)]', ev_name)
+        # Support both numeric (2330) and alpha (TSM) IDs
+        m = re.search(r'[（(](\w+)[）)]', ev_name)
         sid = m.group(1) if m else None
 
-        # Only 法說會 events are matched to ingested audio/PDF data
+        # Only 法說會 and 財報公告 events are matched to ingested data
         exp_year, exp_q = _expected_quarter(date)
         ingested = None
-        if ev_class == "法說會" and sid and exp_year:
+        if sid and exp_year:
             key = (sid, exp_year, exp_q)
             for r in rows:
                 if (r["stock_id"], r["year"], r["quarter"]) == key:
@@ -1148,8 +1149,8 @@ def update_readme() -> None:
         if sid:
             _, chi = KNOWN_TW_STOCKS.get(sid, ("", ""))
             if not chi:
-                # e.g. "鴻海(2317) 法說會" → "鴻海"
-                chi = re.sub(r'[（(]\d{4}[）)].*', '', ev_name).strip()
+                # e.g. "台積電(2330) 財報" → "台積電"
+                chi = re.sub(r'[（(]\w+[）)].*', '', ev_name).strip()
             display_name = f"{sid} {chi}"
         else:
             # Clean duplicate tickers e.g. "台積電(TSM)(TSM) 財報" → "台積電(TSM) 財報"
@@ -1159,11 +1160,19 @@ def update_readme() -> None:
             name   = display_name
             qstr   = f"{ingested['year']} Q{ingested['quarter']}"
             dur    = f"{ingested['audio_min']:.1f} min" if ingested["audio_min"] is not None else "無"
-            audio  = f"[{dur}]({ingested['audio_path']})" if ingested["audio_path"] else dur
+            audio_path = ingested["audio_path"]
+            audio  = f"[{dur}]({audio_path})" if audio_path else dur
+            
+            # Add FIN.srt icon link if exists
+            fin_name = f"{sid}_{ingested['year']}_q{ingested['quarter']}_FIN.srt"
+            fin_path = repo / sid / fin_name
+            if fin_path.exists():
+                audio += f" [📝]({sid}/{fin_name})"
+                
             pdf_cn = f"[中]({ingested['pdf_cn']})" if ingested["pdf_cn"] else "—"
             pdf_en = f"[EN]({ingested['pdf_en']})" if ingested["pdf_en"] else "—"
         else:
-            # CSV-only row (not yet ingested): only include if within next 2 weeks
+            # CSV-only row (not yet ingested): only include if within next 4 weeks
             try:
                 ev_date = _date.fromisoformat(date)
                 if not (today <= ev_date <= two_weeks):
@@ -1189,7 +1198,15 @@ def update_readme() -> None:
             continue
         _, chi = KNOWN_TW_STOCKS.get(r["stock_id"], (r["stock_id"], r["stock_id"]))
         dur    = f"{r['audio_min']:.1f} min" if r["audio_min"] is not None else "無"
-        audio  = f"[{dur}]({r['audio_path']})" if r["audio_path"] else dur
+        audio_path = r["audio_path"]
+        audio  = f"[{dur}]({audio_path})" if audio_path else dur
+        
+        # Add FIN.srt icon link if exists
+        fin_name = f"{r['stock_id']}_{r['year']}_q{r['quarter']}_FIN.srt"
+        fin_path = repo / r["stock_id"] / fin_name
+        if fin_path.exists():
+            audio += f" [📝]({r['stock_id']}/{fin_name})"
+            
         pdf_cn = f"[中]({r['pdf_cn']})" if r["pdf_cn"] else "—"
         pdf_en = f"[EN]({r['pdf_en']})" if r["pdf_en"] else "—"
         merged.append({
