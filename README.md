@@ -1,6 +1,6 @@
 # InvestorConference
 
-台股法人說明會（法說會）音檔與投資人關係資料收錄庫。
+台股及美股法人說明會（法說會）音檔與投資人關係資料收錄庫。
 
 ## 法說會一覽
 
@@ -8,16 +8,16 @@
 |:-----|:----:|:--------:|-----:|:-------:|:-------:|:----:|
 | WDC Western Digital | 2026 Q1 | 2026-05-06 | — | — | — | [↗](https://finance.yahoo.com/quote/WDC/financials/) |
 | 3653 健策 | 2026 Q1 | 2026-05-06 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3653) |
-| AMD Advanced Micro Devices | 2026 Q1 | 2026-05-05 | — | — | — | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
+| AMD AMD 超微 | 2026 Q1 | 2026-05-05 | — | — | — | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
 | 2458 義隆 | 2026 Q1 | 2026-05-05 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2458) |
 | 8454 富邦媒 | 2026 Q1 | 2026-05-05 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8454) |
 | AMZN Amazon.com Inc. | 2025 Q4 | 2026-04-30 | — | — | — | [↗](https://finance.yahoo.com/quote/AMZN/financials/) |
-| AAPL Apple Inc. | 2025 Q4 | 2026-04-30 | — | — | — | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
+| AAPL Apple 蘋果 | 2025 Q4 / Q1FY2026 | 2026-04-30 | — | — | — | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
 | 2379 瑞昱 | 2025 Q4 | 2026-04-30 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2379) |
 | 2360 致茂 | 2025 Q4 | 2026-04-30 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2360) |
 | META Meta Platforms Inc. | 2025 Q4 | 2026-04-29 | — | — | — | [↗](https://finance.yahoo.com/quote/META/financials/) |
-| MSFT Microsoft Corporation | 2025 Q4 | 2026-04-29 | — | — | — | [↗](https://finance.yahoo.com/quote/MSFT/financials/) |
-| QCOM Qualcomm Inc. | 2025 Q4 | 2026-04-29 | — | — | — | [↗](https://finance.yahoo.com/quote/QCOM/financials/) |
+| MSFT Microsoft 微軟 | 2025 Q4 / Q2FY2026 | 2026-04-29 | — | — | — | [↗](https://finance.yahoo.com/quote/MSFT/financials/) |
+| QCOM Qualcomm 高通 | 2025 Q4 / Q1FY2026 | 2026-04-29 | [45.1 min](QCOM/QCOM_2025_q4.mp4) | [中](QCOM/QCOM_2025_q4_ir.pdf) | — | [↗](https://finance.yahoo.com/quote/QCOM/financials/) |
 | 2308 台達電 | 2025 Q4 | 2026-04-29 | [61.9 min](2308/2308_2025_q4.m4a) [📝](2308/2308_2025_q4_FIN.srt) | [中](2308/2308_2025_q4_ir.pdf) | [EN](2308/2308_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | 2454 聯發科 | 2025 Q4 | 2026-04-29 | [63.9 min](2454/2454_2025_q4.m4a) [📝](2454/2454_2025_q4_FIN.srt) | [中](2454/2454_2025_q4_ir.pdf) | [EN](2454/2454_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | 2301 光寶科 | 2025 Q4 | 2026-04-29 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
@@ -73,3 +73,7 @@
 | 2454 聯發科 | 2025 Q2 |  | [63.8 min](2454/2454_2025_q2.m4a) | [中](2454/2454_2025_q2_ir.pdf) | [EN](2454/2454_2025_q2_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | 2454 聯發科 | 2025 Q3 |  | [61.5 min](2454/2454_2025_q3.m4a) | [中](2454/2454_2025_q3_ir.pdf) | [EN](2454/2454_2025_q3_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | 2480 敦陽科 | 2025 Q3 |  | [49.5 min](2480/2480_2025_q3.m4a) | [中](2480/2480_2025_q3_ir.pdf) | [EN](2480/2480_2025_q3_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2480) |
+| TMP TMP | 2025 Q4 |  | [63.9 min](TMP/2454_2025_q4.mp3) | [中](TMP/7734_2025_q4_ir.pdf) | [EN](TMP/7734_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
+| TMP TMP | 2025 Q1 |  | 無 | [中](TMP/2382_2025_q1_ir.pdf) | [EN](TMP/2382_2025_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
+| TMP TMP | 2025 Q2 |  | 無 | [中](TMP/2382_2025_q2_ir.pdf) | [EN](TMP/2382_2025_q2_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
+| TMP TMP | 2025 Q3 |  | [62.0 min](TMP/2382_2025_q3.m4a) | [中](TMP/2382_2025_q3_ir.pdf) | [EN](TMP/2382_2025_q3_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |

@@ -93,7 +93,47 @@ KNOWN_US_IR = {
     "MSFT": "https://www.microsoft.com/en-us/Investor/events/FY-2024/",
     "TSLA": "https://ir.tesla.com/events-and-presentations/events",
     "AMD":  "https://ir.amd.com/events-and-presentations",
+    "QCOM": "https://investor.qualcomm.com/events-presentations/events",
 }
+
+# Quarter-specific direct audio URLs for US stocks (choruscall VOD / YouTube / etc.)
+# Keys use (ticker, year, quarter) matching expected_quarter() convention.
+KNOWN_US_DIRECT_BY_QUARTER = {
+    ("QCOM", "2025", "4"): "https://vodchoruscall.akamaized.net/07452/qualcomm/qualcomm260204.mp4",  # Q1FY26 call 2026-02-04
+}
+
+# US stock display names (ticker -> (english_name, chinese_name))
+KNOWN_US_STOCKS = {
+    "NVDA": ("NVIDIA",     "輝達"),
+    "AAPL": ("Apple",      "蘋果"),
+    "MSFT": ("Microsoft",  "微軟"),
+    "TSLA": ("Tesla",      "特斯拉"),
+    "AMD":  ("AMD",        "超微"),
+    "QCOM": ("Qualcomm",   "高通"),
+}
+
+# Fiscal year start month for US stocks whose fiscal year ≠ calendar year.
+# e.g. QCOM fiscal year starts October → FY2026 Q1 = Oct-Dec 2025 (calendar Q4 2025)
+KNOWN_US_FISCAL_YEAR_START_MONTH = {
+    "QCOM": 10,   # October
+    "AAPL": 10,   # October
+    "MSFT": 7,    # July
+    "NVDA": 2,    # February (FY starts Feb 1)
+}
+
+
+def calendar_to_fiscal(ticker: str, cal_year: str, cal_q: str):
+    """Return (fy_year, fy_q) strings for a US stock given its calendar year/quarter.
+    Returns (None, None) if no fiscal year mapping is defined for the ticker."""
+    start_month = KNOWN_US_FISCAL_YEAR_START_MONTH.get(ticker.upper())
+    if start_month is None:
+        return None, None
+    fy_start_cal_q = (start_month - 1) // 3 + 1  # e.g. Oct(10) → Q4
+    cq = int(cal_q)
+    cy = int(cal_year)
+    fy_q = (cq - fy_start_cal_q) % 4 + 1
+    fy_year = cy + 1 if cq >= fy_start_cal_q else cy
+    return str(fy_year), str(fy_q)
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36"
 
@@ -1131,9 +1171,10 @@ def update_readme() -> None:
     import csv as _csv
 
     repo = INVESTOR_CONFERENCE_REPO
-    audio_pat  = re.compile(r'^(\d{4})_(\d{4})_q(\d)\.(mp3|m4a|wav)$', re.I)
-    pdf_cn_pat = re.compile(r'^(\d{4})_(\d{4})_q(\d)_ir\.pdf$', re.I)
-    pdf_en_pat = re.compile(r'^(\d{4})_(\d{4})_q(\d)_ir_en\.pdf$', re.I)
+    _TICKER = r'(?:\d{4}|[A-Z]{1,5})'
+    audio_pat  = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)\.(mp3|m4a|wav|mp4)$', re.I)
+    pdf_cn_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_ir\.pdf$', re.I)
+    pdf_en_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_ir_en\.pdf$', re.I)
 
     entries = {}  # key=(stock_id, year, quarter) → dict
 
@@ -1145,9 +1186,9 @@ def update_readme() -> None:
         return entries[key]
 
     for d in sorted(repo.iterdir()):
-        if not d.is_dir() or not re.match(r'^\d{4}$', d.name):
+        if not d.is_dir() or not re.match(r'^(\d{4}|[A-Z]{1,5})$', d.name, re.I):
             continue
-        stock_id = d.name
+        stock_id = d.name.upper() if not d.name.isdigit() else d.name
         for f in sorted(d.iterdir()):
             m = audio_pat.match(f.name)
             if m:
@@ -1221,20 +1262,34 @@ def update_readme() -> None:
                     matched_keys.add(key)
                     break
 
-        # Normalise company name: prefer KNOWN_TW_STOCKS, else parse from event name
+        # Normalise company name: prefer known lookups, else parse from event name
         if sid:
-            _, chi = KNOWN_TW_STOCKS.get(sid, ("", ""))
-            if not chi:
-                # e.g. "台積電(2330) 財報" → "台積電"
-                chi = re.sub(r'[（(]\w+[）)].*', '', ev_name).strip()
-            display_name = f"{sid} {chi}"
+            sid_up = sid.upper()
+            if sid_up in KNOWN_US_STOCKS:
+                en, chi = KNOWN_US_STOCKS[sid_up]
+                display_name = f"{sid_up} {en} {chi}"
+            else:
+                _, chi = KNOWN_TW_STOCKS.get(sid, ("", ""))
+                if not chi:
+                    # e.g. "台積電(2330) 財報" → "台積電"
+                    chi = re.sub(r'[（(]\w+[）)].*', '', ev_name).strip()
+                display_name = f"{sid} {chi}"
         else:
             # Clean duplicate tickers e.g. "台積電(TSM)(TSM) 財報" → "台積電(TSM) 財報"
             display_name = re.sub(r'\((\w+)\)\(\1\)', r'(\1)', ev_name)
 
+        def _qstr(year, q, ticker=sid):
+            """Format quarter string; append fiscal year label for US stocks."""
+            base = f"{year} Q{q}"
+            if ticker and not str(ticker).isdigit():
+                fy_year, fy_q = calendar_to_fiscal(ticker, year, q)
+                if fy_year:
+                    return f"{base} / Q{fy_q}FY{fy_year}"
+            return base
+
         if ingested:
             name   = display_name
-            qstr   = f"{ingested['year']} Q{ingested['quarter']}"
+            qstr   = _qstr(ingested['year'], ingested['quarter'])
             dur    = f"{ingested['audio_min']:.1f} min" if ingested["audio_min"] is not None else "無"
             audio_path = ingested["audio_path"]
             audio  = f"[{dur}]({audio_path})" if audio_path else dur
@@ -1256,7 +1311,7 @@ def update_readme() -> None:
             except (ValueError, TypeError):
                 continue
             name   = display_name
-            qstr   = f"{exp_year} Q{exp_q}" if exp_year and exp_q else "—"
+            qstr   = _qstr(exp_year, exp_q) if exp_year and exp_q else "—"
             audio  = "—"
             pdf_cn = "—"
             pdf_en = "—"
@@ -1273,7 +1328,13 @@ def update_readme() -> None:
         if key in matched_keys:
             continue
         sid = r["stock_id"]
-        _, chi = KNOWN_TW_STOCKS.get(sid, (sid, sid))
+        sid_up = sid.upper()
+        if sid_up in KNOWN_US_STOCKS:
+            en, chi = KNOWN_US_STOCKS[sid_up]
+            display = f"{sid_up} {en} {chi}"
+        else:
+            _, chi = KNOWN_TW_STOCKS.get(sid, (sid, sid))
+            display = f"{sid} {chi}"
         dur    = f"{r['audio_min']:.1f} min" if r["audio_min"] is not None else "無"
         audio_path = r["audio_path"]
         audio  = f"[{dur}]({audio_path})" if audio_path else dur
@@ -1286,9 +1347,14 @@ def update_readme() -> None:
 
         pdf_cn = f"[中]({r['pdf_cn']})" if r["pdf_cn"] else "—"
         pdf_en = f"[EN]({r['pdf_en']})" if r["pdf_en"] else "—"
+        # Compute quarter string (with fiscal year for US stocks)
+        fy_year, fy_q = calendar_to_fiscal(sid, r['year'], r['quarter'])
+        qstr_r = f"{r['year']} Q{r['quarter']}"
+        if fy_year:
+            qstr_r += f" / Q{fy_q}FY{fy_year}"
         merged.append({
-            "name":    f"{sid} {chi}",
-            "quarter": f"{r['year']} Q{r['quarter']}",
+            "name":    display,
+            "quarter": qstr_r,
             "date":    "",
             "audio":   audio,
             "pdf_cn":  pdf_cn,
@@ -1303,7 +1369,7 @@ def update_readme() -> None:
     lines = [
         "# InvestorConference",
         "",
-        "台股法人說明會（法說會）音檔與投資人關係資料收錄庫。",
+        "台股及美股法人說明會（法說會）音檔與投資人關係資料收錄庫。",
         "",
         "## 法說會一覽",
         "",
@@ -1601,9 +1667,14 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
 
     # ── US Pipeline ───────────────────────────────────────────────────────────
     else:
-        ir_url = KNOWN_US_IR.get(stock_id.upper())
-        if ir_url:
-            target_url = scrape_ir_site(ir_url, year, quarter)
+        # Check quarter-specific direct URL first (choruscall VOD / YouTube etc.)
+        direct_us_url = KNOWN_US_DIRECT_BY_QUARTER.get((stock_id.upper(), year, quarter))
+        if direct_us_url:
+            target_url = direct_us_url
+        else:
+            ir_url = KNOWN_US_IR.get(stock_id.upper())
+            if ir_url:
+                target_url = scrape_ir_site(ir_url, year, quarter)
 
     # ── Direct URL Download (MOPS / IR scraper result) ────────────────────────
     if target_url:
