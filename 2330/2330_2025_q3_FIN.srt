@@ -1,0 +1,366 @@
+[METADATA]
+Source: 2330_2025_q3.m4a
+Method: Anchored Rescue + Dictionary Fix | Original Method: Anchored Rescue (Base=exp7, Language=en)
+Generated-At: 2026-04-09 16:18 CST
+---
+
+(00:58.840) mode.
+(01:03.630) First,
+(01:04.190) TSMC's Senior Vice President and CFO,
+(01:07.290) Mr. Wendell Huang,
+(01:18.570) Afterwards,
+(01:19.130) Mr. Huang and TSMC's Chairman and CEO,
+(01:22.450) Dr. C.C. Wei,
+(01:24.250) Dr. Cici Wei will join me provide
+(01:27.660) Then we will open the line for Q&A.
+(01:47.160) Please refer to the safe harbor notice
+(01:58.430) and the current quarter guidance.
+(02:00.830) Thank you, Jeff.
+(02:02.290) Good afternoon, everyone.
+(02:08.510) for the third quarter 2025.
+(02:24.340) as our business was supported by strong
+(02:30.570) In U.S. dollar terms,
+(02:39.600) slightly ahead
+(03:06.430) Accordingly,
+(03:16.030) Overall,
+(03:16.870) our third quarter EPS was 17.44 NT,
+(03:22.570) up 39% year-over-year,
+(03:26.170) and ROE was 37.8%.
+(03:42.520) while
+(03:51.760) Advanced technologies,
+(04:37.290) we ended the third quarter with cash
+(04:44.010) or 90 billion US dollars.
+(05:29.040) Regarding cash flow and CAPEX,
+(05:33.880) during the third quarter,
+(05:41.630) spent $287 billion in CAPEX,
+(05:53.990) Overall,
+(06:10.000) I have finished my financial summary.
+(06:17.310) Based on the current business outlook,
+(06:51.020) operating margin between 49% and 51%.
+(06:59.020) Now, let me turn to our key messages.
+(07:19.060) sequentially to 59.5%,
+(07:28.160) utilization rate,
+(07:50.360) mainly as the actual
+(08:35.250) thanks to the
+(08:50.010) For the full year 2025,
+(09:15.640) to 3-4% in the latter stages.
+(09:35.500) Overall,
+(09:44.420) we expect TSMC to be the most efficient
+(09:51.140) in every region that we operate.
+(09:59.270) As the structure AI related demand
+(10:25.190) for advanced process technologies.
+(10:37.270) testing, mask making, and others.
+(10:39.640) At TSMC,
+(10:42.100) a higher level
+(11:15.020) Thank you, Wendell.
+(11:16.870) Good afternoon, everyone.
+(11:38.200) Moving into the fourth quarter of 2025,
+(11:56.970) while our non-AI end-market
+(12:57.710) Amidst the uncertainty,
+(13:04.980) That is,
+(13:06.040) technology leadership,
+(13:07.580) manufacturing excellence,
+(13:38.420) which
+(14:26.500) Thus,
+(14:39.130) As a key enabler of AI applications,
+(15:20.610) In addition,
+(15:25.780) the engagement lead time with customers
+(15:48.730) to assess and evaluate the market demand
+(15:59.090) This is especially important
+(16:00.750) when we have such high forecasted demand
+(16:04.500) from AI-related businesses.
+(16:13.240) we will
+(16:16.690) to invest in leading-edge specialty
+(17:23.480) In addition,
+(17:41.140) First of all,
+(18:15.490) Next,
+(18:16.510) in Japan,
+(18:22.330) prefectural,
+(18:23.650) and local
+(18:31.810) 2024 with very good yield.
+(18:41.460) customers' needs and market conditions.
+(18:51.820) federal, state, and city governments.
+(19:00.060) Germany,
+(19:00.660) has also started,
+(19:02.000) and we are progressing
+(19:03.960) smoothly with our plans.
+(19:12.750) In Taiwan,
+(19:14.910) with support from the Taiwan government,
+(19:35.000) years.
+(19:41.910) TSMC can continue to
+(19:53.240) to come.
+(20:19.170) With Goodyear,
+(20:20.010) we expect a faster ramp in 2026,
+(20:23.310) fueled by both smartphone and HPC AI
+(20:28.080) applications.
+(21:15.520) We believe N2,
+(21:26.560) and long lasting node for TSMC.
+(21:34.480) Thank you, thank you, CC.
+(21:49.070) an opportunity to ask their questions.
+(21:54.350) I will translate it to English
+(21:59.310) if you would like to ask a question,
+(22:15.690) Thank you.
+(22:22.190) great result again. So on the AI front,
+(23:21.160) our next leading edge node. But in this,
+(23:43.530) in the next couple of years,
+(23:51.390) let me summarize for everyone's benefit.
+(24:09.890) So I guess you would like to ask CC,
+(24:18.870) from 2024 to 2029,
+(24:25.470) Is there any update to this?
+(24:27.670) I think this is the first part,
+(24:31.530) Wow, that's a long question, isn't it?
+(24:33.890) But Goku,
+(25:37.590) past cycles or past instances,
+(25:40.800) we would step up the CAPEX significantly
+(25:43.400) to prepare to drive the future growth.
+(25:46.720) But he notes this cycle actually,
+(25:48.900) though while CAPEX is increasing,
+(25:51.040) the revenue is increasing even faster.
+(25:54.200) So his question really, I think,
+(25:59.660) both in terms of the CAPEX spend
+(26:18.140) we will not hesitate to invest.
+(26:21.240) And if we do our job right,
+(26:27.320) should outpace the growth of the CAPEX.
+(26:30.640) And that's what we have been delivering
+(26:34.240) Now going forward, assuming we're doing,
+(26:55.930) when we continue to invest
+(27:00.800) and our growth is outpacing
+(27:04.180) our capex growth
+(27:05.260) then you see the growth
+(27:07.060) like what we have done
+(27:09.460) in the past few years
+(27:10.640) it is unlikely to drop
+(27:16.190) but it is also likely to grow
+(27:19.360) quite a bit
+(27:20.040) given what CC mentioned
+(27:21.240) in terms of every customer asking you
+(27:23.700) and every customer asking you for capex
+(27:27.140) yeah as I said
+(27:28.180) a higher level of capex
+(27:30.260) is always going to be correlated
+(27:33.100) with a higher growth opportunity.
+(27:35.510) next year looks to be
+(27:40.770) and we are confident on the mega trend
+(27:44.050) that we'll continue to invest.
+(27:49.130) Okay, Gopal?
+(27:49.910) Got it, yeah.
+(28:02.850) I think you talked about two acts
+(28:36.580) from AI?
+(28:37.280) So.
+(28:45.260) on the co-op capacity plan for 2026
+(28:51.900) And also in terms of our definition
+(29:44.600) is very tight.
+(29:54.020) will be narrow, but you know,
+(30:01.180) Okay, thank you, Gokul.
+(30:09.390) Charlie Chan.
+(31:13.760) So, Charlie's question is very specific,
+(31:29.770) and also with system-level innovations.
+(31:33.390) Okay, Charlie, this is CC Wei.
+(31:39.430) Yeah, one of my customers,
+(31:41.410) very important customer,
+(31:42.690) say Moose Law is dead.
+(31:44.770) But what he means is
+(31:53.150) Now we have to focus on
+(31:54.620) the whole systems of performance.
+(31:57.330) So he want to emphasize
+(32:01.110) the whole systems of performance
+(32:16.930) and to design our technology,
+(32:29.850) That's all I can say.
+(32:32.410) Okay, thank you, C.C.
+(32:33.690) Do you have a second question, Charlie?
+(33:56.850) and will this impact our AI CAGR growth
+(34:21.670) To speak of truth,
+(34:24.730) I have confidence in my customers,
+(34:26.810) both in Graphic or in ASIC.
+(34:32.070) They all perform very well.
+(34:46.260) As I said, very positive.
+(35:56.570) impact from two nanometer rep for 2026?
+(36:01.420) She would like to know directionally,
+(36:09.340) in terms of certain puts and takes,
+(36:16.860) on the N2 dilution impact, correct?
+(36:38.510) when they just come out,
+(37:32.370) there's no control.
+(37:45.130) 40 basis point.
+(37:54.760) Yeah, a very quick follow-up.
+(38:24.180) to reach the corporate average.
+(38:30.500) Yes, Sunny, let me share with you.
+(38:59.620) So that's meaningful to talk about that.
+(39:02.400) Okay?
+(39:03.640) Got it.
+(39:06.250) No problem.
+(39:07.430) That's a very helpful question.
+(39:10.480) It may be for C.C.
+(39:17.910) and planning.
+(39:28.380) phones and PCs. Yes,
+(40:04.110) She knows this is very important,
+(40:10.770) today it's AI and cloud AI.
+(40:16.710) more difficult to forecast?
+(40:20.770) or how do we forecast this to make sure
+(40:23.150) that we are investing appropriately?
+(40:35.110) I believe we are just in the early stage
+(40:54.940) to our customers' customers.
+(40:57.490) We talk to and then discuss with them
+(41:01.290) and look at their applications,
+(41:08.410) be it in the search engine
+(41:10.390) or in social media's application.
+(41:13.510) We talk with them
+(41:15.660) and see how they view the AI application
+(41:19.120) to those functions.
+(41:21.650) And then we make a judgment
+(41:25.570) about what AI is going to grow.
+(41:28.520) So this is quite different
+(41:31.680) as compared with before
+(41:33.260) we only talked to our customers
+(41:35.080) and have an internal study.
+(41:38.240) This is different.
+(41:40.230) Did I answer your question?
+(41:42.450) Got it.
+(41:42.710) Thank you very much, CC.
+(41:44.170) Yeah, yeah, yeah.
+(41:48.330) Thank you.
+(41:49.010) You're welcome.
+(41:51.290) All right.
+(41:51.750) Thank you, Sunny.
+(41:52.850) Operator, can we move on
+(41:54.050) to the next participant, please?
+(41:57.680) Next one.
+(42:01.750) Thank you for taking my question.
+(42:22.670) But,
+(42:23.190) you know,
+(42:23.930) for me,
+(42:24.510) you know,
+(42:25.830) first of all,
+(42:43.660) Given the context,
+(43:32.580) Bruce's question is he wants to know
+(43:37.380) or view for AI infrastructure growth?
+(43:40.880) He would also like to know
+(43:44.480) or view for the token growth?
+(43:58.240) Shouldn't it be even higher?
+(44:06.360) but is that correct, Bruce?
+(44:18.850) We give you a number roughly 40,
+(44:40.500) But more than that,
+(44:45.020) the number of tokens increase,
+(44:47.830) it's exponential.
+(45:31.810) a very better clear picture.
+(45:59.260) That's why, you know,
+(46:12.710) How do we solve this,
+(46:18.210) Okay,
+(46:18.950) so Bruce's second question,
+(46:21.760) which is the follow-on for the first,
+(46:42.620) Okay,
+(46:43.300) Okay, Bruce, you are right.
+(46:52.310) is much, much higher than TSMC's CAGR
+(46:58.990) But let me tell you that
+(47:06.010) And so our customer moving from one node
+(47:20.030) So that's one thing.
+(47:38.150) 45 KG,
+(47:55.660) Did I answer your question?
+(48:10.260) Exactly.
+(48:11.000) Is that the conclusion?
+(48:12.040) Yes.
+(48:12.540) I understand.
+(48:13.790) Okay.
+(48:14.960) Thank you.
+(48:18.700) Operator, we need to move on.
+(48:20.240) Thank you, Bruce.
+(48:21.060) Yes.
+(48:23.330) Thank you for taking my questions.
+(48:55.910) So can you give us updates here?
+(48:59.290) And also, I mean, for the time being,
+(49:13.390) That's my first question, thank you.
+(49:15.210) Okay, thank you, Laura.
+(49:19.430) We have talked earlier on the call
+(49:21.030) about the planning for leading nodes.
+(49:41.490) and to support our customers.
+(50:07.590) and the schedule is earlier than TSMC's
+(50:15.860) And we are working with them.
+(51:09.380) to end up.
+(51:19.660) like if you look at the growth outlook,
+(51:30.880) Thank you.
+(51:41.880) things like N2?
+(51:49.080) Well, all right.
+(52:01.580) It's growing.
+(52:39.320) will we need to add new capacity?
+(52:44.360) and we see a leading edge next year.
+(52:48.840) Yes, thank you.
+(52:50.280) Well, let me answer that question.
+(52:56.520) to support our customer.
+(53:12.960) That's today's plan.
+(53:14.720) Okay.
+(53:17.390) Yeah.
+(53:17.950) Thank you.
+(53:19.020) Thank you very much.
+(53:19.780) Thank you, Laura.
+(53:28.180) Thank you.
+(53:30.320) Yes.
+(53:30.780) Next one, T.C. Cohen.
+(53:34.040) Hi.
+(53:36.960) Thanks for taking my question.
+(53:45.830) So I was wondering,
+(53:47.070) in today's world,
+(53:56.140) Okay,
+(53:56.580) so Krish's first question,
+(54:36.330) How much of TSMC is wavering inside?
+(54:41.470) We are not ready to share with you yet
+(54:48.430) Okay.
+(55:00.300) right now it's not only one chip,
+(55:47.430) in a thorough and disciplined manner.
+(55:59.030) market?
+(56:06.410) Is that correct, Chris?
+(56:20.100) no matter if it's a GPU or it's an ASIC,
+(56:35.810) or strongly in the next several years.
+(56:37.990) So no depreciation in front of a TSMC.
+(56:43.840) We support all kinds of types.
+(56:47.800) Thank you.
+(56:50.020) Operator, can we take a-
+(56:51.460) Thank you, thank you.
+(56:52.200) Thank you, Chris.
+(56:53.060) So we'll take the question
+(56:55.340) from the final participant, please.
+(57:00.150) Yes, last one of the line book.
+(57:05.750) Hi, C.G., Wendell, and Jeff.
+(57:08.010) Congrats on the line from Macquarie.
+(57:12.530) So my question is about competition.
+(57:30.210) and also in this
+(57:33.360) border.
+(57:42.850) invest in Intel.
+(57:45.110) Thank you.
+(57:45.450) Okay. So,
+(57:55.910) what strategic initiatives,
+(58:06.090) Arthur,
+(58:16.920) Yes, sir.
+(58:19.640) Okay, let me answer that one.
+(58:34.450) not only a single chip.
+(58:37.100) And also,
+(58:45.640) Revenue is approaching close to 10%,
+(58:51.490) and it's significant in our revenue,
+(58:55.510) and it's important for our customer.
+(58:58.990) So that's why we introduced Fundry 2.0
+(59:12.140) Now it's the whole thing,
+(59:16.030) the front end,
+(59:16.690) the back end,
+(59:17.370) and also important for our customers.
+(59:20.930) That's why we introduced 2.0.
+(59:39.520) a very good customer.
+(59:41.170) So,
+(59:41.610) in fact,
+(59:44.130) for their most advanced product.
+(59:59.700) Thank you, CC. Can I ask a question?
+(60:11.060) So recall,
+(60:12.720) CC,
+(60:13.400) I mentioned that we should also monitor
+(60:19.860) especially in the consumer electronics.
+(60:22.800) And then this quarter,
+(60:34.860) Thank you.
+(60:40.940) our phone,
+(60:48.570) pulling pre-built from
+(61:13.990) Thank you, CC.
+(61:14.330) Thank you, Arthur.
+(61:15.990) Thank you, everyone.
+(61:17.070) So this concludes our Q&A session.
+(61:19.410) Before we conclude today's conference,
+(61:33.370) at www.tsmc.com.
+(61:38.490) We hope you all continue to stay well,
+(61:41.110) and we hope you will join us again
+(61:42.790) next quarter in early 2026.
+(61:45.390) Thank you and have a good day.
