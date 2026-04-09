@@ -83,12 +83,12 @@ export async function renderPlayerView(
         </div>
         <div class="pdf-panel-footer">
           <button class="pdf-nav-btn" id="pdf-prev" title="上一頁">&#8249;</button>
-          <span class="pdf-page-info"><span id="pdf-page-num">1</span>&thinsp;/&thinsp;<span id="pdf-page-total">?</span></span>
+          <span class="pdf-page-info">
+            <input type="number" id="pdf-page-num" class="pdf-page-input" value="1" min="1" title="輸入頁碼後按 Enter">
+            <span class="pdf-page-sep">/</span>
+            <span id="pdf-page-total">?</span>
+          </span>
           <button class="pdf-nav-btn" id="pdf-next" title="下一頁">&#8250;</button>
-          <div class="pdf-footer-sep"></div>
-          <button class="pdf-nav-btn" id="pdf-zoom-out" title="縮小">&#8722;</button>
-          <span class="pdf-zoom-label" id="pdf-zoom-label">100%</span>
-          <button class="pdf-nav-btn" id="pdf-zoom-in" title="放大">&#43;</button>
         </div>
       </div>`
     : ''
@@ -161,25 +161,13 @@ export async function renderPlayerView(
     const openLink    = container.querySelector<HTMLAnchorElement>('.pdf-open-link')
     const prevBtn      = container.querySelector<HTMLButtonElement>('#pdf-prev')!
     const nextBtn      = container.querySelector<HTMLButtonElement>('#pdf-next')!
-    const zoomInBtn    = container.querySelector<HTMLButtonElement>('#pdf-zoom-in')!
-    const zoomOutBtn   = container.querySelector<HTMLButtonElement>('#pdf-zoom-out')!
-    const pageNumEl    = container.querySelector<HTMLElement>('#pdf-page-num')!
+    const pageNumEl    = container.querySelector<HTMLInputElement>('#pdf-page-num')!
     const pageTotalEl  = container.querySelector<HTMLElement>('#pdf-page-total')!
-    const zoomLabelEl  = container.querySelector<HTMLElement>('#pdf-zoom-label')!
 
     let pdfDoc: import('pdfjs-dist').PDFDocumentProxy | null = null
     let currentPage = 1
     let totalPages = 0
-    let zoomFactor = 1.0
     let renderTask: import('pdfjs-dist').RenderTask | null = null
-
-    const ZOOM_STEPS = [0.5, 0.67, 0.75, 0.9, 1.0, 1.1, 1.25, 1.5, 1.75, 2.0, 2.5, 3.0]
-
-    function updateZoomLabel() {
-      zoomLabelEl.textContent = `${Math.round(zoomFactor * 100)}%`
-      zoomOutBtn.disabled = zoomFactor <= ZOOM_STEPS[0]
-      zoomInBtn.disabled  = zoomFactor >= ZOOM_STEPS[ZOOM_STEPS.length - 1]
-    }
 
     async function renderPage(pageNum: number) {
       if (!pdfDoc) return
@@ -188,8 +176,7 @@ export async function renderPlayerView(
       const dpr = window.devicePixelRatio || 1
       const wrapWidth = canvasWrap.clientWidth - 16
       const baseVP = page.getViewport({ scale: 1 })
-      const fitScale = Math.min(wrapWidth / baseVP.width, 2.5)
-      const cssScale = fitScale * zoomFactor
+      const cssScale = Math.max(0.5, Math.min(wrapWidth / baseVP.width, 2.5))
       const renderScale = cssScale * dpr
       const vp = page.getViewport({ scale: renderScale })
       canvasEl.width  = vp.width
@@ -200,7 +187,7 @@ export async function renderPlayerView(
       renderTask = page.render({ canvasContext: ctx, canvas: canvasEl, viewport: vp })
       try { await renderTask.promise } catch { /* cancelled */ }
       currentPage = pageNum
-      pageNumEl.textContent = String(pageNum)
+      pageNumEl.value = String(pageNum)
       prevBtn.disabled = pageNum <= 1
       nextBtn.disabled = pageNum >= totalPages
     }
@@ -225,22 +212,18 @@ export async function renderPlayerView(
     prevBtn.addEventListener('click', () => { if (currentPage > 1) renderPage(currentPage - 1) })
     nextBtn.addEventListener('click', () => { if (currentPage < totalPages) renderPage(currentPage + 1) })
 
-    zoomInBtn.addEventListener('click', () => {
-      const idx = ZOOM_STEPS.indexOf(zoomFactor)
-      const next = idx < ZOOM_STEPS.length - 1 ? ZOOM_STEPS[idx + 1] : (ZOOM_STEPS.find(s => s > zoomFactor) ?? zoomFactor)
-      zoomFactor = next ?? zoomFactor
-      updateZoomLabel()
-      renderPage(currentPage)
-    })
-    zoomOutBtn.addEventListener('click', () => {
-      const idx = ZOOM_STEPS.indexOf(zoomFactor)
-      const prev = idx > 0 ? ZOOM_STEPS[idx - 1] : ([...ZOOM_STEPS].reverse().find(s => s < zoomFactor) ?? zoomFactor)
-      zoomFactor = prev ?? zoomFactor
-      updateZoomLabel()
-      renderPage(currentPage)
-    })
+    function jumpToInputPage() {
+      const n = parseInt(pageNumEl.value, 10)
+      if (!isNaN(n) && n >= 1 && n <= totalPages && n !== currentPage) {
+        renderPage(n)
+      } else {
+        pageNumEl.value = String(currentPage) // reset invalid input
+      }
+    }
+    pageNumEl.addEventListener('keydown', e => { if (e.key === 'Enter') { pageNumEl.blur(); jumpToInputPage() } })
+    pageNumEl.addEventListener('blur', jumpToInputPage)
+    pageNumEl.addEventListener('focus', () => pageNumEl.select())
 
-    updateZoomLabel()
 
     toggleBtn.addEventListener('click', () => {
       pdfPanel.classList.add('hidden')
