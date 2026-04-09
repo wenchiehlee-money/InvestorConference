@@ -130,10 +130,10 @@ export async function renderPlayerView(
       <div class="player-body">
         <div class="transcript-panel">
           <div class="subtitle-window"><p class="loading">載入字幕中…</p></div>
+          <div class="player-footer">${controlsHtml}</div>
         </div>
         ${pdfPanelHtml}
       </div>
-      <footer class="player-footer">${controlsHtml}</footer>
     </div>
   `
 
