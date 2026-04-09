@@ -45,6 +45,7 @@
 | 4938 和碩 | 2025 Q4 | 2026-03-25 | 無 | [中](4938/4938_2025_q4_ir.pdf) | [EN](4938/4938_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=4938) |
 | 2382 廣達 | 2025 Q4 | 2026-03-20 | 無 | [中](2382/2382_2025_q4_ir.pdf) | [EN](2382/2382_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
 | 2356 英業達 | 2025 Q4 | 2026-03-20 | 無 | [中](2356/2356_2025_q4_ir.pdf) | [EN](2356/2356_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2356) |
+| 2347 聯強 | 2025 Q4 | 2026-03-19 | [50.3 min](2347/2347_2025_q4.m4a) | [中](2347/2347_2025_q4_ir.pdf) | [EN](2347/2347_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2347) |
 | 2454 聯發科 | 2025 Q4 | 2026-03-19 | [63.9 min](2454/2454_2025_q4.m4a) [📝](2454/2454_2025_q4_FIN.srt) | [中](2454/2454_2025_q4_ir.pdf) | [EN](2454/2454_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | 3231 緯創 | 2025 Q4 | 2026-03-19 | [60.0 min](3231/3231_2025_q4.mp3) | [中](3231/3231_2025_q4_ir.pdf) | [EN](3231/3231_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3231) |
 | 2357 華碩 | 2025 Q4 | 2026-03-18 | [59.8 min](2357/2357_2025_q4.m4a) [📝](2357/2357_2025_q4_FIN.srt) | [中](2357/2357_2025_q4_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
@@ -59,7 +60,7 @@
 | 2480 敦陽科 | 2025 Q4 | 2026-03-10 | [57.2 min](2480/2480_2025_q4.m4a) | [中](2480/2480_2025_q4_ir.pdf) | [EN](2480/2480_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2480) |
 | 2308 台達電 | 2025 Q4 | 2026-03-10 | [61.9 min](2308/2308_2025_q4.m4a) [📝](2308/2308_2025_q4_FIN.srt) | [中](2308/2308_2025_q4_ir.pdf) | [EN](2308/2308_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | 2330 台積電 | 2025 Q1 |  | [70.4 min](2330/2330_2025_q1.m4a) [📝](2330/2330_2025_q1_FIN.srt) | [中](2330/2330_2025_q1_ir.pdf) | [EN](2330/2330_2025_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
-| 2330 台積電 | 2025 Q2 |  | [77.0 min](2330/2330_2025_q2.m4a) | [中](2330/2330_2025_q2_ir.pdf) | [EN](2330/2330_2025_q2_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
+| 2330 台積電 | 2025 Q2 |  | [77.0 min](2330/2330_2025_q2.m4a) [📝](2330/2330_2025_q2_FIN.srt) | [中](2330/2330_2025_q2_ir.pdf) | [EN](2330/2330_2025_q2_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 2330 台積電 | 2025 Q3 |  | [62.0 min](2330/2330_2025_q3.m4a) | [中](2330/2330_2025_q3_ir.pdf) | [EN](2330/2330_2025_q3_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 2357 華碩 | 2024 Q4 |  | [52.7 min](2357/2357_2024_q4.m4a) [📝](2357/2357_2024_q4_FIN.srt) | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
 | 2357 華碩 | 2025 Q3 |  | [53.2 min](2357/2357_2025_q3.m4a) [📝](2357/2357_2025_q3_FIN.srt) | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
