@@ -1,0 +1,401 @@
+[METADATA]
+Source: 2330_2025_q2.m4a
+Method: Anchored Rescue + Dictionary Fix | Original Method: Anchored Rescue (Base=exp7, Language=en)
+Generated-At: 2026-04-09 15:01 CST
+---
+
+(01:08.860) First,
+(01:09.380) TSMC's Senior Vice President and CFO,
+(01:12.560) Mr. Wendell Huang,
+(01:22.870) Afterwards,
+(01:23.470) Mr. Huang and TSMC's Chairman and CEO,
+(01:26.770) Dr. C.C. Wei,
+(01:36.440) As usual,
+(02:00.000) And now,
+(02:03.920) Mr. Wendell Huang,
+(02:05.360) for the summary of operations
+(02:08.460) Thank you, Jeff.
+(02:20.750) After that, I will provide the guidance
+(02:30.210) as our business was supported by strong
+(02:38.200) partially offset by an unfavorable
+(02:42.040) foreign exchange rate.
+(02:43.340) In U.S. dollar term,
+(02:52.640) our second quarter guidance.
+(03:16.370) Due to operating leverage,
+(03:26.980) Overall,
+(03:28.040) our second quarter EPS was 15.36 NT,
+(03:32.960) up 60.7% year over year,
+(03:37.260) and ROE was 34.8%.
+(04:30.000) IoT increased 14% to account for 5%.
+(04:46.250) we ended the second quarter with cash
+(04:52.620) or 90 billion US dollars.
+(05:36.120) decreased seven days to 76 days,
+(05:47.340) during the second quarter,
+(05:54.680) operations,
+(05:55.300) spent $297 billion in capex,
+(06:09.060) our cash balance decreased
+(07:11.380) In addition,
+(07:26.320) Now let me turn to our key messages.
+(07:59.440) and cost-improvement efforts.
+(08:38.930) started to kick in.
+(09:52.280) we expect TSMC
+(10:40.730) That is,
+(10:49.350) by 1%.
+(10:50.410) The sensitivity of our gross margin
+(10:58.450) That is,
+(10:59.350) if NT appreciates 1% against the dollar,
+(11:16.490) 17th,
+(11:24.110) which negatively
+(11:34.490) points. For third quarter of 25,
+(11:42.020) the average
+(11:48.340) which will negatively impact
+(12:30.680) to manage through it,
+(12:37.180) even with the unfavorable
+(12:46.220) remains well achievable.
+(12:53.840) everyone. First,
+(13:17.350) Moving into the third quarter of 2025,
+(13:30.120) Looking into the second half of 2025,
+(13:38.930) However,
+(14:01.270) side,
+(14:15.690) we believe the demand for semiconductor
+(14:26.990) to AI's long-term demand outlook.
+(14:30.650) The explosive growth in token volume
+(14:37.950) which
+(14:54.520) Therefore,
+(15:44.420) technology leadership,
+(15:46.330) manufacturing excellence,
+(15:48.190) and customer trust
+(16:07.100) the value sum,
+(16:27.530) state,
+(16:28.340) and city governments,
+(16:49.960) two advanced packaging fabs,
+(17:00.060) our customers.
+(17:23.860) complete.
+(17:24.560) complete.
+(17:38.900) Construction of our third fab,
+(17:47.380) has already begun,
+(18:32.920) AI,
+(18:34.170) and HPC applications.
+(18:46.550) After completion,
+(20:39.120) the next several years.
+(21:25.260) in addressing the insatiable demand
+(21:28.040) for energy efficient computing,
+(21:47.720) fueled by both smartphone
+(22:04.760) improvement at the same speed.
+(22:51.930) Compared with the N2P,
+(23:01.860) or 15
+(23:29.380) N2,
+(23:30.140) N2P,
+(23:38.960) large and long lasting node for TSMC.
+(23:43.620) let me talk about our A14
+(23:53.070) A14W delivers another
+(24:09.100) Compared with N2,
+(24:16.140) or 20-30% power
+(24:36.540) Volume production is scheduled for 2028.
+(24:45.160) CONTINUOUS ENHANCEMENT WITH A14,
+(25:12.960) Thank you, CC.
+(25:28.720) an opportunity to ask their questions.
+(26:00.260) and alternate to those on the line.
+(26:08.880) sort of a sequence.
+(26:44.540) as a potential future driver.
+(26:51.960) And lastly, near-term,
+(27:08.890) in terms of the guidance?
+(27:11.780) Okay, Gokul, thank you.
+(27:16.520) here in person and on the line,
+(27:19.900) So maybe we'll take them one by one.
+(27:22.140) His first question is on the demand,
+(27:28.000) As Cici said in his remarks,
+(27:30.220) it is certainly still even stronger.
+(28:08.950) and so is the co-worth.
+(28:11.880) us. And so now we are again,
+(28:19.800) I don't want to use the balance.
+(29:24.290) But then the die size increase.
+(29:30.010) And that kind of trend continued.
+(29:59.980) quarter business momentum?
+(30:08.680) Or you are become conservative.
+(31:16.100) Okay.
+(31:32.550) Thanks for taking my question.
+(32:01.360) do you consider this FX impact?
+(32:08.640) similar to this year's level?
+(32:10.200) I feel like 53% is a low bar.
+(32:20.080) to reflect to your value.
+(32:23.110) Thank you.
+(32:27.970) pricing.
+(32:28.370) He notes,
+(32:29.230) obviously,
+(32:29.650) as Wendell said,
+(32:30.310) the big move in the exchange rate and,
+(32:34.650) therefore,
+(32:37.670) So his question is,
+(32:38.610) looking ahead to 2026,
+(32:56.350) Well,
+(32:56.910) let me assure you that,
+(32:59.510) yes,
+(33:16.380) Let me answer that.
+(33:18.700) We are working on it.
+(33:31.120) Okay, thank you.
+(33:33.050) Okay, thanks.
+(33:35.000) Thanks, hopefully it will work out well.
+(33:40.420) about the H20 chip shipping to China.
+(33:49.350) on this matter, meaning that back then
+(33:54.180) I believe the chip was a suspend,
+(34:10.550) can be revised up?
+(34:11.870) OK, thank you, Charlie.
+(34:17.740) demand.
+(34:26.900) versus three months ago it was not.
+(34:29.300) So his question really is,
+(34:38.380) Do we think it will be higher?
+(34:39.920) Is there an upside to this?
+(34:43.840) Charlie,
+(34:44.300) the H20 now is,
+(34:47.680) again,
+(34:51.640) the CEO,
+(34:52.560) we
+(34:58.780) But certainly, this is good news, right?
+(35:01.180) I mean,
+(35:02.150) China is a big market,
+(35:11.380) And it's very positive news for them,
+(35:15.190) and in return,
+(35:17.360) it's very positive news to TSMC.
+(35:33.700) Thank you, Charlie.
+(35:38.420) Bruce Liu from Goldman Sachs.
+(35:41.300) Thank you for taking my question.
+(35:45.680) so I'll just move on to your N2 ramp.
+(36:05.480) ramping up at the same stage
+(36:10.720) Can we expect 15% revenue contribution
+(36:13.560) coming from N2 for next year
+(36:15.220) or a similar level compared to N3,
+(36:31.270) because we said the N2 RAMP profile
+(36:33.870) is similar to N3.
+(36:35.210) So what does that mean?
+(36:47.880) Bruce, you have a good argument.
+(36:56.650) You knew that, everybody knew it.
+(37:02.610) HPC product. However,
+(37:05.710) the ramping profile I just reported,
+(37:08.730) say,
+(37:09.670) is similar to 3 nanometer.
+(37:19.160) a little
+(37:20.180) a little bit straightforward,
+(37:43.770) Thank you.
+(37:49.670) but will be faster, right?
+(37:54.850) you should be able to achieve
+(38:04.380) is higher in 26,
+(38:06.600) then should it be even greater in 27?
+(38:09.910) We will answer that question in 26.
+(38:13.110) Thank you.
+(38:14.580) Okay.
+(38:26.340) year.
+(38:48.240) or what kind of ore we should see,
+(38:53.180) for N3 and N5 next year?
+(38:59.570) He wants to know what is the outlook,
+(39:12.590) So his question is,
+(39:35.860) are very tight in N3 capacity.
+(39:44.990) And in fact, N5 also very tight.
+(40:03.940) in next two years.
+(40:05.080) in next two years. Meanwhile,
+(40:11.100) N3 even tighter.
+(40:13.010) And so we are working hard.
+(40:22.840) We have between N7,
+(41:04.290) We'll continue to do that.
+(41:19.760) And seeing that,
+(41:25.320) again, using my sentence, narrow the gap
+(41:29.990) between the demand and the capacity.
+(41:32.350) Okay. Thank you,
+(41:35.330) Let's go to the participants online.
+(42:25.210) And I guess secondly,
+(42:26.450) on this point,
+(42:35.090) I mean,
+(43:01.180) Thanks.
+(43:01.840) All right, Brett.
+(43:03.000) All right, so Brett's first question
+(43:05.320) is a little bit involved,
+(43:18.180) these are structural headwinds.
+(43:19.920) So his question is can we,
+(43:21.920) how can we or can we earn our value
+(43:43.300) and are there other examples of using AI
+(43:53.240) That's your question, right, Brett?
+(43:56.200) That's right. Thanks, Jeff.
+(43:58.770) Okay, Brett, the first question.
+(44:18.580) for example,
+(44:20.240) using foreign exchange
+(44:26.880) that foreign exchanges were against us.
+(44:33.180) to help us mitigate the negative impact
+(44:38.480) from certain factors,
+(44:51.340) And I believe Cici just elaborate a lot
+(45:00.840) that we can leverage on.
+(45:12.420) Your second question on AI benefits.
+(45:34.590) that equals to one billion US dollars.
+(45:47.110) Okay.
+(47:09.930) and also overseas.
+(47:12.070) He's never seen this size or scale
+(47:14.610) of capacity expansion from TSMC before.
+(48:29.130) Thank you, Brett.
+(48:39.700) Now it's Arthur Lai from Macquarie.
+(48:41.880) The line is open now.
+(48:44.540) Hi, thank you, CC, Wendell, and Jess.
+(48:47.640) Arthur Lai from Macquarie.
+(48:49.540) Again, congrats, a strong result.
+(48:52.840) I would like to follow up on the N2.
+(48:55.920) I think as C.C.
+(49:02.620) We are all hurt.
+(49:10.220) Can you compare to the N2?
+(49:26.430) Per area, actually, N2 is higher, right?
+(49:29.290) right? And then we also
+(49:46.130) Thank you.
+(49:53.740) N2, as he said, is a very exciting node.
+(50:19.980) question,
+(50:20.080) Arthur? Yes,
+(50:22.860) yes. Yeah,
+(50:24.400) exactly. Okay,
+(50:28.100) Arthur. N2 return. As we said before,
+(50:33.340) N2,
+(50:42.770) to catch up with the corporate before,
+(50:47.890) it took N3 longer. But for N2,
+(51:16.190) to catch up with corporate nowadays.
+(51:55.570) Good afternoon.
+(51:56.150) Thank you for taking my question.
+(51:57.810) Very good results, and congrats.
+(52:07.570) You are turning more constructive
+(52:09.110) on high-performance compute and AI.
+(52:11.310) Yet you are keeping your CAPEX guidance.
+(52:20.890) given the ongoing macro uncertainty?
+(52:22.790) Or is it because in the short term,
+(52:57.700) Is it because of macro uncertainty?
+(53:28.350) Having said that,
+(53:29.690) nowadays,
+(53:30.330) as Cici also said,
+(53:33.460) with all these macro uncertainties,
+(53:36.580) we are mindful of these uncertainties.
+(53:58.240) suddenly drop a lot in any given years.
+(54:01.680) That's all I can share with you.
+(54:04.380) Got it.
+(54:09.960) My second question is on cloud AI.
+(55:00.260) and related the co-op capacity.
+(55:15.080) or someone earlier,
+(55:57.630) AI demand is very strong.
+(56:06.870) Okay, thank you, Sunny.
+(56:22.650) My question is also about the AI chip.
+(56:38.330) including the advanced node,
+(56:39.930) We also noted that during the symposium,
+(56:46.870) in advanced packaging as well.
+(56:55.910) During the symposium, we see that system
+(57:48.800) Laura,
+(57:49.160) Laura,
+(58:21.400) So,
+(58:31.250) all the customers.
+(58:38.300) the answer is yes.
+(58:40.780) So we have a system integration,
+(58:44.120) we have a co-work area,
+(58:46.880) that's a terminology. We have
+(58:54.270) but it's a lot of varieties and
+(59:01.610) That I can answer you.
+(59:22.830) Of course.
+(59:23.270) There are some similarities in between.
+(59:31.300) and then did not get the return.
+(59:33.160) Yes, there's a lot of similarities,
+(59:35.300) but a lot of varieties also.
+(59:38.900) Okay.
+(59:39.340) Thank you, and my second question is,
+(59:41.720) we know that obviously the AI demand,
+(59:56.080) yet TSMC also have like more mature 16
+(60:14.330) to enhance those capacity to fulfill
+(60:19.030) the demands across the board?
+(60:40.650) How do we protect our profitability?
+(60:43.620) Good question.
+(60:57.760) we develop kind of specialties.
+(61:29.880) We will not build a fab in Germany.
+(61:33.740) So it's not overcapacity.
+(61:44.580) Did I answer your question?
+(61:47.280) Very clear.
+(61:47.600) Very clear. Thank you.
+(62:00.890) Thank you for taking my question.
+(63:04.290) a role in this year.
+(63:27.900) And,
+(63:27.900) you know,
+(64:03.230) he has to be very,
+(64:05.190) very careful.
+(64:19.030) His robot will be 10 times of that.
+(64:24.780) I'm waiting for that.
+(64:26.220) Okay, did that answer your question?
+(65:12.820) But yeah, any point potentially?
+(65:15.240) Thank you.
+(65:15.700) Okay, Brad, second question.
+(65:24.000) will continue to earn our value.
+(65:41.240) The answer is no, we did not see any
+(65:56.580) for example, in the cycle time itself,
+(66:00.000) what takes about the four months.
+(66:03.660) There's no way you can pull in anything.
+(66:07.250) I mean,
+(66:10.990) Our capacity is very, very tight.
+(66:16.340) So we already have all the schedules,
+(66:27.770) Even if they wanted, but no.
+(66:30.270) The answer is no.
+(66:31.630) So 2026 is 2026.
+(66:34.970) We will share with you.
+(66:36.600) Thank you, CC.
+(66:38.510) Thank you, Brad.
+(66:39.270) All right, operator, let's go to the...
+(66:46.160) Yes, the last one to ask a question,
+(66:50.730) Madi Husseini from SIG.
+(66:54.750) Thanks for taking my question.
+(66:59.970) When I look at the past five years
+(67:01.790) when you were ramping N3 and N5,
+(67:09.070) And you also highlighted how N2 takeout
+(67:12.290) tracking better than N3 and N5 combined.
+(67:19.430) would need to go back up to 40%?
+(67:27.630) to accommodate these takeouts?
+(67:29.850) Is that the rather of thinking about
+(67:33.310) I don't have a problem.
+(67:35.180) Okay, Madi.
+(67:57.220) So if I heard you correctly,
+(68:09.340) Madi?
+(68:11.760) Yes, that's correct.
+(68:25.490) So if we do our job right,
+(68:42.900) So you see a higher growth in revenue
+(68:46.820) than the growth in capital expenditure,
+(68:57.200) And also let me just
+(69:19.780) less meaningful than before.
+(69:54.250) edge note?
+(69:58.560) Sorry, Mati, again, I apologize.
+(70:10.480) His question is,
+(70:11.160) I think,
+(70:12.200) Madi,
+(70:12.560) your question is,
+(70:21.590) Yes.
+(70:39.140) Okay.
+(70:42.820) I think I understand better.
+(70:49.880) You know, we see smartphone, we see HPC.
+(71:08.140) Well, Murdi, you are right.
+(71:09.880) Thank you, Jeff.
+(71:31.020) but the power consumption is very,
+(71:34.440) very important.
+(71:36.000) And when we talk about A16,
+(72:22.640) So that tells you how important it is.
+(72:31.540) For the improvement of the N2 node,
+(72:47.900) Thank you, CC.
+(72:50.320) Thank you, Madi.
+(72:58.470) Hi.
+(72:59.800) Thanks, Jeff.
+(73:24.440) year.
+(73:38.000) windows
+(73:39.280) Give it earlier. Okay
+(73:41.140) Yeah, sorry.
+(73:46.440) if you guys speed up the US investment,
+(74:02.460) Yeah, that's all my question, thanks.
+(74:38.820) That's number one.
+(74:40.660) Wow, that's two questions.
+(75:18.320) it is positive,
+(75:19.580) although not that
+(75:31.980) So it gets amortized, okay.
+(75:34.950) And then Felix's second question is,
+(75:47.120) and Europe, if it does at all?
+(75:56.450) In the U.S., it's a leading edge.
+(75:58.710) In Japan, it's unspecialty technology.
+(76:08.760) For Germany, it's automotive industry.
+(76:14.080) So they are all not in the same field.
+(76:29.200) Thank you, CC.
+(76:30.180) Thank you, Felix.
+(76:34.700) Before we conclude today's conference,
+(76:47.040) through TSMC's website at www.tsmc.com.
+(76:53.940) We hope everyone continues to stay well
+(76:59.060) Goodbye and have a good day.
