@@ -1,6 +1,9 @@
 import type { AudioEntry } from '../types'
 import { parseSrt, fmtTime, type SrtCue } from './srt'
 import { diffWords, renderSpansHtml } from './diff'
+import * as pdfjsLib from 'pdfjs-dist'
+import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.min.mjs?url'
+pdfjsLib.GlobalWorkerOptions.workerSrc = pdfjsWorker
 
 const esc = (s: string) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -64,21 +67,25 @@ export async function renderPlayerView(
     .map(p => `<a class="pdf-link" href="${escAttr(p.url)}" target="_blank" rel="noopener">📄 ${esc(p.label)} ↗</a>`)
     .join('')
 
-  const gdocsUrl = (url: string) =>
-    `https://docs.google.com/viewer?url=${encodeURIComponent(url)}&embedded=true`
-
   const pdfTabsHtml = entry.pdfs
-    .map((p, i) => `<button class="pdf-tab${i === 0 ? ' active' : ''}" data-pdf-url="${escAttr(gdocsUrl(p.url))}" data-raw-url="${escAttr(p.url)}">${esc(p.label)}</button>`)
+    .map((p, i) => `<button class="pdf-tab${i === 0 ? ' active' : ''}" data-raw-url="${escAttr(p.url)}">${esc(p.label)}</button>`)
     .join('')
 
   const pdfPanelHtml = hasPdfs
     ? `<div class="pdf-panel" id="pdf-panel">
         <div class="pdf-panel-header">
-          <button class="pdf-toggle-btn" title="隱藏簡報">›</button>
+          <button class="pdf-toggle-btn" title="隱藏簡報">‹</button>
           <div class="pdf-tabs">${pdfTabsHtml}</div>
+          <div class="pdf-page-nav">
+            <button class="pdf-nav-btn" id="pdf-prev" title="上一頁">&#8249;</button>
+            <span class="pdf-page-info"><span id="pdf-page-num">1</span>&thinsp;/&thinsp;<span id="pdf-page-total">?</span></span>
+            <button class="pdf-nav-btn" id="pdf-next" title="下一頁">&#8250;</button>
+          </div>
           <a class="pdf-open-link" href="${escAttr(primaryPdf.url)}" target="_blank" rel="noopener" title="在新分頁開啟">↗</a>
         </div>
-        <iframe class="pdf-frame" id="pdf-frame" src="${escAttr(gdocsUrl(primaryPdf.url))}"></iframe>
+        <div class="pdf-canvas-wrap" id="pdf-canvas-wrap">
+          <canvas id="pdf-canvas"></canvas>
+        </div>
       </div>`
     : ''
 
@@ -140,22 +147,69 @@ export async function renderPlayerView(
   // ── back button ────────────────────────────────────────────────────────────
   container.querySelector('.back-btn')!.addEventListener('click', onBack)
 
-  // ── PDF panel toggle ───────────────────────────────────────────────────────
+  // ── PDF panel (PDF.js canvas renderer) ───────────────────────────────────
   if (hasPdfs) {
     const pdfPanel    = container.querySelector<HTMLElement>('#pdf-panel')!
-    const pdfFrame    = container.querySelector<HTMLIFrameElement>('#pdf-frame')!
+    const canvasEl    = container.querySelector<HTMLCanvasElement>('#pdf-canvas')!
+    const canvasWrap  = container.querySelector<HTMLElement>('#pdf-canvas-wrap')!
     const toggleBtn   = container.querySelector<HTMLButtonElement>('.pdf-toggle-btn')!
     const showBtn     = container.querySelector<HTMLButtonElement>('#pdf-show-btn')
     const openLink    = container.querySelector<HTMLAnchorElement>('.pdf-open-link')
+    const prevBtn     = container.querySelector<HTMLButtonElement>('#pdf-prev')!
+    const nextBtn     = container.querySelector<HTMLButtonElement>('#pdf-next')!
+    const pageNumEl   = container.querySelector<HTMLElement>('#pdf-page-num')!
+    const pageTotalEl = container.querySelector<HTMLElement>('#pdf-page-total')!
+
+    let pdfDoc: import('pdfjs-dist').PDFDocumentProxy | null = null
+    let currentPage = 1
+    let totalPages = 0
+    let renderTask: import('pdfjs-dist').RenderTask | null = null
+
+    async function renderPage(pageNum: number) {
+      if (!pdfDoc) return
+      if (renderTask) { renderTask.cancel(); renderTask = null }
+      const page = await pdfDoc.getPage(pageNum)
+      const wrapWidth = canvasWrap.clientWidth - 16
+      const baseVP = page.getViewport({ scale: 1 })
+      const scale = Math.max(0.5, Math.min(wrapWidth / baseVP.width, 2.5))
+      const vp = page.getViewport({ scale })
+      canvasEl.width  = vp.width
+      canvasEl.height = vp.height
+      const ctx = canvasEl.getContext('2d')!
+      renderTask = page.render({ canvasContext: ctx, canvas: canvasEl, viewport: vp })
+      try { await renderTask.promise } catch { /* cancelled */ }
+      currentPage = pageNum
+      pageNumEl.textContent = String(pageNum)
+      prevBtn.disabled = pageNum <= 1
+      nextBtn.disabled = pageNum >= totalPages
+    }
+
+    async function loadPdf(url: string) {
+      pdfDoc = null
+      pageNumEl.textContent = '…'
+      pageTotalEl.textContent = '?'
+      const ctx = canvasEl.getContext('2d')!
+      ctx.clearRect(0, 0, canvasEl.width, canvasEl.height)
+      try {
+        pdfDoc = await pdfjsLib.getDocument({ url, withCredentials: false }).promise
+        totalPages = pdfDoc.numPages
+        pageTotalEl.textContent = String(totalPages)
+        await renderPage(1)
+      } catch (e) {
+        console.error('PDF load error:', e)
+        pageNumEl.textContent = '!'
+      }
+    }
+
+    prevBtn.addEventListener('click', () => { if (currentPage > 1) renderPage(currentPage - 1) })
+    nextBtn.addEventListener('click', () => { if (currentPage < totalPages) renderPage(currentPage + 1) })
 
     toggleBtn.addEventListener('click', () => {
       pdfPanel.classList.add('hidden')
-      toggleBtn.textContent = '‹'
       if (showBtn) showBtn.style.display = ''
     })
     showBtn?.addEventListener('click', () => {
       pdfPanel.classList.remove('hidden')
-      toggleBtn.textContent = '›'
       showBtn.style.display = 'none'
     })
 
@@ -164,10 +218,14 @@ export async function renderPlayerView(
       tab.addEventListener('click', () => {
         container.querySelectorAll('.pdf-tab').forEach(t => t.classList.remove('active'))
         tab.classList.add('active')
-        pdfFrame.src = tab.dataset['pdfUrl'] ?? ''
-        if (openLink) openLink.href = tab.dataset['rawUrl'] ?? ''
+        const rawUrl = tab.dataset['rawUrl'] ?? ''
+        if (openLink) openLink.href = rawUrl
+        loadPdf(rawUrl)
       })
     })
+
+    // Load initial PDF
+    loadPdf(primaryPdf.url)
   }
 
   // ── audio setup ───────────────────────────────────────────────────────────

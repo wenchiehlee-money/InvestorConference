@@ -648,12 +648,56 @@ mark { background: rgba(242, 178, 28, 0.35); border-radius: 2px; padding: 0 1px;
 }
 .pdf-open-link:hover { background: var(--gray-100); color: var(--gray-700); }
 
-.pdf-frame {
+.pdf-canvas-wrap {
   flex: 1;
-  width: 100%;
-  border: none;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: var(--gray-100);
+  padding: 8px;
   min-height: 0;
+}
+
+#pdf-canvas {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.18);
   display: block;
+}
+
+.pdf-page-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.pdf-nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--gray-300);
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  color: var(--gray-600);
+  line-height: 1;
+  padding: 0;
+  transition: all 0.12s;
+}
+.pdf-nav-btn:hover:not(:disabled) { background: var(--gray-100); color: var(--gray-900); }
+.pdf-nav-btn:disabled { opacity: 0.35; cursor: default; }
+
+.pdf-page-info {
+  font-size: 12px;
+  color: var(--gray-600);
+  white-space: nowrap;
+  min-width: 48px;
+  text-align: center;
 }
 
 .pdf-show-btn {
