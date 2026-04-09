@@ -84,7 +84,9 @@ export async function renderPlayerView(
         <div class="pdf-panel-footer">
           <button class="pdf-nav-btn" id="pdf-prev" title="上一頁">&#8249;</button>
           <span class="pdf-page-info">
-            <input type="number" id="pdf-page-num" class="pdf-page-input" value="1" min="1" title="輸入頁碼後按 Enter">
+            <select id="pdf-page-select" class="pdf-page-select" title="選擇頁碼">
+              <option value="1">1</option>
+            </select>
             <span class="pdf-page-sep">/</span>
             <span id="pdf-page-total">?</span>
           </span>
@@ -161,7 +163,7 @@ export async function renderPlayerView(
     const openLink    = container.querySelector<HTMLAnchorElement>('.pdf-open-link')
     const prevBtn      = container.querySelector<HTMLButtonElement>('#pdf-prev')!
     const nextBtn      = container.querySelector<HTMLButtonElement>('#pdf-next')!
-    const pageNumEl    = container.querySelector<HTMLInputElement>('#pdf-page-num')!
+    const pageSelectEl = container.querySelector<HTMLSelectElement>('#pdf-page-select')!
     const pageTotalEl  = container.querySelector<HTMLElement>('#pdf-page-total')!
 
     let pdfDoc: import('pdfjs-dist').PDFDocumentProxy | null = null
@@ -187,14 +189,14 @@ export async function renderPlayerView(
       renderTask = page.render({ canvasContext: ctx, canvas: canvasEl, viewport: vp })
       try { await renderTask.promise } catch { /* cancelled */ }
       currentPage = pageNum
-      pageNumEl.value = String(pageNum)
+      pageSelectEl.value = String(pageNum)
       prevBtn.disabled = pageNum <= 1
       nextBtn.disabled = pageNum >= totalPages
     }
 
     async function loadPdf(url: string) {
       pdfDoc = null
-      pageNumEl.textContent = '…'
+      pageSelectEl.innerHTML = '<option>…</option>'
       pageTotalEl.textContent = '?'
       const ctx = canvasEl.getContext('2d')!
       ctx.clearRect(0, 0, canvasEl.width, canvasEl.height)
@@ -202,27 +204,24 @@ export async function renderPlayerView(
         pdfDoc = await pdfjsLib.getDocument({ url, withCredentials: false }).promise
         totalPages = pdfDoc.numPages
         pageTotalEl.textContent = String(totalPages)
+        // Populate select options
+        pageSelectEl.innerHTML = Array.from({ length: totalPages }, (_, i) =>
+          `<option value="${i + 1}">${i + 1}</option>`
+        ).join('')
         await renderPage(1)
       } catch (e) {
         console.error('PDF load error:', e)
-        pageNumEl.textContent = '!'
+        pageSelectEl.innerHTML = '<option>!</option>'
       }
     }
 
     prevBtn.addEventListener('click', () => { if (currentPage > 1) renderPage(currentPage - 1) })
     nextBtn.addEventListener('click', () => { if (currentPage < totalPages) renderPage(currentPage + 1) })
 
-    function jumpToInputPage() {
-      const n = parseInt(pageNumEl.value, 10)
-      if (!isNaN(n) && n >= 1 && n <= totalPages && n !== currentPage) {
-        renderPage(n)
-      } else {
-        pageNumEl.value = String(currentPage) // reset invalid input
-      }
-    }
-    pageNumEl.addEventListener('keydown', e => { if (e.key === 'Enter') { pageNumEl.blur(); jumpToInputPage() } })
-    pageNumEl.addEventListener('blur', jumpToInputPage)
-    pageNumEl.addEventListener('focus', () => pageNumEl.select())
+    pageSelectEl.addEventListener('change', () => {
+      const n = parseInt(pageSelectEl.value, 10)
+      if (!isNaN(n)) renderPage(n)
+    })
 
 
     toggleBtn.addEventListener('click', () => {

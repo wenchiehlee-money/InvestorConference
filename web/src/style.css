@@ -713,25 +713,21 @@ mark { background: rgba(242, 178, 28, 0.35); border-radius: 2px; padding: 0 1px;
   white-space: nowrap;
 }
 
-.pdf-page-input {
-  width: 36px;
-  height: 22px;
-  border: 1px solid transparent;
-  border-radius: 3px;
-  background: transparent;
-  text-align: center;
+.pdf-page-select {
+  height: 24px;
+  padding: 0 4px;
+  border: 1px solid var(--gray-300);
+  border-radius: 4px;
+  background: #fff;
   font-size: 12px;
   color: var(--gray-700);
   font-weight: 500;
   outline: none;
-  padding: 0 2px;
-  -moz-appearance: textfield;
-  cursor: text;
+  cursor: pointer;
+  min-width: 48px;
 }
-.pdf-page-input::-webkit-inner-spin-button,
-.pdf-page-input::-webkit-outer-spin-button { -webkit-appearance: none; }
-.pdf-page-input:hover { border-color: var(--gray-300); background: #fff; }
-.pdf-page-input:focus { border-color: var(--brand); background: #fff; }
+.pdf-page-select:hover { border-color: var(--gray-400); }
+.pdf-page-select:focus { border-color: var(--brand); }
 
 .pdf-page-sep {
   color: var(--gray-400);
