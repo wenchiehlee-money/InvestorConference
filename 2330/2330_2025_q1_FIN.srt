@@ -1,0 +1,359 @@
+[METADATA]
+Source: 2330_2025_q1.m4a
+Method: Anchored Rescue + Dictionary Fix | Original Method: Anchored Rescue (Base=exp7, Language=en)
+Generated-At: 2026-04-09 13:18 CST
+---
+
+(00:30.930) all. This is Jeff Su,
+(01:10.410) quarter of 2025. Afterwards,
+(01:13.200) Mr. Huang and TSMC's Chairman and CEO,
+(01:16.640) Dr. C.C. Wei,
+(01:18.400) will jointly
+(01:19.690) the company's key messages.
+(01:53.420) Thank you, Jeff.
+(02:05.360) 25. After that,
+(02:17.150) or 5.1% in US dollars,
+(02:35.840) we worked diligently to
+(02:51.300) to 58.8 percent,
+(03:17.410) Overall,
+(03:37.640) quarter,
+(03:46.950) technologies,
+(03:47.610) defined as 7-nanometer and below,
+(03:50.410) accounted for 73% of wafer revenue.
+(04:40.400) current liabilities
+(05:12.460) primarily due
+(05:20.410) during the first quarter,
+(05:27.310) spent 331 billion in KPACs,
+(05:39.440) we raised 16
+(06:08.340) Based on the current business outlook,
+(06:14.960) 28.4 and 29.2 billion U.S. dollars,
+(06:32.390) dollar to 32.5 NT,
+(06:41.670) operating margin
+(06:43.580) between 47 and 49 percent. Also,
+(06:48.030) in the second quarter,
+(06:49.450) we will need to accrue the tax on the
+(07:31.540) our first quarter
+(08:29.530) As we have said before,
+(09:25.510) Overall,
+(09:47.620) expansion plans,
+(10:22.370) to invest to support customers' growth.
+(10:40.830) for advanced packaging,
+(10:42.010) testing,
+(10:43.050) mask making,
+(10:56.430) capacity in Arizona.
+(11:25.210) C.C. Thank you, Wendell.
+(11:39.560) On January 21st,
+(11:48.640) by several significant aftershocks.
+(12:07.160) of our operations in Taiwan.
+(12:34.600) let me talk about
+(13:08.800) of 2025,
+(13:31.800) in 2025,
+(13:40.760) Foundry 2.0. Now,
+(13:57.530) in our customers' behavior so far.
+(14:35.080) and customer trust to further strengthen
+(14:38.370) our competitive position.
+(14:41.960) As such,
+(15:00.380) from our customers throughout 2025.
+(15:14.900) AI ASIC,
+(15:17.220) and HPM controllers for AI training
+(15:33.710) Recent developments are also positive
+(16:24.440) TSMC employs
+(16:38.160) businesses.
+(16:46.300) capacity.
+(17:02.660) capacity to build.
+(17:22.680) Next,
+(18:49.760) entered high-volume production in 4Q24,
+(19:04.630) which will utilize 3nm process
+(20:39.130) technology licensing,
+(20:46.360) around 30% of our
+(20:53.680) creating an independent leading-edge
+(21:26.860) conductor industry.
+(21:57.720) In Europe,
+(22:05.760) Federal, State and City governments.
+(22:15.160) with support from the Taiwan government,
+(22:53.080) TSMC can continue to
+(23:10.950) Finally,
+(23:39.750) both 3nm and 5nm in their first 2 years,
+(24:08.460) increase as compared with N3e.
+(24:19.480) RAM profile similar to N3.
+(24:30.450) family.
+(24:38.010) is scheduled for second half of 2026.
+(25:15.230) delivery network.
+(25:21.780) We believe N2,
+(25:23.120) N2P,
+(25:37.060) This concludes our key message,
+(25:41.420) Thank you, CC.
+(25:44.310) This concludes our prepared statements.
+(25:46.690) Before we begin the Q&A session,
+(26:02.070) our management answers your question.
+(26:37.500) thanks for clearing the air on
+(26:39.080) on all those JV-related news reports.
+(26:43.140) I think a lot of people needed that.
+(26:44.640) Thank you.
+(26:46.080) My first question is on AI demand.
+(26:49.560) So CC, there has been a lot of talks
+(26:52.940) about Covox order adjustments
+(26:55.360) and some concerns about AI demand.
+(27:03.340) Could you talk a little bit
+(27:04.500) about how you see demand versus supply?
+(27:12.810) supply.
+(27:23.270) capacity?
+(27:25.030) All right.
+(27:25.390) Thank you, Gokul.
+(27:53.830) or supply and demand, I should say,
+(28:01.210) Okay, Goku.
+(28:09.580) the demand is almost insane
+(28:16.960) And now it's a little bit better.
+(28:28.840) capacity,
+(28:29.140) still fully loaded. And for 2026,
+(28:36.780) I cannot say the number,
+(28:39.140) but it's still a
+(28:58.000) current expectations you see?
+(29:08.660) Well,
+(29:16.920) much higher than the capacity.
+(29:29.060) Thank you.
+(29:29.820) My second question is,
+(30:18.250) reshoring of capacity,
+(30:47.260) accelerated?
+(30:48.000) Thank you.
+(30:48.840) Okay.
+(30:54.340) but he's asking about,
+(30:55.900) again,
+(30:57.390) a lot of talk
+(32:46.200) And as a result,
+(32:52.200) around 30% will be in Arizona.
+(32:55.870) And that will be also independent,
+(33:04.560) Okay?
+(33:11.130) that the margin may widen.
+(33:21.780) or approach here as we expand overseas.
+(33:24.280) Is that correct?
+(33:33.530) Hey, Goku.
+(35:13.070) specifically the ban on H20.
+(35:24.110) and our strategies?
+(35:26.490) Bruce, let me answer this question.
+(35:38.290) into consideration when providing
+(35:41.070) our four years of gross outlook.
+(35:43.290) look. Did I answer the question? Yes,
+(36:27.450) for the long-term capacity planning.
+(36:44.520) from all the recent tariff announcement,
+(36:51.530) We will continue to watch it carefully.
+(37:02.370) and so we stick on our forecast.
+(37:09.320) Thank you.
+(37:17.510) I think,
+(37:18.310) yes,
+(37:26.450) right?
+(37:38.190) You know,
+(37:43.680) which,
+(38:12.200) And then number two,
+(38:25.450) Bruce?
+(38:29.850) Are we considering slowing down?
+(38:33.120) The answer is no.
+(38:34.750) We executed our plan, our schedule.
+(38:57.550) So it's kind of free from,
+(39:00.980) you mentioned,
+(39:02.690) the underloading of the mature node.
+(39:05.810) Again,
+(39:06.570) I would emphasize,
+(39:09.340) no,
+(39:22.220) The second question is how to do it.
+(39:34.450) Okay.
+(39:35.630) Thank you.
+(39:36.580) All right.
+(39:37.180) Thanks, Bruce.
+(39:47.160) Hi, good afternoon, gentlemen.
+(39:50.730) Thanks for taking my question.
+(40:15.150) And secondly,
+(40:43.520) Can you give us some...
+(40:45.870) Okay, let me summarize your question.
+(41:16.560) We are a private company.
+(41:25.480) What is the second question?
+(41:26.360) Okay.
+(41:28.760) Yeah,
+(41:29.440) so actually,
+(41:30.160) do you have any visibility that can be…
+(41:41.330) So Charlie is saying…
+(41:42.770) Sorry,
+(41:43.890) Charlie,
+(41:53.440) do we believe,
+(42:17.990) but we are not getting involved.
+(42:22.420) Okay, got you.
+(42:35.820) of 13% quarter-on-quarter,
+(42:44.910) re-demand. So based on your mid-20%,
+(42:51.570) it seems like second half will be very,
+(42:55.950) very gradual
+(43:04.170) and if a tariff
+(43:14.500) there's a chance for you to...
+(43:40.450) I'll stop here first.
+(44:05.520) As I said,
+(44:11.930) in terms of pooling or due to tariffs.
+(44:19.330) And the second part,
+(44:21.420) then,
+(44:21.700) Charlie,
+(44:24.860) you know,
+(44:25.980) limited half-on-half growth.
+(44:37.040) Charlie,
+(44:37.680) as we also said in the prepared remarks,
+(44:45.100) So,
+(44:46.240) so far,
+(45:04.740) I see.
+(45:06.840) I think,
+(45:25.190) But it seems like it is widening.
+(45:43.040) Okay, I think so.
+(45:54.200) Charlie,
+(46:03.860) is mainly from inflation in cost
+(46:13.160) Those are the reasons.
+(46:14.700) Okay.
+(46:15.940) Oh, I see.
+(46:16.620) Okay, thank you.
+(46:17.560) Okay, thank you, Charlie.
+(46:18.340) OK.
+(46:24.900) Next one, Charles Xi from Lincoln.
+(46:28.100) Go ahead, please.
+(46:32.130) Thank you for taking my questions.
+(46:38.230) It's a two-part question.
+(46:39.530) Both are regarding your expansion plan
+(46:45.400) I think management,
+(46:46.720) you know,
+(47:08.630) regarding the US expansion,
+(47:15.110) yes,
+(47:39.960) on the leading edge,
+(47:50.370) let's say,
+(47:51.610) in the primary R&D,
+(48:00.420) Thank you.
+(48:12.680) So what do we mean by fair or fairness?
+(48:33.340) Either we got all or we got zero.
+(48:36.530) So that's why we call it fair.
+(49:11.020) As I said before,
+(49:12.420) TSMC is a fab,
+(49:14.680) you know,
+(49:15.640) never be stay stagnant.
+(49:20.400) We always continue to improve it.
+(49:28.310) with about 1,000 engineers.
+(50:26.020) discussed about over the last quarter.
+(50:37.980) long-term research,
+(50:39.820) these type of things?
+(50:40.860) Okay,
+(50:41.620) actually,
+(51:17.540) TSMC right now. It's 10,000 R&D people,
+(51:21.620) but it's a beginning,
+(51:22.760) okay? So we do a lot more.
+(51:31.530) Yes, sir.
+(51:31.970) Okay,
+(51:32.370) great. Thank you. Operator,
+(51:38.180) the next participant,
+(51:39.680) please.
+(51:44.840) Yes.
+(51:45.120) Good afternoon.
+(52:23.520) the third phase?
+(52:25.380) Okay.
+(52:52.020) Well,
+(52:52.380) Sunny,
+(53:10.060) We have to really to speed it up.
+(53:13.260) And the following,
+(53:17.180) all the five,
+(53:23.210) of course.
+(53:26.340) Okay, Sunny?
+(53:29.470) Well, so, sorry, just to clarify.
+(54:08.320) Could that also be moved forward?
+(54:11.270) Okay, yes, we are speeding it up.
+(54:44.290) to get all the permits, everything, etc.
+(54:55.240) but we are going to update you probably
+(55:06.060) Got it.
+(55:06.540) No problem.
+(55:25.280) And then for margin,
+(55:31.780) and then expanding to 3% to 4%,
+(55:43.100) estimate?
+(55:50.430) be less?
+(56:06.650) And also,
+(56:38.170) and because of our business nature,
+(56:45.360) healthy return.
+(56:47.160) Now,
+(57:02.860) Now,
+(57:04.100) at the same time,
+(57:23.580) Of course,
+(57:24.400) with that,
+(57:32.400) Okay, Sonny?
+(57:36.480) Got it.
+(57:37.650) All right.
+(57:38.910) Very clear.
+(57:39.450) Thank you very much.
+(57:40.310) Thank you.
+(57:46.380) Rep. Vincent Arrote.
+(57:51.520) Yeah, thanks very much.
+(58:04.300) U.S. ban on AI GPUs into China.
+(58:14.320) So factoring this in,
+(58:49.020) Thank you.
+(58:49.480) Okay,
+(58:50.040) so Brett,
+(58:51.620) his question is on,
+(58:54.250) again,
+(59:19.270) behind that? Right. You know,
+(59:30.330) we are barely,
+(60:28.740) Okay.
+(60:31.500) Yeah.
+(61:04.230) not adopt buyback framework,
+(61:15.050) Okay, thank you, Brett.
+(61:27.750) His question is,
+(61:29.610) would we consider,
+(61:36.810) share buyback policy?
+(62:09.070) thank you. All right. Operator,
+(62:18.830) Yes.
+(62:26.340) Can you hear me clearly?
+(62:27.380) Yes.
+(62:29.850) Yeah, thank you.
+(62:30.670) My question is also about the AI
+(62:34.450) and also the US expansion.
+(62:39.170) will be more balanced into 2026.
+(62:42.590) Do you see any structural change
+(62:52.230) And also in that kind of a new trend,
+(62:56.910) What TSMC's view on the new technology,
+(63:00.610) such as CPO or PLP panel base,
+(63:03.310) will that still
+(63:05.890) start from Taiwan first,
+(63:24.900) Okay, Laura's first question.
+(63:44.600) And I think the essence of the question,
+(63:58.280) for the expansion in Arizona?
+(64:02.660) THAT'S A LONG QUESTION,
+(64:03.780) BUT,
+(64:04.540) LAURA,
+(64:06.940) YES,
+(64:08.690) OUR CUSTOMERS,
+(64:12.090) THEY CONTINUE TO USE THE LEADING
+(64:16.550) edge technology,
+(64:26.220) and
+(64:27.250) also more advanced, right?
+(64:45.030) technologies.
+(64:52.950) we are aggressively developing
+(65:08.780) but most likely it will be in Taiwan
+(65:11.120) first.
+(65:11.660) We ramp it up and then bring it to U.S.
+(65:16.160) Okay,
+(65:53.620) Okay, so Laura's second question
+(66:16.840) Will that be kind of the percentage
+(66:19.740) for the leading node in the future?
+(66:23.380) Well, you know, we have,
+(66:28.300) right now we plan a six-fab in Arizona.
+(66:31.820) And in that six-fab, the two nanometer
+(66:35.080) will be a major node.
+(66:37.200) And that's what I say is 30% YBJR.
+(66:40.220) As time goes by, after the two nanometer
+(66:43.020) will be 1.4 and 1.0. That has not been,
+(66:48.600) you know,
+(66:50.960) discussed yet.
+(66:54.950) Okay, thank you.
+(66:58.110) All right, thanks, Laura.
+(67:13.480) Hi, thanks for taking the question.
+(67:33.160) I'm going to add a follow-up.
+(67:52.340) Okay,
+(67:52.800) Okay, let me talk about the first one.
+(68:29.770) tape out customers,
+(68:56.340) You spoke about the Japan FAB.
+(69:05.200) Oh, okay.
+(69:16.060) for this specialty technology fab
+(69:46.120) Thank you, Jeff.
+(70:06.830) TSMC's website at www.tsmc.com.
+(70:11.330) So thank you again for joining us today.
+(70:13.790) We hope everyone continues to stay well
+(70:19.630) Goodbye and have a good day.
+(70:21.170) Take care.
+(70:21.690) Thank you.
