@@ -666,6 +666,18 @@ mark { background: rgba(242, 178, 28, 0.35); border-radius: 2px; padding: 0 1px;
   display: block;
 }
 
+.pdf-panel-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: var(--gray-50);
+  border-top: 1px solid var(--gray-200);
+  flex-shrink: 0;
+  height: 40px;
+}
+
 .pdf-page-nav {
   display: flex;
   align-items: center;

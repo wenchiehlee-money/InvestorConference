@@ -76,15 +76,15 @@ export async function renderPlayerView(
         <div class="pdf-panel-header">
           <button class="pdf-toggle-btn" title="隱藏簡報">‹</button>
           <div class="pdf-tabs">${pdfTabsHtml}</div>
-          <div class="pdf-page-nav">
-            <button class="pdf-nav-btn" id="pdf-prev" title="上一頁">&#8249;</button>
-            <span class="pdf-page-info"><span id="pdf-page-num">1</span>&thinsp;/&thinsp;<span id="pdf-page-total">?</span></span>
-            <button class="pdf-nav-btn" id="pdf-next" title="下一頁">&#8250;</button>
-          </div>
           <a class="pdf-open-link" href="${escAttr(primaryPdf.url)}" target="_blank" rel="noopener" title="在新分頁開啟">↗</a>
         </div>
         <div class="pdf-canvas-wrap" id="pdf-canvas-wrap">
           <canvas id="pdf-canvas"></canvas>
+        </div>
+        <div class="pdf-panel-footer">
+          <button class="pdf-nav-btn" id="pdf-prev" title="上一頁">&#8249;</button>
+          <span class="pdf-page-info"><span id="pdf-page-num">1</span>&thinsp;/&thinsp;<span id="pdf-page-total">?</span></span>
+          <button class="pdf-nav-btn" id="pdf-next" title="下一頁">&#8250;</button>
         </div>
       </div>`
     : ''
