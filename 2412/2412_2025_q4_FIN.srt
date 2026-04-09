@@ -1,7 +1,7 @@
 [METADATA]
 Source: 2412_2025_q4.m4a
-Method: Anchored Rescue + Dictionary Fix | Original Method: Anchored Rescue (Base=exp12, Language=en)
-Generated-At: 2026-04-10 00:50 CST
+Method: Anchored Rescue + Dictionary Fix | Original Method: Anchored Rescue (Base=exp13, Language=en)
+Generated-At: 2026-04-10 00:54 CST
 ---
 
 (00:49.840) Thank you. Ms. Cai, please begin.
