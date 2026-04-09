@@ -1,0 +1,54 @@
+name: Daily Auto-Ingest from TODO
+
+on:
+  schedule:
+    # Daily at 02:00 UTC (10:00 Taiwan time)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      push:
+        description: 'Push new assets to repo'
+        type: boolean
+        default: true
+
+jobs:
+  auto-ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 pyyaml yt-dlp
+          # Playwright dependencies for JS-heavy sites
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Run Auto-Ingest
+        env:
+          PUSH_FLAG: ${{ github.event.inputs.push || 'true' }}
+        run: |
+          if [ "$PUSH_FLAG" = "true" ]; then
+            python ingest.py --auto-todo --push
+          else
+            python ingest.py --auto-todo
+          fi
+
+      - name: Final README Update (just in case)
+        run: |
+          python ingest.py --update-readme
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "docs: final README sync [skip ci]"
+          git push origin main || echo "Nothing to push"

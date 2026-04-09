@@ -1042,10 +1042,92 @@ def download_pdfs(stock_id: str, year: str, quarter: str,
     return downloaded
 
 
+def expected_quarter(date_str: str) -> tuple[str | None, str | None]:
+    """Return (year, quarter) the fiscal quarter reported on a given conference date."""
+    if not date_str:
+        return None, None
+    try:
+        y, mo = int(date_str[:4]), int(date_str[5:7])
+    except (ValueError, IndexError):
+        return None, None
+    # Taiwan/US standard: Q4 earnings usually in Jan-Apr of next year
+    if 1 <= mo <= 4:
+        return str(y - 1), "4"
+    if 5 <= mo <= 6:
+        return str(y), "1"
+    if 7 <= mo <= 9:
+        return str(y), "2"
+    return str(y), "3"
+
+
+def ingest_from_todo(auto_push: bool = False) -> None:
+    """Scan raw_event_upcoming_earnings.csv and ingest any missing past events."""
+    import csv as _csv
+    from datetime import date as _date
+
+    csv_path = Path("raw_event_upcoming_earnings.csv")
+    if not csv_path.exists():
+        print(f"[TODO] ✗ {csv_path} not found.")
+        return
+
+    today = _date.today()
+    todo_list = []
+
+    try:
+        with open(csv_path, "r", encoding="utf-8-sig") as f:
+            reader = _csv.DictReader(f)
+            for row in reader:
+                evt_name = row.get("事件名稱", "")
+                evt_date_str = row.get("開始日期", "")
+                if not evt_name or not evt_date_str: continue
+
+                try:
+                    evt_date = _date.fromisoformat(evt_date_str)
+                except ValueError: continue
+
+                # Only process events that have already happened or are today
+                if evt_date > today: continue
+
+                # Extract stock ID
+                m = re.search(r'[（(](\w+)[）)]', evt_name)
+                if not m: continue
+                stock_id = m.group(1)
+
+                # Determine year/quarter
+                y, q = expected_quarter(evt_date_str)
+                if not y or not q: continue
+
+                # Check if audio already exists
+                stem = f"{stock_id}_{y}_q{q}"
+                save_dir = Path(stock_id)
+                exists = any(save_dir.glob(f"{stem}.*"))
+
+                if not exists:
+                    todo_list.append((stock_id, y, q, evt_date_str))
+    except Exception as e:
+        print(f"[TODO] ✗ Error reading CSV: {e}")
+        return
+
+    if not todo_list:
+        print("[TODO] ✓ No missing past events found. Everything up to date.")
+        return
+
+    print(f"[TODO] Found {len(todo_list)} missing events to ingest.")
+    for sid, y, q, dt in todo_list:
+        print(f"\n[TODO] >>> Processing {sid} {y} Q{q} (Date: {dt}) ...")
+        try:
+            ingest_earnings_audio(sid, y, q, auto_push=auto_push)
+        except Exception as e:
+            print(f"[TODO] ✗ Failed {sid}: {e}")
+
+    # Final step: Refresh README
+    update_readme()
+
+
 # ── README Generator ─────────────────────────────────────────────────────────
 
 def update_readme() -> None:
-    """Regenerate README.md from repo state + upcoming_earnings.csv."""
+    """Regenerate README.md from repo state + raw_event_upcoming_earnings.csv."""
     import csv as _csv
 
     repo = INVESTOR_CONFERENCE_REPO
@@ -1100,22 +1182,6 @@ def update_readme() -> None:
             for row in _csv.DictReader(fh):
                 upcoming_ir.append(row)
 
-    def _expected_quarter(date_str: str):
-        """Return (year, quarter) the fiscal quarter reported on a given conference date."""
-        if not date_str:
-            return None, None
-        try:
-            y, mo = int(date_str[:4]), int(date_str[5:7])
-        except (ValueError, IndexError):
-            return None, None
-        if 1 <= mo <= 4:
-            return str(y - 1), "4"
-        if 5 <= mo <= 6:
-            return str(y), "1"
-        if 7 <= mo <= 9:
-            return str(y), "2"
-        return str(y), "3"
-
     # Build merged rows: one row per CSV event (with optional ingested data),
     # plus any ingested entries that have no matching CSV event.
     from datetime import date as _date, timedelta
@@ -1145,7 +1211,7 @@ def update_readme() -> None:
         sid = m.group(1) if m else None
 
         # Only 法說會 and 財報公告 events are matched to ingested data
-        exp_year, exp_q = _expected_quarter(date)
+        exp_year, exp_q = expected_quarter(date)
         ingested = None
         if sid and exp_year:
             key = (sid, exp_year, exp_q)
@@ -1172,13 +1238,13 @@ def update_readme() -> None:
             dur    = f"{ingested['audio_min']:.1f} min" if ingested["audio_min"] is not None else "無"
             audio_path = ingested["audio_path"]
             audio  = f"[{dur}]({audio_path})" if audio_path else dur
-            
+
             # Add FIN.srt icon link if exists
             fin_name = f"{sid}_{ingested['year']}_q{ingested['quarter']}_FIN.srt"
             fin_path = repo / sid / fin_name
             if fin_path.exists():
                 audio += f" [📝]({sid}/{fin_name})"
-                
+
             pdf_cn = f"[中]({ingested['pdf_cn']})" if ingested["pdf_cn"] else "—"
             pdf_en = f"[EN]({ingested['pdf_en']})" if ingested["pdf_en"] else "—"
         else:
@@ -1211,13 +1277,13 @@ def update_readme() -> None:
         dur    = f"{r['audio_min']:.1f} min" if r["audio_min"] is not None else "無"
         audio_path = r["audio_path"]
         audio  = f"[{dur}]({audio_path})" if audio_path else dur
-        
+
         # Add FIN.srt icon link if exists
         fin_name = f"{sid}_{r['year']}_q{r['quarter']}_FIN.srt"
         fin_path = repo / sid / fin_name
         if fin_path.exists():
             audio += f" [📝]({sid}/{fin_name})"
-            
+
         pdf_cn = f"[中]({r['pdf_cn']})" if r["pdf_cn"] else "—"
         pdf_en = f"[EN]({r['pdf_en']})" if r["pdf_en"] else "—"
         merged.append({
@@ -1255,6 +1321,9 @@ def update_readme() -> None:
     readme_path = repo / "README.md"
     readme_path.write_text("\n".join(lines), encoding="utf-8")
     print(f"[README] ✓ Updated: {readme_path}")
+
+
+# ── InvestorConference Commit/Push ───────────────────────────────────────────
 
 
 # ── InvestorConference Commit/Push ───────────────────────────────────────────
@@ -1563,11 +1632,17 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--update-readme", action="store_true",
-        help="Regenerate README.md from repo state + upcoming_earnings.csv, then exit",
+        help="Regenerate README.md from repo state + raw_event_upcoming_earnings.csv, then exit",
+    )
+    parser.add_argument(
+        "--auto-todo", action="store_true",
+        help="Scan raw_event_upcoming_earnings.csv and ingest any missing past events",
     )
     args = parser.parse_args()
 
-    if args.update_readme:
+    if args.auto_todo:
+        ingest_from_todo(auto_push=args.push)
+    elif args.update_readme:
         update_readme()
     elif args.stock_id and args.year and args.quarter:
         ingest_earnings_audio(args.stock_id, args.year, args.quarter,
