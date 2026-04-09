@@ -57,14 +57,45 @@ export async function renderPlayerView(
     entry.irDate,
   ].filter(Boolean)
 
+  const hasPdfs = entry.pdfs.length > 0
+  const primaryPdf = entry.pdfs.find(p => p.label === 'ir') ?? entry.pdfs[0]
+
   const pdfLinksHtml = entry.pdfs
     .map(p => `<a class="pdf-link" href="${escAttr(p.url)}" target="_blank" rel="noopener">📄 ${esc(p.label)} ↗</a>`)
     .join('')
 
+  const gdocsUrl = (url: string) =>
+    `https://docs.google.com/viewer?url=${encodeURIComponent(url)}&embedded=true`
+
+  const pdfTabsHtml = entry.pdfs
+    .map((p, i) => `<button class="pdf-tab${i === 0 ? ' active' : ''}" data-pdf-url="${escAttr(gdocsUrl(p.url))}" data-raw-url="${escAttr(p.url)}">${esc(p.label)}</button>`)
+    .join('')
+
+  const pdfPanelHtml = hasPdfs
+    ? `<div class="pdf-panel" id="pdf-panel">
+        <div class="pdf-panel-header">
+          <button class="pdf-toggle-btn" title="隱藏簡報">›</button>
+          <div class="pdf-tabs">${pdfTabsHtml}</div>
+          <a class="pdf-open-link" href="${escAttr(primaryPdf.url)}" target="_blank" rel="noopener" title="在新分頁開啟">↗</a>
+        </div>
+        <iframe class="pdf-frame" id="pdf-frame" src="${escAttr(gdocsUrl(primaryPdf.url))}"></iframe>
+      </div>`
+    : ''
+
   const controlsHtml = entry.audioUrl
     ? `<div class="audio-controls">
-        <button class="play-pause-btn">▶ 播放</button>
-        <button class="stop-btn">■ 停止</button>
+        ${hasPdfs ? `<button class="pdf-show-btn" id="pdf-show-btn" style="display:none" title="顯示簡報">📄</button>` : ''}
+        <button class="ctrl-btn play-pause-btn" title="播放/暫停">
+          <svg class="ctrl-icon" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+        </button>
+        <button class="ctrl-btn mute-btn" title="靜音">
+          <svg class="ctrl-icon mute-icon" viewBox="0 0 24 24"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path class="mute-x" d="M19 9l-4 4m0-4l4 4" stroke-width="2"/></svg>
+        </button>
+        <input type="range" class="volume-slider" min="0" max="1" step="0.05" value="1" title="音量">
+        <div class="progress-wrap">
+          <input type="range" class="progress-bar" min="0" max="100" step="0.1" value="0">
+        </div>
+        <span class="time-display"><span class="current-time">0:00</span><span class="time-sep"> / </span><span class="total-time">--:--</span></span>
         <select class="speed-select">
           <option value="0.75">0.75x</option>
           <option value="1" selected>1x</option>
@@ -72,9 +103,11 @@ export async function renderPlayerView(
           <option value="1.5">1.5x</option>
           <option value="2">2x</option>
         </select>
-        <span class="current-time">0:00</span>
       </div>`
-    : `<div class="audio-controls no-audio">（無音訊檔）</div>`
+    : `<div class="audio-controls no-audio">
+        ${hasPdfs ? `<button class="pdf-show-btn" id="pdf-show-btn" style="display:none" title="顯示簡報">📄</button>` : ''}
+        （無音訊檔）
+      </div>`
 
   container.innerHTML = `
     <div class="player-page">
@@ -94,7 +127,12 @@ export async function renderPlayerView(
           </div>
         </div>
       </header>
-      <div class="subtitle-window"><p class="loading">載入字幕中…</p></div>
+      <div class="player-body">
+        <div class="transcript-panel">
+          <div class="subtitle-window"><p class="loading">載入字幕中…</p></div>
+        </div>
+        ${pdfPanelHtml}
+      </div>
       <footer class="player-footer">${controlsHtml}</footer>
     </div>
   `
@@ -102,37 +140,98 @@ export async function renderPlayerView(
   // ── back button ────────────────────────────────────────────────────────────
   container.querySelector('.back-btn')!.addEventListener('click', onBack)
 
+  // ── PDF panel toggle ───────────────────────────────────────────────────────
+  if (hasPdfs) {
+    const pdfPanel    = container.querySelector<HTMLElement>('#pdf-panel')!
+    const pdfFrame    = container.querySelector<HTMLIFrameElement>('#pdf-frame')!
+    const toggleBtn   = container.querySelector<HTMLButtonElement>('.pdf-toggle-btn')!
+    const showBtn     = container.querySelector<HTMLButtonElement>('#pdf-show-btn')
+    const openLink    = container.querySelector<HTMLAnchorElement>('.pdf-open-link')
+
+    toggleBtn.addEventListener('click', () => {
+      pdfPanel.classList.add('hidden')
+      toggleBtn.textContent = '‹'
+      if (showBtn) showBtn.style.display = ''
+    })
+    showBtn?.addEventListener('click', () => {
+      pdfPanel.classList.remove('hidden')
+      toggleBtn.textContent = '›'
+      showBtn.style.display = 'none'
+    })
+
+    // PDF tab switching
+    container.querySelectorAll<HTMLButtonElement>('.pdf-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        container.querySelectorAll('.pdf-tab').forEach(t => t.classList.remove('active'))
+        tab.classList.add('active')
+        pdfFrame.src = tab.dataset['pdfUrl'] ?? ''
+        if (openLink) openLink.href = tab.dataset['rawUrl'] ?? ''
+      })
+    })
+  }
+
   // ── audio setup ───────────────────────────────────────────────────────────
+  const PLAY_ICON = `<svg class="ctrl-icon" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>`
+  const PAUSE_ICON = `<svg class="ctrl-icon" viewBox="0 0 24 24"><rect x="5" y="3" width="4" height="18"/><rect x="15" y="3" width="4" height="18"/></svg>`
+
   let audio: HTMLAudioElement | null = null
   if (entry.audioUrl) {
     audio = new Audio(entry.audioUrl)
-    const playPauseBtn = container.querySelector<HTMLButtonElement>('.play-pause-btn')!
-    const stopBtn      = container.querySelector<HTMLButtonElement>('.stop-btn')!
-    const speedSelect  = container.querySelector<HTMLSelectElement>('.speed-select')!
+    const playPauseBtn  = container.querySelector<HTMLButtonElement>('.play-pause-btn')!
+    const muteBtn       = container.querySelector<HTMLButtonElement>('.mute-btn')!
+    const volumeSlider  = container.querySelector<HTMLInputElement>('.volume-slider')!
+    const progressBar   = container.querySelector<HTMLInputElement>('.progress-bar')!
+    const speedSelect   = container.querySelector<HTMLSelectElement>('.speed-select')!
     const currentTimeEl = container.querySelector<HTMLElement>('.current-time')!
+    const totalTimeEl   = container.querySelector<HTMLElement>('.total-time')!
 
+    // Play / Pause
     playPauseBtn.addEventListener('click', () => {
-      if (audio!.paused) {
-        audio!.play().catch(err => {
-          console.error('Audio play failed:', err)
-          playPauseBtn.textContent = '▶ 播放（載入失敗）'
-        })
-      } else {
-        audio!.pause()
-      }
+      if (audio!.paused) audio!.play().catch(console.error)
+      else audio!.pause()
     })
-    stopBtn.addEventListener('click', () => {
-      audio!.pause()
-      audio!.currentTime = 0
+
+    // Mute
+    muteBtn.addEventListener('click', () => {
+      audio!.muted = !audio!.muted
+      muteBtn.classList.toggle('muted', audio!.muted)
     })
+
+    // Volume
+    volumeSlider.addEventListener('input', () => {
+      audio!.volume = parseFloat(volumeSlider.value)
+      audio!.muted = false
+      muteBtn.classList.remove('muted')
+    })
+
+    // Seek
+    let isSeeking = false
+    progressBar.addEventListener('mousedown', () => { isSeeking = true })
+    progressBar.addEventListener('mouseup',   () => {
+      isSeeking = false
+      if (audio!.duration) audio!.currentTime = (parseFloat(progressBar.value) / 100) * audio!.duration
+    })
+    progressBar.addEventListener('input', () => {
+      if (audio!.duration) audio!.currentTime = (parseFloat(progressBar.value) / 100) * audio!.duration
+    })
+
+    // Speed
     speedSelect.addEventListener('change', () => {
       audio!.playbackRate = parseFloat(speedSelect.value)
     })
-    audio.addEventListener('play',  () => { playPauseBtn.textContent = '⏸ 暫停' })
-    audio.addEventListener('pause', () => { playPauseBtn.textContent = '▶ 播放' })
-    audio.addEventListener('ended', () => { playPauseBtn.textContent = '▶ 播放' })
+
+    // State → UI
+    audio.addEventListener('play',  () => { playPauseBtn.innerHTML = PAUSE_ICON })
+    audio.addEventListener('pause', () => { playPauseBtn.innerHTML = PLAY_ICON })
+    audio.addEventListener('ended', () => { playPauseBtn.innerHTML = PLAY_ICON })
+    audio.addEventListener('loadedmetadata', () => {
+      totalTimeEl.textContent = fmtTime(audio!.duration, false)
+    })
     audio.addEventListener('timeupdate', () => {
       currentTimeEl.textContent = fmtTime(audio!.currentTime, false)
+      if (!isSeeking && audio!.duration) {
+        progressBar.value = String((audio!.currentTime / audio!.duration) * 100)
+      }
     })
   }
 

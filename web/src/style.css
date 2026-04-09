@@ -557,6 +557,128 @@ mark { background: rgba(242, 178, 28, 0.35); border-radius: 2px; padding: 0 1px;
 
 .diff-toggle-label input { cursor: pointer; accent-color: var(--brand); }
 
+/* ── Player body (PDF panel + transcript) ─────────────────────────────────── */
+.player-body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  min-height: 0;
+}
+
+/* PDF preview panel */
+.pdf-panel {
+  width: 45%;
+  min-width: 280px;
+  max-width: 65%;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--gray-200);
+  flex-shrink: 0;
+  transition: width 0.2s, min-width 0.2s;
+  overflow: hidden;
+}
+
+.pdf-panel.hidden {
+  width: 0;
+  min-width: 0;
+}
+
+.pdf-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 8px;
+  background: var(--gray-50);
+  border-bottom: 1px solid var(--gray-200);
+  flex-shrink: 0;
+  gap: 6px;
+}
+
+.pdf-tabs {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.pdf-tab {
+  padding: 3px 10px;
+  border: 1px solid var(--gray-300);
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--gray-600);
+  transition: all 0.12s;
+}
+
+.pdf-tab:hover { background: var(--gray-100); }
+
+.pdf-tab.active {
+  background: var(--brand-light);
+  border-color: var(--brand);
+  color: var(--brand-text);
+  font-weight: 500;
+}
+
+.pdf-toggle-btn {
+  padding: 2px 8px;
+  border: 1px solid var(--gray-300);
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  color: var(--gray-500);
+  line-height: 1;
+  flex-shrink: 0;
+  transition: all 0.12s;
+}
+.pdf-toggle-btn:hover { background: var(--gray-100); color: var(--gray-700); }
+
+.pdf-open-link {
+  padding: 2px 7px;
+  border: 1px solid var(--gray-300);
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--gray-500);
+  text-decoration: none;
+  line-height: 1.4;
+  flex-shrink: 0;
+  transition: all 0.12s;
+}
+.pdf-open-link:hover { background: var(--gray-100); color: var(--gray-700); }
+
+.pdf-frame {
+  flex: 1;
+  width: 100%;
+  border: none;
+  min-height: 0;
+  display: block;
+}
+
+.pdf-show-btn {
+  padding: 4px 10px;
+  border: 1px solid var(--brand);
+  border-radius: 4px;
+  background: var(--brand-light);
+  color: var(--brand-text);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.12s;
+}
+.pdf-show-btn:hover { background: var(--brand); color: #fff; }
+
+/* Transcript panel */
+.transcript-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 0;
+}
+
 /* Subtitle window */
 .subtitle-window {
   flex: 1;
@@ -613,24 +735,151 @@ mark { background: rgba(242, 178, 28, 0.35); border-radius: 2px; padding: 0 1px;
   cursor: help;
 }
 
-/* Player controls */
+/* ── Player Controls (choruscall style dark bar) ──────────────────────────── */
 .player-footer {
   flex-shrink: 0;
-  border-top: 1px solid var(--gray-200);
-  background: #fff;
-  padding: 10px 16px;
+  background: #1a1e2e;
+  padding: 0 16px;
+  height: 52px;
+  display: flex;
+  align-items: center;
 }
 
 .audio-controls {
   display: flex;
   align-items: center;
   gap: 10px;
+  width: 100%;
 }
 
 .audio-controls.no-audio {
-  color: var(--gray-400);
+  color: #8892a4;
   font-size: 13px;
 }
+
+/* Icon buttons */
+.ctrl-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.08);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.12s;
+  padding: 0;
+}
+.ctrl-btn:hover { background: rgba(255,255,255,0.18); }
+
+.ctrl-icon {
+  width: 16px;
+  height: 16px;
+  fill: #e2e8f0;
+  stroke: none;
+  display: block;
+}
+
+/* Mute button — uses stroke icons */
+.mute-btn .ctrl-icon {
+  fill: none;
+  stroke: #e2e8f0;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+.mute-btn.muted .ctrl-icon { stroke: #f87171; }
+.mute-x { display: block; }
+.mute-btn:not(.muted) .mute-x { display: none; }
+
+/* Volume slider */
+.volume-slider {
+  width: 72px;
+  height: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: rgba(255,255,255,0.2);
+  border-radius: 2px;
+  outline: none;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background: #e2e8f0;
+  cursor: pointer;
+}
+
+/* Progress bar */
+.progress-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+.progress-bar {
+  width: 100%;
+  height: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: rgba(255,255,255,0.2);
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  accent-color: var(--brand);
+}
+.progress-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: var(--brand);
+  cursor: pointer;
+}
+.progress-bar:hover { background: rgba(255,255,255,0.3); }
+
+/* Time display */
+.time-display {
+  font-variant-numeric: tabular-nums;
+  font-size: 12px;
+  color: #94a3b8;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.current-time { color: #e2e8f0; }
+.time-sep     { color: #4b5563; }
+.total-time   { color: #94a3b8; }
+
+/* Speed select */
+.speed-select {
+  height: 28px;
+  padding: 0 6px;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 6px;
+  background: rgba(255,255,255,0.08);
+  color: #e2e8f0;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+  flex-shrink: 0;
+}
+.speed-select option { background: #1a1e2e; color: #e2e8f0; }
+
+/* PDF show button in dark bar */
+.pdf-show-btn {
+  padding: 4px 10px;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 4px;
+  background: rgba(255,255,255,0.08);
+  color: #e2e8f0;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.12s;
+  flex-shrink: 0;
+}
+.pdf-show-btn:hover { background: rgba(255,255,255,0.18); }
 
 .play-pause-btn, .stop-btn {
   padding: 6px 16px;
