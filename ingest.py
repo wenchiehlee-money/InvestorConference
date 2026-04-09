@@ -1125,6 +1125,16 @@ def update_readme() -> None:
     merged = []
     matched_keys = set()
 
+    def _get_mops_link(stock_id: str, fallback_link: str = None) -> str:
+        """Return a markdown link to MOPS for TW stocks, or fallback for others."""
+        if stock_id and stock_id.isdigit() and len(stock_id) == 4:
+            # Direct link to MOPS for Taiwan stocks
+            url = f"https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id={stock_id}"
+            return f"[↗]({url})"
+        if fallback_link:
+            return f"[↗]({fallback_link})"
+        return "[↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1)"
+
     for ev in upcoming_ir:
         ev_name  = ev.get("事件名稱", "")
         ev_class = ev.get("類別", "")
@@ -1188,7 +1198,7 @@ def update_readme() -> None:
         merged.append({
             "name": name, "quarter": qstr, "date": date,
             "audio": audio, "pdf_cn": pdf_cn, "pdf_en": pdf_en,
-            "mops": f"[↗]({link1})" if link1 else "",
+            "mops": _get_mops_link(sid, link1),
         })
 
     # Add ingested entries with no CSV event (older quarters, etc.)
@@ -1196,27 +1206,28 @@ def update_readme() -> None:
         key = (r["stock_id"], r["year"], r["quarter"])
         if key in matched_keys:
             continue
-        _, chi = KNOWN_TW_STOCKS.get(r["stock_id"], (r["stock_id"], r["stock_id"]))
+        sid = r["stock_id"]
+        _, chi = KNOWN_TW_STOCKS.get(sid, (sid, sid))
         dur    = f"{r['audio_min']:.1f} min" if r["audio_min"] is not None else "無"
         audio_path = r["audio_path"]
         audio  = f"[{dur}]({audio_path})" if audio_path else dur
         
         # Add FIN.srt icon link if exists
-        fin_name = f"{r['stock_id']}_{r['year']}_q{r['quarter']}_FIN.srt"
-        fin_path = repo / r["stock_id"] / fin_name
+        fin_name = f"{sid}_{r['year']}_q{r['quarter']}_FIN.srt"
+        fin_path = repo / sid / fin_name
         if fin_path.exists():
-            audio += f" [📝]({r['stock_id']}/{fin_name})"
+            audio += f" [📝]({sid}/{fin_name})"
             
         pdf_cn = f"[中]({r['pdf_cn']})" if r["pdf_cn"] else "—"
         pdf_en = f"[EN]({r['pdf_en']})" if r["pdf_en"] else "—"
         merged.append({
-            "name":    f"{r['stock_id']} {chi}",
+            "name":    f"{sid} {chi}",
             "quarter": f"{r['year']} Q{r['quarter']}",
             "date":    "",
             "audio":   audio,
             "pdf_cn":  pdf_cn,
             "pdf_en":  pdf_en,
-            "mops":    "",
+            "mops":    _get_mops_link(sid),
         })
 
     # Sort by date descending (newest first); entries without date sink to the bottom
