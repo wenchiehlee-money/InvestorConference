@@ -1445,6 +1445,7 @@ def fetch_yahoo_transcript(yahoo_url: str, stem: str, save_dir: Path) -> list[Pa
         print("[Yahoo] playwright not installed; skipping transcript fetch.")
         return []
 
+    save_dir.mkdir(parents=True, exist_ok=True)
     md_path = save_dir / f"{stem}_yahoo_transcript.md"
     html_path = save_dir / f"{stem}_yahoo_transcript.html"
     outputs: list[Path] = []
@@ -1547,8 +1548,11 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
         git("add", str(target_pdf.relative_to(repo)))
     for extra in (extra_paths or []):
         target_extra = target_dir / extra.name
-        shutil.move(str(extra), str(target_extra))
-        print(f"[git] Moved → {target_extra}")
+        if extra.resolve() != target_extra.resolve():
+            shutil.move(str(extra), str(target_extra))
+            print(f"[git] Moved → {target_extra}")
+        else:
+            print(f"[git] Using existing file → {target_extra}")
         git("add", str(target_extra.relative_to(repo)))
 
     # Update audio_durations.json
@@ -1644,7 +1648,8 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
         extra_paths = []
         yahoo_url = KNOWN_YAHOO_TRANSCRIPTS_BY_QUARTER.get((stock_id, year, quarter))
         if yahoo_url:
-            extra_paths.extend(fetch_yahoo_transcript(yahoo_url, stem, save_dir))
+            transcript_dir = INVESTOR_CONFERENCE_REPO / stock_id
+            extra_paths.extend(fetch_yahoo_transcript(yahoo_url, stem, transcript_dir))
         # MOPS PDFs — use conf_date discovered during audio scraping
         if _conf_date[0]:
             mops_pdfs = download_mops_pdfs(
