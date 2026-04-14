@@ -102,6 +102,12 @@ KNOWN_US_DIRECT_BY_QUARTER = {
     ("QCOM", "2025", "4"): "https://vodchoruscall.akamaized.net/07452/qualcomm/qualcomm260204.mp4",  # Q1FY26 call 2026-02-04
 }
 
+# Quarter-specific Yahoo Finance earnings transcript pages.
+# These are browser-rendered pages and require Playwright/Chromium for extraction.
+KNOWN_YAHOO_TRANSCRIPTS_BY_QUARTER = {
+    ("2454", "2025", "4"): "https://finance.yahoo.com/quote/2454.TW/earnings/2454.TW-Q4-2025-earnings_call-404281.html",
+}
+
 # US stock display names (ticker -> (english_name, chinese_name))
 KNOWN_US_STOCKS = {
     "NVDA": ("NVIDIA",     "輝達"),
@@ -1424,8 +1430,76 @@ def update_audio_durations(repo: Path, audio_path: Path) -> None:
     print(f"[durations] Updated {key} → {duration_sec}s")
 
 
+def fetch_yahoo_transcript(yahoo_url: str, stem: str, save_dir: Path) -> list[Path]:
+    """
+    Fetch a Yahoo Finance earnings transcript via browser rendering.
+
+    Saves:
+      - {stem}_yahoo_transcript.md   : text transcript extracted from rendered page
+      - {stem}_yahoo_transcript.html : rendered HTML snapshot
+    """
+    try:
+        from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        print("[Yahoo] playwright not installed; skipping transcript fetch.")
+        return []
+
+    md_path = save_dir / f"{stem}_yahoo_transcript.md"
+    html_path = save_dir / f"{stem}_yahoo_transcript.html"
+    outputs: list[Path] = []
+
+    def normalize_text(text: str) -> str:
+        text = text.replace("\r\n", "\n")
+        text = re.sub(r"\n{3,}", "\n\n", text)
+        return text.strip() + "\n"
+
+    def extract_transcript_text(body: str) -> str:
+        marker = "Powered by Yahoo Scout"
+        idx = body.find(marker)
+        if idx != -1:
+            body = body[idx + len(marker):].strip()
+        else:
+            marker = "Powered by Quartr"
+            idx = body.find(marker)
+            if idx != -1:
+                body = body[idx:].strip()
+        body = re.sub(r"\nADVERTISEMENT\n", "\n", body)
+        body = re.sub(r"\n{3,}", "\n\n", body)
+        return normalize_text(body)
+
+    print(f"[Yahoo] Fetching transcript: {yahoo_url}")
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        try:
+            page.goto(yahoo_url, wait_until="domcontentloaded", timeout=90000)
+            page.wait_for_timeout(5000)
+            body_text = page.locator("body").inner_text(timeout=15000)
+            html = page.content()
+        except PlaywrightTimeoutError as e:
+            browser.close()
+            print(f"[Yahoo] Timeout loading transcript page: {e}")
+            return []
+        finally:
+            browser.close()
+
+    transcript_md = extract_transcript_text(body_text)
+    if transcript_md:
+        md_path.write_text(transcript_md, encoding="utf-8")
+        print(f"[Yahoo] Saved transcript markdown → {md_path}")
+        outputs.append(md_path)
+    if html:
+        html_path.write_text(html, encoding="utf-8")
+        print(f"[Yahoo] Saved rendered HTML → {html_path}")
+        outputs.append(html_path)
+
+    return outputs
+
+
 def commit_push_files(stock_id: str, year: str, quarter: str,
-                      audio_path: Path, pdf_paths: list = None) -> str | None:
+                      audio_path: Path, pdf_paths: list = None,
+                      extra_paths: list = None) -> str | None:
     """
     Move the downloaded audio (and optional PDFs) into InvestorConference/<stock_id>/,
     commit (git-lfs for .m4a), push, then remove local whisper-sandbox copies.
@@ -1465,12 +1539,17 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
     print(f"[git] Moved → {target_audio}")
     git("add", str(target_audio.relative_to(repo)))
 
-    # Move PDFs
+    # Move PDFs / transcript / other extras
     for pdf in (pdf_paths or []):
         target_pdf = target_dir / pdf.name
         shutil.move(str(pdf), str(target_pdf))
         print(f"[git] Moved → {target_pdf}")
         git("add", str(target_pdf.relative_to(repo)))
+    for extra in (extra_paths or []):
+        target_extra = target_dir / extra.name
+        shutil.move(str(extra), str(target_extra))
+        print(f"[git] Moved → {target_extra}")
+        git("add", str(target_extra.relative_to(repo)))
 
     # Update audio_durations.json
     update_audio_durations(repo, target_audio)
@@ -1480,8 +1559,13 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
     update_readme()
     git("add", "README.md")
 
-    extras = f" + {len(pdf_paths)} PDF(s)" if pdf_paths else ""
-    msg = (f"feat: add {stock_id} {year} Q{quarter} earnings call audio{extras}\n\n"
+    extras = []
+    if pdf_paths:
+        extras.append(f"{len(pdf_paths)} PDF(s)")
+    if extra_paths:
+        extras.append(f"{len(extra_paths)} extra file(s)")
+    extras_str = f" + {', '.join(extras)}" if extras else ""
+    msg = (f"feat: add {stock_id} {year} Q{quarter} earnings call audio{extras_str}\n\n"
            f"Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>")
     if not git("commit", "-m", msg):
         print(f"[git] commit failed")
@@ -1555,17 +1639,24 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
         print(f"\n✓ SUCCESS: {output_path}")
         if not verify_audio_length(output_path):
             return None
+        stem = f"{stock_id}_{year}_q{quarter}"
         pdf_paths = download_pdfs(stock_id, year, quarter, save_dir)
+        extra_paths = []
+        yahoo_url = KNOWN_YAHOO_TRANSCRIPTS_BY_QUARTER.get((stock_id, year, quarter))
+        if yahoo_url:
+            extra_paths.extend(fetch_yahoo_transcript(yahoo_url, stem, save_dir))
         # MOPS PDFs — use conf_date discovered during audio scraping
         if _conf_date[0]:
             mops_pdfs = download_mops_pdfs(
                 stock_id, _conf_date[0], year, quarter, save_dir)
             pdf_paths = pdf_paths + [p for p in mops_pdfs if p not in pdf_paths]
         if auto_push:
-            if not pdf_paths:
-                print("[git] Skipping commit/push because no PDF was downloaded.")
+            if not pdf_paths and not extra_paths:
+                print("[git] Skipping commit/push because no PDF or extra transcript was downloaded.")
                 return str(output_path)
-            pushed = commit_push_files(stock_id, year, quarter, output_path, pdf_paths)
+            pushed = commit_push_files(
+                stock_id, year, quarter, output_path, pdf_paths, extra_paths
+            )
             return pushed or str(output_path)
         return str(output_path)
 
