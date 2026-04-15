@@ -1,114 +1,182 @@
 [METADATA]
-Source: https://www.alphaspread.com/stock/twse/2412/transcripts/q4-2025
+Source: https://www.alphaspread.com/security/twse/2412/investor-relations/earnings-call/q4-2025
 Generated-At: 2026-04-15
 ---
 
-Dashboard
-Tools
-Market News
-Investing Ideas
-Pricing
-Search 100,000+ stocks...
-Sign Up
-Log in
-Oops! We can't find that page.
-Do you want to know the Intrinsic Value of any other stock?
-Search stocks here...
-MOST POPULAR STOCKS
-JNJ
-Johnson & Johnson
-Overvalued by 26%
-BRK.A
-Berkshire Hathaway Inc
-Overvalued by 11%
-BAC
-Bank of America Corp
-Undervalued by 21%
-MA
-Mastercard Inc
-Overvalued by 24%
-UNH
-UnitedHealth Group Inc
-Undervalued by 23%
-XOM
-Exxon Mobil Corp
-Overvalued by 22%
-PFE
-Pfizer Inc
-Undervalued by 15%
-NKE
-Nike Inc
-Undervalued by 7%
-V
-Visa Inc
-Overvalued by 27%
-BABA
-Alibaba Group Holding Ltd
-Undervalued by 14%
-JPM
-JPMorgan Chase & Co
-Undervalued by 2%
-KO
-Coca-Cola Co
-Overvalued by 21%
-VZ
-Verizon Communications Inc
-Undervalued by 29%
-CVX
-Chevron Corp
-Overvalued by 23%
-DIS
-Walt Disney Co
-Undervalued by 15%
-PYPL
-PayPal Holdings Inc
-Undervalued by 49%
-Intrinsic Value Calculator
-Alpha Spread is a stock valuation platform that uses proven and science-based valuation methods to automatically estimate the intrinsic value of stocks.
-Suggestions:
- JNJ
- BRK.A
- BAC
- MA
- UNH
- XOM
- PFE
- NKE
- V
- BABA
- JPM
- KO
- VZ
- CVX
- DIS
- ALPHA SPREAD
-Follow us
-Join 330,400+ value investors using Alpha Spread
-Create Free Account
-or see our plans & pricing
-Company
-About Us
-Careers
-Pricing
-Affiliate Program
-Terms of Service
-Privacy Policy
-Help
-What is Intrinsic Value?
-Help Center
-Contact Us
-Tools
-Stock Screener
-Intrinsic Value Calculator
-DCF Value Calculator
-Discount Rate Calculator
-Stocks
-Most Undervalued Stocks
-Wide Economic Moat Stocks
-High Profitability Stocks
-High Solvency Stocks
-Most Popular Stocks
+Operator
 
-© 2026 Alpha Spread Limited. All Rights Reserved.
+Good afternoon, ladies and gentlemen. Welcome to Chunghwa Telecom Fourth Quarter 2025 Operating Results. [Operator Instructions] And for your information, this conference call is now being broadcasted live over the Internet. A webcast replay will be available within an hour after the conference is finished. Please visit CHT IR website at www.cht.com.tw/ir under the IR Calendar section.
 
-www.alphaspread.com is not operated by a broker, a dealer, or a registered investment adviser. Under no circumstances does any information posted on www.alphaspread.com represent a recommendation to buy or sell a security. The information on this site, and in its related newsletters, is not intended to be, nor does it constitute, investment advice or recommendations. The information on this site is in no way guaranteed for completeness, accuracy or in any other way. In no event shall Alpha Spread Limited be liable to any member, guest or third party for any damages of any kind arising out of the use of any content or other material published or available on www.alphaspread.com, or relating to the use of, or inability to use, www.alphaspread.com or any content, including, without limitation, any investment losses, lost profits, lost opportunity, special, incidental, indirect, consequential or punitive damages. Past performance is a poor indicator of future performance.
+And now I would like to turn it over to Ms. Angela Tsai, Vice President of Financial Department. Thank you. Ms. Tsai, please begin.
+
+A
+Angela Tsai
+executive
+
+Thank you. I'm Angela Tsai, Vice President of Finance at Chunghwa Telecom. Welcome to our fourth quarter 2025 Earnings Conference call. Joining me on the call today are Chunghwa's President Rong-Shy Lin; and our Chief Financial Officer, Audrey Hsu.
+
+During today's call, management will begin by sharing our recent strategic achievements and providing an overview of our fourth quarter business results. This will be followed by a discussion of our segment performance and financial highlights. We will then open the floor for questions and answers.
+
+Please turn to Slide 2 to review our disclaimers and forward-looking statement disclosures.
+
+Now without further delay, I will turn the call over to our President. President Lin, please go ahead.
+
+R
+Rong-Shy Lin
+executive
+
+Thank you, Angela, and hello, everyone. Welcome to our fourth quarter 2025 results conference call. To begin, I am pleased to report our exceptional financial performance for 2025, driven by our dedicated efforts. Chunghwa Telecom's revenue, operating income, income before tax and EPS for 2025 all exceeded the upper end of our guidance, reflecting our strong execution and market-leading position.
+
+On the revenue front, our full year revenue reached an all-time high, demonstrating our continued focus on strengthening our core businesses and active expansion in the ICT sector. Notably, our full year EPS of TWD 4.99 marked an 8-year high, extending our annual growth momentum for the sixth consecutive year. This milestone underscore our commitment to driving innovation and enhancing long-term shareholders' value.
+
+Based on the strong outperformance in 2025, we are entering 2026 with confidence for our telecom businesses. We see Taiwan's mobile market remaining stable and favorable to us as the market leader. We are also pleased with our fixed broadband performance and will extend the successful existing strategy for further ARPU enhancement.
+
+In terms of ICT business, our technology capability will continue to remain cutting edge to support future growth. A particular highlight is our satellite opportunities as we believe demand of satellite services as the communication backup solution will increase with our satellites of OneWeb and SES commencing operation in 2025. The Astranis satellite will join in second half of 2026 to enhance our multilayer satellite capability.
+
+Furthermore, we will also focus on extending pre-6G-related opportunities in AIoT, satellite and big data services and expect their combined revenue to surpass the TWD 10 billion in 2026. We particularly expect to convert our AI capabilities into our service offering. We expect to assist our customers to integrate AI into their operational processes, legal compliance and infrastructure management.
+
+In addition, as a leader in AI drive connectivity, we are introducing AI edge computing into our AIDC to create a new revenue stream alongside our continued construction of AIDC in 2026.
+
+Ultimately, in the fourth quarter, we were honored with multiple awards recognizing both our ESG accomplishments and the technical acknowledgment. We won The Asset's Jade Award for corporate sustainability leadership for the fifth time, received the several AI Innovation Award at the World Communication Awards for our smart customer services solution and was recognized as the only Taiwanese telecom company on Newsweek's World's Most Trustworthy Companies 2025 list. More importantly, we have secured 4.6 billion kilowatt hour of renewable energy through a 20-year Corporate Power Purchase Agreement, CPPA, to support our 2045 net zero commitment.
+
+Now let's turn to our fourth quarter 2025 results. Please flip to Page 4 for the business overview. Please turn to Page 5 to review our success in Taiwan mobile market. In the fourth quarter, we solidified our leadership position in Taiwan's mobile market for 2025 with record highs across all dimensions.
+
+According to data from our telecom regulator, our mobile revenue market share climbed to unprecedented 41%, while our subscriber market share rose to 39.7%, mainly driven by continued growth in the postpaid subscriber. We are pleased with this strong result.
+
+Our 5G performance was equally impressive. Based on regulators' data, our 5G subscriber market share increased to 39.2%, further solidify our industry-leading position. The 5G penetration rate among our smartphone users climbed to 46.4% by the end of 2025, while the average monthly fee uplift from 5G migration remained robust at 41%. Given this solid momentum, we were especially encouraged by our strong mobile service revenue growth in the fourth quarter, which achieved a recent record high of 4.7% year-over-year. Postpaid ARPU also grew 3.6% year-over-year. We expect this positive trajectory to continue, supported by Taiwan's favorable mobile market landscape.
+
+Let's move on to Slide 6 for our fixed broadband business update. In the fourth quarter, our fixed broadband ARPU continued its upward trajectory, reaching a new high of TWD 819 per month. This represents a 3.8% increase in revenue and a 0.5% increase in subscribers year-over-year. This strong result were driven by our high-speed upgrade promotion and MOD bundle packages, which successfully boosted customer adoption of higher tier plans.
+
+Subscribers choosing speed of 300 megabits per second and above grew by 13% year-over-year, while those opting for 500 megabits per second and above recorded a double-digit growth and the subscription for 1 gigabits per second and above doubled in the fourth quarter.
+
+Slide 7 provides a detailed overview of the highlights from our consumer application services. In the fourth quarter, our multiple-play packages, which integrate mobile, fixed broadband and WiFi services increased by 17% year-over-year, marking the 16th consecutive quarter of expansion and representing the collective growth momentum of our customer business group. In 2025, despite the absence of major global sporting event broadcasting, resulting in overall subscription loss, our Hami video service demonstrated a solid resilience as its ARPU increased by more than 25% year-over-year in the fourth quarter.
+
+Looking ahead, with the launch of Disney+ bundle this January and our ongoing partnership with Netflix, coupled with the exciting pipeline of popular sporting events such as the FIFA World Cup, Asia Games and et cetera, we expect to drive further revenue growth throughout 2026.
+
+Meanwhile, our consumer cybersecurity subscription recorded 11% year-over-year growth with revenue also achieving double-digit gains, contributing to the steady growth for our consumer business group illustrated the key development in our enterprise ICT business.
+
+In the fourth quarter, our group's ICT revenue declined by 6% year-over-year due to a higher comparison base in the same period last year, though our full year ICT revenue still recorded robust year-over-year growth. Meanwhile, our recurring ICT revenue grew 15% year-over-year, continuing to show strong momentum, supported by increases across all major service lines, particularly contributions of AIoT, IDC and international public cloud services.
+
+Looking at the specific service categories, revenue from IDC, Big Data and 5G private network grew by 19%, 3% and 88% year-over-year, respectively. IDC performance benefited primarily from project completion in Mexico, while big data service revenue increased driven by its recurring revenue growth. Revenue from 5G private network surged, supported by the project revenue recognition from both public and private sector customers. However, revenue from cloud and AIDC business declined by 16% and 27% year-over-year, respectively, due to a high base last year.
+
+Our cybersecurity service revenue also decreased by 16% year-over-year as the majority of our cybersecurity revenue for 2025 had already been recognized in 3 quarters. Notably, despite the quarterly fluctuation, both cloud service and cybersecurity business still delivered full year revenue growth. We are also proud to share that we secured an AI customer service solution to build the first integrated AI customer services system for a leading financial institution in Taiwan. Furthermore, we secured a flagship government system integration project to upgrade the labor insurance platform to next-generation infrastructure with a contract value exceeding TWD 3 billion.
+
+In addition to further leverage our sea, land and sky network deployment and expand our satellite business scale, we successfully incorporated our satellite services as part of the government's joint procurement contract framework, paving the way for more long-term service contracts from government agencies. Lastly, our deployment of remote surveillance platform for correctional institution nationwide brought us 5 additional new projects in the fourth quarter with a total contract value of TWD 150 million. We expect to further replicate and scale this success in the coming year.
+
+Slide 9 illustrates the performance of our international subsidiaries. In the fourth quarter, our international subsidiaries revenue decreased 7% year-over-year, mainly due to softened demand for voice services as well as higher comparison base in the United States and the Japan ICT market last year. However, we were glad to see a 12% year-over-year revenue increase in Southeast Asia market as we completed multiple planned construction projects in Singapore and Thailand, a trend that we expect to continue through 2026.
+
+Notably, our Malaysia subsidiary commenced operations in December 2025, aiming to provide more timely, high-efficient ICT integration services for Taiwanese and multinational enterprise in the growing Southeast Asia market.
+
+Look ahead of 2026, we maintain a relatively optimistic outlook for our global market development as we have secured several AI supply chain projects in the United States in our pipeline, including key projects in Texas and California, which is expected to significantly boost our U.S. market performance in 2026.
+
+Now let's move on to Page 10 for the financial performance of our 3 business groups. In the fourth quarter, our CBG delivered a robust 6% year-over-year revenue growth, supported in both mobile and fixed broadband services, plus higher sales driven by the iPhone demand. However, its income before tax slightly decreased, mainly dragged by the final phase of 3G telecom equipment impairment, which has fully recognized in the fourth quarter and a higher comparison base from government subsidies recorded in the same period last year.
+
+Our EBG revenue decreased by 7.9% year-over-year as most of our major ICT project has already been recognized in previous quarters, resulting in a 7% year-over-year drop in the EBG ICT revenue. Income before tax was also impacted by the onetime impairment mentioned earlier. Encouragingly, EBG mobile and fixed broadband services as well as its satellite services still delivered solid growth momentum this quarter.
+
+As for our IBG business, revenue grew by 2.5% and income before tax increased by 1.8% year-over-year, driven by rising demand for the international IDC services and stronger roaming revenue. Furthermore, we are pleased to report that our submarine cables, SJC2 and the first phase of Apricot were completed this quarter and further boosted IBG's fixed line services revenue by 2.2% year-over-year.
+
+Now I would like to hand the call over to Audrey for financial updates.
+
+W
+Wen-Hsin Hsu
+executive
+
+Thank you, President. Good afternoon, everyone, and thank you for joining us today. I'm pleased to walk you through our financial performance for the fourth quarter and full year of 2025 and share our financial guidance for 2026.
+
+So now please turn to Slide 12 for our income statement highlights. Let's start with our fourth quarter results shown in the first 3 columns on the slide. Revenue and operations. We reported consolidated revenue of TWD 65.65 billion. This represents a steady 0.5% year-over-year increase and makes our highest fourth quarter revenue in nearly a decade. This growth was fueled by strong mobile device sales alongside the sustained momentum of our core telecom service.
+
+Income from operations decreased by 2.2%. This was primarily due to one-off impairment losses from the 3G network sunset this quarter, coupled with a high comparative base from last year's investment property valuation gains.
+
+Income before tax increased by 2.1% year-over-year. This growth was driven by investment disposal gains reflected in our nonoperating income. As a result of this performance, EPS increased from TWD 1.16 to TWD 1.20. This reflects our consistent profitability and marks the highest fourth quarter EPS in 10 years. Finally, EBITDA for the quarter remained stable at TWD 21.55 billion. The EBITDA margin stood at 32.82%.
+
+So now let's expand our view to the full year of 2025, shown in the last 3 columns. The annual view reflects a strong growth trajectory. So for the full year, total revenue reached TWD 236.11 billion, a solid increase of 2.7% compared to 2024. The growth was broad-based and driven by 3 pillars. First, we saw strong momentum in our sales revenue. This was fueled by higher mobile handset volumes and the robust performance of our subsidiary, Chunghwa Precision Test in the semiconductor testing sector. Second, our ICT portfolio continued to deliver with significant contribution from high-growth areas such as IDC, cloud and cybersecurity. Third, we maintained steady growth across our foundational mobile service and fixed broadband business. So this top line strength translated directly into profitability.
+
+Income from operations grew by 3.6% and net income rose by 4% year-over-year. Consequently, full year EPS reached TWD 4.99, up from TWD 4.8 last year. EBITDA also grew 2.6% year-over-year to a strong TWD 88.77 billion. Our EBITDA margin remained stable at 37.6%, broadly consistent with the prior year. So in summary, these results reflect high-quality earnings growth. This profit expansion was driven by sustained positive momentum in our core telecom business, complemented by the continued scaling of our IDC, cloud service and other ICT business operations.
+
+So now let's turn to Slide 13, balance sheet highlights. So total assets increased by 0.4% year-over-year. The growth reflects strategic allocation into long-term investments and prepayments for satellite infrastructure reported in other assets. The increase was partially offset by a net decrease in property, plant and equipment as depreciation charge existed new capital additions, along with a net decrease in intangible assets due to the 4G and 5G spectrum amortization.
+
+On the liability side, total obligation decreased by 0.7%. We repaid older loans while successfully issuing our first-ever sustainability bonds focused on biodiversity. The strategy not only strengthened our capital structure and reinforce our leadership in ESG-driven financing.
+
+Our financial health is best illustrated by our key ratios. Our debt ratio improved further to 25.25%. Our current ratio remained healthy, well above 100%. Most notably, our net debt-to-EBITDA ratio stood at 0.
+
+Moving to Slide 14 for our cash flow summary. We will review our performance for the full year 2025. Cash flow from operating activities decreased slightly by 2.2%. The variation was primarily driven by working capital dynamics, specifically a decrease in accounts payable between '25 and '24.
+
+On the investment front, CapEx declined by 3.7% to TWD 27.7 billion. First, regarding mobile CapEx, spending decreased by TWD 1.4 billion. The reduction aligns with our road map to lower mobile capital intensity now that we have passed the peak of the 5G deployment cycle. Second, regarding nonmobile CapEx, spending increased by 2%. The increase was mainly driven by strategic investment in submarine cables.
+
+Consequently, free cash flow stood at TWD 49.8 billion, a marginal decrease of 1.4% year-over-year. Despite this slight variation, we continue to maintain a strong cash position. Our stable cash flow inflows remain fully capable of supporting both our business growth initiatives and our commitment to shareholder returns.
+
+So now let's turn to Slide 15 to review our performance highlights against guidance. So in the fourth quarter of 2025, revenue exceeds the target, showing stronger-than-expected demand. Key performance measures such as net income and EPS were all in line with our forecast.
+
+For the full year 2025, the cumulative results validate our strategy. We are very proud to report that all major metrics, revenue, income from operations, net income, EPS and EBITDA either met or exceed our full year guidance. Again, this broad-based success was powered by our telecom business, driven by successful 5G migration and mobile service revenue growth alongside our ICT business, which capitals on expanding demand for IDC and cloud big data overseas markets.
+
+So now moving on to Slide 16. Please see our guidance for 2026. Looking ahead, total revenue for 2026 is expected to increase between 2.5% to 3.2% year-over-year, primarily driven by growth momentum in our core business. Well-received 5G service and speed upgrade promotion packages for fixed broadband are expected to continuously enhance our subscriber numbers and ARPU. ICT business is also expected to contribute to revenue growth as we continue to see digital transformation opportunities in the market.
+
+Operating costs and expenses are expected to increase between 3.5% to 3.7% year-over-year as a result of the investment in talent and infrastructure that support future business development in both core and emerging business. So given these projections, we expect our EPS to be in the range of TWD 4.82 and TWD 5.02.
+
+As for capital budgeting, we have budgeted TWD 31.91 billion for 2026. Looking ahead, our strategy remains consistent with our long-term road map, balancing disciplined efficiency with strategic expansion into resilient and sustainable infrastructure.
+
+Our mobile-related CapEx is expected to decrease by 6.3% year-over-year. This marks the fifth consecutive year of this decline since our peak in 2021. This demonstrates our ability to maintain our mobile leadership through capital efficiency as we move past the heavy 5G construction phase.
+
+Non-mobile related CapEx is expected to increase by 24%. The investment is strictly aligned with our sea, land, sky strategy to capture emerging business opportunities while fortifying our network. Key investments include expanding submarine cables to boost connectability alongside building our IDC data center. We also strengthened infrastructure resilience by upgrading power, cooling and cybersecurity systems. We are turning digital resilience into a unique competitive advantage.
+
+So this concludes our financial results highlights. Thank you for your attention. At this time, we would like to open the conference call for questions.
+
+Operator
+
+[Operator Instructions] Now the first one want to ask questions, correct me if I pronounce wrongly, okay? Rajesh Panjwani from JP Morgan.
+
+R
+Rajesh Panjwani
+analyst
+
+A quick question on the CapEx. If you can give some more detail about the big increase in the nonmobile CapEx, which is almost 24% for 2026? And also, can you provide some more details about -- you're looking at like almost 3.5% to 4% increase in the operating costs, which is higher than the revenue growth as well. So can you talk a bit about that as well?
+
+W
+Wen-Hsin Hsu
+executive
+
+Okay. Thank you very much, Raj. So the first question is about CapEx, about more detail on mobile CapEx, about 24% increase in 2026. So there are a couple of categories, as I just mentioned, this includes the fixed line maintenance, which consists of quite the big proportion of the fixed line maintenance. And the second is about the satellite and also the cables. And the third one is the IDC.
+
+I should say that mainly that the increase mainly coming from the IDC and also the satellite portion. And so this is for the first part.
+
+And the second part about the increase about 3.5% of operating cost. I think that one of the main -- there are 2 main portions. One, a couple of the reasons is that one is the human resource, the talent. I think that, as you know, that we are in emerging -- in a growing -- we have a lot of the sectors in IDC. We need a lot of the AI-related talent. So investment in the human resource is one important area. And the second is that electricity. I think that we are not so sure about the electricity policy in Taiwan. So we are a bit cautious. Also, this is also a second big area that takes the cost.
+
+The third one is about depreciation. That in the early stage, we have -- although that we try to trend down a lot of the CapEx, in recent years, as I mentioned, that discipline management is a key philosophy in our CapEx policy. But in the early stage that we still have some CapEx. So you will see -- as you see in our cash flow statements, you will see that the depreciation and also the amortization, these 2 portions is a bit much higher than the net increase of the PPE. So is that clear? Or do you want me to clarify any others?
+
+R
+Rajesh Panjwani
+analyst
+
+Yes, if you can share like of the total increase in nonmobile CapEx, how much is from IDC?
+
+W
+Wen-Hsin Hsu
+executive
+
+Actually, we didn't separately disclose the exact number of the CapEx budget for each nonmobile items. But I can share with you that I think the CapEx for IDC and cloud it remain, I mean, like the second largest part of the nonmobile CapEx for 2026, okay? And then I want to add one more point for the mobile CapEx. As we know that the 5G CapEx investments, we had just passed the peak, right, but for 2026, actually, we will invest in as a stand-alone related applications like the network slicing for your reference. But the total mobile CapEx for 2026 actually still less than that of the 2025.
+
+R
+Rajesh Panjwani
+analyst
+
+I got it. This is helpful. It would really be helpful if going forward, you can provide greater breakup of nonmobile CapEx because it's almost like more than 3/4 of your CapEx is now nonmobile CapEx. So it would be really helpful to get more details about that in the future.
+
+W
+Wen-Hsin Hsu
+executive
+
+Okay. Thank you for your opinion.
+
+Operator
+
+[Operator Instructions] There seems to be no further questions at this moment. I will turn it over to President Lin. Please go ahead, Lin.
+
+R
+Rong-Shy Lin
+executive
+
+Okay. Thank you very much for your participation. Happy New Year.
+
+Operator
+
+Yes. Thank you, President Lin. And ladies and gentlemen, we thank you for your participation in Chunghwa Telecom's conference. There will be a webcast replay within an hour. Please visit CHT IR website at www.tw/ir under the IR Calendar section. You may now disconnect. Thank you again, and goodbye.

@@ -70,12 +70,15 @@ KNOWN_TW_PLAYWRIGHT_IR_BY_QUARTER = {
     ("2454", "2025", "2"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=2413",
     ("2454", "2025", "3"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=2531",
     ("2454", "2025", "4"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=3556",
+    ("3034", "2025", "3"): "https://www.novatek.com.tw/upload/website/_2025Q3_25110708_904.html",
+    ("3034", "2025", "4"): "https://www.novatek.com.tw/upload/website/_2025Q4_26020909_911.html",
 }
 
 # IR portal URLs for Taiwan stocks that host webcast on their own IR sites
 # (stock_id -> IR page URL)
 KNOWN_TW_IR = {
     "2357": "https://www.asus.com/event/Investor/C/",  # ASUS — uses webcast-eqs.com
+    "3034": "https://www.novatek.com.tw/en-global/Download/ir_event/Index/analyst_meeting", # Novatek IR
 }
 
 # Per-company PDF attachment URL templates (optional, keyed by stock_id)
@@ -800,7 +803,7 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
         html = resp.text
         embedded = []
         for m in re.finditer(r'"url":"(https:\/\/.*?playlist\.m3u8)"', html):
-            url = m.group(1).replace("\/", "/")
+            url = m.group(1).replace("/", "/")
             dm = re.search(r'(\d{8})', url)
             embedded.append((url, dm.group(1) if dm else ""))
         for m in re.finditer(r"(https?://[^\s\"']+\.(?:mp4|m3u8|flv)(?:\?[^\s\"']*)?)", html, re.I):
@@ -1057,11 +1060,41 @@ def download_pdfs(stock_id: str, year: str, quarter: str,
     Download PDF attachments (IR slides, Q&A) for a given stock/year/quarter.
     Returns list of downloaded Path objects.
     """
+    downloaded = []
+
+    # Novatek (3034) special handling: JS-rendered IR page with hashed filenames
+    if stock_id == "3034":
+        ir_url = KNOWN_TW_IR.get("3034")
+        print(f"[PDF-3034] Scraping {ir_url} for {year} Q{quarter} PDF...")
+        try:
+            from playwright.sync_api import sync_playwright
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                page = browser.new_page(user_agent=UA)
+                page.goto(ir_url, wait_until="networkidle", timeout=30000)
+                # Find the link matching "year/Qquarter" e.g. "2025/Q4"
+                target_label = f"{year}/Q{quarter}"
+                pdf_link = page.get_attribute(f"a:has-text('{target_label}')", "href")
+                if pdf_link:
+                    pdf_url = urljoin(ir_url, pdf_link)
+                    filename = f"{stock_id}_{year}_q{quarter}_ir.pdf"
+                    dest = save_dir / filename
+                    print(f"[PDF-3034] Found {target_label}: {pdf_url}")
+                    resp = requests.get(pdf_url, timeout=30, headers={"User-Agent": UA})
+                    if resp.status_code == 200:
+                        dest.write_bytes(resp.content)
+                        print(f"[PDF-3034] ✓ Saved: {dest} ({dest.stat().st_size // 1024} KB)")
+                        downloaded.append(dest)
+                else:
+                    print(f"[PDF-3034] ✗ No link found for label '{target_label}'")
+                browser.close()
+        except Exception as e:
+            print(f"[PDF-3034] ✗ Failed to scrape PDFs: {e}")
+
     templates = KNOWN_PDF_ATTACHMENTS.get(stock_id, [])
     if not templates:
-        return []
+        return downloaded
 
-    downloaded = []
     for suffix, url_template in templates:
         url = url_template.format(year=year, quarter=quarter)
         filename = f"{stock_id}_{year}_q{quarter}_{suffix}.pdf"
@@ -1519,17 +1552,52 @@ def fetch_alphaspread_transcript(stock_id: str, year: str, quarter: str, stem: s
     outputs: list[Path] = []
 
     # Build potential URLs
-    urls = []
-    if stock_id.isdigit():
-        urls.append(f"https://www.alphaspread.com/stock/twse/{stock_id}/transcripts/q{quarter}-{year}")
-    else:
+    bases = [
+        f"https://www.alphaspread.com/security/twse/{stock_id}/investor-relations/earnings-call",
+        f"https://www.alphaspread.com/security/twse/{stock_id}",
+        f"https://www.alphaspread.com/stock/twse/{stock_id}",
+        f"https://www.alphaspread.com/stocks/twse/{stock_id}"
+    ]
+    if not stock_id.isdigit():
         symbol = stock_id.lower()
-        urls.append(f"https://www.alphaspread.com/stock/nasdaq/{symbol}/transcripts/q{quarter}-{year}")
-        urls.append(f"https://www.alphaspread.com/stock/nyse/{symbol}/transcripts/q{quarter}-{year}")
+        bases += [
+            f"https://www.alphaspread.com/stock/nasdaq/{symbol}", f"https://www.alphaspread.com/stock/nyse/{symbol}",
+            f"https://www.alphaspread.com/stocks/nasdaq/{symbol}", f"https://www.alphaspread.com/stocks/nyse/{symbol}",
+            f"https://www.alphaspread.com/security/nasdaq/{symbol}", f"https://www.alphaspread.com/security/nyse/{symbol}"
+        ]
+    
+    urls = []
+    for b in bases:
+        if "investor-relations" in b:
+            urls.append(f"{b}/q{quarter}-{year}")
+        else:
+            urls.append(f"{b}/transcripts/q{quarter}-{year}")
+            urls.append(f"{b}/earnings-calls/q{quarter}-{year}")
+            urls.append(f"{b}/earnings-call/q{quarter}-{year}")
+            urls.append(f"{b}/investor-relations/earnings-call/q{quarter}-{year}")
 
     def clean_noise(text: str) -> str:
+        # Locate the real transcript start
+        # Common AlphaSpread markers for the actual dialog
+        markers = ["Earnings Call Transcript", "\nOperator\n", "\nOperator:\n"]
+        start_idx = 0
+        for m in markers:
+            idx = text.find(m)
+            if idx != -1:
+                # If it's Operator, keep the word "Operator"
+                if "Operator" in m:
+                    start_idx = idx
+                else:
+                    start_idx = idx + len(m)
+                break
+        
+        if start_idx > 0:
+            text = text[start_idx:]
+            
+        # Remove footer noise
         if "OTHER EARNINGS CALLS" in text:
             text = text.split("OTHER EARNINGS CALLS")[0]
+        
         text = text.replace("\r\n", "\n")
         text = re.sub(r"\n{3,}", "\n\n", text)
         return text.strip() + "\n"
@@ -1542,22 +1610,35 @@ def fetch_alphaspread_transcript(stock_id: str, year: str, quarter: str, stem: s
         for url in urls:
             print(f"[AlphaSpread] Trying: {url}")
             try:
-                # Use a slightly longer timeout for initial load
                 page.goto(url, wait_until="domcontentloaded", timeout=45000)
-                page.wait_for_timeout(3000)
+                page.wait_for_timeout(5000)
                 
+                # Try to find and click "Open Transcript" or "Transcript" tab if it exists
+                try:
+                    transcript_btn = page.get_by_text("Open Transcript", exact=False)
+                    if transcript_btn.is_visible():
+                        print("  [AlphaSpread] Clicking 'Open Transcript' button...")
+                        transcript_btn.click()
+                        page.wait_for_timeout(2000)
+                except: pass
+
                 body_text = page.locator("body").inner_text(timeout=10000)
                 content = clean_noise(body_text)
                 
-                if len(content) > 1000: # Transcript should be substantial
+                # More robust check: true transcript usually contains "Operator" or speaker names
+                has_transcript_markers = any(x in content for x in ["Operator", "Question-and-Answer", "Prepared Remarks"])
+                is_404 = any(x in content for x in ["Oops!", "can't find that page", "Page not found"])
+                
+                if len(content) > 2000 and not is_404: # Increased length requirement for full transcript
                     header = f"[METADATA]\nSource: {url}\nGenerated-At: {datetime.date.today().isoformat()}\n---\n\n"
                     md_path.write_text(header + content, encoding="utf-8")
-                    print(f"[AlphaSpread] ✓ Saved transcript -> {md_path.name}")
-                    outputs.append(md_path)
+                    print(f"[AlphaSpread] ✓ Saved transcript -> {md_path.name} ({len(content)} chars)")
                     success = True
+                    outputs.append(md_path)
                     break
                 else:
-                    print(f"[AlphaSpread] ⚠ Content too short ({len(content)} chars), might be invalid.")
+                    reason = "404 detected" if is_404 else f"content too short or summary only ({len(content)} chars)"
+                    print(f"[AlphaSpread] ⚠ {reason} for {url} — trying next...")
             except Exception as e:
                 print(f"[AlphaSpread] ✗ Failed for {url}: {str(e)[:100]}")
         
