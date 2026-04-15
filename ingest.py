@@ -4,6 +4,7 @@ import subprocess
 import re
 import warnings
 import json
+import datetime
 import requests
 from pathlib import Path
 from urllib.parse import urljoin
@@ -1501,6 +1502,61 @@ def update_audio_durations(repo: Path, audio_path: Path) -> None:
     print(f"[durations] Updated {key} → {duration_sec}s")
 
 
+def fetch_alphaspread_transcript(stock_id: str, year: str, quarter: str, stem: str, save_dir: Path) -> list[Path]:
+    """
+    Fetch an AlphaSpread earnings transcript via Playwright.
+    URL Pattern: https://www.alphaspread.com/stock/twse/{stock_id}/transcripts/q{quarter}-{year}
+    """
+    try:
+        from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        print("[AlphaSpread] playwright not installed; skipping transcript fetch.")
+        return []
+
+    url = f"https://www.alphaspread.com/stock/twse/{stock_id}/transcripts/q{quarter}-{year}"
+    save_dir.mkdir(parents=True, exist_ok=True)
+    md_path = save_dir / f"{stem}_alphaspread_transcript.md"
+    outputs: list[Path] = []
+
+    def clean_noise(text: str) -> str:
+        # Remove everything from 'OTHER EARNINGS CALLS' onwards
+        if "OTHER EARNINGS CALLS" in text:
+            text = text.split("OTHER EARNINGS CALLS")[0]
+        text = text.replace("\r\n", "\n")
+        text = re.sub(r"\n{3,}", "\n\n", text)
+        return text.strip() + "\n"
+
+    print(f"[AlphaSpread] Fetching: {url}")
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            # Wait a bit for JS content
+            page.wait_for_timeout(3000)
+            
+            # Target the main transcript area if possible, or just body
+            body_text = page.locator("body").inner_text(timeout=10000)
+            
+            # Format as simple MD
+            header = f"[METADATA]\nSource: {url}\nGenerated-At: {datetime.date.today().isoformat()}\n---\n\n"
+            content = clean_noise(body_text)
+            
+            if len(content) > 500: # Sanity check for real content
+                md_path.write_text(header + content, encoding="utf-8")
+                print(f"[AlphaSpread] ✓ Saved transcript -> {md_path}")
+                outputs.append(md_path)
+            else:
+                print(f"[AlphaSpread] ✗ Content too short, might be a 404 or empty page.")
+        except Exception as e:
+            print(f"[AlphaSpread] ✗ Failed to fetch transcript: {e}")
+        finally:
+            browser.close()
+
+    return outputs
+
+
 def fetch_yahoo_transcript(yahoo_url: str, stem: str, save_dir: Path) -> list[Path]:
     """
     Fetch a Yahoo Finance earnings transcript via browser rendering.
@@ -1717,19 +1773,27 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
         stem = f"{stock_id}_{year}_q{quarter}"
         pdf_paths = download_pdfs(stock_id, year, quarter, save_dir)
         extra_paths = []
+        
+        # --- Get External Transcripts ---
+        transcript_dir = INVESTOR_CONFERENCE_REPO / stock_id
+        
+        # 1. Yahoo (if known)
         yahoo_url = KNOWN_YAHOO_TRANSCRIPTS_BY_QUARTER.get((stock_id, year, quarter))
         if yahoo_url:
-            transcript_dir = INVESTOR_CONFERENCE_REPO / stock_id
             extra_paths.extend(fetch_yahoo_transcript(yahoo_url, stem, transcript_dir))
+            
+        # 2. AlphaSpread (Automatic based on pattern)
+        as_paths = fetch_alphaspread_transcript(stock_id, year, quarter, stem, transcript_dir)
+        extra_paths.extend(as_paths)
+
         # MOPS PDFs — use conf_date discovered during audio scraping
         if _conf_date[0]:
             mops_pdfs = download_mops_pdfs(
                 stock_id, _conf_date[0], year, quarter, save_dir)
             pdf_paths = pdf_paths + [p for p in mops_pdfs if p not in pdf_paths]
+            
         if auto_push:
-            if not pdf_paths and not extra_paths:
-                print("[git] Skipping commit/push because no PDF or extra transcript was downloaded.")
-                return str(output_path)
+            # Commit even if only audio exists (removed the strict pdf/extra check)
             pushed = commit_push_files(
                 stock_id, year, quarter, output_path, pdf_paths, extra_paths
             )
