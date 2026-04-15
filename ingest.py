@@ -1915,6 +1915,25 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
     # ── Taiwan Pipeline ───────────────────────────────────────────────────────
     if market == "TW":
 
+        # Special handling for Novatek (3034) which uses YouTube with predictable titles
+        if stock_id == "3034":
+            search_query = f"ytsearch:Novatek {year} Q{quarter} Investor Conference"
+            print(f"\n[Novatek-Search] Searching YouTube: {search_query}")
+            if download_audio(search_query, output_path):
+                # Try to get conf_date for MOPS PDF lookup
+                try:
+                    r = subprocess.run(
+                        ["yt-dlp", "--get-description", "--no-warnings", search_query],
+                        capture_output=True, text=True, timeout=10
+                    )
+                    # Look for date like 2025/11/06 or 2026/02/06
+                    m = re.search(r'(\d{4})[/-](\d{2})[/-](\d{2})', r.stdout)
+                    if m:
+                        _conf_date[0] = "".join(m.groups())
+                except Exception:
+                    pass
+                return done()
+
         # Step 0a: Company direct IR site with hosted MP4 (simple requests, e.g. STI Liferay)
         direct_ir_url = KNOWN_TW_DIRECT_IR.get(stock_id)
         if direct_ir_url:
