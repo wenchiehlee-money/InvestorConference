@@ -1177,6 +1177,16 @@ def update_readme() -> None:
     import csv as _csv
 
     repo = INVESTOR_CONFERENCE_REPO
+    
+    # ── Ensure audio_durations.json is synced first ──
+    sync_all_audio_durations(repo)
+    durations_file = repo / "audio_durations.json"
+    durations_cache = {}
+    if durations_file.exists():
+        try:
+            durations_cache = json.loads(durations_file.read_text(encoding="utf-8"))
+        except Exception: pass
+
     _TICKER = r'(?:\d{4}|[A-Z]{1,5})'
     audio_pat  = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)\.(mp3|m4a|wav|mp4)$', re.I)
     pdf_cn_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_ir\.pdf$', re.I)
@@ -1200,16 +1210,22 @@ def update_readme() -> None:
             if m:
                 _, year, qnum, _ = m.groups()
                 e = _entry(stock_id, year, qnum)
-                e["audio_path"] = f"{stock_id}/{f.name}"
-                try:
-                    r = subprocess.run(
-                        ["ffprobe", "-v", "quiet", "-show_entries", "format=duration",
-                         "-of", "csv=p=0", str(f)],
-                        capture_output=True, encoding="utf-8", errors="replace", timeout=15,
-                    )
-                    e["audio_min"] = float(r.stdout.strip()) / 60
-                except Exception:
-                    pass
+                rel_path = f"{stock_id}/{f.name}"
+                e["audio_path"] = rel_path
+                # Use cached duration if available
+                if rel_path in durations_cache:
+                    e["audio_min"] = float(durations_cache[rel_path]) / 60
+                else:
+                    # Fallback for unexpected cases (should be handled by sync_all_audio_durations)
+                    try:
+                        r = subprocess.run(
+                            ["ffprobe", "-v", "quiet", "-show_entries", "format=duration",
+                             "-of", "csv=p=0", str(f)],
+                            capture_output=True, encoding="utf-8", errors="replace", timeout=15,
+                        )
+                        duration_sec = float(r.stdout.strip())
+                        e["audio_min"] = duration_sec / 60
+                    except Exception: pass
             m2 = pdf_cn_pat.match(f.name)
             if m2:
                 _, year, qnum = m2.groups()[:3]
@@ -1399,6 +1415,61 @@ def update_readme() -> None:
 
 
 # ── InvestorConference Commit/Push ───────────────────────────────────────────
+
+def sync_all_audio_durations(repo: Path) -> None:
+    """Scan all directories for audio files and rebuild audio_durations.json."""
+    print("\n[durations] Running full sweep of audio files...")
+    durations_file = repo / "audio_durations.json"
+    
+    current_durations = {}
+    if durations_file.exists():
+        try:
+            current_durations = json.loads(durations_file.read_text(encoding="utf-8"))
+        except Exception: pass
+
+    new_durations = {}
+    audio_extensions = {".m4a", ".mp3", ".mp4", ".wav"}
+    
+    # Scan all directories, excluding hidden and tool dirs
+    exclude_dirs = {"web", "tmp", "tools", "spec", "definitions", ".git", ".github", "__pycache__"}
+    
+    found_count = 0
+    updated_count = 0
+    
+    for p in repo.iterdir():
+        if p.is_dir() and p.name not in exclude_dirs:
+            for audio_file in p.glob("*"):
+                if audio_file.suffix.lower() in audio_extensions:
+                    found_count += 1
+                    key = str(audio_file.relative_to(repo)).replace("\\", "/")
+                    
+                    # If already known, reuse to save time (unless you want to force re-probe)
+                    if key in current_durations:
+                        new_durations[key] = current_durations[key]
+                    else:
+                        print(f"  [new] Probing {key}...")
+                        try:
+                            r = subprocess.run(
+                                ["ffprobe", "-v", "quiet", "-show_entries", "format=duration",
+                                 "-of", "default=noprint_wrappers=1:nokey=1", str(audio_file)],
+                                capture_output=True, text=True, timeout=10
+                            )
+                            if r.returncode == 0:
+                                val = int(float(r.stdout.strip()))
+                                new_durations[key] = val
+                                updated_count += 1
+                            else:
+                                print(f"  ⚠ ffprobe failed for {key}")
+                        except Exception as e:
+                            print(f"  ⚠ Error probing {key}: {e}")
+
+    # Write back
+    durations_file.write_text(
+        json.dumps(new_durations, indent=2, ensure_ascii=False, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+    print(f"[durations] Sweep complete. Total: {found_count}, New/Updated: {updated_count}, Cleaned: {len(current_durations) - (found_count - updated_count)}")
+
 
 def update_audio_durations(repo: Path, audio_path: Path) -> None:
     """Update audio_durations.json with the duration of the given audio file."""
@@ -1802,6 +1873,10 @@ if __name__ == "__main__":
         help="Regenerate README.md from repo state + raw_event_upcoming_earnings.csv, then exit",
     )
     parser.add_argument(
+        "--sync-durations", action="store_true",
+        help="Sync audio_durations.json with all audio files in the repo, then exit",
+    )
+    parser.add_argument(
         "--auto-todo", action="store_true",
         help="Scan raw_event_upcoming_earnings.csv and ingest any missing past events",
     )
@@ -1809,6 +1884,8 @@ if __name__ == "__main__":
 
     if args.auto_todo:
         ingest_from_todo(auto_push=args.push)
+    elif args.sync_durations:
+        sync_all_audio_durations(INVESTOR_CONFERENCE_REPO)
     elif args.update_readme:
         update_readme()
     elif args.stock_id and args.year and args.quarter:
