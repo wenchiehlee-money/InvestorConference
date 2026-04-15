@@ -4,3 +4,10 @@ __pycache__/
 spec/*.png
 web/node_modules/
 web/dist/
+
+tmp123/
+.env
+
+*.m4a
+*.mp3
+*.wav
