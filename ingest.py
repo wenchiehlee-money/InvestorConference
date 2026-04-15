@@ -1505,7 +1505,7 @@ def update_audio_durations(repo: Path, audio_path: Path) -> None:
 def fetch_alphaspread_transcript(stock_id: str, year: str, quarter: str, stem: str, save_dir: Path) -> list[Path]:
     """
     Fetch an AlphaSpread earnings transcript via Playwright.
-    URL Pattern: https://www.alphaspread.com/stock/twse/{stock_id}/transcripts/q{quarter}-{year}
+    Supports TW (twse) and US (nasdaq/nyse).
     """
     try:
         from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
@@ -1514,45 +1514,54 @@ def fetch_alphaspread_transcript(stock_id: str, year: str, quarter: str, stem: s
         print("[AlphaSpread] playwright not installed; skipping transcript fetch.")
         return []
 
-    url = f"https://www.alphaspread.com/stock/twse/{stock_id}/transcripts/q{quarter}-{year}"
     save_dir.mkdir(parents=True, exist_ok=True)
     md_path = save_dir / f"{stem}_alphaspread_transcript.md"
     outputs: list[Path] = []
 
+    # Build potential URLs
+    urls = []
+    if stock_id.isdigit():
+        urls.append(f"https://www.alphaspread.com/stock/twse/{stock_id}/transcripts/q{quarter}-{year}")
+    else:
+        symbol = stock_id.lower()
+        urls.append(f"https://www.alphaspread.com/stock/nasdaq/{symbol}/transcripts/q{quarter}-{year}")
+        urls.append(f"https://www.alphaspread.com/stock/nyse/{symbol}/transcripts/q{quarter}-{year}")
+
     def clean_noise(text: str) -> str:
-        # Remove everything from 'OTHER EARNINGS CALLS' onwards
         if "OTHER EARNINGS CALLS" in text:
             text = text.split("OTHER EARNINGS CALLS")[0]
         text = text.replace("\r\n", "\n")
         text = re.sub(r"\n{3,}", "\n\n", text)
         return text.strip() + "\n"
 
-    print(f"[AlphaSpread] Fetching: {url}")
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
-        try:
-            page.goto(url, wait_until="domcontentloaded", timeout=60000)
-            # Wait a bit for JS content
-            page.wait_for_timeout(3000)
-            
-            # Target the main transcript area if possible, or just body
-            body_text = page.locator("body").inner_text(timeout=10000)
-            
-            # Format as simple MD
-            header = f"[METADATA]\nSource: {url}\nGenerated-At: {datetime.date.today().isoformat()}\n---\n\n"
-            content = clean_noise(body_text)
-            
-            if len(content) > 500: # Sanity check for real content
-                md_path.write_text(header + content, encoding="utf-8")
-                print(f"[AlphaSpread] ✓ Saved transcript -> {md_path}")
-                outputs.append(md_path)
-            else:
-                print(f"[AlphaSpread] ✗ Content too short, might be a 404 or empty page.")
-        except Exception as e:
-            print(f"[AlphaSpread] ✗ Failed to fetch transcript: {e}")
-        finally:
-            browser.close()
+        success = False
+        
+        for url in urls:
+            print(f"[AlphaSpread] Trying: {url}")
+            try:
+                # Use a slightly longer timeout for initial load
+                page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                page.wait_for_timeout(3000)
+                
+                body_text = page.locator("body").inner_text(timeout=10000)
+                content = clean_noise(body_text)
+                
+                if len(content) > 1000: # Transcript should be substantial
+                    header = f"[METADATA]\nSource: {url}\nGenerated-At: {datetime.date.today().isoformat()}\n---\n\n"
+                    md_path.write_text(header + content, encoding="utf-8")
+                    print(f"[AlphaSpread] ✓ Saved transcript -> {md_path.name}")
+                    outputs.append(md_path)
+                    success = True
+                    break
+                else:
+                    print(f"[AlphaSpread] ⚠ Content too short ({len(content)} chars), might be invalid.")
+            except Exception as e:
+                print(f"[AlphaSpread] ✗ Failed for {url}: {str(e)[:100]}")
+        
+        browser.close()
 
     return outputs
 
@@ -1777,14 +1786,15 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
         # --- Get External Transcripts ---
         transcript_dir = INVESTOR_CONFERENCE_REPO / stock_id
         
-        # 1. Yahoo (if known)
-        yahoo_url = KNOWN_YAHOO_TRANSCRIPTS_BY_QUARTER.get((stock_id, year, quarter))
-        if yahoo_url:
-            extra_paths.extend(fetch_yahoo_transcript(yahoo_url, stem, transcript_dir))
-            
-        # 2. AlphaSpread (Automatic based on pattern)
+        # 1. AlphaSpread (Primary & Automatic)
         as_paths = fetch_alphaspread_transcript(stock_id, year, quarter, stem, transcript_dir)
         extra_paths.extend(as_paths)
+
+        # 2. Yahoo (Secondary & Manual Map)
+        if not as_paths:
+            yahoo_url = KNOWN_YAHOO_TRANSCRIPTS_BY_QUARTER.get((stock_id, year, quarter))
+            if yahoo_url:
+                extra_paths.extend(fetch_yahoo_transcript(yahoo_url, stem, transcript_dir))
 
         # MOPS PDFs — use conf_date discovered during audio scraping
         if _conf_date[0]:
