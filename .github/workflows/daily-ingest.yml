@@ -35,6 +35,11 @@ jobs:
           pip install requests beautifulsoup4 pyyaml yt-dlp playwright
           playwright install --with-deps chromium
 
+      - name: Configure git identity
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
       - name: Run Auto-Ingest
         env:
           PUSH_FLAG: ${{ github.event.inputs.push || 'true' }}
@@ -50,8 +55,6 @@ jobs:
       - name: Final README Update (just in case)
         run: |
           python ingest.py --update-readme
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
           git add README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "docs: final README sync [skip ci]"
-          git push origin main || echo "Nothing to push"
+          git pull --rebase origin main && git push origin main || echo "Nothing to push"
