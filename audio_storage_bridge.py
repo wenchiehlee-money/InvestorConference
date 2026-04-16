@@ -26,6 +26,6 @@ def get_audio_link_for_readme(repo: Path, stock_id: str, year: str, quarter: str
         try:
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
             if stem in manifest:
-                return f"[{dur_str}](https://docs.google.com/uc?export=open&id={manifest[stem]})"
+                return f"[{dur_str}](https://drive.google.com/uc?export=download&id={manifest[stem]})"
         except: pass
     return dur_str
