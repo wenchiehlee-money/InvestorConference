@@ -240,6 +240,25 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
     }
   }
 
+  // ── 處理 Google Drive Manifest (補足 GitHub 無檔案但 GD 有音檔的情況) ────────
+  const IR_STEM_RE = /^(\d+)_(\d{4})_q(\d)$/i
+  for (const stem of Object.keys(data.manifest)) {
+    const m = stem.match(IR_STEM_RE)
+    if (m && !entries.has(stem)) {
+      const [, stockId, year, quarter] = m
+      const entry = getOrCreate(stem, () => ({
+        id: stockId,
+        contentType: '法說會',
+        quarterLabel: quarterLabel(year, quarter),
+        irDate: earningsMap.get(stem) ?? '',
+        srts: [],
+        pdfs: [],
+      }))
+      entry.audioUrl = getAudioUrl('', stem, data)
+      entry.durationSec = data.durations[stem]
+    }
+  }
+
   // ── assemble final AudioEntry[] ───────────────────────────────────────────
   const result: AudioEntry[] = []
   for (const [, e] of entries) {
