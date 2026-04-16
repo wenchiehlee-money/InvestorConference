@@ -20,6 +20,9 @@ on:
         type: boolean
         default: true
 
+permissions:
+  contents: write
+
 jobs:
   ingest:
     runs-on: ubuntu-latest
@@ -43,6 +46,7 @@ jobs:
 
       - name: Run ingest.py
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GDRIVE_API_CREDENTIALS: ${{ secrets.GDRIVE_API_CREDENTIALS }}
           GDRIVE_AUDIO_FOLDER_ID: ${{ secrets.GDRIVE_AUDIO_FOLDER_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

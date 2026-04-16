@@ -75,9 +75,12 @@ function quarterLabel(year: string, quarter: string): string {
 // ── entry builder ─────────────────────────────────────────────────────────────
 
 function getAudioUrl(path: string, stem: string, data: LoadedData): string {
-  if (data.manifest[stem]) {
-    // Standard GDrive streamable link
-    return `https://drive.google.com/uc?export=download&id=${data.manifest[stem]}`
+  const val = data.manifest[stem]
+  if (val) {
+    // Full URL (e.g. GitHub Release) → use directly
+    if (val.startsWith('https://')) return val
+    // Legacy: bare GDrive file ID
+    return `https://drive.google.com/uc?export=download&id=${val}`
   }
   return mediaUrl(path)
 }
