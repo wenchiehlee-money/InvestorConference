@@ -22,9 +22,15 @@ Requirements:
 """
 import argparse
 import json
+import os
 import sys
 import tempfile
 from pathlib import Path
+
+from dotenv import load_dotenv
+# Explicitly load .env from the repo root so credentials are available
+# regardless of where the audio-storage package was installed.
+load_dotenv(Path(__file__).parent / ".env")
 
 from audio_storage import AudioStorageClient, GitHubReleasesClient
 
@@ -117,6 +123,15 @@ def main():
     if not to_migrate:
         print("Nothing to migrate — all entries already have GitHub Release URLs.")
         return
+
+    # Ensure GITHUB_TOKEN is available
+    if not os.environ.get("GITHUB_TOKEN") and not args.dry_run:
+        import getpass
+        token = getpass.getpass("GITHUB_TOKEN not set. Enter GitHub token: ").strip()
+        if not token:
+            print("GITHUB_TOKEN required.", file=sys.stderr)
+            sys.exit(1)
+        os.environ["GITHUB_TOKEN"] = token
 
     print(f"{'[DRY RUN] ' if args.dry_run else ''}Migrating {len(to_migrate)} entries …\n")
 
