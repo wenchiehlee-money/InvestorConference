@@ -1141,6 +1141,25 @@ def expected_quarter(date_str: str) -> tuple[str | None, str | None]:
     return str(y), "3"
 
 
+def _csv_row_yq(ev_name: str, remarks: str, date_str: str) -> tuple[str | None, str | None]:
+    """Return (year, quarter) for a CSV event row.
+
+    Priority:
+    1. Explicit ``YYYY Q#`` pattern found in 備註 (remarks) column.
+    2. Explicit ``YYYY Q#`` pattern found in 事件名稱 (event name).
+    3. Fall back to date-based heuristic via expected_quarter().
+
+    This lets the CSV author override the heuristic for ambiguous dates
+    (e.g. TSMC 2026-04-16 is 2026 Q1, not 2025 Q4).
+    """
+    _yq_pat = re.compile(r'(\d{4})\s*[Qq](\d)')
+    for text in (remarks or "", ev_name or ""):
+        m = _yq_pat.search(text)
+        if m:
+            return m.group(1), m.group(2)
+    return expected_quarter(date_str)
+
+
 def ingest_from_todo(auto_push: bool = False) -> None:
     """Scan raw_event_upcoming_earnings.csv and ingest any missing past events."""
     import csv as _csv
@@ -1174,8 +1193,9 @@ def ingest_from_todo(auto_push: bool = False) -> None:
                 if not m: continue
                 stock_id = m.group(1)
 
-                # Determine year/quarter
-                y, q = expected_quarter(evt_date_str)
+                # Determine year/quarter — prefer explicit info in CSV over date heuristic
+                remarks = row.get("備註", "")
+                y, q = _csv_row_yq(evt_name, remarks, evt_date_str)
                 if not y or not q: continue
 
                 # Check if audio already exists
@@ -1323,13 +1343,15 @@ def update_readme() -> None:
         ev_name  = ev.get("事件名稱", "")
         ev_class = ev.get("類別", "")
         date     = ev.get("開始日期", "")
+        remarks  = ev.get("備註", "")
         link1    = ev.get("Link1", "")
         # Support both numeric (2330) and alpha (TSM) IDs
         m = re.search(r'[（(](\w+)[）)]', ev_name)
         sid = m.group(1) if m else None
 
-        # Only 法說會 and 財報公告 events are matched to ingested data
-        exp_year, exp_q = expected_quarter(date)
+        # Prefer explicit year/quarter from CSV over date-based heuristic.
+        # e.g. "2026 Q1" in 備註 overrides the Jan-Apr → prev-year-Q4 rule.
+        exp_year, exp_q = _csv_row_yq(ev_name, remarks, date)
         ingested = None
         if sid and exp_year:
             key = (sid, exp_year, exp_q)
