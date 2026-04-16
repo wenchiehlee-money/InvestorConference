@@ -29,14 +29,17 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 pyyaml yt-dlp
-          # Playwright dependencies for JS-heavy sites
-          pip install playwright
+          pip install requests beautifulsoup4 pyyaml yt-dlp playwright
+          # Install shared audio-storage module
+          pip install "audio-storage @ git+https://github.com/wenchiehlee-money/audio-storage.git"
           playwright install --with-deps chromium
 
       - name: Run Auto-Ingest
         env:
           PUSH_FLAG: ${{ github.event.inputs.push || 'true' }}
+          GDRIVE_API_CREDENTIALS: ${{ secrets.GDRIVE_API_CREDENTIALS }}
+          GDRIVE_AUDIO_FOLDER_ID: ${{ secrets.GDRIVE_AUDIO_FOLDER_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           if [ "$PUSH_FLAG" = "true" ]; then
             python ingest.py --auto-todo --push
