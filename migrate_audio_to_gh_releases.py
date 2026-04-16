@@ -124,14 +124,15 @@ def main():
         print("Nothing to migrate — all entries already have GitHub Release URLs.")
         return
 
-    # Ensure GITHUB_TOKEN is available
-    if not os.environ.get("GITHUB_TOKEN") and not args.dry_run:
-        import getpass
-        token = getpass.getpass("GITHUB_TOKEN not set. Enter GitHub token: ").strip()
-        if not token:
-            print("GITHUB_TOKEN required.", file=sys.stderr)
+    # Resolve GitHub token: GITHUB_TOKEN → REPO_FILE_SYNC_WENCHIEHLEE_MONEY
+    if not os.environ.get("GITHUB_TOKEN"):
+        fallback = os.environ.get("REPO_FILE_SYNC_WENCHIEHLEE_MONEY")
+        if fallback:
+            os.environ["GITHUB_TOKEN"] = fallback
+        elif not args.dry_run:
+            print("Error: GITHUB_TOKEN or REPO_FILE_SYNC_WENCHIEHLEE_MONEY must be set in .env",
+                  file=sys.stderr)
             sys.exit(1)
-        os.environ["GITHUB_TOKEN"] = token
 
     print(f"{'[DRY RUN] ' if args.dry_run else ''}Migrating {len(to_migrate)} entries …\n")
 
