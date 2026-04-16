@@ -255,7 +255,6 @@ export async function renderPlayerView(
   let audio: HTMLAudioElement | null = null
   if (entry.audioUrl) {
     audio = new Audio()
-    audio.crossOrigin = 'anonymous'
     audio.src = entry.audioUrl
     const playPauseBtn  = container.querySelector<HTMLButtonElement>('.play-pause-btn')!
     const muteBtn       = container.querySelector<HTMLButtonElement>('.mute-btn')!
