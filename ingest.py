@@ -8,6 +8,7 @@ import datetime
 import requests
 from pathlib import Path
 from urllib.parse import urljoin
+from audio_storage_bridge import upload_to_gdrive_and_update_manifest, get_audio_link_for_readme
 
 # Suppress InsecureRequestWarning for MOPS (Taiwan gov site SSL quirks on Windows)
 warnings.filterwarnings("ignore", message="Unverified HTTPS request")
@@ -1347,8 +1348,7 @@ def update_readme() -> None:
             name   = display_name
             qstr   = _qstr(ingested['year'], ingested['quarter'])
             dur    = f"{ingested['audio_min']:.1f} min" if ingested["audio_min"] is not None else "無"
-            audio_path = ingested["audio_path"]
-            audio  = f"[{dur}]({audio_path})" if audio_path else dur
+            audio  = get_audio_link_for_readme(repo, sid, ingested['year'], ingested['quarter'], ingested['audio_min'])
 
             # Add FIN.srt icon link if exists
             fin_name = f"{sid}_{ingested['year']}_q{ingested['quarter']}_FIN.srt"
@@ -1392,8 +1392,7 @@ def update_readme() -> None:
             _, chi = KNOWN_TW_STOCKS.get(sid, (sid, sid))
             display = f"{sid} {chi}"
         dur    = f"{r['audio_min']:.1f} min" if r["audio_min"] is not None else "無"
-        audio_path = r["audio_path"]
-        audio  = f"[{dur}]({audio_path})" if audio_path else dur
+        audio  = get_audio_link_for_readme(repo, sid, r['year'], r['quarter'], r['audio_min'])
 
         # Add FIN.srt icon link if exists
         fin_name = f"{sid}_{r['year']}_q{r['quarter']}_FIN.srt"
@@ -1755,7 +1754,7 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
     target_audio = target_dir / audio_path.name
     shutil.move(str(audio_path), str(target_audio))
     print(f"[git] Moved → {target_audio}")
-    git("add", str(target_audio.relative_to(repo)))
+    # git("add", str(target_audio.relative_to(repo)))  # Audio now on GDrive
 
     # Move PDFs / transcript / other extras
     for pdf in (pdf_paths or []):
@@ -1776,6 +1775,10 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
     update_audio_durations(repo, target_audio)
     git("add", "audio_durations.json")
 
+    # Upload to GDrive and update manifest
+    upload_to_gdrive_and_update_manifest(repo, stock_id, target_audio)
+    git("add", "audio_manifest.json")
+
     # Regenerate README.md and stage it
     update_readme()
     git("add", "README.md")
@@ -1786,7 +1789,7 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
     if extra_paths:
         extras.append(f"{len(extra_paths)} extra file(s)")
     extras_str = f" + {', '.join(extras)}" if extras else ""
-    msg = (f"feat: add {stock_id} {year} Q{quarter} earnings call audio{extras_str}\n\n"
+    msg = (f"feat: add {stock_id} {year} Q{quarter} earnings call audio (audio on GDrive){extras_str}\n\n"
            f"Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>")
     if not git("commit", "-m", msg):
         print(f"[git] commit failed")

@@ -21,6 +21,7 @@ export function mediaUrl(path: string): string {
 export const GIT_TREE_URL = `${API_BASE}/git/trees/${BRANCH}?recursive=1`
 
 export const AUDIO_DURATIONS_URL = rawUrl('audio_durations.json')
+export const AUDIO_MANIFEST_URL  = rawUrl('audio_manifest.json')
 
 /** CSV synced from wenchiehlee-investment/Python-Actions.GoodInfo.CompanyInfo */
 export const COMPANY_INFO_CSV_URL = rawUrl('raw_companyinfo.csv')

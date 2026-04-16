@@ -74,6 +74,14 @@ function quarterLabel(year: string, quarter: string): string {
 
 // ── entry builder ─────────────────────────────────────────────────────────────
 
+function getAudioUrl(path: string, stem: string, data: LoadedData): string {
+  if (data.manifest[stem]) {
+    // Direct Google Drive link for public (anyone with link) files
+    return `https://docs.google.com/uc?export=open&id=${data.manifest[stem]}`
+  }
+  return mediaUrl(path)
+}
+
 /**
  * Build a stable entry key used to group files belonging to the same session.
  * For IR: `{stockId}_{year}_q{quarter}`
@@ -122,7 +130,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
         srts: [],
         pdfs: [],
       }))
-      entry.audioUrl = mediaUrl(path)
+      entry.audioUrl = getAudioUrl(path, key, data)
       entry.durationSec = data.durations[path]
 
     } else if ((m = path.match(IR_SRT_RE))) {
@@ -163,7 +171,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
         srts: [],
         pdfs: [],
       }))
-      entry.audioUrl = mediaUrl(path)
+      entry.audioUrl = getAudioUrl(path, stem, data)
       entry.durationSec = data.durations[path]
 
     } else if ((m = path.match(GTC_SRT_RE))) {
@@ -202,7 +210,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
         srts: [],
         pdfs: [],
       }))
-      entry.audioUrl = mediaUrl(path)
+      entry.audioUrl = getAudioUrl(path, stem, data)
       entry.durationSec = data.durations[path]
 
     } else if ((m = path.match(POD_SRT_RE))) {

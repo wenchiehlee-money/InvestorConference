@@ -1,5 +1,6 @@
 import {
   AUDIO_DURATIONS_URL,
+  AUDIO_MANIFEST_URL,
   COMPANY_INFO_CSV_URL,
   CONCEPT_STOCK_CSV_URL,
   GIT_TREE_URL,
@@ -23,6 +24,7 @@ export interface GitTreeResponse {
 export interface LoadedData {
   tree: GitTreeItem[]
   durations: Record<string, number>
+  manifest: Record<string, string>
   companyInfo: CompanyInfoRow[]
   conceptStock: ConceptStockRow[]
   earnings: EarningsRow[]
@@ -30,7 +32,7 @@ export interface LoadedData {
 
 async function fetchJson<T>(url: string): Promise<T> {
   const res = await fetch(url)
-  if (!res.ok) throw new Error(`fetch ${url} → ${res.status}`)
+  if (!res.ok) throw new Error(`fetch ${url} â†’ ${res.status}`)
   return res.json() as Promise<T>
 }
 
@@ -42,9 +44,10 @@ async function fetchCsv(url: string): Promise<Record<string, string>[]> {
 }
 
 export async function loadAll(): Promise<LoadedData> {
-  const [treeResp, durations, companyInfo, conceptStock, earnings] = await Promise.all([
+  const [treeResp, durations, manifest, companyInfo, conceptStock, earnings] = await Promise.all([
     fetchJson<GitTreeResponse>(GIT_TREE_URL),
     fetchJson<Record<string, number>>(AUDIO_DURATIONS_URL).catch(() => ({} as Record<string, number>)),
+    fetchJson<Record<string, string>>(AUDIO_MANIFEST_URL).catch(() => ({} as Record<string, string>)),
     fetchCsv(COMPANY_INFO_CSV_URL) as Promise<CompanyInfoRow[]>,
     fetchCsv(CONCEPT_STOCK_CSV_URL) as Promise<ConceptStockRow[]>,
     fetchCsv(UPCOMING_EARNINGS_CSV_URL) as Promise<EarningsRow[]>,
@@ -53,8 +56,10 @@ export async function loadAll(): Promise<LoadedData> {
   return {
     tree: treeResp.tree.filter(item => item.type === 'blob'),
     durations,
+    manifest,
     companyInfo,
     conceptStock,
     earnings,
   }
 }
+

@@ -1,227 +1,27 @@
-[
-    {
-        "file_name": "2308_2025_q4.m4a",
-        "relative_path": "2308/2308_2025_q4.m4a",
-        "size_mb": 59.54,
-        "company": "2308",
-        "year": "2025",
-        "quarter": "4",
-        "drive_id": "1g72FlD7n9AKr_LAr_U65rFGuiQaY2qAU"
-    },
-    {
-        "file_name": "2330_2025_q1.m4a",
-        "relative_path": "2330/2330_2025_q1.m4a",
-        "size_mb": 66.88,
-        "company": "2330",
-        "year": "2025",
-        "quarter": "1",
-        "drive_id": "1sDKWem_UyetJ2nxHpLUC8ywelZpflfhm"
-    },
-    {
-        "file_name": "2330_2025_q2.m4a",
-        "relative_path": "2330/2330_2025_q2.m4a",
-        "size_mb": 108.47,
-        "company": "2330",
-        "year": "2025",
-        "quarter": "2",
-        "drive_id": "1ueEpgA5LWqWV2K9_u7e6C7xom_unSjLp"
-    },
-    {
-        "file_name": "2330_2025_q3.m4a",
-        "relative_path": "2330/2330_2025_q3.m4a",
-        "size_mb": 86.71,
-        "company": "2330",
-        "year": "2025",
-        "quarter": "3",
-        "drive_id": "1dVlcDE1sm_SnkC513DYlPIsrlAnOObhr"
-    },
-    {
-        "file_name": "2330_2025_q4.m4a",
-        "relative_path": "2330/2330_2025_q4.m4a",
-        "size_mb": 111.36,
-        "company": "2330",
-        "year": "2025",
-        "quarter": "4",
-        "drive_id": "1dEAoO2GXcBBFbZlObgxJJG7JzranG7qE"
-    },
-    {
-        "file_name": "2347_2025_q4.m4a",
-        "relative_path": "2347/2347_2025_q4.m4a",
-        "size_mb": 23.88,
-        "company": "2347",
-        "year": "2025",
-        "quarter": "4",
-        "drive_id": "180Releu4PyR0m47534Lz2yB1e4We3R-j"
-    },
-    {
-        "file_name": "2357_2024_q4.m4a",
-        "relative_path": "2357/2357_2024_q4.m4a",
-        "size_mb": 116.93,
-        "company": "2357",
-        "year": "2024",
-        "quarter": "4",
-        "drive_id": "16zFH6_pBz6SDk3oMTTulbIpBHzAuCiBR"
-    },
-    {
-        "file_name": "2357_2025_q3.m4a",
-        "relative_path": "2357/2357_2025_q3.m4a",
-        "size_mb": 118.1,
-        "company": "2357",
-        "year": "2025",
-        "quarter": "3",
-        "drive_id": "1jyIins-fgUqVeMrzQaqclJQHuEjs2_0R"
-    },
-    {
-        "file_name": "2357_2025_q4.m4a",
-        "relative_path": "2357/2357_2025_q4.m4a",
-        "size_mb": 132.74,
-        "company": "2357",
-        "year": "2025",
-        "quarter": "4",
-        "drive_id": "1IOHGUlJg-LHSo2Ie9pLAejHdlOKt_bFX"
-    },
-    {
-        "file_name": "2382_2025_q1.mp3",
-        "relative_path": "2382/2382_2025_q1.mp3",
-        "size_mb": 52.22,
-        "company": "2382",
-        "year": "2025",
-        "quarter": "1",
-        "drive_id": "12TO20WaxMMkugHlN0R6xevbTXIdidmyd"
-    },
-    {
-        "file_name": "2382_2025_q2.mp3",
-        "relative_path": "2382/2382_2025_q2.mp3",
-        "size_mb": 79.72,
-        "company": "2382",
-        "year": "2025",
-        "quarter": "2",
-        "drive_id": "1PVeC_jx-Bv2HqD3bftXS6gG7vnf65Gm5"
-    },
-    {
-        "file_name": "2382_2025_q3.mp3",
-        "relative_path": "2382/2382_2025_q3.mp3",
-        "size_mb": 16.98,
-        "company": "2382",
-        "year": "2025",
-        "quarter": "3",
-        "drive_id": "1FLIVuPs1GdM07EEtgDbB--Spr_XBwwRD"
-    },
-    {
-        "file_name": "2412_2025_q4.m4a",
-        "relative_path": "2412/2412_2025_q4.m4a",
-        "size_mb": 19.4,
-        "company": "2412",
-        "year": "2025",
-        "quarter": "4",
-        "drive_id": "1mRfkGsExNDHXyN2jTl9c7UoBWXs_K5ld"
-    },
-    {
-        "file_name": "2454_2025_q1.m4a",
-        "relative_path": "2454/2454_2025_q1.m4a",
-        "size_mb": 43.25,
-        "company": "2454",
-        "year": "2025",
-        "quarter": "1",
-        "drive_id": "1zxiLRw47UfsHx9oZORFC4-VcYM7RAArP"
-    },
-    {
-        "file_name": "2454_2025_q2.m4a",
-        "relative_path": "2454/2454_2025_q2.m4a",
-        "size_mb": 59.51,
-        "company": "2454",
-        "year": "2025",
-        "quarter": "2",
-        "drive_id": "1CbjMw4GYNOLRnf18SV6pHMRqEXpgeQ4a"
-    },
-    {
-        "file_name": "2454_2025_q3.m4a",
-        "relative_path": "2454/2454_2025_q3.m4a",
-        "size_mb": 114.83,
-        "company": "2454",
-        "year": "2025",
-        "quarter": "3",
-        "drive_id": "1-0bt9NdiSUgiKgwhVN-VmDl9HgORQD1I"
-    },
-    {
-        "file_name": "2454_2025_q4.m4a",
-        "relative_path": "2454/2454_2025_q4.m4a",
-        "size_mb": 78.76,
-        "company": "2454",
-        "year": "2025",
-        "quarter": "4",
-        "drive_id": "15O0aocglU6BIfc_mY0OtV2Pj31s18M4c"
-    },
-    {
-        "file_name": "2480_2025_q3.m4a",
-        "relative_path": "2480/2480_2025_q3.m4a",
-        "size_mb": 24.7,
-        "company": "2480",
-        "year": "2025",
-        "quarter": "3",
-        "drive_id": "16Duq27crlGLYTS5ec6gOs97f1rxA_FaZ"
-    },
-    {
-        "file_name": "2480_2025_q4.m4a",
-        "relative_path": "2480/2480_2025_q4.m4a",
-        "size_mb": 27.69,
-        "company": "2480",
-        "year": "2025",
-        "quarter": "4",
-        "drive_id": "1BW77IN-7ZfQte8W75mR6aby5xaHhvDYJ"
-    },
-    {
-        "file_name": "3022_2025_q4.m4a",
-        "relative_path": "3022/3022_2025_q4.m4a",
-        "size_mb": 25.0,
-        "company": "3022",
-        "year": "2025",
-        "quarter": "4",
-        "drive_id": "1tggKp0pcaPoaHojckPxgziIuerRC6kSR"
-    },
-    {
-        "file_name": "3034_2025_q3.m4a",
-        "relative_path": "3034/3034_2025_q3.m4a",
-        "size_mb": 63.01,
-        "company": "3034",
-        "year": "2025",
-        "quarter": "3",
-        "drive_id": "14FsSt8y7Zzg3cRuLZRVEqV-SftapHdLA"
-    },
-    {
-        "file_name": "3034_2025_q4.m4a",
-        "relative_path": "3034/3034_2025_q4.m4a",
-        "size_mb": 62.62,
-        "company": "3034",
-        "year": "2025",
-        "quarter": "4",
-        "drive_id": "1idArQanUNSYXtl6epBpUUQSI3dRiBv7R"
-    },
-    {
-        "file_name": "3231_2025_q4.mp3",
-        "relative_path": "3231/3231_2025_q4.mp3",
-        "size_mb": 20.58,
-        "company": "3231",
-        "year": "2025",
-        "quarter": "4",
-        "drive_id": "1w7vrL-YVSkI_1g0RWc2YtmXOucx0bHeH"
-    },
-    {
-        "file_name": "7765_2025_q4.m4a",
-        "relative_path": "7765/7765_2025_q4.m4a",
-        "size_mb": 34.41,
-        "company": "7765",
-        "year": "2025",
-        "quarter": "4",
-        "drive_id": "1IFoVBiO__hmLWt_8mSZiGQWoPEXi5i81"
-    },
-    {
-        "file_name": "8299_2025_q4.mp3",
-        "relative_path": "8299/8299_2025_q4.mp3",
-        "size_mb": 128.37,
-        "company": "8299",
-        "year": "2025",
-        "quarter": "4",
-        "drive_id": "1Svfqwv2vQsXF9RlVu_KSYCinAgw7_vyH"
-    }
-]
+{
+  "3034_2025_q4": "1idArQanUNSYXtl6epBpUUQSI3dRiBv7R",
+  "3034_2025_q3": "14FsSt8y7Zzg3cRuLZRVEqV-SftapHdLA",
+  "7765_2025_q4": "1IFoVBiO__hmLWt_8mSZiGQWoPEXi5i81",
+  "3022_2025_q4": "1tggKp0pcaPoaHojckPxgziIuerRC6kSR",
+  "2347_2025_q4": "180Releu4PyR0m47534Lz2yB1e4We3R-j",
+  "2382_2025_q2": "1PVeC_jx-Bv2HqD3bftXS6gG7vnf65Gm5",
+  "2382_2025_q1": "12TO20WaxMMkugHlN0R6xevbTXIdidmyd",
+  "2412_2025_q4": "1mRfkGsExNDHXyN2jTl9c7UoBWXs_K5ld",
+  "2308_2025_q4": "1g72FlD7n9AKr_LAr_U65rFGuiQaY2qAU",
+  "2454_2025_q3": "1-0bt9NdiSUgiKgwhVN-VmDl9HgORQD1I",
+  "2330_2025_q4": "1dEAoO2GXcBBFbZlObgxJJG7JzranG7qE",
+  "2330_2025_q2": "1ueEpgA5LWqWV2K9_u7e6C7xom_unSjLp",
+  "2330_2025_q3": "1dVlcDE1sm_SnkC513DYlPIsrlAnOObhr",
+  "2454_2025_q4": "15O0aocglU6BIfc_mY0OtV2Pj31s18M4c",
+  "2330_2025_q1": "1sDKWem_UyetJ2nxHpLUC8ywelZpflfhm",
+  "2454_2025_q2": "1CbjMw4GYNOLRnf18SV6pHMRqEXpgeQ4a",
+  "2454_2025_q1": "1zxiLRw47UfsHx9oZORFC4-VcYM7RAArP",
+  "2382_2025_q3": "1FLIVuPs1GdM07EEtgDbB--Spr_XBwwRD",
+  "8299_2025_q4": "1Svfqwv2vQsXF9RlVu_KSYCinAgw7_vyH",
+  "3231_2025_q4": "1w7vrL-YVSkI_1g0RWc2YtmXOucx0bHeH",
+  "2480_2025_q4": "1BW77IN-7ZfQte8W75mR6aby5xaHhvDYJ",
+  "2480_2025_q3": "16Duq27crlGLYTS5ec6gOs97f1rxA_FaZ",
+  "2357_2024_q4": "16zFH6_pBz6SDk3oMTTulbIpBHzAuCiBR",
+  "2357_2025_q3": "1jyIins-fgUqVeMrzQaqclJQHuEjs2_0R",
+  "2357_2025_q4": "1IOHGUlJg-LHSo2Ie9pLAejHdlOKt_bFX"
+}
