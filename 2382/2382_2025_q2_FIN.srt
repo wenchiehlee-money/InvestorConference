@@ -1,0 +1,607 @@
+[METADATA]
+Source: 2382_2025_q2.mp3
+Provider: mlx-whisper
+Model: mlx-community/whisper-large-v3-turbo
+Model-Repo: mlx-community/mlx-community/whisper-large-v3-turbo
+Duration: 58.0 min (3483s)
+Transcription-Time: 146.5s
+RTF: 0.042
+Generated-At: 2026-04-17 02:31 CST
+---
+
+(00:00.000) 和平常的資料中文章。
+(00:30.000) We are very honored to have Mr. C.C. Leung, Vice Chairman and President, Mr. Elton Yang, CFO and
+(00:35.680) Spokesperson, as well as Carol and Ale from the IR team here with us today. And we look forward to
+(00:41.360) their insights and comments on the company as well as the market. Carol will first walk us through
+(00:47.440) second quarter results and also provide some forward-looking commentary. And after that,
+(00:51.920) we will open it up to questions. So now I would like to turn it over to Carol for opening remarks.
+(00:57.120) Carol, please. Thanks, Harold. Good day and welcome to Counter Computers.
+(01:09.680) Second quarter. Sorry, there is some echo.
+(01:27.120) Good day and welcome to Qantas Computer.
+(01:34.120) Welcome to Qantas Computer.
+(01:37.120) Second quarter 2025, EARN.
+(01:42.120) Welcome to Quota Campus.
+(01:49.120) Second quarter 2025, EARN's Results Covered Call.
+(01:57.120) It's called part-date by Morgan Stanley.
+(02:00.120) And the presentation material for today's call is available on our website on our Qantas website at www.quotatw.com under IR section.
+(02:11.120) This is Carol. I'm joined today by Quanta's management, Mr. C. C. L. Young, our vice chairman and president, Mr. Ailton Yen, chief financial officer and senior vice president in Quanta's IRT.
+(02:24.120) In a moment, we will start with the financial presentation. After that, the management will have an opportunity to share our view about the business and industry outlook.
+(02:34.120) During this course, we will be making forward-looking statements, which have predictions, projections, and other statements about future events.
+(02:41.120) These statements are based upon our current expectations and assumptions that are subject to lots of risks and uncertainty.
+(02:49.120) As such, the actual results differ materially from our forecast. We undertake no obligation to update or revise any forward-looking statements.
+(02:58.120) So now let's walk through the financials. Revenue reached a record of $504 billion in a quarter, up 3.8% in quarter and 62.6% year-over-year.
+(03:11.120) Even as the sharp rising Taiwan dollars has weighted on the top line by eroding the dominated revenue.
+(03:20.120) This violent forest happening, we maintain robust year-over-year growth,
+(03:27.120) anchored by elevating bottlenecks in high-end AI server-react production,
+(03:33.120) as well as stronger and expanded network shipments.
+(03:37.120) We ship 12.1 million units of network in the quarter, up 12% quarter and 3.4% year-over-year,
+(03:45.120) outtesting our previous forecast of high single-digit sequential growth. That outperformance
+(03:51.520) was driven by a pool for work in demand as customers accelerated orders to mitigate
+(03:58.080) U.S. tariff-related price increases. This trend aligns with broader industry behavior observed
+(04:05.600) since Q1, where OEMs globally have front-loaded notebook shipments, particularly into the U.S.,
+(04:13.680) as a hedge against the expected cost pressure, resulting in two consecutive quarters of
+(04:20.560) sequential shipment upside. The company's gross profit was 35.5 billion, declined 7.7 percent
+(04:29.440) quarter-on-quarter from the record of 38.5 billion in first quarter and grew 33.5 percent year-over-year.
+(04:36.880) worth margin counting 7% all quarter, representing 88 bps decreased quarter quarter and 154 bps
+(04:46.880) decline yield resistance. We estimated that forex accounted for roughly two-thirds of flood decline,
+(04:54.240) and the remaining margin dilutions stem from product mix. While servers maintain a steady
+(05:01.840) 65 to 70 percent in revenue share our mix shifts toward higher sd ai racks
+(05:09.760) ai cells continue to grow higher as the unit scaling up and offsetting the decline of lower
+(05:17.520) sd models though this makes sure put downward pressure on margin rate operating process total
+(05:26.640) 20.4 billion this quarter the record for the same period and the second highest level in
+(05:32.800) company's history that reflects the decline of 17 percent from the record 24.6 billion achieved
+(05:39.920) in the prior quarter yet an impressive 34.2 percent gain from a year ago the operating
+(05:47.680) margin for the quarter was four percent which declined by 102 bps quarter-on-quarter and 86
+(05:54.560) with year-over-year respect to the years.
+(05:57.640) Upgrading expenses were $15.1 billion for the quarter,
+(06:01.880) grew from $13.9 billion last quarter,
+(06:05.040) or 9% sequentially increased.
+(06:07.800) On a year-over-year basis,
+(06:09.720) more past increased by 33.4%.
+(06:13.800) Primarily due to R&D expenses associated with AI development,
+(06:19.520) continuous talent recruitment, and increased employee compensation.
+(06:24.560) support by strong sales momentum of 62.6% growth year over year.
+(06:31.840) OPEX ratio stayed at 3%, reflecting that the OPEX increases remain disciplined and efficient to drive
+(06:41.120) growth. Non-operating income for second quarter was 1.2 billion. The primary items included
+(06:49.040) net forward scan of 668 million and net interest expenses of 213 million the remaining under income
+(06:59.440) of 790 uh 159 million many came from equipment disposals setting down the income statement
+(07:08.960) the net income after tax came at 16.9 billion decreased by 13.5 percent quarter-on-quarter
+(07:16.240) and grew 11.5 percent year over year the net margin after tax was 3.3 percent which declined
+(07:24.720) 67 bps quarter-on-quarter and 155 bps year-over-year respectively the tax rate for the quarter was 21
+(07:34.560) all of the above concluded earning percent of 4.34 dollars per quarter representing a sequential
+(07:43.600) decline of 69 cents but an increase of 45 cents from the same period last year
+(07:51.280) please flip to the next page the first six months of 2025 we deliver record-breaking results our
+(07:59.440) revenue growth process operates as a product all hit the old time time notebook should reach 22.9
+(08:08.480) million units up from 22.2 units a year ago representing an increase of 3.2 percent year on
+(08:17.600) year revenue for first half came in at 990 billion grew by 74 percent year over year growth process
+(08:29.040) for first half which is record of 74 billion grew from 48.6 billion the same period last year
+(08:36.800) implying 52.4% up year-over-year. Upgrading profit was 45 billion, showing a surge of 67.3%
+(08:47.520) year-on-year. And net income after tax was 36.4 billion, which grew 33.7% year-on-year than EPS
+(08:57.200) preferred tax, worth 9.43 dollars. In terms of marginal rate, gross margin was 7.5% declined by
+(09:06.480) 106 billion year over year operating margin was 4.5 percent dropped of 18 billion year
+(09:14.800) on year and then margin after tax was 3.7 percent turning to the balance sheet cash
+(09:22.640) for children investment due at 194 billion decreased from 215 billion at the end of the
+(09:30.640) large border account receivables reached 395 billion some from the record level of 451 billion
+(09:40.480) in the previous quarter inventory interest increased further this quarter reaching a record
+(09:48.080) 286 million the rise was primarily driven by ongoing ai server shipments and the preparation
+(09:57.360) of new generation AI project developments. The shareholders' equity attributed to the parent
+(10:04.160) company was around $188 billion, decreased from $193 billion at the end of the previous quarter.
+(10:14.400) During our last financial report, we announced an increase of four-year CAPEX budget to $20 billion,
+(10:21.040) While the tapets for first half totaled $7.6 billion in cash basis, we fully expect a significant
+(10:30.880) acceleration in the second half to meet the plan's target.
+(10:34.880) The anticipated increase reflects our commitment to strategic growth and the continued execution
+(10:43.520) of our investment roadmap.
+(10:46.400) We are pleased to announce that our board of directors today approved several significant
+(10:51.900) investment projects.
+(10:53.400) This includes a capital injection of $170 million into our 100%-owned U.S. subsidiary,
+(11:02.780) Q&M, reinforcing its operational capabilities and accelerating AI server capacity expansion
+(11:11.440) in our U.S. site.
+(11:14.240) adjust terrace related cost impact on ai server production our magical facility will kick off
+(11:23.840) its expansion later this quarter upon customers requirements the in the infrastructure and
+(11:31.200) facilities are adjusted as needed and scaling up for ai server manufacturing this adds extra
+(11:39.840) possibility to support our major final system assembly operation in the west coast in the middle
+(11:46.560) of the u.s along by our existing ai production facilities in taiwan and thailand we expect that
+(11:55.360) the ai production in mexico will stop pilot run by the end of this year and begin match production
+(12:03.120) in early 2026. additionally the board has approved a 50 million u.s dollar investment
+(12:12.400) in quantian inc the u.s-based company specializing in content computing technologies this
+(12:21.360) strategic life with our objective to explore and invest in next generation computing innovation
+(12:30.000) By engaging with industry pioneers at an early stage, we aim to position ourselves to capture
+(12:39.600) emerging opportunities as the commercial potential of content computing involves.
+(12:46.480) Turning to our server business, the supply chain has successfully achieved commercial
+(12:52.640) roundup for the gp200 platform in the quarter looking ahead the next generation platform is
+(12:59.360) just around the corner and is set to enter the market soon for third quarter we expect ai server
+(13:07.040) cells to maintain a similar pace as q2 this is primarily driven by the initial small volume
+(13:15.840) shipment of new GP300 platform, which is expected to start over the end of the quarter.
+(13:25.120) Initial feedback from the supply chain on the new generation has been positive,
+(13:30.800) suggesting that the ramping process from the pilot production to mass production for GP300
+(13:38.480) is likely to be smoother than with the previous generation.
+(13:42.560) This has prompted some of our clients to adjust their project plans, slightly slowing down
+(13:50.640) their impact of the prior generation product.
+(13:54.960) These customers are keen to move quickly to the new generation of servers to tackle the
+(14:02.120) advantage of the higher computing densities and improve the capital expenditure efficiency
+(14:09.260) that a new platform offers.
+(14:11.260) We believe this quick migration is a healthy sign of a strong, sustained AI demand for
+(14:19.300) the adoption of the latest technology and set to a solid foundation for accelerating
+(14:26.020) AI server business in the coming quarters.
+(14:29.020) On the other hand, momentum in general compute servers softens in Q3.
+(14:39.280) a strong shipment in the first half. Overall, general compute servers are returning to healthy
+(14:45.680) growth for the full year, reflecting a recovery in demand compared to last year.
+(14:53.040) In the notebook segment, we are seeing stable shipment in the third quarter,
+(14:59.120) slightly ahead of what we expected a couple of months ago, following better than seasonal
+(15:05.200) demand in both the first and second quarters. We now anticipate low single-digit sequential
+(15:12.000) growth in third quarter. However, we expect a softer fourth quarter as some demand was
+(15:19.280) pulled forward earlier in the year. Lastly, we are maintaining our four years of procurement guidance
+(15:26.880) of single-digit year-over-year growth. Turning to our auto visits, we've shifted our focus and
+(15:34.640) prioritize resources toward higher value and content-rich products like advanced data,
+(15:42.640) car computers, and inverters. As a result of this strategic improvement,
+(15:48.960) auto sales slowed down year-over-year in the first half. However, margins remain comfortably
+(15:57.280) above the corporate average. With the AI server algorithm, OTO's contribution will be diluted
+(16:05.520) to low single digit of total sales for the year. In the third quarter, we expect to see some
+(16:12.800) pressure on our margin. This is primarily driven by a shift in our revenue bank, with major shipment
+(16:22.800) momentum from higher ASDAI server models, offsetting a more moderate sales contribution from other
+(16:31.280) product lines, including general compute servers, notebooks, and auto-related products.
+(16:38.960) On top of that, we expect some residual margin pressure from second quarter's
+(16:44.800) for volatility to carry into third quarter.
+(16:50.300) Primarily resulted from the material pooling time.
+(16:55.640) Forex effects often flow through the financials
+(17:00.640) with a delay causing a less impact
+(17:04.020) due to timing differences between revenue
+(17:06.740) and cost recognition.
+(17:09.460) In terms of operating expenses,
+(17:12.400) In view of new customer acquisition and more project wins,
+(17:16.740) we anticipate ongoing increases in our R&D expenditure
+(17:21.480) as we continue to invest in the upfront cost
+(17:25.800) of new project development.
+(17:29.900) During recent earnings calls,
+(17:32.980) hyperscaler customers have consistently reaffirmed
+(17:36.840) their commitment to continue to be involved with AI.
+(17:41.080) are focused on the lately fighting their quote in both ai infrastructure and application market
+(17:49.480) this is a high-step competition competition one without more or gunfights but spears
+(17:57.640) nonetheless centered on the computing power talent technology capital and energy resources
+(18:05.960) Our demonstrated strength and track records have earned us the trust of more customers
+(18:13.720) and secure new projects, providing us with a critical opportunity to widen our leadership
+(18:21.000) position in AI server market. Experienced and high-skilled R&D engineers in AI server design
+(18:29.960) and manufacturing are a scarce resource globally. The competition for AI talent is intensifying,
+(18:39.000) and we believe our people are the ultimate key to our success. Over the past few years,
+(18:47.480) we've been steadily strengthening our R&D pipeline for AI, a critical pillar of our long-term
+(18:55.720) strategy we are working on multiple fronts to deepen our talent bench retain our top performers
+(19:05.480) performers and attract the best people in the industry this includes standing recruitment
+(19:12.440) efforts significantly enhancing compensation benefits and bonus programs and optimize
+(19:20.680) optimizing resources allocation through internal mobility
+(19:25.720) This initiative has not only boosted our competitiveness in the talent market, but also helped us maintain a high retention rate among our most critical RNC personnel.
+(19:39.720) We are seeing a lot of promising opportunities for growth, but that also means we need to tackle some internal and external challenges and make sure we have the right resources in place to support that growth.
+(19:54.720) As our business continues to scale, we are seeing a corresponding increase in our working
+(20:02.720) capital name to support it.
+(20:05.720) To proactively maintain strong financial flexibility and a healthy balance sheet, our goal of directors
+(20:13.720) has approved $1 billion USD ECB users and a refinancing program of $1.5 billion USD
+(20:24.720) dollar syndication loan today.
+(20:27.680) The strategic combination allows us to fund our robust
+(20:31.940) worth while minimizing shareholder dilution
+(20:35.640) and capitalizing our favorable market conditions.
+(20:41.220) Following the successful distribution of a record high
+(20:44.660) of $15.2 billion in cash dividends,
+(20:48.900) or $13 per share in July,
+(20:52.760) We remain committed to providing long-term sustainable
+(20:57.180) and above-market shareholders return.
+(21:00.940) Despite an external environment
+(21:03.080) that continues to present challenges
+(21:05.740) from US tariff policies and currency fluctuation,
+(21:11.260) which are practical factors,
+(21:13.640) our management team has delivered on its commitment.
+(21:18.200) The solid performance of the second quarter result
+(21:21.060) is a powerful testament to our operational excellence
+(21:25.580) and the resilience of our business model.
+(21:30.300) We will build on less momentum
+(21:32.480) and continue to deliver superior long-term value
+(21:37.180) for our shareholders.
+(21:39.640) And that concludes the review
+(21:41.360) of the second quarter results and business outlook.
+(21:45.660) We'll now open a call to Q&A.
+(21:48.300) Please limit your questions to one and one follow up.
+(21:52.000) Thank you for standing by.
+(21:54.160) Now, may we introduce the first question, please?
+(21:58.080) Yes, thank you, Carol, for your prepared remarks.
+(22:02.840) If you'd like to ask a question, please raise your hand.
+(22:06.960) Before we get to the questions in queue,
+(22:10.740) Carol, can I quickly ask you,
+(22:14.200) maybe there's some audio issues on my side,
+(22:16.140) but your prepared remarks on AI server comments,
+(22:22.240) can you please run through them again?
+(22:27.720) Okay.
+(22:31.680) I mean, you know, that is clean or?
+(22:36.120) Just on the AI server part in your prepared remarks.
+(22:41.980) Okay.
+(22:43.360) Thank you.
+(22:46.140) The overall AI server should well be as a similar path as it was in the second quarter.
+(23:03.140) And there will be some project migration from higher generation to the new generation.
+(23:12.140) And the title rank of the new generation is expected to start at the end of that quarter.
+(23:23.180) Got it. Thank you.
+(23:26.100) And so before we get the questions on the queue, just two questions from me.
+(23:32.640) The first question is on AI servers.
+(23:36.700) I think last quarter, Elton, maybe you mentioned that there is some supply constraint in terms of GPUs for these GP200 racks.
+(23:50.980) Is this still the case?
+(23:53.140) Is that the reason why maybe some of your competitors are seeing stronger revenue momentum while you are not?
+(23:59.880) Can you just kind of touch a little bit on that versus what you saw three months ago?
+(24:04.080) Thank you.
+(24:05.420) Thank you, Howard.
+(24:06.420) Okay.
+(24:07.420) First of all, it's not exactly a good comparison between the key supplier for the TV 200 or
+(24:29.420) 300 because different customer mix and prior mix.
+(24:33.420) As we touched on the previous remarks, the GP200, the year rate is gradually eased.
+(24:42.420) So it's getting smoothly worse.
+(24:46.420) But during the time, customers try to enter into the transition into the next quarter cycle
+(24:53.420) of the GP300.
+(24:55.420) So different customers, different adoption curve and schedules.
+(25:00.420) So some of them are shifting the gear to the accessory adoption of the next generation products.
+(25:05.420) But anyhow, we still see the demand is very strong.
+(25:08.420) But different customers, different schedules, that's kind of mixed ones.
+(25:13.420) In terms of the different ODMs, some of them have different customer mix,
+(25:19.420) some more comfortable customer products, some different product mix is more comfortable,
+(25:25.420) instead of 11.
+(25:27.420) So different profile.
+(25:29.640) So kind of hard to know,
+(25:31.800) a peer on peer,
+(25:32.740) a head on comparison to the top.
+(25:37.260) But in terms of year on year,
+(25:38.500) we still see the over 20% growth year on year.
+(25:43.340) So it's just exciting about the environment.
+(25:45.660) And it was exciting about the customer migration
+(25:48.980) of progress.
+(25:50.220) And we're still excited to see new emerging customers
+(25:54.440) too exciting about our performance in the GP200.
+(25:57.780) So they are more than happy to work with Qantas.
+(26:00.160) So we'll see more new project win
+(26:02.720) and emerging customer to work with.
+(26:05.580) Okay, so give more color about the involvement
+(26:07.940) of our AI business.
+(26:20.680) Power?
+(26:21.520) Yes, thank you. Very helpful. Elton, one follow-up from me. Within your AI server, especially these GB rack projects, I think previously you have mentioned that most of your projects are still by itself where your ASPs will include the price of the GPUs.
+(26:42.840) Is that still the case or have some of these projects now transitioned to more of a consignment model where the GPUs are not included in the final ASP?
+(26:53.840) Almost our customer model is still on the buy and sale model.
+(27:01.840) A very few projects on a consignment basis.
+(27:05.840) So still keep on the buy and sale model for now and keep going on that kind of business model.
+(27:12.840) Got it. Very clear. Thank you.
+(27:17.000) Sorry, Howard.
+(27:19.240) Just want to explain why the margin is diluted.
+(27:27.080) Got it. Perfect. Thank you. Very clear.
+(27:31.240) Now we'll move to questions on the queue.
+(27:36.120) The first question will be Timsen Li.
+(27:42.840) Please go ahead.
+(27:45.060) Thanks, Howard.
+(27:46.600) Hi, Elton, Cece, and Carol.
+(27:50.160) So first of all, I think congrats on the solid quarter.
+(27:53.660) I'm also asking on behalf of Randy.
+(27:56.020) So I've got a question and a follow-up.
+(27:59.700) I guess related to AI servers in July,
+(28:05.700) do we see the July softness in sales
+(28:08.960) mainly due to transitional period of AI servers,
+(28:12.080) or do we see other reasons for this?
+(28:18.580) Okay.
+(28:19.300) Yeah, as we touched on our prepared remark,
+(28:21.940) we see the customer actually has entered
+(28:26.000) into the transition migration.
+(28:29.900) Some of them moved migration phases
+(28:32.560) into next generation.
+(28:34.880) So that's what explains customer different agenda
+(28:38.300) and the schedule touching curve.
+(28:40.960) So let's explain what month on month, we expect it.
+(28:46.960) By year on year, it's still double 20% over the growth rate.
+(28:50.960) So this is what I'll try to explain.
+(28:53.960) Our business profile, customer profile, and the product profile mix is different with others.
+(29:01.960) So it cannot be direct in comparison.
+(29:05.960) Okay, thank you Elton.
+(29:07.960) That's a good caller.
+(29:09.960) Could we expect that July and August to be more of a transitional period ramping up the next-gen platform in September?
+(29:20.240) I guess, how should we think about the ramp and the throughput there?
+(29:27.320) As we mentioned, they were starting from the end of third quarter,
+(29:34.360) and started to more shimmer out from the early of the fourth quarter.
+(29:38.560) So the revenue will make you access rate progressively.
+(29:43.560) Hold on, hold on.
+(29:48.560) Thank you.
+(29:52.560) Okay, thanks, Timson.
+(29:54.560) The next question will be Kai Huang.
+(29:56.560) Please go ahead.
+(30:00.560) Yeah. Hello, management team.
+(30:01.560) Thank you for accepting my question.
+(30:03.560) And my first question is about the margin profile.
+(30:06.560) profile. As we have mentioned in the previous meeting, we mentioned that maybe the higher
+(30:12.020) percentage of high ASP or AI server may have a dilutional effect on our gross margin. But my
+(30:19.740) question is about whether or not this trend will continue into the future. Since some of our
+(30:26.580) competitor has mentioned that we may have some ability in the corresponding component of AI
+(30:33.420) server, which may yield a better gross margin in the future. So my question is about the margin
+(30:40.060) profile, about the impact from AI or high ASP AI server in the future.
+(30:47.740) Okay, thanks for your question. By nature, by principle, when you enter into a high ASP
+(30:55.500) product by nature the margin rate should be diluted okay but on the other hand to roll down
+(31:03.340) the total cost is our mandate so we always keep moving on to provide a low-speed tissue product
+(31:11.180) for the customer and for contact as well that's why we'll migration have more automation for our
+(31:16.460) product okay so where we have our affiliate to provide a robotic arm to help us so that's a two
+(31:25.180) for and the mixed one by nature when you migrate to next high asp product it should be diluted
+(31:33.340) but our mandate our regular cost to lower down the production cost and again we might we get a
+(31:43.740) learning curve from gp200 we are we are exciting to about gp300 euro so it also
+(31:50.220) have a cost as well. I would say it's a mixed one.
+(31:56.060) Yeah, understood. Appreciate that. And my follow-up is about the overall server revenue
+(32:02.580) forecast for this year. As you have mentioned, we still expect triple-digit growth from AI
+(32:08.840) server this year, but what I'm curious about is that since the revenue seems to be like
+(32:15.600) flat quarter over quarter in the third quarter for the AI server. You had mentioned about some
+(32:21.840) transition problems. Do you still see the same size of revenue contribution from AI server as
+(32:29.840) you see at the beginning of this year? Or is there any difference from you see in the first quarter
+(32:39.280) in this year? Okay, by far it's on track. We still talk about that. Okay, this is kind
+(32:48.160) of about allocation, the distribution between the AI server and non-AI server. Okay, so we still
+(32:53.760) talk about that and still aim for that. Okay. And by far it's on track. Okay, understood. Thank you.
+(33:01.920) Thank you, Kai. Next question will be Albert
+(33:08.560) Bung. Go ahead. Thanks, Howard. I mentioned this is Albert from
+(33:16.160) GB Mugen. Thanks for taking my question. So in the opening remark, I think Carol mentioned that
+(33:23.600) third quarter AI revenue growth will be similar to second quarter. But could you help us understand
+(33:30.240) more of what kind of like second quarter ai server revenue grows uh was seen like um say second
+(33:38.000) quarter how much is like ai server revenue in percentage in the second quarter and a follow-up
+(33:46.480) on that is um is it fair to say gp200 still have a lot of like your issue and in that case why
+(33:54.320) customer designed to migrate to gp300 while there is a lot of like gp200 backlog thank you
+(34:02.000) okay um yeah you maybe let you go to earn this call is uh it's a caretouch the issue is
+(34:10.080) but the issue is um the gb300 is around the corner so custom now the kind of migration
+(34:16.960) phases into that okay so it's not a year issue it's kind of customers production schedule issues
+(34:23.360) and and by the way we don't provide that kind of granularity by quarterly about AI server
+(34:30.720) contributions but I'll still target AI server counter total server of 70 percent for the yearly
+(34:37.200) basis still up track. Hello um yep thank you um could could you help us um maybe
+(34:53.200) it would be better if you can help us understand how much is the gp200 or the backlog at the moment
+(35:01.120) because i mean um it looks like um when we transit into like gp surrounded there's still a lot of
+(35:08.560) like strong demand for the legacy product so is it fair to say uh even when we talk about like
+(35:15.040) slower transition into gp uh into like third quarter we are going to expect a very big
+(35:21.680) jumping force order okay um unlike a notebook okay you know in a server business every csp
+(35:33.520) for the new emerging the customers they keep a multi a platform in the data center so they have
+(35:40.560) h they have a b they have a gp200 of two series uh 300 so um that that they're moving to a gp3
+(35:48.240) doesn't mean the gp20 is gone so let's try to touch down is not some of customers some of
+(35:55.040) customers not every customer moving to gp300 so different customers different agenda depends on
+(36:01.040) how their application and their agenda for their data centers so we see some customer some new
+(36:07.680) customer also target on the gp200 some of customers looking for gp300 it's again it's kind of
+(36:13.600) branded what for us so we still see both of them going on forward and our view is for the ai service
+(36:20.400) still very strong understood thank you
+(36:29.520) okay thank you albert um the next question will be alex wang please go ahead
+(36:38.640) hi everyone thanks for taking my question this is alex from bernstein
+(36:42.640) I just want to confirm what I've heard. So do you mean that for the third quarter,
+(36:48.160) you expect your AI server revenue will be the same at the second quarter,
+(36:52.640) or do you expect there's like double-digit growth as in the second quarter?
+(37:00.800) Oh, the touchdown about the semi is kind of top line for everything in total. Okay. Again,
+(37:07.840) you know, during the third quarter, it's kind of mixed. So some of the customer shift gears
+(37:14.080) to moving to TP300. So kind of the total server contribution kind of slightly increased
+(37:22.080) against the second quarters. I see the revenue mix will increase.
+(37:28.960) Okay. I mean, AI server percentage will slightly improve during the third quarter.
+(37:36.080) And again, we target to maintain 70% AI server
+(37:41.720) overall to overall service.
+(37:45.020) I see that's very clear.
+(37:46.400) And second question is about the gross margin.
+(37:49.000) I think Carol mentioned that in the second quarter
+(37:51.580) there's some FX impact.
+(37:54.040) How much is that?
+(37:55.880) Can you remind us?
+(37:56.820) And if we move from GB 200 to GB 300,
+(38:00.240) is there further margin dilution
+(38:02.580) between these two platforms?
+(38:06.080) okay in the second quarter uh figure is about two-thirds it comes from the fx impact let me
+(38:14.480) let me kind of elaborate about that it depends on when you acquire the material so it could be
+(38:22.080) two months or three months ahead due to the tightness of the supply or customer required
+(38:27.120) to acquire so it's a different fx profile okay so so that's how the impact about our growth margin
+(38:35.040) okay when they migrate to the uh third quarter when you move to a high ASP tp300 definitely
+(38:42.080) because i mean by nature they were dilution about growth margins and and depends on how you digesting
+(38:49.840) about your currently material which acquired two or three months ahead they probably still some
+(38:58.240) have an impact but maybe not significant in second quarter but still some minor impact in the third
+(39:04.400) quarters. We just touched on that in the previous remarks.
+(39:07.120) I see. And without FX impact, let's just consider the gross margin for GB200 and GB300.
+(39:16.240) Do we see more margin dilution to that front?
+(39:21.360) Yeah. As I mentioned, high ASP products by nature should have margin rate dilutions. Not margin
+(39:30.720) dollar margin rate okay great very clear thank you very much
+(39:38.160) thanks alex um the next question will be on chen please go ahead
+(39:46.560) oh thanks for taking my question um so um what is the contest progress in ai
+(39:54.800) or ASIC servers and is there any guidance from company on how the current sales
+(40:02.800) contribution of ASIC AI server and what would it be in 2026?
+(40:09.360) And then first...
+(40:12.800) Sorry, go ahead. Sorry.
+(40:15.360) Oh, sorry. So what is the major customer for AI ASIC server for the company
+(40:21.600) and in terms of the sales contribution,
+(40:24.980) how can we evaluate that?
+(40:28.580) And is it only also in the buy and sell model?
+(40:36.280) First of all, we still stick to the buy and sell model
+(40:41.260) for all the AI businesses, or server businesses, personally.
+(40:45.720) Secondly, we do have ACA project on hand now.
+(40:49.620) okay but in the past due to the r&d bandwidth we cannot fulfill customer requirements but after
+(40:57.460) as a care touchdown in our prepared remarks after our complete r&d bench you know and our retention
+(41:05.460) and recruiting our you know we are inherent and disputed of current asp tsp customers to be the
+(41:13.940) to the asic server provider because we know customer well we look at the demand and we are
+(41:21.540) learning a new project and going to rip up in the in the 2026 okay but we don't provide a granularity
+(41:30.820) for the sprint and the customer particularly for the ai asic servers but we're happy to see the
+(41:40.420) the AI-ASC server to win and to land
+(41:45.180) after we have more R&D resources.
+(41:50.820) Okay, thanks.
+(41:52.940) And just a quick follow up.
+(41:56.740) Can you give us a recap of the sales contribution
+(42:00.240) of AI server in the first half of 2025?
+(42:10.420) So far over 60.
+(42:15.700) Okay, thank you.
+(42:22.960) Great, thanks Yvonne.
+(42:25.040) Elton, maybe just one question from me before I go back to the queue.
+(42:30.620) I think last quarter you mentioned HGX systems,
+(42:35.340) these lower priced AI server order momentum.
+(42:38.620) you still see it growing every single quarter throughout the rest of the year.
+(42:43.660) Is that still the case from what you're seeing in terms of the order forecast?
+(42:48.660) Or has that changed within the past three months?
+(43:02.440) Okay.
+(43:03.080) I think we never touched down about specific about HGS split and kind of momentum.
+(43:12.080) What I'm going to say, you know, so long as, let me kind of one thing, so long as the AI
+(43:20.080) industry keep growing, every sector, including the GB 200, 300, kind of high-speed server,
+(43:29.080) server or edge versions server or a server they are all growing okay but a different
+(43:38.040) goes away and growth trajectory and asdb200 high asp server as should be enjoy the highest
+(43:47.720) growth rate but the risk they'll keep growing okay whether we can have a whether we can
+(43:53.560) then more order just because our r d resources once we fix our ideas about we get to fulfill
+(44:02.120) all the customers requirements but every cft customer they have their own design they have
+(44:07.960) different models for the for the amd model for the nvidia model for an azica model has 86 model
+(44:15.640) they have they have unfulfilled demand from us so we keep seeing the strong demand and we can explore
+(44:22.440) our business opportunity, even from the same CSG, not to mention some new emerging one.
+(44:29.960) Okay. So we are still excited over AI development going forward.
+(44:35.960) Got it. Very clear. And the next person in the queue, Timson Lee, please go ahead.
+(44:44.120) Yeah. Hi, Elton. It's Timson from UBS again. I guess I'm kind of curious on,
+(44:51.160) for the high-end AI server form factors.
+(44:54.380) We have 36 times 2 and 72,
+(44:58.540) and also the one GPU form factor.
+(45:02.760) I guess going into GP300,
+(45:05.640) should we be expecting more of the 72 form factor
+(45:09.840) taking the larger mix?
+(45:11.480) Or I guess how should we be thinking about this?
+(45:16.580) Yes.
+(45:17.600) Moving for the next generation,
+(45:18.960) we have more 32.
+(45:21.160) Oh, sorry, 72-1 on words.
+(45:27.480) And then when they migration to the next one,
+(45:30.780) they would double that one as well.
+(45:32.780) Okay, so we are seeing one more,
+(45:34.640) 72-1 is the mainstream product.
+(45:37.240) And then moving forward with 144,
+(45:39.060) maybe next one for the next one,
+(45:40.840) a mainstream product.
+(45:44.860) Okay, thank you.
+(45:46.560) My follow up on a different question,
+(45:48.740) maybe on section 232.
+(45:51.340) I know that Carol touched upon our CapEx plans in the U.S.,
+(45:55.680) but could you touch upon your sort of more detailed view
+(45:59.580) on importing components into the U.S. assembly
+(46:01.820) on tariff exposure or potential semi-tariffs?
+(46:06.280) Do you see like signs of exemptions or, yeah,
+(46:11.520) what is our pretty much strategy into dealing with this?
+(46:14.300) You know, again, the major capets on world will be more focused on Mexico and the US.
+(46:23.300) And it will keep explore our presence, our capacity in the state, and worse.
+(46:35.300) Thank you.
+(46:41.300) Okay, great. Thanks, Timson. Elton, so just follow up on the capacity question. On Mexico, if I remember correctly, in the past, it was only automotive that was produced there. But you guys are now investing and expanding, I guess, server and AI server production capacity there that will ramp up sometime next year in terms of mass production timing.
+(47:08.020) Is it L6 that you guys are expanding in Mexico or is it rack level assembly?
+(47:14.420) Can you give us a bit more color on that?
+(47:21.620) I don't want to explore more, but more than L6, let me put it this way.
+(47:28.260) Okay, and how do you think...
+(47:30.020) You need to make sure you fulfill USMCA. So how do you unlock it only L6?
+(47:38.020) Right, right. Okay. So is there a possibility whereby a very, very large portion of your
+(47:53.560) server production will shift from the US to Mexico because of USMCA compliancy?
+(47:59.780) So it depends on how the involvement of the, you know, the 232 investigation, reciprocal
+(48:10.060) tariff and the customer commitment aspect.
+(48:14.340) So that's why we have over nine production sites to provide the flexibility to work
+(48:22.540) with the customers.
+(48:24.020) So what the best way to get the lawyers a tariff is the customer's intention.
+(48:32.800) And when you go along with them, the piece is the customer's decision.
+(48:36.800) And we have a flexibility and resilience and the speed to help them to meet the target.
+(48:44.340) So I cannot tell you exactly what will happen, but they will subject to how to try the administration
+(48:49.400) decision.
+(48:50.400) Got it. Very clear. And a question on yield rate. I think you guys mentioned in your
+(49:01.140) prepared remarks and also in a bunch of the Q&As that GB200, you have said yield rates
+(49:07.160) are improving. Is there any additional color you can provide in terms of what the yield
+(49:13.100) rates for GB300 looks like at this point in time versus 200? Is there a meaningful improvement
+(49:19.420) and are you expecting GB300 to ramp up much more smoothly
+(49:24.480) versus GB200 a couple months ago?
+(49:28.960) Okay, it's a different design from the GB200, GB300.
+(49:35.020) And after learning from GB200,
+(49:37.800) we are being, you know, appreciate that our customer
+(49:40.320) as well as the GPU vendor,
+(49:42.740) our performance in the GB200 also helps the customer to improve.
+(49:48.740) So by far, for the GB300, the year rate, learning curve is better than the GB200.
+(49:55.740) Got it. Very clear. Thank you.
+(50:01.740) And we have a question on the line from Claire Wang. Claire, please go ahead.
+(50:05.740) Hi. Thanks for taking me a question.
+(50:08.740) So I just want to simply ask, I understand that we have a lot of KPEX going on,
+(50:12.740) impacts going on, but could management just update on the investors like on the shareholder returns, maybe in terms of the dividend payout ratio or dividend yield?
+(50:24.740) Thanks.
+(50:25.740) Okay. It's kind of, you know, you know,
+(50:28.740) point i always you know to make a decision between the uh the case for the meaningful investment
+(50:36.740) and the investment in the high growth year and and high return to our shareholders
+(50:43.780) based our experience we almost have provide over 80 percent of our efficient payout ratio
+(50:50.020) and we even nothing change we try we target to maintain that percentage
+(50:58.740) Thanks.
+(51:02.740) Okay, thanks, Claire.
+(51:07.340) Albert, please go ahead.
+(51:09.340) Yep, thanks, Howard.
+(51:14.680) So for the margin side, Carol mentioned that two-thirds of the sequential course margin
+(51:23.700) decline was due to FX, right, sequential.
+(51:27.020) So if I add that, say, 0.6% back, and assuming like normalized gross margin is like 7.6%,
+(51:35.920) the gross profit dollar actually remains just fattish quote-unquote.
+(51:41.040) So my question is, when NOBO is growing like 12% quote-unquote, general survey, as you
+(51:47.760) say, there's some point demand, and AI is ramping up, and why the gross profit dollar
+(51:53.620) only remains fattish quote-unquote?
+(51:55.780) was there any like other one of expense,
+(52:00.740) not just FX, maybe Rambachos, et cetera.
+(52:04.020) Could you help us understand more about that?
+(52:06.060) Thank you.
+(52:17.240) Okay.
+(52:18.920) You know, first of all,
+(52:21.100) but with more gb 200 there will margin rate dilute definitely so not only effects of the product mix
+(52:29.740) as well okay we keep emphasizing again again it's about the thing is a different product
+(52:35.180) product mix profile we're mixing different okay and i appreciate your your math but anyhow you
+(52:42.700) know that's a reality you know when we migrate to a high asb product by nature they have a dilution
+(52:48.940) about those margins definitely okay but just want to give you more color about how you know the other
+(52:55.420) impact uh from fx got you and uh second follow-up is if i look at inventory actually our inventory
+(53:09.180) will control very um say um was well under control existing second quarter it didn't increase that
+(53:16.300) much and um so my question is usually inventory is a leading indicator for the say sales right
+(53:24.140) so if like ai demand is so strong and why shouldn't we see the big jump in the inventory
+(53:30.940) to exist in second quarter and also if the inventory can sustain that current level then
+(53:38.320) and why we need more like working capital,
+(53:44.560) say help from the ECB or syndicated loan?
+(53:48.180) Thank you.
+(53:51.140) First of all, syndication with refinancing.
+(53:53.660) Okay.
+(53:54.540) And to have an ECB, they were two boards.
+(53:58.340) First of all, to have a more financial flexibility.
+(54:03.340) Secondly, to tap the low interest rate with low dilutions.
+(54:09.340) This is kind of financial tool, financial department.
+(54:14.340) We need to be looking for the best financial vehicle to funding our needs.
+(54:20.340) In terms of inventory, it depends on when you input your warehouse.
+(54:25.340) So some of them are already in our warehouse.
+(54:28.340) So that's why, you know, they have a double impact.
+(54:31.340) When you're early in your warehouse,
+(54:34.060) you have an FSP impact,
+(54:35.840) but you also secure your orders.
+(54:37.920) Okay, so that's, can you move me to the next one?
+(54:40.880) Okay, some of them are already in our warehouse.
+(54:43.900) So we don't see significant growth about the inventory.
+(54:49.620) So that's a dynamic, okay.
+(54:53.140) That's for your reference.
+(54:55.380) Thank you.
+(54:56.720) I'll go back to the queue.
+(54:59.060) Thanks, Albert.
+(55:00.060) Maybe one last question from Kai Huang.
+(55:02.700) Kai, please go ahead.
+(55:09.420) Yeah.
+(55:10.400) Thank you for accepting my question again.
+(55:12.620) And my final question is about the notebook business.
+(55:15.260) Could you please share with us the percentage of contribution from notebook in the second quarter?
+(55:20.360) And also, what is the dynamics for this segment in this year, like from Chromebook, the gaming, or commercial?
+(55:28.020) and what is the outlook for this business for 2026 to go?
+(55:33.880) Thank you.
+(55:36.340) Nobu now is accounting about 20 to 25% of total revenue.
+(55:41.900) And Chromebook in the second half
+(55:45.780) will be back to the team percentage at regular cost.
+(55:51.160) And we still have a console,
+(55:53.400) a percentage on a high, again console.
+(55:56.200) So, you know, they were back to the normal, you know, second half were back to the normal
+(56:01.120) distribution between the regular notebook and Chromebook.
+(56:05.760) Okay.
+(56:06.760) Yeah, understood.
+(56:07.760) So, do we expect like a 50 to 50 distribution of notebook business for this year or still
+(56:16.960) some higher demand for the second half?
+(56:20.760) I would say 50-50 split between the first half and second half.
+(56:25.960) Is that for revenue-based or shipment-based?
+(56:31.520) Shipment-based.
+(56:32.520) Again, in our notebook, we see a different customer, different profile, different price
+(56:39.320) profile as well.
+(56:40.320) But anyhow, the shipment will be more appropriate to evaluate that.
+(56:45.200) Otherwise, you're falling into so-called margin dilution issue as well.
+(56:48.960) Okay, understood.
+(56:50.520) Appreciate that.
+(56:51.520) Thank you.
+(56:52.520) Okay.
+(56:53.520) Okay, thanks Kai. I think in the interest of time, we are getting close to one hour mark.
+(57:01.520) So maybe let me turn the call back to Elton or Cece to see if you guys have any closing remarks.
+(57:08.520) Okay. Okay, this is Elton. In summary, our better quarterly results reflect the momentum we are building across our business.
+(57:21.520) While we are facing some headwinds from dynamic macro regulatory environment, we believe they
+(57:26.980) are more than offset by the powerful tailwinds from our leadership product portfolio and
+(57:31.240) resilient manufacturing capability.
+(57:34.060) And the outstanding performance shows our greed and determination by quick adoption
+(57:38.340) to a dynamic market, focus of what we can control, extending our business strategy into
+(57:44.000) those high growth opportunities.
+(57:46.120) And we are excited about that.
+(57:48.120) Thank you.
+(57:49.120) Perfect.
+(57:50.120) Perfect. Thank you, Elton. Thank you, Cece. Thank you, Carol and Ale for your time. And thank you, everyone, for joining us. We will see you all next time.
+(57:57.900) Thank you.
+(57:58.740) Okay, thank you.
