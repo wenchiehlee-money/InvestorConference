@@ -244,7 +244,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
   const IR_STEM_RE = /^(\d+)_(\d{4})_q(\d)$/i
   for (const stem of Object.keys(data.manifest)) {
     const m = stem.match(IR_STEM_RE)
-    if (m && !entries.has(stem)) {
+    if (m) {
       const [, stockId, year, quarter] = m
       const entry = getOrCreate(stem, () => ({
         id: stockId,
@@ -254,8 +254,8 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
         srts: [],
         pdfs: [],
       }))
-      entry.audioUrl = getAudioUrl('', stem, data)
-      entry.durationSec = data.durations[stem]
+      if (!entry.audioUrl) entry.audioUrl = getAudioUrl('', stem, data)
+      if (!entry.durationSec) entry.durationSec = data.durations[stem]
     }
   }
 
