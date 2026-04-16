@@ -40,15 +40,12 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip3 install -q requests playwright yt-dlp
-          pip3 install "audio-storage @ git+https://github.com/wenchiehlee-money/audio-storage.git"
           python3 -m playwright install chromium --with-deps 2>/dev/null || \
           python3 -m playwright install chromium
 
       - name: Run ingest.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GDRIVE_API_CREDENTIALS: ${{ secrets.GDRIVE_API_CREDENTIALS }}
-          GDRIVE_AUDIO_FOLDER_ID: ${{ secrets.GDRIVE_AUDIO_FOLDER_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           PUSH_FLAG=${{ inputs.push == true && '--push' || '' }}
