@@ -1270,6 +1270,26 @@ def update_readme() -> None:
                 _, year, qnum = m3.groups()[:3]
                 _entry(stock_id, year, qnum)["pdf_en"] = f"{stock_id}/{f.name}"
 
+    # ── Process Manifest (Remote/Drive files) ──
+    manifest_file = repo / "audio_manifest.json"
+    if manifest_file.exists():
+        try:
+            manifest = json.loads(manifest_file.read_text(encoding="utf-8"))
+            for stem in manifest.keys():
+                m = re.match(rf'^({_TICKER})_(\d{{4}})_q(\d)$', stem, re.I)
+                if m:
+                    sid, y, q = m.groups()
+                    e = _entry(sid, y, q)
+                    if not e["audio_path"]:
+                        # audio_path can be anything truthy to indicate "audio exists"
+                        e["audio_path"] = f"{sid}/{stem}.m4a" 
+                        for rel_path, dur in durations_cache.items():
+                            if rel_path.startswith(f"{sid}/{stem}."):
+                                e["audio_path"] = rel_path
+                                e["audio_min"] = float(dur) / 60
+                                break
+        except Exception: pass
+
     rows = list(entries.values())
 
     # Read raw_event_upcoming_earnings.csv — all event types (法說會 + 財報公告)
@@ -1453,11 +1473,18 @@ def sync_all_audio_durations(repo: Path) -> None:
     """Scan all directories for audio files and rebuild audio_durations.json."""
     print("\n[durations] Running full sweep of audio files...")
     durations_file = repo / "audio_durations.json"
+    manifest_file = repo / "audio_manifest.json"
     
     current_durations = {}
     if durations_file.exists():
         try:
             current_durations = json.loads(durations_file.read_text(encoding="utf-8"))
+        except Exception: pass
+
+    manifest_stems = set()
+    if manifest_file.exists():
+        try:
+            manifest_stems = set(json.loads(manifest_file.read_text(encoding="utf-8")).keys())
         except Exception: pass
 
     new_durations = {}
@@ -1469,6 +1496,7 @@ def sync_all_audio_durations(repo: Path) -> None:
     found_count = 0
     updated_count = 0
     
+    # 1. Check local files
     for p in repo.iterdir():
         if p.is_dir() and p.name not in exclude_dirs:
             for audio_file in p.glob("*"):
@@ -1476,7 +1504,6 @@ def sync_all_audio_durations(repo: Path) -> None:
                     found_count += 1
                     key = str(audio_file.relative_to(repo)).replace("\\", "/")
                     
-                    # If already known, reuse to save time (unless you want to force re-probe)
                     if key in current_durations:
                         new_durations[key] = current_durations[key]
                     else:
@@ -1496,12 +1523,19 @@ def sync_all_audio_durations(repo: Path) -> None:
                         except Exception as e:
                             print(f"  ⚠ Error probing {key}: {e}")
 
+    # 2. Keep entries from current_durations if they match the manifest (even if missing locally)
+    for key, val in current_durations.items():
+        if key not in new_durations:
+            stem = Path(key).stem
+            if stem in manifest_stems:
+                new_durations[key] = val
+
     # Write back
     durations_file.write_text(
         json.dumps(new_durations, indent=2, ensure_ascii=False, sort_keys=True) + "\n",
         encoding="utf-8",
     )
-    print(f"[durations] Sweep complete. Total: {found_count}, New/Updated: {updated_count}, Cleaned: {len(current_durations) - (found_count - updated_count)}")
+    print(f"[durations] Sweep complete. Total: {found_count}, New/Updated: {updated_count}, Cleaned: {len(current_durations) - len(new_durations) + updated_count}")
 
 
 def update_audio_durations(repo: Path, audio_path: Path) -> None:
