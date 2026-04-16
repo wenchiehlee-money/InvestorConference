@@ -62,10 +62,10 @@
 | 2317 鴻海 | 2026 Q1 | 2026-04-20 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2458 義隆 | 2026 Q1 | 2026-04-18 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2458) |
 | TSM 台積電 | 2026 Q1 | 2026-04-16 | — | — | — | [↗](https://finance.yahoo.com/quote/TSM/financials/) |
-| 2330 台積電 | 2026 Q1 | 2026-04-16 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
+| 2330 台積電 | 2026 Q1 | 2026-04-16 | [79.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2330_2026_q1.m4a) | [中](2330/2330_2026_q1_ir.pdf) | [EN](2330/2330_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 2308 台達電 | 2026 Q1 | 2026-04-16 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | TSM Taiwan Semiconductor Manufacturing Company Limited | 2026 Q1 | 2026-04-16 | — | — | — | [↗](https://finance.yahoo.com/quote/TSM/financials/) |
-| 2330 台積電 | 2026 Q1 | 2026-04-16 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
+| 2330 台積電 | 2026 Q1 | 2026-04-16 | [79.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2330_2026_q1.m4a) | [中](2330/2330_2026_q1_ir.pdf) | [EN](2330/2330_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 2324 仁寶 | 2026 Q1 | 2026-04-16 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
 | 6231 系微 | 2026 Q1 | 2026-04-16 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6231) |
 | 4938 和碩 | 2025 Q4 | 2026-03-25 | 無 | [中](4938/4938_2025_q4_ir.pdf) | [EN](4938/4938_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=4938) |
