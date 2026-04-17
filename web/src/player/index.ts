@@ -99,10 +99,14 @@ export async function renderPlayerView(
     ? `<div class="audio-controls">
         ${hasPdfs ? `<button class="pdf-show-btn" id="pdf-show-btn" style="display:none" title="顯示簡報">📄</button>` : ''}
         <button class="ctrl-btn play-pause-btn" title="播放/暫停">
-          <svg class="ctrl-icon" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+          <svg class="ctrl-icon" viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z"/></svg>
         </button>
         <button class="ctrl-btn mute-btn" title="靜音">
-          <svg class="ctrl-icon mute-icon" viewBox="0 0 24 24"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path class="mute-x" d="M19 9l-4 4m0-4l4 4" stroke-width="2"/></svg>
+          <svg class="ctrl-icon mute-icon" viewBox="0 0 24 24">
+            <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+            <path class="volume-wave" d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+            <path class="mute-x" d="M23 9l-6 6m0-6l6 6"/>
+          </svg>
         </button>
         <input type="range" class="volume-slider" min="0" max="1" step="0.05" value="1" title="音量">
         <div class="progress-wrap">
@@ -249,8 +253,8 @@ export async function renderPlayerView(
   }
 
   // ── audio setup ───────────────────────────────────────────────────────────
-  const PLAY_ICON = `<svg class="ctrl-icon" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>`
-  const PAUSE_ICON = `<svg class="ctrl-icon" viewBox="0 0 24 24"><rect x="5" y="3" width="4" height="18"/><rect x="15" y="3" width="4" height="18"/></svg>`
+  const PLAY_ICON = `<svg class="ctrl-icon" viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z"/></svg>`
+  const PAUSE_ICON = `<svg class="ctrl-icon" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>`
 
   let audio: HTMLAudioElement | null = null
   if (entry.audioUrl) {

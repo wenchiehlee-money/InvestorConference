@@ -854,26 +854,33 @@ mark { background: rgba(242, 178, 28, 0.35); border-radius: 2px; padding: 0 1px;
 .ctrl-btn:hover { background: var(--brand-light); border-color: var(--brand); }
 
 .ctrl-icon {
-  width: 14px;
-  height: 14px;
-  fill: var(--gray-600);
-  stroke: none;
-  display: block;
-}
-.ctrl-btn:hover .ctrl-icon { fill: var(--brand-text); }
-
-/* Mute button — uses stroke icons */
-.mute-btn .ctrl-icon {
+  width: 16px;
+  height: 16px;
   fill: none;
   stroke: var(--gray-600);
   stroke-width: 2;
   stroke-linecap: round;
+  stroke-linejoin: round;
+  display: block;
+  transition: stroke 0.12s;
 }
-.ctrl-btn:hover .mute-btn .ctrl-icon,
-.mute-btn:hover .ctrl-icon { stroke: var(--brand-text); }
+.ctrl-btn:hover .ctrl-icon { stroke: var(--brand-text); }
+
+/* Mute button — specific colors */
 .mute-btn.muted .ctrl-icon { stroke: #dc2626; }
 .mute-x { display: block; }
 .mute-btn:not(.muted) .mute-x { display: none; }
+.mute-btn.muted .volume-wave { display: none; }
+
+/* Play/Pause Button sizing fix */
+.play-pause-btn {
+  width: 36px;
+  height: 36px;
+}
+.play-pause-btn .ctrl-icon {
+  width: 18px;
+  height: 18px;
+}
 
 /* Volume slider */
 .volume-slider {
@@ -965,28 +972,6 @@ mark { background: rgba(242, 178, 28, 0.35); border-radius: 2px; padding: 0 1px;
   flex-shrink: 0;
 }
 .pdf-show-btn:hover { background: var(--brand-light); border-color: var(--brand); color: var(--brand-text); }
-
-.play-pause-btn, .stop-btn {
-  padding: 6px 16px;
-  border: 1px solid var(--gray-300);
-  border-radius: 6px;
-  background: var(--gray-50);
-  cursor: pointer;
-  font-size: 13px;
-  transition: all 0.12s;
-}
-
-.play-pause-btn:hover {
-  background: var(--brand-light);
-  border-color: var(--brand);
-  color: var(--brand-text);
-}
-
-.stop-btn:hover {
-  background: #fef2f2;
-  border-color: #dc2626;
-  color: #dc2626;
-}
 
 .speed-select {
   padding: 4px 8px;
