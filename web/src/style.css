@@ -1014,6 +1014,10 @@ mark { background: rgba(242, 178, 28, 0.35); border-radius: 2px; padding: 0 1px;
   .fm-view-tabs   { padding: 0 16px; overflow-x: auto; }
   .fm-view-tabs button { white-space: nowrap; }
 
+  /* Compact player header on mobile */
+  .player-desc  { display: none; }
+  .player-links { display: none; }
+
   /* Player: PDF on top, transcript below on mobile */
   .player-body {
     flex-direction: column;
