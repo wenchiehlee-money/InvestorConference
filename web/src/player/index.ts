@@ -255,7 +255,9 @@ export async function renderPlayerView(
   let audio: HTMLAudioElement | null = null
   if (entry.audioUrl) {
     audio = new Audio()
+    audio.preload = 'metadata'
     audio.src = entry.audioUrl
+    audio.load()
     const playPauseBtn  = container.querySelector<HTMLButtonElement>('.play-pause-btn')!
     const muteBtn       = container.querySelector<HTMLButtonElement>('.mute-btn')!
     const volumeSlider  = container.querySelector<HTMLInputElement>('.volume-slider')!
