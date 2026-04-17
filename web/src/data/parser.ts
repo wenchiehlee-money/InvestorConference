@@ -258,7 +258,13 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
         pdfs: [],
       }))
       if (!entry.audioUrl) entry.audioUrl = getAudioUrl('', stem, data)
-      if (!entry.durationSec) entry.durationSec = data.durations[stem]
+      if (!entry.durationSec) {
+        // durations.json keys use file paths like "2330/2330_2025_q4.m4a"
+        entry.durationSec = data.durations[`${stockId}/${stem}.m4a`]
+          ?? data.durations[`${stockId}/${stem}.mp3`]
+          ?? data.durations[`${stockId}/${stem}.wav`]
+          ?? data.durations[stem]
+      }
     }
   }
 

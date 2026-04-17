@@ -269,10 +269,18 @@ export async function renderPlayerView(
     // Show pre-computed duration immediately (iOS ignores preload before user gesture)
     if (entry.durationSec) totalTimeEl.textContent = fmtTime(entry.durationSec, false)
 
-    // Play / Pause
-    playPauseBtn.addEventListener('click', () => {
-      if (audio!.paused) audio!.play().catch(console.error)
+    // Play / Pause — touchend for iOS (fires before click, avoids 300ms delay + gesture recognition)
+    const togglePlay = () => {
+      if (audio!.paused) audio!.play().catch(err => { console.error('play failed:', err) })
       else audio!.pause()
+    }
+    playPauseBtn.addEventListener('click', togglePlay)
+    playPauseBtn.addEventListener('touchend', (e) => { e.preventDefault(); togglePlay() })
+
+    // Show audio load errors visibly
+    audio.addEventListener('error', () => {
+      totalTimeEl.textContent = 'err'
+      console.error('audio error', audio!.error?.message)
     })
 
     // Mute
