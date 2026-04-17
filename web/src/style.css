@@ -1014,7 +1014,7 @@ mark { background: rgba(242, 178, 28, 0.35); border-radius: 2px; padding: 0 1px;
   .fm-view-tabs   { padding: 0 16px; overflow-x: auto; }
   .fm-view-tabs button { white-space: nowrap; }
 
-  /* Player: stack PDF panel above transcript on mobile */
+  /* Player: PDF on top, transcript below on mobile */
   .player-body {
     flex-direction: column;
   }
@@ -1023,8 +1023,9 @@ mark { background: rgba(242, 178, 28, 0.35); border-radius: 2px; padding: 0 1px;
     width: 100%;
     max-width: 100%;
     min-width: 0;
-    height: 45vh;
+    height: 40vh;
     flex-shrink: 0;
+    order: -1;
   }
 
   .pdf-panel.hidden {
@@ -1035,6 +1036,7 @@ mark { background: rgba(242, 178, 28, 0.35); border-radius: 2px; padding: 0 1px;
   .transcript-panel {
     flex: 1;
     min-height: 0;
+    order: 0;
   }
 
   /* Simplify audio controls on small screens */
