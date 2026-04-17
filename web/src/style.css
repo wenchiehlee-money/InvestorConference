@@ -1013,4 +1013,30 @@ mark { background: rgba(242, 178, 28, 0.35); border-radius: 2px; padding: 0 1px;
   .fm-content     { padding: 16px; }
   .fm-view-tabs   { padding: 0 16px; overflow-x: auto; }
   .fm-view-tabs button { white-space: nowrap; }
+
+  /* Player: stack PDF panel above transcript on mobile */
+  .player-body {
+    flex-direction: column;
+  }
+
+  .pdf-panel {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: 45vh;
+    flex-shrink: 0;
+  }
+
+  .pdf-panel.hidden {
+    height: 0;
+    overflow: hidden;
+  }
+
+  .transcript-panel {
+    flex: 1;
+    min-height: 0;
+  }
+
+  /* Simplify audio controls on small screens */
+  .volume-slider { width: 48px; }
 }
