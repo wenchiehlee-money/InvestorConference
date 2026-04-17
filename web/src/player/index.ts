@@ -256,7 +256,14 @@ export async function renderPlayerView(
   if (entry.audioUrl) {
     audio = new Audio()
     audio.preload = 'metadata'
-    audio.src = entry.audioUrl
+    // Use <source> with explicit MIME type so iOS doesn't reject application/octet-stream
+    const src = document.createElement('source')
+    src.src = entry.audioUrl
+    const ext = entry.audioUrl.split('?')[0].split('.').pop()?.toLowerCase()
+    if (ext === 'm4a' || ext === 'mp4') src.type = 'audio/mp4'
+    else if (ext === 'mp3')             src.type = 'audio/mpeg'
+    else if (ext === 'wav')             src.type = 'audio/wav'
+    audio.appendChild(src)
     audio.load()
     const playPauseBtn  = container.querySelector<HTMLButtonElement>('.play-pause-btn')!
     const muteBtn       = container.querySelector<HTMLButtonElement>('.mute-btn')!
@@ -277,10 +284,11 @@ export async function renderPlayerView(
     playPauseBtn.addEventListener('click', togglePlay)
     playPauseBtn.addEventListener('touchend', (e) => { e.preventDefault(); togglePlay() })
 
-    // Show audio load errors visibly
+    // Show audio load errors visibly (code: 1=aborted 2=network 3=decode 4=unsupported)
     audio.addEventListener('error', () => {
-      totalTimeEl.textContent = 'err'
-      console.error('audio error', audio!.error?.message)
+      const code = audio!.error?.code ?? '?'
+      totalTimeEl.textContent = `err${code}`
+      console.error('audio error', code, audio!.error?.message, entry.audioUrl)
     })
 
     // Mute
