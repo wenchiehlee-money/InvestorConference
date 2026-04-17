@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/2330/earnings-calls/q1-2026
-Generated-At: 2026-04-16
+Generated-At: 2026-04-17
 ---
 
 Dashboard
@@ -32,8 +32,8 @@ Financials
 Dividends
 Investor Relations
 Discount Rate
-Price: 2 080 TWD  Market Closed
-Market Cap: NT$53.9T
+Price: 2 040 TWD  -2.16%
+Market Cap: NT$52.9T
 Taiwan Semiconductor Manufacturing Co Ltd
 Investor Relations
 
@@ -51,12 +51,12 @@ Apr 2026
 50%
 100%
 150%
-Apr 16, 2026
+Apr 17, 2026
 2330
-+145.57%
++140.00%
 T
 Taiwan Weighted Index
-+92.01%
++89.81%
 1Y
 3Y
 5Y
