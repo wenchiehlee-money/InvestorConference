@@ -266,6 +266,9 @@ export async function renderPlayerView(
     const currentTimeEl = container.querySelector<HTMLElement>('.current-time')!
     const totalTimeEl   = container.querySelector<HTMLElement>('.total-time')!
 
+    // Show pre-computed duration immediately (iOS ignores preload before user gesture)
+    if (entry.durationSec) totalTimeEl.textContent = fmtTime(entry.durationSec, false)
+
     // Play / Pause
     playPauseBtn.addEventListener('click', () => {
       if (audio!.paused) audio!.play().catch(console.error)
