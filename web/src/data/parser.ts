@@ -79,8 +79,8 @@ function getAudioUrl(path: string, stem: string, data: LoadedData): string {
   if (val) {
     // Full URL (e.g. GitHub Release) → use directly
     if (val.startsWith('https://')) return val
-    // Legacy: bare GDrive file ID — confirm=t bypasses virus-scan redirect (required for iOS Safari)
-    return `https://drive.google.com/uc?export=download&confirm=t&id=${val}`
+    // Legacy: bare GDrive file ID
+    return `https://drive.google.com/uc?export=download&id=${val}`
   }
   return mediaUrl(path)
 }
