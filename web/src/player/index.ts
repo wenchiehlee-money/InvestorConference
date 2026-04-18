@@ -50,37 +50,10 @@ export async function renderPlayerView(
   const hasPdfs = entry.pdfs.length > 0
   const primaryPdf = entry.pdfs.find(p => p.label === 'ir') ?? entry.pdfs[0]
 
-  const pdfLinksHtml = entry.pdfs
-    .map(p => `<a class="pdf-link" href="${escAttr(p.url)}" target="_blank" rel="noopener">📄 ${esc(p.label)} ↗</a>`)
-    .join('')
+  const hasPdfs = entry.pdfs.length > 0
 
-  const pdfTabsHtml = entry.pdfs
     .map((p, i) => `<button class="pdf-tab${i === 0 ? ' active' : ''}" data-raw-url="${escAttr(p.url)}">${esc(p.label)}</button>`)
     .join('')
-
-  const pdfPanelHtml = hasPdfs
-    ? `<div class="pdf-panel" id="pdf-panel">
-        <div class="pdf-panel-header">
-          <button class="pdf-toggle-btn" title="隱藏簡報">‹</button>
-          <div class="pdf-tabs">${pdfTabsHtml}</div>
-          <a class="pdf-open-link" href="${escAttr(primaryPdf.url)}" target="_blank" rel="noopener" title="在新分頁開啟">↗</a>
-        </div>
-        <div class="pdf-canvas-wrap" id="pdf-canvas-wrap">
-          <canvas id="pdf-canvas"></canvas>
-        </div>
-        <div class="pdf-panel-footer">
-          <button class="pdf-nav-btn" id="pdf-prev" title="上一頁">&#8249;</button>
-          <span class="pdf-page-info">
-            <select id="pdf-page-select" class="pdf-page-select" title="選擇頁碼">
-              <option value="1">1</option>
-            </select>
-            <span class="pdf-page-sep">/</span>
-            <span id="pdf-page-total">?</span>
-          </span>
-          <button class="pdf-nav-btn" id="pdf-next" title="下一頁">&#8250;</button>
-        </div>
-      </div>`
-    : ''
 
   const controlsHtml = entry.audioUrl
     ? `<div class="audio-controls">
