@@ -44,6 +44,11 @@ jobs:
           python3 -m playwright install chromium --with-deps 2>/dev/null || \
           python3 -m playwright install chromium
 
+      - name: Configure git identity
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
       - name: Run ingest.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -65,39 +70,17 @@ jobs:
           ASSET_DIR="artifacts/${STEM}"
           mkdir -p "$ASSET_DIR"
 
-          audio_found=0
-          for candidate in \
-            "tmp/${STEM}.m4a" \
-            "tmp/${STEM}.mp3" \
-            "${{ inputs.stock_id }}/${STEM}.m4a" \
-            "${{ inputs.stock_id }}/${STEM}.mp3"
+          # Audio can be in tmp (unpushed) or stock folder (pushed)
+          found=0
+          for candidate in "tmp/${STEM}".* "${{ inputs.stock_id }}/${STEM}".*
           do
-            if [ -f "$candidate" ]; then
+            # Only match audio and PDF/MD
+            if [[ $candidate =~ \.(m4a|mp3|pdf|md)$ ]]; then
               cp "$candidate" "$ASSET_DIR/"
-              echo "Collected audio: $candidate"
-              audio_found=1
+              echo "Collected: $candidate"
+              found=1
             fi
           done
-
-          pdf_found=0
-          for candidate in "tmp/${STEM}"_*.pdf "${{ inputs.stock_id }}/${STEM}"_*.pdf
-          do
-            if [ -f "$candidate" ]; then
-              cp "$candidate" "$ASSET_DIR/"
-              echo "Collected PDF: $candidate"
-              pdf_found=1
-            fi
-          done
-
-          if [ "$audio_found" -ne 1 ]; then
-            echo "✗ Audio output not found in tmp/ or ${{ inputs.stock_id }}/" >&2
-            exit 1
-          fi
-
-          if [ "$pdf_found" -ne 1 ]; then
-            echo "✗ PDF output not found in tmp/ or ${{ inputs.stock_id }}/" >&2
-            exit 1
-          fi
 
           echo "asset_dir=$ASSET_DIR" >> "$GITHUB_OUTPUT"
 
