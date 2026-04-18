@@ -857,6 +857,21 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
             page.goto(ir_url, wait_until="domcontentloaded", timeout=30000)
             page.wait_for_timeout(3000)  # let lazy JS finish
 
+            # TSMC Special: Look for play button or audio link specifically
+            if "tsmc" in ir_url.lower():
+                print("[PW-IR] TSMC specific: Looking for Play button...")
+                try:
+                    # Try to find and click play/audio buttons
+                    selectors = ["text=Play", "text=Audio", ".play-button", "button:has-text('Replay')"]
+                    for sel in selectors:
+                        if page.is_visible(sel):
+                            page.click(sel)
+                            print(f"[PW-IR] Clicked {sel}")
+                            page.wait_for_timeout(5000)
+                            break
+                except Exception as e:
+                    print(f"[PW-IR] TSMC click failed: {e}")
+
             # Scan DOM for video/source/iframe src attrs
             for attr in ["video[src]", "source[src]", "a[href]"]:
                 try:
@@ -893,6 +908,11 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
             if y == target_year and month_min <= mo <= month_max:
                 print(f"[PW-IR] Matched Q{quarter} {year}: {url[:80]}...")
                 return url, date_str
+
+    # TSMC Fallback: If on TSMC page and captured anything, take the first one
+    if "tsmc" in ir_url.lower() and all_videos:
+        print(f"[PW-IR] TSMC Fallback: Taking first captured video for 2330: {all_videos[0][0][:80]}...")
+        return all_videos[0][0], ""
 
     # For YouTube URLs without date: check title via yt-dlp
     yt_candidates = [(u, d) for u, d in all_videos
