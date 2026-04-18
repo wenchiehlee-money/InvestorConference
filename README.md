@@ -45,7 +45,7 @@
 | QCOM Qualcomm 高通 | 2026 Q1 / Q2FY2026 | 2026-04-29 | 無 | [中](QCOM/QCOM_2026_q1_ir.pdf) | — | [↗](https://finance.yahoo.com/quote/QCOM/financials/) |
 | 2308 台達電 | 2026 Q1 | 2026-04-29 | 無 | [中](2308/2308_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | 2454 聯發科 | 2026 Q1 | 2026-04-29 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
-| 2301 光寶科 | 2026 Q1 | 2026-04-29 | 無 | [中](2301/2301_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
+| 2301 光寶科 | 2026 Q1 | 2026-04-29 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | 2303 聯電 | 2026 Q1 | 2026-04-29 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2303) |
 | 2383 台光電 | 2026 Q1 | 2026-04-29 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2383) |
 | 3711 日月光投控 | 2026 Q1 | 2026-04-29 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3711) |
@@ -66,9 +66,7 @@
 | 2330 台積電 | 2026 Q1 | 2026-04-16 | [79.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2330_2026_q1.m4a) [📝](2330/2330_2026_q1_FIN.srt) | [中](2330/2330_2026_q1_ir.pdf) | [EN](2330/2330_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 2324 仁寶 | 2026 Q1 | 2026-04-16 | 無 | [中](2324/2324_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
 | 6231 系微 | 2026 Q1 | 2026-04-16 | 無 | [中](6231/6231_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6231) |
-| 2301 光寶科 | 2026 Q1 | 2026-04-15 | 無 | [中](2301/2301_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | 2324 仁寶 | 2026 Q1 | 2026-04-15 | 無 | [中](2324/2324_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
-| 2301 光寶科 | 2026 Q1 | 2026-04-14 | 無 | [中](2301/2301_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | 2308 台達電 | 2026 Q1 | 2026-04-14 | 無 | [中](2308/2308_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | 6231 系微 | 2026 Q1 | 2026-04-14 | 無 | [中](6231/6231_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6231) |
 | 2408 南亞科 | 2026 Q1 | 2026-04-13 | 無 | [中](2408/2408_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2408) |
@@ -95,6 +93,7 @@
 | 2480 敦陽科 | 2025 Q4 | 2026-03-10 | [57.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2480_2025_q4.m4a) [📝](2480/2480_2025_q4_FIN.srt) | [中](2480/2480_2025_q4_ir.pdf) | [EN](2480/2480_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2480) |
 | 2308 台達電 | 2025 Q4 | 2026-03-10 | [61.9 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2308_2025_q4.m4a) [📝](2308/2308_2025_q4_FIN.srt) | [中](2308/2308_2025_q4_ir.pdf) | [EN](2308/2308_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | 7765 中華資安 | 2025 Q4 | 2026-03-05 | [68.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/7765_2025_q4.m4a) | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7765) |
+| 2301 光寶科 | 2025 Q4 | 2026-02-25 | 無 | [中](2301/2301_2025_q4_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | 2330 台積電 | 2025 Q1 |  | [70.4 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2330_2025_q1.m4a) [📝](2330/2330_2025_q1_FIN.srt) | [中](2330/2330_2025_q1_ir.pdf) | [EN](2330/2330_2025_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 2330 台積電 | 2025 Q2 |  | [77.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2330_2025_q2.m4a) [📝](2330/2330_2025_q2_FIN.srt) | [中](2330/2330_2025_q2_ir.pdf) | [EN](2330/2330_2025_q2_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 2330 台積電 | 2025 Q3 |  | [62.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2330_2025_q3.m4a) [📝](2330/2330_2025_q3_FIN.srt) | [中](2330/2330_2025_q3_ir.pdf) | [EN](2330/2330_2025_q3_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
