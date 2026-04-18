@@ -998,11 +998,12 @@ def download_audio(source: str, output_path: Path,
         "--output", str(output_path),
         "--no-playlist",
         "--no-warnings",
+        "--no-check-certificates",
+        "--legacy-server-connect",
+        "--prefer-free-formats"
     ]
     if match_title:
         cmd += ["--match-filter", f"title~='{match_title}'"]
-    if no_check_cert:
-        cmd += ["--no-check-certificates"]
 
     print(f"[yt-dlp] {' '.join(cmd)}")
     result = subprocess.run(cmd, capture_output=True, encoding="utf-8", errors="replace")
