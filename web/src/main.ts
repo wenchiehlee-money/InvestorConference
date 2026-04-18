@@ -99,11 +99,22 @@ function renderFileManager(entries: AudioEntry[]): void {
       </div>
 
       <div class="fm-view-tabs" id="view-tabs">
-        ${(['列表', '公司分組', '法說日期', '搜尋'] as ViewMode[]).map(v => `
-          <button data-view="${v}"${currentView === v ? ' class="active"' : ''}>
-            ${v === '搜尋' ? '🔍 全文搜尋' : v}
-          </button>
-        `).join('')}
+        <button data-view="列表"${currentView === '列表' ? ' class="active"' : ''}>
+          <svg class="tab-icon" viewBox="0 0 24 24"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+          列表
+        </button>
+        <button data-view="公司分組"${currentView === '公司分組' ? ' class="active"' : ''}>
+          <svg class="tab-icon" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          公司分組
+        </button>
+        <button data-view="法說日期"${currentView === '法說日期' ? ' class="active"' : ''}>
+          <svg class="tab-icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          法說日期
+        </button>
+        <button data-view="搜尋"${currentView === '搜尋' ? ' class="active"' : ''}>
+          <svg class="tab-icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          全文搜尋
+        </button>
       </div>
 
       <div id="content" class="fm-content"></div>

@@ -55,7 +55,7 @@ export async function renderPlayerView(
 
   const controlsHtml = entry.audioUrl
     ? `<div class="audio-controls">
-        ${hasPdfs ? `<button class="pdf-show-btn" id="pdf-show-btn" style="display:none" title="顯示簡報">📄</button>` : ''}
+        ${hasPdfs ? `<button class="pdf-show-btn" id="pdf-show-btn" style="display:none" title="顯示簡報"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>簡報</button>` : ''}
         <button class="ctrl-btn play-pause-btn" title="播放/暫停">
           <svg class="ctrl-icon" viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z"/></svg>
         </button>
@@ -80,7 +80,7 @@ export async function renderPlayerView(
         </select>
       </div>`
     : `<div class="audio-controls no-audio">
-        ${hasPdfs ? `<button class="pdf-show-btn" id="pdf-show-btn" style="display:none" title="顯示簡報">📄</button>` : ''}
+        ${hasPdfs ? `<button class="pdf-show-btn" id="pdf-show-btn" style="display:none" title="顯示簡報"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>簡報</button>` : ''}
         （無音訊檔）
       </div>`
 
@@ -98,11 +98,11 @@ export async function renderPlayerView(
             ${hasBothSrts
               ? `<div class="mode-selector">
                    <input type="radio" name="play-mode" id="mode-gt" value="GT">
-                   <label for="mode-gt">GT</label>
+                   <label for="mode-gt"><span class="mode-dot mode-dot-gt"></span>GT</label>
                    <input type="radio" name="play-mode" id="mode-fin" value="FIN">
-                   <label for="mode-fin">FIN</label>
+                   <label for="mode-fin"><span class="mode-dot mode-dot-fin"></span>FIN</label>
                    <input type="radio" name="play-mode" id="mode-diff" value="DIFF" checked>
-                   <label for="mode-diff">Diff</label>
+                   <label for="mode-diff"><span class="mode-dot mode-dot-diff"></span>Diff</label>
                    <div class="mode-glider"></div>
                  </div>`
               : ''}
