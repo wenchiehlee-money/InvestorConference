@@ -1168,12 +1168,11 @@ def _csv_row_yq(ev_name: str, remarks: str, date_str: str) -> tuple[str | None, 
     1. Explicit ``YYYY Q#`` pattern found in 備註 (remarks) column.
     2. Explicit ``YYYY Q#`` pattern found in 事件名稱 (event name).
     3. Fall back to date-based heuristic via expected_quarter().
-
-    This lets the CSV author override the heuristic for ambiguous dates
-    (e.g. TSMC 2026-04-16 is 2026 Q1, not 2025 Q4).
     """
     _yq_pat = re.compile(r'(\d{4})\s*[Qq](\d)')
-    for text in (remarks or "", ev_name or ""):
+    # Explicitly check remarks and event name
+    for text in [remarks, ev_name]:
+        if not text: continue
         m = _yq_pat.search(text)
         if m:
             return m.group(1), m.group(2)
