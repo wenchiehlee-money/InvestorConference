@@ -31,8 +31,11 @@ def _upload_gh_asset(token: str, audio_path: Path) -> str:
     release = _get_or_create_release(token)
     for asset in release.get("assets", []):
         if asset["name"] == audio_path.name:
-            print(f"[gh-release] Asset already exists: {asset['browser_download_url']}")
-            return asset["browser_download_url"]
+            print(f"[gh-release] Asset already exists. Deleting old asset: {asset['name']}...")
+            del_r = requests.delete(asset["url"], headers=_gh_headers(token))
+            del_r.raise_for_status()
+            break
+
     suffix_map = {".m4a": "audio/mp4", ".mp3": "audio/mpeg", ".wav": "audio/wav"}
     content_type = suffix_map.get(audio_path.suffix.lower(), "application/octet-stream")
     upload_url = release["upload_url"].replace("{?name,label}", f"?name={audio_path.name}")
