@@ -1,14 +1,7 @@
 [METADATA]
-Source: 2330_2026_q1.m4a
-Provider: mlx-whisper
-Model: whisper-large-v3
-Model-Repo: mlx-community/whisper-large-v3-mlx
-Duration: 79.2 min (4754s)
-Transcription-Time: 505.0s
-RTF: 0.106
-Generated-At: 2026-04-18 18:01 CST
+Source: 2330_2026_q1_exp13
+Language: en
 ---
-
 (00:30.000) Good afternoon, everyone, and welcome to TSMC's fourth quarter 2025 earnings conference and conference call.
 (00:38.860) My name is Jeff Su, TSMC's Director of Investor Relations and your host for today.
 (00:45.180) Today's event is being webcast live through TSMC's website at www.tsmc.com, where you can also download the earnings release materials.
@@ -60,8 +53,8 @@ Generated-At: 2026-04-18 18:01 CST
 (06:29.580) bonds payable to current portion.
 (06:33.460) In terms of financial ratios, accounts receivable days increased by 1 day to 26 days.
 (06:41.200) Inventory days remained steady at 74 days.
-(06:46.680) Regarding cash flow and CAPEX, during the fourth quarter, we generated about $726 billion
-(06:54.000) NT in cash from operations, spent $357 billion in CAPEX, and distributed $130 billion for
+(06:46.680) Regarding cash flow and Capex, during the fourth quarter, we generated about $726 billion
+(06:54.000) NT in cash from operations, spent $357 billion in Capex, and distributed $130 billion for
 (07:04.540) first quarter 25 cash dividend.
 (07:07.920) Overall, our cash balance increased 297 billion NT to 2.8 trillion at the end of the quarter.
 (07:18.040) In U.S. dollar terms, our fourth quarter capital expenditures total 11.5 billion.
@@ -127,14 +120,14 @@ Generated-At: 2026-04-18 18:01 CST
 (15:56.020) Finally, let me talk about TSMC's long-term profitability outlook. As a foundry,
 (16:04.360) our biggest responsibility is to support our customers' growth,
 (16:08.680) and we always view them as partners. Having said that, we are in a very capital-intensive business.
-(16:16.440) In the last five years alone, our CAPEX totaled $167 billion, our R&D investments totaled $30
+(16:16.440) In the last five years alone, our Capex totaled $167 billion, our R&D investments totaled $30
 (16:26.800) billion. Therefore, it is important for TSMC to earn a sustainable and healthy return as we
 (16:36.100) continue to invest in leading-edge specialty and advanced packaging
 (16:41.260) technologies to support our customers' growth. Today we face increasing
 (16:47.820) manufacturing cost challenges due to the rising cost of leading
 (16:53.140) nodes. For example, the cost of tools are becoming more expensive and process
-(16:59.800) complexity is increasing. As a result, the capex dollar required to build 1k wafer per month
-(17:07.660) capacity of N2 is substantially higher than 1k wafer per month capacity for N3. The capex per
+(16:59.800) complexity is increasing. As a result, the Capex dollar required to build 1k wafer per month
+(17:07.660) capacity of N2 is substantially higher than 1k wafer per month capacity for N3. The Capex per
 (17:17.380) k cost for A14 will be even higher. We also face additional cost challenges from expansion of our
 (17:25.300) global manufacturing footprint, new investments in specialty technologies, and inflationary costs.
 (17:33.140) These all lead to a higher level of Capex standing. As a result, in the last three years,
@@ -149,7 +142,7 @@ Generated-At: 2026-04-18 18:01 CST
 (18:27.480) across-node capacity optimization in our FAP operations to support our profitability.
 (18:35.600) By taking such actions, we believe a long-term gross margin of 56% and higher through the
 (18:42.760) The cycle is achievable and we can earn an ROE of high 20% through the cycle.
-(18:52.060) By earning a sustainable and healthy return, even as we shoulder a greater burden of capex
+(18:52.060) By earning a sustainable and healthy return, even as we shoulder a greater burden of Capex
 (18:58.120) investment for our customers, we can continue to invest in technology and capacity to support
 (19:05.300) their growth while delivering long-term profitable growth to our shareholders.
 (19:11.440) We also remain committed to a sustainable and steadily increasing cash dividends per
@@ -235,7 +228,7 @@ Generated-At: 2026-04-18 18:01 CST
 (29:25.400) Federal, State and City Governments.
 (29:28.840) Construction of our specialty fire in Dresden, Germany is progressing in our plan.
 (29:37.120) The REM schedule will be based on our customers' needs and market conditions.
-(29:43.040) In Taiwan, with support from the Taiwan government, we are preparing multiple phases of 2 nanometer
+(29:43.040) In Taiwan, with support from the Taiwan government, we are preparing multiple phases of 2 nm
 (29:52.040) fabs in both Hsinchu and Kaohsiung Science Park.
 (29:57.200) We will continue to invest in leading-edge and advanced packaging facilities in Taiwan
 (30:03.820) over the next few years.
@@ -288,7 +281,7 @@ Generated-At: 2026-04-18 18:01 CST
 (34:29.120) about the overall AI-related demand
 (34:32.180) and the semiconductor cycle.
 (34:33.900) So again, Goku notes that, as Wendell and you said,
-(34:37.700) we are substantially stepping up our CAPEX
+(34:37.700) we are substantially stepping up our Capex
 (34:40.640) to support the customers.
 (34:42.820) But he does say, you know,
 (34:44.460) there is concerns about an AI bubble and risk.
@@ -298,7 +291,7 @@ Generated-At: 2026-04-18 18:01 CST
 (34:57.020) both customers and the customers customers that CC mentioned? And how long do we think this cycle can
 (35:03.920) last? Okay, Goku, you essentially try to ask us whether the AI demand is real or not. I'm also
 (35:17.560) very nervous about it. You bet because we have to invest about 52 to 56 billion
-(35:24.320) US dollar for the capex, right? If we didn't do it carefully and that would be
+(35:24.320) US dollar for the Capex, right? If we didn't do it carefully and that would be
 (35:33.160) a big disaster to TSMC for sure. So of course I spent a lot of time in the
 (35:40.900) last three four months talking to my customer and then customers are
 (35:46.660) customer. I want to make sure that my customers' demands are real. So I talked to those cloud
@@ -330,7 +323,7 @@ Generated-At: 2026-04-18 18:01 CST
 (39:06.340) reports about TSMC might have to build more fabs in the U.S. How should we think about U.S. expansion
 (39:13.800) in principle over the next few years?
 (39:16.040) I think previously you had talked about reaching 20%
-(39:18.800) or even 30% of two nanometer capacity in the U.S.
+(39:18.800) or even 30% of 2nm capacity in the U.S.
 (39:22.740) Eventually, the total capacity could be in the U.S.
 (39:25.540) Could you give us a little bit more detail
 (39:27.000) about how that is progressing
@@ -348,7 +341,7 @@ Generated-At: 2026-04-18 18:01 CST
 (39:59.440) or how is TSMC thinking about the future expansion
 (40:03.040) in Arizona?
 (40:04.240) And we have said in the past that, you know,
-(40:06.340) around 30% of our two nanometer and more advanced capacity
+(40:06.340) around 30% of our 2nm and more advanced capacity
 (40:10.640) would be based in Arizona once we complete scaling out to this independent gigafab cluster.
 (40:16.720) So what is the time frame or timetable for that? How quickly can we get there?
 (40:22.720) That's a long question. We build the fab in Arizona and we work hard. So today everything,
@@ -364,8 +357,8 @@ Generated-At: 2026-04-18 18:01 CST
 (41:32.920) we got the help from the government, still we have to meet all the requirements for the permits or
 (41:41.140) for those kind of things. And so both in Taiwan and in Arizona, we speed up our capacity expansion
 (41:52.160) to meet the AI demand. I can always say one word. The capacity is very tight. We work very hard to
-(42:04.280) narrow the gap so far. Probably this year, next year, we have to work extremely hard to narrow
-(42:14.060) the gap. We just bought a second land in Arizona. Let's give you a hint that's what we plan to do
+(42:04.280) narrow the GAAP so far. Probably this year, next year, we have to work extremely hard to narrow
+(42:14.060) the GAAP. We just bought a second land in Arizona. Let's give you a hint that's what we plan to do
 (42:23.940) because we need it. We are going to expand many farms over there and this Gigafab cluster can
 (42:33.440) help us to improve the productivity to lower down the cost and to serve our customer in the
 (42:40.720) U.S. better. Okay. Okay, thank you, Gokul. Let's move over here next to Laura Chen from Citibank, please. Thank you, Cici and Wendell for very comprehensive outlook briefing and also congratulate for the great result. Of course, we see that the AISM conductor growth has seen very strong growth and I believe all of your customers and customers' customers are very desperate to
@@ -403,12 +396,12 @@ Generated-At: 2026-04-18 18:01 CST
 (45:43.560) support those kind of power supply like a turbine, like a nuclear power plant,
 (45:53.640) the plane or those kind of things. We also look at the supply of the rack,
 (45:59.040) we also look at the supply of the cooling system, everything so far so good. So we
-(46:08.100) have to work hard to narrow the gap between the demand and supply from TSMC.
+(46:08.100) have to work hard to narrow the GAAP between the demand and supply from TSMC.
 (46:15.980) Did that answer your question? That's great to know that it would not be the
 (46:21.380) constraints for the further AI developments. Yeah, thank you. And my second question is on
 (46:27.340) the leading-edge advanced packaging. I mean, when can you remind us that what would be the revenue
 (46:33.840) contribution last year for the advanced packagings overall. First of all, we see that, I recall
-(46:42.880) that in the past, that the capex for leading edge advanced packaging, roughly about 10%.
+(46:42.880) that in the past, that the Capex for leading edge advanced packaging, roughly about 10%.
 (46:48.380) But now it could be up to like 20%. So I'm just wondering that for the expansion, can
 (46:56.440) you give us more detail about what kind of the plans you are looking for? Will you focus
 (47:03.320) more like a 3D IC, SOIC, or you also start to work on more advanced like a panel base
@@ -419,24 +412,24 @@ Generated-At: 2026-04-18 18:01 CST
 (47:34.140) What was the revenue contribution
 (47:36.100) of what we call the back end,
 (47:37.680) which is advanced packaging testing as a whole in 2025?
-(47:41.400) And then she notes the CAPEX.
+(47:41.400) And then she notes the Capex.
 (47:43.160) Actually, this year, I believe,
-(47:44.360) Wendell, we guided 10% to 20% of CAPEX,
+(47:44.360) Wendell, we guided 10% to 20% of Capex,
 (47:46.780) which is the same as last year.
 (47:48.120) But anyways, she wants to know
-(47:49.920) what is the focus of this CAPEX?
+(47:49.920) what is the focus of this Capex?
 (47:51.700) Is it on 3DIC?
 (47:53.380) Is it on SOIC packaging solutions?
 (47:55.480) Is it on panel level?
 (47:57.060) Sort of what is the key areas
-(47:58.500) we're focusing on relative to the CAPEX?
+(47:58.500) we're focusing on relative to the Capex?
 (48:02.100) Okay, Laura, the revenue contribution last year
 (48:05.320) from advanced packaging is close to 10%.
 (48:08.680) It's about 8%.
 (48:10.400) For this year, we expect it to be slightly over 10%.
 (48:14.420) We expect it to grow in the next five years
 (48:20.120) higher or faster than the corporate.
-(48:25.300) And the CAPEX, yes, you're right,
+(48:25.300) And the Capex, yes, you're right,
 (48:28.240) in the past it's about 10%, lower than 10%.
 (48:31.360) Now we're saying advanced packaging together with mass making and others accounted for
 (48:37.760) between 10 to 20%.
@@ -485,7 +478,7 @@ Generated-At: 2026-04-18 18:01 CST
 (51:17.520) to the memories of price.
 (51:19.760) So the demand is still strong.
 (51:24.880) I use one sentence I like to say,
-(51:27.120) we still try very hard to narrow the gap.
+(51:27.120) we still try very hard to narrow the GAAP.
 (51:30.960) We have to supply a lot of wafers to them also.
 (51:36.120) Thank you, Cici. I think that's very consistent
 (51:37.880) with your five-year CAGR outlook for all the four segments.
@@ -594,7 +587,7 @@ Generated-At: 2026-04-18 18:01 CST
 (58:37.720) My question is really on AI.
 (58:40.980) I mean, TSMC has been supply constrained for your AI customers, I think, since 2024.
 (58:47.120) And it sounds like 2026 is another year where we're going to see challenges.
-(58:52.000) Do you think the capex you've laid out for this year, 52 to 56 billion,
+(58:52.000) Do you think the Capex you've laid out for this year, 52 to 56 billion,
 (58:56.280) could that mean that we start to see supply and demand more in balance in 2027?
 (59:02.880) Any thoughts there just in terms of how you're thinking about that capacity plan
 (59:07.620) and does it alleviate the supply bottlenecks that we see today?
@@ -606,8 +599,8 @@ Generated-At: 2026-04-18 18:01 CST
 (59:32.320) Thank you.
 (59:33.340) Okay, so Brett's first question is related around AI and our capacity.
 (59:39.060) So he notes the supply looks to continue to be tight in 2026, but with these significant
-(59:45.780) step up in our CAPEX to support the customers, 52 to 56 billion, do we expect the supply
-(59:51.820) demand or the gap, so to speak?
+(59:45.780) step up in our Capex to support the customers, 52 to 56 billion, do we expect the supply
+(59:51.820) demand or the GAAP, so to speak?
 (59:54.580) to be more balanced in 2027?
 (59:57.780) And then is engineering resources,
 (60:00.020) fab engineers a constraint or a bottleneck for us
@@ -618,7 +611,7 @@ Generated-At: 2026-04-18 18:01 CST
 (60:15.620) it takes two to three years to build a new fab.
 (60:20.660) So even we start to spend 52 to 56 billion, the contribution to this year almost none and to 2027
 (60:36.300) a little bit. So we actually were looking for 2028, 2029 supply and we hope is a time that's
-(60:45.680) the gap will be narrow. For 2026 and 2027 we are focused on the short-term more output. Actually
+(60:45.680) the GAAP will be narrow. For 2026 and 2027 we are focused on the short-term more output. Actually
 (60:56.680) our productivity continue to increase. Our people has an incentive because of one of the TSMC's
 (61:05.960) incentive is to satisfy customer. It's not because of our financial result are good but we want to
 (61:14.680) that customer feel that TSMC is trusted. That whenever they have a good opportunity to grow,
@@ -694,25 +687,25 @@ Generated-At: 2026-04-18 18:01 CST
 (68:53.360) stay with TSMC and so their product can be very competitive in the market. So
 (68:59.720) that answers the question say that you know once we got the peak revenue and
 (69:04.760) did not decrease is continuous because second wave, third wave, customer continue to join.
-(69:11.400) Thank you very much CC. And then maybe a questions on 2 nanometer which is they
+(69:11.400) Thank you very much CC. And then maybe a questions on 2 nm which is they
 (69:17.440) see meaningful revenue coming through in 2026 and so in the past you guys like
 (69:23.740) how much and you know contribute to sales for the year and so any
-(69:28.560) expectations on the revenue contribution from two nanometer in 2026 and then I
+(69:28.560) expectations on the revenue contribution from 2nm in 2026 and then I
 (69:33.820) recall in terms of process migration few years ago there were lots of concerns
 (69:39.000) on increasing cost per transistor and that obviously is not declining from
-(69:44.860) by nanometer but then now looking at two nanometer obvious I think process
+(69:44.860) by nm but then now looking at 2nm obvious I think process
 (69:50.360) migration seems to be accelerating even for a smartphone and PC and then with
 (69:55.420) larger demand coming from headphones compute and so maybe based on your
 (69:59.860) feedback from clients maybe for a smartphone and PC clients why are they
-(70:05.320) accelerating process migration into two nanometer okay so Sonny's second
+(70:05.320) accelerating process migration into 2nm okay so Sonny's second
 (70:10.600) question very quickly in two parts two nanometers we said is a fast ramp in
 (70:14.620) 2026 very strong customer interest and demand so what do we have any revenue percentage to
-(70:21.200) guide for in 2026 yeah sunny the the two nanometer will be a bigger note than three nanometer from
+(70:21.200) guide for in 2026 yeah sunny the the 2nm will be a bigger note than 3nm from
 (70:34.360) the start okay but it's less meaningful nowadays to talk about the percentage of revenue contribution
 (70:43.020) when the new node starts because the corporate as a whole, the revenue has become much bigger
 (70:49.080) than before. So yeah, revenue dollar, it's a bigger node, but percentage-wise, less meaningful.
 (70:58.580) And then the second part of Sonny's question from a technology perspective, as you know,
-(71:02.840) she noted increasing cost per transistor, as we said, capex per K going higher. So her question
+(71:02.840) she noted increasing cost per transistor, as we said, Capex per K going higher. So her question
 (71:07.520) very simply what's the value what's driving your smartphone HPC customers actually to see we're
 (71:14.900) seeing a widening out of the adoption of n2 so what is the value that is providing that the
 (71:19.960) customers are willing to adopt into already is a question right because of now the whole product
@@ -723,8 +716,8 @@ Generated-At: 2026-04-18 18:01 CST
 (71:59.840) the CP value is increased, it's much better.
 (72:05.160) So that customer stick with the TSMC.
 (72:10.520) Our headache right now, if I can call it a headache,
-(72:16.060) is a demand and a supply gap.
-(72:19.460) We need to work hard to narrow the gap.
+(72:16.060) is a demand and a supply GAAP.
+(72:19.460) We need to work hard to narrow the GAAP.
 (72:24.200) Very clear, thank you.
 (72:25.300) Thank you.
 (72:26.380) Operator, can we take the last call from the line
@@ -748,7 +741,7 @@ Generated-At: 2026-04-18 18:01 CST
 (73:14.920) 50% plus a year.
 (73:16.540) But token consumption for last few quarters
 (73:18.940) is 50% a quarter.
-(73:21.260) So the gap is still there, right?
+(73:21.260) So the GAAP is still there, right?
 (73:23.260) I mean, that's why Elon Musk was talking about the chip wall.
 (73:26.740) So can you share with us that in your assumption,
 (73:32.400) when you provide 50% plus AI revenue growth,
@@ -771,18 +764,18 @@ Generated-At: 2026-04-18 18:01 CST
 (75:36.260) waiver supply, not the power consumption, not yet. So we also look at carefully to
 (75:45.780) answer your question say that the TSMC's waiver can support how much of the
 (75:51.520) gigawatt still not enough. They still have abundant of power supply in the US.
-(76:01.440) Okay, my next question is for the CapEx, right? I want to double check with what I just heard
-(76:09.700) that CC was talking about like 2027, the CapEx will be more for the productive improvement,
+(76:01.440) Okay, my next question is for the Capex, right? I want to double check with what I just heard
+(76:09.700) that CC was talking about like 2027, the Capex will be more for the productive improvement,
 (76:15.820) when 2028, 2029 may be meaningfully higher.
 (76:19.120) So I do recall that in 2021,
-(76:22.260) TSMC provided three years for $100 billion CapEx
+(76:22.260) TSMC provided three years for $100 billion Capex
 (76:25.660) to support structural growth.
 (76:28.060) Now the demand is even stronger.
 (76:30.540) On base of that, can we do three years,
-(76:33.580) $200 billion CapEx for next three years?
+(76:33.580) $200 billion Capex for next three years?
 (76:37.620) You know, the math sounds doable.
 (76:41.260) Okay, so well, first, a slight clarification, because CC was talking about this year,
-(76:49.120) we have substantially, you know, stepping up our capex investment. But CC also mentioned,
+(76:49.120) we have substantially, you know, stepping up our Capex investment. But CC also mentioned,
 (76:53.940) it takes two to three years to build capacity. So in terms of Bruce's question, do we say 2027
 (77:01.600) significant step up in cable? I think we're saying it takes time to for that capacity to come out. So
 (77:06.920) So that's the first part.
