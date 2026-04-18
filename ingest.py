@@ -66,7 +66,7 @@ KNOWN_TW_PLAYWRIGHT_IR_BY_QUARTER = {
     ("2330", "2025", "2"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=2394",
     ("2330", "2025", "3"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=2503",
     ("2330", "2025", "4"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=2766",
-    ("2330", "2026", "1"): "https://investor.tsmc.com/chinese/quarterly-results/2026/q1", # 2026Q1 入口頁面
+    ("2330", "2026", "1"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=3646", # 2026Q1 確切連結
     ("2454", "2025", "1"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=2088",
     ("2454", "2025", "2"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=2413",
     ("2454", "2025", "3"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=2531",
