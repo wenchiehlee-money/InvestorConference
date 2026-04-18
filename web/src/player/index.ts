@@ -50,8 +50,7 @@ export async function renderPlayerView(
   const hasPdfs = entry.pdfs.length > 0
   const primaryPdf = entry.pdfs.find(p => p.label === 'ir') ?? entry.pdfs[0]
 
-  const hasPdfs = entry.pdfs.length > 0
-
+  const pdfTabsHtml = entry.pdfs
     .map((p, i) => `<button class="pdf-tab${i === 0 ? ' active' : ''}" data-raw-url="${escAttr(p.url)}">${esc(p.label)}</button>`)
     .join('')
 
