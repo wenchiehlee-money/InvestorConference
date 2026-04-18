@@ -55,7 +55,6 @@ KNOWN_TW_DIRECT_IR = {
 KNOWN_TW_PLAYWRIGHT_IR = {
     "2382": "https://www.quantatw.com/Quanta/chinese/investment/financials_icp.aspx",  # 廣達 — JS-rendered
     "8299": "https://www.phison.com/zh-tw/investor-relations/shareholder-services/investor-meeting-information",  # 群聯 — YouTube links in DOM
-    "2330": "https://ottlive.hinet.net/webapp/tsmc/watch?v=2766",      # 台積電 2025Q4 — ottlive HLS m3u8 intercept
     "2454": "https://ottlive.hinet.net/webapp/mediatek/watch?v=3556",  # 聯發科 2025Q4 — ottlive HLS m3u8 intercept
     "2308": "https://www.deltaww.com/zh-TW/investors/analyst-meeting", # 台達電 — ccdntech.com HLS, video URL in HTML source
 }
@@ -67,6 +66,7 @@ KNOWN_TW_PLAYWRIGHT_IR_BY_QUARTER = {
     ("2330", "2025", "2"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=2394",
     ("2330", "2025", "3"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=2503",
     ("2330", "2025", "4"): "https://ottlive.hinet.net/webapp/tsmc/watch?v=2766",
+    ("2330", "2026", "1"): "https://investor.tsmc.com/chinese/quarterly-results/2026/q1/webcast", # 2026Q1 官方頁面
     ("2454", "2025", "1"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=2088",
     ("2454", "2025", "2"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=2413",
     ("2454", "2025", "3"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=2531",
