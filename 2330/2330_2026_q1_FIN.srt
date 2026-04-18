@@ -4,9 +4,9 @@ Provider: mlx-whisper
 Model: whisper-large-v3
 Model-Repo: mlx-community/whisper-large-v3-mlx
 Duration: 79.2 min (4754s)
-Transcription-Time: 500.8s
-RTF: 0.105
-Generated-At: 2026-04-17 22:36 CST
+Transcription-Time: 505.0s
+RTF: 0.106
+Generated-At: 2026-04-18 18:01 CST
 ---
 
 (00:30.000) Good afternoon, everyone, and welcome to TSMC's fourth quarter 2025 earnings conference and conference call.
