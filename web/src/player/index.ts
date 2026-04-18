@@ -116,17 +116,23 @@ export async function renderPlayerView(
   container.innerHTML = `
     <div class="player-page">
       <header class="player-header">
-        <button class="back-btn">← 返回</button>
+        <button class="back-btn" title="返回列表">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+          返回
+        </button>
         <div class="player-meta">
           <div class="player-title">${esc(titleParts.join('  ·  '))}</div>
           ${entry.businessDesc ? `<div class="player-desc">${esc(entry.businessDesc)}</div>` : ''}
-          <div class="player-links">
-            ${pdfLinksHtml}
+          <div class="player-actions">
             ${hasBothSrts
               ? `<div class="mode-selector">
-                   <label title="僅顯示 GT 字幕"><input type="radio" name="play-mode" value="GT"> GT</label>
-                   <label title="僅顯示 FIN 字幕"><input type="radio" name="play-mode" value="FIN"> FIN</label>
-                   <label title="比對差異"><input type="radio" name="play-mode" value="DIFF" checked> Diff</label>
+                   <input type="radio" name="play-mode" id="mode-gt" value="GT">
+                   <label for="mode-gt">GT</label>
+                   <input type="radio" name="play-mode" id="mode-fin" value="FIN">
+                   <label for="mode-fin">FIN</label>
+                   <input type="radio" name="play-mode" id="mode-diff" value="DIFF" checked>
+                   <label for="mode-diff">Diff</label>
+                   <div class="mode-glider"></div>
                  </div>`
               : ''}
           </div>
@@ -137,7 +143,36 @@ export async function renderPlayerView(
           <div class="subtitle-window"><p class="loading">載入字幕中…</p></div>
           <div class="player-footer">${controlsHtml}</div>
         </div>
-        ${pdfPanelHtml}
+        ${hasPdfs
+          ? `<div class="pdf-panel" id="pdf-panel">
+              <div class="pdf-panel-header">
+                <div class="pdf-tabs">${pdfTabsHtml}</div>
+                <div class="pdf-util-btns">
+                  <a class="pdf-util-btn pdf-open-link" href="${escAttr(primaryPdf.url)}" target="_blank" rel="noopener" title="在新分頁開啟">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                  <button class="pdf-util-btn pdf-toggle-btn" title="隱藏簡報">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="pdf-canvas-wrap" id="pdf-canvas-wrap">
+                <canvas id="pdf-canvas"></canvas>
+              </div>
+              <div class="pdf-panel-footer">
+                <button class="pdf-nav-btn" id="pdf-prev" title="上一頁">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+                </button>
+                <div class="pdf-page-indicator">
+                  <select id="pdf-page-select" class="pdf-page-select"></select>
+                  <span class="pdf-page-total">/ <span id="pdf-page-total">?</span></span>
+                </div>
+                <button class="pdf-nav-btn" id="pdf-next" title="下一頁">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                </button>
+              </div>
+            </div>`
+          : ''}
       </div>
     </div>
   `
