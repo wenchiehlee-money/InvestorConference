@@ -18,7 +18,6 @@ function alignSim(finText: string, gtText: string): number {
 function longestCommonSubstringLen(a: string, b: string): number {
   const m = a.length, n = b.length
   if (m === 0 || n === 0) return 0
-  // Performance cap: don't do LCS for extremely long strings in the UI thread
   if (m > 500 || n > 500) return 0 
   let maxLen = 0
   let prev = new Array(n + 1).fill(0)
@@ -255,7 +254,6 @@ export async function renderPlayerView(
     } else if (playerMode === 'FIN') {
       subtitleWindow.innerHTML = finCues.map(c => `<div class="cue" id="cue-${c.index}" data-start="${c.startSec}">[${fmtTime(c.startSec, true)}] <span class="badge badge-fin">FIN</span> ${esc(c.text)}</div>`).join('')
     } else if (playerMode === 'DIFF' && gtCues.length && finCues.length) {
-      // Light-weight DIFF alignment
       const parent = new Array(gtCues.length).fill(0).map((_, i) => i)
       const find = (i: number): number => { while (parent[i] !== i) { parent[i] = parent[parent[i]]; i = parent[i] } return i }
       const union = (i: number, j: number) => { const rootI = find(i), rootJ = find(j); if (rootI !== rootJ) parent[rootI] = rootJ }
