@@ -9,26 +9,17 @@ const esc = (s: string) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 const escAttr = (s: string) => esc(s).replace(/"/g, '&quot;')
 
-/**
- * Alignment similarity between a FIN cue and a GT cue.
- * Only the first len(gtText) characters of finText are compared; this ensures
- * that when a FIN cue has merged multiple GT segments into one, it aligns to
- * the GT cue matching its *beginning* rather than one matching a later portion.
- */
 function alignSim(finText: string, gtText: string): number {
-  return longestCommonSubstringLen(finText.slice(0, gtText.length), gtText)
+  if (!finText || !gtText) return 0
+  const shortFin = finText.slice(0, gtText.length + 10)
+  return longestCommonSubstringLen(shortFin, gtText)
 }
 
-/**
- * Length of the longest common substring shared by a and b.
- * Much more precise than character-overlap for alignment: it requires characters
- * to appear *consecutively* in both strings, so "年成長也是24%" correctly matches
- * the GT cue containing "年成長也是24%" rather than one that merely shares the
- * same individual characters in a different order/context.
- */
 function longestCommonSubstringLen(a: string, b: string): number {
   const m = a.length, n = b.length
   if (m === 0 || n === 0) return 0
+  // Performance cap: don't do LCS for extremely long strings in the UI thread
+  if (m > 500 || n > 500) return 0 
   let maxLen = 0
   let prev = new Array(n + 1).fill(0)
   for (let i = 1; i <= m; i++) {
@@ -42,10 +33,6 @@ function longestCommonSubstringLen(a: string, b: string): number {
   return maxLen
 }
 
-/**
- * Render the SRT player into `container`.
- * Returns a cleanup function to call before navigating away.
- */
 export async function renderPlayerView(
   entry: AudioEntry,
   container: HTMLElement,
@@ -137,9 +124,9 @@ export async function renderPlayerView(
             ${pdfLinksHtml}
             ${hasBothSrts
               ? `<div class="mode-selector">
-                   <label title="僅顯示 Ground Truth 字幕"><input type="radio" name="play-mode" value="GT"> GT</label>
-                   <label title="僅顯示轉錄最終版本"><input type="radio" name="play-mode" value="FIN"> FIN</label>
-                   <label title="比對 GT 與 FIN 的差異"><input type="radio" name="play-mode" value="DIFF" checked> Diff</label>
+                   <label title="僅顯示 GT 字幕"><input type="radio" name="play-mode" value="GT"> GT</label>
+                   <label title="僅顯示 FIN 字幕"><input type="radio" name="play-mode" value="FIN"> FIN</label>
+                   <label title="比對差異"><input type="radio" name="play-mode" value="DIFF" checked> Diff</label>
                  </div>`
               : ''}
           </div>
@@ -155,10 +142,8 @@ export async function renderPlayerView(
     </div>
   `
 
-  // ── back button ────────────────────────────────────────────────────────────
   container.querySelector('.back-btn')!.addEventListener('click', onBack)
 
-  // ── PDF panel (PDF.js canvas renderer) ───────────────────────────────────
   if (hasPdfs) {
     const pdfPanel    = container.querySelector<HTMLElement>('#pdf-panel')!
     const canvasEl    = container.querySelector<HTMLCanvasElement>('#pdf-canvas')!
@@ -171,10 +156,10 @@ export async function renderPlayerView(
     const pageSelectEl = container.querySelector<HTMLSelectElement>('#pdf-page-select')!
     const pageTotalEl  = container.querySelector<HTMLElement>('#pdf-page-total')!
 
-    let pdfDoc: import('pdfjs-dist').PDFDocumentProxy | null = null
+    let pdfDoc: any = null
     let currentPage = 1
     let totalPages = 0
-    let renderTask: import('pdfjs-dist').RenderTask | null = null
+    let renderTask: any = null
 
     async function renderPage(pageNum: number) {
       if (!pdfDoc) return
@@ -184,92 +169,46 @@ export async function renderPlayerView(
       const wrapWidth = canvasWrap.clientWidth - 16
       const baseVP = page.getViewport({ scale: 1 })
       const cssScale = Math.max(0.5, Math.min(wrapWidth / baseVP.width, 2.5))
-      const renderScale = cssScale * dpr
-      const vp = page.getViewport({ scale: renderScale })
-      canvasEl.width  = vp.width
-      canvasEl.height = vp.height
-      canvasEl.style.width  = `${Math.round(vp.width / dpr)}px`
-      canvasEl.style.height = `${Math.round(vp.height / dpr)}px`
+      const vp = page.getViewport({ scale: cssScale * dpr })
+      canvasEl.width = vp.width; canvasEl.height = vp.height
+      canvasEl.style.width = `${Math.round(vp.width / dpr)}px`; canvasEl.style.height = `${Math.round(vp.height / dpr)}px`
       const ctx = canvasEl.getContext('2d')!
-      renderTask = page.render({ canvasContext: ctx, canvas: canvasEl, viewport: vp })
-      try { await renderTask.promise } catch { /* cancelled */ }
-      currentPage = pageNum
-      pageSelectEl.value = String(pageNum)
-      prevBtn.disabled = pageNum <= 1
-      nextBtn.disabled = pageNum >= totalPages
+      renderTask = page.render({ canvasContext: ctx, viewport: vp })
+      try { await renderTask.promise } catch { }
+      currentPage = pageNum; pageSelectEl.value = String(pageNum)
+      prevBtn.disabled = pageNum <= 1; nextBtn.disabled = pageNum >= totalPages
     }
 
     async function loadPdf(url: string) {
-      pdfDoc = null
-      pageSelectEl.innerHTML = '<option>…</option>'
-      pageTotalEl.textContent = '?'
-      const ctx = canvasEl.getContext('2d')!
-      ctx.clearRect(0, 0, canvasEl.width, canvasEl.height)
       try {
         pdfDoc = await pdfjsLib.getDocument({ url, withCredentials: false }).promise
-        totalPages = pdfDoc.numPages
-        pageTotalEl.textContent = String(totalPages)
-        // Populate select options
-        pageSelectEl.innerHTML = Array.from({ length: totalPages }, (_, i) =>
-          `<option value="${i + 1}">${i + 1}</option>`
-        ).join('')
+        totalPages = pdfDoc.numPages; pageTotalEl.textContent = String(totalPages)
+        pageSelectEl.innerHTML = Array.from({ length: totalPages }, (_, i) => `<option value="${i+1}">${i+1}</option>`).join('')
         await renderPage(1)
-      } catch (e) {
-        console.error('PDF load error:', e)
-        pageSelectEl.innerHTML = '<option>!</option>'
-      }
+      } catch (e) { console.error('PDF load error:', e) }
     }
-
     prevBtn.addEventListener('click', () => { if (currentPage > 1) renderPage(currentPage - 1) })
     nextBtn.addEventListener('click', () => { if (currentPage < totalPages) renderPage(currentPage + 1) })
-
-    pageSelectEl.addEventListener('change', () => {
-      const n = parseInt(pageSelectEl.value, 10)
-      if (!isNaN(n)) renderPage(n)
-    })
-
-
-    toggleBtn.addEventListener('click', () => {
-      pdfPanel.classList.add('hidden')
-      if (showBtn) showBtn.style.display = ''
-    })
-    showBtn?.addEventListener('click', () => {
-      pdfPanel.classList.remove('hidden')
-      showBtn.style.display = 'none'
-    })
-
-    // PDF tab switching
+    pageSelectEl.addEventListener('change', () => { const n = parseInt(pageSelectEl.value, 10); if (!isNaN(n)) renderPage(n) })
+    toggleBtn.addEventListener('click', () => { pdfPanel.classList.add('hidden'); if (showBtn) showBtn.style.display = '' })
+    showBtn?.addEventListener('click', () => { pdfPanel.classList.remove('hidden'); showBtn.style.display = 'none' })
     container.querySelectorAll<HTMLButtonElement>('.pdf-tab').forEach(tab => {
       tab.addEventListener('click', () => {
         container.querySelectorAll('.pdf-tab').forEach(t => t.classList.remove('active'))
-        tab.classList.add('active')
-        const rawUrl = tab.dataset['rawUrl'] ?? ''
-        if (openLink) openLink.href = rawUrl
-        loadPdf(rawUrl)
+        tab.classList.add('active'); loadPdf(tab.dataset['rawUrl'] ?? '')
       })
     })
-
-    // Load initial PDF
     loadPdf(primaryPdf.url)
   }
 
-  // ── audio setup ───────────────────────────────────────────────────────────
   const PLAY_ICON = `<svg class="ctrl-icon" viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z"/></svg>`
   const PAUSE_ICON = `<svg class="ctrl-icon" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>`
 
   let audio: HTMLAudioElement | null = null
   if (entry.audioUrl) {
-    audio = new Audio()
-    audio.preload = 'metadata'
-    // Use <source> with explicit MIME type so iOS doesn't reject application/octet-stream
-    const src = document.createElement('source')
-    src.src = entry.audioUrl
-    const ext = entry.audioUrl.split('?')[0].split('.').pop()?.toLowerCase()
-    if (ext === 'm4a' || ext === 'mp4') src.type = 'audio/mp4'
-    else if (ext === 'mp3')             src.type = 'audio/mpeg'
-    else if (ext === 'wav')             src.type = 'audio/wav'
-    audio.appendChild(src)
-    audio.load()
+    audio = new Audio(); audio.preload = 'metadata'
+    const src = document.createElement('source'); src.src = entry.audioUrl
+    audio.appendChild(src); audio.load()
     const playPauseBtn  = container.querySelector<HTMLButtonElement>('.play-pause-btn')!
     const muteBtn       = container.querySelector<HTMLButtonElement>('.mute-btn')!
     const volumeSlider  = container.querySelector<HTMLInputElement>('.volume-slider')!
@@ -277,309 +216,102 @@ export async function renderPlayerView(
     const speedSelect   = container.querySelector<HTMLSelectElement>('.speed-select')!
     const currentTimeEl = container.querySelector<HTMLElement>('.current-time')!
     const totalTimeEl   = container.querySelector<HTMLElement>('.total-time')!
-
-    // Show pre-computed duration immediately (iOS ignores preload before user gesture)
     if (entry.durationSec) totalTimeEl.textContent = fmtTime(entry.durationSec, false)
-
-    // Play / Pause — touchend for iOS (fires before click, avoids 300ms delay + gesture recognition)
-    const togglePlay = () => {
-      if (audio!.paused) audio!.play().catch(err => { console.error('play failed:', err) })
-      else audio!.pause()
-    }
-    playPauseBtn.addEventListener('click', togglePlay)
-    playPauseBtn.addEventListener('touchend', (e) => { e.preventDefault(); togglePlay() })
-
-    // Show audio load errors visibly (code: 1=aborted 2=network 3=decode 4=unsupported)
-    audio.addEventListener('error', () => {
-      const code = audio!.error?.code ?? '?'
-      totalTimeEl.textContent = `err${code}`
-      console.error('audio error', code, audio!.error?.message, entry.audioUrl)
-    })
-
-    // Mute
-    muteBtn.addEventListener('click', () => {
-      audio!.muted = !audio!.muted
-      muteBtn.classList.toggle('muted', audio!.muted)
-    })
-
-    // Volume
-    volumeSlider.addEventListener('input', () => {
-      audio!.volume = parseFloat(volumeSlider.value)
-      audio!.muted = false
-      muteBtn.classList.remove('muted')
-    })
-
-    // Seek
-    let isSeeking = false
-    progressBar.addEventListener('mousedown', () => { isSeeking = true })
-    progressBar.addEventListener('mouseup',   () => {
-      isSeeking = false
-      if (audio!.duration) audio!.currentTime = (parseFloat(progressBar.value) / 100) * audio!.duration
-    })
-    progressBar.addEventListener('input', () => {
-      if (audio!.duration) audio!.currentTime = (parseFloat(progressBar.value) / 100) * audio!.duration
-    })
-
-    // Speed
-    speedSelect.addEventListener('change', () => {
-      audio!.playbackRate = parseFloat(speedSelect.value)
-    })
-
-    // State → UI
-    audio.addEventListener('play',  () => { playPauseBtn.innerHTML = PAUSE_ICON })
-    audio.addEventListener('pause', () => { playPauseBtn.innerHTML = PLAY_ICON })
-    audio.addEventListener('ended', () => { playPauseBtn.innerHTML = PLAY_ICON })
-    audio.addEventListener('loadedmetadata', () => {
-      totalTimeEl.textContent = fmtTime(audio!.duration, false)
-    })
+    playPauseBtn.addEventListener('click', () => audio!.paused ? audio!.play() : audio!.pause())
+    muteBtn.addEventListener('click', () => { audio!.muted = !audio!.muted; muteBtn.classList.toggle('muted', audio!.muted) })
+    volumeSlider.addEventListener('input', () => { audio!.volume = parseFloat(volumeSlider.value); audio!.muted = false })
+    progressBar.addEventListener('input', () => { if (audio!.duration) audio!.currentTime = (parseFloat(progressBar.value) / 100) * audio!.duration })
+    speedSelect.addEventListener('change', () => audio!.playbackRate = parseFloat(speedSelect.value))
+    audio.addEventListener('play',  () => playPauseBtn.innerHTML = PAUSE_ICON)
+    audio.addEventListener('pause', () => playPauseBtn.innerHTML = PLAY_ICON)
     audio.addEventListener('timeupdate', () => {
       currentTimeEl.textContent = fmtTime(audio!.currentTime, false)
-      if (!isSeeking && audio!.duration) {
-        progressBar.value = String((audio!.currentTime / audio!.duration) * 100)
-      }
+      progressBar.value = String((audio!.currentTime / (audio!.duration || 1)) * 100)
     })
   }
 
-  // ── fetch SRTs ─────────────────────────────────────────────────────────────
   const gtSrt  = entry.srts.find(s => s.badge === 'GT')
   const finSrt = entry.srts.find(s => s.badge === 'FIN')
-
-  let gtCues:  SrtCue[] = []
-  let finCues: SrtCue[] = []
-
-  const [gtResult, finResult] = await Promise.allSettled([
-    gtSrt  ? fetch(gtSrt.url).then(r => r.text())  : Promise.resolve(''),
-    finSrt ? fetch(finSrt.url).then(r => r.text()) : Promise.resolve(''),
+  let gtCues: SrtCue[] = [], finCues: SrtCue[] = []
+  const [gtRes, finRes] = await Promise.allSettled([
+    gtSrt ? fetch(gtSrt.url).then(r => r.text()) : Promise.resolve(''),
+    finSrt ? fetch(finSrt.url).then(r => r.text()) : Promise.resolve('')
   ])
-  
-  if (gtResult.status === 'fulfilled' && gtResult.value) {
-    gtCues = parseSrt(gtResult.value)
-  } else if (gtResult.status === 'rejected') {
-    console.error('Failed to fetch GT SRT:', gtResult.reason)
-  }
+  if (gtRes.status === 'fulfilled' && gtRes.value) gtCues = parseSrt(gtRes.value)
+  if (finRes.status === 'fulfilled' && finRes.value) finCues = parseSrt(finRes.value)
 
-  if (finResult.status === 'fulfilled' && finResult.value) {
-    finCues = parseSrt(finResult.value)
-  } else if (finResult.status === 'rejected') {
-    console.error('Failed to fetch FIN SRT:', finResult.reason)
-  }
-
-  const hasAnySrt = gtCues.length > 0 || finCues.length > 0
   const subtitleWindow = container.querySelector<HTMLElement>('.subtitle-window')!
-
-  if (!hasAnySrt) {
-    subtitleWindow.innerHTML = '<p class="empty">尚無字幕檔。</p>'
-    return () => { audio?.pause() }
-  }
-
   let playerMode: 'GT' | 'FIN' | 'DIFF' = hasBothSrts ? 'DIFF' : (gtCues.length > 0 ? 'GT' : 'FIN')
 
-  // ── mode selector ────────────────────────────────────────────────────────
-  container.querySelectorAll<HTMLInputElement>('input[name="play-mode"]').forEach(input => {
-    input.addEventListener('change', e => {
-      playerMode = (e.target as HTMLInputElement).value as any
-      renderSubtitles()
-    })
+  function renderSubtitles() {
+    if (playerMode === 'GT') {
+      subtitleWindow.innerHTML = gtCues.map(c => `<div class="cue" id="cue-${c.index}" data-start="${c.startSec}">[${fmtTime(c.startSec, true)}] <span class="badge badge-gt">GT</span> ${esc(c.text)}</div>`).join('')
+    } else if (playerMode === 'FIN') {
+      subtitleWindow.innerHTML = finCues.map(c => `<div class="cue" id="cue-${c.index}" data-start="${c.startSec}">[${fmtTime(c.startSec, true)}] <span class="badge badge-fin">FIN</span> ${esc(c.text)}</div>`).join('')
+    } else if (playerMode === 'DIFF' && gtCues.length && finCues.length) {
+      // Light-weight DIFF alignment
+      const parent = new Array(gtCues.length).fill(0).map((_, i) => i)
+      const find = (i: number): number => { while (parent[i] !== i) { parent[i] = parent[parent[i]]; i = parent[i] } return i }
+      const union = (i: number, j: number) => { const rootI = find(i), rootJ = find(j); if (rootI !== rootJ) parent[rootI] = rootJ }
+      const norm = (s: string) => s.replace(/\s+/g, '').replace(/[，,、。.!！?？；;：:""''「」（）()【】\[\]—–\-…·～~]/g, '')
+      const giToFis = new Map<number, Set<number>>()
+      for (let gi = 0; gi < gtCues.length; gi++) giToFis.set(gi, new Set())
+
+      for (let fi = 0; fi < finCues.length; fi++) {
+        const finCue = finCues[fi], finNorm = norm(finCue.text)
+        if (!finNorm) continue
+        const WINDOW = 30
+        const candidates = gtCues.map((gt, gi) => ({ gt, gi, dist: Math.abs(gt.startSec - finCue.startSec) })).filter(e => e.dist <= WINDOW)
+        if (!candidates.length) continue
+        let best = candidates[0], bestSim = alignSim(finNorm, norm(best.gt.text))
+        for (const cand of candidates.slice(1)) {
+          const sim = alignSim(finNorm, norm(cand.gt.text))
+          if (sim > bestSim) { bestSim = sim; best = cand }
+        }
+        giToFis.get(best.gi)!.add(fi); union(best.gi, best.gi)
+      }
+
+      const giToGroupId = new Map<number, number>(), groupHtml: string[] = [], processedGis = new Set<number>()
+      for (let i = 0; i < gtCues.length; i++) {
+        if (processedGis.has(i)) continue
+        const startI = i, root = find(i)
+        while (i + 1 < gtCues.length && find(i + 1) === root) i++
+        const endI = i, groupGtText = gtCues.slice(startI, endI + 1).map(c => c.text).join('')
+        const finIdSet = new Set<number>()
+        for (let k = startI; k <= endI; k++) { giToGroupId.set(k, startI); processedGis.add(k); for (const fi of giToFis.get(k)!) finIdSet.add(fi) }
+        const groupFinText = Array.from(finIdSet).sort((a, b) => finCues[a].startSec - finCues[b].startSec).map(fid => finCues[fid].text).join(' ')
+        groupHtml.push(`<div class="cue" id="cue-d-${startI}" data-start="${gtCues[startI].startSec}">[${fmtTime(gtCues[startI].startSec, true)}] ${renderSpansHtml(diffWords(groupGtText, groupFinText))}</div>`)
+      }
+      subtitleWindow.innerHTML = groupHtml.join('')
+      ;(subtitleWindow as any)._giToGroupId = giToGroupId
+    }
+  }
+
+  container.querySelectorAll<HTMLInputElement>('input[name="play-mode"]').forEach(i => i.addEventListener('change', e => { playerMode = (e.target as any).value; renderSubtitles() }))
+  renderSubtitles()
+
+  subtitleWindow.addEventListener('click', e => {
+    const cue = (e.target as HTMLElement).closest<HTMLElement>('.cue')
+    if (cue && audio) { audio.currentTime = parseFloat(cue.dataset['start'] || '0'); audio.play() }
   })
 
-  // ── subtitle render ───────────────────────────────────────────────────────
-  function renderSubtitles() {
-    // 1. GT Only Mode
-    if (playerMode === 'GT') {
-      subtitleWindow.innerHTML = gtCues.map(cue => `
-        <div class="cue" id="cue-${cue.index}" data-start="${cue.startSec}">
-          <span class="cue-time">[${fmtTime(cue.startSec, true)}]</span>
-          <span class="badge badge-gt">GT</span>
-          <span class="cue-text">${esc(cue.text)}</span>
-        </div>
-      `).join('')
-      return
-    }
-
-    // 2. FIN Only Mode
-    if (playerMode === 'FIN') {
-      subtitleWindow.innerHTML = finCues.map(cue => `
-        <div class="cue" id="cue-${cue.index}" data-start="${cue.startSec}">
-          <span class="cue-time">[${fmtTime(cue.startSec, true)}]</span>
-          <span class="badge badge-fin">FIN</span>
-          <span class="cue-text">${esc(cue.text)}</span>
-        </div>
-      `).join('')
-      return
-    }
-
-    // 3. DIFF MODE (GT-anchored alignment)
-    if (playerMode === 'DIFF') {
-      if (gtCues.length === 0 || finCues.length === 0) {
-        playerMode = gtCues.length > 0 ? 'GT' : 'FIN'
-        renderSubtitles()
-        return
-      }
-    // Use Disjoint Set Union (DSU) to group GT cues that are linked by shared FIN cues.
-    const parent = new Array(gtCues.length).fill(0).map((_, i) => i)
-    function find(i: number): number {
-      let r = i
-      while (parent[r] !== r) r = parent[r]
-      while (parent[i] !== r) { const p = parent[i]; parent[i] = r; i = p }
-      return r
-    }
-    function union(i: number, j: number) {
-      const rootI = find(i); const rootJ = find(j)
-      if (rootI !== rootJ) parent[rootI] = rootJ
-    }
-
-    const norm = (s: string) => s.replace(/\s+/g, '').replace(/[，,、。.!！?？；;：:""''「」（）()【】\[\]—–\-…·～~]/g, '')
-    const giToFis = new Map<number, Set<number>>()
-    for (let gi = 0; gi < gtCues.length; gi++) giToFis.set(gi, new Set())
-
-    for (let fi = 0; fi < finCues.length; fi++) {
-      const finCue = finCues[fi]
-      const finNorm = norm(finCue.text)
-      if (!finNorm) continue
-
-      const WINDOW = 30
-      const candidates = gtCues
-        .map((gt, gi) => ({ gt, gi, dist: Math.abs(gt.startSec - finCue.startSec) }))
-        .filter(e => e.dist <= WINDOW)
-      
-      if (candidates.length === 0) continue
-
-      // Primary selection: alignSim trims finText to len(GT) before LCS,
-      // so a FIN cue that merges multiple GT segments matches the GT whose
-      // text appears at the *start* of the FIN cue, not the longest overall match.
-      let best = candidates[0]
-      let bestSim = alignSim(finNorm, norm(best.gt.text))
-      for (const cand of candidates.slice(1)) {
-        const sim = alignSim(finNorm, norm(cand.gt.text))
-        if (sim > bestSim || (sim === bestSim && cand.dist < best.dist)) {
-          bestSim = sim; best = cand
-        }
-      }
-
-      const coveredGis = [best.gi]
-      for (const cand of candidates) {
-        if (cand.gi === best.gi) continue
-        const gtNorm = norm(cand.gt.text)
-        const sim = longestCommonSubstringLen(finNorm, gtNorm)
-        // Only link if FIN covers a substantial fraction of the GT cue AND enough chars
-        if (sim >= gtNorm.length * 0.6 && sim >= 6) {
-          coveredGis.push(cand.gi)
-        }
-      }
-
-      for (const gi of coveredGis) {
-        giToFis.get(gi)!.add(fi)
-        union(coveredGis[0], gi)
-      }
-    }
-
-    const giToGroupId = new Map<number, number>()
-    const groupHtml: string[] = []
-    const processedGis = new Set<number>()
-
-    for (let i = 0; i < gtCues.length; i++) {
-      if (processedGis.has(i)) continue
-      
-      const startI = i
-      const root = find(i)
-      // Group consecutive cues belonging to the same component
-      while (i + 1 < gtCues.length && find(i + 1) === root) {
-        i++
-      }
-      const endI = i
-
-      const groupGtText = gtCues.slice(startI, endI + 1).map(c => c.text).join('')
-      const finIdSet = new Set<number>()
-      for (let k = startI; k <= endI; k++) {
-        giToGroupId.set(k, startI)
-        processedGis.add(k)
-        for (const fi of giToFis.get(k)!) finIdSet.add(fi)
-      }
-
-      const groupFinText = Array.from(finIdSet)
-        .sort((a, b) => finCues[a].startSec - finCues[b].startSec)
-        .map(fid => finCues[fid].text)
-        .join(' ')
-
-      let displayHtml: string
-      if (!groupFinText) {
-        displayHtml = renderSpansHtml([{ text: groupGtText, type: 'gt' }])
-      } else {
-        displayHtml = renderSpansHtml(diffWords(groupGtText, groupFinText))
-      }
-
-      groupHtml.push(`
-        <div class="cue" id="cue-d-${startI}" data-start="${gtCues[startI].startSec}">
-          <span class="cue-time">[${fmtTime(gtCues[startI].startSec, true)}]</span>
-          <span class="cue-text">${displayHtml}</span>
-        </div>
-      `)
-    }
-
-    subtitleWindow.innerHTML = groupHtml.join('')
-    ;(subtitleWindow as any)._giToGroupId = giToGroupId
-  }
-
-  renderSubtitles()
-
-  }
-
-  renderSubtitles()
-
-  // ── click to seek ─────────────────────────────────────────────────────────
-  function onCueClick(e: MouseEvent) {
-    if (!audio) return
-    const cueEl = (e.target as HTMLElement).closest<HTMLElement>('.cue')
-    if (!cueEl) return
-    audio.currentTime = parseFloat(cueEl.dataset['start'] ?? '0')
-    if (audio.paused) audio.play()
-  }
-  subtitleWindow.addEventListener('click', onCueClick)
-
-  // ── audio ↔ subtitle sync ──────────────────────────────────────────────────
   let activeCueEl: HTMLElement | null = null
-
-  function onTimeUpdate() {
-    if (!audio) return
-    const t = audio.currentTime
-    
-    // In DIFF mode, we use the mapping to find the merged cue
+  audio?.addEventListener('timeupdate', () => {
+    const t = audio!.currentTime
     let activeId = ''
-    if (playerMode === 'DIFF' && gtCues.length > 0 && finCues.length > 0) {
-      let index = -1
-      for (let i = 0; i < gtCues.length; i++) {
-        if (t >= gtCues[i].startSec) index = i
-        else break
-      }
-      if (index !== -1) {
-        const groupId = ((subtitleWindow as any)._giToGroupId as Map<number, number>)?.get(index)
-        activeId = `cue-d-${groupId ?? index}`
-      }
+    if (playerMode === 'DIFF' && gtCues.length && finCues.length) {
+      let idx = -1; for (let i = 0; i < gtCues.length; i++) { if (t >= gtCues[i].startSec) idx = i; else break }
+      if (idx !== -1) { const gid = ((subtitleWindow as any)._giToGroupId as Map<number, number>)?.get(idx); activeId = `cue-d-${gid ?? idx}` }
     } else {
-      const primary = playerMode === 'GT' ? gtCues : finCues
-      // If the selected mode is missing its cues, use whatever is available
-      const cuesToUse = primary.length > 0 ? primary : (gtCues.length > 0 ? gtCues : finCues)
-      
-      const active = cuesToUse.find(c => t >= c.startSec && t <= c.endSec)
+      const cues = (playerMode === 'GT' ? gtCues : finCues); const active = cues.find(c => t >= c.startSec && t <= c.endSec)
       if (active) activeId = `cue-${active.index}`
     }
-
     const newEl = activeId ? document.getElementById(activeId) : null
-    if (newEl === activeCueEl) return
-    activeCueEl?.classList.remove('cue-active')
-    activeCueEl = newEl
-    if (newEl) {
-      newEl.classList.add('cue-active')
-      newEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+    if (newEl && newEl !== activeCueEl) {
+      activeCueEl?.classList.remove('cue-active'); activeCueEl = newEl
+      newEl.classList.add('cue-active'); newEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
     }
-  }
+  })
 
-  audio?.addEventListener('timeupdate', onTimeUpdate)
-
-  // ── cleanup ────────────────────────────────────────────────────────────────
-  return () => {
-    audio?.pause()
-    audio?.removeEventListener('timeupdate', onTimeUpdate)
-    subtitleWindow.removeEventListener('click', onCueClick)
-  }
+  return () => { audio?.pause() }
 }
