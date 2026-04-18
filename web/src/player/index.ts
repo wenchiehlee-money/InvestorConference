@@ -136,10 +136,11 @@ export async function renderPlayerView(
           <div class="player-links">
             ${pdfLinksHtml}
             ${hasBothSrts
-              ? `<label class="diff-toggle-label">
-                   <input type="checkbox" id="diff-mode" checked>
-                   Diff 模式（GT <span class="badge badge-gt">GT</span> vs FIN <span class="badge badge-fin">FIN</span>）
-                 </label>`
+              ? `<div class="mode-selector">
+                   <label title="僅顯示 Ground Truth 字幕"><input type="radio" name="play-mode" value="GT"> GT</label>
+                   <label title="僅顯示轉錄最終版本"><input type="radio" name="play-mode" value="FIN"> FIN</label>
+                   <label title="比對 GT 與 FIN 的差異"><input type="radio" name="play-mode" value="DIFF" checked> Diff</label>
+                 </div>`
               : ''}
           </div>
         </div>
@@ -371,30 +372,49 @@ export async function renderPlayerView(
     return () => { audio?.pause() }
   }
 
-  let diffMode = hasBothSrts
+  let playerMode: 'GT' | 'FIN' | 'DIFF' = hasBothSrts ? 'DIFF' : (gtCues.length > 0 ? 'GT' : 'FIN')
 
-  // ── diff toggle ───────────────────────────────────────────────────────────
-  container.querySelector<HTMLInputElement>('#diff-mode')
-    ?.addEventListener('change', e => {
-      diffMode = (e.target as HTMLInputElement).checked
+  // ── mode selector ────────────────────────────────────────────────────────
+  container.querySelectorAll<HTMLInputElement>('input[name="play-mode"]').forEach(input => {
+    input.addEventListener('change', e => {
+      playerMode = (e.target as HTMLInputElement).value as any
       renderSubtitles()
     })
+  })
 
   // ── subtitle render ───────────────────────────────────────────────────────
   function renderSubtitles() {
-    // If not in diff mode, or if we only have one SRT, just show the primary one
-    if (!diffMode || gtCues.length === 0 || finCues.length === 0) {
-      const primary = gtCues.length > 0 ? gtCues : finCues
-      subtitleWindow.innerHTML = primary.map(cue => `
+    // 1. GT Only Mode
+    if (playerMode === 'GT') {
+      subtitleWindow.innerHTML = gtCues.map(cue => `
         <div class="cue" id="cue-${cue.index}" data-start="${cue.startSec}">
           <span class="cue-time">[${fmtTime(cue.startSec, true)}]</span>
+          <span class="badge badge-gt">GT</span>
           <span class="cue-text">${esc(cue.text)}</span>
         </div>
       `).join('')
       return
     }
 
-    // DIFF MODE: GT-anchored alignment
+    // 2. FIN Only Mode
+    if (playerMode === 'FIN') {
+      subtitleWindow.innerHTML = finCues.map(cue => `
+        <div class="cue" id="cue-${cue.index}" data-start="${cue.startSec}">
+          <span class="cue-time">[${fmtTime(cue.startSec, true)}]</span>
+          <span class="badge badge-fin">FIN</span>
+          <span class="cue-text">${esc(cue.text)}</span>
+        </div>
+      `).join('')
+      return
+    }
+
+    // 3. DIFF MODE (GT-anchored alignment)
+    if (playerMode === 'DIFF') {
+      if (gtCues.length === 0 || finCues.length === 0) {
+        playerMode = gtCues.length > 0 ? 'GT' : 'FIN'
+        renderSubtitles()
+        return
+      }
     // Use Disjoint Set Union (DSU) to group GT cues that are linked by shared FIN cues.
     const parent = new Array(gtCues.length).fill(0).map((_, i) => i)
     function find(i: number): number {
@@ -516,11 +536,12 @@ export async function renderPlayerView(
   let activeCueEl: HTMLElement | null = null
 
   function onTimeUpdate() {
-    const t = audio!.currentTime
+    if (!audio) return
+    const t = audio.currentTime
     
-    // In diff mode, we use the mapping to find the merged cue
+    // In DIFF mode, we use the mapping to find the merged cue
     let activeId = ''
-    if (diffMode && gtCues.length > 0 && finCues.length > 0) {
+    if (playerMode === 'DIFF' && gtCues.length > 0 && finCues.length > 0) {
       let index = -1
       for (let i = 0; i < gtCues.length; i++) {
         if (t >= gtCues[i].startSec) index = i
@@ -531,8 +552,11 @@ export async function renderPlayerView(
         activeId = `cue-d-${groupId ?? index}`
       }
     } else {
-      const primary = gtCues.length > 0 ? gtCues : finCues
-      const active = primary.find(c => t >= c.startSec && t <= c.endSec)
+      const primary = playerMode === 'GT' ? gtCues : finCues
+      // If the selected mode is missing its cues, use whatever is available
+      const cuesToUse = primary.length > 0 ? primary : (gtCues.length > 0 ? gtCues : finCues)
+      
+      const active = cuesToUse.find(c => t >= c.startSec && t <= c.endSec)
       if (active) activeId = `cue-${active.index}`
     }
 
