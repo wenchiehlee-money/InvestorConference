@@ -522,6 +522,10 @@ export async function renderPlayerView(
 
   renderSubtitles()
 
+  }
+
+  renderSubtitles()
+
   // ── click to seek ─────────────────────────────────────────────────────────
   function onCueClick(e: MouseEvent) {
     if (!audio) return
