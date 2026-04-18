@@ -150,7 +150,6 @@ export async function renderPlayerView(
     const canvasWrap  = container.querySelector<HTMLElement>('#pdf-canvas-wrap')!
     const toggleBtn   = container.querySelector<HTMLButtonElement>('.pdf-toggle-btn')!
     const showBtn     = container.querySelector<HTMLButtonElement>('#pdf-show-btn')
-    const openLink    = container.querySelector<HTMLAnchorElement>('.pdf-open-link')
     const prevBtn      = container.querySelector<HTMLButtonElement>('#pdf-prev')!
     const nextBtn      = container.querySelector<HTMLButtonElement>('#pdf-next')!
     const pageSelectEl = container.querySelector<HTMLSelectElement>('#pdf-page-select')!
