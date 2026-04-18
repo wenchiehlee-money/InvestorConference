@@ -49,8 +49,10 @@ export async function renderPlayerView(
   const hasPdfs = entry.pdfs.length > 0
   const primaryPdf = entry.pdfs.find(p => p.label === 'ir') ?? entry.pdfs[0]
 
+  const PDF_LABEL_MAP: Record<string, string> = { ir: '中文', ir_en: 'Eng', qa: 'Q&A' }
+  const PDF_TAB_ICON = `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>`
   const pdfTabsHtml = entry.pdfs
-    .map((p, i) => `<button class="pdf-tab${i === 0 ? ' active' : ''}" data-raw-url="${escAttr(p.url)}">${esc(p.label)}</button>`)
+    .map((p, i) => `<button class="pdf-tab${i === 0 ? ' active' : ''}" data-raw-url="${escAttr(p.url)}">${PDF_TAB_ICON}${esc(PDF_LABEL_MAP[p.label] ?? p.label)}</button>`)
     .join('')
 
   const controlsHtml = entry.audioUrl
@@ -94,7 +96,11 @@ export async function renderPlayerView(
         <div class="player-meta">
           <div class="player-title">${esc(titleParts.join('  ·  '))}</div>
           ${entry.businessDesc ? `<div class="player-desc">${esc(entry.businessDesc)}</div>` : ''}
-          <div class="player-actions">
+        </div>
+      </header>
+      <div class="player-body">
+        <div class="transcript-panel">
+          <div class="transcript-header">
             ${hasBothSrts
               ? `<div class="mode-selector">
                    <input type="radio" name="play-mode" id="mode-gt" value="GT">
@@ -105,12 +111,10 @@ export async function renderPlayerView(
                    <label for="mode-diff"><span class="mode-dot mode-dot-diff"></span>Diff</label>
                    <div class="mode-glider"></div>
                  </div>`
-              : ''}
+              : entry.srts.length === 1
+                ? `<span class="single-mode-label"><span class="badge badge-${entry.srts[0].badge.toLowerCase()}">${entry.srts[0].badge}</span> 字幕模式</span>`
+                : ''}
           </div>
-        </div>
-      </header>
-      <div class="player-body">
-        <div class="transcript-panel">
           <div class="subtitle-window"><p class="loading">載入字幕中…</p></div>
           <div class="player-footer">${controlsHtml}</div>
         </div>
@@ -132,14 +136,16 @@ export async function renderPlayerView(
               </div>
               <div class="pdf-panel-footer">
                 <button class="pdf-nav-btn" id="pdf-prev" title="上一頁">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+                  上頁
                 </button>
                 <div class="pdf-page-indicator">
                   <select id="pdf-page-select" class="pdf-page-select"></select>
                   <span class="pdf-page-total">/ <span id="pdf-page-total">?</span></span>
                 </div>
                 <button class="pdf-nav-btn" id="pdf-next" title="下一頁">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                  下頁
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
                 </button>
               </div>
             </div>`
