@@ -3,9 +3,7 @@ Source: 2330_2025_q3.m4a
 Method: Anchored Rescue + Dictionary Fix | Original Method: Anchored Rescue (Base=exp7, Language=en)
 Generated-At: 2026-04-09 16:18 CST
 ---
-(00:08.080) 大家午安,我是台積電法人關係處的蘇志凱。
-(00:15.200) 歡迎您參加台積公司2025年第三季的法人說明會。
-(00:22.440) 由於本法說會是向全球投資人同時連線轉播,所以我們會全程使用英文,請您見諒。
+
 (00:58.840) Good afternoon, everyone, and welcome to TSMC's Third Quarter 2025 Earnings Conference Call. This is Jeff Su, TSMC's Director of Investor
 (01:03.630) Relations and your host for today. TSMC is hosting our earnings conference call via live audio webcast through the company's website at
 (01:04.190) www.tsmc.com, where you can also download the earnings release materials. If you are joining us through the conference call, your dial-in
