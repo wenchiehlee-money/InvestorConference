@@ -5,7 +5,7 @@ Generated-At: 2026-04-15
 
 Operator
 
-Good afternoon, ladies and gentlemen. Welcome to Chunghwa Telecom Fourth Quarter 2025 Operating Results. [Operator Instructions] And for your information, this conference call is now being broadcasted live over the Internet. A webcast replay will be available within an hour after the conference is finished. Please visit CHT IR website at www.cht.com.tw/ir under the IR Calendar section.
+Good afternoon, ladies and gentlemen. Welcome to Chunghwa Telecom Fourth Quarter 2025 Operating Results. And for your information, this conference call is now being broadcasted live over the Internet. A webcast replay will be available within an hour after the conference is finished. Please visit CHT IR website at www.cht.com.tw/ir under the IR Calendar section.
 
 And now I would like to turn it over to Ms. Angela Tsai, Vice President of Financial Department. Thank you. Ms. Tsai, please begin.
 
@@ -123,7 +123,7 @@ So this concludes our financial results highlights. Thank you for your attention
 
 Operator
 
-[Operator Instructions] Now the first one want to ask questions, correct me if I pronounce wrongly, okay? Rajesh Panjwani from JP Morgan.
+Now the first one want to ask questions, correct me if I pronounce wrongly, okay? Rajesh Panjwani from JP Morgan.
 
 R
 Rajesh Panjwani
@@ -169,7 +169,7 @@ Okay. Thank you for your opinion.
 
 Operator
 
-[Operator Instructions] There seems to be no further questions at this moment. I will turn it over to President Lin. Please go ahead, Lin.
+There seems to be no further questions at this moment. I will turn it over to President Lin. Please go ahead, Lin.
 
 R
 Rong-Shy Lin

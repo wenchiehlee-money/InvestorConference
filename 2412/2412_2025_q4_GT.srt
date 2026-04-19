@@ -1,5 +1,5 @@
 (00:00.000) Good afternoon,
-(00:01.080) ladies and gentlemen. Welcome to Chunghwa Telecom Fourth Quarter 2025 Operating Results. [Operator Instructions] And for your information, this
+(00:01.080) ladies and gentlemen. Welcome to Chunghwa Telecom Fourth Quarter 2025 Operating Results. And for your information, this
 (00:11.420) conference call is now being broadcasted live over the Internet. A
 (00:16.060) webcast replay will be available within an hour after the conference
 (00:21.200) is finished. Please visit CHT IR website at www.cht.com.tw/ir under the IR Calendar section.
@@ -325,7 +325,7 @@
 (29:41.640) cooling and cybersecurity systems. We are turning digital
 (29:45.120) resilience into a unique competitive advantage. So this concludes our financial results highlights.
 (29:50.300) Thank you for your attention. At this time, we would like to open
-(29:54.820) the conference call for questions. [Operator Instructions] Now the first one want to ask questions, correct me
+(29:54.820) the conference call for questions. Now the first one want to ask questions, correct me
 (30:02.500) if I
 (30:11.600) pronounce wrongly, okay? Rajesh Panjwani from JP Morgan. R Rajesh Panjwani A quick question on the CapEx. If you can
 (30:28.700) give some
@@ -393,7 +393,7 @@
 (37:24.300) more than 3/4 of your CapEx is now nonmobile CapEx. So it would be
 (37:29.800) really helpful to get more details about that in the future. W Okay.
 (37:36.120) Thank
-(37:36.940) you for your opinion. [Operator Instructions] There seems to be no further questions at
+(37:36.940) you for your opinion. There seems to be no further questions at
 (37:42.000) this moment.
 (37:45.340) I
 (37:46.060) will turn it over to

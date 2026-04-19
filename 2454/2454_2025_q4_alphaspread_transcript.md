@@ -121,7 +121,7 @@ Thank you, Rick. Operator, we are now ready for the Q&A session. May we please h
 
 Operator
 
-[Operator Instructions] The first one to ask question, Sunny Lin from UBS.
+The first one to ask question, Sunny Lin from UBS.
 
 S
 Sunny Lin

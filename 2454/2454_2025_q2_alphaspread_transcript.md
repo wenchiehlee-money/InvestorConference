@@ -102,7 +102,7 @@ Thank you, Rick. Operator, we are now ready for Q&A session. May we please have 
 
 Operator
 
-Yes. [Operator Instructions] And our first question is coming from Sunny Lin, UBS.
+Yes. And our first question is coming from Sunny Lin, UBS.
 
 Sunny Lin
 

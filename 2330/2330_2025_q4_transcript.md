@@ -269,7 +269,7 @@ This concludes our key message, and thank you for your attention.
 Jeff Su
 Thank you, Wendell. Thank you, C.C. This does conclude our prepared statements.
 Jeff Su
-[Operator Instructions] So now let's begin the question-and-answer session. I think we'll
+So now let's begin the question-and-answer session. I think we'll
 take the first few questions from the floor here. So why don't we start over here with Gokul
 Hariharan from JPMorgan.
 Gokul Hariharan

@@ -37,7 +37,7 @@ Now, we are ready to open the floor for questions.
 
 Operator
 
-Thank you. [Operator Instructions] Our first question comes from the line of Gokul Hariharan with JPMorgan. Please go ahead.
+Thank you. Our first question comes from the line of Gokul Hariharan with JPMorgan. Please go ahead.
 
 Gokul Hariharan
 
@@ -137,7 +137,7 @@ The increase in OpEx was mainly due to our continued investment in R&D for next-
 
 Operator
 
-Thank you. [Operator Instructions] There are no further questions at this time. I will now turn the call back over to Ms. Wang for closing remarks.
+Thank you. There are no further questions at this time. I will now turn the call back over to Ms. Wang for closing remarks.
 
 Jessie Wang
 
