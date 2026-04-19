@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/2330/investor-relations/earnings-call/q1-2026
-Generated-At: 2026-04-18
+Generated-At: 2026-04-19
 ---
 
 Operator
@@ -525,3 +525,5 @@ Jeff Su
 executive
 
 Okay. Thank you, Charles. Thank you, C.C. Thank you, Wendell. This concludes our prepared statements -- sorry, I should say this concludes our Q&A session. Before we conclude today's conference, please be advised that the replay of the conference will be accessible within 30 minutes from now, and the transcript will become available 24 hours from now. Both are going to be available through TSMC's website at www.tsmc.com. So again, thank you, everyone, for taking the time to join us today. We hope you continue to stay well, and we hope you join us again next quarter. Goodbye, and have a good day.
+
+ Earnings Call Recording
