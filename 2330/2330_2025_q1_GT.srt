@@ -1,350 +1,359 @@
-(00:04.086) TSMC 2330 2025 Q1 Earnings Conference Transcript Source: 2330_2025_q1_transcript.pdf Note: Generated locally from the official
-(00:09.516) transcript PDF using pypdf. TSMC is holding our earnings conference call via live audio webcast
-(00:15.459) through the company's website at www.tsmc.com, where you can also download the earnings release materials.
-(00:24.817) If you are joining us through the conference call, your dial-in lines are in listen-only
-(00:31.747) mode. The format for today's event will be as follows: First, TSMC's Senior Vice President
-(00:36.979) and CFO, Mr. Wendell Huang, will summarize our operations in the first quarter 2025, followed
-(00:50.819) by our guidance for the second quarter 2025. Afterwards, Mr. Huang and TSMC's Chairman and
-(00:56.564) CEO, Dr. C. C. Wei, will jointly provide the company's key messages. Then we will
-(01:12.844) open the line for questions and answers. As usual, I would like to remind everybody
-(01:22.814) that today's discussions may contain forward- looking statements that are subject to significant risks and
-(01:26.739) uncertainties, which could cause actual results to differ materially from those contained in the forward-looking
-(01:41.407) statements. Please refer to the safe harbor notice that appears in our press release. And
-(01:46.243) now I would like to turn the call over to TSMC's CFO, Mr. Wendell Huang,
-(01:55.104) for the summary of operations and the current quarter guidance. First quarter revenue decreased 3.4%
-(02:11.949) sequentially in NT dollar or 5.1% in U.S. dollars as our business was impacted by
-(02:30.068) smartphone seasonality, partially offset by continued growth in AI-related demand. In spite of the January
-(02:48.011) 21st earthquake and several aftershocks, we worked diligently to recover much of the lost production.
-(02:54.299) Thus, our revenue in the first quarter was slightly above the midpoint of our guidance.
-(03:05.406) Gross margin decreased 0.2 percentage points sequentially to 58.8%, primarily due to the earthquake impact
-(03:10.891) as well as the start of overseas dilution, partially offset by the cost improvement efforts.
-(03:17.586) Total operating expenses accounted for 10.2% of net revenue. Operating margin decreased 0.5 percentage points
-(03:26.720) sequentially to 48.5%. Overall, our first quarter EPS was TWD 13.94 and ROE was 32.7%.
-(03:32.420) Now let's move on to revenue by technology. 3-nanometer process technology contributed 22% of wafer
-(03:38.432) revenue in the first quarter, while 5-nanometer and 7-nanometer accounted for 36% and 15%, respectively.
-(03:47.039) Advanced technologies, defined as 7-nanometer and below, accounted for 73% of wafer revenue. Moving on
-(03:56.018) to revenue contribution by platform. HPC increased 7% quarter-over-quarter to account for 59% of our
-(04:07.175) first quarter revenue. Smartphone decreased 22% to account for 28%, IoT decreased 9% to account
-(04:12.031) for 5%, automotive increased 14% and accounted for 5% and DCE increased 8% to account
-(04:16.214) for 1%. Moving on to the balance sheet. We ended the first quarter with cash
-(04:21.228) and marketable securities of TWD 2.7 trillion or USD 81 billion. On the liability side,
-(04:24.836) current liabilities increased by TWD 135 billion quarter-over-quarter, mainly due to the increase of TWD
-(04:39.405) 111 billion in accrued liabilities and others. The increase in accrued liabilities and others was
-(04:53.894) mainly due to the accrual of income tax payables. On financial ratios, accounts receivable turnover
-(05:01.708) days increased 1 day to 28 days. Days of inventory increased 3 days to 83
-(05:08.793) days, primarily due to the ramping of new overseas fabs. Regarding cash flow and CapEx.
-(05:17.489) During the first quarter, we generated about TWD 626 billion in cash from operations, spent
-(05:38.181) TWD 331 billion in CapEx and distributed TWD 104 billion for second quarter 2024 cash
-(05:46.043) dividend. In addition, we raised TWD 16 billion in cash from bond issuances. Overall, our
-(05:55.166) cash balance increased TWD 267 billion to TWD 2.4 trillion at the end of the
-(06:03.585) quarter. In U.S. dollar terms, our first quarter capital expenditures totaled $10.06 billion. I finished
-(06:10.141) my financial summary. Now let's turn to our current quarter guidance. Based on the current
-(06:29.653) business outlook, we expect our second quarter revenue to be between USD 28.4 billion and
-(06:43.063) USD 29.2 billion, which represents a 13% sequential increase or a 38% year-over-year increase at
-(06:47.976) the midpoint. Based on the exchange rate assumption of USD 1 to TWD 32.5, gross
-(07:01.586) margin is expected to be between 57% and 59%, operating margin between 47% and 49%.
-(07:13.698) Also, in the second quarter, we will need to accrue the tax on the undistributed
-(07:17.839) earnings -- retained earnings. As a result, our second quarter tax rate will be around
-(07:28.597) 20%. The tax rate will then fall back to 14% to 15% level in the
-(07:39.935) third and fourth quarter, and the full year tax rate will be between 16% and
-(07:48.429) 17%. This concludes my financial presentation. Now let me turn to our key messages. I
-(07:57.774) will start by talking about our first quarter '25 and second quarter '25 profitability. Compared
-(08:05.912) to fourth quarter, our first quarter gross margin slightly decreased by 20 basis points sequentially
-(08:12.982) to 58.8%. This was primarily due to 60 basis points impact from the January 21st
-(08:31.517) earthquake and its aftershocks as well as the start of dilution from our Kumamoto fab,
-(08:47.217) partially offset by cost improvement efforts. We have just guided our second quarter gross margin
-(09:09.268) to decrease by 80 basis points to 58% at the midpoint, primarily as the margin
-(09:17.487) dilution impact from our Arizona fab starts to kick in. We expect the impact from
-(09:25.239) overseas fab to grow more pronounced throughout the year as we ramp up further in
-(09:58.095) Kumamoto and Arizona and forecast 2% to 3% margin dilution impact for the full year
-(10:02.509) 2025. As we have said before, under today's fragmented globalization environment, overseas fab costs are
-(10:12.552) higher for everyone, including TSMC and all other semiconductor manufacturers. With our additional $100 billion
-(10:26.928) investment plan in Arizona, we forecast the gross margin dilution from the ramp-up of our
-(10:33.856) overseas fabs in the next 5 years to start from 2% to 3% every year
-(10:46.196) in the early stages and widened to 3% to 4% in the latter stages. We
-(11:00.792) will leverage our increasing size in Arizona and work on our operations to improve the
-(11:07.668) cost structure. We will also continue to work closely with our customers and suppliers to
-(11:12.949) manage the impact. Overall, with our fundamental competitive advantages of manufacturing technology leadership and large-scale
-(11:23.234) production base, we expect TSMC to be the most efficient and cost-effective manufacture in the
-(11:25.438) region that we operate. Thus, even considering our global manufacturing expansion plans, we believe a
-(11:34.630) long-term gross margin of 53% and higher is achievable. Next, let me talk about our
-(11:40.785) 2025 capital budget. At TSMC, higher level of capital expenditures is always correlated with higher
-(11:43.247) growth opportunities in the following years. We reiterate our 2025 capital budget is expected to
-(11:53.075) be between USD 38 billion and USD 42 billion as we continue to invest to
-(12:10.669) support customers' growth. About 70% of the capital budget will be allocated for advanced process
-(12:24.437) technologies. About 10% to 20% will be spent for specialty technologies and about 10% to
-(12:34.534) 20% will be spent for advanced packaging, testing, mass-making and others. Our 2025 CapEx also
-(12:35.811) includes a small amount related to our recently announced additional $100 billion investment plan to
-(12:45.249) expand our capacity in Arizona. Even as we invest for the future growth with this
-(12:51.175) level of CapEx spending in 2025, we remain committed to delivering profitable growth to our
-(13:07.643) shareholders. We also remain committed to a sustainable and steadily increasing cash dividend per share
-(13:25.355) on both an annual and quarterly basis. Now let me turn the microphone over to
-(13:31.444) C. C. Although a certain number of wafers in process were impacted and have to
-(13:34.657) be scrapped, we worked tirelessly and were able to recover much of the lost production,
-(13:43.365) demonstrating the resilience of our operation in Taiwan. I want to recognize and deeply thank
-(13:47.729) all of our employees and our suppliers for their dedication and hard effort over the
-(13:54.710) Lunar New Year holiday. I would also like to extend our great appreciation to our
-(14:01.414) customers for their understanding and support during this time. Now let me talk about the
-(14:12.560) first quarter's result. We concluded our fourth quarter with revenue of USD 25.5 billion. Our
-(14:25.161) business in the first quarter was impacted by smartphone seasonality, partially offset by continued growth
-(14:37.723) in AI-related demand. Moving into second quarter 2025, we expect our business to be supported
-(14:42.421) by strong growth of our 3-nanometer and 5-nanometer technologies. Looking at the full year of
-(14:52.972) 2025, we expect Foundry 2.0 industry growth to be supported by robust AI-related demand and
-(14:59.860) a mild recovery in other end market segment. In January, we had forecasted a Foundry
-(15:04.145) 2.0 industry to grow 10 points year-over-year in 2025, which is consistent with IDC's forecast
-(15:10.411) of 11% year-over-year growth for Foundry 2.0. Now let me talk about the recent tariff.
-(15:24.191) We understand there are uncertainties and risk from the potential impact of tariff policies. However,
-(15:34.787) we have not seen any change in our customers' behavior so far. Therefore, we continue
-(15:40.085) to expect our full year 2025 revenue to increase by close to mid-20s percent in
-(15:43.466) U.S. dollar term. We might get a better picture in the next few months, and
-(15:56.909) we will continue to closely monitor the potential impact to the end market demand and
-(16:19.378) manage our business prudently. Amidst the uncertainties, we continue to focus on fundamentals of our
-(16:25.405) business with our technology leadership, manufacturing excellence and customer trust to further strengthen our competitive
-(16:31.490) position. As such, we are confident TSMC can continue to outperform the Foundry 2.0 industry
-(16:40.809) growth in 2025. Now I'll talk about our AI demand outlook. We continue to observe
-(16:47.087) robust AI-related demand from our customers throughout 2025. We reaffirm our revenue from AI accelerated
-(17:05.404) to double in 2025. The AI accelerators we define as AI GPU, AI ASIC and
-(17:23.483) HPM controllers for AI training and inference in the data center. Based on our customers'
-(17:32.444) strong demand, we are also working hard to double our CoWoS capacity in 2025 to
-(17:47.207) support their needs. Recent developments are also positive to AI's long-term demand outlook. In our
-(17:51.924) assessment, the impact from AI recent models, including DeepSeek, will drive greater efficiency and help
-(18:13.728) lower the barrier to future AI development. This will lead to wider usage and greater
-(18:25.133) adoption of AI models, which all require use of leading-edge silicon. These developments only serve
-(18:44.364) to strengthen our conviction in the long-term growth opportunities from the industry megatrend of 5G,
-(18:49.137) AI and HPC. To address the structural increase in the long-term market demand profile, TSMC
-(19:02.878) employed a disciplined and robust capacity planning system. This is especially important when we have
-(19:19.812) such high forecasted demand from AI-related business. Externally, we work closely with our customers and
-(19:33.292) our customers' customers to plan our capacity. Internally, our planning system involves multiple teams across
-(19:37.773) several functions to assess and evaluate the market demand from both a top-down and bottom-up
-(19:43.358) approach to determine the appropriate capacity build. Based on our planning framework, we are confident
-(19:50.010) that our revenue growth from AI accelerators will approach a mid-40s percentage CAGR for the
-(20:00.411) next 5 years period starting from 2024. Next, let me talk about TSMC's additional USD
-(20:03.437) 100 billion investment plan to expand in Arizona. All our overseas decisions are based on
-(20:07.968) our customers' need. They value some geographic flexibility and necessary level of government support. This
-(20:19.574) is also to maximize the value for our shareholders. With a strong collaboration and support
-(20:28.114) from our leading U.S. customers and the U.S. Federal state and city government, we recently
-(20:45.852) announced our intention to invest an additional USD 100 billion in advanced semiconductor manufacturing in
-(20:54.909) the United States. This expansion includes plans for 3 additional wafer manufacturing fabs, 2 advanced
-(21:01.359) packaging fabs and a major R&D center. Combined with our previously announced plan to build
-(21:05.181) 3 advanced semiconductor manufacturing fab in Arizona, this brings our total investment in the U.S.
-(21:11.901) to USD 165 billion to support the strong multiyear's demand from our customers. Our first
-(21:20.783) fab in Arizona has already successfully entered high-volume production in 4Q '24, utilizing N4 process
-(21:29.965) technology with a yield comparable to our fab in Taiwan. The construction of our second
-(21:48.907) fab, which will utilize the 3-nanometer process technology, is already complete and we are working
-(21:59.246) on speeding up the volume production schedule based on the strong AI-related demand from our
-(22:15.548) customers. Our third and fourth fab will utilize N2 and A16 process technologies and with
-(22:28.220) the expectation of receiving all the necessary permits are scheduled to begin construction later this
-(22:48.691) year. Our fifth and sixth fab will use even more advanced technologies. The construction and
-(23:11.268) ramp schedule for this fab will be based on our customers' demand. We also plan
-(23:29.669) to build 2 new advanced packaging facilities and establish an R&D center in Arizona to
-(23:33.011) compete the AI supply chain. Our expansion plan while enable TSMC to scale up to
-(23:52.218) a giga-fab cluster to support the needs of our leading-edge customers in smartphone, AI and
-(24:12.983) HPC applications. With this additional USD 100 billion investment plan to expand our leading-edge capacity
-(24:22.285) in Arizona, I would also like to mention that TSMC is not engaged in any
-(24:28.684) discussion with other companies regarding any joint venture technology licensing or technology transfer and sharing.
-(24:41.304) After completion, around 30% of our 2-nanometer and more advanced capacity will be located in
-(24:51.238) Arizona, creating an independent leading-edge semiconductor manufacturing cluster in the U.S. It will also create
-(25:07.846) greater economies of scale and help foster a more complete semiconductor supply chain ecosystem in
-(25:21.818) the U.S. Thus, TSMC will continue to play a critical and integral role in enabling
-(25:38.051) our customers' success, while remaining a key partner in enabling all the strength and leadership
-(25:41.597) of the U.S. semiconductor industry. Next, in Japan, thanks to the strong support from the
-(26:04.903) Japan central prefecture and local government, our first specialty technology fab in Kumamoto has already
-(26:09.303) started volume production in late 2024 with very good yield. The construction of our second
-(26:19.138) specialty fab is scheduled to start later this year, subject to the readiness of the
-(26:25.202) local infrastructure. In Europe, we have received strong commitment from the European Commission and the
-(26:34.512) German Federal state and city government. We are on track with our plan to build
-(26:45.202) a specialty technology fab in Dresden, Germany. In Taiwan, with support from the Taiwan government,
-(27:25.148) we plan to build 11 wafer manufacturing fab and 4 advanced packaging facility over the
-(28:01.140) next several years. Volume production of N2 is expected to start in second half 2024,
-(28:03.390) and we are preparing for multiple phases of 2-nanometer fabs in both Hsinchu and Kaohsiung
-(28:10.357) science parks to support the strong structural demand from our customers. By expanding our global
-(28:17.364) footprint while continuing investment in Taiwan, TSMC can continue to be the trusted technology and
-(28:28.612) capacity provider of the global logic IC industry for years to come, while delivering profitable
-(28:31.558) growth for our shareholders. Finally, I'll talk about our N2 status and A16 introduction. 2-nanometer
-(28:33.370) and A16 technology leads the industry in addressing the inaccessible need for energy-efficient computing and
-(28:35.838) almost the innovators -- almost all the innovators are working with us. We expect the
-(28:44.478) number of new tape-out for 2-nanometer technology in the first 2 years to be higher
-(28:48.977) than both 3-nanometer and 5-nanometer in their first 2 years, fueled by both smartphone and
-(29:00.324) HPC applications. N2 will deliver full node performance and power benefits with 10% to 15%
-(29:09.868) speed improvement at the same power or 20% to 30% power improvement at the same
-(29:29.016) speed and more than 15% cheap density increase as compared with N3E. N2 is well
-(30:00.244) on track for volume production in the second half of 2025 as scheduled with a
-(30:49.049) ramp profile similar to N3. With our strategy of continuous enhancement, we also introduced N2P
-(31:42.781) as an extension of N2 family. N2P features further performance and power benefits on top
-(31:44.073) of N2 and volume production is scheduled for second half 2026. We also introduced a
-(31:50.748) 16 feature in super power rail or SPR as a separate offering. Compared with the
-(31:57.146) N2P, A16 provides a further 8% to 10% speed improvement at the same power or
-(32:00.503) 15% to 20% power improvement at the same speed and additional 7% to 10% chip
-(32:15.742) density gain. A16 is best suited for specific HPC products with complex signal route and
-(32:29.166) dense power delivery network. Volume production is scheduled for second half 2026. We believe N2,
-(32:35.952) N2P, A16 and its derivatives will further extend our technology leadership position and enable TSMC
-(32:46.520) to capture the growth opportunities well into the future. This concludes our key message, and
-(32:47.734) thank you for your attention. Gokul Hariharan And first of all, thanks for clearing the
-(32:50.858) air on all those JV-related news reports. I think a lot of people needed that.
-(32:57.246) Thank you. My first question is on AI demand. So C.C., there has been a
-(33:00.510) lot of talks about CoWoS order adjustment and some concerns about AI demand. You did
-(33:02.918) talk about CoWoS capacity doubling. Could you talk a little bit about how you see
-(33:05.863) demand versus supply? I think last time we talked about this, you did indicate CoWoS
-(33:25.683) demand is still well above supply. Could you talk a little bit about how the
-(33:28.557) situation is looking for CoWoS demand versus supply this year? And maybe a little bit
-(33:28.894) of early color on 2026 also as you plan for the capacity? As I said,
-(33:33.691) we have to double our CoWoS capacity. Still fully loaded. And for 2026, I cannot
-(33:37.457) say the number, but it's still a healthy momentum while we continued, okay. Did that
-(34:00.550) answer your question? Gokul Hariharan So do you still think 2026 is going to be
-(34:07.626) supply limited still, that demand is still going to be much more than supply even
-(34:17.517) in 2026, is that your current expectation C.C.? Gokul Hariharan My second question is on
-(34:20.849) the U.S. investment and all this like persistent rumors about involvement in your competitors, operations,
-(34:21.547) et cetera. You have interacted with the U.S. government, the new administration for the last
-(34:27.990) several months and C.C. made the big announcement at the White House as well. Just
-(34:33.834) wanted to understand what is -- what does TSMC's kind of impression in terms of
-(35:00.244) what is required? Now that there is also the semiconductor tariff litigation going on. What
-(35:04.732) is TSMC's impression of what is required over the next 2, 3 years in terms
-(35:26.804) of reshoring of capacity both from a U.S. administration perspective, also from your U.S. customers'
-(35:43.478) perspective? And I also -- I think Wendell also indicated that the margin dilution may
-(35:47.681) be slightly bigger as we go along. So could you talk a little bit about
-(35:50.012) how much of the value can you pass on to the customers as the expansion
-(36:18.020) becomes a little bit more accelerated? There's still potential semiconductor tariff. So his question is
-(36:31.961) really from TSMC's point of view, what do we think is required for more onshoring
-(36:55.569) in the U.S.? Can we share the perspective from the U.S. government? Or more directly
-(37:03.216) what our customers are asking us to do in terms of reshoring? That's the first
-(37:11.255) part. And the second part will -- maybe Wendell can address on the margin. Gokul
-(37:54.335) Hariharan Yes, that's right. Yes. Gokul Hariharan Okay. Understood. Zheng Lu I think the geopolitical
-(38:25.779) risk, micro concerns is one of the major uncertainty nowadays. Last 2 days, we have
-(38:27.017) like H20 being banned in China, blah, blah, blah. So how does that impact to
-(38:53.064) TSMC's focus and production planning, right? Do we have enough other customers and demand to
-(39:07.076) keep our advanced node capacity fully utilized? Or how does that change our long-term production
-(39:22.650) planning moving forward? Zheng Lu Yes, but I want a little bit more but I'm
-(39:32.467) sure you guys did a lot of sensitivity analysis, like what kind of impact is
-(39:36.826) going to be? Or can you show us like how much butter we got that
-(39:41.616) like you've assumed, like how comfortable we have to maintain our current capacity planning moving
-(39:49.175) forward or current utilization right now? Zheng Lu I see. Let me switch gears to
-(40:00.288) a little bit for the non-U.S. capacity expansion. I think yes, as we understand that
-(40:04.430) the current capacity utilization for mature node is underutilized. Do we consider to slow down
-(40:46.282) the capacity expansion in Japan or Europe? Or just relocate the current equipment from Taiwan
-(41:11.811) to Japan or Europe instead of building the new one? We don't want -- why
-(41:17.533) do we want to expand the capacity for the mature, which management already mentioned as
-(41:25.746) oversupply industry though. If we relocate, then we can squeeze more space, clean room in
-(41:29.404) Taiwan for more advanced nodes. And then number two, would we consider using current relocate
-(41:41.576) equipment from Taiwan to overseas rather than just the pure new extension or greenfield expansion?
-(41:46.073) Now the line is open to Charlie Chan, Morgan Stanley. Charlie Chan My first question
-(42:02.262) is really very specific on the semiconductor tariffs on either Taiwan or TSMC leading edge.
-(42:04.561) So I'm wondering, first of all, does the TSMC get involved in all those tariff
-(42:14.234) negotiations between Taiwan government and the U.S. government? And secondly, do you believe that your
-(42:18.891) commitment of USD 165 billion investments can get a spare on these semiconductor tariff? Because
-(42:22.560) in your previous comment, it seems to only concerned about the tariff impact on consumer
-(42:59.347) tech demand. But I think global investors are also very confident about additional tariffs on
-(43:22.446) this semiconductor category. Can you give us some color? Certainly, no, we are not getting
-(43:43.777) involved. What is the second question? Charlie Chan Okay. Yes. So actually, do you have
-(44:05.346) any visibility that the semiconductor-specific tariffs can be exempt? Charlie Chan Yes. Charlie Chan Okay.
-(44:20.670) Got you. I think you are too moderate, but let's move on to my second
-(44:37.631) question. So based on your second quarter guidance, which is very strong, up 13% quarter-on-quarter.
-(45:00.220) I can't help to think whether there are customers pulling given the tariff? Or is
-(45:05.101) it kind of really demand? And also based on your full year guidance, so called,
-(45:43.172) mid-20%, it seems like second half recovery will be very, very gradual or flattish. So
-(45:51.806) I'm wondering if you're already bake in those kind of consumer tech demand impact? And
-(45:54.273) if tariff have some kind of turnaround, right, meaning some exemption on, for example, major
-(46:13.510) smartphone brands, whether there's a chance for you to revise your full year revenue guidance?
-(46:14.087) As I said, we haven't seen any -- observed any changes in customer behavior in
-(46:16.275) terms of pull-in or due to tariffs. It's probably better to ask them directly. Charlie
-(46:22.281) Chan I see. So yes, so I think that's really -- but I think your
-(46:32.387) answer to Gokul's previous question on long-term margin dilution was a little bit unclear because
-(48:00.916) we thought that a 2% to 3% margin dilution from overseas should remain to be
-(48:01.136) the case, but it seems like it's widening. So I'm not sure if it is
-(48:16.815) because you are further accelerating your U.S. fab expansion or some cost item or pricing
-(48:18.014) item or not in your stations versus maybe 1 or 2 months ago. Those are
-(48:23.611) the reasons. Yu Shi Maybe I'll ask a relatively higher level question. It's a two-part
-(48:33.578) question. Both are regarding your expansion plan in the United States. I think management --
-(48:40.472) another occasion that what TSMC wants the most is really fairness. Nothing monetary, nothing about
-(48:45.298) tariffs, but fairness. Can management kind of elaborate a little bit what fairness means, give
-(48:51.090) us a little bit more specifics? But the other part of the question regarding the
-(49:11.477) U.S. expansion, it's about the R&D team center you announced. We understand, yes, the TSMC's
-(49:29.482) R&D in the U.S. does need to start from somewhere, right? You said it's more
-(49:43.076) about the production improvements related R&D on derivative nodes. But since this seems to be
-(49:44.232) something U.S. really cares about that the R&D capability on the U.S. soil on the
-(49:45.648) leading edge, is there any longer-term plan to have the U.S. R&D center to be
-(49:59.840) involved, let's say, in the primary R&D, let's say, brand new processes, the major nodes
-(50:27.315) development. That's my two-part question. If anybody get the subsidy or get incentive, it should
-(50:41.955) be everybody should get the same. Either we got all or we got zero, all
-(50:54.755) right? So that's what we call it fair. So again, I would like to assure
-(51:09.478) you that we are -- we'll be very competitive in either conditions. understands the R&D
-(51:12.728) needs to start from somewhere, but with our major R&D center in Arizona, what will
-(51:25.053) be the purpose or the focus, and will it be involved at some point in
-(51:30.522) ramping new technologies? And we need to establish a major R&D center in Arizona with
-(51:36.466) about 1,000 engineers, and that's a big amount. But the focus will be support our
-(51:42.512) manufacturing cluster, improve its technology and allow it to operate independently, okay. Did I answer
-(51:47.555) the question? Yu Shi Maybe let me just really follow up because there has been
-(52:26.132) a good amount of chatters about the U.S. R&D center more supporting manufacturing rather than
-(52:52.356) doing a brand -- major R&D, the brand new nodes, but it looks like that's
-(52:55.095) not the plan, but over the longer term, is there any thoughts of management, maybe
-(53:07.971) they will get involved in brand-new nodes development one way or the other? I think
-(53:15.708) that's the question people have been discussed about over the last quarter. 1,000 engineers is
-(53:26.764) not a small amount. Of course, it's not comparable to TSMC right now, it's a
-(53:29.763) 10,000 R&D people, but it's a beginning, okay? So we do a lot more. Charlie
-(53:55.968) Chan No, I don't. Sunny Lin So my first question is a follow-up on the
-(54:11.827) Arizona expansions. So first part is on the time line or the pace of your
-(55:00.306) expansion now given the stronger demand for your U.S. capacities. To what extent could you
-(55:03.589) pull in the wrap of the original second and third phase? And for your fourth
-(55:53.232) phase, you earlier mentioned that you will be constructing the fab show later this year.
-(56:23.152) So with that, will it be possible that you start to ramp the fourth phase
-(56:38.901) at the same time as the third phase? Sunny Lin Well, so sorry, just to
-(56:47.479) clarify, so the second phase originally is planning for production in 2028. So now should
-(57:04.287) we assume it to be from maybe mid-2027 or even first half 2027? And for
-(57:20.658) the third phase since you're building the fab show this year, so will the production
-(57:35.897) start maybe 1 year ahead versus the original time line of 2030? Sunny Lin Got
-(57:37.367) it. No problem. My second question is on the pricing and margin of the overseas
-(57:38.738) expansions. And so now with the -- especially stronger demand for the U.S. capacities, would
-(57:40.665) you be able to sell more value given the stronger onshoring requirements? And then for
-(57:41.793) margin, earlier, you mentioned the 2% to 3% margin dilution for the coming 2, 3
-(57:46.484) years and then expanding to 3% to 4% maybe into 2029 to 2030. I just
-(57:51.724) wonder what the underlying whether price assumption for that gross margin dilution estimate? If you
-(58:50.933) are able to raise the AC pricing a bit, will the gross margin dilution could
-(59:20.010) be less? Therefore, we are already discussing this with our major customers. And the progress
-(59:25.392) is so far so good, okay? Now at the same time, the margin dilution from
-(59:37.686) the overseas fabs, the additional dilutions come from the cost inflation as well as potential
-(59:57.695) cost increases from the tariff policies. Of course, with that, we also want to reflect
-(60:06.488) the value and therefore, the discussion with the customers are in continuous. Sunny Lin Got
-(60:27.090) it. Brett Simpson Yes. I have a two-part question on this year's guidance for C.C.
-(60:32.627) First, C.C., you mentioned that AI is still expected to double this year despite the
-(61:14.825) U.S. ban on AI GPUs into China. And I guess, China was a meaningful portion
-(61:39.599) of accelerated shipments well over 10% of volumes. So factoring this in, it would imply
-(61:55.034) your AI outlook this year, still doubling would mean that the AI orders have improved
-(62:11.049) meaningfully outside of China in the last sort of 3 months. Is that how we
-(62:19.126) should interpret your comment about you still expect the business to double? And then second,
-(62:23.765) we're in the June quarter where tariffs have been paused for 90 days. So to
-(62:27.823) what extent does your above seasonal June quarter guidance reflect customer pull-ins ahead of potential
-(62:30.102) tariffs being applied in the September quarter? Brett Simpson Yes, thanks Jeff. My second question
-(63:25.600) was for Wendell, and thanks for clarifying that, Wendell. Follow-up is on shareholder returns. And
-(64:02.707) TSMC traditionally has always favored growing the dividends as the main policy. But many shareholders
-(64:07.297) would argue that the dividend payouts are not having that much of an impact on
-(64:08.227) the discounted multiple that TSMC trades at versus some of your U.S. big tech peers.
-(64:10.783) So my question is why does TSMC management not adopt a buyback framework particularly with
-(64:47.292) the strength of the cash position on your balance sheet at the moment? Chia Yi
-(64:50.399) Chen Can you hear me clearly? Chia Yi Chen Yes. My question is also about
-(64:54.930) the AI and also the U.S. expansion. Since you just mentioned that the CoWoS supply/demand
-(64:59.917) will be more balanced into 2026. Do you see any structural change in the future
-(65:03.716) AI chip design when moving to N3 such as like a triplet that kind of
-(65:16.461) a design. And also in that kind of new trend, what TSMC's view on the
-(65:54.010) new technologies, such as CPO or PLP panel base. Will that still start from Taiwan
-(66:23.731) first? Or you would also consider to further invest the new like back-end technology in
-(66:25.983) Arizona, since C. C. just mentioned that you would also start to build up the
-(66:54.734) fab in advanced packaging in Arizona. That's my first question. Taiwan first? Or is this
-(66:58.320) also part of the plan for the expansion in Arizona? As for the, what we
-(67:06.360) call is, panel-level packaging, we are aggressively developing it. And today, still is the feasibility
-(67:14.651) study stage. Too early to say, it will be in Taiwan or in U.S.
-(67:30.538) But most likely, it will be in Taiwan first, we ramp it up and
-(67:39.139) then bring to U.S. Chia Yi Chen Okay. That's very clear. And also my
-(67:52.639) second question is also about the capacity allocation between Taiwan and also Arizona. C.
-(67:57.006) C., you just shared with us that for about like 30% of N2 capacity
-(68:11.981) will be in Arizona, we know it will be starting from when or what
-(68:17.225) kind of time frame you are looking for. Can we also assume that the
-(68:23.486) same scale like 30% of your Arizona fab for the advanced node in the
-(68:40.278) longer term? Sreekrishnan Sankarnarayanan My first one is, it's very impressive given uncertainty, you're
-(68:49.989) still maintaining full year revenue guidance and also your N2 capacity planned for this
-(68:55.483) year and next year. Kind of curious, what is your visibility on second half
-(69:06.712) revenues and also N2 demand for wafers into next year? And then I have
-(69:23.255) a follow-up. Sreekrishnan Sankarnarayanan Got it. Very helpful. Yes, Jeff. Yes. Just one quick
-(69:43.384) follow-up. You spoke about the Japan fab. I'm curious what is the capacity installed
-(69:43.504) in Japan today? And how to think about the revenue contribution this year from
-(69:48.805) Japan? Sreekrishnan Sankarnarayanan Got it. So thank you again for joining us today. We
-(69:54.226) hope everyone continues to stay well and hope to join -- you will join
-(69:59.986) us again next quarter. Goodbye, and have a good day. Take care. Thank you.
+[METADATA]
+Source: 2330_2025_q1.m4a
+Method: Anchored Rescue + Dictionary Fix | Original Method: Anchored Rescue (Base=exp7, Language=en)
+Generated-At: 2026-04-09 13:18 CST
+---
+
+(00:30.930) Source: AlphaSpread [Foreign Language] Good afternoon, everyone, and welcome to TSMC's First Quarter 2025 Earnings Conference Call. This is Jeff Su, TSMC's Director of Investor Relations and your host for today. TSMC is holding our earnings conference call via live audio webcast through the company's website at www.tsmc.com, where you
+(01:10.410) can also download the earnings release materials. If you are joining us through the conference call, your dial-in lines are in listen-only mode. The format for today's event will be as follows: First, TSMC's Senior Vice President and CFO, Mr. Wendell Huang, will summarize our operations in the first quarter
+(01:13.200) 2025, followed by our guidance for the second quarter 2025. Afterwards, Mr. Huang and TSMC's Chairman and CEO, Dr. C. C. Wei, will jointly provide the company's key messages. Then we will open the line for questions and answers. As usual, I would like to remind everybody that today's
+(01:16.640) discussions may contain forward-looking statements that are subject to significant risks and uncertainties, which could cause actual results to differ materially from those contained in the forward-looking statements. Please refer to the safe harbor notice that appears in our press release. And now I would like to turn the call
+(01:18.400) over to TSMC's CFO, Mr. Wendell Huang, for the summary of operations and the current quarter guidance. Thank you, Jeff. Good afternoon, everyone. Thank you for joining us today. My presentation will start with
+(01:19.690) financial highlights for the first quarter 2025. After that, I will provide the guidance for the second quarter of 2025. First quarter revenue decreased 3.4% sequentially in NT dollar or 5.1% in U.S.
+(01:53.420) dollars as our business was impacted by smartphone seasonality, partially offset by continued growth in AI-related demand. In spite of the January 21st earthquake and several aftershocks, we worked diligently to recover much of
+(02:05.360) the lost production. Thus, our revenue in the first quarter was slightly above the midpoint of our guidance. Gross margin decreased 0.2 percentage points sequentially to 58.8%, primarily due to the earthquake impact
+(02:17.150) as well as the start of overseas dilution, partially offset by the cost improvement efforts. Total operating expenses accounted for 10.2% of net revenue. Operating margin decreased 0.5 percentage points sequentially to 48.5%. Overall,
+(02:35.840) our first quarter EPS was TWD 13.94 and ROE was 32.7%. Now let's move on to revenue by technology. 3-nanometer process technology contributed 22% of wafer revenue in the first quarter, while 5-nanometer
+(02:51.300) and 7-nanometer accounted for 36% and 15%, respectively. Advanced technologies, defined as 7-nanometer and below, accounted for 73% of wafer revenue. Moving on to revenue contribution by platform. HPC increased 7% quarter-over-quarter to account
+(03:17.410) for 59% of our first quarter revenue. Smartphone decreased 22% to account for 28%, IoT decreased 9% to account for 5%, automotive increased 14% and accounted for 5% and DCE increased 8% to
+(03:37.640) account for 1%. Moving on to the balance sheet. We ended the first quarter with cash and marketable securities of TWD 2.7 trillion or USD 81 billion. On the liability side, current liabilities increased
+(03:46.950) by TWD 135 billion quarter-over-quarter, mainly due to the increase of TWD 111 billion in accrued liabilities and others. The increase in accrued liabilities and others was mainly due to the accrual of
+(03:47.610) income tax payables. On financial ratios, accounts receivable turnover days increased 1 day to 28 days. Days of inventory increased 3 days to 83 days, primarily due to the ramping of new overseas fabs.
+(03:50.410) Regarding cash flow and CapEx. During the first quarter, we generated about TWD 626 billion in cash from operations, spent TWD 331 billion in CapEx and distributed TWD 104 billion for second quarter
+(04:40.400) 2024 cash dividend. In addition, we raised TWD 16 billion in cash from bond issuances. Overall, our cash balance increased TWD 267 billion to TWD 2.4 trillion at the end of the quarter. In
+(05:12.460) U.S. dollar terms, our first quarter capital expenditures totaled $10.06 billion. I finished my financial summary. Now let's turn to our current quarter guidance. Based on the current business outlook, we expect our
+(05:20.410) second quarter revenue to be between USD 28.4 billion and USD 29.2 billion, which represents a 13% sequential increase or a 38% year-over-year increase at the midpoint. Based on the exchange rate assumption of
+(05:27.310) USD 1 to TWD 32.5, gross margin is expected to be between 57% and 59%, operating margin between 47% and 49%. Also, in the second quarter, we will need to accrue the tax
+(05:39.440) on the undistributed earnings -- retained earnings. As a result, our second quarter tax rate will be around 20%. The tax rate will then fall back to 14% to 15% level in the third
+(06:08.340) and fourth quarter, and the full year tax rate will be between 16% and 17%. This concludes my financial presentation. Now let me turn to our key messages. I will start by talking
+(06:14.960) about our first quarter '25 and second quarter '25 profitability. Compared to fourth quarter, our first quarter gross margin slightly decreased by 20 basis points sequentially to 58.8%. This was primarily due to 60
+(06:32.390) basis points impact from the January 21st earthquake and its aftershocks as well as the start of dilution from our Kumamoto fab, partially offset by cost improvement efforts. We have just guided our
+(06:41.670) second quarter gross margin to decrease by 80 basis points to 58% at the midpoint, primarily as the margin dilution impact from our Arizona fab starts to kick in. We expect the impact from
+(06:43.580) overseas fab to grow more pronounced throughout the year as we ramp up further in Kumamoto and Arizona and forecast 2% to 3% margin dilution impact for the full year 2025. As we
+(06:48.030) have said before, under today's fragmented globalization environment, overseas fab costs are higher for everyone, including TSMC and all other semiconductor manufacturers. With our additional $100 billion investment plan in Arizona, we forecast the
+(06:49.450) gross margin dilution from the ramp-up of our overseas fabs in the next 5 years to start from 2% to 3% every year in the early stages and widened to 3% to 4%
+(07:31.540) in the latter stages. We will leverage our increasing size in Arizona and work on our operations to improve the cost structure. We will also continue to work closely with our customers and suppliers
+(08:29.530) to manage the impact. Overall, with our fundamental competitive advantages of manufacturing technology leadership and large-scale production base, we expect TSMC to be the most efficient and cost-effective manufacture in the region that
+(09:25.510) we operate. Thus, even considering our global manufacturing expansion plans, we believe a long-term gross margin of 53% and higher is achievable. Next, let me talk about our 2025 capital budget. At TSMC, higher
+(09:47.620) level of capital expenditures is always correlated with higher growth opportunities in the following years. We reiterate our 2025 capital budget is expected to be between USD 38 billion and USD 42 billion
+(10:22.370) as we continue to invest to support customers' growth. About 70% of the capital budget will be allocated for advanced process technologies. About 10% to 20% will be spent for specialty technologies and about
+(10:40.830) 10% to 20% will be spent for advanced packaging, testing, mass-making and others. Our 2025 CapEx also includes a small amount related to our recently announced additional $100 billion investment plan to expand
+(10:42.010) our capacity in Arizona. Even as we invest for the future growth with this level of CapEx spending in 2025, we remain committed to delivering profitable growth to our shareholders. We also remain committed
+(10:43.050) to a sustainable and steadily increasing cash dividend per share on both an annual and quarterly basis. Thank you, Wendell. Good afternoon, everyone. First, let me start with our near-term demand outlook. But before that, I would like
+(10:56.430) to mention the earthquake during Lunar New Year. On January 21st, Taiwan experienced a 6.4 magnitude earthquake under Richter scale, followed by several significant aftershocks. Although a certain number of wafers in process were impacted and have
+(11:25.210) to be scrapped, we worked tirelessly and were able to recover much of the lost production, demonstrating the resilience of our operation in Taiwan. I want to recognize and deeply thank all of our employees and our suppliers
+(11:39.560) for their dedication and hard effort over the Lunar New Year holiday. I would also like to extend our great appreciation to our customers for their understanding and support during this time. Now let me talk about the
+(11:48.640) first quarter's result. We concluded our fourth quarter with revenue of USD 25.5 billion. Our business in the first quarter was impacted by smartphone seasonality, partially offset by continued growth in AI-related demand. Moving into second quarter 2025,
+(12:07.160) we expect our business to be supported by strong growth of our 3-nanometer and 5-nanometer technologies. Looking at the full year of 2025, we expect Foundry 2.0 industry growth to be supported by robust AI-related demand and
+(12:34.600) a mild recovery in other end market segment. In January, we had forecasted a Foundry 2.0 industry to grow 10 points year-over-year in 2025, which is consistent with IDC's forecast of 11% year-over-year growth for Foundry 2.0. Now
+(13:08.800) let me talk about the recent tariff. We understand there are uncertainties and risk from the potential impact of tariff policies. However, we have not seen any change in our customers' behavior so far. Therefore, we continue to
+(13:31.800) expect our full year 2025 revenue to increase by close to mid-20s percent in U.S. dollar term. We might get a better picture in the next few months, and we will continue to closely monitor the potential impact
+(13:40.760) to the end market demand and manage our business prudently. Amidst the uncertainties, we continue to focus on fundamentals of our business with our technology leadership, manufacturing excellence and customer trust to further strengthen our competitive position.
+(13:57.530) As such, we are confident TSMC can continue to outperform the Foundry 2.0 industry growth in 2025. Now I'll talk about our AI demand outlook. We continue to observe robust AI-related demand from our customers throughout 2025. We
+(14:35.080) reaffirm our revenue from AI accelerated to double in 2025. The AI accelerators we define as AI GPU, AI ASIC and HPM controllers for AI training and inference in the data center. Based on our customers' strong demand,
+(14:38.370) we are also working hard to double our CoWoS capacity in 2025 to support their needs. Recent developments are also positive to AI's long-term demand outlook. In our assessment, the impact from AI recent models, including DeepSeek, will
+(14:41.960) drive greater efficiency and help lower the barrier to future AI development. This will lead to wider usage and greater adoption of AI models, which all require use of leading-edge silicon. These developments only serve to strengthen
+(15:00.380) our conviction in the long-term growth opportunities from the industry megatrend of 5G, AI and HPC. To address the structural increase in the long-term market demand profile, TSMC employed a disciplined and robust capacity planning system. This is
+(15:14.900) especially important when we have such high forecasted demand from AI-related business. Externally, we work closely with our customers and our customers' customers to plan our capacity. Internally, our planning system involves multiple teams across several functions to
+(15:17.220) assess and evaluate the market demand from both a top-down and bottom-up approach to determine the appropriate capacity build. Based on our planning framework, we are confident that our revenue growth from AI accelerators will approach a
+(15:33.710) mid-40s percentage CAGR for the next 5 years period starting from 2024. Next, let me talk about TSMC's additional USD 100 billion investment plan to expand in Arizona. All our overseas decisions are based on our customers' need.
+(16:24.440) They value some geographic flexibility and necessary level of government support. This is also to maximize the value for our shareholders. With a strong collaboration and support from our leading U.S. customers and the U.S. Federal state and
+(16:38.160) city government, we recently announced our intention to invest an additional USD 100 billion in advanced semiconductor manufacturing in the United States. This expansion includes plans for 3 additional wafer manufacturing fabs, 2 advanced packaging fabs and a
+(16:46.300) major R&D center. Combined with our previously announced plan to build 3 advanced semiconductor manufacturing fab in Arizona, this brings our total investment in the U.S. to USD 165 billion to support the strong multiyear's demand from
+(17:02.660) our customers. Our first fab in Arizona has already successfully entered high-volume production in 4Q '24, utilizing N4 process technology with a yield comparable to our fab in Taiwan. The construction of our second fab, which will utilize
+(17:22.680) the 3-nanometer process technology, is already complete and we are working on speeding up the volume production schedule based on the strong AI-related demand from our customers. Our third and fourth fab will utilize N2 and A16 process
+(18:49.760) technologies and with the expectation of receiving all the necessary permits are scheduled to begin construction later this year. Our fifth and sixth fab will use even more advanced technologies. The construction and ramp schedule for this fab
+(19:04.630) will be based on our customers' demand. We also plan to build 2 new advanced packaging facilities and establish an R&D center in Arizona to compete the AI supply chain. Our expansion plan while enable TSMC to
+(20:39.130) scale up to a giga-fab cluster to support the needs of our leading-edge customers in smartphone, AI and HPC applications. With this additional USD 100 billion investment plan to expand our leading-edge capacity in Arizona, I would also
+(20:46.360) like to mention that TSMC is not engaged in any discussion with other companies regarding any joint venture technology licensing or technology transfer and sharing. After completion, around 30% of our 2-nanometer and more advanced capacity will be
+(20:53.680) located in Arizona, creating an independent leading-edge semiconductor manufacturing cluster in the U.S. It will also create greater economies of scale and help foster a more complete semiconductor supply chain ecosystem in the U.S. Thus, TSMC will
+(21:26.860) continue to play a critical and integral role in enabling our customers' success, while remaining a key partner in enabling all the strength and leadership of the U.S. semiconductor industry. Next, in Japan, thanks to the strong support
+(21:57.720) from the Japan central prefecture and local government, our first specialty technology fab in Kumamoto has already started volume production in late 2024 with very good yield. The construction of our second specialty fab is scheduled to start
+(22:05.760) later this year, subject to the readiness of the local infrastructure. In Europe, we have received strong commitment from the European Commission and the German Federal state and city government. We are on track with our plan to
+(22:15.160) build a specialty technology fab in Dresden, Germany. In Taiwan, with support from the Taiwan government, we plan to build 11 wafer manufacturing fab and 4 advanced packaging facility over the next several years. Volume production of
+(22:53.080) N2 is expected to start in second half 2024, and we are preparing for multiple phases of 2-nanometer fabs in both Hsinchu and Kaohsiung science parks to support the strong structural demand from our customers. By expanding our
+(23:10.950) global footprint while continuing investment in Taiwan, TSMC can continue to be the trusted technology and capacity provider of the global logic IC industry for years to come, while delivering profitable growth for our shareholders. Finally, I'll talk
+(23:39.750) about our N2 status and A16 introduction. 2-nanometer and A16 technology leads the industry in addressing the inaccessible need for energy-efficient computing and almost all the innovators are working with us. We expect the number of new tape-out
+(24:08.460) for 2-nanometer technology in the first 2 years to be higher than both 3-nanometer and 5-nanometer in their first 2 years, fueled by both smartphone and HPC applications. N2 will deliver full node performance and power benefits
+(24:19.480) with 10% to 15% speed improvement at the same power or 20% to 30% power improvement at the same speed and more than 15% chip density increase as compared with N3E. N2 is well on track for volume
+(24:30.450) production in the second half of 2025 as scheduled with a ramp profile similar to N3. With our strategy of continuous enhancement, we also introduced N2P as an extension of N2 family. N2P features further performance and power
+(24:38.010) benefits on top of N2 and volume production is scheduled for second half 2026. We also introduced A16 featuring super power rail or SPR as a separate offering. Compared with the N2P, A16 provides a further 8% to
+(25:15.230) 10% speed improvement at the same power or 15% to 20% power improvement at the same speed and additional 7% to 10% chip density gain. A16 is best suited for specific HPC products with complex signal route
+(25:21.780) and dense power delivery network. Volume production is scheduled for second half 2026. We believe N2, N2P, A16 and its derivatives will further extend our technology leadership position and enable TSMC to capture the growth opportunities well into
+(25:23.120) the future. This concludes our key message, and thank you for your attention. Thank you, C.C. This concludes our
+(25:37.060) prepared statements. Now let's begin the Q&A session. Operator, can we please proceed with the first caller on
+(25:41.420) the line? And first of all, thanks for clearing the air on all those JV-related news reports. I think
+(25:44.310) a lot of people needed that. Thank you. My first question is on AI demand. So C.C., there
+(25:46.690) has been a lot of talks about CoWoS order adjustment and some concerns about AI demand. You did talk
+(26:02.070) about CoWoS capacity doubling. Could you talk a little bit about how you see demand versus supply? I think
+(26:37.500) last time we talked about this, you did indicate CoWoS demand is still well above supply. Could you
+(26:39.080) talk a little bit about how the situation is looking for CoWoS demand versus supply this year? And maybe
+(26:43.140) a little bit of early color on 2026 also as you plan for the capacity? All right. Thank
+(26:44.640) you, Gokul. For everyone's benefit, let me try to summarize your first question. So again, Gokul's first question is
+(26:46.080) on the AI-related demand. He notes there's been a lot of noise around CoWoS and order cuts and such.
+(26:49.560) So he would like to ask C.C. what is the thinking or strategy for TSMC CoWoS still doubling
+(26:52.940) this year? Is the demand still exceeding the supply? And how is the CoWoS capacity and supply or supply
+(26:55.360) and demand, I should say, look like going into '26, if C.C. is able to provide any color.
+(27:03.340) Okay. Gokul, I know there's a lot of rumors about the CoWoS. The last time when we talked about
+(27:04.500) the CoWoS, the demand is almost insane and much, much higher than we can prepare. And now it's a
+(27:12.810) little bit better. I think still we need to build a lot of capacity to meet the demand.
+(27:23.270) As I said, we have to double our CoWoS capacity. Still fully loaded. And for 2026, I cannot say
+(27:25.030) the number, but it's still a healthy momentum while we continued, okay. Did that answer your question? So do
+(27:25.390) you still think 2026 is going to be supply limited still, that demand is still going to be
+(27:53.830) much more than supply even in 2026, is that your current expectation C.C.? So Gokul was asking, then do
+(28:01.210) we still see demand exceeding supply for CoWoS in 2026? Well, we will work very hard to make
+(28:09.580) sure that we don't have this kind of a demand is much, much higher than the capacity. We're working
+(28:16.960) very hard, and I believe that it will be more balanced next year. My second question is on the
+(28:28.840) U.S. investment and all this like persistent rumors about involvement in your competitors, operations, et cetera. You have
+(28:29.140) interacted with the U.S. government, the new administration for the last several months and C.C. made the big announcement
+(28:36.780) at the White House as well. Just wanted to understand what is -- what does TSMC's kind of
+(28:39.140) impression in terms of what is required? Now that there is also the semiconductor tariff litigation going on. What
+(28:58.000) is TSMC's impression of what is required over the next 2, 3 years in terms of reshoring of capacity
+(29:08.660) both from a U.S. administration perspective, also from your U.S. customers' perspective? And I also -- I think
+(29:16.920) Wendell also indicated that the margin dilution may be slightly bigger as we go along. So could you talk
+(29:29.060) a little bit about how much of the value can you pass on to the customers as the
+(29:29.820) expansion becomes a little bit more accelerated? Okay. So Gokul's second question is a bit involved, but he's asking
+(30:18.250) about again, a lot of talk about our recent announcement for an additional 100 billion expansion in the U.S.,
+(30:47.260) again talk about this involving a competitor. C.C. has been speaking to the U.S. government. There's still potential
+(30:48.000) semiconductor tariff. So his question is really from TSMC's point of view, what do we think is required for
+(30:48.840) more onshoring in the U.S.? Can we share the perspective from the U.S. government? Or more directly what
+(30:54.340) our customers are asking us to do in terms of reshoring? That's the first part. And the second part
+(30:55.900) will -- maybe Wendell can address on the margin. Really. Okay. I thought that's a very long, long question.
+(30:57.390) Let me answer that. Yes, we -- indeed, we have talked with U.S. government officials. And the reason
+(32:46.200) we are expanding in Arizona actually, let me say again, it's all because of our customers' request, and that
+(32:52.200) because of the very high, high demand. I announced it too in other occasions that very strong AI
+(32:55.870) demand from U.S. customers such as Apple, NVIDIA, AMD, Qualcomm and Broadcomm. And so that we need to expand
+(33:04.560) our capacity in the U.S. and to support them. We talked with the U.S. government and to ask for
+(33:11.130) their help in getting the necessary permits so we can start the fab. And as a result, I
+(33:21.780) would expect our 2-nanometer capacity, around 30% will be in Arizona, and that will be also independent leading-edge semiconductor
+(33:24.280) manufacturing cluster. And then, Gokul, the second part of your question is related to then -- sorry, Wendell had
+(33:33.530) mentioned that the margin may widen. So Gokul's second part of the question, I think, was related to
+(35:13.070) pricing and what is our strategy or approach here as we expand overseas. Is that correct? Gokul, you're asking
+(35:24.110) about the pricing. As we always said, reflecting our value is a continuous and ongoing process for TSMC
+(35:26.490) as well in a very capital-intensive business. So we need to have a very high gross margin to earn
+(35:38.290) the sustainable and healthy return, and that is why we set up our pricing strategy. Geographic manufacturing flexibility is
+(35:41.070) an important part of our value proposition to the customers. We are already discussing this with our major
+(35:43.290) customers, and the progress is so far so good. I think the geopolitical risk, micro concerns is one of
+(36:27.450) the major uncertainty nowadays. Last 2 days, we have like H20 being banned in China, blah, blah, blah.
+(36:44.520) So how does that impact to TSMC's focus and production planning, right? Do we have enough other customers and
+(36:51.530) demand to keep our advanced node capacity fully utilized? Or how does that change our long-term production planning moving
+(37:02.370) forward? Okay. Bruce, thank you. Your first question is related, he's talking about geopolitical risk or I guess
+(37:09.320) some of the recent rules and announcements specifically the ban on H20. So his question is how does this
+(37:17.510) impact TSMC's business? How does this impact capacity planning and our strategies? Bruce, let me answer this question.
+(37:18.310) Of course, we do not comment on specific customers or product, but let me assure you that we have
+(37:26.450) taken this into consideration when providing our full year's growth outlook. Did I answer the question? Yes, but I
+(37:38.190) want a little bit more but I'm sure you guys did a lot of sensitivity analysis, like what
+(37:43.680) kind of impact is going to be? Or can you show us like how much butter we got that
+(38:12.200) like you've assumed, like how comfortable we have to maintain our current capacity planning moving forward or current
+(38:25.450) utilization right now? Okay. So Bruce is asking for some more color in terms of what type of buffer
+(38:29.850) or what type of room we have in making our decisions for the long-term capacity planning. Well, actually, we
+(38:33.120) know a lot of people right now speculate a lot of things. But again, we certainly -- we
+(38:34.750) are mindful of the potential impact from all the recent tariff announcements, especially the potential impact to the end
+(38:57.550) market demand. We'll continue to watch it carefully. Having said that, we have not seen any change in
+(39:00.980) our customers' behavior so far. And so we stick on our forecast. I see. Let me switch gears to
+(39:02.690) a little bit for the non-U.S. capacity expansion. I think yes, as we understand that the current capacity utilization
+(39:05.810) for mature node is underutilized. Do we consider to slow down the capacity expansion in Japan or Europe?
+(39:06.570) Or just relocate the current equipment from Taiwan to Japan or Europe instead of building the new one? We
+(39:09.340) don't want -- why do we want to expand the capacity for the mature, which management already mentioned
+(39:22.220) as oversupply industry though. If we relocate, then we can squeeze more space, clean room in Taiwan for more
+(39:34.450) advanced nodes. Okay. So Bruce's second question is around mature node and our expansion into Europe and Japan. His
+(39:35.630) question really is given that the capacity of mature node and 7-nanometer underutilized. Number one, are we concerning
+(39:36.580) to slow down our expansions in these places? And then number two, would we consider using current relocate equipment
+(39:37.180) from Taiwan to overseas rather than just the pure new extension or greenfield expansion? Bruce, let me answer the
+(39:47.160) first part of the question. Are we considering slowing down? The answer is no. We executed our plan
+(39:50.730) as scheduled. The reason is very simple because of this kind of mature node is a specialty technologies demand,
+(40:15.150) which my competitors did not have capacity or capability to support. So it's kind of free for --
+(40:43.520) you mentioned the underloading of the mature node. And so again, I would emphasize, no, we are not going
+(40:45.870) to slow down our plan in Japan or in Germany. The second question is how to do it? We
+(41:16.560) have a good idea, but it's TSMC's confidential information, I'll let you know later. My first question is
+(41:25.480) really very specific on the semiconductor tariffs on either Taiwan or TSMC leading edge. So I'm wondering, first of
+(41:26.360) all, does the TSMC get involved in all those tariff negotiations between Taiwan government and the U.S. government?
+(41:28.760) And secondly, do you believe that your commitment of USD 165 billion investments can get a spare on these
+(41:29.440) semiconductor tariff? Because in your previous comment, it seems to only concerned about the tariff impact on consumer tech
+(41:30.160) demand. But I think global investors are also very confident about additional tariffs on this semiconductor category. Can
+(41:41.330) you give us some color? Okay. Let me summarize your question. First question, Charlie. So Charlie's first question is
+(41:42.770) on semiconductor tariffs. He wants to know what is our comment or view on potential tariffs on Taiwan,
+(41:43.890) reciprocal tariffs or semiconductor-specific tariffs. His question specifically, is TSMC get involved in, in negotiations between the Taiwan government
+(41:53.440) and the U.S. government? Charlie, this kind of tariff discussion is between countries. We are a private company. Certainly,
+(42:17.990) no, we are not getting involved. What is the second question? Okay. Yes. So actually, do you have
+(42:22.420) any visibility that the semiconductor-specific tariffs can be exempt? Sorry, Charlie, I think your question was with our total
+(42:35.820) investment of USD 165 billion in Arizona. Do we believe -- does TSMC believe semiconductors will be exempt
+(42:44.910) from these tariffs? Charlie, all policy especially this tariff decision are government's responsibility to decide. And as a private
+(42:51.570) company, we are fully respectful of this, but we are not get involved. Okay. Got you. I think you
+(42:55.950) are too moderate, but let's move on to my second question. So based on your second quarter guidance,
+(43:04.170) which is very strong, up 13% quarter-on-quarter. I can't help to think whether there are customers pulling given the
+(43:14.500) tariff? Or is it kind of really demand? And also based on your full year guidance, so called,
+(43:40.450) mid-20%, it seems like second half recovery will be very, very gradual or flattish. So I'm wondering if you're
+(44:05.520) already bake in those kind of consumer tech demand impact? And if tariff have some kind of turnaround, right,
+(44:11.930) meaning some exemption on, for example, major smartphone brands, whether there's a chance for you to revise your
+(44:19.330) full year revenue guidance? Okay. So Charlie's second question is on the revenue outlook. His first part is on
+(44:21.420) the second quarter. He notes second quarter, 13% at the midpoint in U.S. dollar terms Q-on-Q is very strong.
+(44:21.700) So he wonders, is this -- are we seeing already some tariffs pull-in impact? Or is this part
+(44:24.860) of that guidance? I'll stop here first. Yes, Charlie, we have -- as we said in the prepared remarks,
+(44:25.980) we haven't seen any changes in customers' behavior so far. Our second quarter growth was driven mainly by
+(44:37.040) strong demand for the 3-nanometer and 5-nanometer technologies underpinned by the growth in our HPC platform. As I said,
+(44:37.680) we haven't seen any -- observed any changes in customer behavior in terms of pull-in or due to tariffs.
+(44:45.100) It's probably better to ask them directly. And the second part then Charlie is asking about what the
+(44:46.240) second quarter guidance implies limited half-on-half growth. So is that also because we are assuming something from tariff impact
+(45:04.740) to consumer demand? Or why is that? Charlie, as we also said in the prepared remarks, there are
+(45:06.840) uncertainties and potential risk from tariffs exist. So far, that's what we are able to share with you is
+(45:25.190) we stick to the mid-20% or close to mid-20% year-over-year growth, no different from the previous quarter. I see.
+(45:43.040) So yes, so I think that's really -- but I think your answer to Gokul's previous question on
+(45:54.200) long-term margin dilution was a little bit unclear because we thought that a 2% to 3% margin dilution from
+(46:03.860) overseas should remain to be the case, but it seems like it's widening. So I'm not sure if
+(46:13.160) it is because you are further accelerating your U.S. fab expansion or some cost item or pricing item or
+(46:14.700) not in your stations versus maybe 1 or 2 months ago. Okay. I think, so Charlie is asking basically
+(46:15.940) how come the dilution in the latter period widens to 3% to 4%? What are the drivers or
+(46:16.620) reasons behind it? Yes, Charlie, the widening of dilution on the gross margin in the later part of the
+(46:17.560) 5-year period is mainly from inflation in cost and also potential tariff-related cost increases. Those are the reasons.
+(46:18.340) Maybe I'll ask a relatively higher level question. It's a two-part question. Both are regarding your expansion plan in
+(46:24.900) the United States. I think management -- another occasion that what TSMC wants the most is really fairness. Nothing
+(46:28.100) monetary, nothing about tariffs, but fairness. Can management kind of elaborate a little bit what fairness means, give
+(46:32.130) us a little bit more specifics? But the other part of the question regarding the U.S. expansion, it's about
+(46:38.230) the R&D team center you announced. We understand, yes, the TSMC's R&D in the U.S. does need to
+(46:39.530) start from somewhere, right? You said it's more about the production improvements related R&D on derivative nodes. But since
+(46:45.400) this seems to be something U.S. really cares about that the R&D capability on the U.S. soil on the
+(46:46.720) leading edge, is there any longer-term plan to have the U.S. R&D center to be involved, let's say,
+(47:08.630) in the primary R&D, let's say, brand new processes, the major nodes development. That's my two-part question. All right.
+(47:15.110) Thank you, Charles. So again, to summarize, both questions are related to the expansion in the U.S. So
+(47:39.960) first part of the question is Wei -- C.C. has mentioned, all we want is fair treatment. So what
+(47:50.370) do we mean by fair or fairness? Well, let me answered this question. What do we mean the fair
+(47:51.610) treatment? It's very simple. If anybody get the subsidy or get incentive, it should be everybody should get
+(48:00.420) the same. Either we got all or we got zero, all right? So that's what we call it fair.
+(48:12.680) So again, I would like to assure you that we are -- we'll be very competitive in either conditions.
+(48:33.340) Okay. And then the second part of the question is regarding the R&D. Charles is saying he understands
+(48:36.530) the R&D needs to start from somewhere, but with our major R&D center in Arizona, what will be the
+(49:11.020) purpose or the focus, and will it be involved at some point in ramping new technologies? As I
+(49:12.420) said before, TSMC is a fab, never be stay stagnant. We always continue to improve it. And we need
+(49:14.680) to establish a major R&D center in Arizona with about 1,000 engineers, and that's a big amount. But the
+(49:15.640) focus will be support our manufacturing cluster, improve its technology and allow it to operate independently, okay. Did
+(49:20.400) I answer the question? Maybe let me just really follow up because there has been a good amount of
+(49:28.310) chatters about the U.S. R&D center more supporting manufacturing rather than doing a brand -- major R&D, the
+(50:26.020) brand new nodes, but it looks like that's not the plan, but over the longer term, is there any
+(50:37.980) thoughts of management, maybe they will get involved in brand-new nodes development one way or the other? I think
+(50:39.820) that's the question people have been discussed about over the last quarter. Okay. So Charles is asking, will
+(50:40.860) the R&D center over the mid- to long term, can you also focus on things like new node development
+(50:41.620) or path-finding opportunities, long-term research, these type of things? Okay. Actually, the first purpose is to let the
+(51:17.540) Arizona fab can operate independently. But of course, we have done and we are doing it right now to
+(51:21.620) some kind of funding, exploratory work and cooperate with university, blah, blah, blah. It's actually a lot of activities.
+(51:22.760) 1,000 engineers is not a small amount. Of course, it's not comparable to TSMC right now, it's a
+(51:31.530) 10,000 R&D people, but it's a beginning, okay? So we do a lot more. So my first question is
+(51:31.970) a follow-up on the Arizona expansions. So first part is on the time line or the pace of
+(51:32.370) your expansion now given the stronger demand for your U.S. capacities. To what extent could you pull in the
+(51:38.180) wrap of the original second and third phase? And for your fourth phase, you earlier mentioned that you will
+(51:39.680) be constructing the fab show later this year. So with that, will it be possible that you start
+(51:44.840) to ramp the fourth phase at the same time as the third phase? Okay. So Sunny's first question is
+(51:45.120) regarding our giga fab cluster in Arizona. She wants to understand the time line of expansion, particularly given
+(52:23.520) the strong AI-related demand. Can we pull in the timing for both the second fab and the third fab?
+(52:25.380) And also, can we, at the same time, start the production of the third and fourth fab simultaneously? Well,
+(52:52.020) Sunny, we are working very hard to speed it up of our production in the second fab and
+(52:52.380) the construction of the third fab. All I can say now is customers' demand is so strong. We have
+(53:10.060) to really to speed it up. And the following all the fab definitely will depend on our customers'
+(53:13.260) demand, of course. Well, so sorry, just to clarify, so the second phase originally is planning for production in
+(53:17.180) 2028. So now should we assume it to be from maybe mid-2027 or even first half 2027? And for
+(53:23.210) the third phase since you're building the fab show this year, so will the production start maybe 1
+(53:26.340) year ahead versus the original time line of 2030? Okay. So Sunny, specifically, so the second one, we said
+(53:29.470) we're speeding up, can we give some context of the time frame? And then for the third fab, will
+(54:08.320) we also speed it up, could that also be moved forward? Okay. Yes, we are speeding it up.
+(54:11.270) How fast? The second fab, as you said, it should be pulled in. And this one, we are working
+(54:44.290) hard to pull in at least a couple of quarters that's at least. On the third fab, actually,
+(54:55.240) I did not speak the whole thing, it's also being constrained by the labor shortage of Arizona, and we
+(55:06.060) need to get all the permits, everything, et cetera. So I cannot give you a very definite date yet,
+(55:06.540) but we are going to update you probably in the next quarter or one quarter after that. Got
+(55:25.280) it. No problem. My second question is on the pricing and margin of the overseas expansions. And so now
+(55:31.780) with the -- especially stronger demand for the U.S. capacities, would you be able to sell more value
+(55:43.100) given the stronger onshoring requirements? And then for margin, earlier, you mentioned the 2% to 3% margin dilution for
+(55:50.430) the coming 2, 3 years and then expanding to 3% to 4% maybe into 2029 to 2030. I just
+(56:06.650) wonder what the underlying whether price assumption for that gross margin dilution estimate? If you are able to
+(56:38.170) raise the AC pricing a bit, will the gross margin dilution could be less? Okay. So Sunny's question is
+(56:45.360) on the overseas expansion in both pricing and margin, given the strong demand in terms of pricing, can
+(56:47.160) we reflect even greater value to our customers? And therefore -- and also her question is given that the
+(57:02.860) dilution from overseas will widen to 3% to 4% in the latter stages of the 5-year period, she wants
+(57:04.100) to know what is our underlying wafer price assumption behind this? Sunny, let me answer that. These 2
+(57:23.580) things are actually go together. As we said, reflecting our value is a continuous and ongoing process. And we
+(57:24.400) -- because of our business nature, we need very high gross margin to earn a sustainable healthy return.
+(57:32.400) Now geographic manufacturing flexibility is an important part of our value proposition to the customers. Therefore, we are already
+(57:36.480) discussing this with our major customers. And the progress is so far so good, okay? Now at the same
+(57:37.650) time, the margin dilution from the overseas fabs, the additional dilutions come from the cost inflation as well
+(57:38.910) as potential cost increases from the tariff policies. Of course, with that, we also want to reflect the value
+(57:39.450) and therefore, the discussion with the customers are in continuous. Yes. I have a two-part question on this
+(57:40.310) year's guidance for C.C. First, C.C., you mentioned that AI is still expected to double this year despite the
+(57:46.380) U.S. ban on AI GPUs into China. And I guess, China was a meaningful portion of accelerated shipments well
+(57:51.520) over 10% of volumes. So factoring this in, it would imply your AI outlook this year, still doubling
+(58:04.300) would mean that the AI orders have improved meaningfully outside of China in the last sort of 3 months.
+(58:14.320) Is that how we should interpret your comment about you still expect the business to double? And then second,
+(58:49.020) we're in the June quarter where tariffs have been paused for 90 days. So to what extent does
+(58:49.480) your above seasonal June quarter guidance reflect customer pull-ins ahead of potential tariffs being applied in the September quarter?
+(58:50.040) Okay. So Brett, this question is on -- again, the one part is on the AI demand that
+(58:51.620) although there is a ban in China on certain AI chips or products that we reiterated our AI accelerated
+(58:54.250) growth will double this year. So his assumption is that implies a strong non-China AI-related demand. I'm wondering what
+(59:19.270) is the mechanics or can we comment behind that? Brett, 3 months ago -- now I can tell
+(59:30.330) you that 3 months ago, we are -- we just cannot supply enough wafer to our customer. And now
+(60:28.740) it's a little bit balanced, but still, the demand is very strong. And you are right, other than
+(60:31.500) China, the demand is still very strong, especially in U.S. And so we are confident that we are going
+(61:04.230) to double our AI revenue this year. Yes. And then very quickly, he was asking about the second quarter
+(61:15.050) revenue guidance. And do we see any tariff-related pull-in? I think Wendell answered this earlier. Yes. I think
+(61:27.750) that we have -- as C.C. said in his prepared remarks, we haven't seen any changes in customer behavior.
+(61:29.610) The growth in second quarter was primarily due to the demand from our 3-nanometer and 5-nanometer technologies underpinned
+(61:36.810) by the demand from the HPC platform. Yes, thanks Jeff. My second question was for Wendell, and thanks for
+(62:09.070) clarifying that, Wendell. Follow-up is on shareholder returns. And TSMC traditionally has always favored growing the dividends as the
+(62:18.830) main policy. But many shareholders would argue that the dividend payouts are not having that much of an
+(62:26.340) impact on the discounted multiple that TSMC trades at versus some of your U.S. big tech peers. So my
+(62:27.380) question is why does TSMC management not adopt a buyback framework particularly with the strength of the cash
+(62:29.850) position on your balance sheet at the moment? Okay. Thank you, Brett. So Brett's second question is circulated on
+(62:30.670) shareholder return. He notes TSMC's policy has always been stable and steadily increasing cash dividend and focused on cash
+(62:34.450) dividend payout. His question is why do we -- would we consider -- why do we not consider
+(62:39.170) adopting more of a buyback policy, share buyback policy? Okay, Brett. We've done studies a long time ago, and
+(62:42.590) we continue to revisit that. We also talk to investors. Our conclusion stays the same. The sustainable and
+(62:52.230) steadily increased dividends is a better way of returning cash to the shareholders. So we're maintaining the policy. Yes.
+(62:56.910) My question is also about the AI and also the U.S. expansion. Since you just mentioned that the CoWoS
+(63:00.610) supply/demand will be more balanced into 2026. Do you see any structural change in the future AI chip
+(63:03.310) design when moving to N3 such as like a triplet that kind of a design. And also in that
+(63:05.890) kind of new trend, what TSMC's view on the new technologies, such as CPO or PLP panel base.
+(63:24.900) Will that still start from Taiwan first? Or you would also consider to further invest the new like back-end
+(63:44.600) technology in Arizona, since C. C. just mentioned that you would also start to build up the fab in
+(63:58.280) advanced packaging in Arizona. That's my first question. Okay. Laura's first question is a very broad question. But
+(64:02.660) basically, if I just try to distill, she wants to know do we see any changes in the chip
+(64:03.780) design, particularly moving to chiplets? With N3, do we see this more and more? What about the role of
+(64:04.540) things like co-packaged optics and panel-level packaging. And I think the essence of the question, will we continue
+(64:06.940) to use our leading -- sorry, advanced packaging technologies like CoWoS or SoIC in Taiwan first? Or is this
+(64:08.690) also part of the plan for the expansion in Arizona? That's a long question. But Laura, yes, our
+(64:12.090) customers, they continue to using that TSMC is the leading-edge technology and they also adopt the advanced packaging technologies
+(64:16.550) more and more and also more advanced, right? This year is probably most of CoWoS U.S. and then next
+(64:26.220) year, CoWoS Europe and et cetera. And we can see that customers start to picking up the SoIC
+(64:27.250) and more advanced packaging technologies. As for the, what we call is, panel-level packaging, we are aggressively developing it.
+(64:45.030) And today, still is the feasibility study stage. Too early to say, it will be in Taiwan or
+(64:52.950) in U.S. But most likely, it will be in Taiwan first, we ramp it up and then bring to
+(65:08.780) U.S. Okay. That's very clear. And also my second question is also about the capacity allocation between Taiwan and
+(65:11.120) also Arizona. C. C., you just shared with us that for about like 30% of N2 capacity will
+(65:11.660) be in Arizona, we know it will be starting from when or what kind of time frame you are
+(65:16.160) looking for. Can we also assume that the same scale like 30% of your Arizona fab for the
+(65:53.620) advanced node in the longer term? Okay. So Laura's second question is about the capacity allocation between how do
+(66:16.840) we allocate between Taiwan and the U.S., maybe is it duplicative or extra capacity. And then very specific, C.
+(66:19.740) C. had mentioned that N2 and more advanced capacity, 30% -- around 30% will be in Arizona once
+(66:23.380) we scale up to the cluster. Will that be kind of the percentage for the leading node in the
+(66:28.300) future? Well, we have -- right now, we plan a 6 fab in Arizona. And in that 6
+(66:31.820) fab, the 2-nanometer will be a major node, and that's what I say, 30% will be there. As time
+(66:35.080) goes by, after the 2-nanometer, it will be 1.4 and 1.0, that has not been discussed yet. My first
+(66:37.200) one is, it's very impressive given uncertainty, you're still maintaining full year revenue guidance and also your N2
+(66:40.220) capacity planned for this year and next year. Kind of curious, what is your visibility on second half revenues
+(66:43.020) and also N2 demand for wafers into next year? And then I have a follow-up. Okay. So Krish's
+(66:48.600) first question is sort of in the near term, what is our visibility into the second half business outlook?
+(66:50.960) And then also, how do we see the demand for N2 progressing this year and also next year? Okay.
+(66:54.950) Let me talk about the first one. We're only at second quarter. So I think it's too early
+(66:58.110) to talk about the second half. We did mention that the uncertainties and risks from tariffs exist, and we
+(67:13.480) might get a better picture in the next few months. So we can probably update you in the next
+(67:33.160) earnings call. And then the second part of it is on the demand visibility of our 2-nanometer. So
+(67:52.340) far actually -- so far, it's very strong. As we said, all the new tape-out customers, the number of
+(67:52.800) the tape-out is exceeding what we expected. And as we said, the number of the new tape-out is
+(68:29.770) much higher than the 3-nanometer and 5-nanometer in the same period of time. Got it. Very helpful. Yes, Jeff.
+(68:56.340) Yes. Just one quick follow-up. You spoke about the Japan fab. I'm curious what is the capacity installed in
+(69:05.200) Japan today? And how to think about the revenue contribution this year from Japan? Okay. Krish's second question
+(69:16.060) is related to our first specialty technology fab in Japan. He wants to know what is the capacity installment
+(69:46.120) for this specialty technology fab and also the revenue contribution from JASM? Yes. The capacity for the fab
+(70:06.830) will be 40,000 when its ramp up. The revenue for this year compared to the whole company is really
+(70:11.330) not significant at this moment. Okay. Thank you, everyone. This concludes our question-and-answer session. Before we conclude today's conference,
+(70:13.790) please be advised that the replay of the conference call will be accessible within 30 minutes from now.
+(70:19.630) The transcript will become available 24 hours from now, and both will be available through TSMC's website at www.tsmc.com.
+(70:21.170) So thank you again for joining us today. We hope everyone continues to stay well and hope to
+(70:21.690) join -- you will join us again next quarter. Goodbye, and have a good day. Take care. Thank you.
