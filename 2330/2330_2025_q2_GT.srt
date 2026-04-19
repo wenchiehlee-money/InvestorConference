@@ -4,7 +4,7 @@ Method: Anchored Rescue + Dictionary Fix | Original Method: Anchored Rescue (Bas
 Generated-At: 2026-04-09 15:01 CST
 ---
 
-(01:08.860) Source: AlphaSpread [Foreign Language] Good afternoon, everyone, and welcome to TSMC's Second Quarter 2025 Earnings Conference Call. This is Jeff Su, TSMC's Director of Investor Relations and your host for today.
+(01:08.860) Good afternoon, everyone, and welcome to TSMC's Second Quarter 2025 Earnings Conference Call. This is Jeff Su, TSMC's Director of Investor Relations and your host for today.
 (01:09.380) Today's event is being webcast live through TSMC's website at www.tsmc.com, where you can also download the earnings release materials. If you are joining us through the conference call. The
 (01:12.560) format for today's event will be as follows: First, TSMC's Senior Vice President and CFO, Mr. Wendell Huang, will summarize our operations in the second quarter 2025, followed by our guidance
 (01:22.870) for the third quarter 2025. Afterwards, Mr. Huang and TSMC's Chairman and CEO, Dr. C.C. Wei, will jointly provide the company's key messages. Then we will open both the floor

@@ -4,7 +4,7 @@ Method: Anchored Rescue + Dictionary Fix | Original Method: Anchored Rescue (Bas
 Generated-At: 2026-04-09 13:18 CST
 ---
 
-(00:30.930) Source: AlphaSpread [Foreign Language] Good afternoon, everyone, and welcome to TSMC's First Quarter 2025 Earnings Conference Call. This is Jeff Su, TSMC's Director of Investor Relations and your host for today. TSMC is holding our earnings conference call via live audio webcast through the company's website at www.tsmc.com, where you
+(00:30.930) Good afternoon, everyone, and welcome to TSMC's First Quarter 2025 Earnings Conference Call. This is Jeff Su, TSMC's Director of Investor Relations and your host for today. TSMC is holding our earnings conference call via live audio webcast through the company's website at www.tsmc.com, where you
 (01:10.410) can also download the earnings release materials. If you are joining us through the conference call, your dial-in lines are in listen-only mode. The format for today's event will be as follows: First, TSMC's Senior Vice President and CFO, Mr. Wendell Huang, will summarize our operations in the first quarter
 (01:13.200) 2025, followed by our guidance for the second quarter 2025. Afterwards, Mr. Huang and TSMC's Chairman and CEO, Dr. C. C. Wei, will jointly provide the company's key messages. Then we will open the line for questions and answers. As usual, I would like to remind everybody that today's
 (01:16.640) discussions may contain forward-looking statements that are subject to significant risks and uncertainties, which could cause actual results to differ materially from those contained in the forward-looking statements. Please refer to the safe harbor notice that appears in our press release. And now I would like to turn the call
