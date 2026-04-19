@@ -105,7 +105,7 @@
 | 7765 7765 | 2026 Q1 |  | 無 | [中](7765/7765_2026_q1_ir.pdf) | [EN](7765/7765_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7765) |
 | QCOM Qualcomm 高通 | 2025 Q4 / Q1FY2026 |  | 45.1 min | — | — | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | TMP TMP | 2026 Q1 |  | 無 | [中](TMP/6231_2026_q1_ir.pdf) | [EN](TMP/6231_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
-| TMP TMP | 2025 Q4 |  | 無 | [中](TMP/6996_2025_q4_ir.pdf) | [EN](TMP/6996_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
+| TMP TMP | 2025 Q4 |  | 無 | [中](TMP/7722_2025_q4_ir.pdf) | [EN](TMP/7722_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 2357 華碩 | 2024 Q4 |  | [無](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2357_2024_q4.m4a) [📝](2357/2357_2024_q4_FIN.srt) | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
 | 2357 華碩 | 2025 Q3 |  | [53.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2357_2025_q3.m4a) [📝](2357/2357_2025_q3_FIN.srt) | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
 | 2382 廣達 | 2025 Q1 |  | [57.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2382_2025_q1.mp3) [📝](2382/2382_2025_q1_FIN.srt) | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
