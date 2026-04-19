@@ -94,7 +94,7 @@
 (09:10.560) We believe our major growth drivers, including flagship SoCs, automotive, computing and data center will continue to bear fruit in the future.
 (09:14.660) This concludes my prepared remarks. Thank you. Thank you, Rick. Operator, we are now ready for Q&A session.
 (09:22.260) May we please have the first question?
-(09:27.300) [Operator Instructions]
+(09:27.300) 
 (09:31.020) The first one to ask question, Sunny Lin from UBS.
 (09:34.440) S Sunny Lin analyst
 (09:37.460) My first question is on cloud ASIC.
