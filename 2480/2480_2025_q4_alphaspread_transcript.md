@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/2480/earnings-calls/q4-2025
-Generated-At: 2026-04-18
+Generated-At: 2026-04-19
 ---
 
 Dashboard
@@ -103,7 +103,7 @@ Stock discount rate: cost of equity and WACC.
  Back to Top
  ALPHA SPREAD
 Follow us
-Join 331,300+ value investors using Alpha Spread
+Join 331,400+ value investors using Alpha Spread
 Create Free Account
 or see our plans & pricing
 Company
