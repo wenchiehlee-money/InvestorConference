@@ -1434,11 +1434,20 @@ def update_readme() -> None:
             pdf_cn = "—"
             pdf_en = "—"
 
+        # Use "類別" from CSV if available, map "財報公告" -> "財報"
+        ev_type = ev_class
+        if ev_type == "財報公告":
+            ev_type = "財報"
+        elif not ev_type:
+            ev_type = "法說會"
+
         merged.append({
-            "name": name, "quarter": qstr, "date": date,
+            "sid": sid, "year": exp_year if not ingested else ingested["year"], "q": exp_q if not ingested else ingested["quarter"],
+            "name": name, "quarter": qstr, "date": date, "type": ev_type,
             "audio": audio, "pdf_cn": pdf_cn, "pdf_en": pdf_en,
             "mops": _get_mops_link(sid, link1),
         })
+
 
     # Add ingested entries with no CSV event (older quarters, etc.)
     for r in rows:
@@ -1470,14 +1479,26 @@ def update_readme() -> None:
         if fy_year:
             qstr_r += f" / Q{fy_q}FY{fy_year}"
         merged.append({
+            "sid": sid, "year": r["year"], "q": r["quarter"],
             "name":    display,
             "quarter": qstr_r,
             "date":    "",
+            "type":    "法說會", # Default for ingested only
             "audio":   audio,
             "pdf_cn":  pdf_cn,
             "pdf_en":  pdf_en,
             "mops":    _get_mops_link(sid),
         })
+
+    # Deduplicate: remove rows with identical name, quarter, date, type, audio, and MOPS
+    unique_merged = []
+    seen_rows = set()
+    for row in merged:
+        row_key = (row["name"], row["quarter"], row["date"], row["type"], row["audio"], row["mops"])
+        if row_key not in seen_rows:
+            unique_merged.append(row)
+            seen_rows.add(row_key)
+    merged = unique_merged
 
     # Sort by date descending (newest first); entries without date sink to the bottom
     merged.sort(key=lambda x: (x["date"] != "", x["date"]), reverse=True)
@@ -1490,12 +1511,12 @@ def update_readme() -> None:
         "",
         "## 法說會一覽",
         "",
-        "| 公司 | 季度 | 法說日期 | 音檔 | IR (TW) | IR (EN) | MOPS |",
-        "|:-----|:----:|:--------:|-----:|:-------:|:-------:|:----:|",
+        "| 公司 | 季度 | 類型 | 法說日期 | 音檔 | IR (TW) | IR (EN) | MOPS |",
+        "|:-----|:----:|:----:|:--------:|-----:|:-------:|:-------:|:----:|",
     ]
     for m in merged:
         lines.append(
-            f"| {m['name']} | {m['quarter']} | {m['date']} "
+            f"| {m['name']} | {m['quarter']} | {m['type']} | {m['date']} "
             f"| {m['audio']} | {m['pdf_cn']} | {m['pdf_en']} | {m['mops']} |"
         )
 
