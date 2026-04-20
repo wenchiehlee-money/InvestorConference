@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/2454/investor-relations/earnings-call/q4-2025
-Generated-At: 2026-04-19
+Generated-At: 2026-04-20
 ---
 
 Operator
@@ -121,7 +121,7 @@ Thank you, Rick. Operator, we are now ready for the Q&A session. May we please h
 
 Operator
 
-The first one to ask question, Sunny Lin from UBS.
+[Operator Instructions] The first one to ask question, Sunny Lin from UBS.
 
 S
 Sunny Lin
