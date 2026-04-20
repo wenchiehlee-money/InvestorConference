@@ -1,798 +1,819 @@
 [METADATA]
 Source: 2454_2025_q4.m4a
 Provider: mlx-whisper
-Model: whisper-large-v3
-Model-Repo: mlx-community/whisper-large-v3-mlx
+Model: whisper-large-v3-turbo
+Model-Repo: mlx-community/whisper-large-v3-turbo
 Duration: 63.9 min (3832s)
-Transcription-Time: 521.6s
-RTF: 0.136
-Generated-At: 2026-04-09 02:11 CST
+Transcription-Time: 295.8s
+RTF: 0.077
+Generated-At: 2026-04-12 23:05 CST
 ---
 
-(00:05.120) Welcome to the MediaTek 2025 Fourth Quarter Investors Conference Call.
-(00:10.780) Financial results and presentations for today's call are available on the Investors section of the company website at www.mediatek.com.
-(00:21.540) Now, I would like to turn the call over to Ms. Jessie Wang, the Deputy Director of Investor Relations.
-(00:29.480) Ms. Wang, please go ahead.
-(00:31.880) Good afternoon, everyone.
-(00:33.440) Joining us today are Dr. Rick Tsai, MediaTek CEO, and Mr. David Gu, MediaTek CFO.
+(00:05.340) Welcome to the MediaTek 2025 fourth quarter Investors Conference Call. Financial results and presentations for today's call are available on the Investors section of the company website at www.mediatek.com.
+(00:21.640) Now, I would like to turn the quote over to Ms. Jessie Wang, Deputy Director of Investor Relations.
+(00:29.760) Ms. Wang, please go ahead.
+(00:32.080) Good afternoon, everyone. Joining us today are Dr. Rick Tsai, MediaTek CEO, and Mr. David Gu, MediaTek CFO.
 (00:39.820) Mr. Gu will report our fourth quarter results, and then Dr. Tsai will provide our prepared remarks.
-(00:45.360) After that, we will open for Q&A.
-(00:47.320) As a reminder, today's presentation will provide forward-looking statements based on our current
-(00:53.140) expectations.
-(00:54.360) The statements are subject to various risks and factors, which may cause the actual results
-(00:59.720) to differ materially from the statements.
-(01:02.580) The presentation materials supplement non-TIFR's financial measures.
-(01:07.160) Earnings distribution will be made in accordance with financial statements based on TIFR.
-(01:12.000) For details, please refer to the Safe Harbor Statement in our presentation slides.
-(01:17.420) In addition, all contents provided in this teleconference are for your reference only,
-(01:22.820) not intended for investment advice, neither Mediatek nor any of independent providers
-(01:28.600) is responsible for any actions taken in reliance on contents provided in today's call.
-(01:35.000) Now, I would like to turn the call to our CFO, Mr. David Gu for the fourth quarter financial results.
-(01:39.440) Thank you, Jessie. Good afternoon, everyone. Now let's start with the 2025 fourth quarter
-(01:46.200) financial results. The currency used here is NT dollar. The foreign exchange rate applied to the
-(01:53.580) quarter was 31.1 NT dollar to one US dollar. Compared with our fourth quarter guidance of
-(02:01.160) 30.6 and the third quarter foreign exchange rate of 30. With that,
-(02:07.060) revenue for the quarter was
-(02:09.240) was $150.2 billion,
-(02:12.240) up 5.7% sequentially,
-(02:16.240) and up 8.8% year-over-year.
-(02:21.300) Full-year 2025 revenue totaled $596 billion,
-(02:26.360) up 12.3% from the previous year.
-(02:30.480) year. Growth margin for the quarter was 46.1%,
-(02:36.000) down 0.4 percentage points from the previous
-(02:39.880) quarter and down 2.4 percentage points from the year-ago quarter. Growth margin for 2025
-(02:47.740) was 47.5%,
-(02:50.520) down 2.1 percentage points year-over-year. Operating expense for the quarter was $47.4
-(02:59.900) billion dollars compared with 43.9 billion dollars in the previous quarter
-(03:05.840) and 45.6 billion dollars in the year-ago quarter. Full-year 2025 operating
-(03:13.940) expense was 179.6 billion compared with 161 billion in 2024.
-(03:23.980) Operating income for the quarter was $21.9 billion,
-(03:27.960) down 1.5% sequentially and up 2%
-(03:33.760) year-over-year.
-(03:35.200) Non-TFERS operating income for the quarter was $22.5 billion.
-(03:40.260) Full year 2025 operating income was $103.5 billion,
-(03:47.920) up 1% year-on-year.
-(03:51.540) Non-T-first operating income for the year was $106 billion.
-(03:58.400) Operating margin for the quarter was 14.5%, down 1.1 percentage points in the previous
-(04:06.380) quarter and down 1 percentage point year-over-year. Non-T-first operating
-(04:12.460) margin for the quarter was 15%. Operating margin for 2025 was 17.4%,
-(04:20.440) down 1.9 percentage point year-over-year. Non-T-first operating margin for the
-(04:27.740) the year was 17.8%. Net income for the quarter was $23.1 billion,
-(04:34.800) down 9.3% sequentially,
-(04:38.820) and down 3.6% year-over-year. Non-tiefers net income for the quarter was $23.6 billion.
-(04:47.080) Full year 2025 net income was $106.1 billion,
-(04:54.540) down 1% year-over-year.
-(04:59.320) Non-tiefers net income for the year was $108.2 billion.
-(05:04.720) Net profit margin for the quarter was 15.4%,
-(05:09.100) down 2.5 percentage points from the previous
-(05:12.940) quarter and down 1.9 percentage points year-over-year. Non-T-first net profit
-(05:19.980) margin for the quarter was 15.7%.
-(05:26.160) Net profit margin for 2025 was 17.8%,
-(05:31.160) down 2.4 percentage points year-over-year.
-(05:34.980) Non-TFRS net profit margin for the year was 18.2%.
-(05:42.020) EPS for the quarter was $14.39,
-(05:47.220) down from $15.84 in the previous quarter,
-(05:51.800) and down from $14.95 in the previous quarter.
-(05:56.640) Non-TFRS EPS for the quarter was $14.71.
-(06:01.520) Full year 2025 GPS was 66.16 compared with 66.92 in 2024.
-(06:12.660) Non-T-First ECS for this year was 67.46 dollars.
-(06:19.240) A reconciliation table for our T-First and Non-T-First financial measurement is attached
-(06:24.720) in our press release for your reference.
-(06:26.840) And that concludes my comments.
-(06:28.560) Thank you.
-(06:28.960) Thank you, David. And now I would like to turn the call to CEO Dr. Rick Tsai for our prepared remarks.
-(06:35.940) Good afternoon, everyone. Thank you for joining us. I'm pleased to report that our fourth quarter
-(06:42.500) revenue reached $150.2 billion,
-(06:46.540) which came in at the high end of our guidance range.
-(06:51.700) Thanks to a more favorable foreign exchange rate and better demand for smart edge products.
-(07:00.620) For full year 2025,
-(07:02.520) media tax revenue was $596 billion up 12.3% year over year,
-(07:11.440) or $19.1
-(07:13.680) billion US dollars,
-(07:15.320) up 15.6% year-over-year,
-(07:19.640) registering another year of record revenue.
-(07:26.440) I believe this milestone underscores Mediatek's resilience in navigating a dynamic global
-(07:33.540) economic environment, the strong support and confidence from our customers and partners,
-(07:40.900) and the strength of our leading technology and IP roadmap that has laid the foundation for our growth.
-(07:51.400) MediaTek's 2025 revenue growth was mainly driven by global share gains of our flagship and premium HAI Dimensity chips,
-(08:02.740) as well as our industry-leading connectivity solutions,
-(08:07.400) including Wi-Fi 7,
-(08:10.440) 5G modem,
-(08:12.440) and
-(08:13.180) 10G PAN.
-(08:14.340) We stand firmly as a market share leader across many categories,
-(08:19.760) such as smartphone,
-(08:21.900) tablet,
-(08:23.620) phonebook, TV, and broadband connectivity.
-(08:27.120) Meanwhile,
-(08:28.700) we continued to make very solid progress in technology development and business
-(08:35.500) expansion into new growth areas.
-(08:39.700) For example,
-(08:41.040) we were one of few companies completing 2nm tape out at TSMC.
-(08:48.060) We worked with partners to enable the world's first Release 19 5G advanced NR-NTN connection over one-web LEO satellite.
-(09:03.500) We successfully expanded our project pipeline for data center assets and automotive platforms.
-(09:11.660) We also started to register revenue for high-performance computing products such as GB10 that we co-developed with NVIDIA for its EGX Spark AI supercomputers.
-(09:27.720) Looking ahead to 2026,
-(09:30.420) as ubiquitous AI continues to push the boundary of more efficient computation and AI applications,
-(09:39.720) We believe MediaTek will continue to thrive on those growth opportunities.
-(09:47.060) In data center, demand has been increasing rapidly.
-(09:52.460) We are very confident in achieving data center ASIC revenue of more than 1 billion US dollars
-(10:01.100) in 2026 and multiple billion US dollars in 2027.
-(10:09.620) Furthermore,
-(10:10.860) we are fully committed to executing a follow-on project in our pipeline with revenue
-(10:19.320) starting in 2028.
-(10:21.420) For MediaTek,
-(10:24.940) to strengthen our position as a trusted honor for data center customers,
-(10:30.920) we are accelerating investments on several key fronts.
-(10:36.860) Firstly,
-(10:37.820) we have consolidated internal R&D resources and increased external hires for
-(10:46.580) for data center AI system architecture, critical IP development, and advanced technologies.
-(10:54.820) With these efforts,
-(10:56.940) we have demonstrated strong capabilities in architecting high-performance
-(11:03.820) heterogeneous compute systems on advanced process nodes,
-(11:08.520) as well as implementing advanced
-(11:12.280) advanced packaging technologies that deliver meaningful TPA improvements and enhance power
-(11:20.980) density for custom data center solutions.
-(11:24.800) In addition, to support our long-term growth and capture emerging market opportunities,
-(11:31.980) opportunities,
-(11:32.320) we continue to invest in several key technologies,
-(11:36.620) including high-speed 400G
-(11:40.460) 30s,
-(11:41.300) co-packaged optics solutions,
-(11:44.760) 3.5D packaging,
-(11:47.520) custom HBM,
-(11:50.180) and integrated voltage regulators
-(11:54.280) .
-(11:55.440) We believe these strategic investments will further enhance our technology roadmap to
-(12:04.280) support customers' evolving requirements.
-(12:08.680) In automotive,
-(12:10.400) our scalable Dimensity Auto cockpit platforms,
-(12:15.120) telematics solutions,
-(12:16.980) and
-(12:18.020) Power IV continue to gain share globally.
-(12:21.520) In addition,
-(12:23.320) we are making an inroad into ADAS by partnering with Denso,
-(12:29.320) one of the
-(12:30.640) world's leading automotive technology providers, to co-develop custom ADAS chips.
-(12:37.920) The solution will combine Denso's automotive-grade safety expertise and deep vehicle integration.
-(12:47.360) With MediaTek,
-(12:49.880) our efficient high-performance SOPs and AI capabilities to offer a scalable
-(12:57.980) platform for next-generation driver assistance.
-(13:02.280) We expect significant revenue growth from our automotive solutions in 2026.
-(13:09.640) Our computing solutions,
-(13:12.640) which include tablet,
-(13:14.520) Chromebook,
-(13:15.820) and the GB10 project for DGX Spark
-(13:19.440) that we collaborate with NVIDIA,
-(13:22.060) grew more than 80% in 2025 to $1 billion,
-(13:27.060) driven by
-(13:29.760) strong AI adoption and share gains.
-(13:32.700) We have observed very positive feedback for NVIDIA's DGS box and we expect its revenue growth to accelerate into 2026.
-(13:45.820) With AI serving as a catalyst for industry expansion and driving the surge in demand,
-(13:53.680) demand, the global supply chain is facing challenges in fully meeting the increasing
-(14:00.180) needs in 2026, resulting in higher costs across the supply chain.
-(14:08.560) We have secured the capacity required to support Mediatek's growth in data center ASIC and
-(14:18.660) other areas.
-(14:19.720) We will also adjust our prices to reflect the rising supply chain costs and allocate our supply across products based on the overall profitability.
-(14:35.100) We believe 2026 will continue to be a year where Mediatek's business growth is supported by the AI megatrend.
-(14:45.620) Building on this solid foundation, we will continue to invest in critical technologies,
-(14:53.760) including 5G satellite,
-(14:55.400) 6G advanced process nodes,
-(14:59.860) and advanced packaging for both edge
-(15:03.840) AI and cloud AI solutions to capture growth opportunities ahead.
-(15:09.180) With that, now let me talk about the recent business performance for our three revenue
-(15:15.920) groups.
-(15:17.640) Our fourth quarter mobile phone revenue grew 18%,
-(15:22.720) quarter over quarter and eight year over
-(15:27.280) year in $20,
-(15:29.860) achieving record high quarterly revenue and accounting for 59% of total revenue.
-(15:39.180) This was driven by the successful ramps of our flagship SOV Dimensity 9500 as well as
-(15:47.700) our premium SOV Dimensity 8500.
-(15:52.180) For the year 2025,
-(15:54.120) MediaTek's mobile phone business grew 8% year-over-year in USD,
-(16:00.400) surpassing
-(16:02.620) 10 billion US dollars in revenue and achieving a record high.
-(16:08.980) Within this,
-(16:09.740) flagship SOCs exhibited robust growth and contributed 3 million US dollars
-(16:17.940) in revenue.
-(16:19.520) These results strongly demonstrate the widespread recognition and market position the Mediatek
-(16:27.400) Dimensity platform has successfully established. For 2026,
-(16:34.400) under the pressure of increasing memory
-(16:37.860) and BOM costs,
-(16:39.100) we expect overall smartphone end demand to be negatively impacted. We will
-(16:47.880) work closely with our customers to strategically adjust the product portfolio in order to mitigate
-(16:55.600) For the first quarter of 2026,
-(17:00.140) we expect mobile phone revenue to decline significantly quarter
-(17:06.400) over quarter.
-(17:08.700) Moving on to Smart Edge Platforms.
-(17:12.220) In the fourth quarter,
-(17:13.660) this group declined 8% quarter over quarter and grew 13% year
-(17:20.940) over year in NT dollars.
-(17:23.460) accounting for 37% of total revenue.
-(17:27.800) The sequential decline was due to consumer electronics seasonality,
-(17:33.500) whereas the year-over-year
-(17:36.180) growth was mainly driven by share gains in high-end tablets powered by our Dimensity
-(17:43.520) A1000 and A9000 series.
-(17:46.460) In 2025,
-(17:48.920) smart edge platforms grew 21% year-over-year in US dollars,
-(17:54.860) benefiting from markets'
-(17:57.340) continuous adoption of AI and faster connectivity, as well as our global share gains.
-(18:05.620) For example,
-(18:06.800) our connectivity revenue grew strongly and exceeded 3 billion US dollars
-(18:13.660) in 2025, with Wi-Fi 7 revenue tripling and 5G modem doubling.
-(18:21.900) We anticipate these positive trends to extend into 2026.
-(18:28.720) Even without factoring in the expected data center ASIC revenue,
-(18:35.860) our smart edge platform revenue is still expected to grow healthily this year.
-(18:43.660) demonstrating the structural strength across our business portfolio.
-(18:50.060) In 2026,
-(18:51.760) in addition to the exciting growth opportunities from data centers,
-(18:56.540) auto and computing that I mentioned earlier,
-(19:00.880) we also expect higher adoption of AI and faster connectivity to continue across applications.
-(19:08.900) We are once again at the forefront of technology upgrades, with our industry-leading Wi-Fi
-(19:16.400) 8 solution unveiled as CES this year,
-(19:20.960) and we expect early customer adoption towards
-(19:24.840) the end of the year.
-(19:27.720) For the first quarter of 2026, we expect our smart edge products to grow sequentially and
-(19:35.100) and year-over-year as several products such as connectivity, TV, and computing devices
-(19:42.860) recover from the low seasonality.
-(19:46.560) Moving on to PowerIC, this group accounted for 5% of total revenue in the fourth quarter
-(19:53.400) and was down 8% quarter-over-quarter and 11% year-over-year.
-(19:59.060) The sequential decline is due to consumer electronics' disanalysis, while automotive
-(20:05.180) and industrial grew in the quarter.
-(20:08.340) In the first quarter of 2026, we expect our IEC revenue to be flattish.
-(20:16.160) Moving to the guidance,
-(20:17.600) in the first quarter of 2026,
-(20:20.900) we expect the recovery of smart edge
-(20:24.440) platforms.
-(20:25.060) We will partially offset the sequential decline of mobile phones.
-(20:31.460) We further expect our first quarter revenue to be in the range of NT$141.2 billion to
-(20:42.540) NT$150.2 billion.
-(20:46.600) flat to decline 6% sequentially and down 2% to 8% year-over-year,
-(20:57.280) at a forecasted exchange
-(20:59.960) rate of $31.2 NT dollars to $1 US dollars.
-(21:05.580) Growth margin is forecasted at 46%,
+(00:45.540) After that, we will open for Q&A.
+(00:47.420) As a reminder, today's presentation will provide forward-looking statements based on
+(00:52.700) our current expectations.
+(00:54.440) The statements are subject to various risks and factors, which may cause actual results
+(00:59.880) to differ materially from the statements.
+(01:02.580) The presentation materials supplement non-TIFER's financial measures.
+(01:07.760) Earnings distribution will be made in accordance with financial statements based on TIFER.
+(01:12.080) For details, please refer to the Safe Harbor Statement in our presentation slides.
+(01:17.560) In addition, all contents provided in this teleconference are for your reference only,
+(01:23.000) not intended for investment advice. Neither MediaTek nor any of independent providers
+(01:28.860) is responsible for any actions taken in reliance on contents provided in today's call.
+(01:35.060) Now, I would like to turn the call to our CFO, Mr. David Gu, for the fourth quarter financial results.
+(01:39.620) Thank you, Jesse. Good afternoon, everyone. Now let's start with the 2025 fourth quarter
+(01:46.280) financial results. The currency used here is NT$. The foreign exchange rate applied to the quarter
+(01:53.940) was 31.1 NT$ to 1 US dollar. Compared with our fourth quarter guidance of 30.6 and the third quarter
+(02:03.780) foreign exchange rate of 30. With that,
+(02:07.220) revenue for the quarter was $150.2 billion,
+(02:13.340) up 5.7% sequentially and up 8.8% year-over-year. Full-year 2025 revenue totaled $596 billion,
+(02:26.500) up 12.3% from the previous year.
+(02:31.680) Growth margin for the quarter was 46.1%,
+(02:36.280) down 0.4 percentage points from the previous quarter
+(02:40.320) and down 2.4 percentage points from the year-ago quarter.
+(02:45.600) Growth margin for 2025 was 47.5%,
+(02:50.760) down 2.1 percentage points year-over-year.
+(02:55.840) Operating expense for the quarter was $47.4 billion,
+(03:00.400) compared with $43.9 billion in the
+(03:05.300) previous quarter and $45.6 billion in the year-ago quarter.
+(03:11.420) Full year 2025 operating expense was $179.6 billion,
+(03:18.060) compared with $161 billion in 2024.
+(03:24.220) Operating income for the quarter was $21.9 billion,
+(03:28.040) down 1.5% sequentially and up 2% year-over-year.
+(03:35.780) Non-TFE operating income for the quarter was $22.5 billion. Full-year 2025 operating income was
+(03:46.160) $103.5 billion,
+(03:48.020) up 1% year-over-year. Non-TFEERS operating income for the year was $106 billion.
+(03:58.480) Operating margin for the quarter was 14.5%,
+(04:02.660) down 1.1 percentage points in the previous quarter,
+(04:07.160) and down 1 percentage point year-over-year. Non-TFEERS operating margin for the quarter was
+(04:14.020) 15%. Operating margin for 2025 was 17.4%,
+(04:20.580) down 1.9 percentage point year-over-year.
+(04:25.600) Non-TFIR's operating margin for the year was 17.8%. Net income for the quarter was $23.1 billion,
+(04:34.940) down 9.3% sequentially, and down 3.6% year-over-year.
+(04:42.560) Non-TFIRS net income for the quarter was $23.6 billion.
+(04:48.140) Full-year 2025 net income was $106.1 billion,
+(04:54.620) down 1% year-over-year.
+(04:58.640) Non-TFIRS net income for the year was $108.2 billion.
+(05:03.600) dollars. Net profit margin for the quarter was 15.4 percent,
+(05:09.200) down 2.5 percentage points from the
+(05:12.720) previous quarter and down 1.9 percentage points year over year. Non-TFEERS net profit margin for
+(05:20.940) the quarter was 15.7%. Net profit margin for 2025 was 17.8%,
+(05:31.420) down 2.4 percentage point
+(05:34.320) year over year. Non-TFEERS net profit margin for the year was 18.2%. EPS for the quarter
+(05:43.600) was $14.39,
+(05:45.940) down from $15.84 in the previous quarter and down from $14.95 in the previous
+(05:55.280) quarter. Non-TFEERS EPS for the quarter was $14.71. Full-year 2025 EPS was $66.16,
+(06:07.780) compared
+(06:09.120) with 66.92 in 2024. Non-TFIRST ECS for this year was $67.46. A reconciliation table for our TFIRST
+(06:22.000) and non-TFIRST financial management is attached in our press release for your reference. And that
+(06:27.480) concludes my comments. Thank you. Thank you, David. And now I would like to turn the call to CEO
+(06:32.920) So, Dr. Rick Tsai for our prepared remarks.
+(06:36.560) Good afternoon, everyone. Thank you for joining us.
+(06:39.880) I'm pleased to report that our fourth quarter revenue reached $150.2 billion,
+(06:46.900) which came in at the high end of our guidance range,
+(06:53.120) thanks to a more favorable foreign exchange rate and better demand for smart-edge products.
+(07:00.360) For full year 2025,
+(07:02.820) media tax revenue was $596 billion,
+(07:07.160) up 12.3% year-over-year,
+(07:11.540) or
+(07:12.360) $19.1 billion, up 15.6% year-over-year.
+(07:21.420) Registering another year of record revenue.
+(07:24.880) I believe this milestone underscores MediaTek's resilience in navigating a dynamic global
+(07:33.680) economic environment, the strong support and confidence from our customers and partners,
+(07:41.280) and the strength of our leading technology and IP roadmap that has laid the foundation
+(07:48.900) for our growth.
+(07:51.580) MediaTek's 2025 revenue growth was mainly driven by global share gains of our flagship
+(07:58.780) and premium Edge AI Dimensity chips,
+(08:02.820) as well as our industry-leading connectivity solutions,
+(08:09.460) including Wi-Fi 7, 5G modem, and 10G pump.
+(08:13.840) We stand firmly as a market share leader across many categories,
+(08:19.980) such as smartphone,
+(08:22.080) tablet,
+(08:23.680) phone book, TV, and broadband connectivity.
+(08:28.260) Meanwhile, we continued to make very solid progress in technology development and business
+(08:35.700) expansion into new growth areas.
+(08:39.460) For example,
+(08:41.180) we were one of few companies completing 2nm tape out at TSMC.
+(08:49.220) We worked with partners to enable the words First Release 19 5G Advanced NR-NGN Connection
+(09:00.020) over OneWeb LEO satellite.
+(09:02.740) We successfully expanded our project pipeline for data center ASICs and automotive platforms.
+(09:12.670) We also started to register revenue for high-performance computing products,
+(09:17.900) such as GB10 that we co-developed
+(09:22.080) with NVIDIA for its EGX Spark AI supercomputers.
+(09:27.940) Looking ahead to 2026,
+(09:30.600) as ubiquitous AI continues to push the boundary of more efficient computation
+(09:38.700) and AI applications, we believe MediaTek will continue to thrive on those growth opportunities.
+(09:47.960) In data centers, demand has been increasing rapidly.
+(09:52.040) We are very confident in achieving data center ASIC revenue of more than $1 billion in 2026 and multiple billion US dollars in 2027.
+(10:09.960) Furthermore,
+(10:11.040) we are fully committed to executing a follow-on project in our pipeline with revenue starting in 2028.
+(10:23.180) For MediaTek to strengthen our position as a trusted honor for data center customers,
+(10:31.800) we are accelerating investments on several key fronts.
+(10:36.800) Firstly,
+(10:37.940) we have consolidated internal R&D resources and increased external hires for
+(10:46.680) data center, AI system architecture, critical IP development, and advanced technologies.
+(10:55.720) With these efforts, we have demonstrated strong capabilities in architecting high-performance
+(11:03.720) heterogeneous compute systems on advanced process nodes,
+(11:08.680) as well as implementing advanced
+(11:12.540) packaging technologies that deliver meaningful TPA improvements and enhance power density
+(11:21.560) for custom data center solutions. In addition,
+(11:26.400) to support our long-term growth and capture
+(11:30.220) emerging market opportunities,
+(11:32.400) we continue to invest in several key technologies,
+(11:36.840) including
+(11:38.340) high-speed 400G 30s,
+(11:41.340) co-packaged optics solutions,
+(11:45.040) 3.5D packaging,
+(11:47.780) custom HBM,
+(11:50.360) and integrated
+(11:52.660) voltage regulators,
+(11:54.600) IVR. We believe these strategic investments will further enhance
+(12:01.760) our technology roadmap to support customers' evolving requirements.
+(12:09.440) In automotive,
+(12:10.620) our scalable Dimensity Auto,
+(12:13.480) cockpit platforms,
+(12:15.320) telematic solutions,
+(12:17.200) and
+(12:18.220) PowerIC continue to gain share globally.
+(12:23.080) In addition, we are making an inroad into ADAS by partnering with Denso, one of the
+(12:30.880) leading automotive technology providers to co-develop custom ADAS chips.
+(12:37.860) The solution will combine Denso's automotive-grade safety expertise and deep vehicle integration
+(12:48.520) with MediaTek,
+(12:49.920) our efficient high-performance SOPs,
+(12:53.420) and AI capabilities. To offer a scalable
+(12:58.080) platform for next-generation driver assistance. We expect significant revenue growth from
+(13:06.600) our automotive solutions in 2026. Our computing solutions,
+(13:12.940) which includes tablet,
+(13:14.640) drone book,
+(13:16.580) the GB10 project for DGX,
+(13:18.880) Spark,
+(13:19.600) that we collaborate with NVIDIA,
+(13:22.240) grew more than 80% in 2025 to
+(13:26.640) 1 billion US dollars,
+(13:28.020) driven by strong AI adoption and share gains. We have observed
+(13:35.060) very positive feedback for NVIDIA's EGX box and we expect its revenue growth to accelerate
+(13:43.200) into 2026. With AI serving as a catalyst for industry expansion and driving the surge in
+(13:53.500) demand, the global supply chain is facing challenges in fully meeting the increasing
+(14:00.420) needs in 2026, resulting in higher costs across the supply chain.
+(14:09.600) We have secured the capacity required to support MediaTek's growth in data center
+(14:17.320) ASIC and other areas.
+(14:19.920) We will also adjust our prices to reflect the rising supply chain costs and allocate
+(14:28.560) our supply across products based on the overall profitability.
+(14:36.160) We believe 2026 will continue to be a year where MediaTek's business growth is supported
+(14:44.240) by the AI megatrend.
+(14:45.780) Building on this solid foundation, we will continue to invest in critical technologies,
+(14:53.900) including 5G satellite,
+(14:55.520) 6G advanced process nodes,
+(15:00.020) and advanced packaging for both edge
+(15:03.900) AI and cloud AI solutions to capture growth opportunities ahead.
+(15:10.480) With that, now let me talk about the recent business performance for RSI revenue groups.
+(15:18.070) Our fourth quarter mobile phone revenue grew 18%,
+(15:22.760) quarter over quarter and eight year over
+(15:27.360) year in $20,
+(15:29.800) achieving record high quarterly revenue and accounting for 59% of total revenue.
+(15:39.360) This was driven by the successful ramps of our flagship SOZ,
+(15:44.040) Dimensity 9500,
+(15:46.300) as well
+(15:47.560) as our premium SOZ, Dimensity 8500.
+(15:53.200) For the year 2025, MediaTek's mobile phone business grew 8% year-over-year in US dollar,
+(16:00.780) Surpassing US$10 billion in revenue and achieving a record high.
+(16:08.460) Within this,
+(16:09.840) Flagship SOC exhibited robust growth and contributed US$3 million in revenue.
+(16:20.460) These results strongly demonstrate the widespread recognition and market position that MediaTek
+(16:27.520) Dimensity Platform has successfully established. For 2026,
+(16:34.660) under the pressure of increasing memory
+(16:37.960) and BOM costs,
+(16:39.380) we expect overall smartphone and demand to be negatively impacted.
+(16:47.520) We will work closely with our customers to strategically adjust the product portfolio
+(16:53.620) in order to mitigate the impact.
+(16:58.120) For the first quarter of 2026,
+(17:00.320) we expect mobile phone revenue to decline significantly quarter
+(17:06.520) over quarter.
+(17:08.800) Moving on to smart edge platforms.
+(17:12.680) In the fourth quarter,
+(17:13.760) this group declined 8 quarter over quarter and grew 13% year-over-year
+(17:21.600) in NT dollars.
+(17:23.780) accounting for 37% of total revenue.
+(17:28.780) The sequential decline was due to consumer electronics seasonality, whereas the year-over-year
+(17:36.280) growth was mainly driven by share gains in high-end tablets powered by our dimensions
+(17:43.540) 8,000 and 9,000 series.
+(17:47.640) In 2025,
+(17:49.140) smart edge platforms grew 21% year-over-year in U.S. dollars,
+(17:55.000) benefiting from market continuous
+(17:57.960) adoption of AI and faster connectivity, as well as our global share gains.
+(18:05.440) For example,
+(18:06.940) our connectivity revenue grew strongly and exceeded US$3 billion in 2025,
+(18:16.200) with Wi-Fi 7 revenue tripling and 5G modem doubling.
+(18:21.880) We anticipate these positive trends to extend into 2026.
+(18:28.960) Even without factoring in the expected data center ASIC revenue,
+(18:35.440) Our smart edge platform revenue is still expected to grow healthily this year,
+(18:43.080) demonstrating the structure strength across our business portfolio.
+(18:50.260) In 2026, in addition to the exciting growth opportunities from data centers, auto, and
+(18:58.200) computing that I mentioned earlier, we also expect higher adoption of AI and faster connectivity
+(19:05.620) to continue across applications.
+(19:09.840) We are once again at the forefront of technology upgrades, with our industry-leading Wi-Fi 8
+(19:16.900) solutions unveiled as CES this year,
+(19:21.040) and we expect early customer adoptions towards the
+(19:25.520) end of the year.
+(19:27.720) For the first quarter of 2026,
+(19:30.060) we expect our SmartEdge products to grow sequentially and
+(19:35.900) year over year, as several products such as connectivity, TV, and computing devices recover
+(19:43.220) from the low systemality.
+(19:46.900) Moving on to PowerIC, this group accounted for 5% of total revenue in the fourth quarter
+(19:53.460) and was down 8% quarter over quarter and 11% year over year.
+(19:59.460) The sequential decline is due to consumer electronics, its analogy, wire, automotive,
+(20:05.680) and industrial grew in the quarter.
+(20:09.120) In the first quarter of 2026, we expect our IC revenue to be flattish.
+(20:16.020) Moving to the guidance. In the first quarter of 2026,
+(20:21.060) we expect the recovery of smart edge
+(20:24.620) platforms will partially offset the sequential decline of mobile phones. We further expect
+(20:33.420) our first quarter revenue to be in the range of NT$141.2 billion to NT$150.2 billion,
+(20:46.720) flat
+(20:49.320) to decline 6% sequentially and down 2% to 8% year-over-year.
+(20:57.380) At a forecasted exchange rate of $31.2 NTD to $1 USD.
+(21:06.340) Growth margin is forecasted at 46%,
 (21:10.920) plus or minus 1.5 percentage points.
-(21:16.580) Quarterly operating expense ratio to be at 31%, plus or minus 2 percentage points.
-(21:24.560) In closing,
-(21:26.800) we believe 2026 will be a year where Mediatek's business growth is supported
-(21:33.340) by the AR Megatrend.
-(21:35.520) Meanwhile, we aim to protect our profitability through disciplined pricing and strategic
-(21:43.520) capacity allocation.
-(21:45.420) We will also remain fully focused on execution and collaborate closely with our global supply
-(21:53.760) supply chain finance. With the vast opportunities brought by ubiquitous AI ahead,
-(22:00.380) we firmly
-(22:01.960) believe we are on the right track of our mid- to long-term growth journey. This concludes
-(22:09.900) my prepared remarks. Thank you.
-(22:12.680) Thank you, Rick. Operator, we are now ready for the Q&A session. May we please have the
-(22:18.080) first question?
-(22:20.060) Yes, and ladies and gentlemen, we are now in Q&A session.
-(22:24.340) If you would like to ask questions, please press star key and one on your telephone keypad,
-(22:30.300) and please ask your questions after your name is announced,
-(22:34.000) and please limit your questions to two at a time to allow more participants to join the discussion.
-(22:40.560) And after two questions, we will move to the next folder.
-(22:43.980) Should you have more questions, please press the Start key and 1 again to come back to
-(22:49.760) the queue.
-(22:50.620) And to cancel your questions, just simply press the Start key and 2.
-(22:55.600) As a reminder, it is greatly appreciated that you turn off the speakerphone mode of your
-(23:01.000) device to prevent possible echo effect.
-(23:03.500) We thank you for your cooperation.
-(23:06.640) Now please press the Start key and 1 if you would like to ask questions.
-(23:11.380) Thank you.
-(23:18.380) The first one to ask question is Sunny Lin from UBS.
-(23:24.020) Sunny Lin, UBS
-(23:24.620) Good afternoon. Thank you very much for taking my questions.
-(23:27.940) So to kick off, first question on cloud ASIC.
-(23:31.520) In recent few months, cloud ASIC demand appeared to continue to strengthen.
-(23:36.540) So with that, should we expect upside for your total addressable market estimate of
-(23:41.420) 50 billion US dollars by 2028 and your market share target of 10 to 15%?
-(23:49.580) I believe we share about 50 billion last time and 10 to 15% market share.
-(24:06.380) We do not have a really formal estimate,
-(24:13.000) re-estimate of this market size,
-(24:16.400) but I certainly believe
-(24:19.060) it's safe to go up by $20 billion,
-(24:24.600) for instance,
-(24:25.460) about $50 to $70 billion.
-(24:27.320) I think that's without really a detailed analysis,
-(24:33.600) but that's my estimate.
-(24:39.340) Thank you.
-(24:41.140) Right.
-(24:41.800) Well, so, sorry, just to clarify, given people really pay attention to your guidance,
-(24:47.480) and so let's say if the addressable market is up to $70 billion in 2028,
-(24:53.080) and you still aim for a 10% to 15% type of market share,
-(24:57.780) or you think could be higher given the progress made in recent few months?
-(25:04.840) I think 2028, to tell the truth, is a bit farther.
-(25:12.160) We have ideas,
-(25:13.240) but I think,
-(25:14.160) let me say,
-(25:16.380) 10% to 15% is a rather safe estimate.
-(25:20.520) We certainly strive to go higher.
-(25:25.260) Got it.
-(25:26.420) And then my second question is to follow up on the business model for cloud ASIC.
-(25:32.200) And so maybe, Juan, if David, if you could help us understand, going to 2027, when you
-(25:39.140) scale the ASIC, SHIMEN, how should we think about the incremental OPEX increase?
-(25:44.980) increase. And given now we are into the ramp, could you also give us an update on growth
-(25:51.260) margin, also OP margin profile for the project?
-(25:56.400) I'll probably start with OPEX. I think OPEX ratio, which is scaled into the revenue, so
-(26:02.340) far for the full year, also for next year, I think we are looking for the flattish. Okay,
-(26:08.260) the ratio should be similar. But given the fact the revenue will grow, so the OPEX dollar
-(26:12.800) will continue to increase.
-(26:14.120) We will basically invest more like
-(26:15.960) I think how our CEO explained,
-(26:18.160) we're going to invest more for all key technologies.
-(26:22.420) Profitability wise, I think that's the same approach.
-(26:25.040) I think no more due to the mix of different business model
-(26:28.480) and also accounting principle.
-(26:30.300) The better way to think about that,
-(26:32.020) especially for 2027, when we start to ramp,
-(26:35.380) is you're going to see a pretty margin of credit.
-(26:39.480) I think that's probably the best way to think about that.
-(26:43.460) Thank you. Sorry, maybe one last follow-up. Since you mentioned you have already secured
-(26:49.860) the next generation called ACIP project, how should we think about your value add, your
-(26:56.260) content, and then also competition evolving into the next generation? Thank you very much.
-(27:12.140) Well,
-(27:13.500) the next generation products certainly is quite a bit more complex in just about
-(27:23.900) every aspect.
-(27:25.420) aspect and we have demonstrated our capability to elevate our technology and IP capabilities
-(27:41.440) convincingly to our customers.
-(27:48.060) And also on top of that,
-(27:50.860) our execution capability,
-(27:53.760) which we are already demonstrating right now
-(27:57.440) in our first chip situation.
-(28:01.300) So,
-(28:02.400) I really believe together with what we've been discussing before,
-(28:11.240) our hybrid model with
-(28:15.420) flexibility with tremendous service to our customers.
-(28:20.940) I think all these add up to tremendous value add to our customers for their buildup of
-(28:29.480) of their very massive compute power development.
-(28:38.040) Thank you.
-(28:40.240) Thank you very much.
-(28:44.020) Thank you.
-(28:45.080) Now, next one to ask question, Ulrich Chen, Citi.
-(28:48.620) Go ahead, please.
-(28:50.180) Yes, hi, thank you very much for taking my questions.
-(28:53.240) My question is also about the ESIC.
-(28:55.780) Thank you, Rick, for the update on the promising outlook.
-(28:59.980) We are already working on the next generation project.
-(29:03.660) Can you share with us, is there any change in terms of business model?
-(29:09.020) Like we now mainly doing service and also the turnkey service for our client.
-(29:14.680) Since, Rick, you just mentioned that the design is getting more complex.
-(29:18.680) Well, the business model change involve more IPs that Mediatek will be able to provide
-(29:26.080) and also as we are targeting like 10, 15% of the market share.
-(29:34.240) So can we kind of assume that this business will be able to achieve like a 20% or higher
-(29:42.200) of our total revenues in next year?
-(29:48.740) All right, the business model, I think we remain, as I said, our hybrid business model.
-(29:58.920) The value add, you know, of course, will vary from generation to generation.
-(30:05.140) But I'd like to also say,
-(30:11.380) given the high degree of complexity which is added to the next generation
-(30:21.640) generation chip,
-(30:23.500) we are providing,
-(30:26.220) I think,
-(30:26.920) actually more value if you look at the total,
-(30:34.980) while our customers are also adding more value in their aspect.
-(30:43.860) So that's why we have always said this is the win-win model.
-(30:49.160) model. We get more value,
-(30:51.620) they get more value,
-(30:52.620) and together they will certainly gain more
-(30:58.540) market share in their end of the business. So I'm very pleased with that development.
-(31:07.780) As to the 227th of July.
-(31:19.160) What was the question?
-(31:20.540) 20% or higher revenue contribution.
-(31:34.640) Of course, I think you're asking for
-(31:39.060) really an event
-(31:41.880) or indication, I guess, for 2027
-(31:46.020) I think it's possible, certainly.
-(31:52.720) I think 20% is something we believe we have reasonable chance to get to.
-(32:02.560) And we'll do our very best to achieve that.
-(32:09.540) Yeah, sure.
-(32:10.720) Thank you.
-(32:11.060) Maybe a just quick follow up.
-(32:13.140) I recall that we are also working with NVIDIA on NVLink Fusion.
-(32:17.680) So are we also seeing that any like a progress on the potential engagement with our ASIC business?
-(32:29.080) The model,
-(32:30.280) the NVLink Fusion model is being developed.
-(32:41.200) Again,
-(32:41.800) this model by itself is a complex model from technical point of view and from business
-(32:49.420) development point of view.
-(32:51.000) I would say we continue to have a very strong and close relationship with NVIDIA.
-(32:58.460) and we both are building the model.
-(33:04.000) The built model and the targeted potential customers
-(33:10.360) and I cannot really disclose too much more.
-(33:14.680) It's ongoing.
-(33:16.420) Thank you.
-(33:17.540) Yeah.
-(33:18.120) Okay, sure, no problem.
-(33:19.640) My next question is about the growth margin outlook.
-(33:23.620) I recall last time, Debbie,
-(33:25.580) you mentioned that the growth margin for flagship smartphone SOC seems to be lower than corporate average.
-(33:32.440) So I'm just wondering that actually we see that the component price hike has more impact on the entry level or low-end segmentation.
-(33:41.800) And the portion of our flagship,
-(33:44.280) the good side is that probably the revenue will be able to kind of support it
-(33:50.920) to compensate the weakness in the low-end space.
-(33:54.680) but how would the impact on the growth margin side and how should we think about the growth
-(33:59.880) margin trends in this year?
-(34:02.400) I think for full year 2026, our goal is actually to aim to sustain our growth margin at around
-(34:09.760) 46% level, which was similar to the guidance we gave starting from last quarter.
-(34:15.600) When you look at our growth margin fourth quarter last year and also the guidance this
-(34:20.620) I think you can see that that will be our goal to maintain at full year.
-(34:25.340) And how do we achieve that?
-(34:27.540) I think like what we planned during the opening remark, given the overall supply chain tightness right now,
-(34:34.280) I think we've been going through a very rigid about the capacity allocation among the business growth rate and also the profitability.
-(34:43.860) And that's point number one.
-(34:45.400) Point number two, given the overall cost increase in pressure, we are also in discussion with
-(34:52.100) our customer for certain product, I guess we have to pass on some of the cost increase.
-(34:57.280) So combined of that, I think will be reasonable, but the goal will be maintain the gross margin
-(35:02.220) around 46% for the full year.
-(35:05.360) Okay, thank you.
-(35:06.300) Very helpful.
-(35:10.040) Next one to ask question, J.P.
-(35:13.280) Morgan.
-(35:13.860) J.P.
-(35:16.420) Yeah, hi. Thanks for taking my question. First off on the data center ASIC project, could
-(35:23.580) you talk a little bit about your understanding of what you are facing from a competitive
-(35:30.900) landscape perspective because this has been largely the domain of one vendor until very
-(35:36.400) recently for this project. And also,
-(35:40.220) Rick,
-(35:40.940) could you kind of help us understand a little
-(35:44.880) bit on the technology preparation that you've done on high-speed service including 400 gig plus
-(35:54.240) uh 3.5d and cpo could we could you give us a little bit more details on uh how we can look
-(35:59.800) at media text capabilities because that seems to be quite critical for the next generation
-(36:04.840) uh the follow-on project that you mentioned
-(36:11.840) Yeah,
-(36:12.520) Goku,
-(36:13.300) I mean,
-(36:13.880) I guess your first part of the question is,
-(36:18.040) if you're asking how we
-(36:23.880) view other suppliers,
-(36:26.580) our policy is not to comment on competitors' situation.
-(36:33.520) On the other hand,
-(36:35.900) for our own investment,
-(36:39.260) the multiple technologies and IP areas I discussed
-(36:48.420) during the remarks,
-(36:49.740) we have staffed through internal resource consolidation.
-(37:00.060) We have many very capable engineers.
-(37:05.800) While we hire high caliber technologies,
-(37:11.700) including architects,
-(37:14.000) including power experts,
-(37:19.000) including
-(37:20.300) optics experts, those are very difficult technologies.
-(37:27.820) We certainly know that because we're doing them.
-(37:32.500) But we also, by the way, we're also collaborating
-(37:36.140) with some third party, major third party players.
-(37:42.600) So, why are they remain challenge?
-(37:47.080) Very challenging for us.
-(37:49.460) But if you look at the past two plus years,
-(37:54.840) I think our track record has shown that we have been able to not only catch up but also
-(38:02.920) to provide level playing field capabilities for our next generation and we will continue
-(38:12.240) to compete for future and the broader range of business opportunities.
-(38:21.480) Thank you.
-(38:23.240) And just to follow up,
-(38:24.840) so this current project that is going into production pretty soon this year,
-(38:29.680) do you think that the deployment model is going to be different compared to previously that you were working on some different workload compared to what your competitor is working on?
-(38:43.580) I'm just asking because so far, if you look at data center AI,
-(38:47.500) most of the demand has been largely at the very high end of the spectrum,
-(38:52.340) whether it is for NVIDIA GPUs or AI ASICs.
-(38:56.580) So I just wanted to understand,
-(38:57.980) is there like a very big division of workload that is happening at the
-(39:01.240) customer, which gives you this opportunity to kind of break in and kind of
-(39:06.920) for the customer also to segment the demand more clearly?
-(39:11.820) Okay.
-(39:14.360) well basically go this question of course needs to be answered by our
-(39:18.680) customer Wow and but you I'm sure you understand the year that the cake the
-(39:28.480) pace of the basic chips of such complexity you know you have to go back
-(39:35.360) certain amount of years to start when you started the design and then you look
-(39:43.860) at the progress or the status of the AI or generative AI at that time and
-(39:52.980) during and then during through that design process until the production as
-(39:59.820) you know again we're measuring in I wouldn't say I cannot say exactly how
-(40:07.720) many years but you know well since change but we believe the design of our
-(40:16.360) customers AC chips they have takes taking into consideration of their own
-(40:25.540) internal workloads need plus their external requirement workloads and how
-(40:34.160) they but I cannot say how they balance those workloads but I we have as far as
-(40:43.380) I understand they really are they are very high on this chip thank you got it
-(40:50.160) thank you thank you very much just one last question on flagship
-(40:54.100) flagship smartphone, given we are expecting a tough market for smartphones, are we still
-(41:01.520) expecting the flagship segment to grow this year or we think we might have to give up
-(41:07.880) some opportunities to protect the profitability?
-(41:12.880) Goku, I think from the market share perspective, flagship market share perspective, given our
-(41:18.520) new product coming out every year and also all new products are very competitive, I think
-(41:23.720) will still feel comfortable the market share will continue to gain and likewise actually because
-(41:29.200) right now is the most second content in there we're also seeing generation after generation
-(41:34.500) the blended asp uh generation after generation is higher but the last variable if you like really
-(41:41.240) the overall shipment i have to say even the overall uh the memory situation right now is still
-(41:47.440) still involving or developing.
-(41:50.040) Based on what we see, probably that will become somewhat year over year having some pressure
-(41:55.240) on the flagship overall, the market share, not the market share.
-(41:59.380) But at least we can somehow balance that with our continued gain on market share and also
-(42:04.120) continued, you know, aggression on our ASP.
-(42:08.160) Got it.
-(42:08.860) Yeah, thank you very much.
-(42:09.520) Thanks.
-(42:14.980) Next one to ask question has Lou from Bank of America, Maryland.
-(42:19.420) Go ahead, please.
-(42:20.860) Yes.
-(42:21.480) Thanks, Rick, David, and Jesse for taking my questions and congrats on the solid results
-(42:26.100) and guidance.
-(42:26.900) So, I want you to follow up on the smartphone business, which will provide more detail about
-(42:31.420) the smartphone linearity for this year, affecting your guidance for a significant decline in
-(42:37.100) first quarter.
-(42:37.600) and from the full year perspective,
-(42:40.380) it is going to see negative impacts
-(42:42.220) from the other components of high shortage.
-(42:44.480) Just wondering if you have any quantitative outlook
-(42:46.900) for the overall market versus your own treatment.
-(42:50.740) And then your overall situation
-(42:52.820) across the mid, high, low end smartphones
-(42:56.080) as you are reallocating or optimizing your product mix,
-(43:00.600) could you also just share your view
-(43:03.360) on the market share gain or loss
-(43:05.080) as the previous questions?
-(43:06.920) Thank you.
-(43:10.960) Okay.
-(43:12.120) Some of your questions involve a detailed resolution.
-(43:16.180) Probably I won't be able to comment, but let me probably start with our full year view
-(43:20.900) for smartphone.
-(43:24.080) Very straightforward, I think, given the overall memory situation, and we believe actually
-(43:29.680) overall smartphone this year, year over year, maybe we're seeing a decline.
-(43:33.780) I think that's on the top line.
-(43:36.620) In terms of the detailed resolution for flagship, mainstream, entry-level, even including 4G,
-(43:43.380) we probably won't be able to provide the detail.
-(43:46.080) But the key point is when you look at our overall business portfolio, our non-smartphone
-(43:52.040) business, like we explained during the opening remark, will offset a big part of that and
-(43:57.840) will grow nicely.
-(43:59.540) largely, and plus our data center new revenue coming in,
-(44:03.600) which right now we got is more than a billion dollars.
-(44:06.540) I think overall we're still looking for the top line
-(44:08.940) year over year growth.
-(44:11.160) I think that's probably just our feedback.
-(44:13.140) But for the detail segmentation resolution,
-(44:16.080) in general we don't comment that.
-(44:19.060) Okay, okay, yes, that's clear.
-(44:21.240) And then I think just ASIC 10B young
-(44:24.860) hyperscalers accelerators.
-(44:26.460) Should we expect your ASIC business
-(44:28.300) to grow beyond this part of the market?
-(44:30.940) For example, like server CPUs and also networking chipsets.
-(44:34.600) And beyond cloud AI computing, could you also discuss more in detail
-(44:38.260) about your potential in automotive ADAS partnership with Denso?
-(44:41.600) Because that is going to be a huge chunk of opportunity
-(44:44.240) with higher level ADAS being adopted across the vehicles.
-(44:48.740) And then I think as part of my second question is that you also mentioned
-(44:53.460) about you are going to put more effort in 5G satellites.
-(44:56.180) Could you discuss more in detail on what kind of chipsets you are working on with your customers?
-(45:01.340) Or is it going to be part of your effort in low Earth orbit?
-(45:04.820) Thank you.
-(45:08.200) Okay.
-(45:10.360) About data center AI,
-(45:12.360) of course,
-(45:15.440) now our first priority and focus remain as what we're going
-(45:25.160) we're going to ship this year, next year, and also the next project following.
-(45:35.140) But in the meantime,
-(45:36.980) we are diligently working on the market.
-(45:45.300) The AI market is just changing very, very fast.
-(45:52.500) Every month, every quarter for sure.
-(45:56.020) So we are rapidly adapting that dynamics.
-(46:01.940) And we also, that's why we are investing in technology
-(46:07.760) that is not just for one customer,
-(46:15.300) We are developing technology which are more generic also for other applications.
-(46:24.620) More like inferencing is getting a lot more important as the Gen-AI development has gone.
-(46:37.300) So,
-(46:38.000) the answer is we are,
-(46:39.940) but I do not like,
-(46:44.320) you know,
-(46:45.660) I don't think we can share a lot
-(46:48.000) more than that.
-(46:50.200) On other new business, such as you have, you asked automotive and satellite.
-(46:58.640) Automotive, certainly we are very excited to work with Denso.
-(47:02.940) I mean,
-(47:04.140) we all know this is one of the top automotive tier one players,
-(47:12.800) very,
-(47:15.200) very deep
-(47:15.820) technology capability and very,
-(47:17.720) very strong business relations with multiple major car
-(47:23.980) OEMs.
-(47:24.860) And so the combination between the two companies is just perfect.
-(47:30.580) They provide the deep vehicle integration, understanding all the safety requirements.
-(47:37.980) We provide the low power SOC,
-(47:40.300) very high performance,
-(47:41.380) plus a very high AI capability that ADAS will
-(47:47.020) need for the next four or five years.
-(47:50.940) So we're excited and I believe they are too.
-(47:55.220) We look forward to major revenues for both.
-(48:04.800) We both work on the NTN.
-(48:09.700) From a modem point of view, we also actually have a Wi-Fi solution for some of the stations
-(48:17.360) their station on earth for the satellite business.
-(48:25.280) So this is one area that we feel very good.
-(48:32.580) We cannot say, we believe the fast growing,
-(48:37.320) but we cannot say how fast so far.
-(48:41.360) But from whatever we are seeing,
-(48:43.440) in our connectivity solutions from both modem and Wi-Fi point of view, we have very strong
-(48:51.300) position already and we expect to grow on that basis.
-(48:59.020) Thank you so much.
-(49:01.440) That's very clear.
-(49:02.320) Just one small follow-up and I will be back in the queue is that for that NTEM projects
-(49:08.380) or the satellite chips that you have, is it going to be more on the edge side or we're
-(49:13.060) going to be on the infrastructure or base station side. And then I think a couple of years ago,
-(49:18.860) you provided a few, the cater for the next few years on the sales and those margins. I'm not
-(49:24.820) sure if you are able to provide such guidance at this stage for 10.6 and also 10.7. Thank you.
-(49:32.340) I think for the NTA is more on the edge side, not on the satellite side. I think just to be clear.
-(49:37.940) In terms of the guidance, we probably won't be able to provide guidance so far because there
-(49:42.620) will still be a few years to come. It's growing, but still be a few years to come.
-(49:48.420) Thanks so much, Rick and David.
-(49:53.440) Next one to ask question, Charlie John Morgan Stanley. Go ahead, please.
-(50:01.280) Thanks for taking my question and also congratulations for a very
-(50:05.700) strong outlook, especially on the ASIC side. So I do have two part of questions.
-(50:11.580) One is also the same amount, ASIC.
-(50:14.920) And second question would be on SNASL.
-(50:17.660) For the ASIC, I wanted to ask management
-(50:21.200) whether you see strengths over the past month,
-(50:25.400) meaning there's upside to your forecast,
-(50:28.140) especially next year.
-(50:29.260) And if there's a case,
-(50:31.060) I just mentioned you already assured the key components,
-(50:34.960) but are you sure that your TGLAS-HBN
-(50:38.120) can really support that so-called upside order.
-(50:42.480) And lastly, growth margin trend.
-(50:44.880) I'm wondering for those kind of upside revenue,
-(50:48.180) do you think the growth margin,
-(50:49.760) incremental growth margin would decline?
-(50:52.560) And lastly, given the revenue size is so big,
-(50:57.180) do you think customers want to change to the COT model
-(51:01.280) in the current generation or next generation?
-(51:04.120) So that's my questions about ASIC business.
-(51:12.400) We are,
-(51:13.380) as we said in our remarks,
-(51:17.060) we are very confident for our first quarter revenue
-(51:21.700) of more than $1 billion.
-(51:23.540) We said for 2027, it's multiple billion dollars.
-(51:29.840) That's the range, certainly.
-(51:34.120) I would say we believe,
-(51:38.720) if and whether I believe we will,
-(51:45.280) when we deliver,
-(51:47.900) when we execute,
-(51:49.300) we expect to see some upside.
-(51:57.020) Then the supply from supply point of view,
-(52:00.820) and I also said earlier that we have secure
-(52:06.280) supplies for data center ASIC needs and other areas.
-(52:14.060) We have a good scale to work with major suppliers and we also have certain flexibility among
-(52:27.020) our own different product portfolio.
-(52:30.260) So we also have high confidence we can manage,
-(52:35.800) we can provide the supplies for the demand
-(52:41.640) end coming next year. We have been preparing for that for some time. Lastly,
-(52:54.280) again,
-(52:55.300) that
-(52:55.660) question is not really up to us. But what I,
-(52:59.820) again,
-(53:00.320) as I said earlier,
-(53:02.040) I really believe
-(53:08.700) I think all depends on overall objectives. The overall objectives I believe our customers or
-(53:22.060) actually for that matter all the CSPs is really to provide timely and high quality low power
-(53:34.360) computing capability at a very good TCO to grow their business.
-(53:44.400) And as the market is changing so fast, the technology pace is so fast.
-(53:56.380) If you look at the history of our industry,
-(54:03.160) usually it would take partners to work together
-(54:07.180) to achieve that required growth target for everyone.
-(54:14.700) one. And unless you're in a very mature industry,
-(54:19.220) you probably can go just by yourself. But
-(54:24.500) we are not in that phase at all. There is a huge amount of growth ahead of us. So I
-(54:33.840) fully believe the value add we provide and we are also,
-(54:40.180) as I said earlier,
-(54:41.540) we are also
-(54:42.680) So working hard with our customers
-(54:45.560) to enhance their value add.
-(54:49.320) It's not a zero-sum game, period.
-(54:53.380) And we believe this will continue.
-(54:55.820) Thank you.
-(54:56.840) Yeah, that makes a lot of sense, Rui.
-(54:59.820) So just a small follow-up on ASIC side
-(55:01.800) before I move to smartphone.
-(55:04.720) So you mentioned about your feel like your 10%, 15% market share
-(55:10.200) is pretty safe to achieve, right?
-(55:12.600) And my understanding is that your customer's AC
-(55:15.880) probably accounts for half or even more
-(55:19.220) of the kind of a total AC10, right?
-(55:22.960) So is that right way to think about your allocation
-(55:26.600) from this key customer would be like 20% to 30%
-(55:31.120) or even higher?
-(55:33.000) Based on those data points that I just described.
-(55:39.540) Charlie, I think, again, the earlier question talking about target market shares or the
-(55:45.700) market share goal is 2028.
-(55:48.460) This is still a few years away, so there are so many moving targets.
-(55:52.600) I think our folks right now, if we ask them well about the two projects on hand, the market
-(55:58.040) share will become hopefully a happy consequence.
-(56:01.080) So that's why actually we don't want to give out the detail.
-(56:03.560) Actually, we will not be able to give out the detailed guidance for the market share
-(56:07.640) for 2028.
-(56:09.740) Got you.
-(56:10.540) Thanks, David.
-(56:11.120) So my second question on smartphone will be relatively brief.
-(56:15.400) I wanted to get management's thoughts about the agenda AI in China's smartphone markets.
-(56:21.300) What do you think about this kind of feedback and our media as a customer
-(56:28.840) want to do a similar kind of application,
-(56:34.040) when do you think that it will become a killer app?
-(56:36.460) Thank you.
-(56:44.540) I think we've been dealing with this question
-(56:46.840) for at least two years, if not longer.
-(56:49.620) Yeah.
-(56:49.800) And I will not give you a kind of a boilerplate answer.
-(57:00.420) It's not obvious, this quote-unquote killer app,
-(57:05.220) but I don't think, I'm not sure that's the right thinking.
-(57:11.460) I think the genetic AI will just blend into your life with the smartphone.
-(57:18.020) And that smartphone can be a very smart smartphone,
-(57:21.880) or it may be just a mid-end,
-(57:25.820) because you can,
-(57:28.420) depending on what you need, you can access very sophisticated Gen-AI models on your phone,
-(57:35.800) but for even more bigger applications, you need to go to the cloud.
-(57:41.680) So we provide a solution that will have more than sufficient compute power,
-(57:50.840) but that compute
-(57:52.220) power will be limited by the form factor of the phone itself.
-(57:56.960) That's physics.
-(57:58.000) So the phone will provide ample AI or GenAI or agentic AI capability by itself.
-(58:08.980) But,
-(58:09.720) and I believe the demand of the application will increase so much,
-(58:17.580) that phone certainly
-(58:19.240) will play the other role of being just connecting to the cloud very effectively and efficiently.
-(58:26.780) And that will fill both ends.
-(58:31.940) I think it's part of life.
-(58:38.960) And there may be other forms of devices that will enhance people's lives using agentic
-(58:50.160) AI.
-(58:50.960) And we certainly,
-(58:52.540) if there is opportunity or outlook,
-(58:59.320) we are pursuing also.
-(59:02.840) Thank you.
-(59:03.860) Thanks, Rick.
-(59:05.460) Thanks, David.
-(59:08.440) Ladies and gentlemen, with the interest of time, we are going to take the last one to
-(59:12.980) ask questions.
-(59:13.900) And author line from Macquarie.
-(59:16.180) Go ahead, please.
-(59:18.200) Hi.
-(59:18.900) Thanks, Rick and Debbie and Jesse for taking my question.
-(59:24.240) So my first question is still on the Cloud AI.
-(59:28.800) Just want to follow up on Charlie's question.
-(59:31.800) When you comment the scale and also flexibility,
-(59:37.540) can you help investors understand,
-(59:41.260) are you trying to allocate the scale city resources
-(59:45.080) to incubate your new cloud business?
-(59:49.980) And what's the resources you refer to?
-(59:54.500) Is it the wafer location or is it sub-trade
-(59:58.380) or you are an experienced engineer?
-(60:02.000) Thank you, that's my first question.
-(60:05.020) After David here, I think long story short,
-(60:07.400) we will allocate amount of what do you say,
-(60:10.200) internal R&D resource like during the opening remark.
-(60:13.500) I think Rick is talking about we've been investing sizefully on the and plus we've been hiring aggressively external resource
-(60:20.680) So internal resource, I think we were definitely allocate to this, you know fast-growing
-(60:26.140) area especially with a shield your dress for market
-(60:29.380) For the old war manufacturing capacity of the world put a priority on that as well. So all of that
-(60:35.880) Thank you, and in the second question is more on the cycle and also history
-(60:43.500) This is actually not the first time we envision a subtendance of a smartphone.
-(60:51.360) Compared to the last two cycles,
-(60:53.700) can management or Rick comment on what the media takes the
-(61:00.680) strategy right now compared to the previous second down cycle?
-(61:06.120) Thank you.
-(61:10.820) Okay, certainly, 2026 is a tough year for smartphone.
-(61:17.880) I'm sure you guys have read about that.
-(61:23.540) No need to further elaborate.
-(61:26.780) But I also believe this is a cyclical year.
-(61:31.840) year. The demand will remain solid next year or maybe 1.5 years. I cannot say for sure,
-(61:45.000) but I am quite sure the demand will come back. And when it comes back, it will come back
-(61:52.820) in force and we need to be prepared for that and we will be.
-(62:00.220) MediaTek during the past few years we have I think developed, equipped
-(62:07.580) ourselves to I think what to live through the cycle is on two weeks and
-(62:18.880) I believe we will be stronger after the cycle.
-(62:25.500) The capability we built in the market position, I feel very confident.
-(62:35.340) The mobile business is now in the sixth year of the 5G generation.
-(62:45.980) Well, certainly the overall growth is saturating.
-(62:50.180) We all know that.
-(62:51.480) But the media tech position, the capability is much, much stronger compared to our last
-(62:58.440) generation of modern technology.
-(63:01.900) So I don't like this down cycle, but that's life.
-(63:08.620) We will be better after that.
-(63:11.860) Thank you.
-(63:16.100) Okay. Ladies and gentlemen, we thank you for all your questions.
-(63:19.380) I'll hand it over now to Ms. Jessy Wong for closing comments. Ms. Wong, please go ahead.
-(63:24.980) Ladies and gentlemen, this concludes Mediatek on 25th for the conference call,
-(63:29.600) and an audio replay will be available in one hour after the call at the investor section of Mediatek's website.
-(63:36.400) We would like to thank you for your participation, and you may now disconnect.
-(63:41.440) Yes. Once again, we thank you for your participation in today's conference.
-(63:45.300) You may disconnect now.
-(63:46.840) Goodbye.
+(21:17.380) Quarterly operating expense ratio to be at 31%, plus or minus 2 percentage points.
+(21:24.760) In closing,
+(21:26.840) we believe 2026 will be a year where media tech business growth is supported
+(21:33.500) by the AR megatrend.
+(21:35.680) Meanwhile, we aim to protect our profitability through disciplined pricing and strategic
+(21:43.160) capacity allocation.
+(21:46.480) We will also remain fully focused on execution and collaborate closely with our global supply
+(21:55.640) With the vast opportunities brought by ubiquitous AI,
+(22:00.160) we firmly believe we are on the right
+(22:03.680) track of our mid- to long-term growth journey.
+(22:08.380) This concludes my prepared remarks.
+(22:11.820) Thank you.
+(22:12.860) Thank you, Rick.
+(22:14.120) Operator, we are now ready for the Q&A session.
+(22:17.240) May we please have the first question?
+(22:20.200) Yes, and ladies and gentlemen, we are now in Q&A session.
+(22:24.620) If you would like to ask questions, please press star key and one on your telephone keypad,
+(22:30.440) and please ask your questions after your name is announced.
+(22:34.340) And please limit your questions to two at a time to allow more participants to join the discussion.
+(22:40.680) And after two questions, we will move to the next folder.
+(22:44.080) Should you have more questions, please press the start key and one again to come back to
+(22:49.840) the queue.
+(22:50.640) And to cancel your questions, just simply press the start key and two.
+(22:55.700) As a reminder, it is greatly appreciated that you turned off the speaker phone mode of your
+(23:01.120) device to prevent possible echo effect.
+(23:03.620) We thank you for your cooperation.
+(23:06.700) Now please press the start key and one if you would like to ask questions.
+(23:11.580) Thank you.
+(23:18.540) The first one to ask question, Sonny Lin from UBS.
+(23:24.080) Good afternoon. Thank you very much for taking my questions. So to kick off, first question
+(23:30.300) on cloud ASIC. In recent few months, cloud ASIC demand appeared to continue to strengthen.
+(23:36.660) So with that, should we expect upside for your total adjusted market estimate of 50 billion
+(23:42.100) US dollars by 2028 and your market share target of 10 to 15 percent?
+(23:48.800) I believe we shared about 50 billion cents last time and 10 to 15% market share.
+(24:07.000) we do not have a really formal estimate,
+(24:13.700) re-estimate of this market size,
+(24:16.500) but I certainly believe
+(24:19.840) it's safe to go up by $20 billion, for instance, about $50 to $70 billion.
+(24:27.380) I think that's without really a detailed analysis,
+(24:33.800) but that's my estimate.
+(24:39.480) Thank you.
+(24:41.360) Right.
+(24:41.980) Well, so, sorry, just to clarify, given people really pay attention to your guidance,
+(24:48.260) and so let's say if the adjuster market is up to $70 billion in 2028,
+(24:53.940) and you still aim for a 10% to 15% type of market share
+(24:57.760) or you think could be higher
+(24:59.100) given the progress made in recent few months?
+(25:07.440) I think 2020 tells the truth a bit farther.
+(25:12.360) We have ideas, but I think,
+(25:15.580) let me say 10% to 15% rather safe estimate.
+(25:20.680) we certainly strive to go higher.
+(25:25.380) Got it.
+(25:26.800) And then my second question is to follow up on the business model for cloud ASIC.
+(25:32.640) And so maybe one is, David, if you could help us understand,
+(25:37.160) going to 2027, when you scale the ASIC shipment,
+(25:42.480) how should you think about the incremental OPEX increase?
+(25:45.720) And given now we are into the ramp,
+(25:48.020) could you also give us an update on growth margin also open margin profile
+(25:53.300) for the project I probably start with the OPEX I think OPEX ratio which is
+(26:01.100) scaled into the revenue so far for the full year also for next year I think we
+(26:06.160) are looking for the flattish okay the ratio should be similar but given the
+(26:10.760) fact the revenue will grow so the OPEX dollar will continue to increase we will
+(26:14.500) basically invest more like I think Rick, our CEO explained, we're going to invest more for all key
+(26:21.020) technologies. Profitability-wise, I think that's the same approach. I think all the world, due to
+(26:26.520) the mix of different business models and also accounting principles, the better way to think
+(26:31.580) about that, especially for 2027 when we start to ramp, is you're going to see a pretty margin
+(26:38.880) creative. I think that's probably the best
+(26:40.920) way to think about that.
+(26:43.580) Thank you.
+(26:44.980) Sorry, maybe one last follow-up.
+(26:47.080) Since you mentioned
+(26:48.380) you have already secured the next
+(26:50.580) generation called AC
+(26:52.480) project, how should you think about
+(26:54.760) your value, your content
+(26:56.820) and then also competition
+(26:59.720) evolving into
+(27:00.800) the next generation? Thank you very much.
+(27:11.660) Well,
+(27:12.740) the next generation product certainly is quite a bit more complex in just about
+(27:24.020) every aspect.
+(27:25.780) And we have demonstrated our capability to elevate our technology and IP capabilities
+(27:41.100) convincingly to our customers. And also on top of that,
+(27:51.020) our execution capability,
+(27:54.060) which we are already demonstrating right now in our first chip situation.
+(28:01.980) I really believe together with what we've been discussing before,
+(28:11.480) our hybrid model with
+(28:15.580) flexibility with a tremendous service to our customers. I think all these add up to
+(28:23.960) tremendous value add to our customers for their build up of their very
+(28:33.920) massive compute power development. Thank you.
+(28:40.620) Thank you very much.
+(28:44.080) Thank you.
+(28:45.200) Now, next one to ask question, Ulurajan, Sidi.
+(28:48.780) Go ahead, please.
+(28:50.540) Yes.
+(28:50.820) Hi.
+(28:51.100) Thank you very much for taking my questions.
+(28:53.460) My question is also about ESSEC.
+(28:56.260) Thank you, Rick, for the update on the promising outlook.
+(29:00.180) We are already working on the next generation project.
+(29:03.700) Can you share with us is there any change in terms of business model?
+(29:08.100) like we now are mainly doing studies and also the 20 service for our client.
+(29:15.100) Since, Rick, you just mentioned that the design is getting more complex.
+(29:19.320) Well, the business model change involves more IPs that Mediatek will be able to provide.
+(29:26.980) And also, we are targeting like 10%, 15% of the market share.
+(29:34.160) So can we kind of assume that this business will be able to achieve like a 20% or higher
+(29:41.780) of our total revenues in next year?
+(29:48.940) All right, this model, I think we remain, as I said, our hybrid business model.
+(29:56.580) So the value add,
+(30:00.500) of course,
+(30:02.440) will vary from generation to generation.
+(30:05.440) But I'd like to also say,
+(30:11.660) given the high degree of complexity,
+(30:17.820) which is added to the next generation chip,
+(30:23.720) we are providing,
+(30:26.340) I think,
+(30:26.940) actually more value.
+(30:31.020) if you look at the total,
+(30:34.120) while our customers is also adding more value in their aspect.
+(30:44.040) So that's why we have been always set. This is a win-win model. We get more value, they
+(30:51.980) get more value and together they will certainly gain more market share in their end of the
+(31:01.320) business. So I'm very pleased with that development.
+(31:08.020) As to the 2027,
+(31:11.680) what was the question?
+(31:21.860) 20%?
+(31:21.920) Yeah, 20% of the-
+(31:22.980) Yeah, I get 20% or higher revenue contribution.
+(31:34.160) I,
+(31:35.080) of course,
+(31:36.820) I think you're asking for really an event or indication,
+(31:44.260) I guess,
+(31:44.800) for 2027 revenue.
+(31:47.380) I think it's possible, certainly.
+(31:53.160) I think 20% is something we believe we have reasonable chance to get to.
+(32:02.900) We will do our very best to achieve that.
+(32:09.720) Yeah, sure. Thank you.
+(32:11.540) Maybe a just quick follow-up.
+(32:13.180) I recall that we are also working with NVIDIA on NVLink Fusion.
+(32:18.280) So are we also seeing any progress on the potential engagement with our ASIC business?
+(32:28.980) The model,
+(32:30.380) the NVLink Fusion model,
+(32:33.940) is being developed.
+(32:38.340) But this is,
+(32:39.780) again,
+(32:41.920) this model by itself is a complex model from technical point of view
+(32:48.620) and from business development point of view.
+(32:51.100) I would say we continue to have a very strong and close relationship with NVIDIA.
+(32:58.580) and we both are building the model, the build model and the targeted
+(33:09.140) potential customers and I cannot really disclose too much more. It's ongoing.
+(33:16.600) Thank you. Yeah, okay sure no problem. My next question is about the growth
+(33:22.080) margin outlook. I recall last time, David, you mentioned that the growth
+(33:27.300) margin for flagship smartphone SOC seems to be lower than corporate average.
+(33:32.500) So I'm just wondering that actually we see that the component price hike has more impact
+(33:38.560) on the entry level or low-end segmentation.
+(33:41.880) And the portion of our flagship on the good side is that probably the revenue will be
+(33:48.400) able to kind of support it to compensate the weakness in the low-end space.
+(33:54.860) But how would the impact on the growth margin side and how should we think about the growth margin trends in this year?
+(34:02.480) I think for full year
+(34:04.740) 2026 our goal is actually to aim to sustain our growth margin at around 46 percent level
+(34:11.620) Which was similar to the guidance we give out starting from last quarter
+(34:15.440) When you look at our growth margin fourth quarter last year and also the guidance this year
+(34:20.880) I think you can see that that will be our goal to maintain a full year.
+(34:25.880) And how do we achieve that?
+(34:27.640) I think like what we explained during the opening remark, given the overall supply chain tightness right now,
+(34:34.440) I think we've been going through a very rigid about the capacity allocation among the business growth rate and also the profitability.
+(34:44.260) And that's point number one.
+(34:45.480) Point number two, given the overall cost increase in pressure, we are also in discussion with
+(34:52.200) our customer.
+(34:53.420) For certain products, I guess we have to pass on some of the cost increase.
+(34:57.360) So combined of that, I think it would be reasonable, but the goal would be maintain the gross margin
+(35:01.780) around 46% for the full year.
+(35:05.400) Okay, thank you.
+(35:06.420) Very helpful.
+(35:10.100) Next one to ask questions for Kuhari Haalan, JP Morgan.
+(35:16.420) Yeah, hi. Thanks for taking my question. First off on the Data Center ASIC project,
+(35:23.020) could you talk a little bit about your understanding of what you are facing from a competitive
+(35:30.980) landscape perspective? Because this has been largely the domain of one vendor until very
+(35:36.500) recently for this project. And also,
+(35:40.340) Rick,
+(35:41.080) could you kind of help us understand a little
+(35:44.960) bit on the technology preparation that you've done on high-speed service
+(35:52.180) including 400 gig plus 3.5d and cpo could we give us a little bit more details on
+(35:58.680) how we can look at media text capabilities because that seems to be
+(36:02.380) quite critical for the next generation the follow-on project that you mentioned
+(36:11.760) Yeah,
+(36:12.680) Goku,
+(36:13.460) I guess your first part of the question is if you're asking how we view
+(36:25.380) other suppliers,
+(36:26.860) our policy is not to comment on competitors' situation.
+(36:33.840) But on the other hand,
+(36:36.000) for our own investment,
+(36:39.460) the multiple technologies and IP areas I discussed during the remarks,
+(36:49.940) And then we have staffed through internal resource consolidation.
+(37:01.060) We have many very capable engineers.
+(37:05.900) While we hire high caliber technologists,
+(37:12.340) including architects,
+(37:15.120) including a power expert,
+(37:19.300) including optics expert.
+(37:25.920) Those are very difficult technologies. We certainly know that because we're doing them.
+(37:32.380) But we also,
+(37:33.520) oh by the way,
+(37:34.140) we're also collaborating with some third party,
+(37:37.760) major third party players.
+(37:42.700) So, fire, they remain challenged, very challenging for us.
+(37:49.060) But if you look at the past two plus years,
+(37:54.940) I think our track record has shown that we
+(38:00.460) have been able to not only catch up,
+(38:02.540) but also to provide level playing field capabilities
+(38:08.600) for our next generation and we will continue to compete for future and the
+(38:17.140) broader range of business opportunities. Thank you.
+(38:23.320) And just to follow up, so this current project that is going into production
+(38:28.360) pretty soon this year, do you think that the deployment model is going to be
+(38:34.780) different compared to previously
+(38:36.820) that you were working on
+(38:38.560) some different workloads compared
+(38:40.600) to what your competitor
+(38:42.820) is working on? I'm just asking because
+(38:44.920) so far, if you look at data center
+(38:46.700) AI, most of the demand has
+(38:48.800) been largely at the very high end
+(38:50.880) of the spectrum,
+(38:52.480) whether it is for NVIDIA
+(38:54.660) GPUs or AI A6.
+(38:56.620) So I just wanted to understand, is there like a very
+(38:58.820) big division of workload that is
+(39:00.680) happening at the customer, which gives you
+(39:02.820) this opportunity to kind of
+(39:04.780) break in and kind of for the customer also to segment the demand more clearly?
+(39:14.380) Well, basically, Goku, this question of course needs to be answered by our customer.
+(39:20.400) While you,
+(39:23.260) I'm sure you understand the pace of the ASIC chips of such complexity,
+(39:33.400) You know,
+(39:34.560) you have to go back certain amount of years to start when you started the design.
+(39:42.540) And then you look at the progress or the status of the AI or generative AI at that time.
+(39:52.240) And then during and through that design process until the production,
+(39:59.120) as,
+(39:59.980) you know,
+(40:00.740) again,
+(40:01.220) we're measuring in,
+(40:03.160) I wouldn't say,
+(40:05.060) I cannot say exactly how many years,
+(40:08.240) but you know,
+(40:08.800) well,
+(40:09.540) things change.
+(40:11.560) but we believe the design of our customers' ASIC chips,
+(40:20.020) they have taken into consideration
+(40:24.160) of their own internal workloads needs plus their external requirement workloads.
+(40:33.240) and how they but I cannot say how they balance those but I we have as far as I
+(40:43.580) understand they really are they are very high on this chip thank you got it thank
+(40:51.100) you thank you very much just one last question on flagship smartphone given we
+(40:56.820) are expecting a tough market for smartphones are we still expecting the
+(41:02.360) flagship segment to grow this year or we think we might have to give up some
+(41:08.620) opportunities in to protect the profitability? Goku, I think from the
+(41:14.320) market share perspective, flagship market share perspective, given our new
+(41:18.920) product coming out every year and also all new products are very competitive, I
+(41:23.640) think we still feel comfortable the market share will continue to gain. And
+(41:27.840) likewise actually because right now is the most second content in there where
+(41:32.260) also seeing generation after generation the blended ASP generation after generation is higher.
+(41:39.100) But the last variable if you like really the overall shipment I have to say even the overall
+(41:45.060) the memory situation right now is still evolving or developing. Based on what we see probably that
+(41:52.260) will become somewhat year over year having some pressure on the flagship over the market shipment
+(41:58.260) but not a market share.
+(41:59.500) But at least we can somehow balance that
+(42:01.400) with our continued gain on market share
+(42:03.940) and also continue, you know, a question on ASP.
+(42:08.320) Got it. Yeah. Thank you very much. Thanks.
+(42:15.160) Next one to ask question,
+(42:16.840) Has Liu from Bank of America, Maryland.
+(42:19.620) Go ahead, please.
+(42:21.300) Yes. Thanks Rick, David and Jesse
+(42:23.560) for taking my questions and congrats
+(42:25.240) on the solid results and guidance.
+(42:26.660) So I want you to follow up on the smartphone business, which will provide more detail about
+(42:31.480) the smartphone linearity for this year, affecting your guidance for a significant decline in
+(42:37.240) first quarter.
+(42:38.100) And from the full year perspective, it is going to see negative impacts from the other
+(42:43.140) component supply shortage.
+(42:44.580) Just wondering if you have any quantitative outlook for the overall market versus your
+(42:49.260) own treatment.
+(42:50.020) And then your overall situation across the mid, high, low end smartphones as you are
+(42:57.600) reallocating or optimizing your product mix.
+(43:01.020) Could you also just share your view on the market share gain or loss as the previous
+(43:06.580) questions?
+(43:07.340) Thank you.
+(43:11.040) Okay.
+(43:12.660) Some of your questions involve a detailed resolution.
+(43:16.080) probably I won't be able to comment.
+(43:17.940) But let me probably start with our full year view for smartphone.
+(43:24.200) Very straightforward.
+(43:25.540) I think given the overall memory situation
+(43:27.380) and we believe actually the overall smartphone this year, year over year,
+(43:32.360) maybe we're seeing a decline.
+(43:34.160) I think that's on the top line.
+(43:36.780) In terms of the detailed resolution for flagship, mainstream, entry-level,
+(43:41.580) even including 4G, we probably won't be able to provide the detail.
+(43:46.080) But the key point is when you look at our overall business portfolio,
+(43:49.820) our non-smartphone business,
+(43:52.580) like we explained during the opening remark,
+(43:54.580) will offset a big part of that and will grow nicely.
+(44:00.360) And plus our data center new revenue coming in, which right now we're going to be more than a billion dollars.
+(44:06.800) I think overall we're still looking for the top line year-over-year growth.
+(44:11.280) I think that's probably our feedback.
+(44:13.040) but for the detailed segmentation resolution, in general, we don't comment that.
+(44:19.100) Okay, okay. Yes, that's clear. And then I think just on ASIC 10 beyond
+(44:24.960) hyperscaler accelerators, should we expect your ASIC business to grow beyond this part of the
+(44:30.340) market? For example, like server CPUs and also networking chipsets. And beyond cloud AI computing,
+(44:36.980) could you also discuss more in detail about your potential in automotive ADAS partnership with
+(44:41.240) than so because that is going to be a huge chunk of opportunity with higher level data
+(44:46.540) being adopted across the vehicles.
+(44:48.860) And then I think as part of my second question is that you also mentioned about you are going
+(44:54.200) to put more effort in 5G satellites.
+(44:56.940) Could you discuss more in detail on what kind of chipsets you are working on with your customers
+(45:01.220) or is it going to be part of your effort in low earth orbit?
+(45:05.000) Thank you.
+(45:08.860) Okay,
+(45:09.940) about data center AI,
+(45:12.560) of course,
+(45:15.500) now our first priority and focus remain as what
+(45:23.300) we're going to ship this year,
+(45:28.620) next year,
+(45:29.160) and also the next project following.
+(45:35.220) But in the meantime,
+(45:37.080) we are diligently working on the market.
+(45:46.860) is just changing
+(45:48.660) very, very fast
+(45:52.180) every
+(45:53.100) month, every quarter, for sure.
+(45:55.620) So we are
+(45:56.740) rapidly
+(45:58.220) adapting that
+(46:00.040) dynamics.
+(46:02.400) And we also
+(46:04.660) that's why we are investing
+(46:07.020) in technology that is
+(46:08.920) not just for
+(46:11.660) one
+(46:13.840) customer
+(46:14.760) We are developing technology which are generic,
+(46:19.880) more generic also,
+(46:21.180) for other applications.
+(46:24.900) More like inferencing is getting a lot more important as the Gen AI development has gone.
+(46:36.080) So the answer is we are,
+(46:40.080) but I don't think we can share a lot more than that.
+(46:50.780) Other new business satellite.
+(46:54.060) You asked automotive and satellite.
+(46:58.560) Automotive, certainly we are very excited to work with Denzel.
+(47:03.080) I mean,
+(47:04.160) we all know this is one of the top automotive tier one player,
+(47:14.540) very,
+(47:15.340) very deep
+(47:15.920) technology capability and very,
+(47:17.820) very strong business relations with multiple major car
+(47:24.120) OEMs.
+(47:25.260) And so the combination between the two companies is just perfect.
+(47:30.820) They provide the deep vehicle integration understanding or the safety requirements.
+(47:38.100) We provide the low power and so see very high performance plus a very high AI capability
+(47:44.580) that ADAS will need for the next four or five years.
+(47:51.040) So we're excited and I believe they are too.
+(47:55.300) we look forward to major revenues from both. Satellite,
+(48:04.140) we actually,
+(48:06.340) we have,
+(48:06.920) we
+(48:07.980) both work on the NTN from modem point of view. We also actually have a Wi-Fi
+(48:14.800) solution for some of the, they're station on earth for the satellite
+(48:24.380) business. So this is one area that we feel very good. We cannot say,
+(48:34.040) we believe the fast-growing,
+(48:37.460) but we cannot say how fast so far. But from whatever we are seeing,
+(48:43.660) our connectivity solutions
+(48:46.640) And from both modem and Wi-Fi's point of view, we have very strong position already.
+(48:53.320) And we expect to grow on that basis.
+(48:59.660) Okay, yeah.
+(49:00.480) Thank you so much.
+(49:01.500) That's very clear.
+(49:02.420) Just one small follow-up, and I will be back in the queue, is that for that NTAM project
+(49:08.660) or the satellite chips that you have, is it going to be more on the edge side or more
+(49:13.100) going to be on the infrastructure or base station side?
+(49:15.540) And then I think a couple of years ago,
+(49:18.880) you provided a few of the cater for the next few years on the sales and also margins.
+(49:24.420) I'm not sure if you are able to provide such guidance at this stage for 10.6 and also 10.7.
+(49:31.340) Thank you.
+(49:32.520) I think for the NTA, it's more on the edge side, not on the satellite side.
+(49:36.520) I think just to be clear.
+(49:38.380) In terms of the guidance, we probably won't be able to provide guidance so far because there will still be a few years to come.
+(49:44.960) It's growing, but still the fee risk cost.
+(49:48.640) Thanks so much for your continued.
+(49:53.460) Next one to ask a question, Charlie John Morgan Stanley.
+(49:57.060) Go ahead, please.
+(50:01.380) Thanks for taking my question, and also congratulations for a very strong outlook, especially on the ASIC side.
+(50:08.160) So I do have two part of questions.
+(50:12.060) One is also some ASIC, and the second question will be on smartphone.
+(50:17.400) For the ASIC, I wanted to ask management whether you see strength over the past month,
+(50:25.460) meaning there's an upside to your forecast, especially next year.
+(50:29.320) And if that's the case, I just mentioned you already are sure the key components,
+(50:34.980) but are you sure that your TGLAS HPN can really support that so-called upside order?
+(50:42.840) And lastly, growth margin trend.
+(50:44.980) I'm wondering for those kind of upside revenue,
+(50:47.740) do you think the incremental growth margin would decline?
+(50:52.720) And lastly, given the revenue size is so big,
+(50:57.420) do you think a customer want to change to the CLT model
+(51:01.440) in the current generation or next generation?
+(51:04.340) So that's my question about the ASIC business.
+(51:12.900) We are,
+(51:13.640) as we said in our remarks,
+(51:17.180) we are very confident for our first quarter revenue
+(51:21.740) of more than $1 billion.
+(51:24.280) We said for 2027, it's multiple billion dollars.
+(51:29.880) That's the range, certainly.
+(51:34.340) I would say we believe,
+(51:40.840) if,
+(51:42.900) and whether I believe we will,
+(51:45.420) when we deliver,
+(51:48.000) when we execute,
+(51:49.520) we expect to see some upside.
+(51:57.580) Then from the supply point of view,
+(52:00.900) and I also said earlier that we have secured supplies
+(52:08.300) for data center ASIC, NEIF, and other areas.
+(52:14.180) We have a good scale to work with the major suppliers,
+(52:22.840) and we also have certain flexibility
+(52:25.780) among our own different product portfolio.
+(52:30.980) So we also have high confidence we can manage,
+(52:35.900) we can provide the suppliers for the demand
+(52:41.840) coming next year. We have been preparing for that for some time.
+(52:53.360) Lastly,
+(52:54.320) again,
+(52:55.420) that question is not really up to us,
+(52:58.340) but what I said earlier,
+(53:02.120) I really
+(53:05.660) believe,
+(53:06.020) I think all depends on overall objectives. The overall objectives,
+(53:19.140) I believe our customers
+(53:21.660) or actually for that matter all the CSPs,
+(53:24.680) is really to provide timely and high quality,
+(53:32.520) low-power computing capability at a very good TCO to grow their business.
+(53:45.220) And the market is changing so fast.
+(53:48.160) The technology pace is so fast.
+(53:56.540) But if you look at the history of our industry,
+(54:03.360) usually you would take partners to work together
+(54:07.320) to achieve that required growth target for everyone.
+(54:16.500) And unless you're in a very mature industry, you probably can go just by yourself.
+(54:24.000) But we are not in that phase at all.
+(54:27.420) There is a huge amount of growth ahead of us.
+(54:33.080) So I fully believe the value add we provide and we are also,
+(54:40.280) as I said earlier,
+(54:41.600) we are
+(54:42.220) are also working hard with our customers to enhance their value.
+(54:49.360) It's not a zero-thumb game, period.
+(54:53.440) And we believe this will continue.
+(54:55.940) Thank you.
+(54:57.360) Yes, that makes a lot of sense.
+(54:59.860) So just a small follow-up on ASIC side before I move to smartphone.
+(55:04.180) So you mentioned about your,
+(55:07.260) you feel like your 10, 15% market share
+(55:10.260) is pretty safe to achieve, right?
+(55:12.720) And my understanding is that your customers' ACs
+(55:16.120) probably account for half or even more
+(55:20.060) of the kind of a total AC 10, right?
+(55:23.100) So is that right way to think about your allocation
+(55:26.940) from these key customers would be like 20% to 30%
+(55:31.200) or even higher?
+(55:33.140) Yeah, based on those data points that I just described.
+(55:39.620) Charlie,
+(55:40.140) I think,
+(55:40.520) again,
+(55:41.020) the earlier question talking about target market shares or the market share goal is 2028.
+(55:48.680) This is still a few years away.
+(55:50.420) So there are so many moving targets.
+(55:52.700) I think our folks right now, if we ask them well about the two projects on hand,
+(55:57.660) and market share will become hopefully a happy consequence.
+(56:00.500) So that's why actually we don't want to give out the detail.
+(56:03.980) Actually, we will not be able to give out the detailed guidance
+(56:06.680) for the market share for 2020.
+(56:09.840) Got you, thanks, David.
+(56:11.240) So my second question on smartphone
+(56:13.240) will be relatively brief.
+(56:15.680) I wanted to get management thoughts about the
+(56:18.360) authentic AI in China smartphone markets.
+(56:21.460) What do you think about this Doubao,
+(56:24.400) Sochi kind of feedback and our media
+(56:28.440) the customers want to do a similar kind of application? When do you think that it will
+(56:35.460) become a killer app? Thank you. I think we've been dealing with these questions for at least two years,
+(56:48.720) you're no longer.
+(56:50.820) And
+(56:52.560) I will not
+(56:54.780) give you
+(56:55.800) a kind of a
+(56:58.540) boilerplate answer.
+(57:00.420) It's not obvious
+(57:02.680) this quote-unquote killer
+(57:04.680) app, but I don't
+(57:06.880) think, I'm not sure that's the
+(57:08.700) right thinking.
+(57:11.520) I think
+(57:12.760) the agentic AI will just blend
+(57:14.900) into your life
+(57:16.480) with the smartphone.
+(57:18.720) And that smartphone can be a very smart smartphone.
+(57:22.500) And it may be just a mid-end because you can,
+(57:27.600) depending on what you need,
+(57:29.720) you can access
+(57:31.000) very sophisticated Gen AI models on your phone.
+(57:35.940) But for even more bigger applications, you need to go to the cloud.
+(57:42.540) So we provide solutions that will have more than sufficient compute power,
+(57:51.080) but that compute power
+(57:52.600) will be limited by the form factor of the phone itself. That's physics. So the phone will provide
+(58:01.740) ample AI or Gen AI or agentic AI capability by itself.
+(58:09.720) But, and I believe the demand of the application
+(58:15.160) will increase so much.
+(58:18.480) That phone certainly will play the other role
+(58:22.020) of being just connected to the cloud
+(58:24.900) very effectively and efficiently.
+(58:27.260) And that will fill both ends.
+(58:34.120) I think it's a part of life.
+(58:39.560) And there may be other form of devices that will enhance people's life using agentic AI.
+(58:51.120) And we certainly,
+(58:52.620) if there is opportunity or outlook,
+(58:59.440) we are pursuing also.
+(59:02.920) Thank you.
+(59:04.560) Thanks, Rick.
+(59:05.580) Thanks, David.
+(59:08.580) Ladies and gentlemen, with the interest of time, we are going to take the last one to
+(59:13.080) ask questions.
+(59:14.140) And Arthur Lai from Macquarie.
+(59:16.340) Go ahead, please.
+(59:17.840) Hi, thanks Rick and Debbie and Jesse for taking my question.
+(59:24.820) So my first question still on the cloud AI.
+(59:28.700) Just want to follow up the Charlie's question.
+(59:32.120) When you comment the scale and also flexibility,
+(59:36.180) can you help investors understand,
+(59:39.760) are you
+(59:41.640) Are you trying to allocate the scale CTE resources to incubate your new cloud business?
+(59:49.660) And what's the resources you refer to?
+(59:53.980) Is the wafer location or is it a sub-trade or your experience engineer?
+(60:01.600) Thank you. That's my first question.
+(60:04.340) Dr. David here. I think long story short, we will allocate amount or what you say,
+(60:10.180) internal R&D resource, like during the opening remark, I think Rick's talking about we've
+(60:15.320) been investing sizefully in R&D, and plus we've been hiring aggressively external resource.
+(60:21.340) So internal resource, I think we will definitely allocate to this fast-growing area, especially
+(60:27.340) with a huge addressable market.
+(60:29.280) For the overall manufacturing capacity, we will put a priority on that as well.
+(60:35.340) So all of that, yeah.
+(60:37.380) Oh, thank you.
+(60:38.100) And the second question is more on the cycle and also history.
+(60:43.640) This is actually not the first time we envision the softness of a smartphone.
+(60:51.540) Compared to the last two cycles,
+(60:53.840) can Benjamin or Rick comment on what the media takes on the strategy right now compared to the previous second down cycle?
+(61:06.340) Thank you.
+(61:11.400) Okay, certainly, 2026 is a tough year for a smartphone.
+(61:18.040) I mean, I'm sure you guys have read about that.
+(61:24.380) No need to further elaborate.
+(61:26.920) But I also believe this is a cyclical year.
+(61:34.300) the demand will remain solid next year or maybe 1.5 years. I cannot say for sure,
+(61:44.980) but I am quite
+(61:46.580) sure the demand will come back,
+(61:49.740) and when it comes back,
+(61:52.080) it will come back in force. And we need to be
+(61:56.800) prepared for that and we will be. A meat attack during the past few years we have
+(62:04.860) I think developed,
+(62:06.940) equipped ourselves to I think what to live through the cycle is
+(62:16.720) on two weeks actually. I believe we will be stronger after the
+(62:24.380) cycle. The capability we're building the market position,
+(62:29.800) I feel very confident.
+(62:36.340) The mobile business is now in the six-year of the 5G generation,
+(62:46.220) where certainly the overall growth
+(62:48.640) is saturating. We all know that. But the MediaTek's position,
+(62:53.720) the capability is much,
+(62:56.400) much stronger
+(62:57.200) compared to our last generation of modern technology. So I don't like this down cycle,
+(63:07.320) but that's life. We will be better after that. Thank you.
+(63:12.860) Thank you. Thank you.
+(63:15.800) Okay, ladies and gentlemen, we thank you for all your questions.
+(63:19.640) I'll hand it over now to Ms. Jessie Wang for closing comments.
+(63:23.240) Ms. Wang, please go ahead.
+(63:25.260) Ladies and gentlemen, this concludes MediaTek 25 for the conference call,
+(63:29.700) and an audio replay will be available in one hour after the call
+(63:33.320) at the investor's session of MediaTek's website.
+(63:36.480) We would like to thank you for your participation, and you may now disconnect.
+(63:41.440) Yes, once again, we thank you for your participation in today's conference.
+(63:45.740) You may disconnect now.
+(63:47.060) Goodbye.
