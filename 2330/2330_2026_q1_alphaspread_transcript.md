@@ -1,76 +1,7 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/2330/investor-relations/earnings-call/q1-2026
-Generated-At: 2026-04-19
+Generated-At: 2026-04-20
 ---
-
-J
-Jeff Su
-executive
-
-Good afternoon, everyone, and welcome to TSMC's First Quarter 2026 Earnings Conference Call. This is Jeff Su, TSMC's Director of Investor Relations and your host for today. TSMC is hosting our earnings conference call via live audio webcast through the company's website at www.tsmc.com, where you can also download the earnings release materials. [Operator Instructions].
-
-The format for today's event will be as follows: First, TSMC's Senior Vice President and CFO, Mr. Wendell Huang, will summarize our operations in the first quarter 2026, followed by our guidance for the second quarter 2026. Afterwards, Mr. Huang and TSMC's Chairman and CEO, Dr. C.C. Wei, will jointly provide the company's key messages. Then we will open the line for the Q&A session.
-
-As usual, I would like to remind everybody that today's discussions may contain forward-looking statements that are subject to significant risks and uncertainties, which could cause actual results to differ materially from those contained in the forward-looking statements. So please refer to the safe harbor notice that appears in our press release.
-
-And now I would like to turn the call over to TSMC's CFO, Mr. Wendell Huang, for the summary of operations and the current quarter guidance.
-
-J
-Jen-Chau Huang
-executive
-
-Thank you, Jeff. Good afternoon, everyone. Thank you for joining us today. My presentation will start with financial highlights for the first quarter 2026. After that, I will provide the guidance for the second quarter 2026. First quarter revenue increased 8.4% sequentially in NT supported by strong demand for our leading-edge process technologies. In U.S. dollar terms, revenue increased 6.4% sequentially to USD 35.9 billion, slightly ahead of our first quarter guidance. Gross margin increased 3.9 percentage points sequentially to 66.2%, primarily due to cost improvement efforts, a high capacity utilization rate and a more favorable foreign exchange rate. Operating margin improved 4.1 percentage points sequentially to 58.1% due to operating leverage. Overall, our first quarter EPS was TWD 22.08 and ROE was 40.5%.
-
-Now let's move on to revenue by technology. 3-nanometer process technology contributed 25% of wafer revenue in the first quarter, while 5-nanometer and 7-nanometer accounted for 36% and 13%, respectively. Advanced technologies, defined as 7-nanometer and below, accounted for 74% of wafer revenue.
-
-Moving on to revenue contribution by platform. HPC increased 20% quarter-over-quarter to account for 61% of our first quarter revenue. Smartphone decreased 11% to account for 26%. IoT increased 12% to account for 6%. Automotive decreased 7% and accounted for 4%, and DCE increased 28% to account for 1%.
-
-Moving on to the balance sheet. We ended the first quarter with cash and marketable securities of TWD 3.4 trillion or USD 106 billion. On the liability side, current liabilities increased by TWD 256 billion quarter-over-quarter, mainly due to the increase of TWD 129 billion in accrued liabilities and others and the increase of TWD 82 billion in accounts payable. On financial ratios, accounts receivable turnover days was flat at 26 days. Days of inventory increased 6 days to 80 days, reflecting the ramp-up of our 2-nanometer technology and strong demand for our 3-nanometer technology.
-
-Regarding cash flow and CapEx. During the first quarter, we generated about TWD 699 billion in cash from operations, spent TWD 351 billion in CapEx and distributed TWD 130 billion for second quarter 2025 cash dividend. Overall, our cash balance increased TWD 268 billion to TWD 3 trillion at the end of the quarter. In U.S. dollar terms, our first quarter capital expenditures totaled USD 11.1 billion.
-
-I have finished my financial summary. Now let's turn to our current quarter guidance. Based on the current business outlook, we expect our second quarter revenue to be between USD 39.0 billion and USD 40.2 billion, which represents a 10% sequential increase or a 32% year-over-year increase at the midpoint. Based on the exchange rate assumption of USD 1 to TWD 31.7, gross margin is expected to be between 65.5% and 67.5%, operating margin between 56.5% and 58.5% Also, in the second quarter, we will need to accrue the tax on the undistributed retained earnings. As a result, our second quarter tax rate will be around 20%. We continue to expect the full year tax rate to be between 17% and 18%.
-
-This concludes my financial presentation. Now let me turn to our key messages. I will start by talking about our first quarter 2026 and second quarter 2026 profitability. Compared to fourth quarter, our first quarter gross margin increased by 390 basis points sequentially to 66.2%, primarily due to cost improvement efforts, a higher overall capacity utilization rate and a more favorable foreign exchange rate. Compared to our first quarter guidance, our actual gross margin exceeded the high end of the range provided 3 months ago by 120 basis points, mainly due to a higher-than-expected overall capacity utilization rate and better cost improvement efforts. We have just guided our second quarter gross margin to increase by 30 basis points to 66.5% at the midpoint, primarily driven by a higher overall utilization rate and continued cost improvement efforts, including productivity gains, partially offset by dilution from our overseas fab.
-
-Looking ahead to the second half of the year, given the 6 factors that determine our profitability, there are a few puts and takes I would like to share. As we have said before, the initial ramp-up of our 2-nanometer technology will start to dilute our gross margin in the second half of this year, and we expect between 2% and 3% dilution for the full year of 2026. Furthermore, as the scale of our overseas expansion grows, we continue to forecast the gross margin dilution from the ramp-up of overseas fabs in the next several years to be 2% to 3% in the early stages and widen to 3% to 4% in the latter stages.
-
-In addition, given the recent situation in the Middle East, prices for certain chemicals and gases are likely to increase. Based on our current assessment, there may be impact to our profitability, but it is too early to quantify the impact. On the other hand, we will continue to leverage our manufacturing excellence to generate more wafer output and drive greater cross node capacity optimization in our fab operations to support our profitability. Also, N3 gross margin is expected to cross over to the corporate average in second half 2026. Finally, we have no control over the foreign exchange rate, but that may be another factor.
-
-Next, let me talk about the materials and energy supply update given the recent situation in the Middle East. TSMC operates a well-established enterprise risk management system to identify and assess all relevant risks and proactively implement risk mitigation strategies. In terms of material supply, TSMC's strategy is to continuously develop multi-source supply solutions to build a well-diversified global supplier base and to improve the local supply chain. For specialty chemicals and gases, including helium and hydrogen, we source from multiple suppliers in different regions, and we have prepared safety stock inventory on hand. We are also working closely with our suppliers to further strengthen the resiliency and sustainability of our supply chain. Thus, we do not expect any near-term impact on our operations for material supply.
-
-In terms of energy, TSMC worked closely with Taipower and the Taiwan government to ensure a stable and sufficient energy supply. With the recent situation in the Middle East, the Taiwan government has announced it has secured sufficient LNG supply through at least May. The government has also said it is actively working on securing further LNG supply, diversifying sourcing to other regions and other power backup plants. Therefore, we do not expect any near-term disruption or impact to our operations.
-
-Finally, let me talk about our 2026 capital budget. At TSMC, higher level of capital expenditures is always correlated with higher growth opportunities in the following years. With our strong technology leadership and differentiation, we are well positioned to capture the multiyear structure demand from the industry megatrends of 5G, AI and HPC. We now expect our 2026 capital budget to be towards the high end of our range of between USD 52 billion and USD 56 billion as we continue to invest heavily to support our customers' growth. Even as we invest for the future growth with this level of CapEx spending in 2026, we remain committed to delivering profitable growth to our shareholders. We also remain committed to a sustainable and steadily increasing cash dividend per share on both annual and quarterly basis.
-
-Now let me turn the microphone over to C.C.
-
-C.C. Wei
-executive
-
-Thank you, Wendell. Good afternoon, everyone. First, let me start with our near-term demand outlook. We concluded our first quarter with revenue of USD 35.9 billion, slightly above our guidance in U.S. dollar terms, driven by strong demand for our leading-edge process technologies. Moving into second quarter 2026, we expect our business to be supported by continued strong demand for our leading-edge process technologies. Looking ahead, we are very mindful of the impact of rising component prices, especially in consumer and price-sensitive end market segment. In addition, the recent situation in the Middle East also brings further macroeconomic uncertainties. As such, we are being prudent in our business planning while focusing on the fundamentals of our business to further strengthen our competitive position.
-
-Having said that, AI-related demand continues to be extremely robust. The shift from generative AI and the query mode to agentic AI and command and action mode is leading to another step-up in the amount of tokens being consumed. This is driving the need for more and more computation, which supports the robust demand for leading-edge silicon. Our customers and customers' customers, who are mainly the cloud service providers, continue to provide us with their very strong signal and positive outlook. Thus, our conviction in the multiyear AI megatrend remains high, and we believe the demand for semiconductors will continue to be very fundamental. Supported by our robust technology differentiation and broad customer base, we maintain strong confidence for our full year 2026 revenue to now grow by above 30% in U.S. dollar terms.
-
-Next, let me talk about our N2 capacity expansion plan. Our practice is to prioritize the land in Taiwan to support the fast ramp of our newest node due to the need for tight integration with R&D operations. Today, our new node, N2, has already entered high-volume manufacturing in the fourth quarter of 2025 with good yield. N2 is ramping successfully in multi phases at both Hsinchu and Kaohsiung site, supported by strong demand from both smartphone and HPC AI applications. With our strategy of continuous enhancement such as N2P and A16, we expect our N2 family to be another large and long-lasting node for TSMC.
-
-Now let me talk about TSMC's global N3 capacity expansion plan. Historically, we do not add additional capacity to a node once it has reached its target capacity. However, as a foundry, our first responsibility is to provide our customers with the most advanced technologies and necessary capacity to unleash their innovations. Based on our assessment, to meet the strong demand in AI application, we are stepping up our CapEx investment to increase our N3 capacity. Thus, we are now executing a global capacity plan to support the robust multiyear pipeline of demand for 3-nanometer technologies, which are used by smartphone, HPC AI, including HBM-based dies, automotive and IoT customers.
-
-In Taiwan, we are adding a new 3-nanometer fab to our GIGAFAB cluster in Tainan Science Park. Volume production is scheduled for the first half of 2027. In Arizona, our second fab will also utilize 3-nanometer technologies. Construction is already complete and volume production will begin in the second half of 2027. In Japan, we now plan to utilize 3-nanometer technology in our second fab and volume production is scheduled in 2028.
-
-In addition to all the new fabs, we continue to convert 5-nanometer tool to support 3-nanometer capacity in Taiwan. We are also leveraging our manufacturing excellence to drive greater productivity across our fab in all locations to generate more wafer output. We are also focusing on capacity optimization across nodes, including flexible capacity support among N7, N5 and N3 nodes. Thus, we are using multiple levers to do everything we can, wherever we can, however we can to maximize the support to all our customers across all platforms. Also, let me emphasize that while the capacity is tight, we do not pick and choose or play favorites among our customers.
-
-Next, let me talk about our mature node strategy. TSMC's strategy in mature node has not changed. Our focus is to build high-yield capacity for specialized technologies rather than just normal capacity. For example, we are increasing our mature node capacity such as in JASM Fab 1 in Japan for CMOS image sensor application and ESMC in Germany for automotive and industrial applications. Meanwhile, we have a plan to wind down our Fab 2, which is 6-inch fab; and Fab 5, which is 8-inch fab; focus on gallium nitride and use available space to optimize the support for leading-edge applications. Even with our Fab 2 and Fab 5, we still have enough capacity to fully support our existing customers. In summary, our strategy will be to continue to optimize our capacity mix within mature nodes and focus on the higher value-added and strategic segment, while ensuring we have a necessary capacity to support our customers' growth.
-
-Finally, let me talk about our A14 status. Featuring our second-generation nanosheet transistor structure, A14 will deliver another full-node stride for N2 with performance and power benefit to address the sensible need for high-performance and energy-efficient computing. Compared with N2, A14 will provide 10 to 15 speed improvement at the same power or 25 to 30 power improvement at the same speed and close to 20% chip density gain. Our A14 technology development is on track and progressing well. We are observing a high level of customer interest and engagement from both smartphone and HPC applications. Volume production is scheduled for 2028. Our A14 technology and its derivative will further extend our technology leadership position and enable TSMC to capture the growth opportunities well into the future.
-
-This concludes our key message, and thank you for your attention.
-
-J
-Jeff Su
-executive
-
-Thank you, C.C. This concludes our prepared statements. [Operator Instructions]. Now let's begin the Q&A session. Operator, can we proceed with the first participant on the line, please? Thank you.
 
 Operator
 
@@ -594,3 +525,5 @@ Jeff Su
 executive
 
 Okay. Thank you, Charles. Thank you, C.C. Thank you, Wendell. This concludes our prepared statements -- sorry, I should say this concludes our Q&A session. Before we conclude today's conference, please be advised that the replay of the conference will be accessible within 30 minutes from now, and the transcript will become available 24 hours from now. Both are going to be available through TSMC's website at www.tsmc.com. So again, thank you, everyone, for taking the time to join us today. We hope you continue to stay well, and we hope you join us again next quarter. Goodbye, and have a good day.
+
+ Earnings Call Recording
