@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/2330/investor-relations/earnings-call/q1-2026
-Generated-At: 2026-04-22
+Generated-At: 2026-04-23
 ---
 
 Operator
