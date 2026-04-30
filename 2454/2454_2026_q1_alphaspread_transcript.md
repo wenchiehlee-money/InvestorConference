@@ -57,7 +57,7 @@ Apr 30, 2026
 +100.77%
 T
 Taiwan Weighted Index
-+88.67%
++88.86%
 1Y
 3Y
 5Y
