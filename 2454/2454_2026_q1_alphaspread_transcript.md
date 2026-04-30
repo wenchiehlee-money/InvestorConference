@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/2454/earnings-calls/q1-2026
-Generated-At: 2026-04-29
+Generated-At: 2026-04-30
 ---
 
 Dashboard
@@ -32,8 +32,8 @@ Financials
 Dividends
 Investor Relations
 Discount Rate
-Price: 2 560 TWD  -2.1%
-Market Cap: NT$4.1T
+Price: 2 610 TWD  1.36%  Market Closed
+Market Cap: NT$4.2T
 MediaTek Inc
 Investor Relations
 
@@ -52,12 +52,12 @@ Apr 2026
 50%
 75%
 100%
-Apr 29, 2026
+Apr 30, 2026
 2454
-+89.63%
++100.77%
 T
 Taiwan Weighted Index
-+94.92%
++88.67%
 1Y
 3Y
 5Y
