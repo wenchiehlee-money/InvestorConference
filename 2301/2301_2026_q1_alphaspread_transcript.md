@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/2301/earnings-calls/q1-2026
-Generated-At: 2026-05-01
+Generated-At: 2026-05-02
 ---
 
 Dashboard
@@ -57,7 +57,7 @@ Apr 30, 2026
 +67.68%
 T
 Taiwan Weighted Index
-+87.26%
++89.58%
 1Y
 3Y
 5Y
