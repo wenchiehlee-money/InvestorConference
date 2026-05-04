@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/2347/earnings-calls/q4-2025
-Generated-At: 2026-05-03
+Generated-At: 2026-05-04
 ---
 
 Dashboard
@@ -9,6 +9,7 @@ Market News
 Investing Ideas
 Pricing
 Search 100,000+ stocks...
+EN
 Sign Up
 Log in
 Synnex Technology International Corp
@@ -29,9 +30,7 @@ Market Cap: NT$137.6B
 Synnex Technology International Corp
 Investor Relations
 
-Synnex Technology International Corp., an unsung titan in the technology and supply chain sectors, has woven itself into the fabric of modern commerce since its founding in 1975. Anchored in Taiwan, the company started its journey in the world of distribution, gradually becoming a pivotal player in the intricate web of global technology. Synnex specializes in the distribution of a wide range of electronic products, particularly computers, peripherals, electronic components, and software. Its expertise lies in seamlessly navigating the complex labyrinth of supply chains to ensure that technology products find their way from manufacturers to end-users efficiently. In essence, Synnex acts as a critical bridge between the manufacturers, eager to extend their global reach, and the myriad resellers who seek to provide the latest technology to consumers and businesses alike.
-
-Beyond its distribution prowess, Synnex is also deeply entrenched in providing value-added services that have become indispensable to its robust business model. The firm enriches its core operations by offering solutions such as logistics, integration services, and assembly processes, which are tailored to various clients’ needs. This layered service approach allows Synnex to extract value at multiple junctures of the supply chain. By harmonizing these activities, Synnex not only enhances its revenue streams but also fosters long-term partnerships. With technology demand continually burgeoning and industries evolving, Synnex stands resilient, thriving as an essential artery in the ever-pulsating world of tech distribution and services.
+Synnex Technology International Corp is an information technology distributor. It buys hardware and related parts from major technology brands and sells them to resellers, retailers, system integrators, and corporate customers across Asia and other markets. Its role is to move products through the supply chain, not to make the devices itself. The company’s main business is distribution of computers, networking gear, consumer electronics, mobile devices, and electronic components. It also earns money from logistics, warehousing, after-sales support, and other services that help manufacturers reach local markets efficiently. Customers pay for both the products and the distribution services wrapped around them. What sets Synnex apart is its position in the middle of the technology value chain. It helps manufacturers reach thousands of smaller buyers that would be hard to serve one by one, while giving customers a broad catalog, local inventory, and credit and fulfillment support. That makes it a practical channel partner for the tech industry rather than a consumer-facing brand.
 
 Show more
 Jul 2025
@@ -44,12 +43,11 @@ Apr 2026
 25%
 50%
 75%
-Apr 30, 2026
-2347
-+16.20%
+100%
+May 4, 2026
 T
 Taiwan Weighted Index
-+89.58%
++98.24%
 1Y
 3Y
 5Y
@@ -84,25 +82,25 @@ www.synnex-grp.com
 sparklesyt
 SEE ALSO
 	Summary
-Intrinsic value, competitors valuation, and company profile.
+intrinsic value, competitors valuation, and company profile.
 	DCF Valuation
-Stock valuation using Discount Cash Flow valuation method.
+stock valuation using Discount Cash Flow valuation method.
 	Relative Valuation
-Stock valuation using valuation multiples.
-	Wall Street Estimates
-Price targets and financial estimates made by Wall st analysts.
-	Profitability Analysis
+stock valuation using valuation multiples.
+	Wall St Estimates
+price targets and financial estimates made by Wall Street analysts.
+	Profitability
 Detailed analysis of the company's profitability.
-	Solvency Analysis
+	Solvency
 Analysis of the financial position and solvency of the company.
 	Financials
 Income Statement, Balance Sheet, Cash Flow Statement.
 	Discount Rate
-Stock discount rate: cost of equity and WACC.
+stock discount rate: cost of equity and WACC.
  Back to Top
  ALPHA SPREAD
 Follow us
-Join 334,300+ value investors using Alpha Spread
+Join 334,400+ value investors using Alpha Spread
 Create Free Account
 or see our plans & pricing
 Company
@@ -134,7 +132,7 @@ www.alphaspread.com is not operated by a broker, a dealer, or a registered inves
 
 Create Your Free Account
 Already have an account? Sign in
-Gain access to the world’s leading value investing platform
+Gain access to the world's leading value investing platform
 
 By using Alpha Spread you are agreeing to our Terms of Service and Privacy Policy.
 
