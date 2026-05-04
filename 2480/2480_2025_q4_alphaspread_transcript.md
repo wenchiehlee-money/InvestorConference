@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/2480/earnings-calls/q4-2025
-Generated-At: 2026-05-03
+Generated-At: 2026-05-04
 ---
 
 Dashboard
@@ -9,6 +9,7 @@ Market News
 Investing Ideas
 Pricing
 Search 100,000+ stocks...
+EN
 Sign Up
 Log in
 Stark Technology Inc
@@ -29,7 +30,7 @@ Market Cap: NT$15.2B
 Stark Technology Inc
 Investor Relations
 
-Stark Technology, Inc. provides complete system integration services of information technology (IT) products. The company is headquartered in Hsinchu, Hsinchu. The company went IPO on 2001-09-17. The firm's primary products include server hosts, network servers, workstations, personal computers, laptops, web servers, Thin Client windows terminals and other storage devices. The firm is also engaged in the provision of related consulting and maintenance services. The firm mainly operates its business in Taiwan market.
+Stark Technology Inc. is an enterprise IT services company. It helps businesses design, install, and run computer systems, including servers, storage, networks, software, and cloud-related tools. Rather than selling to consumers, it works with companies and public-sector customers that need dependable business systems and technical support. The company makes money by selling hardware and software, building and integrating systems, and charging for maintenance, support, and related services after installation. In practice, that means it can earn income both from one-time projects and from ongoing service contracts. Its business sits between global technology vendors and end customers that need those products put together and supported in a working environment. What makes this model different is that Stark Technology is not a chip maker or a consumer brand. It is a specialist partner that turns third-party technology into usable business infrastructure. That gives it a role in the value chain as an installer, integrator, and long-term support provider rather than as the owner of the core hardware or software it sells.
 
 Show more
 Jul 2025
@@ -41,12 +42,11 @@ Apr 2026
 25%
 50%
 75%
-Apr 30, 2026
-2480
--4.03%
+100%
+May 4, 2026
 T
 Taiwan Weighted Index
-+89.58%
++98.24%
 1Y
 3Y
 5Y
@@ -87,25 +87,25 @@ www.sti.com.tw
 sparklesyt
 SEE ALSO
 	Summary
-Intrinsic value, competitors valuation, and company profile.
+intrinsic value, competitors valuation, and company profile.
 	DCF Valuation
-Stock valuation using Discount Cash Flow valuation method.
+stock valuation using Discount Cash Flow valuation method.
 	Relative Valuation
-Stock valuation using valuation multiples.
-	Wall Street Estimates
-Price targets and financial estimates made by Wall st analysts.
-	Profitability Analysis
+stock valuation using valuation multiples.
+	Wall St Estimates
+price targets and financial estimates made by Wall Street analysts.
+	Profitability
 Detailed analysis of the company's profitability.
-	Solvency Analysis
+	Solvency
 Analysis of the financial position and solvency of the company.
 	Financials
 Income Statement, Balance Sheet, Cash Flow Statement.
 	Discount Rate
-Stock discount rate: cost of equity and WACC.
+stock discount rate: cost of equity and WACC.
  Back to Top
  ALPHA SPREAD
 Follow us
-Join 334,300+ value investors using Alpha Spread
+Join 334,400+ value investors using Alpha Spread
 Create Free Account
 or see our plans & pricing
 Company
@@ -137,7 +137,7 @@ www.alphaspread.com is not operated by a broker, a dealer, or a registered inves
 
 Create Your Free Account
 Already have an account? Sign in
-Gain access to the world’s leading value investing platform
+Gain access to the world's leading value investing platform
 
 By using Alpha Spread you are agreeing to our Terms of Service and Privacy Policy.
 
