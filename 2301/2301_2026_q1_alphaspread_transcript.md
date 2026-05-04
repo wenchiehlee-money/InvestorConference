@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/2301/earnings-calls/q1-2026
-Generated-At: 2026-05-03
+Generated-At: 2026-05-04
 ---
 
 Dashboard
@@ -9,6 +9,7 @@ Market News
 Investing Ideas
 Pricing
 Search 100,000+ stocks...
+EN
 Sign Up
 Log in
 Dashboard
@@ -17,6 +18,7 @@ Market News
 Investing Ideas
 Pricing
 Search 100,000+ stocks...
+EN
 Sign Up
 Log in
 Lite-On Technology Corp
@@ -37,9 +39,7 @@ Market Cap: NT$384.6B
 Lite-On Technology Corp
 Investor Relations
 
-Lite-On Technology Corp. emerges as a beacon of innovation and efficiency within the ever-evolving tech landscape. Founded in 1975, the Taiwanese company has grown by leaps and bounds, crafting a diverse portfolio that spans from optoelectronics to power supply products. Positioned at the intersection of critical technologies, Lite-On’s journey began with LEDs, marking its foray into optoelectronics. Over the years, it expanded its offerings to include a wide array of products like power supplies, information technology components, and storage devices. These core areas are not just auxiliary segments but stand as foundational pillars that fuel Lite-On’s sustained growth. The company's ability to adapt to shifting technological paradigms and customer needs has propelled it to the forefront of its niche markets, cementing its reputation as a resilient player in a competitive industry.
-
-The heartbeat of Lite-On’s profitability blends its robust manufacturing capabilities with strategic supply chain management. By capitalizing on economies of scale and leveraging cost-efficient production practices, Lite-On delivers world-class components at competitive price points, enhancing value for its partners and end-consumers alike. The company’s revenue streams are intricately woven with the dynamic demands of electronics, computing, and automotive industries. For instance, its power supply units are integral to data centers and Cloud infrastructures, while its modules are crucial for the burgeoning electric vehicle market. Revenue is cycled back into research and development, where innovation is a relentless pursuit, ensuring Lite-On not only keeps pace with, but often anticipates, the trajectory of global technological advancement.
+Lite-On Technology Corp is a Taiwanese electronics company that makes components and modules used inside other products. Its main business includes power supplies, LEDs and optoelectronic parts, automotive electronics, and other parts that help computers, phones, servers, cars, and industrial equipment work reliably. It also has a heritage in storage and optical products, but today it is mostly a component supplier rather than a branded consumer-goods maker. The company sells mainly to original equipment manufacturers and system builders, not to end consumers. Its customers buy parts that go into laptops, data-center hardware, network gear, vehicles, and factory equipment. Lite-On makes money by designing, manufacturing, and selling these components, often under long-term supply relationships where customers depend on consistent quality, engineering support, and large-scale production. What makes Lite-On's business model different is its role in the electronics supply chain: it sits between chipmakers and finished-product brands, turning core technologies into usable hardware parts. That means its performance depends on demand from a wide range of device makers and on its ability to keep products compatible, efficient, and cost-effective. It is less about consumer branding and more about being a trusted parts supplier for other companies' products.
 
 Show more
 Jul 2025
@@ -52,12 +52,10 @@ Apr 2026
 50%
 75%
 100%
-Apr 30, 2026
-2301
-+67.68%
+May 4, 2026
 T
 Taiwan Weighted Index
-+89.58%
++98.28%
 1Y
 3Y
 5Y
