@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/3022/earnings-calls/q4-2025
-Generated-At: 2026-05-03
+Generated-At: 2026-05-04
 ---
 
 Dashboard
@@ -9,6 +9,7 @@ Market News
 Investing Ideas
 Pricing
 Search 100,000+ stocks...
+EN
 Sign Up
 Log in
 IEI Integration Corp
@@ -29,7 +30,7 @@ Market Cap: NT$12.2B
 IEI Integration Corp
 Investor Relations
 
-IEI Integration Corp. engages in the supply of industrial computers as well as the design, production, and sale of network communications and automation equipment products. The company is headquartered in Taipei, New Taipei. The company went IPO on 2001-03-30. The Company’s principal products include series of automation equipment, medical systems, game consoles and embedded systems. The firm mainly operates through three business segments. The Documentary Handling, Design and Branding segment is mainly engaged in the design of products according to customers’ demands and the operation and sales of computers. The Manufacturing segment is mainly engaged in the manufacture of branded products and the original equipment manufacturer (OEM) businesses. The China Brand Sales segment is mainly engaged in the sales of brands in Mainland China. The firm mainly exports its products to the Americas, Europe and Asia.
+IEI Integration Corp. designs and sells industrial computers and embedded hardware used inside other companies’ products and machines. Its main products include industrial motherboards, panel PCs, box PCs, network appliances, and related system boards and modules. These are the building blocks that go into factory automation equipment, medical devices, transportation systems, retail terminals, and other specialized electronics. The company mainly sells to original equipment manufacturers, system integrators, and industrial customers that need reliable computer hardware built for harsh or long-life environments. IEI makes money by manufacturing and selling these hardware products, along with related customization and support services for customer-specific projects. Its role is closer to a component and system supplier than a consumer brand. What makes IEI’s business different is that it sits in the industrial computing layer, where buyers care more about durability, compatibility, and long product lifecycles than about flashy features. Customers choose IEI when they need purpose-built computers that can be embedded into a machine or deployed at the edge of a network, rather than standard office PCs.
 
 Show more
 Jul 2025
@@ -37,17 +38,13 @@ Oct 2025
 Jan 2026
 Apr 2026
 -50%
--25%
 0%
-25%
 50%
-75%
-Apr 30, 2026
-3022
--14.81%
+100%
+May 4, 2026
 T
 Taiwan Weighted Index
-+89.58%
++98.24%
 1Y
 3Y
 5Y
@@ -76,25 +73,25 @@ www.ieiworld.com
 sparklesyt
 SEE ALSO
 	Summary
-Intrinsic value, competitors valuation, and company profile.
+intrinsic value, competitors valuation, and company profile.
 	DCF Valuation
-Stock valuation using Discount Cash Flow valuation method.
+stock valuation using Discount Cash Flow valuation method.
 	Relative Valuation
-Stock valuation using valuation multiples.
-	Wall Street Estimates
-Price targets and financial estimates made by Wall st analysts.
-	Profitability Analysis
+stock valuation using valuation multiples.
+	Wall St Estimates
+price targets and financial estimates made by Wall Street analysts.
+	Profitability
 Detailed analysis of the company's profitability.
-	Solvency Analysis
+	Solvency
 Analysis of the financial position and solvency of the company.
 	Financials
 Income Statement, Balance Sheet, Cash Flow Statement.
 	Discount Rate
-Stock discount rate: cost of equity and WACC.
+stock discount rate: cost of equity and WACC.
  Back to Top
  ALPHA SPREAD
 Follow us
-Join 334,300+ value investors using Alpha Spread
+Join 334,400+ value investors using Alpha Spread
 Create Free Account
 or see our plans & pricing
 Company
@@ -126,7 +123,7 @@ www.alphaspread.com is not operated by a broker, a dealer, or a registered inves
 
 Create Your Free Account
 Already have an account? Sign in
-Gain access to the world’s leading value investing platform
+Gain access to the world's leading value investing platform
 
 By using Alpha Spread you are agreeing to our Terms of Service and Privacy Policy.
 
