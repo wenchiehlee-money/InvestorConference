@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/2347/earnings-calls/q4-2025
-Generated-At: 2026-05-04
+Generated-At: 2026-05-05
 ---
 
 Dashboard
@@ -25,8 +25,8 @@ Financials
 Dividends
 Investor Relations
 Discount Rate
-Price: 82.5 TWD  -0.96%  Market Closed
-Market Cap: NT$137.6B
+Price: 81.7 TWD  -0.97%  Market Closed
+Market Cap: NT$136.3B
 Synnex Technology International Corp
 Investor Relations
 
@@ -38,16 +38,13 @@ Oct 2025
 Jan 2026
 Apr 2026
 -50%
--25%
 0%
-25%
 50%
-75%
 100%
-May 4, 2026
+May 5, 2026
 T
 Taiwan Weighted Index
-+98.24%
++98.92%
 1Y
 3Y
 5Y
@@ -100,7 +97,7 @@ stock discount rate: cost of equity and WACC.
  Back to Top
  ALPHA SPREAD
 Follow us
-Join 334,400+ value investors using Alpha Spread
+Join 334,600+ value investors using Alpha Spread
 Create Free Account
 or see our plans & pricing
 Company
