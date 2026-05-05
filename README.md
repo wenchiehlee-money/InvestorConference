@@ -6,6 +6,8 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | IR (TW) | IR (EN) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:-------:|:-------:|:----:|
+| HPE Hewlett Packard Enterprise Co. | 2026 Q1 | 財報 | 2026-06-02 | — | — | — | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
+| 2882 國泰金 | 2026 Q1 | 財報 | 2026-05-29 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2882) |
 | DELL Dell Technologies | 2026 Q1 | 財報 | 2026-05-28 | — | — | — | [↗](https://finance.yahoo.com/quote/DELL/financials/) |
 | 2881 富邦金 | 2026 Q1 | 財報 | 2026-05-28 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2881) |
 | HPQ HP Inc. | 2026 Q1 | 財報 | 2026-05-27 | — | — | — | [↗](https://finance.yahoo.com/quote/HPQ/financials/) |
@@ -17,6 +19,7 @@
 | 2324 仁寶 | 2026 Q1 | 財報 | 2026-05-14 | 無 | [中](2324/2324_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
 | 2376 技嘉 | 2026 Q1 | 財報 | 2026-05-14 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2376) |
 | 2382 廣達 | 2026 Q1 | 財報 | 2026-05-14 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
+| 2317 鴻海 | 2026 Q1 | 法說會 | 2026-05-14 | 無 | [中](2317/2317_2026_q1_ir.pdf) | [EN](2317/2317_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 3045 台灣大 | 2026 Q1 | 法說會 | 2026-05-13 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
 | 3045 台灣大 | 2026 Q1 | 財報 | 2026-05-13 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
 | 4938 和碩 | 2026 Q1 | 財報 | 2026-05-13 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=4938) |
@@ -103,8 +106,7 @@
 | 3022 3022 | 2026 Q1 | 法說會 |  | 無 | [中](3022/3022_2026_q1_ir.pdf) | [EN](3022/3022_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3022) |
 | 3034 聯詠 | 2025 Q3 | 法說會 |  | [52.6 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3034_2025_q3.m4a) [📝](3034/3034_2025_q3_FIN.srt) | [中](3034/3034_2025_q3_ir.pdf) | [EN](3034/3034_2025_q3_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | QCOM Qualcomm 高通 | 2025 Q4 / Q1FY2026 | 法說會 |  | 45.1 min | — | — | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
-| TMP TMP | 2025 Q4 | 法說會 |  | 無 | [中](TMP/7769_2025_q4_ir.pdf) | [EN](TMP/7769_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
-| TMP TMP | 2026 Q1 | 法說會 |  | 無 | [中](TMP/6231_2026_q1_ir.pdf) | [EN](TMP/6231_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
+| TMP TMP | 2026 Q1 | 法說會 |  | 無 | [中](TMP/2458_2026_q1_ir.pdf) | [EN](TMP/2458_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 2357 華碩 | 2024 Q4 | 法說會 |  | [無](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2357_2024_q4.m4a) [📝](2357/2357_2024_q4_FIN.srt) | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
 | 2357 華碩 | 2025 Q3 | 法說會 |  | [53.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2357_2025_q3.m4a) [📝](2357/2357_2025_q3_FIN.srt) | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
 | 2382 廣達 | 2025 Q1 | 法說會 |  | [57.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2382_2025_q1.mp3) [📝](2382/2382_2025_q1_FIN.srt) | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
