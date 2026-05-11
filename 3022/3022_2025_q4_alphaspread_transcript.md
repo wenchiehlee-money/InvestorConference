@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/3022/earnings-calls/q4-2025
-Generated-At: 2026-05-10
+Generated-At: 2026-05-11
 ---
 
 Dashboard
@@ -25,8 +25,8 @@ Financials
 Dividends
 Investor Relations
 Discount Rate
-Price: 75.3 TWD  1.76%  Market Closed
-Market Cap: NT$13.3B
+Price: 73.7 TWD  -2.12%  Market Closed
+Market Cap: NT$13B
 IEI Integration Corp
 Investor Relations
 
@@ -41,10 +41,10 @@ Apr 2026
 0%
 50%
 100%
-May 8, 2026
+May 11, 2026
 T
 Taiwan Weighted Index
-+96.90%
++97.78%
 1Y
 3Y
 5Y
@@ -91,7 +91,7 @@ stock discount rate: cost of equity and WACC.
  Back to Top
  ALPHA SPREAD
 Follow us
-Join 335,900+ value investors using Alpha Spread
+Join 336,100+ value investors using Alpha Spread
 Create Free Account
 or see our plans & pricing
 Company
