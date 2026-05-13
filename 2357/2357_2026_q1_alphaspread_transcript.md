@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/2357/earnings-calls/q1-2026
-Generated-At: 2026-05-12
+Generated-At: 2026-05-13
 ---
 
 Dashboard
@@ -34,8 +34,8 @@ Financials
 Dividends
 Investor Relations
 Discount Rate
-Price: 686 TWD  5.54%  Market Closed
-Market Cap: NT$509.5B
+Price: 673 TWD  -1.9%  Market Closed
+Market Cap: NT$499.9B
 Asustek Computer Inc
 Investor Relations
 
@@ -46,16 +46,16 @@ Jul 2025
 Oct 2025
 Jan 2026
 Apr 2026
+-50%
 -25%
 0%
 25%
 50%
 75%
-100%
-May 12, 2026
+May 13, 2026
 T
 Taiwan Weighted Index
-+97.22%
++90.47%
 1Y
 3Y
 5Y
