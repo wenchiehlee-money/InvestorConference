@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/7769/earnings-calls/q4-2025
-Generated-At: 2026-05-13
+Generated-At: 2026-05-14
 ---
 
 Dashboard
@@ -25,8 +25,8 @@ Financials
 Dividends
 Investor Relations
 Discount Rate
-Price: 3 435 JPY  -0.43%  Market Closed
-Market Cap: ¥28.8B
+Price: 3 420 JPY  -1.16%
+Market Cap: ¥28.7B
 Rhythm Co Ltd
 Investor Relations
 
@@ -41,7 +41,9 @@ Apr 2026
 0%
 25%
 50%
-May 13, 2026
+May 14, 2026
+7769
+-7.82%
 N
 Nikkei 225
 +65.95%
@@ -97,7 +99,7 @@ stock discount rate: cost of equity and WACC.
  Back to Top
  ALPHA SPREAD
 Follow us
-Join 336,700+ value investors using Alpha Spread
+Join 337,000+ value investors using Alpha Spread
 Create Free Account
 or see our plans & pricing
 Company
