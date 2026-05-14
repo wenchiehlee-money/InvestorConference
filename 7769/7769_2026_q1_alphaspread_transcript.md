@@ -25,8 +25,8 @@ Financials
 Dividends
 Investor Relations
 Discount Rate
-Price: 3 460 JPY  0.73%  Market Closed
-Market Cap: ¥29B
+Price: 3 420 JPY  -1.16%
+Market Cap: ¥28.7B
 Rhythm Co Ltd
 Investor Relations
 
@@ -42,9 +42,11 @@ Apr 2026
 25%
 50%
 May 14, 2026
+7769
+-7.82%
 N
 Nikkei 225
-+66.49%
++65.95%
 1Y
 3Y
 5Y
