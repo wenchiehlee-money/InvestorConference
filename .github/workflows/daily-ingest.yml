@@ -58,3 +58,9 @@ jobs:
           git add README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "docs: final README sync [skip ci]"
           git pull --rebase origin main && git push origin main || echo "Nothing to push"
+
+      - name: Manage missing FIN.srt issues
+        env:
+          ZhongZheng782_REPO_FILE_SYNC_ACT: ${{ secrets.ZhongZheng782_REPO_FILE_SYNC_ACT }}
+        run: |
+          python tools/manage_missing_fin_issues.py

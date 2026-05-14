@@ -1359,6 +1359,19 @@ def update_readme() -> None:
             return f"[↗]({fallback_link})"
         return "[↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1)"
 
+    def _audio_cell(stock_id: str, year: str, quarter: str, audio_min: float | None) -> str:
+        audio = get_audio_link_for_readme(repo, stock_id, year, quarter, audio_min)
+
+        fin_name = f"{stock_id}_{year}_q{quarter}_FIN.srt"
+        if (repo / stock_id / fin_name).exists():
+            audio += f" [📝]({stock_id}/{fin_name})"
+
+        gt_name = f"{stock_id}_{year}_q{quarter}_GT.srt"
+        if (repo / stock_id / gt_name).exists():
+            audio += f" [✅]({stock_id}/{gt_name})"
+
+        return audio
+
     for ev in upcoming_ir:
         ev_name  = ev.get("事件名稱", "")
         ev_class = ev.get("類別", "")
@@ -1409,14 +1422,7 @@ def update_readme() -> None:
         if ingested:
             name   = display_name
             qstr   = _qstr(ingested['year'], ingested['quarter'])
-            dur    = f"{ingested['audio_min']:.1f} min" if ingested["audio_min"] is not None else "無"
-            audio  = get_audio_link_for_readme(repo, sid, ingested['year'], ingested['quarter'], ingested['audio_min'])
-
-            # Add FIN.srt icon link if exists
-            fin_name = f"{sid}_{ingested['year']}_q{ingested['quarter']}_FIN.srt"
-            fin_path = repo / sid / fin_name
-            if fin_path.exists():
-                audio += f" [📝]({sid}/{fin_name})"
+            audio  = _audio_cell(sid, ingested['year'], ingested['quarter'], ingested['audio_min'])
 
             pdf_cn = f"[中]({ingested['pdf_cn']})" if ingested["pdf_cn"] else "—"
             pdf_en = f"[EN]({ingested['pdf_en']})" if ingested["pdf_en"] else "—"
@@ -1462,14 +1468,7 @@ def update_readme() -> None:
         else:
             _, chi = KNOWN_TW_STOCKS.get(sid, (sid, sid))
             display = f"{sid} {chi}"
-        dur    = f"{r['audio_min']:.1f} min" if r["audio_min"] is not None else "無"
-        audio  = get_audio_link_for_readme(repo, sid, r['year'], r['quarter'], r['audio_min'])
-
-        # Add FIN.srt icon link if exists
-        fin_name = f"{sid}_{r['year']}_q{r['quarter']}_FIN.srt"
-        fin_path = repo / sid / fin_name
-        if fin_path.exists():
-            audio += f" [📝]({sid}/{fin_name})"
+        audio  = _audio_cell(sid, r['year'], r['quarter'], r['audio_min'])
 
         pdf_cn = f"[中]({r['pdf_cn']})" if r["pdf_cn"] else "—"
         pdf_en = f"[EN]({r['pdf_en']})" if r["pdf_en"] else "—"
