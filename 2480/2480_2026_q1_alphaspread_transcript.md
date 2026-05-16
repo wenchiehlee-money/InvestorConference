@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/2480/earnings-calls/q1-2026
-Generated-At: 2026-05-15
+Generated-At: 2026-05-16
 ---
 
 Dashboard
@@ -42,10 +42,11 @@ Apr 2026
 25%
 50%
 75%
+100%
 May 15, 2026
 T
 Taiwan Weighted Index
-+88.49%
++91.29%
 1Y
 3Y
 5Y
@@ -104,7 +105,7 @@ stock discount rate: cost of equity and WACC.
  Back to Top
  ALPHA SPREAD
 Follow us
-Join 337,200+ value investors using Alpha Spread
+Join 337,500+ value investors using Alpha Spread
 Create Free Account
 or see our plans & pricing
 Company
