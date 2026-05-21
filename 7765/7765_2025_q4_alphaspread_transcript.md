@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/7765/earnings-calls/q4-2025
-Generated-At: 2026-05-20
+Generated-At: 2026-05-21
 ---
 
 Dashboard
@@ -25,8 +25,8 @@ Financials
 Dividends
 Investor Relations
 Discount Rate
-Price: 245 TWD  -1.21%  Market Closed
-Market Cap: NT$10B
+Price: 243.5 TWD  -0.61%  Market Closed
+Market Cap: NT$9.9B
 CHT Security Co Ltd
 Investor Relations
 
@@ -40,10 +40,10 @@ Apr 2026
 -50%
 0%
 50%
-May 20, 2026
+May 21, 2026
 T
 Taiwan Weighted Index
-+83.55%
++90.89%
 1Y
 3Y
 5Y
@@ -90,7 +90,7 @@ stock discount rate: cost of equity and WACC.
  Back to Top
  ALPHA SPREAD
 Follow us
-Join 338,500+ value investors using Alpha Spread
+Join 338,700+ value investors using Alpha Spread
 Create Free Account
 or see our plans & pricing
 Company
