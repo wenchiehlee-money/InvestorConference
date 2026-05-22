@@ -61,6 +61,6 @@ jobs:
 
       - name: Manage missing FIN.srt issues
         env:
-          ZhongZheng782_REPO_FILE_SYNC_ACT: ${{ secrets.ZhongZheng782_REPO_FILE_SYNC_ACT }}
+          REPO_FILE_SYNC_ZHONGZHENG782_MONEY: ${{ secrets.REPO_FILE_SYNC_ZHONGZHENG782_MONEY }}
         run: |
           python tools/manage_missing_fin_issues.py

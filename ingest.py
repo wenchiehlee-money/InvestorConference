@@ -221,7 +221,7 @@ def discover_mediatek_hinet_page(year: str, quarter: str) -> tuple[str | None, s
         if not stream_m:
             return None, None
 
-        stream_url = stream_m.group(1).replace("\/", "/")
+        stream_url = stream_m.group(1).replace(r"\/", "/")
         date_m = re.search(r'(\d{8})', stream_url)
         conf_date = date_m.group(1) if date_m else None
         if conf_date:
@@ -1218,12 +1218,22 @@ def ingest_from_todo(auto_push: bool = False) -> None:
                 y, q = _csv_row_yq(evt_name, remarks, evt_date_str)
                 if not y or not q: continue
 
-                # Check if audio already exists
+                # Check if audio already exists (locally or in manifest)
                 stem = f"{stock_id}_{y}_q{q}"
                 save_dir = Path(stock_id)
-                exists = any(save_dir.glob(f"{stem}.*"))
+                exists_local = any(save_dir.glob(f"{stem}.*"))
 
-                if not exists:
+                # Check manifest (lazy load)
+                if not hasattr(ingest_from_todo, "_manifest_cache"):
+                    manifest_path = Path("audio_manifest.json")
+                    if manifest_path.exists():
+                        ingest_from_todo._manifest_cache = json.loads(manifest_path.read_text(encoding="utf-8"))
+                    else:
+                        ingest_from_todo._manifest_cache = {}
+
+                exists_manifest = stem in ingest_from_todo._manifest_cache
+
+                if not exists_local and not exists_manifest:
                     todo_list.append((stock_id, y, q, evt_date_str))
     except Exception as e:
         print(f"[TODO] ✗ Error reading CSV: {e}")
@@ -1832,8 +1842,13 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
             ["git", "-C", str(repo)] + list(args),
             capture_output=True, encoding="utf-8", errors="replace",
         )
-        if result.returncode != 0 and result.stderr:
-            print(f"[git] {' '.join(args)}: {result.stderr.strip()}")
+        if result.returncode != 0:
+            err = result.stderr.strip()
+            # If nothing to commit, treat as success (returncode 1 is common for git commit with no changes)
+            if "nothing to commit" in err or "nothing to commit" in result.stdout:
+                return True
+            if err:
+                print(f"[git] {' '.join(args)}: {err}")
         return result.returncode == 0
 
     # Find and remove old audio formats with same stem

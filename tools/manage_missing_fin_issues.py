@@ -128,18 +128,23 @@ def comment_and_close(client: GitHubClient, issue: dict, stem: str, fin_path: st
 def main() -> int:
     repo = Path(__file__).resolve().parents[1]
     token = (
-        os.environ.get("ZhongZheng782_REPO_FILE_SYNC_ACT")
-        or os.environ.get("ZHONGZHENG782_REPO_FILE_SYNC_ACT")
+        os.environ.get("REPO_FILE_SYNC_ZHONGZHENG782_MONEY")
         or os.environ.get("GH_TOKEN")
     )
     if not token:
-        print("ZhongZheng782_REPO_FILE_SYNC_ACT or GH_TOKEN is required", file=sys.stderr)
+        print("REPO_FILE_SYNC_ZHONGZHENG782_MONEY or GH_TOKEN is required", file=sys.stderr)
         return 2
 
     manifest = load_manifest(repo)
     client = GitHubClient(token)
-    ensure_labels(client)
-    open_issues = list_open_issues(client)
+    try:
+        ensure_labels(client)
+        open_issues = list_open_issues(client)
+    except RuntimeError as e:
+        if "404" in str(e):
+            print(f"[missing-fin] ⚠ Target repo {TARGET_REPO} not found or no access. Skipping issue management.", file=sys.stderr)
+            return 0
+        raise
 
     created = 0
     closed = 0

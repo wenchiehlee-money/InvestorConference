@@ -11,3 +11,8 @@ tmp123/
 *.m4a
 *.mp3
 *.wav
+
+.env*
+
+# Gemini CLI safety audit
+.claude/
