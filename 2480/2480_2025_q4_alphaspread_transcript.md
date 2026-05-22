@@ -1,6 +1,6 @@
 [METADATA]
 Source: https://www.alphaspread.com/security/twse/2480/earnings-calls/q4-2025
-Generated-At: 2026-05-20
+Generated-At: 2026-05-22
 ---
 
 Dashboard
@@ -25,7 +25,7 @@ Financials
 Dividends
 Investor Relations
 Discount Rate
-Price: 146.5 TWD  -1.01%  Market Closed
+Price: 147 TWD  0.34%  Market Closed
 Market Cap: NT$15.6B
 Stark Technology Inc
 Investor Relations
@@ -42,10 +42,11 @@ Apr 2026
 25%
 50%
 75%
-May 20, 2026
+100%
+May 22, 2026
 T
 Taiwan Weighted Index
-+83.55%
++95.21%
 1Y
 3Y
 5Y
@@ -104,7 +105,7 @@ stock discount rate: cost of equity and WACC.
  Back to Top
  ALPHA SPREAD
 Follow us
-Join 338,500+ value investors using Alpha Spread
+Join 338,900+ value investors using Alpha Spread
 Create Free Account
 or see our plans & pricing
 Company
