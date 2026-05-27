@@ -6,6 +6,7 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | IR (TW) | IR (EN) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:-------:|:-------:|:----:|
+| MU Micron Technology | 2026 Q3 | 財報 | 2026-06-24 | — | — | — | [↗](https://finance.yahoo.com/quote/MU/financials/) |
 | ORCL Oracle Corporation | 2026 Q4 | 財報 | 2026-06-10 | — | — | — | [↗](https://finance.yahoo.com/quote/ORCL/financials/) |
 | 2458 義隆 | 2026 Q1 | 法說會 | 2026-06-08 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2458) |
 | 2301 光寶科 | 2026 Q1 | 法說會 | 2026-06-05 | [60.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2301_2026_q1.m4a) [📝](2301/2301_2026_q1_FIN.srt) | [中](2301/2301_2026_q1_ir.pdf) | [EN](2301/2301_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
@@ -19,13 +20,14 @@
 | HPE Hewlett Packard Enterprise Co. | 2026 Q1 | 財報 | 2026-06-01 | — | — | — | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
 | 2379 瑞昱 | 2026 Q1 | 法說會 | 2026-05-29 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2379) |
 | 2330 台積電 | 2026 Q1 | 法說會 | 2026-05-29 | [69.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2330_2026_q1.m4a) [📝](2330/2330_2026_q1_FIN.srt) [✅](2330/2330_2026_q1_GT.srt) | [中](2330/2330_2026_q1_ir.pdf) | [EN](2330/2330_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
+| 2308 台達電 | 2026 Q1 | 法說會 | 2026-05-29 | 無 | [中](2308/2308_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | 2882 國泰金 | 2026 Q1 | 財報 | 2026-05-29 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2882) |
 | 2356 英業達 | 2026 Q1 | 法說會 | 2026-05-28 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2356) |
+| 6669 緯穎 | 2026 Q1 | 法說會 | 2026-05-28 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6669) |
 | DELL Dell Technologies | 2026 Q1 | 財報 | 2026-05-28 | — | — | — | [↗](https://finance.yahoo.com/quote/DELL/financials/) |
 | 2412 中華電信 | 2026 Q1 | 法說會 | 2026-05-27 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2412) |
 | HPQ HP Inc. | 2026 Q1 | 財報 | 2026-05-27 | — | — | — | [↗](https://finance.yahoo.com/quote/HPQ/financials/) |
 | 2317 鴻海 | 2026 Q1 | 法說會 | 2026-05-22 | 無 | [中](2317/2317_2026_q1_ir.pdf) | [EN](2317/2317_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
-| 2308 台達電 | 2026 Q1 | 法說會 | 2026-05-14 | 無 | [中](2308/2308_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | 2317 鴻海 | 2026 Q1 | 財報 | 2026-05-14 | 無 | [中](2317/2317_2026_q1_ir.pdf) | [EN](2317/2317_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 7765 中華資安 | 2026 Q1 | 法說會 | 2026-05-12 | [63.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/7765_2026_q1.m4a) [📝](7765/7765_2026_q1_FIN.srt) | [中](7765/7765_2026_q1_ir.pdf) | [EN](7765/7765_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7765) |
 | 2357 華碩 | 2026 Q1 | 法說會 | 2026-05-12 | [59.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2357_2026_q1.m4a) [📝](2357/2357_2026_q1_FIN.srt) | [中](2357/2357_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
