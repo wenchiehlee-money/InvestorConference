@@ -17,12 +17,12 @@
 | 2303 聯電 | 2026 Q1 | 法說會 | 2026-06-05 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2303) |
 | 2382 廣達 | 2026 Q1 | 法說會 | 2026-06-05 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
 | 4938 和碩 | 2026 Q1 | 法說會 | 2026-06-05 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=4938) |
+| 3034 聯詠 | 2026 Q1 | 法說會 | 2026-06-05 | 無 | [中](3034/3034_2026_q1_ir.pdf) | [EN](3034/3034_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | 2454 聯發科 | 2026 Q1 | 法說會 | 2026-06-04 | [63.9 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2454_2026_q1.m4a) [📝](2454/2454_2026_q1_FIN.srt) | [中](2454/2454_2026_q1_ir.pdf) | [EN](2454/2454_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | 3035 智原 | 2026 Q1 | 法說會 | 2026-06-04 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3035) |
 | 3231 緯創 | 2026 Q1 | 法說會 | 2026-06-04 | 無 | [中](3231/3231_2026_q1_ir.pdf) | [EN](3231/3231_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3231) |
 | 6285 啟碁 | 2026 Q1 | 法說會 | 2026-06-03 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6285) |
 | AVGO Broadcom Inc. | 2026 Q1 | 財報 | 2026-06-03 | — | — | — | [↗](https://finance.yahoo.com/quote/AVGO/financials/) |
-| 3034 聯詠 | 2026 Q1 | 法說會 | 2026-06-01 | 無 | [中](3034/3034_2026_q1_ir.pdf) | [EN](3034/3034_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | 2330 台積電 | 2026 Q1 | 法說會 | 2026-05-29 | [69.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2330_2026_q1.m4a) [📝](2330/2330_2026_q1_FIN.srt) [✅](2330/2330_2026_q1_GT.srt) | [中](2330/2330_2026_q1_ir.pdf) | [EN](2330/2330_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 2308 台達電 | 2026 Q1 | 法說會 | 2026-05-29 | 無 | [中](2308/2308_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | 2317 鴻海 | 2026 Q1 | 財報 | 2026-05-14 | 無 | [中](2317/2317_2026_q1_ir.pdf) | [EN](2317/2317_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
