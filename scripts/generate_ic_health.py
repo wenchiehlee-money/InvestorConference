@@ -1,0 +1,159 @@
+#!/usr/bin/env python3
+import csv
+import json
+import os
+import re
+from datetime import datetime, timezone, timedelta
+from pathlib import Path
+
+# Paths
+REPO_ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = REPO_ROOT / "data" / "reports"
+HEALTH_SUMMARY_CSV = DATA_DIR / "investor_conference_health_summary.csv"
+AUDIO_MANIFEST_JSON = REPO_ROOT / "audio_manifest.json"
+
+TAIPEI_TZ = timezone(timedelta(hours=8))
+
+def is_company_dir(path):
+    if not path.is_dir():
+        return False
+    name = path.name
+    # Exclude non-stock directories
+    if name in (".git", ".github", ".claude", "__pycache__", "definitions", "spec", "tmp", "tools", "web", "logs", "scripts"):
+        return False
+    return name.isdigit() or (name.isupper() and name.isalpha())
+
+def main():
+    print("=== Generating InvestorConference Data Health Summary ===")
+    
+    if not DATA_DIR.exists():
+        os.makedirs(DATA_DIR, exist_ok=True)
+
+    # 1. Load Audio Manifest
+    audio_keys = set()
+    if AUDIO_MANIFEST_JSON.exists():
+        try:
+            with open(AUDIO_MANIFEST_JSON, "r", encoding="utf-8") as f:
+                manifest = json.load(f)
+                audio_keys = {k.lower() for k in manifest.keys()}
+        except Exception as e:
+            print(f"Warning: Failed to load {AUDIO_MANIFEST_JSON.name}: {e}")
+
+    # 2. Scan company directories for conference keys
+    company_dirs = [d for d in REPO_ROOT.iterdir() if is_company_dir(d)]
+    print(f"Found {len(company_dirs)} company directories.")
+
+    # Match stock_year_qX (e.g. 2330_2025_q1)
+    pattern = re.compile(r"^([A-Za-z0-9]+)_(\d{4})_[qQ]([1-4])")
+    
+    event_keys = set()
+    file_map = {} # Maps key -> list of filenames
+
+    for c_dir in company_dirs:
+        for file in c_dir.iterdir():
+            if file.is_file():
+                m = pattern.match(file.name)
+                if m:
+                    # Normalize key
+                    key = f"{m.group(1).lower()}_{m.group(2)}_q{m.group(3)}"
+                    event_keys.add(key)
+                    file_map.setdefault(key, []).append(file.name)
+
+    total_conferences = len(event_keys)
+    print(f"Total Conference events identified: {total_conferences}")
+
+    # 3. Analyze each event key
+    has_pdf_count = 0
+    has_audio_count = 0
+    has_transcript_count = 0
+    has_srt_count = 0
+    fully_ingested_count = 0
+    pdf_only_count = 0
+
+    for key in sorted(event_keys):
+        files = file_map.get(key, [])
+        
+        # Check PDF: filename contains _ir.pdf or _ir_en.pdf
+        has_pdf = any(f.endswith("_ir.pdf") or f.endswith("_ir_en.pdf") for f in files)
+        
+        # Check Transcript: filename contains _transcript.md or _alphaspread_transcript.md
+        has_transcript = any(f.endswith("_transcript.md") or f.endswith("_alphaspread_transcript.md") for f in files)
+        
+        # Check SRT: filename contains _FIN.srt or _GT.srt
+        has_srt = any(f.endswith("_FIN.srt") or f.endswith("_GT.srt") for f in files)
+        
+        # Check Audio: present in audio_manifest.json
+        has_audio = key in audio_keys
+
+        if has_pdf:
+            has_pdf_count += 1
+        if has_audio:
+            has_audio_count += 1
+        if has_transcript:
+            has_transcript_count += 1
+        if has_srt:
+            has_srt_count += 1
+
+        # Fully Ingested: has PDF + Audio + (Transcript or SRT)
+        is_fully = has_pdf and has_audio and (has_transcript or has_srt)
+        if is_fully:
+            fully_ingested_count += 1
+
+        # PDF Only: has PDF but no audio and no transcript/srt
+        is_pdf_only = has_pdf and not has_audio and not has_transcript and not has_srt
+        if is_pdf_only:
+            pdf_only_count += 1
+
+    ingestion_rate_pct = 100.0
+    if total_conferences > 0:
+        ingestion_rate_pct = round((fully_ingested_count / total_conferences * 100), 2)
+    else:
+        ingestion_rate_pct = 0.0
+
+    print(f"Has PDF: {has_pdf_count}")
+    print(f"Has Audio: {has_audio_count}")
+    print(f"Has Transcript: {has_transcript_count}")
+    print(f"Has SRT: {has_srt_count}")
+    print(f"Fully Ingested: {fully_ingested_count}")
+    print(f"PDF Only: {pdf_only_count}")
+    print(f"Ingestion Rate: {ingestion_rate_pct}%")
+
+    # 4. Write to CSV
+    now = datetime.now(TAIPEI_TZ)
+    checked_at = now.isoformat()
+    
+    summary_data = {
+        "process_timestamp": checked_at,
+        "total_conferences": total_conferences,
+        "has_pdf": has_pdf_count,
+        "has_audio": has_audio_count,
+        "has_transcript": has_transcript_count,
+        "has_srt": has_srt_count,
+        "fully_ingested": fully_ingested_count,
+        "pdf_only": pdf_only_count,
+        "ingestion_rate_pct": ingestion_rate_pct,
+        "checked_at": checked_at
+    }
+
+    fieldnames = [
+        "process_timestamp",
+        "total_conferences",
+        "has_pdf",
+        "has_audio",
+        "has_transcript",
+        "has_srt",
+        "fully_ingested",
+        "pdf_only",
+        "ingestion_rate_pct",
+        "checked_at"
+    ]
+
+    with open(HEALTH_SUMMARY_CSV, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerow(summary_data)
+
+    print(f"Successfully generated health summary at {HEALTH_SUMMARY_CSV}")
+
+if __name__ == "__main__":
+    main()

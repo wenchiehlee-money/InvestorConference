@@ -52,11 +52,12 @@ jobs:
             python ingest.py --auto-todo
           fi
 
-      - name: Final README Update (just in case)
+      - name: Final README Update, generate health summary and push
         run: |
           python ingest.py --update-readme
-          git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "docs: final README sync [skip ci]"
+          python scripts/generate_ic_health.py
+          git add README.md data/reports/investor_conference_health_summary.csv raw_column_definition_IC.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "docs: final README sync and update health [skip ci]"
           git pull --rebase origin main && git push origin main || echo "Nothing to push"
 
       - name: Manage missing FIN.srt issues
@@ -64,3 +65,12 @@ jobs:
           REPO_FILE_SYNC_ZHONGZHENG782_MONEY: ${{ secrets.REPO_FILE_SYNC_ZHONGZHENG782_MONEY }}
         run: |
           python tools/manage_missing_fin_issues.py
+
+      - name: Sync to Money biztrends.TW
+        uses: BetaHuhn/repo-file-sync-action@latest
+        with:
+          GH_PAT: ${{ secrets.REPO_FILE_SYNC_WENCHIEHLEE_MONEY }}
+          CONFIG_PATH: .github/sync-biztrends.yml
+          COMMIT_EACH_FILE: false
+          PR_LABELS: "automated-sync"
+          SKIP_PR: true
