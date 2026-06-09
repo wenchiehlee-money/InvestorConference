@@ -25,6 +25,8 @@ destination: https://raw.githubusercontent.com/wenchiehlee-money/biztrends.TW/re
 | `fully_ingested` | int | Number of events fully ingested (contains PDF + Audio + either Transcript or SRT). |
 | `pdf_only` | int | Number of events that only have PDF downloaded, but missing audio and transcripts. |
 | `ingestion_rate_pct` | float | Percentage of conference events fully ingested (`fully_ingested / total_conferences * 100`). |
+| `durations_registered_count` | int | Total number of conference events that have audio durations registered in `audio_durations.json`. |
+| `ready_to_use_rate_pct` | float | Percentage of events with audio durations registered out of all identified events (`durations_registered_count / total_conferences * 100`). |
 | `checked_at` | timestamp | Execution time of the health checker (same as `process_timestamp`). |
 
 ---

@@ -11,6 +11,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data" / "reports"
 HEALTH_SUMMARY_CSV = DATA_DIR / "investor_conference_health_summary.csv"
 AUDIO_MANIFEST_JSON = REPO_ROOT / "audio_manifest.json"
+AUDIO_DURATIONS_JSON = REPO_ROOT / "audio_durations.json"
 
 TAIPEI_TZ = timezone(timedelta(hours=8))
 
@@ -38,6 +39,16 @@ def main():
                 audio_keys = {k.lower() for k in manifest.keys()}
         except Exception as e:
             print(f"Warning: Failed to load {AUDIO_MANIFEST_JSON.name}: {e}")
+
+    # 1.2. Load Audio Durations
+    durations_keys = set()
+    if AUDIO_DURATIONS_JSON.exists():
+        try:
+            with open(AUDIO_DURATIONS_JSON, "r", encoding="utf-8") as f:
+                durations = json.load(f)
+                durations_keys = {k.lower() for k in durations.keys()}
+        except Exception as e:
+            print(f"Warning: Failed to load {AUDIO_DURATIONS_JSON.name}: {e}")
 
     # 2. Scan company directories for conference keys
     company_dirs = [d for d in REPO_ROOT.iterdir() if is_company_dir(d)]
@@ -110,6 +121,12 @@ def main():
     else:
         ingestion_rate_pct = 0.0
 
+    # Calculate readiness based on audio durations registered
+    durations_registered_count = len(event_keys.intersection(durations_keys))
+    ready_to_use_rate_pct = 0.0
+    if total_conferences > 0:
+        ready_to_use_rate_pct = round((durations_registered_count / total_conferences * 100), 2)
+
     print(f"Has PDF: {has_pdf_count}")
     print(f"Has Audio: {has_audio_count}")
     print(f"Has Transcript: {has_transcript_count}")
@@ -117,6 +134,8 @@ def main():
     print(f"Fully Ingested: {fully_ingested_count}")
     print(f"PDF Only: {pdf_only_count}")
     print(f"Ingestion Rate: {ingestion_rate_pct}%")
+    print(f"Durations Registered (Ready): {durations_registered_count}")
+    print(f"Ready-to-Use Rate: {ready_to_use_rate_pct}%")
 
     # 4. Write to CSV
     now = datetime.now(TAIPEI_TZ)
@@ -132,6 +151,8 @@ def main():
         "fully_ingested": fully_ingested_count,
         "pdf_only": pdf_only_count,
         "ingestion_rate_pct": ingestion_rate_pct,
+        "durations_registered_count": durations_registered_count,
+        "ready_to_use_rate_pct": ready_to_use_rate_pct,
         "checked_at": checked_at
     }
 
@@ -145,6 +166,8 @@ def main():
         "fully_ingested",
         "pdf_only",
         "ingestion_rate_pct",
+        "durations_registered_count",
+        "ready_to_use_rate_pct",
         "checked_at"
     ]
 
