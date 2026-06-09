@@ -9,12 +9,13 @@
 | MU Micron Technology | 2026 Q3 | 財報 | 2026-06-24 | — | — | — | [↗](https://finance.yahoo.com/quote/MU/financials/) |
 | 2301 光寶科 | 2026 Q1 | 法說會 | 2026-06-23 | [60.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2301_2026_q1.m4a) [📝](2301/2301_2026_q1_FIN.srt) | [中](2301/2301_2026_q1_ir.pdf) | [EN](2301/2301_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | 8299 群聯 | 2026 Q1 | 法說會 | 2026-06-12 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8299) |
+| 6285 啟碁 | 2026 Q1 | 法說會 | 2026-06-12 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6285) |
 | 6231 系微 | 2026 Q1 | 法說會 | 2026-06-10 | 無 | [中](6231/6231_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6231) |
+| 7734 印能科技 | 2026 Q1 | 法說會 | 2026-06-10 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7734) |
 | ORCL Oracle Corporation | 2026 Q4 | 財報 | 2026-06-10 | — | — | — | [↗](https://finance.yahoo.com/quote/ORCL/financials/) |
 | 2356 英業達 | 2026 Q1 | 法說會 | 2026-06-09 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2356) |
 | 2324 仁寶 | 2026 Q1 | 法說會 | 2026-06-09 | 無 | [中](2324/2324_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
 | 2317 鴻海 | 2026 Q1 | 法說會 | 2026-06-09 | 無 | [中](2317/2317_2026_q1_ir.pdf) | [EN](2317/2317_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
-| 2458 義隆 | 2026 Q1 | 法說會 | 2026-06-08 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2458) |
 | 3034 聯詠 | 2026 Q1 | 法說會 | 2026-06-05 | 無 | [中](3034/3034_2026_q1_ir.pdf) | [EN](3034/3034_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | 2454 聯發科 | 2026 Q1 | 法說會 | 2026-06-04 | [63.9 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2454_2026_q1.m4a) [📝](2454/2454_2026_q1_FIN.srt) | [中](2454/2454_2026_q1_ir.pdf) | [EN](2454/2454_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | 3231 緯創 | 2026 Q1 | 法說會 | 2026-06-04 | 無 | [中](3231/3231_2026_q1_ir.pdf) | [EN](3231/3231_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3231) |
@@ -67,8 +68,6 @@
 | 3022 3022 | 2026 Q1 | 法說會 |  | 無 | [中](3022/3022_2026_q1_ir.pdf) | [EN](3022/3022_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3022) |
 | 3034 聯詠 | 2025 Q3 | 法說會 |  | [52.6 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3034_2025_q3.m4a) [📝](3034/3034_2025_q3_FIN.srt) | [中](3034/3034_2025_q3_ir.pdf) | [EN](3034/3034_2025_q3_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | QCOM Qualcomm 高通 | 2025 Q4 / Q1FY2026 | 法說會 |  | 45.1 min | — | — | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
-| TMP TMP | 2025 Q4 | 法說會 |  | 無 | [中](TMP/3014_2025_q4_ir.pdf) | [EN](TMP/2382_2025_q4_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
-| TMP TMP | 2026 Q1 | 法說會 |  | 無 | [中](TMP/3035_2026_q1_ir.pdf) | [EN](TMP/3035_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 2357 華碩 | 2024 Q4 | 法說會 |  | [無](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2357_2024_q4.m4a) [📝](2357/2357_2024_q4_FIN.srt) [✅](2357/2357_2024_q4_GT.srt) | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
 | 2357 華碩 | 2025 Q3 | 法說會 |  | [53.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2357_2025_q3.m4a) [📝](2357/2357_2025_q3_FIN.srt) [✅](2357/2357_2025_q3_GT.srt) | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
 | 2382 廣達 | 2025 Q1 | 法說會 |  | [57.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2382_2025_q1.mp3) [📝](2382/2382_2025_q1_FIN.srt) | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
