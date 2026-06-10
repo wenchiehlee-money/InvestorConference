@@ -6,6 +6,7 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | IR (TW) | IR (EN) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:-------:|:-------:|:----:|
+| 2308 台達電 | 2026 Q2 | 財報 | 2026-07-08 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | MU Micron Technology | 2026 Q3 | 財報 | 2026-06-24 | — | — | — | [↗](https://finance.yahoo.com/quote/MU/financials/) |
 | 2301 光寶科 | 2026 Q1 | 法說會 | 2026-06-23 | [60.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2301_2026_q1.m4a) [📝](2301/2301_2026_q1_FIN.srt) | [中](2301/2301_2026_q1_ir.pdf) | [EN](2301/2301_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | 8299 群聯 | 2026 Q1 | 法說會 | 2026-06-12 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8299) |
@@ -13,7 +14,6 @@
 | 6231 系微 | 2026 Q1 | 法說會 | 2026-06-10 | 無 | [中](6231/6231_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6231) |
 | 7734 印能科技 | 2026 Q1 | 法說會 | 2026-06-10 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7734) |
 | ORCL Oracle Corporation | 2026 Q4 | 財報 | 2026-06-10 | — | — | — | [↗](https://finance.yahoo.com/quote/ORCL/financials/) |
-| 2356 英業達 | 2026 Q1 | 法說會 | 2026-06-09 | — | — | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2356) |
 | 2324 仁寶 | 2026 Q1 | 法說會 | 2026-06-09 | 無 | [中](2324/2324_2026_q1_ir.pdf) | — | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
 | 2317 鴻海 | 2026 Q1 | 法說會 | 2026-06-09 | 無 | [中](2317/2317_2026_q1_ir.pdf) | [EN](2317/2317_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 3034 聯詠 | 2026 Q1 | 法說會 | 2026-06-05 | 無 | [中](3034/3034_2026_q1_ir.pdf) | [EN](3034/3034_2026_q1_ir_en.pdf) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
