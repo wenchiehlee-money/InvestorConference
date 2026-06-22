@@ -1443,15 +1443,33 @@ def update_readme() -> None:
         except (ValueError, TypeError):
             pass
 
+        # Use "類別" from CSV if available, map "財報公告" -> "財報"
+        ev_type = ev_class
+        if ev_type == "財報公告":
+            ev_type = "財報"
+        elif not ev_type:
+            ev_type = "法說會"
+        
+        # Mark as invited forum/investor conference if applicable
+        if is_invited:
+            ev_type = "受邀法說"
+
         ingested = None
         # Only associate with ingested files if it is NOT a future event and NOT an invited forum event.
         if sid and exp_year and not is_future and not is_invited:
             key = (sid, exp_year, exp_q)
             for r in rows:
                 if (r["stock_id"], r["year"], r["quarter"]) == key:
-                    ingested = r
-                    matched_keys.add(key)
-                    break
+                    # For financial reports, we check if we have the report PDF ingested.
+                    if ev_type == "財報":
+                        if r.get("report_cn") or r.get("report_en"):
+                            ingested = r
+                            # Do NOT add to matched_keys since the audio/IR PDF should be staged separately.
+                            break
+                    else:
+                        ingested = r
+                        matched_keys.add(key)
+                        break
 
         # Normalise company name: prefer known lookups, else parse from event name
         if sid:
@@ -1478,27 +1496,20 @@ def update_readme() -> None:
                     return f"{base} / Q{fy_q}FY{fy_year}"
             return base
 
-        # Use "類別" from CSV if available, map "財報公告" -> "財報"
-        ev_type = ev_class
-        if ev_type == "財報公告":
-            ev_type = "財報"
-        elif not ev_type:
-            ev_type = "法說會"
-        
-        # Mark as invited forum/investor conference if applicable
-        if is_invited:
-            ev_type = "受邀法說"
-
         if ingested:
             name   = display_name
             qstr   = _qstr(ingested['year'], ingested['quarter'])
-            audio  = _audio_cell(sid, ingested['year'], ingested['quarter'], ingested['audio_min'])
-            fin, gt = _srt_cells(sid, ingested['year'], ingested['quarter'])
-
+            
+            # If the event is a financial report, it should NOT display audio or transcripts.
             if ev_type == "財報":
+                audio = "—"
+                fin   = "—"
+                gt    = "—"
                 pdf_cn_file = ingested.get("report_cn")
                 pdf_en_file = ingested.get("report_en")
             else:
+                audio   = _audio_cell(sid, ingested['year'], ingested['quarter'], ingested['audio_min'])
+                fin, gt = _srt_cells(sid, ingested['year'], ingested['quarter'])
                 pdf_cn_file = ingested.get("pdf_cn")
                 pdf_en_file = ingested.get("pdf_en")
 
