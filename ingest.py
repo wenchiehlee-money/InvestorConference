@@ -1395,8 +1395,42 @@ def update_readme() -> None:
         # Prefer explicit year/quarter from CSV over date-based heuristic.
         # e.g. "2026 Q1" in 備註 overrides the Jan-Apr → prev-year-Q4 rule.
         exp_year, exp_q = _csv_row_yq(ev_name, remarks, date)
+
+        # Check if this is an invited/forum investor conference rather than the regular quarterly earnings call.
+        # Heuristic: If the event date is > 50 days after the quarter ends, it is an invited/forum conference.
+        is_invited = False
+        if exp_year and exp_q and date:
+            try:
+                ev_dt = _date.fromisoformat(date)
+                y_int = int(exp_year)
+                if exp_q == "1":
+                    q_end = _date(y_int, 3, 31)
+                elif exp_q == "2":
+                    q_end = _date(y_int, 6, 30)
+                elif exp_q == "3":
+                    q_end = _date(y_int, 9, 30)
+                elif exp_q == "4":
+                    q_end = _date(y_int, 12, 31)
+                else:
+                    q_end = None
+                
+                if q_end:
+                    is_invited = (ev_dt - q_end).days > 50
+            except Exception:
+                pass
+
+        # We also check if this event is in the future.
+        is_future = False
+        try:
+            ev_date = _date.fromisoformat(date)
+            if ev_date > today:
+                is_future = True
+        except (ValueError, TypeError):
+            pass
+
         ingested = None
-        if sid and exp_year:
+        # Only associate with ingested files if it is NOT a future event and NOT an invited forum event.
+        if sid and exp_year and not is_future and not is_invited:
             key = (sid, exp_year, exp_q)
             for r in rows:
                 if (r["stock_id"], r["year"], r["quarter"]) == key:
@@ -1456,6 +1490,10 @@ def update_readme() -> None:
             ev_type = "財報"
         elif not ev_type:
             ev_type = "法說會"
+        
+        # Mark as invited forum/investor conference if applicable
+        if is_invited:
+            ev_type = "受邀法說"
 
         merged.append({
             "sid": sid, "year": exp_year if not ingested else ingested["year"], "q": exp_q if not ingested else ingested["quarter"],
