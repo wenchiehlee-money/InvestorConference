@@ -1332,6 +1332,28 @@ def update_readme() -> None:
                 _, year, qnum = m5.groups()[:3]
                 _entry(stock_id, year, qnum)["report_en"] = f"{stock_id}/{f.name}"
 
+    # Scan sibling MOPS repo downloads for TW stock financial reports
+    mops_downloads = repo.parent / "MOPS" / "downloads"
+    if mops_downloads.is_dir():
+        for d in sorted(mops_downloads.iterdir()):
+            if not d.is_dir() or not re.match(r'^(\d{4})$', d.name):
+                continue
+            stock_id = d.name
+            for f in sorted(d.iterdir()):
+                # Match Chinese Consolidated Financial Report: [year][qnum_two_digits]_[stock_id]_AI1.pdf
+                m_cn = re.match(rf'^(\d{{4}})(\d{{2}})_({stock_id})_AI1\.pdf$', f.name, re.I)
+                if m_cn:
+                    year, qnum_str, sid = m_cn.groups()
+                    qnum = str(int(qnum_str))  # e.g., "01" -> "1"
+                    _entry(sid, year, qnum)["report_cn"] = f"https://github.com/wenchiehlee-investment/MOPS/blob/main/downloads/{sid}/{f.name}"
+
+                # Match English Consolidated Financial Report: [year][qnum_two_digits]_[stock_id]_AIA.pdf
+                m_en = re.match(rf'^(\d{{4}})(\d{{2}})_({stock_id})_AIA\.pdf$', f.name, re.I)
+                if m_en:
+                    year, qnum_str, sid = m_en.groups()
+                    qnum = str(int(qnum_str))  # e.g., "01" -> "1"
+                    _entry(sid, year, qnum)["report_en"] = f"https://github.com/wenchiehlee-investment/MOPS/blob/main/downloads/{sid}/{f.name}"
+
     # ── Process Manifest (Remote/Drive files) ──
     manifest_file = repo / "audio_manifest.json"
     if manifest_file.exists():
