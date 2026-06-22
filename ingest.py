@@ -1637,8 +1637,8 @@ def update_readme() -> None:
             seen_rows.add(row_key)
     merged = unique_merged
 
-    # Sort by date descending (newest first); entries without date sink to the bottom
-    merged.sort(key=lambda x: (x["date"] != "", x["date"]), reverse=True)
+    # Sort by date descending (newest first), then by year and quarter descending; entries without date sink to the bottom
+    merged.sort(key=lambda x: (x["date"] != "", x["date"] or "", x["year"] or "", x["q"] or ""), reverse=True)
 
     # Build README
     lines = [
