@@ -1370,17 +1370,20 @@ def update_readme() -> None:
         return "[↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1)"
 
     def _audio_cell(stock_id: str, year: str, quarter: str, audio_min: float | None) -> str:
-        audio = get_audio_link_for_readme(repo, stock_id, year, quarter, audio_min)
+        return get_audio_link_for_readme(repo, stock_id, year, quarter, audio_min)
 
+    def _srt_cells(stock_id: str, year: str, quarter: str) -> tuple[str, str]:
+        fin = "—"
         fin_name = f"{stock_id}_{year}_q{quarter}_FIN.srt"
         if (repo / stock_id / fin_name).exists():
-            audio += f" [📝]({stock_id}/{fin_name})"
+            fin = f"[📝]({stock_id}/{fin_name})"
 
+        gt = "—"
         gt_name = f"{stock_id}_{year}_q{quarter}_GT.srt"
         if (repo / stock_id / gt_name).exists():
-            audio += f" [✅]({stock_id}/{gt_name})"
+            gt = f"[✅]({stock_id}/{gt_name})"
 
-        return audio
+        return fin, gt
 
     for ev in upcoming_ir:
         ev_name  = ev.get("事件名稱", "")
@@ -1467,6 +1470,7 @@ def update_readme() -> None:
             name   = display_name
             qstr   = _qstr(ingested['year'], ingested['quarter'])
             audio  = _audio_cell(sid, ingested['year'], ingested['quarter'], ingested['audio_min'])
+            fin, gt = _srt_cells(sid, ingested['year'], ingested['quarter'])
 
             pdf_cn = f"[中]({ingested['pdf_cn']})" if ingested["pdf_cn"] else "—"
             pdf_en = f"[EN]({ingested['pdf_en']})" if ingested["pdf_en"] else "—"
@@ -1481,6 +1485,8 @@ def update_readme() -> None:
             name   = display_name
             qstr   = _qstr(exp_year, exp_q) if exp_year and exp_q else "—"
             audio  = "—"
+            fin    = "—"
+            gt     = "—"
             pdf_cn = "—"
             pdf_en = "—"
 
@@ -1498,7 +1504,7 @@ def update_readme() -> None:
         merged.append({
             "sid": sid, "year": exp_year if not ingested else ingested["year"], "q": exp_q if not ingested else ingested["quarter"],
             "name": name, "quarter": qstr, "date": date, "type": ev_type,
-            "audio": audio, "pdf_cn": pdf_cn, "pdf_en": pdf_en,
+            "audio": audio, "fin": fin, "gt": gt, "pdf_cn": pdf_cn, "pdf_en": pdf_en,
             "mops": _get_mops_link(sid, link1),
         })
 
@@ -1517,6 +1523,7 @@ def update_readme() -> None:
             _, chi = KNOWN_TW_STOCKS.get(sid, (sid, sid))
             display = f"{sid} {chi}"
         audio  = _audio_cell(sid, r['year'], r['quarter'], r['audio_min'])
+        fin, gt = _srt_cells(sid, r['year'], r['quarter'])
 
         pdf_cn = f"[中]({r['pdf_cn']})" if r["pdf_cn"] else "—"
         pdf_en = f"[EN]({r['pdf_en']})" if r["pdf_en"] else "—"
@@ -1532,16 +1539,18 @@ def update_readme() -> None:
             "date":    "",
             "type":    "法說會", # Default for ingested only
             "audio":   audio,
+            "fin":     fin,
+            "gt":      gt,
             "pdf_cn":  pdf_cn,
             "pdf_en":  pdf_en,
             "mops":    _get_mops_link(sid),
         })
 
-    # Deduplicate: remove rows with identical name, quarter, date, type, audio, and MOPS
+    # Deduplicate: remove rows with identical name, quarter, date, type, audio, fin, gt, and MOPS
     unique_merged = []
     seen_rows = set()
     for row in merged:
-        row_key = (row["name"], row["quarter"], row["date"], row["type"], row["audio"], row["mops"])
+        row_key = (row["name"], row["quarter"], row["date"], row["type"], row["audio"], row["fin"], row["gt"], row["mops"])
         if row_key not in seen_rows:
             unique_merged.append(row)
             seen_rows.add(row_key)
@@ -1558,13 +1567,13 @@ def update_readme() -> None:
         "",
         "## 法說會一覽",
         "",
-        "| 公司 | 季度 | 類型 | 法說日期 | 音檔 | IR (TW) | IR (EN) | MOPS |",
-        "|:-----|:----:|:----:|:--------:|-----:|:-------:|:-------:|:----:|",
+        "| 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | MOPS |",
+        "|:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----:|",
     ]
     for m in merged:
         lines.append(
             f"| {m['name']} | {m['quarter']} | {m['type']} | {m['date']} "
-            f"| {m['audio']} | {m['pdf_cn']} | {m['pdf_en']} | {m['mops']} |"
+            f"| {m['audio']} | {m['fin']} | {m['gt']} | {m['pdf_cn']} | {m['pdf_en']} | {m['mops']} |"
         )
 
     lines.append("")
