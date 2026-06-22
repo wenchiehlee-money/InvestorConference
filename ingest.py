@@ -1276,6 +1276,8 @@ def update_readme() -> None:
     audio_pat  = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)\.(mp3|m4a|wav|mp4)$', re.I)
     pdf_cn_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_ir\.pdf$', re.I)
     pdf_en_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_ir_en\.pdf$', re.I)
+    report_cn_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_report\.pdf$', re.I)
+    report_en_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_report_en\.pdf$', re.I)
 
     entries = {}  # key=(stock_id, year, quarter) → dict
 
@@ -1283,7 +1285,9 @@ def update_readme() -> None:
         key = (stock_id, year, qnum)
         if key not in entries:
             entries[key] = {"stock_id": stock_id, "year": year, "quarter": qnum,
-                            "audio_min": None, "audio_path": None, "pdf_cn": None, "pdf_en": None}
+                            "audio_min": None, "audio_path": None, 
+                            "pdf_cn": None, "pdf_en": None,
+                            "report_cn": None, "report_en": None}
         return entries[key]
 
     for d in sorted(repo.iterdir()):
@@ -1319,6 +1323,14 @@ def update_readme() -> None:
             if m3:
                 _, year, qnum = m3.groups()[:3]
                 _entry(stock_id, year, qnum)["pdf_en"] = f"{stock_id}/{f.name}"
+            m4 = report_cn_pat.match(f.name)
+            if m4:
+                _, year, qnum = m4.groups()[:3]
+                _entry(stock_id, year, qnum)["report_cn"] = f"{stock_id}/{f.name}"
+            m5 = report_en_pat.match(f.name)
+            if m5:
+                _, year, qnum = m5.groups()[:3]
+                _entry(stock_id, year, qnum)["report_en"] = f"{stock_id}/{f.name}"
 
     # ── Process Manifest (Remote/Drive files) ──
     manifest_file = repo / "audio_manifest.json"
@@ -1466,14 +1478,32 @@ def update_readme() -> None:
                     return f"{base} / Q{fy_q}FY{fy_year}"
             return base
 
+        # Use "類別" from CSV if available, map "財報公告" -> "財報"
+        ev_type = ev_class
+        if ev_type == "財報公告":
+            ev_type = "財報"
+        elif not ev_type:
+            ev_type = "法說會"
+        
+        # Mark as invited forum/investor conference if applicable
+        if is_invited:
+            ev_type = "受邀法說"
+
         if ingested:
             name   = display_name
             qstr   = _qstr(ingested['year'], ingested['quarter'])
             audio  = _audio_cell(sid, ingested['year'], ingested['quarter'], ingested['audio_min'])
             fin, gt = _srt_cells(sid, ingested['year'], ingested['quarter'])
 
-            pdf_cn = f"[中]({ingested['pdf_cn']})" if ingested["pdf_cn"] else "—"
-            pdf_en = f"[EN]({ingested['pdf_en']})" if ingested["pdf_en"] else "—"
+            if ev_type == "財報":
+                pdf_cn_file = ingested.get("report_cn")
+                pdf_en_file = ingested.get("report_en")
+            else:
+                pdf_cn_file = ingested.get("pdf_cn")
+                pdf_en_file = ingested.get("pdf_en")
+
+            pdf_cn = f"[中]({pdf_cn_file})" if pdf_cn_file else "—"
+            pdf_en = f"[EN]({pdf_en_file})" if pdf_en_file else "—"
         else:
             # CSV-only row (not yet ingested): only include if within next 4 weeks
             try:
@@ -1489,17 +1519,6 @@ def update_readme() -> None:
             gt     = "—"
             pdf_cn = "—"
             pdf_en = "—"
-
-        # Use "類別" from CSV if available, map "財報公告" -> "財報"
-        ev_type = ev_class
-        if ev_type == "財報公告":
-            ev_type = "財報"
-        elif not ev_type:
-            ev_type = "法說會"
-        
-        # Mark as invited forum/investor conference if applicable
-        if is_invited:
-            ev_type = "受邀法說"
 
         merged.append({
             "sid": sid, "year": exp_year if not ingested else ingested["year"], "q": exp_q if not ingested else ingested["quarter"],
