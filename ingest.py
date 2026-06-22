@@ -1272,6 +1272,19 @@ def update_readme() -> None:
             durations_cache = json.loads(durations_file.read_text(encoding="utf-8"))
         except Exception: pass
 
+    # Load company names from raw_companyinfo.csv
+    tw_company_names = {}
+    csv_info_path = repo / "raw_companyinfo.csv"
+    if csv_info_path.exists():
+        try:
+            with open(csv_info_path, encoding="utf-8-sig") as fh:
+                for r_info in _csv.DictReader(fh):
+                    sid_info = r_info.get("代號")
+                    name_info = r_info.get("名稱")
+                    if sid_info and name_info:
+                        tw_company_names[sid_info.strip()] = name_info.strip()
+        except Exception: pass
+
     _TICKER = r'(?:\d{4}|[A-Z]{1,5})'
     audio_pat  = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)\.(mp3|m4a|wav|mp4)$', re.I)
     pdf_cn_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_ir\.pdf$', re.I)
@@ -1290,8 +1303,9 @@ def update_readme() -> None:
                             "report_cn": None, "report_en": None}
         return entries[key]
 
+    exclude_dirs = {"web", "tmp", "tools", "spec", "definitions", ".git", ".github", "__pycache__"}
     for d in sorted(repo.iterdir()):
-        if not d.is_dir() or not re.match(r'^(\d{4}|[A-Z]{1,5})$', d.name, re.I):
+        if not d.is_dir() or d.name.lower() in exclude_dirs or not re.match(r'^(\d{4}|[A-Z]{1,5})$', d.name, re.I):
             continue
         stock_id = d.name.upper() if not d.name.isdigit() else d.name
         for f in sorted(d.iterdir()):
@@ -1500,11 +1514,11 @@ def update_readme() -> None:
                 en, chi = KNOWN_US_STOCKS[sid_up]
                 display_name = f"{sid_up} {en} {chi}"
             else:
-                _, chi = KNOWN_TW_STOCKS.get(sid, ("", ""))
+                chi = tw_company_names.get(sid) or KNOWN_TW_STOCKS.get(sid, ("", ""))[1]
                 if not chi:
                     # e.g. "台積電(2330) 財報" → "台積電"
                     chi = re.sub(r'[（(]\w+[）)].*', '', ev_name).strip()
-                display_name = f"{sid} {chi}"
+                display_name = f"{sid} {chi}".strip()
         else:
             # Clean duplicate tickers e.g. "台積電(TSM)(TSM) 財報" → "台積電(TSM) 財報"
             display_name = re.sub(r'\((\w+)\)\(\1\)', r'(\1)', ev_name)
@@ -1587,7 +1601,7 @@ def update_readme() -> None:
             en, chi = KNOWN_US_STOCKS[sid_up]
             display = f"{sid_up} {en} {chi}"
         else:
-            _, chi = KNOWN_TW_STOCKS.get(sid, ("", ""))
+            chi = tw_company_names.get(sid) or KNOWN_TW_STOCKS.get(sid, ("", ""))[1]
             display = f"{sid} {chi}".strip()
         audio  = _audio_cell(sid, r['year'], r['quarter'], r['audio_min'])
         fin, gt = _srt_cells(sid, r['year'], r['quarter'])
