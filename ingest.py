@@ -1568,12 +1568,27 @@ def update_readme() -> None:
             continue
         sid = r["stock_id"]
         sid_up = sid.upper()
+
+        # Check if this entry has any local InvestorConference files or SRTs
+        has_audio = bool(r.get("audio_path"))
+        has_ir_cn = bool(r.get("pdf_cn"))
+        has_ir_en = bool(r.get("pdf_en"))
+        has_local_report_cn = bool(r.get("report_cn") and not str(r.get("report_cn")).startswith("https://"))
+        has_local_report_en = bool(r.get("report_en") and not str(r.get("report_en")).startswith("https://"))
+
+        fin_name = f"{sid}_{r['year']}_q{r['quarter']}_FIN.srt"
+        gt_name = f"{sid}_{r['year']}_q{r['quarter']}_GT.srt"
+        has_srt = (repo / sid / fin_name).exists() or (repo / sid / gt_name).exists()
+
+        if not (has_audio or has_ir_cn or has_ir_en or has_local_report_cn or has_local_report_en or has_srt):
+            continue
+
         if sid_up in KNOWN_US_STOCKS:
             en, chi = KNOWN_US_STOCKS[sid_up]
             display = f"{sid_up} {en} {chi}"
         else:
-            _, chi = KNOWN_TW_STOCKS.get(sid, (sid, sid))
-            display = f"{sid} {chi}"
+            _, chi = KNOWN_TW_STOCKS.get(sid, ("", ""))
+            display = f"{sid} {chi}".strip()
         audio  = _audio_cell(sid, r['year'], r['quarter'], r['audio_min'])
         fin, gt = _srt_cells(sid, r['year'], r['quarter'])
 
