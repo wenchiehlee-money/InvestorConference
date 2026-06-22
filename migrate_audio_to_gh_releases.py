@@ -126,11 +126,11 @@ def main():
 
     # Resolve GitHub token: GITHUB_TOKEN → REPO_FILE_SYNC_WENCHIEHLEE_MONEY
     if not os.environ.get("GITHUB_TOKEN"):
-        fallback = os.environ.get("REPO_FILE_SYNC_WENCHIEHLEE_MONEY")
+        fallback = os.environ.get("REPO_FILE_SYNC_ZHONGZHENG782_MONEY") or os.environ.get("REPO_FILE_SYNC_WENCHIEHLEE_MONEY")
         if fallback:
             os.environ["GITHUB_TOKEN"] = fallback
         elif not args.dry_run:
-            print("Error: GITHUB_TOKEN or REPO_FILE_SYNC_WENCHIEHLEE_MONEY must be set in .env",
+            print("Error: GITHUB_TOKEN, REPO_FILE_SYNC_ZHONGZHENG782_MONEY or REPO_FILE_SYNC_WENCHIEHLEE_MONEY must be set in .env",
                   file=sys.stderr)
             sys.exit(1)
 

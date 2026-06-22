@@ -2,6 +2,9 @@ import json
 import os
 import requests
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).parent / ".env")
 
 _REPO           = "wenchiehlee-money/InvestorConference"
 _GH_RELEASE_TAG = "audio-files"
@@ -48,13 +51,29 @@ def _upload_gh_asset(token: str, audio_path: Path) -> str:
     return url
 
 
-def upload_and_update_manifest(repo: Path, audio_path: Path):
-    """Upload *audio_path* to GitHub Releases and store the URL in audio_manifest.json."""
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("REPO_FILE_SYNC_WENCHIEHLEE_MONEY")
-    if not token:
-        raise ValueError("GITHUB_TOKEN or REPO_FILE_SYNC_WENCHIEHLEE_MONEY must be set")
+def upload_and_update_manifest(repo: Path, audio_path: Path, stock_id: str = None):
+    """Upload *audio_path* to GitHub Releases and store the URL in audio_manifest.json. Fall back to GDrive on failure."""
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("REPO_FILE_SYNC_ZHONGZHENG782_MONEY") or os.environ.get("REPO_FILE_SYNC_WENCHIEHLEE_MONEY")
+    url = None
 
-    url = _upload_gh_asset(token, audio_path)
+    if token:
+        try:
+            url = _upload_gh_asset(token, audio_path)
+            print(f"[audio_storage_bridge] ✓ Uploaded to GitHub Releases: {url}")
+        except Exception as e:
+            print(f"[audio_storage_bridge] ✗ GitHub Release upload failed: {e}. Falling back to Google Drive...")
+
+    if not url:
+        try:
+            from audio_storage import AudioStorageClient
+            client = AudioStorageClient()
+            sid = stock_id or audio_path.name.split("_")[0]
+            file_id = client.upload_audio(audio_path, sid)
+            url = file_id
+            print(f"[audio_storage_bridge] ✓ Uploaded to Google Drive. File ID: {url}")
+        except Exception as gdrive_err:
+            print(f"[audio_storage_bridge] ✗ Google Drive upload failed: {gdrive_err}")
+            raise gdrive_err
 
     manifest_path = repo / "audio_manifest.json"
     manifest = {}
@@ -70,7 +89,7 @@ def upload_and_update_manifest(repo: Path, audio_path: Path):
 
 # Keep old name as alias so existing ingest.py calls still work
 def upload_to_gdrive_and_update_manifest(repo: Path, stock_id: str, audio_path: Path):
-    url, manifest_path = upload_and_update_manifest(repo, audio_path)
+    url, manifest_path = upload_and_update_manifest(repo, audio_path, stock_id)
     return url, manifest_path
 
 

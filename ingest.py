@@ -990,6 +990,23 @@ def download_audio(source: str, output_path: Path,
     Download audio from a URL or yt-dlp search query.
     Returns True if output file exists after the attempt.
     """
+    # Workaround for CCDNTech TLS alert 112 (unrecognized name) warning
+    if "ccdntech" in source:
+        # 1. Convert player URL to direct HLS URL
+        m = re.search(r'playerh7vodcdn\?(vod(\d+)/[^&]+)', source)
+        if m:
+            vod_part = m.group(1)
+            cdn_num = m.group(2)
+            source = f"https://cdn{cdn_num}.ccdntech.com/vod-http/_definst_/{vod_part}/playlist.m3u8"
+        
+        # 2. Replace unrecognized domain name with working CNAME
+        m_hn = re.search(r'vod(\d+)-ccdntech\.cdn\.hinet\.net', source)
+        if m_hn:
+            cdn_num = m_hn.group(1)
+            source = source.replace(f"vod{cdn_num}-ccdntech.cdn.hinet.net", f"cdn{cdn_num}.ccdntech.com")
+        
+        print(f"[CCDNTech] Patched HLS stream URL to: {source}")
+
     cmd = [
         "yt-dlp", source,
         "--extract-audio",
@@ -1782,6 +1799,9 @@ def fetch_alphaspread_transcript(stock_id: str, year: str, quarter: str, stem: s
 
     save_dir.mkdir(parents=True, exist_ok=True)
     md_path = save_dir / f"{stem}_alphaspread_transcript.md"
+    if md_path.exists() and md_path.stat().st_size > 1000:
+        print(f"[AlphaSpread] ✓ Transcript already exists locally ({md_path.name}) — skipping download.")
+        return [md_path]
     outputs: list[Path] = []
 
     # Build potential URLs
