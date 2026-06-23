@@ -11,6 +11,9 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 
 
 SOURCE_REPO = "wenchiehlee-money/InvestorConference"
