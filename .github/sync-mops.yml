@@ -1,0 +1,6 @@
+group:
+  - files:
+      - source: raw_event_upcoming_earnings.csv
+        dest: data/InvestorConference/raw_event_upcoming_earnings.csv
+    repos:
+      - wenchiehlee-investment/MOPS
