@@ -1429,6 +1429,30 @@ def update_readme() -> None:
     merged = []
     matched_keys = set()
 
+    def _format_pdf_cell(pdf_val: str | None, label: str) -> str:
+        if not pdf_val:
+            return "-"
+        res = f"[{label}]({pdf_val})"
+        if not pdf_val.startswith("https://"):
+            local_md = repo / pdf_val.replace(".pdf", ".md")
+            if local_md.exists():
+                res += f" ([MD]({pdf_val.replace('.pdf', '.md')}))"
+        else:
+            try:
+                parts = pdf_val.split("/")
+                if "downloads" in parts:
+                    dl_idx = parts.index("downloads")
+                    sid = parts[dl_idx + 1]
+                    filename = parts[dl_idx + 2]
+                    md_filename = filename.replace(".pdf", ".md")
+                    local_mops_md = repo.parent / "MOPS" / "downloads" / sid / md_filename
+                    if local_mops_md.exists():
+                        md_url = pdf_val.replace(".pdf", ".md")
+                        res += f" ([MD]({md_url}))"
+            except Exception:
+                pass
+        return res
+
     def _get_mops_link(stock_id: str, fallback_link: str = None) -> str:
         """Return a markdown link to MOPS for TW stocks, or fallback for others."""
         if stock_id and stock_id.isdigit() and len(stock_id) == 4:
@@ -1571,8 +1595,8 @@ def update_readme() -> None:
                 pdf_cn_file = ingested.get("pdf_cn")
                 pdf_en_file = ingested.get("pdf_en")
 
-            pdf_cn = f"[中]({pdf_cn_file})" if pdf_cn_file else "-"
-            pdf_en = f"[EN]({pdf_en_file})" if pdf_en_file else "-"
+            pdf_cn = _format_pdf_cell(pdf_cn_file, "中")
+            pdf_en = _format_pdf_cell(pdf_en_file, "EN")
         else:
             # CSV-only row (not yet ingested): only include if within next 4 weeks
             try:
@@ -1628,8 +1652,8 @@ def update_readme() -> None:
         audio  = _audio_cell(sid, r['year'], r['quarter'], r['audio_min'])
         fin, gt = _srt_cells(sid, r['year'], r['quarter'])
 
-        pdf_cn = f"[中]({r['pdf_cn']})" if r["pdf_cn"] else "-"
-        pdf_en = f"[EN]({r['pdf_en']})" if r["pdf_en"] else "-"
+        pdf_cn = _format_pdf_cell(r["pdf_cn"], "中")
+        pdf_en = _format_pdf_cell(r["pdf_en"], "EN")
         # Compute quarter string (with fiscal year for US stocks)
         fy_year, fy_q = calendar_to_fiscal(sid, r['year'], r['quarter'])
         qstr_r = f"{r['year']} Q{r['quarter']}"
