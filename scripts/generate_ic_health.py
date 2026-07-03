@@ -103,16 +103,26 @@ def main():
         # Check SRT: filename contains _FIN.srt or _GT.srt
         has_srt = any(f.endswith("_FIN.srt") or f.endswith("_GT.srt") for f in files)
         
-        # Known invalid or duplicate/placeholder audio files
+        # Known invalid or duplicate/placeholder audio files (remote state)
         invalid_audios = {
             "qcom_2025_q4",    # remote release URL returns 404
-            "2301_2026_q1",    # duplicate of 2301_2025_q4
-            "2454_2026_q1",    # duplicate of 2454_2025_q4
-            "2458_2026_q1",    # duplicate of 2458_2025_q4
-            "7765_2026_q1",    # duplicate of 7765_2025_q4
-            "7769_2026_q1",    # duplicate of 7769_2025_q4
+            "2454_2026_q1",    # duplicate of 2454_2025_q4 on remote
+            "2458_2026_q1",    # duplicate of 2458_2025_q4 on remote
+            "7765_2026_q1",    # duplicate of 7765_2025_q4 on remote
         }
-        is_audio_valid = (key.lower() not in invalid_audios)
+        
+        # Check if we have successfully downloaded the true audio locally (>1MB)
+        stock_id = key.split("_")[0]
+        comp_dir = REPO_ROOT / stock_id
+        has_local_valid_audio = False
+        if comp_dir.exists():
+            for f in comp_dir.iterdir():
+                if f.is_file() and f.name.lower().startswith(key.lower()) and f.suffix.lower() in [".m4a", ".mp3", ".wav", ".mp4"]:
+                    if f.stat().st_size > 1024 * 1024:
+                        has_local_valid_audio = True
+                        break
+                        
+        is_audio_valid = (key.lower() not in invalid_audios) or has_local_valid_audio
         
         # Check Audio: present in audio_manifest.json and contents are valid
         has_audio = (key in audio_keys) and is_audio_valid

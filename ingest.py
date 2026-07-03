@@ -1,4 +1,9 @@
 import sys
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
+except Exception:
+    pass
 import shutil
 import subprocess
 import re
@@ -13,7 +18,7 @@ from audio_storage_bridge import upload_to_gdrive_and_update_manifest, get_audio
 # Suppress InsecureRequestWarning for MOPS (Taiwan gov site SSL quirks on Windows)
 warnings.filterwarnings("ignore", message="Unverified HTTPS request")
 
-# Smart Ingestion — Multi-Stock Support
+# Smart Ingestion - Multi-Stock Support
 # Version 5.0: standalone script inside InvestorConference repo
 
 INVESTOR_CONFERENCE_REPO = Path(__file__).parent
@@ -53,10 +58,10 @@ KNOWN_TW_DIRECT_IR = {
 # JS-rendered IR pages: need Playwright to intercept network or scan DOM for video URLs
 # (stock_id -> IR earnings-call page URL)
 KNOWN_TW_PLAYWRIGHT_IR = {
-    "2382": "https://www.quantatw.com/Quanta/chinese/investment/financials_icp.aspx",  # 廣達 — JS-rendered
-    "8299": "https://www.phison.com/zh-tw/investor-relations/shareholder-services/investor-meeting-information",  # 群聯 — YouTube links in DOM
-    "2454": "https://ottlive.hinet.net/webapp/mediatek/watch?v=3556",  # 聯發科 2025Q4 — ottlive HLS m3u8 intercept
-    "2308": "https://www.deltaww.com/zh-TW/investors/analyst-meeting", # 台達電 — ccdntech.com HLS, video URL in HTML source
+    "2382": "https://www.quantatw.com/Quanta/chinese/investment/financials_icp.aspx",  # 廣達 - JS-rendered
+    "8299": "https://www.phison.com/zh-tw/investor-relations/shareholder-services/investor-meeting-information",  # 群聯 - YouTube links in DOM
+    "2454": "https://ottlive.hinet.net/webapp/mediatek/watch?v=3556",  # 聯發科 2025Q4 - ottlive HLS m3u8 intercept
+    "2308": "https://www.deltaww.com/zh-TW/investors/analyst-meeting", # 台達電 - ccdntech.com HLS, video URL in HTML source
 }
 
 # Quarter-specific replay pages for companies whose webcast URLs change each quarter.
@@ -78,7 +83,7 @@ KNOWN_TW_PLAYWRIGHT_IR_BY_QUARTER = {
 # IR portal URLs for Taiwan stocks that host webcast on their own IR sites
 # (stock_id -> IR page URL)
 KNOWN_TW_IR = {
-    "2357": "https://www.asus.com/event/Investor/C/",  # ASUS — uses webcast-eqs.com
+    "2357": "https://www.asus.com/event/Investor/C/",  # ASUS - uses webcast-eqs.com
     "3034": "https://www.novatek.com.tw/en-global/Download/ir_event/Index/analyst_meeting", # Novatek IR
 }
 
@@ -124,7 +129,7 @@ KNOWN_US_STOCKS = {
 }
 
 # Fiscal year start month for US stocks whose fiscal year ≠ calendar year.
-# e.g. QCOM fiscal year starts October → FY2026 Q1 = Oct-Dec 2025 (calendar Q4 2025)
+# e.g. QCOM fiscal year starts October -> FY2026 Q1 = Oct-Dec 2025 (calendar Q4 2025)
 KNOWN_US_FISCAL_YEAR_START_MONTH = {
     "QCOM": 10,   # October
     "AAPL": 10,   # October
@@ -139,7 +144,7 @@ def calendar_to_fiscal(ticker: str, cal_year: str, cal_q: str):
     start_month = KNOWN_US_FISCAL_YEAR_START_MONTH.get(ticker.upper())
     if start_month is None:
         return None, None
-    fy_start_cal_q = (start_month - 1) // 3 + 1  # e.g. Oct(10) → Q4
+    fy_start_cal_q = (start_month - 1) // 3 + 1  # e.g. Oct(10) -> Q4
     cq = int(cal_q)
     cy = int(cal_year)
     fy_q = (cq - fy_start_cal_q) % 4 + 1
@@ -285,7 +290,7 @@ def scrape_tw_direct_ir(stock_id: str, ir_url: str, year: str, quarter: str) -> 
 
     Returns (mp4_url, conf_date_str) where conf_date_str is YYYYMMDD, or (None, None).
     Example: https://www.sti.com.tw/web/official/earnings-call
-      → /documents/36928/73640/敦陽科法人說明會-20260310+0658-1.mp4/...
+      -> /documents/36928/73640/敦陽科法人說明會-20260310+0658-1.mp4/...
     Date pattern: YYYYMMDD in filename, match by year+quarter calendar mapping.
     """
     base = re.match(r'(https?://[^/]+)', ir_url).group(1)
@@ -302,7 +307,7 @@ def scrape_tw_direct_ir(stock_id: str, ir_url: str, year: str, quarter: str) -> 
 
         print(f"[Direct-IR] Found {len(mp4_links)} MP4 link(s).")
 
-        # Quarter → expected conference month range
+        # Quarter -> expected conference month range
         if quarter == "4":
             target_year = str(int(year) + 1)
             month_min, month_max = 1, 4   # Q4 call held Jan–Apr of next year
@@ -326,7 +331,7 @@ def scrape_tw_direct_ir(stock_id: str, ir_url: str, year: str, quarter: str) -> 
         m = re.search(r'(\d{8})', mp4_links[0])
         date_str = m.group(1) if m else ""
         full_url = f"{base}{mp4_links[0]}"
-        print(f"[Direct-IR] No exact match — using first: {full_url[:80]}...")
+        print(f"[Direct-IR] No exact match - using first: {full_url[:80]}...")
         return full_url, date_str
 
     except Exception as e:
@@ -360,7 +365,7 @@ def scrape_tw_ir(stock_id: str, ir_url: str, year: str, quarter: str) -> str | N
 
         print(f"[TW-IR] Found {len(webcast_urls)} webcast link(s).")
 
-        yy = year[-2:]   # "2025" → "25"
+        yy = year[-2:]   # "2025" -> "25"
         q  = quarter     # "4"
         slug_re = re.compile(rf'[a-zA-Z]+{re.escape(yy)}q{re.escape(q)}', re.IGNORECASE)
 
@@ -371,7 +376,7 @@ def scrape_tw_ir(stock_id: str, ir_url: str, year: str, quarter: str) -> str | N
                 return url
 
         # Fallback: first link (most recent entry at top of page)
-        print(f"[TW-IR] No exact match — using first: {webcast_urls[0]}")
+        print(f"[TW-IR] No exact match - using first: {webcast_urls[0]}")
         return webcast_urls[0]
 
     except Exception as e:
@@ -387,8 +392,8 @@ def extract_webcast_eqs_stream(webcast_url: str) -> str | None:
     Obtain the real HLS (.m3u8) stream URL from a webcast-eqs.com replay page.
 
     Flow:
-      1. requests: GET register page → extract CSRF token + session cookie
-      2. requests: POST registration form → get authenticated session cookie
+      1. requests: GET register page -> extract CSRF token + session cookie
+      2. requests: POST registration form -> get authenticated session cookie
       3. Playwright: load player page with session cookie, intercept network
                      requests until an .m3u8 URL is captured
     """
@@ -438,7 +443,7 @@ def extract_webcast_eqs_stream(webcast_url: str) -> str | None:
             print(f"[webcast-eqs] Login failed (redirected back to register).")
             return None
 
-        print(f"[webcast-eqs] Logged in → {r2.url}")
+        print(f"[webcast-eqs] Logged in -> {r2.url}")
 
     except Exception as e:
         print(f"[webcast-eqs] Login request failed: {e}")
@@ -577,7 +582,7 @@ def scrape_mops_playwright(stock_id: str, year: str, quarter: str) -> dict:
             )
             ctx = browser.new_context(user_agent=UA)
 
-            # MOPS opens the result in a NEW PAGE (popup) — intercept context.on("page")
+            # MOPS opens the result in a NEW PAGE (popup) - intercept context.on("page")
             def on_new_page(popup):
                 url = popup.url
                 if "ajax_t100sb07_1" in url and ajax_url_captured[0] is None:
@@ -783,14 +788,14 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
 
     Returns (video_url, conf_date_str) or (None, None).
 
-    Example: quantatw.com — JS dynamically loads icp player with MP4 links.
+    Example: quantatw.com - JS dynamically loads icp player with MP4 links.
     Quarter date mapping:
-      Q4 → target_year=year+1, months Jan–Apr
-      Q1 → target_year=year, months Apr–Jun
-      Q2 → target_year=year, months Jul–Sep
-      Q3 → target_year=year, months Oct–Dec
+      Q4 -> target_year=year+1, months Jan–Apr
+      Q1 -> target_year=year, months Apr–Jun
+      Q2 -> target_year=year, months Jul–Sep
+      Q3 -> target_year=year, months Oct–Dec
     """
-    # Quarter → expected conference month range
+    # Quarter -> expected conference month range
     target_year, month_min, month_max = _quarter_date_window(year, quarter)
 
     # Delta's page opens replay URLs via JS data-url attributes; parse those first.
@@ -828,7 +833,7 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
-        print("[PW-IR] playwright not installed — pip install playwright && playwright install chromium")
+        print("[PW-IR] playwright not installed - pip install playwright && playwright install chromium")
         return None, None
 
     captured_videos = []   # list of (url, date_str)
@@ -931,14 +936,14 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
                     return yt_url, ""
             except Exception:
                 continue
-        # No title match — use first YouTube candidate (most recent = first on page)
+        # No title match - use first YouTube candidate (most recent = first on page)
         url, _ = yt_candidates[0]
         print(f"[PW-IR] YouTube fallback (first on page): {url[:80]}...")
         return url, ""
 
     # Fallback: first intercepted (most recent)
     url, date_str = all_videos[0]
-    print(f"[PW-IR] No exact Q{quarter} {year} match — using first: {url[:80]}...")
+    print(f"[PW-IR] No exact Q{quarter} {year} match - using first: {url[:80]}...")
     return url, date_str
 
 
@@ -973,7 +978,7 @@ def scrape_ir_site(ir_url: str, year: str, quarter: str) -> str | None:
                 continue
 
         fallback = f"https://www.youtube.com/watch?v={yt_ids[0]}"
-        print(f"[IR] No exact match — using first: {fallback}")
+        print(f"[IR] No exact match - using first: {fallback}")
         return fallback
 
     except Exception as e:
@@ -1079,14 +1084,14 @@ def download_mops_pdfs(stock_id: str, conf_date: str, year: str, quarter: str,
                 )
                 if r.status_code == 200 and r.content[:4] == b"%PDF":
                     dest.write_bytes(r.content)
-                    print(f"[MOPS-PDF] ✓ {fn} → {dest_name} ({len(r.content)//1024}KB)")
+                    print(f"[MOPS-PDF] OK {fn} -> {dest_name} ({len(r.content)//1024}KB)")
                     downloaded.append(dest)
                     found = True
                     break
             except Exception:
                 continue
         if not found:
-            print(f"[MOPS-PDF] ✗ {lang_code} PDF not found (tried ±2 days around {conf_date})")
+            print(f"[MOPS-PDF] FAILED {lang_code} PDF not found (tried ±2 days around {conf_date})")
 
     return downloaded
 
@@ -1122,13 +1127,13 @@ def download_pdfs(stock_id: str, year: str, quarter: str,
                     resp = requests.get(pdf_url, timeout=30, headers={"User-Agent": UA})
                     if resp.status_code == 200:
                         dest.write_bytes(resp.content)
-                        print(f"[PDF-3034] ✓ Saved: {dest} ({dest.stat().st_size // 1024} KB)")
+                        print(f"[PDF-3034] OK Saved: {dest} ({dest.stat().st_size // 1024} KB)")
                         downloaded.append(dest)
                 else:
-                    print(f"[PDF-3034] ✗ No link found for label '{target_label}'")
+                    print(f"[PDF-3034] FAILED No link found for label '{target_label}'")
                 browser.close()
         except Exception as e:
-            print(f"[PDF-3034] ✗ Failed to scrape PDFs: {e}")
+            print(f"[PDF-3034] FAILED Failed to scrape PDFs: {e}")
 
     templates = KNOWN_PDF_ATTACHMENTS.get(stock_id, [])
     if not templates:
@@ -1151,12 +1156,12 @@ def download_pdfs(stock_id: str, year: str, quarter: str,
                 with open(dest, "wb") as f:
                     for chunk in resp.iter_content(chunk_size=65536):
                         f.write(chunk)
-                print(f"[PDF] ✓ Saved: {dest} ({dest.stat().st_size // 1024} KB)")
+                print(f"[PDF] OK Saved: {dest} ({dest.stat().st_size // 1024} KB)")
                 downloaded.append(dest)
             else:
-                print(f"[PDF] ✗ HTTP {resp.status_code}: {url}")
+                print(f"[PDF] FAILED HTTP {resp.status_code}: {url}")
         except Exception as e:
-            print(f"[PDF] ✗ Failed: {e}")
+            print(f"[PDF] FAILED Failed: {e}")
 
     return downloaded
 
@@ -1204,7 +1209,7 @@ def ingest_from_todo(auto_push: bool = False) -> None:
 
     csv_path = Path("raw_event_upcoming_earnings.csv")
     if not csv_path.exists():
-        print(f"[TODO] ✗ {csv_path} not found.")
+        print(f"[TODO] FAILED {csv_path} not found.")
         return
 
     today = _date.today()
@@ -1230,7 +1235,7 @@ def ingest_from_todo(auto_push: bool = False) -> None:
                 if not m: continue
                 stock_id = m.group(1)
 
-                # Determine year/quarter — prefer explicit info in CSV over date heuristic
+                # Determine year/quarter - prefer explicit info in CSV over date heuristic
                 remarks = row.get("備註", "")
                 y, q = _csv_row_yq(evt_name, remarks, evt_date_str)
                 if not y or not q: continue
@@ -1253,11 +1258,11 @@ def ingest_from_todo(auto_push: bool = False) -> None:
                 if not exists_local and not exists_manifest:
                     todo_list.append((stock_id, y, q, evt_date_str))
     except Exception as e:
-        print(f"[TODO] ✗ Error reading CSV: {e}")
+        print(f"[TODO] FAILED Error reading CSV: {e}")
         return
 
     if not todo_list:
-        print("[TODO] ✓ No missing past events found. Everything up to date.")
+        print("[TODO] OK No missing past events found. Everything up to date.")
         return
 
     print(f"[TODO] Found {len(todo_list)} missing events to ingest.")
@@ -1266,7 +1271,7 @@ def ingest_from_todo(auto_push: bool = False) -> None:
         try:
             ingest_earnings_audio(sid, y, q, auto_push=auto_push)
         except Exception as e:
-            print(f"[TODO] ✗ Failed {sid}: {e}")
+            print(f"[TODO] FAILED Failed {sid}: {e}")
 
     # Final step: Refresh README
     update_readme()
@@ -1309,7 +1314,7 @@ def update_readme() -> None:
     report_cn_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_report\.pdf$', re.I)
     report_en_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_report_en\.pdf$', re.I)
 
-    entries = {}  # key=(stock_id, year, quarter) → dict
+    entries = {}  # key=(stock_id, year, quarter) -> dict
 
     def _entry(stock_id, year, qnum):
         key = (stock_id, year, qnum)
@@ -1407,7 +1412,7 @@ def update_readme() -> None:
 
     rows = list(entries.values())
 
-    # Read raw_event_upcoming_earnings.csv — all event types (法說會 + 財報公告)
+    # Read raw_event_upcoming_earnings.csv - all event types (法說會 + 財報公告)
     upcoming_ir = []
     csv_path = repo / "raw_event_upcoming_earnings.csv"
     if csv_path.exists():
@@ -1438,12 +1443,12 @@ def update_readme() -> None:
         return get_audio_link_for_readme(repo, stock_id, year, quarter, audio_min)
 
     def _srt_cells(stock_id: str, year: str, quarter: str) -> tuple[str, str]:
-        fin = "—"
+        fin = "-"
         fin_name = f"{stock_id}_{year}_q{quarter}_FIN.srt"
         if (repo / stock_id / fin_name).exists():
             fin = f"[📝]({stock_id}/{fin_name})"
 
-        gt = "—"
+        gt = "-"
         gt_name = f"{stock_id}_{year}_q{quarter}_GT.srt"
         if (repo / stock_id / gt_name).exists():
             gt = f"[✅]({stock_id}/{gt_name})"
@@ -1461,7 +1466,7 @@ def update_readme() -> None:
         sid = m.group(1) if m else None
 
         # Prefer explicit year/quarter from CSV over date-based heuristic.
-        # e.g. "2026 Q1" in 備註 overrides the Jan-Apr → prev-year-Q4 rule.
+        # e.g. "2026 Q1" in 備註 overrides the Jan-Apr -> prev-year-Q4 rule.
         exp_year, exp_q = _csv_row_yq(ev_name, remarks, date)
 
         # Check if this is an invited/forum investor conference rather than the regular quarterly earnings call.
@@ -1533,11 +1538,11 @@ def update_readme() -> None:
             else:
                 chi = tw_company_names.get(sid) or KNOWN_TW_STOCKS.get(sid, ("", ""))[1]
                 if not chi:
-                    # e.g. "台積電(2330) 財報" → "台積電"
+                    # e.g. "台積電(2330) 財報" -> "台積電"
                     chi = re.sub(r'[（(]\w+[）)].*', '', ev_name).strip()
                 display_name = f"{sid} {chi}".strip()
         else:
-            # Clean duplicate tickers e.g. "台積電(TSM)(TSM) 財報" → "台積電(TSM) 財報"
+            # Clean duplicate tickers e.g. "台積電(TSM)(TSM) 財報" -> "台積電(TSM) 財報"
             display_name = re.sub(r'\((\w+)\)\(\1\)', r'(\1)', ev_name)
 
         def _qstr(year, q, ticker=sid):
@@ -1555,9 +1560,9 @@ def update_readme() -> None:
             
             # If the event is a financial report, it should NOT display audio or transcripts.
             if ev_type == "財報":
-                audio = "—"
-                fin   = "—"
-                gt    = "—"
+                audio = "-"
+                fin   = "-"
+                gt    = "-"
                 pdf_cn_file = ingested.get("report_cn")
                 pdf_en_file = ingested.get("report_en")
             else:
@@ -1566,8 +1571,8 @@ def update_readme() -> None:
                 pdf_cn_file = ingested.get("pdf_cn")
                 pdf_en_file = ingested.get("pdf_en")
 
-            pdf_cn = f"[中]({pdf_cn_file})" if pdf_cn_file else "—"
-            pdf_en = f"[EN]({pdf_en_file})" if pdf_en_file else "—"
+            pdf_cn = f"[中]({pdf_cn_file})" if pdf_cn_file else "-"
+            pdf_en = f"[EN]({pdf_en_file})" if pdf_en_file else "-"
         else:
             # CSV-only row (not yet ingested): only include if within next 4 weeks
             try:
@@ -1577,12 +1582,12 @@ def update_readme() -> None:
             except (ValueError, TypeError):
                 continue
             name   = display_name
-            qstr   = _qstr(exp_year, exp_q) if exp_year and exp_q else "—"
-            audio  = "—"
-            fin    = "—"
-            gt     = "—"
-            pdf_cn = "—"
-            pdf_en = "—"
+            qstr   = _qstr(exp_year, exp_q) if exp_year and exp_q else "-"
+            audio  = "-"
+            fin    = "-"
+            gt     = "-"
+            pdf_cn = "-"
+            pdf_en = "-"
 
         merged.append({
             "sid": sid, "year": exp_year if not ingested else ingested["year"], "q": exp_q if not ingested else ingested["quarter"],
@@ -1623,8 +1628,8 @@ def update_readme() -> None:
         audio  = _audio_cell(sid, r['year'], r['quarter'], r['audio_min'])
         fin, gt = _srt_cells(sid, r['year'], r['quarter'])
 
-        pdf_cn = f"[中]({r['pdf_cn']})" if r["pdf_cn"] else "—"
-        pdf_en = f"[EN]({r['pdf_en']})" if r["pdf_en"] else "—"
+        pdf_cn = f"[中]({r['pdf_cn']})" if r["pdf_cn"] else "-"
+        pdf_en = f"[EN]({r['pdf_en']})" if r["pdf_en"] else "-"
         # Compute quarter string (with fiscal year for US stocks)
         fy_year, fy_q = calendar_to_fiscal(sid, r['year'], r['quarter'])
         qstr_r = f"{r['year']} Q{r['quarter']}"
@@ -1678,7 +1683,7 @@ def update_readme() -> None:
 
     readme_path = repo / "README.md"
     readme_path.write_text("\n".join(lines), encoding="utf-8")
-    print(f"[README] ✓ Updated: {readme_path}")
+    print(f"[README] OK Updated: {readme_path}")
 
 
 # ── InvestorConference Commit/Push ───────────────────────────────────────────
@@ -1782,7 +1787,7 @@ def update_audio_durations(repo: Path, audio_path: Path) -> None:
         json.dumps(durations, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
-    print(f"[durations] Updated {key} → {duration_sec}s")
+    print(f"[durations] Updated {key} -> {duration_sec}s")
 
 
 def fetch_alphaspread_transcript(stock_id: str, year: str, quarter: str, stem: str, save_dir: Path) -> list[Path]:
@@ -1800,7 +1805,7 @@ def fetch_alphaspread_transcript(stock_id: str, year: str, quarter: str, stem: s
     save_dir.mkdir(parents=True, exist_ok=True)
     md_path = save_dir / f"{stem}_alphaspread_transcript.md"
     if md_path.exists() and md_path.stat().st_size > 1000:
-        print(f"[AlphaSpread] ✓ Transcript already exists locally ({md_path.name}) — skipping download.")
+        print(f"[AlphaSpread] OK Transcript already exists locally ({md_path.name}) - skipping download.")
         return [md_path]
     outputs: list[Path] = []
 
@@ -1885,15 +1890,15 @@ def fetch_alphaspread_transcript(stock_id: str, year: str, quarter: str, stem: s
                 if len(content) > 2000 and not is_404: # Increased length requirement for full transcript
                     header = f"[METADATA]\nSource: {url}\nGenerated-At: {datetime.date.today().isoformat()}\n---\n\n"
                     md_path.write_text(header + content, encoding="utf-8")
-                    print(f"[AlphaSpread] ✓ Saved transcript -> {md_path.name} ({len(content)} chars)")
+                    print(f"[AlphaSpread] OK Saved transcript -> {md_path.name} ({len(content)} chars)")
                     success = True
                     outputs.append(md_path)
                     break
                 else:
                     reason = "404 detected" if is_404 else f"content too short or summary only ({len(content)} chars)"
-                    print(f"[AlphaSpread] ⚠ {reason} for {url} — trying next...")
+                    print(f"[AlphaSpread] ⚠ {reason} for {url} - trying next...")
             except Exception as e:
-                print(f"[AlphaSpread] ✗ Failed for {url}: {str(e)[:100]}")
+                print(f"[AlphaSpread] FAILED Failed for {url}: {str(e)[:100]}")
         
         browser.close()
 
@@ -1958,11 +1963,11 @@ def fetch_yahoo_transcript(yahoo_url: str, stem: str, save_dir: Path) -> list[Pa
     transcript_md = extract_transcript_text(body_text)
     if transcript_md:
         md_path.write_text(transcript_md, encoding="utf-8")
-        print(f"[Yahoo] Saved transcript markdown → {md_path}")
+        print(f"[Yahoo] Saved transcript markdown -> {md_path}")
         outputs.append(md_path)
     if html:
         html_path.write_text(html, encoding="utf-8")
-        print(f"[Yahoo] Saved rendered HTML → {html_path}")
+        print(f"[Yahoo] Saved rendered HTML -> {html_path}")
         outputs.append(html_path)
 
     return outputs
@@ -2012,22 +2017,22 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
     # Move audio
     target_audio = target_dir / audio_path.name
     shutil.move(str(audio_path), str(target_audio))
-    print(f"[git] Moved → {target_audio}")
+    print(f"[git] Moved -> {target_audio}")
     # git("add", str(target_audio.relative_to(repo)))  # Audio now on GDrive
 
     # Move PDFs / transcript / other extras
     for pdf in (pdf_paths or []):
         target_pdf = target_dir / pdf.name
         shutil.move(str(pdf), str(target_pdf))
-        print(f"[git] Moved → {target_pdf}")
+        print(f"[git] Moved -> {target_pdf}")
         git("add", str(target_pdf.relative_to(repo)))
     for extra in (extra_paths or []):
         target_extra = target_dir / extra.name
         if extra.resolve() != target_extra.resolve():
             shutil.move(str(extra), str(target_extra))
-            print(f"[git] Moved → {target_extra}")
+            print(f"[git] Moved -> {target_extra}")
         else:
-            print(f"[git] Using existing file → {target_extra}")
+            print(f"[git] Using existing file -> {target_extra}")
         git("add", str(target_extra.relative_to(repo)))
 
     # Update audio_durations.json
@@ -2056,9 +2061,9 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
 
     print(f"[git] Committed. Pushing (LFS upload may take a moment) ...")
     if git("push", "origin", "main"):
-        print(f"[git] ✓ Pushed to InvestorConference/{stock_id}/")
+        print(f"[git] OK Pushed to InvestorConference/{stock_id}/")
     else:
-        print(f"[git] push failed — committed locally, push manually.")
+        print(f"[git] push failed - committed locally, push manually.")
 
     return str(target_audio)
 
@@ -2071,11 +2076,11 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
     Main entry point. Pipeline per market:
 
     Taiwan:
-      1. Company IR site → webcast-eqs.com login → Playwright HLS intercept → yt-dlp
-      2. MOPS (公開資訊觀測站) → irconference MP4 or company-linked YouTube URL → yt-dlp
+      1. Company IR site -> webcast-eqs.com login -> Playwright HLS intercept -> yt-dlp
+      2. MOPS (公開資訊觀測站) -> irconference MP4 or company-linked YouTube URL -> yt-dlp
 
     US:
-      1. Known IR portal → company-linked YouTube ID → yt-dlp
+      1. Known IR portal -> company-linked YouTube ID -> yt-dlp
 
     If auto_push=True: on success, moves audio to InvestorConference repo,
     commits via git-lfs, pushes, and removes local copy.
@@ -2090,7 +2095,7 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
     print(f"Stock  : {stock_id} ({eng_name} / {chi_name})")
     print(f"Market : {market}")
     print(f"Target : {year} Q{quarter}")
-    print(f"Push   : {'yes → InvestorConference' if auto_push else 'no (local only)'}")
+    print(f"Push   : {'yes -> InvestorConference' if auto_push else 'no (local only)'}")
     print()
 
     output_path = save_dir / f"{stock_id}_{year}_q{quarter}.m4a"
@@ -2108,18 +2113,18 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
             minutes = duration_sec / 60
             print(f"[Verify] Audio length: {minutes:.1f} min", end="")
             if minutes < min_minutes:
-                print(f" ✗ TOO SHORT (expected ≥{min_minutes:.0f} min) — rejecting")
+                print(f" FAILED TOO SHORT (expected >={min_minutes:.0f} min) - rejecting")
                 path.unlink(missing_ok=True)
                 return False
-            print(f" ✓")
+            print(f" OK")
             return True
         except Exception as e:
-            print(f"[Verify] ffprobe failed: {e} — skipping length check")
+            print(f"[Verify] ffprobe failed: {e} - skipping length check")
             return True  # don't reject if ffprobe unavailable
 
     def done() -> str:
-        """Called after every successful audio download — also downloads PDFs."""
-        print(f"\n✓ SUCCESS: {output_path}")
+        """Called after every successful audio download - also downloads PDFs."""
+        print(f"\nOK SUCCESS: {output_path}")
         if not verify_audio_length(output_path):
             return None
         stem = f"{stock_id}_{year}_q{quarter}"
@@ -2139,7 +2144,7 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
             if yahoo_url:
                 extra_paths.extend(fetch_yahoo_transcript(yahoo_url, stem, transcript_dir))
 
-        # MOPS PDFs — use conf_date discovered during audio scraping
+        # MOPS PDFs - use conf_date discovered during audio scraping
         if _conf_date[0]:
             mops_pdfs = download_mops_pdfs(
                 stock_id, _conf_date[0], year, quarter, save_dir)
@@ -2222,7 +2227,7 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
                     return done()
                 print(f"[PW-IR] yt-dlp failed. Falling back...")
 
-        # Step 1: Company IR site → webcast-eqs.com → Playwright HLS intercept
+        # Step 1: Company IR site -> webcast-eqs.com -> Playwright HLS intercept
         ir_url = KNOWN_TW_IR.get(stock_id)
         if ir_url:
             webcast_url = scrape_tw_ir(stock_id, ir_url, year, quarter)
@@ -2247,8 +2252,8 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
                     _conf_date[0] = m.group(1)
                 return done()
         elif mops_data.get("pdfs"):
-            # No video but has PDFs — download them directly
-            print(f"[MOPS-PW] No video, but found {len(mops_data['pdfs'])} PDF(s) — downloading.")
+            # No video but has PDFs - download them directly
+            print(f"[MOPS-PW] No video, but found {len(mops_data['pdfs'])} PDF(s) - downloading.")
             for fn, pdf_url in mops_data["pdfs"]:
                 # Infer lang suffix from filename (M=中文, E=英文)
                 lang = "ir_en" if fn[len(stock_id)+8] == "E" else "ir"
@@ -2259,7 +2264,7 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
                             "Referer": "https://mopsov.twse.com.tw/"}, timeout=30, verify=False)
                         if r.status_code == 200 and r.content[:4] == b"%PDF":
                             dest.write_bytes(r.content)
-                            print(f"[MOPS-PW] ✓ {dest.name} ({len(r.content)//1024}KB)")
+                            print(f"[MOPS-PW] OK {dest.name} ({len(r.content)//1024}KB)")
                     except Exception as e:
                         print(f"[MOPS-PW] PDF download failed: {e}")
         else:
@@ -2285,7 +2290,7 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
         if download_audio(target_url, output_path):
             return done()
 
-    print(f"\n✗ FAILED: Could not find audio for {stock_id} {year} Q{quarter}")
+    print(f"\nFAILED FAILED: Could not find audio for {stock_id} {year} Q{quarter}")
     return None
 
 
@@ -2295,7 +2300,7 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(
-        description="Smart Ingestion v5.0 — Earnings Call Audio Downloader"
+        description="Smart Ingestion v5.0 - Earnings Call Audio Downloader"
     )
     parser.add_argument("stock_id", nargs="?", help="Stock ID (e.g. 2357, NVDA)")
     parser.add_argument("year",     nargs="?", help="Year (e.g. 2025)")

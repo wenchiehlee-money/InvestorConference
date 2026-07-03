@@ -67,6 +67,9 @@ def upload_and_update_manifest(repo: Path, audio_path: Path):
     try:
         url = _upload_gh_asset(token, audio_path)
     except Exception as e:
+        print(f"[DEBUG-UPLOAD] Failed to upload {audio_path.name}: {e}")
+        import traceback
+        traceback.print_exc()
         if existing_url:
             print(f"[gh-release] Upload failed but asset exists in manifest. Fallback to existing URL: {existing_url}")
             url = existing_url
@@ -79,7 +82,7 @@ def upload_and_update_manifest(repo: Path, audio_path: Path):
 
     manifest[audio_path.stem] = url
     manifest_path.write_text(json.dumps(manifest, indent=2, sort_keys=True), encoding="utf-8")
-    audio_path.unlink(missing_ok=True)
+    # audio_path.unlink(missing_ok=True)
     return url, manifest_path
 
 
