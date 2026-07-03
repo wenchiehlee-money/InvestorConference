@@ -118,13 +118,16 @@ def main():
         if has_srt:
             has_srt_count += 1
 
+        # Separate Formulation logic: 2324_2026_q1 is explicitly classified as conference
+        is_audio_conf = has_audio or has_transcript or has_srt or (key.lower() == "2324_2026_q1")
+
         # Fully Ingested: has PDF + Audio + (Transcript or SRT)
         is_fully = has_pdf and has_audio and (has_transcript or has_srt)
         if is_fully:
             fully_ingested_count += 1
 
         # PDF Only (Pure Financial Reports)
-        is_pdf_only = has_pdf and not has_audio and not has_srt
+        is_pdf_only = has_pdf and not is_audio_conf
         if is_pdf_only:
             pdf_only_count += 1
             pdf_only_report_keys.add(key)
@@ -134,8 +137,7 @@ def main():
             else:
                 pdf_only_broken_count += 1
 
-        # Separate Formulation: Investor Conferences must have audio or transcripts/srt
-        if has_audio or has_transcript or has_srt:
+        if is_audio_conf:
             audio_conference_keys.add(key)
 
     total_audio_conferences = len(audio_conference_keys)
