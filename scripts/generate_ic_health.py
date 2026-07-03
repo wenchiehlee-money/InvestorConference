@@ -46,7 +46,11 @@ def main():
         try:
             with open(AUDIO_DURATIONS_JSON, "r", encoding="utf-8") as f:
                 durations = json.load(f)
-                durations_keys = {k.lower() for k in durations.keys()}
+                for k in durations.keys():
+                    # Parse "2301/2301_2025_q4.m4a" -> "2301_2025_q4"
+                    filename = os.path.basename(k)
+                    stem, _ = os.path.splitext(filename)
+                    durations_keys.add(stem.lower())
         except Exception as e:
             print(f"Warning: Failed to load {AUDIO_DURATIONS_JSON.name}: {e}")
 
