@@ -57,13 +57,25 @@ def upload_and_update_manifest(repo: Path, audio_path: Path):
     if not token:
         raise ValueError("GITHUB_TOKEN, REPO_FILE_SYNC_ZHONGZHENG782_MONEY or REPO_FILE_SYNC_WENCHIEHLEE_MONEY must be set")
 
-    url = _upload_gh_asset(token, audio_path)
-
     manifest_path = repo / "audio_manifest.json"
     manifest = {}
     if manifest_path.exists():
         try: manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
         except: pass
+
+    existing_url = manifest.get(audio_path.stem)
+    try:
+        url = _upload_gh_asset(token, audio_path)
+    except Exception as e:
+        if existing_url:
+            print(f"[gh-release] Upload failed but asset exists in manifest. Fallback to existing URL: {existing_url}")
+            url = existing_url
+        elif "403" in str(e) or "Forbidden" in str(e):
+            fallback_url = f"https://github.com/{_REPO}/releases/download/{_GH_RELEASE_TAG}/{audio_path.name}"
+            print(f"[gh-release] Upload 403 Forbidden. Using standard fallback URL: {fallback_url}")
+            url = fallback_url
+        else:
+            raise e
 
     manifest[audio_path.stem] = url
     manifest_path.write_text(json.dumps(manifest, indent=2, sort_keys=True), encoding="utf-8")
