@@ -87,6 +87,9 @@ def main():
 
     audio_conference_keys = set()
     pdf_only_report_keys = set()
+    
+    pdf_only_healthy_count = 0
+    pdf_only_broken_count = 0
 
     for key in sorted(event_keys):
         files = file_map.get(key, [])
@@ -103,6 +106,9 @@ def main():
         # Check Audio: present in audio_manifest.json
         has_audio = key in audio_keys
 
+        # Check for event specific Markdown file (excluding README.md)
+        has_event_md = any(f.lower().startswith(key.lower()) and f.endswith(".md") for f in files)
+
         if has_pdf:
             has_pdf_count += 1
         if has_audio:
@@ -117,11 +123,16 @@ def main():
         if is_fully:
             fully_ingested_count += 1
 
-        # PDF Only: has PDF but no audio and no transcript/srt
-        is_pdf_only = has_pdf and not has_audio and not has_transcript and not has_srt
+        # PDF Only (Pure Financial Reports)
+        is_pdf_only = has_pdf and not has_audio and not has_srt
         if is_pdf_only:
             pdf_only_count += 1
             pdf_only_report_keys.add(key)
+            # If it has a transcript file or any event-specific Markdown conversion, it is Healthy
+            if has_transcript or has_event_md:
+                pdf_only_healthy_count += 1
+            else:
+                pdf_only_broken_count += 1
 
         # Separate Formulation: Investor Conferences must have audio or transcripts/srt
         if has_audio or has_transcript or has_srt:
@@ -141,6 +152,11 @@ def main():
     if total_audio_conferences > 0:
         conference_ingestion_rate_pct = round((fully_ingested_count / total_audio_conferences * 100), 2)
 
+    # Ingestion rate of PDF reports
+    pdf_only_ingestion_rate_pct = 0.0
+    if total_pdf_only_reports > 0:
+        pdf_only_ingestion_rate_pct = round((pdf_only_healthy_count / total_pdf_only_reports * 100), 2)
+
     # Calculate readiness based on audio durations registered
     durations_registered_count = len(event_keys.intersection(durations_keys))
     ready_to_use_rate_pct = 0.0
@@ -153,6 +169,9 @@ def main():
     print(f"Has SRT: {has_srt_count}")
     print(f"Fully Ingested: {fully_ingested_count}")
     print(f"PDF Only (Pure Reports): {pdf_only_count}")
+    print(f"  - MD Completed (Healthy): {pdf_only_healthy_count}")
+    print(f"  - MD Missing (Broken): {pdf_only_broken_count}")
+    print(f"  - MD Conversion Rate: {pdf_only_ingestion_rate_pct}%")
     print(f"Total Conferences (with Audio/SRT/Transcript): {total_audio_conferences}")
     print(f"Conference Ingestion Rate (Conferences only): {conference_ingestion_rate_pct}%")
     print(f"Global Ingestion Rate (incl. Pure Reports): {ingestion_rate_pct}%")
@@ -174,8 +193,11 @@ def main():
         "has_srt": has_srt_count,
         "fully_ingested": fully_ingested_count,
         "pdf_only": pdf_only_count,
+        "pdf_only_healthy": pdf_only_healthy_count,
+        "pdf_only_broken": pdf_only_broken_count,
         "ingestion_rate_pct": ingestion_rate_pct,
         "conference_ingestion_rate_pct": conference_ingestion_rate_pct,
+        "pdf_only_ingestion_rate_pct": pdf_only_ingestion_rate_pct,
         "durations_registered_count": durations_registered_count,
         "ready_to_use_rate_pct": ready_to_use_rate_pct,
         "checked_at": checked_at
@@ -192,8 +214,11 @@ def main():
         "has_srt",
         "fully_ingested",
         "pdf_only",
+        "pdf_only_healthy",
+        "pdf_only_broken",
         "ingestion_rate_pct",
         "conference_ingestion_rate_pct",
+        "pdf_only_ingestion_rate_pct",
         "durations_registered_count",
         "ready_to_use_rate_pct",
         "checked_at"

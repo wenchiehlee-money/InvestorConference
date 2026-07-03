@@ -1,2 +1,2 @@
-process_timestamp,total_conferences,total_audio_conferences,total_pdf_only_reports,has_pdf,has_audio,has_transcript,has_srt,fully_ingested,pdf_only,ingestion_rate_pct,conference_ingestion_rate_pct,durations_registered_count,ready_to_use_rate_pct,checked_at
-2026-07-03T12:43:27.586708+08:00,50,38,12,46,38,30,37,34,12,68.0,89.47,38,76.0,2026-07-03T12:43:27.586708+08:00
+process_timestamp,total_conferences,total_audio_conferences,total_pdf_only_reports,has_pdf,has_audio,has_transcript,has_srt,fully_ingested,pdf_only,pdf_only_healthy,pdf_only_broken,ingestion_rate_pct,conference_ingestion_rate_pct,pdf_only_ingestion_rate_pct,durations_registered_count,ready_to_use_rate_pct,checked_at
+2026-07-03T13:02:55.301896+08:00,50,38,12,46,38,30,37,34,12,0,12,68.0,89.47,0.0,38,76.0,2026-07-03T13:02:55.301896+08:00
