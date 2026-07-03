@@ -81,6 +81,9 @@ def main():
     fully_ingested_count = 0
     pdf_only_count = 0
 
+    audio_conference_keys = set()
+    pdf_only_report_keys = set()
+
     for key in sorted(event_keys):
         files = file_map.get(key, [])
         
@@ -114,12 +117,25 @@ def main():
         is_pdf_only = has_pdf and not has_audio and not has_transcript and not has_srt
         if is_pdf_only:
             pdf_only_count += 1
+            pdf_only_report_keys.add(key)
+
+        # Separate Formulation: Investor Conferences must have audio or transcripts/srt
+        if has_audio or has_transcript or has_srt:
+            audio_conference_keys.add(key)
+
+    total_audio_conferences = len(audio_conference_keys)
+    total_pdf_only_reports = len(pdf_only_report_keys)
 
     ingestion_rate_pct = 100.0
     if total_conferences > 0:
         ingestion_rate_pct = round((fully_ingested_count / total_conferences * 100), 2)
     else:
         ingestion_rate_pct = 0.0
+
+    # Ingestion rate of actual audio conferences
+    conference_ingestion_rate_pct = 0.0
+    if total_audio_conferences > 0:
+        conference_ingestion_rate_pct = round((fully_ingested_count / total_audio_conferences * 100), 2)
 
     # Calculate readiness based on audio durations registered
     durations_registered_count = len(event_keys.intersection(durations_keys))
@@ -132,8 +148,10 @@ def main():
     print(f"Has Transcript: {has_transcript_count}")
     print(f"Has SRT: {has_srt_count}")
     print(f"Fully Ingested: {fully_ingested_count}")
-    print(f"PDF Only: {pdf_only_count}")
-    print(f"Ingestion Rate: {ingestion_rate_pct}%")
+    print(f"PDF Only (Pure Reports): {pdf_only_count}")
+    print(f"Total Conferences (with Audio/SRT/Transcript): {total_audio_conferences}")
+    print(f"Conference Ingestion Rate (Conferences only): {conference_ingestion_rate_pct}%")
+    print(f"Global Ingestion Rate (incl. Pure Reports): {ingestion_rate_pct}%")
     print(f"Durations Registered (Ready): {durations_registered_count}")
     print(f"Ready-to-Use Rate: {ready_to_use_rate_pct}%")
 
@@ -144,6 +162,8 @@ def main():
     summary_data = {
         "process_timestamp": checked_at,
         "total_conferences": total_conferences,
+        "total_audio_conferences": total_audio_conferences,
+        "total_pdf_only_reports": total_pdf_only_reports,
         "has_pdf": has_pdf_count,
         "has_audio": has_audio_count,
         "has_transcript": has_transcript_count,
@@ -151,6 +171,7 @@ def main():
         "fully_ingested": fully_ingested_count,
         "pdf_only": pdf_only_count,
         "ingestion_rate_pct": ingestion_rate_pct,
+        "conference_ingestion_rate_pct": conference_ingestion_rate_pct,
         "durations_registered_count": durations_registered_count,
         "ready_to_use_rate_pct": ready_to_use_rate_pct,
         "checked_at": checked_at
@@ -159,6 +180,8 @@ def main():
     fieldnames = [
         "process_timestamp",
         "total_conferences",
+        "total_audio_conferences",
+        "total_pdf_only_reports",
         "has_pdf",
         "has_audio",
         "has_transcript",
@@ -166,6 +189,7 @@ def main():
         "fully_ingested",
         "pdf_only",
         "ingestion_rate_pct",
+        "conference_ingestion_rate_pct",
         "durations_registered_count",
         "ready_to_use_rate_pct",
         "checked_at"
