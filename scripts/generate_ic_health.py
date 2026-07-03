@@ -103,8 +103,19 @@ def main():
         # Check SRT: filename contains _FIN.srt or _GT.srt
         has_srt = any(f.endswith("_FIN.srt") or f.endswith("_GT.srt") for f in files)
         
-        # Check Audio: present in audio_manifest.json
-        has_audio = key in audio_keys
+        # Known invalid or duplicate/placeholder audio files
+        invalid_audios = {
+            "qcom_2025_q4",    # remote release URL returns 404
+            "2301_2026_q1",    # duplicate of 2301_2025_q4
+            "2454_2026_q1",    # duplicate of 2454_2025_q4
+            "2458_2026_q1",    # duplicate of 2458_2025_q4
+            "7765_2026_q1",    # duplicate of 7765_2025_q4
+            "7769_2026_q1",    # duplicate of 7769_2025_q4
+        }
+        is_audio_valid = (key.lower() not in invalid_audios)
+        
+        # Check Audio: present in audio_manifest.json and contents are valid
+        has_audio = (key in audio_keys) and is_audio_valid
 
         # Check for event specific Markdown file (excluding README.md)
         has_event_md = any(f.lower().startswith(key.lower()) and f.endswith(".md") for f in files)
@@ -118,8 +129,8 @@ def main():
         if has_srt:
             has_srt_count += 1
 
-        # Separate Formulation logic: 2324_2026_q1 is explicitly classified as conference
-        is_audio_conf = has_audio or has_transcript or has_srt or (key.lower() == "2324_2026_q1")
+        # Separate Formulation logic: conference if in manifest (even if audio is invalid) or has srt, or 2324_2026_q1
+        is_audio_conf = (key in audio_keys) or has_transcript or has_srt or (key.lower() == "2324_2026_q1")
 
         # Fully Ingested: has PDF + Audio + (Transcript or SRT)
         is_fully = has_pdf and has_audio and (has_transcript or has_srt)
