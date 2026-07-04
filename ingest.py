@@ -1453,6 +1453,13 @@ def update_readme() -> None:
                 pass
         return res
 
+    def _format_ir_cells(stock_id: str | None, pdf_cn_file: str | None, pdf_en_file: str | None) -> tuple[str, str]:
+        """Return README IR cells. For US tickers, the default _ir file is English."""
+        if stock_id and not str(stock_id).isdigit():
+            en_file = pdf_en_file or pdf_cn_file
+            return "-", _format_pdf_cell(en_file, "EN")
+        return _format_pdf_cell(pdf_cn_file, "中"), _format_pdf_cell(pdf_en_file, "EN")
+
     def _get_mops_link(stock_id: str, fallback_link: str = None) -> str:
         """Return a markdown link to MOPS for TW stocks, or fallback for others."""
         if stock_id and stock_id.isdigit() and len(stock_id) == 4:
@@ -1595,8 +1602,7 @@ def update_readme() -> None:
                 pdf_cn_file = ingested.get("pdf_cn")
                 pdf_en_file = ingested.get("pdf_en")
 
-            pdf_cn = _format_pdf_cell(pdf_cn_file, "中")
-            pdf_en = _format_pdf_cell(pdf_en_file, "EN")
+            pdf_cn, pdf_en = _format_ir_cells(sid, pdf_cn_file, pdf_en_file)
         else:
             # CSV-only row (not yet ingested): only include if within next 4 weeks
             try:
@@ -1652,8 +1658,7 @@ def update_readme() -> None:
         audio  = _audio_cell(sid, r['year'], r['quarter'], r['audio_min'])
         fin, gt = _srt_cells(sid, r['year'], r['quarter'])
 
-        pdf_cn = _format_pdf_cell(r["pdf_cn"], "中")
-        pdf_en = _format_pdf_cell(r["pdf_en"], "EN")
+        pdf_cn, pdf_en = _format_ir_cells(sid, r["pdf_cn"], r["pdf_en"])
         # Compute quarter string (with fiscal year for US stocks)
         fy_year, fy_q = calendar_to_fiscal(sid, r['year'], r['quarter'])
         qstr_r = f"{r['year']} Q{r['quarter']}"
