@@ -110,6 +110,7 @@ KNOWN_US_IR = {
 # Keys use (ticker, year, quarter) matching expected_quarter() convention.
 KNOWN_US_DIRECT_BY_QUARTER = {
     ("QCOM", "2025", "4"): "https://vodchoruscall.akamaized.net/07452/qualcomm/qualcomm260204.mp4",  # Q1FY26 call 2026-02-04
+    ("QCOM", "2026", "1"): "https://vodchoruscall.akamaized.net/07452/qualcomm/qualcomm260429.mp4",  # Q2FY26 call 2026-04-29
 }
 
 # Quarter-specific Yahoo Finance earnings transcript pages.
