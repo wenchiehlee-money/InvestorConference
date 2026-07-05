@@ -12,6 +12,7 @@ DATA_DIR = REPO_ROOT / "data" / "reports"
 HEALTH_SUMMARY_CSV = DATA_DIR / "investor_conference_health_summary.csv"
 AUDIO_MANIFEST_JSON = REPO_ROOT / "audio_manifest.json"
 AUDIO_DURATIONS_JSON = REPO_ROOT / "audio_durations.json"
+DIGEST_DIR = REPO_ROOT / "Conference-digest"
 
 TAIPEI_TZ = timezone(timedelta(hours=8))
 
@@ -54,6 +55,15 @@ def main():
         except Exception as e:
             print(f"Warning: Failed to load {AUDIO_DURATIONS_JSON.name}: {e}")
 
+    # 1.3. Load Digest reports (Conference-digest/{key}_digest.md)
+    digest_keys = set()
+    if DIGEST_DIR.exists():
+        digest_pattern = re.compile(r"^([A-Za-z0-9]+)_(\d{4})_[qQ]([1-4])_digest\.md$")
+        for f in DIGEST_DIR.iterdir():
+            m = digest_pattern.match(f.name)
+            if m:
+                digest_keys.add(f"{m.group(1).lower()}_{m.group(2)}_q{m.group(3)}")
+
     # 2. Scan company directories for conference keys
     company_dirs = [d for d in REPO_ROOT.iterdir() if is_company_dir(d)]
     print(f"Found {len(company_dirs)} company directories.")
@@ -84,6 +94,8 @@ def main():
     has_srt_count = 0
     fully_ingested_count = 0
     pdf_only_count = 0
+    has_digest_count = 0
+    digest_eligible_count = 0
 
     audio_conference_keys = set()
     pdf_only_report_keys = set()
@@ -161,6 +173,13 @@ def main():
         if is_audio_conf:
             audio_conference_keys.add(key)
 
+        # Digest report (Conference-digest/{key}_digest.md, produced by skill-conference-digest)
+        # Eligible: events with subtitle/transcript, i.e. analyzable conferences
+        if has_srt or has_transcript:
+            digest_eligible_count += 1
+        if key in digest_keys:
+            has_digest_count += 1
+
     total_audio_conferences = len(audio_conference_keys)
     total_pdf_only_reports = len(pdf_only_report_keys)
 
@@ -179,6 +198,11 @@ def main():
     pdf_only_ingestion_rate_pct = 0.0
     if total_pdf_only_reports > 0:
         pdf_only_ingestion_rate_pct = round((pdf_only_healthy_count / total_pdf_only_reports * 100), 2)
+
+    # Digest coverage rate over analyzable (subtitle/transcript-ready) events
+    digest_rate_pct = 0.0
+    if digest_eligible_count > 0:
+        digest_rate_pct = round((has_digest_count / digest_eligible_count * 100), 2)
 
     # Calculate readiness based on audio durations registered
     durations_registered_count = len(event_keys.intersection(durations_keys))
@@ -200,6 +224,7 @@ def main():
     print(f"Global Ingestion Rate (incl. Pure Reports): {ingestion_rate_pct}%")
     print(f"Durations Registered (Ready): {durations_registered_count}")
     print(f"Ready-to-Use Rate: {ready_to_use_rate_pct}%")
+    print(f"Digest Reports: {has_digest_count} / eligible {digest_eligible_count} ({digest_rate_pct}%)")
 
     # 4. Write to CSV
     now = datetime.now(TAIPEI_TZ)
@@ -223,6 +248,9 @@ def main():
         "pdf_only_ingestion_rate_pct": pdf_only_ingestion_rate_pct,
         "durations_registered_count": durations_registered_count,
         "ready_to_use_rate_pct": ready_to_use_rate_pct,
+        "has_digest": has_digest_count,
+        "digest_eligible": digest_eligible_count,
+        "digest_rate_pct": digest_rate_pct,
         "checked_at": checked_at
     }
 
@@ -244,6 +272,9 @@ def main():
         "pdf_only_ingestion_rate_pct",
         "durations_registered_count",
         "ready_to_use_rate_pct",
+        "has_digest",
+        "digest_eligible",
+        "digest_rate_pct",
         "checked_at"
     ]
 
