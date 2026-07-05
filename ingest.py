@@ -1454,31 +1454,22 @@ def update_readme() -> None:
                 pass
         return res
 
-    def _digest_suffix(stock_id: str | None, year, quarter) -> str:
-        """Return a link suffix for the conference digest report if one exists
-        under Conference-digest/ (produced by skill-conference-digest)."""
+    def _digest_cell(stock_id: str | None, year, quarter) -> str:
+        """Return the Digest(TW) cell: link to the conference digest report
+        under Conference-digest/ (produced by skill-conference-digest), or '-'."""
         if not (stock_id and year and quarter):
-            return ""
+            return "-"
         digest_name = f"{stock_id}_{year}_q{quarter}_digest.md"
         if (repo / "Conference-digest" / digest_name).exists():
-            return f" ([📊 Digest](Conference-digest/{digest_name}))"
-        return ""
+            return f"[📊](Conference-digest/{digest_name})"
+        return "-"
 
-    def _format_ir_cells(stock_id: str | None, pdf_cn_file: str | None, pdf_en_file: str | None,
-                         year=None, quarter=None, include_digest: bool = True) -> tuple[str, str]:
-        """Return README IR cells. For US tickers, the default _ir file is English.
-        Appends the digest report link to the IR (TW) cell (EN cell for US tickers)."""
-        digest = _digest_suffix(stock_id, year, quarter) if include_digest else ""
+    def _format_ir_cells(stock_id: str | None, pdf_cn_file: str | None, pdf_en_file: str | None) -> tuple[str, str]:
+        """Return README IR cells. For US tickers, the default _ir file is English."""
         if stock_id and not str(stock_id).isdigit():
             en_file = pdf_en_file or pdf_cn_file
-            en_cell = _format_pdf_cell(en_file, "EN")
-            if digest:
-                en_cell = digest.strip() if en_cell == "-" else en_cell + digest
-            return "-", en_cell
-        cn_cell = _format_pdf_cell(pdf_cn_file, "中")
-        if digest:
-            cn_cell = digest.strip() if cn_cell == "-" else cn_cell + digest
-        return cn_cell, _format_pdf_cell(pdf_en_file, "EN")
+            return "-", _format_pdf_cell(en_file, "EN")
+        return _format_pdf_cell(pdf_cn_file, "中"), _format_pdf_cell(pdf_en_file, "EN")
 
     def _get_mops_link(stock_id: str, fallback_link: str = None) -> str:
         """Return a markdown link to MOPS for TW stocks, or fallback for others."""
@@ -1622,10 +1613,8 @@ def update_readme() -> None:
                 pdf_cn_file = ingested.get("pdf_cn")
                 pdf_en_file = ingested.get("pdf_en")
 
-            pdf_cn, pdf_en = _format_ir_cells(
-                sid, pdf_cn_file, pdf_en_file,
-                year=ingested['year'], quarter=ingested['quarter'],
-                include_digest=(ev_type != "財報"))
+            pdf_cn, pdf_en = _format_ir_cells(sid, pdf_cn_file, pdf_en_file)
+            digest = _digest_cell(sid, ingested['year'], ingested['quarter']) if ev_type != "財報" else "-"
         else:
             # CSV-only row (not yet ingested): only include if within next 4 weeks
             try:
@@ -1641,11 +1630,13 @@ def update_readme() -> None:
             gt     = "-"
             pdf_cn = "-"
             pdf_en = "-"
+            digest = "-"
 
         merged.append({
             "sid": sid, "year": exp_year if not ingested else ingested["year"], "q": exp_q if not ingested else ingested["quarter"],
             "name": name, "quarter": qstr, "date": date, "type": ev_type,
             "audio": audio, "fin": fin, "gt": gt, "pdf_cn": pdf_cn, "pdf_en": pdf_en,
+            "digest": digest,
             "mops": _get_mops_link(sid, link1),
         })
 
@@ -1681,8 +1672,7 @@ def update_readme() -> None:
         audio  = _audio_cell(sid, r['year'], r['quarter'], r['audio_min'])
         fin, gt = _srt_cells(sid, r['year'], r['quarter'])
 
-        pdf_cn, pdf_en = _format_ir_cells(sid, r["pdf_cn"], r["pdf_en"],
-                                          year=r['year'], quarter=r['quarter'])
+        pdf_cn, pdf_en = _format_ir_cells(sid, r["pdf_cn"], r["pdf_en"])
         # Compute quarter string (with fiscal year for US stocks)
         fy_year, fy_q = calendar_to_fiscal(sid, r['year'], r['quarter'])
         qstr_r = f"{r['year']} Q{r['quarter']}"
@@ -1699,6 +1689,7 @@ def update_readme() -> None:
             "gt":      gt,
             "pdf_cn":  pdf_cn,
             "pdf_en":  pdf_en,
+            "digest":  _digest_cell(sid, r['year'], r['quarter']),
             "mops":    _get_mops_link(sid),
         })
 
@@ -1723,13 +1714,13 @@ def update_readme() -> None:
         "",
         "## 法說會一覽",
         "",
-        "| 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | MOPS |",
-        "|:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----:|",
+        "| 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |",
+        "|:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----------:|:----:|",
     ]
     for m in merged:
         lines.append(
             f"| {m['name']} | {m['quarter']} | {m['type']} | {m['date']} "
-            f"| {m['audio']} | {m['fin']} | {m['gt']} | {m['pdf_cn']} | {m['pdf_en']} | {m['mops']} |"
+            f"| {m['audio']} | {m['fin']} | {m['gt']} | {m['pdf_cn']} | {m['pdf_en']} | {m.get('digest', '-')} | {m['mops']} |"
         )
 
     lines.append("")
