@@ -127,6 +127,7 @@ KNOWN_US_STOCKS = {
     "TSLA": ("Tesla",      "特斯拉"),
     "AMD":  ("AMD",        "超微"),
     "QCOM": ("Qualcomm",   "高通"),
+    "DELL": ("Dell Technologies", "戴爾科技"),
 }
 
 # Fiscal year start month for US stocks whose fiscal year ≠ calendar year.
@@ -136,6 +137,7 @@ KNOWN_US_FISCAL_YEAR_START_MONTH = {
     "AAPL": 10,   # October
     "MSFT": 7,    # July
     "NVDA": 2,    # February (FY starts Feb 1)
+    "DELL": 2,    # February (FY starts Feb 1)
 }
 
 
@@ -1514,7 +1516,7 @@ def update_readme() -> None:
         # Check if this is an invited/forum investor conference rather than the regular quarterly earnings call.
         # Heuristic: If the event date is > 50 days after the quarter ends, it is an invited/forum conference.
         is_invited = False
-        if exp_year and exp_q and date:
+        if ev_class != "財報公告" and exp_year and exp_q and date:
             try:
                 ev_dt = _date.fromisoformat(date)
                 y_int = int(exp_year)
@@ -1660,7 +1662,7 @@ def update_readme() -> None:
         gt_name = f"{sid}_{r['year']}_q{r['quarter']}_GT.srt"
         has_srt = (repo / sid / fin_name).exists() or (repo / sid / gt_name).exists()
 
-        if not (has_audio or has_ir_cn or has_ir_en or has_local_report_cn or has_local_report_en or has_srt):
+        if not (has_audio or has_ir_cn or has_ir_en or has_srt):
             continue
 
         if sid_up in KNOWN_US_STOCKS:

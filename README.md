@@ -32,6 +32,7 @@
 | 2308 台達電 | 2026 Q2 | 法說會 | 2026-07-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | 2408 南亞科 | 2026 Q2 | 財報 | 2026-07-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2408) |
 | 2308 台達電 | 2026 Q2 | 財報 | 2026-07-08 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
+| DELL Dell Technologies 戴爾科技 | 2026 Q1 / Q1FY2027 | 財報 | 2026-05-28 | - | - | - | - | [EN](DELL/DELL_2026_q1_report_en.pdf) | - | [↗](https://finance.yahoo.com/quote/DELL/financials/) |
 | 3014 聯陽 | 2026 Q1 | 法說會 | 2026-05-18 | 無 | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3014) |
 | 2376 技嘉 | 2026 Q1 | 法說會 | 2026-05-15 | 無 | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2376) |
 | 2376 技嘉 | 2026 Q1 | 財報 | 2026-05-15 | - | - | - | [中](https://github.com/wenchiehlee-investment/MOPS/blob/main/downloads/2376/202601_2376_AI1.pdf) ([MD](https://github.com/wenchiehlee-investment/MOPS/blob/main/downloads/2376/202601_2376_AI1.md)) | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2376) |
