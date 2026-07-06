@@ -78,6 +78,7 @@ KNOWN_TW_PLAYWRIGHT_IR_BY_QUARTER = {
     ("2454", "2025", "4"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=3556",
     ("3034", "2025", "3"): "https://www.novatek.com.tw/upload/website/_2025Q3_25110708_904.html",
     ("3034", "2025", "4"): "https://www.novatek.com.tw/upload/website/_2025Q4_26020909_911.html",
+    ("3045", "2026", "1"): "http://www.zucast.com/webcast/YZRGwetH",  # 台灣大 2026Q1 法說會 2026-05-13 (Zucast, needs login/HLS intercept)
 }
 
 # IR portal URLs for Taiwan stocks that host webcast on their own IR sites
