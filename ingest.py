@@ -113,6 +113,11 @@ KNOWN_US_DIRECT_BY_QUARTER = {
     ("QCOM", "2026", "1"): "https://vodchoruscall.akamaized.net/07452/qualcomm/qualcomm260429.mp4",  # Q2FY26 call 2026-04-29
 }
 
+# Official webcast replay pages when no direct downloadable audio URL is available.
+KNOWN_US_WEBCASTS_BY_QUARTER = {
+    ("DELL", "2026", "1"): "https://event.webcasts.com/starthere.jsp?ei=1747660&tp_key=82c5169428",  # Q1FY27 results call 2026-05-28
+}
+
 # Quarter-specific Yahoo Finance earnings transcript pages.
 # These are browser-rendered pages and require Playwright/Chromium for extraction.
 KNOWN_YAHOO_TRANSCRIPTS_BY_QUARTER = {
@@ -1316,6 +1321,9 @@ def update_readme() -> None:
     pdf_en_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_ir_en\.pdf$', re.I)
     report_cn_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_report\.pdf$', re.I)
     report_en_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_report_en\.pdf$', re.I)
+    financial_tables_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_financial_tables\.pdf$', re.I)
+    performance_review_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_performance_review\.pdf$', re.I)
+    transcript_pdf_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_transcript\.pdf$', re.I)
 
     entries = {}  # key=(stock_id, year, quarter) -> dict
 
@@ -1325,7 +1333,10 @@ def update_readme() -> None:
             entries[key] = {"stock_id": stock_id, "year": year, "quarter": qnum,
                             "audio_min": None, "audio_path": None, 
                             "pdf_cn": None, "pdf_en": None,
-                            "report_cn": None, "report_en": None}
+                            "report_cn": None, "report_en": None,
+                            "financial_tables_en": None, "transcript_pdf": None,
+                            "webcast_url": None}
+            entries[key]["webcast_url"] = KNOWN_US_WEBCASTS_BY_QUARTER.get((stock_id.upper(), year, qnum))
         return entries[key]
 
     exclude_dirs = {"web", "tmp", "tools", "spec", "definitions", ".git", ".github", "__pycache__"}
@@ -1370,6 +1381,18 @@ def update_readme() -> None:
             if m5:
                 _, year, qnum = m5.groups()[:3]
                 _entry(stock_id, year, qnum)["report_en"] = f"{stock_id}/{f.name}"
+            m6 = financial_tables_pat.match(f.name)
+            if m6:
+                _, year, qnum = m6.groups()[:3]
+                _entry(stock_id, year, qnum)["financial_tables_en"] = f"{stock_id}/{f.name}"
+            m7 = performance_review_pat.match(f.name)
+            if m7:
+                _, year, qnum = m7.groups()[:3]
+                _entry(stock_id, year, qnum)["pdf_en"] = f"{stock_id}/{f.name}"
+            m8 = transcript_pdf_pat.match(f.name)
+            if m8:
+                _, year, qnum = m8.groups()[:3]
+                _entry(stock_id, year, qnum)["transcript_pdf"] = f"{stock_id}/{f.name}"
 
     # Scan sibling MOPS repo downloads for TW stock financial reports
     mops_downloads = repo.parent / "MOPS" / "downloads"
@@ -1486,6 +1509,12 @@ def update_readme() -> None:
     def _audio_cell(stock_id: str, year: str, quarter: str, audio_min: float | None) -> str:
         return get_audio_link_for_readme(repo, stock_id, year, quarter, audio_min)
 
+    def _webcast_cell(r: dict) -> str:
+        audio = _audio_cell(r["stock_id"], r["year"], r["quarter"], r["audio_min"])
+        if audio == "無" and r.get("webcast_url"):
+            return f"[Webcast]({r['webcast_url']})"
+        return audio
+
     def _srt_cells(stock_id: str, year: str, quarter: str) -> tuple[str, str]:
         fin = "-"
         fin_name = f"{stock_id}_{year}_q{quarter}_FIN.srt"
@@ -1497,6 +1526,12 @@ def update_readme() -> None:
         if (repo / stock_id / gt_name).exists():
             gt = f"[✅]({stock_id}/{gt_name})"
 
+        return fin, gt
+
+    def _call_transcript_cells(r: dict) -> tuple[str, str]:
+        fin, gt = _srt_cells(r["stock_id"], r["year"], r["quarter"])
+        if fin == "-" and r.get("transcript_pdf"):
+            fin = f"[📝]({r['transcript_pdf']})"
         return fin, gt
 
     for ev in upcoming_ir:
@@ -1609,13 +1644,17 @@ def update_readme() -> None:
                 gt    = "-"
                 pdf_cn_file = ingested.get("report_cn")
                 pdf_en_file = ingested.get("report_en")
+                pdf_cn, pdf_en = _format_ir_cells(sid, pdf_cn_file, pdf_en_file)
+                if ingested.get("financial_tables_en"):
+                    tables = _format_pdf_cell(ingested.get("financial_tables_en"), "Tables")
+                    pdf_en = tables if pdf_en == "-" else f"{pdf_en} / {tables}"
             else:
-                audio   = _audio_cell(sid, ingested['year'], ingested['quarter'], ingested['audio_min'])
-                fin, gt = _srt_cells(sid, ingested['year'], ingested['quarter'])
+                audio   = _webcast_cell(ingested)
+                fin, gt = _call_transcript_cells(ingested)
                 pdf_cn_file = ingested.get("pdf_cn")
                 pdf_en_file = ingested.get("pdf_en")
+                pdf_cn, pdf_en = _format_ir_cells(sid, pdf_cn_file, pdf_en_file)
 
-            pdf_cn, pdf_en = _format_ir_cells(sid, pdf_cn_file, pdf_en_file)
             digest = _digest_cell(sid, ingested['year'], ingested['quarter']) if ev_type != "財報" else "-"
         else:
             # CSV-only row (not yet ingested): only include if within next 4 weeks
@@ -1641,6 +1680,20 @@ def update_readme() -> None:
             "digest": digest,
             "mops": _get_mops_link(sid, link1),
         })
+
+        if ev_type == "財報" and sid and not str(sid).isdigit() and ingested and (ingested.get("audio_path") or ingested.get("webcast_url") or ingested.get("pdf_cn") or ingested.get("pdf_en") or ingested.get("transcript_pdf")):
+            matched_keys.add((ingested["stock_id"], ingested["year"], ingested["quarter"]))
+            call_audio = _webcast_cell(ingested)
+            call_fin, call_gt = _call_transcript_cells(ingested)
+            call_pdf_cn, call_pdf_en = _format_ir_cells(sid, ingested.get("pdf_cn"), ingested.get("pdf_en"))
+            merged.append({
+                "sid": sid, "year": ingested["year"], "q": ingested["quarter"],
+                "name": name, "quarter": qstr, "date": date, "type": "法說會",
+                "audio": call_audio, "fin": call_fin, "gt": call_gt,
+                "pdf_cn": call_pdf_cn, "pdf_en": call_pdf_en,
+                "digest": _digest_cell(sid, ingested['year'], ingested['quarter']),
+                "mops": _get_mops_link(sid, link1),
+            })
 
 
     # Add ingested entries with no CSV event (older quarters, etc.)
@@ -1671,8 +1724,8 @@ def update_readme() -> None:
         else:
             chi = tw_company_names.get(sid) or KNOWN_TW_STOCKS.get(sid, ("", ""))[1]
             display = f"{sid} {chi}".strip()
-        audio  = _audio_cell(sid, r['year'], r['quarter'], r['audio_min'])
-        fin, gt = _srt_cells(sid, r['year'], r['quarter'])
+        audio  = _webcast_cell(r)
+        fin, gt = _call_transcript_cells(r)
 
         pdf_cn, pdf_en = _format_ir_cells(sid, r["pdf_cn"], r["pdf_en"])
         # Compute quarter string (with fiscal year for US stocks)
