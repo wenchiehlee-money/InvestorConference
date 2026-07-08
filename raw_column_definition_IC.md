@@ -30,6 +30,11 @@ destination: https://raw.githubusercontent.com/wenchiehlee-money/biztrends.TW/re
 | `has_digest` | int | Number of conference events that have an analysis digest report (`Conference-digest/{key}_digest.md`, produced by skill-conference-digest). |
 | `digest_eligible` | int | Number of conference events eligible for digest analysis (has SRT subtitle or transcript). |
 | `digest_rate_pct` | float | Digest coverage of analyzable events (`has_digest / digest_eligible * 100`). |
+| `conf_md_complete` | int | Audio-conference events whose presentation PDFs are all converted to MD with full OCR (no `TODO:OCR` markers). |
+| `conf_md_partial` | int | Audio-conference events whose presentation MDs exist but contain unconverted scanned pages (`<!-- TODO:OCR ... -->` markers from pdf_fallback). |
+| `conf_md_missing` | int | Audio-conference events with at least one presentation PDF that has no corresponding MD file. |
+| `conf_md_complete_rate_pct` | float | Presentation MD completeness over audio conferences that have PDFs (`conf_md_complete / (complete+partial+missing) * 100`). |
+| `fully_ingested_md_warning` | int | Fully-ingested audio conferences whose presentation MD is partial or missing; shown as "Warning" (部分收錄) in downstream dashboards. |
 | `checked_at` | timestamp | Execution time of the health checker (same as `process_timestamp`). |
 
 ---

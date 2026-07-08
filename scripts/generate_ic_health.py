@@ -25,6 +25,30 @@ def is_company_dir(path):
         return False
     return name.isdigit() or (name.isupper() and name.isalpha())
 
+def pdf_md_status(comp_dir, files):
+    """Classify presentation PDF -> MD conversion quality for an event.
+
+    complete: every PDF has a .md and none contains a TODO:OCR marker
+    partial:  every PDF has a .md but some pages were not OCR'd
+              (pdf_fallback inserted `<!-- TODO:OCR ... -->` markers)
+    missing:  at least one PDF has no corresponding .md
+    no_pdf:   the event has no PDF
+    """
+    pdfs = [f for f in files if f.endswith(".pdf")]
+    if not pdfs:
+        return "no_pdf"
+    status = "complete"
+    for pdf in pdfs:
+        md = comp_dir / (pdf[:-4] + ".md")
+        if not md.exists():
+            return "missing"
+        try:
+            if "TODO:OCR" in md.read_text(encoding="utf-8", errors="ignore"):
+                status = "partial"
+        except Exception:
+            status = "partial"
+    return status
+
 def main():
     print("=== Generating InvestorConference Data Health Summary ===")
     
@@ -103,6 +127,12 @@ def main():
     pdf_only_healthy_count = 0
     pdf_only_broken_count = 0
 
+    # Presentation PDF -> MD (OCR) conversion quality for audio conferences
+    conf_md_complete_count = 0
+    conf_md_partial_count = 0
+    conf_md_missing_count = 0
+    fully_ingested_md_warning_count = 0
+
     for key in sorted(event_keys):
         files = file_map.get(key, [])
         
@@ -172,6 +202,17 @@ def main():
 
         if is_audio_conf:
             audio_conference_keys.add(key)
+            md_status = pdf_md_status(comp_dir, files)
+            if md_status == "complete":
+                conf_md_complete_count += 1
+            elif md_status == "partial":
+                conf_md_partial_count += 1
+            elif md_status == "missing":
+                conf_md_missing_count += 1
+            # Ingested events whose presentation MD is incomplete are
+            # surfaced as "Warning" (部分收錄) in downstream dashboards.
+            if is_fully and md_status in ("partial", "missing"):
+                fully_ingested_md_warning_count += 1
 
         # Digest report (Conference-digest/{key}_digest.md, produced by skill-conference-digest)
         # Eligible: events with subtitle/transcript, i.e. analyzable conferences
@@ -204,6 +245,12 @@ def main():
     if digest_eligible_count > 0:
         digest_rate_pct = round((has_digest_count / digest_eligible_count * 100), 2)
 
+    # Presentation MD completeness rate over audio conferences that have PDFs
+    conf_md_total = conf_md_complete_count + conf_md_partial_count + conf_md_missing_count
+    conf_md_complete_rate_pct = 0.0
+    if conf_md_total > 0:
+        conf_md_complete_rate_pct = round((conf_md_complete_count / conf_md_total * 100), 2)
+
     # Calculate readiness based on audio durations registered
     durations_registered_count = len(event_keys.intersection(durations_keys))
     ready_to_use_rate_pct = 0.0
@@ -225,6 +272,8 @@ def main():
     print(f"Durations Registered (Ready): {durations_registered_count}")
     print(f"Ready-to-Use Rate: {ready_to_use_rate_pct}%")
     print(f"Digest Reports: {has_digest_count} / eligible {digest_eligible_count} ({digest_rate_pct}%)")
+    print(f"Conference presentation MD (OCR): complete {conf_md_complete_count}, partial {conf_md_partial_count}, missing {conf_md_missing_count} ({conf_md_complete_rate_pct}% complete)")
+    print(f"Fully ingested but MD partial/missing (Warning): {fully_ingested_md_warning_count}")
 
     # 4. Write to CSV
     now = datetime.now(TAIPEI_TZ)
@@ -251,6 +300,11 @@ def main():
         "has_digest": has_digest_count,
         "digest_eligible": digest_eligible_count,
         "digest_rate_pct": digest_rate_pct,
+        "conf_md_complete": conf_md_complete_count,
+        "conf_md_partial": conf_md_partial_count,
+        "conf_md_missing": conf_md_missing_count,
+        "conf_md_complete_rate_pct": conf_md_complete_rate_pct,
+        "fully_ingested_md_warning": fully_ingested_md_warning_count,
         "checked_at": checked_at
     }
 
@@ -275,6 +329,11 @@ def main():
         "has_digest",
         "digest_eligible",
         "digest_rate_pct",
+        "conf_md_complete",
+        "conf_md_partial",
+        "conf_md_missing",
+        "conf_md_complete_rate_pct",
+        "fully_ingested_md_warning",
         "checked_at"
     ]
 
