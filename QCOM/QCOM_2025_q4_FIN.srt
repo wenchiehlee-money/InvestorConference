@@ -1,692 +1,637 @@
 [METADATA]
 Source: QCOM_2025_q4_exp1
-Language: zh
+Language: en
 ---
-(00:12.360) 請使用繁體字轉錄。
-(00:55.640) Vice President of Investor Relations
-(00:57.420) Mauricio Lopez-Hedoyen, please go ahead
-(01:28.580) 謝謝大家
-(01:30.500) 在今天的電話中,
-(01:31.580) 我們將使用非GAP金融方案來定義G制度,
-(01:35.380) 您可以在我們的網站找到GAP的關係關係的批評。
-(01:39.180) 我們還將進行向前看的指示,
-(01:41.180) 包括預測將來的項目、商業或企業的趨勢或商業或金融結果。
-(01:49.320) 實際上,項目或結果可能不同於預測向前看的指示。
-(01:54.640) 請關注我們的SEC策劃
-(01:56.520) 包括我們最新的10K
-(01:58.160) 這些策劃中有重要的因素
-(01:59.960) 可以使得實際結果不同
-(02:01.880) 從前面看來
-(02:03.980) 現在來到Quackum總統
-(02:07.040) 和總統首相
-(02:08.760) Christian Amon
-(02:09.740) 謝謝Mauricio
-(02:11.480) 大家早上好
-(02:12.540) 謝謝今天參與我們
-(02:14.380) 在Q1的策劃中
-(02:16.520) 我們達到12.3億美元
-(02:20.040) and non-GAAP earnings per share of $3.50
-(03:47.560) As the situation evolves.
-(04:14.880) 我們預期的共有75%的股份
-(04:19.000) 是以之前的預期來看的
-(04:21.080) 重要的是
-(04:22.880) 在這一季
-(04:24.080) 拜登發佈了
-(04:26.100) 最新的AI智能手機
-(04:28.680) 使用了Snapdragon 8 Elite
-(04:31.360) 這是一個重要的 milestone
-(04:33.820) 在AI 中的智能手機
-(04:37.260) 和智能經驗的前提下
-(04:40.700) 形成了手機的未來
-(05:10.420) Mobile
-(05:41.860) 第三代的Qualcomm Orion CPU
-(05:43.980) 達到35%快速單核表現
-(05:49.240) 和3.5倍快速多核表現
-(05:53.840) 與前代的競爭比例
-(05:57.180) 我們的Exagon NPU
-(05:59.500) 達到5.7倍和3.4倍
-(06:04.940) 較快的較速的較速
-(06:07.580) NPU和GPU相互較量
-(06:11.320) 18個Snapdragon Power PC
-(06:14.020) 從ASUS、HP、Lenovo和Microsoft出品
-(06:20.100) ASUS ZenBook A16
-(06:22.240) 是一部最有名的
-(06:23.800) 配置Snapdragon X2 Elite Extreme
-(06:27.480) 是目前最快的Snapdragon Power Laptop
-(06:31.220) 配置18核
-(06:33.540) 第三代Orion CPU
-(06:35.460) 80個Exagon NPU
-(06:38.180) AI工作量
-(06:39.700) in an Adreno GPU
-(06:40.860) delivering up to a 2.3 times improvement
-(06:44.440) in performance per watt
-(06:46.360) versus the prior generation
-(06:48.140) X2 Elite Extreme
-(06:50.100) enables desktop class performance
-(06:52.540) advanced graphics
-(06:53.760) and more than 21 hours of battery life
-(06:56.640) in an ultralight 16-inch form factor
-(07:00.200) We remain on track
-(07:01.860) to commercialize 150
-(07:04.180) Snapdragon X Power PCs this year
-(07:21.660) 我們的需求是非常強大的
-(07:36.820) 我們會在多個車車級、價格級和市場中發展車車。
-(07:40.980) 我們還會在一群主要技術供應公司的車車建築設計中,
-(07:48.320) 與Rivian Automotive合作。
-(07:52.640) 另外,我們還會與一群自動駕駛聯合合作,
-(07:57.280) 由CARIAD和BOSCH組成,
-(07:59.880) 以加速發展高度自動駕駛系統的發展。
-(08:08.220) Toyota's top-selling vehicle globally
-(08:28.920) Great Wall Motors, NIO and Cherry
-(08:31.300) bringing our total design wings
-(08:33.700) for Snapdragon Elite platforms
-(08:35.560) to 10 programs
-(08:36.720) In industrial IoT
-(08:39.000) we continue to expand our portfolio
-(08:41.380) of advanced computing connectivity
-(08:43.100) and AI solutions
-(08:44.400) for an increasing number of verticals
-(08:47.180) With the recent acquisition of Algentics
-(08:52.680) and Qualcomm Insight platform
-(08:54.680) with its AI-based
-(08:59.800) 在CES,
-(09:00.900) 我們也介紹了兩個新的DragonWing複製器,
-(09:04.580) 提供自動智能智能,
-(09:06.500) 為安全集中的車,
-(09:08.700) 聰明攝像頭和工業視線,
-(09:11.300) AITV,
-(09:12.640) 媒體產業,
-(09:14.040) 和視頻合作系統。
-(09:16.500) 另外,我們的新的DragonWing IQX系列的開發
-(09:21.900) 將指示我們進入了工程機構的工程機構
-(09:25.260) 以最高級的計算表現和有效的Egge AI
-(09:29.000) 工程機構,進行HMI,Egge控制,和Panel和Box PC
-(09:36.660) 這一季,
-(09:38.440) 我們專門宣佈了我們的進行進行機構的擴展
-(09:45.140) 技術和解決方案
-(09:46.660) 包括Dragon Wing IQ10系列
-(09:49.860) 我們的全面目標
-(09:51.800) Robotics Architecture
-(09:52.780) 支持進一步的
-(09:54.580) 觀察和動作計劃
-(09:56.220) 使用VLA和VLMs
-(09:59.420) 讓robots
-(10:00.920) 以理想、改變
-(10:02.980) 和實際世界環境
-(10:05.080) 作為一部分
-(10:06.420) 更固定的
-(10:07.300) 更輕鬆的組合
-(10:08.340) IQ10是設計
-(10:10.160) 以加速廣泛的
-(10:11.840) 家庭、工業
-(11:13.780) 我們的主力和自動車的很多車輛都適合進行進展機構。
-(11:20.500) 最後,我們繼續發展我們的數碼中心設備,
-(11:24.540) 與主要的高級設備人、
-(11:26.640) cloud 服務供應公司、
-(11:28.560) 統治AI 項目和其他全球夥伴進行聯盟。
-(11:31.740) 我們仍然受到正面的反應,
-(11:34.500) 以新型的AI 複製和記憶建築
-(11:39.360) 為新世代的數碼中心進行設備。
-(11:42.320) 另外,最近的發展在企業中,
-(11:46.360) Qualcomm的觀點是關於專業和能力 efficient AI 平臺的重要性,
-(11:52.740) 作為較為重要的較為較高的較高的較高。
-(11:56.940) 在 Q1 年,我們完成了 AlphaWave 半項購買,
-(12:01.940) 並增加了高速線路接觸技術,
-(12:05.180) 以更加強化我們的平臺。
-(12:06.880) 我們也將獲得Ventana Microsystems,
-(12:10.280) 並強化我們的領導和承諾
-(12:12.700) 在Risk 5的標準和 ecosystem 和發展
-(12:17.780) 我們的高效率Risk 5 CPU
-(12:20.460) 為Data Center的工作
-(12:22.320) 我們期待更多資訊,包括更新
-(12:26.620) 我們的路線,在我們的下一個投資活動中
-(12:29.480) 我們也將分享我們的進步
-(12:31.280) 在維生素、自動車,
-(14:01.560) 在QCT自動車,我們達到一個最強勁的 quarter,
-(14:02.960) 949 million in dividends.
-(14:05.520) Before turning to guidance,
-(14:07.140) I'd like to address the impact
-(14:08.360) of the memory industry dynamics
-(14:09.900) on our financial outlook.
-(14:11.780) The fundamentals of our handset business
-(14:13.960) remain favorable,
-(14:17.760) total handset shipments
-(14:19.420) exceeding expectations
-(14:20.300) in the December quarter,
-(14:21.920) especially in the premium and high tier,
-(14:24.660) and a strong design wind pipeline
-(14:26.060) for our Snapdragon chipsets.
-(14:28.120) However, increasing demand
-(14:30.080) for memory solutions in AI data centers
-(14:32.260) 是在手機安裝的手機安裝和價格的
-(14:34.140) 連接性的不確定性的連接性的
-(14:35.820) 連接性的手機安裝和價格的
-(14:43.700) 手機安裝和價格的
-(15:02.120) 我們希望將這些情況正常化時,
-(15:02.340) QCT手段的收入率和增長 trajectory 迴歸我們的前期的跑速率和增長 trajectory
-(15:08.100) 現在轉到指導
-(15:10.120) 在第二季度,我們預測收入10.2到11億美元,
-(15:15.180) 並且有2.45到2.65的非隔禁區分
-(15:19.680) 在QTL中,我們預測了1.2到1.4億美元的收入
-(15:24.900) 和EBT的收入為68%到72%
-(15:27.840) 這對正常的連續市場上是一個正常的趨勢
-(15:30.520) 在QCT中,我們預測了8.8到9.4億美元的收入
-(15:35.680) 和EBT的收入為26%到28%
-(15:39.080) 我們將預測QCT的手段收入為約6億美元
-(15:52.840) versus the year ago period
-(16:10.840) 我們期望在一季中的2.6億美元的非關係行動費用
-(16:16.580) 這次的增長是由於正常的月份計算
-(16:20.860) 對某些職員的費用
-(16:22.900) 以及我們的AlphaWave獲得的完成
-(16:25.780) 以增加我們的AI數據中的新世代平臺
-(16:29.820) 最後,我們很高興
-(16:32.620) 在這次的一季中
-(16:34.080) 我們的成果表現非常強
-(16:36.920) The following metrics
-(16:37.640) Total company revenue
-(16:39.580) Non-GAAP EPS
-(16:41.100) QCT revenues
-(16:42.500) QCT handset revenues
-(16:44.100) And QCT automotive revenues
-(16:46.260) While near-term QCT handset guidance
-(16:51.140) The underlying fundamentals
-(16:53.240) Around consumer demand for handsets
-(16:55.520) And Snapdragon product leadership
-(16:57.420) Remain strong
-(16:59.380) Our second quarter guidance
-(17:03.220) Across automotive and IoT
-(17:05.220) 與他們的聯合增長
-(17:07.260) 以去年收益率
-(17:08.760) 必須達到我們的
-(17:10.280) 長期收益目標
-(17:11.220) 我們的產品宣佈
-(17:13.500) 和在CES2026
-(17:17.260) 與我們的聯合增長
-(17:22.980) 在自動車
-(17:23.240) 我們有重新
-(17:24.180) 擴展技術領域
-(17:25.840) 10個設計贏得
-(17:27.380) Snapdragon Ride Elite
-(17:28.900) 和Cockpit Elite
-(17:30.040) 8個全球計劃
-(17:31.820) Snapdragon Ride Flex
-(18:02.560) 與傳輸的傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸傳輸
-(18:32.540) 第一位是傑西·伯克奧特的T.D.
-(18:35.260) 請問一下
-(18:37.580) 謝謝大家的關注
-(18:39.480) 我先想說一下手機的看法
-(18:42.260) 有沒有其他影響到記錄價值的問題
-(18:46.720) 很高興聽到Samsung的重新發表
-(18:49.640) 但我認為最重要的是
-(18:52.740) 我們該怎麼想辦法在今年的TAM上
-(18:54.620) 你覺得這種編輯改善是
-(18:58.200) 是您在明年看到的最後一條線
-(19:02.540) 謝謝
-(19:04.940) 謝謝Shasha問的問題
-(19:06.160) 我開始了
-(19:06.800) 然後我會請Kash加上更多的聲音
-(19:08.860) 這一點是100%關於記憶的
-(19:11.660) 實際上 我會說
-(19:13.340) 微軟經濟指數已經變得強大
-(19:16.400) 我們看的是
-(19:17.080) 我們看的是手上的需求變得強大
-(19:19.900) 我覺得因為我們的資金商業
-(19:21.420) 我們有一個很好的理解
-(19:23.780) 整體的需求
-(19:25.940) 我們看的是通貨數據
-(19:56.720) 我們的客戶在調整他們的建築生產
-(20:00.080) 以及他們的能夠用的記憶
-(20:02.200) 我不知道若克斯有沒有想要再提到
-(20:03.920) 這個問題
-(20:06.100) 不 我覺得這就夠了
-(20:09.580) 好的 謝謝你 克里斯蔣
-(20:10.760) 我猜到的就是
-(20:12.020) 剛才您提到的QCT的指示
-(20:14.600) 那種自動數字
-(20:16.000) 實際上是一個很明顯的
-(20:18.360) 迅速的速度
-(20:20.940) 這是您之前談到的
-(20:21.880) ADAS 運動
-(20:22.600) 你之前提到的一些方法
-(20:24.320) 也許你可以跟駕駛者說說
-(20:27.620) 你所指導的高水準
-(20:30.820) 謝謝
-(20:33.900) 非常感謝
-(20:34.500) 如我們所說
-(20:36.500) 我們在建造自動車的流程中
-(20:41.300) 一直在轉變成收入
-(20:44.800) 特別是新車的路線和車輛
-(20:54.320) We don't move with the industry.
-(20:56.420) You move primarily with our share gains.
-(21:08.380) about the size of the revenue.
-(21:12.600) it's all going in the right direction.
-(21:16.760) 我們的位置在企業上變得更強大
-(21:21.060) 我們在平臺上看到Flex的互動
-(21:24.920) 我們看到A-DAS和數碼車架在同一電池座位
-(21:31.900) 在其他層次上
-(21:33.120) 我們看到SOP成功達到大量車車的成功
-(21:37.980) 我們也宣佈了與Volkswagen合作的非常廣泛的合作
-(21:43.340) 您的評論是對的
-(21:45.720) 我們可以看到OEMs在A-DAS上更多的擁有
-(21:48.960) 我們可以看到OEMs在BMW上的組件
-(21:53.620) 這是他們的選擇
-(21:54.600) 我們看到他們的興趣
-(21:56.420) 這些事情正在進行得很好的
-(22:00.160) 接下來的問題是從Sameek Chatterjee的網站
-(22:03.300) JPMorgan的網站
-(22:04.120) 請問您幾個問題
-(22:06.240) 謝謝您提出我的問題
-(22:07.640) 我有一些在電子中心
-(22:09.440) 另一些在手機上
-(22:11.720) 在電子中心上
-(22:36.540) And I have a follow-up. Thank you.
-(22:39.260) Thank you so much, Amik.
-(22:40.800) So let me start with the data center.
-(22:43.180) 我認為我們計劃的方式都在進行中
-(22:46.420) 我認為今天唯一一個公開的客戶
-(22:48.920) 是U-Main
-(22:50.120) 他們的進展很好的
-(22:51.380) 我們開始了購物
-(22:54.880) 我們和他們在ISV
-(22:58.380) 在特派工作坊上工作
-(23:00.420) 我們很感激
-(23:02.120) 我們的團隊的進展
-(23:04.060) 在我們的路線上
-(23:05.820) 我們繼續得到非常有效的反應
-(23:08.940) 我認為從廣泛的合作
-(23:11.160) 你可能會想象到一個我們的大小的公司
-(23:13.720) 會與一些最大的高級計算機和
-(23:19.260) cloud service providers 在這個業務中進行談話
-(23:21.680) 我們有一個非常獨特的事情
-(23:23.480) 我們總是說我們有一個專門的平臺
-(23:27.200) 為分佈的數碼中心
-(23:29.180) 我們非常好地在某些工作室中
-(23:32.260) 例如decode
-(23:32.920) 與我們的不同的設計方式
-(23:35.080) 和記憶
-(23:36.020) 如果有任何問題
-(23:36.980) 我認為GROK的交易
-(23:49.180) 我們在這個時候,我們很想要做的就是,
-(24:13.820) 我們將在投資活動中提供的路線詳細,
-(24:18.000) 但目前目前所有的計劃都在進行,
-(24:21.560) 我們仍然在重新改革,
-(24:23.200) 他們將在收入中開始展示27個目標,
-(24:27.760) 我們感到很高興,
-(24:30.300) 我們將繼續執行這些計劃。
-(24:32.360) 我不知道阿卡西想要加什麼
-(24:34.540) 我先回到記憶
-(24:37.560) 我覺得我只要加的
-(24:39.720) 是我們之前提到過
-(24:42.080) 我們預期這將成為
-(24:43.560) 幾年內有多億的資金機會
-(24:45.440) 所以我認為
-(24:46.400) 育成的所有東西
-(24:47.480) 都能給我們重新重新重新重新
-(24:49.140) 好的
-(24:51.980) 所以記憶
-(24:53.280) 我們應該會看到
-(24:56.500) 這件事情的效果
-(24:57.940) 我會給大家看看
-(24:59.440) 一些經濟的動作
-(25:01.360) 當我們回頭看經營,
-(25:03.420) 我們非常高興,
-(25:06.300) 因為我們希望經營有更多記憶。
-(25:10.200) 而Hansens的成長是最大,因為它的程序和時間。
-(25:16.080) 因此,我們期望其他經營會更加有影響。
-(25:21.280) 例如,
-(25:21.860) 自動車的記憶價格增加,
-(25:26.440) 這也比Hansens和Bond的影響更加大。
-(25:29.740) 說到這一點,我們回顧過去的情況,
-(25:34.380) 我認為最好的選擇是在疫情中發生的事情。
-(25:38.240) 高級的價格價格顯然比價格增長更有信心。
-(25:45.060) 我們認為這可能是一個影響性的因素。
-(25:49.360) 但最重要的是,這不是價格的問題,
-(25:54.980) 而是價格的應用。
-(25:56.580) 所以我認為記錄的充足度
-(25:58.720) 會決定全體的大小
-(26:01.480) 在手機市場上
-(26:02.540) OEMs很可能會
-(26:05.060) 嘗試高級和高級
-(26:07.060) 他們在過去的行動
-(26:08.700) 這可能會比較少
-(26:10.040) 我們將看到
-(26:11.560) 消費者的反應
-(26:13.120) 在結束的產品上
-(26:13.500) 他們的價格增長
-(26:16.140) 我對我所說的說的有關
-(26:19.840) 我認為整個五年
-(26:20.820) 手機的大小
-(26:23.220) 會被記錄的充足度
-(26:25.480) 我們將在一半期間監視這些
-(26:28.540) 它知道電腦被延長
-(26:31.040) 級別的級別會向高和高級的改變
-(26:35.160) 我們將看到這些情況在市場上發生
-(26:37.360) 我可以快速的關注一下嗎
-(26:39.720) 在OEMs的高級級別上
-(26:42.700) 您在那些高級級別中
-(26:44.180) 您會否期望他們在級別上
-(26:48.420) 或SAC上的級別上
-(26:49.340) 或他們所用的SAC
-(26:50.620) 能夠管理整體的費用
-(26:52.720) 關於他們需要向消費者發佈的信息
-(26:55.660) 這就是我所說的,謝謝
-(26:58.480) 所以,作為一種全面的趨勢
-(27:00.940) 我希望要重新重新執行
-(27:04.260) 我們看到的一半
-(27:07.500) 是的,有記錄缺乏
-(27:09.380) 但當有記錄時
-(27:10.880) 我們看到的結果非常好
-(27:12.860) 消費者的需求非常好
-(27:14.660) 我們看到的
-(27:16.480) 已經有很多年來
-(27:19.140) 現在的高級領域繼續增長
-(27:22.540) 在相當平均的市場中
-(27:25.780) 就是漢森市場
-(27:27.280) 我們看到了高級領域增長的混合
-(27:31.960) 所以我認為這是一個因素
-(27:33.460) 可能會使OEMs
-(27:35.600) 繼續集中在高級領域上
-(27:37.680) 我還提到我準備的評論
-(27:41.140) 就是我們擴展的雙維碼戰略
-(27:45.160) 我們已經執行的方式
-(27:46.260) 這也被市場接受得很好的
-(27:50.360) 你可能看到
-(27:51.320) 當你考慮不同的OEM
-(27:53.580) 他們有像Ultra或不同的類型
-(27:57.340) 他們有不同的領域
-(27:59.760) 我估計這也會有帶來的
-(28:01.420) 但總體上我們希望
-(28:04.660) 領域領域會更有自信
-(28:07.020) 雖然說
-(28:08.180) 有的記錄是有的記錄
-(28:37.960) 請問
-(28:41.640) 我認為您的第一個問題是,
-(28:43.240) 我們不一定會分為地區,
-(28:45.900) 但如果您想想中國的OEMs的水平,
-(28:51.680) 但是它們在它們的額外的額外上調整,
-(28:54.660) 那麼我們的額外會比您看見的比較少。
-(29:00.600) And the seasonality side?
-(29:03.780) The seasonality on the handset side
-(29:08.080) and the demand from the consumers
-(29:18.740) when that plays out
-(29:21.040) I think to Christiana's earlier point
-(29:26.080) 我們沒有負面問題,
-(29:27.900) 我們說過,
-(29:28.920) 負面繼續強化,
-(29:30.660) 我們的設計派對繼續強化,
-(29:33.140) 然後它們就只是一個數月內的供應合作問題。
-(29:38.760) 我猜這是我接下來的關注,在OPX方面,您給了一個很好的解釋,為什麼在週末時期它們有點上升。
-(29:45.020) 之後,您在記憶方面有什麼改變,還是您們在這方面投資?
-(29:52.220) 我們會進行試驗。
-(30:20.160) 我們在過去幾年來都非常有專業感
-(30:23.780) 與大量的投資者的成長
-(30:25.320) 也比收入和大量的利潤更慢
-(30:28.360) 我們的行業計劃
-(30:31.920) 也不會改變
-(30:33.420) 謝謝
-(30:34.020) 接下來是Stacey Raskin
-(30:40.440) Bernstein Research
-(30:41.420) 請問
-(30:42.260) 大家好
-(30:43.820) 謝謝您提出我的問題
-(30:45.380) 首先我想問一下
-(30:46.860) 季節性的問題
-(30:47.840) 我認為是在6月中,
-(30:50.220) 你領導了6億元的手套,
-(30:57.060) 在4月中,
-(30:57.240) 你領導了6億元,
-(30:58.060) 也就是13%的年度。
-(31:01.060) 你期望,以目前的記憶市場所看到的,
-(31:04.540) 以週年期間的增長,
-(31:09.840) 你認為這6億美元的數字,
-(31:13.460) 以目前的供應,
-(31:15.220) 是一個很好的數字,
-(31:19.300) 直到事情正常化。
-(31:22.200) 我們如何去想像,
-(31:24.000) 你覺得如何看待在2月份的中期中,以論中期的下跌和記憶情況?
-(31:31.120) 是的,所以,Stacey,以論市場的不確定性,我們顯然並沒有在這段時間內帶領導第二季度。
-(31:37.540) 但是,正如Kushano說的,當你考慮到需求基礎時,它們非常強大。
-(31:43.280) 而且這問題是如何供應的供應對付
-(31:46.940) 我們期望供應會對於年份的金融預測
-(31:51.620) 對於年份的全項預測
-(31:53.540) 特別是在平均季度之間
-(31:56.560) 您應該認為
-(31:57.860) 在4月份的預測是一個合理的方式
-(32:00.360) 也就是在其他年份的季度上
-(32:06.300) 您會看到的相似的季度
-(32:08.160) 明白,謝謝
-(32:10.600) 謝謝,我再問一下QTL的關鍵。
-(32:15.260) 我們不太知道多少手機能夠建造,
-(32:20.820) 您是如何看待QTL的運行率在每個季度?
-(32:28.220) 您認為它們和我們過去的情況很相似嗎?
-(32:30.580) 您的指示可能在明年中的情況下,
-(32:33.620) 您認為它們可能會在明年中的情況下?
-(32:35.840) 是的,Stacey,
-(32:36.940) 您是如何看待這些情況?
-(32:38.460) Stacey,
-(32:50.400) I think as you go into the next quarter,
-(33:01.700) that's subject to supply considerations.
-(33:04.800) 在目前的全年度中,
-(33:06.900) 以供應的情況來看,
-(33:08.360) 我們有一個弱點的影響於組合,
-(33:10.100) 但我們將要看它在下半年內的增長如何。
-(33:15.460) 所以,我們現在知道的情況下,在我們看到的在3月中的相似情況下,我們應該可以預料到的。
-(33:20.740) 我認為這是我所描述的方式,就是我們現在在想的方式。
-(33:25.260) 好的,謝謝大家。
-(33:32.480) 謝謝大家
-(33:56.800) 100% on the op line for March?
-(33:59.960) No, there isn't, Tim.
-(34:02.080) I think we're expecting
-(34:04.460) gross profit margin
-(34:07.400) to be largely in line
-(34:08.520) with the December quarter.
-(34:10.140) And so it's just the scale
-(34:11.480) of the revenue coming through
-(34:12.780) and the OPEX guidance
-(34:14.180) that we provided.
-(34:16.440) OK.
-(34:18.360) I'm sorry, Tim.
-(34:19.540) I just want to add one thing.
-(34:20.280) No, look, we saw how
-(34:22.720) I think the other company reported
-(34:26.120) 我們也有很堅定的看法
-(34:28.020) 我們看到的情況是
-(34:31.000) 整個市場都被調整了
-(34:39.080) 我們沒有看到任何其他事情
-(34:43.380) 我們一直有的季節
-(34:46.840) 無論是什麼年齡
-(34:49.320) 很多的獎項都在中國新年
-(34:52.980) 所以你通常看到中國人在一個順序上下跌
-(34:59.480) 因為他們只是為了預約的開發
-(35:02.980) 好的,謝謝
-(35:05.080) 還有任何關於華為的提供?
-(35:08.800) 我們還在等待
-(35:09.840) 還有什麼是最重要的?
-(35:12.280) 還有是否有風險?
-(35:13.600) 我們之前也談過了
-(35:14.620) 但是是否有風險和預期
-(35:15.760) 如果您不簽訂華為的協議?
-(35:19.420) 謝謝
-(35:21.740) 好,
-(35:21.740) 謝謝,
-(35:21.740) 這是Alex,
-(35:22.820) 其實沒有更新Wi-Fi討論,
-(35:25.480) 討論仍在進行,
-(35:26.820) 在關於組織的關鍵點上,
-(35:28.620) 我真的不能進入什麼是信心討論。
-(35:33.040) 我看到這兩個討論的討論是相當明顯的,
-(35:38.600) 實際上是明顯的,
-(35:39.940) 在不同的路線上的行動。
-(35:42.700) 而你也知道,在另一家公司上,
-(35:46.500) 我們在我們看到的新增日期上,
-(35:50.180) 我們會在進一步進行討論。
-(35:53.460) 所以,我們已經進行了,
-(35:55.960) 我們沒有更新。
-(36:00.000) 好的,謝謝。
-(36:03.140) 接下來的問題是由CJ Muse的CJ Muse
-(36:05.880) 與Kentrovich Gerald的CJ Muse。
-(36:06.800) 請問一下。
-(36:08.520) 好的,早上好。
-(36:09.560) 謝謝您提出這問題。
-(36:10.540) 我非常想問,當然,D-RAM製造商已經談及了
-(36:16.540) 只達50-70%的需求,他們在2028年中提出了缺點
-(36:23.800) 我非常想問,您是如何計劃這件事能夠被維持?
-(36:31.100) 您的中國客戶在CXMT中設計?
-(36:36.220) 您能夠在這方面獲得資格嗎?
-(36:39.240) 我猜您的商業會與三星有很強的關係
-(36:42.620) 因為他們的內部供應由DRAM
-(36:45.740) 以及您的供應鏈
-(36:47.600) 以為您的Wafer 供應到TSM
-(36:50.480) 您如何管理所有這些
-(36:53.680) 因為有這麼大的不確定性
-(36:56.400) 這是一個非常好的問題
-(36:58.680) 我知道這很明顯
-(37:01.460) 但我只要有機會就用這個方法來解釋一下
-(37:04.600) 我們沒有買記憶體的手提電腦
-(37:08.860) 有些記錄在Modem上,但大部分記錄是我們的客戶購買的。
-(37:15.940) 您應該期待,以我們的規模來說,我們可能是第一個能夠與每個記錄提供的傳輸者合作。
-(37:23.320) 每個記錄,你能想象,包括CXMT和其他小企業,我們已經被合作。
-(37:29.400) 而且我們也有更多的優勢
-(37:32.000) 和其他公司的優勢
-(37:35.420) 如果您雙擊
-(37:38.120) 您會看到我們有更多的優勢
-(37:40.240) 在我們的平臺上
-(37:42.860) 在我們的優勢
-(37:43.200) 在我們的平臺上
-(37:44.980) 我們有多層次的
-(37:47.220) 設計器
-(37:47.980) 從平臺的角度來看
-(37:50.140) 我們會用任何
-(37:51.220) 在我們的平臺上
-(37:52.000) 有缺點的方式
-(37:53.520) 我們會用任何
-(37:53.860) 我們的缺點
-(37:56.200) 第二個問題
-(37:57.660) 是更大的問題
-(37:58.860) 我認為在數研中增長的趨勢繼續,
-(38:03.880) 這很明顯,
-(38:05.780) 我認為記憶企業有把HBM的建築業
-(38:10.540) 我認為您剛才提到的數據
-(38:14.020) 是我們所看到的。
-(38:15.200) 如我之前所說,
-(38:16.460) 這很明顯的指示,
-(38:18.060) 目前來說,
-(38:19.260) 記憶用於電子化工具的
-(38:21.840) 使用率
-(38:22.160) 每年都在下降,
-(38:25.500) 我們看到在手機上
-(38:27.000) 你開始看到遊戲機的評論
-(38:29.140) 和其他用電子裝置的消費者
-(38:30.760) 我們不太能預測
-(38:33.700) 如果這會繼續到27或28
-(38:36.180) 我認為有計劃的建築
-(38:38.280) 這都很重要
-(38:40.380) 也論如何
-(38:42.000) 較努力的達特森特的趨勢
-(38:44.640) 繼續加速
-(38:45.600) 在此時
-(38:46.760) 我們可以預測
-(38:48.020) 在今年的費用
-(38:49.980) 漢森市場的大小
-(38:52.340) 這可能會
-(38:53.880) 對我們的生產有影響
-(38:56.940) 是由D-RAM的充足度來決定的
-(39:00.260) CGO,您的第二部分問題是關於
-(39:02.880) 主流軟件的波波
-(39:04.260) 您也知道主流軟件的波波
-(39:08.820) 也有限制
-(39:09.580) 但是我們和我們的供應商有很好的關係
-(39:11.860) 所以我們相信我們會有足夠的波波
-(39:13.820) 來解決需求
-(39:16.700) 謝謝,我想作為一個繼續提問
-(39:18.840) 如果我們看到一個混合轉向高的
-(39:23.000) Snapdragon
-(39:24.620) 但是軟件的量量低
-(39:26.940) 我們應該如何去計算這些影響你的QCT EVT額度?
-(39:32.540) 是的,你也知道,CJ,我們在高級和高級的獎勵中做得很好。
-(39:38.180) 因此,當量度升級時,這對我們來說是一個利益。
-(39:45.820) 接下來的問題是從Ben Ricey的聯繫中,與Millius Research的聯繫中。
-(39:49.480) 請問三個問題。
-(39:51.600) 是的,大家好,我想先說一下記憶的部分。
-(39:58.120) 我們看Apple的變化,他們的變化可能是一整年,
-(40:04.960) 似乎他們將繼續獲得的D-RAM的多餘。
-(40:11.840) 這是可能的嗎?你如何與所有你的夥伴一起執行這種進展?
-(40:21.200) 我猜到問題是,這會否增加了未來的年份不確定性?
-(40:28.940) 一個企業的成本不相同,他們的成本增加,他們的收入增加。
-(40:38.060) 我看,
-(40:38.740) 這很難判斷,
-(40:42.020) 但我會也可能提醒你,
-(40:44.740) 我們還有另一個大型客戶,
-(40:46.780) 他們也有記錄分別。
-(40:50.340) 所以,
-(40:50.860) 我認為,
-(40:51.900) 作為一種總的說明,
-(40:53.940) 我認為,
-(40:54.780) 大小的OEMs可能會有更好的能力,
-(41:04.320) 因為他們會有足夠的記憶力,並且他們會做出比較小的OEMs。
-(41:09.860) 但是我想這問題將會在業務上發生
-(41:15.820) 我認為沒有任何的OEM是有病毒的
-(41:19.480) 總體來說,我們在業務上看到的說明
-(41:23.160) 並不是負面問題,而是供應限制
-(41:27.960) 好的,看來有很多問題
-(41:29.820) 下一項問題,我想再次點擊數據中心
-(41:35.600) 我知道您被問到
-(41:37.180) 有沒有記錄
-(41:38.100) 但是在最近的事件上
-(41:41.880) 我相信你解決的解決方面
-(41:47.060) 我問你能否提供一些更新
-(41:50.900) NVIDIA的Grok
-(41:53.660) 和Howard的討論
-(41:58.000) 是否更加宏觀
-(42:00.160) 以及整體的趨勢
-(42:02.480) 以及你的能力
-(42:32.340) 謝謝
-(42:33.760) 我們的技術執行記錄已經成功了
-(42:40.700) 我們也明白數碼數碼的運作
-(42:46.540) 以我們的IP路線來說
-(42:50.600) 我們是一個從5瓦到500瓦的公司
-(43:03.740) 我們將專注在設置和解決的問題上
-(43:31.680) 從很多大企業的角度來看
-(43:34.060) 從技術方面和產品方面
-(43:36.760) 是非常正確的
-(43:37.740) 現在我們的鍵盤是
-(43:39.700) 要實行
-(43:40.380) 有更多的機會
-(43:41.480) 並且展示結果
-(43:44.400) 我們將繼續做這些
-(43:48.520) 謝謝
-(43:50.180) 這就結束今天的問答試問
-(43:52.680) Mr. Ramon
-(43:53.420) 您有什麼要再加的嗎
-(43:54.480) 在接受電話前
-(43:55.580) 我只想要加一件事
-(43:58.540) 看,
-(43:58.720) 你知道,
-(44:00.080) 很不幸的是,
-(44:01.240) 我覺得整個業界被記憶中影響,
-(44:05.140) 但是我們仍然非常鼓勵,
-(44:08.260) 我覺得基礎設立了公司,
-(44:11.140) 對很多業界有關,
-(44:13.460) 所以我們在努力,
-(44:14.620) 我們做了公司的分析金額,
-(44:18.940) 以月二十九年為基礎,
-(44:21.680) 我們在一段時間內
-(44:23.760) 我認為我們有非常好的拓展
-(44:26.520) 在未來的機會中
-(44:28.900) 機械、智能、和機械
-(44:31.660) 是我最好的例子
-(44:32.560) 我可以提供
-(44:33.220) 自動駕駛的方式
-(44:35.620) 我們相信我們正在創建
-(44:39.840) 一個非常不同的公司
-(44:42.040) 有很多關鍵的市場
-(44:44.320) 我們會繼續執行
-(44:47.920) 我們的路線
-(44:50.140) 我希望能夠感謝我們所有的夥伴
-(44:52.320) 我們的供應商
-(44:53.400) 他們在我們的記錄缺少中
-(44:56.600) 和我們的工作人員
-(44:57.420) 我們期待下週的討論
-(45:00.340) 各位先生們
-(45:01.980) 這就結束今天的會議
-(45:03.480) 您現在可以關機
+(00:00.000) Ladies and gentlemen,
+(00:00.720) thank you for standing by. Welcome to the Qualcomm first quarter fiscal 2026 earnings conference call. At this time all participants are in listen-only mode. Later we will conduct a question and answer session. If you would like to ask a question during this time,
+(00:14.600) press star then a number 1 on your telephone keypad. To throw your question,
+(00:19.140) press star then a number 2. If you are using a speaker phone,
+(00:22.520) please pick up your handset before pressing the numbers. Please limit your questions to one question and one follow-up.
+(00:28.360) As a reminder, this conference is being recorded February 4, 2026.
+(00:34.240) The playback number for today's call is 877-660-6853.
+(00:40.060) International callers, please dial 201-612-7415.
+(00:46.820) The playback reservation number is 137-58-127.
+(00:52.260) I would now like to turn the call over to Mauricio Lopez-Hedoyan,
+(00:55.640) Vice President of Investor Relations.
+(00:57.920) Mr. Lopez-Odoin, please go ahead.
+(01:04.080) Thank you, and good afternoon, everyone.
+(01:06.700) Today's call will include prepared remarks by Christiane Amon and Akash Palkawala.
+(01:12.340) In addition, Alex Rogers will join the question and answer session.
+(01:16.500) You can access our earnings release and a slide presentation that accompanies this call
+(01:21.060) on our Investor Relations website.
+(01:22.600) website. In addition, this call has been webcast on Qualcomm.com and a replay will be available
+(01:28.280) on our website later today. During the call today, we will use non-GAAP
+(01:32.860) financial measures as defined in Regulation G, and you can find the related reconciliations
+(01:37.600) to GAAP on our website. We will also make forward-looking statements, including projections
+(01:42.940) and estimates of future events, business or industry trends, or business or financial
+(01:47.560) financial results. Actual events or results could differ materially from those projected
+(01:52.580) in our forward-looking statements. Please refer to our SEC filings, including our most
+(01:57.440) recent 10-K, which contain important factors that could cause actual results to differ
+(02:02.660) materially from the forward-looking statements. And now the comments from Qualcomm's President
+(02:07.200) and Chief Executive Officer, Christian Almon.
+(02:10.340) Thank you, Mauricio, and good afternoon, everyone. Thanks for joining us today. In Fiscal Q1,
+(02:16.380) we delivered record revenues of $12.3 billion in non-GAAP earnings per share of $3.50.
+(02:24.400) Within QCT,
+(02:25.840) record revenues of $10.6 billion were driven by strength in flagship handsets.
+(02:32.760) We also saw another quarter of record revenues in automotive and positive momentum in IoT
+(02:39.240) across industrial edge networking applications and smart glasses.
+(02:44.680) Licensing business revenues were $1.6 billion.
+(02:48.540) While global consumer demand for handsets, especially premium and high-tier,
+(02:53.160) exceeded our expectations,
+(02:55.140) with healthy sell-through observed to fiscal Q1 in the first few weeks of 2026,
+(03:02.000) in the coming quarters, the handset industry will be constrained by the availability and pricing of memory,
+(03:09.180) particularly the RAM.
+(03:10.880) As memory suppliers redirect manufacturing capacity to HBM to meet AI data center demand,
+(03:18.640) the resulting industry-wide memory shortage and price increases are likely to define the overall scale of the handset industry through the fiscal year.
+(03:29.540) Given the current environment,
+(03:31.600) several handset OEMs,
+(03:33.780) especially in China,
+(03:35.040) are taking a cautious approach in reducing their chipset inventory.
+(03:39.340) This is reflected in our guidance for the upcoming quarter.
+(03:43.220) We will continue to work closely with our customers and suppliers as the situation evolves.
+(03:49.480) Akash will share more details on the memory impact in his prepared remarks.
+(03:54.340) And now, some key highlights from the business.
+(03:56.820) We are pleased with the continued expansion of the premium and high-tier smartphone segments and traction of Snapdragon platforms,
+(04:04.980) including broad OEM adoption for dual flagship product strategy.
+(04:10.720) For Samsung's upcoming family of premium-tier devices,
+(04:14.880) we expect approximately 75% share consistent with prior expectations.
+(04:21.020) It is important to note that during the quarter,
+(04:24.240) ByDense launched the first agentic AI smartphone powered by the Snapdragon 8 Elite.
+(04:31.680) This is a significant milestone in the transition toward AI-native smartphones and the precursor to the agentic experiences shaping the future of mobile.
+(04:42.420) With the development of agents and AI becoming the new UI,
+(04:47.980) intelligent wearables are evolving into personal AI companions and quickly emerging as the next mobile computing category.
+(04:56.240) Our early investments in this area,
+(04:59.540) including powerful and power-efficient chipsets,
+(05:02.800) advanced connectivity,
+(05:04.020) including micropower Wi-Fi,
+(05:06.600) as well as ambient sensing and perception technologies,
+(05:10.140) position Snapdragon XR,
+(05:12.680) Wear,
+(05:13.360) and Sound as the platforms of choice for the industry.
+(05:16.620) We're pleased to be working with seven of the nine largest cloud companies globally and more than 40 personal AI devices are in production or development.
+(05:28.060) In PCs,
+(05:29.280) we introduced the Snapdragon X2+,
+(05:32.200) an expansion of our second-generation platforms purpose-built for the enterprise and commercial segment.
+(05:38.860) The X2 Plus is powered by the third-generation Qualcomm Orion CPU,
+(05:43.960) which delivers up to 35% faster single-core performance and up to 3.5 times faster multi-core performance compared to the competition and previous generations.
+(05:56.700) Our Hexagon NPU provides up to 5.7 times and 3.4 times faster inferencing versus competitors NPU and GPU,
+(06:09.880) respectively.
+(06:11.600) 18 Snapdragon Power PCs debuted at CES from ASUS,
+(06:17.120) HP,
+(06:17.880) Lenovo,
+(06:19.040) and Microsoft.
+(06:19.740) The ASUS ZenBook A16 was one of the standouts,
+(06:24.040) featuring the Snapdragon X2 Elite Extreme and is the fastest Snapdragon Power laptop to date.
+(06:31.740) It features our 18-core,
+(06:33.520) third-generation Orion CPU,
+(06:35.420) an 80-TOPS hexagon NPU for AI workloads,
+(06:39.420) and an Adreno GPU delivering up to a 2.3 times improvement in performance per watt versus the prior generation.
+(06:48.080) X2 Elite Extreme enables desktop class performance,
+(06:52.540) advanced graphics,
+(06:53.920) and more than 21 hours of battery life in an ultralight 16-inch form factor.
+(07:00.340) We remain on track to commercialize 150 Snapdragon X-Power PCs this year.
+(07:06.800) year. Demand for our Snapdragon digital chassis solutions remains incredibly strong and we
+(07:13.460) announced several collaborations with top automakers, OEMs, and service providers during
+(07:20.000) the quarter. We signed a letter of intent for a long-term supply agreement with Volkswagen Group,
+(07:25.880) which spans many brands including Audi and Porsche. Under this intended agreement, we would
+(07:31.880) would provide advanced infotainment and connectivity capabilities powered by our digital chassis
+(07:37.000) across multiple vehicle segments, price tiers, and markets.
+(07:40.860) We would also serve as the group's primary technology provider for its software-defined
+(07:46.760) vehicle architecture developed through its joint venture with Rivian Automotive.
+(07:52.580) In addition, we're collaborating with the group's Automated Driving Alliance, formed
+(07:57.800) by Cariad and Bosch to accelerate development of highly automated driving systems.
+(08:04.320) We're very proud that the newly launched RAV4, Toyota's top-selling vehicle globally
+(08:11.300) and one of the best-selling cars worldwide, is powered by our Snapdragon Cockpit platform,
+(08:17.320) delivering premium AI-enabled in-vehicle experiences.
+(08:21.320) We also announced new and expanded collaborations with Hyundai Mobis,
+(08:26.100) Leap Motor,
+(08:26.940) Lee Auto,
+(08:27.860) Zeker,
+(08:28.680) Great Wall Motors,
+(08:30.000) Neo,
+(08:30.480) and Cherry,
+(08:31.320) bringing our total design win for Snapdragon Elite platforms to 10 programs.
+(08:37.340) In industrial IoT,
+(08:39.000) we continue to expand our portfolio of advanced computing,
+(08:42.640) connectivity,
+(08:43.240) and AI solutions for an increasing number of verticals.
+(08:47.180) With the recent acquisition of Algentics,
+(08:50.080) we augmented our DragonWing vision portfolio and Qualcomm Insight platform with its AI-based low-power image signal processing solution.
+(08:59.840) At CES,
+(09:00.820) we also introduced two new DragonWing processors delivering on-device intelligence for security-focused drones,
+(09:08.800) smart cameras,
+(09:10.100) and industrial vision,
+(09:11.220) AI TVs,
+(09:12.460) media hubs,
+(09:13.920) and video collaboration systems.
+(09:15.780) Additionally,
+(09:16.880) the launch of our new Dragonwing IQX series marked our entry into the industrial
+(09:24.160) PC space with best-in-class compute performance and efficient edge AI engineered for PLCs,
+(09:31.720) advanced HMIs, edge controls, and panel and box PCs.
+(09:37.240) This quarter, we formally announced our expansion into advanced robotics and introduced a full
+(09:43.920) suite of robotics technologies and solutions including the Dragon Wing IQ
+(09:48.960) 10 series. Our general purpose robotics architecture supports advanced
+(09:54.120) perception and motion planning using models such as VLA's and VLMs allowing
+(10:00.060) robots to perceive, reason, adapt and act in real-world environments. As part of a
+(10:06.360) complete harder to softer stack IQ 10 is designed to accelerate commercialization
+(10:11.860) of household, industrial, and humanoid robots.
+(10:15.440) It combines heterogeneous edge compute, safety-grade SOCs, and end-to-end AI.
+(10:23.060) In a short period of time, we have engaged with AdvanTech, AppLux, AutoCore, Booster,
+(10:29.280) Figure, KUKA Robotics, Robotech AI, and VinMotion to help define the compute architecture for
+(10:36.660) their robotics and humanoid platforms.
+(10:38.780) The physical AI in robotics space is experiencing rapid growth driven by advances in edge AI and sensor fusion,
+(10:48.700) and Qualcomm is one of the best positioned companies to enable this next frontier of AI.
+(10:55.260) We will do this by leveraging our strengths in high-performance, power-efficient computing,
+(11:01.660) connectivity, and edge intelligence, as well as our experience in ADAS and autonomy,
+(11:07.960) industrial and safety-grade silicon, and perception and sensing technologies.
+(11:13.620) Many of the drivers of our leadership in automotive are applicable to advanced robotics.
+(11:19.560) Finally, we continue to develop our data center solutions and engage with leading hyperscalers,
+(11:26.640) cloud service providers, sovereign AI projects, and other global partners.
+(11:31.660) We remain encouraged by the positive feedback on our CPU and innovative AI processing and
+(11:38.200) memory architecture for next-generation inferencing data centers.
+(11:42.740) Additionally, the recent developments in the industry validate Qualcomm's view of the
+(11:48.800) the importance of specialized and power-efficient AI platforms as inferencing becomes the key driver
+(11:55.280) of data center growth. In fiscal Q1, we completed the AlphaWave semi-acquisition,
+(12:02.000) adding high-speed wire connectivity technologies to further strengthen our platforms. We also
+(12:08.100) acquire Ventana Microsystems, reinforcing our leadership and commitment to expanding the RISC-V
+(12:14.580) standard and ecosystem, and development of our high-performance RISC-V CPU for data center
+(12:21.920) workloads. We look forward to providing more information, including an update on our roadmap
+(12:27.400) at our next investor event. We'll also share our progress in robotics, automotive, and next
+(12:33.540) generation autonomy, industrial IoT, and 6G. I will now turn the call to Akash.
+(12:40.480) Thank you, Christiano, and good afternoon, everyone.
+(12:43.260) Let me begin with our strong first fiscal quarter results.
+(12:46.960) Total revenues of $12.3 billion and non-GAAP EPS of $3.50 were both records, with non-GAAP
+(12:54.580) EPS coming in at the high end of our guidance.
+(12:57.160) QTL revenues of $1.6 billion and EBT margin of 77% were at the high end of our guidance,
+(13:03.700) driven by higher units and favorable mix.
+(13:06.320) We delivered record revenues in QCT of $10.6 billion,
+(13:10.580) including strong year-over-year growth across automotive and IoT.
+(13:16.280) QCT handset revenues reached a record $7.8 billion,
+(13:20.100) reflecting the benefit of recently launched flagship smartphones.
+(13:25.540) QCT IoT revenues of $1.7 billion grew 9% year-over-year, driven by demand across consumer and networking products.
+(13:33.040) In QCT Automotive, we delivered another record quarter, with revenues growing to $1.1 billion,
+(13:39.960) up 15% versus the year-ago period, on increased demand for our Snapdragon digital chassis
+(13:46.180) platforms.
+(13:47.680) QCT EBT margin of 31% came in line with expectations, exceeding our long-term target of 30%.
+(13:55.640) Lastly, we returned $3.6 billion to stockholders, including $2.6 billion in stock repurchases
+(14:02.200) and $949 million in dividends.
+(14:05.500) Before turning to guidance, I'd like to address the impact of the memory industry dynamics
+(14:09.960) on our financial outlook.
+(14:11.740) The fundamentals of our handset business remain favorable, with a stable global economic environment,
+(14:18.380) total handset shipments exceeding expectations in the December quarter, especially in the
+(14:23.120) premium and high tier, and a strong design wind pipeline for our Snapdragon chipsets.
+(14:27.760) However, increasing demand for memory solutions in AI data centers is driving near-term uncertainty
+(14:34.660) in memory supply and pricing for handset OEMs.
+(14:37.980) As a result, the handset OEMs are taking a cautious approach in planning their business.
+(14:43.520) We've seen several OEMs, especially in China, take actions to reduce their handset build
+(14:47.920) plans and channel inventory.
+(14:49.660) Our guidance for the upcoming quarter reflects the latest signals from these customers, which
+(14:54.800) which includes reduced chipset orders aligned with their scaled-back expectations for built plans.
+(15:01.080) We expect to return to our prior run rate and growth trajectory for QCT handset revenues when these conditions normalize.
+(15:08.220) Now turning to guidance.
+(15:09.940) In the second fiscal quarter,
+(15:11.540) we are forecasting revenues of $10.2 to $11 billion and non-GAAP EPS of $2.45 to $2.65.
+(15:19.140) In QTL,
+(15:20.940) we estimate revenues of $1.2 to $1.4 billion and EBT margins of 68% to 72%,
+(15:27.820) reflecting normal sequential trend.
+(15:31.080) In QCT, we expect revenues of $8.8 to $9.4 billion and EBT margins of 26% to 28%.
+(15:38.560) We are forecasting QCT handset revenues to be approximately $6 billion as a result of the impact of memory constraints I just outlined.
+(15:47.640) We anticipate QCT IoT revenues to grow by low teens percentage versus the year-ago period,
+(15:54.740) driven by growth across industrial and consumer products.
+(15:59.080) In QCT Automotive,
+(16:00.720) following another record quarter,
+(16:02.640) we expect year-over-year revenue growth to accelerate to greater than 35% in the second fiscal quarter.
+(16:10.620) Lastly, we expect non-GAAP operating expenses to be approximately $2.6 billion in the quarter.
+(16:16.540) quarter. The sequential increase is driven by typical calendar year resets for certain
+(16:21.760) employee-related costs and completion of our acquisition of AlphaWave to further strengthen
+(16:27.100) our platforms for next-generation AI data centers.
+(16:31.340) In closing, we are pleased with our strong first quarter performance, delivering record
+(16:35.660) results across the following metrics. Total company revenue, non-GAAP EPS, QCT revenues,
+(16:42.520) revenues, QCT handset revenues, and QCT automotive revenues.
+(16:46.180) While near-term QCT handset guidance is being impacted by memory industry dynamics, the
+(16:52.180) underlying fundamentals around consumer demand for handsets and Snapdragon product leadership
+(16:57.980) remain strong.
+(16:59.320) Our second quarter guidance reflects the continued revenue acceleration across automotive and
+(17:05.000) IoT with their combined growth outpacing the run rate required to achieve our long-term
+(17:10.560) revenue targets.
+(17:12.520) Our product announcements and strong customer engagement at CES 2026 further demonstrated our momentum across multiple growth vectors.
+(17:22.160) In automotive, we have reinforced our technology leadership with 10 design wins for Snapdragon Ride Elite and Cockpit Elite,
+(17:30.340) eight global programs for Snapdragon Ride Flex,
+(17:33.800) and continued success in building an automated driving stack ecosystem for our customers.
+(17:39.300) In robotics,
+(17:40.540) we announced a full suite of technologies,
+(17:43.100) including the industry-leading Dragon Wing IQ10 chipset platform and engagement with several players in the ecosystem to drive commercialization of our products.
+(17:53.460) In industrial,
+(17:55.240) we showcased our ability to serve a wide spectrum of customers,
+(17:59.160) from global enterprises to local developers,
+(18:02.600) with an expanded portfolio that offers advanced edge computing and AI solutions across industry verticals.
+(18:10.240) This concludes our prepared remarks. Back to you, Mauricio.
+(18:14.600) Thank you, Kaush. Operator, we are now ready for questions.
+(18:18.740) Thank you. To queue a question,
+(18:20.860) press star,
+(18:21.440) then the number one. To try your question,
+(18:23.760) press star two. If you're using a speakerphone,
+(18:26.340) please pick up your handset before pressing the numbers. One moment,
+(18:29.960) please,
+(18:30.240) for the first question. The first question comes from the line of Joshua Buckhalter with TD Cowan. Please receive your questions.
+(18:37.600) Hey guys, thank you for taking my question.
+(18:39.800) You know, I wanted to start with the handset outlook.
+(18:43.000) Any other factors that are driving the weakness beyond the memory pricing?
+(18:46.720) It was good to hear the reiterated Samsung share.
+(18:50.040) But I think, you know, most importantly, how should we think about the TAM for the year?
+(18:55.460) And do you feel like this inventory correction is sort of the last shoe to drop in the March
+(19:02.240) quarter that you're seeing?
+(19:03.140) Thank you.
+(19:05.080) Thanks, Joshua, for the question.
+(19:06.160) I will start, and I'll ask Akash to add more color.
+(19:08.760) It's 100% related to memory.
+(19:11.660) Actually, I'll say the macroeconomic indicators has been strong.
+(19:16.340) We look at the handset demand has been strong.
+(19:19.780) I think because of our licensing business, we have a good understanding of the overall demand.
+(19:25.940) We look at sell-through data, also very strong.
+(19:28.500) But unfortunately,
+(19:29.740) I think what we saw in Q1 as we go to Q2 is 100% size by the availability of memory.
+(19:38.300) So as you all know, as all the indications show that DRAM availability for consumer electronics,
+(19:45.500) especially handsets, is actually down by us in a year over a year because of the prioritization of HBM for data centers.
+(19:51.600) I think the market is going to be sized by that.
+(19:53.840) And I think we saw the reaction right away from our customers are adjusting, I think, their build production to the memory they have available.
+(20:02.220) And I don't know if Akash would like to add some more color to that.
+(20:06.260) No, I think that covers it.
+(20:09.080) Okay.
+(20:09.900) Thank you, Cristiano.
+(20:10.880) I guess to follow up,
+(20:11.940) I mean,
+(20:12.120) just backing into the guidance you just gave on QCT,
+(20:14.380) I mean,
+(20:14.800) that auto number is implying a pretty sharp acceleration sequentially.
+(20:19.600) you know is this some of the ADAS wins that you've talked about previously
+(20:23.740) layering in and maybe you could speak to you know the both the drivers and the
+(20:27.700) durability of this this this higher the higher watermark that you're guiding to
+(20:31.840) thank you no thank you very much as we have said consistently I think you know
+(20:38.780) the the pipeline we have built an automotive it is continue to translate
+(20:43.800) into revenue especially as new cars ramp and new cars launches and I think that's
+(20:49.480) That's why we continue to see record revenues in automotive.
+(20:54.360) We don't move with the industry.
+(20:56.460) We move primarily with our share gains.
+(20:59.140) I think we're very excited about the trajectory.
+(21:03.380) I will say we feel good about all the projections we have made about the size of the revenue.
+(21:10.040) When you look at our targets for fiscal 29, it's all going in the right direction.
+(21:14.340) And we continue to have more design wins.
+(21:16.760) I think our position in the industry becomes stronger.
+(21:21.120) I think with the platform,
+(21:21.980) we see interaction with Flex,
+(21:23.840) which both,
+(21:25.720) you know,
+(21:27.000) the ability to bring ADAS and digital cockpit in the same chipset across other tiers.
+(21:32.900) We're seeing now some of the major, I think, volume drivers achieving SOP.
+(21:38.700) We did announce a very broad partnership with Volkswagen Group.
+(21:43.300) And to your comment, it is correct.
+(21:45.580) We're getting more traction with ADAS once OEMs were able to see the stack that we launched
+(21:52.320) with BMW that was an option for them.
+(21:55.020) We're seeing interest, and those things are progressing very well.
+(22:00.360) The next question is from the line of Samik Chatterjee with J.P. Morgan.
+(22:03.980) Please proceed with your questions.
+(22:05.760) Hi.
+(22:06.360) Thanks for taking my questions.
+(22:08.140) I have one on data center and one on the smartphone side.
+(22:11.760) Maybe on the data center, Christian, if you can give us an update in terms of the progress
+(22:16.700) with your customers on that front.
+(22:18.940) And given sort of the volatility we're seeing in memory, is that sort of being more disruptive
+(22:25.160) to making progress with your customers?
+(22:27.940) Or instead, is it sort of augmenting some of the pace of the discussions, given sort
+(22:32.440) of big focus on that side of the sort of bill of materials as well?
+(22:36.540) And I have a follow-up.
+(22:37.300) Thank you.
+(22:39.260) Thank you so much, Sameek.
+(22:40.320) So let me start with the data center.
+(22:43.080) I think everything is going in the way we have planned.
+(22:46.480) I think the only public, I think, customer announced today is Humane.
+(22:50.160) That is progressing well.
+(22:51.480) We have started shipping.
+(22:54.920) We have been working with them and ISV on third-party workloads.
+(23:00.860) We're encouraged about the progress our teams are doing on our roadmap.
+(23:05.900) We continue to get very positive feedback, I think,
+(23:09.560) I think from broad engagements, you would imagine that a company
+(23:12.840) at our size would be engaged in conversations with some of the largest
+(23:17.800) hyperscalers and cloud service providers in the industry.
+(23:21.560) We have something very unique.
+(23:23.520) We always said we have a dedicated platform for the disaggregated data center.
+(23:29.440) We do very, very well in certain workloads such as decode
+(23:32.980) with our different approach to compute and memory.
+(23:36.080) If anything, I think the transaction of Grok kind of validates that when you think about this aggregated data center,
+(23:43.820) you have specialized hardware versus just a GPU that will do everything.
+(23:48.620) And we're getting good traction.
+(23:51.160) Where we're really focused right now is on execution.
+(23:54.680) I think we had identified some of the milestones we're executing on two fronts.
+(23:59.840) It's CPU.
+(24:00.760) We added a RISC-V CPU now to our roadmap in addition to Orion, which is ARM-compatible.
+(24:07.980) And we're executing on AI250 with our new memory architecture.
+(24:14.340) And we will provide details of our roadmap in our investor events.
+(24:18.380) But so far, everything is on track.
+(24:21.900) We'll still restate.
+(24:23.400) They will expect 27 to start showing in revenues.
+(24:27.980) And we feel good.
+(24:30.240) We're just going to keep executing that.
+(24:32.380) And I don't know if Akash, you want to add anything before I go to memories?
+(24:37.440) No,
+(24:37.880) I think the only thing I'll add on data center is we've mentioned previously that we expect this to be a multi-billion revenue opportunity in a couple years.
+(24:45.800) And so everything that Kushana outlined kind of just reiterates that opportunity for us.
+(24:51.500) Okay, so the memory thing, and look, I think we're going to see how this thing played out.
+(24:58.200) I'm going to give you maybe a little bit of the dynamics.
+(25:01.280) When we step back and we look at the business, we're very, very happy with everything in the business.
+(25:08.500) We just wish there was more memory.
+(25:10.080) And the handsets get hit the most given its scale and its cycle time.
+(25:15.980) So we expect that the impact is going to be more muted in other business.
+(25:21.500) For example, automotive is a little bit less sensitive to memory price increases.
+(25:26.360) as you pointed out, the impact on Hanson's and the bond.
+(25:29.840) Having said that, when we go back to situations that we saw in the past,
+(25:35.780) I think the best proxy is what happened during the pandemic.
+(25:38.240) The premium and high tier has proven to be more resilient to price increases.
+(25:45.020) And we think that that may be a factor that play out.
+(25:49.580) But the most important thing is that the issue is not just the price.
+(25:54.900) The issue is just availability.
+(25:57.080) So I think the memory availability will determine the overall size of the handset market.
+(26:03.240) OEMs are very likely to prioritize premium and high-tier how they have done in the past.
+(26:08.640) That could be less impacted, and we will see the reaction on consumers as their price increases for the finished product.
+(26:16.380) I do stand by what I said.
+(26:19.580) I think the whole fiscal year mobile handset size will be determined by memory availability,
+(26:25.440) and we're just going to monitor this on a quarter as phones get repriced,
+(26:31.980) tiers kind of shift towards high and premium, and we'll see what happens in the marketplace.
+(26:37.340) If I just can quickly follow up on that, Christian, on the OEMs prioritizing the higher tier,
+(26:42.220) I mean, within that higher tier, do you expect them to downshift in terms of the tiering of the chipsets
+(26:48.420) or the SOCs that they go for just to be able to manage their overall cost
+(26:52.660) in relation to what they need to pass on to consumers?
+(26:55.720) And that's it from me. Thank you.
+(26:58.500) So as a general trend, and I wanted to emphasize what we saw in the quarter.
+(27:06.720) Yes, there's a memory shortage, but when there was memory,
+(27:10.880) we saw the results was very good.
+(27:13.160) Consumer demand was very good.
+(27:14.680) And what we have seen, which has been going on like for years now, the premium tier continues to expand.
+(27:22.480) In a market that has been relatively flat,
+(27:25.380) which is the handsome market,
+(27:27.200) we have seen growth in the mix where the premium tier is expanding.
+(27:31.920) So I think that's a factor that is likely going to drive OEMs to continue to be focused on the premium tier.
+(27:37.440) I did mention one thing on my prepared remarks,
+(27:41.140) which is a dual flagship strategy that we have adopted,
+(27:46.040) and that has been also very well received,
+(27:49.400) I think,
+(27:49.980) by the market.
+(27:50.640) You probably see that when you think of different OEMs,
+(27:53.780) how they have like ultra or different categories,
+(27:57.340) and they have multiple tiers of the premium tier.
+(27:59.820) I expect that's going to play.
+(28:01.480) But overall, our hope is that the premium tier will be more resilient.
+(28:07.640) Granted, the memory that is available is the memory that's available.
+(28:13.100) The next question comes from the line of Ross Seymour with Deutsche Bank.
+(28:16.600) Pleased to see you with your questions.
+(28:19.000) Hi, guys.
+(28:19.680) Thanks for asking the question.
+(28:21.020) You mentioned a couple different things on the handset side for my first question,
+(28:24.300) but I guess what it comes down to is what percentage of your handset business
+(28:28.340) do you think is in China, considering that you cited them as being especially hit?
+(28:33.080) And do you think normal seasonality is likely to occur after this step down in the March quarter,
+(28:38.020) or is that too difficult to tell? Yeah, I think on your first question, Ross,
+(28:43.600) we don't really kind of break down by regions. But if you think about the percent of volume that
+(28:49.860) is driven by the Chinese OEMs, but then adjust it down for the tiers that they play in, so our
+(28:55.200) exposure would be less than what you would just see based on the units.
+(29:00.580) And the seasonality side?
+(29:03.920) The seasonality on the handset side, I think you should think of the seasonality and the demand
+(29:09.460) from the consumers is going to be consistent with what we've seen in the past. I think consumers
+(29:13.500) wait for premium tier launches, and there's significant purchases that happen when that
+(29:19.940) that plays out. I think to Christiana's earlier point, it's really a question of how supply
+(29:24.960) aligns against the demand. We don't have a demand issue, as we said earlier. The demand continues
+(29:29.840) to be strong. Our design wind pipeline continues to be strong. And then it's just a question of
+(29:34.500) supply alignment with it over the next few months. And I guess just for my follow-up on the OPEX
+(29:40.800) side of things, you gave a good explanation why it's popping up a bit in the March quarter.
+(29:45.000) After that, are there any adjustments, given what you're saying in the memory side, or are you guys
+(29:49.340) kind of investing right through this?
+(29:51.780) I think the way we've guided the March quarter is a reasonable way of thinking
+(29:56.820) about the rest of the year.
+(29:58.680) I think our focus, as we've said before, is the following framework on OPEX,
+(30:03.980) really kind of reduce the investments in mature businesses
+(30:06.840) and use it to fund the diversification priorities.
+(30:09.840) And then we have these acquisitions, including AlphaWave,
+(30:13.380) kind of driving incremental expense and investment in data center.
+(30:17.820) But it's really just focused on those things.
+(30:20.100) As we've been extremely disciplined over the last several years
+(30:23.520) and grown OPEC significantly slower than revenue and gross profit,
+(30:28.580) that framework for our operating plan doesn't change going forward.
+(30:33.880) Thank you.
+(30:37.840) The next question is from the line of Stacy Raskin with Bernstein Research.
+(30:41.680) Please receive your questions.
+(30:43.420) Hi, guys.
+(30:44.200) Thanks for taking my questions.
+(30:45.440) For the first one, I want to ask that seasonality question a different way.
+(30:48.480) And I think it was really getting a June.
+(30:50.720) Like, usually just seasonally, I know your revenues stepped down in June.
+(30:55.180) So you're guiding $6 billion in hand sets.
+(30:57.140) You're guiding $6 billion in March quarter, which is down about 13% year over year.
+(31:01.120) Are you expecting,
+(31:02.020) just given what you're seeing in the memory market right now,
+(31:04.520) a similar – and what can be supplied a similar type of year over year growth,
+(31:09.640) like,
+(31:10.300) for hand sets in June?
+(31:11.340) June, or do you think this $6 billion number, given it is supply-concerning, is a good number
+(31:16.120) to have given the current supply that is out there until things normalize?
+(31:22.320) How do we think about June in the context of March, given the March decline in the context
+(31:28.600) of the memory situation?
+(31:31.140) Yeah.
+(31:31.700) So, Stacey, given the uncertainty in the market, we're obviously not guiding beyond the second
+(31:36.860) quarter at this point.
+(31:37.760) But as Kushano said earlier, when you think about the demand fundamentals, they're strong.
+(31:43.300) And really, it's a question of how supply aligns against it.
+(31:47.040) And we expect that supply will really define the financial forecast for the year, for the rest of the fiscal year.
+(31:54.360) Specifically, kind of between quarters, you should think of March as a reasonable way to model June as well.
+(32:02.500) It's really kind of a similar seasonality profile that you would see in other years.
+(32:09.540) Got it. Thank you. And for my follow-up, I want to ask just about QTL. So, again, it sounds like
+(32:16.320) the demand is there, but we just don't know how many handsets are going to be able to be built.
+(32:20.800) I guess in that context, how are you thinking about sort of like just the typical QTL run rates
+(32:26.540) in the various quarters through the year? Do you think they're similar to what we've seen
+(32:29.980) in the past? I think your guidance is maybe in line to maybe slightly below what would we
+(32:34.320) we typically see for March? Yes, Stacey. I mean, how do you think about that? Yeah, Stacey, it's a
+(32:39.700) car. So let me try to address it a couple ways. I think first is just strong performance in December
+(32:46.320) quarter. We saw units, handset units, higher than expectation in the quarter. I think as you go into
+(32:52.140) the next quarter, we are guiding QTL just slightly below what we did last year. So pretty consistent
+(32:58.940) consistent with trend, but of course that's subject to supply considerations.
+(33:04.580) As you think about the full year at this point, given the supply, we have a negative bias on
+(33:09.820) units, but really we're going to have to see how it plays out as we go through the
+(33:12.860) growth of the next several months. Got it. So maybe a touch below,
+(33:16.900) though, similar to what we saw in March seems reasonable, given what we know right now?
+(33:20.740) I think that's the framework that I outlined is the way we are thinking about it.
+(33:25.080) Got it. Okay. Thank you, guys.
+(33:29.180) The next question is from the line of Timothy Akuri with UBS.
+(33:32.360) Please proceed with your questions.
+(33:34.700) Thanks a lot.
+(33:35.440) Akash, I wanted to ask about the margin guidance in QCT.
+(33:38.740) The drop-through is more than 100%.
+(33:40.760) I mean, it's not surprising that margins would come down,
+(33:43.580) but they seem to be coming down pretty quickly,
+(33:45.140) like faster than I would have thought.
+(33:46.560) Is there something else going on there?
+(33:48.660) I know that wafer costs are going up,
+(33:50.400) and VD Tech said on their call that they're still gaining share at the high end.
+(33:53.960) Is there something going on to make the drop-through more than 100%
+(33:57.660) on the op line for March?
+(34:00.080) No, there isn't, Tim.
+(34:02.040) I think we're expecting gross profit margin
+(34:07.400) to be largely in line with the December quarter.
+(34:10.120) And so it's just the scale of the revenue coming through
+(34:12.800) and the OPEX guidance that we provided.
+(34:16.500) Okay.
+(34:18.640) I'm sorry, Tim.
+(34:19.500) I just want to add one thing.
+(34:20.300) No, look, we saw how I think the other company reported as well,
+(34:26.600) Well, very consistent view, I think, on what we're seeing sequentially on the quarter.
+(34:33.400) It's just the whole market is kind of being adjusted to the new build-out reality.
+(34:39.580) So we actually don't see anything other than that.
+(34:44.860) And remind you of the seasonality that we always have, regardless of this memory issue.
+(34:49.820) A lot of the premiums here launch in Chinese New Year.
+(34:53.100) So you actually normally see some of the Chinese go down on a sequential basis because they just,
+(35:00.360) you know,
+(35:01.180) build for the premium launches.
+(35:04.340) Okay, thanks.
+(35:05.140) And then do you have any update on the Huawei license?
+(35:08.900) I know we're still waiting for it.
+(35:10.300) And maybe what's the sticking point and is there risk?
+(35:13.540) We talked about this before, but is there risk and precedent for the big customer if you don't sign a license with Huawei?
+(35:19.360) Thanks.
+(35:21.320) Thanks for that.
+(35:22.040) This is Alex.
+(35:23.100) Really no update on the Huawei discussions.
+(35:25.620) The discussions are still underway.
+(35:27.020) In terms of sticking points, I really can't get into what are confidential discussions.
+(35:33.000) I see these two sets of negotiations as fairly distinct,
+(35:38.340) actually significantly distinct,
+(35:40.240) operating on different paths.
+(35:42.540) And as you know,
+(35:43.680) with the other company,
+(35:45.540) whenever we see a renewal date on the horizon,
+(35:50.340) we start discussions very well in advance.
+(35:53.100) And so that's underway, and we don't have any update on that.
+(35:59.960) Okay, thank you.
+(36:03.020) The next question is from the line of C.J. Muse with Cantor Fitzgerald.
+(36:06.760) Please proceed with your questions.
+(36:08.500) Yeah, good afternoon.
+(36:09.580) Thank you for taking the question.
+(36:10.880) I guess curious,
+(36:11.980) you know,
+(36:13.280) obviously the DRAM makers have been talking about satisfying only 50% to 70% of the demand,
+(36:19.000) And they're highlighting, you know, shortages into 2028.
+(36:23.780) So curious, you know, how you're planning for, you know, a situation where this could be sustained.
+(36:31.080) You know, are your Chinese customers looking to design in CXMT?
+(36:36.120) And, you know, could you get qualified inside of that?
+(36:39.200) I would assume your business with Samsung would be strong given their internal supply from DRAM,
+(36:45.840) as well as your supply chain in terms of your wafer commits to TSM.
+(36:50.600) I guess how are you managing all of that given all this great uncertainty?
+(36:56.800) Look, very good question.
+(36:58.900) And I know it's obvious, but just in case, I'm going to use this opportunity to make clarification.
+(37:04.820) For handsets, we don't buy memory.
+(37:08.020) I think there is some memory that gets stacked on modems,
+(37:12.720) but the majority of the memory is purchased directly by our customers.
+(37:15.980) You should expect, given our scale,
+(37:18.420) we're probably among the first to be qualified with every memory provided.
+(37:23.280) Every single memory you can imagine has CXMT and other smaller companies.
+(37:28.100) We have been qualified.
+(37:29.800) And also we have flexibility versus some of the other companies.
+(37:34.840) companies. If you actually double-click, you're going to see we have flexibility about working
+(37:40.980) with new versions of memory as well as older version of memory on our platforms. We have
+(37:46.480) multi-generation memory controllers. So from a platform perspective, we're going to work with
+(37:50.860) whatever is available. I think that's kind of the approach we always took when you have a shortage.
+(37:56.440) So the second part of the question, which is the bigger question, look, the trend, I think,
+(38:01.720) of growth in the data center continues, and it's pretty obvious.
+(38:05.760) I think the memory vendors have prioritized the build-out of HBM.
+(38:10.300) And I think some of the data that you just provided is kind of what we see.
+(38:15.120) As I said before, it's a very clear indication that as of today,
+(38:19.140) the availability of memory for consumer electronics year over year
+(38:23.160) has been below the demand, and we've seen that in handsets.
+(38:27.000) You start to see commentary on gaming consoles
+(38:29.020) and other consumer electronics devices.
+(38:30.620) We can't really predict if this will continue for 27 or 28.
+(38:36.420) I think there's capacity build out in plans.
+(38:39.680) It all depends also how much the trend on data center continues to accelerate.
+(38:45.940) It is fair to assume at this point that for the fiscal year, the size of the handsome
+(38:51.640) market, which is one that is probably getting the blunt of the impact in our business, is
+(38:57.020) going to be defined by the availability of DRAM.
+(39:00.180) And CJ, on your second part of your question on wafers for leading nodes, as you know,
+(39:07.180) kind of leading nodes are constrained on the wafer side as well, but we have great relationships
+(39:10.960) with our suppliers, and so we're confident that we'll have enough wafers to address the demand.
+(39:16.300) Thank you. And I guess as a follow-up, curious, if we do see a mixed shift higher Snapdragon,
+(39:23.400) dragon, but unit volume is lower, how should we think about that impacting your QCT, EVT margins?
+(39:32.540) Yeah, I mean, as you know well, CJ, we do very well in the premium and high tiers.
+(39:38.240) And so as the volume shifts up, that is usually a benefit for us.
+(39:45.660) The next question is from the line of Ben Reiss with Milius Research.
+(39:49.460) Please receive your questions.
+(39:51.540) Yeah, hey, guys.
+(39:52.580) I wanted to just kind of keep going on the memory side.
+(39:57.200) You know, as we, you know, kind of look at Apple and their propensity for double-digit growth, maybe even the whole year,
+(40:04.960) it just seems like they are going to continue to get disproportionate, you know, share of the available DRAM.
+(40:12.100) Is it possible, you know, how do you kind of navigate that with all your partners?
+(40:19.240) partners, and I guess the question would be, does that add to some of the uncertainty that
+(40:26.180) could linger into the next fiscal year with one vendor getting disproportionately this
+(40:32.040) kind of unit growth and obviously the kind of allocation they get?
+(40:38.940) Look, it's hard to make prediction, but I will also probably remind you that we have
+(40:45.340) of another large customer, they also have the memory division as well.
+(40:50.340) So I think as a general statement,
+(40:53.820) I think it's probably a fact that OEMs
+(40:59.960) with larger scale will have probably better ability to have enough memory
+(41:06.040) and they will make priority calls than OEMs with smaller scale.
+(41:09.880) But I think that this problem is probably going to be industry-wide.
+(41:15.980) I don't think any OEM has been immune.
+(41:19.440) In general, I think the statements we have seen broadly in the industry is not a demand issue.
+(41:24.920) It's all supply constraint.
+(41:27.480) Okay.
+(41:28.600) Well, look, there's been a lot of questions on that.
+(41:30.460) Just my next one, I just wanted to double-click on the data center.
+(41:35.280) And, you know, I know you got asked about whether there will be memory available for that.
+(41:39.020) but just in terms of the recent events that validate,
+(41:42.380) you know,
+(41:43.240) I believe the decoding aspect of your solution,
+(41:48.020) I was wondering if you could just, you know, provide a little bit of an update there.
+(41:52.060) What's happened since Grok with NVIDIA and, you know, how are discussions going beyond humane
+(42:00.180) and just that overall trend and your ability to play? Thanks.
+(42:04.960) Look, here's what I can say without, I think, front-running our investor event.
+(42:14.580) First of all,
+(42:15.900) I think we are – I would describe it like this.
+(42:24.040) I think there's a lot of companies right now that recognize,
+(42:27.940) I think,
+(42:28.660) the technology and the technical capability of Qualcomm.
+(42:33.320) I think our track record on technology execution has been very successful,
+(42:40.540) and I think we also understand some of the dynamics on compute and memory,
+(42:46.680) I think, given the breadth of our IP roadmap.
+(42:50.640) We're probably one of the few companies that go from sub-5 watts to now all the way to 500 watts.
+(42:56.380) And we have said in the past, as we're going to enter this market,
+(43:01.820) We needed to kind of intercept where the market is going,
+(43:05.200) and we're going to be really,
+(43:06.700) really focused on inference and especially the disaggregated.
+(43:12.280) I think you're pointed to the right way.
+(43:16.380) I think,
+(43:16.680) for example,
+(43:17.080) decode applications we believe are incredibly competitive,
+(43:19.880) not only from a power consumption but also from an overall TCO,
+(43:23.640) compute density,
+(43:25.120) memory density.
+(43:26.620) And we're really focused on execution.
+(43:29.180) The feedback we have been given from a lot of the large companies on the technical side and on the product side is very positive.
+(43:37.840) Now the ball is in our court to execute, have hardware available, and kind of show the results.
+(43:44.600) And we're just going to continue doing that.
+(43:49.080) Thank you.
+(43:50.600) That concludes today's question and answer session.
+(43:52.820) Mr. Ramon, do you have anything further to add before adjourning the call?
+(43:56.300) Paul?
+(43:56.980) The only thing I want to add, look, you know, it's unfortunately, I think, that the whole
+(44:02.620) sector is impacted by memory, but we remain incredibly encouraged about, I think, the
+(44:09.500) foundation we set up at the company to be relevant to many industries.
+(44:13.360) We are on track to the commitments we made on the diversification revenues for the company
+(44:20.000) for fiscal 29.
+(44:21.380) We have,
+(44:22.560) in a record time,
+(44:23.620) I think,
+(44:24.320) been having very good traction in the future opportunity of robotics.
+(44:30.000) Physical AI in a robot is the best example I can provide other than autonomous driving of what edge AI is.
+(44:37.400) And we believe that we are creating really a completely different company with relevance in many, many markets.
+(44:44.540) And what we continue, we'll just continue to execute, I think, on a roadmap.
+(44:50.080) I would like to thank all of our partners, suppliers.
+(44:53.340) They're dealing with us in this memory shortage and our employees.
+(44:57.560) And we're looking forward to talk to you next quarter.
+(45:00.960) Ladies and gentlemen, this concludes today's conference call.
+(45:03.760) You may now disconnect.
