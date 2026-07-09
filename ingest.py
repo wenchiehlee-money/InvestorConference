@@ -1294,6 +1294,15 @@ def update_readme() -> None:
 
     repo = INVESTOR_CONFERENCE_REPO
     
+    # Load historical dates if exists
+    historical_dates = {}
+    hist_date_path = repo / "mops_historical_dates.json"
+    if hist_date_path.exists():
+        try:
+            historical_dates = json.loads(hist_date_path.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
     # ── Ensure audio_durations.json is synced first ──
     sync_all_audio_durations(repo)
     durations_file = repo / "audio_durations.json"
@@ -1593,8 +1602,8 @@ def update_readme() -> None:
             ev_type = "受邀法說"
 
         ingested = None
-        # Only associate with ingested files if it is NOT a future event and NOT an invited forum event.
-        if sid and exp_year and not is_future and not is_invited:
+        # Associate with ingested files if available.
+        if sid and exp_year:
             key = (sid, exp_year, exp_q)
             for r in rows:
                 if (r["stock_id"], r["year"], r["quarter"]) == key:
@@ -1734,11 +1743,14 @@ def update_readme() -> None:
         qstr_r = f"{r['year']} Q{r['quarter']}"
         if fy_year:
             qstr_r += f" / Q{fy_q}FY{fy_year}"
+        hist_key = f"{sid}_{r['year']}_q{r['quarter']}"
+        date_val = historical_dates.get(hist_key, "")
+
         merged.append({
             "sid": sid, "year": r["year"], "q": r["quarter"],
             "name":    display,
             "quarter": qstr_r,
-            "date":    "",
+            "date":    date_val,
             "type":    "法說會", # Default for ingested only
             "audio":   audio,
             "fin":     fin,
