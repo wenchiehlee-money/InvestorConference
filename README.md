@@ -43,7 +43,7 @@
 | ASML ASML Holding N.V. | 2026 Q2 | 財報 | 2026-07-15 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ASML/financials/) |
 | 2301 光寶科 | 2026 Q2 | 法說會 | 2026-07-14 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | 2301 光寶科 | 2026 Q2 | 財報 | 2026-07-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
-| 2308 台達電 | 2026 Q2 | 法說會 | 2026-07-10 | [60.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2308_2026_q2.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
+| 2308 台達電 | 2026 Q2 | 法說會 | 2026-07-10 | 無 | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | 2408 南亞科 | 2026 Q2 | 財報 | 2026-07-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2408) |
 | 2354 鴻準 | 2026 Q1 | 受邀法說 | 2026-06-30 | 無 | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2354) |
 | 3022 威強電 | 2026 Q1 | 受邀法說 | 2026-06-25 | 無 | - | - | [中](3022/3022_2026_q1_ir.pdf) ([MD](3022/3022_2026_q1_ir.md)) | [EN](3022/3022_2026_q1_ir_en.pdf) ([MD](3022/3022_2026_q1_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3022) |
