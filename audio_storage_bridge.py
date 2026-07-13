@@ -105,4 +105,10 @@ def get_audio_link_for_readme(repo: Path, stock_id: str, year: str, quarter: str
                       f"https://drive.google.com/uc?export=download&id={val}"
                 return f"[{dur_str}]({url})"
         except: pass
+
+    for suffix in (".m4a", ".mp3", ".wav", ".mp4"):
+        local_audio = repo / stock_id / f"{stem}{suffix}"
+        if local_audio.exists():
+            return f"[{dur_str}]({stock_id}/{stem}{suffix})"
+
     return dur_str
