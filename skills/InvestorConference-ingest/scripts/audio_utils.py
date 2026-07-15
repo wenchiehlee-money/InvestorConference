@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload, MediaIoBaseDownload
+from googleapiclient.http import MediaIoBaseDownload
 from io import FileIO
 import io
 
@@ -106,72 +106,9 @@ class AudioLoader:
             f.write(fh.getvalue())
         return str(dest_path)
 
-    def upload_to_drive(self, local_path):
-        """Upload a file and update manifest."""
-        if not self.service or not GDRIVE_AUDIO_FOLDER_ID:
-            print("Upload failed: Missing credentials or Folder ID.")
-            return None
-            
-        local_path = Path(local_path)
-        if not local_path.exists():
-            return None
-            
-        file_metadata = {
-            'name': local_path.name,
-            'parents': [GDRIVE_AUDIO_FOLDER_ID]
-        }
-        
-        # 使用 resumable=True 並確保支援大型檔案上傳
-        media = MediaFileUpload(str(local_path), resumable=True, chunksize=1024*1024)
-        
-        try:
-            # 建立檔案
-            file = self.service.files().create(
-                body=file_metadata, 
-                media_body=media, 
-                fields='id'
-            ).execute()
-            drive_id = file.get('id')
-            
-            # 更新 manifest
-            found = False
-            for item in self.manifest:
-                if item['file_name'] == local_path.name:
-                    item['drive_id'] = drive_id
-                    found = True
-                    break
-            if not found:
-                # 取得檔案資訊
-                match = re.search(r'(\w+)_(\d{4})_q(\d)', local_path.name)
-                self.manifest.append({
-                    'file_name': local_path.name,
-                    'drive_id': drive_id,
-                    'size_mb': round(os.path.getsize(local_path) / (1024*1024), 2),
-                    'company': match.group(1) if match else 'unknown',
-                    'year': match.group(2) if match else 'unknown',
-                    'quarter': match.group(3) if match else 'unknown',
-                    'relative_path': str(local_path.relative_to(REPO_ROOT)).replace('\\', '/')
-                })
-            self._save_manifest()
-            return drive_id
-        except Exception as e:
-            if "storageQuotaExceeded" in str(e):
-                print(f"Error: The Service Account reached its internal quota. This is common. Trying to use Folder ID {GDRIVE_AUDIO_FOLDER_ID}")
-            raise e
 
 # Instantiate shared loader
 audio_mgr = AudioLoader()
 
 if __name__ == "__main__":
-    # Test/Utility CLI
-    import sys
-    if len(sys.argv) > 2 and sys.argv[1] == "upload":
-        audio_mgr.upload_to_drive(sys.argv[2])
-    elif len(sys.argv) > 2 and sys.argv[1] == "migrate":
-        # Migrate all files in manifest that don't have drive_id
-        for item in audio_mgr.manifest:
-            if not item.get('drive_id'):
-                p = REPO_ROOT / item['relative_path']
-                if p.exists():
-                    print(f"Migrating {p.name}...")
-                    audio_mgr.upload_to_drive(p)
+    pass
