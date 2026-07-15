@@ -32,7 +32,7 @@ class AudioLoader:
         filename = f"{stock_id}_{year}_q{quarter}.m4a"
         
         # 1. Check local path (relative to repo root)
-        local_path = REPO_ROOT / stock_id / filename
+        local_path = REPO_ROOT / "data" / stock_id / filename
         if local_path.exists():
             return str(local_path)
         

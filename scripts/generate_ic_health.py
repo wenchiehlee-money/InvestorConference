@@ -93,7 +93,7 @@ def main():
                     digest_keys.add(f"{m.group(1).lower()}_{m.group(2)}_q{m.group(3)}")
 
     # 2. Scan company directories for conference keys
-    company_dirs = [d for d in REPO_ROOT.iterdir() if is_company_dir(d)]
+    company_dirs = [d for d in (REPO_ROOT / "data").iterdir() if is_company_dir(d)]
     print(f"Found {len(company_dirs)} company directories.")
 
     # Match stock_year_qX (e.g. 2330_2025_q1)
@@ -159,7 +159,7 @@ def main():
         
         # Check if we have successfully downloaded the true audio locally (>1MB)
         stock_id = key.split("_")[0]
-        comp_dir = REPO_ROOT / stock_id
+        comp_dir = REPO_ROOT / "data" / stock_id
         has_local_valid_audio = False
         if comp_dir.exists():
             for f in comp_dir.iterdir():

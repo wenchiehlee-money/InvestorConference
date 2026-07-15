@@ -1432,7 +1432,7 @@ def update_readme() -> None:
         return entries[key]
 
     exclude_dirs = {"web", "tmp", "tools", "spec", "definitions", ".git", ".github", "__pycache__"}
-    for d in sorted(repo.iterdir()):
+    for d in sorted((repo / "data").iterdir()):
         if not d.is_dir() or d.name.lower() in exclude_dirs or not re.match(r'^(\d{4}|[A-Z]{1,5})$', d.name, re.I):
             continue
         stock_id = d.name.upper() if not d.name.isdigit() else d.name
@@ -1441,7 +1441,7 @@ def update_readme() -> None:
             if m:
                 _, year, qnum, _ = m.groups()
                 e = _entry(stock_id, year, qnum)
-                rel_path = f"{stock_id}/{f.name}"
+                rel_path = f"data/{stock_id}/{f.name}"
                 e["audio_path"] = rel_path
                 # Use cached duration if available
                 if rel_path in durations_cache:
@@ -1460,31 +1460,31 @@ def update_readme() -> None:
             m2 = pdf_cn_pat.match(f.name)
             if m2:
                 _, year, qnum = m2.groups()[:3]
-                _entry(stock_id, year, qnum)["pdf_cn"] = f"{stock_id}/{f.name}"
+                _entry(stock_id, year, qnum)["pdf_cn"] = f"data/{stock_id}/{f.name}"
             m3 = pdf_en_pat.match(f.name)
             if m3:
                 _, year, qnum = m3.groups()[:3]
-                _entry(stock_id, year, qnum)["pdf_en"] = f"{stock_id}/{f.name}"
+                _entry(stock_id, year, qnum)["pdf_en"] = f"data/{stock_id}/{f.name}"
             m4 = report_cn_pat.match(f.name)
             if m4:
                 _, year, qnum = m4.groups()[:3]
-                _entry(stock_id, year, qnum)["report_cn"] = f"{stock_id}/{f.name}"
+                _entry(stock_id, year, qnum)["report_cn"] = f"data/{stock_id}/{f.name}"
             m5 = report_en_pat.match(f.name)
             if m5:
                 _, year, qnum = m5.groups()[:3]
-                _entry(stock_id, year, qnum)["report_en"] = f"{stock_id}/{f.name}"
+                _entry(stock_id, year, qnum)["report_en"] = f"data/{stock_id}/{f.name}"
             m6 = financial_tables_pat.match(f.name)
             if m6:
                 _, year, qnum = m6.groups()[:3]
-                _entry(stock_id, year, qnum)["financial_tables_en"] = f"{stock_id}/{f.name}"
+                _entry(stock_id, year, qnum)["financial_tables_en"] = f"data/{stock_id}/{f.name}"
             m7 = performance_review_pat.match(f.name)
             if m7:
                 _, year, qnum = m7.groups()[:3]
-                _entry(stock_id, year, qnum)["pdf_en"] = f"{stock_id}/{f.name}"
+                _entry(stock_id, year, qnum)["pdf_en"] = f"data/{stock_id}/{f.name}"
             m8 = transcript_pdf_pat.match(f.name)
             if m8:
                 _, year, qnum = m8.groups()[:3]
-                _entry(stock_id, year, qnum)["transcript_pdf"] = f"{stock_id}/{f.name}"
+                _entry(stock_id, year, qnum)["transcript_pdf"] = f"data/{stock_id}/{f.name}"
 
     # Scan sibling MOPS repo downloads for TW stock financial reports
     mops_downloads = repo.parent / "MOPS" / "downloads"
@@ -1520,9 +1520,9 @@ def update_readme() -> None:
                     e = _entry(sid, y, q)
                     if not e["audio_path"]:
                         # audio_path can be anything truthy to indicate "audio exists"
-                        e["audio_path"] = f"{sid}/{stem}.m4a" 
+                        e["audio_path"] = f"data/{sid}/{stem}.m4a" 
                         for rel_path, dur in durations_cache.items():
-                            if rel_path.startswith(f"{sid}/{stem}."):
+                            if rel_path.startswith(f"data/{sid}/{stem}."):
                                 e["audio_path"] = rel_path
                                 e["audio_min"] = float(dur) / 60
                                 break
@@ -1920,7 +1920,7 @@ def sync_all_audio_durations(repo: Path) -> None:
     updated_count = 0
     
     # 1. Check local files
-    for p in repo.iterdir():
+    for p in (repo / "data").iterdir():
         if p.is_dir() and p.name not in exclude_dirs:
             for audio_file in p.glob("*"):
                 if audio_file.suffix.lower() in audio_extensions:
@@ -2339,7 +2339,7 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
         extra_paths = []
         
         # --- Get External Transcripts ---
-        transcript_dir = INVESTOR_CONFERENCE_REPO / stock_id
+        transcript_dir = INVESTOR_CONFERENCE_REPO / "data" / stock_id
         
         # 1. AlphaSpread (Primary & Automatic)
         as_paths = fetch_alphaspread_transcript(stock_id, year, quarter, stem, transcript_dir)

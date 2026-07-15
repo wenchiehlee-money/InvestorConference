@@ -15,11 +15,10 @@ description: 投資人說明會（法說會）智慧影音與簡報下載與管�
 
 ## 📂 檔案清單
 * `scripts/ingest.py`：主 Ingest 邏輯。
-* `scripts/audio_utils.py`：Google Drive 儲存、下載與 Manifest 操作。
+* `scripts/audio_utils.py`：本地音檔狀態與 manifest 讀寫。
 * `scripts/audio_storage_bridge.py`：GitHub Releases 語音上傳與回退邏輯。
 * `scripts/migrate_audio_to_gh_releases.py`：歷史 GDrive 資源移轉至 GitHub。
-* `scripts/convert_ir_pdfs.py`：簡報 PDF 批次轉 Markdown。
-* `scripts/generate_ic_health.py`：產生法說會完整度（Health）分析。
+* `scripts/fetch_yahoo_transcript.py`：透過瀏覽器抓取 Yahoo Finance 逐字稿的獨立工具。
 
 ## 🚀 使用方法
 ```bash

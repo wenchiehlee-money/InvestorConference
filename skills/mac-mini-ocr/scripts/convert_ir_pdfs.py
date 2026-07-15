@@ -90,7 +90,8 @@ def convert_pdf_to_md(pdf_path, md_path):
 def main():
     print("=== Converting Investor Presentation PDFs to Markdown (via skills/mac-mini-ocr) ===")
     targets = set(sys.argv[1:])
-    company_dirs = [d for d in REPO_ROOT.iterdir() if is_company_dir(d)]
+    data_dir = REPO_ROOT / "data"
+    company_dirs = [d for d in data_dir.iterdir() if is_company_dir(d)]
     if targets:
         company_dirs = [d for d in company_dirs if d.name in targets]
         unknown = targets - {d.name for d in company_dirs}

@@ -1,2 +1,2 @@
 process_timestamp,total_conferences,total_audio_conferences,total_pdf_only_reports,has_pdf,has_audio,has_transcript,has_srt,fully_ingested,pdf_only,pdf_only_healthy,pdf_only_broken,ingestion_rate_pct,conference_ingestion_rate_pct,pdf_only_ingestion_rate_pct,durations_registered_count,ready_to_use_rate_pct,has_digest,digest_eligible,digest_rate_pct,conf_md_complete,conf_md_partial,conf_md_missing,conf_md_complete_rate_pct,fully_ingested_md_warning,checked_at
-2026-07-15T17:16:01.429699+08:00,58,43,14,54,39,30,42,37,14,10,4,63.79,86.05,71.43,41,70.69,8,42,19.05,38,2,1,92.68,3,2026-07-15T17:16:01.429699+08:00
+2026-07-15T17:26:51.280683+08:00,58,43,14,54,39,30,42,37,14,10,4,63.79,86.05,71.43,41,70.69,8,42,19.05,38,2,1,92.68,3,2026-07-15T17:26:51.280683+08:00
