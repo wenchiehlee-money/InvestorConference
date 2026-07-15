@@ -24,7 +24,8 @@ mac-mini-ocr/
 └── scripts/
     ├── ocr_client.py      # 連線與 API 傳送客戶端腳本 (支援 CLI 與模組導入)
     ├── pdf_fallback.py    # Mac-mini 離線時的本地非 OCR PDF→Markdown 退援轉換
-    └── refine_todo_ocr.py # 補轉錄 Markdown 中標記 TODO:OCR 的頁面
+    ├── refine_todo_ocr.py # 補轉錄 Markdown 中標記 TODO:OCR 的頁面
+    └── convert_ir_pdfs.py # 批次處理法說會簡報 PDF 轉錄工具
 ```
 
 ## ⚙️ 前置環境配置
@@ -68,9 +69,18 @@ except Exception as e:
 python scripts/ocr_client.py path/to/report.pdf > output.md
 ```
 
-### 🔌 方式 C：Mac-mini 離線時的退援模式（非 OCR）與 TODO:OCR 工作流程
+### 📈 方式 C：批次處理法說會簡報 (IR PDFs)
+如果您需要批次處理多個投資關係相關的 PDF，可以使用 `convert_ir_pdfs.py`：
+```bash
+# 掃描全部股票資料夾進行轉換：
+python scripts/convert_ir_pdfs.py
 
-當 Mac-mini 不在線（不在 Tailscale 網內、關機等）時，可先用本地文字層抽取產生暫用 Markdown，之後再補做 OCR：
+# 只處理特定指定股票代碼的資料夾：
+python scripts/convert_ir_pdfs.py 2301 DELL
+```
+
+### 🔌 方式 D：Mac-mini 離線時的退援模式與 TODO:OCR 工作流程
+當 Mac-mini 不在線時，可先用本地文字層抽取產生暫用 Markdown，之後再補做 OCR：
 
 ```bash
 # 步驟 1：離線退援轉換（僅抽取 PDF 內嵌文字層，不做 OCR）
