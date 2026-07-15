@@ -12,21 +12,21 @@ import type {
 
 // ── file-path patterns ────────────────────────────────────────────────────────
 
-/** 法說會: numeric top-level folder, e.g. 2382/2382_2025_q3.mp3 */
-const IR_AUDIO_RE = /^(\d+)\/(\d+)_(\d{4})_q(\d)\.(?:mp3|m4a|wav)$/i
-const IR_PDF_RE   = /^(\d+)\/(\d+)_(\d{4})_q(\d)_([^/]+)\.pdf$/i
+/** 法說會: data/{stockId}/{stockId}_{year}_q{quarter}.mp3, with legacy top-level fallback */
+const IR_AUDIO_RE = /^(?:data\/)?([A-Z0-9]+)\/\1_(\d{4})_q(\d)\.(?:mp3|m4a|wav)$/i
+const IR_PDF_RE   = /^(?:data\/)?([A-Z0-9]+)\/\1_(\d{4})_q(\d)_([^/]+)\.pdf$/i
 /** GT SRT: {stem}_GT.srt  |  FIN SRT: {stem}.srt or {stem}_FIN.srt */
-const IR_SRT_RE   = /^(\d+)\/(\d+)_(\d{4})_q(\d)(?:_GT|_FIN)?\.srt$/i
+const IR_SRT_RE   = /^(?:data\/)?([A-Z0-9]+)\/\1_(\d{4})_q(\d)(?:_GT|_FIN)?\.srt$/i
 
-/** GTC: top-level GTC/ folder */
-const GTC_AUDIO_RE = /^GTC\/(.+)\.(?:mp3|m4a|wav)$/i
-const GTC_PDF_RE   = /^GTC\/(.+?)_([^/]+)\.pdf$/i
-const GTC_SRT_RE   = /^GTC\/(.+?)(?:_GT|_FIN)?\.srt$/i
+/** GTC: data/GTC/ folder, with legacy top-level fallback */
+const GTC_AUDIO_RE = /^(?:data\/)?GTC\/(.+)\.(?:mp3|m4a|wav)$/i
+const GTC_PDF_RE   = /^(?:data\/)?GTC\/(.+?)_([^/]+)\.pdf$/i
+const GTC_SRT_RE   = /^(?:data\/)?GTC\/(.+?)(?:_GT|_FIN)?\.srt$/i
 
-/** Podcast: top-level Podcast/ folder */
-const POD_AUDIO_RE = /^Podcast\/(.+)\.(?:mp3|m4a|wav)$/i
-const POD_PDF_RE   = /^Podcast\/(.+?)_([^/]+)\.pdf$/i
-const POD_SRT_RE   = /^Podcast\/(.+?)(?:_GT|_FIN)?\.srt$/i
+/** Podcast: data/Podcast/ folder, with legacy top-level fallback */
+const POD_AUDIO_RE = /^(?:data\/)?Podcast\/(.+)\.(?:mp3|m4a|wav)$/i
+const POD_PDF_RE   = /^(?:data\/)?Podcast\/(.+?)_([^/]+)\.pdf$/i
+const POD_SRT_RE   = /^(?:data\/)?Podcast\/(.+?)(?:_GT|_FIN)?\.srt$/i
 
 // ── lookup helpers ────────────────────────────────────────────────────────────
 
@@ -123,7 +123,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
     let m: RegExpMatchArray | null
 
     if ((m = path.match(IR_AUDIO_RE))) {
-      const [, stockId, , year, quarter] = m
+      const [, stockId, year, quarter] = m
       const key = `${stockId}_${year}_q${quarter}`
       const entry = getOrCreate(key, () => ({
         id: stockId,
@@ -137,7 +137,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
       entry.durationSec = data.durations[path]
 
     } else if ((m = path.match(IR_SRT_RE))) {
-      const [, stockId, , year, quarter] = m
+      const [, stockId, year, quarter] = m
       const key = `${stockId}_${year}_q${quarter}`
       const entry = getOrCreate(key, () => ({
         id: stockId,
@@ -151,7 +151,7 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
       entry.srts.push({ url: rawUrl(path), badge })
 
     } else if ((m = path.match(IR_PDF_RE))) {
-      const [, stockId, , year, quarter, label] = m
+      const [, stockId, year, quarter, label] = m
       const key = `${stockId}_${year}_q${quarter}`
       const entry = getOrCreate(key, () => ({
         id: stockId,
@@ -259,8 +259,11 @@ export function parseEntries(data: LoadedData): AudioEntry[] {
       }))
       if (!entry.audioUrl) entry.audioUrl = getAudioUrl('', stem, data)
       if (!entry.durationSec) {
-        // durations.json keys use file paths like "2330/2330_2025_q4.m4a"
-        entry.durationSec = data.durations[`${stockId}/${stem}.m4a`]
+        // durations.json keys use file paths like "data/2330/2330_2025_q4.m4a"
+        entry.durationSec = data.durations[`data/${stockId}/${stem}.m4a`]
+          ?? data.durations[`data/${stockId}/${stem}.mp3`]
+          ?? data.durations[`data/${stockId}/${stem}.wav`]
+          ?? data.durations[`${stockId}/${stem}.m4a`]
           ?? data.durations[`${stockId}/${stem}.mp3`]
           ?? data.durations[`${stockId}/${stem}.wav`]
           ?? data.durations[stem]
