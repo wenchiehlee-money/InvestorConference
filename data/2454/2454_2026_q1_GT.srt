@@ -1,0 +1,358 @@
+[METADATA]
+Source: 2454_2026_q1_alphaspread_transcript.md
+Review-Level: conservative_from_FIN
+Reviewer: codex
+Reviewed-At: 2026-07-15
+Audio-Checked: none
+Correction-Sources: AlphaSpread Q1 transcript, FIN timestamp scaffold only, Q1 digest source audit
+Corrections: replaced mismatched Q4 FIN transcript text with Q1 AlphaSpread transcript text; retained approximate timing scaffold from FIN because no audio-verified Q1 timestamps are available
+Confidence: medium
+Timing-Note: approximate timestamps generated from mismatched FIN duration scaffold; use for reading/navigation only, not audio-verified citation
+---
+(00:05.120) Operator
+(00:08.304) Welcome to the MediaTek 2026 First Quarter Investors Conference Call. Financial results and presentations for today's call are available on Investors section of the company website at www.mediatek.com.
+(00:26.082) Now I would like to turn the call over to Ms. Jessie Wang, Deputy Director of Investor Relations. Mr. Wang, please go ahead.
+(00:37.049) Jessie Wang
+(00:40.233) Good afternoon, everyone. Joining us today are Dr. Rick Tsai, MediaTek's CEO; and Mr. David Ku, MediaTek's CFO. Mr. Ku will report our first quarter results, and then Dr. Tsai will provide our prepared remarks.
+(00:58.806) After that, we will open for Q&A.
+(01:01.990) As a reminder, today's presentation will provide forward-looking statements based on our current expectations.
+(01:11.719) The statements are subject to various risks and factors, which may cause actual results to differ materially from the statements.
+(01:23.129) The presentation material supplement, non-TIFRS financial measures earnings distribution will be made in accordance with financial statements based TIFRS.
+(01:36.749) For details, please refer to the safe harbor statement in our presentation slides.
+(01:44.002) In addition, all contents provided in this teleconference are for your reference only, not intended for investment.
+(01:54.173) Neither MediaTek nor any of the independent providers is responsible for any actions taken in reliance on content provided in today's call.
+(02:06.467) Now I would like to turn the call to our CFO, Mr. David Ku, for the first quarter financial results.
+(02:15.311) David Ku
+(02:18.495) Thank you, Jessie. Good afternoon, everyone. Now let's start with the 2026 1st quarter financial results. The currency used here is NT dollar and the average exchange rate for the first quarter was TWD 31.62 to USD 1.
+(02:37.688) Revenue for the quarter was TWD 149.2 billion, down 0.7% sequentially and down 2.7% year-over-year.
+(02:46.444) Gross margin for the quarter was 46.3%, up 0.2 percentage points from the previous quarter and down 1.8 percentage points from the year ago quarter.
+(02:59.534) Operating expense for the quarter were TWD 46.2 billion compared with TWD 47.4 billion in the previous quarter and TWD 43.8 billion in the year ago quarter.
+(03:13.332) Operating income for the quarter was TWD 22.9 billion, up 4.8% sequentially and down 23.8% year-over-year. Non-TIFRS operating income for the quarter was TWD 26.6 billion.
+(03:28.456) Operating margin for the quarter was 15.3%, up 0.8 percentage points in the previous quarter and down 4.3 percentage points year-over-year. Non-TIFRS operating margin for the quarter was 15.8%.
+(03:45.526) Net income for the quarter was TWD 24.4 billion, up 5.6% sequentially and down 14.4% year-over-year. Non-TIFRS net income for the quarter was TWD 45 billion.
+(03:59.412) Net profit for the quarter was 16.3%, up 0.9 percentage points from the previous quarter and down 3 percentage points year-over-year. Non-TIFRS net profit margin for the quarter was 16.7%.
+(04:16.039) EPS for the quarter was TWD 15.17, up from TWD 14.39 in the previous quarter and down from TWD 18.43 in the year ago quarter. Non-TIFRS EPS for the quarter was TWD 15.52.
+(04:31.075) A reconciliation table for our TIFRS and non-TIFRS financial measure is attached in our press release for your information.
+(04:41.954) And that concludes my comments. Thank you.
+(04:45.668) Jessie Wang
+(04:48.852) Thank you, David. And now I would like to turn the call to our CEO, Dr. Rick Tsai, for prepared remarks.
+(04:58.051) Lih Shyng L. Tsai
+(05:01.235) Thank you. Good afternoon, everyone. Thank you for joining us today.
+(05:07.249) MediaTek's first quarter revenue came in at the high end of our guidance range, thanks to the steady demand from our diversified platforms and a more favorable growing exchange rate.
+(05:23.346) First quarter gross margin was around the middle point of our guidance range.
+(05:30.156) During the quarter, the rapid adoption of agentic AI use cases such as [ open claw ] AI agents and other compute-intensive workloads have marked the inflection point for the industry.
+(05:46.342) The acceleration of computing requirements under the ubiquitous AI megatrend are not only broadening the addressable market for edge devices, but further expanding AI infrastructure investment.
+(06:03.412) Our differentiated combination of technologies and product propels us to meaningfully benefit from structural growth in both the edge and the cloud.
+(06:16.502) In edge devices, building our strong positions across numerous markets, we continue to invest in and deliver advanced SoC and faster connectivity solutions spanning mobile, computing, automotive, IoT and beyond.
+(06:35.164) I will elaborate more in the business discussion sections.
+(06:40.293) In data center, demand momentum is particularly strong with our comprehensive and solid capabilities across design, integration and supply chain execution. Our first AI accelerator ASIC project for a U.S.
+(06:58.336) hyperscale customer is progressing fairly well. We are on schedule for production and now expect AI ASIC business to contribute around USD 2 billion in revenue in the fourth quarter of this year.
+(07:15.583) For 2027, based on the capacity we have now secured, we are very confident that this project will scale to multiple billion U.S. dollars.
+(07:27.700) Meanwhile, design for the other AI-accelerated ASIC project is currently underway in close collaboration with our customers and supply chain partners with mass production targeted to start by the end of 2027.
+(07:46.097) Furthermore, we are actively engaged in several new data center ASIC opportunities. some of which are already in the final stages of discussion.
+(07:58.833) We are confident that our proven capabilities can address the rapidly growing AI demand of the market and deliver strategic value to customers.
+(08:11.481) Meanwhile, we continue to invest significantly and have made tangible progress in building best-in-class, system-level technology road map for future data center architecture.
+(08:26.958) On the optical front, to address the industry trend towards leveraging silicon photonics to achieve higher bandwidth density, we made a USD 90 million investment this quarter in [ Air Labs ], a leader in optical engines for CPO as part of our co-packaged optics partnership.
+(08:51.192) We also announced a successful design with Microsoft Research for the next-generation active optical cable powered by micro LED light sources, which can significantly improve power efficiency in data centers.
+(09:09.589) Furthermore, we are making solid progress in the development of enabling technologies for future generations of data centers with successful test vehicles.
+(09:23.298) We are very proud of our status in building next-generation 400G high-speed service, 64G die-to-die interconnect and advanced 3.5G platform, which covers IP design enablement and advanced packaging technology to realize design with much larger [ graphical ] sizes.
+(09:46.648) Additionally, our development in custom HBM solutions and integrated voltage regulators, IVR, are also advancing as planned.
+(09:57.615) These ongoing investments will further improve performance per watt and power efficiency of multiple kilowatt FPU in future data centers and further strengthen our long-term technology road map, positioning us to support the evolving requirements of next-generation data centers and AI workloads.
+(10:23.795) With that, now let me talk about the recent business performance for our 3 revenue groups.
+(10:31.755) In the first quarter, our Mobile Phone revenue declined 17% quarter-over-quarter and 15% year-over-year, accounting for 49% of total revenue.
+(10:44.226) The current concentration of industry resources on data centers has led to elevated costs for smartphones. Our customers have raised retail prices and shifted their product mix toward higher-end models to manage that.
+(11:03.418) Given such adjustments will inevitably lower the market demand for smartphones, we expect global smartphone shipments to decline by about 15% this year.
+(11:16.862) For the second quarter, as our customers stay cautious while pending further visibility into end market demand, we expect Mobile Phone revenue to decline sequentially, and we will continue to work with our customers and navigate through this period together.
+(11:39.681) Nevertheless, the indispensable role the smartphone play in our daily life, coupled with accelerating agentic AI innovation, supports our view that the smartphone replacement demand will recover when the supply conditions normalize.
+(12:00.200) Therefore, we continue to invest in and empower more advanced smartphone.
+(12:06.656) We have already secured several design wins for our next-generation flagship SoC, which is our first 2-nanometer product, featuring a meaningful step-up in user experience, enabled by stronger computing and AI capabilities.
+(12:26.380) Smartphones powered by this 2-nanometer flagship SoC are scheduled to hit the market by the end of the third quarter, and we anticipate our Mobile Phone revenue to improve in the second half of the year.
+(12:44.334) Moving on to Smart Edge Platforms. In the first quarter, this group grew 23% quarter-over-quarter and grew 13% year-over-year, accounting for 46% of total revenue.
+(12:58.751) Our global market share gain were a key driver of both sequential and year-over-year growth. We also saw a sequential demand recovery as demand rebounded from a seasonally weak fourth quarter.
+(13:15.732) We are pleased that several new projects that we have cultivated over the past few years in collaboration with top-tier consumer brands, notebook makers, telecom operators, car makers and CSPs have begun or are expected to start volume production in 2023.
+(13:38.286) We expect Smart Edge Platforms revenue excluding the contribution from the new data center ASIC project, to grow by double-digit percentage this year.
+(13:51.553) This is mainly driven by our global share gain across connectivity, computing and automotive products and, to a lesser extent, higher blended ASP for certain TV SoCs to reflect the increase in DRAM costs.
+(14:09.595) As these drivers continue, we expect Smart Edge Platforms revenue to grow sequentially in the second quarter.
+(14:19.236) In the future, given our leading technology and product road map, together with agentic AI trend discussed earlier, we are seeing structural growth opportunities for edge devices.
+(14:35.068) The strong lineup of our advanced computing solutions allows us to expand in multiple areas, such as high-end computing devices and automotive.
+(14:47.715) Specifically last week at Beijing Auto Show, we showcased our 3-nanometer Dimensity Auto agentic AI cockpit solution which, enables active and intuitive in-vehicle agent features for both drivers and passengers.
+(15:06.377) We have received very positive feedback from customers. Moreover, we will be leading the automotive industry to migrate to 2-nanometer process technology to enable more innovation.
+(15:22.297) In addition, building on our strong connectivity foundation, including Wi-Fi 7, 5G modem and 10G PON, we continue to lead the market with next-generation Wi-Fi 8 and 5G NGN satellite solutions to achieve faster and more seamless connectivity.
+(15:43.701) We believe the combination of strong computing and connectivity capability will make MediaTek a strong partner for agentic AI device makers.
+(15:56.084) Moving on to Power IC. This group accounted for 5% of total revenue in the first quarter, increasing 14% quarter-over-quarter and 11% year-over-year. In the second quarter, we expect Power IC revenue to be flattish.
+(16:15.099) Moving to the guidance. In the second quarter of 2026, we expect the revenue growth from Smart Edge Platforms to partially offset the weakness in our smartphone business.
+(16:30.135) Quarterly gross margin is expected to be stable within the current range.
+(16:36.591) We expect our second quarter revenue to be in the range of TWD 140.2 billion to TWD 149.2 billion, flat to decline 6% sequentially and down 1% to 7% year-over-year at a forecasted exchange rate of TWD 31.5 to USD 1.
+(16:55.607) Gross margin is forecasted at 43% plus or minus 1.5 percentage points, and operating expense ratio is forecasted at 31% plus or minus 2 percentage points.
+(17:09.228) For the full year, we expect revenue to increase by mid- to high single-digit percentage in U.S. dollar year-over-year.
+(17:19.753) Meanwhile, through disciplined pricing strategy, we aim to sustain our full year gross margin within the current quarter guidance range. We will continue to build long-term growth in the cloud.
+(17:36.823) We are highly focused on disciplined execution across our growth opportunities and expect these efforts to drive significant operating leverage over time.
+(17:50.443) This concludes my prepared remarks. Thank you.
+(17:54.512) Jessie Wang
+(17:57.696) Thank you, Rick. Operator, we are now ready for Q&A. May we please have the first question?
+(18:05.744) Operator
+(18:08.928) [Operator Instructions] And our first question will be Bruce Lu, Goldman Sachs.
+(18:15.915) Zheng Lu
+(18:19.100) Congratulations for the recent progress of the ASIC project. But I want to ask more about your next project.
+(18:28.652) So after you successfully demonstrate your IO technology, which is already proven at the Tier 1, can you do more? I mean, can you do compute die or other functional die for your customers for the next project?
+(18:47.137) Also for the ASP, I see you provide a lot more value than comparing to the first year. Recent research suggests that the pricing is meaningfully higher than the first one.
+(19:02.261) It seems to be that it's too meaningful to be true, but I want to get some color in case I made a mistake in my assumption.
+(19:13.140) Also lastly is for the gross margin and operating margin. As you provide a lot more value, can we assume like higher gross margin, operating margin compared to the first project?
+(19:28.883) So in summary, my question is like, can you do more than IO die for your next project? And can you update the ASIC TAM in 2028?
+(19:40.115) Lih Shyng L. Tsai
+(19:43.299) Again, first, we cannot comment our customers' chip architecture, clearly. However, what we can comment is we are adding more value in various ways, including silicon and packaging, both.
+(19:59.839) And of course, together with our IP, die-to-die, et cetera.
+(20:05.057) As you probably can imagine, the second chip is -- the second chip in the next generation and certainly will -- and if you look at the track record of the previous generations, again, it is fair to view the second-generation chip to a much stronger, also bigger chip.
+(20:28.672) So the value covers from both silicon and packaging. We are gaining values in both areas. And with the value going up, we certainly, I think, will have a higher pricing of such much more powerful chip.
+(20:46.449) So I think this is -- while, as I stressed before, we continue to work with our customers to also enhance their own capability. That's always at the heart of our business model with our customers.
+(21:03.785) It's a win-win situation.
+(21:06.969) We, together, add a lot of value to their chip, and the customers can utilize those powerful yet our efficient chips to implement in their data centers and provide a lot more value to their customers.
+(21:24.658) So I think that's basically how I would address your question. Thank you.
+(21:31.114) Zheng Lu
+(21:34.298) But do you have the updated number for the addressable market for ASIC? Because I think last time you were talking about like, I think it's $60 billion, $70 billion, you were talking in 2028.
+(21:51.191) Do you have the updated numbers?
+(21:54.375) Lih Shyng L. Tsai
+(21:57.559) Yes. Yes, I mean, we have done kind of a first order estimate. The market is changing so fast as you can attest from just less than 24 hours ago, or the announcement from the 4 major CSPs.
+(22:14.187) Everybody can see that the demand for the data center infrastructure, data center computing power just continues to grow and, if anything, continue to accelerate.
+(22:28.515) So our estimates, in my mind, is first order in nature, and I don't know if it's a conservative start, but it's not really aggressive. We now view the market size to be about $70 billion to $80 billion in 2027.
+(22:47.089) That's our view now. Thank you.
+(22:50.273) Zheng Lu
+(22:53.457) Okay. My next question is for the packaging solutions for the ASIC business. It seems to me that MediaTek choose a different path for your next chip, which is not the mainstream solution, at least not for now.
+(23:11.942) So can you provide some color that how you manage the execution risk? Do you have a backup plan if things are not moving in the right direction? Or you are comfortable with the recent technology progress at your parter?
+(23:31.311) And I think this one is definitely one of the biggest concern from the investors. Any color would be appreciated.
+(23:41.306) Lih Shyng L. Tsai
+(23:44.490) Again, we cannot comment specific technologies that we are doing together with our customers.
+(23:52.715) But I think suffice to say that we are investing into packaging solutions, packaging technology solutions, both because in the industry, the demand in the AI infrastructure being so demanding.
+(24:09.697) Packaging is now becoming a really, really critical part of the overall total solution. We need to invest in various technologies so that we can better prepare ourselves for various demand from various customers.
+(24:28.447) And we understand your question. We believe a second approach of the packaging solution has merit, very good merit. Technology-wise, execution is getting quite good.
+(24:43.040) Again, we are working closely with our partners for both packaging solutions, and we will provide a good high yield solutions to our customers. I have no doubt about that in my mind. Thank you.
+(25:00.110) Operator
+(25:03.294) And the next question, Sunny Lin, UBS.
+(25:06.655) S Sunny Lin
+(25:09.839) Congrats on the very encouraging progress made for the cloud ASIC project. And so my first question is double check.
+(25:20.099) Rick, did you just mention now you're tracking the addressable market for cloud ASIC to be $70 billion to $80 billion by 2027, not by 2028?
+(25:32.393) Lih Shyng L. Tsai
+(25:35.577) Correct. You're correct. Yes.
+(25:38.761) S Sunny Lin
+(25:41.945) And you are still expecting share target to be 10% to 15%?
+(25:47.075) Lih Shyng L. Tsai
+(25:50.259) We keep that for now, yes.
+(25:53.443) S Sunny Lin
+(25:56.627) Right. Good to know. So my first question is, given what the phased client released on the product last week, it seems like the project that you're working on should be for training.
+(26:12.724) And I think that's a bit surprising is that should be a good setup in terms of the volume potential.
+(26:21.568) And so now if your project is indeed for training, then how should we think about the [ fast spot ] of your project in terms of the overall volume within the client portfolio in 2027 and 2028?
+(26:38.550) Lih Shyng L. Tsai
+(26:41.734) Sunny, number one is the architecture of the customer's data center, of course, it's their decision based on, as I mean to say, there are two chips. Both chip roughly can do the job.
+(26:57.831) It's more well rack topology architecture decision. But we saw that. Again, the market, if you look at the total market size, I just said, we know in our last meeting, we said $70 billion market size for 2028.
+(27:16.316) And today, we said $70 billion to $80 billion in 2027.
+(27:21.092) It's much more -- the first order effect is the total growth, the rapid growth of the market, of the demand. But we have a tremendous chip together with our customers, and it will be used extensively.
+(27:38.781) I have no worry about it. I wouldn't say what we worry, what we really focus on is execute to deliver the very strong demand from our customers, be they training or inferencing.
+(27:54.436) So I think whether it's a T or I, the truth is the second quarter in nature.
+(28:01.158) S Sunny Lin
+(28:04.342) No problem. Very clear. And my second question, if we think a bit beyond, and so you just guided up the expectation for 2027, and you just also mentioned the next project which should be run by late 2027, I believe.
+(28:23.358) And so meaningful contribution going to 2028. So how should we think about the trajectory of the growth beyond 2027?
+(28:33.617) And so either you are able to provide more value and then the product itself, the value is also a lot higher, then should we expect the growth into 2028 to also be quite significant?
+(28:49.714) Like maybe you can double or even more than double? .
+(28:54.402) David Ku
+(28:57.586) Sunny, I think in general, based on the 2 projects we are executing on, I think for the growth profile from this year to '27, '28, that's clear.
+(29:10.322) But in terms of magnitude, especially we're asking for '28, I think right now, maybe a little too early because that's a combination of what's the availability for the overall capacity and also what's the customers actually demand profile.
+(29:31.460) But overall, we think about the year-over-year growth that is certain.
+(29:37.652) But in terms of magnitude, I guess, actually afterwards -- right now, it's only April '26, I think it will be a little bit too early to talk about that.
+(29:51.095) But if you're talking from perspective, I know we are positive about that.
+(29:57.640) Operator
+(30:00.824) Next one, Laura Chen, Citi.
+(30:04.008) Chia Yi Chen
+(30:07.192) Also congrats on the great outlook. My question is also similar to how should we think about the company's product mix profile in like a 2, 3-years perspective?
+(30:21.344) Like Rick just mentioned, if we're assuming like USD 2 billion contribution for this year and also assuming that the same like a run rate quarterly into next year or even based on like 10% to 15% market share in 2027, that means that the accelerator revenue contribution could be 50% higher.
+(30:47.081) So I'm just wondering that in the longer term, how should we think about our product mix profile? The smartphone, of course, Rick also mentioned that we'll resume the growth momentum.
+(31:03.267) But just for maybe a longer-term perspective, how should we think about the priorities and also business outlook for MediaTek? That's my first question.
+(31:16.710) Lih Shyng L. Tsai
+(31:19.894) Okay. Again, the macro environment, everyone, I think, has a pretty clear picture. I don't need to preach to the choir.
+(31:30.419) There's no question that the "AI megatrend" continues now that not only from the infrastructure computing power point of view, but also from agentic AI point of view. So if anything, this thing continues to accelerate.
+(31:49.700) But it's probably also right to say that for MediaTek, the data center AI business and the revenue will grow quite a bit faster than our more mature SoC business.
+(32:04.029) so for the mobile business, of course, this year is facing a pretty strong headwind because of the DRAM supply and pricing.
+(32:14.907) That's being said, we view mobile to resume its replacement cycle in a year or a little more than a year.
+(32:24.194) But the growth momentum for the mobile business, I think, overall, it's going to be lower than the data center AI business.
+(32:35.073) We expect, however, the agentic AI disruption will bring in new revenue for the edge devices, including mobile phones. So on that front, we are quite optimistic, and we will be aggressive in pursuing that new revenue.
+(32:54.265) Everything being said, I still feel data center AI revenue growth will have a higher rate compared to our other SoC business. Thank you.
+(33:06.294) Chia Yi Chen
+(33:09.478) My second question is also about the business model. You work with your CSP customers. We know that it seems like the trend of the COT customer-owned tools is also kind of emerging.
+(33:25.487) We understand that MediaTek can provide more value, maybe just not the service going forward and also more of the technology integrations, back-end design, et cetera.
+(33:40.169) But just wondering your view that how the COT business model could impact the MediaTek profit margin or the value of your future design?
+(33:52.197) Lih Shyng L. Tsai
+(33:55.381) Truthfully, I think this market is growing fast with size, with scale. So yes, the first quarter issue for me or for us is to expand our presence, our penetration in this continuing accelerating large market.
+(34:13.778) And we will -- I'm very confident, we will also be getting more design wins in the market.
+(34:21.738) And overall, in different cases, I believe we will provide, how should I say, various degree of value for different customers depending on customers also.
+(34:35.358) And so in general, it's quite a -- overall, if we look at our revenue and margin, both growth and operating, I think we will do very well. I don't really worry about that. Thank you.
+(34:51.455) Operator
+(34:54.639) Next one, Charlie Chan, Morgan Stanley.
+(34:58.089) Charlie Chan
+(35:01.273) Rick, David and Jessie, Just wanted to follow up on the ASIC really question. So I believe MediaTek can really kind of add value for next-generation 2-nanometer project.
+(35:16.220) But just in terms of financial assumption, given very large scale of revenue, are we going to see gross margin decline? Whereas the operating margin, net margin probably can keep at the same level?
+(35:33.644) Just want to get a sense about the margin assumption.
+(35:38.331) David Ku
+(35:41.515) Charlie, as we explained actually quite a while ago, overall, all the data center projects are really operating margin accretive in a very positive way mainly due to the large scale, large revenue size.
+(35:59.381) For the gross margin, again, it depends on case by case based on a different business model.
+(36:07.518) So overall, if you think about it, two ways, the EPS earnings accretion I think that's certain, sizable; and also operating margin accretion, that's also certain as well.
+(36:22.554) Gross margin will depend because each project, different business model may be varied.
+(36:30.160) Charlie Chan
+(36:33.344) I see. Yes. So can I follow up a little bit on ASIC and move to my second question? So because your industry peers and also kind of end customers also talk about the full system support, right?
+(36:50.414) So I'm not sure if MediaTek also want to develop a similar kind of customer support for the full racks.
+(36:59.524) And if that's the case, whether MediaTek's market share assumption, you just mentioned 10% to 15%, can further go up?
+(37:09.872) David Ku
+(37:13.056) Well, I think for that -- I'm assuming you're talking about the rack, selling a rack. I think that's actually part of the business scope as well. That's something we are discussing with our customers as well.
+(37:31.453) Charlie Chan
+(37:34.637) Really, okay. So yes, because I was a little bit concerned. Some end customers like Anthropic specifically require this kind of support. So I was really concerned if you can only supply the chip.
+(37:51.884) They will constrain your market share upside. But just glad to hear that you're also working with customers for more value add for system level.
+(38:04.620) So switching gears to my second question. I also asked the same question last quarter to Rick, right? So last quarter I asked about agentic AI for China, and it was specific on [ Doubao ].
+(38:21.248) But recently, you also picked up a trend that Google is trying to offer AI agents on the phone and to link all the different kind of Android apps.
+(38:34.161) So I'm not sure if, Rick, you would become more excited about the agentic AI becomes the killer apps or trigger for the smartphone replacement cycle.
+(38:47.339) I want to get your thoughts about these Android agentic AI developments.
+(38:53.707) Lih Shyng L. Tsai
+(38:56.891) Thank you, Charlie. I mean, I strongly believe that agentic AI is and will be creating a lot more new value and new revenue. It is now, I think, in my mind, quite clear.
+(39:11.838) It's a matter of -- and the different ecosystem company, be they in China, the [ Baidu ], Alibaba or, in the U.S., Google, Meta, Open AI, et cetera, will come out with their solutions for their own models and their own business.
+(39:32.004) Their models and their business models.
+(39:35.453) Our job is to -- I mean, you use a smartphone asking your question. So let me give an example.
+(39:43.767) For smartphone, I mean, we are collaborating closely with Android to ensure the agentic AI applications will be incorporated in our SoC. And even beyond the smartphones.
+(39:58.714) I think there is a spectrum of devices from the wearables all the way to automotive that will add a lot more value with agentic AIs. So I'm very, very positive, very excited about that.
+(40:15.077) Charlie Chan
+(40:18.261) Right. But to realize that, do you need [indiscernible] like your NPU capacity to become bigger? Or do you think your approach is to enable or empower your mainstream phone, it will have these kind of AI compute power?
+(40:37.542) What would be your strategy? And when these concepts can become kind of concrete projects for MediaTek?
+(40:46.652) Lih Shyng L. Tsai
+(40:49.836) We don't view this as a mobile-only play. We do not.
+(40:54.435) We view it as a multiple platform play, from all the way from wearables such as AI glasses to mobile, to IoT, to PC, to automotive, for instance, And of course, each -- automotive, obviously, shall we say, the power budget is much, much higher than the mobile.
+(41:17.431) Mobile is, what, 8 watts? And theirs is about 40, 50, 80 watts.
+(41:23.003) So in different type of "devices", the computing power implement will be very different. As agentic comes up, CPUs is having a resurgence.
+(41:35.208) So the architecture of the computing system for this agentic AI era within the multiple platforms is a challenge but also a major opportunity. Thank you.
+(41:48.740) Operator
+(41:51.924) Next one, Arthur Lai, Macquarie.
+(41:55.108) Y Yu Jang Lai
+(41:58.292) Rick, David and Jessie, congrats to the strong guidance by ASIC. I have two questions. First one actually is segue to what [ Laura ] just asked. When we think about the smartphone revenue make up 49% of the total.
+(42:17.131) What's the implication to MediaTek's resource allocation, i.e., the 3-nanometer silicon location and also your IP acquisition strategy and your team? This is my first question.
+(42:32.697) David Ku
+(42:35.882) I think, overall, when we look at the AI, we really think about from cloud to edge, they all have opportunity. Because when you think about the application side, agentic AI will happen every, again, from cloud to edge.
+(42:55.163) Currently, due to the overall supply chain situation, the smartphone, obviously this year is having some hiccup. But that doesn't mean that's due to the demand issue.
+(43:09.844) It's mainly due to the supply issue or the memory supply issue to be precise.
+(43:16.655) So when we think about a 2- to 3-year time frame, we still believe the whole AI demand, if you like, will be across the board, both from cloud to edge, okay?
+(43:30.541) But by saying that, when you look at the addressable market and also from the growth rate perspective, the data center obviously will play a very important role, but it doesn't mean that actually the edge device, including but not limited to smartphone.
+(43:52.917) Don't forget that when we talk about the edge device, which also including the computing device, the automotive, even for the IoT.
+(44:04.415) So that's how we see from a market perspective. With that, internally, how do we develop the technology, also develop the resources? The computing technology is the foundation.
+(44:19.982) The process technology is also the foundation and also the package as well. So we will invest all those foundation technology and maybe at different times, we have different applications on different segments, okay?
+(44:38.997) So it's not exclusive. It's not exclusive. But obviously, from last year to this year and also for next year, the investment for data center actually almost doubled up.
+(44:53.856) Charlie Chan
+(44:57.040) And the second question actually, also recall last time you guided and told that you will disclose the ASIC revenue when visibility go higher, right?
+(45:10.219) So I think that this time actually, we are prudent to revise the guidance. And so can you share with us what's the timing you decide to spread the ASIC?
+(45:23.662) David Ku
+(45:26.846) I think we will consider probably starting from next year, yes.
+(45:32.418) Operator
+(45:35.602) Next one, Robert Sanders, Deutsche Bank.
+(45:39.140) R Robert Sanders
+(45:42.324) I just had a question around ARM server CPU. I think you've licensed CSS. I was just wondering if there's an opportunity to not just sell ASICs for TPUs but also to do CPUs for the head mode, maybe do LPU equivalents.
+(46:01.517) And I have a follow-up.
+(46:04.701) David Ku
+(46:07.885) I think for the CPU and also for the edge server, I think that's definitely with the possibility. Now, currently, I think our focus will start to ramp our ASIC solution first, at the first stage.
+(46:25.132) But internally, we also have a team to actively monitor and working on that. So far, at least for the next 2 to 3 years, the focus will be the ASIC opportunity.
+(46:39.283) After all, the addressable market is huge, and that's something we would like to put as a top priority.
+(46:48.393) Brett Simpson
+(46:51.577) Got it. And just a quick follow-up on packaged optics. How would you compare your capability today to sort of best-in-class? I mean, would you say you're 6 months behind, 12 months behind or on parity with best-in-class?
+(47:11.035) Just so we understand a bit more about your capabilities in-house versus what's out there in the market.
+(47:20.233) Lih Shyng L. Tsai
+(47:23.417) I would say we are a latecomer. I think there's no denial of that.
+(47:29.254) However, I think, again, the technology now is a lot more mature compared to even a year ago or 18 months ago, and we now have a very strong partner in [ Air Lab ], that I think we can catch up and accelerate our progress in the coming couple of years.
+(47:51.543) And if you look at the real needs, more depending on who you talk to, of course, but I think it's probably more in the 2029 or after 2028, 2029 time frame that the CPO will become a must.
+(48:08.082) So we feel confident and comfortable that we will be there when the need is there. Thank you.
+(48:16.307) Operator
+(48:19.491) Next one, Haas Liu, Bank of America.
+(48:22.675) H Haas Liu
+(48:25.859) I jumped in the call a little bit late. So apologies if there is any repetitive question. So I think my first question is just regarding your hyperscaler customers on the potential solution.
+(48:42.664) Does that mean you are actually work on the collaboration on the hyperscaler
+(48:49.386) [Technical Difficulty]
+(48:52.570) David Ku
+(48:55.754) Excuse me, we cannot really hear you. Your background noise actually is very strong. We can't really hear you.
+(49:05.483) H Haas Liu
+(49:08.667) Okay. Do you hear me better now?
+(49:11.851) Lih Shyng L. Tsai
+(49:15.035) Not really okay. Not really. For some reason, we hear a lot of noise. I'm not sure if you're outside or the operator hear the same things. Operator, do you hear the same thing?
+(49:30.601) Operator
+(49:33.785) Actually, yes. Should be coming from...
+(49:37.235) H Haas Liu
+(49:40.419) Hello. Can you hear me better this way?
+(49:43.868) David Ku
+(49:47.052) Yes, yes, this is much better. Okay.
+(49:50.236) H Haas Liu
+(49:53.420) Okay. Yes. That sounds good. Sorry. I just wanted to ask about your rack. You discussed that you are working with your customer on the potential rack, solutions system-level solutions.
+(50:09.694) Does that suggest that in addition to the core ASIC project you are working with your customers, you are also engaged with your customers on the potential networking switch and also the related peripheral chipsets and the system level solutions?
+(50:31.363) And if so, how should we size up that part of the opportunity? Is it part of the ASIC opportunity you mentioned earlier on this call?
+(50:43.126) David Ku
+(50:46.311) Well, I think it's too early to comment all the details because that's something we're still developing and working with our customers because, after all, we need to start to ship our ASIC solution first, and the customer will turn on the ASIC into the rack.
+(51:09.129) If we get into there, at least based on what the customer is providing, actually for the whole rack solution, technology-wise, we'll still -- even though it becomes the customers' product, so it will be provided by the customer.
+(51:29.295) So we don't need to worry about all those details, but it's more the business model, okay? But again, it's too early to provide all the details. We will provide more detail when it becomes material.
+(51:46.807) H Haas Liu
+(51:49.991) Got it. And just a very quick follow-up on this. If there is a business like this, should we consider more margin dilution from this kind of project, or not really?
+(52:04.496) Lih Shyng L. Tsai
+(52:07.680) Again, it will depend on the final business model, and it's truly coming right -- yes.
+(52:15.286) But for this year and next year, when we talk about the growth profile, we are not factoring in any rack business, just for the record. It's purely ASIC.
+(52:28.819) H Haas Liu
+(52:32.003) Sounds good. Very clear. And second question is just regarding the scarcity of the industry supply across memory and also larger wafers, and I would like to specifically focus on larger wafers.
+(52:49.073) This year, because of the mobile demand is probably weaker than you could reallocate the capacity you got from your foundry partners converted more easily to your other ASIC projects.
+(53:05.258) But in 2027 since the scarcity of the supply across the industry on the 2-nanometer, 3-nanometer wafers is still going to continue, I was just wondering how you are going to allocate the wafer supply you could get from your foundry partners between your ASIC project versus your own core merchant business.
+(53:32.322) Lih Shyng L. Tsai
+(53:35.506) Well, of course, this question is not just for us. It's an industry-wide issue. I think, certainly, we're trying to advance process wafers or TSMC.
+(53:48.508) TSMC's investment is increasing significantly, I forgot the number, $60 billion or -- and they are certainly accelerating their capacity for the advanced technologies, 3-nanometer, 2-nanometer, And we work closely with our partner.
+(54:08.939) And I cannot speak for TSMC, but I do believe when a customer like MediaTek provides tremendous value for the industry, for our customers, and our customers are really doing very well in their market, there will be supply from that point of view.
+(54:30.696) So I cannot say exactly how much percentage-wise, but I think, I believe as a long-term strategic partner with our supplier, we will get our fair share of the pie.
+(54:45.113) H Haas Liu
+(54:48.297) Got it.
+(54:51.481) And I think just a very quick follow-up before I jump back to the queue is that in the extreme scenario, for example, you only get 80% of the allocation versus what you're demanding for those supply on a wafer level, I was just wondering how you are going to prioritize for your customers' ASIC projects versus your core business because -- how are you going to manage it or balance it?
+(55:25.621) David Ku
+(55:28.805) Well, again, just like our CEO talked about, that's a common question all industry players are facing. So we will probably not be able to disclose internally what's our rules and policy or strategy.
+(55:46.317) But overall, I guess, we need to consider all different factors. But we will not be able to comment this publicly.
+(55:56.400) Operator
+(55:59.584) Next one, Gokul Hariharan, JPMorgan.
+(56:02.768) G Gokul Hariharan
+(56:05.952) So first of all, on the data center ASIC business, Rick, I think your bigger competitor has signed this long-term 5-year deal with the customer.
+(56:18.688) Now that you have kind of executed your milestone on taping out and potentially starting to ramp up this business with the customer, should we expect that MediaTek also kind of gets elevated to that kind of strategic partner status, potentially look to sign some multiyear deals given that there's a lot of noise in this business, right?
+(56:48.494) So if you can give some longer-term clarity to your investors, this probably helps you and also helps you to plan your business on a multiyear basis.
+(57:01.672) Any thoughts around that, Rick, in terms of how you're thinking about it?
+(57:08.129) David Ku
+(57:11.313) Gokul, Dave here. I think, first of all, we don't really have the detail of our so-called all those partnership announcement agreement. Sometimes actually, GDRs, actually, nobody knows the detail.
+(57:28.648) I think probably the best way to judge is what's our guidance for the revenue guide. And this is what matter. We can sign, you can sign, anyone can sign whatever agreement you like.
+(57:44.657) But by the end of the day, actually whether or not we can deliver the target revenue or higher, like we upsize, I think this is what matter.
+(57:57.039) G Gokul Hariharan
+(58:00.223) Got it. Understood. And secondly, for the second or the next generation project that you're working with this customer, I think Rick mentioned that you are working on 2 packaging solutions, competing packaging solutions.
+(58:19.681) So just wanted to understand, like how do you kind of manage that? Like any risk of execution on this kind of project?
+(58:30.117) I think there is a view of that in the market that, I think, the packaging solution becomes a critical factor in terms of the success of the project. Could you comment about your perspective on that?
+(58:47.718) Or is it like the packaging solution is not really the critical part. It's more on the other areas of execution that basically drives the success of this second project?
+(59:02.665) David Ku
+(59:05.849) Yes, Gokul. I think, first of all, we will not be able to comment on specific project and what technology because there's the confidentiality.
+(59:18.409) But to answer your question, maybe let me try to answer from a different perspective. Like our CEO said, we actually invest 2 different packaging technology.
+(59:32.295) And probably it's a better way to say, actually, we are the frontrunner on both technologies, okay?
+(59:41.051) So we're trying to do is actually, we have one customer all the industry need for digital technology. We want to make sure we are fully ready and we're the frontrunner for that. That's point number one.
+(59:58.917) Point number two, going back to TSMC specifically, I think we've been working with TSMC very closely on all the leading-edge packaging.
+(60:10.857) For example, for N2, N1 SoC, I think we probably will be the first one to have a test out in September this year. So again, I understand there's a lot of worry or concerns out there.
+(60:26.954) But the better way to think about that is actually, we actually are the leading player for all different packaging technology. We are not override or underride any one of that.
+(60:42.520) So it's a really balanced strategy and to provide the best solution to the customer.
+(60:49.949) G Gokul Hariharan
+(60:53.133) Got it. Just one follow-up on CPO. I think based on your conversation with the customer, what is the timeline for your ASIC customers to potentially need CPO-related solutions?
+(61:08.700) Is it in this generation, it's the second generation that you're working on itself? Or is it probably a follow-on of that?
+(61:19.490) David Ku
+(61:22.674) I'm sorry, Gokul, you said TPU? Or...
+(61:25.947) G Gokul Hariharan
+(61:29.131) Packaged optics, sorry.
+(61:32.315) David Ku
+(61:35.499) The current project we're working on is actually a TPU. So I'm not quite following.
+(61:42.840) G Gokul Hariharan
+(61:46.024) I was saying CPO, co-packaged optics.
+(61:49.296) David Ku
+(61:52.480) Oh, CPU, okay, Okay.
+(61:55.664) I think currently, I think like our CEO say, at least right now for all those projects we are working on, and some of them, we are building out, all the way to '28 and '29, so far, the CPO is actually not a hard requirement.
+(62:15.476) So that's why we think most likely will be a '28 and '29 beyond. And that's why actually said to have a jump start to prepare that.
+(62:27.062) I think overall, we don't think we are behind especially if you're judging from when the industry requires CPO because, therefore, you're not going to see anything come out until late '28, probably early '29.
+(62:45.459) So so far, it looks actually we should be okay.
+(62:49.616) Operator
+(62:52.800) Thank for all your questions. I'll hand it over to Ms. Jessie Wang for closing comments. Ms. Wang, please go ahead.
+(63:02.971) Jessie Wang
+(63:06.155) Ladies and gentlemen, this concludes MediaTek's 2026 First Quarter Conference Call, and an audio replay will be available in 1 hour after the call at the Investor section of MediaTek website.
+(63:23.048) We would like to thank you for your participation, and you may now disconnect.
+(63:29.947) Operator
+(63:33.131) Thank you, Ms. Wang. And ladies and gentlemen, we thank you for your participation in today's conference. You may disconnect now. Thank you again. Goodbye.
