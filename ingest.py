@@ -6,6 +6,7 @@ except Exception:
     pass
 import shutil
 import subprocess
+import hashlib
 import re
 import warnings
 import json
@@ -997,6 +998,78 @@ def scrape_ir_site(ir_url: str, year: str, quarter: str) -> str | None:
     return None
 
 
+# ── Audio Checksum Guard ──────────────────────────────────────────────────────
+
+AUDIO_EXTENSIONS = {".m4a", ".mp3", ".mp4", ".wav"}
+
+
+def sha256_file(path: Path) -> str:
+    """Return the SHA-256 hex digest for a local file."""
+    h = hashlib.sha256()
+    with path.open("rb") as f:
+        for chunk in iter(lambda: f.read(1024 * 1024), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def _release_audio_asset_digests() -> dict[str, str]:
+    """Return {asset_name: sha256_hex} for GitHub release audio assets when available."""
+    url = "https://api.github.com/repos/wenchiehlee-money/InvestorConference/releases/tags/audio-files"
+    try:
+        r = requests.get(url, headers={"Accept": "application/vnd.github.v3+json"}, timeout=20)
+        if r.status_code != 200:
+            print(f"[checksum] Could not load release assets: HTTP {r.status_code}")
+            return {}
+        assets = r.json().get("assets", [])
+    except Exception as e:
+        print(f"[checksum] Could not load release assets: {e}")
+        return {}
+
+    digests = {}
+    for asset in assets:
+        name = asset.get("name") or ""
+        digest = asset.get("digest") or ""
+        if Path(name).suffix.lower() not in AUDIO_EXTENSIONS:
+            continue
+        if digest.startswith("sha256:"):
+            digests[name] = digest.split(":", 1)[1].lower()
+    return digests
+
+
+def find_duplicate_audio(repo: Path, audio_path: Path, expected_stem: str) -> str | None:
+    """Return a duplicate audio description if *audio_path* already exists under another stem."""
+    if not audio_path.exists():
+        return None
+
+    candidate_sha = sha256_file(audio_path)
+    candidate_name = audio_path.name
+
+    # Local audio may be sparse because most files are stored as release assets, but check it first.
+    exclude_dirs = {".git", ".github", "tmp", "tools", "web", "data", "skills", "scripts"}
+    for p in repo.rglob("*"):
+        if not p.is_file() or p.suffix.lower() not in AUDIO_EXTENSIONS:
+            continue
+        if p.resolve() == audio_path.resolve():
+            continue
+        if any(part in exclude_dirs for part in p.relative_to(repo).parts[:-1]):
+            continue
+        if p.stem == expected_stem:
+            continue
+        try:
+            if sha256_file(p) == candidate_sha:
+                return f"local file {p.relative_to(repo)}"
+        except Exception as e:
+            print(f"[checksum] Skipped {p}: {e}")
+
+    for asset_name, digest in _release_audio_asset_digests().items():
+        if asset_name == candidate_name or Path(asset_name).stem == expected_stem:
+            continue
+        if digest == candidate_sha:
+            return f"release asset {asset_name}"
+
+    return None
+
+
 # ── yt-dlp Downloader ─────────────────────────────────────────────────────────
 
 def download_audio(source: str, output_path: Path,
@@ -1491,13 +1564,20 @@ def update_readme() -> None:
         return res
 
     def _digest_cell(stock_id: str | None, year, quarter) -> str:
-        """Return the Digest(TW) cell: link to the conference digest report
-        under Conference-digest/ (produced by skill-conference-digest), or '-'."""
+        """Return the Digest(TW) cell.
+
+        Canonical reports live under data/reports/conference-digests/{stock_id}/.
+        The old top-level Conference-digest/ path is kept as a read fallback during migration.
+        """
         if not (stock_id and year and quarter):
             return "-"
         digest_name = f"{stock_id}_{year}_q{quarter}_digest.md"
-        if (repo / "Conference-digest" / digest_name).exists():
-            return f"[📊](Conference-digest/{digest_name})"
+        new_rel = f"data/reports/conference-digests/{stock_id}/{digest_name}"
+        old_rel = f"Conference-digest/{digest_name}"
+        if (repo / new_rel).exists():
+            return f"[📊]({new_rel})"
+        if (repo / old_rel).exists():
+            return f"[📊]({old_rel})"
         return "-"
 
     def _format_ir_cells(stock_id: str | None, pdf_cn_file: str | None, pdf_en_file: str | None) -> tuple[str, str]:
@@ -2241,6 +2321,12 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
         if not verify_audio_length(output_path):
             return None
         stem = f"{stock_id}_{year}_q{quarter}"
+        duplicate = find_duplicate_audio(INVESTOR_CONFERENCE_REPO, output_path, stem)
+        if duplicate:
+            print(f"[checksum] Duplicate audio detected: {output_path.name} matches {duplicate}")
+            print("[checksum] Rejecting this download to avoid registering audio under the wrong quarter.")
+            output_path.unlink(missing_ok=True)
+            return None
         pdf_paths = download_pdfs(stock_id, year, quarter, save_dir)
         extra_paths = []
         

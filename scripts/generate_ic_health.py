@@ -12,7 +12,8 @@ DATA_DIR = REPO_ROOT / "data" / "reports"
 HEALTH_SUMMARY_CSV = DATA_DIR / "investor_conference_health_summary.csv"
 AUDIO_MANIFEST_JSON = REPO_ROOT / "audio_manifest.json"
 AUDIO_DURATIONS_JSON = REPO_ROOT / "audio_durations.json"
-DIGEST_DIR = REPO_ROOT / "Conference-digest"
+DIGEST_DIR = REPO_ROOT / "data" / "reports" / "conference-digests"
+LEGACY_DIGEST_DIR = REPO_ROOT / "Conference-digest"
 
 TAIPEI_TZ = timezone(timedelta(hours=8))
 
@@ -79,14 +80,17 @@ def main():
         except Exception as e:
             print(f"Warning: Failed to load {AUDIO_DURATIONS_JSON.name}: {e}")
 
-    # 1.3. Load Digest reports (Conference-digest/{key}_digest.md)
+    # 1.3. Load Digest reports. Canonical path:
+    # data/reports/conference-digests/{sid}/{key}_digest.md
+    # Legacy fallback: Conference-digest/{key}_digest.md
     digest_keys = set()
-    if DIGEST_DIR.exists():
-        digest_pattern = re.compile(r"^([A-Za-z0-9]+)_(\d{4})_[qQ]([1-4])_digest\.md$")
-        for f in DIGEST_DIR.iterdir():
-            m = digest_pattern.match(f.name)
-            if m:
-                digest_keys.add(f"{m.group(1).lower()}_{m.group(2)}_q{m.group(3)}")
+    digest_pattern = re.compile(r"^([A-Za-z0-9]+)_(\d{4})_[qQ]([1-4])_digest\.md$")
+    for digest_dir in (DIGEST_DIR, LEGACY_DIGEST_DIR):
+        if digest_dir.exists():
+            for f in digest_dir.rglob("*_digest.md"):
+                m = digest_pattern.match(f.name)
+                if m:
+                    digest_keys.add(f"{m.group(1).lower()}_{m.group(2)}_q{m.group(3)}")
 
     # 2. Scan company directories for conference keys
     company_dirs = [d for d in REPO_ROOT.iterdir() if is_company_dir(d)]
@@ -214,7 +218,7 @@ def main():
             if is_fully and md_status in ("partial", "missing"):
                 fully_ingested_md_warning_count += 1
 
-        # Digest report (Conference-digest/{key}_digest.md, produced by skill-conference-digest)
+        # Digest report (data/reports/conference-digests/{sid}/{key}_digest.md, produced by skill-conference-digest)
         # Eligible: events with subtitle/transcript, i.e. analyzable conferences
         if has_srt or has_transcript:
             digest_eligible_count += 1
