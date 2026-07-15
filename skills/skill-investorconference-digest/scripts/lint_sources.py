@@ -114,7 +114,7 @@ def parse_srt(path: Path):
 def check_srt_vs_audio(srt_name: str, srt_end: float, sid: str, year: int, q: int,
                        durations: dict):
     findings = []
-    keys = [k for k in durations if k.startswith(f"{sid}/{sid}_{year}_q{q}.")]
+    keys = [k for k in durations if k.startswith(f"data/{sid}/{sid}_{year}_q{q}.")]
     if not keys or srt_end <= 0:
         return findings
     audio = float(durations[keys[0]])
@@ -167,7 +167,7 @@ def check_ir(path: Path):
 
 
 def lint_quarter(root: Path, sid: str, year: int, q: int, durations: dict):
-    company = root / sid
+    company = root / "data" / sid
     base = f"{sid}_{year}_q{q}"
     findings = []
 
@@ -203,7 +203,7 @@ def lint_quarter(root: Path, sid: str, year: int, q: int, durations: dict):
 
 
 def list_company_quarters(root: Path, sid: str):
-    company = root / sid
+    company = root / "data" / sid
     quarters = set()
     if company.is_dir():
         for f in company.iterdir():
@@ -214,7 +214,7 @@ def list_company_quarters(root: Path, sid: str):
 
 
 def all_companies(root: Path):
-    return sorted(d.name for d in root.iterdir()
+    return sorted(d.name for d in (root / "data").iterdir()
                   if d.is_dir() and re.fullmatch(r"[0-9A-Z]{2,6}", d.name)
                   and any(QUARTER_RE.match(f.name) for f in d.iterdir()))
 

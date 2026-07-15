@@ -1,0 +1,22 @@
+{
+  "stock_id": "2308",
+  "quarter": "2026_q1",
+  "issues": [
+    {
+      "severity": "major",
+      "file": "2308_2026_q1_GT.srt",
+      "location": "—",
+      "type": "data_quality",
+      "description": "缺人工校正字幕（僅有 FIN Whisper 版）",
+      "suggestion": "建議補做 GT"
+    },
+    {
+      "severity": "major",
+      "file": "2308_2026_q1_alphaspread_transcript.md",
+      "location": "全檔",
+      "type": "content_mismatch",
+      "description": "2026 Q1 alphaspread_transcript.md 內容錯置為 2025 Q4 的法說會內容，導致 Q&A 與 prepared remarks 出現嚴重資訊干擾",
+      "suggestion": "重新從 alphaspread 下載 2026 Q1 的正確法說會逐字稿並替換"
+    }
+  ]
+}

@@ -110,7 +110,7 @@ def aliases(company_dir: Path, sid: str):
 
 
 def build_manifest(root: Path, sid: str, year: int, q: int, quarters):
-    company_dir = root / sid
+    company_dir = root / "data" / sid
     rows = resolve(company_dir, sid, year, q)
     py, pq = prev_quarter(year, q)
     previous_rows = resolve(company_dir, sid, py, pq) if (py, pq) in quarters else []
@@ -175,7 +175,7 @@ def main():
     args = ap.parse_args()
 
     root = (args.root or find_repo_root(Path.cwd())).resolve()
-    company_dir = root / args.stock_id
+    company_dir = root / "data" / args.stock_id
     if not company_dir.is_dir():
         print(f"[錯誤] 找不到公司目錄: {company_dir}", file=sys.stderr)
         sys.exit(2)
