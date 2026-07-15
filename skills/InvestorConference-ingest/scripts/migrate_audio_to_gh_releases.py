@@ -27,16 +27,22 @@ import sys
 import tempfile
 from pathlib import Path
 
-from dotenv import load_dotenv
-# Explicitly load .env from the repo root so credentials are available
-# regardless of where the audio-storage package was installed.
-load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+_curr = Path(__file__).resolve()
+REPO_ROOT = None
+for p in _curr.parents:
+    if (p / "audio_manifest.json").exists() or (p / ".git").exists():
+        REPO_ROOT = p
+        break
+if not REPO_ROOT:
+    REPO_ROOT = _curr.parents[3]
+
+load_dotenv(REPO_ROOT / ".env")
 
 from audio_storage import AudioStorageClient, GitHubReleasesClient
 
 REPO            = "wenchiehlee-money/InvestorConference"
 GH_RELEASE_TAG  = "audio-files"
-MANIFEST_PATH   = Path(__file__).resolve().parent.parent / "audio_manifest.json"
+MANIFEST_PATH   = REPO_ROOT / "audio_manifest.json"
 
 
 def load_manifest() -> dict:

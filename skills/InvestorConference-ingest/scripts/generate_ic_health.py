@@ -7,7 +7,14 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 # Paths
-REPO_ROOT = Path(__file__).resolve().parent.parent
+_curr = Path(__file__).resolve()
+REPO_ROOT = None
+for p in _curr.parents:
+    if (p / "audio_manifest.json").exists() or (p / ".git").exists():
+        REPO_ROOT = p
+        break
+if not REPO_ROOT:
+    REPO_ROOT = _curr.parents[3]
 DATA_DIR = REPO_ROOT / "data" / "reports"
 HEALTH_SUMMARY_CSV = DATA_DIR / "investor_conference_health_summary.csv"
 AUDIO_MANIFEST_JSON = REPO_ROOT / "audio_manifest.json"

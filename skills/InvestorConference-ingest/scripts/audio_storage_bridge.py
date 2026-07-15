@@ -4,7 +4,15 @@ import requests
 from pathlib import Path
 from dotenv import load_dotenv
 
-load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+_curr = Path(__file__).resolve()
+_root = None
+for p in _curr.parents:
+    if (p / "audio_manifest.json").exists() or (p / ".git").exists():
+        _root = p
+        break
+if not _root:
+    _root = _curr.parents[3]
+load_dotenv(_root / ".env")
 
 _REPO           = "wenchiehlee-money/InvestorConference"
 _GH_RELEASE_TAG = "audio-files"
