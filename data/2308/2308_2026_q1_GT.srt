@@ -1,6 +1,13 @@
 [METADATA]
-Source: 2308_2026_q1_FIN.srt; reviewed conservative GT pass
-Language: zh
+Source: 2308_2026_q1_FIN.srt
+Review-Level: conservative_from_FIN
+Reviewer: Codex
+Reviewed-At: 2026-07-15
+Audio-Checked: none
+Correction-Sources: FIN, IR, IR_EN, prior_quarters
+Corrections: terminology, hallucination-removal, names
+Confidence: low
+Notes: GT-candidate generated from FIN with conservative text/material reconciliation. No 2308_2026_q1_qa.md or 2308_2026_q1_yahoo_transcript.md exists in repo. The mismatched 2308_2026_q1_alphaspread_transcript.md was excluded/removed because it contained Q4-2025 content. Audio was not checked in this pass.
 ---
 (00:30.000) 還是大家很踴躍來參加 所以非常謝謝
 (00:33.680) 那也是因為呢 這麼踴躍
