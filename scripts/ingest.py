@@ -22,7 +22,7 @@ warnings.filterwarnings("ignore", message="Unverified HTTPS request")
 # Smart Ingestion - Multi-Stock Support
 # Version 5.0: standalone script inside InvestorConference repo
 
-INVESTOR_CONFERENCE_REPO = Path(__file__).parent
+INVESTOR_CONFERENCE_REPO = Path(__file__).resolve().parent.parent
 
 # ── Company Name Lookup ───────────────────────────────────────────────────────
 # (stock_id) -> (english_name, chinese_name)
@@ -2278,7 +2278,7 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
     If auto_push=True: on success, moves audio to InvestorConference repo,
     commits via git-lfs, pushes, and removes local copy.
     """
-    save_dir = Path(__file__).parent / "tmp"
+    save_dir = Path(__file__).resolve().parent.parent / "tmp"
     save_dir.mkdir(exist_ok=True)
 
     market    = detect_market(stock_id)

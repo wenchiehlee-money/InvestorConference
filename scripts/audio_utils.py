@@ -11,7 +11,7 @@ import io
 # Load environment variables (supports simple .env format)
 def load_env():
     # Search for .env in current and parent directories
-    current = Path(__file__).resolve().parent
+    current = Path(__file__).resolve().parent.parent
     for _ in range(3): # check up to 3 parent levels
         path = current / ".env"
         if path.exists():
@@ -33,7 +33,7 @@ GDRIVE_AUDIO_FOLDER_ID = ENV.get("GDRIVE_AUDIO_FOLDER_ID")
 class AudioLoader:
     def __init__(self):
         self.service = self._init_service()
-        self.manifest_path = Path(__file__).parent / "audio_manifest.json"
+        self.manifest_path = Path(__file__).resolve().parent.parent / "audio_manifest.json"
         self.manifest = self._load_manifest()
 
     def _init_service(self):
@@ -64,12 +64,12 @@ class AudioLoader:
         filename = f"{stock_id}_{year}_q{quarter}.m4a"
         
         # 1. Check local path (relative to repo root)
-        local_path = Path(__file__).parent / stock_id / filename
+        local_path = Path(__file__).resolve().parent.parent / stock_id / filename
         if local_path.exists():
             return str(local_path)
         
         # 2. Check cache directory (tmp/)
-        cache_path = Path(__file__).parent / "tmp" / filename
+        cache_path = Path(__file__).resolve().parent.parent / "tmp" / filename
         if cache_path.exists():
             return str(cache_path)
             
@@ -141,7 +141,7 @@ class AudioLoader:
                     'company': match.group(1) if match else 'unknown',
                     'year': match.group(2) if match else 'unknown',
                     'quarter': match.group(3) if match else 'unknown',
-                    'relative_path': str(local_path.relative_to(Path(__file__).parent)).replace('\\', '/')
+                    'relative_path': str(local_path.relative_to(Path(__file__).resolve().parent.parent)).replace('\\', '/')
                 })
             self._save_manifest()
             return drive_id
@@ -162,7 +162,7 @@ if __name__ == "__main__":
         # Migrate all files in manifest that don't have drive_id
         for item in audio_mgr.manifest:
             if not item.get('drive_id'):
-                p = Path(__file__).parent / item['relative_path']
+                p = Path(__file__).resolve().parent.parent / item['relative_path']
                 if p.exists():
                     print(f"Migrating {p.name}...")
                     audio_mgr.upload_to_drive(p)

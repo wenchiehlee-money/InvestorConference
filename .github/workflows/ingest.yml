@@ -55,7 +55,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           PUSH_FLAG=${{ inputs.push == true && '--push' || '' }}
-          python3 ingest.py \
+          python3 scripts/ingest.py \
             "${{ inputs.stock_id }}" \
             "${{ inputs.year }}" \
             "${{ inputs.quarter }}" \
