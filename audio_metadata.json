@@ -1,0 +1,23 @@
+{
+  "2454_2025_q4": {
+    "checked_at": "2026-07-15",
+    "duration_sec": 3831.936,
+    "file": "data/2454/2454_2025_q4.m4a",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2454_2025_q4.m4a",
+    "sha256": "8b947131abfd697a5458d11dc5eeb04277bed7c9e76ba9cd209ae18450251be3",
+    "size_bytes": 82590089,
+    "source": "github_release_audit",
+    "status": "ok"
+  },
+  "2454_2026_q1": {
+    "checked_at": "2026-07-15",
+    "duplicate_of": "2454_2025_q4",
+    "duration_sec": 3831.936,
+    "file": "data/2454/2454_2026_q1.m4a",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2454_2026_q1.m4a",
+    "sha256": "8b947131abfd697a5458d11dc5eeb04277bed7c9e76ba9cd209ae18450251be3",
+    "size_bytes": 82590089,
+    "source": "github_release_audit",
+    "status": "duplicate"
+  }
+}
