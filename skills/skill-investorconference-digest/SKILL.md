@@ -1,6 +1,6 @@
 ---
 name: conference-digest
-description: 法說會重點萃取與投資影響分析（台灣股市）。當使用者要求分析、摘要或 digest 某公司（StockID）的法說會時使用，從 InvestorConference 資料庫的字幕 SRT（GT/FIN）、簡報 Markdown（_ir.md）與 Q&A（_qa.md）找出預期差、模型修正路徑、Q&A 壓力訊號、管理層可信度與股價影響因素，產出「投資決策摘要 + 十三節研究報告」。
+description: 法說會重點萃取與投資影響分析（台灣股市）。當使用者要求分析、摘要或 digest 某公司（StockID）的法說會，或需要從 FIN.srt、音檔、IR、Q&A、第三方逐字稿與前後期資料生成/修正 GT.srt 時使用；找出預期差、模型修正路徑、Q&A 壓力訊號、管理層可信度與股價影響因素，產出「投資決策摘要 + 十三節研究報告」。
 ---
 
 # 法說會重點萃取與投資影響分析 SOP (Investor Conference Digest SOP)
@@ -65,11 +65,11 @@ description: 法說會重點萃取與投資影響分析（台灣股市）。當�
 
 ### 3.1 檔案命名與優先級
 
-資料位於 `InvestorConference/{StockID}/`。
+資料位於 `InvestorConference/data/{StockID}/`；舊版頂層 `{StockID}/` 僅作為相容 fallback。
 
 | 檔案模式 | 內容 | 優先級 |
 | :--- | :--- | :--- |
-| `{StockID}_{Year}_q{N}_GT.srt` | 人工校正字幕 | 字幕第一優先 |
+| `{StockID}_{Year}_q{N}_GT.srt` | 由 FIN 與相關材料交叉校正後的研究級字幕 | 字幕第一優先，但需檢查 metadata/review level |
 | `{StockID}_{Year}_q{N}_FIN.srt` | Whisper 自動轉錄字幕 | 字幕第二優先 |
 | `{StockID}_{Year}_q{N}.md` | 音檔逐字稿 | 字幕第三優先 |
 | `{StockID}_{Year}_q{N}_ir.md` | 中文法說會簡報 | 財務數據第一優先 |
@@ -82,7 +82,7 @@ description: 法說會重點萃取與投資影響分析（台灣股市）。當�
 
 1. 財務數字以 `_ir.md` 簡報為第一來源。
 2. Q&A 重要性高於 prepared remarks；Q&A 可能揭露法人真正擔心的問題、管理層未主動提到的限制與不確定性。
-3. GT 字幕優先於 FIN 字幕；FIN 字幕的數字、年份、人名、公司名與專有名詞必須交叉驗證。
+3. GT 字幕優先於 FIN 字幕，但必須讀取 GT metadata/review level；若 GT 僅為 `conservative_from_FIN` 或缺 metadata，重大結論仍需回到 IR、Q&A、第三方逐字稿與音檔交叉驗證。
 4. 若簡報、Q&A 與字幕資訊矛盾，必須在報告中標示，並視嚴重度建立資料品質 issue。
 5. 法人提問只能代表「市場疑慮」，除非管理層確認，不可寫成公司事實。
 
@@ -96,12 +96,68 @@ description: 法說會重點萃取與投資影響分析（台灣股市）。當�
 
 | 腳本 | 用途 | 時機 |
 | :--- | :--- | :--- |
-| `python skills/skill-conference-digest/scripts/find_sources.py {StockID} [Year q{N}]` | 解析主要、備援、前季與缺漏資料來源；可加 `--json` 輸出 manifest | 每次分析第一步 |
-| `python skills/skill-conference-digest/scripts/lint_sources.py {StockID} [Year q{N}] [--issue-draft out.md] [--issue-json out.json]` | 機械性資料品質檢查與 issue 草稿 | 分析前必跑 |
-| `python skills/skill-conference-digest/scripts/evaluate_digest.py <digest.md>` | 檢查 digest 是否缺少來源、信心、模型影響、Q&A-only、預期差等欄位 | 產出報告後必跑 |
-| `python skills/skill-conference-digest/scripts/check_digest_freshness.py [--srt-only]` | 掃描全庫尚未產出 digest 的季度 | 批次補做規劃 |
+| `python skills/skill-investorconference-digest/scripts/find_sources.py {StockID} [Year q{N}]` | 解析主要、備援、前季與缺漏資料來源；可加 `--json` 輸出 manifest | 每次分析第一步 |
+| `python skills/skill-investorconference-digest/scripts/lint_sources.py {StockID} [Year q{N}] [--issue-draft out.md] [--issue-json out.json]` | 機械性資料品質檢查與 issue 草稿 | 分析前必跑 |
+| `python skills/skill-investorconference-digest/scripts/evaluate_digest.py <digest.md>` | 檢查 digest 是否缺少來源、信心、模型影響、Q&A-only、預期差等欄位 | 產出報告後必跑 |
+| `python skills/skill-investorconference-digest/scripts/check_digest_freshness.py [--srt-only]` | 掃描全庫尚未產出 digest 的季度 | 批次補做規劃 |
 
 `lint_sources.py` 回傳非零 exit code 代表有資料品質問題；ERROR/Blocker 會使財務結論錯誤或無法分析時，必須先處理或在報告中降信心。
+
+
+### 3.5 GT 字幕生成與校正 SOP
+
+本節屬於 digest skill，而非 ingest skill。`skill-investorconference-ingest` 的責任是蒐集音檔、IR、Q&A、第三方逐字稿與 metadata；`skill-investorconference-digest` 的責任是在分析前，使用這些材料生成或修正可供研究引用的 `{StockID}_{Year}_q{N}_GT.srt`。
+
+#### 3.5.1 何時必須處理 GT
+
+若出現以下任一情況，先處理字幕品質，再產出 digest：
+
+* 缺少 `{StockID}_{Year}_q{N}_GT.srt`，但有 FIN 或其他逐字稿可作初稿。
+* GT 與 FIN 幾乎相同，疑似只改檔名。
+* GT 缺 metadata 或 review level。
+* FIN、GT、IR、Q&A 或第三方逐字稿對財務數字、產品名、人名、法人名、年份/季度、Q&A 段落有明顯衝突。
+* `lint_sources.py` 對字幕提出 Major/Blocker。
+
+#### 3.5.2 GT 生成流程
+
+1. 使用 `{StockID}_{Year}_q{N}_FIN.srt` 作為時間軸與初稿；不得只複製 FIN 並改名為 GT。
+2. 以本季 `_ir.md` / `_ir_en.md` 校正財務數字、產品名、事業群、KPI、CapEx、毛利率、EPS、年份與季度。
+3. 以本季 `_qa.md` 校正 Q&A 問題主題、法人追問與管理層回答脈絡。
+4. 以 `_alphaspread_transcript.md`、`_yahoo_transcript.md`、`_alphamemo_transcript.md` 等第三方逐字稿補足 speaker、英文專有名詞、Q&A 段落與語句順序。
+5. 以前一季或相近季度的 GT/FIN/IR/Q&A 校正公司固定用語、產品線名稱、法人名稱、管理層姓名與長期 KPI 口徑。
+6. 針對低信心段落、財務數字、Q&A 追問、FIN 與其他來源不一致處抽聽音檔；若無法聽音檔，必須在 metadata 標示限制。
+7. 保留 FIN 的時間軸，除非有音檔依據可重新對齊；大幅改動時間戳必須說明。
+8. 產出 `{StockID}_{Year}_q{N}_GT.srt` 後重跑 `lint_sources.py`。
+
+#### 3.5.3 GT metadata
+
+GT 檔案開頭必須包含 metadata；若歷史檔案缺 metadata，使用時需降信心並優先補齊。
+
+```text
+[METADATA]
+Source: {StockID}_{Year}_q{N}_FIN.srt
+Review-Level: human_verified | partial_audio_checked | conservative_from_FIN
+Reviewer: Codex/user
+Reviewed-At: YYYY-MM-DD
+Audio-Checked: full | sampled | none
+Correction-Sources: FIN, IR, IR_EN, QA, AlphaSpread, Yahoo, AlphaMemo, prior_quarters, audio
+Corrections: terminology, hallucination-removal, numbers, names, qa-alignment
+Confidence: high | medium | low
+Notes: ...
+---
+```
+
+Review level 定義：
+
+| Review-Level | 定義 | Digest 使用方式 |
+| :--- | :--- | :--- |
+| `human_verified` | 已完整或接近完整對音訊校正，並與關鍵材料交叉確認 | 可作字幕第一來源；重大財務數字仍以 IR 為準 |
+| `partial_audio_checked` | 已抽聽低信心段落與關鍵數字/Q&A，但未全段校對 | 可優先於 FIN；重大結論需交叉驗證 |
+| `conservative_from_FIN` | 主要從 FIN 與文字材料保守修正，未充分音訊校對 | 視為 GT-candidate；不可宣稱完整人工校正版 |
+
+#### 3.5.4 關閉資料品質 issue 的條件
+
+針對「缺 GT」或「GT 品質不足」issue，關閉前必須留言包含：GT 檔案路徑、Review-Level、使用的校正來源、是否抽聽音檔、`lint_sources.py` 結果。若僅產生 `conservative_from_FIN`，issue 可改標為需後續人工音訊校對，但不應描述為完整 GT 已完成。
 
 ---
 
@@ -353,4 +409,4 @@ Issue sidecar JSON 格式：
 
 ---
 
-本檔案即為 `skill-conference-digest` 的標準化說明（`SKILL.md`）。
+本檔案即為 `skill-investorconference-digest` / `conference-digest` 的標準化說明（`SKILL.md`）。
