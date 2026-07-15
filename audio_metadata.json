@@ -11,13 +11,12 @@
   },
   "2454_2026_q1": {
     "checked_at": "2026-07-15",
-    "duplicate_of": "2454_2025_q4",
-    "duration_sec": 3831.936,
+    "duration_sec": 3780.629,
     "file": "data/2454/2454_2026_q1.m4a",
     "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2454_2026_q1.m4a",
-    "sha256": "8b947131abfd697a5458d11dc5eeb04277bed7c9e76ba9cd209ae18450251be3",
-    "size_bytes": 82590089,
+    "sha256": "757b6095164c09d74a3323888cb486eaada60fd2589ee2b08043f5248128515b",
+    "size_bytes": 82358841,
     "source": "github_release_audit",
-    "status": "duplicate"
+    "status": "ok"
   }
 }
