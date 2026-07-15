@@ -27,14 +27,7 @@ if platform.system() == 'Windows':
     except Exception:
         pass
 
-_curr = Path(__file__).resolve()
-REPO_ROOT = None
-for p in _curr.parents:
-    if (p / "audio_manifest.json").exists() or (p / ".git").exists():
-        REPO_ROOT = p
-        break
-if not REPO_ROOT:
-    REPO_ROOT = _curr.parents[3]
+REPO_ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(REPO_ROOT / ".env")
 
 # 透過 skills/mac-mini-ocr 技能進行轉錄
