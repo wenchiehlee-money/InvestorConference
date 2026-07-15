@@ -1948,10 +1948,13 @@ def sync_all_audio_durations(repo: Path) -> None:
 
     # 2. Keep entries from current_durations if they match the manifest (even if missing locally)
     for key, val in current_durations.items():
-        if key not in new_durations:
-            stem = Path(key).stem
-            if stem in manifest_stems:
-                new_durations[key] = val
+        stem = Path(key).stem
+        if stem in manifest_stems:
+            new_key = key
+            if not key.startswith("data/"):
+                new_key = f"data/{key}"
+            if new_key not in new_durations:
+                new_durations[new_key] = val
 
     # Write back
     durations_file.write_text(
