@@ -1,7 +1,12 @@
 [METADATA]
-Source: 2357_2026_q1_exp1
-GT: 2357_2026_q1_GT (人工校正版)
-Language: zh
+Source: 2357_2026_q1_FIN.srt
+Review-Level: conservative_from_FIN
+Reviewer: codex
+Reviewed-At: 2026-07-15
+Audio-Checked: none
+Correction-Sources: FIN, IR, QA, issue_4_known_terms
+Corrections: corrected known ASUS names, finance terms, NVIDIA GTC/Vera Rubin, Anthropic, revenue/business-group wording from issue #4 checklist
+Confidence: medium
 ---
 (00:00.000) 大家好,歡迎各位參加華碩電腦2026年第一季線上法人說明會。
 (00:06.320) 今天的會議由華碩共同執行長許先越先生、胡書賓先生及財務長吳長榮先生主持。
