@@ -1,6 +1,12 @@
 [METADATA]
-Source: 2480_2026_q1_exp1
-Language: zh
+Source: 2480_2026_q1_FIN.srt
+Review-Level: conservative_from_FIN
+Reviewer: codex
+Reviewed-At: 2026-07-15
+Audio-Checked: none
+Correction-Sources: FIN, IR, issue_6_checklist, prior_quarter_cross_check
+Corrections: removed Whisper prompt residue; corrected company names, vendor names, security terms, finance terms, product/category wording, 94億 backlog, and industry mix percentages per issue #6
+Confidence: medium
 ---
 (00:30.900) 大家好
 (00:31.260) 歡迎各位
