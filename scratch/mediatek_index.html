@@ -1,0 +1,137 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-TW">
+<head>
+	<title>MediaTek Inc.</title>
+  
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="msapplication-TileImage" content="" />
+<meta name="description" content="" />
+<meta name="keywords" content="OTT" />
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+
+<!-- <title th:text="${contentProvider} == 'tsmc' ? 'TSMC Earnings Call' : 'OTT'">OTT</title>-->
+<title>OTT</title>
+<!--<title th:text="${contentProvider} == 'tsmc' ? 'TSMC Earnings Conference' : 'OTT'">OTT</title>-->
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+<link rel="stylesheet" type="text/css" href="./css/jquery.datepick.css" />
+<link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="./css/ott-ad-scheduler.min.css" />
+
+<script type="text/javascript" src="./js/jquery-3.5.1.min.js"></script>
+<script type='text/javascript' src="./js/jquery-ui.js"></script>
+<script type="text/javascript" src="./js/jquery.plugin.js"></script>
+<script type="text/javascript" src="./js/jquery.datepick.js"></script>
+<script type="text/javascript" src="./js/scrolltop.js"></script>
+<!-- Custom styles for this template-->
+<link href="./css/sb-admin-2.min.css" rel="stylesheet">
+<!--datapicker-->
+<script>
+    $(function() {
+      $('#popupDatepicker').datepick({
+        onSelect: function (dates) {
+          queryContentAJAX(1);
+        }
+      });
+      $('#endpopupDatepicker').datepick({
+        onSelect: function (dates) {
+          queryContentAJAX(1);
+        }
+      });
+    });
+</script>
+
+  <link rel="stylesheet" type="text/css" href="./css/mediatek-en_2020.css" />
+  <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <header>
+    <div id="header">
+      <!-- <a th:href="@{'/vod?contentProvider=mediatek'}" rel="noopener noreferrer">-->
+	  <a href="javascript:;" rel="noopener noreferrer">
+        <img src="./images/mediatek.png" alt="MediaTek Inc." width="849" height="48">
+      </a>
+    </div>
+  </header>
+  <div class="download_bg">
+    <div id="download">
+      
+      <a class="btnDownload" href="files/MTK_slide_en.pdf"  target="_blank" rel="noopener noreferrer">
+        <i class="fa fa-download"></i>Download Presentation Material
+      </a>
+      <a class="btnDownload" href="files/MTK_slide_tw.pdf"  target="_blank" rel="noopener noreferrer">
+        <i class="fa fa-download"></i>ä¸è¼ç°¡å ±æªæ¡
+      </a>
+      
+        <a class="btn btnDownload" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-info-circle fa-lg"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right shadow" style="min-width: 0;">
+          <a class="dropdown-item" href="javascript:;">Titleï¼
+            MediaTek 2026 Q2 Investor Conference Call & Webcast/è¯ç¼ç§æ2026å¹´ç¬¬äºå­£è²¡å ±æ¨çéç·ä¸èªªææ
+		  </a>
+          <a class="dropdown-item" href="javascript:;">Speakerï¼
+            Dr. Rick Tsai, CEO/è¡åè¡, å·è¡é·
+	 ããã Mr. David Ku, CFO/é¡§å¤§çº, è²¡åé·
+		  </a>
+          <a class="dropdown-item" href="javascript:;">Timeï¼2026-07-31 15:00</a>
+          <a class="dropdown-item" href="javascript:;">Language: 
+            English/è±æ</a>
+        </div>
+    </div>
+  </div>
+  <div id="content">
+    <div id="view">
+	  <p>
+		<iframe id="iframe_video" src="" 
+	      style="overflow:hide;width:100%;min-height: 475px;" 
+		  width="100%" frameborder="0" scrolling="no" allowfullscreen="true" 
+		  webkitallowfullscreen="true" mozallowfullscreen="true">
+	    </iframe>
+	  </p>
+	  
+    </div>
+  </div>
+  <footer>
+    <div id="footer">
+      <h5>Copyright Â® MediaTek Inc. Limited 2026, All Rights Reserved.</h5>
+    </div>
+  </footer>
+
+  <form id="download_form" method="post" style="display: none;">
+    <input type="text" name="docPath" id="docPath" />
+    <input type="text" name="contentProvider" value="mediatek" />
+    <input type="submit" value="Submit" />
+  </form>
+
+  <script>
+    function loadIframe(iframeName, url) {
+      var $iframe = $('#' + iframeName);
+      if ($iframe.length) {
+        $iframe.attr('src', url);
+        return false;
+      }
+      return true;
+    }
+  </script>
+  <script>
+	function setIframe(){
+		const channel = "39";
+		const company = "mediatek";
+		const path = "webapp/"+company+"/liveWindow?layoutMode=pure&channel="+channel;
+		const domain = "https://ottlive.hinet.net/";
+		
+		const videoSrc = domain+path;
+		$("#iframe_video").attr("src", videoSrc);
+	}
+  </script>
+  <script>
+    // Live Page
+    $(function () {
+	  setIframe();
+    });
+  </script>
+  
+</body>
+</html>

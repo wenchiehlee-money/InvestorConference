@@ -76,6 +76,7 @@ KNOWN_TW_PLAYWRIGHT_IR_BY_QUARTER = {
     ("2454", "2025", "2"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=2413",
     ("2454", "2025", "3"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=2531",
     ("2454", "2025", "4"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=3556",
+    ("2454", "2026", "1"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=3635",
     ("3034", "2025", "3"): "https://www.novatek.com.tw/upload/website/_2025Q3_25110708_904.html",
     ("3034", "2025", "4"): "https://www.novatek.com.tw/upload/website/_2025Q4_26020909_911.html",
     ("3045", "2026", "1"): "http://www.zucast.com/webcast/YZRGwetH",  # 台灣大 2026Q1 法說會 2026-05-13 (Zucast 需註冊; 音檔為 S3 直連 mp3, 已下載至 3045_2026_q1.m4a)
