@@ -1,10 +1,9 @@
-# 2330 TSMC 2026 Q2 Management Report
+<!-- mac-mini-ocr:hybrid-base source="2330_2026_q2_management_report.pdf" extractor="fitz" generated="2026-07-17" -->
 
-Source-PDF: data/2330/2330_2026_q2_management_report.pdf
-Source-Level: primary_company_ir
-Extraction: fitz text extraction from downloaded official PDF
+# 2330_2026_q2_management_report.pdf（文字層抽取，必要頁面以 Mac-mini OCR 補轉錄）
 
-## Page 1
+<!-- PAGE:1 -->
+## 第 1 頁
 
 FOR IMMEDIATE RELEASE 
    
@@ -142,7 +141,8 @@ Note: Diluted weighted average outstanding shares were 25,932mn units in 2Q26
 Quarterly Management Report
 July 16, 2026
 
-## Page 2
+<!-- PAGE:2 -->
+## 第 2 頁
 
 Wafer Revenue by Technology 
 2Q26
@@ -307,7 +307,8 @@ Gross Margin
 66.2%
 58.6%
 
-## Page 3
+<!-- PAGE:3 -->
+## 第 3 頁
 
 TSMC
 July 16, 2026                                                                                                                                                       Page 3
@@ -455,7 +456,8 @@ EPS  (NT$ per common share)
  
 15.36
 
-## Page 4
+<!-- PAGE:4 -->
+## 第 4 頁
 
 TSMC
 July 16, 2026                                                                                                                                                       Page 4
@@ -571,7 +573,8 @@ Net Cash Reserves
  2,326.34 
  1,656.54
 
-## Page 5
+<!-- PAGE:5 -->
+## 第 5 頁
 
 TSMC
 July 16, 2026                                                                                                                                                       Page 5
@@ -705,7 +708,8 @@ Capital Expenditures
 11.10
 26.80
 
-## Page 6
+<!-- PAGE:6 -->
+## 第 6 頁
 
 TSMC
 July 16, 2026                                                                                                                                                       Page 6

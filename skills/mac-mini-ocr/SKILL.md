@@ -7,12 +7,14 @@ description: 使用自建在 Mac-mini 上的 OCR API 服務，將 PDF 或圖片�
 
 | 項目 | 內容 |
 | :--- | :--- |
-| 版本 | 1.1.1（詳見 `metadata.json`） |
+| 版本 | 1.2.0（詳見 `metadata.json`） |
 | 來源 | https://github.com/wenchiehlee/FamilyHealthyCheck |
 | 登錄庫 | https://github.com/wenchiehlee/skills （`common/skill-mac-mini-ocr`） |
 | 維護者 | wenchiehlee |
 
-此技能封裝了與 Tailscale 虛擬局域網路內自建的 Mac-mini OCR API 的連線與排版抓取。它能自動將您上傳的 PDF 檔案或圖片（JPG/PNG 等）傳送至 Mac-mini 伺服器，利用強大的 OCR 引擎進行文字轉錄，並以結構清晰的 Markdown 格式回傳，方便後續的數據提取與分析。
+此技能封裝了與 Tailscale 虛擬局域網路內自建的 Mac-mini OCR API 的連線與排版抓取。它能自動將您上傳的 PDF 檔案或圖片（JPG/PNG 等）傳送至 Mac-mini 伺服器，利用 OCR 引擎進行文字轉錄，並以結構清晰的 Markdown 格式回傳，方便後續的數據提取與分析。
+
+對 PDF，預設採用 hybrid 流程：先保留 PDF 內建文字層，只有無文字層或文字層不足的頁面才送 Mac-mini OCR。這可避免把乾淨的官方文字層覆蓋成較差的 OCR 結果，也能大幅降低整份簡報 OCR 的時間。
 
 ## 📦 技能結構說明
 當您將此技能複製到其他專案時，整個技能資料夾結構如下：
@@ -34,7 +36,7 @@ mac-mini-ocr/
 ### 1. 安裝 Python 套件依賴
 在專案中執行以下命令安裝必備套件：
 ```bash
-pip install requests python-dotenv pypdf
+pip install requests python-dotenv pypdf PyMuPDF
 ```
 
 （`pypdf` 供離線退援模式使用；若只用線上 OCR 可省略。）
@@ -70,7 +72,7 @@ python scripts/ocr_client.py path/to/report.pdf > output.md
 ```
 
 ### 📈 方式 C：批次處理法說會簡報 (IR PDFs)
-如果您需要批次處理多個投資關係相關的 PDF，可以使用 `convert_ir_pdfs.py`：
+如果您需要批次處理多個投資關係相關的 PDF，可以使用 `convert_ir_pdfs.py`。此腳本會先做文字層抽取，再只對必要頁面補 OCR；Mac-mini 離線時會保留 `TODO:OCR` 標記，不會用低品質 OCR 覆蓋乾淨文字層：
 ```bash
 # 掃描全部股票資料夾進行轉換：
 python scripts/convert_ir_pdfs.py
@@ -83,7 +85,7 @@ python scripts/convert_ir_pdfs.py 2301 DELL
 當 Mac-mini 不在線時，可先用本地文字層抽取產生暫用 Markdown，之後再補做 OCR：
 
 ```bash
-# 步驟 1：離線退援轉換（僅抽取 PDF 內嵌文字層，不做 OCR）
+# 步驟 1：文字層抽取（僅抽取 PDF 內嵌文字層，不做 OCR）
 python scripts/pdf_fallback.py path/to/report.pdf > output.md
 
 # 步驟 2：檢視哪些頁面需要補 OCR（離線可用）
@@ -101,9 +103,10 @@ python scripts/refine_todo_ocr.py output.md --pdf path/to/report.pdf
 ```
 
 *   `reason=scanned-page`：該頁幾乎沒有文字層（掃描影像頁），整頁需要 OCR。
-*   `reason=embedded-images`：該頁有文字層但含內嵌圖片，圖中文字未被抽取。
+*   `reason=embedded-images`：該頁有文字層但含內嵌圖片，且使用者明確要求 `--mark-embedded-images` 時才標記。
 *   補轉錄完成後，標記會被替換為 `<!-- OCR:done source="..." page=N date="..." -->`，OCR 結果直接取代該頁內容。
-*   注意：退援模式對純掃描 PDF（如掃描的健檢報告）只能產生整頁 TODO:OCR 標記的骨架；表格與版面資訊仍需等 OCR 補轉錄後才可用。
+*   Mac-mini OCR API 若回傳 detector/debug 標記或 `save results` 區塊，client 會在寫檔前清理，只保留可讀 Markdown。
+*   注意：對純掃描 PDF（如掃描的健檢報告）只能先產生整頁 TODO:OCR 標記的骨架；表格與版面資訊仍需等 OCR 補轉錄後才可用。
 
 ## 🛡️ 穩健性設計與異常處理 (Robust Design)
 *   **超時控制**：由於 PDF 的轉錄需要較長時間，請求的讀取超時（timeout）設為 `900` 秒，防止大型檔案傳輸中斷。

@@ -1,10 +1,9 @@
-# 2330 TSMC 2026 Q2 Earnings Release
+<!-- mac-mini-ocr:hybrid-base source="2330_2026_q2_earnings_release.pdf" extractor="fitz" generated="2026-07-17" -->
 
-Source-PDF: data/2330/2330_2026_q2_earnings_release.pdf
-Source-Level: primary_company_ir
-Extraction: fitz text extraction from downloaded official PDF
+# 2330_2026_q2_earnings_release.pdf（文字層抽取，必要頁面以 Mac-mini OCR 補轉錄）
 
-## Page 1
+<!-- PAGE:1 -->
+## 第 1 頁
 
 July 16, 2026   TSMC   Page 1 of 2 
  
@@ -50,7 +49,8 @@ Operating profit margin is expected to be between 56% and 58%.
 TSMC Reports Second Quarter 
 EPS of NT$27.25
 
-## Page 2
+<!-- PAGE:2 -->
+## 第 2 頁
 
 July 16, 2026   TSMC   Page 2 of 2 
  
