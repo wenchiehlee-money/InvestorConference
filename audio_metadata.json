@@ -18,5 +18,18 @@
     "size_bytes": 82358841,
     "source": "github_release_audit",
     "status": "ok"
+  },
+  "2458_2025_q4": {
+    "checked_at": "2026-07-16",
+    "duration_sec": 719.215,
+    "file": "data/2458/2458_2025_q4.m4a",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2458_2025_q4.m4a",
+    "sha256": "f01b6d475ab16b5189dc7f84dac4da942a5ba5b692506389378a686559526c8b",
+    "size_bytes": 10841119,
+    "source": "official_company_ir_seminar",
+    "status": "ok",
+    "official_replay_date": "2026-03-03",
+    "announcement_date": "2026-03-17",
+    "source_url": "http://irconference.twse.com.tw/2458_162_20260303_ch.mp4"
   }
 }
