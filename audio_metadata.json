@@ -1,4 +1,20 @@
 {
+  "2379_2025_q4": {
+    "checked_at": "2026-07-16",
+    "duration_sec": 1326.02,
+    "file": "data/2379/2379_2025_q4.m4a",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2379_2025_q4.m4a",
+    "sha256": "711769b6b6ea7de739cf0befb1bf705d8c99393fa877401560631e0925f8369a",
+    "size_bytes": 21445822,
+    "source": "youtube_official_realtek_ir_discovered_via_finmoconf_mops",
+    "status": "ok",
+    "source_url": "https://youtu.be/rmZjNwtsBq0",
+    "official_material_urls": [
+      "https://mopsov.twse.com.tw/nas/STR/237920260304M002.pdf",
+      "https://mopsov.twse.com.tw/nas/STR/237920260304E002.pdf"
+    ],
+    "note": "MOPS/FinmoConf list 2025 Q4 materials around 2026-03-10; YouTube title is Realtek IR 20260312. README source event row was 2026-03-18 and should be treated as an announcement/event-feed mismatch."
+  },
   "2330_2026_q2": {
     "checked_at": "2026-07-16",
     "duration_sec": 4225.27,
