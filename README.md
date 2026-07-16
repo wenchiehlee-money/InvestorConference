@@ -51,7 +51,7 @@
 | INTC Intel Corporation | 2026 Q2 | 財報 | 2026-07-23 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
 | GOOGL Alphabet Inc. | 2026 Q1 | 財報 | 2026-07-22 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/GOOGL/financials/) |
 | 2317 鴻海 | 2026 Q2 | 法說會 | 2026-07-17 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
-| 2330 台積電 | 2026 Q2 | 法說會 | 2026-07-16 | - | - | - | [中](https://investor.tsmc.com/chinese/encrypt/files/encrypt_file/reports/2026-07/8f1aa7a97b70ba94de94d8e46ddc977fca74f918/2Q26%20Presentation%20%28C%29.pdf) | [EN](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/9ce1ced428b1f53f1319be1fa7964327bcb1b02f/2Q26%20Presentation%20%28E%29.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
+| 2330 台積電 | 2026 Q2 | 法說會 | 2026-07-16 | - | - | - | [中](data/2330/2330_2026_q2_ir.pdf) ([MD](data/2330/2330_2026_q2_ir.md)) | [EN](data/2330/2330_2026_q2_ir_en.pdf) ([MD](data/2330/2330_2026_q2_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 2317 鴻海 | 2026 Q2 | 財報 | 2026-07-16 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2330 台積電 | 2026 Q2 | 財報 | 2026-07-16 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | TSM Taiwan Semiconductor Manufacturing Company Limited | 2026 Q1 | 財報 | 2026-07-16 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/TSM/financials/) |
