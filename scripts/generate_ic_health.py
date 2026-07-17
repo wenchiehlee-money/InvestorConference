@@ -153,7 +153,6 @@ def main():
         invalid_audios = {
             "qcom_2025_q4",    # remote release URL returns 404
             "2454_2026_q1",    # duplicate of 2454_2025_q4 on remote
-            "2458_2026_q1",    # duplicate of 2458_2025_q4 on remote
             "7765_2026_q1",    # duplicate of 7765_2025_q4 on remote
         }
         
