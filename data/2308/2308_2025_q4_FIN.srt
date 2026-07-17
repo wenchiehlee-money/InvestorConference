@@ -4,9 +4,9 @@ Provider: faster-whisper
 Model: whisper-large-v3
 Model-Repo: large-v3
 Duration: 61.9 min (3717s)
-Transcription-Time: 2071.8s
-RTF: 0.557
-Generated-At: 2026-07-16 18:35 CST
+Transcription-Time: 1937.0s
+RTF: 0.521
+Generated-At: 2026-07-17 19:55 CST
 ---
 
 (00:19.000) 歡迎大家來參加今年第一次的法說
