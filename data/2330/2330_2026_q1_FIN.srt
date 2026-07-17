@@ -4,9 +4,9 @@ Provider: mlx-whisper
 Model: whisper-large-v3
 Model-Repo: mlx-community/whisper-large-v3-mlx
 Duration: 69.5 min (4167s)
-Transcription-Time: 451.2s
-RTF: 0.108
-Generated-At: 2026-07-17 00:36 CST
+Transcription-Time: 452.5s
+RTF: 0.109
+Generated-At: 2026-07-18 00:38 CST
 ---
 
 (00:00.000) Good afternoon everyone and welcome to TSMC's first quarter 2026 earnings conference.
