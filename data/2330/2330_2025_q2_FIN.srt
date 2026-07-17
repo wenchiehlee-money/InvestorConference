@@ -4,9 +4,9 @@ Provider: mlx-whisper
 Model: whisper-large-v3
 Model-Repo: mlx-community/whisper-large-v3-mlx
 Duration: 77.0 min (4620s)
-Transcription-Time: 540.5s
-RTF: 0.117
-Generated-At: 2026-07-16 21:48 CST
+Transcription-Time: 528.7s
+RTF: 0.114
+Generated-At: 2026-07-17 22:02 CST
 ---
 
 (00:00.000) The drill is over.
