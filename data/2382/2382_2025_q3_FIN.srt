@@ -4,16 +4,16 @@ Provider: faster-whisper
 Model: whisper-large-v3
 Model-Repo: large-v3
 Duration: 62.0 min (3721s)
-Transcription-Time: 2625.7s
-RTF: 0.706
-Generated-At: 2026-04-08 23:19 CST
+Transcription-Time: 2617.6s
+RTF: 0.704
+Generated-At: 2026-07-17 16:30 CST
 ---
 
 (00:03.510) 各位投資先進法人朋友大家好,歡迎參加廣達電腦2025年第三季營運成果說明會。
 (00:10.830) 我是本次會議主持人花旗的Carrie。
 (00:13.800) 今天我們很榮幸邀請到廣達電腦副董事長梁次震先生CC,
 (00:18.780) 財務長楊俊烈先生Alton,
-(00:21.540) 以及IR團隊的Carol、阿蕾與慧。
+(00:21.540) 以及IR團隊的Carol、阿蕾與會。
 (00:24.740) 在接下來的時間
 (00:26.400) Carol將會針對第三季財報
 (00:28.720) 及第四季展望做簡要說明
