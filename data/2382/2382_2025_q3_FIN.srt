@@ -4,9 +4,9 @@ Provider: faster-whisper
 Model: whisper-large-v3
 Model-Repo: large-v3
 Duration: 62.0 min (3721s)
-Transcription-Time: 2617.6s
-RTF: 0.704
-Generated-At: 2026-07-17 16:30 CST
+Transcription-Time: 2527.1s
+RTF: 0.679
+Generated-At: 2026-07-18 17:23 CST
 ---
 
 (00:03.510) 各位投資先進法人朋友大家好,歡迎參加廣達電腦2025年第三季營運成果說明會。
