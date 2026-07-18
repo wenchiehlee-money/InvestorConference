@@ -1,0 +1,911 @@
+[METADATA]
+Source: 2330_2026_q2_exp1
+Language: en
+---
+(00:19.780) Good afternoon,
+(00:20.980) everyone,
+(00:26.100) and welcome to TSMC's second quarter of the year.
+(00:29.120) earnings conference and conference call. This is Jeff Su, TSMC's Director of Investor Relations
+(00:35.340) and your host for today. Today's event is being webcast live through TSMC's website at
+(00:41.920) www.tsmc.com where you can also download the earnings release materials. If you're joining
+(00:49.680) us through the conference call, your dial-in lines are in listen-only mode. The format for
+(00:56.200) for today's event will be as follows.
+(00:58.960) First, TSMC Senior Vice President and CFO,
+(01:03.060) Mr. Wendell Huang will summarize our operations
+(01:05.840) in the second quarter, 2026,
+(01:08.720) followed by our guidance for the third quarter, 2026.
+(01:13.140) Afterwards, Mr. Huang and TSMC's Chairman and CEO,
+(01:18.120) Dr. Cici Wei will join you provide
+(01:20.440) the company's key messages.
+(01:22.660) Then we will open both the floor
+(01:24.640) and the line for the question and answer session.
+(01:28.120) As usual, I'd like to remind everybody
+(01:30.520) that today's discussions may contain
+(01:32.440) forward-looking statements that are subject
+(01:34.340) to significant risk and uncertainties,
+(01:37.080) which could cause actual results to differ materially
+(01:39.240) from those contained in the forward-looking statements.
+(01:42.520) Please refer to the safe harbor notice
+(01:44.260) that appears in our press release.
+(01:47.580) And now I would like to turn the microphone over
+(01:50.200) to TSMC CFO, Mr. Wendell Huang,
+(01:53.120) for the summary of operations and the current quarter guidance.
+(01:56.860) Thank you, Jeff. Good afternoon, everyone. Thank you for joining us today.
+(02:01.300) My presentation will start with financial highlights for the second quarter of 2026.
+(02:07.720) After that, I will provide the guidance for the third quarter of 2026.
+(02:13.980) Now let's move on to revenue by technology.
+(02:16.660) 2 nm process technology contributed 3% of wafer revenue in the second quarter.
+(02:24.780) 3 nm,
+(02:26.120) 5 nm,
+(02:27.540) and 7 nm accounted for 30%,
+(02:30.700) 33%,
+(02:32.200) and 11% respectively.
+(02:35.060) Advanced technology, defined as 7 nm and below, accounted for 77% of wafer revenue.
+(02:44.180) Moving on to revenue contribution by platform. HPC increased 20% quarter over quarter to account
+(02:53.580) for 66% of our second quarter revenue. Smartphone decreased 4% to account for 22%. IoT increased 4%
+(03:05.400) to account for 5%. Automotive increased 15% to account for 4%. DCE increased 5% to account for 1%.
+(03:18.820) Moving on to the balance sheet, we ended the second quarter with cash and marketable securities
+(03:25.220) securities of 3.5 trillion NT or 110 billion US dollars. On the liability side,
+(03:34.020) current
+(03:34.860) liabilities increased by 144 billion NT quarter over quarter,
+(03:40.080) mainly due to the increase of
+(03:43.040) 58 billion in accounts payable and the increase of 48 billion in accrued liabilities and others.
+(03:50.740) In terms of financial ratios,
+(03:54.260) accounts receivable days increased by 3 days to 29 days. Inventory days increased 7 days to 87 days primarily due to the ramp of N2 technology.
+(04:09.060) Regarding cash flow and Capex,
+(04:11.620) during the second quarter,
+(04:13.540) we generated about 783 billion NT in cash
+(04:17.960) from operations,
+(04:18.800) spent 496 billion in Capex and distributed 156 billion for third quarter 2025
+(04:28.160) cash dividends. Overall,
+(04:31.220) our cash balance increased 99 billion NT to 3.1 trillion at the end of the
+(04:37.560) quarter. In U.S. dollar terms, our second quarter capital expenditures total 15.7 billion.
+(04:46.980) I finished my financial summary. Now let's turn to the current quarter guidance.
+(04:53.120) Based on the current business outlook,
+(04:56.280) we expect our third quarter revenue to be between 44.6
+(05:01.400) billion and 45.8 billion US dollars,
+(05:04.580) which represents a 12% sequential increase or a 37%
+(05:11.880) year over year increase at the midpoint. Based on the exchange rate assumption of one US dollar to
+(05:19.320) to 32 NT,
+(05:20.200) gross margin is expected to be between 65 and 67%,
+(05:26.540) operating margin between 56 and
+(05:30.160) 58%.
+(05:31.220) This concludes my financial presentation.
+(05:41.780) Let me turn to our key messages.
+(05:44.260) I will start by talking about our Q2 26 and Q3 26 profitability.
+(05:52.360) Compared to the first quarter, our second quarter gross margin increased by 150 basis
+(05:58.220) points,
+(05:58.580) sequentially to 67.7%,
+(06:02.580) slightly ahead of our guidance,
+(06:04.740) primarily due to cost improvement
+(06:07.300) efforts and the slightly higher overall capacity utilization rate partially
+(06:12.800) offset by dilution from our overseas fabs we have just guided our third
+(06:19.340) quarter gross margin to decreased by 1.7 percentage point to 66% at the midpoint
+(06:25.920) primarily as we expect the steep ramp up of our 2nm technology to
+(06:32.660) to dilute our gross margin by about 3-4 percentage points.
+(06:37.020) This dilution is expected to be partially offset by very strong demand for our leading-edge
+(06:44.340) technologies and continue cost-improvement efforts, including productivity gains and
+(06:50.160) across-node capacity optimization.
+(06:54.400) Looking at the second half of the year, given the six factors that determine our profitability,
+(06:59.860) There are a few puts and takes that I would like to share.
+(07:05.000) First, we expect a steep ramp up of our two nanometers to dilute our gross margin by about
+(07:12.500) three to four percentage points in the second half of the year.
+(07:16.880) Furthermore, as the scale of our overseas expansion grows, we continue to forecast the
+(07:23.780) gross margin dilution from the ramp up of overseas FAPs in the next several years to
+(07:29.320) to be 2-3% in the early stages and widened to 3-4% in the latter stages.
+(07:36.480) On the other hand, demand for our leading-edge technologies is very strong.
+(07:42.780) In addition, we continue to leverage our manufacturing excellence to generate more wafer output and
+(07:50.080) drive greater across-node capacity optimization in our fab operations to support our profitability.
+(07:58.380) Finally, we have no control over the foreign exchange rate, but that may be another factor.
+(08:06.120) Next,
+(08:06.840) let me talk about our 2026 capital budget. At TSMC,
+(08:11.840) a higher level of capital expenditures
+(08:14.500) is always correlated to higher growth opportunities in the following years. With
+(08:20.740) our strong technology leadership and differentiation, we are well positioned
+(08:25.460) to capture the multi-year structural demand from the industry megatrends of 5G, AI, and HPC.
+(08:34.060) Given the continued strong structural demand from our customers,
+(08:38.540) including the newly emerging agentic AI market,
+(08:42.820) we have decided to raise our full-year 2026 capital budget to be between $60 and $64 billion.
+(08:50.120) US dollars as we continue to invest heavily to support our customers growth.
+(08:57.660) We always collaborate closely with the two suppliers well in advance to prepare
+(09:03.980) the capacity whether it is a strong up cycle or down cycle just like our
+(09:10.780) customers collaborate with us well in advance to plan our capacity. Thus we do
+(09:16.940) do not foresee any bottlenecks to our capacity expansion plans.
+(09:22.980) About 70 to 80% of the 2026 capital budget will be allocated for advanced process technologies.
+(09:31.040) About 10% will be spent for specialty technologies and about 10 to 20% will be spent for advanced
+(09:38.600) packaging, testing, mask making and others.
+(09:42.620) Even as we invest for the future growth with this level of KPAC spending in 2026,
+(09:49.040) we remain committed to delivering profitable growth to our shareholders.
+(09:55.460) We also remain committed to a sustainable and steadily increased cash dividend per share on both an annual and quarterly basis.
+(10:04.400) In 2025,
+(10:06.140) we paid $467 billion NT in cash dividends,
+(10:10.700) up 28.6% year-over-year,
+(10:14.200) as TSMC shareholders
+(10:15.880) received a total of 18 NT cash dividends per share. In 2026,
+(10:22.860) they will receive 24 NT per share,
+(10:26.800) up another 33% year-over-year, and we expect a continued and increasing cash dividends per
+(10:34.160) share in 2027 as well. Now let me turn the microphone over to CC.
+(10:39.820) Thank you, Wendell. Good afternoon, everyone. First, let me start with our near-term demand
+(10:46.820) outlook. We concluded our second quarter with revenue of US $40.2 billion at the high end of
+(10:56.940) our guidance in US dollar terms, driven by strong demand for our leading-edge process technologies.
+(11:04.420) Moving into third quarter, we expect our business to be supported by continuous strong demand
+(11:11.600) for our leading-edge process technologies, including the steep ramp of our 2-nm
+(11:18.080) technology.
+(11:19.240) Looking ahead,
+(11:20.340) we observe consumer and price-sensitive end-market segments are being challenged due
+(11:28.040) due to the impact of rising component prices and macroeconomics uncertainties.
+(11:38.900) As such, we are being prudent in our business planning
+(11:43.080) while focusing on our fundamentals of our business
+(11:47.600) to further strengthen our competitive position.
+(11:51.400) Having said that, AI-related demand continues to be extremely robust.
+(12:00.020) The AI megatrend continues to drive the need for more and more computation,
+(12:06.640) which supports
+(12:08.920) the robust demand for leading-edge silicon.
+(12:12.740) Our customers and customers' customers, who are mainly the cloud service provider, continue
+(12:20.500) to provide us with their very strong signal and positive outlook.
+(12:26.680) Thus, our conviction in the multi-year AI megatrend remains very high.
+(12:34.760) Supported by our robust technology differentiation and broad customer base,
+(12:41.540) we now expect our full-year 2026 revenue goals to be slightly above 40% year-over-year in U.S. dollar terms.
+(12:55.620) Now let me talk about the acceleration of agentic AI.
+(13:01.340) The AI market continues to be very dynamic.
+(13:04.180) The emergence of authentic AI is leading to a resurgence in the role of CPUs in AI data
+(13:12.520) centers, which drive more silicon demand in addition to AI accelerators.
+(13:18.800) We believe this is positive for TSMC as no matter what CPU approach is taken,
+(13:26.280) whether
+(13:28.220) Whether it's x86 ARM-based or RISC-V architecture,
+(13:35.120) they are almost all TSMC customers.
+(13:38.600) We are already collaborating closely with our CPU customers
+(13:44.560) and working to support them with the most advanced
+(13:47.900) technologies and necessary capacity
+(13:50.220) so they can capture the authentic AI market opportunities.
+(13:58.220) Next, let me talk about TSMC's capacity expansion strategies.
+(14:04.780) To address the structural increase in overall long-term semiconductor market demand profile,
+(14:11.020) TSMC collaborates closely with our customers and our customers' customers to plan our capacity.
+(14:19.900) Given the fundamental complexity of leading-edge technologies and the designing and lead time
+(14:26.880) involved. We also have a very good idea of their multi-year product roadmap and
+(14:33.100) production plans. This is important because it takes more than five years to
+(14:39.480) develop the technology and product, prepare the capacity, and ramp it up to
+(14:46.460) high-volume production. Internally, TSMC employs a disciplined capacity planning
+(14:53.820) system to assess the market demand from post a top-down and bottom-up approach
+(15:01.320) this is a continuous and ongoing process based on our assessment we are stepping
+(15:09.660) up our KPEX investment to increase our capacity to support our customers of
+(15:16.980) future growth. Now,
+(15:20.380) with a strong collaboration and support from our leading U.S. customers
+(15:29.140) and the U.S. federal, state, and city government, we would like to announce an additional
+(15:36.640) 100 billion U.S. dollar investment in Arizona. This is to build several more
+(15:44.360) semiconductor logical wafer fab for 2 nm and below technologies,
+(15:50.760) as well as advanced
+(15:52.800) packaging fabs to support the strong multi-year demand from our leading U.S. customers.
+(16:00.280) We believe this investment will help to further foster the development of the U.S. semiconductor
+(16:07.220) semiconductor ecosystem, strengthen the supply chain, and support an increasing number of
+(16:14.500) high-tech, high-paying jobs in the United States.
+(16:18.860) At the same time,
+(16:20.340) we are building 13 leading-edge and advanced packaging fab in Taiwan over
+(16:27.660) the next several years, and we will continue to further invest in Taiwan.
+(16:32.580) Therefore,
+(16:33.940) the SMC's semiconductor technology and manufacturing work continue to play a pivotal role in supporting the global semiconductor industry by unleashing our customers' innovations.
+(16:51.080) Now let me talk about the current N3 capacity expansion.
+(16:57.020) We are executing well on our global plan to add three additional 3 nm files,
+(17:04.400) one
+(17:05.300) in Taiwan,
+(17:05.840) one in Arizona,
+(17:07.580) and one in Japan to support the robust multiyear pipeline of
+(17:13.540) demand for 3 nm technologies.
+(17:15.920) In addition to all the new FABs,
+(17:19.100) we continue to convert 5 nm tools to support 3 nm capacity
+(17:26.540) in Taiwan.
+(17:27.880) We are also leveraging our manufacturing excellence to drive greater productivity across our FAB
+(17:36.020) in all locations to generate more wafer output.
+(17:39.660) We are also focusing on capacity optimization across nodes,
+(17:45.540) which include flexible capacity
+(17:49.080) support among N7, N5, and N3 nodes.
+(17:54.020) In summary,
+(17:55.400) we are using multiple levers to do everything we can,
+(18:00.660) wherever we can,
+(18:02.640) however
+(18:03.720) every weekend to maximize the support to all our customers. Now let me talk about our mature node
+(18:12.560) strategies. TSMC's strategy at mature node has not changed. Our first priority is to fully support
+(18:23.100) our customer and now we continue to increase,
+(18:27.020) not decrease,
+(18:28.920) our mature node capacity in the
+(18:32.200) a higher value added segment. For example, we are increasing our mature node capacity through
+(18:39.820) JASM-V1 in Japan for CMOS-ME sensor application and ESMC in Germany for automotive and industrial
+(18:51.180) applications. In today's market,
+(18:54.180) outside of specific areas such as power management IC
+(18:59.680) and CMOS image sensor,
+(19:02.420) the mature node demand in other commodity areas is not that strong.
+(19:09.640) Thus,
+(19:10.520) TSMC will continue to focus on the higher value added and strategic segment by ensuring
+(19:18.060) we have a necessary capacity to support our customers' growth. Finally,
+(19:26.260) let me talk about
+(19:27.280) about our A14 status.
+(19:30.960) As I mentioned a few minutes ago,
+(19:33.380) the complexity of leading-edge technology
+(19:36.200) continue to increase.
+(19:38.340) The lead time to develop a new technology such as A14,
+(19:44.780) building the capacity and then ramping it up
+(19:48.180) now takes five to seven years.
+(19:50.240) There are no shortcuts.
+(19:53.220) Our A14 technology representing the second generation
+(19:56.480) operation of narrow-sheet transistors and deliver another four-node stride from N2 with
+(20:03.600) performance and power benefit to address the insatiable need for high-performance and energy-efficient
+(20:10.800) computing.
+(20:12.240) Compared with N2,
+(20:14.040) A14 will provide 10 to 15 speed improvement at the same power or 25
+(20:21.260) to 30 power improvement at the same speed and close to 20% chip density gain.
+(20:29.260) A14 technology development is on track and progressing well.
+(20:36.260) Internal product light vehicle demonstrated close to 90% device performance and close
+(20:44.500) to 90% 256 megabits SRAM yield.
+(20:49.220) We are observing a strong level of customer interest and engagement from both smartphone
+(20:57.160) and HPC AI applications, and customer now tap-out activity is ongoing and ahead of schedule.
+(21:05.880) Reproduction was started in 2027 and volume production is scheduled for 2028.
+(21:12.720) With our strategy of continuous enhancement,
+(21:17.040) we also introduced A13 and A12 as extension
+(21:22.140) of the A14 family.
+(21:24.320) A13 represents a further advancement over A14,
+(21:29.660) achieving over 6% di-area saving through
+(21:34.600) an innovative 97% optical shrink.
+(21:39.020) So continuous design technology co-optimization is also drive for the performance and power
+(21:49.300) efficient improvement.
+(21:50.620) A certain design rule are backward compatible with the A14 to ensure smooth IP migration.
+(21:59.420) We also introduced A12,
+(22:02.240) which will bring our innovative super-powered rail technology to
+(22:08.540) the A14 platform for superior performance, power, and area benefit.
+(22:15.080) Both A13 and A12 are scheduled for volume production in 2029.
+(22:21.120) We believe A14 and its derivative technologies will prepare our A14 family to be an even
+(22:30.520) larger and long lasting node for TSMC than N2.
+(22:36.660) Just like a 2 nm technology is a larger and longer lasting node than 3 nm.
+(22:43.900) And here further extend our technology leadership position work into the future.
+(22:50.320) This concludes our key messages
+(22:54.480) and thank you for your attention.
+(22:57.220) Thank you, CC.
+(22:58.580) So this does conclude our prepared statements.
+(23:02.040) Before we begin the Q&A session,
+(23:03.800) again, I would like to remind everybody
+(23:05.420) to please limit your questions to two at a time
+(23:08.260) to allow all the participants an opportunity
+(23:10.820) to ask their questions.
+(23:12.220) Questions will be taken both from the floor
+(23:14.480) and from the call online.
+(23:16.480) Should you raise to, should you wish to raise your question in Chinese, I will translate it to English before our management answers the question.
+(23:24.380) So for those of you on the call, if you'd like to ask the question, please press star then one on your telephone keypad now.
+(23:30.980) If at any time you'd like to remove yourself from the questioning queue, please press star two.
+(23:36.460) Please note that we will try to conclude today's meeting at around 3.10 or so.
+(23:41.340) So we will try to get in as many participants,
+(23:45.400) your questions as possible.
+(23:47.580) But if we're not able to, we do apologize in advance
+(23:51.520) and thank you everyone for your patience.
+(23:53.440) So operator, well, let's begin the Q&A session.
+(23:57.120) We'll take the first few questions from the floor
+(23:59.240) and then we'll go online.
+(24:00.960) Maybe again, left, center, right.
+(24:04.200) Maybe we'll take the first question.
+(24:06.660) Sunny Lin from UBS, please.
+(24:11.440) Thank you very much. Congrats on the very strong performance and outlook. So number one,
+(24:17.800) I'll do a double click on the Capex. So very encouraging Capex outlook. And I do think it's essential that TSMC showcase stronger determination in capacity expansion,
+(24:28.080) given the stronger demand and the very tight supply.
+(24:31.220) And so beyond 2026,
+(24:35.380) I think every large client also wonder how aggressive TSMC is planning for
+(24:40.980) KPEX. And so backing the COVID super cycle TSMC did provide a three year KPEX outlook back then.
+(24:48.640) And so I wonder at this point, will it be possible for you to share any color,
+(24:53.600) maybe for the coming three years KPEX? Thank you.
+(24:56.600) Okay, so Sunny's first question is regarding KPEX. She does believe it's important,
+(25:01.120) essential to show our determination to support our customers with these large KPEX investments.
+(25:08.380) So she wants to know, do we have a three-year KPEX guidance, 26, 27, 28,
+(25:14.360) similar to what we did back in 2021? Okay, Sunny, we do not have a number
+(25:20.600) to share with you. But as you know,
+(25:24.160) we invest KPEX this year for the future business opportunity. And
+(25:29.320) as long as there are business opportunities, we will not hesitate to invest. As you can hear from
+(25:36.540) our prepared remarks that we are conviction in the megatrend, AI megatrend multi-year is very strong,
+(25:44.400) and we are stepping up the Capex, including increasing this year's Capex. Last time we said
+(25:50.920) our Capex in the next three years will be significantly higher than the Capex in the
+(25:57.640) past three years. Now is the Capex in the next three years will be even more significantly higher
+(26:05.220) than the past three years. Yeah, well, sorry, maybe let me follow up on Capex. Oh, yeah, sure.
+(26:13.020) Sure. So you just announced additional 100 billion K-PACs in the U.S.
+(26:18.280) And I think that's pretty important for you to secure the business in the U.S. as well.
+(26:22.340) And so now with total 265 billion K-PACs in Arizona,
+(26:28.300) what's your current plan to bring on the capacities in Arizona in the coming few years?
+(26:33.720) Okay. So Sunny's second question is on to, you know,
+(26:37.620) CC said investing additional 100 billion in Arizona based on the strong demand from our customers.
+(26:43.540) So the total investment now is 265 billion.
+(26:46.860) What is the schedule, time frame, or the plan for these investment? Is that correct, Sonny? Yeah, okay.
+(26:53.340) Sonny, the schedule will depend on the market situation. You know that.
+(26:58.680) So
+(27:00.380) today's the situation.
+(27:02.140) The make-up trend is so strong so that we announce
+(27:06.460) additional 100 billion investment in Arizona. How many FABs? Many. So actually,
+(27:15.100) let me say that
+(27:18.620) probably additional four more FABs will be built. And that's combining front and back end? Yes. Okay,
+(27:28.800) thank you. Let's go to the middle. We have Charlie Chan from Morgan Stanley. We'll go
+(27:34.680) go left, middle, right from where I sit. Thank you.
+(27:38.900) Thank you for taking my question. Good afternoon. So first of all, so congrats for a very strong
+(27:44.540) outlook. My first question is really about the foundry competition. I understand that
+(27:50.040) there's no shortcut for a newcomer like TerraFed, but how about like Samsung foundry, right?
+(27:56.560) They got a huge profit from memory business. Intel got a US policy support. So I'm not
+(28:04.020) sure how TSNC is going to address those competition because apparently several
+(28:08.640) US companies are engaging with those industry peers and recently actually
+(28:14.820) yesterday ASML just announced to expand the EUV capacity for 2028. Would TSNC
+(28:22.480) worry that your competitors to take more slots and build the large capacity
+(28:28.440) capacity in the future to compete with you in a leading-edge business. Thank you.
+(28:33.580) Okay, so Charlie's question is competition from two angles. One, you
+(28:39.440) know, he does note, as Cici said, foundry competition, no shortcuts, but he says
+(28:43.980) according to the news, many of our customers are engaging with our
+(28:47.760) foundry competitors. One of them in Korea is making huge amounts of money these
+(28:53.360) these days, another one may have the US government
+(28:57.240) policy support.
+(28:59.420) So the first part of his question,
+(29:01.160) how do we see the competition and threat of customers
+(29:04.980) moving to our competitors, number one?
+(29:08.840) Well, let me say that, yes, one of my competitor
+(29:13.680) in South Korea, they make a huge amount of money
+(29:18.140) and I'm jealous about it.
+(29:22.240) And then the other one in the U.S., they got the very strong U.S. government support.
+(29:29.200) We also got the government support, by the way.
+(29:32.240) Also, we don't announce it.
+(29:34.340) However, let me share with you, as we said, there is no shortcuts.
+(29:39.320) What does that mean?
+(29:40.960) Meaning that in this semiconductor industry, you have to go back to fundamental.
+(29:47.020) You know, governments are here.
+(29:48.940) It's welcome.
+(29:49.640) really we also appreciate that. A lot of money of course that's nice to have but the most important
+(29:58.660) thing as we continue to say is a technology, manufacturing and customer trust. These three
+(30:06.440) fundamentals never change for my 30 some 40 years of career. It's always the most important thing
+(30:15.280) And that always the TSMC secret recipe to win the business. So from my from the competition
+(30:27.460) point of view,
+(30:28.380) choosing a technology ramping it up is not buying milk from 7-Eleven. Well,
+(30:40.400) I'm using that, I'm quoting the sentence for my customer anyway. I say that you're choosing
+(30:47.760) a kind of technology partner, it's no shortcut. You need to understand the technology.
+(30:56.560) You need to really utilize it using the test chip and then something and work together and then
+(31:05.180) prepare the capacity and ramp it up. That's what I say it takes about five
+(31:10.180) years. It's not that today you see this milk is better you go to the next
+(31:15.380) store, 7-Eleven. You don't like it you go to another store. No. So that's my
+(31:21.580) answer. Charlie,
+(31:22.920) agree? Yeah so hope you can buy more milk so other people can get it.
+(31:33.960) Thank you. Yeah, so let me switch here to a more exciting side.
+(31:38.420) Since you just said you see a very strong signal from customers,
+(31:42.320) customers, you also revise out the four year rule guide.
+(31:46.040) Are you ready to revise out the five year rule?
+(31:48.760) Kager, especially as an AI semi Kager.
+(31:52.000) I remember it was like high 50%.
+(31:55.440) But here comes to the question, right?
+(31:57.340) That agenda demands so strong.
+(32:02.000) CPU is a great opportunity for TSNC,
+(32:05.300) but how about there's a kind of memory cost increase,
+(32:08.680) right, it's kind of big chunk of the,
+(32:11.700) this kind of AI care pack.
+(32:13.100) So what's the update of the AI Semi-Kager
+(32:17.320) and how should we look at the contents
+(32:20.420) of this AI Semi related to TSNC's growth?
+(32:23.760) Thank you.
+(32:24.340) Okay, so Charlie's second question
+(32:26.000) is regarding the AI related demand.
+(32:28.360) We do continue to see very strong and positive signals
+(32:31.500) from our customers, customers, customers.
+(32:33.520) We've revised up our full year.
+(32:35.600) So his question is around our AI CAGR guidance
+(32:38.960) that we gave in January on a five-year period,
+(32:41.420) mid to high fifties CAGR growth.
+(32:43.660) He's wondering if there's any update to that,
+(32:46.200) a GenTech AI, a new opportunity.
+(32:48.600) What is our definition of AI accelerator?
+(32:52.120) Do we include that?
+(32:53.280) And what is the CAGR?
+(32:56.020) Charlie,
+(32:56.700) if you read our message that we continue to invest more,
+(33:03.380) we increase the
+(33:04.760) KPIs,
+(33:05.220) with a good reason. So if you're asking about the AI's CAGR,
+(33:11.400) let me give you not a number,
+(33:16.720) but it's stronger and stronger and stronger. So we don't give you the number today because
+(33:24.120) because it continues to increase,
+(33:25.860) so we don't know how to answer this question,
+(33:28.580) but stronger than what we said before.
+(33:31.360) Okay, great.
+(33:32.860) Thank you.
+(33:33.640) Thank you, Charlie.
+(33:34.640) All right, let's move to this side.
+(33:37.100) Maybe we'll take the question from Arthur from Macquarie.
+(33:43.620) Hi, first, congrats on the strong execution and performance.
+(33:48.420) My question is regarding
+(33:50.060) the new advanced packaging technology.
+(33:54.120) We noticed that especially the EMIBT is gaining attraction.
+(33:59.480) So how would TSMC react this request?
+(34:04.480) Okay, sorry.
+(34:05.540) So Arthur's first question is on advanced packaging
+(34:09.020) and competition, I guess, very simply put,
+(34:12.560) EMIBT in his view is gaining traction.
+(34:15.080) So how do we see the competitive threat from this?
+(34:19.140) Well, let me say that.
+(34:20.380) that our packaging capacity is so tight that now it's a little bit of my customers are gross. So
+(34:29.440) we work on that additional flexibility in the market. And so that will help TSMC's,
+(34:38.300) you know,
+(34:40.160) from your waiver business course which is a majority part of case and she's a
+(34:45.260) business the technology looks good according to the newspaper and we hope
+(34:55.780) they will be successful and so that she'll some of the loading from TSMC
+(35:02.160) today we're working very hard to shorten the GAAP between the demand and the
+(35:09.520) capacity. And so,
+(35:11.320) as I said,
+(35:12.460) we welcome have this additional alternative and so the flexibility for
+(35:19.060) my customer. Thank you. That makes a lot of sense. So a follow up. So as this is a new technology,
+(35:27.740) right? So if your clients, they ask you support and our value is support our customer success,
+(35:35.400) says right how TSMC will handle this special request?
+(35:42.040) Sorry, your question is?
+(35:43.960) So if this technology is have some small problem
+(35:48.400) and then ask our company to support,
+(35:51.700) so how our company, you know, accommodate it?
+(35:57.540) So Arthur's question is,
+(35:59.040) if there's some issues with this technology,
+(36:02.980) Do we have a, are we, well, I don't know how to say it.
+(36:06.980) Is there an alternative plan?
+(36:08.620) Let me answer the question.
+(36:11.520) Our number one is to support our customers' success.
+(36:16.660) So whatever that we can hear about customers,
+(36:19.460) the business, we want to win.
+(36:22.200) Does that answer your question?
+(36:24.040) Okay.
+(36:26.820) Let's come back.
+(36:27.660) We'll take one more here and then we'll go online
+(36:29.480) and then back to the room.
+(36:38.820) Hi, thanks, Cece and Avendal and Jeff.
+(36:41.740) First question on maybe since you're not wanting to give a longer-term numerical guidance,
+(36:48.780) could you talk a little bit about the philosophy of how you are expanding capacity?
+(36:53.500) Obviously, customer feedback, customers' customers' feedback is important.
+(36:57.040) important. Do you also consider competitive pressure? Because as an outright market leader,
+(37:07.080) having like under supply for a very long period of time is not really desirable for TSMC,
+(37:12.500) right? You probably want a market which is more balanced. So when you think about your
+(37:16.780) capacity expansion, like how long do you think it takes to fulfill the demand as you see
+(37:22.180) right now. That's one. And second,
+(37:23.840) chips obviously is the current shortage,
+(37:28.400) but there is also a lot
+(37:30.840) of discussion about data center delay, power capacity being available. So could you also
+(37:37.220) share some thoughts on how you are layering in that kind of concerns? Because you don't want
+(37:43.080) your chips to be available, but having to wait for the data center deployment to happen. So just
+(37:48.640) just to understand how that goes
+(37:50.140) into your planning framework as well.
+(37:51.600) Thank you.
+(37:52.480) So Koko's first question is again,
+(37:56.420) how do we plan our capacity
+(37:59.540) and determine the capacity expansion plan?
+(38:02.700) Certainly we take into consideration the demand,
+(38:05.220) multi-year demand from our customers
+(38:06.820) and customers' customers,
+(38:08.120) but do we also consider the competitive pressures
+(38:11.120) from competitors building capacity?
+(38:13.820) Is that part of our calculus to expand the capacity one?
+(38:17.660) And then also what about things outside of chips like data center delays or power, these type of deals?
+(38:26.900) Goku, that's a good question.
+(38:29.360) Definitely every time when we think about business, we consider the competition.
+(38:36.420) That's our number one.
+(38:38.220) And then we look at where we are.
+(38:40.740) and then we decide about an up and then top down assessment of those demand. Those are the typical
+(38:51.140) thing,
+(38:51.380) I mean,
+(38:52.020) in our daily life. So we make a lot of a judgment and then we be more careful to talk
+(39:00.720) to customer and customers are customer. Those are the CSPs. And then we get all
+(39:10.400) the input for the demand and then we make a judgment. Now remember that I
+(39:18.540) believe every customer tell me the truth. Everyone. You put all the truth together
+(39:24.900) is not a truth. So we have to make some of the judgment, you know what I mean,
+(39:31.700) you know things you are loving. Because all the customers are very aggressive,
+(39:37.620) right? That's a CEO's job. CEO got to be aggressive. So they give me the number of
+(39:43.520) their demand and I believe they try their best to tell me the truth. So I put
+(39:50.180) put all together, all the truth together is not a truth.
+(39:55.000) Mark down that word.
+(39:57.300) So yes, we do a very careful judgment.
+(40:01.920) Might not be correct, might not be correct,
+(40:05.000) but we did carefully,
+(40:06.900) and because this is a big money, right?
+(40:09.460) This year we say we increase the care payers from 60,
+(40:14.160) from 52 to 56 now, 60 to 64.
+(40:18.280) And you bet that will continue to increase.
+(40:22.500) It's a big money, so we do it carefully.
+(40:26.240) So we did all the assessment and that lead to your second question.
+(40:34.000) Are we sure that we deliver the chips to our customer and they will not put into inventory?
+(40:42.940) So we actually, we are checking the AI data centers of progress.
+(40:47.320) the building, the location, the demand, the rest,
+(40:53.380) we checking all that to make sure that TSMC's chips
+(40:59.980) will not be put in inventory.
+(41:03.020) That answer your question?
+(41:05.700) Yeah, that's clear.
+(41:07.020) So Zizi, so do you still believe even end of next year,
+(41:12.580) we are still going to be running short of supply
+(41:16.300) even with this elevated capacity build out plans? You want me to give you a guarantee,
+(41:24.540) right? Let me
+(41:25.740) say that. I believe from this day on all the way to probably 2029,
+(41:31.260) 2030,
+(41:32.040) the demand is very strong.
+(41:36.340) Whether in between there's a dip or not,
+(41:39.360) I'm not very sure. But the trend is so robust that I
+(41:45.500) I believe we are witnessing a kind of a new industry.
+(41:50.880) I would like to say the new industry called AI industry,
+(41:57.240) which is so common in our daily life
+(42:01.180) because you're going to affect our automotive,
+(42:04.440) affect the human noise, robot,
+(42:07.160) and also impact to all the industry.
+(42:10.740) So by the amount of money we put in,
+(42:14.640) I mean,
+(42:15.440) including all the CSPs. This alone is a very important new industry to the world. And
+(42:25.240) so the demand will be there. And the fundamental thing is semiconductor chips. And most of them in
+(42:33.980) TSMC. Thanks,
+(42:36.820) Cici. My second question is on your profitability. So Cici,
+(42:41.420) you joke that you
+(42:42.640) you are definitely jealous of your memory competitor on their margins.
+(42:47.340) But it definitely feels like profitability-wise,
+(42:52.920) longer-term foundry, especially leading-edge foundry,
+(42:57.020) should be higher than memory,
+(42:58.440) looking at number of competitors out there.
+(43:01.600) So as you are investing for a lot of your customers,
+(43:06.820) how is that discussion going?
+(43:08.740) going because you are no longer the most profitable semiconductor manufacturing company at this
+(43:14.440) point in time.
+(43:15.220) So you probably have less pressure in terms of passing on your value and capturing your
+(43:20.280) value right now compared to maybe one year back.
+(43:24.140) Okay, so Gokul's second question is on profitability and pricing to a certain extent.
+(43:30.120) Of course, some of the memory makers are making very good profitability and margins today,
+(43:35.540) but he notes the role of foundry could be even more value and TSMC's role as well. So what should
+(43:42.380) be the right way to think about the long-term profitability for a foundry? Should it be better?
+(43:47.880) And then I guess really pricing into this, what type of pricing approach do we want to take?
+(43:54.000) Yeah, Goku, your question actually is simple. What is the way for pricing strategy for TSMC
+(44:01.380) and what kind of gross margin we should have.
+(44:05.420) The higher the better, of course.
+(44:07.920) But we are a partner,
+(44:10.600) a partner meaning that I say many times,
+(44:15.140) our customers got to be successful.
+(44:17.820) I don't want to squeeze them out from the market.
+(44:20.580) And besides, we are a very trustable company
+(44:23.300) with our customers.
+(44:25.960) So we don't suddenly increase our price
+(44:28.460) by which I like to have,
+(44:30.680) but 4x or 5x,
+(44:32.260) you know,
+(44:33.300) you cannot survive for that kind of,
+(44:38.400) for your customer to survive for
+(44:42.460) that kind of a price increase. So we earn our value and we make sure that our profit,
+(44:51.340) our gross
+(44:52.540) margin is enough for our long-term sustaining expansion that's to the
+(44:59.160) benefit of my customer and TSMC also that our philosophy so yes I'm really
+(45:07.800) jealous about memory companies 86% gross margin 86 68 I'll be happy about that
+(45:19.040) All right. Anyway, so I answered the question. We are very trustable.
+(45:23.680) Thank you.
+(45:24.460) Okay, thank you. Operator, can we take the next two questions from participants on the line,
+(45:30.840) please? Yes. Now, Jim Fontanelli from Arity.
+(45:40.080) Yeah,
+(45:40.560) thank you. Thank you. So can I ask about the risk that you see around customer concentration,
+(45:51.040) as AI demand continues to significantly outgrow other end markets? You know, I think your
+(45:56.720) exposure to your top five customers is becoming meaningfully larger than at any point in your
+(46:01.000) history. So I just like to understand how you see that risk. So Jim's first question is,
+(46:06.680) risk around customer concentration we have large customers that are getting
+(46:10.640) larger are we worried that we have too many big customers or the customer
+(46:14.640) concentration no that's not our concern besides of what you say the customers
+(46:22.200) are going bigger and bigger we are very happy about it and some of the customers
+(46:28.260) also growing very fast. So it's not what you say that the bigger customer is going bigger and bigger.
+(46:38.900) No,
+(46:39.480) I mean,
+(46:40.280) that's a lot of new players in the AI industry.
+(46:50.640) Do you have a second question? Thank you. Yes. So we've seen your direct customers
+(46:58.480) put capital into both financing, investing, and investing in AI demand?
+(47:04.740) Is that something that TSMC is considering?
+(47:07.400) So Jim's second question, he knows some of our customers are helping to invest in their customers.
+(47:15.300) Jim, if I understand you correctly, you're asking if TSMC,
+(47:18.840) if this is an approach we would take to invest in our customers, is that correct?
+(47:23.000) Or financing and investing?
+(47:25.020) Yeah, in the end-end customers, not your direct customers.
+(47:30.720) Right. So in customers, customers as well.
+(47:33.900) To answer Jim, to answer your question directly, every company has a different consideration and
+(47:41.080) every company has a different strategy. So far, no, TSMC don't do these kind of financial
+(47:47.940) financial arrangement because of we think we are working with current customer with
+(47:53.040) the current model smoothly and also successfully.
+(48:00.760) Okay, thank you, operator. Can we move on to the next participant on the line, then
+(48:05.620) we'll come back to the floor.
+(48:08.880) Next one to ask question, Madi Hussaini, it's IG.
+(48:14.240) Yes,
+(48:14.760) thanks for taking my question. From my end,
+(48:18.220) I want to go back to the 100 billion investment in the U.S. Is there any way to give us some time frame over the next three years,
+(48:25.620) five years? How should we think about the progression of these 100 billion investment in the U.S.? I don't have a follow up.
+(48:32.120) So, Mendi's first question is around the announcement today, additional $100 billion
+(48:37.700) investment in the U.S. in terms of the Capex timeframe. Is it in the next three years,
+(48:43.380) in the five years? Do we have any schedule or timeframe to share about this additional $100
+(48:48.160) billion? We do have a plan,
+(48:50.080) but let me share with you actually the progress or the schedule. Most
+(48:56.560) Most of the time, it depends on the market situation and our customers' demand.
+(49:02.300) So if you ask me to give you a firm schedule, no, we don't have it today.
+(49:07.900) But we do have a plan.
+(49:10.240) And we speed it up.
+(49:11.960) We try to speed it up as fast as possible.
+(49:19.020) So the message is you're flexible, but also you're expediting the investment.
+(49:24.920) the influence. Is that correct?
+(49:28.680) So his, well, I think CC said we're trying to move as fast
+(49:32.540) as we can, but everything is based on our customer needs.
+(49:35.480) Yeah. We also moving the new fabs and the facilities
+(49:41.000) in Taiwan as fast as possible.
+(49:44.180) And the same thing, we try to bring up a new fab
+(49:47.720) in Japan as fast as possible because of the situation
+(49:52.980) The situation today is the demand and the supply, the GAAP is so big.
+(49:59.680) So we are working very hard to narrow the GAAP.
+(50:06.100) Do you have a?
+(50:08.860) Actually, I want to dive into the compute part of the HTC.
+(50:15.960) I want to ask you about networking switches.
+(50:21.720) In that context, when should we attract a Coup platform
+(50:26.920) to have a material contribution to your top line?
+(50:32.840) So, Mati's second question is very specific.
+(50:35.680) He wants to know for our Coup platform,
+(50:38.560) when will it have a very meaningful contribution to the business?
+(50:44.820) We start the production right now. And it will be ramped up. As time goes by,
+(50:54.100) I think the AI data center needs to lower down the power consumption and increase the bandwidth of the communication channel.
+(51:03.460) So I believe the coop will continue to increase the demand and then will become
+(51:12.220) a fairly important technology in the next few years. Okay thank you. Let's come
+(51:20.680) back to the floor. We'll take the next question from Citibank Laura Chen.
+(51:29.360) Thank you. Thank you very much for taking my questions. My first question is also about
+(51:36.340) very promising outlook as TSMC raised the Capex and also the growth outlook for this year. And
+(51:44.440) particularly I think, Cici, you mentioned about the agentic AI and the CPU growth potential. But
+(51:50.040) but can you give us more update
+(51:51.980) among that AI different kind of achieves
+(51:55.140) between GPU accelerators or CPU,
+(51:59.820) what you see the growth potential and your visibility?
+(52:05.060) Thank you.
+(52:06.700) Laura's first question is around sort of the outlook.
+(52:11.120) We obviously raise a Capex and growth outlook for this year.
+(52:14.900) She wants to know within the AI,
+(52:16.860) the outlook for, you know, agentic AI and CPUs
+(52:21.620) versus AI accelerators, GPUs, et cetera.
+(52:24.580) How do we see these segments?
+(52:29.840) Laura, I don't think I can give you a very specific number,
+(52:34.980) but let me share with you, all of them are in TSMC
+(52:39.520) and they're also using the same kind
+(52:41.960) of leading edge technologies.
+(52:44.980) We working with our customer to allocate the waiver,
+(52:50.120) the supply to balance the CPU, GPU, XPU ratio.
+(52:57.560) Okay.
+(52:59.840) Okay, thank you.
+(53:00.520) That's, yeah, that makes sense.
+(53:02.940) And then my second question is also about
+(53:05.500) the Vance packaging.
+(53:06.860) We know that during the symposium,
+(53:09.540) TSMC previous already announced 14 times
+(53:12.840) radical CoAS roadmap to enable larger AI packaging. But at the same time we also
+(53:19.500) noted that TSMC maybe last month in Japan, you showed the substrate
+(53:26.040) developments for CoAS to enable some of the glass technology. So I'm just
+(53:32.600) wondering if you can give us more like technologies, progress update on the
+(53:38.960) the difference kind of technology for glass core or glass sub trays or glass carrier.
+(53:44.840) What's the progress at TSMC right now? Thank you.
+(53:48.460) So Laura's second question is on Ben's packaging.
+(53:50.540) She notes, as we said, we roadmap to even larger than 14X reticle size with Covost,
+(53:57.760) but she also wants to know the technology process in newer areas like glass substrates, glass cores.
+(54:02.800) What is the progress and status?
+(54:05.160) We are,
+(54:06.160) let me say that today the majority is still co-workers,
+(54:11.160) right? And we are developing
+(54:13.200) that alternative, try to lower down the cost. And we also work with sub-trade vendor so that
+(54:20.920) our customer can have their product be in the market. The progress,
+(54:28.520) we're building a
+(54:29.880) a pipeline that I announced a few quarters ago.
+(54:33.920) And it will takes about another one year to be mature
+(54:38.820) so we can put into the production with our customer.
+(54:44.040) Okay.
+(54:45.320) Thank you.
+(54:47.720) Let's move to this side of the room.
+(54:53.520) Bank of America, Haas Lu, sorry.
+(54:57.100) Yes, thanks, CC, Wendell, and Jeff for taking my questions and congrats on the great results.
+(55:02.660) My first question is regarding your Capex and sales. You gave pretty solid Capex outlook for
+(55:09.980) this year and also said the Capex outlook in the next couple of years will continue to be pretty
+(55:14.620) significant. And you also raised this year at 40% plus. So would you be able to provide your next
+(55:21.600) next couple of years, sales growth outlook, try to quantify it. And relatedly, I think also on that
+(55:28.460) topic is whether you can just try to break down which part of the demand you are seeing
+(55:34.840) as the key driver for you to raise your key packs and also for this year's demand. Is it still
+(55:40.480) mostly driven by cloud computing or it is proliferating to edge computing? Or to some
+(55:45.840) extent, is it also related to your equipment supply chain is raising their price as well? Thank you.
+(55:51.800) Okay, that's several questions in one.
+(55:55.200) So I'm going to take that as one and a half questions at least.
+(55:58.580) But basically Haas is asking with the Capex increase
+(56:03.200) and the revenue increase this year,
+(56:05.240) I think he's trying to look at intensity,
+(56:06.920) but he wants to know what about the revenue guidance
+(56:08.980) for the next several years.
+(56:13.420) Yeah, I'll stop.
+(56:16.180) Okay, let me answer that question.
+(56:17.980) because of the revenue corresponding to our investment, right? Because we know,
+(56:25.700) we forecast our demand and then we make an assessment and then we do the K-PASS.
+(56:34.000) Next few years is going to be a very good business for TSMC, that's all I can say.
+(56:41.580) And then the other part, so what's the key driver? Is it cloud AI? Is it edge AI?
+(56:46.280) Is it because tool vendors are increasing the price?
+(56:49.120) It's all AI related, everything.
+(56:52.380) Okay, yeah.
+(56:53.260) You have a quick follow up.
+(56:55.420) Yes, I think it is more on your long term strategy
+(56:58.460) because a lot of people have actually been asking
+(57:01.160) about your KPEX and also competition on the front end.
+(57:03.620) But I will actually say that
+(57:04.740) if on the back end competition is rising,
+(57:07.560) especially coming from Intel MMT,
+(57:09.960) are you worried that your value add
+(57:12.060) for your overall foundry business across front end
+(57:14.580) manufacturing to the back-end packaging business, the value add could actually be cannibalized
+(57:19.620) with growing competition. Thank you. Okay, thank you. So Haas's second question is around the
+(57:24.740) competition in advanced packaging. If our competitors are able to gain traction or
+(57:30.460) business with things like eMIPT, would that be the gateway or an entryway into more competitive
+(57:36.980) threat on the front-end logic wafer side? So does advanced packaging lead to front-end wafer?
+(57:42.780) Let me answer that. The front end waiver business and the back end business are two different things.
+(57:50.820) Right? If they are the same,
+(57:53.300) then you can expect ASC become the front end competitor also. It's
+(58:00.740) two different,
+(58:01.180) two different things. And I also say that since our capacity in the back end is
+(58:09.360) is so in shortage mode, the GAAP is bigger.
+(58:15.020) And so I will come that the competitor
+(58:20.440) offer some of the flexibility to my customer
+(58:24.040) so that their foreign waiver can be put into the package
+(58:28.960) and that here TSMC is a foreign waiver business.
+(58:34.440) That's our attitude.
+(58:36.400) Okay, thank you.
+(58:37.300) Thank you. Operator, let's take one more from the online and then we'll wrap up with back in person.
+(58:46.420) Next question, Robert Sanders from Deutsche Bank.
+(58:52.460) Yeah, thanks for taking my question. You recently stated that high NA tools are too expensive,
+(58:57.880) but could you please discuss how your customers are considering the impact of die stitching
+(59:02.860) stitching challenges from a smaller field size with high NA.
+(59:06.740) Could that actually slow the adoption of high NA
+(59:09.020) even if the tech improves or the tech gets more productive?
+(59:13.760) And I have a follow up, thanks.
+(59:15.520) Well, Rob's first question is very specific technology
+(59:19.760) on around high NA adoption.
+(59:21.720) He wants to know the customer's feedback
+(59:23.800) on the challenges with die stitching.
+(59:26.000) Is this an impediment or barrier
+(59:27.760) to high NA adoption in our view?
+(59:32.860) you got a very detailed understanding of the high NA.
+(59:39.000) Today the fuel size is only one half,
+(59:42.900) and we put that one into our consideration
+(59:46.220) of the manufacturing cost and something.
+(59:49.940) Again, let me answer this question quickly.
+(59:53.140) We, whether we use a high NA or not,
+(59:56.460) actually one, high NA is a very good tool.
+(59:59.560) Let's assume that, all right?
+(60:01.240) We understand it's a very high performance.
+(60:06.940) But then TSMC make it clear that we work with ASML
+(60:12.660) and try to make it more suitable for manufacturing
+(60:18.200) in terms of the cost and in terms of the maturity.
+(60:22.340) So we always consider that technology, maturity,
+(60:28.160) in the course and whether we use it or not.
+(60:31.760) Okay.
+(60:33.780) Thank you, Cici.
+(60:34.660) Do you have a second question, Robert?
+(60:37.720) Yeah, just a quick follow-up.
+(60:40.060) I think all of us on this call are assuming that the unconstrained demand
+(60:43.860) for 3nm below is sort of 30% to 50% above your ability to supply.
+(60:50.660) Is it in fact much larger than 30% to 50% above?
+(60:53.780) Because it feels like it might be based on what you're saying, Joe,
+(60:57.160) because I think all of us are assuming it's sort of solvable over the next three, four years.
+(61:01.760) But it sounds like the number could be much larger. Thanks.
+(61:03.740) Well, those are your numbers. But Robert is asking the, you know, the demand in excess
+(61:10.640) of supply, is it 30 to 50%? Is it something even larger? Do we have a number to share?
+(61:17.600) No, we don't have a number to share because of, let me say that the GAAP is really big.
+(61:24.920) Sorry,
+(61:25.520) I don't want to make a comment on the memory,
+(61:29.680) but a very big GAAP.
+(61:36.120) Okay. We have about nine minutes left. We'll come back to the floor with any questions.
+(61:43.080) Let's take one from here. Evelyn, you from Goldman.
+(61:47.200) Thank you for taking my question. Because we mentioned a lot on that we're going to
+(61:53.360) step up our capacity growth. But I just tried to quantify here because I noticed that during
+(61:58.560) your symposium that you actually mentioned about 2nm family capacity growth
+(62:04.520) will be growing at around 70% CAGR from 26 to 28 and N3 plus and fighter grow by 25 CAGR
+(62:13.000) from 22 to 27.
+(62:15.340) So I was just wondering,
+(62:16.260) are those numbers still right assumptions today?
+(62:19.600) Are we seeing actually any changes over the past quarter
+(62:22.620) and how should we compare
+(62:24.560) with the non-supporting demand out there?
+(62:26.780) Okay, so Evelyn's first question is around capacity growth.
+(62:30.680) She knows during the symposium,
+(62:32.320) we did share some five-year CAGR growth numbers
+(62:35.380) for 2nm around 70% CAGR,
+(62:38.180) and then 3nm around,
+(62:39.980) around, I guess, I can't remember the exact, but 25%.
+(62:43.460) So are those numbers still the same
+(62:45.480) or has it changed now that our Capex and stuff?
+(62:49.280) Did we say that in technology symposium?
+(62:54.620) Oh, we show the chart.
+(62:56.180) Okay, now it's bigger.
+(62:58.940) That's all I say.
+(63:01.320) You have a second question?
+(63:02.960) Okay, thank you.
+(63:03.840) Very good direction.
+(63:04.880) All right, my other questions touched
+(63:07.800) touch based on the advanced packaging side because you always bundle the advanced packaging
+(63:13.380) Capex together with testing, mass making and others that's around 10 to 20% of total Capex.
+(63:21.400) And so one thing I'm trying to figure out here is that how much of that actually goes
+(63:26.280) to advanced packaging alone?
+(63:29.020) And because given that advanced packaging is capital intensive, a less capital intensive
+(63:35.500) concept versus front end.
+(63:36.660) So how should we think about a GAAP
+(63:40.240) between its price and revenue share
+(63:43.340) and its Capex share over the next few years?
+(63:47.380) And well, I think finally is that
+(63:50.140) as it becomes more important,
+(63:51.320) how should we think of,
+(63:53.440) maybe you should consider breaking it out
+(63:55.220) as a separate Capex item going forward?
+(64:00.120) Okay, so Evelyn's question is around advanced packaging.
+(64:02.800) She wants to know when we guide for the Capex,
+(64:08.300) of course we guide it in a bucket of packaging, testing,
+(64:11.360) mask making and others together.
+(64:13.020) Why do we not separate out just into packaging specifically?
+(64:16.960) Her suggestion is we should, but I think more,
+(64:20.780) so that's part of it.
+(64:21.920) Number one, the Capex breakdown.
+(64:25.180) Evelyn, let me say that.
+(64:27.940) We try very hard to make sure that our Capex,
+(64:32.300) the number is correct, but with a flexibility between the front end and the back end. Sometimes
+(64:38.760) we have a bottleneck, so we put more money to buy the bottleneck tools. And sometimes it's in the
+(64:46.220) front end, sometimes it's in the back end. But in the ballpark, the percentage is just like a window
+(64:52.140) share with everybody. For long term,
+(64:54.920) I mean,
+(64:55.540) that's a back end is about 10 to 20,
+(64:59.500) or that's
+(65:00.240) a big range anyway. So that we,
+(65:05.300) all I can say is that still 10 to 20. Because of,
+(65:12.000) as I said,
+(65:13.080) actually, I'm very honest to tell you that as time goes by, some of the customers of product
+(65:20.580) need more tester. You cannot believe that. I mean, so the tester in shortage, so we had to put
+(65:26.760) more Kpx in the tester or in the packaging or in other areas. So that's
+(65:33.340) why we cannot very specifically say which area we put how much of the Kpx.
+(65:42.380) That's too specific. Yeah okay. Will the last participant KGI Felix Pan, thank you
+(65:49.040) for being patient. Hello, good afternoon. Thank you for taking my question. So my first
+(65:55.740) question is regarding to the Capex revision so from uh here today so uh tsnc raised the
+(66:02.660) campus guidance by almost 10 uh yeah 10 billion us dollars so um can you give me some color where
+(66:10.960) is the upside from how you guys see the different from six months ago is that from like cpu
+(66:17.660) accelerator or memory competency or backend code was expansion uh just the upside how how how we see
+(66:24.800) things differently from six months ago.
+(66:28.040) Okay, so Felix is noting in January,
+(66:30.740) we guided for 52 to 56 billion,
+(66:33.200) in April we said closer to 56, now 60 to 64.
+(66:37.440) So we have increased the Capex guidance.
+(66:39.400) What is driving this?
+(66:41.360) Is it a genetic AI only?
+(66:42.840) Is it packaging?
+(66:44.340) Is it AI accelerator?
+(66:48.320) Well, simply put, the most important reason
+(66:52.060) is because of a demand continue to increase and we feel the pressure from the customer to drive
+(66:59.460) TSMC not drive actually to cooperate with TSMC for the capacity increase that's one of the major
+(67:07.160) reason the second reason is inflation now we buy the tours with inflation price okay you you
+(67:20.360) understand what I say. Okay thank you. So my second question is about the mature
+(67:26.620) note. So people always focus on AI leading notes but it seems like mature
+(67:33.360) notes also seeing the very strong demand recovery and also some supply issue as
+(67:40.060) well. So how you guys see the demand supply dynamic and pricing and for the
+(67:45.600) mature note because apparently there's a sound impact from the AI grounding our
+(67:50.640) effect but but sure no still largely you know depends on the consumer demand so
+(67:59.400) customer is still weak so how how you guys see the demand supply dynamic for
+(68:03.760) the material things thank you so Felix's second question is on mature note he
+(68:09.140) notes there's lots of talk that mature notes are seeing a strong demand
+(68:12.280) recovery and the supply is very tight so mature node pricing is very favorable or
+(68:17.260) strong so he wants to know how do we see the mature node supply-demand situation
+(68:24.880) actually the mature node cover a lot of different segment only the one which
+(68:32.740) are related to AI is in shortage which is the most important one is the number
+(68:38.440) Number one is power management IC because of all the AI data center need a lot of power
+(68:45.700) management.
+(68:46.500) And those are the mature known technology like a .18 micro, 19 nm or something
+(68:53.120) like that.
+(68:53.820) Those are in shortage, definitely.
+(68:56.580) And also the sensor portion because of you need a lot of sensor to detect the environmental
+(69:08.500) information and put it into the AI data center to analyze it. Other than that, other area,
+(69:16.360) just like you pointed out,
+(69:18.000) the consumer product is not in a high demand. And so other segment
+(69:25.380) is not so strong demand.
+(69:28.660) And as I pointed out in my statement, other area,
+(69:34.080) no, it's not so much of a say in a lot of shortage,
+(69:40.860) not at all.
+(69:43.900) Okay. Thank you.
+(69:45.140) Thank you, Cici.
+(69:46.000) Thank you, Wendell.
+(69:47.260) Thank you everyone.
+(69:48.080) This does conclude our Q&A session.
+(69:50.920) Before we conclude today's conference,
+(69:52.500) please be advised that the replay of the conference
+(69:54.700) will be accessible within 30 minutes from now.
+(69:57.680) The transcript will become available 24 hours from now,
+(70:00.800) and both are gonna be available through our website,
+(70:03.220) again, at www.tsmc.com.
+(70:06.640) If some of you were not able to ask your question,
+(70:09.280) please feel free to reach out to TSMC IR,
+(70:11.860) and we will follow up with you.
+(70:13.160) So thank you everyone for joining us today.
+(70:15.360) We hope everyone continues to stay well.
+(70:17.540) Have a good summer,
+(70:18.740) and we hope you'll join us again next quarter.
+(70:20.860) Thank you and have a good day.
