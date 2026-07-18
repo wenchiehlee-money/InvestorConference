@@ -4,9 +4,9 @@ Provider: mlx-whisper
 Model: whisper-large-v3
 Model-Repo: mlx-community/whisper-large-v3-mlx
 Duration: 63.8 min (3830s)
-Transcription-Time: 380.7s
-RTF: 0.099
-Generated-At: 2026-04-14 22:09 CST
+Transcription-Time: 399.8s
+RTF: 0.104
+Generated-At: 2026-07-18 14:36 CST
 ---
 
 (00:00.920) Welcome to the MediaTek 2025 second quarter investors conference call.
