@@ -2397,7 +2397,7 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
                       audio_path: Path, pdf_paths: list = None,
                       extra_paths: list = None) -> str | None:
     """
-    Move the downloaded audio (and optional PDFs) into InvestorConference/<stock_id>/,
+    Move the downloaded audio (and optional PDFs) into InvestorConference/data/<stock_id>/,
     commit (git-lfs for .m4a), push, then remove local whisper-sandbox copies.
 
     Returns the new audio path inside InvestorConference, or None on failure.
@@ -2407,8 +2407,8 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
         print(f"[git] InvestorConference repo not found at {repo}")
         return None
 
-    target_dir = repo / stock_id
-    target_dir.mkdir(exist_ok=True)
+    target_dir = repo / "data" / stock_id
+    target_dir.mkdir(parents=True, exist_ok=True)
 
     def git(*args):
         result = subprocess.run(
