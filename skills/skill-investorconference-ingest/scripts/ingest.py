@@ -2683,6 +2683,26 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
         if mops_data.get("video_url"):
             print(f"\n[MOPS-PW] Downloading video: {mops_data['video_url']}")
             if download_audio(mops_data["video_url"], output_path, no_check_cert=True):
+                # Preserve PDFs discovered in the same MOPS response. The replay date
+                # can differ from the PDF attachment date, so relying only on
+                # download_mops_pdfs(conf_date) can miss valid decks.
+                for fn, pdf_url in mops_data.get("pdfs", []):
+                    lang = "ir_en" if fn[len(stock_id)+8] == "E" else "ir"
+                    dest = save_dir / f"{stock_id}_{year}_q{quarter}_{lang}.pdf"
+                    if dest.exists():
+                        print(f"[MOPS-PW] PDF already exists: {dest.name}")
+                        continue
+                    try:
+                        r = requests.get(pdf_url, headers={"User-Agent": UA,
+                            "Referer": "https://mopsov.twse.com.tw/"}, timeout=30, verify=False)
+                        if r.status_code == 200 and r.content[:4] == b"%PDF":
+                            dest.write_bytes(r.content)
+                            print(f"[MOPS-PW] OK {dest.name} ({len(r.content)//1024}KB)")
+                        else:
+                            print(f"[MOPS-PW] PDF invalid response: {fn} status={r.status_code}")
+                    except Exception as e:
+                        print(f"[MOPS-PW] PDF download failed: {e}")
+
                 # Extract conf_date from irconference URL filename
                 m = re.search(r'_(\d{8})_', mops_data["video_url"])
                 if m:
