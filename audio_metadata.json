@@ -20,6 +20,16 @@
     "source_url": "https://tsmcvod-ott2b.cdn.hinet.net/vod_tsmc/_definst_/smil:tsmc/ottliveUpload/video/tsmc/20260716150000_1/hd-hls-cl-pc.smil/playlist.m3u8",
     "status": "ok"
   },
+  "2347_2026_q1": {
+    "checked_at": "2026-07-19",
+    "duration_sec": 2340.288,
+    "file": "data/2347/2347_2026_q1.m4a",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2347_2026_q1.m4a",
+    "sha256": "0c6b5a129a6147fdcd083c835391a8b6cf3c2ab7ae7a13a165b9342ef4edcd7b",
+    "size_bytes": 33731598,
+    "source": "local_file",
+    "status": "ok"
+  },
   "2354_2026_q1": {
     "checked_at": "2026-07-18",
     "duration_sec": 2121.344,
