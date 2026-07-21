@@ -113,6 +113,9 @@ KNOWN_PDF_ATTACHMENTS = {
         ("ir", "https://www.asus.com/event/Investor/Content/attachment/{year}Q{quarter}%20IR(Chinese).pdf"),
         ("qa", "https://www.asus.com/event/Investor/Content/attachment/{year}Q{quarter}_QA(Chinese).pdf"),
     ],
+    "2395": [
+        ("ir_en", "https://advcloudfiles.advantech.com/investor/Events/Advantech_{quarter}Q_{year}_Investors_Meeting_English.pdf"),
+    ],
 }
 
 # IR portal URLs for US stocks (ticker -> IR URL)
@@ -2747,7 +2750,14 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
         if download_audio(target_url, output_path):
             return done()
 
-    print(f"\nFAILED FAILED: Could not find audio for {stock_id} {year} Q{quarter}")
+    pdf_paths = download_pdfs(stock_id, year, quarter, save_dir)
+    if pdf_paths:
+        print(f"\nOK SUCCESS: found {len(pdf_paths)} official PDF material(s) for {stock_id} {year} Q{quarter}; audio remains unavailable.")
+        if auto_push:
+            commit_push_files(stock_id, year, quarter, output_path, pdf_paths, [])
+        return str(pdf_paths[0])
+
+    print(f"\nFAILED FAILED: Could not find audio or official PDF materials for {stock_id} {year} Q{quarter}")
     return None
 
 
