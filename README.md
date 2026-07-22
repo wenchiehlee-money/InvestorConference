@@ -34,6 +34,7 @@
 | 7769 鴻勁 | 2026 Q2 | 財報 | 2026-08-03 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7769) |
 | 2454 聯發科 | 2026 Q2 | 法說會 | 2026-07-31 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | 2301 光寶科 | 2026 Q2 | 法說會 | 2026-07-31 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
+| 2301 光寶科 | 2026 Q2 | 財報 | 2026-07-31 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | 2308 台達電 | 2026 Q2 | 法說會 | 2026-07-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | 2379 瑞昱 | 2026 Q2 | 法說會 | 2026-07-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2379) |
 | AAPL Apple 蘋果 | 2026 Q2 / Q3FY2026 | 財報 | 2026-07-30 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
@@ -49,7 +50,6 @@
 | 2303 聯電 | 2026 Q2 | 財報 | 2026-07-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2303) |
 | 2383 台光電 | 2026 Q2 | 財報 | 2026-07-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2383) |
 | 2308 台達電 | 2026 Q2 | 財報 | 2026-07-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
-| 2301 光寶科 | 2026 Q2 | 財報 | 2026-07-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | ARM Arm Holdings plc | 2026 Q1 | 財報 | 2026-07-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ARM/financials/) |
 | META Meta Platforms Inc. | 2026 Q1 | 財報 | 2026-07-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/META/financials/) |
 | 3035 智原 | 2026 Q2 | 法說會 | 2026-07-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3035) |
@@ -71,6 +71,7 @@
 | 7734 印能科技 | 2026 Q1 | 受邀法說 | 2026-06-10 | 無 | - | - | [中](data/7734/7734_2026_q1_ir.pdf) ([MD](data/7734/7734_2026_q1_ir.md)) | [EN](data/7734/7734_2026_q1_ir_en.pdf) ([MD](data/7734/7734_2026_q1_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7734) |
 | 2324 仁寶 | 2026 Q1 | 受邀法說 | 2026-06-09 | 無 | - | - | [中](data/2324/2324_2026_q1_ir.pdf) ([MD](data/2324/2324_2026_q1_ir.md)) | [EN](data/2324/2324_2026_q1_ir_en.pdf) ([MD](data/2324/2324_2026_q1_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
 | 2458 義隆 | 2026 Q1 | 受邀法說 | 2026-06-08 | [46.3 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2458_2026_q1.m4a) | [📝](data/2458/2458_2026_q1_FIN.srt) | [✅](data/2458/2458_2026_q1_GT.srt) | [中](data/2458/2458_2026_q1_ir.pdf) ([MD](data/2458/2458_2026_q1_ir.md)) | [EN](data/2458/2458_2026_q1_ir_en.pdf) ([MD](data/2458/2458_2026_q1_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2458) |
+| 4938 和碩 | 2026 Q1 | 受邀法說 | 2026-06-05 | 無 | - | - | [中](data/4938/4938_2026_q1_ir.pdf) ([MD](data/4938/4938_2026_q1_ir.md)) | [EN](data/4938/4938_2026_q1_ir_en.pdf) ([MD](data/4938/4938_2026_q1_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=4938) |
 | 3034 聯詠 | 2026 Q1 | 受邀法說 | 2026-06-05 | 無 | - | - | [中](data/3034/3034_2026_q1_ir.pdf) ([MD](data/3034/3034_2026_q1_ir.md)) | [EN](data/3034/3034_2026_q1_ir_en.pdf) ([MD](data/3034/3034_2026_q1_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | 3231 緯創 | 2026 Q1 | 受邀法說 | 2026-06-04 | 無 | - | - | [中](data/3231/3231_2026_q1_ir.pdf) ([MD](data/3231/3231_2026_q1_ir.md)) | [EN](data/3231/3231_2026_q1_ir_en.pdf) ([MD](data/3231/3231_2026_q1_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3231) |
 | 2330 台積電 | 2026 Q1 | 受邀法說 | 2026-05-29 | [69.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2330_2026_q1.m4a) | [📝](data/2330/2330_2026_q1_FIN.srt) | [✅](data/2330/2330_2026_q1_GT.srt) | [中](data/2330/2330_2026_q1_ir.pdf) ([MD](data/2330/2330_2026_q1_ir.md)) | [EN](data/2330/2330_2026_q1_ir_en.pdf) ([MD](data/2330/2330_2026_q1_ir_en.md)) | [📊](data/reports/conference-digests/2330/2330_2026_q1_digest.md) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
