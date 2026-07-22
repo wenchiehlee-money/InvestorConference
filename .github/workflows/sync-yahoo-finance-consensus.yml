@@ -1,0 +1,42 @@
+name: Sync Yahoo Finance Consensus
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 20 * * *"
+
+concurrency:
+  group: sync-yahoo-finance-consensus
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download consensus history and definition
+        run: |
+          set -euo pipefail
+          mkdir -p data/Yahoo.Finance definitions
+          curl -fsSL https://raw.githubusercontent.com/wenchiehlee/Yahoo.Finance/main/data/reports/raw_yahoo_finance_consensus_history.csv \
+            -o data/Yahoo.Finance/raw_yahoo_finance_consensus_history.csv
+          curl -fsSL https://raw.githubusercontent.com/wenchiehlee/Yahoo.Finance/main/definitions/raw_yahoo_finance_consensus_history_definition.md \
+            -o definitions/raw_yahoo_finance_consensus_history_definition.md
+
+      - name: Commit synced Yahoo consensus
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/Yahoo.Finance/raw_yahoo_finance_consensus_history.csv \
+                  definitions/raw_yahoo_finance_consensus_history_definition.md
+          if git diff --staged --quiet; then
+            echo "No Yahoo consensus changes to commit"
+          else
+            git commit -m "data: sync Yahoo Finance consensus history"
+            git pull --rebase
+            git push
+          fi
