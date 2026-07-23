@@ -1,0 +1,31 @@
+{
+  "stock_id": "GOOGL",
+  "company": "Alphabet Inc.",
+  "event_type": "財報",
+  "year": "2026",
+  "quarter": "2",
+  "fiscal_year_end": "1231",
+  "primary_source": "SEC EDGAR",
+  "sources": [
+    {
+      "source_type": "SEC 8-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/goog-20260722.htm",
+      "accession": "0001652044-26-000066",
+      "document": "goog-20260722.htm",
+      "retrieved_at": "2026-07-23T03:05:13.357627+00:00",
+      "sha256": "9e881beb88f9496e316a412fdb881a22b9244fdec75131b4fb00ae11d0f9f7e4",
+      "local_path": "data/GOOGL/GOOGL_2026_q2_8k.md",
+      "notes": "Official SEC EDGAR filing; event evidence for Alphabet 2026 Q2 financial results."
+    },
+    {
+      "source_type": "SEC EX-99.1 earnings release",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+      "accession": "0001652044-26-000066",
+      "document": "googexhibit991q22026.htm",
+      "retrieved_at": "2026-07-23T03:05:13.550797+00:00",
+      "sha256": "a01f6bd87c7fa0dcb562493dda7348a1a37d017b4a4b5edb39b915b45688237e",
+      "local_path": "data/GOOGL/GOOGL_2026_q2_earnings_release.md",
+      "notes": "Official SEC EDGAR filing; event evidence for Alphabet 2026 Q2 financial results."
+    }
+  ]
+}
