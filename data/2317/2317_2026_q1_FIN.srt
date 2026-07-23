@@ -1,0 +1,752 @@
+[METADATA]
+Source: 2317_2026_q1_exp1
+Language: en
+---
+(00:00.760) Hello, everyone. I'm Kristen. Welcome to the Hon Hai Precision Industry Conference.
+(00:07.300) Today, we have Mr. Di-Heng, CEO of Hon Hai, Mr. Huang, and Mr. James, the spokesman.
+(00:16.040) The conference will be held in an hour. The first stage is the briefing, and the second stage is the Q&A session.
+(00:22.920) Before the conference, please read the briefing.
+(01:00.260) 接下來由我向大家報告鴻海2026年第一季營運表現。
+(01:05.060) 請大家看到第五頁,2026年第一季損益表。
+(01:08.640) 第一季,營收新臺幣2.12兆元,較去年同期成長29%。
+(01:16.140) 如果用美金計價的話,年增約35%,均持續創下歷年同期營收的新高記錄。
+(01:25.020) 三綠部分,首先是毛利率為6.18%,年增0.06%,毛利金額增加30%,主要受惠於營收成長與較佳的產品組合。
+(01:44.080) 第一季營業利益率為3.57%,較去年同期增加0.74%
+(01:54.520) 營業利益金額則大幅增加63%,受惠於毛利增加且費用管控得宜
+(01:55.920) 淨利率為2.36%,年減0.21%
+(02:03.340) 主要受到業外損失16億元影響
+(02:07.180) 業外較去年同期減少142億元
+(02:12.180) 主要差異來自於投資、匯兌及淨利息三部分。
+(02:14.580) 在投資的部分,較去年同期減少64億元,
+(02:21.580) 主要因去年認列下譜一致性資產處分利益,
+(02:25.520) 以及本季基金投資受市價波動影響,
+(02:27.000) 評價利益減少。
+(02:29.600) 匯兌部分,匯兌損失較去年同期增加45億元,
+(02:36.080) 與匯兌損益本身具有波動性,
+(02:41.280) 公司也會持續提升避險效率與策略, 降低匯率波動對未來損益的影響。
+(02:50.080) 淨利息支出較去年同期增加38億元, 主要因為AI業務與營運規模持續擴張,
+(02:55.500) 帶動營運資金及資本支出需求的提升。
+(03:01.280) 而第一季營業利益較去年同期增加291億元,
+(03:06.060) 也反映資金投入以逐步帶動核心營運成長
+(03:07.460) 與整體經營效益的提升
+(03:09.320) 整體而言
+(03:14.440) 雖然本季業外表現受到部分因素的影響
+(03:17.800) 但稅後淨利仍較去年同期增加19%
+(03:22.420) 顯示集團核心營運與獲利能力的持續提升
+(03:23.820) 在所得稅方面
+(03:27.880) 延續我上次法人說明會的說明
+(03:32.020) 因為受到國際租稅P2最低稅負制
+(03:35.880) 還有臺灣CFC受控外國企業法
+(03:39.920) 以及我們海外子公司鼓勵匯回的影響
+(03:43.240) 全年有效稅率預期仍將維持在24%至26%的期間
+(03:47.480) 第一季所得稅率23.1%
+(03:50.920) 優於我們的預期
+(03:52.480) EPS的部分
+(03:54.760) 第一季EPS為3.56元
+(03:57.960) 較去年同期增加0.53元,創下歷年同期的新高。
+(04:05.780) 本季股東權益報酬率ROE為2.88%,
+(04:08.580) 較去年同期增加0.4%,
+(04:14.840) 反映集團在獲利成長與營運效率改善下,
+(04:18.160) 持續提升股東資本的回報能力。
+(04:22.180) 接下來請看簡報第6頁資產負債表。
+(04:24.880) 在現金部位方面,截至2022年3月底,
+(04:27.960) The total amount of cash and deposit amount is 1.57 trillion.
+(04:32.180) The fund provides a solid foundation for global AI business and predictable operating growth.
+(04:40.920) The total cash amount is 3,251 billion yuan, which increased by 4.39 billion yuan in the same period last year.
+(04:47.500) The main reason is that the revenue of the revenue account was increased in the same period last year.
+(04:55.160) 第一季現金週轉天數為44天,較去年同期減少8天。
+(04:59.500) 若排除應多賬款管理工具的影響,
+(05:02.700) 則與去年同期現金週轉天數相同,維持穩定。
+(05:08.440) 反映集團在AI業務快速成長與產品組合的變化下,
+(05:11.380) 仍維持良好的營運資金管理效率。
+(05:16.720) 本期負債比為62%,較去年同期略為增加,
+(05:18.120) 主要反映業務趨勢成長,帶動資金的需求提升。
+(05:25.660) 應付賬款與有息負債也隨營運規模同步增加。
+(05:27.060) 最後請看簡報第七頁,現金流量表。
+(05:31.200) 2026年第一季,營業活動現金流入為32億元,較去年同期增加543億元。
+(05:43.020) 主要受惠於整體獲利表現提升與營運資金管理優化。
+(05:48.280) 自由現金流為淨流出326億元
+(05:53.320) 資本支出方面本季為358億元
+(05:54.720) 年減18%
+(05:57.840) 不過這主要是受到部分專案付款
+(05:59.240) 實際上差異的影響
+(06:00.720) 前年來看
+(06:03.480) 隨著業務成長與客戶需求的提升
+(06:07.340) 資本支出預計仍將較去年增加三成以上
+(06:08.740) 至於上市法收費的說明一樣
+(06:14.320) 以上為2026年第一季財務報表的簡要報告
+(06:18.160) 接下來我們把時間交給輪值CEO蔣總Michael
+(06:21.980) 好謝謝David
+(06:23.380) 各位投資先進大家好
+(06:29.220) 我是本屆的輪值CEO蔣吉恆Michael
+(06:33.600) 首先讓我先簡單介紹一下自己
+(06:38.000) 我從1999年加入鴻海集團以來
+(06:39.400) 至今已經27年了。
+(06:41.900) 在這期間,我參與過個人電腦、手機以及平板電腦等多項重要的業務發展,
+(06:55.980) 也一路經歷了集團在不同階段的成長和轉型,
+(07:05.580) 對鴻海的佈局、營運以及核心競爭力都有非常深刻的參與和學習。
+(07:19.620) 今天非常榮幸和財務長David以及發言人James一同代表集團來和各位分享鴻海近期的營運成果和未來的展望。
+(07:23.820) 從剛剛財務長的報告裡,我們可以看到,鴻海第一季營收和獲利都創下了同期新高。
+(07:37.180) 營收的表現符合我們在3月份的法人說明會中的預期
+(07:41.000) 季節性的表現優於過去5年
+(07:44.780) 而年對年則達到了強勁成長
+(07:48.900) 從四大產品來看
+(07:52.640) 整體也大致符合我們的預期
+(07:56.320) 其中雲端網路產品方面
+(08:00.300) 出貨量和上一季相比
+(08:01.700) 由顯著的成長
+(08:05.960) 但是為了極大化資金運用的效益
+(08:08.880) 我們部分伺服器的交易模式
+(08:10.280) 改為採用consignment的方式
+(08:14.700) 這使得這一個產品類別的營收
+(08:16.100) 季對季略為衰退
+(08:20.780) 但這並不影響我們獲利的水準
+(08:23.800) 而電腦終端產品
+(08:25.200) 則是受惠於新產品的上市
+(08:27.860) 拉貨動能優於預期
+(08:29.960) 季對季呈現持平
+(08:35.740) 從產品的組合來看
+(08:40.700) 隨著第一季進入ICT產業的傳統淡季
+(08:44.860) 再加上AI伺服器的需求快速的成長
+(08:49.280) 雲端網路產品的佔比已經接近五成
+(08:54.040) 這顯示鴻海集團在AI領域的佈局
+(08:58.040) 已經對於集團帶來了結構性的轉變
+(09:04.920) 而這一個變化有助於我們平衡ICT產業的季節性波動
+(09:09.560) 同時因為AI的客戶比較多元
+(09:13.880) 集團的產品組合也會更加的均衡
+(09:18.200) 從成底的獲利性來看
+(09:24.360) 我們在毛利、營業利益以及稅後淨利的表現上
+(09:27.600) 都創下了歷史同期的新高
+(09:32.460) 這不止是營收規模成長的結果
+(09:35.720) 這也代表了集團近年來
+(09:37.120) 持續推動產品組合優化
+(09:39.520) 以及營運效率提升的努力
+(09:42.180) 逐步產現了成果
+(09:46.300) 在這裡我也要特別感謝
+(09:47.700) 董事長的領導
+(09:50.500) 還有前一任輪值CEO Cathy
+(09:56.420) 以及集團全球同仁的努力與投入
+(10:02.360) 持續了展現我們鴻海的執行力以及營運的韌性
+(10:09.100) 接下來讓我來說明我們對今年第二季的展望
+(10:15.720) 整體而言第二季雖然是ICT產業的傳統淡季
+(10:19.480) 但是受惠於AI的需求強勁
+(10:33.220) 集團在第二季的營運表現仍然維持成長的趨勢。季對季將會顯著的成長,而年對年則達到強勁成長。
+(10:47.140) 在雲端網路產品方面,AI的需求維持高速的成長。我們看到伺服器以及交換器等產品的需求很強。
+(11:00.300) 加上AI機櫃持續的放量,我們預期雲端網路產品在季對季、年對年都將有強勁成長的表現。
+(11:08.140) 在消費智能產品方面,主要的產品已經進入了新舊產品的轉換期,但是整體的需求仍然維持穩定。
+(11:19.580) 第二季季對季的表現將大致持平
+(11:22.400) 和去年同期相比
+(11:27.180) 今年整體的需求應該還是會優於去年
+(11:32.980) 因此我們預期年對年將會達到顯著的成長
+(11:37.500) 在電腦終端產品方面
+(11:41.660) 延續上一季末新產品的拉貨效應
+(11:48.460) 預期在第二季在季對季的表現上將有顯著的成長
+(11:52.700) 但是受到記憶體供應緊張的影響
+(11:56.780) 和去年同期相比將大致持平
+(12:01.940) 至於原件和其他產品的類別
+(12:04.760) 主要業務相關的零組件
+(12:09.780) 包括相機模組、連接器等產品的出貨成長
+(12:14.380) 預計年對年將有顯著成長的表現
+(12:18.700) 在全年的展望的部分
+(12:23.040) 我們維持強勁成長的看法不變
+(12:24.440) 而且我們認為
+(12:29.880) 現在的能見度比三月的時候要來得更好一些了
+(12:33.900) 但是考量到全球政經環境的變數
+(12:38.220) 我們對今年維持審慎樂觀的態度
+(12:44.780) 主要產品方面,AI仍然是今年最重要的成長動能。
+(12:48.180) 相信各位也注意到了,北美四大的CSP業者,最近紛紛上調了他們今年的資本支出,加總起來超過了7000億美金的水準。
+(13:01.140) 同時,他們也預告了在2027年還會繼續的增加,我們相信很快就會達到兆元的規模。
+(13:16.680) 這也代表了AI已經開始為企業帶來了實質的效益
+(13:22.200) 相關的投資將推動下一階段的成長循環
+(13:26.120) 這也是我們過去強調的觀點
+(13:30.680) 那就是AI並不是短期的奇才
+(13:33.540) 而是產業結構性的轉變
+(13:37.300) 從基礎建設到終端應用
+(13:41.160) 整個產業鏈都在快速地重塑
+(13:47.040) 我們鴻海一定會掌握這一波長期成長的機會
+(13:51.020) 在消費智能產品方面
+(13:56.440) 目前整體的觀察和上一次的法人說明會看法相同
+(14:02.920) 我們認為今年的市場需求和去年相比會更好一些
+(14:04.320) 全年來,我們對全年的表現仍然維持樂觀的看法。
+(14:10.320) 當然,近期國際政經局勢的變化仍然相當的快速,
+(14:23.020) 包括地緣政治、供應鏈的調整以及原物料成本波動等因素,
+(14:26.540) 都可能對產業帶來影響。
+(14:27.940) 不過,鴻海集團多年來推動全球佈局,
+(14:34.320) 以及區域製造的策略
+(14:37.320) 同時也透過規模化
+(14:39.320) 和供應鏈的管理能力
+(14:42.500) 建立了相對穩健的營運韌性
+(14:45.320) 未來
+(14:47.380) 我們也會持續關注全球市場的變化
+(14:50.400) 並適時的調整我們的營運策略
+(14:52.320) 和資源的配置
+(14:56.920) 接下來
+(14:59.180) 我想透過幾項財務面的亮點
+(15:02.340) 和各位說明鴻海的價值
+(15:05.960) 以及我們長期所建立的競爭優勢
+(15:09.960) 我們在過去不斷地強調
+(15:14.440) 公司的經營目標就是獲利極大化
+(15:17.360) 在絕對獲利金額上
+(15:20.820) 創造長期而且穩健的成長
+(15:25.220) 回到鴻海的商業模式來看
+(15:27.680) 我們許多的組裝業務
+(15:29.880) 是採取Buy and Sell的模式
+(15:34.420) 產品的價格會隨著成本調整
+(15:37.760) 因此成本的波動
+(15:39.160) 對於我們絕對獲利的影響
+(15:41.660) 並沒有那麼大
+(15:42.840) 對於我們而言
+(15:48.720) 更重要的是如何提升整體的獲利能力
+(15:52.240) 只要是具備長期的競爭力
+(15:55.120) 能夠創造合理報酬的業務
+(15:56.520) 我們都會持續地投入
+(16:00.460) 如果回頭看看
+(16:01.860) 鴻海過去這15年的發展
+(16:04.180) 在絕對金額的表現上
+(16:08.340) 營業利益的成長速度
+(16:12.220) 優於營收以及毛利的成長幅度
+(16:13.620) 尤其是近幾年
+(16:17.480) 隨著AI對集團的貢獻度
+(16:20.840) 從2024年開始快速的提升
+(16:26.140) 營業利益和營收毛利之間的成長差距
+(16:27.540) 也在進一步的擴大
+(16:32.960) 這代表了AI不僅帶動了業務的成長
+(16:38.080) 也帶動了我們規模化和自動化效益的提升
+(16:42.600) 使得我們核心業務的獲利能力更加的強化
+(16:47.820) 接著我想和各位來分享
+(16:52.080) 在支出和投資擴大的同時
+(16:55.520) 鴻海如何用穩健的財務體質
+(16:56.920) 來建立護城河
+(17:01.640) 隨著AI需求快速的成長
+(17:03.040) 整體的產業鏈
+(17:07.060) 也同步進入了新一輪的擴張週期
+(17:10.840) 無論是AI伺服器的產能建制
+(17:14.000) 或者是全球大型專案的推進
+(17:17.280) 都需要相當規模的資本投入
+(17:18.680) 來支應未來的成長
+(17:20.620) 去年
+(17:22.820) 鴻海集團的資本支出
+(17:24.860) 資本支出年增約27%來到了1740億的水準
+(17:34.640) 我們預期今年還要再增加三成以上
+(17:40.520) 資本支出主要聚焦於區域製造的佈局
+(17:44.660) 自動化的導入以及核心產能的提升
+(17:46.060) 這些的資本支出
+(17:50.840) 我們相信將來都會逐步反映在
+(17:52.240) 銀收和獲利的表現上
+(17:57.660) 在這樣高速擴張的前提之下
+(18:01.760) 現金流的穩健就顯得格外的重要
+(18:05.720) 從過去幾年的表現來看
+(18:08.620) 以調整後的EBITDA為基礎
+(18:12.720) 鴻海集團始終維持在相對健康的水準
+(18:17.480) 不僅能夠支應持續增加的資本支出需求
+(18:22.180) 同時也有穩定增加現金股利的發放
+(18:25.340) 以今年的第一季為例
+(18:30.920) 集團的EBITDA已經提升到了1024億元的水準
+(18:36.180) 這顯示了我們即使在積極投入未來成長的同時
+(18:40.260) 整體的財務體質仍然維持穩健
+(18:45.200) 最後是ROE方面的提升
+(18:48.340) 再上一次的法人說明會裡,我們曾經提到,在提升企業價值計畫之中,我們其中有一項重要的目標,就是希望能夠在短期內將集團的ROE提升到12%的水準。
+(19:10.720) 從今年第一季的表現來看,鴻海集團單季的ROE已經達到了2.88%,相比於過去兩年同期有明顯的提升。
+(19:28.960) 這顯示了我們在獲利結構改善、產品組合優化以及營運效率提升等方面都逐步出現了成效。
+(19:33.540) 我們認為隨著AI相關的業務成長
+(19:36.860) 高附加價值產品的比重提升
+(19:41.320) 以及全球佈局和垂直整合的效益
+(19:42.720) 都進一步的發酵
+(19:47.020) 我們未來鴻海集團的ROE
+(19:48.420) 仍然會有持續向上的空間
+(19:53.880) 綜合前面的說明
+(19:57.960) 我想再用另外三個層面
+(20:00.360) to share the meaning behind these numbers.
+(20:04.680) First, it is the ability of Honghai's pre-sale research to transform into revenue.
+(20:11.400) We have been using PC in the 1990s,
+(20:14.760) laptops in the 2000s,
+(20:17.280) and later smart phones and tablet computers,
+(20:22.760) Honghai has seized every opportunity to grow.
+(20:29.920) 以最新的AI來說,從2010年的中期開始投入,將近10年之後開始發酵。
+(20:36.440) 因此,過去我們幾年投入在3加3,特別是幾個新的領域,
+(20:50.360) 例如電動車、機器人、太空領域還有量子運算方面,
+(20:55.720) 將來一定可以接棒成為我們新的成長動能
+(21:03.140) 其次是鴻海已經成為了擁有AI基礎建設
+(21:06.900) 以及消費智能這兩大基礎的企業
+(21:10.520) AI是B2B的生意
+(21:14.480) 所以業務模式也會比較容易預期
+(21:17.980) 季節性的影響也比較穩定
+(21:19.380) 同時,我們有了這兩個主要的科技硬體作為業務的根基,鴻海所提供的方案將會更多元,腳步也可以走得更穩健。
+(21:32.380) 第三,是我們鴻海正進入了另一個營收和獲利大幅成長的階段。
+(21:41.720) 前兩年,我們的營收分別成長了十幾個百分點
+(21:50.380) 但是營業利益分別成長了兩到三成
+(21:56.060) 這顯示鴻海的成長是強勁而且健康的
+(22:00.480) 基於AI的產業還在成長的階段
+(22:04.240) 我們期待這樣的發展趨勢可以延續
+(22:09.460) 我想各位也可以期待我們鴻海這一頭大象
+(22:10.860) 還是會繼續的跳舞
+(22:13.860) 好 接下來我請James跟大家來說明
+(22:19.240) 我們幾個重要事業的進展
+(22:21.860) 好 謝謝蔣總
+(22:27.620) 接下來我來跟各位說明幾個重要事業的進展
+(22:29.020) 如同蔣總所說
+(22:31.260) AI 可能是銅鑼今年最主要的成長動力
+(22:35.380) 無論從市場所看到的 AI 資本支出
+(22:39.000) or the orders we actually have,
+(22:41.660) the demand for the market is very strong.
+(22:45.500) In terms of machine-based delivery,
+(22:47.120) we expect that the second quarter
+(22:48.740) will maintain a high growth rate of the number of orders.
+(22:51.380) The delivery of AI machines this year
+(22:53.660) will only reach more than a double of the previous year.
+(22:55.960) And the delivery volume will increase as the customer project progresses.
+(23:01.160) In addition,
+(23:02.100) high-speed exchangers with more than 800 GHz
+(23:37.000) Taiwan's largest AI computing center.
+(23:39.820) The first phase is expected to start in the third quarter,
+(23:43.640) which will focus on AI-driven and deep-city AI,
+(23:47.260) providing companies with high-performance local AI sovereignty.
+(23:52.380) At the same time, we are also working with AI infrastructure companies,
+(23:56.620) Amini, and French state-owned enterprises,
+(23:59.320) which is the Hong Kong and China-led infrastructure construction
+(24:35.600) and the application of the new technology.
+(24:38.840) Our AI architecture will allow the factories to further advance
+(24:43.200) in their leadership and self-sufficiency.
+(24:46.660) In the second quarter, we will start to introduce human-shaped robots
+(24:51.680) and co-working robots in the US factories.
+(24:54.480) In terms of the digital city, we will continue to develop existing solutions
+(24:58.360) and expand to more countries and cities.
+(25:31.240) to deepen the digital health layout,
+(25:33.160) including the process of automating hospitals,
+(25:36.240) smart hospitals, and the construction of a GMV factory in Egypt,
+(25:39.120) to create a healthy Taiwan.
+(25:42.180) In terms of semiconductor,
+(25:43.340) new products from the Basun gold mine have entered the market,
+(25:46.120) and the Indian wind farm has also begun construction.
+(25:49.500) In terms of silicon carbide,
+(25:50.740) the goal is to complete the final verification in the fourth quarter
+(25:53.920) and accelerate the introduction of commercial vehicles.
+(25:56.620) In terms of AI ASIC's Triplet project,
+(26:59.920) and software integration.
+(27:02.980) Honghai also announced strategic cooperation with SAI,
+(27:06.200) to combine the advantages of AI smart manufacturing and industrial management,
+(27:10.520) to accelerate the transformation of manufacturing.
+(27:14.200) Finally, as you can see today,
+(27:17.020) President Jiang has officially taken over as the third CEO of Honghai,
+(27:21.120) and will lead the team to achieve new goals.
+(28:23.820) and community participation.
+(28:26.540) FastCon Lab continues to strengthen
+(28:28.460) local talent development and technology exchanges.
+(28:31.960) The U.S. and Europe teams
+(28:34.200) have also launched eco-friendly activities.
+(28:36.360) In Vietnam, our office in the Headquarters
+(28:39.020) has also been officially opened.
+(28:42.160) Recently, Tonghai has also selected
+(28:44.160) the world's 100 largest, most influential enterprises.
+(28:47.260) This is also the only Taiwanese company
+(28:50.500) to be selected.
+(28:51.820) Taiwan's Education Fund has also received recognition for its investment in education and human rights.
+(28:57.360) In addition,
+(28:58.140) Taiwan is the only company in the world to be selected as the top 50 AI innovation organization in the world for nine consecutive years.
+(29:07.320) Our US legal director, Robert Berry, has also received recognition in the field of professional and local influence.
+(30:12.280) 最低3%的目標設定呢?謝謝。
+(30:17.280) 好,謝謝Kristen。
+(30:23.720) 在面對地緣政治和全球供應鏈的波動,
+(30:26.060) 我們剛剛也已經說明,
+(30:29.360) 我們很多的業務是採取Buy and Sell的模式,
+(30:34.380) 產品的價格會隨著成本來調整,
+(30:38.880) 所以成本的波動對於我們絕對獲利的影響
+(30:40.280) 相對的有限。
+(30:43.360) In March, we announced the Improvement of Enterprise Value Plan,
+(30:47.600) which clearly set the profit-earning rate of business as more than 3% as our important operating indicators.
+(30:54.420) We still maintain this basic operating standard.
+(30:58.460) However, as the scale of AI-related business expands,
+(31:02.780) and the self-reliability of the zero-construction system increases,
+(31:10.660) 今年還是很有機會會優於我們在2025年3.2%的水準。
+(31:16.740) 當然外部的環境仍有許多的不確定性,
+(31:18.340) 但整體來看,我們對於獲利能力的提升,
+(31:24.240) 仍然保持了審慎的樂觀的態度。
+(31:25.640) 謝謝。
+(31:26.680) 謝謝蔣總。
+(31:29.780) 那第二個議題是關於AI伺服器。
+(31:37.380) 前面看到公司預期在今年AI的多種解決方案會帶動AI機櫃的出貨足跡上升。
+(31:44.140) 想要請您再多分享一些包含GPU還有ASIC晶片這些解決方案的成長動能。
+(31:45.540) 謝謝。
+(31:48.180) 好,再次謝謝Kristen。
+(31:57.660) 我想我們和北美主要CSP的客戶都有非常長期而且穩定的合作關係。
+(32:00.120) We have provided multiple AI server devices according to customer needs.
+(32:06.700) And every time the AI server device is updated,
+(32:11.020) it provides us with new opportunities,
+(32:13.620) allowing us to acquire many new customers and new orders.
+(32:19.780) The growth of the GPU and ASIC devices this year is still very strong.
+(32:30.820) 以GPU來看,我們在下一代AI機櫃的客戶覆蓋程度,參與的深度,以及整櫃交付的能力,預期都還會再進一步的提升。
+(32:41.080) 當然,市佔率也將會比前一代更加提高。
+(32:50.880) 在ASIC的部分,主要的CSP都在積極的開發ASIC的專案。
+(32:55.320) 這也都是我們重要的合作伙伴
+(33:00.360) 我們在系統級機櫃的開發以及生產經驗
+(33:01.760) 是客戶很看重的價值
+(33:07.580) 當然除了整機的生產之外
+(33:11.940) 我們也持續擴大在夜冷散熱
+(33:13.340) 機構建
+(33:14.660) 高速傳輸
+(33:16.580) 電源模組
+(33:18.160) 和系統驗證
+(33:21.380) 這一類高附加價值領域的佈局
+(33:29.840) 透過提高關鍵零組件的自治率,這不只可以提升我們供應鏈掌握的程度和成本效率,也能增加產品的彈性,進一步強化我們在ASIC市場的長期競爭力。謝謝。
+(34:11.640) Thank you, President Jiang.
+(34:11.800) How do we manage cash flow in the Bainsale trading mode?
+(34:16.120) Can the company's average investment cost fully reflect the profitability of the product?
+(34:21.820) Finally, what is the impact of regular spending on future business and external income or spending?
+(34:27.940) Thank you.
+(34:28.860) Thank you, Kristen.
+(34:31.100) With the rapid growth of AI server,
+(34:34.100) the demand for operating funds has been increased simultaneously.
+(34:36.120) 企業在半銷的模式下,集團持續聚焦於現金轉換週期的管理,包括優化AP、AR的條件,尤其是強化存貨的管理,以及透過滾動式的現金流的預測,確保在擴大KBX與海外佈局的同時,仍維持充足的流動性與財務彈性。
+(35:03.520) 至於資金籌資的成本是否能夠反映產品利潤性的問題
+(35:04.920) 就剛剛報告所述
+(35:10.580) 第一季的淨利息支出較去年同期增加38億元
+(35:15.320) 而營業利益則較去年同期增加291億元
+(35:19.960) 充分反映了資金投入帶動核心營運成長
+(35:21.360) 與整體經營效益的提升
+(35:26.220) 至於利息支出對於未來業外收支的影響
+(35:27.620) 基本上,隨著業務持續成長與資金需求的提升,利息支出仍可能隨之增加。
+(35:35.620) 不過,最主要是支持AI業務與海外佈局成長的階段性投入。
+(35:40.540) 將來,隨著營運資金效率的提升,利息支出的增幅也會逐步趨於平衡。
+(35:46.780) 同時,相關資本投入也會持續轉化為營業內的成長與獲利提升的動能。
+(35:57.880) 再資金管理的政策上,我們仍會以標準普爾信用平等作為依據,以資本報酬率大於12%以上,以及淨負債除上EBITDA低於1.5倍作為管理的方向,持續審慎管控負債與資本結構,並維持穩健的信用平等與財務距離。謝謝。
+(36:20.200) 謝謝財務長。
+(36:23.860) 那我們現在開放給線上的法人與媒體自由提問。
+(36:26.720) 請一次完整說明問題,每位最多提問兩題。
+(36:28.360) 謝謝。
+(36:29.380) Now we will move to Q&A session.
+(36:31.300) English question is also welcome.
+(36:40.920) 好,那第一題我們先請City的Dora提問。
+(36:42.560) Dora,請。
+(36:49.380) Laura, can you hear me?
+(36:50.680) Yes, can you hear me?
+(36:53.100) Yes, please.
+(36:54.340) Thank you for accepting my question.
+(36:56.780) Thank you,
+(36:57.740) Mr. Chiang,
+(36:58.440) for explaining our long-term profit target and our change in the operating model.
+(37:05.540) I would like to ask you about the current trading model of buy-sell and consignment.
+(37:15.600) Can you tell us about the current ratio?
+(37:19.540) If the ratio of consignment is higher in the future, will it further improve our profits?
+(37:26.260) Especially, we see that there are more customized design needs for different CSP customers.
+(37:33.940) We also see that as the GPE 200 and 300 are in the later stage,
+(37:39.880) and Vera Rubin is going to start to run up in the second half of the year,
+(37:44.620) will we see more consignment?
+(37:50.800) We will ask the Finance Minister to answer the question of consignment.
+(37:55.820) Thank you, James and Laura.
+(37:57.980) When we work with customers, we don't just look at the single transaction mode,
+(38:02.060) and will consider overall business conditions, profit and capital efficiency.
+(38:08.440) ASIC is more customized for customer needs,
+(38:11.980) and requires more product development.
+(38:15.000) System integration and mass production are interrelated,
+(38:17.980) so the added value is relatively high.
+(38:20.300) Currently, the main mode of ASIC project is Conscience.
+(38:23.560) This is helpful for reducing operating capital,
+(38:25.980) increasing capital efficiency and improving profit.
+(38:28.880) and the performance of the product.
+(38:30.980) As for GPUs,
+(38:33.020) as the GP200 and GP300
+(38:35.560) enter the product cycle,
+(38:37.420) the maturity of the product will be improved,
+(38:39.420) and the supply chain will be more stable.
+(38:42.120) In the future, if some customers rely on
+(38:44.200) cost, storage efficiency,
+(38:46.000) and the toughness of the supply chain,
+(38:47.920) the consign mode will indeed have the opportunity to expand.
+(38:51.240) But overall,
+(38:52.580) the trading mode still depends on the customer's needs,
+(38:55.420) product characteristics, and commercial conditions.
+(38:59.820) 不會單純由產品世代來決定。
+(39:05.400) 公司的重點是提供最有效率、最具彈性的合作模式,
+(39:09.920) 同時兼顧成長、利潤率與資本效率。謝謝。
+(39:18.600) 好,那接下來我們請Daiwa的分析師宣請。
+(39:32.960) Thank you, Michael, David, James, for your questions.
+(39:40.280) Congratulations to the company for giving a brilliant solution in the first quarter.
+(39:43.740) My question is,
+(39:45.180) we saw that NVIDIA has launched a variety of machines in GDC this year,
+(39:52.440) such as LPU, Avera CPU, and Switch.
+(39:56.700) I would like to ask the management of the company,
+(40:00.260) for the planning of the delivery time this year,
+(40:03.180) and the market share rate of these products,
+(40:07.300) can you give us more information? Thank you.
+(40:12.360) 這一題我們請蔣總回答
+(40:13.760) 好,謝謝線的提問
+(40:19.140) 我想我們在AI伺服器的領域
+(40:20.540) 我們一直是主要客戶
+(40:23.100) 在新產品共同開發的夥伴
+(40:25.640) 只要客戶有新產品
+(40:28.000) 我們都會參與
+(40:32.360) 針對客戶新一代的各類型的機櫃
+(40:35.240) 我們雙方已經在緊鑼密鼓地
+(40:36.640) 進行產品開發
+(40:38.260) 以及量產的準備
+(40:41.020) We expect to deliver products in series from the third quarter.
+(40:47.760) We will still follow the customer's request for the delivery of the products
+(40:51.940) and the deployment of the data center.
+(40:56.680) Thank you.
+(40:59.620) Next, let's have Angela from KGI to answer the question.
+(41:12.940) Angela, can you hear me?
+(41:16.460) Yes, I can. Please go ahead.
+(41:18.520) Thank you, Mr. Chiang, Mr. Chen, and James.
+(41:22.460) I have a follow-up question and some updates.
+(41:29.040) I would like to ask about the
+(41:32.460) 從這一次提到的這個計價模式變成consign
+(41:38.720) 是比較傾向是在通用伺服器還是在AI伺服器這一端
+(41:42.440) 那這樣子的計價模式目前還是就是可以
+(41:44.700) 在working capital上面不需要去幫客戶支付
+(41:50.160) 還是說只是我們在財報上面的一個表現
+(41:53.120) 那實際上還是需要做一個working capital的support
+(41:56.700) 這是第一個問題
+(41:57.700) 那第二個問題是想也問一下
+(41:59.760) We are now at 48% in the first quarter of the cloud revenue.
+(42:05.640) Can you help us break down the ratio of AI and the user-friendly server?
+(42:12.540) Because we now hear that the growth of the entire market for the user-friendly server has been constantly adjusting.
+(42:19.800) 往上調整,就是想請教一下這兩個就是通用跟AI它的一個後續的成長動能,我們分別在這個今年是怎麼來看待,那這個對於我們在利潤率上面的影響又會是怎麼樣?大概是這些問題,謝謝。
+(42:38.980) Okay, please answer the question of the AI server.
+(42:43.620) I will ask the Finance Minister to answer the question of the follow-up consignment.
+(42:49.860) Please, Mr. Chiang.
+(42:52.260) Thank you, Angela.
+(42:55.080) With the growth of the market size of the AI server,
+(42:58.900) we have successfully expanded the whole machine and the machine cabinet from the key zero components.
+(43:10.820) AI伺服器在整體伺服器的營收當中的佔比也一直逐年地在提升
+(43:15.200) 到去年我們已經達到接近五成的水準了
+(43:20.020) 在今年AI機櫃逐季的放量的情況下
+(43:24.100) 如果供應鏈的料礦可以滿足需求的話
+(43:30.240) 我們預期今年機櫃的出貨量至少還會有一倍以上的成長
+(43:35.920) 再第一季AI伺服器的營收佔比已經突破五成了
+(43:39.080) 在過去的兩年
+(43:40.480) 我們在通用型的伺服器業務
+(43:43.160) 都有雙位數成長的表現
+(43:48.320) 特別是CSP客戶的需求更為強勁
+(43:51.860) 這反映了AI資料中心的建置
+(43:55.720) 也同步的推升了通用型伺服器的需求
+(43:59.700) 我們預期今年通用伺服器的市場
+(44:01.100) 應該還是可以穩健的成長
+(44:08.900) 鴻海集團作為全球主要伺服器的ODM廠商
+(44:11.880) 我們擁有完整的大型CSP
+(44:13.280) 以及企業客戶的基礎
+(44:18.520) 還有全球製造以及供應鏈整合的優勢
+(44:19.920) 我們預期在2026年
+(44:22.700) 通用性的伺服器業務
+(44:26.400) 仍然有機會維持雙位數的成長
+(44:31.580) 也將會優於整體產業的平均水準。
+(44:32.980) 謝謝。
+(44:34.000) 好,那針對consumable是來自於通用伺服器還是來自於內在伺服器的部分,
+(44:41.800) 那請財務長這邊回答。
+(44:43.600) 好,這consumable模式基本上比較多是來自於ASIC的伺服器。
+(44:51.400) 那為什麼會這樣子呢?
+(44:55.620) 因為大家知道ASIC這個IC基本上是比較telemed,
+(44:57.020) So, it is not as common as the general-purpose semiconductor.
+(45:01.180) It has a certain market price.
+(45:04.580) So, this part is a consigned model.
+(45:08.120) It is very suitable for our customers of ASIC servers.
+(45:12.280) As for other AI servers of the GB series,
+(45:17.760) it is basically because of the policy of the supply chain management of individual customers.
+(45:28.240) 部分的客戶也會考慮採用considered模式
+(45:35.880) 採用considered模式的確是會降低我們對移運資金的需求
+(45:41.100) 因為很簡單講存貨的部分就可以大幅的降低
+(45:44.820) 同時這個應收應付的也會大幅降低
+(45:51.200) 所以considered對於作為我們的供應商來說
+(45:57.020) 這種模式確實是會大幅降低營運資金上面的準備的提漲。
+(45:58.420) 好,那下一題我們請富邦證券的Arthur提問。Arthur,請。
+(46:08.320) 聽得到我聲音嗎?
+(46:09.860) 可以。
+(46:10.620) 謝謝James,謝謝Michael。我想我帶來兩個問題,就是說我自己大概也評估過鴻海Net Profit的成長。
+(46:21.560) We can see that in 2025, the growth rate is about 20%.
+(46:26.260) We estimate that this year, the growth rate will be about 35%.
+(46:30.320) Next year, the growth rate will be about 20%.
+(46:31.740) So, the average growth rate in the next three years should be 25%.
+(46:35.220) So, I don't know what the company thinks about the market.
+(46:42.080) Because if you have such a good sales and results in the first quarter,
+(46:47.880) I may have to show this EPS again.
+(46:51.360) The second question is,
+(46:53.600) I just mentioned these ASIC customers and GP customers.
+(46:57.740) I think it's probably Google and Nvidia.
+(46:59.620) They are also customers of Taiji and Honghai.
+(47:03.500) We can know that Google has recently announced some
+(47:06.160) of the distribution of Raw Map and upstream products.
+(47:09.140) Based on the distribution of these products,
+(47:11.720) Google will have a lot next year.
+(47:13.680) I think this is,
+(47:14.900) We believe that with Google TPU,
+(47:17.120) the number of users will grow in the next year.
+(47:19.260) We estimate that 75% of the users will grow in this period.
+(47:24.620) We believe that it is unlikely that a family will be in a situation like this.
+(47:27.220) We will have a chance to explain further about this.
+(47:29.700) Thank you.
+(47:31.660) Thank you, Arthur, for your affirmation and confidence.
+(47:34.960) We are very confident in our long-term growth.
+(48:37.740) the demand for each product is not obvious.
+(48:41.800) So, in the case of AI's fast growth,
+(48:46.080) for large-scale CSP and corporate clients,
+(48:49.140) the key is whether these suppliers can quickly build
+(48:52.540) an AI-based design.
+(48:54.680) We have a global layout
+(48:57.840) and the advantage of learning integration.
+(49:00.100) We can participate in the different AI-based construction
+(49:05.620) of multiple clients at the same time.
+(49:05.740) So in the past, we may have reached the market share of AI market.
+(49:11.920) This year, we even have the opportunity to continue to improve.
+(49:16.940) As for the ITT part, it is also a very unique and very influential red card.
+(49:22.240) It has formed two major pillars with AI.
+(49:25.960) Director Jiang just mentioned that the revenue of the past two years has grown by more than 10% respectively.
+(49:35.980) 但是營業利益的成長基本上都高於營收的成長的比例
+(49:37.380) 那以鴻海這麼大的量體來看
+(49:40.120) 這個成長的規模是相當客觀
+(49:46.660) 那麼預計這樣子的一個成長還是可以繼續再持續一段時間
+(49:51.700) 那所以我個人認為鴻海已經回到了成長型企業的軌跡
+(49:55.780) 那就應該有成長型企業所應該獲得的評價
+(50:00.680) 那我們也看到除了現在的這幾個業務蓬勃發展之外
+(50:32.100) As for the situation of some ASIC projects,
+(50:36.700) I will explain.
+(50:38.860) You just mentioned the TPU part.
+(50:41.340) Our policy basically does not comment on
+(50:45.100) the individual customers and the individual products.
+(50:47.760) However, we see that the entire North American CSB
+(50:50.100) continues to expand its application flow in AI reasoning.
+(50:53.800) While the growth of the GPU program,
+(50:57.080) the number of AI ASIC computers used
+(51:01.020) 用的數量也有非常強的成長力道
+(51:03.040) 這個力道你剛剛有提到
+(51:05.340) 但是不管是什麼樣的一個數字
+(51:07.140) 基本上它都是非常強勁的
+(51:11.820) 在ASIC的一個市場
+(51:15.920) 我們肯定一定會跟著客戶
+(51:17.980) 來一起發展
+(51:20.440) 希望這個精明兩年
+(51:23.580) 這個發展應該都是沒有任何的懸念
+(51:27.300) 我們產品現在經驗其實非常的完整
+(51:28.700) In addition to the ongoing use of ASIC's four-vehicle project,
+(51:34.360) our goal is to fully participate in the project.
+(51:37.220) Then, we will take on different types of projects,
+(51:39.720) including the integration of modules, machines,
+(51:42.720) system testing and verification, and other key areas.
+(51:46.280) We will take on different levels of roles.
+(51:49.340) Our goal is to assist customers in accelerating the integration of the
+(51:52.360) mass production and the integration of the machines.
+(51:59.480) 最後來說到就是隨著我們在北美跟歐洲的產能已經逐步的一個到位
+(52:03.420) 那我們在ASIC伺服器業務的全球供應能力
+(52:07.140) 跟在地化交互的優勢會進一步的強化
+(52:13.400) 那我們希望在這個市佔率提升跟營收成長奠定更穩定的一個基礎
+(52:20.040) 所以2026年ASIC伺服器的業務會有倍增的一個成長的表現
+(52:21.440) 以上
+(52:24.500) Okay, next question, let's have Guan Zhou from the Business Times to ask a question.
+(52:31.560) Do you hear me?
+(52:33.600) Yes, please.
+(52:34.640) Hello, Mr. Jiang, James, David. Thank you for accepting my question.
+(52:38.200) I mainly want to ask about one of the big customers of the Group, Apple.
+(52:42.680) You announced that you will be the new CEO of Apple starting from September.
+(52:47.300) Because it is one of the big customers that you have worked closely with,
+(52:49.380) So, I would like to ask you to share your views on how to view the impact of the red sea after the successor.
+(52:56.680) And how to see if Apple can observe the future development strategy.
+(53:01.360) And then, the Law Enforcement Council also mentioned that there is some supply chain and memory price increase pressure.
+(53:07.200) How do you see the market in the second half of the year?
+(53:09.160) 紅海,您會否有機會透過硬體升級或其他方式提高市佔率或公司競爭優勢?
+(53:22.260) 再請蔣總配堂
+(53:25.700) 感謝冠州的提問
+(53:31.620) 不過我們向來不評論單一客戶以及單一產品
+(53:35.800) 當然也不方便評論客戶組織的變動情形
+(53:38.820) 至於對下半年的市場的觀察
+(53:43.840) 我們目前仍然維持相對正向和審慎樂觀的看法
+(53:47.520) 雖然在近期記憶體的價格
+(53:48.920) 以及部分的零組件的成本
+(53:51.440) 確實有上升的現象
+(53:55.240) 但是我想對於高階的產品而言
+(53:56.640) 和中低階的市場來比較
+(54:01.680) 他們受到記憶體價格波動的影響
+(54:03.080) 其實是相對更有限的
+(54:07.200) 另外,有許多人認為消費性智能產品的產業經過了多年的發展已經來到了產業的成熟期,成長的動能有限。
+(54:19.200) 不過,隨著AI技術的逐漸發展進步,我們也觀察到包括穿戴裝置、手持裝置和移動裝置等產品的設計開發有了新的發展趨勢。
+(54:37.340) 例如在產品端,讓使用者對AI應用的極致化體驗,強化邊緣運算的能力。
+(54:43.720) 同時,由於新材料、新科技的導入,都讓產品表現出來更輕、更快、更好用的特性。
+(55:00.540) 整個市場也開始進入了新一波硬體升級的週期,包括了更高容量的記憶體。
+(55:03.480) 更強的運算能力
+(55:07.140) 更好的散熱以及電池管理等等
+(55:10.480) 這對整體供應鏈的價值含量
+(55:11.880) 其實是有正面幫助的
+(55:15.960) 對鴻海集團而言
+(55:19.540) 我們有非常好的關鍵零組件自治能力
+(55:22.600) 以及強大的垂直整合能力
+(55:27.300) 使得鴻海集團在新一代產品升級的趨勢之下
+(55:31.260) 我們能夠維持業務以及獲利的穩定成長
+(55:32.660) 整體來講,我們還是看好今年在消費智能產品方面的表現,預期還是可以有顯著的成長力道。謝謝。
+(55:44.580) 好,下一題我們請三立財經的智柔提問。
+(55:49.700) 智柔請。
+(55:52.340) 蔣總您好,James, David, 吳安。
+(55:59.100) 我是三立財經的智柔。我想要請教就是六月這個computex已經進入倒數了嗎?
+(56:00.500) This time, CEO Huang Renxun and Intel CEO Chen Liwu will come to Taiwan.
+(56:06.360) I mainly want to ask if it is convenient for the company to gather the exhibition host.
+(56:11.380) Then everyone is looking forward to whether there will be a related cooperation announcement during the exhibition.
+(56:15.880) Thank you.
+(56:17.880) Thank you. I will answer this question.
+(56:20.980) Let's sell the relevant announcement first.
+(56:24.060) But welcome you to find the answer on the spot.
+(56:27.040) 關於整個Computed的展覽,近年來我們是以AI佈局作為主軸。
+(56:37.820) 鴻海今年會以所謂AI多元生態系整的作為核心方向,
+(56:41.900) 進一步從AI伺服器的供應商轉型為Token Factory的供應者,
+(56:48.660) 並且擴大AI的影響力到智慧製造、智慧電動車跟智慧程式、
+(56:51.560) 航太以及醫療等多元的場面。
+(56:52.960) In terms of AI, in addition to technology and automation,
+(56:57.240) the most important thing is the vertical integration
+(56:59.220) and the complete customer structure.
+(57:01.260) So this exhibition will focus on AI infrastructure and vertical integration.
+(57:06.320) It will show the key products such as L1, L12,
+(57:09.220) and VR Rubin, LPU, and CPU.
+(57:14.160) At the same time, we will also integrate the global AI ecosystem
+(57:17.920) with the algorithmic layout.
+(57:20.460) We will absorb NVIDIA,
+(57:22.960) Intel, AMD, and other partners
+(57:25.680) to present the results of the AI Data Center's
+(57:28.820) Total Solution cooperation.
+(57:31.300) In addition, this time we will also show
+(57:33.480) the AI technology of Nemo Cloud,
+(57:36.100) lobster, human-shaped robot,
+(57:38.460) and space data center.
+(57:42.100) We will combine the applications of the three major platforms
+(57:43.980) to show the overall layout of the future field applications
+(57:46.520) including AI industry chain,
+(57:47.400) and algorithmic infrastructure.
+(57:50.260) 以及未來場域應用的整體佈局
+(57:53.460) 歡迎各位到時候到我們的展區來看看
+(57:54.860) 以上
+(58:03.020) 好那下一題我們請東森的可君來提問
+(58:04.420) 可君請
+(58:08.460) 哈囉 現在有聲音嗎
+(58:10.020) 有請說
+(58:11.240) 好 江董 跟菲林你們好
+(58:14.140) 我是東森臺丁可君
+(58:20.060) 請教公司曾經在墨西哥、美國跟臺灣進行AI伺服器的擴產
+(58:25.720) 那能不能分別說明這三地AI伺服器的產能投資進度跟目標
+(58:29.020) 那還有未來產能分佈將會如何呢?
+(58:30.500) 以上,謝謝
+(58:32.620) 這裡我們請蔣總回答
+(58:34.020) 好,謝謝可君
+(58:39.060) 目前我們整個美洲地區
+(58:42.800) 還是鴻海集團最大的AI伺服器的生產基地
+(58:44.200) 互相提供的商品,我們在當地已經建立了相當完整的供應鏈。
+(58:49.200) 在現階段,它仍然是支撐全球AI伺服器出貨的重要核心。
+(58:59.020) 因應全球地緣政治的變化,以及客戶在地化生產需求的提升,
+(59:05.260) 鴻海近年來在加大我們對美國的投資力道。
+(59:09.340) 集團整體的資本支出這兩年,分別有兩到三成的增加,
+(59:17.780) 其中相當大的一部分就是和AI伺服器相關的產能擴建有關
+(59:22.900) 包括廠房、設備、還有自動化產線的投入
+(59:27.680) 從需求端來看,目前大型的CSP客戶
+(59:32.300) 無論是GPU還是ASIC AI伺服器的需求
+(59:38.360) 還有主權AI以及大型資料中心等專案
+(59:41.800) 它主要仍然是集中在美國市場
+(59:48.060) 因此美國未來仍逐步會成為我們鴻海
+(59:50.900) 最大的AI伺服器的生產基地
+(59:52.300) 這也是我們Local for Local
+(59:55.440) 全球製造策略的重要方向
+(59:57.800) 總的來說
+(60:00.120) 美國和墨西哥
+(60:04.080) 仍然將會是我們最大的量產基地
+(60:07.060) 至於臺灣的部分
+(60:41.820) 未來鴻海AI伺服器的產能將會持續的擴張
+(60:46.820) 以提供供應鏈韌性以及全球交付的能力
+(60:48.220) 謝謝
+(60:49.260) 好
+(60:52.400) 那現在時間是4點01分
+(60:56.300) 我們今天的法人說明會基本上就到這個地方為止
+(60:59.840) 那如果各位或需要想要多詢問的地方
+(61:02.780) 也歡迎跟我們的IR團隊來密切的聯繫
+(61:04.180) 以上
