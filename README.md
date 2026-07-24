@@ -14,8 +14,10 @@
 | 8299 群聯 | 2026 Q2 | 法說會 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8299) |
 | 2376 技嘉 | 2026 Q2 | 財報 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2376) |
 | 2603 長榮 | 2026 Q2 | 財報 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2603) |
+| 2317 鴻海 | 2026 Q2 | 財報 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2382 廣達 | 2026 Q2 | 財報 | 2026-08-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
 | 2324 仁寶 | 2026 Q2 | 財報 | 2026-08-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
+| 3661 世芯-KY | 2026 Q2 | 財報 | 2026-08-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3661) |
 | 2357 華碩 | 2026 Q2 | 財報 | 2026-08-11 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
 | 3653 健策 | 2026 Q2 | 財報 | 2026-08-11 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3653) |
 | 5269 祥碩 | 2026 Q2 | 財報 | 2026-08-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=5269) |
@@ -25,12 +27,12 @@
 | 2474 可成 | 2026 Q2 | 財報 | 2026-08-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2474) |
 | 2353 宏碁 | 2026 Q2 | 財報 | 2026-08-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2353) |
 | 2345 智邦 | 2026 Q2 | 財報 | 2026-08-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2345) |
+| 2395 研華 | 2026 Q2 | 財報 | 2026-08-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2395) |
 | SNDK Sandisk Corp | 2026 Q4 | 財報 | 2026-08-05 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/SNDK/financials/) |
 | 2412 中華電 | 2026 Q2 | 法說會 | 2026-08-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2412) |
 | 2458 義隆 | 2026 Q2 | 法說會 | 2026-08-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2458) |
 | 2458 義隆 | 2026 Q2 | 財報 | 2026-08-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2458) |
 | 2347 聯強 | 2026 Q2 | 財報 | 2026-08-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2347) |
-| 8454 富邦媒 | 2026 Q2 | 財報 | 2026-08-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8454) |
 | 3034 聯詠 | 2026 Q2 | 財報 | 2026-08-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | 2412 中華電 | 2026 Q2 | 財報 | 2026-08-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2412) |
 | AMD AMD 超微 | 2026 Q2 | 財報 | 2026-08-04 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
@@ -38,6 +40,7 @@
 | 7769 鴻勁 | 2026 Q2 | 財報 | 2026-08-03 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7769) |
 | 2454 聯發科 | 2026 Q2 | 法說會 | 2026-07-31 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | 2301 光寶科 | 2026 Q2 | 法說會 | 2026-07-31 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
+| 8454 富邦媒 | 2026 Q2 | 財報 | 2026-07-31 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8454) |
 | 2301 光寶科 | 2026 Q2 | 財報 | 2026-07-31 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | 2454 聯發科 | 2026 Q2 | 財報 | 2026-07-31 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | 2308 台達電 | 2026 Q2 | 法說會 | 2026-07-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
