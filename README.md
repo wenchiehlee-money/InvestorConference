@@ -6,6 +6,8 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----------:|:----:|
+| 2891 中信金 | 2026 Q2 | 財報 | 2026-08-21 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2891) |
+| 3665 貿聯-KY | 2026 Q2 | 財報 | 2026-08-21 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3665) |
 | 2881 富邦金 | 2026 Q2 | 財報 | 2026-08-20 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2881) |
 | 3045 台灣大 | 2026 Q2 | 法說會 | 2026-08-14 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
 | 3045 台灣大 | 2026 Q2 | 財報 | 2026-08-14 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
@@ -59,7 +61,7 @@
 | 2337 旺宏 | 2026 Q2 | 財報 | 2026-07-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2337) |
 | 2354 鴻準 | 2026 Q2 | 財報 | 2026-07-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2354) |
 | 5274O 信驊 | 2026 Q2 | 財報 | 2026-07-27 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/5274.TWO/financials/) |
-| INTC Intel Corporation | 2026 Q2 | 財報 | 2026-07-23 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
+| INTC Intel Corporation | 2026 Q2 | 財報 | 2026-07-23 | - | - | - | - | [EN](data/INTC/INTC_2026_q2_earnings_release.md) | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
 | GOOGL Alphabet Inc. | 2026 Q2 | 財報 | 2026-07-22 | - | - | - | - | [EN](data/GOOGL/GOOGL_2026_q2_earnings_release.md) | - | [↗](https://finance.yahoo.com/quote/GOOGL/financials/) |
 | 2330 台積電 | 2026 Q2 | 法說會 | 2026-07-16 | [70.4 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2330_2026_q2.m4a) | [📝](data/2330/2330_2026_q2_FIN.srt) | - | [中](data/2330/2330_2026_q2_ir.pdf) ([MD](data/2330/2330_2026_q2_ir.md)) | [EN](data/2330/2330_2026_q2_ir_en.pdf) ([MD](data/2330/2330_2026_q2_ir_en.md)) | [📊](data/reports/conference-digests/2330/2330_2026_q2_digest.md) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 2330 台積電 | 2026 Q2 | 財報 | 2026-07-16 | - | - | - | - | [EN](data/2330/2330_2026_q2_earnings_release.pdf) ([MD](data/2330/2330_2026_q2_earnings_release.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |

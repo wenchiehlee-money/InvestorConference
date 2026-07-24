@@ -1,0 +1,30 @@
+{
+  "stock_id": "INTC",
+  "company": "Intel Corporation",
+  "event_type": "財報",
+  "year": "2026",
+  "quarter": "2",
+  "primary_source": "SEC EDGAR",
+  "sources": [
+    {
+      "source_type": "SEC 8-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000155/intc-20260723.htm",
+      "accession": "0000050863-26-000155",
+      "document": "intc-20260723.htm",
+      "retrieved_at": "2026-07-24T04:43:31.227785+00:00",
+      "sha256": "8dab7ac3cf6b45e0572d339f7da71c730a6dd3f205b5d03aa9815aab5fda3b30",
+      "local_path": "data/INTC/INTC_2026_q2_8k.md",
+      "notes": "Official SEC EDGAR filing; event evidence for Intel 2026 Q2 financial results."
+    },
+    {
+      "source_type": "SEC EX-99.1 earnings release",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000155/q226earningsrelease.htm",
+      "accession": "0000050863-26-000155",
+      "document": "q226earningsrelease.htm",
+      "retrieved_at": "2026-07-24T04:43:31.227785+00:00",
+      "sha256": "5793462254cf215b58c508b426a914e3264b8044e623b7433f7e51696caf7e7a",
+      "local_path": "data/INTC/INTC_2026_q2_earnings_release.md",
+      "notes": "Official SEC EDGAR filing; event evidence for Intel 2026 Q2 financial results."
+    }
+  ]
+}
