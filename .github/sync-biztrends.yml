@@ -2,6 +2,8 @@ group:
   - files:
       - source: data/reports/investor_conference_health_summary.csv
         dest: data/InvestorConference/investor_conference_health_summary.csv
+      - source: data/financials/raw_ir_quarterly_financials.csv
+        dest: data/InvestorConference/raw_ir_quarterly_financials.csv
       - source: raw_column_definition_IC.md
         dest: definitions/raw_column_definition_IC.md
     repos: |

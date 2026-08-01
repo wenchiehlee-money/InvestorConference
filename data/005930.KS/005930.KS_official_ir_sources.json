@@ -1,0 +1,170 @@
+{
+  "symbol": "005930.KS",
+  "source_url": "https://www.samsung.com/global/ir/financial-information/earnings-release/",
+  "source_type": "official_ir_discovery",
+  "retrieved_at": "2026-08-01 09:48:10 CST",
+  "sha256": "075fc704934747b3e1e230ffaab3cccce24364bf1525fb2a715a93334a415945",
+  "notes": "Discovery only; PDF/table parser still required before writing normalized quarterly rows.",
+  "links": [
+    {
+      "href": "https://www.samsung.com/global/ir/financial-information/financial-valuation-snapshot/",
+      "text": "Financial\r\n                                    Highlights"
+    },
+    {
+      "href": "https://www.samsung.com/global/ir/financial-information/audited-financial-statements/",
+      "text": "Financial\r\n                                    Statements"
+    },
+    {
+      "href": "https://www.samsung.com/global/ir/financial-information/earnings-release/",
+      "text": "Earnings\r\n                                    Releases"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_1Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_2Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_1Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_2Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_3Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_1Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_2Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_3Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2023_1Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2023_2Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2023_3Q_conference_eng_01.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2023_4Q_conference_eng_01.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2022_1Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2022_2Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2022_3Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2022_4Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2021_1Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2021_2Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2021_3Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2021_4Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2020_1Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2020_2Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2020_3Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2020_4Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2019_1Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2019_2Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2019_3Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2019_4Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2018_1Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2018_2Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2018_3Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2018_4Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2017_1Q_Earnings_Release_Samsung_Electronics.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2017_2Q_Earnings_Release_Samsung_Electronics.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2017_3Q_Earnings_Release_Samsung_Electronics.pdf",
+      "text": "PDF"
+    }
+  ]
+}

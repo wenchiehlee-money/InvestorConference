@@ -1,0 +1,170 @@
+{
+  "symbol": "0981.HK",
+  "source_url": "https://www.smics.com/en/site/company_financialSummary",
+  "source_type": "official_ir_discovery",
+  "retrieved_at": "2026-08-01 09:48:10 CST",
+  "sha256": "a5895f0b6e288331fa67e8719f69ed73dc52a688060618f5e35dc27ea7015797",
+  "notes": "Discovery only; PDF/table parser still required before writing normalized quarterly rows.",
+  "links": [
+    {
+      "href": "/site/company_financialSummary",
+      "text": "简体中文"
+    },
+    {
+      "href": "/tc/site/company_financialSummary",
+      "text": "繁体中文"
+    },
+    {
+      "href": "/en/site/company_financialSummary",
+      "text": "ENGLISH"
+    },
+    {
+      "href": "/jp/site/company_financialSummary",
+      "text": "日本语"
+    },
+    {
+      "href": "/en/site/company_financialSummary",
+      "text": "Financials"
+    },
+    {
+      "href": "/en/site/company_financialSummary#page_slide_0",
+      "text": "Quarterly Earnings"
+    },
+    {
+      "href": "/en/site/company_financialSummary#page_slide_1",
+      "text": "Interim / Annual\n                                            Report"
+    },
+    {
+      "href": "/en/site/company_financialSummary#page_slide_2",
+      "text": "Historical\n                                            Financials"
+    },
+    {
+      "href": "/en/site/care_living",
+      "text": "SMIC Living Quarter"
+    },
+    {
+      "href": "/site/company_financialSummary",
+      "text": "简体中文"
+    },
+    {
+      "href": "/tc/site/company_financialSummary",
+      "text": "繁体中文"
+    },
+    {
+      "href": "/en/site/company_financialSummary",
+      "text": "ENGLISH"
+    },
+    {
+      "href": "/jp/site/company_financialSummary",
+      "text": "日本语"
+    },
+    {
+      "href": "/en/site/company_financialSummary",
+      "text": "Financials"
+    },
+    {
+      "href": "/en/site/company_financialSummary#page_slide_0",
+      "text": "Quarterly Earnings"
+    },
+    {
+      "href": "/en/site/company_financialSummary#page_slide_1",
+      "text": "Interim / Annual Report"
+    },
+    {
+      "href": "/en/site/company_financialSummary#page_slide_2",
+      "text": "Historical Financials"
+    },
+    {
+      "href": "/en/site/care_living",
+      "text": "SMIC Living Quarter"
+    },
+    {
+      "href": "javascript:void(0)",
+      "text": "Financials"
+    },
+    {
+      "href": "/en/site/company_financialSummary",
+      "text": "Financials"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2026#page_slide_0",
+      "text": "2026"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2025#page_slide_0",
+      "text": "2025"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2024#page_slide_0",
+      "text": "2024"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2023#page_slide_0",
+      "text": "2023"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2022#page_slide_0",
+      "text": "2022"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2021#page_slide_0",
+      "text": "2021"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2020#page_slide_0",
+      "text": "2020"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2019#page_slide_0",
+      "text": "2019"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2018#page_slide_0",
+      "text": "2018"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2017#page_slide_0",
+      "text": "2017"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2016#page_slide_0",
+      "text": "2016"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2015#page_slide_0",
+      "text": "2015"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2014#page_slide_0",
+      "text": "2014"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2013#page_slide_0",
+      "text": "2013"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2012#page_slide_0",
+      "text": "2012"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2011#page_slide_0",
+      "text": "2011"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2010#page_slide_0",
+      "text": "2010"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2009#page_slide_0",
+      "text": "2009"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2008#page_slide_0",
+      "text": "2008"
+    },
+    {
+      "href": "/en/site/company_financialSummary?year=2007#page_slide_0",
+      "text": "2007"
+    }
+  ]
+}

@@ -8,6 +8,7 @@ on:
     paths:
       - "raw_column_definition_IC.md"
       - "raw_event_upcoming_earnings.csv"
+      - "data/financials/raw_ir_quarterly_financials.csv"
       - ".github/sync-biztrends.yml"
       - ".github/sync-mops.yml"
       - ".github/workflows/sync-to-downstream.yml"
