@@ -51,6 +51,7 @@
 | 2344 華邦電 | 2026 Q2 | 財報 | 2026-08-04 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2344) |
 | AMD AMD 超微 | 2026 Q1 | 財報 | 2026-08-04 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
 | 7769 鴻勁 | 2026 Q2 | 財報 | 2026-08-03 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7769) |
+| 2454 聯發科 | 2026 Q2 | 法說會 | 2026-07-31 | [56.4 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2454_2026_q2.m4a) | - | - | [中](data/2454/2454_2026_q2_ir.pdf) ([MD](data/2454/2454_2026_q2_ir.md)) | [EN](data/2454/2454_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | 2301 光寶科 | 2026 Q2 | 法說會 | 2026-07-31 | [64.3 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2301_2026_q2.m4a) | - | - | [中](data/2301/2301_2026_q2_ir.pdf) | [EN](data/2301/2301_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | 2308 台達電 | 2026 Q2 | 法說會 | 2026-07-30 | [60.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2308_2026_q2.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | INTC Intel Corporation | 2026 Q2 | 財報 | 2026-07-23 | - | - | - | - | [EN](data/INTC/INTC_2026_q2_earnings_release.md) | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
