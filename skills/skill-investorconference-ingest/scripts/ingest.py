@@ -747,8 +747,10 @@ def _quarter_date_window(year: str, quarter: str) -> tuple[str, int, int]:
 
 def _probe_delta_ccdntech_url(url: str, expect_playlist: bool = False) -> bool:
     """Return True when a Delta ccdntech URL looks live."""
+    import urllib3
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     try:
-        resp = requests.get(url, timeout=15, headers={"User-Agent": UA})
+        resp = requests.get(url, timeout=15, headers={"User-Agent": UA}, verify=False)
         body = resp.text
         if expect_playlist:
             return resp.status_code == 200 and "#EXTM3U" in body
@@ -781,43 +783,88 @@ def _extract_delta_landing_video(stock_id: str, year: str, quarter: str) -> tupl
             print(f"[Delta] Landing page fetch failed: {e}")
             continue
 
+        # Try to parse blocks from HTML meeting-list first (historical fallback)
         blocks = re.findall(r'<div class="meeting-list">(.*?)</ul></div>', html, re.S)
-        if not blocks:
-            continue
+        if blocks:
+            print(f"[Delta] Found {len(blocks)} meeting block(s) on {page_url}")
+            for block in blocks:
+                date_m = re.search(r'<li class="date">\s*(\d{4})/(\d{1,2})/(\d{1,2})\s*</li>', block)
+                title_m = re.search(r'<li class="title">\s*([^<]+?)\s*</li>', block)
+                if not date_m or not title_m:
+                    continue
 
-        print(f"[Delta] Found {len(blocks)} meeting block(s) on {page_url}")
-        for block in blocks:
-            date_m = re.search(r'<li class="date">\s*(\d{4})/(\d{1,2})/(\d{1,2})\s*</li>', block)
-            title_m = re.search(r'<li class="title">\s*([^<]+?)\s*</li>', block)
-            if not date_m or not title_m:
-                continue
+                conf_year = date_m.group(1)
+                conf_month = int(date_m.group(2))
+                conf_date = f"{date_m.group(1)}{int(date_m.group(2)):02d}{int(date_m.group(3)):02d}"
+                title = title_m.group(1).strip()
+                if conf_year != target_year or not (month_min <= conf_month <= month_max):
+                    continue
+                if quarter_label not in title:
+                    continue
 
-            conf_year = date_m.group(1)
-            conf_month = int(date_m.group(2))
-            conf_date = f"{date_m.group(1)}{int(date_m.group(2)):02d}{int(date_m.group(3)):02d}"
-            title = title_m.group(1).strip()
-            if conf_year != target_year or not (month_min <= conf_month <= month_max):
-                continue
-            if quarter_label not in title:
-                continue
-
-            matched_conf_date = conf_date
-            zh_m = re.search(
-                r'class="open-video"[^>]*data-url="([^"]+)"[^>]*>\s*(?:Chinese|中文影片|中文)\s*<',
-                block,
-                re.I,
-            )
-            if zh_m:
-                video_url = zh_m.group(1).replace('&amp;', '&')
-                direct_hls = None
-                m = re.search(r'vod41/([^&]+)', video_url)
-                if m:
-                    direct_hls = f"https://cdn41.ccdntech.com/vod-http/_definst_/vod41/{m.group(1)}/playlist.m3u8"
-                if direct_hls and _probe_delta_ccdntech_url(direct_hls, expect_playlist=True):
-                    print(f"[Delta] Matched landing-page Chinese HLS: {direct_hls[:80]}...")
-                    return direct_hls, conf_date
-                print(f"[Delta] Matched landing-page Chinese video: {video_url[:80]}...")
-                return video_url, conf_date
+                matched_conf_date = conf_date
+                zh_m = re.search(
+                    r'class="open-video"[^>]*data-url="([^"]+)"[^>]*>\s*(?:Chinese|中文影片|中文)\s*<',
+                    block,
+                    re.I,
+                )
+                if zh_m:
+                    video_url = zh_m.group(1).replace('&amp;', '&')
+                    direct_hls = None
+                    m = re.search(r'vod41/([^&]+)', video_url)
+                    if m:
+                        direct_hls = f"https://cdn41.ccdntech.com/vod-http/_definst_/vod41/{m.group(1)}/playlist.m3u8"
+                    if direct_hls and _probe_delta_ccdntech_url(direct_hls, expect_playlist=True):
+                        print(f"[Delta] Matched landing-page Chinese HLS: {direct_hls[:80]}...")
+                        return direct_hls, conf_date
+                    print(f"[Delta] Matched landing-page Chinese video: {video_url[:80]}...")
+                    return video_url, conf_date
+        else:
+            # Next.js client-side rendering state parser
+            normalized_html = html.replace('\\"', '"')
+            parts = normalized_html.split('"title":"')
+            if len(parts) > 1:
+                print(f"[Delta] Found {len(parts) - 1} serialized meeting entries in HTML state")
+                for p in parts[1:]:
+                    title_end = p.find('","')
+                    if title_end == -1:
+                        continue
+                    title = p[:title_end]
+                    
+                    # Search for annual
+                    annual_m = re.search(r'"annual":"([^"]+)"', p)
+                    if not annual_m:
+                        continue
+                    annual = annual_m.group(1)
+                    
+                    # Search for publishedAt
+                    pub_m = re.search(r'"publishedAt":"(\d{4})-(\d{2})-(\d{2})', p)
+                    if not pub_m:
+                        continue
+                    conf_date = f"{pub_m.group(1)}{pub_m.group(2)}{pub_m.group(3)}"
+                    
+                    if annual != target_year or quarter_label not in title:
+                        continue
+                        
+                    matched_conf_date = conf_date
+                    
+                    # Find media array content
+                    media_match = re.search(r'"media":\[(.*?)(?:\],"assets"|\]\})', p)
+                    if media_match:
+                        media_str = media_match.group(1)
+                        items = re.findall(r'\{"name":"[^"]+","url":"([^"]+)".*?"displayName":"([^"]+)"\}', media_str)
+                        for url, display_name in items:
+                            if "中" in display_name:
+                                video_url = url.replace(r'\u0026', '&').replace('&amp;', '&')
+                                direct_hls = None
+                                m = re.search(r'vod41/([^&]+)', video_url)
+                                if m:
+                                    direct_hls = f"https://cdn41.ccdntech.com/vod-http/_definst_/vod41/{m.group(1)}/playlist.m3u8"
+                                if direct_hls and _probe_delta_ccdntech_url(direct_hls, expect_playlist=True):
+                                    print(f"[Delta] Matched dynamic Chinese HLS: {direct_hls[:80]}...")
+                                    return direct_hls, conf_date
+                                print(f"[Delta] Matched dynamic Chinese video: {video_url[:80]}...")
+                                return video_url, conf_date
 
         print(f"[Delta] No matching Chinese video block found on {page_url}")
 
