@@ -90,6 +90,7 @@ def list_open_issues(client: GitHubClient) -> dict[str, dict]:
     issues_by_title: dict[str, dict] = {}
     page = 1
     while True:
+        print(f"[missing-fin] Fetching open issues page {page}...")
         path = f"/repos/{TARGET_REPO}/issues?state=open&labels={labels}&per_page=100&page={page}"
         issues = client.request("GET", path)
         if not isinstance(issues, list) or not issues:
@@ -98,6 +99,7 @@ def list_open_issues(client: GitHubClient) -> dict[str, dict]:
             if "pull_request" not in issue:
                 issues_by_title[issue.get("title", "")] = issue
         page += 1
+    print(f"[missing-fin] Total open issues fetched: {len(issues_by_title)}")
     return issues_by_title
 
 
@@ -159,12 +161,15 @@ def main() -> int:
             skipped += 1
             continue
         stock_id = m.group(1).upper() if not m.group(1).isdigit() else m.group(1)
-        fin_path = f"{stock_id}/{stem}_FIN.srt"
+        fin_path = f"data/{stock_id}/{stem}_FIN.srt"
+        if not (repo / fin_path).exists() and (repo / f"{stock_id}/{stem}_FIN.srt").exists():
+            fin_path = f"{stock_id}/{stem}_FIN.srt"
         title = issue_title(stem)
         issue = open_issues.get(title)
 
         if (repo / fin_path).exists():
             if issue:
+                print(f"[missing-fin] Closing issue for {stem}...")
                 comment_and_close(client, issue, stem, fin_path)
                 closed += 1
             continue
@@ -173,6 +178,7 @@ def main() -> int:
             skipped += 1
             continue
 
+        print(f"[missing-fin] Creating issue for {stem}...")
         client.request(
             "POST",
             f"/repos/{TARGET_REPO}/issues",
@@ -184,7 +190,7 @@ def main() -> int:
         )
         created += 1
 
-    print(f"[missing-fin] created={created} closed={closed} skipped={skipped}")
+    print(f"[missing-fin] Done. created={created} closed={closed} skipped={skipped}")
     return 0
 
 
