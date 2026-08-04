@@ -2503,21 +2503,24 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
                 print(f"[git] {' '.join(args)}: {err}")
         return result.returncode == 0
 
-    # Find and remove old audio formats with same stem
-    stem = audio_path.stem
-    for old_audio in target_dir.glob(f"{stem}.*"):
-        if old_audio.suffix.lower() in [".mp3", ".m4a", ".wav"] and \
-           old_audio.suffix.lower() != audio_path.suffix.lower():
-            print(f"[git] Removing old audio format: {old_audio.name}")
-            git("rm", str(old_audio.relative_to(repo)))
-            if old_audio.exists():
-                old_audio.unlink()
+    audio_exists = audio_path is not None and audio_path.exists()
 
-    # Move audio
-    target_audio = target_dir / audio_path.name
-    shutil.move(str(audio_path), str(target_audio))
-    print(f"[git] Moved -> {target_audio}")
-    # git("add", str(target_audio.relative_to(repo)))  # Audio now on GDrive
+    if audio_exists:
+        # Find and remove old audio formats with same stem
+        stem = audio_path.stem
+        for old_audio in target_dir.glob(f"{stem}.*"):
+            if old_audio.suffix.lower() in [".mp3", ".m4a", ".wav"] and \
+               old_audio.suffix.lower() != audio_path.suffix.lower():
+                print(f"[git] Removing old audio format: {old_audio.name}")
+                git("rm", str(old_audio.relative_to(repo)))
+                if old_audio.exists():
+                    old_audio.unlink()
+
+        # Move audio
+        target_audio = target_dir / audio_path.name
+        shutil.move(str(audio_path), str(target_audio))
+        print(f"[git] Moved -> {target_audio}")
+        # git("add", str(target_audio.relative_to(repo)))  # Audio now on GDrive
 
     # Move PDFs / transcript / other extras
     for pdf in (pdf_paths or []):
@@ -2534,17 +2537,18 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
             print(f"[git] Using existing file -> {target_extra}")
         git("add", str(target_extra.relative_to(repo)))
 
-    # Update audio_durations.json
-    update_audio_durations(repo, target_audio)
-    git("add", "audio_durations.json")
+    if audio_exists:
+        # Update audio_durations.json
+        update_audio_durations(repo, target_audio)
+        git("add", "audio_durations.json")
 
-    # Upload to GitHub Releases and update manifest
-    release_url, _manifest_path = upload_to_gdrive_and_update_manifest(repo, stock_id, target_audio)
-    git("add", "audio_manifest.json")
+        # Upload to GitHub Releases and update manifest
+        release_url, _manifest_path = upload_to_gdrive_and_update_manifest(repo, stock_id, target_audio)
+        git("add", "audio_manifest.json")
 
-    # Persist checksum metadata after the final release URL is known.
-    update_audio_metadata(repo, target_audio, release_url=release_url)
-    git("add", "audio_metadata.json")
+        # Persist checksum metadata after the final release URL is known.
+        update_audio_metadata(repo, target_audio, release_url=release_url)
+        git("add", "audio_metadata.json")
 
     # Regenerate README.md and stage it
     update_readme()
@@ -2556,11 +2560,15 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
     if extra_paths:
         extras.append(f"{len(extra_paths)} extra file(s)")
     extras_str = f" + {', '.join(extras)}" if extras else ""
-    msg = (f"feat: add {stock_id} {year} Q{quarter} earnings call audio (audio on GDrive){extras_str}\n\n"
-           f"Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>")
+    if audio_exists:
+        msg = (f"feat: add {stock_id} {year} Q{quarter} earnings call audio (audio on GDrive){extras_str}\n\n"
+               f"Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>")
+    else:
+        msg = (f"feat: add {stock_id} {year} Q{quarter} official PDF material(s) (audio remains unavailable){extras_str}\n\n"
+               f"Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>")
     if not git("commit", "-m", msg):
         print(f"[git] commit failed")
-        return str(target_audio)
+        return str(target_audio) if audio_exists else (str(target_dir / pdf_paths[0].name) if pdf_paths else None)
 
     print(f"[git] Committed. Pushing (LFS upload may take a moment) ...")
     if git("push", "origin", "main"):
@@ -2568,7 +2576,7 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
     else:
         print(f"[git] push failed - committed locally, push manually.")
 
-    return str(target_audio)
+    return str(target_audio) if audio_exists else (str(target_dir / pdf_paths[0].name) if pdf_paths else None)
 
 
 # ── Main Ingestion Function ───────────────────────────────────────────────────
@@ -2827,10 +2835,16 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
             return done()
 
     pdf_paths = download_pdfs(stock_id, year, quarter, save_dir)
+    # Scan save_dir for any PDFs that were downloaded by MOPS playwright scraper or other methods
+    local_pdfs = list(save_dir.glob(f"{stock_id}_{year}_q{quarter}_*.pdf"))
+    for lp in local_pdfs:
+        if lp not in pdf_paths:
+            pdf_paths.append(lp)
+
     if pdf_paths:
         print(f"\nOK SUCCESS: found {len(pdf_paths)} official PDF material(s) for {stock_id} {year} Q{quarter}; audio remains unavailable.")
         if auto_push:
-            commit_push_files(stock_id, year, quarter, output_path, pdf_paths, [])
+            return commit_push_files(stock_id, year, quarter, output_path, pdf_paths, [])
         return str(pdf_paths[0])
 
     print(f"\nFAILED FAILED: Could not find audio or official PDF materials for {stock_id} {year} Q{quarter}")

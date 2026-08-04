@@ -20,6 +20,6 @@
 
 - [ ] Fix `scrape_playwright_direct_ir(...)` so an already-intercepted video URL is returned even if `Page.goto(..., wait_until="networkidle")` times out.
 - [ ] Update `.github/workflows/ingest.yml` so the workflow fails when no audio file is produced or committed, instead of reporting a false success when `push=true`.
-- [ ] Support PDF-only ingest success by committing downloaded PDFs even when no audio is available.
+- [x] Support PDF-only ingest success by committing downloaded PDFs even when no audio is available.
 - [ ] Verify whether PDF-only cases should be considered a successful ingest outcome or a partial ingest outcome.
 - [ ] Add a post-run verification step that checks the target files actually exist in the repo after `--push`.
