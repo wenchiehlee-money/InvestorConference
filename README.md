@@ -135,6 +135,7 @@
 | 8454 富邦媒 | 2026 Q2 | 法說會 |  | [31.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/8454_2026_q2.m4a) | - | - | [中](data/8454/8454_2026_q2_ir.pdf) | [EN](data/8454/8454_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8454) |
 | GOOGL Alphabet Inc. | 2026 Q2 | 財報 |  | - | - | - | - | [EN](data/GOOGL/GOOGL_2026_q2_earnings_release.md) | - | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 2395 研華 | 2026 Q1 | 法說會 |  | 無 | - | - | - | [EN](data/2395/2395_2026_q1_ir_en.pdf) ([MD](data/2395/2395_2026_q1_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2395) |
+| 2891 中信金 | 2026 Q1 | 法說會 |  | 無 | - | - | [中](data/2891/2891_2026_q1_ir.pdf) | [EN](data/2891/2891_2026_q1_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2891) |
 | 2317 鴻海 | 2025 Q3 | 法說會 |  | 無 | - | - | - | [EN](data/2317/2317_2025_q3_ir_en.pdf) ([MD](data/2317/2317_2025_q3_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2317 鴻海 | 2025 Q2 | 法說會 |  | 無 | - | - | - | [EN](data/2317/2317_2025_q2_ir_en.pdf) ([MD](data/2317/2317_2025_q2_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2317 鴻海 | 2025 Q1 | 法說會 |  | 無 | - | - | - | [EN](data/2317/2317_2025_q1_ir_en.pdf) ([MD](data/2317/2317_2025_q1_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
