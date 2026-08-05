@@ -16,3 +16,5 @@ tmp123/
 
 # Gemini CLI safety audit
 .claude/
+
+scratch/
