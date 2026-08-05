@@ -127,6 +127,7 @@
 | 2337 旺宏 | 2026 Q2 | 法說會 |  | 無 | - | - | [中](data/2337/2337_2026_q2_ir.pdf) | [EN](data/2337/2337_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2337) |
 | 2360 致茂 | 2026 Q2 | 法說會 |  | 無 | - | - | [中](data/2360/2360_2026_q2_ir.pdf) | [EN](data/2360/2360_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2360) |
 | 2383 台光電 | 2026 Q2 | 法說會 |  | 無 | - | - | - | [EN](data/2383/2383_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2383) |
+| 2408 南亞科 | 2026 Q2 | 法說會 |  | 無 | - | - | [中](data/2408/2408_2026_q2_ir.pdf) | [EN](data/2408/2408_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2408) |
 | 3443 創意 | 2026 Q2 | 法說會 |  | 無 | - | - | [中](data/3443/3443_2026_q2_ir.pdf) | [EN](data/3443/3443_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3443) |
 | 3711 日月光投控 | 2026 Q2 | 法說會 |  | 無 | - | - | [中](data/3711/3711_2026_q2_ir.pdf) | [EN](data/3711/3711_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3711) |
 | 7769 鴻勁 | 2026 Q2 | 法說會 |  | [42.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/7769_2026_q2.m4a) | - | - | [中](data/7769/7769_2026_q2_ir.pdf) | [EN](data/7769/7769_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7769) |
