@@ -146,7 +146,7 @@
 | 2891 中信金 | 2026 Q1 | 法說會 |  | 無 | - | - | [中](data/2891/2891_2026_q1_ir.pdf) | [EN](data/2891/2891_2026_q1_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2891) |
 | 3661 世芯-KY | 2026 Q1 | 法說會 |  | 無 | - | - | [中](data/3661/3661_2026_q1_ir.pdf) | [EN](data/3661/3661_2026_q1_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3661) |
 | 3665 貿聯-KY | 2026 Q1 | 法說會 |  | 無 | - | - | [中](data/3665/3665_2026_q1_ir.pdf) | [EN](data/3665/3665_2026_q1_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3665) |
-| 5269 祥碩 | 2026 Q1 | 法說會 |  | 無 | - | - | - | [EN](data/5269/5269_2026_q1_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=5269) |
+| 5269 祥碩 | 2026 Q1 | 法說會 |  | 無 | - | - | [中](data/5269/5269_2026_q1_ir.pdf) | [EN](data/5269/5269_2026_q1_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=5269) |
 | 2317 鴻海 | 2025 Q3 | 法說會 |  | 無 | - | - | - | [EN](data/2317/2317_2025_q3_ir_en.pdf) ([MD](data/2317/2317_2025_q3_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2317 鴻海 | 2025 Q2 | 法說會 |  | 無 | - | - | - | [EN](data/2317/2317_2025_q2_ir_en.pdf) ([MD](data/2317/2317_2025_q2_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2317 鴻海 | 2025 Q1 | 法說會 |  | 無 | - | - | - | [EN](data/2317/2317_2025_q1_ir_en.pdf) ([MD](data/2317/2317_2025_q1_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
