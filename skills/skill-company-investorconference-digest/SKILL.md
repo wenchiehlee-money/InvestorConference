@@ -177,17 +177,17 @@ Digest 必須明確區分一級來源與二級來源。二級來源可以提高�
 
 | 腳本 | 用途 | 時機 |
 | :--- | :--- | :--- |
-| `python skills/skill-investorconference-digest/scripts/find_sources.py {StockID} [Year q{N}]` | 解析主要、備援、前季與缺漏資料來源；可加 `--json` 輸出 manifest | 每次分析第一步 |
-| `python skills/skill-investorconference-digest/scripts/lint_sources.py {StockID} [Year q{N}] [--issue-draft out.md] [--issue-json out.json]` | 機械性資料品質檢查與 issue 草稿 | 分析前必跑 |
-| `python skills/skill-investorconference-digest/scripts/evaluate_digest.py <digest.md>` | 檢查 digest 是否缺少來源、信心、模型影響、Q&A-only、預期差等欄位 | 產出報告後必跑 |
-| `python skills/skill-investorconference-digest/scripts/check_digest_freshness.py [--srt-only]` | 掃描全庫尚未產出 digest 的季度 | 批次補做規劃 |
+| `python skills/skill-company-investorconference-digest/scripts/find_sources.py {StockID} [Year q{N}]` | 解析主要、備援、前季與缺漏資料來源；可加 `--json` 輸出 manifest | 每次分析第一步 |
+| `python skills/skill-company-investorconference-digest/scripts/lint_sources.py {StockID} [Year q{N}] [--issue-draft out.md] [--issue-json out.json]` | 機械性資料品質檢查與 issue 草稿 | 分析前必跑 |
+| `python skills/skill-company-investorconference-digest/scripts/evaluate_digest.py <digest.md>` | 檢查 digest 是否缺少來源、信心、模型影響、Q&A-only、預期差等欄位 | 產出報告後必跑 |
+| `python skills/skill-company-investorconference-digest/scripts/check_digest_freshness.py [--srt-only]` | 掃描全庫尚未產出 digest 的季度 | 批次補做規劃 |
 
 `lint_sources.py` 回傳非零 exit code 代表有資料品質問題；ERROR/Blocker 會使財務結論錯誤或無法分析時，必須先處理或在報告中降信心。
 
 
 ### 3.5 GT 字幕生成與校正 SOP
 
-本節屬於 digest skill，而非 ingest skill。`skill-investorconference-ingest` 的責任是蒐集音檔、IR、Q&A、第三方逐字稿與 metadata；`skill-investorconference-digest` 的責任是在分析前，使用這些材料生成或修正可供研究引用的 `{StockID}_{Year}_q{N}_GT.srt`。
+本節屬於 digest skill，而非 ingest skill。`skill-company-investorconference-ingest` 的責任是蒐集音檔、IR、Q&A、第三方逐字稿與 metadata；`skill-company-investorconference-digest` 的責任是在分析前，使用這些材料生成或修正可供研究引用的 `{StockID}_{Year}_q{N}_GT.srt`。
 
 #### 3.5.1 何時必須處理 GT
 
@@ -599,4 +599,4 @@ Issue sidecar JSON 格式：
 
 ---
 
-本檔案即為 `skill-investorconference-digest` / `conference-digest` 的標準化說明（`SKILL.md`）。
+本檔案即為 `skill-company-investorconference-digest` / `company-investorconference-digest` 的標準化說明（`SKILL.md`）。

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""lint_sources.py — 法說會資料完整性檢查 (skill-investorconference-digest)
+"""lint_sources.py — 法說會資料完整性檢查 (skill-company-investorconference-digest)
 
 對指定公司/季度（或全庫）的資料來源執行機械性完整性檢查，
 產出問題清單與可直接貼入 GitHub Issue 的 Markdown 表格草稿。

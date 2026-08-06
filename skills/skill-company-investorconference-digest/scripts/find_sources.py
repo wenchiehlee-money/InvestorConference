@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""find_sources.py — 法說會資料來源解析 (skill-investorconference-digest)
+"""find_sources.py — 法說會資料來源解析 (skill-company-investorconference-digest)
 
 依 SOP 優先序解析指定公司/季度的資料來源檔案，列出前一季檔案供財測、承諾與措辭比對。
 可用 --json 輸出 machine-readable manifest，降低 agent 選錯季度或來源的風險。
