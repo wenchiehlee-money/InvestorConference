@@ -1877,6 +1877,22 @@ def update_readme() -> None:
             fin = f"[📝]({r['transcript_pdf']})"
         return fin, gt
 
+    # Pre-scan: collect (sid, year, quarter) keys that already have a genuine
+    # 法說會/受邀法說 CSV event, so a separate same-quarter 財報 event doesn't
+    # inject a duplicate call-materials row under its own (different) date.
+    genuine_call_keys = set()
+    for ev in upcoming_ir:
+        ev_class = ev.get("類別", "")
+        if ev_class in ("財報", "財報公告"):
+            continue
+        m = re.search(r'[（(](\w+)[）)]', ev.get("事件名稱", ""))
+        sid_pre = m.group(1) if m else None
+        if not sid_pre:
+            continue
+        y_pre, q_pre = _csv_row_yq(ev.get("事件名稱", ""), ev.get("備註", ""), ev.get("開始日期", ""))
+        if y_pre and q_pre:
+            genuine_call_keys.add((sid_pre, y_pre, q_pre))
+
     for ev in upcoming_ir:
         ev_name  = ev.get("事件名稱", "")
         ev_class = ev.get("類別", "")
@@ -1954,11 +1970,14 @@ def update_readme() -> None:
             key = (sid, exp_year, exp_q)
             for r in rows:
                 if (r["stock_id"], r["year"], r["quarter"]) == key:
-                    # For financial reports, match event evidence to avoid a duplicate
-                    # local-only row. If call materials also exist, a separate call row
-                    # is added below.
+                    # For financial reports, match on either the financial report
+                    # itself or on investor-conference evidence (so a same-day
+                    # 法說會 row still gets added below even before the official
+                    # report PDF has been fetched).
                     if ev_type == "財報":
-                        if r.get("report_cn") or r.get("report_en"):
+                        if (r.get("report_cn") or r.get("report_en") or r.get("audio_path")
+                                or r.get("webcast_url") or r.get("pdf_cn") or r.get("pdf_en")
+                                or r.get("transcript_pdf")):
                             ingested = r
                             matched_keys.add(key)
                             break
@@ -2040,7 +2059,9 @@ def update_readme() -> None:
             "mops": _get_mops_link(sid, link1),
         })
 
-        if ev_type == "財報" and sid and not str(sid).isdigit() and ingested and (ingested.get("audio_path") or ingested.get("webcast_url") or ingested.get("pdf_cn") or ingested.get("pdf_en") or ingested.get("transcript_pdf")):
+        if (ev_type == "財報" and sid and ingested
+                and (ingested["stock_id"], ingested["year"], ingested["quarter"]) not in genuine_call_keys
+                and (ingested.get("audio_path") or ingested.get("webcast_url") or ingested.get("pdf_cn") or ingested.get("pdf_en") or ingested.get("transcript_pdf"))):
             matched_keys.add((ingested["stock_id"], ingested["year"], ingested["quarter"]))
             call_audio = _webcast_cell(ingested)
             call_fin, call_gt = _call_transcript_cells(ingested)
