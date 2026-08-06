@@ -141,6 +141,7 @@
 | 2345 智邦 | 2026 Q1 | 法說會 |  | 無 | - | - | [中](data/2345/2345_2026_q1_ir.pdf) | [EN](data/2345/2345_2026_q1_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2345) |
 | 2353 宏碁 | 2026 Q1 | 法說會 |  | 無 | - | - | [中](data/2353/2353_2026_q1_ir.pdf) | [EN](data/2353/2353_2026_q1_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2353) |
 | 2395 研華 | 2026 Q1 | 法說會 |  | 無 | - | - | - | [EN](data/2395/2395_2026_q1_ir_en.pdf) ([MD](data/2395/2395_2026_q1_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2395) |
+| 2449 京元電子 | 2026 Q1 | 法說會 |  | 無 | - | - | [中](data/2449/2449_2026_q1_ir.pdf) | [EN](data/2449/2449_2026_q1_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2449) |
 | 2474 可成 | 2026 Q1 | 法說會 |  | 無 | - | - | [中](data/2474/2474_2026_q1_ir.pdf) | [EN](data/2474/2474_2026_q1_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2474) |
 | 2603 長榮 | 2026 Q1 | 法說會 |  | 無 | - | - | [中](data/2603/2603_2026_q1_ir.pdf) | [EN](data/2603/2603_2026_q1_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2603) |
 | 2891 中信金 | 2026 Q1 | 法說會 |  | 無 | - | - | [中](data/2891/2891_2026_q1_ir.pdf) | [EN](data/2891/2891_2026_q1_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2891) |
