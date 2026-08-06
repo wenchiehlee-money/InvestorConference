@@ -116,6 +116,14 @@ KNOWN_US_FINANCIAL_RESULTS = {
     "AMD": "https://ir.amd.com/financial-information/financial-results",
 }
 
+# Q4 Inc. "NIR" investor-relations sites (e.g. SanDisk): presentation cards are
+# tagged data-title="QxFYyy Earnings Presentation" and link to extensionless
+# /static-files/{uuid} PDFs that reject plain requests.get() (connection reset),
+# so these need a Playwright-rendered page + download interception.
+KNOWN_US_NIR_PRESENTATIONS = {
+    "SNDK": "https://investor.sandisk.com/news-events/presentations",
+}
+
 # Per-company PDF attachment URL templates (optional, keyed by stock_id)
 # Use {year} and {quarter} placeholders
 KNOWN_PDF_ATTACHMENTS = {
@@ -1455,6 +1463,56 @@ def scrape_us_financial_results(base_url: str, year: str, quarter: str) -> dict:
     return result
 
 
+def scrape_nir_presentation_pdf(base_url: str, year: str, quarter: str) -> str | None:
+    """Scrape a Q4 Inc. 'NIR' presentations page for the slide deck matching a
+    fiscal quarter, identified via its data-title="QxFYyy ..." card. Returns
+    the absolute /static-files/ URL, or None."""
+    from playwright.sync_api import sync_playwright
+
+    yy = year[2:]
+    label_pat = re.compile(rf'data-title="Q{quarter}FY{yy}[^"]*"', re.I)
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page(user_agent=UA)
+            page.goto(base_url, wait_until="networkidle", timeout=45000)
+            html = page.content()
+            browser.close()
+    except Exception as e:
+        print(f"[US-NIR] Failed to fetch {base_url}: {e}")
+        return None
+
+    m = label_pat.search(html)
+    if not m:
+        return None
+    href_m = re.search(r'href="(/static-files/[a-f0-9-]+)"', html[m.end():m.end() + 3000])
+    if not href_m:
+        return None
+    return urljoin(base_url, href_m.group(1))
+
+
+def download_nir_pdf(url: str, dest: Path) -> bool:
+    """Download a Q4 Inc. /static-files/ PDF. Plain requests.get() gets its
+    connection reset by this host, so use Playwright's download interception."""
+    from playwright.sync_api import sync_playwright
+
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page(user_agent=UA)
+            with page.expect_download(timeout=45000) as dl_info:
+                try:
+                    page.goto(url, timeout=45000)
+                except Exception:
+                    pass  # navigation is expected to abort once the download starts
+            dl_info.value.save_as(str(dest))
+            browser.close()
+        return dest.exists() and dest.stat().st_size > 0
+    except Exception as e:
+        print(f"[US-NIR] Download failed: {e}")
+        return False
+
+
 # ── PDF Downloader ────────────────────────────────────────────────────────────
 
 def download_pdfs(stock_id: str, year: str, quarter: str,
@@ -1520,6 +1578,22 @@ def download_pdfs(stock_id: str, year: str, quarter: str,
                 print(f"[US-IR] FAILED Failed: {e}")
         if not any(found.values()):
             print(f"[US-IR] No matching PDFs found for {year} Q{quarter}")
+
+    # Q4 Inc. "NIR" presentations page fallback (e.g. SanDisk)
+    nir_url = KNOWN_US_NIR_PRESENTATIONS.get(stock_id.upper())
+    if nir_url:
+        print(f"[US-NIR] Scraping {nir_url} for {year} Q{quarter} slides...")
+        dest = save_dir / f"{stock_id}_{year}_q{quarter}_ir_en.pdf"
+        if dest.exists():
+            print(f"[US-NIR] Already downloaded: {dest}")
+            downloaded.append(dest)
+        else:
+            pdf_url = scrape_nir_presentation_pdf(nir_url, year, quarter)
+            if pdf_url and download_nir_pdf(pdf_url, dest):
+                print(f"[US-NIR] OK Saved: {dest} ({dest.stat().st_size // 1024} KB)")
+                downloaded.append(dest)
+            else:
+                print(f"[US-NIR] No matching presentation found for {year} Q{quarter}")
 
     templates = KNOWN_PDF_ATTACHMENTS.get(stock_id, [])
     if not templates:
