@@ -122,6 +122,7 @@ KNOWN_US_FINANCIAL_RESULTS = {
 # so these need a Playwright-rendered page + download interception.
 KNOWN_US_NIR_PRESENTATIONS = {
     "SNDK": "https://investor.sandisk.com/news-events/presentations",
+    "GFS": "https://investors.gf.com/investor-relations/news-events/presentations",
 }
 
 # Per-company PDF attachment URL templates (optional, keyed by stock_id)
@@ -1465,12 +1466,15 @@ def scrape_us_financial_results(base_url: str, year: str, quarter: str) -> dict:
 
 def scrape_nir_presentation_pdf(base_url: str, year: str, quarter: str) -> str | None:
     """Scrape a Q4 Inc. 'NIR' presentations page for the slide deck matching a
-    fiscal quarter, identified via its data-title="QxFYyy ..." card. Returns
-    the absolute /static-files/ URL, or None."""
+    fiscal quarter, identified via its data-title="..." card. Different
+    tenants format the quarter differently (SanDisk: "Q4FY26 Earnings
+    Presentation"; GlobalFoundries: "Q2 2026 earnings presentation"), so
+    match loosely on "Q{quarter}" followed by either the 4- or 2-digit year.
+    Returns the absolute /static-files/ URL, or None."""
     from playwright.sync_api import sync_playwright
 
     yy = year[2:]
-    label_pat = re.compile(rf'data-title="Q{quarter}FY{yy}[^"]*"', re.I)
+    label_pat = re.compile(rf'data-title="Q{quarter}\s*(?:FY)?\s*(?:{year}|{yy})\b[^"]*"', re.I)
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
