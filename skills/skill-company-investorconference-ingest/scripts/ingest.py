@@ -108,6 +108,14 @@ KNOWN_TW_IR = {
     "3034": "https://www.novatek.com.tw/en-global/Download/ir_event/Index/analyst_meeting", # Novatek IR
 }
 
+# US IR "financial results" listing pages (Q4/NASDAQ IR platform) that expose
+# per-quarter slides/transcript/tables PDFs directly, keyed by ticker.
+# Used as a fallback when the events-and-presentations page (KNOWN_US_IR) has
+# no scrapable YouTube ID (JS-rendered) for the target quarter.
+KNOWN_US_FINANCIAL_RESULTS = {
+    "AMD": "https://ir.amd.com/financial-information/financial-results",
+}
+
 # Per-company PDF attachment URL templates (optional, keyed by stock_id)
 # Use {year} and {quarter} placeholders
 KNOWN_PDF_ATTACHMENTS = {
@@ -1404,6 +1412,49 @@ def download_mops_pdfs(stock_id: str, conf_date: str, year: str, quarter: str,
     return downloaded
 
 
+def scrape_us_financial_results(base_url: str, year: str, quarter: str) -> dict:
+    """Scrape a Q4/NASDAQ-IR-style 'financial results' listing page for the
+    slides/transcript/tables PDFs matching a given quarter.
+
+    These platforms assign an opaque numeric record id per quarter (e.g.
+    /db/841/9232/) shared by all PDFs of that release, but the filenames
+    inconsistently encode the quarter as "1Q_2026", "Q1'26", or "Q1 2026".
+    Returns {"slides": url, "transcript": url, "tables": url} for whichever
+    are found.
+    """
+    from urllib.parse import unquote
+
+    result = {"slides": None, "transcript": None, "tables": None}
+    try:
+        resp = requests.get(base_url, headers={"User-Agent": UA}, timeout=30)
+        if resp.status_code != 200:
+            return result
+    except Exception as e:
+        print(f"[US-IR] Failed to fetch {base_url}: {e}")
+        return result
+
+    yy = year[2:]
+    patterns = [
+        re.compile(rf"{quarter}Q[\s_]?{year}", re.I),
+        re.compile(rf"Q{quarter}['\s_]?{year}", re.I),
+        re.compile(rf"Q{quarter}'{yy}\b", re.I),
+    ]
+
+    pdf_hrefs = re.findall(r'href="([^"]+\.pdf)"', resp.text)
+    for href in pdf_hrefs:
+        readable = unquote(href).replace("+", " ")
+        if not any(p.search(readable) for p in patterns):
+            continue
+        if "/webcast_transcript/" in href and not result["transcript"]:
+            result["transcript"] = href
+        elif "/presentation/" in href and not result["slides"]:
+            result["slides"] = href
+        elif "/financial_tables_pdf/" in href and not result["tables"]:
+            result["tables"] = href
+
+    return result
+
+
 # ── PDF Downloader ────────────────────────────────────────────────────────────
 
 def download_pdfs(stock_id: str, year: str, quarter: str,
@@ -1442,6 +1493,33 @@ def download_pdfs(stock_id: str, year: str, quarter: str,
                 browser.close()
         except Exception as e:
             print(f"[PDF-3034] FAILED Failed to scrape PDFs: {e}")
+
+    # US IR "financial results" listing page fallback (e.g. AMD)
+    fin_results_url = KNOWN_US_FINANCIAL_RESULTS.get(stock_id.upper())
+    if fin_results_url:
+        print(f"[US-IR] Scraping {fin_results_url} for {year} Q{quarter} PDFs...")
+        found = scrape_us_financial_results(fin_results_url, year, quarter)
+        for kind, suffix in (("slides", "ir_en"), ("transcript", "transcript"), ("tables", "financial_tables")):
+            url = found.get(kind)
+            if not url:
+                continue
+            dest = save_dir / f"{stock_id}_{year}_q{quarter}_{suffix}.pdf"
+            if dest.exists():
+                print(f"[US-IR] Already downloaded: {dest}")
+                downloaded.append(dest)
+                continue
+            try:
+                resp = requests.get(url, timeout=30, headers={"User-Agent": UA})
+                if resp.status_code == 200 and resp.content[:4] == b"%PDF":
+                    dest.write_bytes(resp.content)
+                    print(f"[US-IR] OK Saved: {dest} ({dest.stat().st_size // 1024} KB)")
+                    downloaded.append(dest)
+                else:
+                    print(f"[US-IR] FAILED HTTP {resp.status_code}: {url}")
+            except Exception as e:
+                print(f"[US-IR] FAILED Failed: {e}")
+        if not any(found.values()):
+            print(f"[US-IR] No matching PDFs found for {year} Q{quarter}")
 
     templates = KNOWN_PDF_ATTACHMENTS.get(stock_id, [])
     if not templates:
