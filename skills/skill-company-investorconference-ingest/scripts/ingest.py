@@ -2026,7 +2026,8 @@ def update_readme() -> None:
     def _call_transcript_cells(r: dict) -> tuple[str, str]:
         fin, gt = _srt_cells(r["stock_id"], r["year"], r["quarter"])
         if fin == "-" and r.get("transcript_pdf"):
-            fin = f"[📝]({r['transcript_pdf']})"
+            # 📄 marks an official PDF transcript (not a generated FIN.srt subtitle)
+            fin = f"[📄]({r['transcript_pdf']})"
         return fin, gt
 
     # Pre-scan: collect (sid, year, quarter) keys that already have a genuine
