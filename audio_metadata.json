@@ -136,6 +136,16 @@
     "source": "local_file",
     "status": "ok"
   },
+  "2458_2026_q2": {
+    "checked_at": "2026-08-06",
+    "duration_sec": 650.159,
+    "file": "data/2458/2458_2026_q2.m4a",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2458_2026_q2.m4a",
+    "sha256": "f37070f61ea91f852810649a6bf4b8cbeb0eb3ebe22beeb048b8ce1e2d082f3b",
+    "size_bytes": 9208865,
+    "source": "local_file",
+    "status": "ok"
+  },
   "3022_2026_q1": {
     "checked_at": "2026-07-18",
     "duration_sec": 2532.32,
