@@ -6,8 +6,11 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----------:|:----:|
+| DELL Dell Technologies 戴爾科技 | 2026 Q4 / Q4FY2027 | 財報 | 2026-09-03 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/DELL/financials/) |
+| HPE Hewlett Packard Enterprise Co. | 2026 Q1 | 財報 | 2026-09-03 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
 | AVGO Broadcom Inc. | 2026 Q1 | 財報 | 2026-09-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AVGO/financials/) |
 | 2882 國泰金 | 2026 Q2 | 財報 | 2026-08-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2882) |
+| MRVL Marvell Technology, Inc. | 2025 Q2 | 財報 | 2026-08-27 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MRVL/financials/) |
 | NVDA NVIDIA 輝達 | 2026 Q4 / Q4FY2027 | 財報 | 2026-08-26 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
 | HPQ HP Inc. | 2026 Q1 | 財報 | 2026-08-26 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPQ/financials/) |
 | 2891 中信金 | 2026 Q2 | 財報 | 2026-08-21 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2891) |
@@ -18,12 +21,14 @@
 | 2884 玉山金 | 2026 Q2 | 財報 | 2026-08-14 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2884) |
 | Lenovo Group Limited(0992.HK) FY2026 Q4 財報 | 2026 Q4 | 財報 | 2026-08-13 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/0992.HK/financials/) |
 | 8299 群聯 | 2026 Q2 | 法說會 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8299) |
+| 2382 廣達 | 2026 Q2 | 法說會 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
 | 2376 技嘉 | 2026 Q2 | 財報 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2376) |
 | 2603 長榮 | 2026 Q2 | 財報 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2603) |
 | 中芯國際 Semiconductor Manufacturing International Corporation | 2026 Q2 | 財報 | 2026-08-13 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/0981.HK/financials/) |
-| 2317 鴻海 | 2026 Q2 | 財報 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2317 鴻海 | 2026 Q2 | 法說會 | 2026-08-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 4938 和碩 | 2026 Q2 | 法說會 | 2026-08-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=4938) |
+| 2357 華碩 | 2026 Q2 | 法說會 | 2026-08-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
+| 2317 鴻海 | 2026 Q2 | 財報 | 2026-08-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2382 廣達 | 2026 Q2 | 財報 | 2026-08-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
 | 2324 仁寶 | 2026 Q2 | 財報 | 2026-08-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
 | 3661 世芯-KY | 2026 Q2 | 財報 | 2026-08-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3661) |
@@ -34,20 +39,13 @@
 | 2474 可成 | 2026 Q2 | 財報 | 2026-08-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2474) |
 | 2449 京元電子 | 2026 Q2 | 財報 | 2026-08-07 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2449) |
 | 6669 緯穎 | 2026 Q2 | 財報 | 2026-08-07 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6669) |
+| 3034 聯詠 | 2026 Q2 | 法說會 | 2026-08-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | 2353 宏碁 | 2026 Q2 | 財報 | 2026-08-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2353) |
 | 2345 智邦 | 2026 Q2 | 財報 | 2026-08-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2345) |
 | 2395 研華 | 2026 Q2 | 財報 | 2026-08-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2395) |
 | 2354 鴻準 | 2026 Q2 | 財報 | 2026-08-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2354) |
 | 2344 華邦電 | 2026 Q2 | 財報 | 2026-08-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2344) |
 | 2347 聯強 | 2026 Q2 | 財報 | 2026-08-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2347) |
-| SNDK Sandisk Corp | 2026 Q4 | 財報 | 2026-08-05 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/SNDK/financials/) |
-| 2412 中華電 | 2026 Q2 | 法說會 | 2026-08-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2412) |
-| 2458 義隆 | 2026 Q2 | 法說會 | 2026-08-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2458) |
-| 7765 中華資安 | 2026 Q2 | 法說會 | 2026-08-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7765) |
-| 2458 義隆 | 2026 Q2 | 財報 | 2026-08-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2458) |
-| 2412 中華電 | 2026 Q2 | 財報 | 2026-08-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2412) |
-| 5274O 信驊 | 2026 Q2 | 財報 | 2026-08-05 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/5274.TWO/financials/) |
-| GFS GlobalFoundries Inc. | 2026 Q2 | 財報 | 2026-08-05 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/GFS/financials/) |
 | 3231 緯創 | 2026 Q2 | 法說會 | 2026-08-04 | 無 | - | - | [中](data/3231/3231_2026_q2_ir.pdf) | [EN](data/3231/3231_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3231) |
 | 2454 聯發科 | 2026 Q2 | 法說會 | 2026-07-31 | [56.4 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2454_2026_q2.m4a) | [📝](data/2454/2454_2026_q2_FIN.srt) | - | [中](data/2454/2454_2026_q2_ir.pdf) ([MD](data/2454/2454_2026_q2_ir.md)) | [EN](data/2454/2454_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | 2301 光寶科 | 2026 Q2 | 法說會 | 2026-07-31 | [64.3 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2301_2026_q2.m4a) | - | - | [中](data/2301/2301_2026_q2_ir.pdf) | [EN](data/2301/2301_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
@@ -129,11 +127,12 @@
 | 2337 旺宏 | 2026 Q2 | 法說會 |  | 無 | - | - | [中](data/2337/2337_2026_q2_ir.pdf) | [EN](data/2337/2337_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2337) |
 | 2360 致茂 | 2026 Q2 | 法說會 |  | 無 | - | - | [中](data/2360/2360_2026_q2_ir.pdf) | [EN](data/2360/2360_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2360) |
 | 2383 台光電 | 2026 Q2 | 法說會 |  | 無 | - | - | - | [EN](data/2383/2383_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2383) |
+| 2395 研華 | 2026 Q2 | 法說會 |  | 無 | - | - | [中](data/2395/2395_2026_q2_ir.pdf) | [EN](data/2395/2395_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2395) |
 | 2408 南亞科 | 2026 Q2 | 法說會 |  | 無 | - | - | [中](data/2408/2408_2026_q2_ir.pdf) | [EN](data/2408/2408_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2408) |
 | 3443 創意 | 2026 Q2 | 法說會 |  | 無 | - | - | [中](data/3443/3443_2026_q2_ir.pdf) | [EN](data/3443/3443_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3443) |
 | 3711 日月光投控 | 2026 Q2 | 法說會 |  | 無 | - | - | [中](data/3711/3711_2026_q2_ir.pdf) | [EN](data/3711/3711_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3711) |
 | 7769 鴻勁 | 2026 Q2 | 法說會 |  | [42.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/7769_2026_q2.m4a) | - | - | [中](data/7769/7769_2026_q2_ir.pdf) | [EN](data/7769/7769_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7769) |
-| 8454 富邦媒 | 2026 Q2 | 法說會 |  | [31.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/8454_2026_q2.m4a) | - | - | [中](data/8454/8454_2026_q2_ir.pdf) | [EN](data/8454/8454_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8454) |
+| 8454 富邦媒 | 2026 Q2 | 法說會 |  | [31.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/8454_2026_q2.m4a) | [📝](data/8454/8454_2026_q2_FIN.srt) | - | [中](data/8454/8454_2026_q2_ir.pdf) | [EN](data/8454/8454_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8454) |
 | GOOGL Alphabet Inc. | 2026 Q2 | 財報 |  | - | - | - | - | [EN](data/GOOGL/GOOGL_2026_q2_earnings_release.md) | - | [↗](https://mops.twse.com.tw/mops/#/web/t100sb07_1) |
 | 2345 智邦 | 2026 Q1 | 法說會 |  | 無 | - | - | [中](data/2345/2345_2026_q1_ir.pdf) | [EN](data/2345/2345_2026_q1_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2345) |
 | 2353 宏碁 | 2026 Q1 | 法說會 |  | 無 | - | - | [中](data/2353/2353_2026_q1_ir.pdf) | [EN](data/2353/2353_2026_q1_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2353) |
