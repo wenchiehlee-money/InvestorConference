@@ -54,7 +54,7 @@
 | 2412 中華電 | 2026 Q2 | 財報 | 2026-08-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2412) |
 | GFS GlobalFoundries Inc. | 2026 Q2 | 財報 | 2026-08-05 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/GFS/financials/) |
 | GFS GlobalFoundries Inc. | 2026 Q2 | 法說會 | 2026-08-05 | 無 | - | - | - | [EN](data/GFS/GFS_2026_q2_ir_en.pdf) | - | [↗](https://finance.yahoo.com/quote/GFS/financials/) |
-| 3231 緯創 | 2026 Q2 | 法說會 | 2026-08-04 | 無 | - | - | [中](data/3231/3231_2026_q2_ir.pdf) | [EN](data/3231/3231_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3231) |
+| 3231 緯創 | 2026 Q2 | 法說會 | 2026-08-04 | [58.1 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3231_2026_q2.m4a) | - | - | [中](data/3231/3231_2026_q2_ir.pdf) | [EN](data/3231/3231_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3231) |
 | 3034 聯詠 | 2026 Q2 | 財報 | 2026-08-04 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | AMD AMD 超微 | 2026 Q1 | 財報 | 2026-08-04 | - | - | - | - | [Tables](data/AMD/AMD_2026_q1_financial_tables.pdf) | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
 | AMD AMD 超微 | 2026 Q1 | 法說會 | 2026-08-04 | 無 | [📄](data/AMD/AMD_2026_q1_transcript.pdf) | - | - | [EN](data/AMD/AMD_2026_q1_ir_en.pdf) | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
