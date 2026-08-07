@@ -240,6 +240,7 @@
 | 2317 鴻海 | 2024 Q2 | 法說會 |  | 無 | - | - | - | [EN](data/2317/2317_2024_q2_ir_en.pdf) ([MD](data/2317/2317_2024_q2_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2317 鴻海 | 2024 Q1 | 法說會 |  | 無 | - | - | - | [EN](data/2317/2317_2024_q1_ir_en.pdf) ([MD](data/2317/2317_2024_q1_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2317 鴻海 | 2023 Q4 | 法說會 |  | 無 | - | - | - | [EN](data/2317/2317_2023_q4_ir_en.pdf) ([MD](data/2317/2317_2023_q4_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
+| 3231 緯創 | 2023 Q4 | 法說會 |  | [59.7 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3231_2023_q4.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3231) |
 | 2317 鴻海 | 2023 Q3 | 法說會 |  | 無 | - | - | - | [EN](data/2317/2317_2023_q3_ir_en.pdf) ([MD](data/2317/2317_2023_q3_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2317 鴻海 | 2023 Q2 | 法說會 |  | 無 | - | - | - | [EN](data/2317/2317_2023_q2_ir_en.pdf) ([MD](data/2317/2317_2023_q2_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2317 鴻海 | 2023 Q1 | 法說會 |  | 無 | - | - | - | [EN](data/2317/2317_2023_q1_ir_en.pdf) ([MD](data/2317/2317_2023_q1_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
