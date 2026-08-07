@@ -418,8 +418,10 @@ at Microsoft Quantum
 <!-- PAGE:13 -->
 ## 第 13 頁
 
-<!-- TODO:OCR source="GFS_2026_q2_ir_en.pdf" page=13 reason=scanned-page -->
-> TODO:OCR - 此頁文字層不足，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="GFS_2026_q2_ir_en.pdf" page=13 date="2026-08-07" -->
+<!-- OCR_PAGE -->
+End Markets
+40
 
 <!-- PAGE:14 -->
 ## 第 14 頁
@@ -681,8 +683,11 @@ why we believe these Non-IFRS measures are useful.
 <!-- PAGE:22 -->
 ## 第 22 頁
 
-<!-- TODO:OCR source="GFS_2026_q2_ir_en.pdf" page=22 reason=scanned-page -->
-> TODO:OCR - 此頁文字層不足，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="GFS_2026_q2_ir_en.pdf" page=22 date="2026-08-07" -->
+<!-- OCR_PAGE -->
+Outlook
+H
+22
 
 <!-- PAGE:23 -->
 ## 第 23 頁
