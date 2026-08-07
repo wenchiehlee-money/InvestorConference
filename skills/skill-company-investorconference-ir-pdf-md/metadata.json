@@ -1,5 +1,5 @@
 {
-  "name": "skill-investorconference-ir-pdf-md",
+  "name": "skill-company-investorconference-ir-pdf-md",
   "description": "Fetch InvestorConference official IR PDFs through ingest, then convert them to Markdown using the repo-local Mac-mini OCR hybrid pipeline with auditable TODO/OCR markers.",
   "category": "financial-data",
   "version": "1.0.0",
@@ -12,13 +12,13 @@
     "investor-conference",
     "ir-pdf",
     "pdf-to-md",
-    "mac-mini-ocr",
+    "mlx-api-client-ocr",
     "mops",
     "materials"
   ],
   "dependencies": [
-    "skill-investorconference-ingest>=1.2.6",
-    "mac-mini-ocr>=1.2.0"
+    "skill-company-investorconference-ingest>=1.2.6",
+    "skill-mlx-api-client-ocr>=1.2.0"
   ],
-  "registry": "https://github.com/wenchiehlee/skills/tree/main/common/skill-investorconference-ir-pdf-md"
+  "registry": "https://github.com/wenchiehlee/skills/tree/main/common/skill-company-investorconference-ir-pdf-md"
 }
