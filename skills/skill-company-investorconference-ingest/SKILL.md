@@ -1,11 +1,11 @@
 ---
-name: skill-investorconference-ingest
+name: skill-company-investorconference-ingest
 description: 投資人說明會/財報事件材料蒐集 Ingest 模組（支援台股與美股）；法說會抓音檔、IR、逐字稿，財報事件抓 Skills 財報結果、earnings release、financial tables、SEC filing，並避免對純財報事件產生 FIN/GT。
 ---
 
 # InvestorConference Ingest 技能說明
 
-本技能提供法說會影音、簡報、第三方逐字稿與 metadata 的材料蒐集與同步。Ingest 的責任是把可用原始材料放進 repo，研究級字幕校正與 GT 生成由 `skill-investorconference-digest` 負責。
+本技能提供法說會影音、簡報、第三方逐字稿與 metadata 的材料蒐集與同步。Ingest 的責任是把可用原始材料放進 repo，研究級字幕校正與 GT 生成由 `skill-company-investorconference-digest` 負責。
 
 ## ⚙️ 核心功能
 1. **智慧影音下載 (Smart Ingest)**：自動檢測美股/台股市場，解析 webcast 影音網址或透過 YouTube 尋找，並藉由 `yt-dlp` 下載音檔。
@@ -15,7 +15,7 @@ description: 投資人說明會/財報事件材料蒐集 Ingest 模組（支援�
 5. **README、Manifest 與音檔 metadata 自動同步**：維護 `audio_manifest.json`、`audio_durations.json`、`audio_metadata.json` 與 README.md 表格。
 
 > [!IMPORTANT]
-> Ingest 不負責產生或判定 `*_GT.srt`。GT 是 digest 前的研究資料校正成果，必須由 `skill-investorconference-digest` 使用 FIN、音檔、IR、Q&A、第三方逐字稿與前後期資料交叉生成或修正。
+> Ingest 不負責產生或判定 `*_GT.srt`。GT 是 digest 前的研究資料校正成果，必須由 `skill-company-investorconference-digest` 使用 FIN、音檔、IR、Q&A、第三方逐字稿與前後期資料交叉生成或修正。
 
 ## 🎧 音檔 checksum / metadata 防呆規則
 
@@ -39,13 +39,13 @@ Ingest 必須把「音檔身份」與「音檔長度」分開管理：
 
 ```bash
 # 只稽核指定 stem，避免一次下載全部 release 音檔
-python skills/skill-investorconference-ingest/scripts/audit_audio_metadata.py \
+python skills/skill-company-investorconference-ingest/scripts/audit_audio_metadata.py \
   --stems 2454_2025_q4 2454_2026_q1 \
   --cache-dir /tmp \
   --update-durations
 
 # CI 或批次檢查可加 fail-on-duplicate
-python skills/skill-investorconference-ingest/scripts/audit_audio_metadata.py --fail-on-duplicate
+python skills/skill-company-investorconference-ingest/scripts/audit_audio_metadata.py --fail-on-duplicate
 ```
 
 > [!CAUTION]
@@ -108,7 +108,7 @@ Ingest 必須把來源分成兩層，且不得讓二級來源覆蓋一級來源�
 可重用下載工具：
 
 ```bash
-python skills/skill-investorconference-ingest/scripts/download_with_playwright.py \
+python skills/skill-company-investorconference-ingest/scripts/download_with_playwright.py \
   --warmup-url https://investor.tsmc.com/chinese/quarterly-results/2026/q2 \
   --kind pdf \
   --download data/2330/2330_2026_q2_ir.pdf=https://.../2Q26%20Presentation%20%28C%29.pdf
@@ -116,6 +116,21 @@ python skills/skill-investorconference-ingest/scripts/download_with_playwright.p
 
 > [!IMPORTANT]
 > browser-download fallback 是 ingest 的一級材料取得流程，不是 digest 的推論流程。成功取得的檔案仍必須通過 checksum/magic-byte/content-type gate，並產生 Markdown sidecar 供 digest 使用。
+
+#### chrome-devtools MCP escalation（僅限互動 session，非 daily-ingest.yml）
+
+某些 IR 站（例如 Wistron/緯創）在 Akamai edge 層級直接擋掉 headless 環境（`requests`、無頭 Playwright）：連根網域都回 403 `Access Denied`（`errors.edgesuite.net`），不是單一頁面或爬蟲偽裝問題，`curl`/`requests`/headless Playwright 換 UA、locale、header 都無法繞過。
+
+此時如果是在互動式 Claude Code session 裡（使用者當下對話),可以改用 **chrome-devtools MCP**（真實、已通過瀏覽器驗證的 session)當作最後一層 fallback：
+
+1. 用 `mcp__chrome-devtools__new_page` 開啟一級來源頁面；若成功載入（非 Access Denied 頁),代表該瀏覽器 session 已通過 bot 防護。
+2. 用 `mcp__chrome-devtools__take_snapshot` 找出目標音檔/PDF 連結（`data-title`、年份 tab、分頁按鈕等需要時用 `click` 操作 DOM 找出正確季度)。
+3. 用 `mcp__chrome-devtools__evaluate_script` 在該頁面 context 內 `fetch()` 目標 URL，轉成 base64 後用 `filePath` 參數存到 scratchpad（避免大檔案塞爆對話 context)。
+4. 本地用 Python/ffmpeg 把 base64 解碼、必要時轉檔（例如 mp3 不能塞進 `.m4a`/MP4 容器,要嘛保留 `.mp3` 副檔名,要嘛重新編碼),再放到 `tmp/{stock_id}_{year}_q{quarter}.{ext}`。
+5. 呼叫 `ingest.py <stock_id> <year> <quarter> --push`（若目標路徑與 `tmp/{stem}.m4a` 快取命中會跳過重新下載),或直接 `import ingest; ingest.commit_push_files(...)` 走完 checksum/上傳/README/commit 流程。
+
+> [!IMPORTANT]
+> 這是**人工協助的一次性補齊流程**，不是可自動化的 pipeline 步驟。`daily-ingest.yml` 在 GitHub Actions headless runner 上執行，沒有 chrome-devtools MCP 可用，Akamai 擋下的來源在排程裡仍會持續失敗——需要使用者在互動 session 中手動觸發這個 escalation。
 
 ### 錯誤/重複音檔的 re-ingest 前置清理
 
@@ -134,7 +149,7 @@ python skills/skill-investorconference-ingest/scripts/download_with_playwright.p
 9. re-ingest 成功後，立刻跑 targeted audit：
 
 ```bash
-python skills/skill-investorconference-ingest/scripts/audit_audio_metadata.py \
+python skills/skill-company-investorconference-ingest/scripts/audit_audio_metadata.py \
   --stems <wrong_stem> <canonical_or_adjacent_stem> \
   --cache-dir /tmp \
   --update-durations \
@@ -185,7 +200,7 @@ Repo 邊界與落檔規則：
 For non-Taiwan competitors where provider data is incomplete, ingest official IR financial tables before downstream analysis. Run from `InvestorConference`:
 
 ```bash
-python3 skills/skill-investorconference-ingest/scripts/fetch_official_ir_financials.py --provider all --replace-symbol
+python3 skills/skill-company-investorconference-ingest/scripts/fetch_official_ir_financials.py --provider all --replace-symbol
 ```
 
 Output:
@@ -232,16 +247,16 @@ Downstream consumers should prefer this official CSV over `../ConceptStocks` pro
 ## 🚀 使用方法
 ```bash
 # 下載指定股票特定季度的音檔與可用材料；若有機器字幕，僅作為 FIN 初稿
-python skills/skill-investorconference-ingest/scripts/ingest.py <stock_id> <year> <quarter> [--push]
+python skills/skill-company-investorconference-ingest/scripts/ingest.py <stock_id> <year> <quarter> [--push]
 
 # 更新 README 表格與持續更新
-python skills/skill-investorconference-ingest/scripts/ingest.py --update-readme
+python skills/skill-company-investorconference-ingest/scripts/ingest.py --update-readme
 
 # 稽核 release 音檔 checksum 與 duration
-python skills/skill-investorconference-ingest/scripts/audit_audio_metadata.py --stems <stem...> --update-durations
+python skills/skill-company-investorconference-ingest/scripts/audit_audio_metadata.py --stems <stem...> --update-durations
 
 # 使用 Playwright browser context 下載受保護官方材料
-python skills/skill-investorconference-ingest/scripts/download_with_playwright.py \
+python skills/skill-company-investorconference-ingest/scripts/download_with_playwright.py \
   --warmup-url <official_page_url> \
   --kind pdf \
   --download <local_path.pdf>=<official_pdf_url>
