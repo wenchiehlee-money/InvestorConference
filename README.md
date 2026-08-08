@@ -152,6 +152,8 @@
 | AMD AMD 超微 | 2026 Q1 | 法說會 | 2026-05-05 | 無 | [📄](data/AMD/AMD_2026_q1_transcript.pdf) | - | - | [EN](data/AMD/AMD_2026_q1_ir_en.pdf) ([MD](data/AMD/AMD_2026_q1_ir_en.md)) | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
 | 2395 研華 | 2026 Q1 | 財報 | 2026-04-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2395) |
 | 2395 研華 | 2026 Q1 | 法說會 | 2026-04-30 | 無 | - | - | - | [EN](data/2395/2395_2026_q1_ir_en.pdf) ([MD](data/2395/2395_2026_q1_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2395) |
+| SNDK Sandisk Corp | 2026 Q1 | 財報 | 2026-04-30 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/SNDK/financials/) |
+| SNDK Sandisk Corp | 2026 Q1 | 法說會 | 2026-04-30 | 無 | - | - | - | [EN](data/SNDK/SNDK_2026_q1_ir_en.pdf) | - | [↗](https://finance.yahoo.com/quote/SNDK/financials/) |
 | 2454 聯發科 | 2026 Q1 | 財報 | 2026-04-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | 2301 光寶科 | 2026 Q1 | 財報 | 2026-04-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | QCOM Qualcomm 高通 | 2026 Q1 / Q2FY2026 | 財報 | 2026-04-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/QCOM/financials/) |
