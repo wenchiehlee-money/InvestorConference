@@ -694,38 +694,14 @@ H
 
 Q3 2026 Guidance(1)
 (Unaudited, in millions USD, except per share amounts)
-(1)  The Guidance provided contains forward-looking statements as defined in the U.S. Private Securities Litigation Act of 1995, and is subject to the safe harbors created therein. The Guidance includes management's beliefs and assumptions and is 
-based on information that is available as of the date of this release. 
-(2)  Non-IFRS gross margin, Non-IFRS operating expenses, Non-IFRS operating margin and Non-IFRS diluted EPS are Non-IFRS measures and, for purposes of the Guidance only, are defined as gross profit as a percent of revenue, operating 
+(1)  The Guidance provided contains forward-looking statements as defined in the U.S. Private Securities Litigation Act of 1995, and is subject to the safe harbors created therein. The Guidance includes management's beliefs and assumptions and is
+based on information that is available as of the date of this release.
+(2)  Non-IFRS gross margin, Non-IFRS operating expenses, Non-IFRS operating margin and Non-IFRS diluted EPS are Non-IFRS measures and, for purposes of the Guidance only, are defined as gross profit as a percent of revenue, operating
 expenses, operating profit as a percent of revenue, and diluted EPS, all before share-based compensation, respectively. See "Financial Measures (Non-IFRS)" for further discussion on these Non-IFRS measures and why we believe they are useful.
-(3)  We expect share-based compensation of $18 million and $58 million in cost of revenue and operating expenses, respectively. The Non-IFRS margin impacts are calculated by dividing share-based compensation by net revenue, and the Non-IFRS 
+(3)  We expect share-based compensation of $18 million and $58 million in cost of revenue and operating expenses, respectively. The Non-IFRS margin impacts are calculated by dividing share-based compensation by net revenue, and the Non-IFRS
 diluted EPS impact is calculated by dividing share-based compensation by the fully diluted share count.
-(4)  Included in IFRS and Non-IFRS diluted EPS is net interest income (expense) and other income (expense) which we estimate will be between $3 million and $11 million for the third quarter 2026. Also included in IFRS and Non-IFRS diluted EPS is 
-income tax expense which we estimate will be between $28 million and $52 million for the third quarter 2026. 
-IFRS
-Share-Based 
-Compensation(3)
-Non-IFRS(2)
-Net Revenue
-$1,885 ± $25
-Gross Margin(2)
-29.5% ± 100bps
-~100bps
-30.5% ± 100bps
-Operating Expenses(2)
-$318 ± $10
-~$58
-$260 ± $10
-Operating Margin(2)
-12.7% ± 170bps
-~400bps
-16.7% ± 170bps
-Diluted EPS(2)(4)
-$0.37 ± $0.05
-~$0.14
-$0.51 ± $0.05
-Fully Diluted Share Count
-~556
+(4)  Included in IFRS and Non-IFRS diluted EPS is net interest income (expense) and other income (expense) which we estimate will be between $3 million and $11 million for the third quarter 2026. Also included in IFRS and Non-IFRS diluted EPS is
+income tax expense which we estimate will be between $28 million and $52 million for the third quarter 2026.
 23
 
 **表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
@@ -754,209 +730,6 @@ Reconciliations
 (1) See the Appendix for a detailed reconciliation of Non-IFRS measures to the most directly comparable IFRS measure and for a discussion of why we believe these Non-IFRS measures are useful.
 Year-over-Year
 Sequential
-Q2 2026
-Q1 2026
-Q2 2025
-Q2 2026 vs Q2 2025
-Q2 2026 vs Q1 2026
-Net revenue
-$ 
-1,786 
-$ 
-1,634 
-$ 
-1,688 
-$ 
-98 
- 6% 
-$ 
-152 
- 9 %
-Gross profit
-$ 
-505 
-$ 
-451 
-$ 
-408 
-$ 
-97 
- 24 %
-$ 
-54 
- 12 %
-Gross margin 
- 28.3% 
- 27.6% 
- 24.2% 
-+410bps
-+70bps
-Non-IFRS gross profit(1)
-$ 
-534 
-$ 
-474 
-$ 
-425 
-$ 
-109 
- 26 %
-$ 
-60 
- 13 %
-Non-IFRS gross margin(1)
- 29.9% 
- 29.0% 
- 25.2% 
-+470bps
-+90bps
-Operating profit
-$ 
-174 
-$ 
-180 
-$ 
-196 
-$ 
-(22) 
- (11%) 
-$ 
-(6) 
- (3) %
-Operating margin
- 9.7% 
- 11.0% 
- 11.6% 
-(190)bps
-(130)bps
-Non-IFRS operating profit(1)
-$ 
-298 
-$ 
-271 
-$ 
-258 
-$ 
-40 
- 16% 
-$ 
-27 
- 10 %
-Non-IFRS operating margin(1)
- 16.7% 
- 16.6% 
- 15.3% 
-+140bps
-+10bps
-Net income
-$ 
-167 
-$ 
-104 
-$ 
-228 
-$ 
-(61) 
- (27%) 
-$ 
-63 
- 61 %
-Net income margin 
- 9.4% 
- 6.4% 
- 13.5% 
-(410)bps
-+300bps
-Non-IFRS net income(1)
-$ 
-256 
-$ 
-227 
-$ 
-234 
-$ 
-22 
- 9% 
-$ 
-29 
- 13 %
-Non-IFRS net income margin(1)
- 14.3% 
- 13.9% 
- 13.9% 
-+40bps
-+40bps
-Diluted earnings per share ("EPS")
-$ 
-0.30 
-$ 
-0.18 
-$ 
-0.41 
-$ 
-(0.11) 
- (27) %
-$ 
-0.12 
- 67 %
-Non-IFRS diluted EPS(1)
-$ 
-0.46 
-$ 
-0.40 
-$ 
-0.42 
-$ 
-0.04 
- 10% 
-$ 
-0.06 
- 15 %
-Non-IFRS adjusted EBITDA(1)
-$ 
-587 
-$ 
-561 
-$ 
-585 
-$ 
-2 
- — %
-$ 
-26 
- 5 %
-Non-IFRS adjusted EBITDA margin(1)
- 32.9% 
- 34.3% 
- 34.7% 
-(180)bps
-(140)bps
-Cash from operations
-$ 
-405 
-$ 
-542 
-$ 
-431 
-$ 
-(26) 
- (6) %
-$ 
-(137) 
- (25) %
-Wafer shipments (300MM Equivalent) (in thousands)
- 
-625 
- 
-579 
- 
-581 
- 
-44 
- 8 %
- 
-46 
- 8 %
 25
 Q2 2026 Financial Summary
 
@@ -1076,136 +849,6 @@ Diluted
 
 Statements of Financial Position
 (Unaudited, in millions)
-As of 
-June 30, 2026
-December 31, 2025
-Assets:
-Cash and cash equivalents
-$ 
-1,087 
-$ 
-1,809 
-Marketable securities
- 
-1,270 
- 
-1,241 
-Receivables, prepayments and other
- 
-1,489 
- 
-1,578 
-Inventories
- 
-1,622 
- 
-1,577 
-Current assets
- 
-5,468 
- 
-6,205 
-Property, plant, and equipment, net
- 
-7,098 
- 
-7,223 
-Goodwill and intangible assets, net
- 
-1,861 
- 
-1,368 
-Marketable securities
- 
-946 
- 
-939 
-Right-of-use assets
- 
-578 
- 
-569 
-Other assets
- 
-937 
- 
-837 
-Non-current assets
- 
-11,420 
- 
-10,936 
-Total assets
-$ 
-16,888 
-$ 
-17,141 
-Liabilities and equity:
-Current portion of long-term debt
-$ 
-98 
-$ 
-86 
-Other current liabilities
- 
-2,111 
- 
-2,282 
-Current liabilities
- 
-2,209 
- 
-2,368 
-Non-current portion of long-term debt
- 
-1,024 
- 
-1,065 
-Non-current portion of lease obligations
- 
-495 
- 
-487 
-Other liabilities
- 
-1,286 
- 
-1,238 
-Non-current liabilities
- 
-2,805 
- 
-2,790 
-Total liabilities
- 
-5,014 
- 
-5,158 
-Shareholders’ equity:
-Common stock / additional paid-in capital
-$ 
-23,937 
-$ 
-24,231 
-Accumulated deficit
- 
-(12,178)  
-(12,381) 
-Accumulated other comprehensive income
- 
-59 
- 
-78 
-Non-controlling interests
- 
-56 
- 
-55 
-Total liabilities and equity
-$ 
-16,888 
-$ 
-17,141 
 27
 
 **表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
@@ -1339,7 +982,6 @@ IFRS to Non-IFRS Reconciliations (1)
 (1)  See "Financial Measures (Non-IFRS)" for further discussion on these Non-IFRS measures and why we believe they are useful.
 (2)  Structural optimization represents costs associated with employee workforce reductions, manufacturing footprint alignment and liquidation charges.
 (3)  Includes tax impact from foreign exchange revaluation of German deferred taxes.
- 
 Three Months Ended June 30, 2026
 Gross profit
 Selling, 
@@ -1347,126 +989,15 @@ general &
 administrative
 Research & 
 development
-Operating 
+Operating
 profit
-Other income 
+Other income
 (expense)
-Income tax 
-(expense) 
+Income tax
+(expense)
 benefit
 Net income 
 Diluted EPS
-As Reported
-$ 
-505 
-$ 
-157 $ 
-174 $ 
-174 
-$ 
-13 
-$ 
-(29) $ 
-167 
-$ 
-0.30 
-IFRS margins (1)
- 28.3% 
- 9.7% 
- 9.4% 
-Share-based 
-compensation
- 
-23 
- 
-(38)  
-(25)  
-86 
- 
-— 
- 
-(3)  
-83 
- 
-0.15 
-Structural optimization(2)
- 
-3 
- 
-(4)  
-—  
-7 
- 
-— 
- 
-(2)  
-5 
- 
-0.01 
-Amortization of acquired 
-intangibles and other 
-acquisition related 
-charges
- 
-3 
- 
-(23)  
-(5)  
-31 
- 
-— 
- 
-— 
- 
-31 
- 
-0.06 
-Revaluation and gain on 
-sale equity investments
- 
-— 
- 
-—  
-—  
-— 
- 
-(25)  
-5 
- 
-(20) 
- 
-(0.04) 
-Tax matters(3)
- 
-— 
- 
-—  
-—  
-— 
- 
-— 
- 
-(10)  
-(10) 
- 
-(0.02) 
-Non-IFRS measures(1)
-$ 
-534 
-$ 
-92 $ 
-144 $ 
-298 
-$ 
-(12) $ 
-(39) $ 
-256 
-$ 
-0.46 
-Non-IFRS margins (1)
- 29.9% 
- 16.7% 
- 14.3% 
 29
 
 **表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
@@ -1488,7 +1019,6 @@ Non-IFRS margins (1)
 (1) See "Financial Measures (Non-IFRS)" for further discussion on these Non-IFRS measures and why we believe they are useful.
 (2)  Structural optimization represents costs associated with employee workforce reductions, manufacturing footprint alignment and liquidation charges.
 (3)  Includes $38 million tax impact from foreign exchange revaluation of German deferred taxes.
- 
 Three Months Ended March 31, 2026
 Gross profit
 Selling, 
@@ -1496,109 +1026,15 @@ general &
 administrative
 Research & 
 development
-Operating 
+Operating
 profit
-Other income 
+Other income
 (expense)
-Income tax 
-(expense) 
+Income tax
+(expense)
 benefit
 Net income
 Diluted EPS
-As Reported
-$ 
-451 
-$ 
-139 $ 
-132 $ 
-180 
-$ 
-(10) $ 
-(81) $ 
-104 
-$ 
-0.18 
-IFRS margins (1)
- 27.6% 
- 11.0% 
- 6.4% 
-Share-based 
-compensation
- 
-16 
- 
-(32)  
-(15)  
-63 
- 
-— 
- 
-(2)  
-61 
- 
-0.11 
-Structural optimization(2)
- 
-2 
- 
-(3)  
-(1)  
-6 
- 
-— 
- 
-(1)  
-5 
- 
-0.01 
-Amortization of acquired 
-intangibles and other 
-acquisition related 
-charges
- 
-5 
- 
-(15)  
-(2)  
-22 
- 
-— 
- 
-(3)  
-19 
- 
-0.03 
-Tax matters(3)
- 
-— 
- 
-—  
-—  
-— 
- 
-— 
- 
-38  
-38 
- 
-0.07 
-Non-IFRS measures (1)
-$ 
-474 
-$ 
-89 $ 
-114 $ 
-271 
-$ 
-(10) $ 
-(49) $ 
-227 
-$ 
-0.40 
-Non-IFRS margins (1)
- 29.0% 
- 16.6% 
- 13.9% 
 (Unaudited, in millions, except per share amounts)
 IFRS to Non-IFRS Reconciliations(1)
 30
@@ -1625,132 +1061,15 @@ general &
 administrative
 Research & 
 development
-Operating 
+Operating
 profit
-Other income 
+Other income
 (expense)
-Income tax 
-(expense) 
+Income tax
+(expense)
 benefit
 Net income 
 Diluted EPS
-As Reported
-$ 
-408 
-$ 
-78 
-$ 
-134 
-$ 
-196 
-$ 
-8 
-$ 
-7 $ 
-228 
-$ 
-0.41 
-IFRS margins (1)
- 24.2% 
- 11.6% 
- 13.5% 
-Share-based 
-compensation
- 
-17 
- 
-(29)  
-(8)  
-54 
- 
-— 
- 
-(2)  
-52 
- 
-0.09 
-Structural optimization(2)
- 
-— 
- 
-(5)  
-— 
- 
-5 
- 
-(24)  
-—  
-(19) 
- 
-(0.03) 
-Amortization of acquired 
-intangibles and other 
-acquisition related 
-charges
- 
-— 
- 
-(2)  
-(1)  
-3 
- 
-— 
- 
-—  
-3 
- 
-0.01 
-Litigation claims
- 
-— 
- 
-— 
- 
-— 
- 
-— 
- 
-9 
- 
-(1)  
-8 
- 
-0.01 
-Tax matters(3)
- 
-— 
- 
-— 
- 
-— 
- 
-— 
- 
-— 
- 
-(38)  
-(38) 
- 
-(0.07) 
-Non-IFRS Measures (1)
-$ 
-425 
-$ 
-42 
-$ 
-125 
-$ 
-258 
-$ 
-(7) $ 
-(34) $ 
-234 
-$ 
-0.42 
-Non-IFRS margins (1)
- 25.2% 
- 15.3% 
- 13.9% 
 (Unaudited, in millions, except per share amounts)
 IFRS to Non-IFRS Reconciliations(1)
 31
@@ -1784,7 +1103,7 @@ $
 $ 
 542 
 $ 
-431 
+431
 Less: Purchases of property, plant and 
 equipment and intangible assets
  
@@ -1792,35 +1111,8 @@ equipment and intangible assets
  
 (312) 
  
-(159) 
-Add: Proceeds from government grants
- 
-3 
- 
-3 
- 
-5 
-Non-IFRS total capital expenditures net of 
-proceeds from government grants(1)
-$ 
-(408) 
-$ 
-(309) 
-$ 
-(154) 
-Non-IFRS adjusted free cash flow(1)
-$ 
-(3) 
-$ 
-233 
-$ 
-277 
-Non-IFRS adjusted free cash flow margin(1)
- (0.2) %
- 14.3 %
- 16.4 %
+(159)
 (1)    See "Financial Measures (Non-IFRS)" for further discussion on this Non-IFRS measure and why we believe it is useful.
- 
 (Unaudited, in millions)
 32
 IFRS to Non-IFRS Reconciliation 

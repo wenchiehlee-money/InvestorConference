@@ -414,61 +414,8 @@ Sources: TechInsights NAND Market Report Q2 2026
 
 ©2026 SANDISK CORPORATION OR ITS AFFILIATES ALL RIGHTS RESERVED
 Non-GAAP Financial Results(1)
-($ in millions, except for Diluted Net Income per Share) 
+($ in millions, except for Diluted Net Income per Share)
 00.013
-Q4'25
-Q3'26
-Q4'26
-QoQ
-YoY
-Revenue
-$1,901
-$5,950
-$8,965
-up 51%
-up 372%
-Gross Margin %
-26.4%
-78.4%
-84.6%
-up 6.2 ppt
-up 58.2 ppt
-Operating Expenses
-$402
-$448
-$484
-up 8%
-up 20%
-Operating Income
-$100
-$4,218
-$7,104
-up 68%
-*
-Interest and Other Income (Expense), net
-$(37)
-$(3)
-$8
-up 367%
-up 122%
-Diluted Net Income per Share 
-$0.29
-$23.41
-$39.25
-up 68%
-*
-Operating Cash Flow
-$94
-$3,038
-$7,126
-up 135%
-*
-Adjusted Free Cash Flow(2)
-$77
-$2,417
-$5,035
-up 108%
-*
 1.
 See Appendix for GAAP to Non-GAAP Reconciliations.
 2.
@@ -494,8 +441,6 @@ Excludes $0 million, $538 million and $1,938 million, respectively, for the peri
 ©2026 SANDISK CORPORATION OR ITS AFFILIATES ALL RIGHTS RESERVED
 Gross and Cash Capital Expenditure Trends and Plan
 00.014
-Quarter Ended 
-July 3, 2026
 Revenue, net
 $8,965
 Sandisk share of JV Gross CapEx
@@ -537,26 +482,6 @@ investments
 
 ©2026 SANDISK CORPORATION OR ITS AFFILIATES ALL RIGHTS RESERVED
 Fiscal First Quarter Guidance
-GAAP
-Non-GAAP(1)
-Revenue ($M)
-$10,300 - $10,800
-$10,300 - $10,800
-Gross Margin
-83.0% - 84.9%
-83.0% - 85.0%
-Operating Expenses ($M)
-$574 - $614
-$520 - $540
-Tax Expense(2) 
-N/A
-15%
-Diluted Net Income per Share 
-N/A
-$44.00 - $46.00
-Diluted Shares Outstanding (in millions)
-~ 155
-~ 155
 1.
 Non-GAAP gross margin guidance excludes stock-based compensation expense, totaling approximately $5 million to $7 million. The Company’s Non-GAAP operating expenses guidance excludes stock-based compensation expense, totaling approximately $54 
 million to $74 million. Non-GAAP diluted net income per share guidance excludes these items totaling $59 million to $81 million. The timing and amount of these charges excluded from Non-GAAP gross margin, Non-GAAP operating expenses, and Non-GAAP 
@@ -566,7 +491,7 @@ financial measures (gross margin, operating expenses, and diluted net income per
 2.
 Non-GAAP tax expense is determined based on a Non-GAAP pre-tax income or loss. Our estimated Non-GAAP tax expense may differ from our GAAP tax expense (i) due to differences in the tax treatment of items excluded from our Non-GAAP net income or loss; 
 (ii) due to the fact that our GAAP income tax expense or benefit recorded in any interim period is based on an estimated fore casted GAAP tax expense for the full year, excluding loss jurisdictions; and (iii) because our GAAP taxes recorded in any interim period are 
-dependent on the timing and determination of certain GAAP operating expenses. 
+dependent on the timing and determination of certain GAAP operating expenses.
 00.015
 Fiscal First Quarter Guidance
 00.015
@@ -617,48 +542,6 @@ APPENDIX
 ©2026 SANDISK CORPORATION OR ITS AFFILIATES ALL RIGHTS RESERVED
 00.018
 Joint Venture Operational Framework
-Co-develops flash (including process technology and 
-memory design) with Kioxia and contributes IP for Flash 
-Ventures’ use
-Owns and leases equipment for flash wafer production 
-and R&D line
-Co-develops flash (including process technology and 
-memory design) with Sandisk and contributes IP for Flash 
-Ventures’ use
-Performs integral manufacturing and R&D functions at 
-Flash Ventures’ manufacturing sites 
-Purchases wafers from Kioxia at cost under foundry 
-agreements
-Performs integral manufacturing and R&D functions at 
-Flash Ventures’ manufacturing sites
-Purchases Flash Ventures’ wafers at cost plus a small 
-markup
-Sells wafers to Sandisk and Kioxia at cost plus a small 
-markup
-Purchases Flash Ventures’ wafers at cost plus a small 
-markup
-Pays Flash Ventures’ expenses (including equipment 
-depreciation and lease expense)
-Charges expenses to Sandisk and Kioxia (including 
-equipment depreciation and lease expense)
-Pays Flash Ventures’ expenses (including equipment 
-depreciation and lease expense)
-Funds Flash Ventures’ equipment purchases 
-(via loans, equity and lease guarantees) in excess of Flash 
-Ventures’ operating cash flow 
-Borrows from Sandisk and Kioxia for a portion of their 
-equipment purchases
-Funds Flash Ventures’ equipment purchases 
-(via loans, equity, and lease guarantees) in excess of Flash 
-Ventures’ operating cash flow 
-Repays loans for equipment purchases using excess 
-operating cash flow
-Owns and operates cleanrooms
-Provides wafer manufacturing services to Flash Ventures 
-at cost
-Flash Ventures
-49.9% Owned by Sandisk
-50.1% Owned by Kioxia
 Joint Venture Operational Framework
 00.018
 
@@ -679,44 +562,18 @@ Joint Venture Operational Framework
 ## 第 19 頁
 
 ©2026 SANDISK CORPORATION OR ITS AFFILIATES ALL RIGHTS RESERVED
-In millions; unaudited
-Q4'25
-Q1'26
-Q2'26
-Q3'26
-Q4'26
 Revenue
 $1,901
 $2,308
 $3,025
 $5,950
 $8,965
-GAAP Gross Profit
-498
-687
-1,541
-4,662
-7,582
 Stock-based compensation expense
 4
 4
 5
 4
 6
-Non-GAAP Gross Profit
-$502
-$691
-$1,546
-$4,666
-$7,588
-In millions; unaudited
-Q4'25
-Q3'26
-Q4'26
-GAAP operating expenses
-$480
-$551
-$545
 Stock-based compensation expense
 (45)
 (50)
@@ -729,14 +586,6 @@ Employee termination and other
 (16)
 —
 —
-Loss on debt extinguishment
-—
-(46)
-—
-Non-GAAP operating expenses
-$402
-$448
-$484
 GAAP to Non-GAAP Reconciliations
 GAAP to Non-GAAP Reconciliations
 00.019
@@ -752,26 +601,10 @@ GAAP to Non-GAAP Reconciliations
 ## 第 20 頁
 
 ©2026 SANDISK CORPORATION OR ITS AFFILIATES ALL RIGHTS RESERVED
-In millions; unaudited
-Q4'25
-Q3'26
-Q4'26
-GAAP Operating Income (Loss)
-$18
-$4,111
-$7,037
 Gross profit adjustments
 4
 4
 6
-Operating expense adjustments
-78
-103
-61
-Non-GAAP Operating Income
-$100
-$4,218
-$7,104
 GAAP Interest and Other Income (Expense), Net
 $(36)
 $(4)
@@ -788,18 +621,6 @@ Non-GAAP Interest and Other Income (Expense), Net
 $(37)
 $(3)
 $8
-GAAP Income Tax Expense
-$5
-$492
-$946
-Income tax adjustments
-16
-48
-4
-Non-GAAP Income Tax Expense
-$21
-$540
-$950
 00.020
 GAAP to Non-GAAP Reconciliations (cont’d)
 GAAP to Non-GAAP Reconciliations (cont’d)
@@ -856,7 +677,6 @@ Non-GAAP net income
 $42
 $3,675
 $6,162
-Diluted Net Income (Loss) per Share 
 GAAP
 $(0.16)
 $23.03
@@ -865,7 +685,6 @@ Non-GAAP
 $0.29
 $23.41
 $39.25
-Diluted Weighted Average Shares Outstanding:
 GAAP
 145
 157
@@ -889,11 +708,6 @@ GAAP to Non-GAAP Reconciliations (cont’d)
 ## 第 22 頁
 
 ©2026 SANDISK CORPORATION OR ITS AFFILIATES ALL RIGHTS RESERVED
-In millions; unaudited
-Q4'25
-Q3'26
-Q4'26
-Cash Flows
 Cash flow from operating activities
 $94
 $3,038

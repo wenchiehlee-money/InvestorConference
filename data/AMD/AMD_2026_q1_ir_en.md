@@ -206,68 +206,8 @@ Q1 2026
 
 10 
 | 
-|   Q1 2026 FINANCIAL RESULTS – May 5, 2026 
-Q1 2026 Summary P&L  |  GAAP 
-Q/Q 
-Q4’25 
-Y/Y 
-Q1’25 
-Q1’26 
-$ in millions, except per share data and % 
-Flat 
-$10,270 
-Up 38% 
-$7,438 
-$10,253 
-Revenue 
-Down 3% 
-$5,577 
-Up 45% 
-$3,736 
-$5,416 
-Gross Profit 
-Down 1 ppt 
-54% 
-Up 3 ppts 
-50% 
-53% 
-Gross Margin 
-Up 3% 
-$3,825 
-Up 34% 
-$2,930 
-$3,940 
-Operating Expenses 
-Up 1% 
-37% 
-Down 1% 
-39% 
-38% 
-Operating Expense/Revenue % 
-Down 16% 
-$1,752 
-Up 83% 
-$806 
-$1,476 
-Operating Income 
-Down 3 ppts 
-17% 
-Up 3 ppts 
-11% 
-14% 
-Operating Margin 
-Down 8% 
-$1,511 
-Up 95% 
-$709 
-$1,383 
-Net Income 
-Down 9% 
-$0.92 
-Up 91% 
-$0.44 
-$0.84 
-Diluted Earnings Per Share
+|   Q1 2026 FINANCIAL RESULTS – May 5, 2026
+Q1 2026 Summary P&L  |  GAAP
 
 **表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
 | $ in millions, except per share data and % | Q1’26 | Q1’25 | Y/Y | Q4’25 | Q/Q |
@@ -288,68 +228,8 @@ Diluted Earnings Per Share
 
 11 
 | 
-|   Q1 2026 FINANCIAL RESULTS – May 5, 2026 
-Q1 2026 Summary P&L  |  NON-GAAP1 
-Q/Q 
-Q4’25 
-Y/Y 
-Q1’25 
-Q1’26 
-$ in millions, except per share data and % 
-Flat 
-$10,270 
-Up 38% 
-$7,438 
-$10,253 
-Revenue 
-Down 3% 
-$5,855 
-Up 42% 
-$3,992 
-$5,685 
-Gross Profit 
-Down 2 ppts 
-57% 
-Up 1 ppt 
-54% 
-55% 
-Gross Margin 
-Up 5% 
-$3,001 
-Up 42% 
-$2,213 
-$3,145 
-Operating Expenses 
-Up 2% 
-29% 
-Up 1% 
-30% 
-31% 
-Operating Expense/Revenue % 
-Down 11% 
-$2,854 
-Up 43% 
-$1,779 
-$2,540 
-Operating Income 
-Down 3 ppts 
-28% 
-Up 1 ppt 
-24% 
-25% 
-Operating Margin 
-Down 10% 
-$2,519 
-Up 45% 
-$1,566 
-$2,265 
-Net Income 
-Down 10% 
-$1.53 
-Up 43% 
-$0.96 
-$1.37 
-Diluted Earnings Per Share 
+|   Q1 2026 FINANCIAL RESULTS – May 5, 2026
+Q1 2026 Summary P&L  |  NON-GAAP1
 1. 
 See Appendices for GAAP to Non-GAAP reconciliation
 
@@ -372,53 +252,8 @@ See Appendices for GAAP to Non-GAAP reconciliation
 
 12 
 | 
-|   Q1 2026 FINANCIAL RESULTS – May 5, 2026 
-Q1 2026 Segment Results 
-Q/Q 
-Q4'25 
-Y/Y 
-Q1’25 
-Q1’26 
-$ in millions 
-Data Center 
-Up 7% 
-5,380 
-Up 57% 
-3,674 
-5,775 
-Net Revenue 
-Down 9% 
-1,752 
-Up 72% 
-932 
-1,599 
-Operating Income 
-Client & Gaming 
-Down 9% 
-3,940 
-Up 23% 
-2,941 
-3,605 
-Net Revenue 
-Down 21% 
-725 
-Up 16% 
-496 
-575 
-Operating Income 
-Embedded 
-Down 8% 
-950 
-Up 6% 
-823 
-873 
-Net Revenue 
-Down 5% 
-357 
-Up 3% 
-328 
-338 
-Operating Income
+|   Q1 2026 FINANCIAL RESULTS – May 5, 2026
+Q1 2026 Segment Results
 
 **表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
 | $ in millions | Q1’26 | Q1’25 | Y/Y | Q4'25 | Q/Q |
@@ -439,31 +274,10 @@ Operating Income
 
 13 
 | 
-|   Q1 2026 FINANCIAL RESULTS – May 5, 2026 
+|   Q1 2026 FINANCIAL RESULTS – May 5, 2026
 1. 
-See Appendices for GAAP to Non-GAAP reconciliation 
-Q/Q 
-Q4’25 
-Q1’26 
-$ in millions 
-Up 17% 
-$10,552 
-$12,347 
-Cash, Cash Equivalents and 
-Short-term Investments 
-Down 4% 
-$6,315 
-$6,035 
-Accounts Receivable, Net 
-Up 2% 
-$7,920 
-$8,045 
-Inventories 
-Flat 
-$3,222 
-$3,224 
-Total Debt 
-Q1 2026 Summary Balance Sheet Items 
+See Appendices for GAAP to Non-GAAP reconciliation
+Q1 2026 Summary Balance Sheet Items
 Record cash from operating activities of continuing operations of $3.0 billion; record free cash flow of $2.6 billion1
 
 **表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
@@ -631,28 +445,19 @@ compute for industrial and edge applications.
 
 17 
 | 
-|   Q1 2026 FINANCIAL RESULTS – May 5, 2026 
-Financial Outlook – NON-GAAP1 
-1. See Cautionary Statement on Slide 2. These forward-looking outlook statements and non-GAAP measures are based on current expectations as of May 5, 2026, and assumptions and beliefs that involve numerous risks and uncertainties. AMD undertakes no 
+|   Q1 2026 FINANCIAL RESULTS – May 5, 2026
+Financial Outlook – NON-GAAP1
+1. See Cautionary Statement on Slide 2. These forward-looking outlook statements and non-GAAP measures are based on current expectations as of May 5, 2026, and assumptions and beliefs that involve numerous risks and uncertainties. AMD undertakes no
 intent or obligation to publicly update or revise its outlook statements as a result of new information, future events or otherwise, except as may be required by law. All items, except revenue, are on a non-GAAP basis. Adjustments to arrive at the GAAP 
 financial outlook typically include stock-based compensation, amortization of acquired intangible assets, income tax provision, and other non-recurring items such as impairment charges and acquisition-related costs. A reconciliation to equivalent GAAP 
 measures is not practicable at this time as the timing and impact of such adjustments are dependent on future events that are typically uncertain or outside of AMD's control. Such events may include unanticipated changes in AMD’s GAAP effective tax rate, 
-unanticipated one-time charges related to asset impairments, unanticipated acquisition-related expenses, unanticipated gains, losses, and impairments, and other unanticipated non-recurring items not reflective of ongoing operations. 
-2. Refer to Diluted Share Count overview in the Appendices. 
-Q2’26 
+unanticipated one-time charges related to asset impairments, unanticipated acquisition-related expenses, unanticipated gains, losses, and impairments, and other unanticipated non-recurring items not reflective of ongoing operations.
+2. Refer to Diluted Share Count overview in the Appendices.
 ~$11.2 Billion 
 +/- $300 Million 
-Revenue 
-~56% 
-Gross Margin 
+Revenue
 ~$3.3 Billion 
-Operating Expenses 
-$60 Million 
-Interest Expense/Other Income (Expense), net 
-13% of pre-tax income 
-Effective Tax Rate 
-~1.66 Billion shares 
-Diluted Share Count2
+Operating Expenses
 
 **表格 3（自動偵測，儲存格合併已保留空白,不做重複填值)：**
 | Interest Expense/Other Income (Expense), net | $60 Million |
@@ -741,78 +546,10 @@ Leadership
 
 21 
 | 
-|   Q1 2026 FINANCIAL RESULTS – May 5, 2026 
-Appendices 
-Q4’25 
-Q1’25 
-Q1’26 
-$ in millions, except % (Unaudited) 
-$ 5,577 
-$ 3,736 
-$ 5,416 
-GAAP gross profit 
-54% 
-50% 
-53% 
-GAAP gross margin 
-8 
-5 
-8 
-Stock-based compensation 
-260 
-251 
-261 
-Amortization of acquisition-related intangibles 
-1 
--
--
-Acquisition-related and other costs (1) 
-9 
--
--
-Loss contingency on legal matter 
-$ 5,855 
-$ 3,992 
-$ 5,685 
-Non-GAAP gross profit 
-57% 
-54% 
-55% 
-Non-GAAP gross margin 
-(1) Acquisition-related and other costs primarily include transaction costs, purchase price fair value adjustments for inventory, certain compensation charges, and workforce rebalancing charges. 
-Reconciliation of GAAP to Non-GAAP Gross Profit and Gross Margin 
-Q4’25 
-Q1’25 
-Q1’26 
-$ in millions, except % (Unaudited) 
-$ 3,825 
-$ 2,930 
-$ 3,940 
-GAAP operating expenses 
-37% 
-39% 
-38% 
-GAAP operating expenses/revenue % 
-478 
-359 
-479 
-Stock-based compensation 
-297 
-316 
-290 
-Amortization of acquisition-related intangibles 
-49 
-42 
-26 
-Acquisition-related and other costs (1) 
-$ 3,001 
-$ 2,213 
-$ 3,145 
-Non-GAAP operating expenses 
-29% 
-30% 
-31% 
-Non-GAAP operating expenses/revenue % 
+|   Q1 2026 FINANCIAL RESULTS – May 5, 2026
+Appendices
+(1) Acquisition-related and other costs primarily include transaction costs, purchase price fair value adjustments for inventory, certain compensation charges, and workforce rebalancing charges.
+Reconciliation of GAAP to Non-GAAP Gross Profit and Gross Margin
 Reconciliation of GAAP to Non-GAAP Operating Expenses
 
 **表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
@@ -844,45 +581,9 @@ Reconciliation of GAAP to Non-GAAP Operating Expenses
 
 22 
 | 
-|   Q1 2026 FINANCIAL RESULTS – May 5, 2026 
-Appendices 
-Q4’25 
-Q1’25 
-Q1’26 
-$ in millions, except % (Unaudited) 
-$ 1,752 
-$ 806 
-$ 1,476 
-GAAP operating income 
-17% 
-11% 
-14% 
-GAAP operating margin 
-486 
-364 
-487 
-Stock-based compensation 
-557 
-567 
-551 
-Amortization of acquisition-related intangibles 
-50 
-42 
-26 
-Acquisition-related and other costs (1) 
-9 
--
--
-Loss contingency on legal matter 
-$ 2,854 
-$ 1,779 
-$ 2,540 
-Non-GAAP operating income 
-28% 
-24% 
-25% 
-Non-GAAP operating margin 
-Reconciliation of GAAP Operating Income to Non-GAAP Operating Income 
+|   Q1 2026 FINANCIAL RESULTS – May 5, 2026
+Appendices
+Reconciliation of GAAP Operating Income to Non-GAAP Operating Income
 (1) Acquisition-related and other costs primarily include transaction costs, purchase price fair value adjustments for inventory, certain compensation charges, and workforce rebalancing charges.
 
 **表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
@@ -903,83 +604,9 @@ Reconciliation of GAAP Operating Income to Non-GAAP Operating Income
 
 23 
 | 
-|   Q1 2026 FINANCIAL RESULTS – May 5, 2026 
-Appendices 
-Reconciliation of GAAP to Non-GAAP Net Income / Diluted Earnings Per Share 
-Q4’25 
-Q1’25 
-Q1’26 
-$ in millions, except per share data (Unaudited) 
-$ 0.92 
-$ 1,511 
-$ 0.44 
-$ 709 
-$ 0.84 
-$ 1,383 
-GAAP net income / earnings per share 
-0.29 
-486 
-0.22 
-364 
-0.30 
-487 
-Stock-based compensation 
-0.34 
-557 
-0.35 
-567 
-0.33 
-551 
-Amortization of acquisition-related intangibles 
-0.03 
-50 
-0.03 
-42 
-0.02 
-27 
-Acquisition-related and other costs (1) 
-0.01 
-9 
--
--
--
--
-Loss contingency on legal matter 
-(0.17) 
-(280) 
--
-2 
-(0.04) 
-(66) 
-(Gains) losses on long-term investments, net 
--
-(1) 
--
-(7) 
--
-(6) 
-Equity income in investee 
-0.04 
-78 
-(0.08) 
-(111) 
-(0.07) 
-(100) 
-Income tax provision 
-0.07 
-109 
--
--
-(0.01) 
-(11) 
-(Income) loss from discontinued operations, net of tax (2) 
-$ 1.53 
-$ 2,519 
-$ 0.96 
-$ 1,566 
-$ 1.37 
-$ 2,265 
-Non-GAAP net income / earnings per share 
+|   Q1 2026 FINANCIAL RESULTS – May 5, 2026
+Appendices
+Reconciliation of GAAP to Non-GAAP Net Income / Diluted Earnings Per Share
 (1) Acquisition-related and other costs primarily include transaction costs, purchase price fair value adjustments for inventory, certain compensation charges, and workforce rebalancing charges. 
 (2) (Income) loss from discontinued operations relates to ZT Systems' manufacturing business which was divested in the fourth quarter of 2025, and includes impact from measurement period adjustments.
 
@@ -1003,21 +630,9 @@ Non-GAAP net income / earnings per share
 
 24 
 | 
-|   Q1 2026 FINANCIAL RESULTS – May 5, 2026 
-Appendices 
-Reconciliation of GAAP Net Cash Provided by Operating Activities of Continuing Operations to Free Cash Flow 
-Q1’26 
-$ in millions, except % (Unaudited) 
-$ 2,955 
-GAAP net cash provided by operating activities of continuing operations 
-29% 
-Operating cash flow margin % from continuing operations 
-(389) 
-Purchases of property and equipment 
-$ 2,566 
-Free cash flow 
-25% 
-Free cash flow margin %
+|   Q1 2026 FINANCIAL RESULTS – May 5, 2026
+Appendices
+Reconciliation of GAAP Net Cash Provided by Operating Activities of Continuing Operations to Free Cash Flow
 
 **表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
 | $ in millions, except % (Unaudited) | Q1’26 |
@@ -1034,28 +649,13 @@ Free cash flow margin %
 
 25 
 | 
-|   Q1 2026 FINANCIAL RESULTS – May 5, 2026 
-Appendices 
-Share Count Overview 
+|   Q1 2026 FINANCIAL RESULTS – May 5, 2026
+Appendices
+Share Count Overview
 The table above provides actual share count for Q1’26 and an estimate of share count to use when calculating GAAP and non-GAAP diluted earnings per share for Q2’26. 
 (1) Share counts are weighted average shares. 
-(2) The dilutive impact of employee equity grants is based on the Treasury Stock method and is dependent on the average stock price during the period. The Q1’26 average stock price was $214. The estimated 
-dilutive impact of employee equity grants in Q2’26 is based on the average stock price of $253 between March 29, 2026 and April 24, 2026. 
-Q2’26 
-Q1’26 
-Shares (millions) (Unaudited) 
-(1) 
-Estimate 
-Actual 
-1,632 
-1,631 
-Basic shares 
-23 
-19 
-Dilutive impact from employee equity grants (2) 
-1,655 
-1,650 
-Diluted shares
+(2) The dilutive impact of employee equity grants is based on the Treasury Stock method and is dependent on the average stock price during the period. The Q1’26 average stock price was $214. The estimated
+dilutive impact of employee equity grants in Q2’26 is based on the average stock price of $253 between March 29, 2026 and April 24, 2026.
 
 **表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
 | (1); Shares (millions) (Unaudited) | Q1’26 | Q2’26 |
