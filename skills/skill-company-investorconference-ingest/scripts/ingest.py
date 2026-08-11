@@ -96,6 +96,7 @@ KNOWN_TW_PLAYWRIGHT_IR_BY_QUARTER = {
     ("2454", "2025", "4"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=3556",
     ("2454", "2026", "1"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=3635",
     ("2454", "2026", "2"): "https://ottlive.hinet.net/webapp/mediatek/watch?v=4011",
+    ("2412", "2026", "2"): "https://www.zucast.com/webcast/9oAoIhNS",  # 中華電 2026Q2 法說會 2026-08-05 (Zucast optional terms form -> S3 mp3)
     ("3034", "2025", "3"): "https://www.novatek.com.tw/upload/website/_2025Q3_25110708_904.html",
     ("3034", "2025", "4"): "https://www.novatek.com.tw/upload/website/_2025Q4_26020909_911.html",
     ("3045", "2026", "1"): "http://www.zucast.com/webcast/YZRGwetH",  # 台灣大 2026Q1 法說會 2026-05-13 (Zucast 需註冊; 音檔為 S3 直連 mp3, 已下載至 3045_2026_q1.m4a)
@@ -950,7 +951,7 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
             url = m.group(1).replace("/", "/")
             dm = re.search(r'(\d{8})', url)
             embedded.append((url, dm.group(1) if dm else ""))
-        for m in re.finditer(r"(https?://[^\s\"']+\.(?:mp4|m3u8|flv)(?:\?[^\s\"']*)?)", html, re.I):
+        for m in re.finditer(r"(https?://[^\s\"']+\.(?:mp4|m3u8|flv|mp3|m4a)(?:\?[^\s\"']*)?)", html, re.I):
             url = m.group(1)
             dm = re.search(r'(\d{8})', url)
             embedded.append((url, dm.group(1) if dm else ""))
@@ -978,8 +979,8 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
 
     def on_response(response):
         url = response.url
-        # Intercept any .mp4 or .m3u8 network request
-        if re.search(r'\.(mp4|m3u8|flv)(\?|$)', url, re.I):
+        # Intercept media network requests. Zucast replays use S3 .mp3.
+        if re.search(r'\.(mp4|m3u8|flv|mp3|m4a)(\?|$)', url, re.I):
             m = re.search(r'(\d{8})', url)
             date_str = m.group(1) if m else ""
             captured_videos.append((url, date_str))
@@ -999,6 +1000,16 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
 
             page.goto(ir_url, wait_until="domcontentloaded", timeout=30000)
             page.wait_for_timeout(3000)  # let lazy JS finish
+
+            if "zucast.com" in ir_url.lower():
+                try:
+                    if page.locator('input[name="agreement"]').count():
+                        page.locator('input[name="agreement"]').check()
+                        page.locator('button.submit').click()
+                        print("[PW-IR] Zucast terms form submitted.")
+                        page.wait_for_timeout(10000)
+                except Exception as e:
+                    print(f"[PW-IR] Zucast submit failed: {e}")
 
             # TSMC Special: Look for play button or audio link specifically
             if "tsmc" in ir_url.lower():
@@ -1021,7 +1032,7 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
                     els = page.query_selector_all(attr)
                     for el in els:
                         src = el.get_attribute("src") or el.get_attribute("href") or ""
-                        if re.search(r'\.(mp4|m3u8|flv)(\?|$)', src, re.I):
+                        if re.search(r'\.(mp4|m3u8|flv|mp3|m4a)(\?|$)', src, re.I):
                             m = re.search(r'(\d{8})', src)
                             date_str = m.group(1) if m else ""
                             dom_videos.append((src, date_str))
