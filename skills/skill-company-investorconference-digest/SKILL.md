@@ -184,6 +184,15 @@ Digest 必須明確區分一級來源與二級來源。二級來源可以提高�
 
 `lint_sources.py` 回傳非零 exit code 代表有資料品質問題；ERROR/Blocker 會使財務結論錯誤或無法分析時，必須先處理或在報告中降信心。
 
+### 3.4.1 Digest 前置 GT gate
+
+法說會 / earnings call digest 不可在「缺 GT」時直接跳到 FIN-only digest。`find_sources.py` 或 `lint_sources.py` 若顯示目標季度缺少 `{StockID}_{Year}_q{N}_GT.srt`，必須先執行 3.5 GT 字幕生成與校正 SOP，完成以下其中一種明確結果後才可產生或更新 digest：
+
+1. 產生可用 `{StockID}_{Year}_q{N}_GT.srt`：需包含 metadata、保留 FIN timestamp / line boundary、標示 `Review-Level`、`Audio-Checked`、`Correction-Sources`、`Confidence`，並重跑 `lint_sources.py`。README 的 GT 欄與 digest metadata 必須改用 GT。
+2. 產生 `rejected_low_confidence` 判定：只有在 FIN 弱、音訊錯配、缺少足夠文字材料或無法通過 conservative gate 時使用。digest 若仍必須產出，需明確標示 `字幕來源: FIN（GT rejected_low_confidence）`，並把資料品質 issue 視為 Major/Blocker。
+3. 既有 GT 需修正：若 GT 缺 metadata、疑似只複製 FIN、或與 IR/Q&A/第三方資料衝突，先修正 GT 與 metadata，再更新 digest。
+
+因此，缺 GT 是 digest 的 pre-process trigger，不是可忽略的普通 warning。只有 README `類型=財報` 且沒有 call transcript/audio 的 earnings-result digest 可跳過 GT gate。
 
 ### 3.5 GT 字幕生成與校正 SOP
 
