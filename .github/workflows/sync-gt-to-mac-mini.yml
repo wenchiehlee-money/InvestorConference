@@ -16,10 +16,6 @@ on:
 permissions:
   contents: read
 
-concurrency:
-  group: sync-gt-to-mac-mini-${{ github.ref }}
-  cancel-in-progress: false
-
 jobs:
   notify-mac-mini:
     runs-on: ubuntu-latest
