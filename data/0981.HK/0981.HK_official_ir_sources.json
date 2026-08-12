@@ -2,8 +2,8 @@
   "symbol": "0981.HK",
   "source_url": "https://www.smics.com/en/site/company_financialSummary",
   "source_type": "official_ir_discovery",
-  "retrieved_at": "2026-08-06 14:14:02 CST",
-  "sha256": "a5895f0b6e288331fa67e8719f69ed73dc52a688060618f5e35dc27ea7015797",
+  "retrieved_at": "2026-08-12 04:47:28 CST",
+  "sha256": "ae1c34db62b733fb7c7b73df6038465552a9de55753bbe57f8483745122c3937",
   "notes": "Discovery only; PDF/table parser still required before writing normalized quarterly rows.",
   "links": [
     {
