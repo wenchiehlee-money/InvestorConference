@@ -1,10 +1,10 @@
-name: Notify Mac-mini on GT SRT changes
+name: Sync GT SRT to Mac-mini
 
 on:
   workflow_dispatch:
     inputs:
       stem:
-        description: 'Optional single stem to refine, e.g. 2480_2026_q2. Empty means all GT SRTs.'
+        description: 'Optional single stem to sync, e.g. 2480_2026_q2. Empty means all GT SRTs.'
         required: false
         default: ''
   push:
@@ -17,15 +17,15 @@ permissions:
   contents: read
 
 jobs:
-  notify-mac-mini:
+  sync-gt-to-mac-mini:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2
 
-      - name: Determine changed GT stems
-        id: stems
+      - name: Build GT sync config
+        id: config
         shell: bash
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
@@ -44,41 +44,38 @@ jobs:
             FILES=$(git diff --name-only "$BEFORE" "$AFTER" -- "data/**/*_GT.srt" | sort)
           fi
 
-          STEMS=$(printf '%s\n' "$FILES" \
-            | sed -n 's#^data/[^/]*/\([^/]*\)_GT\.srt$#\1#p' \
-            | sort -u)
-
-          if [ -z "$STEMS" ]; then
-            echo "No GT SRT changes detected."
-            echo "stems=" >> "$GITHUB_OUTPUT"
+          FILES=$(printf '%s\n' "$FILES" | sed '/^$/d')
+          if [ -z "$FILES" ]; then
+            echo "No GT SRT files selected."
+            echo "has_files=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
+          CONFIG=".github/sync-gt-to-mac-mini.generated.yml"
           {
-            echo "stems<<EOF"
-            echo "$STEMS"
-            echo "EOF"
-          } >> "$GITHUB_OUTPUT"
-          echo "Changed GT stems:"
-          echo "$STEMS"
+            echo "group:"
+            echo "  - files:"
+            while IFS= read -r FILE; do
+              STEM=$(basename "$FILE" _GT.srt)
+              echo "      - source: $FILE"
+              echo "        dest: mlx-api-server-whisper/GroundTrue/${STEM}_GT.srt"
+            done <<< "$FILES"
+            echo "    repos:"
+            echo "      - ZhongZheng782/Mac-mini"
+          } > "$CONFIG"
 
-      - name: Dispatch Mac-mini refine runs
-        if: steps.stems.outputs.stems != ''
-        env:
-          GH_TOKEN: ${{ secrets.REPO_FILE_SYNC_ZHONGZHENG782_MONEY }}
-          TARGET_REPO: ZhongZheng782/Mac-mini
-          STEMS: ${{ steps.stems.outputs.stems }}
-        shell: bash
-        run: |
-          while IFS= read -r STEM; do
-            [ -n "$STEM" ] || continue
-            echo "Dispatching Mac-mini refine for $STEM"
-            gh workflow run run-pipeline.yml \
-              --repo "$TARGET_REPO" \
-              --ref main \
-              -f stem="$STEM" \
-              -f source_repo="wenchiehlee-money/InvestorConference" \
-              -f source_type="investor_conference" \
-              -f exps="auto" \
-              -f skip_transcribe="true"
-          done <<< "$STEMS"
+          echo "has_files=true" >> "$GITHUB_OUTPUT"
+          echo "config_path=$CONFIG" >> "$GITHUB_OUTPUT"
+          echo "GT sync config:"
+          cat "$CONFIG"
+
+      - name: Sync GT SRTs to Mac-mini
+        if: steps.config.outputs.has_files == 'true'
+        uses: BetaHuhn/repo-file-sync-action@latest
+        with:
+          GH_PAT: ${{ secrets.REPO_FILE_SYNC_ZHONGZHENG782_MONEY }}
+          CONFIG_PATH: ${{ steps.config.outputs.config_path }}
+          COMMIT_EACH_FILE: false
+          PR_LABELS: "automated-sync"
+          SKIP_PR: true
+          COMMIT_BODY: "GT owner: InvestorConference; Mac-mini GroundTrue is cache."
