@@ -119,15 +119,17 @@ python skills/skill-company-investorconference-ingest/scripts/download_with_play
 > [!IMPORTANT]
 > browser-download fallback 是 ingest 的一級材料取得流程，不是 digest 的推論流程。成功取得的檔案仍必須通過 checksum/magic-byte/content-type gate，並產生 Markdown sidecar 供 digest 使用。
 
-#### chrome-devtools MCP escalation（僅限互動 session，非 daily-ingest.yml）
+#### chrome-devtools MCP browser inspection（僅限互動 session，非 daily-ingest.yml）
 
 某些 IR 站（例如 Wistron/緯創）在 Akamai edge 層級直接擋掉 headless 環境（`requests`、無頭 Playwright）：連根網域都回 403 `Access Denied`（`errors.edgesuite.net`），不是單一頁面或爬蟲偽裝問題，`curl`/`requests`/headless Playwright 換 UA、locale、header 都無法繞過。
 
-此時如果是在互動式 Claude Code session 裡（使用者當下對話),可以改用 **chrome-devtools MCP**（真實、已通過瀏覽器驗證的 session)當作最後一層 fallback：
+在互動式 Codex session 中處理 ingest 時，若 **mcp chrome devtools** 可用，應優先把它納入瀏覽器檢查流程：用它確認目前已開啟的頁面、觀察真實瀏覽器渲染狀態、檢查是否落在 Access Denied / registration / replay 頁、必要時跑 accessibility 或 Lighthouse snapshot 來驗證頁面可讀性。這對官方 IR 頁、webcast player、JavaScript redirect 與需要真瀏覽器 session 的下載線索特別有用。
 
-1. 用 `mcp__chrome-devtools__new_page` 開啟一級來源頁面；若成功載入（非 Access Denied 頁),代表該瀏覽器 session 已通過 bot 防護。
-2. 用 `mcp__chrome-devtools__take_snapshot` 找出目標音檔/PDF 連結（`data-title`、年份 tab、分頁按鈕等需要時用 `click` 操作 DOM 找出正確季度)。
-3. 用 `mcp__chrome-devtools__evaluate_script` 在該頁面 context 內 `fetch()` 目標 URL，轉成 base64 後用 `filePath` 參數存到 scratchpad（避免大檔案塞爆對話 context)。
+若一般工具無法取得材料，且 chrome-devtools MCP 暴露了可操作頁面、DOM snapshot、script evaluation 或 network inspection 類工具，則可把該真實、已通過瀏覽器驗證的 session 作為最後一層 fallback：
+
+1. 先呼叫可用的 `mcp__chrome_devtools` 工具（例如 `list_pages`，若存在則用 page/open/snapshot/click/evaluate/network 相關工具）確認瀏覽器 session 與目標一級來源頁面狀態；若成功載入非 Access Denied 頁，代表該瀏覽器 session 可能已通過 bot 防護。
+2. 用可用的 DOM snapshot、page inspection 或 click 工具找出目標音檔/PDF 連結（`data-title`、年份 tab、分頁按鈕等需要時操作 DOM 找出正確季度）。
+3. 若工具支援在頁面 context 內執行 script 或讀取 network，才可用該能力 `fetch()` 目標 URL、擷取實際 media/PDF URL，並把大檔案寫到 scratchpad 或本地暫存，避免把 base64 大內容塞進對話 context。
 4. 本地用 Python/ffmpeg 把 base64 解碼、必要時轉檔（例如 mp3 不能塞進 `.m4a`/MP4 容器,要嘛保留 `.mp3` 副檔名,要嘛重新編碼),再放到 `tmp/{stock_id}_{year}_q{quarter}.{ext}`。
 5. 呼叫 `ingest.py <stock_id> <year> <quarter> --push`（若目標路徑與 `tmp/{stem}.m4a` 快取命中會跳過重新下載),或直接 `import ingest; ingest.commit_push_files(...)` 走完 checksum/上傳/README/commit 流程。
 
