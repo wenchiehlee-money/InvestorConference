@@ -919,6 +919,125 @@ def _extract_delta_landing_video(stock_id: str, year: str, quarter: str) -> tupl
     return None, matched_conf_date
 
 
+def _is_google_finance_media_candidate(url: str) -> bool:
+    """Return True for reusable Quartr media manifests exposed by Google Finance."""
+    low = url.lower()
+    if "files.quartr.com" not in low:
+        return False
+    if not re.search(r"\.(m3u8|mp3|m4a|mp4)(?:\?|$)", low):
+        return False
+    # Segment/part playlists are implementation details; yt-dlp/ffmpeg should use the
+    # top-level manifest so the downloaded audio is complete and reproducible.
+    blocked = ("/parts.m3u8", "/chunks.m3u8", "part_", "segment", "/seg-")
+    return not any(token in low for token in blocked)
+
+
+def _google_finance_exchange_for_market(market: str) -> str | None:
+    return {"TW": "TPE"}.get(market)
+
+
+def scrape_google_finance_earnings_audio(stock_id: str, year: str, quarter: str) -> dict:
+    """
+    Use Google Finance earnings tab as a secondary discovery source for Quartr replay audio.
+
+    Google/Quartr must not override company IR, MOPS/TWSE, or other primary sources. This
+    fallback only returns a reusable media URL when the rendered page identifies the target
+    fiscal quarter and exposes a recorded audio manifest.
+    """
+    market = detect_market(stock_id)
+    exchange = _google_finance_exchange_for_market(market)
+    if not exchange:
+        return {}
+
+    source_url = f"https://www.google.com/finance/beta/quote/{stock_id}:{exchange}?tab=earnings"
+    target_year, month_min, month_max = _quarter_date_window(year, quarter)
+    fiscal_tokens = [
+        f"Fiscal Q{quarter} {year}",
+        f"Q{quarter} {year} earnings",
+        f"Q{quarter} {year} Earnings",
+    ]
+
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        print("[Google-Finance] playwright not installed; skipping secondary audio discovery.")
+        return {}
+
+    captured: list[str] = []
+    page_text = ""
+
+    def on_response(response):
+        url = response.url
+        if _is_google_finance_media_candidate(url):
+            if url not in captured:
+                captured.append(url)
+                print(f"[Google-Finance] Intercepted media candidate: {url[:100]}...")
+
+    print(f"[Google-Finance] Secondary discovery: {source_url}")
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(
+                headless=True,
+                args=["--no-sandbox", "--disable-setuid-sandbox"],
+            )
+            page = browser.new_page(user_agent=UA)
+            page.on("response", on_response)
+            page.goto(source_url, wait_until="domcontentloaded", timeout=45000)
+            page.wait_for_timeout(7000)
+
+            try:
+                play_button = page.get_by_role("button", name=re.compile(r"Play", re.I)).first
+                if play_button.count():
+                    play_button.click(timeout=1500)
+                    page.wait_for_timeout(3000)
+            except Exception:
+                pass
+
+            try:
+                page_text = page.locator("body").inner_text(timeout=5000)
+            except Exception:
+                page_text = ""
+            browser.close()
+    except Exception as e:
+        print(f"[Google-Finance] Browser discovery failed: {e}")
+        return {}
+
+    has_target_quarter = any(token in page_text for token in fiscal_tokens)
+    has_recorded_audio = "Recorded" in page_text and "Play" in page_text
+    if not captured:
+        print("[Google-Finance] No Quartr media manifest found.")
+        return {}
+    if not has_target_quarter:
+        print("[Google-Finance] Media found, but target fiscal quarter text was not confirmed; rejecting.")
+        return {}
+    if not has_recorded_audio:
+        print("[Google-Finance] Target quarter confirmed and media manifest found; accepting despite missing Recorded label in rendered text.")
+
+    preferred = []
+    fallback = []
+    for url in captured:
+        m = re.search(r"/streams/(\d{4})-(\d{2})-(\d{2})/", url)
+        if m:
+            y, mo = m.group(1), int(m.group(2))
+            if y == target_year and month_min <= mo <= month_max:
+                preferred.append(url)
+            else:
+                print(f"[Google-Finance] Rejecting out-of-window stream URL: {url[:100]}...")
+        else:
+            fallback.append(url)
+
+    media_url = (preferred or fallback)[0]
+    print(f"[Google-Finance] Accepted secondary Quartr audio candidate: {media_url[:100]}...")
+    return {
+        "audio_url": media_url,
+        "source_url": source_url,
+        "provider": "google_finance_quartr",
+        "note": (
+            "Secondary source discovery: Google Finance earnings tab exposed Quartr replay audio; "
+            "company IR/MOPS/TWSE sources remain primary."
+        ),
+    }
+
 def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: str) -> tuple:
     """
     Use Playwright to render a JS-heavy IR page and intercept video URLs.
@@ -1217,8 +1336,12 @@ def update_audio_metadata(
     release_url: str | None = None,
     status: str = "ok",
     duplicate_of: str | None = None,
+    source: str = "local_file",
+    source_url: str | None = None,
+    captured_media_url: str | None = None,
+    note: str | None = None,
 ) -> None:
-    """Record checksum, size and probed duration for a local audio file."""
+    """Record checksum, size, probed duration and auditable source info."""
     stem = audio_path.stem
     duration = probe_audio_duration(audio_path)
     item = {
@@ -1228,9 +1351,15 @@ def update_audio_metadata(
         "duration_sec": round(duration, 3) if duration is not None else None,
         "release_url": release_url or release_url_for_stem(repo, stem),
         "checked_at": datetime.date.today().isoformat(),
-        "source": "local_file",
+        "source": source,
         "status": status,
     }
+    if source_url:
+        item["source_url"] = source_url
+    if captured_media_url:
+        item["captured_media_url"] = captured_media_url
+    if note:
+        item["note"] = note
     if duplicate_of:
         item["duplicate_of"] = duplicate_of
     metadata = load_audio_metadata(repo)
@@ -2714,7 +2843,8 @@ def fetch_yahoo_transcript(yahoo_url: str, stem: str, save_dir: Path) -> list[Pa
 
 def commit_push_files(stock_id: str, year: str, quarter: str,
                       audio_path: Path, pdf_paths: list = None,
-                      extra_paths: list = None) -> str | None:
+                      extra_paths: list = None,
+                      audio_source_info: dict | None = None) -> str | None:
     """
     Move the downloaded audio (and optional PDFs) into InvestorConference/data/<stock_id>/,
     commit (git-lfs for .m4a), push, then remove local whisper-sandbox copies.
@@ -2787,7 +2917,9 @@ def commit_push_files(stock_id: str, year: str, quarter: str,
         git("add", "audio_manifest.json")
 
         # Persist checksum metadata after the final release URL is known.
-        update_audio_metadata(repo, target_audio, release_url=release_url)
+        update_audio_metadata(
+            repo, target_audio, release_url=release_url, **(audio_source_info or {})
+        )
         git("add", "audio_metadata.json")
 
     # Regenerate README.md and stage it
@@ -2851,6 +2983,7 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
 
     output_path = save_dir / f"{stock_id}_{year}_q{quarter}.m4a"
     _conf_date: list = [None]   # mutable cell so inner functions can write it
+    _audio_source_info: list[dict] = [{}]
 
     def verify_audio_length(path: Path, min_minutes: float = 10.0) -> bool:
         """Verify audio is at least min_minutes long using ffprobe."""
@@ -2910,7 +3043,8 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
         if auto_push:
             # Commit even if only audio exists (removed the strict pdf/extra check)
             pushed = commit_push_files(
-                stock_id, year, quarter, output_path, pdf_paths, extra_paths
+                stock_id, year, quarter, output_path, pdf_paths, extra_paths,
+                _audio_source_info[0],
             )
             return pushed or str(output_path)
         return str(output_path)
@@ -3073,6 +3207,24 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
         print(f"\n[Download] {target_url}")
         if download_audio(target_url, output_path):
             return done()
+
+    # Google Finance is a secondary discovery source. It is intentionally after
+    # official company IR and MOPS probes, and accepted audio is tagged as secondary
+    # in audio_metadata.json for auditability.
+    if market == "TW":
+        google_audio = scrape_google_finance_earnings_audio(stock_id, year, quarter)
+        google_url = google_audio.get("audio_url")
+        if google_url:
+            _audio_source_info[0] = {
+                "source": google_audio.get("provider", "google_finance_quartr"),
+                "source_url": google_audio.get("source_url"),
+                "captured_media_url": google_url,
+                "note": google_audio.get("note"),
+            }
+            print(f"\n[Google-Finance] Downloading secondary audio candidate: {google_url}")
+            if download_audio(google_url, output_path, no_check_cert=True):
+                return done()
+            print("[Google-Finance] Secondary audio download failed. Falling back to PDFs.")
 
     pdf_paths = download_pdfs(stock_id, year, quarter, save_dir)
     # Scan save_dir for any PDFs that were downloaded by MOPS playwright scraper or other methods

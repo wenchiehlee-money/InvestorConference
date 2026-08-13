@@ -62,7 +62,21 @@ Ingest 必須把來源分成兩層，且不得讓二級來源覆蓋一級來源�
 | 層級 | 來源 | 可用用途 | 限制 |
 | :--- | :--- | :--- | :--- |
 | 一級來源 | 公司 IR 官網、公司正式 replay/webcast、公司正式 PDF、MOPS/TWSE 官方公告、SEC filing（美股） | 決定季度、日期、檔案類型、是否為正式公司材料；落檔與 README metadata 的主依據 | 若一級來源彼此衝突，必須保留衝突紀錄並降信心，不得靜默覆蓋 |
-| 二級來源 | FinmoConf、AlphaSpread、Yahoo Finance transcript、AlphaMemo、第三方法說會索引或摘要平台 | 發現資料、補逐字稿、補 speaker/Q&A、交叉驗證、產生候選來源清單 | 不得覆蓋一級來源的季度/日期/檔案類型；不得單獨作為官方音檔或官方簡報判定 |
+| 二級來源 | Google Finance earnings tab / Quartr、FinmoConf、AlphaSpread、Yahoo Finance transcript、AlphaMemo、第三方法說會索引或摘要平台 | 發現資料、補逐字稿、補 speaker/Q&A、交叉驗證、產生候選來源清單 | 不得覆蓋一級來源的季度/日期/檔案類型；不得單獨作為官方音檔或官方簡報判定 |
+
+#### Google Finance earnings tab secondary fallback
+
+若公司 IR、官方 webcast/replay 與 MOPS/TWSE 都沒有取得音檔，Ingest 可把 Google Finance earnings tab 當作二級 discovery fallback，例如 `https://www.google.com/finance/beta/quote/2382:TPE?tab=earnings`。這個來源常由 Quartr 提供文件、逐字稿或 HLS replay audio，可補足 README 中暫列 `無` 的音檔缺口。
+
+使用條件：
+
+1. 只在一級來源已檢查後使用；不得跳過公司 IR、官方 replay 或 MOPS/TWSE。
+2. 必須用 Playwright/Chromium render earnings tab，不能只用靜態 HTML 判定沒有資料。
+3. 頁面必須明確顯示目標 `Fiscal Q{N} {Year}` 或等價季度文字；若仍是 `Waiting for the earnings call` 且未攔截到 media manifest，不得產生音檔。
+4. 僅接受可重現的 Quartr media manifest 或音檔 URL，例如 `files.quartr.com/.../master.m3u8` 或 `/streams/YYYY-MM-DD/.../playlists.m3u8`；不得用 segment、chunk、`part_*.ts` 或中間實作 URL。
+5. 若 URL 含會議日期（例如 `/streams/2026-07-30/...`），日期必須落在目標季度的法說會窗口。
+6. 下載後仍要通過 checksum、duration、duplicate gate；成功時 `audio_metadata.json` 必須記錄 `source: google_finance_quartr`、Google Finance page `source_url`、實際 `captured_media_url` 與 secondary-source note。
+7. Google/Quartr 只能補音檔、逐字稿與 discovery metadata；README 的季度、日期、事件類型與官方 PDF 判定仍以一級來源為準。
 
 若一級與二級來源衝突，例如第三方索引把公司官方 `2026 Q2` 法說會標成 `2026Q3`：
 
