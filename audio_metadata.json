@@ -245,13 +245,16 @@
     "status": "ok"
   },
   "3035_2026_q2": {
+    "captured_media_url": "https://files.quartr.com/streams/2026-07-28/2e7ad839-184c-4076-8752-a2e08db3643a/1/playlists.m3u8?ref=R29vZ2xl",
     "checked_at": "2026-08-13",
     "duration_sec": 4625.321,
     "file": "data/3035/3035_2026_q2.m4a",
+    "note": "Secondary source discovery: Google Finance earnings tab exposed Quartr replay audio; company IR/MOPS/TWSE sources remain primary.",
     "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3035_2026_q2.m4a",
     "sha256": "d2b295be1bb55d2977e4e4ae4e892da34474d9188c4fe6d1817d2e8b46d5b7d2",
     "size_bytes": 69810009,
-    "source": "local_file",
+    "source": "google_finance_quartr",
+    "source_url": "https://www.google.com/finance/beta/quote/3035:TPE?tab=earnings",
     "status": "ok"
   },
   "3231_2023_q4": {
