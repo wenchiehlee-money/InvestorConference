@@ -25,8 +25,8 @@
 | 2376 技嘉 | 2026 Q2 | 財報 | 2026-08-14 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2376) |
 | 3661 世芯-KY | 2026 Q2 | 財報 | 2026-08-14 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3661) |
 | Lenovo Group Limited(0992.HK) FY2026 Q4 財報 | 2026 Q4 | 財報 | 2026-08-13 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/0992.HK/financials/) |
-| 8299 群聯 | 2026 Q2 | 法說會 | 2026-08-13 | [67.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/8299_2026_q2.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8299) |
-| 2382 廣達 | 2026 Q2 | 法說會 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
+| 8299 群聯 | 2026 Q2 | 法說會 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8299) |
+| 2382 廣達 | 2026 Q2 | 法說會 | 2026-08-13 | 無 | - | - | [中](data/2382/2382_2026_q2_ir.pdf) | [EN](data/2382/2382_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
 | 2324 仁寶 | 2026 Q2 | 法說會 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
 | 8272 全景軟體 | 2026 Q2 | 法說會 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8272) |
 | 2603 長榮 | 2026 Q2 | 財報 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2603) |
