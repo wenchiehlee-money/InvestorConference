@@ -27,7 +27,7 @@
 | Lenovo Group Limited(0992.HK) FY2026 Q4 財報 | 2026 Q4 | 財報 | 2026-08-13 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/0992.HK/financials/) |
 | 8299 群聯 | 2026 Q2 | 法說會 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8299) |
 | 2382 廣達 | 2026 Q2 | 法說會 | 2026-08-13 | 無 | - | - | [中](data/2382/2382_2026_q2_ir.pdf) | [EN](data/2382/2382_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
-| 2324 仁寶 | 2026 Q2 | 法說會 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
+| 2324 仁寶 | 2026 Q2 | 法說會 | 2026-08-13 | 無 | - | - | [中](data/2324/2324_2026_q2_ir.pdf) | [EN](data/2324/2324_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
 | 8272 全景軟體 | 2026 Q2 | 法說會 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8272) |
 | 2603 長榮 | 2026 Q2 | 財報 | 2026-08-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2603) |
 | 中芯國際 Semiconductor Manufacturing International Corporation | 2026 Q2 | 財報 | 2026-08-13 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/0981.HK/financials/) |
