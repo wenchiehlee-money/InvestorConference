@@ -7,7 +7,7 @@ description: 以 GitHub issue 觸發 Mac-mini 上的 whisper 轉錄 pipeline（s
 
 | 項目 | 內容 |
 | :--- | :--- |
-| 版本 | 1.0.0（詳見 `metadata.json`） |
+| 版本 | 1.0.2（詳見 `metadata.json`） |
 | 來源 | https://github.com/wenchiehlee/InvestorConference |
 | 登錄庫 | https://github.com/wenchiehlee/skills （`common/skill-mlx-api-client-whisper`） |
 | 維護者 | wenchiehlee |
