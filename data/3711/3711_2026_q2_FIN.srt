@@ -1,0 +1,1113 @@
+[METADATA]
+Source: 3711_2026_q2_exp11
+Language: zh
+---
+(00:14.050) Thank you for joining us today.
+(01:04.690) 臺灣IFRS
+(01:05.750) may differ materially
+(01:07.230) from results using
+(01:08.670) other accounting standards
+(01:09.950) including those
+(01:11.030) separately presented
+(01:12.310) by our subsidiaries
+(01:13.890) For today's presentation
+(01:15.980) Dr. Tian Wu will begin
+(01:17.720) with a mid-year business update
+(01:19.520) I will then walk through
+(01:21.160) the Q2 results
+(01:22.260) and Joseph will close
+(01:24.120) with our third quarter outlook
+(01:26.060) With that
+(01:27.300) let me hand the presentation
+(01:28.340) over to Dr. Tian Wu
+(01:30.020) Good afternoon
+(01:31.590) I would like to give you
+(01:33.990) the first half
+(01:35.050) 2026 recap
+(02:12.720) For full year,
+(02:13.200) For full year,
+(02:14.990) leap services revenue is tracking
+(02:29.460) versus previous guidance of 13%.
+(02:32.500) so for the full year
+(02:46.380) 建築、工程、自動化
+(02:53.100) Joseph會給您更多詳細的解說
+(02:57.580) Stepping up investment in R&D,
+(03:01.120) Human Capital,
+(03:02.060) Advanced Capacity and also Automation,
+(03:05.200) Smart Factory
+(03:06.000) smart factory,
+(03:24.700) You're reading the same newspaper
+(03:26.140) watching the same news as I do
+(03:27.700) What I'm trying to present to you
+(03:30.390) is the company view
+(03:31.830) We will try to present you the logic
+(03:34.270) Why are we making particular decisions
+(03:36.980) in this particular junction of time
+(03:41.860) AI enabled new applications
+(03:46.000) with bigger scale and potentials
+(03:49.520) I'm not going to articulate the detail
+(03:52.140) If you're interested
+(03:53.420) we can talk more in the Q&A
+(03:54.980) That's our current view
+(03:56.860) I think very few of you
+(03:59.390) will disagree with this statement
+(04:02.050) AI is a paradigm shift
+(04:04.750) and we do have potential
+(04:07.640) bigger scale
+(04:08.940) and multiple applications
+(04:10.810) and that's our current view
+(04:13.440) in terms of when, how
+(04:15.750) we are monitoring the progress
+(04:18.320) I believe we are at the beginning
+(04:21.350) of the AI paradigm shift
+(04:23.610) there will be multiple stages
+(04:25.960) of transition
+(04:26.660) we can talk more in the Q&A
+(04:29.850) the second comment is how we feel
+(04:34.210) AI demands new hardware
+(04:37.550) that does not exist
+(04:41.050) in size, complexity and integration
+(04:47.700) 你可以討論比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較高的比較
+(04:50.660) the memory, the power, the linkage
+(04:54.110) the bandwidth, all in all
+(04:57.890) what we're trying to develop right now
+(05:01.120) is a brand new platform
+(05:04.280) to support the potential AI applications
+(05:09.060) the data center, the agentic
+(05:12.350) and future in the physical AI
+(05:15.230) humanoid, all of the hardware
+(05:18.360) 會比我們目前所生產的產品不同
+(05:28.210) 產品的供應、能源、連接性和存儲器有增長需要
+(05:35.560) 因為AI的轉移、進化或改變
+(05:40.840) 公司目前在全項月份上
+(05:47.020) 對我們所有的客戶來說是看到的三個變化
+(05:50.600) 讓我們來談談ASA的策略重點
+(05:57.040) Again, this is the company view.
+(06:00.640) We have to have a blueprint,
+(06:03.940) a plan,
+(06:05.140) a vision in order for the 100,
+(06:08.740) 000 employees to act on.
+(06:11.730) 我正在試圖
+(06:16.480) Hardware infrastructure is a bottleneck.
+(06:23.900) With AI,
+(06:24.500) the hardware requirement is new,
+(06:28.430) insatiable,
+(06:29.730) and more complicated and more complex.
+(06:32.780) 而今天,有非常少的生產者能夠生產硬件。
+(06:40.440) Therefore,
+(06:41.620) 因此,它是今天的鍋盤。
+(06:45.960) for automation,
+(06:47.500) and more importantly,
+(06:49.540) for innovation perspective.
+(06:56.410) about co-op,
+(06:57.690) about glass substrate,
+(06:58.950) about VRM,
+(07:00.410) about silicon photonics.
+(07:01.750) I can go on and on.
+(07:02.930) I can go on and on,
+(07:11.410) integration,
+(07:12.190) integration,
+(07:16.930) All in all,
+(07:18.980) 叫這些
+(07:22.140) and that is the new bottleneck.
+(07:25.480) 瓶子
+(07:28.480) 經歷
+(07:36.300) 對於我作為設計師的訓練,
+(07:40.290) 系統建築永遠在價值鏈的頂級上。
+(07:48.530) 包裝是在提升系統建築價值,
+(07:55.370) 以提供新的複雜和合作能力。
+(08:00.310) 我剛才所談到的數據。
+(08:05.070) Now,
+(08:05.430) 如果您認為硬件是新的瓶額,
+(08:08.110) 而配件在系統建築的價值線中移動,
+(08:13.540) 那麼,
+(08:21.950) evolution,
+(08:23.360) or paradigm shift,
+(08:25.880) 並與今天所有客戶的長期目標一致。
+(08:33.360) AITs competitive position,
+(08:38.120) I talk about this for many times,
+(08:40.480) ecosystem position
+(08:54.930) the efficiency,
+(08:56.270) I want to single out the pure play,
+(08:59.580) pure play
+(09:10.360) In future,
+(09:12.560) 這可能是ASC的一個競爭優勢的優勢
+(09:18.120) that we have no conflict with foundry,
+(09:20.400) 沒有與專業的供應供應
+(09:22.860) we have no conflict with anybody.
+(09:25.180) 因此,
+(09:26.520) 我們有一個很好的方法,
+(09:28.300) 不僅是在長時間內與我們的客戶合作,
+(09:32.250) 也與更年輕的環境運動員合作,
+(09:35.650) 這將成為整體的細胞的細胞組成的一種細胞組成的一種細胞組成的一種細胞組成的一種細胞細胞細胞細胞細胞細胞細胞細胞細胞細胞細胞細胞細胞細胞細胞細胞細胞細胞細胞細胞細胞細胞細
+(10:00.120) 整個公司的一切都圍繞著長期的業務目標
+(10:05.790) 以及與生產生產模式的聯繫
+(10:11.640) 並給予你速度、效率和客戶信任
+(10:19.790) 這就是我第二部分的主要目標
+(10:22.770) 謝謝
+(10:23.130) 謝謝Tian
+(10:36.290) 如同 Dr. Wu 所指摘的
+(10:38.770) 我們的商業在第一半年中做得非常好
+(11:17.840) is being gated by our abilities
+(11:20.040) to install capital equipment
+(11:24.400) From a financial perspective
+(11:26.530) second quarter ATM revenues came in
+(11:29.670) ahead of our original expectations
+(11:31.370) driven by higher loading
+(11:33.190) from both our LEAP and general services
+(11:35.690) From the profitability perspective
+(11:38.320) we also saw our gross margin outpacing
+(11:41.100) our original expectations
+(11:42.300) driven by higher loading
+(11:44.500) resulting in more operating leverage
+(11:47.060) 我們的EMS生產
+(11:52.440) EMS的利潤
+(11:59.260) 請關注5頁
+(12:04.610) FOR Q2,
+(12:05.800) Q2的全面混合EPS
+(12:13.820) 我們認為
+(12:18.150) 利潤
+(12:21.670) 項目
+(12:32.370) Gross profit was $40.2 billion
+(12:35.700) with a gross margin of 21.0%
+(12:38.900) up 1 percentage point sequentially
+(12:41.640) and 4 percentage points year over year
+(12:44.460) 平均性的改進
+(12:51.100) 每年的改進
+(12:58.160) Operating expenses totaled $19 billion,
+(13:04.240) 主要是由於高工資
+(13:09.980) As a percentage of revenue,
+(13:22.880) up 21% quarter over quarter,
+(13:28.900) with an operating margin of 11.1%,
+(13:57.470) 我們的非經貨金總共是
+(14:38.030) 因為在月內發生的高效率的R&D證據
+(15:13.090) 這比較了61%
+(15:16.690) 並代表了87%
+(15:22.060) We see this being primarily driven
+(15:27.340) over the last few years
+(15:29.260) On page 7 is our ATM P&L
+(15:32.700) The ATM revenue reported here
+(15:36.860) at the holding company level
+(15:41.180) Between our ATM and EMS businesses
+(15:45.460) For the second quarter of 2026
+(15:48.390) 我們在ATM的生產業組織上,
+(15:51.610) Of $126.1 billion
+(15:54.110) Up $13.7 billion sequentially
+(15:58.230) And $33.6 billion annually
+(16:01.550) 這代表了12%的逐漸增長和36%的年份增長。
+(16:05.150) And 36% annual growth
+(16:07.930) Gross profit for our ATM business
+(16:11.080) 是$34.5億
+(16:13.500) 逐漸上升$5.3億
+(16:16.380) 以及每年上升$14.2億
+(16:20.940) TM gross profit margin
+(16:24.090) 是27.3%
+(16:26.470) 逐漸上升1.3%
+(16:28.890) 以及每年上升5.4%
+(16:32.970) 由於更高的行業利潤
+(16:36.040) 和更好的收入混合
+(16:38.520) particularly a higher mix of LEAP
+(16:41.360) During the second quarter
+(16:43.900) operating expenses were $14.7 billion
+(16:47.720) up $1.4 billion sequentially
+(16:51.760) and $3.3 billion year over year
+(17:03.800) and general R&D expenses
+(17:06.730) Our operating expense ratio was 11.7%
+(17:12.210) 是0.1%的平均費率
+(17:15.090) and 0.6 percentage points annually
+(17:18.550) 我們期望我們的行業費率
+(17:22.720) 在2026年的後半段中繼續提升
+(17:26.340) During the second quarter,
+(17:31.310) 代表了3.9億美元的25%增長
+(17:37.280) 和11億美元的124%年度增長
+(17:41.780) Operating margin was 15.7%
+(17:45.920) Up 1.6 percentage points sequentially
+(17:48.860) 和6.2%年度
+(17:52.800) NT美元有0.1%的平均
+(17:57.080) And a 0.6 annual percentage point impact
+(18:00.860) To our gross and operating margins
+(18:03.100) On page 8
+(18:44.270) LEAP的服務
+(18:48.890) 較少的數量
+(18:54.470) 如您所見
+(19:00.690) 在這段時間內,我們看到這個趨勢繼續進入2027和2028年。
+(19:07.330) 10頁上,您將看到我們的ATM收入以服務類型來看。
+(19:12.860) 雖然我們的生產生漲全面,但是我們在這一季沒有看到有大幅的改變。
+(19:26.850) At the beginning of the year,
+(19:50.320) 特別是關於維持銀行貸款服務
+(19:54.380) 我們現在相信
+(20:02.140) 在11頁上
+(20:07.140) EMS的收入增長了6%
+(20:15.720) Sequentially,
+(20:17.020) 我們的EMS公司的總額
+(20:25.920) 這變化主要是因為
+(20:31.490) 我們的EMS公司的經營費用
+(20:38.150) 我們的第二季度
+(20:49.440) operating margin came in at 2.4%
+(21:01.040) 每年是0.2%的平均率
+(21:07.200) 我們的EMS第二季度行業利潤是$1.6億,
+(21:13.150) down $0.3 billion sequentially,
+(21:16.670) and up $0.1 billion annually.
+(21:20.270) 在頁面的底層,
+(21:27.880) Generally,
+(21:29.030) 通常,
+(21:36.830) 在計算型的增長中,
+(21:46.060) From the holding company perspective,
+(21:47.960) 我們繼續追求與ATM和EMS的商業的聯合性,
+(21:57.520) 特別是在關鍵的領域中,
+(22:26.540) At the end of the quarter,
+(22:27.880) we had cash,
+(22:28.980) cash equivalents,
+(22:30.280) cash equivalents,
+(22:34.780) 我們的總收入增加了40.9億美元到306.2億美元。
+(22:42.980) 總收入不用的信用線數量到396.2億美元。
+(22:49.340) 我們的利潤在這一季是45.8億美元。
+(22:54.170) 我們這一季的負債是47%
+(22:58.390) 在13頁上
+(23:05.800) 工具和工具
+(23:14.090) 其中840億美元
+(23:19.170) $804 million in testing operations,
+(23:22.980) $49 million in EMF operations,
+(23:35.630) during the quarter,
+(23:55.510) performance and efficiency.
+(23:57.560) The AI build-out,
+(23:59.620) 無論是開放或關閉模型的AI建築,
+(24:02.540) 我們需要有意義的硬件能力和能力擴展。
+(24:08.660) 在這點上,我們正在盡力保持。
+(24:12.140) 以此為止,我將把評論轉移到Joseph來,
+(24:16.840) OK,
+(24:17.520) now for third quarter of 2026 outlook,
+(24:41.440) On consolidated basis,
+(24:43.820) in NT dollar terms,
+(25:43.420) 我們的EMS第三季度行業平均應該是3.2%到3.4%
+(25:50.910) 那就是26年第三季度的看法
+(25:56.490) 現在來加一些顏色
+(25:59.260) 全年和接下來
+(26:02.310) 首先,在CAPEX
+(26:03.870) 在2026年和未來有更強的領域需求
+(26:08.580) 我們會需要每年增加1億美元的裝備和裝備
+(26:15.930) 所以總共是增加2億美元
+(26:30.600) 以支持全市的需求
+(26:57.140) 與測試企業與測試利潤的逐漸增長
+(28:05.850) 謝謝
+(28:07.270) clarifications of the earlier question
+(28:51.560) 您的合作與美國客戶並且在美國的行業中
+(28:58.100) 我認為這是一個不一樣的問題
+(29:00.840) 但是您能不能也評論一下
+(29:03.660) ASE的英特爾E-MIP的參與
+(29:09.000) 謝謝
+(29:11.430) 查理 你在問關於我們面臨的競爭環境
+(29:18.550) 第二個E-MIP
+(29:21.050) Dr. Wu
+(29:25.000) Let me answer the U.S. operation first.
+(29:36.670) We do have U.S. operation,
+(29:38.520) ISE,
+(29:40.280) test development,
+(29:41.890) also services in California.
+(29:45.460) 我們有一個工廠在
+(29:49.080) We have one factory in San Jose.
+(29:50.960) 桑羅西
+(29:56.050) 這些特別是我們的客戶需要的,
+(30:00.220) 在北約的20年內,
+(30:04.400) 為上層、智能設計、測試發展、技術發展、以及技術發展,
+(30:11.000) 這些都正在進行。
+(30:13.440) 我們對我們的主要客戶的同意是這個,
+(30:18.530) 我們將發展和建立臺灣的完全自動化、有效的線路。
+(30:26.020) 我們願意與我們的資源和有效性線在時間內,
+(30:31.660) In due time,
+(30:33.180) 我們將移動和移動行業到其他世界的地方。
+(30:40.840) 世界上的產業,也許是美國,也許是其他地方。
+(30:43.550) That has always been the case.
+(30:46.340) So it's not like we're not supporting.
+(30:53.620) 在發展、發展過程中,目前我們正在專注於臺灣。
+(30:57.180) for now we are focusing on Taiwan
+(31:00.320) until we build the appropriate scale
+(31:04.360) having the appropriate resources
+(31:06.810) and know-how and efficiency
+(31:08.130) upon that time
+(31:10.470) we will work with our customers
+(31:12.170) to move to the other part of the world
+(31:14.930) for better logistics
+(31:15.770) the second comment is ENIP
+(31:20.160) ENIP I'm going to repeat
+(31:22.250) what TSMC has responded
+(31:23.670) right now is really capacity constraint
+(31:27.180) 實際上是能力限制
+(31:38.090) we're welcome to see that.
+(31:41.480) For ASE,
+(31:42.360) For ASE,
+(31:48.780) including EMIP.
+(31:58.630) the following question is
+(32:08.870) 這是一個可能性
+(32:12.460) 我進行了約1000個包裝設計計劃
+(32:15.470) 最後大概20個包裝設計計劃都會離開
+(32:20.500) 所以有繼續的繼續的技術
+(32:23.900) That's always been the focus of R&D
+(32:27.280) 對於E-MIB
+(32:31.800) if EMEB can ramp up
+(32:37.920) We're not going to make a judgment call
+(32:39.980) Who has the superiority
+(32:41.340) But our focus is to support the COAS
+(32:45.100) 我們在儘快地把Colossus的效率調整,
+(32:47.920) As fast as we can
+(32:49.660) 如果客戶要求其他選擇的技術,
+(32:53.370) AS will also include that in our roadmap
+(32:56.150) I don't think there's a potential threat
+(32:59.730) Again, we are a pure play
+(33:01.810) 如果中心核酸成為對的選擇
+(33:05.720) We just buy unit substrate
+(33:07.960) And we do the assembly
+(33:09.440) 所以,任何事情都可以。
+(33:13.120) 不像是一檔不成功的比賽,
+(33:15.200) 比如說你只能選擇一個,
+(33:16.940) 這從來沒有發生過。
+(33:18.840) 世界是個大城市。
+(33:21.540) 還有問題嗎?
+(33:27.660) 你好,
+(33:28.100) 我來自烏,
+(33:36.880) 還有Joseph,Kent。
+(33:38.520) 謝謝您提出我的問題。
+(33:40.980) 我第一個問題是,
+(33:42.540) 您能不能給我們
+(33:44.160) 更加詳細的指示,
+(33:47.500) 您的Q3、ATM、
+(33:49.780) demand driver
+(33:50.520) for leap
+(33:52.760) and also for general
+(33:54.240) packaging and testing
+(33:55.940) more detailed demand driver
+(33:57.820) across the key applications
+(34:00.140) of product
+(34:00.960) Rick you're asking for
+(34:02.760) maybe segmented drivers
+(34:05.120) of what's
+(34:07.380) what's helping the industry
+(34:08.780) or our results
+(34:10.080) pick up at this point
+(34:11.780) is that correct
+(34:13.160) yeah right
+(34:14.440) demand driver
+(34:15.100) the question is the Q3 driver
+(34:20.720) again the
+(34:21.900) we have a very
+(34:24.220) 很奇怪的位置
+(34:28.490) 因為我們的供應限制
+(34:29.830) 所以我們在談論
+(34:32.450) 12%到13%的優勢
+(34:34.190) 這意味著我們必須
+(34:35.490) 增加12%到13%的供應限制
+(34:38.520) 整體上的需求很強
+(34:41.540) 我不會評論
+(34:43.350) 記錄價格
+(34:44.810) 或任何消費者的價格
+(34:46.850) 但總體上
+(34:47.790) 我們的客戶
+(34:49.190) 都在問求更多的價格
+(34:50.430) Q3和Q4
+(34:52.150) 好 繼續
+(34:58.440) 不 繼續第二個問題
+(35:05.100) 您能否詳細解釋
+(35:07.650) 您的四個項目的發展
+(35:14.800) 仍然在出售
+(35:21.470) Brick,
+(35:43.700) For this year,
+(35:52.130) and things are on track.
+(35:54.260) 我們將在下年,
+(35:58.210) and by next year,
+(36:03.300) 這也是我們現在在發展中,我們現在已經完全發展了,
+(36:07.440) 我們現在已經完全的,我認為目前的價值價值已經完全反映了,
+(36:14.200) 但是在未來的過程中,我認為整個過程中,我們將會有另一個價值價值的生產業,
+(36:20.130) 以下年來的預期是很好的。
+(36:24.630) 我們現在有下一個問題來自網上。
+(36:39.260) 下一個問題是從UBS的Sunny Lin。
+(36:43.330) Sunny。
+(36:44.130) 你好。你能聽到我嗎?
+(36:48.380) 是的,我們聽到你。
+(36:50.040) Thank you very much,
+(36:51.710) good afternoon,
+(36:52.410) congrats on the very strong outlook,
+(36:54.450) 對不起,我沒有能在人上參加。
+(37:03.720) and so maybe take a step back,
+(37:15.380) or maybe between 3.5 to 4 billion,
+(37:18.640) And then for 2027,
+(37:20.660) for it to double,
+(37:22.280) have we already had an idea
+(37:26.920) outsourcing for substrate and also test?
+(37:32.810) Sunny,
+(37:33.430) Sunny you're looking for an update
+(37:38.050) and then looking forward into 2027,
+(37:48.550) Right. Thank you, Ken.
+(37:56.720) 目前
+(38:01.260) 今年我們在前面的利息收益
+(38:04.660) 我認為
+(38:10.020) 再加上
+(38:16.460) 下年
+(38:19.800) 我們相信
+(38:24.500) 我們應該能夠再次增加這個領域的成本
+(38:28.830) 我們將會全速前進
+(38:35.590) And as Ken mentioned,
+(38:37.490) at this point,
+(38:39.910) 目前,
+(38:45.670) 所以下年
+(38:54.880) 讓我詳細說說
+(38:59.300) 如果我能夠
+(39:04.660) 我認為全程
+(39:09.840) So any color will be very helpful.
+(39:13.570) Probably two quarters for now
+(39:16.330) Thank you.
+(39:16.910) Sure.
+(39:18.890) So maybe if I may, second question,
+(39:22.250) Dr. Wu,
+(39:23.030) Dr. Wu,
+(39:30.720) with different complexities and scope
+(39:34.560) and so if I may
+(39:36.360) maybe based on your current
+(39:39.320) engagement with the clients
+(39:42.180) 你覺得有更好的效果,
+(39:46.940) in the coming few years
+(39:49.780) Sunny,
+(39:52.500) in terms of what potential applications
+(39:55.800) 和我們未來可能看到的裝置。
+(39:59.500) Yeah, into AI
+(40:01.700) 因為AI。
+(40:06.480) versus business statement
+(40:07.900) 和商務指標。
+(40:11.420) and the business statement typically
+(40:13.760) you're interested in
+(40:15.080) four quarters
+(40:16.580) probably the longest lead time
+(40:18.820) so let me comment on the co-auth
+(40:22.870) for example
+(40:24.280) 比如
+(40:28.640) AI數據中心
+(40:33.220) 數據的壓力
+(40:36.760) 我們已經知道,
+(40:37.770) 每個人都需要更多的幅度,
+(40:40.850) 從邏輯,
+(40:42.120) ASIC,
+(40:43.200) 以及記憶,
+(40:44.180) 因此,
+(40:45.590) 立即的上升將會是 panel,
+(40:49.450) 或者更復雜的co-ops,
+(40:53.660) 以便能夠配合更大的chiplet或rectal size,
+(40:59.840) 這是我們在面臨的一個 dimension。
+(41:03.590) 我們也討論到,
+(41:05.840) 在年末期末,
+(41:09.520) CPU將開始開發,
+(41:12.130) 起初可能是小量的,
+(41:15.380) 不過,
+(41:16.700) 我們將有重要的標準信息,
+(41:20.230) 例如緩速度,
+(41:22.090) 系統表現,
+(41:23.900) 以及氣溫流動,
+(41:25.640) 這些都可以解決。
+(41:27.650) 根據價值效率和收益,我們將學習重要的資訊。
+(41:35.800) 當預測器變大,預測器變大,以及不同的 hierarchy 變大,
+(41:42.020) 那麼力量輸出會成為接下來的立即問題。
+(41:47.700) 這些問題將在兩三年內被解決。
+(41:52.490) 在更長時間內,人們正在研究其他東西。
+(41:57.270) 例如,今天我們主要在談論數字和數字。
+(42:01.960) 有很多活動正在進行,
+(42:08.200) analog,
+(42:09.750) mixed signal with digital.
+(42:12.690) 如果您想想人類的應用程序,
+(42:15.850) other than the brain,
+(42:18.870) the eyes,
+(42:20.170) ears,
+(42:20.530) fingers,
+(42:21.250) they're all analog.
+(42:22.630) 它們全是數碼。
+(42:28.520) the bandwidth,
+(42:29.620) as well as the fully automated,
+(42:33.090) high volume,
+(42:39.820) 這些是純淨的OSAT供應商的確保的確保。
+(42:51.810) All of the business we're taking
+(42:54.560) are deploying now
+(42:55.560) are the result
+(42:56.820) for the past 15 years of effort
+(42:58.960) So I would like to make that separation
+(43:01.960) But if you're interested
+(43:03.520) I think the AI has a very long life
+(43:06.200) You can listen to all the smart people
+(43:09.150) about the infrastructure
+(43:11.080) AI data center
+(43:12.400) about the genetic
+(43:13.240) and also the physical interface
+(43:15.560) I also would like to give you some color
+(43:19.410) on how I see the AI
+(43:20.850) I'm not the best person to talk about it
+(43:23.290) I have a very simple view to look at AI
+(43:25.470) AI is for a new pattern recognition
+(43:34.740) When people start crossing domain,
+(43:36.400) IT versus pharmaceutical,
+(43:39.080) IT versus medical,
+(43:42.570) the new pattern get recognized.
+(43:46.130) when you recognize the pattern
+(43:49.670) 我們正在開始收集知識,
+(43:57.250) 這就是AI做的
+(43:58.610) 但今天我們只會談論一個領域
+(44:01.520) 最終
+(44:03.420) 在世界上
+(44:05.020) 我並不知道有多少
+(44:05.920) 必須有100個領域
+(44:07.560) 你如何連接所有的領域知識
+(44:11.780) 並開始創建一種混合性的東西
+(44:15.810) 醫療
+(44:16.410) 手術
+(44:17.930) 人物
+(44:19.420) 這些都是有可能的應用
+(44:21.980) 所有的技術
+(44:23.420) 我們使用了今天發展的建築區
+(44:27.300) 所以我們在做的
+(44:28.680) 不僅是AI數據中心
+(44:30.440) 如果我們只在考慮AI數據中心
+(44:38.110) 工程師是為了建立
+(44:45.110) It takes 15 to 20 years.
+(44:46.830) This is not a stock trade.
+(44:49.090) 但您所看到的就是
+(44:52.550) 我們已經有了
+(44:58.330) 我認為這很重要,如果您真的明白我正在告訴您的意思。
+(45:04.740) 沒問題,很好,謝謝您的分享。
+(45:08.140) 謝謝你,Sunny。
+(45:15.340) 接下來的網絡問題是從Goku Hariharan。
+(45:23.770) 好的,早上好,謝謝Dr. Wu,Joseph,Kent。
+(45:29.210) 第一個問題是對於 Dr. Wu 來說
+(45:36.480) 您在過去幾年來都在與Lead Foundry的項目合作
+(45:46.020) 並且幫助了Lead的收益增長
+(45:51.840) 他們似乎在向3D、屏幕層次的技術進行進展,
+(45:59.920) 至少在接下來三、四年間,
+(46:03.460) 以至於目前的技術進行的技術,
+(46:03.540) 相比起在過去的三、四年中,
+(46:05.220) 他們主要是談及了科威斯和各種科威斯的種類。
+(46:08.890) 他們正在進行這種進展中,
+(46:14.720) Dr. Wu,
+(46:15.480) Dr. Wook
+(46:18.320) is it getting elevated further
+(46:22.120) in that partnership
+(46:33.780) 所以您能否描述您所談到的技術方面的關係
+(46:39.940) 以及這次與LeadFoundry的合作會是否會在未來的兩三年內成功?
+(46:45.220) Goku,您在問的是,
+(46:49.060) 當我們的基礎夥伴進入了他們的技術路線之後,
+(46:56.120) 我們的計劃是如何與他們聯繫或與他們聯繫在這種過程中?
+(47:05.680) 是否正確
+(47:12.340) The collaboration is long term.
+(47:19.290) 但我再次想要集中在
+(47:23.080) 基礎是純正的玩法
+(47:28.080) Casting,
+(47:31.400) bumping,
+(47:32.100) packaging
+(47:44.210) also with the correct efficiency.
+(47:56.490) when the pure play foundry
+(48:03.350) so today
+(48:10.420) by the foundry people
+(48:17.170) 或某些建築設計要求
+(48:20.150) 有強弱的IP
+(48:21.900) 那會喜歡尊重和尊重客戶
+(48:25.500) 以及基礎
+(48:26.700) 那是一個項目
+(48:30.180) 需要決定的
+(48:33.880) 但從此而出
+(48:37.160) 合作會包含所有方面
+(48:40.670) 在包含中心上
+(48:42.510) 在關於我們在哪裡開始
+(48:44.670) 我們在哪裡開始
+(48:46.750) 這根據管理團隊的智慧
+(48:50.410) of the ecosystem collaborator
+(48:53.630) 我並不確定
+(48:56.820) but as you can see
+(48:59.280) the OS, the full process
+(49:01.200) all of the collaboration
+(49:02.800) are the full spectrum
+(49:04.940) in terms of future
+(49:07.070) we do not know
+(49:08.370) but it really depends on the pure play
+(49:11.300) IP
+(49:12.390) as well as the customer's requirement
+(49:15.530) but we will try to navigate
+(49:18.300) through all of the complexity
+(49:20.060) but the important thing is
+(49:22.280) 我們都明白
+(49:33.500) 在最快的時間內
+(49:48.200) 我的下一個問題是
+(49:54.110) 第一個是2027年的LEEP
+(49:58.450) 之前我們預期的預算是1.9億
+(50:01.150) 現在我們預期的預算是增加的
+(50:06.680) 這是否主要來自於
+(50:10.330) 有更多的網站到達成能力
+(50:14.150) 因為我們認為需求仍然比
+(50:17.570) 未來可以支持的更高
+(50:21.330) And secondly,
+(50:22.550) mainstream,
+(50:23.270) mainstream
+(50:28.450) I think,
+(50:29.270) 13% previously,
+(50:30.270) where is that upside
+(50:36.340) Goku,
+(50:37.060) Goku you're looking for
+(50:46.400) and also
+(50:56.620) That's right.
+(50:57.100) That's right, yeah.
+(51:05.980) 我們也有明確的位置
+(51:11.090) the facility that we're building today
+(51:12.850) 我們今天建的工具
+(51:17.580) we're tracking ahead of the 3.5 billion
+(51:20.660) 這些評論
+(51:28.680) 給了我們信心
+(51:33.670) we will achieve that target
+(51:35.210) 但同樣的目標,我們也會給你們一個評論,
+(51:38.970) 任何目標在年底達到的目標,
+(51:41.590) 在接下來的十二個月內,
+(51:43.780) 建立新的設施和添加新的機器,
+(51:48.150) 我們將能夠增加這些目標。
+(51:51.680) 這些目標是存在的。
+(51:53.620) 不確定性存在於我們如何執行。
+(51:58.360) 所以業務需求並不是一個擔憂,
+(52:02.540) 而是我們自己的能力,
+(52:04.260) to execute the tool on the side
+(52:07.380) which is clear in front of us
+(52:09.720) in terms of the general devices
+(52:11.640) we see very strong demand
+(52:14.420) in industrial, power, connectivity
+(52:18.680) and storage devices
+(52:20.540) I do not know what the general market
+(52:26.050) of semiconductor this year
+(52:28.940) I don't have that number
+(52:30.460) 我相信我們將將整體市場都擴展
+(52:34.130) simply because our association
+(52:36.720) 和更強大的AI
+(52:38.780) 設計發展
+(52:40.140) 也有更強的能力
+(52:44.250) 能夠有
+(52:45.370) 最完整的
+(52:46.890) 線
+(52:47.590) 對於最多的
+(52:51.250) 總體設備
+(52:51.890) 所以如果人們想建立設備
+(52:55.700) 進入
+(52:56.760) 電子車車
+(52:59.480) AI數據中心
+(53:00.760) 或任何高影響
+(53:04.940) 高風險的應用
+(53:06.560) 可能會使用
+(53:09.140) 我們的最完整的線
+(53:10.440) 因此我們有很好的吸引力
+(53:12.400) So in terms of capacity expansion
+(53:14.580) Not only we need to expand the LEAP
+(53:17.140) 我們也需要傳輸
+(53:19.700) 全球市場
+(53:22.900) 這就是為什麼
+(53:26.090) I complained that ASE is building
+(53:33.540) And we just bought another 7 brownfields
+(53:37.830) So we're building, we're buying
+(53:39.710) And we're spending Capex
+(53:41.270) we're not happy about it
+(53:47.830) This is why we're here.
+(53:49.110) We want to make sure
+(53:55.540) to satisfy the long term objective
+(54:04.960) Got it.
+(54:05.420) Yeah, that's very good.
+(54:06.580) Yeah, thanks.
+(54:07.160) Thanks very much.
+(54:10.190) Charlie, do you want to shout out
+(54:13.770) Yeah, go ahead.
+(54:17.270) Microphone.
+(54:18.030) I do have two questions,
+(54:25.420) but can I make a clarification
+(54:29.990) Please, go ahead.
+(54:31.450) 那麼
+(54:37.930) 你提到的混合
+(54:43.910) 利益混合
+(54:46.920) 對吧?
+(55:11.930) i think i was referring to
+(55:27.490) 對於總體來說,
+(55:28.410) 設計和測試似乎都需要同樣的力量,
+(55:30.950) 但是設計不僅僅是OS,
+(55:35.370) 還有完整的過程,
+(55:36.860) 還有其他過程的步驟,
+(55:39.500) 我們正在進行的步驟,
+(55:40.480) 還有新的配件正在上映,
+(55:44.550) 所以我認為這是我們來年看到的總體描述,
+(55:49.850) 在設計和測試之間。
+(55:54.490) 我們很高興看到有強勁的增長,我只是想確保我們得到正確的分佈。
+(55:59.370) 我們也希望我們能夠確保我們的分佈是正確的。
+(56:02.330) 下一個問題是有點開玩笑的,
+(56:04.570) 我看到您的平均價格輸入了EBITDA,
+(56:11.350) 所以您的免費收入也輸入了,
+(56:14.550) 您認為明天的市場價格價格會反映嗎?
+(56:18.090) 是的,我認為我們將繼續持有非常厲害的價格價格,不僅僅是今年,也將在明年進行。
+(56:22.870) 不僅是今年
+(56:25.710) 所以,我認為這個價格價格的情況會維持一些時間。
+(56:32.010) 但同時我們還在維持一個很健康的平均項目
+(56:36.390) 我們也有許多有價值的資金源
+(56:40.940) To fund the upcoming Capex requirement
+(56:44.400) 所以在這點上
+(56:48.680) 我們會能夠支持增長
+(56:53.950) in a healthy manner
+(56:55.410) and you know
+(56:57.290) we are still at the early stage
+(56:59.470) of this mega trend
+(57:01.230) and so like I said last time
+(57:03.860) we are not going to be shy
+(57:04.940) in making the necessary investment
+(57:06.500) to not just to support our customer
+(57:09.660) but also to maintain our
+(57:11.520) clear leadership position in this field
+(57:14.020) OK, thanks Joseph
+(57:16.550) We very like to hear
+(57:18.970) you have a more funding need
+(57:21.420) So last one is pricing and margin
+(57:30.720) Can we confirm if this is the case,
+(57:40.510) I think it's a part one.
+(57:43.980) 第二個問題是
+(57:50.260) 您的平均率是26%-29%
+(57:58.500) 我認為你可以在幾年內,
+(58:03.570) Thank you.
+(58:05.460) 對,
+(58:09.560) 我們將在第四季中達到平均價值。
+(58:17.710) And at that point of time,
+(58:19.590) 我們將開始考慮我們應不應該調整平均價值。
+(58:28.730) 當然,當我說調整,我意味著上升的調整。
+(58:35.920) 我們仍然在一個非常友善的價格環境中
+(58:42.380) I think,
+(58:42.900) of course,
+(58:44.260) of course,
+(58:51.200) 我們目前仍然可以通過這些價格增加
+(58:57.560) 當然我們會繼續尋找最適合價格的方法
+(59:02.820) 計算情況,以及我們的收益額。
+(59:10.760) Are you okay?
+(59:13.190) 接下來的問題,我們會回到網上。
+(59:16.750) 我們接下來的網上問題來自COA的Hath Liu。
+(59:24.400) Thank you so much for your time today
+(59:32.520) So just a few questions from me
+(59:35.270) I think the first one is that
+(59:36.330) when you commented on the
+(59:38.590) front margins, it's likely to
+(59:40.910) exceed the ceiling of your structural
+(59:42.630) front margins ranking more colder
+(59:44.570) Would you be able to share with us
+(59:46.930) 多少人將從您的商業中進行的貢獻,
+(59:49.390) from your contact on the
+(59:51.030) 還有多少人將被您的業務業內的貢獻貢獻?
+(59:53.170) would potentially liven up by
+(59:55.260) your growing mix in the lead
+(59:57.520) contribution?
+(60:00.350) 你們有點分析,
+(60:03.350) 您問,這也就是我們資本有何影響?
+(60:10.110) 絕對,這是重要的問題
+(60:16.610) 我特別想知道,
+(60:19.180) 部分公司是否比公司更重要,
+(60:25.640) 從價值方式或大型企業?
+(60:28.360) 您的證據是什麼?
+(60:32.510) 我認為這是一個很重要的專業策略
+(60:42.590) 對
+(60:56.390) 包括自動充電的繼續擴展
+(61:03.630) Leverage does a,
+(61:13.010) 在運營方面,
+(61:20.290) 我們看到我們的年度基礎,
+(61:25.910) 我覺得總體上,效率是更加的改善,
+(61:33.590) 因此,
+(61:34.690) 這給我們信心,
+(61:37.370) 我們應該繼續觀察平均增長,
+(61:41.450) 尤其是這一年和接下來的平均增長。
+(61:45.210) 如我所說,當我們超過了結構平均線時,我們將開始測試,看看我們能夠達到多遠。
+(61:53.640) 太好了,非常感謝您的介紹。
+(61:55.340) 然後,您的K-PAC,您是否能夠提供解決?
+(62:00.460) 您也提及過,市場領域的需求也非常強勁。
+(62:03.880) 您是否能夠提供解決您的K-PAC這一年?
+(62:09.100) 而在下年,我認為您不會能夠在這個階段提供豐富的資金。
+(62:15.380) 您是否能夠討論哪個部分的生意將從投資角度來說增長?
+(62:26.170) from the spending
+(62:26.750) Thank you
+(62:27.490) Hass is looking
+(62:29.380) you're looking to understand
+(62:31.460) what the Capex make up is
+(62:33.470) what's driving the increase
+(62:36.250) or what components
+(62:37.470) are driving the increase this year
+(62:39.170) and then maybe
+(62:40.910) if we have any type of
+(62:42.650) nuggets of wisdom
+(62:44.310) related to next year's Capex
+(62:47.020) Well I think
+(62:47.860) obviously we are seeing
+(62:49.680) a stronger demand
+(62:50.540) or demand forecast
+(62:52.240) coming from
+(62:53.660) not just customers
+(62:54.680) but also our monthly partner
+(62:56.300) and the requests that are coming in
+(63:05.330) not just for this year
+(63:09.030) 我們繼續看到
+(63:12.580) in both assembly and test
+(63:16.740) that's first again
+(63:21.020) 新的過程步驟
+(63:23.840) 我們不僅僅是放入
+(63:29.200) 我們也要有新的設施
+(63:34.360) 還在花很多錢
+(63:44.060) 來到海外
+(63:49.720) coming out of our customers' demand
+(64:00.940) 給我們繼續投資
+(64:02.480) 好的
+(64:03.910) 您的傳輸方式
+(64:05.990) 將會和您的基礎
+(64:08.950) 相似
+(64:09.010) 您將會專注更多
+(64:12.330) 在您能夠
+(64:14.760) 從一到另的領域
+(64:16.520) 例如
+(64:16.880) 您可以使用
+(64:18.920) 在眾多企業
+(64:19.900) 和眾多企業
+(64:21.780) 那是您的領域
+(64:23.260) 您將要花更多錢
+(64:24.460) 您正在尋找
+(64:28.870) 我們必須儘量
+(64:30.410) 限制這兩個問題
+(64:31.930) those questions
+(64:36.550) a little bit on
+(64:43.000) to talk about
+(64:57.940) 這將帶來大約10.5億的成本
+(65:07.000) and 6.5 for equipment
+(65:09.990) like Ken just mentioned
+(65:13.070) 我們將投入的新能量
+(65:23.280) to house this capacity
+(65:25.100) so at the same time
+(65:27.490) at this very moment
+(65:33.460) 中文字幕——YK
+(65:37.040) 維生素項目的意思是我們正在使用 existing 電子電池
+(65:43.920) 然後我們將把它們重新設置
+(65:56.510) maybe into some part of 29
+(65:58.590) 我們將繼續看待情況,
+(66:08.460) 我們將在未來的20個項目中發揮出很大的挑戰和壓力
+(66:34.950) 這是我們正在努力發展的一項目標
+(66:39.800) 我認為Tim所提到的
+(66:42.560) 執行是我們所在的一項目標
+(66:45.520) 我們必須執行我們的目標
+(66:51.330) 非常感謝
+(66:55.210) 我們還有其他網上的問題嗎
+(67:00.620) 是的,我們有網上的問題
+(67:05.370) 從JP Morgan的Goku Hari Hanran
+(67:07.890) 你好,謝謝你提供我的關注問題
+(67:15.800) 首先,在CAPEX上,JUICEF,我知道你未來的任務
+(67:25.060) 它絕對感覺到CAPEX仍然可能會繼續升級到2027
+(67:32.780) Is it a fair statement to make
+(67:35.720) given the GAAP between supply and demand
+(67:39.680) that you're currently facing
+(67:40.800) especially for me
+(67:41.800) Goku, you're looking for some hint
+(67:47.220) in terms of 2027
+(67:48.680) Yes
+(67:50.310) Well, I think it's better if we
+(67:58.100) I know it's going to be big
+(68:00.740) but how big
+(68:01.840) I think we want to
+(68:04.390) wait for another quarter or so
+(68:06.190) to see
+(68:06.890) to have a better priority
+(68:09.170) on how much we need to spend next year
+(68:11.960) Could you also talk a little bit about
+(68:19.330) anything that you're seeing on the
+(68:21.570) that you're seeing on the
+(68:25.140) based on your current assessment
+(68:28.380) when do you expect this to
+(68:30.500) potentially start entering production
+(68:34.970) given that there are so many
+(68:37.410) out there in the market
+(68:39.990) Doku, you're looking for an update
+(68:42.130) on our panel processes?
+(68:44.070) Yeah, panel processes
+(68:45.610) The different panel process
+(68:51.750) for ASE's panel process
+(68:54.560) 我們的完全自動生產線將在下年2月1日開始生產
+(69:01.350) 這在310分比310的形式中
+(69:06.780) 在COPOS上,我認為有許多選擇的材料
+(69:13.160) 人們正在測試
+(69:14.360) 人們正在與核心供應商和客戶合作
+(69:22.410) 以測試生產性和經濟性
+(69:26.640) 但目前我們沒有在生產的玻璃瓶
+(69:36.100) 如果這是您所問的問題
+(69:39.300) 明白
+(69:41.400) 那麼AFC 310x310的解決方式是如何
+(69:48.480) 是為了一個完全不同的市場或客戶
+(69:52.520) 與基地的解決方式相比
+(69:55.780) or is it quite complementary
+(70:01.320) they are quite complementary
+(70:03.840) it's actually the same customer set
+(70:05.740) similar the rectal size
+(70:08.120) in terms of the pitch size
+(70:10.360) line width
+(70:11.020) they are all identical
+(70:12.640) covered a similar range
+(70:14.480) but in terms of
+(70:16.100) which customer will adopt what
+(70:18.440) not only depends on the capacity
+(70:20.600) and the performance
+(70:21.440) and also the speed of execution
+(70:30.140) on Capex I want to give
+(70:32.000) I think for this year,
+(70:35.940) out of the total Capex,
+(70:38.790) like I said,
+(70:39.530) 4 billion is for factory and facilities,
+(70:42.150) 6.5 for equipment,
+(70:46.140) and for equipment,
+(70:47.950) I think it's about 56% is for assembly,
+(70:51.970) 40% for test,
+(70:58.160) in terms of assembly and test breakdown
+(71:01.880) in terms of the leading edge
+(71:05.200) I think 70% of the equipment cap
+(71:08.160) is for leading edge for this year
+(71:10.020) OK, we got you covered there?
+(71:17.940) Yeah, he's on
+(71:20.810) OK, another online question?
+(71:24.420) Yes, we have a million of UPS
+(71:28.210) thank you very much
+(71:34.440) So my first follow-up will be on CPO
+(71:38.280) and so maybe good time
+(71:40.520) if you could share with us
+(71:42.000) if you could share with us
+(71:49.620) And then,
+(71:50.520) based on the correct development,
+(71:53.450) when do you think
+(71:58.650) And then,
+(71:59.490) given USI,
+(72:01.430) USI
+(72:15.990) Sani,
+(72:42.130) also the 2027 outlook,
+(72:50.670) 團隊上
+(72:59.570) 我認為這個方向是定義的。
+(73:05.590) 我們該如何執行這種系統建築,
+(73:17.660) 有的設備已經很成熟,
+(73:19.140) 已經用了很多年,
+(73:21.740) 在某些附近的領域,
+(73:25.020) 在線上,
+(73:25.720) 在物質層上,
+(73:27.020) 這需要創造,
+(73:28.680) 這非常困難,
+(73:30.910) 這就是為什麼這個企業花了這麼多時間試圖發展。
+(73:35.450) I think by the end of the year
+(73:38.960) we'll have some database
+(73:40.520) in terms of how that is behaving
+(73:43.170) how that is working
+(73:44.370) and whether
+(73:46.390) how much benefit
+(73:48.000) how much ramp up
+(73:49.260) I think in two quarters time
+(73:50.800) by the way
+(73:53.020) we have been working on this
+(73:54.040) for about 20 years
+(73:55.200) so two more quarters
+(73:56.650) I think we can wait
+(73:57.490) Sure, looking forward to that
+(74:00.190) Thank you
+(74:01.960) Yeah, looking forward to that update
+(74:04.430) And my second question
+(74:06.550) will be very quick
+(74:07.710) So for your full process class
+(74:10.170) You have better visibility now for 2027
+(74:15.410) So we want to understand your progress
+(74:17.830) in terms of diversifying for your client
+(74:21.450) also product base
+(74:22.510) Should we assume for 2027
+(74:24.910) CPU should be very major
+(74:27.930) Or should we assume good volume
+(74:30.110) coming from the other applications
+(74:32.050) like accelerators as well
+(74:34.590) Sunny, you're looking for
+(74:36.510) 可能不能回答的問題
+(74:39.510) but in terms of
+(74:42.770) you're looking for
+(74:43.470) what are products that would be
+(74:45.870) in terms of our full process services
+(74:48.370) yeah
+(74:50.220) basically your progress
+(74:51.700) in terms of product-based
+(74:53.360) administration for full process
+(74:54.880) I think for the full process
+(75:03.000) we should be able to give you
+(75:04.940) a better visibility
+(75:07.200) in a quarter or two
+(75:08.500) right now we do have line of sight
+(75:10.860) in terms of full process
+(75:11.980) we're tracking nicely
+(75:13.900) and also for the next year
+(75:16.800) we do have a line of sight
+(75:17.920) we have full visibility
+(75:19.330) in terms of capacity
+(75:20.570) that we're developing
+(75:21.370) now in terms of the customers
+(75:26.190) that is the
+(75:28.330) we need a little bit more time
+(75:30.030) to digest
+(75:30.570) how much information
+(75:31.810) can we share
+(75:32.610) I think in two quarters time
+(75:35.280) we should be able to give you
+(75:36.460) the following
+(75:38.660) our leading edge
+(75:40.040) our lead services revenue
+(75:41.820) for next year
+(75:43.220) and also the OS
+(75:45.340) full process and others
+(75:48.020) the assembly and test
+(75:50.540) I think that we can share
+(75:52.390) but in terms of GPU, CPU, ASIC
+(75:55.040) we need a little bit more time to digest
+(75:57.480) how much information we can share
+(75:59.060) but right now
+(76:00.760) our clientele portfolio
+(76:02.680) covers all of them
+(76:04.380) which is good
+(76:06.130) and which is waiting for
+(76:09.810) such that we know our yield
+(76:12.520) and also how well
+(76:14.780) the system performs in the marketplace
+(76:18.340) that we're waiting anxiously
+(76:20.720) Thank you
+(76:21.600) Thank you very much
+(76:24.240) 非常感謝。
+(76:37.400) 你好,你好嗎?謝謝您的電話。
+(76:41.320) I just want to clarify,
+(76:42.400) when you gave Q3 guidance,
+(77:03.700) 我覺得40%的增長是一種不正常的系統性
+(77:10.300) 我覺得這是因為成本價格的升幅
+(77:18.540) 所以如果我們把這個部分的數字取出
+(77:23.620) I think the third quarter EMS
+(77:33.340) Makes sense.
+(77:35.840) 那在Q4方面,
+(77:38.880) 是否仍然在 Q3 中增長,
+(77:42.500) 還是在 Q4 和 Q3 中增長的情況下?
+(77:51.860) 目前,
+(77:52.240) 我們在 Q4 和 EMS 中增長的情況下,
+(78:07.290) 仍然在 Q4 和 Q3 中增長的情況下。
+(78:13.850) say in your overall comments
+(78:24.760) 邁克爾,您在尋求EMS和ATM的全年規則嗎?
+(78:32.680) yeah overall revenue growth
+(78:35.960) 我認為有一個評論
+(78:44.850) EMS在這個時候
+(78:50.160) 股市投資率是多少?
+(78:53.880) 股市投資率是20%
+(78:55.090) OK,股市投資率是20%
+(78:59.490) 股市投資率是35%
+(79:02.250) 股市投資率是多少?
+(79:05.500) 也是正確的
+(79:07.610) OK,明白
+(79:08.530) 而EMS股市的影響是什麼?
+(79:12.890) 大型的記錄系統和大量的收入
+(79:15.950) 是一年一年平均的成長
+(79:19.150) 還是有增長或是減少?
+(79:22.030) 我可以談談第三季度的問題
+(79:25.350) 如果我們除了費用費用
+(79:28.200) 我認為目前的平均價值會是3.7%-3.8%
+(79:36.160) or else 3.7-3.8% level.
+(79:45.870) That's correct.
+(79:47.480) 明白了
+(79:56.380) Thank you.
+(79:57.300) Do we have more questions online?
+(80:06.840) 好的,
+(80:07.240) 非常好,
+(80:07.940) 非常感謝大家參與我們今天的會議,
+(80:12.340) Joseph,
+(80:14.630) 您想關閉嗎?
+(80:17.540) 我確定我們將在第三季度有更好的新聞,
+(80:22.180) 我們下個季度會給您更多好的消息。
+(80:26.970) 我們下個季度見。
