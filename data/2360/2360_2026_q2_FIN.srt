@@ -1,0 +1,488 @@
+[METADATA]
+Source: 2360_2026_q2_exp11
+Language: zh
+---
+(00:00.220) 歡迎大家收看Chroma的二十二月二十六年的會議。
+(01:02.550) 我們CFO Paul Yin
+(01:03.510) and followed by the presentation
+(01:05.110) of the second quarter financial result
+(01:07.170) by our new CFO Lawrence Wu
+(01:08.850) After the financial update
+(01:10.860) I will provide an overview
+(01:12.540) of this quarter's product mix
+(01:14.380) 然後接下來是我們的問答節目
+(01:18.380) All presentation materials are available
+(01:21.340) for download from the company website
+(01:23.500) and with that
+(01:24.860) I will now turn the call over
+(01:26.960) to our CFO Paul Yin
+(01:28.640) Thank you Jennifer
+(01:30.520) and all my old friends
+(01:34.290) I'm from the investor sectors.
+(01:37.020) And well, time flies.
+(01:42.920) Today, I step in here to talk with you.
+(01:50.400) And thank you for all your support,
+(01:59.030) all your attentions to Croma.
+(02:02.610) And please keep on.
+(02:04.450) 非常
+(02:12.770) for the second quarter of 26,
+(02:15.690) let me introduce our new CFO,
+(02:18.710) Lawrence,present to you. Thank you.
+(02:22.110) 謝謝
+(02:28.150) I've been charged with CFO of Chroma,
+(02:33.380) which is a pretty big challenge.
+(02:40.020) 我們來介紹大家的第二季度資金
+(02:47.470) 首先,
+(02:48.170) 第二季度的收入達到13.53億,
+(02:58.460) 達到40%季度過季度和110%年度過季度,
+(03:06.170) 則成為另一個 record high 季度。
+(03:09.160) 收益額為8.19億,
+(03:13.220) 並且收益額為61%。
+(03:15.960) 相比起第一季度的63%,
+(03:22.020) 下降主要是由於短期上提高的主要功能
+(03:26.500) including DRAM,
+(03:28.730) passive components,
+(03:30.210) and ICs.
+(03:32.150) 我們仍然集中在維持穩定的領域
+(03:40.690) 經營資金為5.24億,
+(03:46.480) 與經營資金的平均率為39%,
+(03:50.520) 代表一年至每年有139%的增長。
+(03:55.860) 經營資金總共為1.27億,
+(04:02.300) 由於經營資金從AD-Link的支出和職員的居住資金。
+(04:10.620) 股份資金達到5.12億
+(04:17.380) up to 162% year over year,
+(04:22.240) while EPS was 12.15,
+(04:27.340) both record highs.
+(04:29.100) 第二,
+(04:29.660) 2026年的成果的第一波。
+(04:38.330) 2026年的第一波的成本是25.39億元,
+(04:47.400) 每年有91%的成本,這代表了幾乎減少的增長。
+(04:54.660) Growth profit was totaled 15.61 billion,
+(05:00.560) with a growth margin of 61%.
+(05:05.140) Operating income was $10 billion,
+(05:25.680) up to 120%,
+(05:29.320) and EPS was 21.27%.
+(05:35.720) Overall,
+(05:36.440) Overall,
+(05:46.470) 最後,貨幣的金融狀態。
+(05:51.930) As of June 30th, 2026,
+(05:56.580) 科羅馬持有堅定的金融狀態。
+(05:59.460) Cash and short-term investment
+(06:03.420) totaled $13.68 billion,
+(06:06.960) up to 65% from year 2025,
+(06:13.870) 而股權價值達33.71億元。
+(06:19.440) 公司仍在
+(06:30.610) Inventory was 11.58 billion
+(06:43.210) 貨幣
+(06:53.190) indicating better inventory efficiency
+(06:56.520) Annualized ROE reached 54%
+(07:24.620) capital expense are expected to moderate
+(07:29.270) 最終利潤收入達3.29億元,
+(07:42.060) 這是我們的第二季度的金融表現
+(07:50.860) 在2026年的第一季度
+(07:53.720) 然後我們將轉移到Jennifer
+(07:55.900) 謝謝
+(07:57.940) 請您提出在第二季度的產品混合的詳細
+(08:03.720) 第二季度的產品混合的產品混合
+(08:17.180) and 129% year over year
+(08:20.320) This search was mainly contributed from
+(08:23.140) AI server powers applications
+(08:25.180) 目前,AI服務器的功能有超過60%的功能。
+(08:28.480) has account for over
+(08:29.900) I would say 60% of this power business
+(08:33.260) 測試器和ATS的營業收入已經在第一半期間存在,
+(08:36.480) for the first half already exist
+(08:38.860) Total revenue in 2025
+(08:41.610) In addition to AI server powers
+(08:46.120) Battleship Project也準備從第三季度出售。
+(08:48.800) 從第三季度來看
+(08:51.340) 綜合綜合部分的成本
+(08:53.280) 在第二季度中
+(08:54.000) 是4.4億元的
+(08:58.740) 29%的成本
+(09:00.260) 季度中
+(09:01.300) 年度中
+(09:03.400) 綜合綜合部分的成本
+(09:04.270) 也會增長
+(09:08.610) 大型成本的引擎
+(09:11.460) 是
+(09:12.180) 系統級的設計
+(09:13.540) 和綜合綜合部分
+(09:14.980) 收益成本的成本
+(09:16.960) 綜合綜合部分的綜合部分
+(09:21.220) 主要貢獻在第二季
+(09:24.300) 我們認為會在第一季表現出色
+(09:29.050) 駕駛者是系統級測試者
+(09:31.430) 從AI HPC和ASIC
+(09:33.810) 幻燈是主要貢獻從
+(09:36.290) optical communication and CPO
+(09:40.240) 直到今天我們已經收到
+(09:42.780) insertion 3和insertion 4
+(09:45.880) 這些貢獻從第二季
+(09:49.700) 現在我們可以進入下一個部分
+(09:53.180) 是的 謝謝
+(09:59.610) 如果您有任何問題
+(10:02.680) 請按下開始鍵
+(10:08.240) 然後您會進入課程
+(10:50.840) Thank you
+(11:00.510) Go ahead please
+(11:02.760) Hi, thank you Paul, Jennifer
+(11:04.900) And congrats on your new role, Lawrence
+(11:13.760) 首先,
+(11:14.360) 您可以談談您的HVDC關係的力量測試進程的進展計劃嗎?
+(11:24.100) 這是第一個問題,對嗎?
+(11:30.080) 是的。
+(11:30.320) 我們從第一半的結果來看,
+(11:35.150) 我們幾乎每個月都提供了AI力量。
+(11:39.020) I would say almost every month
+(11:41.060) so you see like
+(11:44.970) maybe I would say every month
+(11:47.170) the shipment is pretty much the same
+(11:49.670) based on the sales revenue
+(11:52.490) I see
+(11:55.040) but I guess the testers
+(11:57.540) for HVDC power rack
+(11:59.580) could be different versus
+(12:01.280) the testers for all these
+(12:03.490) power components like PSU
+(12:05.730) you shipped over the past few months
+(12:07.370) but there is no difference between 400V
+(12:10.200) and 800V
+(12:12.270) right
+(12:13.410) Right,
+(12:13.410) 對,
+(12:23.770) Yeah,
+(12:24.110) 是的,您可以這樣說,從第一天開始。
+(12:26.290) but you just need to consider,
+(12:30.410) conversion doesn't mean the shipment,
+(12:33.030) 我們可以送給我們的客戶,
+(12:35.870) you need to ask our customer.
+(12:39.210) 是,是。
+(12:41.910) 那是否有一個趨勢,
+(12:44.430) 例如,
+(12:44.710) 您看到這些HVDC能量測試器的數字變得更強?
+(12:50.810) 月項中?
+(12:53.710) 因為最近有些傳聞說,HVDC能量測試器的延遲,
+(13:00.670) Delta 也在那裡,他們說生產生產很快,
+(13:05.190) 但是在小規模上,
+(13:06.790) 我只是在問,
+(13:07.370) 在測試者的方面,
+(13:08.910) 在哪個季度你會看到你的測試者取得大量的規模?
+(13:14.670) 但問題是,每個季度都差不多是同樣的,這並不是一個轉上來轉下來的問題。
+(13:22.410) 我明白,我明白。那怎麼說到順序的波動?我不是在說你的學生的順序。
+(13:28.950) 但他們已經阻止了整個年。
+(13:31.480) Oh, I see, okay
+(13:38.770) And do they adjust every quarter?
+(14:03.010) almost every month
+(14:05.000) I see
+(14:06.840) so since the pattern
+(14:07.840) is pretty much the same
+(14:08.860) I really couldn't highlight
+(14:09.880) okay which quarter is strong
+(14:11.220) which quarter is low
+(14:12.880) I see
+(14:15.020) and I think in the second half
+(14:17.400) last year when we talk about
+(14:18.860) your ATS test
+(14:20.760) your power tester
+(14:22.500) you mentioned that
+(14:23.840) you are quite
+(14:25.660) that there is some
+(14:26.800) capacity constraints
+(14:28.200) like you can't fulfill the order
+(14:29.800) how about the situation now
+(14:31.820) but beginning of this year
+(14:38.560) 但是上年,我們的第二階段的測試已經不準備了。
+(14:47.730) 我認為這種項目的項目總是帶來的軟件是您的收入。
+(14:55.350) 我理解在第二季度中,有一個或兩個月的收入,
+(15:06.700) this is because we do see the
+(15:11.480) so it's very hard for me to give you
+(15:14.940) this kind of a guidance
+(15:16.160) saying will be certain location
+(15:18.590) but you will see
+(15:21.040) and very soon
+(15:22.360) do you mean you got a new order
+(15:25.620) or it's the same order
+(15:26.720) well I say increase
+(15:29.960) that means demand continue to increase
+(15:34.560) so the order is piling up
+(15:36.460) 所以它比我們在年初開始更多
+(15:40.260) 嗯,我明白
+(15:42.470) 最後一個問題是關於三維測試器
+(15:47.990) 您在您的評論中說
+(15:50.350) 三維測試器的測試度增加
+(15:53.150) 包括 SLT 和 Photonics
+(15:56.150) 當您說測試度增加
+(15:58.090) 您是指三個月前
+(16:00.530) 與您的初期期望相比
+(16:02.930) 它增長了嗎
+(16:03.670) 還是您只是說
+(16:04.750) 它增長了一半
+(16:05.530) over quarter its growth
+(16:06.390) OK
+(16:07.400) You may read the detail
+(16:09.840) I'm sure
+(16:10.680) you will build out
+(16:12.550) the model of Cromont
+(16:13.750) and then you definitely
+(16:15.090) will notice that
+(16:16.430) the growth rate
+(16:17.790) I mean semiconductor growth rate
+(16:20.010) in the first quarter
+(16:21.070) versus second quarter
+(16:23.040) actually second quarter
+(16:24.020) this kind of growth rate
+(16:25.380) is increased
+(16:26.080) and then we see
+(16:28.210) momentous continue to increase
+(16:30.270) in the second half
+(16:31.290) so we even give you a guidance
+(16:32.830) that the second half
+(16:34.530) will be better than
+(16:35.470) outperforming the first half
+(16:37.120) 這是一個非常明確的指導
+(16:38.900) 這是一個基於裝備的企業
+(16:40.950) 嗯嗯 我明白
+(16:43.420) 好的 謝謝
+(16:44.540) 那就是我的問題
+(16:46.200) 是的 謝謝
+(16:47.280) 謝謝
+(16:49.600) 我們現在正在問問和回答計劃
+(16:52.800) 如果您想問問
+(16:54.490) 請按下開始鍵
+(16:56.470) 和第一個在您的電話鍵盤
+(16:58.570) 謝謝
+(16:59.260) 第一個在您的電話鍵盤
+(17:24.350) 謝謝
+(17:24.830) 第二個是Bursting
+(17:30.620) 請繼續
+(17:30.960) 對不起
+(17:32.520) 只有一項關於CPU的關係
+(17:35.580) 我只是想得到一些更新
+(17:37.540) Versus 3 months ago
+(17:39.220) You said you have PO
+(17:41.320) for insertion 3 and insertion 4
+(17:43.820) Any difference versus 3 months ago?
+(17:46.160) 3 months ago
+(17:51.730) Let me think about 3 months ago
+(17:54.590) We do see the order size is bigger
+(17:57.150) The order size is for this year
+(18:02.140) or it's like rolling to a month?
+(18:04.100) No, this year
+(18:05.100) 不,這一年
+(18:09.520) I can tell you so far
+(18:10.900) Customers only place order up to 4-0
+(18:13.080) Not yet really rolling up to after 4-0
+(18:16.320) 所以我會說
+(18:18.640) CPU是一個非常挑戰性的技術
+(18:21.340) 我們看到
+(18:22.580) 因為它的複雜性
+(18:24.560) 然後組織也重新改善
+(18:29.370) 好的,我明白
+(18:33.560) 因為在過去兩個月內
+(18:36.460) 市場上也有關係
+(18:38.600) 關於CPU的運作
+(18:41.000) 我知道CPU的主要項目
+(18:43.060) 在測試方面
+(18:45.920) 在製造方面有很多困難
+(18:49.560) 因此,你認為因為這些困難
+(18:52.120) 客戶在你的方向上升值嗎?
+(18:56.300) 是的,我們已經獲得了P.O
+(18:59.700) P.O是我認為最好的代表
+(19:04.840) 證明這是一個實際上的項目
+(19:08.240) 你見過其他競爭者
+(19:12.540) 在三輪和四輪輸出嗎?
+(19:16.240) 四輪輸出是100%由KUROMA開始
+(19:21.070) 所以沒有比較,
+(19:22.310) 但是在第三階段,
+(19:23.950) 我們已經提及過,
+(19:25.190) 在我們加入之前,
+(19:27.470) 我們實際上是在與同事聯繫。
+(19:29.700) 我明白,所以您是與同事聯繫。
+(19:37.880) 是的,我認為我們並沒有聯繫,我們實際上有更好的表現。
+(19:43.120) 我明白,而P.O.是由一個顧客來的,還是您有其他顧客在聯繫中?
+(19:51.060) Currently if you talk about CPO
+(19:53.580) we do have MV and Marvell
+(19:55.880) But Marvell is not yet ramped
+(19:58.260) I think
+(19:59.030) Okay, cool, understood
+(20:02.780) They are actually adopting
+(20:05.780) different technology
+(20:06.720) and design is different
+(20:10.500) And you are also involved
+(20:13.780) in design for their testers
+(20:15.640) What do you mean by design their testers
+(20:18.730) We actually design the testers
+(20:20.330) 100% our own technology
+(20:21.870) Okay, I see
+(20:24.260) And maybe last question is about your
+(20:26.540) 您的AI設備商
+(20:35.030) What's the progress on that tester?
+(20:39.250) All doing so well.
+(20:41.450) 這是第一次
+(20:45.680) So I'm sure next customer will adopt.
+(20:52.340) Okay, I see.
+(20:55.160) Yeah, that's very clear.
+(20:56.580) Thank you.
+(20:59.060) Next one, Josie Yu, JP Morgan.
+(21:02.540) Go ahead please
+(21:03.380) Hi
+(21:04.350) Hi Jennifer
+(21:06.410) Thank you for taking my question
+(21:08.090) So I'm very glad to hear that
+(21:11.110) Semiconductor segment is going to see
+(21:13.590) very strong momentum in the second half
+(21:23.360) Is it fair for us to also kind of
+(21:26.420) expect this segment to grow
+(21:30.110) half over half in second half
+(21:32.630) Are you asking about the material note?
+(21:37.980) Which part?
+(21:39.400) I think the AT&S overall segment
+(21:41.820) Oh, you mean power business?
+(21:45.140) Yes, yes
+(21:46.310) Yes, yes.
+(21:48.490) We already give a very clear indication
+(21:53.390) regarding the semiconductors
+(21:54.950) and I already said that
+(22:00.700) about the shipment of the power business
+(22:03.180) Okay, that's very clear, thank you
+(22:06.700) Thank you
+(22:10.220) Next one
+(22:11.930) Jerry So, UBS, go ahead please
+(22:14.550) Hi Jerry
+(22:16.700) Thank you
+(22:17.680) Hi Jennifer, Lawrence and Paul
+(22:20.060) Thank you for taking my question
+(22:21.440) Thank you for taking my question
+(22:25.800) Can you give us an update on this one
+(22:29.020) Because I think early in the year
+(22:31.060) 早在這個年度
+(22:32.760) 但是似乎需求
+(22:36.660) As some of your customers
+(22:37.960) So I'm just wondering
+(22:39.220) 所以我只是在問
+(22:42.760) 這個半年
+(22:44.220) 我們看見AT
+(22:46.870) 本來我們的指導
+(22:48.710) 對於傳統FT
+(22:54.080) 比上年平均
+(22:56.420) 但是我們看見
+(22:57.920) 需求增加
+(22:59.260) 特別是從第二季開始
+(23:01.500) 我們猜測
+(23:02.500) 這是因為
+(23:02.940) 一些傳統製造者
+(23:05.060) 將他們的生產
+(23:06.680) 轉移到
+(23:06.920) 高級AI應用類似的
+(23:09.950) 然後我們看見
+(23:12.070) 像是一個新來的
+(23:13.210) 想要取得
+(23:16.800) 因為他們是新來的,所以他們需要買新的工具。
+(23:23.190) 所以,是的,我實際上看到,或許傳統開始增加了10%或20%。
+(23:30.670) 所以,我們可以,我認為應該不會有問題。
+(23:36.340) - 這個季度?
+(23:37.060) - 是的。
+(23:39.700) - 好的。
+(23:40.080) - 這個季度很慢,
+(23:41.570) 無論是第一季度或是去年第二季度,
+(23:46.880) 實際上是更好。
+(23:48.140) - 好的,謝謝。
+(23:51.880) 然後在
+(23:56.090) 明白你做得
+(24:01.560) 然後
+(24:10.620) 從今年開始
+(24:16.910) maybe next year,
+(24:17.970) take a chance.
+(24:19.410) OK, got it
+(24:23.020) 然後最後
+(24:29.490) 那是
+(24:33.390) 我認為
+(24:38.830) 是否有一個時間線
+(24:46.550) 會是這個年度,或者會是下個年度?
+(24:51.620) I will let Lawrence comment on that
+(24:54.340) my product actually
+(25:05.590) but it could be this year
+(25:10.320) yeah for price adjustment
+(25:16.050) over 10% maybe
+(25:21.340) okay got it thank you
+(25:25.140) just maybe
+(25:25.640) but it's going to be this year
+(25:29.590) basically we couldn't pass on the cost
+(25:32.270) for the current immediately
+(25:33.410) you know price increase
+(25:34.990) 尤其是我們需要把材料準備好,並且持續持續發展
+(25:37.550) you know by carry forward
+(25:39.090) so I think
+(25:41.600) but for the next product
+(25:43.340) 我們肯定能夠反映
+(25:46.500) 特別是新的產品
+(25:49.160) 好的,非常明顯,謝謝
+(25:53.900) 謝謝
+(25:57.840) Jennifer,你還有一個問題
+(26:04.660) 謝謝,請
+(26:07.750) 謝謝你提出我的最後一個問題
+(26:11.260) 我想問問SLT的測試時間
+(26:14.320) 現在你已經設置了MI450的SLT
+(26:20.040) 以及Varro Rubin的SLT
+(26:24.440) 測試時間變得更長,
+(26:25.780) 我認為 Blackwell 的測試時間增長後的測試時間增長,
+(26:35.680) 所以我認為這裡有一個類似的模式。
+(26:38.280) Oh,
+(26:38.980) hi,
+(26:40.410) Alex,
+(26:40.770) yes,
+(26:41.130) that's what I commented before,
+(26:42.710) because MI300
+(26:46.400) you know,
+(26:47.020) very high power density,
+(26:48.180) 就是300瓦的能量
+(26:51.280) 最初的目標是4個小時
+(26:59.320) 最近他們已經計算了70%的能量
+(27:06.280) 因此,
+(27:07.220) 我們已經開始運行MI300,
+(27:12.000) 因此,
+(27:13.310) 我們認識到時間轉移的增長。
+(27:17.240) 因此,我們開始在第三季中運行重新運行。
+(27:20.880) 您可以看到,我們還在第四季中運行CST。
+(27:26.380) 我認為最近我們還得到新的CPU。
+(27:30.880) 所以我們看到CPU的需求繼續增加
+(27:35.620) 我們確實看到CPU的需求增加
+(27:38.800) 有趣
+(27:40.340) 你說測試時間是六到八個小時
+(27:44.580) 那只是SLT或包括燒焊嗎
+(27:47.670) 不,沒有燒焊
+(27:49.170) 只是系統級測試
+(27:50.790) 你必須知道
+(27:52.990) 因為AMD是二維
+(27:55.960) 是很大的屏幕
+(27:59.540) And when you say CPU
+(28:01.720) it's referring to both AMD and NVIDIA
+(28:05.820) or just Walden
+(28:07.100) We also cover Google
+(28:11.370) I want to emphasize here
+(28:17.520) we already could do
+(28:19.500) and good at dealing with CPU
+(28:22.160) I see
+(28:24.970) So I think the SLT for CPU
+(28:27.450) is kind of a relative new business
+(28:30.330) for Chroma for the next 12 months
+(28:32.110) Yeah, of course
+(28:37.690) That's very clear
+(28:39.050) Thank you
+(28:42.920) Then Jennifer
+(28:44.860) There are currently no questions
+(28:46.280) Thank you
+(28:47.120) Thank you Jennifer
+(28:55.240) Yeah thank you
+(28:57.700) Then ladies and gentlemen
+(28:59.200) We thank you for your participation
+(29:00.760) In Croma's conference
+(29:01.920) There will be a webcast replay
+(29:04.120) Within an hour
+(29:05.080) Please visit www.croma.tw
+(29:09.430) Slash investor
+(29:10.870) Slash index
+(29:11.970) Under the investor relations section
+(29:14.350) You may now disconnect
+(29:16.070) Thank you again
