@@ -71,6 +71,7 @@ this skill migrates old data automatically — no separate one-off migration scr
 - Taiwan watchlists and the US watchlist are the source of truth for *which* stocks to track; do not hardcode stock lists inside this skill.
 - `即將發布` from `raw_conceptstock_company_metadata.csv` is authoritative for a US stock's fiscal-quarter label — prefer it over the date-shift heuristic (`_quarter_label`), which assumes a ~1-quarter reporting lag and mislabels fast-reporting companies (e.g. DELL, NVDA).
 - Downstream consumers (`skill-investorconference-ingest`'s `ingest_from_todo` / `update_readme`) read 類別 as `財報` / `法說會` / `受邀法說` directly — do not reintroduce `財報公告` as an output value.
+- A `受邀法說` row can be a genuinely separate appearance from the quarter's regular earnings-day call (e.g. an invited forum weeks/months later). `update_readme` guards against attaching the regular call's already-ingested materials to such a row unless its date is within 14 days of the same-quarter `財報` date — see `skill-investorconference-ingest`'s SKILL.md ("README `--update-readme` 合併規則"). Don't assume every `受邀法說` row will carry audio/transcripts even when materials already exist for that quarter.
 
 ## Replaces
 
