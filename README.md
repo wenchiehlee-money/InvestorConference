@@ -6,10 +6,11 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----------:|:----:|
+| 2301 光寶科 | 2026 Q2 | 受邀法說 | 2026-09-16 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | ORCL Oracle Corporation | 2026 Q3 | 財報 | 2026-09-10 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ORCL/financials/) |
-| DELL Dell Technologies 戴爾科技 | 2026 Q4 / Q4FY2027 | 財報 | 2026-09-03 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/DELL/financials/) |
 | HPE Hewlett Packard Enterprise Co. | 2026 Q1 | 財報 | 2026-09-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
 | AVGO Broadcom Inc. | 2026 Q1 | 財報 | 2026-09-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AVGO/financials/) |
+| DELL Dell Technologies 戴爾科技 | 2026 Q4 / Q4FY2027 | 財報 | 2026-09-01 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/DELL/financials/) |
 | 2882 國泰金 | 2026 Q2 | 財報 | 2026-08-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2882) |
 | 2330 台積電 | 2026 Q2 | 受邀法說 | 2026-08-27 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | MRVL Marvell Technology, Inc. | 2025 Q2 | 財報 | 2026-08-27 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MRVL/financials/) |
@@ -19,7 +20,7 @@
 | 3665 貿聯-KY | 2026 Q2 | 財報 | 2026-08-21 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3665) |
 | 2881 富邦金 | 2026 Q2 | 財報 | 2026-08-20 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2881) |
 | 2317 鴻海 | 2026 Q2 | 法說會 | 2026-08-19 | [82.3 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2317_2026_q2.m4a) | - | - | [中](data/2317/2317_2026_q2_ir.pdf) | [EN](data/2317/2317_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
-| 7722 LINEPAY | 2026 Q2 | 法說會 | 2026-08-18 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7722) |
+| 7722 LINEPAY | 2026 Q2 | 法說會 | 2026-08-18 | 無 | - | - | [中](data/7722/7722_2026_q2_ir.pdf) | [EN](data/7722/7722_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7722) |
 | 3045 台灣大 | 2026 Q2 | 法說會 | 2026-08-14 | [38.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3045_2026_q2.m4a) | [📝](data/3045/3045_2026_q2_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
 | 3045 台灣大 | 2026 Q2 | 財報 | 2026-08-14 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
 | 2884 玉山金 | 2026 Q2 | 財報 | 2026-08-14 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2884) |
