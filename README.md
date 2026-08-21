@@ -40,6 +40,8 @@
 | 2357 華碩 | 2026 Q2 | 財報 | 2026-08-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
 | 2474 可成 | 2026 Q2 | 財報 | 2026-08-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2474) |
 | 2474 可成 | 2026 Q2 | 法說會 | 2026-08-10 | 無 | - | - | [中](data/2474/2474_2026_q2_ir.pdf) | [EN](data/2474/2474_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2474) |
+| 2449 京元電子 | 2026 Q2 | 財報 | 2026-08-07 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2449) |
+| 2449 京元電子 | 2026 Q2 | 法說會 | 2026-08-07 | 無 | - | - | [中](data/2449/2449_2026_q2_ir.pdf) | [EN](data/2449/2449_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2449) |
 | 3034 聯詠 | 2026 Q2 | 法說會 | 2026-08-06 | [54.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3034_2026_q2.m4a) | [📝](data/3034/3034_2026_q2_FIN.srt) | - | [中](data/3034/3034_2026_q2_ir.pdf) ([MD](data/3034/3034_2026_q2_ir.md)) | [EN](data/3034/3034_2026_q2_ir_en.pdf) ([MD](data/3034/3034_2026_q2_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | 2353 宏碁 | 2026 Q2 | 財報 | 2026-08-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2353) |
 | 2353 宏碁 | 2026 Q2 | 法說會 | 2026-08-06 | 無 | - | - | [中](data/2353/2353_2026_q2_ir.pdf) | [EN](data/2353/2353_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2353) |
