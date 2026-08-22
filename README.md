@@ -21,6 +21,8 @@
 | 6285 啟碁 | 2026 Q2 | 受邀法說 | 2026-08-21 | 無 | - | - | [中](data/6285/6285_2026_q2_ir.pdf) | [EN](data/6285/6285_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6285) |
 | 2891 中信金 | 2026 Q2 | 財報 | 2026-08-21 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2891) |
 | 2891 中信金 | 2026 Q2 | 法說會 | 2026-08-21 | [83.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2891_2026_q2.m4a) | [📝](data/2891/2891_2026_q2_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2891) |
+| 3665 貿聯-KY | 2026 Q2 | 財報 | 2026-08-21 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3665) |
+| 3665 貿聯-KY | 2026 Q2 | 法說會 | 2026-08-21 | [62.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3665_2026_q2.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3665) |
 | 7722 LINEPAY | 2026 Q2 | 法說會 | 2026-08-18 | 無 | - | - | [中](data/7722/7722_2026_q2_ir.pdf) | [EN](data/7722/7722_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7722) |
 | 3045 台灣大 | 2026 Q2 | 法說會 | 2026-08-14 | [38.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3045_2026_q2.m4a) | [📝](data/3045/3045_2026_q2_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
 | 3045 台灣大 | 2026 Q2 | 財報 | 2026-08-14 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
