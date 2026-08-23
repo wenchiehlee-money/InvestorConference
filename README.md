@@ -6,6 +6,7 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----------:|:----:|
+| INTC Intel Corporation | 2026 Q2 | 財報 | 2026-10-22 | - | - | - | - | [EN](data/INTC/INTC_2026_q2_earnings_release.md) | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
 | 2301 光寶科 | 2026 Q2 | 受邀法說 | 2026-09-16 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | ORCL Oracle Corporation | 2026 Q3 | 財報 | 2026-09-10 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ORCL/financials/) |
 | 2317 鴻海 | 2026 Q2 | 受邀法說 | 2026-09-03 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
@@ -22,7 +23,7 @@
 | 2891 中信金 | 2026 Q2 | 財報 | 2026-08-21 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2891) |
 | 2891 中信金 | 2026 Q2 | 法說會 | 2026-08-21 | [83.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2891_2026_q2.m4a) | [📝](data/2891/2891_2026_q2_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2891) |
 | 3665 貿聯-KY | 2026 Q2 | 財報 | 2026-08-21 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3665) |
-| 3665 貿聯-KY | 2026 Q2 | 法說會 | 2026-08-21 | [62.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3665_2026_q2.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3665) |
+| 3665 貿聯-KY | 2026 Q2 | 法說會 | 2026-08-21 | [62.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3665_2026_q2.m4a) | [📝](data/3665/3665_2026_q2_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3665) |
 | 7722 LINEPAY | 2026 Q2 | 法說會 | 2026-08-18 | 無 | - | - | [中](data/7722/7722_2026_q2_ir.pdf) | [EN](data/7722/7722_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7722) |
 | 3045 台灣大 | 2026 Q2 | 法說會 | 2026-08-14 | [38.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3045_2026_q2.m4a) | [📝](data/3045/3045_2026_q2_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
 | 3045 台灣大 | 2026 Q2 | 財報 | 2026-08-14 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
@@ -93,7 +94,6 @@
 | 3035 智原 | 2026 Q2 | 財報 | 2026-07-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3035) |
 | 2337 旺宏 | 2026 Q2 | 財報 | 2026-07-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2337) |
 | 2337 旺宏 | 2026 Q2 | 法說會 | 2026-07-28 | 無 | - | - | [中](data/2337/2337_2026_q2_ir.pdf) ([MD](data/2337/2337_2026_q2_ir.md)) | [EN](data/2337/2337_2026_q2_ir_en.pdf) ([MD](data/2337/2337_2026_q2_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2337) |
-| INTC Intel Corporation | 2026 Q2 | 財報 | 2026-07-23 | - | - | - | - | [EN](data/INTC/INTC_2026_q2_earnings_release.md) | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
 | 2330 台積電 | 2026 Q2 | 財報 | 2026-07-16 | - | - | - | - | [EN](data/2330/2330_2026_q2_earnings_release.pdf) ([MD](data/2330/2330_2026_q2_earnings_release.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 2330 台積電 | 2026 Q2 | 法說會 | 2026-07-16 | [70.4 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2330_2026_q2.m4a) | [📝](data/2330/2330_2026_q2_FIN.srt) | - | [中](data/2330/2330_2026_q2_ir.pdf) ([MD](data/2330/2330_2026_q2_ir.md)) | [EN](data/2330/2330_2026_q2_ir_en.pdf) ([MD](data/2330/2330_2026_q2_ir_en.md)) | [📊](data/reports/conference-digests/2330/2330_2026_q2_digest.md) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 2408 南亞科 | 2026 Q2 | 財報 | 2026-07-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2408) |
