@@ -19,7 +19,7 @@
 | 2330 台積電 | 2026 Q2 | 受邀法說 | 2026-08-27 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 7734 印能科技 | 2026 Q2 | 受邀法說 | 2026-08-27 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7734) |
 | MRVL Marvell Technology, Inc. | 2025 Q2 | 財報 | 2026-08-27 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MRVL/financials/) |
-| NVDA NVIDIA 輝達 | 2026 Q4 / Q4FY2027 | 財報 | 2026-08-26 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
+| NVDA NVIDIA 輝達 | 2026 Q3 / Q2FY2027 | 財報 | 2026-08-26 | - | - | - | - | [EN](data/NVDA/NVDA_2027_q2_report_en.md) | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
 | HPQ HP Inc. | 2026 Q1 | 財報 | 2026-08-26 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPQ/financials/) |
 | 6285 啟碁 | 2026 Q2 | 受邀法說 | 2026-08-21 | 無 | - | - | [中](data/6285/6285_2026_q2_ir.pdf) | [EN](data/6285/6285_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6285) |
 | 2891 中信金 | 2026 Q2 | 財報 | 2026-08-21 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2891) |
