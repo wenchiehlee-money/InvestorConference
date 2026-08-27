@@ -1,0 +1,18 @@
+{
+  "stock_id": "NVDA",
+  "fiscal_label": "Q2 FY2027",
+  "period_end": "2026-07-26",
+  "announced": "2026-08-26",
+  "event_type": "財報",
+  "sources": [
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
+      "source_type": "SEC 8-K Exhibit 99.1 earnings press release",
+      "retrieved_at": "2026-08-27",
+      "accession": "0001045810-26-000073",
+      "sha256": "35c7065005cdf709c1bd25f1d09866476e9608cfbab8380564d80cf00420d843",
+      "notes": "Converted to NVDA_2027_q2_report_en.md; raw HTML not retained locally."
+    }
+  ],
+  "label_mismatch_note": "raw_event_upcoming_earnings.csv 與 README 將此事件標為 'FY2026 Q4'／'Q4FY2027'，與公司官方 SEC 8-K 標示的 'Second Quarter Fiscal 2027'（期末 2026-07-26）不符。已依 SEC 官方文件採用 NVDA_2027_q2 作為 stem；CSV/README 標籤沿用既有 KNOWN_US_FISCAL_YEAR_START_MONTH 推算邏輯，建議後續檢查 calendar_to_fiscal() 對 NVDA 的月份/季度換算。"
+}

@@ -126,7 +126,7 @@ _QUARTER_END_MONTH_DAY = {"1": (3, 31), "2": (6, 30), "3": (9, 30), "4": (12, 31
 # 法說會日期落在財季結束後超過此天數，視為受邀參加的投資論壇/法說會而非例行法說會。
 INVITED_MEETING_THRESHOLD_DAYS = 50
 
-# 財年與日曆年一致的美股（來自 skill-investorconference-ingest 已驗證的清單）。
+# 財年與日曆年一致的美股（來自 skill-company-investorconference-ingest 已驗證的清單）。
 # raw_conceptstock_company_metadata.csv 的「即將發布」欄位對這些 ticker 常有一整季的落差
 # （例如 Alphabet 7 月公布的日曆 Q2 財報，metadata 卻標成 'FY2026 Q1'），
 # 需要以財報日期反推的日曆季度覆蓋，而不是直接信任 metadata 的 FY 標籤。
@@ -152,7 +152,7 @@ def _resolve_us_quarter_label(symbol: str, date_str: str, metadata_quarter: str 
 
     對財年與日曆年一致的已知 ticker（KNOWN_US_CALENDAR_YEAR_EARNINGS），以財報日期反推
     的日曆季度為準，metadata 的 FY 標籤僅供比對；衝突時印出警告並採用日期推算結果，
-    與 skill-investorconference-ingest README 產生器的 expected_us_calendar_earnings_quarter
+    與 skill-company-investorconference-ingest README 產生器的 expected_us_calendar_earnings_quarter
     workaround 保持一致。其餘 ticker 仍優先信任 metadata 的「即將發布」欄位。
     """
     display = symbol.replace(".TW", "").replace(".TWO", "").upper()
@@ -192,7 +192,7 @@ def _classify_legal_meeting_category(event_name: str, date_str: str) -> str:
 
     Heuristic：事件名稱含 'YYYY Qn'，若事件日期晚於該財季結束日超過
     INVITED_MEETING_THRESHOLD_DAYS 天，代表這不是配合當季財報公布的例行法說會，
-    而是受邀參加的投資論壇/法說會。與 skill-investorconference-ingest 的
+    而是受邀參加的投資論壇/法說會。與 skill-company-investorconference-ingest 的
     README 產生器（is_invited heuristic）採用同一規則，維持分類一致。
     """
     m = _QUARTER_RE.search(event_name)
@@ -665,7 +665,7 @@ def _purge_stale_future_earnings(existing_by_name: dict, fresh_rows: list[list],
     財報事件名稱含季度標籤（例如 'FY2026 Q2 財報'），若新抓到的日期落在不同季度，
     名稱就會不同，merge-by-name 邏輯無法辨識為同一事件、也就不會覆蓋掉舊筆 --
     導致同一 ticker 出現兩筆矛盾的未來財報日期（例如舊資料寫 7 月、新資料寫 10 月）。
-    只處理尚未發生（>= today）的財報列，避免刪到 skill-investorconference-ingest
+    只處理尚未發生（>= today）的財報列，避免刪到 skill-company-investorconference-ingest
     的 --auto-todo 需要用來比對「已發生但尚未收錄」的歷史紀錄。同時移除該筆對應的
     衍生法說會事件（見 _derive_us_call_rows），避免留下指向錯誤日期的孤兒法說會。
     """
