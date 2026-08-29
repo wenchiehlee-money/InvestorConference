@@ -10,7 +10,6 @@
 | 2301 光寶科 | 2026 Q2 | 受邀法說 | 2026-09-16 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | ORCL Oracle Corporation | FY2026 Q3 | 法說會 | 2026-09-10 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ORCL/financials/) |
 | ORCL Oracle Corporation | FY2026 Q3 | 財報 | 2026-09-10 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ORCL/financials/) |
-| 2317 鴻海 | 2026 Q2 | 受邀法說 | 2026-09-03 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | HPE Hewlett Packard Enterprise Co. | FY2026 Q1 | 受邀法說 | 2026-09-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
 | AVGO Broadcom Inc. | FY2026 Q1 | 受邀法說 | 2026-09-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AVGO/financials/) |
 | HPE Hewlett Packard Enterprise Co. | FY2026 Q1 | 財報 | 2026-09-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
@@ -19,7 +18,7 @@
 | DELL Dell Technologies 戴爾科技 | FY2027 Q2 | 財報 | 2026-09-01 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/DELL/financials/) |
 | 8299 群聯 | 2026 Q2 | 受邀法說 | 2026-08-28 | 無 | - | - | [中](data/8299/8299_2026_q2_ir.pdf) | [EN](data/8299/8299_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8299) |
 | 2882 國泰金 | 2026 Q2 | 財報 | 2026-08-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2882) |
-| 2882 國泰金 | 2026 Q2 | 法說會 | 2026-08-28 | [23.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2882_2026_q2.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2882) |
+| 2882 國泰金 | 2026 Q2 | 法說會 | 2026-08-28 | [23.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2882_2026_q2.m4a) | [📝](data/2882/2882_2026_q2_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2882) |
 | 7734 印能科技 | 2026 Q2 | 受邀法說 | 2026-08-27 | 無 | - | - | [中](data/7734/7734_2026_q2_ir.pdf) | [EN](data/7734/7734_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7734) |
 | NVDA NVIDIA 輝達 | FY2027 Q2 | 法說會 | 2026-08-26 | [Webcast](https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-2nd-Quarter-FY27-Financial-Results/default.aspx) | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
 | NVDA NVIDIA 輝達 | FY2027 Q2 | 財報 | 2026-08-26 | - | - | - | - | [EN](data/NVDA/NVDA_2027_q2_report_en.md) | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
@@ -50,7 +49,7 @@
 | 2474 可成 | 2026 Q2 | 財報 | 2026-08-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2474) |
 | 2474 可成 | 2026 Q2 | 法說會 | 2026-08-10 | 無 | - | - | [中](data/2474/2474_2026_q2_ir.pdf) | [EN](data/2474/2474_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2474) |
 | 2449 京元電子 | 2026 Q2 | 財報 | 2026-08-07 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2449) |
-| 2449 京元電子 | 2026 Q2 | 法說會 | 2026-08-07 | [20.3 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2449_2026_q2.m4a) | - | - | [中](data/2449/2449_2026_q2_ir.pdf) | [EN](data/2449/2449_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2449) |
+| 2449 京元電子 | 2026 Q2 | 法說會 | 2026-08-07 | [20.3 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2449_2026_q2.m4a) | [📝](data/2449/2449_2026_q2_FIN.srt) | - | [中](data/2449/2449_2026_q2_ir.pdf) | [EN](data/2449/2449_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2449) |
 | 3034 聯詠 | 2026 Q2 | 法說會 | 2026-08-06 | [54.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3034_2026_q2.m4a) | [📝](data/3034/3034_2026_q2_FIN.srt) | - | [中](data/3034/3034_2026_q2_ir.pdf) ([MD](data/3034/3034_2026_q2_ir.md)) | [EN](data/3034/3034_2026_q2_ir_en.pdf) ([MD](data/3034/3034_2026_q2_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | 2347 聯強 | 2026 Q2 | 財報 | 2026-08-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2347) |
 | 2347 聯強 | 2026 Q2 | 法說會 | 2026-08-06 | [65.4 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2347_2026_q2.m4a) | [📝](data/2347/2347_2026_q2_FIN.srt) | - | [中](data/2347/2347_2026_q2_ir.pdf) | [EN](data/2347/2347_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2347) |
