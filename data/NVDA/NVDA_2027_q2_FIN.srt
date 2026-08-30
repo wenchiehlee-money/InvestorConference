@@ -1,858 +1,568 @@
 [METADATA]
-Source: NVDA_2027_q2_exp11
-Language: zh
+Source: NVDA_2027_q2_exp13
+Language: en
 ---
-(00:23.940) simply press star,
-(00:25.340) simply press star,
-(00:28.500) 如果您想要提出您的問題,請再按星1。謝謝。
-(02:06.230) which is posted on our website.
-(02:10.280) Thanks, Toshia.
-(02:11.380) Thanks, Toshia.
-(02:17.660) Total revenue of $96 billion,
-(02:36.270) spanning hyperscalers,
-(02:51.000) this is a supply constrained outlook
-(03:07.580) which includes our NeoCloud,
-(03:38.070) Now greater than 2 trillion
-(03:40.190) HAPEX by the top 5 hyperscalers
-(03:43.490) 是預期在2026年達到近800億元
-(03:47.650) and 1.3 trillion in 2027
-(03:50.750) 今天我們很高興
-(03:56.060) 在AWS的已經大量的
-(04:00.870) AWS正在發佈
-(04:05.150) 從這一 quarter
-(04:09.110) along with Vera CPUs
-(04:14.490) AWS will serve NVIDIA Nematron family
-(04:26.860) Omniverse, Cosmos, Isaac and Judson
-(04:30.140) to power its fleet of warehouse robots
-(04:33.380) ACI and E revenue of 40 billion
-(04:44.130) 增長被NEO Cloud Capacity Additions
-(04:50.150) AI startups,
-(04:51.690) and sovereigns,
-(04:53.030) 以及高級化工程師
-(04:58.670) 用NVIDIA DSX提供的設計設計
-(05:02.710) 我們的NEO Cloud夥伴
-(05:04.590) 將能夠更快地提供能源
-(05:06.570) 並在低價格的價格上
-(05:09.530) 他們預期在一年內
-(05:12.250) 以8GW總的設計能量
-(05:15.330) 從最後的2025年
-(05:20.130) 大概3GW上升
-(05:20.210) 不可思議地
-(05:21.980) 我們在我們的價格上
-(05:24.600) 也在我們的價格上
-(05:26.200) 客戶們的預測
-(05:28.280) point to our growth doubling next year
-(05:30.920) However, as I mentioned earlier
-(05:33.240) we expect to grow approximately 70%
-(05:36.600) as we are supply constrained
-(05:38.340) NVIDIA Compute is fully utilized
-(05:41.860) across every cloud we serve
-(05:44.000) The economic value it generates
-(05:46.620) for our hyperscale, neocloud
-(05:48.780) and AI lab partners keeps rising
-(05:55.340) and the most capable supply chain
-(05:57.800) NVIDIA has three unique capabilities
-(06:00.260) that are engines powering our growth
-(06:08.520) and we're growing share
-(06:09.900) as closed and open model adoption grow
-(06:13.200) Closed and open models alike
-(06:15.860) adoption is skyrocketing
-(06:18.180) NVIDIA runs the leading closed models
-(06:20.880) OpenAI, Anthropic, Grok, Meta, Gemini
-(06:25.020) and the leading open models
-(06:27.020) TML,
-(06:28.040) Mistral,
-(06:28.860) Quinn,
-(06:29.440) Kimi,
-(06:30.260) GLM,
-(06:33.760) DeepSeek,
-(06:34.780) Minimax,
-(06:35.600) and Nematron
-(06:36.500) and Nematron
-(06:40.110) Large or video
-(06:41.870) Auto, regressive or diffusion
-(06:44.400) In the cloud or in the edge
-(06:47.210) NVIDIA is great at training
-(06:49.720) Great at inference
-(06:51.140) Great at agentic workloads
-(06:53.080) One platform
-(06:54.800) Fungible for every model and workload
-(06:58.080) Durable for the entire life cycle of AI
-(07:01.600) That combination of performance
-(07:06.760) Is what makes NVIDIA
-(07:12.500) Compute infrastructure
-(07:23.250) Since Hopper, our revenue opportunity
-(07:27.140) from roughly 18 billion per gigawatt
-(07:30.620) to 25 billion with Blackwell
-(07:33.600) to 40 billion with Vera Rubin
-(07:36.720) which now spans Vera CPU, Rubin GPU
-(07:40.640) NV-Link, InfiniBanner Ethernet
-(07:43.800) and Grok LPU announced earlier this week
-(07:48.470) Our ability to extreme code design
-(07:52.320) code design across GPU
-(07:55.760) scale-out networking systems
-(07:58.060) systems, algorithms and software
-(08:05.540) Vera Rubin exemplifies this,
-(08:08.600) this, delivering
-(08:20.360) 我們在這個月開始發佈的發佈產品
-(08:25.220) 我們已經收到每個綜合智能、AI Cloud和System OEM的購買訂購訂券
-(08:32.310) 我們期望Vera Rubin能夠代表NVIDIA的最快的產品線
-(08:37.830) 我們的聯絡商業的收入增加了18%
-(08:47.880) Spectrum X Ethernet,
-(08:50.140) which grew 2.6x
-(08:53.980) on a year-over-year basis
-(09:00.560) Rising adoption of Agentech AI
-(09:08.760) Our Grace CPU,
-(09:10.050) introduced in 2021,
-(09:11.810) has been a great success,
-(09:13.870) with revenue on a trailing 12-month
-(09:19.190) Today we are in full production
-(09:23.340) As a standalone product
-(09:28.320) Vera達到1.8X快速的Agenic任務
-(09:36.000) 在SPEC標準上
-(09:42.700) 我們期待Vera
-(09:47.860) NEO Cloud, AI Lab, and System OEM
-(09:51.440) with shipments already underway
-(09:53.620) to our lead partners,
-(09:58.400) and starting this quarter, AWS
-(10:01.340) We continue to see demand
-(10:04.490) for approximately 20 billion
-(10:08.490) and based on our customer demand
-(10:10.410) and improving supply outlook
-(10:11.830) our preliminary expectation
-(10:13.630) is for CPU revenue to more than double
-(10:17.250) in fiscal 28
-(10:18.900) 在今年二十八年,
-(10:22.080) server CPU suppliers
-(10:23.980) Since the announcement
-(10:26.790) of our Grok partnership last year
-(10:29.030) we've been working to unite
-(10:30.910) NVIDIA's high throughput
-(10:32.550) and Grok's high
-(10:34.370) interactivity architectures
-(10:36.570) At Hot Chips earlier this week
-(10:39.220) we announced
-(10:40.540) that Grok 3 LPX
-(10:43.060) our first rack scale
-(10:45.140) LPU system
-(10:46.340) is in full production
-(10:48.180) and already setting records
-(10:50.440) demonstrating nearly 4x
-(10:54.900) against the next best alternative
-(10:57.680) on our artificial analysis benchmark
-(11:00.300) we expect to ship Grok 3 LPX in volume
-(11:05.330) later this quarter to early adopters
-(11:08.190) Nebius will be the first
-(11:10.250) 今天,我們不僅是賣最好的芯片
-(11:14.140) 我們正在賣出一個全組AI工程設備
-(11:16.840) offering superior economics
-(11:19.220) 並獲得了Data Center TAM的更大的股份
-(11:31.400) and rich CUDA ecosystem
-(11:59.650) Bring it to full operation,
-(12:04.450) and connect it to off-take demand
-(12:12.790) But non-hyperscalar growth,
-(12:15.470) our AIC&E segment
-(12:22.900) enterprise edge,
-(12:24.000) enterprise edge and air GAAP data centers
-(12:29.480) Our AI-native startup ecosystem,
-(12:32.920) 在NVIDIA的計算平臺上發展並在運行的主要行業中,
-(12:37.140) is scaling at a rapid pace.
-(12:39.700) Global VC Funding in AI,
-(12:42.440) 大概70%的資金在計算中花費超過2026年初的400億元,
-(12:50.640) 超過2025年初的265億元。
-(14:03.340) In sovereign AI,
-(14:05.710) In sovereign AI,
-(14:24.900) We don't own a cloud ourselves
-(14:27.040) We are a neutral partner
-(14:28.760) to every sovereign and neo-cloud
-(14:31.340) And because NVIDIA compute is productive
-(14:34.150) fungible, rentable and durable
-(14:36.570) regional cloud interest is surging
-(14:40.130) We helped Quarwe, Nebius and Nscale
-(14:44.620) build entire infrastructure businesses
-(14:47.440) And neo-clouds are emerging everywhere
-(14:50.240) Firebird in Armenia
-(14:52.740) Casaba Technologies across Africa
-(14:56.810) GMI Cloud in Taiwan
-(14:59.460) YOTA and NASA in India
-(15:02.740) FIRMIS in Australia
-(15:04.840) YTLAI Cloud in Malaysia
-(15:07.220) 配合地域的力量和行動知識
-(15:13.660) Last month,
-(15:16.140) we announced a partnership with NOATRA,
-(15:18.840) Japan's national AI company
-(15:21.680) to build an NVIDIA DSX AI factory
-(15:25.660) that will create open models
-(15:27.260) 以支援AI人員
-(15:30.940) and physical AI applications
-(15:33.120) South Korea's LG and Hyundai Motor Group
-(16:10.930) NVIDIA provides a take or pay commitment
-(16:16.570) a minimum revenue guarantee
-(16:21.990) and in exchange
-(16:35.890) we're not making loans
-(16:56.740) alongside our core platform revenue
-(16:59.340) 與未來的中長期和中小時的資源
-(17:02.500) over the medium to long term
-(17:04.400) 一起,NVIDIA的三個獨特的能力
-(17:09.020) a platform that runs every model
-(17:11.120) a full-stack AI factory platform
-(17:13.300) capturing more of the data center TAM
-(17:15.600) 和ACUDA ecosystem
-(17:19.840) No single chip could reach alone
-(17:22.900) reinforce one another
-(17:25.380) and are the engines of our growth
-(17:28.320) Let me update you on our progress
-(17:32.600) with our Frontier AI Labs
-(17:37.980) for training and inference compute
-(17:39.860) but they are growing faster
-(17:41.480) than what their balance sheets
-(17:43.160) and credit profiles can support
-(17:47.350) yet still lack the decades-long
-(17:49.650) infrastructure contracts
-(17:50.950) and investment grade financing capacity
-(17:53.850) 需要以自動保護
-(17:58.330) in other words
-(18:02.970) or customer demand
-(18:04.590) It's limited by compute
-(18:06.680) for these companies
-(18:12.090) more users and more revenue
-(18:14.370) NVIDIA需要
-(18:18.180) first we've invested nearly 50 billion
-(18:24.330) This was a meaningful commitment
-(18:26.170) but it represented a small fraction
-(18:31.130) 再加上,為了支持Frontier Lab的資產建築
-(18:35.990) we recently announced partnerships
-(18:42.330) 例如,阿波羅、黑石、黑石、布克菲勒、金門、SACS和KKR
-(18:48.030) to establish financing platforms
-(18:50.270) that will raise over 500 billion
-(18:52.470) of third-party capital
-(18:54.010) With these partnerships
-(18:55.750) building on our unique, fungible
-(18:58.070) and durable computing platform
-(18:59.650) the AI labs will be able to build
-(19:02.070) and assess AI infrastructure
-(19:08.160) at relatively attractive rates
-(19:11.230) Last week, we announced
-(19:17.670) 通過我們與 SoftBank Energy合作
-(19:20.030) to exclusively host NVIDIA Compute
-(19:23.390) at their Portsmouth campus
-(19:28.290) 4.25 gigawatts of AI factory capacity
-(19:31.610) will be utilized by OpenAI
-(19:37.620) deployed at Portsmouth
-(19:44.880) In over 20 years
-(19:46.120) In over 20 years, the site could support
-(19:48.800) Here's the essential economic point
-(19:59.000) can be upgraded repeatedly
-(20:10.750) of NVIDIA AI infrastructure through 2030
-(20:14.930) OpenAI的 existing and planned commitments represent approximately 12 gigawatts of NVIDIA compute
-(20:21.880) For another frontier AI lab,
-(20:25.420) 我們將提供選擇的信用增長
-(20:30.720) 這並增加了NVIDIA的計算能量
-(20:40.280) We recognize the scale of this support,
-(20:44.690) 我們知道有些人會稱這為平行財務
-(20:48.570) We see it differently.
-(20:50.430) 我們正在進行一個重要的計算機平行
-(20:53.620) 是人文歷史中最重要的技術
-(20:57.880) 這些是一代一代的公司
-(21:01.700) 他們的技術領導是證明
-(21:08.180) 我們期待他們成為
-(21:13.800) We believe these investments
-(21:18.680) The business they create for us
-(21:29.480) And our risk is limited
-(21:31.540) The NVIDIA compute platform
-(21:39.440) For context
-(21:51.520) This remains compute we ship
-(21:57.630) Or those that are backed by one
-(21:59.990) In Q2, we ship less than 1%
-(22:08.160) to customers based in China
-(22:13.900) current hopper shipments
-(22:16.200) are dilutive to corporate gross margins
-(22:25.620) in our forward outlook
-(22:27.100) moving to the rest of the P&L
-(22:31.580) GAAP and non-GAAP gross margins
-(22:33.840) were both 75%
-(22:35.340) largely unchanged from last quarter
-(22:38.020) due to a similar product mix
-(22:40.120) GAAP and non-GAAP operating expenses
-(22:45.680) primarily due to high
-(22:51.980) Our non-GAAP effective tax rate of 16%
-(22:59.800) On our balance sheet
-(23:07.370) Days of sales outstanding
-(23:19.900) In Q2,
-(23:22.070) In Q2,
-(23:25.850) $20 billion through share repurchases,
-(23:33.190) Relative to our plan to return
-(23:38.570) we returned 60% on a year-to-date basis
-(23:42.230) And going forward, we intend to increase
-(24:14.770) as supply of Vera Rubin grows over time.
-(24:25.160) Looking ahead,
-(24:26.610) Looking ahead,
-(24:38.110) we expect supply to remain a bottleneck,
-(24:53.880) As you are already aware
-(25:11.940) For Q3,
-(25:18.830) plus or minus 50 basis points.
-(25:50.650) and unlike a component
-(25:56.610) with no offset benefit
-(26:08.150) and we're working closely with them
-(26:14.790) GAAP and non-GAAP operating expenses
-(26:24.360) respectively.
-(26:25.640) For the full year,
-(26:26.840) 全年期
-(26:30.220) 由於我們的產品股份幅度幅度幅度增長
-(26:35.280) 這已經是
-(26:39.440) For full year,
-(26:41.900) fiscal year 27,
-(26:43.420) 平均年期27
-(26:50.020) excluding any discrete items
-(26:55.220) with that we will now transition to Q&A
-(27:02.850) At this time,
-(27:06.920) I would like to remind everyone,
-(27:08.400) in order to ask a question,
-(27:10.120) press star,
-(27:10.900) press star then the number one
-(27:13.640) on your telephone keypad
-(27:17.500) your first question comes from the line
-(27:24.050) Your line is open
-(27:25.790) Great, thank you
-(27:29.130) 我們的網站是開的
-(27:36.300) If you haven't been doing that
-(27:46.100) And could you close those gaps over time
-(27:48.020) Yeah,
-(27:48.640) thanks,
-(27:50.770) Joe. As you probably are aware,
-(28:08.650) because they're smarter than ever
-(28:13.490) Multiple turns of tool use
-(28:20.650) Versus a human using it
-(28:22.110) Is probably 15 to 100 times
-(28:24.190) 根據你想解決的問題
-(28:26.350) And so the amount of compute necessary
-(28:28.640) Is just extraordinary
-(28:29.800) 這就是幾乎所有人都看到的因素
-(28:33.300) 而我們的成長是別人不看到的
-(28:37.460) Because we're practically singular
-(28:39.460) 是我們的生產方式
-(28:42.600) 我們是世界上唯一一個
-(28:44.260) that creates and builds
-(28:45.500) offers an entire AI factory platform
-(28:49.760) a full stack system
-(28:51.940) 顧客們仍然可以混合,但大多數公司不具有這種能力或意志
-(28:54.200) however most companies
-(28:57.070) just don't have the skills to do that
-(28:58.870) or desire to do that
-(28:59.810) 因此,我們體驗的整個市場都在增長中。
-(29:02.210) that we experience growth
-(29:04.140) there's sovereign AI
-(29:05.240) there are regional AIs
-(29:06.240) there are neo clouds
-(29:06.960) there are AI startups
-(29:08.400) there are enterprises
-(29:09.940) 在我們看到的,這代表了大半個我們的商業,
-(29:14.580) 它在每年增長百分之一。
-(29:16.830) 這部分世界的計算機可能會比我們現在在 cloud 中經歷的事更大。
-(29:26.090) 所以,我認為我們看到的需求被所有這些因素引起。
-(29:46.700) 是需要使用的供應鏈
-(29:54.440) All of the labor that's necessary
-(29:56.400) 人工智能基礎
-(30:02.690) It just takes a lot more planning
-(30:05.070) 因此我們正在進行
-(30:09.530) Further down the pipeline
-(30:11.130) Just as a long time ago people asked me
-(30:14.250) 人們問我
-(30:17.630) When we're a chip company
-(30:19.030) and today people understand
-(30:21.950) it's really quite genius
-(30:25.010) We work with power generator companies
-(30:27.430) downstream
-(30:32.950) all around the world
-(30:34.650) and that helps prepare
-(30:36.790) all of this computing
-(30:38.680) that's going to be built
-(30:39.720) that will ultimately deploy
-(30:41.180) for our ecosystem
-(30:41.900) and our customers
-(30:42.560) and so we just have
-(30:44.040) a lot greater visibility now
-(30:46.180) upstream and downstream
-(30:47.940) it is the case
-(30:49.880) that we've never forecasted
-(30:52.460) or never guided
-(30:53.380) to a year in advance
-(30:56.890) and even though our demand
-(30:59.450) is much greater than 70%
-(31:01.310) our supply allows us
-(31:03.730) to confidently deliver 70%
-(31:05.690) and we're going to continue to work
-(31:07.390) with our supply chain
-(31:08.190) to increase on that
-(31:09.170) but what we wanted to do
-(31:11.080) is to be consistent with everybody
-(31:13.680) from our customers
-(31:14.800) our shareholders
-(31:15.900) our supply chain
-(31:17.380) everybody sees the same view
-(31:19.800) and the reason why that's important
-(31:22.120) is because you know
-(31:25.610) and so we wanted to make sure
-(31:27.390) 所以我們想確保每個人都有同一系列的資訊,
-(31:30.800) and we've got a huge year
-(31:32.680) coming up next year
-(31:33.860) 而且,呃,呃,這將會非常令人印象深刻。
-(31:37.160) 您的下一個問題來自CJ Muse的網站,
-(31:44.860) With Cancer Fitzgerald
-(31:46.500) Your line is open
-(31:47.780) Yeah, good afternoon
-(31:49.960) Thank you for taking the question
-(31:51.160) There's tremendous investor focus
-(31:53.460) On your inference market share
-(31:54.900) Can you speak to the evolving workloads
-(31:57.120) You're seeing with the Gentic AI
-(32:01.480) Particularly when you reflect on
-(32:03.280) The growing value of the TAM
-(32:06.700) Your expectation for greater growth
-(32:09.040) 從ACIE
-(32:09.900) 然後包括GRAC3 LPX
-(32:12.540) 我們想聽聽您的想法
-(32:13.960) 謝謝CJ
-(32:17.480) AI生活 cycle
-(32:18.800) 越來越複雜
-(32:20.980) 它在NVIDIA的建築物上
-(32:28.290) 比以前的更加有用
-(32:30.820) 你可以看到它是四個階段
-(32:33.360) 第一階段
-(32:35.110) 就是準備所有你需要的資料
-(32:38.530) 有些是細菌
-(32:39.530) 有些是真實的
-(32:40.410) 有些是人工勞動
-(32:41.810) 有些是人工製作,人工製作和生成的
-(32:46.970) 然後是代理的輸出
-(32:53.740) 所以每個階段都非常複雜。
-(32:59.200) and we created this with MVLink 72,
-(33:11.700) 是很困難的建造第一代,
-(33:17.600) 我們現在正在建立我們的第三代的MV-Link 72 rack scale系統。
-(33:21.860) 我們必須重複整個供應鏈,
-(33:23.800) 重複系統,
-(33:24.800) 重複技術,
-(33:25.820) 重複我們的軟件,
-(33:28.920) 每個方面都很困難。
-(33:30.680) every aspect of it was hard.
-(33:35.840) 讓我們可以從數據創造、數據準備
-(33:41.820) the pre-training,
-(33:45.600) The benefits to customers is incredible
-(33:49.100) 原因是因為我們剛才提到
-(33:51.600) you know,
-(34:00.220) 與HOPPER和Infiniband
-(34:07.640) 因為它要用那麼多種聯絡
-(34:12.420) 不僅是在線上的安全聯絡
-(34:18.640) 所以你可以說是五種不同的聯絡系統
-(34:21.560) 然後當然是Grok
-(34:33.250) 所以每GW的數據中心
-(34:38.290) say,
-(34:39.050) 從說30億美元
-(34:47.190) Of course,
-(34:47.490) the productivity is tremendous,
-(34:48.990) 在比較上,表現上是很厲害的,但是您在談論一個60億美元的投資。
-(34:56.750) 至於你能夠用它在AI生活循環的多個階段中使用,
-(35:04.230) 你能想象每個模型在使用上的每個模型,
-(35:08.430) 無論是融洽,或是自動轉換,或是國際空間,或是某種混合版本的那種,
-(35:14.010) 每個關於注意力的模型,你能想象的小或大型模型,
-(35:17.940) small or large models,
-(35:19.340) 你所做的投資
-(35:29.800) 有很多長時間的時間
-(35:34.860) 是非常強大的
-(35:40.100) 已經大幅度的升級
-(35:43.990) Let's say you asked about Grok
-(35:48.490) 我們很興奮地成立了GROK3
-(35:51.470) 我們成立了最強的線路互動率
-(35:57.500) 非常低線路互動率的表現
-(36:00.280) 我們的團隊做得非常好
-(36:03.100) 我們在過去幾個月內
-(36:05.120) 使用MV-Link的建築物
-(36:08.780) 這將是核心
-(36:11.280) 這是核心引擎
-(36:13.500) 而如果您想要超高的互動力
-(36:19.500) super high speed token generation done
-(36:25.820) the cost per token will be higher
-(36:28.520) 但您可以與高ASP的服務相關
-(36:33.830) And so for those companies
-(36:38.850) I'm super excited about that
-(36:40.010) I'm super excited about that
-(36:43.210) Vera Rubin, MVLink 72
-(36:50.780) Stacey Rasgon with Bernstein Research
-(36:53.040) Your line is open
-(36:54.560) Hi guys, thanks for taking my question
-(36:57.450) So the 70% growth
-(36:59.470) in fiscal 28, which I guess is
-(37:01.510) sort of calendar 27
-(37:03.890) So that's something like
-(37:06.260) I don't know, a $200 billion uptick
-(37:08.840) versus the prior outlook
-(37:10.920) 如果我回顧一下,
-(37:13.100) so this is probably $200 billion more.
-(37:15.300) so this is probably $200 billion more.
-(37:17.400) through the contributor
-(37:19.660) 對於不同的產品的增加,
-(37:21.880) 例如Vira,
-(37:22.240) CPU,
-(37:22.960) Grok,
-(37:23.780) 以及其他,
-(37:24.100) 您也談到您的價格增加有影響於Q1,
-(37:27.860) 因此,
-(37:28.020) 我認為一些這些是價格,
-(37:30.690) 我認為我也很興奮,
-(37:32.450) 也許我拖太多問題在這裡,
-(37:34.290) 但是我也很興奮,
-(37:35.170) 因為這是一個限制數字,
-(37:36.870) 如果它沒有限制的話,
-(37:38.410) 它會是什麼數字?
-(37:57.900) 所以我們就必須努力去獲得更多的能量
-(38:02.240) And we have a large supply chain
-(38:05.120) We have a really gigantic supply chain
-(38:07.300) And so we have incredible partners
-(38:09.560) And we've secured a lot of supply
-(38:12.180) But we just need a lot more
-(38:14.670) To break it down
-(38:16.410) The way to think about that is
-(38:18.210) Most people see just hyperscalers
-(38:21.090) And that's half of the picture
-(38:25.240) 另一個半個圖表就是我們稱為AC
-(38:28.700) 那是所有的企業,Neo Clouds, sovereign AIs,
-(38:34.180) 你知道,這個世界的部分對所有人來說是不明顯的。
-(38:37.980) 原因是因為他們不買隨機的芯片,
-(38:41.780) 他們不買每個芯片的芯片,
-(38:43.740) 他們真的需要一個整個工廠的平臺為他們建造。
-(38:48.940) 因此,這是一個空間,我們增加了非常大的價值。
-(38:53.760) 當然,在這種超級級別的空間中,
-(38:56.440) That's growing incredibly too
-(38:58.120) 您知道他們現在有2億美元的背景。
-(39:01.440) 您知道當他們站起來,
-(39:05.600) When that happens, their revenues go up
-(39:08.850) Their earnings contribution go up
-(39:10.800) Compute是很成功的,今天非常成功的,Compute直接翻譯成增加收入。
-(39:18.280) 所以,NVIDIA想要在網上提供更多的Compute,在高層數量系統上,
-(39:24.160) Both at the hyperscalers
-(39:25.680) 但是你沒有看到的就是在高級高價外的大量機會
-(39:30.540) 但另一個部分是,這是我們為你設定的原因
-(39:37.560) 在HOPPER的情況下,我們在1億億元每個瓦特
-(39:42.730) 而在Grace Blackwell的情況下,我們在25億億元每個瓦特
-(39:46.550) 而在Vara Rubin的情況下,我們在40億億元每個瓦特
-(39:52.540) 而生產能力是每個世紀都增加的 x 因素,
-(39:58.070) 因此,
-(39:59.470) 客戶想將生產轉移到接下來的世紀,
-(40:01.570) 他們能夠儘快。
-(40:04.030) 在此,
-(40:04.550) 因為NVIDIA的計算機是如此有效性的,
-(40:08.800) 他們正在生產的數據,
-(40:11.580) 他們正在賣出的GPU時間是非常有利的。
-(40:15.400) Their margins are fantastic
-(40:18.670) 所以這些都在同時發生
-(40:23.390) 我覺得大圖是
-(40:27.440) and it affects every computer company,
-(40:34.800) so therefore every industry is affected
-(40:43.010) It's not based on retrieval of files,
-(40:45.890) but it's now generative
-(40:47.710) generating intelligence
-(40:48.910) and that requires compute
-(40:50.110) but the results you get is phenomenal
-(40:53.160) 你得到的結果是非常好的
-(40:55.200) 我們在全世界都看到這種情況
-(40:58.900) 每個人都想變成AI的一部分
-(41:01.790) 每個人都需要變成這種計算機
-(41:05.670) 每個人都需要建立infrastructure
-(41:07.590) 你接下來的問題來自
-(41:15.740) with Bank of America Securities
-(41:17.320) Your line is open
-(41:18.740) Thanks for taking my question
-(41:21.940) 謝謝你提供了所有的透明性
-(41:24.560) and all the commitments and guarantees
-(41:26.700) that you have for a number of years
-(41:28.340) 當我把所有在CFO的評論中的東西都加起來時,我可以說我將在未來幾十年內得到約500億美元。
-(41:32.100) CFO的評論中的所有東西
-(41:35.300) obviously over the next several years
-(41:36.960) So I had a few questions related to that
-(41:39.380) First is, is that the takeaway
-(41:41.440) 你將在下半年中
-(41:44.640) 在未來幾十年內,是否在那些球場上?
-(41:47.020) 或者是否還有其他資金或其他投資項目?
-(41:49.640) that could still be ahead
-(41:50.800) That's one
-(41:51.760) 第二,如果有特定的現金部分,那我們應該在2028年考慮。
-(41:58.820) 然後,
-(41:59.040) Jensen,
-(42:00.230) 很多這些投資是為了幫助Frontier Labs,
-(42:05.230) 尤其是OpenAI和Anthropix,
-(42:08.010) 但他們兩個都在設計自己的自家遊戲。
-(42:10.770) 實際上,OpenAI在過去幾天討論了Alapinio,
-(42:14.830) 他們的批評是比Blackwell更好,等等。
-(42:17.650) 那麼你如何平衡這種運動,
-(42:19.630) 你希望投資很多在生態系統上
-(42:21.690) but part of that ecosystem
-(42:23.230) wants to develop competitive solutions
-(42:25.910) Thank you
-(42:27.040) Well,
-(42:30.340) You know, whereas many of these XPUs
-(42:36.340) are inference-specific chips
-(42:39.060) for one cloud or one service
-(42:43.140) NVIDIA is a platform
-(42:46.420) an entire AI factory platform
-(42:48.820) that spans the entire AI lifecycle
-(43:02.210) 它會幫你任何地方設定
-(43:13.880) 所有的AI服務會想要走到世界各地
-(43:20.580) 不一定只是他們建造的
-(43:29.600) 他們將在世界各地開發NVIDIA
-(43:34.560) and of course I think our technology
-(43:36.320) 我完全相信
-(43:41.760) 以及我們的技術
-(43:44.740) whether it's from data processing
-(43:53.110) 我們的技術
-(43:56.150) they're going to use it
-(43:56.830) they're going to use it
-(44:00.190) for a very long time
-(44:01.290) now having said that
-(44:02.610) taking a step backwards
-(44:04.900) investing in these two companies
-(44:06.840) or there are several AI labs
-(44:08.800) that we've invested in
-(44:09.620) investing in these companies
-(44:11.020) are once in a generation opportunity
-(44:13.140) I think the only regret that I have
-(44:16.180) is that I didn't invest more and sooner
-(44:18.360) and both of the
-(44:20.850) two of the companies
-(44:22.110) will likely go public soon
-(44:23.350) and others will follow
-(44:24.770) and these will be some of the most
-(44:27.690) 這些公司將是史上最有影響力的技術公司。
-(44:29.510) and so I'm delighted to be their friend
-(44:32.490) I'm delighted to partner with them
-(44:33.970) I'm delighted to partner with them
-(44:36.470) on top of the NVIDIA architecture
-(44:38.710) I'm delighted that
-(44:42.550) and I have 100% confidence
-(44:47.240) that through quite a long period of time
-(44:50.890) of time they're going to be
-(44:54.370) for a lot of their computing
-(44:56.170) and so I feel great about it
-(44:59.110) So Vivek, let me add a little bit more
-(45:01.050) regarding the commitments
-(45:02.730) and the portion within those commitments
-(45:05.230) which is our supply commitments
-(45:07.210) this is essential
-(45:08.590) 這很重要,
-(45:13.130) as well as all next year
-(45:15.150) you can see that those commitments
-(45:16.970) 最大的部分在第一三年內,
-(45:20.410) 我們將使用它來建立我們需要的產品。
-(45:23.210) this also gives us the confidence
-(45:24.770) in terms of our growth and revenue
-(45:26.630) given how much we have already aligned
-(45:29.650) and commitment in terms of our supply
-(45:31.610) as well as capacity that we would need
-(45:43.600) Your line is open
-(45:45.140) Hi, thanks a lot
-(45:47.310) Jensen, I want to ask about open source
-(45:49.830) 有很多人說這些模型可以獲得工作人員的分享
-(45:53.770) 在美國
-(45:56.770) 尼莫特朗
-(46:03.010) 引起的影響
-(46:08.450) So how do you sort of put and take that?
-(46:10.810) 您認為開放模式的增長
-(46:17.080) 世界需要開放模組和開放模組
-(46:23.330) 開放模組和開放模組都在使用
-(46:38.380) 原因是NVIDIA在世界上是最高的
-(46:50.500) It's everywhere
-(46:51.900) It's everywhere
-(46:56.260) Which is doing great
-(46:57.300) All the way to robots and workstations
-(47:00.370) And your on-prem data centers
-(47:02.350) Open models are doing incredibly well
-(47:06.070) 我們知道關門模特兒
-(47:09.850) The frontier labs
-(47:11.370) Their sales are skyrocketing
-(47:14.170) Their margins are fantastic
-(47:15.410) 他們正在生產富裕的資金
-(47:18.110) 他們的數量只限於計算
-(47:20.470) 這也同樣是對於開放模組
-(47:23.450) 我們的位置在開放模組上是非常好的
-(47:28.080) 因為Kuda ecosystem在每個地方都存在
-(47:31.240) 開放模組也基於每個AI公司
-(47:38.500) 和每個企業公司全球
-(47:40.880) 它們是重要的
-(47:42.590) 原因是你應該可以在任何地方都可以購買智慧,強智慧,智慧
-(47:46.610) strong intelligence,
-(47:49.120) smart intelligence wherever you can,
-(47:50.700) which is the reason why we rent it.
-(48:07.120) their proprietary AI,
-(48:11.100) their proprietary alpha.
-(48:12.580) their proprietary alpha.
-(48:19.540) has enabled them to all do that.
-(48:21.280) 一個邊界模特的地方是重要的
-(48:25.960) 你看到有多少資產保險公司
-(48:33.300) massively distributed,
-(48:35.240) 持續運行自動資訊安全系統
-(48:41.490) Fend, those companies are emerging.
-(48:45.020) They're some amazing companies.
-(48:46.660) They couldn't do it without Open Models.
-(48:49.120) 沒有Open Models
-(48:54.400) and has finally reached the frontier,
-(48:57.240) 但它也重要
-(49:00.740) It's vital to the world economy.
-(49:02.700) 對公司的
-(49:05.780) 你不能做到
-(49:07.890) 無法無法
-(49:10.110) And lastly,
-(49:13.770) as you know,
-(49:16.610) 所有AI模型的市場架構,
-(49:22.320) I think we're the only platform,
-(49:28.520) and whether it's closed or open,
-(49:31.820) most of them were built on NVIDIA,
-(49:34.670) and so they run great on NVIDIA.
-(49:37.050) 因此我們很高興任何模型成功,
-(49:44.450) 只要模型成功,
-(49:47.210) 我非常高興。
-(49:50.350) 他們兩個都在同時引發我們的銷售。
-(50:02.090) Your line is open
-(50:03.590) Yeah, hey, thanks
-(50:06.390) I wanted to ask you a question, Jensen
-(50:14.970) and I wanted to kind of get a sense
-(50:19.270) And even beyond that
-(50:20.550) And there's two concepts here
-(50:21.850) There's recursive self-improvement
-(50:28.170) With AI that improves itself
-(50:35.910) 而在RSI和AGI的發展中
-(50:40.840) what happens to industry demand?
-(50:47.200) 還有,NVIDIA的情況如何?
-(50:52.280) Thanks
-(51:00.500) is prompted by people
-(51:10.690) most AI are now agentic
-(51:16.980) you know we have
-(51:21.720) 400,000 agents
-(51:25.930) they're running in the background
-(51:31.570) 人工智能人工智能人工
-(51:37.890) 在DGX的電子車站上開發
-(52:11.130) 在很多方面,我們在這點上是在一個逆向的方式中,
-(52:17.580) 你可以認為這是一個硬核。
-(52:20.040) 但是每次你通過一名經紀人,它會反映如何做好下一次的工作,
-(52:24.980) 並且它將技能文件更新。
-(52:27.240) 因此,技能文件的列表是在每個文件的最後一頁上更新。
-(52:32.920) 所以,你接下來的工作,它將會更好。
-(52:34.760) it's going to get better
-(53:05.200) 二、AI是提供有利的金融資產
-(53:09.000) 三、如果我們有更多的數據
-(53:12.020) 我們可以提供更多有利的金融資產
-(53:14.360) 這會造成更多的利潤
-(53:15.760) 對所有的服務
-(53:16.800) 這就是我們現在的正確階段
-(53:18.640) 這就是為什麼每個人都在向前
-(53:20.600) 你接下來的問題
-(53:26.520) 是從Gilm Schneider的網站
-(53:28.860) Golman Sachs的網站
-(53:30.750) 你的網站打開了
-(53:31.670) 你好
-(53:33.680) 謝謝你提出我的問題
-(53:35.040) 如果你想想100%的增長
-(53:37.940) 你提到的
-(53:38.860) 無限量的增長
-(53:42.520) 你預期的70%是你預期達到的供應
-(53:46.260) 我們可以談談一些排名預算
-(53:49.280) 一些最悲慘的限制
-(53:52.160) 例如數據中心能力和銷售
-(53:56.680) D-RAM、wafer Foundry等等
-(54:01.840) 如果你能幫助我們瞭解
-(54:03.580) 哪些是最大的
-(54:05.420) 那會非常有用的,謝謝
-(54:07.480) 我可以說有趣的東西
-(54:12.070) 但我不想說了
-(54:14.790) 在去年,
-(54:16.910) 我做的最有趣的事情是去找到我吃的晚餐的位置,
-(54:24.760) 和我吃的晚餐的人。
-(54:26.660) 他們的價格會在翌日增加。
-(54:30.050) 我認為答案是,我們整個供應鏈是有挑戰性的。
-(54:36.610) 每個人都正在運作。
-(54:41.770) 更多的能量在網上發生,這是今年會發生的一個優點。
-(54:45.790) What's going to happen this year
-(54:47.430) It's not going to come online
-(54:52.280) But it's going to come online every day
-(54:54.400) Yields are going to get improved
-(54:56.680) We're going to be doing
-(54:58.780) 我們會努力與每一個我們的供應商合作
-(55:03.440) And so it's not even next year yet
-(55:08.400) 所以我們有很多時間,我們每天都要努力
-(55:11.960) 所以現在我們的供應是70%
-(55:16.450) We have more supply than 70%
-(55:19.900) but about 70%
-(55:21.380) Our demand is much higher than that
-(55:23.240) and we've got to go work hard
-(55:25.250) 或者我們會讓客戶感到不滿
-(55:35.760) and we like to work hard for them
-(55:37.650) and so I'm going to need the help
-(55:39.990) 整個供應鏈的幫助
-(55:41.810) but they all know that
-(55:45.310) What I'm telling you about
-(55:46.910) about our needs for next year
-(55:48.610) 完全符合我告訴他們的要求
-(55:52.130) Everybody's on the exact same song sheet
-(55:55.410) 我希望我們能夠比較明顯
-(55:58.570) Because we're talking about big numbers
-(55:59.890) 因為我們在談論大數據
-(56:08.990) Your line is open
-(56:10.370) Yeah, thanks for taking the question
-(56:13.980) 我想回到GIGAWATTS的25到40
-(56:18.740) And maybe try and understand
-(56:21.080) 像你所說的,我認為Jensen在一些近期的會議中
-(56:24.040) 是在加密貨幣上的增長
-(56:26.120) 所以當我們想到
-(56:27.800) 遠離維爾努貝爾
-(56:30.240) 我們想到維爾努貝爾超級
-(56:33.000) 我們應該認為
-(56:35.160) 40億到60億
-(56:37.440) 80億
-(56:38.060) 我認為
-(56:39.640) 在這問題之下
-(56:41.440) 我們應該想到
-(56:42.740) 您的能力
-(56:43.520) 來調整能力
-(56:45.400) 是否是一種
-(56:48.070) 連續功能
-(56:48.890) 還是有什麼
-(56:49.530) 能夠更加增加您的能力
-(56:51.510) 來達到需求
-(56:52.290) 我們看來
-(56:53.090) 是在2017年
-(56:54.030) Great question,
-(56:55.660) great question,
-(56:58.940) and very simple,
-(57:00.980) 我們的目標是
-(57:10.690) and so obviously,
-(57:12.430) we would like the speed of light answer,
-(57:17.220) 最完美的答案是一億億瓦
-(57:21.430) 所以如果我們能夠將一億美元的數據轉移到一億瓦和一塊樹枝,
-(57:29.640) it would be a fantastic outcome
-(57:31.260) 所以答案是在這方面
-(57:36.240) 我們在摩爾斯法中開始了全面的數據轉移
-(57:41.700) We were probably,
-(57:44.980) pick your favorite number,
-(57:51.900) And then eventually with Hopper,
-(57:54.760) it was 18,
-(57:55.360) now Grace Blackwell is 25,
-(57:57.700) next Vera Rubin is 40,
-(58:00.140) and after that,
-(58:01.400) it's going to be higher,
-(58:02.140) and that's excellent,
-(58:03.700) that's fantastic for the industry,
-(58:05.820) it's fantastic for customers,
-(58:07.160) It's fantastic for customers
-(58:11.320) 它的持久性和融合性繼續增長,
-(58:14.740) 那人們就願意投資在資源上
-(58:25.880) I mean I heard the other day
-(58:27.380) 我聽說過一天
-(58:35.220) 這告訴你NVIDIA的技術生產能力
-(58:42.050) And the rentability of it
-(58:43.570) 和它的賣出能力
-(58:47.100) 有沒有其他問題
-(58:54.000) 我將電話轉給你
-(58:56.700) Thank you
-(58:58.520) Thank you. Before we close,
-(58:59.660) 請注意
-(59:08.720) 他將在GTC 波蘭
-(59:20.450) Thank you for joining us today
-(59:26.520) This concludes today's conference call
+(00:00.000) Good afternoon. My name is Tiffany and I will be your conference operator today.
+(00:05.000) At this time, I would like to welcome everyone to NVIDIA's second quarter earnings call.
+(00:11.000) All lines have been placed on mute to prevent any background noise.
+(00:16.000) After the speaker's remarks, there will be a question and answer session.
+(00:21.000) If you would like to ask a question during this time, simply press star followed by the number one on your telephone keypad.
+(00:29.000) If you would like to withdraw your question, press star 1 again. Thank you.
+(00:34.700) Toshiya Hari, you may begin your conference.
+(00:38.500) Thank you. Good afternoon and welcome to NVIDIA's conference call for the second quarter of fiscal 2027.
+(00:45.340) With me today from NVIDIA are Jensen Wong, President and Chief Executive Officer,
+(00:50.300) and Colette Kress, Executive Vice President and Chief Financial Officer.
+(00:54.220) Our call is being webcast live on NVIDIA's Investor Relations website.
+(00:59.000) The webcast will be available for replay until the conference call to discuss our financial results for the third quarter of fiscal 2027.
+(01:06.320) The content of today's call is NVIDIA's property.
+(01:09.760) It can't be reproduced or transcribed without our prior written consent.
+(01:14.520) During this call, we may make forward-looking statements based on current expectations.
+(01:19.420) These are subject to a number of significant risks and uncertainties, and our actual results may differ materially.
+(01:25.880) For a discussion of factors that could affect our future financial results and business, please refer to the disclosure in today's earnings release, our most recent forms 10-K and 10-Q, and the reports that we may file on Form 8-K with the Securities and Exchange Commission.
+(01:41.960) All our statements are made as of today, August 26, 2026, based on information currently available to us.
+(01:50.320) Except as required by law, we assume no obligation to update any such statements.
+(01:54.360) During this call, we will discuss non-GAAP financial measures.
+(01:59.140) You can find a reconciliation of these non-GAAP financial measures to GAAP financial measures in our CFO commentary, which is posted on our website.
+(02:07.040) With that, let me turn the call over to Colette.
+(02:10.200) Thanks, Toshia.
+(02:11.700) We delivered another outstanding quarter with record revenue, operating income, and EPS.
+(02:17.600) total revenue of $96 billion, more than doubled year over year as growth accelerated for the
+(02:26.160) fourth consecutive quarter. The surge in AI demand is driving a global infrastructure build-out,
+(02:32.660) supported by an expanding and diverse set of growth opportunities, spanning hyperscalers,
+(02:38.520) AI labs, AI natives, enterprises, and sovereign customers. We expect to grow revenue by
+(02:46.700) approximately 70% in fiscal 2028. This is a supply-constrained outlook. Q2 data center revenue
+(02:57.700) increased 18% quarter-over-quarter to $89 billion with strong contributions from both sub-segments,
+(03:05.360) Hyperscale and ACINE, which includes our NeoCloud, industrial, and enterprise customers.
+(03:12.380) Hyperscale revenue of $49 billion grew 13% sequentially, driven by sustained strength in Blackwell.
+(03:21.960) Reinforcing that more compute drives more revenue, as new GPU capacity comes online, our hyperscale customers delivered strong financial results in the quarter with accelerating revenue growth and expanding margins.
+(03:35.560) With cloud industry backlog now greater than 2 trillion,
+(03:41.100) HAPEX, by the top five hyperscalers, is expected to reach nearly 800 billion in 2026 and 1.3 trillion in 2027.
+(03:51.900) Today, we are delighted to announce an expansion of our partnership with AWS.
+(03:57.260) Building on its already vast installed base of NVIDIA Compute,
+(04:01.140) AWS is deploying an additional 2 million GPUs starting this quarter through the second quarter of fiscal 29, along with Vera CPUs, some integrated with Ruben, others standalone.
+(04:15.860) AWS will serve NVIDIA and Nematron family of open models on Amazon Bedrock and SageMaker.
+(04:22.360) Amazon will also adopt our full physical AI stack, Omniverse, Cosmos, Isaac, and Jetson, to power its fleet of warehouse robots.
+(04:35.360) ACI&E revenue of $40 billion increased 25% sequentially and 138% year-over-year.
+(04:44.080) Growth was driven by NeoCloud capacity additions to meet the rising demand from enterprises, AI startups, and sovereigns, as well as hyperscalers purchasing capacity to supplement their own build-outs.
+(04:59.760) Using NVIDIA DSX reference designs, our NeoCloud partners are bringing capacity online faster and at lower token cost.
+(05:09.240) They are expected to exit the year with 8 gigawatts in total installed capacity, up from approximately 3 gigawatts at the end of 2025.
+(05:21.100) Incredibly, we are seeing demand acceleration even at our scale.
+(05:27.000) Customers' forecasts point to our growth doubling next year.
+(05:31.260) However, as I mentioned earlier, we expect to grow approximately 70% as we are supply constrained.
+(05:39.240) NVIDIA Compute is fully utilized across every cloud we serve.
+(05:44.760) The economic value it generates for our hyperscale, neocloud, and AI lab partners keeps rising.
+(05:52.660) Besides building the best AI computing technologies and the most capable supply chain, NVIDIA has three unique capabilities that are engines powering our growth.
+(06:03.640) First, NVIDIA's architecture runs every model, and we're growing share as closed and open model adoption grow.
+(06:14.220) Closed and open models alike, adoption is skyrocketing.
+(06:18.240) NVIDIA runs the leading closed models, OpenAI, Anthropic, Grok, Meta, Gemini, and the leading open models, TML, Mistral, Quinn, Kimi, GLM, DeepSeek, Minimax, and Nematron.
+(06:37.180) We're great at small models and giant ones, large or video, auto, regressive, or diffusion, in the cloud or in the edge.
+(06:47.400) NVIDIA is great at training, great at inference, great at agentic workloads.
+(06:54.200) One platform, fungible for every model and workload, durable for the entire lifecycle of AI.
+(07:02.720) That combination of performance, fungibility, and durability is what makes NVIDIA the productive and financeable compute infrastructure.
+(07:12.680) Our second unique capability is our full-stack AI factory platform that is expanding our share of the data center TAM.
+(07:23.440) Since Hopper, our revenue opportunity has grown from roughly $18 billion per gigawatt to $25 billion with Blackwell to $40 billion with VeraRubin, which now spans VeraCPU, RubinGPU, EnviLink, InfiniBanner Ethernet, and Grok LPU, announced earlier this week.
+(07:48.620) Our ability to extreme code design across GPU, CPU, NB-Link scale-up networking, scale-out networking, systems, algorithms, and software enables us to deliver X-factor performance gain every generation.
+(08:05.380) Vera Rubin exemplifies this, delivering 30x higher throughput per megawatt and 35x lower token costs relative to Grace Blackwell Ultra.
+(08:20.480) We commenced production shipments of Vera Rubin earlier this month. Having already received purchase orders from every major hyperscaler, AI cloud, and system OEM, we expect Vera Rubin to mark the fastest product ramp in NVIDIA's history.
+(08:37.980) Our networking business had another record quarter with revenue growing 18% on a sequential basis.
+(08:48.940) Spectrum X Ethernet, which grew 2.6x on a year-over-year basis, is already helping us become the largest and fastest growing network company in the world.
+(09:00.500) Rising adoption of agentic AI is driving an acceleration in demand for data center CPUs.
+(09:08.780) Our Grace CPU, introduced in 2021, has been a great success with revenue on a trailing 12-month basis exceeding $5 billion.
+(09:19.860) Today, we are in full production of our next generation Vero CPU.
+(09:24.460) As a standalone product, Vero expands our TAM even further.
+(09:28.440) Vera completes a Genic task 1.8x faster on the spec benchmark and provides five times the bandwidth per watt than any other data center CPU.
+(09:42.080) We expect Vera to be deployed by every major hyperscaler, neocloud, AI lab, and system OEM, with shipments already underway to our lead partners including OCI, SpaceX AI, and starting this quarter, AWS.
+(10:01.620) We continue to see demand for approximately $20 billion in total server CPUs, and based on our customer demand and improving supply outlook, our preliminary expectation is for CPU revenue to more than double in fiscal 28, positioning us as one of the world's leading server CPU suppliers.
+(10:24.300) Since the announcement of our Grok partnership last year, we've been working to unite NVIDIA's high throughput and Grok's high interactivity architectures.
+(10:36.720) At Hot Chips earlier this week, we announced that Grok 3 LPX, our first rack scale LPU system, is in full production and already setting records, demonstrating nearly 4x the number of tokens per second against the next best alternative on our artificial analysis benchmark.
+(11:00.520) We expect to ship Grok 3 LPX in volume later this quarter to early adopters.
+(11:08.960) Nebius will be the first.
+(11:11.720) Today, we're not just selling the best chips.
+(11:14.720) We're selling a full-stack AI factory platform, offering superior economics for customers and capturing a bigger share of the data center TAM.
+(11:23.800) Our third unique capability is the combination of our full-stack AI factory and rich CUDA ecosystem, allowing us to extend AI into markets a single chip alone can never reach.
+(11:41.240) Beyond the hyperscalers lies a massive market anxious to adopt AI, customers with no interest
+(11:47.580) in designing their own custom silicon.
+(11:50.140) NVIDIA's fully proven full stack platform is uniquely suited to help sovereigns, neoclouds,
+(11:57.060) and enterprises build their AI infrastructure, bring it to full operation, continuously optimize
+(12:03.600) it through CUDA software, and connect it to offtake demand from our vast developer ecosystem.
+(12:09.380) Hyperscalers will remain a major growth driver, but non-hyperscaler growth, our AIC&E segment spanning Sovereign, Regional NeoClouds, Enterprise Edge, and AirGap data centers will represent roughly half of our data center business.
+(12:29.420) Our AI native startup ecosystem, developed and running primarily on the NVIDIA Compute platform, is scaling at a rapid pace.
+(12:40.540) Global VC funding in AI, roughly 70% of which is spent on compute, exceeded $400 billion in the first half of 2026, surpassing the $265 billion raised in all of 2025.
+(12:56.200) Nearly 20 companies, including Cursor, owned by SpaceX, Figma, and Together AI, now exceed $1 billion in annualized run rate revenue, up from 13 companies in Q4 of last year, with vertical enterprise software logging the fastest growth.
+(13:17.200) In enterprise, on a trailing 12-month basis, on-prem revenue in the automotive vertical reached $8 billion, while financial services, manufacturing, and healthcare combined contributed $7 billion in revenue.
+(13:32.320) Hudson River Trading and Jane Street are leveraging NVIDIA's powered AI factories to accelerate quantitative trading.
+(13:40.200) trading. Samsung Electronics is using NVIDIA Kulitho to achieve up to 20x greater performance
+(13:48.440) in computational lithography, while Bristol-Myers Squibb is investing in Vera Rubin AI Factory,
+(13:55.100) a fast follow to the Roche and Lilly buildouts, as drug R&D timelines compress from years to months.
+(14:03.300) In Sovereign AI, our business primarily through the regional neoclouds grew 35% sequentially and more than tripled year over year in Q2.
+(14:15.740) A country or region can allocate land and power directly to a regional cloud partner in ways it never would to a foreign hyperscaler.
+(14:25.400) We don't own a cloud ourselves. We are a neutral partner to every sovereign and neocloud.
+(14:31.500) And because NVIDIA Compute is productive, fungible, rentable, and durable, regional cloud interest is surging around the world.
+(14:40.980) We helped Quarweave, Nebius, and Nscale build entire infrastructure businesses, and NeoClouds are emerging everywhere.
+(14:50.560) Firebird in Armenia, Kaseba Technologies across Africa, GMI Cloud in Taiwan, Yoda and NASA in India,
+(15:03.540) Hermes in Australia, YTLAI Cloud in Malaysia, pairing local land, power, and operating expertise with our platform.
+(15:13.860) Last month, we announced a partnership with NOATRA, Japan's national AI company, to build an NVIDIA DSX AI factory that will create open models to power AI agents, digital twins, robotics, and physical AI applications.
+(15:34.600) South Korea's LG and Hyundai Motor Group are partnering with NVIDIA to build and scale AI.
+(15:41.940) And in Europe, a record 35 new NVIDIA-powered AI supercomputers were unveiled to advance industry and scientific breakthroughs.
+(15:53.820) Neoclouds are seeing strong demand pipelines for many diverse offtakers.
+(15:57.780) Rather than allocating their entire capacity to a single, long-term offtake guarantee that lenders typically require to finance a data center independently, we have introduced a revenue-sharing structure.
+(16:09.940) structure. NVIDIA provides a take or pay commitment on a portion of the facility's capacity,
+(16:16.660) a minimum revenue guarantee that gives lenders the confidence to underwrite the project, and in
+(16:23.160) exchange, we share in a portion of the neocloud's revenue earned above that floor. Independent
+(16:31.020) capital still underwrites every deal on its own merits. We're not making loans. In this model,
+(16:37.580) We get paid twice, once on the hardware sale and again through the share of rental revenue,
+(16:43.740) a highly reoccurring stream layered on top of a one-time equipment purchase.
+(16:49.760) Over time, this model can expand our addressable market and create reoccurring usage-linked
+(16:56.180) revenue stream alongside our core platform revenue, with the potential to drive billions
+(17:02.100) in revenue over the medium to long term.
+(17:04.480) together nvidia's three unique capabilities a platform that runs every model a full stack ai
+(17:12.660) factory platform capturing more of the data center tam and a cuda ecosystem that extends ai into
+(17:19.540) markets no single chip could reach alone reinforce one another and are the engines of our growth
+(17:28.500) Let me update you on our progress with our Frontier AI Labs.
+(17:35.180) The Frontier AI Labs have extraordinary demand for training and inference compute, but they are growing faster than what their balance sheets and credit profiles can support.
+(17:44.860) They have rapidly growing customer demand, yet still lack the decades-long infrastructure contracts and investment-grade financing capacity needed to secure the AI factory infrastructure independently.
+(17:59.620) In other words, their growth isn't limited by their technology or customer demand.
+(18:05.460) It's limited by compute.
+(18:06.920) For these companies, more compute means more and more intelligence, more users, and more revenue.
+(18:15.340) NVIDIA is needed to help power this flywheel.
+(18:19.200) First, we've invested nearly $50 billion in the Frontier AI Labs.
+(18:24.940) This was a meaningful commitment, but it represented a small fraction of our expected free cash flow over the same period.
+(18:31.300) Further, to support the Frontier Labs infrastructure build-outs, we recently announced partnerships
+(18:38.140) with six of the world's leading infrastructure capital providers, Apollo, BlackRock, Blackstone,
+(18:45.460) Brookfield, Goldman Sachs, and KKR, to establish financing platforms that will raise over $500
+(18:52.300) billion of third-party capital.
+(18:55.100) With these partnerships, building on our unique, fungible, and durable computing platform,
+(19:00.340) the AI labs will be able to build and assess AI infrastructure funded by long-term institutional
+(19:07.800) capital at relatively attractive rates. Last week, we announced that we secured land power
+(19:16.900) shell capacity through our partnership with SoftBank Energy to exclusively host NVIDIA Compute
+(19:23.560) at their Portsmouth campus. The initial deployment expected to support 4.25 gigawatts
+(19:30.180) of AI factory capacity will be utilized by OpenAI. Each generation of NVIDIA AI factory systems
+(19:37.980) deployed at Portsmouth could represent approximately 1.5 million NVIDIA GPUs. In over 20 years, the site
+(19:46.620) could support multiple upgrade cycles.
+(19:49.780) Here's the essential economic point.
+(19:52.800) The LPS commitment secures a long-lived AI factory site,
+(19:56.860) while the NVIDIA compute within the data center
+(19:59.100) can be upgraded repeatedly.
+(20:01.640) This project deepens our longstanding partnership
+(20:04.660) with OpenAI.
+(20:06.480) OpenAI has committed to substantially deployments
+(20:10.860) of NVIDIA AI infrastructure through 2030.
+(20:15.180) OpenAI's existing and planned commitments represent approximately 12 gigawatts of NVIDIA compute.
+(20:22.900) For another frontier AI lab, we will provide selective credit enhancement for nearly 2 gigawatts of compute.
+(20:31.500) This complements the substantial NVIDIA compute capacity they've secured independently without NVIDIA's credit support.
+(20:40.540) We recognize the scale of this support, and we know some will call this circular financing.
+(20:49.000) We see it differently.
+(20:50.900) We're going through a major computing platform shift, the creation of one of the most important technologies in human history, and these are once-in-a-generation companies.
+(21:02.020) Their technology leadership is proven, and their customer traction and usage are skyrocketing.
+(21:08.220) We expect them to become the largest technology companies in history.
+(21:14.620) We believe these investments, measured against the strength of their demand, the business they create for us, the ecosystem they build on NVIDIA's platform, and the equity returns on our invested capital, will be excellent.
+(21:30.320) And our risk is limited.
+(21:31.680) The NVIDIA Compute platform is fungible and durable and can be redeployed to support other customers.
+(21:40.820) For context, we expect demand from the AI labs for which we expect to leverage our balance sheet to contribute toward roughly a quarter of our business next year.
+(21:52.500) This remains compute we ship will be consumed by investment grade customers or those that are backed by one.
+(22:01.680) In Q2, we shipped less than 1% of our total data center revenue in Hopper 200 products to customers based in China in accordance with the U.S. government licenses.
+(22:15.160) Current Hopper shipments are dilutive to corporate gross margins.
+(22:19.600) And given ongoing geopolitical uncertainty, there is no China data center compute revenue in our forward outlook.
+(22:27.320) Moving to the rest of the P&L, GAAP and non-GAAP gross margins were both 75%, largely unchanged from last quarter due to a similar product mix.
+(22:41.160) GAAP and non-GAAP operating expenses were up 10% and 11% sequentially, primarily due to high compute infrastructure costs and compensation and benefits costs.
+(22:51.900) Our non-GAAP effective tax rate of 16% increased from a year ago, primarily due to higher revenue.
+(23:00.700) On our balance sheet, inventory increased to $32 billion as we prepared for the Vera Rubin launch.
+(23:08.340) Days of sales outstanding increased to 60 days, reflecting extended payment terms for large purchases by certain investment-grade customers to be shipped over multiple quarters.
+(23:19.720) In Q2, we returned a record $26 billion to shareholders, $20 billion through share repurchases, and $6 billion through our quarterly dividend of $0.25 per share.
+(23:33.360) relative to our plan to return 50 or more of free cash flow we return 60 on a year-to-date basis
+(23:42.080) and going forward we intend to increase and return excess free cash flow net of strategic uses
+(23:51.180) let me turn to the outlook for the third quarter total revenue is expected to be 108 billion
+(24:00.340) plus and minus 2%. We expect sequential growth to be driven primarily by ACINE with data center,
+(24:08.840) while growth in hyperseal is expected to re-accelerate in Q4 and into fiscal year 28,
+(24:15.600) as supply of Vera Rubin grows over time. We see Vera Rubin accounting for about 20%
+(24:23.480) of data center revenue in Q3. Looking ahead, our preliminary expectation is for fiscal year 28
+(24:30.980) revenue to grow approximately 70% year over year. Although we will work to close the supply demand
+(24:37.900) GAAP, we expect supply to remain a bottleneck at least through the end of fiscal year 28.
+(24:46.520) Many of you have expressed concerns regarding our gross margins as component costs have risen
+(24:53.180) significantly. As you are already aware, we are experiencing extreme pricing conditions in memory.
+(25:00.600) The magnitude of the price increase has exceeded our prior expectations and are headed even higher
+(25:06.600) into next year. As a result, we are resetting expectations today. For Q3, we expect GAAP and
+(25:16.000) non-GAAP gross margins to be 74% plus or minus 50 basis points. We expect margins to bottom in Q4
+(25:24.800) in the 71 to 72% range before settling at 72 to 73% in fiscal year 28 as executed price increases
+(25:37.680) take effect in Q1. We want to be direct about this rather than let it linger as an open question.
+(25:46.000) Memory scarcity today is being driven in large part by the AI build-out itself and unlike a component that simply raises our costs with no offset benefit.
+(25:57.580) Tighter memory supply is a symptom of the same demand surge that's driving our own growth.
+(26:03.020) We have long-standing, deep relationships with all three major memory suppliers, and we're working closely with them to further increase the capacity our roadmap requires.
+(26:16.000) GAAP and non-GAAP operating expenses are expected to be approximately $9.2 billion and $9.0 billion, respectively.
+(26:26.000) For the full year, we now expect OPEX to grow in the low 50s, driven by a broadening of our product portfolio and further increase in the usage of AI tools, which is already and will continue to enhance engineering productivity.
+(26:39.800) For full year, fiscal year 27, we continue to expect GAAP and non-GAAP tax rates to be between 16 and 18 percent, excluding any discrete items and material changes to our tax environment.
+(26:56.060) With that, we will now transition to Q&A. Operator, please poll for questions.
+(27:02.700) At this time, I would like to remind everyone, in order to ask a question, press star, then
+(27:11.580) the number one on your telephone keypad.
+(27:14.440) We'll pause for just a moment to compile the Q&A roster.
+(27:19.780) Your first question comes from the line of Joseph Moore with Morgan Stanley.
+(27:24.820) Your line is open.
+(27:28.180) Great.
+(27:28.840) Thank you.
+(27:29.220) I wonder if you could give us color on the 70%.
+(27:33.240) And what gives you the confidence to guide a full year out if you haven't been doing that?
+(27:37.740) And then what's the GAAP between that amount of growth and the 100% demand growth?
+(27:43.180) What is the kind of key constraint that separates those numbers?
+(27:46.320) And could you close those gaps over time?
+(27:50.100) Yeah, thanks, Joe.
+(27:51.420) As you probably are aware, AI has become useful.
+(27:55.160) and the the ai agents that are being adopted everywhere use an enormous amount of compute
+(28:04.180) first of all the large language models are are larger than ever because they're smarter than
+(28:08.540) ever and and these agents go through reasoning and planning multiple multiple turns of tool use
+(28:16.440) the amount of compute necessary for an agent versus a human using it is probably 15 to 100
+(28:23.940) times depending on the type of problem you're trying to solve. And so the amount of compute
+(28:28.440) necessary is just extraordinary. That's a factor that almost everybody sees. The part that people
+(28:35.300) don't see about our growth, because we're practically singular because of the nature
+(28:41.260) of how we deliver products. I mean, we're the only company in the world that creates and builds,
+(28:46.060) offers an entire AI factory platform, a full stack system. And, you know, customers can still
+(28:53.600) mix and match. However, most companies just don't have the skills to do that or desire to do that.
+(29:00.640) And so there's an entire part of the market that we experience growth.
+(29:04.620) They're sovereign AI, they're regional AIs, they're neoclouds, they're AI startups,
+(29:08.620) they're enterprises, where we're seeing, which represents about half of our business,
+(29:14.700) and that's growing 100% a year. That part of the world's computing is likely to be larger over time
+(29:22.540) than even what we're currently experiencing in the cloud.
+(29:26.360) And so I think the demand that we see is driven by all of those factors.
+(29:32.540) It is also the case that you can no longer procure technology per se
+(29:39.500) and stand up these infrastructure.
+(29:40.900) You've got to go secure the land power and shell,
+(29:42.760) which oftentimes is a couple, two, three years out.
+(29:47.160) All of the rest of the supply chain necessary to align the construction,
+(29:52.540) the power, the cooling, all of the labor that's necessary.
+(29:57.120) And with AI infrastructures creating so many jobs all over the United States and all around
+(30:02.380) the world, it just takes a lot more planning.
+(30:05.640) And so we're involved in securing infrastructure now further down the pipeline.
+(30:11.680) Just as a long time ago, people asked me, why is it that we're working with memory suppliers
+(30:17.460) when we're a chip company?
+(30:19.140) And today people understand it's really quite genius that we were working on our supply chain so far upstream.
+(30:25.600) We work with power generator companies.
+(30:27.900) We downstream, we work with land power and shell companies all around the world.
+(30:34.980) And that helps prepare all of this computing that's going to be built that will ultimately deploy for our ecosystem and our customers.
+(30:43.160) And so we just have a lot greater visibility now upstream and downstream.
+(30:48.060) It is the case that we've never forecasted or never guided to a year in advance.
+(30:57.660) And even though our demand is much greater than 70%, our supply allows us to confidently deliver 70%.
+(31:05.960) And we're going to continue to work with our supply chain to increase on that.
+(31:09.380) But what we wanted to do is to be consistent with everybody from our customers, our shareholders, our supply chain.
+(31:18.000) Everybody sees the same view.
+(31:20.720) And the reason why that's important is because, you know, everybody's putting a lot of resources at play.
+(31:26.000) And so we wanted to make sure that everybody has the same set of information.
+(31:30.720) And we've got a huge year coming up next year.
+(31:34.500) And it's going to be pretty extraordinary.
+(31:39.380) Your next question comes from the line of CJ Muse with Cancer Fitzgerald.
+(31:46.880) Your line is open.
+(31:49.360) Yeah, good afternoon.
+(31:50.220) Thank you for taking the question.
+(31:52.020) There's tremendous investor focus on your inference market share.
+(31:55.220) Can you speak to the evolving workloads you're seeing with the Gentic AI and how you see your share evolving here over time,
+(32:01.940) particularly when you reflect on the growing value of the TAM you're seeing with each new full-stack generation,
+(32:07.020) your expectation for greater growth from ACIE,
+(32:10.380) and then also including Grok 3 LPX.
+(32:12.900) We'd love to hear your thoughts.
+(32:15.080) Yeah, thanks, CJ.
+(32:17.020) The AI lifecycle is getting way more complex than it used to be.
+(32:22.640) And it's playing into NVIDIA's architecture much more greatly than it used to be.
+(32:31.020) And so you could kind of see it as four phases.
+(32:33.420) You know, there's the first phase, which is preparing all of the data that you need.
+(32:38.800) Some of it is synthetic.
+(32:39.760) Some of it is real.
+(32:40.900) Some of it is human labor and human labeled and generated.
+(32:44.140) Pre-train the models.
+(32:46.020) And then there's post-training, the third phase.
+(32:48.840) And then there's the agentic inference.
+(32:51.900) And agentic inference is extremely complicated.
+(32:55.800) And so every one of those phases are complicated.
+(32:58.180) The thing that's really great about the NVIDIA architecture, and we created this with MVLink 72, it was a big surprise on the world when we first created the world's first rack scale architecture.
+(33:12.040) It was hardly easy, and it was very challenging building the first generation.
+(33:18.200) We're now in our third generation of MVLink 72 rack scale systems.
+(33:21.800) We had to reinvent the entire supply chain, reinvent systems, reinvent the technology, redistribute our software, refactor our software, everything, every aspect of it was hard.
+(33:31.260) But what it allowed us to do was to create one fungible system that allows us to transition from data creation, data preparation, the pre-training, the post-training to agentic inference.
+(33:45.820) the benefits to customers is incredible.
+(33:49.560) And the reason for that is because you've just spent,
+(33:52.120) and we just mentioned each gigawatt of technology
+(33:56.140) and NVIDIA's revenue exposure in the Hopper timeframe
+(34:00.380) with Hopper plus InfiniBand,
+(34:03.100) and now Vera Rubin and CPU
+(34:05.720) and three types of different networking
+(34:08.260) because it takes that many types of networking
+(34:10.160) to address the entire world's data center,
+(34:12.880) not to mention the scale in security networking and the scale across multi-campus networking.
+(34:19.160) So you could argue five different types of networking systems.
+(34:22.360) And then, of course, Grok.
+(34:24.420) And all of that increased our revenue contribution or revenue opportunity per gigawatt to $40 billion.
+(34:33.660) So each gigawatt of data center increased from, say, $30 billion about five years ago to now $60 billion today.
+(34:47.320) Of course, the productivity is tremendous.
+(34:50.260) The performance is incredible in comparison.
+(34:53.980) But you're talking about a $60 billion investment.
+(34:57.020) And to the extent that you could use it across multiple phases of the AI lifecycle, run every single type of model you can imagine running on it, whether it's diffusion or autoregressive or state space or some hybrid version of that, every version of attention mechanism you can think of, small or large models,
+(35:19.480) the investment that you make
+(35:25.680) will be preserved and useful and productive for a lot longer time
+(35:29.960) and so I think our advantage in this new world is really
+(35:34.360) quite extraordinary and it could explain why it is that
+(35:38.380) our growth is actually accelerating. It was already large
+(35:42.560) but now it's accelerating.
+(35:44.200) uh let's see you asked you asked about grok i was super excited about grok 3
+(35:51.600) we achieved a record token interactive interactive interactivity rate extremely low latency
+(35:59.400) performance generation the team is doing fantastically we spent the last several months
+(36:05.140) fusing uh the mv link architecture which will be the the core and it'll be the core engine
+(36:13.480) And then for services that would like to have super high interactivity, super high speed token generation done, the throughput is going to be a lot lower.
+(36:26.680) The cost per token will be higher, but you could associate it with high ASP services.
+(36:34.560) And so for those companies, you could bolt on one of our Grok accelerators.
+(36:38.980) I'm super excited about that.
+(36:40.120) But the vast majority of the world's data centers will just be Vera Rubin and VLink 72.
+(36:48.380) Your next question comes from the line of Stacy Rasgon with Bernstein Research.
+(36:53.600) Your line is open.
+(36:55.760) Hi, guys.
+(36:56.320) Thanks for taking my question.
+(36:58.260) So the 70% growth in fiscal 28, which I guess is sort of calendar 27, so that's something like, I don't know,
+(37:07.080) a $200 billion uptick versus the prior outlook, if I back it up.
+(37:11.840) The prior outlook was a trillion dollars over the three years,
+(37:14.100) so this is probably $200 billion more.
+(37:15.360) I was just wondering if you could talk us through the contributors
+(37:18.940) to that increase across the different products of the ERA and CPUs
+(37:23.320) and GROK and everything else.
+(37:24.340) And also, you talked about your price increase that takes effect in Q1,
+(37:27.920) so I assume some of this is pricing.
+(37:31.060) And I guess I'm also curious,
+(37:32.720) and maybe I'm squeezing too many questions in here,
+(37:34.500) but I'm also curious just it's a constrained number.
+(37:36.960) What would it be if it wasn't constrained?
+(37:44.500) The unconstrained would be a lot higher.
+(37:49.620) We grew 100% year over year.
+(37:52.640) This year, the unconstrained, you know, is significant.
+(37:58.400) And so we're just going to have to go work hard to get more capacity.
+(38:02.120) And, you know, we have a large supply chain.
+(38:05.240) We have a really gigantic supply chain. And so we have incredible partners. And we've secured a lot of supply, but we just need a lot more. To break it down, the way to think about that is most people see just hyperscalers. And that's half of the picture.
+(38:25.420) The other half of the picture is what we call AC, and that's all the enterprise, the neoclouds, the sovereign AIs.
+(38:34.920) You know, that part of the world is invisible to everybody.
+(38:38.320) And the reason for that is because they don't buy custom chips.
+(38:42.000) They don't buy chips one at a time.
+(38:44.300) They really need an entire factory platform built for them.
+(38:49.240) And so that's a space that we add just a tremendous amount of value.
+(38:53.720) Now, of course, back in this hyperscale space, that's growing incredibly too, right? You know that they now have backlogs of $2 trillion. You know that when they stand up NVIDIA Compute, when that happens, their revenues go up, their earnings contribution go up.
+(39:10.700) compute is profitable, very profitable today. And compute directly translates into increased
+(39:18.000) revenues. And so there's just a race to want to bring more NVIDIA compute online,
+(39:24.400) both at the hyperscalers. But what you don't see is just really tremendous opportunities outside
+(39:29.820) the hyperscalers. But the other part of it is, and it's the reason why we mapped it out for you.
+(39:37.420) In the case of Hopper, we were at about $18 billion per gigawatt.
+(39:43.260) For Grace Blackwell, we're at about $25 billion per gigawatt.
+(39:47.360) And for Vera Rubin, it's about $40 billion per gigawatt.
+(39:51.800) And the productivity is X factors increase in each generation.
+(39:59.360) And so customers want to race to the next generation as fast as they can.
+(40:03.560) meanwhile because nvidia's compute is so productive they're the tokens they're generating
+(40:11.600) the gpu hours they're renting out is insanely profitable as you know their margins are
+(40:17.300) fantastic and so so all of that is just simultaneously happening happening i think
+(40:24.180) the big picture is is that we're going through this platform shift and it affects every computer
+(40:29.920) company. And every industry in the world uses computers. So therefore, every industry is
+(40:36.680) affected. Every company is affected. And this new way of doing computing is intelligent. It's not
+(40:43.900) based on retrieval of files, but it's now generative, generating intelligence. And that
+(40:49.540) requires compute. But the results you get is phenomenal. The results you get is tremendously
+(40:54.880) better. And so, you know, we're just seeing that across the world. Everybody wants to be part of
+(41:00.580) the AI revolution. Everybody will have to be part of this computing shift, and everybody has to
+(41:07.160) build infrastructure. Your next question comes from the line of Vivek Arya with Bank of America
+(41:16.820) Securities. Your line is open. Thanks for taking my question, and thanks for providing all the
+(41:24.140) transparency and all the commitments and guarantees that you have for a number of years.
+(41:29.000) When I just add up everything that's in the CFO commentary, I get to a number of about
+(41:33.780) $500 billion or so, obviously, over the next several years. I had a few questions related
+(41:39.060) to that. First, is that the takeaway, that the sum of all your ecosystem investments
+(41:44.340) over the next several years is in that ballpark, or are there other equity or other investments
+(41:49.740) that could still be ahead.
+(41:51.420) That's one.
+(41:52.440) Secondly, if there is a specific cash part of that
+(41:56.180) that we should think about in fiscal 28.
+(41:58.720) And then, Jensen, a lot of these investments
+(42:02.040) are designed to help the frontier labs,
+(42:05.540) especially OpenAI and Anthropic,
+(42:08.000) but both of them are designing their own custom chips.
+(42:10.900) In fact, OpenAI just in the last few days
+(42:13.280) spoke about Jalapeno and their claims
+(42:15.600) about being better than Blackwell and so forth.
+(42:17.780) So how are you balancing this dynamic
+(42:19.640) where you want to invest a lot of the ecosystem,
+(42:22.260) but part of that ecosystem wants to develop competitive solutions.
+(42:26.800) Thank you.
+(42:28.480) Well, we're building something very different.
+(42:31.960) You know, whereas many of these XPUs are inference-specific chips
+(42:38.780) for one cloud or one service,
+(42:43.620) NVIDIA is a platform, an entire AI factory platform,
+(42:49.040) that spans the entire AI lifecycle
+(42:52.660) that you can use in any cloud.
+(42:57.040) It's in every cloud.
+(42:58.900) You can run anywhere.
+(43:01.520) We'll help you set it up anywhere.
+(43:04.860) And so we built something very different.
+(43:12.560) All of the AI services at some point
+(43:15.860) are going to want to go around the world.
+(43:19.040) And those data centers won't necessarily be just built by them.
+(43:24.560) And also, I fully expect, and so they're going to run, and I think they're going to run on
+(43:32.120) NVIDIA all around the world.
+(43:34.780) And of course, I think our technology, I have 100% confidence that our technology will continue
+(43:39.700) to be extraordinary for them.
+(43:41.640) And that the economics of using our technology, whether it's from data processing to
+(43:47.940) to training, to post-training, to agentic processing,
+(43:54.080) our technology is going to be extraordinary for them.
+(43:56.280) They're going to use it.
+(43:57.280) And so I'm very confident that they're going to be customers
+(43:59.440) and partners of ours for a very long time.
+(44:02.020) Now, having said that, taking a step backwards,
+(44:05.280) investing in these two companies,
+(44:07.160) or there are several AI labs that we've invested in,
+(44:09.980) investing in these companies are once in a generation opportunity.
+(44:13.980) I think the only regret that I have
+(44:16.320) is that I didn't invest more and sooner.
+(44:19.840) And two of the companies will likely go public soon
+(44:23.480) and others will follow.
+(44:26.360) And these will be some of the most consequential
+(44:28.320) technology companies in history.
+(44:30.100) And so I'm delighted to be their friend.
+(44:32.700) I'm delighted to partner with them.
+(44:34.360) I'm delighted that they're building an ecosystem
+(44:36.680) on top of the NVIDIA architecture.
+(44:39.100) I'm delighted that they're counting on us to scale up.
+(44:42.680) And I have 100% confidence that, you know, through quite a long period of time, they're going to be utilizing NVIDIA Compute for a lot of their computing.
+(44:56.880) And so I feel great about it.
+(44:59.540) So Vivek, let me add a little bit more regarding the commitments and the portion within those commitments, which is our supply commitments.
+(45:07.400) This is essential. This is essential for the raising of Vera Rubin today, as well as all next year.
+(45:15.600) You can see that those commitments, the biggest parts of them are in the first three years, and we will use that to build the products that we need.
+(45:23.440) This also gives us the confidence in terms of our growth and revenue, given how much we have already aligned in commitment in terms of our supply, as well as capacity that we would need.
+(45:37.400) Your next question comes from the line of Timothy Arcuri with UBS. Your line is open.
+(45:46.500) Hi, thanks a lot. Jensen, I want to ask about open source. There's a lot of talk about that
+(45:51.640) these models could gain share for workload in the U.S. You're obviously well positioned with
+(45:55.880) Nemotron, but on the other hand, a lot of the end demand is being driven by these big frontier
+(46:00.460) model companies. So there's a lot of investors that equate open models as being negative
+(46:07.000) for the growth of those companies.
+(46:09.000) So how do you sort of put and take that?
+(46:10.900) Do you see the rise of open models
+(46:12.120) as being good for NVIDIA or ultimately negative?
+(46:14.980) Thanks.
+(46:17.300) The world will need both closed models and open models.
+(46:24.440) And both closed models and open models
+(46:27.200) are skyrocketing in use.
+(46:29.160) um near most i would say nearly all open models run on nvidia and the reason for that is because
+(46:40.800) nvidia's footprint around the world um is the highest and and um our our architecture is the
+(46:50.040) most fungible it's everywhere it's in pcs and edge devices like dgx spark which is doing great
+(46:57.440) all the way to robots and workstations and your on-prem data centers.
+(47:03.940) Open models are doing incredibly well.
+(47:07.040) Closed models we know are doing incredibly well.
+(47:10.600) The frontier labs, their sales are skyrocketing.
+(47:14.420) Their margins are fantastic.
+(47:16.300) They're generating profitable tokens.
+(47:18.720) They're only limited by the amount of compute.
+(47:21.060) That is equally true for open models.
+(47:23.500) and our position in open models is very good, you know,
+(47:28.920) because the CUDA ecosystem is literally everywhere.
+(47:32.260) The open models are also foundational to just about every AI startup
+(47:38.700) and every enterprise company around the world.
+(47:41.480) It's vital to them.
+(47:43.500) And the reason for that is because you should rent intelligence,
+(47:48.260) strong intelligence, smart intelligence, wherever you can,
+(47:50.980) which is the reason why, you know, we rent it.
+(47:52.760) And I encourage my employees to use the cloud services as much as they can.
+(47:57.540) But every major company and surely every country and every startup needs to build their domain specific, their proprietary AI, their proprietary alpha.
+(48:13.960) And the open models reaching frontier levels has made it possible, has enabled them to all do that.
+(48:21.280) One of the areas where frontier models is vital is cybersecurity.
+(48:27.260) You see the number of cybersecurity companies that are enabled by frontier models so that they could have distributed, massively distributed, continuously running autonomous cybersecurity systems to defend.
+(48:43.200) Those companies are emerging.
+(48:45.140) There's some amazing companies.
+(48:47.040) They couldn't do it without open models.
+(48:49.040) And so Open Models is both incredibly successful and has finally reached the frontier, but it's also vital to the American economy.
+(49:01.000) It's vital to the world economy.
+(49:02.980) It's vital to companies to build their own proprietary AI.
+(49:06.060) You can't do it without one or the other.
+(49:08.080) Both are going to be extraordinarily successful.
+(49:10.360) and and lastly uh as you know our market footprint of of all ai models we're the only
+(49:22.420) i think we're the only platform i'm fairly certain we're the only platform that runs
+(49:27.620) every frontier model and whether it's closed or open most of them were built on nvidia
+(49:34.680) And so they run great on NVIDIA.
+(49:38.100) And so we're delighted by any model succeeding.
+(49:44.880) So long as models succeed, I'm very happy.
+(49:48.100) And both closed and open models are going to succeed.
+(49:50.660) And they're both simultaneously driving our sales.
+(49:57.700) Your next question comes from the line of Ben Brightfus with Melias Research.
+(50:02.420) Your line is open.
+(50:04.680) Yeah. Hey, thanks. I wanted to ask you a question, Jensen, about demand in a different way. You talked about demand growing 100% next year, and I wanted to kind of get a sense for a couple things driving that and even beyond that.
+(50:20.700) And there's two concepts here. There's recursive self-improvement, which apparently at Anthropic and OpenAI is going very well with AI that improves itself. And even OpenAI said they could hit AGI by the end of this year.
+(50:36.100) and with the developments in RSI as well as AGI,
+(50:41.760) what happens to industry demand?
+(50:44.060) Does it inflect further?
+(50:46.700) And what does it mean for NVIDIA
+(50:48.480) when those things take place?
+(50:50.380) And how are you looking at that as a demand catalyst?
+(50:53.540) Thanks.
+(50:54.640) I appreciate that.
+(50:55.840) It's going to inflect further.
+(50:58.660) Today, the vast majority of AI is prompted by people.
+(51:03.920) I believe that this last month, it has crossed. Most AI are now agentic. But in the future, in the future, every company will have a whole bunch of agents. You know, we have, we have 40,000 employees roughly. In the future, we'll have 400,000 agents, 4 million agents. And those agents are running continuously. They're running in the background.
+(51:26.020) If you have anybody who builds, if you know anybody who builds edge, you know, personal AI agents, and they run it on their, like a DGX spark. And, you know, I know a lot of people who, who run it on DGX stations, this incredible workstation that we built. And you can buy it from Dell and, and they're, they're, they're, they're incredible.
+(51:47.880) and these AI agents running on a DGX station runs 24 seven, because you got stuff for that to do
+(51:55.120) for it to do all the time. And so the, when, when the world goes to agentic, fully agentic,
+(52:01.880) agentic systems, you're going to have agents running all the time, working with other agents
+(52:05.760) running all the time. And those would be working in the background, improving your company,
+(52:09.700) you know, improving your lives. In a lot of ways, we're, we're kind of recursive at this point,
+(52:16.060) at this point. And you could argue it's coarse grained, but every time you run through an agent,
+(52:22.000) it reflects on how it could do a better job next time, and it updates the skill file.
+(52:27.540) And so the skills document, the markdown, is updated at the end of every single one of them.
+(52:33.160) And so next time you run it, it's going to get better. It's a, you know, kind of a loosely
+(52:38.640) coarse grained self-improvement. And so you see that all over, always. And so in a lot
+(52:46.040) of ways. And for many, for many tasks, we could say that we've already achieved AGI. I think all
+(52:52.780) of those milestones and all those, you know, they're kind of senseless at this point. I think
+(52:57.500) the most important thing that matters for the industry is that one, AI is now doing productive
+(53:04.320) and useful work. Two, AI is generating profitable tokens. And three, if we had more compute,
+(53:12.220) we could generate more profitable tokens, which results in more profit for all of the services.
+(53:17.460) This is the exact phase where we're at, which is the reason why everybody's leaning in.
+(53:25.440) Your next question comes from the line of Jim Schneider with Goldman Sachs. Your line is open.
+(53:33.260) Good afternoon. Thank you for taking my question. If you think about the 100% growth you talked
+(53:38.580) about in terms of the plus unconstrained demand growth, you're expecting the 70% you expect to
+(53:44.420) fulfill in terms of supply. Can we talk about some of the, or rank order, some of the most
+(53:50.580) acute constraints, whether that be things like data center power and shell availability,
+(53:58.400) DRAM, wafer foundry availability, et cetera. If you can maybe help us understand
+(54:03.900) which are the biggest among those, that would be very helpful. Thank you.
+(54:08.580) there's fun, something funny I could say, but I'm going to just not, um, the, the, uh,
+(54:17.780) you know, last year, one of the funnest things to do is just to go figure out where I go for dinner
+(54:24.200) and, and who I have dinner with and, um, their, their stock price doubles the next day.
+(54:29.040) Um, I, I think the, the answer is, is, um, our entire supply chain is challenged
+(54:35.000) and it's everybody everybody is really running flat out um and more capacity is coming online
+(54:44.100) all the time which is one of the advantages what's going to happen this year it's not going to come
+(54:48.860) online in just you know an instance in time but it's going to come online every every day yields
+(54:55.600) are going to get improved we're going to be doing yield improvement we're going to work hard on on
+(55:01.260) working with every one of our suppliers, you know, and so we just, we have a, it's not even
+(55:07.600) next year yet. And so we've got lots and lots of time to work hard every day. And so at this moment,
+(55:14.780) we have supply for 70%. We have, we have more supply than 70%, but about 70%. Our demand is
+(55:22.540) much higher than that. And we've got to go work hard or, you know, we're, we're going to be
+(55:29.680) disappointing customers. And we like not to disappoint our customers. And we like to work
+(55:37.300) hard for them. And so I'm going to need the help of the entire supply chain to help me out here.
+(55:42.580) But they all know that. What I'm telling you about our needs for next year is exactly consistent with
+(55:50.920) what I've told them. Everybody's on the exact same song sheet. And I'm trying to be as transparent
+(55:58.120) as we can because we're talking about big numbers.
+(56:04.660) Your final question comes from the line of Aaron Rakers
+(56:08.080) with Wells Fargo.
+(56:09.380) Your line is open.
+(56:12.140) Yeah, thanks for taking the question.
+(56:14.500) I want to go back to the gigawatts, the 25 to 40,
+(56:19.040) and maybe try and understand, like, you know,
+(56:21.900) I think Jensen, you said at some recent conferences
+(56:24.240) that, you know, that's going to further scale.
+(56:26.600) So, you know, as we think about the path even beyond Vera Rubin, we think about Vera Rubin Ultra and so on and so forth.
+(56:33.900) Like, should we really conceptualize like $40 billion goes to $60 billion, $80 billion?
+(56:38.380) And then, you know, I guess, you know, underneath of that question is how do we kind of think about your ability to scale the capacity deployments?
+(56:47.280) You know, is it a linear function or is there something that, you know, kind of unlocks your ability to supply more demand as we look through fiscal 27?
+(56:54.960) Great question.
+(56:55.660) Or 28, sorry.
+(56:56.600) Yeah, great question. Great question. And very simple. Is our goal to put as much compute on a plot of land? Is our goal to put more compute into one gigawatt or less? And so obviously, we would like the speed of light answer. The perfect answer is actually infinity per gigawatt.
+(57:21.520) And, and so if we could literally get a trillion dollars of compute into one gigawatt and one piece of land power shell, it would be a fantastic outcome. And so the answer is directionally in that direction.
+(57:36.160) we started we started in the world of general purpose computing during moore's law
+(57:41.640) we were probably you know pick your favorite number but i'm going to go with something like
+(57:46.700) five billion three billion dollars per gigawatt of compute with with general purpose computing
+(57:52.100) and and then eventually with hopper it was 18 now grace blackwell is 25 next vera rubin is 40
+(58:00.240) and after that it's going to be higher and that's excellent that's fantastic for the industry it's
+(58:06.060) fantastic for customers. So long as the productivity of it continues to grow, the durability and the
+(58:13.200) fungibility continues to grow, then people are happy to invest in assets that generates revenues,
+(58:21.940) generates profits, and helps them recoup their returns so incredibly fast. I mean, I heard the
+(58:27.060) other day that return on investment capital is now less than a year. And we're talking about $50
+(58:34.220) billion data centers. And so that tells you something about the productivity of NVIDIA's
+(58:41.880) technology and the rentability of it. I want to thank all of you for joining us today.
+(58:51.740) There are no further questions at this time. Tashiya Hari, I'll turn the call back over to you.
+(58:57.980) Thank you. Before we close, please note that Jensen will be participating in a keynote
+(59:02.620) fireside chat at the Goldman Sachs Communicopia and Technology Conference in San Francisco on
+(59:07.920) September 10th. He'll also be giving a keynote at GTC Berlin on October 21st. Our earnings call
+(59:14.900) to discuss the results of our third quarter of fiscal 2027 is scheduled for November 17th.
+(59:20.420) Thank you for joining us today. Operator, please close the call.
+(59:26.380) This concludes today's conference call. You may now disconnect.
