@@ -180,6 +180,16 @@
     "source_url": "https://www.zucast.com/webcast/bv68uLnF",
     "status": "ok"
   },
+  "2382_2026_q1": {
+    "checked_at": "2026-08-30",
+    "duration_sec": 3416.405333,
+    "file": "data/2382/2382_2026_q1.mp3",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2382_2026_q1.mp3",
+    "sha256": "76f9cf4dcde9811ee2738cfcb7c8277cf4c1c13a1d215720b5a109732e54275f",
+    "size_bytes": 54663497,
+    "source": "local_file",
+    "status": "ok"
+  },
   "2382_2026_q2": {
     "captured_media_url": "https://files.quartr.com/audio-files/019ffa90-502a-72ce-932e-1984581e5539/master.m3u8?ref=R29vZ2xl",
     "checked_at": "2026-08-14",

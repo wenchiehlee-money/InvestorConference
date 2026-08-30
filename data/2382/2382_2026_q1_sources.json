@@ -1,0 +1,20 @@
+{
+  "stock_id": "2382",
+  "fiscal_label": "2026 Q1",
+  "event_type": "法說會",
+  "announced": "2026-05-14",
+  "sources": [
+    {
+      "source_url": "https://www.quantatw.com/Quanta/english/investment/financials_icp.aspx",
+      "source_type": "Official company IR page, direct audio/mpeg file (no registration, no WAF cookie issue once warmed up via browser)",
+      "discovery_page": "https://www.quantatw.com/Quanta/english/investment/meeting_open.aspx?CASENO=NEWS003758&link=1",
+      "media_url": "https://www.quantatw.com/quanta/Web_video/NEWS003757.mp3",
+      "retrieved_at": "2026-08-30",
+      "sha256_audio_mp3": "76f9cf4dcde9811ee2738cfcb7c8277cf4c1c13a1d215720b5a109732e54275f",
+      "size_bytes": 54663497,
+      "duration_sec": 3416.405333,
+      "notes": "ingest.py's own Playwright IR-page scraper for 2382 (PW-IR) reported 'No video URLs found' on both the Chinese and English financials_icp.aspx pages despite the video icon being visibly present in a real browser session (chrome-devtools) - likely a headless/rendering or JS-interaction gap in the scraper, not a genuine absence of media. User supplied the direct IR page URL and pointed out the 1Q26 and 3Q25 rows specifically had video icons. Direct download required the site's bot-protection (Uzma/Reblaze-style) cookies obtained from a real browser session; a bare curl request without cookies returned an HTML challenge page instead of the audio/mpeg stream. Saved as data/2382/2382_2026_q1.mp3; uploaded to GitHub Release audio-files."
+    }
+  ],
+  "notes": "This event was one of two 2382 quarters (2026 Q1, 2025 Q4) with no audio/FIN/GT despite having IR presentation materials. For 2025 Q4, the company's own IR page (both Chinese and English) shows NO video icon for the 4Q25 row -- and, on inspection, ALSO no video icon for 4Q22/4Q23/4Q24, indicating Quanta structurally does not record/publish a Q4 earnings call webcast (as opposed to a discoverable-but-missed source). This is a company-level pattern, not a data-collection gap, and should be treated as a permanent 'no audio available' case for Q4 quarters unless a future quarter breaks the pattern."
+}
