@@ -4,10 +4,10 @@ Review-Level: conservative_from_FIN
 Reviewer: Claude Sonnet 5
 Reviewed-At: 2026-08-30
 Audio-Checked: none
-Correction-Sources: FIN, ir.md (Chinese IR deck), ir_en.md (English IR deck), prior_quarters (2412_2025_q4_GT.srt for exec names)
-Corrections: terminology, names, numbers (26 of 358 timestamp lines, ~7.3%)
+Correction-Sources: FIN, ir.md (Chinese IR deck), ir_en.md (English IR deck), prior_quarters (2412_2025_q4_GT.srt for exec names), transcript (fool.com Motley Fool third-party, no timestamps, secondary/cross-check only)
+Corrections: terminology, names, numbers (28 of 358 timestamp lines, ~7.8%)
 Confidence: medium
-Notes: FIN scaffold and line boundaries preserved verbatim; no reflow. No third-party transcript was available for this TW call (AlphaSpread/Yahoo/AlphaMemo all absent), so corrections are limited to items directly verifiable against the IR deck and the 2025 Q4 GT: company name (Chunghwa Telecom, not Zhonghua/China Telecom), exec names (President Rong-Shy Lin, CFO Audrey Hsu, matching 2412_2025_q4_GT.srt), product/segment terms (AAA Hub not 3A hub, IOWN not ION/IONI, Chunghwa Precision Test not Zhonghua Precision Test, private leased circuit not private list of circuit), and two garbled artifacts (EPSO -> EPS; anti-dollars -> NT dollars). All financial figures (revenue, EBITDA, EPS, CapEx, FCF) already matched the IR deck exactly in FIN and were left untouched. Two low-confidence items were deliberately left uncorrected because no repo source verifies them: the analyst name "Charlie Bai" (HSBC) and the subsidiary name transcribed as "cheap telecom" (line ~279, in a sentence about combining IDC capacity with Chunghwa Telecom) - likely a well-known CHT subsidiary but not named in this quarter's IR deck, so left as FIN produced it rather than guessed.
+Notes: FIN scaffold and line boundaries preserved verbatim; no reflow. No third-party transcript was available in-repo for this TW call (AlphaSpread/Yahoo/AlphaMemo all absent); most corrections are verified against the IR deck and the 2025 Q4 GT: company name (Chunghwa Telecom, not Zhonghua/China Telecom), exec names (President Rong-Shy Lin, CFO Audrey Hsu, matching 2412_2025_q4_GT.srt), product/segment terms (AAA Hub not 3A hub, IOWN not ION/IONI, Chunghwa Precision Test not Zhonghua Precision Test, private leased circuit not private list of circuit), and two garbled artifacts (EPSO -> EPS; anti-dollars -> NT dollars). All financial figures (revenue, EBITDA, EPS, CapEx, FCF) already matched the IR deck exactly in FIN and were left untouched. Two remaining low-confidence items were subsequently resolved by fetching the fool.com transcript (web search, not saved to repo as a file - secondary source, used only for these two proper nouns): operator says "Charlie Bai" but the analyst self-identifies as "Tianyu Bai, HSBC" (both names appear in the real call; only the self-attribution line was corrected, the operator's introduction line was left as "Charlie Bai" since fool.com confirms the operator really says that); and the subsidiary FIN heard as "cheap telecom" is "Chief Telecom" (Chunghwa Telecom's IDC subsidiary), confirmed verbatim by fool.com's transcript.
 ---
 (00:00.000) Good afternoon, ladies and gentlemen. Welcome to Chunghwa Telecom conference call for the company's second quarter 2026 operating results.
 (00:09.000) During the presentation, all lines will be on listen-only mode, and when the briefing is finished, directions for submitting your questions will be given in the question and answer session.
@@ -227,7 +227,7 @@ Notes: FIN scaffold and line boundaries preserved verbatim; no reflow. No third-
 (27:29.500) Thank you.
 (27:30.260) Firstly, we'll have Charlie Bai of HSBC for questions.
 (27:37.440) Go ahead, please.
-(27:38.440) Charlie Bai, HSBC, Hello, management.
+(27:38.440) Tianyu Bai, HSBC, Hello, management.
 (27:41.460) Congratulations on this very strong result.
 (27:43.960) I saw spectacular growth in the international sector.
 (27:48.340) Might know more about the long-term guidance and visibility in this segment because I know
@@ -283,7 +283,7 @@ Notes: FIN scaffold and line boundaries preserved verbatim; no reflow. No third-
 (32:15.400) However, just to give you some idea that regarding the Taiwan's IDC market,
 (32:23.640) we would like to highlight our leading position.
 (32:27.500) On a group basis, combining the capacity of Chunghwa Telecom and our subsidiary,
-(32:33.000) cheap telecom. Our IDC market share in Taiwan
+(32:33.000) Chief Telecom. Our IDC market share in Taiwan
 (32:36.700) reached 78% as of the second quarter, maintaining
 (32:40.900) our position as the market leader. I think this information
 (32:44.520) may give you some idea about our value of the ICDC
