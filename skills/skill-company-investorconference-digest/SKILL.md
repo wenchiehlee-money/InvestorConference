@@ -80,7 +80,7 @@ description: 法說會/earnings call 與財報結果 digest。當使用者要求
 | `{StockID}_{Year}_q{N}_ir.md` | 中文法說會簡報 | TW 財務數據補充；簡報數字通常標註 unaudited/preliminary，正式財報存在時財務硬數字以財報為準（見 3.1.2） |
 | `{StockID}_{Year}_q{N}_ir_en.md` | 英文法說會簡報 | 同上 |
 | `{StockID}_{Year}_q{N}_qa.md` | 官方 Q&A 紀錄 | Q&A 分析必讀 |
-| TW 官方合併財報：README `類型=財報` 對應的 MOPS 申報檔（本地 `{StockID}_{Year}_q{N}_report_cn.md`/`.pdf` 或 sibling `../MOPS/downloads/{StockID}/{YYYYQQ}_{StockID}_AI1.pdf`／`_AIA.pdf`） | 公司正式（通常 audited/reviewed）合併財務報表 | TW 財務數據第一優先，優於法說會簡報（見 3.1.2） |
+| TW 官方合併財報：README `類型=財報` 對應的 MOPS 申報檔，直接讀取 sibling `../MOPS/downloads/{StockID}/{YYYYQQ}_{StockID}_AI1.pdf`／`_AIA.pdf`（若該 repo 已有對應 `.md` 轉檔則優先使用，不在 InvestorConference 本地重複轉檔存放；`InvestorConference/data/{StockID}/` 不需另存一份） | 公司正式（通常 audited/reviewed）合併財務報表 | TW 財務數據第一優先，優於法說會簡報（見 3.1.2） |
 | `{StockID}_{Year}_q{N}_report_en.md` / `_financial_tables.md` | 美股 earnings release / tables | US 財務數據第一來源 |
 | `{StockID}_{Year}_q{N}_performance_review.md` / `_ir_en.md` | 美股簡報或 performance review | US guidance / segment 補充 |
 | `{StockID}_{Year}_q{N}_10q.md` | SEC 10-Q/10-K 摘要或連結 | US filing 交叉驗證（若可得） |
@@ -90,7 +90,7 @@ description: 法說會/earnings call 與財報結果 digest。當使用者要求
 
 ### 3.2 來源使用原則
 
-1. 財務數字以公司正式文件為第一來源：TW 若同季有官方合併財報（MOPS AI1/AIA 或本地 `_report_cn.md`/`_report_en.md`），以財報為第一來源，`_ir.md`/`_ir_en.md` 僅作 guidance、segment、KPI 與定性補充；若無財報只有法說會簡報，才以簡報數字為準。US 優先 earnings release/report、financial tables、performance review/deck 與 SEC filing（若可得）。
+1. 財務數字以公司正式文件為第一來源：TW 若同季有官方合併財報（sibling `../MOPS` repo 的 AI1/AIA 申報檔），以財報為第一來源，`_ir.md`/`_ir_en.md` 僅作 guidance、segment、KPI 與定性補充；若無財報只有法說會簡報，才以簡報數字為準。US 優先 earnings release/report、financial tables、performance review/deck 與 SEC filing（若可得）。
 2. Q&A 重要性高於 prepared remarks；Q&A 可能揭露法人真正擔心的問題、管理層未主動提到的限制與不確定性。
 3. GT 字幕優先於 FIN 字幕，但必須讀取 GT metadata/review level；若 GT 僅為 `conservative_from_FIN` 或缺 metadata，重大結論仍需回到 IR、Q&A、第三方逐字稿與音檔交叉驗證。
 4. 產生 GT 或 digest 前必須檢查 repo 根目錄 `audio_metadata.json`；若目標 stem `status` 為 `duplicate`、`invalid` 或 checksum 與其他季度相同，視為音訊錯配 Blocker/Major，不可把 FIN 時間軸視為本季音訊證據。
