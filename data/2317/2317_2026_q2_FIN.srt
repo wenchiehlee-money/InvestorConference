@@ -1,0 +1,1057 @@
+[METADATA]
+Source: 2317_2026_q2_exp13
+Language: en
+---
+(00:00.000) For more information, visit www.foxconn.com.
+(00:30.000) Thank you.
+(02:30.000) This webinar is being transcribed and summarized.
+(03:00.000) We expanded our global third-party collection,
+(03:02.000) and completed 85 RBA and VAP collections,
+(03:05.500) and obtained six gold medals and the highest honor certificate.
+(03:09.000) In terms of environmental protection,
+(03:11.000) in addition to continuing to promote the Li Shan School's biodegradable plan,
+(03:14.000) the group also launched strategic cooperation with renewable energy in Vietnam,
+(03:17.500) and held a Green Energy Forum to promote the resilience of green power plants.
+(03:23.500) Yes, and in terms of talent cultivation and social feedback,
+(03:26.500) the Red Sea is also not a place to be left behind.
+(03:28.500) We have continued to grow the new project,
+(03:30.900) the
+(03:32.900) This year's technology award is extremely high,
+(03:34.900) attracting more than 200 excellent works from both domestic and foreign countries.
+(03:38.500) We have also added a more active application group to encourage practical work.
+(03:41.700) In addition, the Group also held an AI governance forum,
+(03:44.700) a new home-based day,
+(03:46.900) and arranged interns to go in-depth to visit airlines,
+(03:50.100) financial and technology index companies,
+(03:52.500) to promote cross-industrial exchange learning.
+(03:54.900) These solid roots also make Honghai a world-class award winner.
+(04:00.900) Among the 500 largest Fortune companies recently announced in 2026,
+(04:04.900) Honghai ranked 23rd in the big-billion-dollar list,
+(04:07.900) and also won seven awards, including the most respected companies in the XTEL class.
+(04:12.900) In the personal honor part,
+(04:13.900) Director Yang Qiu-jin also selected the most influential business women in Fortune.
+(04:18.900) and many of the best in the field of human resources, research and development,
+(04:22.900) including HR Asia, ATD, and excellent young engineers.
+(04:31.900) In summary, the strategic axis of Red Sea is very clear.
+(04:35.900) It is to control AI-based facilities,
+(04:38.900) global localization, electric vehicles,
+(04:41.900) pre-design and research, and sustainable management,
+(04:44.900) Through the international cooperation and technology of the multi-tool,
+(04:48.900) the Group is advancing the full transformation of AI as the core of the
+(04:52.900) world's leading technology.
+(04:54.900) This is the last episode of the Red Sea Focus News.
+(04:58.900) At the end of the program, I would like to remind all the audience that
+(05:01.900) the Red Sea Technology Day will be held on October 30 and 31
+(05:04.900) at the Taipei Nangang Exhibition Hall.
+(05:07.900) We sincerely invite all investors to participate in this annual
+(05:11.900) 感謝您的收看,我們下次見!
+(05:15.700) 我們下次見,拜拜!
+(06:11.900) Hello investors, I'm Hong Rui.
+(06:21.120) Hello everyone, I'm Hai Shen. Welcome to this quarter's Foxconn Global Highlights.
+(06:27.020) Today, we'll take you through Foxconn's key milestones and achievements over the past quarter.
+(06:32.160) Let's begin with the news our shareholders care about most.
+(06:35.520) At this year's annual general meeting, shareholders approved a record $100.9 billion new Taiwan dollars in cash dividends, with $7.2 new Taiwan dollars per share, the highest level in the company's history.
+(06:49.720) This reflects Foxconn's continued commitment to sharing the value created by its strong business performance with shareholders.
+(06:57.100) That's certainly welcome news for our shareholders.
+(06:59.940) Meanwhile, Foxconn continued to expand its global AI infrastructure footprint this quarter.
+(07:09.180) Foxconn has partnered with Boll, a leading French technology company, to strengthen local
+(07:13.900) manufacturing capabilities and accelerate the development of AI factories across Europe.
+(07:20.020) At the same time, Foxconn has expanded strategic partnerships with Intel, Schneider Electric
+(07:25.740) and SK Group covering key areas including AI server racks,
+(07:29.920) edge AI, physical AI, green data centers,
+(07:33.420) advanced cooling and energy management.
+(07:36.320) In addition, Vision Bay, Foxconn's AI supercomputing
+(07:40.140) and cloud operations platform has joined forces with IBM
+(07:43.960) to build a scalable full-stack AI platform.
+(07:47.820) Beyond technological leadership,
+(07:50.180) Foxconn is also accelerating its global market expansion.
+(07:54.500) Foxconn, together with Radialentales, has established the joint venture TESELIA, focusing
+(08:00.640) on advanced electronics and semiconductor advanced packaging in Europe.
+(08:04.760) Foxconn has also signed MOU with Sharp, targeting five emerging sectors – AI, renewable energy,
+(08:11.320) robotics, electric vehicles, and smart city.
+(08:14.520) This quarter, Foxconn also made its debut at Vivatech in France and the Taiwan Expo
+(08:19.220) in Japan.
+(08:20.360) Computex Taipei, the company showcased its latest AI servers, co-packaged optics technology,
+(08:26.300) and three smart platforms, highlighting its latest achievements in AI and smart technologies.
+(08:32.860) Foxconn's technology is also making a real-world impact.
+(08:37.480) CityGPT has partnered with the Kaohsiung City Government and Kaohsiung Medical University
+(08:42.120) to advance road safety management and develop AI-powered clinical decision support systems.
+(08:47.920) In the electric vehicle sector, Foxtron unveiled its new midsize all-electric SUV, Kavira.
+(08:55.260) Meanwhile, Jun Seiki, chief strategy officer of Foxconn's EV business, shared his latest insights on global EV trends at an industry forum in Japan.
+(09:04.840) In advanced research, the Hanhai Research Institute, HHRI, and National Yangming Chaotong University have successfully developed a high-speed silicon photonics transmission technology.
+(09:17.160) Meanwhile, Snova, HHRI's post-quantum cryptographic algorithm, has advanced to the third round of the U.S. National Institute of Standards and Technology Post-Quantum Cryptography Standardization Project.
+(09:30.900) Innovation and sustainability continue to go hand-in-hand at Foxconn.
+(09:36.100) This quarter, the group further strengthened its commitment to responsible business practices and sustainable development.
+(09:43.780) Foxconn expanded its global third-party audit program, completing 85 RBA BAP audits, while earning six platinum-level certifications, the highest level of recognition.
+(09:55.840) On the environmental front, we continued to promote biodiversity through our Satoyama education program.
+(10:02.320) The group also expanded renewable energy initiatives in Vietnam through strategic partnerships and hosted a green energy forum, helping strengthen a greener and more resilient supply chain.
+(10:14.500) Developing future talent and creating social value remains central to Foxconn's long-term vision.
+(10:21.560) Through initiatives including the Starlight Program, Quantum Camp, and the Han High Technology Award, we continue to inspire and cultivate the next generation of innovators.
+(10:32.320) This year's Technology Award attracted more than 200 outstanding submissions from Taiwan and around the world.
+(10:39.140) For the first time, an Applied Technology category was introduced to encourage practical innovation and real-world implementation.
+(10:46.600) Foxconn also hosted an AI Governance Forum, Family Day events across its campuses, and cross-industry learning visits for interns, fostering broader perspectives and stronger collaboration.
+(10:58.080) These long-term commitments continue to earn international recognition.
+(11:03.620) In the latest Fortune Global 500 rankings, Foxconn climbed to number 23 in the world.
+(11:09.920) The company also received seven honors from Extel, including recognition as one of the most honored companies.
+(11:16.780) On the individual level, Cathy Yang, Chief Campus Operations Officer, was named among Fortune's most powerful women in business.
+(11:24.680) Across the group, professionals in human resources, research and development, and manufacturing also received prestigious international honors, including awards from HR Asia, ATD, and the Outstanding Young Engineer Awards.
+(11:39.120) Looking back on the quarter, one message stands out clearly. Foxconn continues to advance five strategic priorities. AI infrastructure, localized global manufacturing, electric vehicles, advanced research, and sustainable governance through global partnerships, technological innovation, and continued investment in future-ready capabilities.
+(12:04.400) The group is accelerating its AI-driven transformation.
+(12:09.460) That concludes this quarter's Foxcock Global Highlights.
+(12:13.260) Before we sign off, we'd like to remind everyone that this year's Han Hai Tech Day will take place on October 30 and 31 at the Taipei Nangang Exhibition Center.
+(12:24.580) We sincerely invite investors, partners, and friends from around the world to join us for this premier annual technology event.
+(12:32.120) Thank you for watching.
+(12:34.400) Thank you for watching. See you next time.
+(13:04.400) Thank you.
+(14:34.400) Mr. Di Heng, Mr. Huang Decai, and James, the speaker, will explain to you.
+(14:40.240) The time of the French press conference is expected to be an hour.
+(14:43.120) The first stage is the briefing.
+(14:44.740) The second stage is the question and answer time.
+(14:47.500) Before the meeting is officially held, please read the detailed briefing in the exemption statement.
+(14:53.000) Next, let's enter the first stage of the French press conference, the briefing.
+(14:56.080) This time, there are four issues, including the second quarter of the year in 2026, the third quarter of the year in the year of the year, important business progress, and recent major events.
+(15:07.740) Before we move on to the financial data, we would like to share with you the key points of this quarter.
+(15:13.680) First, the annual increase in business interests in the second quarter and the first half of the year has exceeded 60%, which is far higher than the growth rate of revenue.
+(15:21.720) This shows that Red Sea's core productivity is rapidly improving.
+(15:26.720) Fourth, the third season of the year, we expect the season to help grow year by year to achieve strong growth.
+(15:33.720) The year-round outlook maintains a strong growth outlook.
+(15:37.720) Third, we are not providing a single product, but from the component and module to the machine's chassis to the AI system of the module data center and the calculation center.
+(15:50.720) Fourth, the AI capital expenditure of customers continues to increase.
+(15:54.960) We will actively expand the global production capacity to meet customer needs.
+(15:59.200) We expect that next year's revenue will continue to grow.
+(16:03.560) Now, let's invite Finance Minister David to explain the financial performance of the second quarter.
+(16:09.280) Thank you, Kristen.
+(16:11.600) Hello, everyone on the online investment front and media friends.
+(16:15.300) I'm Huang Decai.
+(16:16.920) 接下來由我向大家報告鴻海2026年第二季的財報表現。
+(16:24.920) 請大家看第六頁2026年第二季損益表。
+(16:29.920) 第二季營收為新臺幣2.53兆元,較去年同期成長41%,創下歷年的同期新高。
+(16:40.160) 若與第一季相比,也成長19%,反映主要業務的持續成長。
+(16:46.920) In terms of profit performance, the second quarter's profit margin is 6.12%,
+(16:53.460) which fell 0.21% in the same period last year, mainly due to product combination changes.
+(16:59.980) However, the profit margin still rose 36% in the same period last year.
+(17:05.560) The profit margin is 3.75%, which increased 0.6% in the same period last year,
+(17:11.880) 主要受惠於營收成長帶動毛利增加以及費用率下降所致
+(17:18.780) 營業利益達948億元,年增68%
+(17:24.120) 增幅明顯高於營收成長
+(17:27.340) 主要是毛利率增加36%而費用僅增加5%
+(17:33.540) 因此營業利益成長相當強勁,也創下歷年同期新高
+(17:38.800) 接著看業外的部分
+(17:41.620) 本季獲利0.6億元,較去年同期減少約85億元,主要來自資金投資及淨利息。
+(17:50.920) 其中,基金投資獲利較去年同期減少59億元,主要是部分投資標的去年上市,當時股價漲幅較大。
+(18:00.700) 淨利息支出則增加27億元,主要因AI業務及營運規模的擴大,帶動資金需求增加所致。
+(18:09.140) but at the same time, the profit and loss of this quarter increased significantly.
+(18:14.140) The profit and loss of the first quarter increased by 26.2%,
+(18:16.980) and the profit and loss of the second quarter increased by 2.2%.
+(18:20.160) The main reason is that the company's profit has grown,
+(18:23.420) and it is estimated that the profit and loss of the first quarter will increase by 260 million.
+(18:28.460) The profit and loss of the second quarter was 600 million yuan,
+(18:31.020) 較去年同期增加35%
+(18:40.860) 較第一季成長20%
+(18:44.280) 創下歷年同期新高
+(18:46.500) EPS為4.27元
+(18:50.420) 較去年同期增加1.08元
+(18:53.220) 成長34%
+(18:55.440) 較第一季增加20%
+(18:58.140) 同樣創下歷年的同期新高
+(19:00.820) 整體來看,第二季的營收持續成長,本季獲利成長更快於營收,核心營運表現維持強勁。
+(19:11.940) 接下來請大家看到第七頁上半年的損益表。
+(19:15.820) 年增35%
+(19:22.820) 營業利益為1705億元
+(19:26.120) 年增65%
+(19:28.540) 稅後淨利為1099億元
+(19:31.820) 年增27%
+(19:33.840) EPS為7.84元
+(19:36.220) 年增26%
+(19:37.820) 其中營業利益淨利和EPS都創下歷年的同期新高
+(19:43.900) 如果從上半年整體表現來看,營業利益的成長幅度明顯高於營收,顯示隨著營運規模擴大,公司的獲利能力也同步提升。
+(19:57.360) 上半年毛利率為6.15%,較去年同期下降0.08個百分點,但毛利金額仍成長33%,同時營業利益率提升至3.67%,
+(20:11.900) 上半年熬一為6.21%,較去年同期增加0.73%。
+(20:37.900) The response of the company is that while the operating scale is growing rapidly,
+(20:41.660) the core profit capacity and capital utilization efficiency continue to improve.
+(20:46.860) Overall, the operating scale of the first half of the year,
+(20:49.260) profit and profit of each share remain growing.
+(20:53.340) The growth of the profit in this industry is higher than that of the revenue,
+(20:55.980) and the overall operating performance is stable.
+(20:59.060) Next, please look at the 8th page of the report,
+(21:01.460) the asset debt table.
+(21:03.700) At the end of June 2022, the cash on the account plus the deposit amount is 1.52 trillion yuan,
+(21:10.360) the cash in is 2,198 billion yuan,
+(21:14.100) which is 238 billion yuan less than last year.
+(21:16.840) This mainly reflects the continued expansion of the operating scale,
+(21:19.560) which leads to an increase in the demand for operating funds.
+(21:22.500) In terms of operating fund management,
+(21:24.580) the second quarter cash
+(21:22.960) cash in is 42 days,
+(21:27.560) which is 6 days less than last year.
+(21:30.660) If the influence of the management tools of the British and European accounts is eliminated,
+(21:33.700) The current short-term period is 52 days, while the same period last year was improved by 2 days.
+(21:39.360) This shows that under the rapid growth of the operating scale, the management efficiency of the company's operating funds is still improving.
+(21:47.320) The debt ratio this period is 62%, the overall maintenance is stable, and the financial structure is stable.
+(21:54.580) Finally, let's look at the 9th cash flow chart of the report.
+(21:57.600) 二零二二年上半年,隨著營運規模快速成長,
+(22:02.720) 營收賬款及存貨等營運資金投入也同步地增加,
+(22:07.980) 因此營業活動現金流為淨流出六百九十一億元,
+(22:12.760) 上半年自由現金流出為淨流出一千五百億元,
+(22:16.880) 主要受到營運資金投入增加及資本支出的影響。
+(22:21.240) 資本支出方面,上半年為八百零九億元,
+(22:25.460) 年增百分之五,複合預期。
+(22:27.600) Overall, business growth in the first half of this year
+(22:31.300) has led to an increase in cash flow and capital expenditure demand.
+(22:34.800) This cash flow will have a gradual flow out,
+(22:37.900) but cash flow circulation efficiency continues to improve,
+(22:40.300) profit and cash flow scale maintain growth,
+(22:42.800) and financial structure remains stable.
+(22:45.300) These are the simple reports of the financial report of the second quarter of 2026.
+(22:50.400) Next, we will hand over the time to the CEO of Lundz, Mr. Michael.
+(22:54.800) Thank you, David.
+(22:56.800) Hello, everyone. I am Michael, CEO of Lundz.
+(23:01.800) I am very happy to meet you again today
+(23:04.800) to explain the performance and future prospects of Red Sea in the second quarter.
+(23:09.800) First, let's look back at the operations of the second quarter.
+(23:12.800) Our revenue in the second quarter has created a new high in the same period.
+(23:15.800) Performance has also exceeded the prospects of the May Fair.
+(23:19.800) The growth of the year-to-year growth has been strong.
+(23:23.800) 四大產品的表現也都優於預期,其中雲端網路產品季對季達到了強勁成長。
+(23:32.980) 因為第二季是ICT產品的傳統淡季,所以雲端網路產品的比重更加的提高,佔比首次突破了五成。
+(23:43.300) 從整體的獲利性來看,第二季的營業利益以及稅後淨利都創下歷年同期新高。
+(23:49.920) 尤其是第二季單季的營業利益力
+(23:53.320) 達到了948億
+(23:55.640) 不只季增年增的比例很高
+(23:58.780) 更是創下了歷年單季的最高記錄
+(24:02.120) 代表我們本業的核心獲利能力
+(24:05.180) 也在大幅的提升當中
+(24:07.060) 對我來說
+(24:09.260) 成長不只是規模的擴大
+(24:11.980) 更重要的是能不能轉化成更好的獲利
+(24:15.720) 這也是我接任輪值CEO以後
+(24:18.880) 持續推動的方向
+(24:20.540) 就是做大規模
+(24:22.320) 也要把獲利做得更好
+(24:24.420) 接下來我來說明
+(24:27.320) 我們對第三季的展望
+(24:28.840) 第三季AI的營運
+(24:31.280) 將會繼續的成長
+(24:32.520) 加上ICT產品
+(24:34.460) 也要進入下半年的旺季
+(24:36.180) 預期季對季將顯著成長
+(24:39.300) 年對年則達到強勁成長
+(24:41.900) 在雲端網絡產品方面
+(24:44.840) AI需求維持高速的成長
+(24:47.440) CSP customers increase capital expenditure
+(24:50.460) Our AI mechanisms continue to increase
+(24:53.040) We expect that year-on-year growth will be strong
+(24:57.160) In terms of consumer smartphones
+(25:00.560) Because it has entered the traditional era
+(25:04.060) We expect that in the third quarter
+(25:06.140) It will grow significantly compared to the previous quarter and the same period last year
+(25:10.480) The part of computer-centered products
+(25:13.560) Because the demand for new products has exceeded
+(25:16.400) 加上記憶體供應緊張,我們預期第三季相比第二季將會有略為衰退的現象。
+(25:24.400) 但也因為部分零組件價格提升,帶動了出貨價格的上漲,因此和去年同期相比,將會顯著成長。
+(25:34.400) 至於原件以及其他產品類別,因為主要業務相關的零組件,包括相機模組、連接器等出貨的成長,
+(25:44.400) 預期年對年將有顯著成長的表現。
+(25:48.400) 在全年展望的部分,我們維持強勁成長的看法不變,
+(25:54.400) 但是能見度比五月的時候又更好一些,
+(25:58.400) 原因還是因為AI伺服器的需求非常強勁。
+(26:02.400) 在這裡,我也想跟大家分享鴻海在AI時代的質變。
+(26:09.400) 從2024年開始,AI伺服器的營收持續拉高,
+(26:14.400) and gradually become the most important growth engine of the Group.
+(26:17.760) Every quarter, revenue maintains a double-digit increase in annual growth,
+(26:21.640) and this dynamic energy has significantly accelerated in the past year.
+(26:26.160) In addition, AI server is a basic infrastructure,
+(26:29.640) and the seasonal fluctuations are relatively small.
+(26:31.840) Therefore, the performance of annual quarter revenue is more stable,
+(26:36.000) and it is below the fluctuation level of consumer electronics industry,
+(26:40.040) 過去那種五窮六絕的情況已經不明顯了。
+(26:44.040) 我們剛公佈的7月營收第一次突破了單月9000億元的大關,
+(26:52.320) 在旺季開始之前就創下了歷年單月新高的紀錄,
+(26:57.340) 這也充分地證明AI需求的爆發力,
+(27:00.560) 以及我們在AI供應鏈中的核心地位。
+(27:04.280) 上一次法人說明會裡,我跟各位分享了幾項財務的亮點,
+(27:08.680) 在過去的一季,我們看到這些指標持續正向的發展。
+(27:14.680) 以上兩點來看,營業利益成長65%,
+(27:19.380) 優於營收及毛利的成長幅度,
+(27:23.300) 反映了AI的規模放大和自動化效益提升,
+(27:27.080) 讓核心業務的獲利能力大幅的加強。
+(27:31.240) 因為交易模式的關係,
+(27:33.420) 我們可能無法控制毛利率的方向,
+(27:35.640) 但是絕對會持續獲利極大化的經營目標
+(27:40.520) 在ROE的部分
+(27:43.540) 集團上半年ROE已經達到了6.21%
+(27:47.880) 比去年同期有明顯的提升
+(27:50.620) 跟全年12%的目標接近
+(27:53.620) 未來隨著AI業務成長
+(27:57.100) 垂直整合的效益逐步顯現
+(27:59.580) 我們認為集團整理的獲利能力
+(28:02.860) 以及資本運用的效率
+(28:04.480) 都還將持續的提升
+(28:06.000) 我們相信ROE還會有進一步向上的空間
+(28:10.280) 至於營業利潤率的表現
+(28:13.780) 上半年達到了3.67%
+(28:17.220) 比去年同期增加了0.67個百分點
+(28:21.220) 我們有信心
+(28:23.080) 今年全年將會超越去年的3.2個百分點的水準
+(28:27.320) 再來跟大家分享一下現金流的狀況
+(28:31.820) 上半年調整後的EBITDA年增52%
+(28:36.660) 比去年上半年增加了776億
+(28:40.940) 遠高於資本支出以及利息增加的總額
+(28:44.940) 顯示了鴻海的現金流越來越健康
+(28:48.280) 明年的展望也很正面
+(28:51.460) 我們看到客戶對AI的需求非常強勁
+(28:55.000) 我們預期鴻海資本支出將會持續的增加
+(28:59.020) 主要是提前擴充伺服器、機櫃、液冷以及測試等關鍵的產能,並且強化全球製造以及自動化的佈局。
+(29:10.560) 這包括臺灣、美國、墨西哥以及越南等地都會擴產。
+(29:17.260) 這其中,因應美國客戶的在地化需求,我們將會擴大德州、威斯康星州、俄亥俄州以及加州的研發與製造能力。
+(29:27.800) We can expect that these capital expenses will have a very significant effect on revenue, profit, and cash flow in the future.
+(29:39.340) Next, I will continue to explain the progress of important businesses to you.
+(29:45.360) The bright financial figures and strong growth prospects of this series are definitely not coming from a simple business, but from a solid foundation.
+(29:53.840) 大家可能會好奇,在多變的外部局勢下,
+(30:00.260) 鴻海營運持續爆發的關鍵是什麼?
+(30:03.860) 我想利用這張金字塔圖,
+(30:06.660) 向各位深入說明集團核心的運作模式。
+(30:11.440) 在最底層,是我們長期建立的全球佈局與規模效益。
+(30:17.620) 鴻海在五六年前就認為區域製造是一個趨勢,
+(30:21.320) 因此,我們將在地化產能建立,
+(30:24.320) 並且將全球的產區數量翻倍。
+(30:27.320) 近年來,因為地緣政治的局勢變化,
+(30:31.320) 導致各國對於在地供應鏈的重視,
+(30:35.320) 這也剛好呼應了鴻海先前的預期。
+(30:38.320) 如今,鴻海在全球24個國家超過240個據點的佈局,
+(30:44.320) 讓我們能夠提前因應,更靈活地來調配產能,
+(30:48.320) 凸顯Local for Local的價值,
+(30:50.320) value to respond to customer needs.
+(30:53.920) The middle layer is our long-term deep-rooted vertical integration and high-end automation.
+(30:59.720) The advantage of Honghai is its high-sufficiency key component.
+(31:04.120) This allows us to maintain good operating efficiency and efficiency
+(31:08.000) in the face of high-end and high-complex AI products.
+(31:12.040) More importantly, it can satisfy customers' needs for one-stop service
+(31:16.560) and also highlight our productivity.
+(31:18.320) 而且我們核心製程的自動化程度非常高
+(31:23.660) 以現有規模最大的CNC, SMT等製程為例
+(31:28.100) 我們自動化的比例已經接近百分之百
+(31:31.640) 這些在大量量產時期
+(31:34.540) 對於良率以及產出非常重要
+(31:37.840) 這也是我們領先的優勢之一
+(31:40.700) 在這些能力的基礎上
+(31:43.400) 最頂層的就是研發創新與高階的導向
+(31:47.720) 今年我們持續加大新事業的研發投入
+(31:51.400) 今年在3++3以及研究院的研發支出
+(31:56.100) 接近200億元
+(31:57.280) 年增40%
+(31:59.040) 有了規模
+(32:01.220) 垂直整合
+(32:02.460) 以及製造能力的支撐
+(32:04.100) 我們能夠與一線客戶共同開發
+(32:07.460) 聚焦前瞻與自主技術
+(32:09.960) 提升高附加價值產品的比重
+(32:12.720) 推動鴻海
+(32:14.180) 朝向科技製造平臺服務商來轉型
+(32:17.340) These three levels, from scale to efficiency integration, and finally to the value of high-level development and drive,
+(32:25.340) are the key operating modes that can perfectly meet the global needs of AI at this time and in the changing times of technology.
+(32:37.340) With the previous model, our scale, and long-term partnership with customers,
+(32:43.740) we can hold the position of the main supplier of AI customers.
+(32:47.940) And what customers value most is not just the hardware hardware,
+(32:53.340) but the system delivery capability.
+(32:56.540) This is the core advantage of Red Sea.
+(32:58.940) In the face of the practical needs of customer data centers,
+(33:02.740) we not only provide AI hardware and machines,
+(33:06.140) and extend the value chain to the modular data center,
+(33:09.640) the super-calculation center, and the overall infrastructure system that builds the main AI.
+(33:15.640) In the past, we focused on the large US-based CSP industry,
+(33:19.640) but we have gradually expanded to the new cloud,
+(33:23.640) main AI, and large enterprise customers,
+(33:27.140) and the market share is also expanding.
+(33:31.640) The reason why Hongkai can become the customer's first choice
+(33:34.140) I think it is because we have a partnership from scratch,
+(33:38.140) design capability from 0 to 1,
+(33:41.140) and global production capacity from 1 to 100.
+(33:47.140) We can provide our customers with the most advanced time-to-market,
+(33:51.140) time-to-cost, and time-to-technology,
+(33:54.140) and assist customers to deploy AI algorithms at the fastest speed.
+(34:00.140) 近年來北美主要的CSP業者紛紛上調了資本支出的預算。
+(34:06.140) 今年預計將近接近8000億美元的水準,很快就會超過1兆美元的門檻。
+(34:14.140) 這股史無前例的全球雲端投資浪潮,正是鴻海未來幾年最直接的成長動能。
+(34:21.140) 身為全球最大的AI伺服器供應商,不論是GPU還是ASIC晶片解決方案,
+(34:29.140) we will actively expand our production capacity
+(34:31.440) and assist customers in implementing these huge capital investments.
+(34:36.440) The demand for AI servers is still very strong.
+(34:39.440) Looking forward to the third quarter,
+(34:41.240) with the launch of the new platform,
+(34:43.440) we expect that the amount of AI machine
+(34:47.000) will be higher than the second quarter,
+(34:49.240) and will drive the revenue of AI servers to continue to increase.
+(34:54.240) Looking forward to the whole year of 2026,
+(34:56.240) we maintain the expected growth of more than a倍 of AI machine goods.
+(35:00.840) Also, because we are the main supplier of customers on GPU products,
+(35:05.440) we gradually become the main partner in these customers' ASIC projects.
+(35:11.840) Therefore, there will be a lot of growth in ASIC this year.
+(35:16.640) In addition, in terms of high-speed network products,
+(35:20.040) we maintain the same goal as the previous presentation.
+(35:53.040) and integrated platform-based ecosystem.
+(35:56.040) Our long-term goal is very clear,
+(35:59.040) to transform the world's most important technology manufacturing plant
+(36:02.040) into an AI platform supplier.
+(36:06.040) Next, I will explain the latest progress of 3++.
+(36:12.040) First, electric vehicles.
+(36:14.040) Our CDMS model has continued to achieve results.
+(36:17.040) The market layout outside the sea is also steadily developing.
+(36:21.040) We will start to deliver the car models we collaborated with Japan30, in the second half of the year.
+(36:27.040) We will also start to promote the electric vehicle project with the European European partners.
+(36:33.040) In addition, the charging plant we have cooperated with Saudi Arabia is expected to be launched in the fourth quarter.
+(36:40.040) In terms of domestic market, the new model C model, the Paveera, will start to deliver the car models in July.
+(36:47.040) Kaohsiung New Factory also started producing electric buses and electric bus batteries.
+(36:53.040) In terms of digital health, we focused on the three directions of smart healthcare, platform integration, and global commercial use,
+(37:02.040) to accelerate the solution.
+(37:04.040) In terms of robots, in the second quarter, we introduced human-shaped and co-shaped robots in our factories in the United States.
+(37:12.040) This is a very important milestone.
+(37:15.040) We will accelerate the upgrade of smart assembly by integrating the technology of physical AI, AI vision,
+(37:20.040) visual control, and digital transformation,
+(37:26.040) and promote the production of self-sufficient automation,
+(37:30.040) and at the same time, expand the business of high-adjusted value-added components and the smart platform of G-SEN.
+(37:36.040) In terms of the progress of the three core technologies,
+(37:39.040) First, in terms of AI technology,
+(37:42.040) our layout extends from the engineer to the platform and model.
+(37:48.040) In terms of AIDC, we integrate computing, data center, and energy management,
+(37:54.040) promoting standardization and scale-up of AIDC.
+(37:58.040) In terms of main power AI,
+(38:00.040) we continue to advance in Europe, Africa, and Asia-Pacific markets.
+(38:06.040) Our own model, Fox Brain,
+(38:09.040) and continuously improve model structure and training efficiency,
+(38:12.240) while deepening local knowledge and improving the ability of autonomous models.
+(38:17.240) Second, in terms of semiconductor,
+(38:19.940) we are also promoting the deployment of production capacity, key chips, and design services.
+(38:26.040) The order capacity of the 8-inch factory in Japan has already reached the fourth quarter.
+(38:30.940) Silicon Carbide, vehicle MCU, and AI power chip autonomous technologies
+(38:36.540) are also being planned and promoted.
+(38:39.040) In terms of communication in the new generation, we continue to deploy low-gain satellites and space communication technology,
+(38:46.320) and provide a complete service from ground equipment to satellite itself.
+(38:51.840) AI computing equipment is our current core hardware.
+(38:57.680) Smart manufacturing, smart electric vehicles, and smart cities are three major platforms,
+(39:03.360) which are an important step forward for our promotion of AI software integration and platform creation.
+(39:09.040) In terms of smart manufacturing, the Genesys platform has completed the verification of the field and gradually introduced it into our main field.
+(39:17.040) Through the rapid deployment of AI agents and the copy of cross-field areas, we will continue to improve the efficiency of production and the ability of smart manufacturing.
+(39:26.040) In terms of smart electric vehicles, we continue to promote electronic electrical structures, smart seats, and vehicle cloud data platforms to assist customers in accelerating development and production.
+(39:37.040) In terms of smart cities,
+(39:39.540) CTGPT has completed the verification of the benchmark area
+(39:43.340) and began to promote the copy of cross-city and overseas markets.
+(39:47.540) Through the software integration of three smart platforms,
+(39:51.540) we will continue to promote the group
+(39:53.540) to the target of the global leading AI platform supplier.
+(39:57.540) Finally, I would like to make a summary for everyone.
+(40:01.540) ICT, AI, EV, these three major industries
+(40:06.540) 正驅動的集團轉型升級
+(40:08.940) 鴻海已經進入了新一輪的成長軌道
+(40:13.140) 成為獲利能力大幅向上的成長型企業
+(40:17.440) 我們也會嚴守財務紀律
+(40:20.240) 提升股東權益
+(40:21.940) 鴻海的三層運作模式
+(40:25.120) 提供了系統的解決方案
+(40:27.240) 而非單一的硬體產品
+(40:29.580) 搭配我們速度、品質、工程服務、
+(40:34.500) 含性以及成本的五個核心價值
+(40:37.940) 絕對是AI客戶在GPU以及ASIC
+(40:42.100) 還有各項相關硬體的合作首選
+(40:44.840) 客戶資本支出增加
+(40:47.940) 鴻海市佔率也提升
+(40:49.980) 因此我們還會擴大資本支出
+(40:53.560) 擴展全球的產能
+(40:55.460) 並延伸價值鏈
+(40:56.980) 我們一定會抓緊每一個客戶
+(41:00.280) 每一個商機
+(41:01.680) 接下來
+(41:03.840) I would like to ask James to explain the major events in recent years.
+(41:08.280) Okay, thank you, President Chang.
+(41:09.840) Next, I will explain the major events in recent years.
+(41:13.640) First, the shareholders passed 109 billion cash incentives.
+(41:17.820) Each share is 7.2 yuan cash.
+(41:20.360) This is also the seventh consecutive year
+(41:22.360) in which the cash incentive rate has exceeded five times.
+(41:25.820) In strategic cooperation,
+(41:27.360) we jointly launched the AI platform for the next generation with Intel.
+(41:31.060) Schneider and I also launched the next-generation AI data center and green energy solutions.
+(41:37.060) In addition, we also launched a public exhibition with Thales and Hadio in France.
+(41:44.060) In terms of exhibitions, we exhibited the latest and most mainstream next-generation platform, VR Rubin,
+(41:52.060) high-speed network technology for CPUs, and three major platform-based deep-seated AI applications.
+(41:58.060) We also participated in the first Viva Tech in France,
+(42:02.060) which showed the layout of AI and EV in Europe.
+(42:06.060) In the Taiwan Image Exhibition in Japan,
+(42:08.060) we showed the two electric vehicles Model A and Model B,
+(42:12.060) and the AI modular data center,
+(42:15.060) which attracted many Japanese partners.
+(42:18.060) The Hongwai Institute recently took over the Yangming Institute,
+(42:21.060) and developed a super-large-capacity fine-gloss technology
+(42:25.060) and communication transmission,
+(42:27.060) and the most critical technology milestone.
+(42:30.060) In terms of the energy of the research,
+(42:32.060) we have gathered a total of 48 meetings and journals
+(42:36.060) and published a total of 16 papers in the first half of this year.
+(42:41.060) These show that Honghai has a solid self-sufficient energy
+(42:45.060) in the field of key potential technologies.
+(42:49.060) Recently, we have received many international acclaims.
+(42:52.060) In the Excel selection, we won the most respected company and other seven awards.
+(42:59.060) Among the 500 awards in the world, we have ranked 23rd with a 5-point increase.
+(43:05.060) In addition to the overall performance of the company, our colleagues also made a great contribution.
+(43:10.060) Director Yang Qiu-jin of the People's Region,
+(43:12.060) has selected the most influential business and business women in the world.
+(43:15.060) Director of Human Resources, Xia Guanyin, has also won the best Director of Human Resources of the Year.
+(43:19.060) The U.S. Director of Human Resources, Winnie,
+(43:21.060) also received the Step Award for his recognition.
+(43:23.360) In the field of R&D,
+(43:25.060) our Chairman, Dr. Zhang Xinrui, also received the AUMS Award.
+(43:28.460) Dr. Hong Yu-heng, a professor at the Institute of
+(43:29.060) Research and Development,
+(43:31.360) also received the Award for an excellent young engineer.
+(43:34.560) Next, ESG.
+(43:36.860) We expanded the third-party integration of the world.
+(43:39.260) Beijing completed 85 RBA and VAP integrations,
+(43:42.960) and obtained six highest-end white-collar certificates.
+(43:46.860) In terms of green energy,
+(44:49.060) on Friday, October 31, as a limited guest day.
+(44:53.060) On Saturday, October 31,
+(44:55.060) it will be open to the general public for free.
+(44:59.060) In the exhibition area on the 4th floor,
+(45:01.060) we will present the latest technology results
+(45:03.060) and the latest technology results
+(45:05.060) that are deeply integrated with AI
+(45:07.060) and will also release the latest products.
+(45:09.060) In the exhibition area on the 1st floor,
+(45:11.060) we first built a green office
+(45:13.060) with a focus on technology education,
+(45:15.060) including sustainable, future-moving, and smart cities,
+(45:20.560) and provide more than 10 rich professional experiences
+(45:24.400) to allow technology and education to grow from an early age.
+(45:27.480) This is not only the annual event of Honghai's software integration
+(45:29.900) and manufacturing of the Maijiang AI platform,
+(45:33.740) but also a technology festival that can be enjoyed by all.
+(45:37.540) On behalf of Honghai Group,
+(45:39.120) I sincerely invite all of you to participate in this event.
+(45:42.800) That's all for today's report. Thank you.
+(45:46.100) Thank you, James.
+(45:47.100) Next, we will move on to the second part of the French Conference,
+(45:49.900) which is Q&A time.
+(45:51.200) We will first ask questions to everyone before the meeting,
+(45:53.200) and then we will open up free questions.
+(45:57.400) The first question is for CEO Lenzhi,
+(46:00.700) about the development of AI
+(46:00.840) and the development of AI
+(46:02.700) As the new generation of AI
+(46:04.040) products are launched,
+(46:05.700) what is the company's view on the impact of product conversion
+(46:08.100) on the next half year's AI
+(46:09.300) product sales?
+(46:10.700) What is your opinion on the overall competitive pattern?
+(46:13.740) And under the trend of product standardization,
+(46:16.540) will more competitors be added?
+(46:19.040) Thank you.
+(46:20.040) Thank you, Kristen.
+(46:22.040) We want to maintain the plan of the new generation of AI cabinets
+(46:25.200) to start mass production in the third quarter.
+(46:27.460) As the verification is gradually completed,
+(46:30.160) and the supply chain and production capacity are ready,
+(46:32.860) the number of orders in the following few quarters will gradually increase,
+(46:36.040) and the overall demand is still very strong.
+(46:38.460) The demand for GB platform is stable.
+(46:42.460) We expect that the demand for GB products will continue until next year.
+(46:47.460) The overall expectation of AI machine delivery is not changing.
+(46:55.460) When entering the new generation of AI platform,
+(46:58.460) we believe that large customers will focus on large suppliers with the capacity to deliver on a large scale.
+(47:05.460) The standardization of the product does not mean that the entry threshold is reduced,
+(47:09.460) but rather it will emphasize the advantages of the supplier with the ability to scale up the delivery
+(47:13.460) and the ability to fully vertical integrate.
+(47:17.460) The ability to scale up the delivery depends on the degree of automation,
+(47:21.460) and this is a very important advantage of Honghai.
+(47:24.460) Through our experience in the ICT industry in building automated devices,
+(47:28.460) we have achieved 100% automation in Compute Tray from the beginning of a new generation.
+(47:34.460) I would like to emphasize that in the AI hardware industry,
+(47:38.020) Red Sea is a whole system, not a single product.
+(47:42.220) Compared to most of the other industries,
+(47:44.900) which only provide part of the AI server chain,
+(47:48.220) such as the main board of level 6,
+(47:50.700) assembly of level 10,
+(47:52.900) or assembly of level 11 systems,
+(47:55.300) we provide a complete one-stop service.
+(47:58.900) From the very beginning,
+(48:02.420) Level 1, zero components, to GPU modules, to motherboard, switch tray, compute tray, to machine cabinet assembly,
+(48:11.480) to the connection between machine cabinet and machine cabinet.
+(48:15.500) Inside the machine cabinet, we also integrated self-made zero components,
+(48:19.920) including night cooling, heating, power management, connector, bus bar,
+(48:25.640) infrastructure components, and high-speed transmission, etc., in high value.
+(48:29.500) Zero components' self-made rate reached more than 50%.
+(48:32.420) AI is complex and requires high-performance design, cooling system, system integration, test verification, and customer customization.
+(48:44.420) These require long-term engineering capabilities and supply chain management experience.
+(48:50.420) The threshold for entry will only get higher and higher.
+(48:53.420) We will become the first choice for customers from 0 to 1 design capacity and from 1 to 100 global mass production capacity.
+(49:02.420) Our market share will also increase further in the new generation platform. Thank you.
+(49:08.420) Thank you, President Chiang.
+(49:10.420) The second question is about the financial planning part. I would like to ask the Finance Minister.
+(49:14.420) In the past few years, the company has continued to expand its capital expenditure,
+(49:18.420) As AI business grows,
+(49:20.780) the investment scale will increase.
+(49:24.220) How do you see the return on capital expenditure
+(49:28.020) on profits and cash flow?
+(49:31.620) How will the companies that will add capital expenditure
+(49:33.320) and transfer funds in the future
+(49:34.720) make the right decisions?
+(49:36.720) Will there be a need for equity investment?
+(49:38.960) Thank you.
+(49:40.960) Thank you, Kristen.
+(49:42.620) I would like to start with the capital expenditure
+(49:44.580) and investment return.
+(49:48.220) Over the past few years, as AI business grows and the expansion of the global manufacturing layout and the demand for automation, we continue to increase capital expenditure.
+(49:57.760) In 2024, capital expenditure was about 1363 billion yuan, which was about 216 billion yuan.
+(50:05.120) In 2025, it will further increase to about 1738 billion yuan, which is 374 billion yuan.
+(50:11.980) From the current operating results, these early investments have gradually reflected on the revenue scale and profit capacity.
+(50:21.320) In 2025, revenue reached 8.1 trillion yuan, annual growth of 1.24 trillion yuan,
+(50:28.320) operating profit reached 2,592 trillion yuan, annual growth of 586 trillion yuan.
+(50:33.140) 今年上半年資本支出約809億元
+(50:37.160) 年增37億元
+(50:38.960) 同期營業利益達1705億元
+(50:42.300) 年增674億元
+(50:44.800) 也就是說營業利益的成長速度
+(50:48.020) 高於營收成長
+(50:49.980) 顯示前期的資本投入
+(50:52.500) 正在逐步轉化為
+(50:54.660) 規模的經濟效益及獲利能力
+(50:57.660) 從現金創造能力來看
+(51:00.060) Last year, EBITDA reached 3,570 billion yuan,
+(51:03.620) which increased by 685 billion yuan.
+(51:05.700) This year, EBITDA reached 2,277 billion yuan,
+(51:09.180) which increased by 776 billion yuan.
+(51:11.240) This shows that core operations' cash creation capacity is constantly improving.
+(51:16.640) Of course, this year's AI business and overall operations are rapidly growing,
+(51:21.680) and it also drives the increase in operating funds such as receivables,
+(51:23.560) deposits, and other operations.
+(51:25.680) 因此自由現金流會有階段性的流出。
+(51:31.680) 但從整體獲利及現金創造能力來看,
+(51:35.460) 前期投資已逐步產生貢獻,
+(51:38.300) 也支持公司持續擴大投資及執行現金鼓勵的政策。
+(51:43.940) 展望今年全年,因應AI伺服器、機櫃以及區域製造等需求,
+(51:49.780) 我們預期全年資本支出仍將年增三成以上,
+(51:53.460) 主要是提前擴充伺服器、機櫃、 液冷及測試等關鍵產能,
+(52:00.100) 同時強化全球製造與自動化的步驟。
+(52:03.360) 前面輪的CEO Michael也說明過,
+(52:07.740) 這些資本支出主要是基於客戶需求 及業務成長所進行,
+(52:13.340) 因此我們相信相關投資也會在未來 持續產生貢獻。
+(52:19.440) 未來公司的資金需求主要可以分為兩個部分,
+(52:22.360) 第一個是資本支出
+(52:24.440) 第二個是隨時業務成長所增加的營運資金需求
+(52:28.500) 在資金安排上面
+(52:30.840) 我們會維持穩健與彈性
+(52:33.000) 基本原則就是以短之短
+(52:35.620) 以長之長
+(52:36.940) 在財務工具的選擇上面
+(52:39.240) 我們會綜合考量成本
+(52:42.300) 這是很重要的
+(52:43.860) 還有期限
+(52:44.980) 還有外部市場的環境條件等因素
+(52:48.280) 來維持公司的財務彈性
+(52:50.940) 短期營運資金主要透過營運資金管理以及銀行額度來支應
+(52:57.700) 中長期的資本支出需求
+(53:00.780) 則會以不同的資本市場工具籌集長期的資金
+(53:05.180) 以目前市場條件來看
+(53:08.040) 鴻海的信用條件可以取得相對有競爭力的債務融資成本
+(53:13.040) 我們將會其作為主要的資金來源之一
+(53:16.840) 至於股權募資現階段
+(53:19.440) 公司並沒有透過現金增資來支應業務成長的規劃。
+(53:24.440) 在資本結構管理上,我們會持續維持投資等級的信用平等,
+(53:30.880) 並以ROC高於12%,
+(53:34.340) NETDEX除上EBITDA低於1.5倍等指標來管理財務結構。
+(53:39.780) 這也是S&P信憑公司對鴻海公司的要求。
+(53:44.440) 我們的原則是在支持AI及整體業務成長的同時,維持穩健的資本結構及足夠的財務彈性。
+(53:54.440) 所以總結來說,過去的資本投入已逐步反映在營收、營業利益及現金創造的能力上。
+(54:02.680) 未來,雖然KPAC的資本支出及營運資金的需求仍然會增加,
+(54:08.000) 但現階段公司具備足夠的內部資現金創造能力及融資能力來指引成長。
+(54:18.000) 而且以現在公司賬上現金及定存合計達1.5兆元,
+(54:24.360) 而且處於淨現金達2198億元,
+(54:29.180) 這種情況之下,
+(54:30.300) 也維持標準普爾A-信用平等,
+(54:33.840) and show the right direction,
+(54:37.840) the current stable financial structure and the sufficient liquidity
+(54:42.080) provide a strong financial resilience and capital foundation for the company's continued growth,
+(54:44.880) expanded investment, and change in the market.
+(54:51.320) Thank you, Mr. Cai.
+(54:54.080) Next is the last question.
+(54:55.520) If you have any questions,
+(54:57.120) please click the hand up symbol to wait.
+(54:59.780) After the next question,
+(55:01.880) we will open it to the online French media to ask questions.
+(55:05.940) The last question is about the profit margin.
+(55:10.280) How will the company view the performance of the business profit margin
+(55:15.440) in the second half of the year,
+(55:18.140) with the change in product combination,
+(55:20.680) performance of the operating profit rate.
+(55:22.680) Especially with the higher single-deck AI components,
+(55:25.680) will the company be able to maintain the operating profit rate
+(55:28.180) at a level of more than 3%?
+(55:30.180) Thank you.
+(55:31.680) Thank you, Kristen.
+(55:34.180) I think with the continuous improvement of the new generation of AI server specifications,
+(55:38.180) the complexity of the system, the value of the components,
+(55:40.680) and the cost of the components will all be improved.
+(55:43.680) At the same time, in the second half of the year,
+(55:45.180) we will enter the era of the consumer electronics industry.
+(55:47.680) The change in product combination will also have some impact on the profit and loss of the business.
+(55:54.080) However, as a joint design and development partner of customer AI
+(56:00.080) we have introduced the concept of Design for Automation and Design for Manufacturing with the customer at the beginning of product development.
+(56:07.880) For the AI cabinet for the new generation, with the introduction of new components,
+(56:12.280) we have designed in the direction of fully automated production line.
+(56:15.480) In other words, we have utilized the experience of Red Sea's production capacity to introduce our standardization module, which greatly improves the productivity and productivity efficiency of our products.
+(56:27.480) At the same time, we are developing automated equipment at the same time.
+(56:33.480) To ensure the initial production of new products,
+(56:36.480) we can use standardized, modularized and automated design
+(56:40.480) to further improve the productivity, product quality and production capability of automated equipment developed within Red Sea.
+(56:48.480) On the one hand, we meet the customer's export goals.
+(56:52.480) On the other hand, it can also ensure the leading advantage of Red Sea and continuously expand the market share.
+(56:59.480) As the AI machine cabinet's specifications are upgraded, the value of single cabinets is also increased.
+(57:04.980) We will use the buy and sell or consignment trading model flexibly according to the characteristics of different customers and projects.
+(57:13.480) Among them, the ESIC AI server project with higher customization is currently mostly based on the consignment model.
+(57:20.780) This not only reduces the cost of high-end components for operating funds,
+(57:25.180) but also helps to improve the efficiency of asset operations,
+(57:28.620) further optimizing our operating structure and financial quality.
+(57:32.820) Although the prices, cost structure, and product combination of different AI products of different generations will change,
+(57:40.140) we are still very confident in operating efficiency and cost management.
+(57:44.780) This year, the operating profit rate reached 3.67% in the first half of the year,
+(57:49.180) 比去年同期也增加了0.67個百分點。
+(57:53.180) 所以我們預計今年將會超越去年3.2%的表現。
+(57:59.180) 中長期維持在3%以上的目標,維持不變。
+(58:03.880) 以上。
+(58:05.180) 謝謝蔣總。
+(58:06.260) 那我們現在開放給線上的法人與媒體自由提問。
+(58:10.120) 請一次完整說明問題,每位最多提問兩題。
+(58:13.440) 謝謝。
+(58:14.180) Now we will move to Q&A session.
+(58:16.780) English question is also welcome.
+(58:19.180) 第一位,我們請野村證券的分析師 Anne 提問。
+(58:24.960) Hi, 蔣總,財務長, James, 你聽得到我聲音嗎?
+(58:30.520) 可以,請說。
+(58:31.340) 好,謝謝。
+(58:33.360) 我第一個問題是想要問說, 今年公司已經成功打入了 TPU 產品的供應鏈,
+(58:41.220) 那想請公司分享說目前主要供應的產品類別跟服務,
+(58:46.300) 以及未來我們預計會多爭取哪一類相關的服務呢?
+(58:52.140) 這是我第一題。
+(58:53.480) 然後第二題的話是隨著Agentic AI帶動CPU的需求,
+(58:59.040) 那公司如何看待通用伺服器的市場展望?
+(59:04.540) 那今年來講的話,公司的指引是雙位數的成長,
+(59:08.160) 但是想了解說現在看到的Versus三個月前看到的是否有更加樂觀,
+(59:12.960) 那以及就是說明年的就是通用形式服務器的成長的展望
+(59:17.380) 這是我兩個問題謝謝
+(59:19.140) 好謝謝
+(59:20.220) 那我們第一題先請蔣總來回答
+(59:22.180) 好謝謝Ann的提問
+(59:24.520) 我想有關於單一客戶以及單一產品的細節
+(59:29.240) 我們在這裡不太方便評論
+(59:31.080) 不過可以跟您分享的是
+(59:33.580) 今年我們在ASIC專案上面
+(59:35.580) 確實取得了一些新的進展
+(59:37.820) 這包括新客戶的導入以及新的專案機會
+(59:41.300) So in addition to having a high share in the GPU market,
+(59:45.400) we will also greatly improve our market share in ASIC this year.
+(59:49.060) We have accumulated quite a complete product and manufacturing experience in the AI server area,
+(59:54.660) and will have a more comprehensive participation in the products of the future customers.
+(59:58.900) Honghai has great advantages in the system design and manufacturing capabilities of the AI server.
+(60:04.500) We also provide GPU and ASIC dual solution solutions.
+(60:09.600) So we are quite confident in the development of ASIC projects.
+(60:13.280) We will also continue to grow with the strong demand of our customers.
+(60:17.040) We will also rely on the needs and characteristics of different projects
+(60:21.680) to play a role in different levels of performance in the key sections such as modules, cooling systems,
+(60:26.320) and machine integration, to assist customers in accelerating the development of the product.
+(60:32.480) In addition, our design and development experience in the system-level machine structure
+(60:38.000) is also a very important ability of the client.
+(60:41.180) These experiences can provide the client
+(60:42.780) with more competitive ASIC servers.
+(60:45.780) This is especially true for the integration needs
+(60:47.780) of future night colds and high-power systems.
+(60:50.720) Therefore, we believe that this will be an important advantage
+(60:54.320) for the future deepening cooperation with clients
+(60:54.300) and expanding more projects.
+(60:57.560) That's all.
+(60:58.600) Okay, let me answer the second question.
+(61:00.940) Since this year, everyone has been expanding their CPU needs
+(61:04.780) with a very good expectation.
+(61:06.160) The main reason behind this is the development of the agentic AI.
+(61:10.660) With the gradual increase of the agentic AI application,
+(61:14.660) in addition to the need for AI training and inference,
+(61:18.160) it will also drive more computing needs for the universal server.
+(61:22.160) We estimate that the market of the entire universal server
+(61:26.160) will still have a good growth potential in the next few years.
+(61:29.160) In this year, the overall use of the universal type 4-in-1 server will also be a sign of growth.
+(61:36.160) The growth rate in the second half of the year will be higher than in the first half of the year, with growth of more than double.
+(61:42.160) The demand for energy is indeed better than three months ago.
+(61:46.160) According to the industry's estimate, the total use of the CPU in the universal type 4-in-1 server in 2026 is expected to increase by about 16%.
+(61:54.160) If it is next year, it may be further increased to 23%.
+(61:58.160) This shows that the demand is still increasing.
+(62:02.160) Because we are a global server,
+(62:04.160) the main OEM manufacturer,
+(62:06.160) and the main CSP and brand owners have a good long-term cooperation relationship.
+(62:11.160) So we expect the growth of the business of the entire Honghai
+(62:15.160) in the same-use server and CPU-type server
+(62:18.160) to be better than the average of the entire industry.
+(62:22.160) above.
+(62:24.160) Now, let's ask William from New Burger to ask a question.
+(62:28.160) William, please.
+(62:30.160) Can you hear me?
+(62:32.160) Yes, please.
+(62:34.160) Thank you for your time.
+(62:36.160) I have two questions.
+(62:38.160) The first is about the networking part,
+(62:40.160) including such as switch
+(62:42.160) or transceiver module component, etc.
+(62:45.160) At the current company's revenue scale
+(62:48.160) and the rate of profit,
+(62:50.160) share with us
+(62:51.600) , especially for the future market growth,
+(62:54.500) layout, and the future.
+(62:56.100) Just the company's revenue and market share
+(62:59.540) guidance,
+(63:00.460) especially the part of this CPO and NPO.
+(63:04.760) I just mentioned this CPO switch.
+(63:07.060) Currently, the strategic is only these,
+(63:09.200) but is there any
+(63:10.560) chain target that can be referred to with us?
+(63:12.720) This is the first part.
+(63:14.160) The second part is that
+(63:17.000) In fact, the US CSP has been updating these Capex exhibitions this year.
+(63:22.760) In addition to these numbers,
+(63:25.600) has the capacity of orders increased simultaneously?
+(63:28.200) In addition to these large CSP customers,
+(63:32.240) have you seen more such NEOCLOUD customers recently?
+(63:36.140) This kind of order or demand
+(63:38.460) How do you see the demand for NEOCLOUD customers in the Red Sea company?
+(63:44.400) These are my two questions, thank you.
+(63:46.100) Let's have Mr. Chiang answer the question about new customers.
+(63:51.740) Thank you for your question.
+(63:55.340) I think the expansion of CSP investment
+(63:58.900) and the ability to build orders are also improving.
+(64:02.500) We can clearly see that orders for next year will continue to rise.
+(64:07.260) From the point of view of demand,
+(64:09.300) the business opportunity of AI data center is very large.
+(64:11.900) The demand for AI computing is mainly from
+(64:15.540) and large-scale model manufacturers, CSP, and NEO Cloud,
+(64:19.540) as well as government and enterprises.
+(64:23.040) Currently, the main demand is for model manufacturers and CSP NEO Cloud.
+(64:29.340) The government and enterprises are currently less involved in the demand,
+(64:33.640) but governments and enterprises from all countries know that they must follow the trend of AI,
+(64:38.240) but are still searching for specific uses.
+(64:40.640) This is a very potential demand drive for the future.
+(64:44.540) In addition to large-scale CSP, we also see that the demand for new cloud customers and AI model development companies is increasing.
+(64:53.620) As we introduced in the briefing, manufacturers that are involved in the development of large-language model
+(64:58.880) They hope to integrate AI from the current narrow artificial intelligence to universal artificial intelligence, even to super artificial intelligence.
+(65:07.600) However, just entering the stage of universal AI needs to deal with more than a billion parameters,
+(65:15.200) which greatly improves the needs for computing power.
+(65:17.840) Therefore, this type of client has become an important source of growth for the current needs for AI infrastructure construction.
+(65:23.200) In the future, in addition to continuing to deepen cooperation with main CSP clients,
+(65:28.000) we will also actively grasp the opportunity of increasing the number of new clients.
+(65:32.640) As AI applications gradually extend from model training to reasoning applications,
+(65:38.640) business AI services, and the domain of sovereignty cloud,
+(65:42.640) the demand for new cloud end is expected to continue to grow.
+(65:46.640) Soon, before the end of this year, we will start to see the contribution of our new cloud end customers.
+(65:53.640) That's all.
+(65:54.640) Okay, let me answer the second question about the part of the online communication.
+(65:57.640) In the first half of this year, the supply of the entire supply chain and the increase in the price of the unit was great.
+(66:04.640) The revenue of our Internet-in-the-box products has grown strongly.
+(66:08.640) With the improvement of the AI mechanism, the need for network frequency and high-speed interconnection has increased,
+(66:14.640) which has also led to the continuous improvement of the specifications of the exchanger.
+(66:17.640) We believe that this will further promote the Internet-in-the-box products from the traditional high-speed interconnection
+(66:23.640) and gradually move towards high-end CPUs and other technologies.
+(66:28.640) We believe that high-end CPUs and networks will become the next important growth trend for AI infrastructure construction.
+(66:35.640) The progress of high-end switching products is currently within the scope of expectations.
+(66:41.640) Our CPU switching machines have already begun to deliver.
+(66:44.640) The main application at the moment is Scale-out, which is the expansion of the horizontal between AI cabinets.
+(66:50.640) In the future, with the upgrade of platform, generation, and system structure,
+(66:54.640) it will gradually expand to scale-up.
+(66:58.640) In addition to the CPU exchanger, we are also continuing to strengthen the layout of light modules,
+(67:03.640) light-emitting integrated, high-end windage, cable, connector, and so on.
+(67:10.640) We also put high-speed transmission and power management related modules.
+(67:14.640) Through the integration of the
+(67:13.680) and the management of the related modules.
+(67:15.680) Through the vertical integration and the improvement of the key infrastructure,
+(67:19.680) we believe that in the future,
+(67:21.680) whether it is single-machine or the overall added value,
+(67:25.680) there is still room for further improvement.
+(67:27.680) The complexity of the product will also bring better profitability.
+(67:31.680) The entire market estimates that
+(67:33.680) Guangdongxun will maintain very high-speed growth in the next few years.
+(67:37.680) The overall market size may reach more than US$1 billion.
+(67:40.680) So we will gradually expand the scale of related products such as CPU exchangers, optical transceivers, and so on.
+(67:47.160) In the long term, the entire online product will also become an important source of improvement in the supply of red sea power.
+(67:53.280) Next question, we will ask the analyst of Mike Lee, Kaylin, to ask a question.
+(67:59.180) Hello, Mr. Jason, can you hear me?
+(68:04.180) Yes, please.
+(68:06.180) I have a bigger question.
+(68:10.660) This year, many ODMs have started to use consignment in some AI server projects.
+(68:16.460) Honghai mentioned that it is used in ASIC server projects.
+(68:20.500) Is there a chance for our GPU server to use consignment in the future?
+(68:25.540) What do you think of the ratio change between consignment and buy and sell in the future?
+(68:32.340) In addition, after we adopted Consignment,
+(68:36.340) we now have a lot of revenue from the A6 Server,
+(68:38.340) which is about the same as the A6 Server in the first half of the year.
+(68:43.340) As the new project is continuously produced in the second half of the year,
+(68:46.340) how does the company view the future revenue growth and market share of A6 business?
+(68:52.340) Thank you.
+(68:53.340) Okay, let's have the Finance Minister answer the question about the trading model.
+(68:57.340) Okay, thank you, Kelly.
+(68:59.340) 目前consignment主要是應用在ASIC專案,之前論治CEO Michael提過,但未來不論是ASIC或GPU專案都有可能採用consign的模式,主要還是取決於客戶的需求,專案特性以及雙方的合作的模式。
+(69:18.340) As of now, ASIC's consumption ratio is relatively high.
+(69:23.280) The main difference is the difference in the application scene, system structure, and customer customization.
+(69:30.600) For Hong'an, Consign can reduce the storage and capital use of the infrastructure,
+(69:35.840) while reducing the risk of stock price fluctuations,
+(69:38.700) which helps to improve asset circulation efficiency and overall financial quality.
+(69:42.020) As for the proportion of Consign and BionSell chips, we will not set a fixed conversion time or proportion,
+(69:49.100) but will adjust the Consign ratio gradually according to individual customers and project
+(70:37.640) As a result, new products are imported continuously, and the number of projects continues to increase.
+(70:41.560) We expect ASIC's export scale and profit contribution will continue to increase.
+(70:46.360) As for the market share, we also have more than 40% of ASIC's goals.
+(70:51.000) In addition to the product development and mass production experience, as mentioned earlier,
+(70:56.160) we will also play an advantage in vertical integration, and participate more fully in ASIC projects,
+(71:01.400) providing complete services according to the needs of customers,
+(71:04.460) to ensure the growth of ASIC in the next few years.
+(71:09.460) That's all.
+(71:10.460) Okay, now let's have a question from the TPPs.
+(71:13.460) Please, Mr. Pei.
+(71:18.460) Did you hear that?
+(71:22.460) If not, please go ahead.
+(71:26.460) Did you hear that?
+(71:28.460) Please go ahead.
+(71:29.460) Mr. Jiang, Mr. Chen, and James,
+(71:31.460) I'm a TPPs member.
+(71:32.460) I would like to ask, because the market is paying more attention to NVIDIA,
+(71:35.860) and the delivery and market share of Vero Ruben,
+(71:37.660) I would like to ask, when is the time for Vero Ruben to be released?
+(71:42.260) What is the estimated price?
+(71:43.860) Is it possible to get nearly 50% of the market share?
+(71:47.360) Thank you.
+(71:49.360) Mr. Jiang, please answer this question.
+(71:51.660) Thank you for your question, Pei Ying.
+(71:54.160) I would like to ask about the progress of the product.
+(71:55.760) We have maintained the plan of the third quarter of the new generation of AIG
+(71:58.160) the production preparation for the fourth quarter.
+(72:02.400) As the product verification is completed,
+(72:05.600) and the supply chain and production capacity are gradually in place,
+(72:08.400) we expect the subsequent shipment of the few seasons will continue to increase,
+(72:12.160) and will become our main product next year.
+(72:14.920) The automation of the AI machine in the new generation has been greatly improved,
+(72:19.000) and we have improved the integration of the
+(72:15.300) integration of the new generation AI machine has been greatly improved,
+(72:19.160) and we have improved the integration of the
+(72:21.160) systematization and delivery capacity.
+(72:23.160) These all help us to fight for new customers and new projects,
+(72:27.160) and further enhance the market share.
+(72:29.560) Currently, we are still moving towards a 50% target.
+(72:32.960) As for the number of machines in the market next year,
+(72:36.360) we believe the key is still how many Covax products can be distributed by chip customers.
+(72:42.560) The market is currently expecting that the Covax production will grow by more than 50% next year,
+(72:47.960) but in the end, how many new generation AI machines can be converted
+(72:52.260) still depends on the chip supply situation.
+(72:54.760) We see that the customer needs and the capability of the project are quite positive.
+(73:00.260) We will continue to pay close attention to the progress of the overall supply chain and data center construction,
+(73:05.520) and continue to expand the global AI capacity,
+(73:09.100) do mass production and prepare for delivery.
+(73:11.520) Thank you.
+(73:12.520) Next question, please.
+(73:14.320) Angela from Kaizhi Card.
+(73:16.320) Angela, please.
+(73:17.320) Hello, Chairman Jiang, Chairman Cai, and James.
+(73:23.120) 你們好,我大概有兩個主要的問題想請教一下,
+(73:26.840) 就是第一個,剛剛我們當然有提到一些後續GPU或者VR這些機櫃的進程,
+(73:33.220) 那就是除了這種GPU的IT機櫃的話,
+(73:36.720) 可以也幫我們提一下之前曾經有略微提到的一些像一些獨立櫃,
+(73:43.000) 比如說像LPU機櫃或者是Vera的CPU rack,
+(73:47.860) 想請教一下這些產品,
+(73:50.460) 大概它的量產時程是怎麼樣的一個schedule
+(73:54.680) 那這些量大概怎麼來看待
+(73:58.800) 還有就是說這些類型的產品
+(74:01.580) 它的毛利率大概會是
+(74:04.820) versus 平均值怎麼樣的一個表現
+(74:07.300) 這個是我的第一個問題
+(74:09.140) 然後第二個問題比較是
+(74:11.900) 針對公司其實在一些key advantage上面
+(74:16.300) 有提到說我們其實是一個
+(74:19.040) and want to become a supplier of AI platform.
+(74:23.040) This is different from the positioning of many manufacturers.
+(74:31.280) Of course, the report also mentions some companies
+(74:35.800) in AI data center infrastructure,
+(74:38.040) and cooperated with some international companies such as Intel, Schneider, etc.
+(74:43.200) And there are also some cooperation with the main AI platform.
+(74:48.040) and self-made AI models,
+(74:49.560) and also do such a fast brand optimization, etc.
+(74:53.240) You can share with us again,
+(74:55.220) like these layout,
+(74:58.180) for our competitiveness,
+(75:00.240) of course, it is helpful.
+(75:01.240) That is to say, in our financial profitability,
+(75:04.040) or our AI production and manufacturing,
+(75:06.780) is on these orders,
+(75:09.320) value aid,
+(75:10.560) it will present a follow-up,
+(75:13.960) will accelerate,
+(75:14.500) 比較明顯看到一些成效的這樣子的貢獻嗎?
+(75:19.700) 還是說它是在哪裡會 enhance 到我們自己本身
+(75:24.100) 在Basics 上面的一個優勢?
+(75:26.700) 主要這是兩個問題請教,謝謝。
+(75:29.300) 先請江總回答。
+(75:32.300) 好,有關於獨立的機櫃的這些方面的問題,
+(75:37.700) 謝謝Angela 的提問。
+(75:39.900) 那我想客戶新一代的 CPU, LPU,
+(75:43.500) and switch machines, etc.,
+(75:45.300) we are currently in the process of
+(75:46.620) adjusting the production capacity
+(75:47.540) and preparing for the early production.
+(75:49.720) According to the current progress,
+(75:51.340) LPU and VERA-related products
+(75:53.880) are expected to start production in the third quarter,
+(75:56.300) and the fourth quarter will gradually increase in volume.
+(75:58.480) We expect to see larger-scale exports
+(76:00.400) in the next year.
+(76:02.720) Because the unit price of these products
+(76:04.600) is relatively low,
+(76:05.820) lower than the AI machines of GPUs,
+(76:07.980) even if the amount of exports gradually increases next year,
+(76:10.780) compared to the GPU machines,
+(76:12.700) the overall revenue and profit will be relatively limited.
+(76:17.940) But the meaning of these products is that
+(76:19.740) no matter what platform the customer needs,
+(76:22.640) we can provide them.
+(76:24.240) And most of the projects,
+(76:25.640) we will help customers to do from 0 to 1 design development
+(76:29.860) and 1 to 100 large-scale mass production,
+(76:32.460) becoming the most important partner.
+(76:34.560) I think this is for your question.
+(76:38.360) Thank you.
+(76:40.060) I will briefly answer the question about the AI platform.
+(76:43.260) Taiwan's manufacturers are more focused on the so-called AI hardware.
+(76:48.060) We believe that AI will eventually be of greater value.
+(76:52.560) We must pay more attention to AI software and AI applications.
+(76:56.360) This is also a very important part of the Honghai project.
+(76:59.560) For example, we have three smart platforms.
+(77:02.060) Smart manufacturing, as I mentioned in the meeting,
+(77:05.060) is mainly about how to improve internal efficiency.
+(77:08.560) Smart electric vehicles and smart cities can be some operating models for foreign sales.
+(77:14.560) So, to answer your question, on the one hand, we can improve internal efficiency to improve our profitability.
+(77:20.560) On the other hand, we can make these projects into foreign sales to generate revenue and contribution.
+(77:25.560) The above is a simple answer.
+(77:27.560) Because of time, we are opening up the last question.
+(77:31.560) Let's ask Khen from Tungsten Finance to ask a question.
+(77:34.560) 這樣聽到我的聲音嗎?
+(77:37.700) 可以,請說。
+(77:39.520) 好,張正正,財務長,你們好,我是東山臺經的可君。
+(77:42.740) 我想問一題是有關於,因為今年是鴻海注資SHARP屆滿10週年了,
+(77:48.160) 那講問未來是不是可以跟外界分享一下雙方下一個10年的合作跟定位呢?謝謝。
+(77:55.760) 好,確實,今天是一個非常特別的日子。
+(77:58.560) In 2016, it was the day that Honghai completed its organization, SHARP.
+(78:04.560) So today is also the important anniversary of Honghai and SHARP's 10th anniversary.
+(78:10.560) We always believe that SHARP is not only a global brand, but also an important asset of Japan.
+(78:17.560) It is also a company that can represent the innovative spirit and innovation culture of Japan.
+(78:53.560) We hope to take a look at the future 10 years and see how SHARP can be used to develop new opportunities for AI, robots, electric vehicles, and smart life.
+(79:05.560) Our goal is always the same, which is to make SHARP a brand that makes Japan proud and the world can look forward to.
+(79:13.560) Last week, SHARP officially released the latest AI server of the first generation.
+(79:19.560) This product is the result of collaboration between SHARP and Honghai to develop the best demonstration of AI business models.
+(79:27.560) We believe that in the future, we can see more and more similar cooperation cases.
+(79:32.560) That's all.
+(79:34.560) Now it's 4.05 pm.
+(79:38.560) That's all for today's conference.
+(79:41.560) Thank you for your participation.
+(79:43.560) If you have any questions, please contact our IR team.
+(79:48.560) Thank you, everyone. Goodbye.
+(79:50.560) Thank you, everyone. Bye.
+(80:11.560) Thank you.
