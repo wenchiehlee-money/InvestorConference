@@ -1,0 +1,18 @@
+{
+  "stock_id": "2412",
+  "fiscal_label": "2026 Q1",
+  "event_type": "受邀法說",
+  "announced": "2026-05-27",
+  "sources": [
+    {
+      "source_url": "https://www.zucast.com/event/OCXuLvXd/subscribe/create?openExternalBrowser=1",
+      "source_type": "Zucast webcast replay (registration-gated), audio/mpeg direct S3 link",
+      "discovery_page": "https://www.zucast.com/webcast/OCXuLvXd",
+      "retrieved_at": "2026-08-30",
+      "sha256_audio_mp3": "97b32e896395b893577583078bd8f5cff3169a1052c2a5a88cdd73b14604b23c",
+      "duration_sec": 2070.898313,
+      "notes": "Guest registration required (name/company/email); user-provided credentials used with explicit consent, stored in ignored .env as WEBCAST_*. Audio direct URL: https://production-mp3-full.s3.amazonaws.com/OCXuLvXd/ch02-NHSicR.mp3 (public, no auth needed once discovered). Saved as data/2412/2412_2026_q1.mp3; uploaded to GitHub Release audio-files. Also retrieved from the same page's Download tab: official IR presentation PDFs (EN + Chinese), saved as data/2412/2412_2026_q1_ir.pdf and _ir_en.pdf, converted to markdown via skill-mlx-api-client-ocr (text-layer extraction, no OCR needed)."
+    }
+  ],
+  "notes": "This event was previously missing from README entirely due to an ingest.py bug (past-due CSV-only placeholder rows with no claimable materials were silently dropped from --update-readme output) -- see fix in same-session commit to ingest.py. MOPS/Google Finance automated discovery could not find this quarter's audio (video not on MOPS, Quartr candidate could not be confirmed to match the target fiscal quarter); Zucast webcast link was supplied directly by the user."
+}
