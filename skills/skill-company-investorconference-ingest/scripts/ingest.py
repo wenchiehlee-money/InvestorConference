@@ -2402,10 +2402,18 @@ def update_readme() -> None:
 
             digest = _digest_cell(sid, ingested['year'], ingested['quarter']) if ev_type != "財報" else "-"
         else:
-            # CSV-only row (not yet ingested): only include if within next 4 weeks
+            # CSV-only row (not yet ingested): suppress far-future placeholders
+            # (show only once within the next 4 weeks) but always show past-due
+            # events that were never claimed by any ingested material -- a past
+            # 法說會/受邀法說 with no ingested data is a real coverage gap, not a
+            # "too early to display" placeholder, and must stay visible so the
+            # gap doesn't silently disappear (see 2412 2026 Q1: event date
+            # 2026-05-27 was >14 days from the same-quarter 財報 date so it
+            # couldn't claim materials, and being in the past meant it never
+            # entered the "next 4 weeks" window either -- the row just vanished).
             try:
                 ev_date = _date.fromisoformat(date)
-                if not (today <= ev_date <= two_weeks):
+                if ev_date > two_weeks:
                     continue
             except (ValueError, TypeError):
                 continue
