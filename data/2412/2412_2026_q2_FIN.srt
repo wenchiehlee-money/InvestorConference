@@ -1,0 +1,362 @@
+[METADATA]
+Source: 2412_2026_q2_exp13
+Language: en
+---
+(00:00.000) Good afternoon, ladies and gentlemen. Welcome to Chunghwa Telecom conference call for the company's second quarter 2026 operating results.
+(00:09.000) During the presentation, all lines will be on listen-only mode, and when the briefing is finished, directions for submitting your questions will be given in the question and answer session.
+(00:20.000) For your information, this conference call is now being broadcast live over the Internet.
+(00:26.340) Webcast replay will be available within an hour after the conference is finished.
+(00:31.200) Please visit CHT IR website, www.cht.com.tw.ir, under the IR Calendar section.
+(00:41.240) And now, I would like to turn it over to Ms. Angela Tsai, the Vice President of Finance. Thank you.
+(00:47.600) Ms. Tsai, please go ahead.
+(00:50.000) Thank you. I'm Angela Tsai, Vice President of Finance at Zhonghua Telecom.
+(00:54.340) Welcome to second quarter with our 2026 earnings conference call.
+(00:59.960) Joining me on the call today are Zhonghua's President Long Xilin and our Chief Financial Officer, Oji Xu.
+(01:06.340) During today's call, management will begin by sharing our recent strategic achievements
+(01:11.100) and providing an overview of our second quarter business results.
+(01:15.440) This will be followed by a discussion of our segment performance and the financial highlights.
+(01:21.000) We will then open the floor for questions and answers.
+(01:24.580) Please turn to slide two to review our disclaimers and forward-looking statement disclosures.
+(01:30.380) Now, without further delay, I will turn the call over to President.
+(01:34.180) President Lin, please go ahead.
+(01:36.380) Thank you, Angela, and hello, everyone.
+(01:39.060) Welcome to our second quarter's 2026 results conference call.
+(01:44.180) We are excited to announce robust second quarter and first half results with revenue, operating income, net income, and EPSO exceeding the high ends of our guidance.
+(01:58.160) Notably, total revenue for the second quarter climbed to its highest for any second quarter since 2010.
+(02:07.380) driven by the solid business growth.
+(02:11.680) In addition, our ICT revenue reached its highest second quarter level since 2021.
+(02:18.780) Based on our outperformance in the first half,
+(02:21.380) we are confident in achieving our full-year performance targets.
+(02:27.020) In 2026, we continue to invest in AI and see concrete results.
+(02:33.900) In the morning today, we announced the kickoff of the operation of our newly built AI data center in Renping, Taoyuan,
+(02:43.820) which is expected to add up to 36 megawatts to our total IDC capacity upon full build-out.
+(02:53.320) In July, we were pleased to sign a memorandum of understanding with Taiwan Stock Exchange to provide dedicated collocation capacity within our new AI data center in Taichung, currently under construction, further expanding our market-leading financial collocation ecosystem in Taiwan.
+(03:18.600) Both achievements demonstrate our ability to convert AI infrastructure investments into long-term financial return.
+(03:28.320) Furthermore, leveraging our leading AIDC infrastructure and the Sea, Land, Sky network deployment,
+(03:35.360) we are positioning China Telecom as the region's unique 3A hub for the AI era.
+(03:43.660) Powered by our ION network and distributed AI DCs, the 3A's hub delivers three core values.
+(03:53.100) Assurance providing resilient sea-land-sky connectivity.
+(03:58.060) All photonics enabling ultra-high capacity, low latency, and energy efficient networking through ION.
+(04:05.740) an AI hub connecting distributed AI computing resources across the Asia Pacific to support customers' AI development.
+(04:16.080) In addition, in terms of ION, we would like to highlight the ION AI Fund, which is the financial instrument we jointly established with Global Partner in June.
+(04:28.400) The fund aims to not only build the IOWN ecosystem, but also create new business opportunities through technology investments.
+(04:38.840) As all investors believe, the optical ecosystem is essential to the AI development.
+(04:46.980) Our subsidiaries also continue to seize AI-related opportunities.
+(04:52.060) In the second quarter, China Telecom's precision tech commenced new factory construction to meet growing AI semiconductor testing demand,
+(05:03.920) while China Telecom's leading photonics tech, which stands to benefit from potential opportunities in the AI supply chain,
+(05:16.840) began trending on the emerging stock exchange in June.
+(05:21.220) Finally, we are delighted to report ESG recognitions received in the second quarter, including the CDP's top A-list rating for the supplier engagement and the best issuer for sustainable finance and the best sustainability bond award from the assets, and the top 5% of Taiwan Stock Exchange listed companies for corporate governance.
+(05:49.040) Additionally, we are proud to report that despite continuing the revenue growth in 2025, we remain on track with our SBTI commitments, reducing scope 1 and scope 2 greenhouse gas emissions by 24.5% from our 2020 baseline,
+(06:12.140) and the scope three emissions by 10.8% from our 2021 baseline.
+(06:19.840) Now let's move on to our second quarter's 2026 results.
+(06:28.040) In the second quarter, we continued our market share leadership in Taiwan's mobile market.
+(06:34.600) Our mobile revenue market share continued to increase, climbing to a record high of 41.2%,
+(06:44.700) while our subscriber market share rose to 39.8%, according to our telecom regulator.
+(06:53.060) We would particularly like to highlight the strength of our premium revenue base
+(06:57.820) as our revenue share continued to exceed our subscriber share.
+(07:02.940) Our 5G performance was equally impressive.
+(07:07.800) The 5G market share in Taiwan reached 39.4%, maintaining number one status,
+(07:18.400) while 5G penetration rate amongst smartphone users increased to nearly 49% as of June.
+(07:27.620) the average monthly fee uplift from 5G migration remained stable at 36%,
+(07:35.260) and the postpaid chunk rate stayed at a low level of 0.36%, reflecting strong customer loyalty.
+(07:46.440) Thanks to the market-leading subscriber base, growing 5G adoption,
+(07:50.660) and the increased roaming revenue on a year-over-year basis,
+(07:54.680) our mobile service revenue grew by 3.2%, outperforming the industry average.
+(08:03.640) Meanwhile, post-payout approvals increased by 2.4% of $13.
+(08:13.360) Notably, we observed our roaming revenue increased 19% year-over-year in the second quarter,
+(08:21.820) with inbound roaming revenue growing 42%,
+(08:26.860) benefiting from the robust tourism demand
+(08:30.400) and increasing international travel activities.
+(08:37.300) Let's move on to slide 6 for our fixed broadband business update.
+(08:42.520) In the second quarter, we were glad to see
+(08:44.880) the number of subscriber adoption services
+(08:47.960) of 300 Mbps and above.
+(08:51.820) reached 42% of our total fixed broadband subscriber base,
+(08:57.920) and the number continued to increase quarter over quarter.
+(09:01.820) Among them, subscribers adopting 1 gigabits per second and above
+(09:06.020) increased 61% year over year,
+(09:10.100) supported by the continued success of our broadband promotion package.
+(09:15.620) As a result, fixed broadband revenue in the second quarter
+(09:19.060) posted a 3% increase year-over-year,
+(09:23.880) while the APU rose year-over-year by $20 to $824 per month.
+(09:32.760) Six broadband subscribers also continued to deliver positive growth year-over-year.
+(09:38.100) We will continue to keep the business up and sustainable.
+(09:41.620) Page 7 highlights the performance of our million subscriber consumer services.
+(09:51.020) In the second quarter, signs up of our multi-play offering, which integrates mobile fixed broadband and Wi-Fi services, continue to grow year-over-year for the 18th consecutive quarter, representing a 14% increase year-over-year and driving up our overall telecom revenue growth.
+(10:19.160) Notably, our Wi-Fi penetration among fixed broadband subscribers reached 57% as a solid basis for smartphone connectivity.
+(10:32.620) As the 2026 FIFA World Cup kicked off in June and ran through July, it successfully boosted video subscription numbers to their annual peak in July.
+(10:46.020) At the same time, the introduction of data attainment, real-time match data, and highlights feature during this FIFA World Cup helped drive total views of tech-supported broadcasts across MOD and Harmibidio up 24%.
+(11:06.000) Compared with the previous tournament, as a result, we are glad to see our total OTT revenue in the second quarter increased 20% year-over-year.
+(11:19.700) With the upcoming Asia Games in the third quarter, we are optimistic about our video performance through the next quarter.
+(11:29.300) Lastly, our digital services continue to deliver solid growth.
+(11:33.080) The subscriber number of our consumer cybersecurity services maintained over 1 million and delivered 11% year-over-year growth, supported by the rising awareness of digital security.
+(11:49.180) Meanwhile, the number of transacting users of our digital carrier building, or DCB,
+(11:55.640) increased by 4.7% year-over-year.
+(12:01.280) As the customers continue to adopt the digital net content, gaming, and AI application tool,
+(12:08.160) we continue to see the potential growth in DCB services going forward.
+(12:13.520) Slide 8 illustrates the key developments in our enterprise ICT business.
+(12:23.200) Through the collective efforts across the group, our ICT business delivered another strong quarter,
+(12:31.480) with revenue increasing 32% year-over-year.
+(12:36.480) Driven by the continuous expansion of emerging services,
+(12:40.200) Recurring ICT revenue also grew by 9%, maintaining solid momentum across major service lines, particularly IDC, cybersecurity, and international public cloud services.
+(12:52.880) Among our core ICT service pillars, big data, cybersecurity, and IDC are the key growth drivers,
+(13:04.380) posting year-over-year growth of 167%, 34%, and 14%, respectively.
+(13:14.940) Big data revenue surged and cybersecurity revenue grew strongly, driven by the recognition of large-scale projects for public sector customers,
+(13:30.460) while ITC revenue growth was supported by the installation project for the manufacturing companies.
+(13:37.560) Notably, a key highlight is our second high ICT order intake.
+(13:42.500) Built on the strong momentum in ICT contract acquisitions during the first quarter,
+(13:50.900) our ICT order intake remained robust in the second quarter,
+(13:55.720) with contract value increasing by 30% year-over-year.
+(14:01.340) As a result, the total ICT contract value secured in the first half of the year
+(14:06.460) has already matched the full year's total amount achieved in 2025,
+(14:13.160) reflecting a strong project pipeline and reinforcing our confidence in future growth.
+(14:19.980) As of June, our major contract wins in the second quarter include large-scale ARDC projects,
+(14:26.920) which are expected to further increase air-related revenue.
+(14:31.720) flagship Thai power energy storage project, positioning us for additional smart grid opportunities,
+(14:42.340) and multiple smart surveillance projects from traditional institutions,
+(14:48.920) demonstrating our ability to replicate successful deployment across the sector.
+(14:55.740) In addition, we became the first telecom operator to provide cloud-based encryption sharing services to the financial industry, further reinforcing our differentiated ICT market leadership.
+(15:13.400) Slide 9 highlights the robust performance of our international subsidiaries and the global network performance.
+(15:21.460) In the second quarter, our international subsidiaries delivered impressive performance as aggregate revenue increased 242% year-over-year,
+(15:36.040) particularly due to the large-scale ICT project deliveries across the United States and Southeast Asia.
+(15:42.980) In the United States, revenue increased more than 11-fold year-over-year, mainly due to the delivery of the large-scale air supply chain projects in Texas.
+(15:56.140) Meanwhile, revenue in Southeast Asia doubled on-year, supported by the ongoing construction project for key customers in Singapore and Vietnam.
+(16:05.780) Encouragingly, with our proven overseas ICT integration expertise, we have successfully secured new projects across the United States, Singapore, and Thailand, providing strong visibility into future growth.
+(16:23.820) In addition to the strong momentum of overseas ICT business, our network resilience business continues to expand with our Asia-Pacific 3A hub strength.
+(16:38.260) Satellite services revenue increased 14% year-over-year, supported by increasing adoption of satellite connectivity solutions across industries.
+(16:54.600) Notably, satellite-related ICT contracts secured in the first half exceeded $200 million,
+(17:05.540) highlighting the growing demand for the diversified communication infrastructure.
+(17:12.920) Another key growth driver from 3A's hub strength is the international private list of circuit business,
+(17:22.360) whose revenue increased 8% year-over-year, mainly driven by SJC2 and APRICOT submarine cables.
+(17:31.260) Looking ahead, given the run-up of the AI-driven data traffic and the growing international connectivity demand,
+(17:39.640) resulting from the geopolitical uncertainty, we are well positioned to capture these opportunities,
+(17:47.260) supported by continued investment in submarine cable and satellite projects.
+(17:55.880) Now let's move on to page 10 for the financial performance of our three business groups.
+(18:02.920) In the second quarter, our core telecom business remained strong.
+(18:07.400) Growth in mobile services, fixed broadband, and handset sales
+(18:12.560) drove consumers' business group revenue up.
+(18:16.200) 4.8% year-over-year, while income before tax increased a solid 3.6%.
+(18:25.060) Beyond our core telecom business, ICT business continues to be a key growth engine.
+(18:33.120) Strong ICT demand, along with the growth in mobile and broadband services,
+(18:39.540) lifted the enterprise business group revenue by 3.7% year-over-year,
+(18:46.200) while income before tax increased 2.1%.
+(18:49.940) In the second quarter, the strongest performance came from our international business group,
+(18:55.860) which saw growth across every segment, resulting in approximately 79% increase in revenue on year
+(19:09.600) and 31% increase in income before tax on year, respectively.
+(19:14.400) This was propelled by rising demand for ICT integration projects, mainly driven by the relocation of AI supply chain,
+(19:23.620) contribution from the SDG2 and APRICOT submarine cables, as well as the strong roaming revenue increase.
+(19:30.940) That concludes the business overview for the second quarter.
+(19:34.380) Now I would like to hand the call over to Audrey for the financial updates.
+(19:41.200) Thank you, President.
+(19:42.740) Good afternoon, everyone, and thank you for joining us today.
+(19:47.680) I'm pleased to walk you through our financial performance for the second quarter of 2026.
+(19:53.220) Please turn to slide 12.
+(19:56.060) In the second quarter, we delivered record high performance for the period.
+(20:01.300) Consolidated revenue reached NT $61.36 billion,
+(20:05.920) representing an 8.2% increase year-over-year
+(20:12.920) and making our highest Q2 top line since 2010.
+(20:18.180) This strong momentum was driven by three primary engines.
+(20:22.360) First, our ICT business achieved its highest Q2 revenue since 2021.
+(20:29.320) This is also propelled by our overseas subsidiaries
+(20:32.360) subsidiaries fulfilling major AI supply chain projects in the U.S. and Southeast Asia,
+(20:38.320) alongside the domestic growth in the big data, cybersecurity, and AIDC capacity.
+(20:43.980) Second, product sales grew behind elevated handset ASPs at CERN now and strong AI testing
+(20:50.660) contribution from Zhonghua Precision Test. Third, our core telecom service continued their steady
+(20:57.420) expansion reinforced by ongoing high-tier 5G migration and broadband speed upgrades.
+(21:05.800) So moving to operating profitability, income from operations rose 5.7% year over year.
+(21:15.080) Beyond top-line scale, this operating growth reflects high-margin flow-through from our
+(21:21.560) core telecom business, supported by 5G adoption and fixed broadband speed upgrades.
+(21:27.420) paired with margin-accredited contribution from Zhonghua Precision Test.
+(21:31.780) On the bottom line, EPS expanding to NT1.38, up from 1.31 NT in the prior year period,
+(21:41.380) makes our highest second quarter EPS in 10 years.
+(21:45.920) EBITDA also increased 4.1% to NT23.52 billion,
+(21:51.700) maintaining a healthy EBITDA margin of 38.32%.
+(21:56.780) Turning to our year-to-year performance shown in the final column, H1 revenue increased 7.8% year-over-year, driven by growth-based growth across ICT, mobile sales, and core telecom service.
+(22:11.560) Operating income rose 5.2% to NT$26.36 billion.
+(22:18.480) Net income grew 3.9% to NT$20.75 billion.
+(22:24.960) And EPS reached NT$2.68 up from NT$2.57 last year.
+(22:33.120) EBITDA expanded 3.8% to NT$46.82 billion.
+(22:38.900) underscoring our recurring cash flow strength.
+(22:43.880) Overall, this balanced result gives us strong confidence
+(22:48.360) in achieving our full-year targets.
+(22:53.060) Please turn to slide 13 for an overview of our balance sheet position.
+(22:59.240) Total assets increased by 3.3% year-to-date, primarily driven by current assets.
+(23:06.440) This was mainly due to growth in cash.
+(23:08.900) time deposits, NCDs, and inventories, reflecting higher investment in ongoing ICT projects.
+(23:16.880) On the liability side, total liabilities rose 27.1% compared to year-end 2025,
+(23:26.680) largely driven by the seasonal recognition of dividend payable.
+(23:31.460) As of June 30, 2026, our reported debt ratio stood at 31%.
+(23:38.680) Excluding dividend payable, our adjusted debt ratio improved to 23.72%, down from 25.21% at year-end 2025.
+(23:51.240) More importantly, our interest-bearing debt ratio remains very low at approximately 5%, reflecting minimum financial leverage and prudent balance sheet management.
+(24:02.820) Our core financial health remains robust with a current ratio of 122.3% and a net debt to EBITDA ratio standing at zero, underscoring our solid financial position.
+(24:18.940) Moving to slide 14 for our cash flow summary for the first half of 2026.
+(24:25.820) Net cash provided by operating activities remained healthy over the six-month period.
+(24:31.760) Working capital was mainly impacted by higher inventory spending for ongoing ICT projects,
+(24:38.800) but this was largely offset by strong cash inflows from contract liabilities and lower payable outflows.
+(24:47.420) On the investment side, first half total Capex was NT$9.85 billion, down 14.3% year-over-year.
+(24:55.840) mobile Capex declined 9%, reflecting the normalization of investment following the peak phase of 5G network deployment,
+(25:05.880) while non-mobile Capex decreased 16.3%, primarily due to a higher comparison phase last year.
+(25:12.960) We also expect a greater portion of Capex this year to be deployed in the second half of the year.
+(25:20.260) As a result, our six-month free cash flow reached $21.89 billion.
+(25:25.100) Our overall cash position improved year over year and remains very solid, continuing to comfortably support both ongoing business expansions and shareholders' returns.
+(25:39.980) Turning to slide 15 for our performance relative to guidance.
+(25:44.300) As our president noted at the beginning of our call, we deliver outstanding second quarter results with top-line revenue exceeding our expectations.
+(25:57.620) This outperformance was supported by continued ICT momentum, steady core telecom growth, and stronger than expected product sales.
+(26:08.360) Importantly, revenue growth outpaces operating expense growth, reflecting solid operating leverage and cost discipline.
+(26:16.320) Although project-related costs grew alongside higher ICT revenue recognition, total expenses remained well within target.
+(26:25.240) Consequently, all key profitability metrics, operating income, net income, EPS, and EBITDA came in above the high end of our guidance.
+(26:36.040) That concludes my financial overview.
+(26:39.960) Thank you for your time, and I will now hand the call back to the operator for Q&A.
+(26:47.280) Yes, thank you.
+(26:49.160) And ladies and gentlemen, we will now begin the question and answer session.
+(26:53.440) If you have a question for any of today's speakers,
+(26:56.780) please press Start Key and Number 1 on your telephone keypad, and you will enter the queue.
+(27:02.280) After you are announced, please ask your question.
+(27:06.040) And when you are speaking, please be louder or closer to the microphone.
+(27:11.000) If you find that your question has been answered before it's your turn to speak,
+(27:15.300) please press Start key and number 2 to cancel the question.
+(27:19.300) And you are also welcome to send questions via chat box on the webcast page.
+(27:24.500) We will begin with the questions from TelephoneY and then move to the queries from the web page.
+(27:29.500) Thank you.
+(27:30.260) Firstly, we'll have Charlie Bai of HSBC for questions.
+(27:37.440) Go ahead, please.
+(27:38.440) Charlie Bai, HSBC, Hello, management.
+(27:41.460) Congratulations on this very strong result.
+(27:43.960) I saw spectacular growth in the international sector.
+(27:48.340) Might know more about the long-term guidance and visibility in this segment because I know
+(27:55.840) that some could be project-based, and how do we see the long-term demand, and we might
+(28:02.700) breaking down for different regions such as U.S., Southeast Asia, et cetera.
+(28:09.080) Thank you very much.
+(28:14.080) Hi, Charlie.
+(28:23.980) Thank you very much for your question.
+(28:26.840) I guess the question is you want to look at the outlook for the international sector
+(28:33.220) and long-term guidance and visibility in the segment.
+(28:38.440) So as we see the global trend of the AI development,
+(28:43.200) We continue to see growing interest from international customers, particularly in AI infrastructure, international connectivity, and data center service in the U.S. and also in Southeast Asia.
+(28:57.460) So while our primary market remains Taiwan, we believe that this AI expansion across Taiwan, U.S., and Southeast Asia is aligned with the AI development growth.
+(29:20.280) Thank you, Audrey.
+(29:21.500) Is there anything that you want me to add on for this issue?
+(29:29.920) Yeah, maybe more color on the project type.
+(29:34.540) Are they mostly AI data center built out or any kind of more color is really appreciated.
+(29:41.640) Okay, Charlie, maybe I can give you some information.
+(29:45.780) as the projects we acquired,
+(29:49.920) we see in the United States markets.
+(29:53.840) Actually, so far, we see, just like Audrey said,
+(29:58.220) we see a lot of opportunities related with the AI supply chain, right?
+(30:03.280) And actually, for the opportunities,
+(30:07.460) actually, I think in this year or next two to three years,
+(30:12.820) The opportunities is like several billion dollars,
+(30:17.840) anti-dollars, several billion anti-dollars.
+(30:22.020) Got you. Thank you very much.
+(30:27.080) Thank you.
+(30:28.360) Next one, Ranjan Sharma, J.P. Morgan, Singapore.
+(30:32.520) Go ahead, please.
+(30:37.640) Hi, good evening, management.
+(30:39.180) Thank you for the presentation and the opportunity.
+(30:42.820) I have three questions.
+(30:45.940) Firstly, on the AIDC,
+(30:49.040) what is the required investment to build out the 36 megawatts
+(30:52.740) of the data center capacity?
+(30:55.460) And what is your projected IRRs?
+(30:59.140) The second question is on IOWN.
+(31:03.460) You talk about expanding investments.
+(31:05.840) Can you help us understand what you're doing here?
+(31:08.600) What is the required investment?
+(31:09.640) and what is the impact that you see on your financial outlook going forward?
+(31:15.720) The last question is if you can remind us on the enterprise ICT side,
+(31:22.800) there seems to be a lot of volatility in the revenues from one quarter to another quarter.
+(31:27.880) If you can help us understand the drivers of that. Thank you.
+(31:39.640) Hi, Ranjan.
+(31:42.980) Thank you very much for the issue about the AIDC.
+(31:49.300) For the question about the AIDC, as we mentioned earlier,
+(31:55.700) that our Luanping AIDC and Taichung AIDC are under construction
+(32:00.860) to provide AIDC service for our confirmed customers.
+(32:04.600) And while you are interested in this IR,
+(32:08.520) we don't usually disclose the expected IR for individual projects.
+(32:15.400) However, just to give you some idea that regarding the Taiwan's IDC market,
+(32:23.640) we would like to highlight our leading position.
+(32:27.500) On a group basis, combining the capacity of Zhonghua Telecom and our subsidiary,
+(32:33.000) cheap telecom. Our IDC market share in Taiwan
+(32:36.700) reached 78% as of the second quarter, maintaining
+(32:40.900) our position as the market leader. I think this information
+(32:44.520) may give you some idea about our value of the ICDC
+(32:48.740) in Taiwan. And also, another point is
+(32:53.000) that while we don't disclose the detailed IRR
+(32:56.960) for individual projects, each investment is subject
+(33:00.880) to our very disciplined capital allocation framework
+(33:04.600) and investment evaluation.
+(33:06.200) So we only proceed with projects
+(33:11.480) that meet our financial and strategic return requirements
+(33:15.220) and can help create long-term shareholder value.
+(33:20.600) Then we will count out the project.
+(33:23.220) So I hope this is helpful for your question
+(33:28.200) question about the first question.
+(33:33.200) Yes, thank you. Can you help us with the amount of investment required to build out 36 megawatts of capacity?
+(33:42.200) Okay, Rajen, are you asking the total capacity of IDC and AIDC?
+(33:49.200) Yeah, the amount of investment required to build that capacity.
+(33:56.200) Investment required for what?
+(34:00.200) To build the capacity.
+(34:04.200) How much capital do you need to deploy to build the capacity?
+(34:08.200) Well, actually, you know, for the
+(34:12.200) Lungping AIDC, we say that when
+(34:16.200) it's build out, you know, we completed
+(34:20.200) the build out, then the maximum it could provide is
+(34:24.200) 36 megawatt, but the AIDC is building, you know, by phases.
+(34:32.120) So our investments, you know, injected is by phases, yeah.
+(34:36.280) But we don't disclose, you know, the total capital.
+(34:39.420) We invest for the lumping AIDC, yeah.
+(34:46.320) Okay.
+(34:46.920) In terms of your last question, it's about the ICT volatility, the ICT revenue, right?
+(34:57.440) But, you know, actually we foresee that for this year, the ICT revenue, the volatility is the pattern.
+(35:08.260) The pattern is similar to the previous year.
+(35:11.780) And we are quite confident to beat our ICT revenue targets for this year, yeah.
+(35:28.740) Okay, the last question on IOWN.
+(35:33.640) Sorry, could you repeat the question about IOWN?
+(35:37.080) Yes. Can you help us understand the investments that you're making in ION? How much capital
+(35:45.160) that you're deploying there? And how does that impact your business outlook going forward?
+(35:51.960) If you are asking about the ION AI fund, right? Is there a question you want to ask?
+(36:02.480) Yes, and also like what is the revenue opportunity from ION?
+(36:11.360) Actually, we see that the ION ecosystem is quite important in the AI era
+(36:17.860) because in our plan, we want to connect our AIDC,
+(36:22.800) the distributed AIDC at home and abroad through the ION network,
+(36:29.260) connected by ION network.
+(36:30.700) But, you know, this is still in the early stage that we invest in building up this kind of, you know, network.
+(36:39.600) So in terms of revenue, I think it still takes time to gain the real revenue from IO network, yeah.
+(36:54.500) Okay.
+(36:55.140) To add on, I think nowadays in the semiconductor, all photonics issue has become a key driver for the next generation of the data center.
+(37:10.100) I think IONI is quite important for the next generation data center.
+(37:18.020) So we believe that at this moment, this can help us to build our competitive advantage,
+(37:30.740) given that, as I just mentioned, that AIDC, we are the major player.
+(37:36.400) We take almost 80% of the market share in Taiwan,
+(37:42.040) and given that so many customers in Taiwan have the position,
+(37:48.020) across the Asia Pacific.
+(37:51.800) So we view IOWN as both a technology and business initiative.
+(37:59.440) So while this ecosystem development takes time,
+(38:03.340) we believe it provides an important foundation
+(38:05.940) for future AI-related services
+(38:08.200) and next-generation network capabilities.
+(38:12.660) Got it. Thank you.
+(38:15.780) Thank you.
+(38:16.700) As a reminder, please press star key and number one on your keypad if you would like to ask
+(38:22.500) the question.
+(38:23.500) Thank you.
+(38:24.500) We are now in question and answer session.
+(38:27.560) If you would like to ask the question, please press star key and number one on your telephone
+(38:32.140) keypad.
+(38:33.140) Thank you.
+(38:38.200) Ladies and gentlemen, we are now in question and answer session.
+(38:42.260) To ask a question, you may press star key and number one on your telephone keypad.
+(38:46.980) Thank you.
+(38:49.500) And if there are no further questions, I will turn it back over to President Lin.
+(38:53.680) Thank you.
+(38:55.080) Okay.
+(38:55.600) Thank you very much for your participation.
+(38:58.040) See you.
+(38:58.700) Bye-bye.
+(39:00.640) Thank you, President Lin.
+(39:01.860) And ladies and gentlemen, we thank you for your participation in Chongha Telecoms Conference.
+(39:07.420) There will be a webcast replay within an hour.
+(39:09.940) please visit www.chd.com.tw slash IR under the IR calendar section.
+(39:18.860) You may now disconnect.
+(39:20.560) Thank you again.
+(39:21.660) Goodbye.
