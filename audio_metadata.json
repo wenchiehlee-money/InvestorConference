@@ -538,5 +538,15 @@
     "size_bytes": 28675871,
     "source": "local_file",
     "status": "ok"
+  },
+  "NVDA_2027_q2": {
+    "checked_at": "2026-08-30",
+    "duration_sec": 3570.457,
+    "file": "data/NVDA/NVDA_2027_q2.m4a",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/NVDA_2027_q2.m4a",
+    "sha256": "92e756bdcaeba9de49ab3f301a17f2473c485ed938027fb18cd29c8f2fc83f5e",
+    "size_bytes": 72026852,
+    "source": "local_file",
+    "status": "ok"
   }
 }
