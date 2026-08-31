@@ -1,0 +1,716 @@
+[METADATA]
+Source: 2382_2026_q1_FIN.srt
+Review-Level: conservative_from_FIN
+Reviewer: claude
+Reviewed-At: 2026-08-31
+Audio-Checked: none
+Correction-Sources: 2382_2026_q1_ir_en.md / 2382_2026_q1_ir.md (official financial figures used to verify the clean Chinese-language prepared-remarks portion, lines ~11-153), official MOPS financials
+Corrections: 1/705 lines - one clear garble (英季->除息) in the otherwise-clean prepared-remarks portion
+Confidence: low
+Notes: SEVERE DATA QUALITY ISSUE. This transcription is heavily degraded, especially from the Q&A section onward (~line 154, timestamp 18:31 onward): large stretches consist of repetition-loop hallucinations (e.g. "the cost of the cost of the cost...", "the second year, the second year...") and vague/garbled paraphrases of English-language analyst questions and CFO answers that cannot be reliably reconstructed into accurate quotes. The opening prepared remarks (Chinese, lines ~11-153) are comparatively clean and were spot-checked against the official IR deck (2382_2026_q1_ir_en.md) and MOPS official financials - all cross-checked figures matched exactly (gross profit 387億/4.78%, opex 157億/1.94%, operating income 230億/2.85%, net income 211.9億/2.62%, EPS 5.5元, shareholders equity 2075億). No conservative_from_FIN-style GT correction pass was attempted on the Q&A section (lines 154-709) because the underlying content is not reliably recoverable through keyword substitution - fabricating corrected text would misrepresent what was actually said. The digest for this quarter relies primarily on the official IR deck and MOPS financials for hard numbers, the clean opening remarks for qualitative content, and extracts only the handful of Q&A facts that remain unambiguous despite the surrounding noise (see 2382_2026_q1_digest.md for the explicit list and its Major data quality flag). This transcript should be considered a candidate for Mac-mini re-transcription with a bilingual/English-tuned Whisper config before being treated as a reliable Q&A source.
+---
+(00:00.000) Thank you.
+(01:00.000) Let's start with the first episode of Kaelin.
+(01:30.000) Thank you.
+(02:00.000) including the financial director of the U.S. and the chief chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the chief chief of the U.S. and the
+(02:30.000) The impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the impact of the
+(03:00.000) The latest news is that the latest news is that the latest news is
+(03:30.000) 然而今年第一季筆電的出貨減幅,由於季節性的變動以及公司原本的預期,這是由於主要客戶新機種上市,為建立充足的新品庫存,以應市場需求,在積極的拉貨帶動下,抵消了一部分季節性下滑的幅度,使得整體筆電在出貨,第一季呈現淡季不淡,本季毛利為387億元,
+(03:56.540) 較前一季的404億元略減4.2% 較去年同期成長0.6% 毛利率為4.78% 分別較上一季下滑154個基點 較去年同期減少314個基點
+(04:13.220) 毛利率下滑的最主要因素來自產品組合變化 以及包括記憶體在內的電子零組件價格上漲
+(04:21.060) If you look at the 2% of the impact, the 3% of the impact will be made from the 3% of the product.
+(04:29.060) The 3% of the product will be made by the product and the 1% of the product and the 1% of the product.
+(04:37.060) The 3% of the product will be made by the product and the product will be made by the product and the product.
+(04:45.060) The AI-s伏器 is the most valuable asset to the supply chain.
+(04:51.940) As compared to the AI-s伏器, the supply chain is over 3 times.
+(04:57.380) However, the AI-s伏器 is also the same as a change.
+(05:04.420) The current supply chain is the highest rate of 300 million dollars.
+(05:13.380) And to the last year, AI-s伺器 has already over 65% of the total supply of the AI-s伺es, but the total cost of the AI-s伺es is over.
+(05:26.380) This is a result of the year's event.
+(05:56.380) The cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the
+(06:26.380) 企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業企業
+(06:56.380) 價格高漲 造成本季筆電的出貨單價較上一季
+(07:01.240) 計增超過30% 而出貨量繼減8.3% 也不利經濟規模
+(07:08.260) 使著筆電的整體獲利受到侵蝕
+(07:10.940) 本季營業利益為230億元 較上一季的240億元繼減4.4%
+(07:19.320) 並較去年同期減少6.4% 營業費用為157億元
+(07:25.220) 1.4% 2% 年增 12.9%
+(07:29.900) 年增的支出主要投入AI的研發費用
+(07:34.200) 以及隨著海外營運據點擴大
+(07:37.200) 而相應增加了一些管理費用
+(07:40.560) 由於本季營業費用控制得宜
+(07:44.440) 加上得益於營收成長所帶來的更有效的營運槓桿
+(07:48.500) 費用率降至1.94%的新低
+(07:52.040) 較上一季降低63個基點 較去年減少92個基點
+(07:56.760) 營業利益率來到2.85% 分別較上一季下降92個基點 較去年同級 下滑2.2個百分點
+(08:05.300) 業外收入為15億元 主要貢獻來自近匯兌收益32.5億元
+(08:12.940) 此外 由於營運資金的需求持續上揚 近利息費用上升至20.8億元
+(08:19.320) 稅後淨利為211.9億元為歷史次高 較上一季減少4.5% 較去年同期增加8.7% 稅後淨利率為2.62% 較上一季下降86個基點 較去年同期下降140個基點 每股盈於5.5元為同期新高 較去年第四季減2.6角 較去年同期增加4.4角 請翻到下一頁 資產負債表
+(08:49.320) The stock market will be added to the stock market.
+(09:17.320) 增31.4%
+(09:47.320) 依照訂單需求生產
+(09:49.360) 也就是Build to Order
+(09:50.960) 庫存的建立均是根據客戶的需求及指示
+(09:54.780) 按照產品交貨時程安排採購
+(09:57.560) 因此庫存金額反映的是
+(09:59.980) 近期將進入生產以及交貨的訂單
+(10:03.780) 歸屬於本公司的股東權益為2075億元
+(10:08.940) 較上一季減少360億元
+(10:11.540) 主要是反映了扣除除息之普通股
+(10:14.820) The current year of the year of the year, the current year of the year of the year of the year of the year of the year of the year of the year of the year of the year of the year of the year of the year of the year of the year of the year of the year.
+(10:21.820) The first year, the first year, the first year, the first year, the first year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year, the second year
+(10:51.820) 約達80%到85%
+(10:54.220) 相較於2025年全年
+(10:57.180) 兩地合計大約只佔整體資本支出
+(11:00.820) 60%到65%
+(11:03.020) 這說明了我們正在加速
+(11:04.780) 美國及泰國擴散計劃的執行進度
+(11:07.420) 以確保新產能能夠如期到位
+(11:10.180) 因應客戶後續的交貨需求
+(11:12.620) 2026年資本支出預估將達到300億元
+(11:16.700) 由於AI推理與AI代理等服務
+(11:20.900) 吸引越來越多使用者參與及採用
+(11:23.400) 個人與企業應用需求同步呈現指數及成長
+(11:27.660) BSP 客戶在 AI 領域的投資和基礎建設
+(11:31.300) 已開始全面推動收入及成長
+(11:33.900) 在資料中心算力供應持續吃緊下
+(11:37.580) 客戶同步推進模型的效率優化
+(11:40.240) 以及積極的 AI 基礎建設投資
+(11:42.940) 除了透過更先進的 AI 技術
+(11:45.680) 與更低的單位運算成本
+(11:47.680) 揭助使用者處理更復雜的任務需求
+(11:50.820) 同時也要求我們將產能優先提供給AI伺服器的生產出貨
+(11:56.660) 目前大型雲端客戶AI伺服器的訂單能見度
+(12:01.760) 已達2027年以後
+(12:03.700) 為了配合客戶資料中心的建制計劃
+(12:06.660) 以及新世代AI平臺量產上市的交貨時程
+(12:10.540) 我們的工廠團隊正全力在緊迫的時程內
+(12:14.020) 推進新廠房的房屋級建築等關鍵設施
+(12:17.620) and also to complete the supply of the supply and supply of the supply and supply of the supply.
+(12:22.620) Next, we will be able to review the supply and supply of the supply and supply of the supply and supply of the supply.
+(12:29.620) From the supply and supply of the supply,
+(12:31.620) the supply and supply of the supply and supply of the supply and supply of the supply and supply of the supply and supply of the supply and supply.
+(12:41.620) The AI-s伺器 is increased by three times,
+(12:44.620) the AI-s伺器 has increased by three times,
+(12:47.620) and the AI-s伺器 has increased by 75%.
+(12:53.620) We expect that the AI-s伺器 will still be increased by three times,
+(12:58.620) and the AI-s伺器 will still be increased by two times.
+(13:02.620) The AI-s伺器 will be increased by two times,
+(13:05.620) which will also be increased by three times,
+(13:08.620) and also the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard of the standard
+(13:38.620) The new cloud is from the new cloud.
+(13:45.620) On the first-day device,
+(13:47.620) the first-day device is a high-end device
+(13:50.620) and the CPU and the key to the new cloud.
+(13:54.620) The new cloud will be increased by the new cloud.
+(14:07.620) 基於目前因地底供貨短缺帶動了整體成本上漲 使得終端筆電售價全面上揚 進而削弱使用者採購意願 市場需求能見度持續偏低 客戶的產品規劃也轉去保守
+(14:23.000) 接下來關於車載業務 今年第一季智慧駕駛與電動車相關產品的客戶需求已看到走出谷底的跡象
+(14:33.140) 雖然這部分營收較去年第四季仍呈現小幅度的季節性衰退
+(14:39.380) 但相較於2025年第一季已回到兩位數的年增率
+(14:44.200) 可視為市場初步回溫的正面訊號
+(14:49.180) 在近年電動車市場震盪調整中
+(14:53.320) 我們的業務團隊始終與客戶共同投入新產品與技術的開發
+(14:59.080) 為市場機會的重新到來做好準備
+(15:02.680) In the interest rate, the AI-s服器 is now more than enough.
+(15:08.260) The high-end cost of the stock market will be able to increase the growth rate of growth.
+(15:11.860) It will also bring the growth rate of growth rate of growth rate.
+(15:14.680) The high-end cost of the product of the product is also due to the production of the product.
+(15:20.020) We will continue to deal with the product of the product and the product.
+(15:23.480) We will continue to deal with the product and sell by the product and the product.
+(15:25.740) We will continue to deal with the product and product and product.
+(15:28.720) 預期從下半年開始將由少部分專案開始採用新的Consignment交易模式
+(15:34.960) 另一方面 客戶的ASIC一種出貨也將逐步增加
+(15:41.220) 由於ASIC制服器單價掉低 且每個案子全是為特定應用而量身定做的客舊化設計
+(15:48.620) 對產品組合渴望帶來正面注意 提消部分毛利下滑的壓力
+(15:54.760) In the supply chain, the supply chain will be 2%
+(16:01.140) We expect the supply chain will be 2%
+(16:05.760) The supply chain will be 2%
+(16:08.760) It will be 2%
+(16:11.760) So, the supply chain will be 2%
+(16:14.760) The supply chain will be 2%
+(16:19.760) We expect the supply chain will be 2%
+(16:22.760) The total cost of the stock market will be reduced to the total cost of the stock market.
+(16:29.760) The stock market will be reduced to the stock market.
+(16:51.760) 2025 年會計年度
+(16:53.760) 美國已佔公司合併營收的7成以上
+(16:57.660) 為了應對客戶對地緣政治
+(17:00.500) 關稅議題以及分散供應鏈風險等
+(17:03.560) 產地調整的要求
+(17:04.980) 以及因應先進AI基礎設施投資
+(17:08.600) 目前高度集中於美系客戶的情形
+(17:11.560) 我們持續加大在美國的投資力道
+(17:14.440) 強化及擴充當地的製造產能
+(17:17.740) 以及服務體系
+(17:19.180) 隨著AI服務開始廣泛進入消費者的生活及各行各業的應用場景
+(17:25.360) 客戶持續加速AI中心的投資
+(17:28.200) 在我們眼前的是突破技術和產能瓶頸
+(17:31.740) 使命必達與時間賽跑的壓力也是令人振奮的成長氣息
+(17:36.960) 我們的團隊正加緊各項營運資源的籌措
+(17:40.560) 以及還有內外產能的擴充
+(17:42.640) 以追趕客戶積極的訂單預估
+(17:45.060) We are now in the first place to be with the customer's highest priority
+(17:49.260) to help customers perform their AI-based design and design.
+(17:54.060) These are the plans to expand the AI-based design and grow.
+(17:59.260) 最後是關於2026年股東會的提醒
+(18:02.780) 年度廣達電腦股東會將於5月29號上午9點在林口總場舉行
+(18:09.620) 相關議案以及開會通知書均已即發並依法公告
+(18:13.520) 請投資人於公開諮詢觀測站查詢
+(18:16.400) 並透過股東一服務平臺或APP進行線上投票或清零指教
+(18:22.460) 以上是我們第一季業績的回顧展望
+(18:25.280) 謝謝您的耐心等候 接下來我們把時間交給主持人開始本次會議的問答環節
+(18:31.780) 好 謝謝Carol 那我們現在就直接開始進行Q&A 那如果你們如果想要問問題的話 請使用舉手的功能 那我們就會幫你unmute 那就可以開始問問題
+(18:48.160) 或者說可以用下面的問答的對話框輸入你的問題
+(18:53.840) 我們也可以幫你轉交
+(18:55.620) 那在我們開始接受第一個問題之前
+(19:03.160) 我這邊先有兩個問題
+(19:05.500) 第一個是關於我們之前
+(19:07.520) 我們剛剛提到的server營收成長的部分
+(19:10.660) 我們AI的server營收
+(19:14.640) 剛剛Carol提到是還是會較2025年有 triple digit的成長
+(19:20.940) 這個跟之前提到會翻倍其實大致相同
+(19:25.220) 還是我們其實可能triple digit是隱含更高
+(19:30.360) 就是比翻倍還要更高的一個預期
+(19:33.120) 這個我想再確認一下
+(19:35.420) 然後另外general server我們也是有提升今年的成長的展望
+(19:42.220) from higher quality to higher quality.
+(19:46.720) If you take the memory of the value of the value of the value,
+(19:52.720) General server
+(19:55.020) The growth of the growth of the general server
+(19:55.920) Is it probably how much?
+(19:58.420) This is my first question
+(19:59.940) Thank you
+(20:04.300) There is a question about the first
+(20:05.520) Three-way-tool-tool-tool-tool-tool-tool
+(20:06.600) We will answer it
+(20:07.960) We will now have a question
+(20:13.860) That we will now have a question
+(20:14.860) We will now have a question
+(20:19.860) Consignment of the part
+(20:21.220) to maintain the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size of the size
+(20:51.220) So, this is the AI server or general server?
+(20:56.760) This is AI server.
+(20:59.900) And this dialogue is still in the process.
+(21:03.100) There are more people in talking about this project.
+(21:09.340) Okay.
+(21:10.340) So, the consignment is that,
+(21:13.100) the P&L here is no known as the main point of the organization.
+(21:17.780) We're not going to have working capital this impact.
+(21:24.180) It's not going to cause the change to the income.
+(21:29.660) It's the impact of the working capital needs and inventory of the unit.
+(21:41.180) This is a series of.
+(21:43.100) Okay.
+(21:47.780) and the market price.
+(21:49.780) We just mentioned that
+(21:54.780) AI server,
+(21:55.780) especially the high-end server
+(21:57.780) its quality of the market
+(21:59.780) is a lot of influence.
+(22:02.780) Even though
+(22:04.780) the OPM
+(22:05.780) has been affected by some
+(22:07.780) of the damage.
+(22:08.780) If the future
+(22:10.780) is the market price
+(22:12.780) is higher,
+(22:13.780) and the situation
+(22:16.780) and the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of the cost of
+(22:46.780) This from 2Q is the opportunity for OP margin to grow.
+(22:54.780) Thank you.
+(22:55.780) That I will let the first question in the first question.
+(23:02.780) That we will first ask Howard.
+(23:05.780) Can you please help Howard on mute?
+(23:26.780) Hello, can you hear me?
+(23:28.780) Can you hear me?
+(23:30.780) Hello, I'm Howard.
+(23:32.780) I want to clarify the first question.
+(23:36.780) In the opening remarks,
+(23:39.780) did you have mentioned that the OP growth rate will be less than 2025?
+(23:49.780) I want to clarify the statement.
+(23:52.780) I want to answer the first question.
+(23:55.780) We just mentioned that the growth rate of OP is going to be lower than 2025.
+(24:06.180) And it will be lower than top line.
+(24:10.780) Okay, I understand. Thank you.
+(24:13.380) The second question is to go to Consignment.
+(24:16.980) Can you ask,
+(24:18.780) if you see the next year will be in Consignment project,
+(24:23.980) Can we give you some color?
+(24:25.980) What kind of customer or project can we talk about?
+(24:35.980) Can we share some more?
+(24:37.980) From a mix of the way to look at,
+(24:41.980) how can we get to the same?
+(24:45.980) I think this is a concern
+(24:50.980) because CSP is not very many.
+(24:54.980) We can't disclose this.
+(24:58.980) But I can tell you that it's a discussion based on project based.
+(25:02.980) It's not a customer's discussion.
+(25:04.980) And the higher-level opportunities
+(25:08.980) will be more consignment projects.
+(25:12.980) So, it's like the new case will be made in the new case.
+(25:19.980) If it's already been done, it's not possible to change the new case.
+(25:28.980) Is that correct?
+(25:30.980) Sorry, the project is that there is a new case.
+(25:37.980) So, we talked about the next half year,
+(25:41.180) there will be some project to change the consignment.
+(25:44.780) The new案 is also depending on the customer.
+(25:48.180) There are different requirements of the customer.
+(25:50.980) Some of the customers will take the consignment.
+(25:53.380) So, it's not prevailing.
+(25:54.580) The new project will be to the consignment project.
+(25:59.580) I want to ask the user, because I remember that you had said that you were in the way of the support of the network.
+(26:18.580) but you have no way to get more of a payment.
+(26:26.580) But now it's been revised up for the entire year.
+(26:31.580) So I can ask you,
+(26:33.580) what changes in the past two months or three months?
+(26:38.580) Just as we mentioned in Preview Remarks,
+(26:42.580) we're continuing to expand our capacity.
+(26:45.580) So along with the capacity to grow,
+(26:47.580) we have more bandwidth,
+(26:49.580) and more talent.
+(26:51.580) We have more chance to get these things.
+(26:54.580) Of course, the customers also want to diversify
+(26:56.580) our project,
+(26:57.580) because they want to get all of the projects.
+(27:00.580) So, I will see that
+(27:02.580) more projects are because of our ability
+(27:05.580) and ability
+(27:06.580) has been improved.
+(27:10.580) One follow-up is
+(27:12.580) you have more access to these new general service
+(27:15.580) So this is the X86 CPU or ARM CPU?
+(27:22.580) Yes, there are.
+(27:25.580) Okay, okay.
+(27:26.580) Can I ask you a question?
+(27:29.580) In the prepared remarks,
+(27:32.580) you said that the year's demand is not so good.
+(27:39.580) So, you said that the year's demand is not so good.
+(27:41.580) So, you think that the next year
+(27:45.580) Actually, from the source of power to the power to the previous year,
+(27:49.740) is that the idea of the reality is correct?
+(27:52.940) The visibility of the connection is that the customer is foreseen.
+(27:57.020) Because the memory, CPU is still being cannibalized.
+(28:02.060) So, they have to get the opportunity to get the opportunity,
+(28:04.860) and the cost is higher.
+(28:06.300) So, the customer's experience in the next year is more safe.
+(28:10.300) So, we must be more safe.
+(28:13.020) So, you may have to keep up with the growth rate.
+(28:20.420) I understand.
+(28:21.420) Okay, so I'll ask you to answer this question.
+(28:30.220) Next question is Albert.
+(28:39.220) Hello, welcome to you.
+(28:41.620) I'm JP Morgan Elbert.
+(28:43.620) I want to ask the question,
+(28:46.620) when I first started,
+(28:49.620) I mentioned that
+(28:51.620) the server, whether it's general server or AI server,
+(28:54.620) is very high.
+(28:56.620) It's even since the year 2027,
+(28:59.620) and it's beyond.
+(29:01.620) Can you share with us today,
+(29:03.620) the AI server has 3% of the growth,
+(29:06.620) and the general server is double digit.
+(29:09.620) in the 2027 or even in the 2028 years,
+(29:11.620) a more common view of the future.
+(29:14.380) What do we see in this view?
+(29:17.980) What is the plan of the future?
+(29:19.860) Thank you.
+(29:22.140) I think we may not provide this
+(29:25.980) the 2027 specific guidance.
+(29:28.900) We have provided such a visibility
+(29:33.180) to talk about why it will be like this.
+(29:35.220) Even in 2028,
+(29:36.180) because both of them are together to talk about the
+(29:38.980) 產能 and the energy plan
+(29:41.380) So we can see that the客 has been talking about the 2027 and 2028
+(29:45.780) So we can see that the客 has been talking about the four things
+(29:49.380) We hope that we can be able to pair the 2027 and 2028
+(29:53.380) the energy needs
+(29:54.580) and how to solve the energy needs
+(29:57.780) So we will see that the 2027 and 2028 needs
+(30:01.780) So we are more than happy to be able to answer this question
+(30:05.780) I think the question is about how much the demand is in 2017 and 2018.
+(30:15.780) I have another question.
+(30:19.780) I just mentioned that the first year of AI server is 75%.
+(30:26.780) Server is 80% and Noobu is 15%.
+(30:31.780) Then I'll say General Server's mix is only about 10 points
+(30:39.280) In the last year, the server's total is 65-70 points
+(30:45.580) So I'll say that if the first year General Server's total supply or consumption is actually lost
+(30:55.580) If it's like this, we'll see the general server in the whole year
+(31:01.580) and the supply of the general server is double digit.
+(31:03.580) That means that next few weeks will see a rapid growth.
+(31:07.580) Thank you.
+(31:09.580) This math is not the same as the general server QoQ.
+(31:13.580) Actually, the general server QoQ is a high-speed growth.
+(31:20.580) I just said YOY.
+(31:22.580) YOY
+(31:52.580) I don't know.
+(31:54.580) And then the more detailed question is that
+(31:58.580) you mentioned that the first year margin
+(32:02.580) has 2% of the impact of the service
+(32:06.580) and the third half of the service
+(32:10.580) is because of the newbook
+(32:12.580) and the third half of the service
+(32:14.580) can you share a little bit
+(32:16.580) about this 2% of the third half of the
+(32:18.580) What is the most basic basis?
+(32:20.820) Is it gross margin?
+(32:22.620) YOY of the change?
+(32:25.020) Or QOQ of the change?
+(32:26.460) Or is it convenient for us to share
+(32:29.460) One-off, the amount of money?
+(32:32.620) How much impact the first year?
+(32:36.820) Sorry, I'm going to answer the first question.
+(32:39.460) YOY is that in the last year,
+(32:41.700) So basically, it's not a large AI server,
+(32:44.800) it's a large AI server.
+(32:46.500) So it's a general server for large.
+(32:48.800) This is the first part.
+(32:50.800) The second part is the first part of the QOQ.
+(32:55.800) The first part is the QOQ.
+(32:57.800) The one-whoop part is a product.
+(33:02.800) It's about 1.3.
+(33:07.200) It's about 1.4.
+(33:11.200) That's the situation.
+(33:13.200) We hope that this year we can grow up in the growth of the growth.
+(33:19.200) I understand that this part of the gross margin has a great help.
+(33:25.200) Another more detail is that if we can put the 1% of the 1% of the 40% of the net income,
+(33:36.200) Of course, the dollar is the price of the profit
+(33:39.080) This year, it's a 10% increase
+(33:46.440) But in the sense of AI, it's triple digit
+(33:52.080) But the price of the profit is less
+(33:55.640) I can read that the price is because of the price of the general server
+(34:01.160) So, in comparison with the price of the profit
+(34:05.120) It's not so good.
+(34:06.660) This is how you can read it.
+(34:24.840) Okay, we'll be following your plan.
+(34:28.420) Okay, no problem.
+(34:30.980) Okay, so the question is to you. Thank you.
+(34:35.120) Okay, yes, thank you. Sorry, apologies for questions in English. The first question
+(34:49.520) wanted to ask about your AI outlook into second half. Given the product transition to new generation,
+(34:58.480) if you could talk about the strength for the current generation,
+(35:02.240) if you expect that to continue into year end
+(35:05.900) or if we could get a transition quarter.
+(35:09.700) And then if you could talk about your expectation
+(35:12.160) for the upcoming AI server,
+(35:15.640) just the timing to expect to transition over to that
+(35:19.340) and how you see the maturity of the new platform.
+(35:25.600) The next generation of AI server
+(35:28.980) probably starting ramping by end of third quarter
+(35:32.980) and probably to have a contribution by fourth quarter.
+(35:38.860) Okay.
+(35:39.180) So during the time, the GP300 will be the mainstream product.
+(35:44.280) Okay, good.
+(35:45.480) And do you see with that any transition
+(35:48.540) or do you expect the AI server momentum to,
+(35:53.000) at least for what you can see now?
+(35:54.340) You mentioned through 27,
+(35:55.700) but it sounds like no transition period in between.
+(35:58.980) I have some discussion about visibility outlook.
+(36:07.980) They only talk about one product, one current model.
+(36:11.980) They are laid low out all the next model and the following model.
+(36:15.980) So the overall discussion includes everything.
+(36:19.980) So that doesn't mean the 2027 no transition.
+(36:23.980) The transition will happen in the end of the 2026.
+(36:27.980) and to the 2027.
+(36:30.760) Okay.
+(36:31.020) And you're going to have the following generation
+(36:35.060) of AI server to migrate to the 2028 as well.
+(36:40.040) Okay.
+(36:41.080) Yeah.
+(36:41.500) And it sounds like your expectation is the,
+(36:44.360) at least the server demand market,
+(36:46.740) it's less to worry about just product transition issue,
+(36:49.640) given the ramp up in fourth quarter.
+(36:52.000) Actually, the second question I have is on the new rack types.
+(36:56.280) We're seeing LPU, storage, CPU, some of these new.
+(37:01.320) If you could talk, if you see those incremental opportunities,
+(37:05.340) could that be any meaningful ramp that you can see in the forecast?
+(37:09.700) And relative to the GB racks, if this is similar type of profitability
+(37:15.880) or there's more work involved or more value add as you ramp these?
+(37:22.100) I'm not going to talk specifically about TPU or LPU type of thing,
+(37:25.880) Let me put it about ASIC terms.
+(37:29.380) As we touched on in the prepared remarks, it's a specific purpose.
+(37:34.240) So in terms of ASP, it's small.
+(37:37.100) But in terms of margin profile, definitely is better.
+(37:40.200) So this is what I'm talking about.
+(37:41.860) There's one mitigation for the margin dilution that has helped to improve,
+(37:50.000) to mitigate the margin dilution on worse.
+(37:53.040) So more than happy to see ASIC to have running out and ship out by the second half of this year.
+(38:01.400) Okay, great.
+(38:02.780) And the final question I have, I think you implied operating margin should recover from second quarter with start of some of this mix.
+(38:10.880) Could you clarify at the gross margin level in first quarter, was most of the impact Q4 to Q1 just the mix shift to the high value AI server?
+(38:23.620) And are we, as we go to second quarter on the gross margin level, do you expect we stabilize or improve at gross margin or the mix shift continues so operating margin improves but gross margin may see a little bit further pressure?
+(38:40.880) You know, I cannot excluding, you know, the ASP going up for the even more high ASP, high ASP AI server contribute to our top line.
+(38:53.440) So we do not excluding, there's still some pressure for our gross margin.
+(38:57.640) But again, this is what I'm talking about, the leverage also kicking, so help out operating margin as well.
+(39:03.400) Okay, that's great.
+(39:04.680) Yeah, thanks a lot for that cover.
+(39:07.020) Okay, no problem.
+(39:10.880) That's our next question.
+(39:16.880) Hey, I'm Alex.
+(39:18.880) I want to ask you three questions.
+(39:20.880) First, in the first place,
+(39:22.880) the concern part of the part
+(39:24.880) is that the situation in the new situation
+(39:26.880) is going to be affected.
+(39:28.880) I want to ask you,
+(39:30.880) this part, because you have
+(39:32.880) built the year's AI,
+(39:34.880) the whole thing is going to grow
+(39:36.880) in three-way,
+(39:38.880) do this guidance will be done with a change.
+(39:43.480) The second part, ASIC is that CSP's product
+(39:48.880) has not been very high, ASP is not high.
+(39:52.880) The other part, the company has been in the US.
+(39:55.880) The company has been in the US,
+(39:57.880) and has been in the US.
+(39:59.880) The last part is the amount of ASIC.
+(40:03.880) The amount of ASIC is in the amount of ASIC.
+(40:07.880) we should say that it will be 20% or lower?
+(40:13.880) Thank you.
+(40:15.880) First, the three-way forecast has been reduced to the impact of the consumer.
+(40:27.880) The second, the basic customer is not only one.
+(40:32.880) The third thing is that the tax rate will be back to 20% to 22% range.
+(40:40.880) Thank you.
+(40:47.880) Next question is Alex.
+(40:55.880) Hello, my name is Bernstein.
+(40:58.880) Thank you Alex.
+(40:59.880) I would like to ask you,
+(41:00.880) if we have a high-end AI supply,
+(41:03.880) like GB300,
+(41:04.880) GB300, it's a year's price will be gradually increasing?
+(41:15.880) It's a buy-sell model, so the price will increase the overall risk.
+(41:20.880) The last ASP is going to go up.
+(41:23.880) Yes, that if we have a year-to-year-old
+(41:27.880) for example, GB300
+(41:31.880) is slightly lower, the second year-to-year-old memory
+(41:33.880) is still going to go ahead and sell.
+(41:35.880) So that will be more of a bigger pressure?
+(41:37.880) I will say the money-to-year-old
+(41:39.880) on the other side.
+(41:41.880) Okay, because the first year
+(41:43.880) GB300 and GB200
+(41:45.880) is the impact of the
+(41:47.880) the impact of the year-to-year-old
+(41:51.880) GP300, so it will still have an impact, but it will not be like the first thing that big.
+(41:55.880) That I mentioned that it also provides a leverage to upgrade margin,
+(41:59.880) which is because the ASP has increased.
+(42:03.880) I understand, I understand.
+(42:05.880) And I want to ask the consignment,
+(42:07.880) when you talk about the project,
+(42:09.880) is it just going to be the memory part of the consignment,
+(42:13.880) or are you the key components of memory and GPU
+(42:17.880) all will become the consignment?
+(42:19.880) So, the main project is the main part of the project.
+(42:23.880) The main part of the project is the main part of the project.
+(42:29.880) I understand.
+(42:31.880) Do you think that in 2027 or 2028,
+(42:38.880) how much of the AI-SFC will be considered to be consignment?
+(42:44.880) So this dialogue is a ever changing, keep going project.
+(42:50.880) So actually, we have to dialogue with the market.
+(42:53.880) And the market needs to be the demand supply,
+(42:57.880) the balance or imbalance.
+(42:59.880) So we want to do more and more.
+(43:02.880) But this is not what we need to do.
+(43:06.880) Especially after this project,
+(43:09.880) Then we will be able to solve the quality and the cost of the cost.
+(43:16.880) The customer doesn't want to have a lot of pressure on the cost.
+(43:22.880) So, the negotiation is a negotiation.
+(43:28.880) I understand.
+(43:31.880) I think the last question is that you have a lot of income.
+(43:36.880) If you compare this part,
+(43:40.080) how many are just because of the memory value of the Bioncel?
+(43:44.280) How many are because of the general server's power?
+(43:50.780) Or is it your GP300's power?
+(43:56.280) I can't give you a specific number.
+(43:58.980) Because it is embedded in every product.
+(44:01.580) It is embedded in different types.
+(44:03.480) So I just want to say it's a major impact factor.
+(44:08.160) Okay.
+(44:09.160) Yes, very clear.
+(44:11.160) Thank you.
+(44:12.160) That's all for those questions.
+(44:13.360) Thank you.
+(44:15.360) We'll have a second question.
+(44:20.360) Angela.
+(44:25.360) Thank you.
+(44:55.360) is there some kind of AI-signal impact.
+(44:58.400) As you mentioned,
+(45:00.400) the one-off is not 40% of the impact.
+(45:03.440) I would like to clarify,
+(45:05.440) is there a 3% of the impact is not 40% of the impact?
+(45:10.480) Or is there a 1.5% of the Q&A impact?
+(45:17.440) The 40% of the impact is not from the 1.5% of the impact.
+(45:21.360) I would like to clarify.
+(45:25.360) It's 1% of the 40% around.
+(45:29.360) I'd like to ask another question,
+(45:32.360) this 40% around is that
+(45:35.360) there are some other results in the future?
+(45:40.360) What kind of 60% of the other things
+(45:44.360) are the same?
+(45:46.360) I'd like to understand this.
+(45:50.360) I'd like to explain it briefly.
+(45:52.360) The second thing is product transition.
+(45:56.360) It's a server.
+(45:58.360) The third thing is the payment and the cost of the payment.
+(46:03.360) The third thing is the cost of the payment.
+(46:09.360) I understand.
+(46:13.360) Do you have any cash flow from rush order?
+(46:17.360) I just want to say that
+(46:21.120) because these new products are produced by the market
+(46:23.600) I understand
+(46:26.600) Another question I want to ask is
+(46:30.000) I just mentioned the consignment part
+(46:34.200) I want to ask you
+(46:37.280) that we are currently consigned
+(46:39.880) not by client or by project
+(46:44.280) it will be in ASICs such as a product
+(46:47.760) that will be easier for GPUs to be compared to GPUs?
+(46:51.760) Can you expect that?
+(46:54.160) Or is it not?
+(46:56.160) I also want to ask the company to ask
+(46:59.500) how AI has reached server's 75% of the sales?
+(47:04.000) In the case, ASICs and GPUs are roughly what kind of looks like?
+(47:09.840) That's what I think, for example, in the 2Q or in the 26th year,
+(47:14.340) it will be like a change in the future.
+(47:18.340) This is my question. Thank you.
+(47:21.840) First of all, I'm talking about the customer
+(47:24.240) that I'm talking about with the GPU server as a main topic.
+(47:28.040) This is the biggest impact of the user.
+(47:30.340) So I'm talking about the important part.
+(47:32.840) Asics, you mentioned the second part,
+(47:35.040) the ASIC is not high,
+(47:38.340) So it will be more obvious to the next step.
+(47:40.840) Even though it will be a high level,
+(47:42.340) we will see it as high level.
+(47:44.340) But overall, with the CPU's high cost,
+(47:47.840) it's not a particularly high.
+(47:49.840) But we hope that it's high level.
+(47:52.840) It will help us to the entire cost of the cost and the cost of the cost.
+(47:59.840) I understand.
+(48:02.840) This is a math test.
+(48:04.340) So we can give us a point to the point.
+(48:06.840) Now, if we look at the average of the cost of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8% in the average of 4.8
+(48:36.840) But we are happy to see this two of them have a high-reported growth.
+(48:40.920) We are happy to see it can be a reward for our money.
+(48:45.960) Okay, I understand. Thank you.
+(48:53.320) Let's take a second.
+(49:06.840) I'm going to hear my voice
+(49:10.240) I'm going to follow up
+(49:17.040) follow up
+(49:17.640) the money
+(49:19.040) of the part
+(49:19.840) I mentioned that 3.2 is because transition of the part
+(49:23.040) so I can understand
+(49:24.440) because the quarter
+(49:26.340) it will not be a transition
+(49:29.540) of the part
+(49:30.740) so the growth margin
+(49:34.040) I think it will not have this impact.
+(49:37.740) I will ask you if I'm going to read this.
+(49:41.740) It's a whole problem.
+(49:43.340) The GDP 200, 300, the price of the price of the price.
+(49:46.140) It will say that the second year of the year,
+(49:48.740) the GDP 300 will be higher.
+(49:49.840) It will still have impact.
+(49:51.940) But the price of the price of the year of the year of the year,
+(49:54.240) is not so big.
+(49:56.940) Okay, I understand.
+(49:57.640) The third year of the year of the year is
+(49:59.840) 40% of the year of the year.
+(50:02.340) That's the second queue, it probably won't be the same.
+(50:05.940) Can you do that?
+(50:06.940) This is our entire system of the company's work.
+(50:10.940) Okay, I understand.
+(50:13.440) The second question is about the AI server's supply.
+(50:20.340) The first one we know is the supply is quite high.
+(50:24.840) Do you know what the second and third year is going to be?
+(50:28.340) The second and third year is the guidance?
+(50:30.540) will still be a very strong growth rate of growth
+(50:33.500) or the first year of the supply chain
+(50:36.300) will be in the high price
+(50:37.980) that will probably increase
+(50:39.580) but the level will be lower
+(50:44.300) We're currently in the guidance of the guidance
+(50:46.300) that the second year is a high growth rate of growth
+(50:48.540) and the third year is a high growth rate of growth
+(50:53.180) Okay, I understand
+(50:54.300) Now, the next question is ASICs
+(50:57.900) We can break down the data
+(51:01.340) and say it's about the AI server's average
+(51:06.700) We don't want to provide this percentage
+(51:09.820) but I must say it's still in the next year
+(51:13.420) So high-end GPU server's average
+(51:18.780) It's not quite high
+(51:21.420) But I can say it's a number of times
+(51:25.660) Okay.
+(51:28.900) Asics we've already done in level 6 and the G-Gate
+(51:34.260) are already done.
+(51:36.360) Is it like this?
+(51:39.060) Yes, it is G-Gate.
+(51:41.160) Okay, I understand.
+(51:42.060) Okay, I want to ask you to ask about GPU server
+(51:46.960) this part.
+(51:47.660) There is another one
+(51:49.060) of Helios's products.
+(51:50.960) I don't know if the company has
+(51:53.260) Just the case, there is a way to share with us.
+(51:55.660) There's a plan to do a plan to do a plan to do a plan.
+(52:01.060) I just mentioned that the mitigation is a good thing.
+(52:04.960) We have a long-term plan to do a plan to do a plan.
+(52:09.660) It will be a high-term plan to do a plan to do a plan.
+(52:16.660) Okay, I have no other questions.
+(52:18.160) Thank you.
+(52:18.760) Okay, so now, do you have to ask questions about the question?
+(52:31.760) Albert, let's start.
+(52:45.760) Thank you.
+(53:15.760) So in this part, we will see more customers
+(53:18.760) or the customers will be able to move to some high-referring products
+(53:23.760) Thank you
+(53:25.760) Thank you for your question
+(53:26.760) It is a two-line thing
+(53:28.760) First, the world has turned to be a higher-referring
+(53:33.760) including inverter and ADAS
+(53:36.760) So the sensor part we can do is not to do
+(53:40.760) That you can understand
+(53:42.560) that the car is a multi-year life cycle.
+(53:49.000) So it still continues to be in the new project and new customers.
+(53:54.640) It's the real estate of the year to 2027.
+(53:59.240) But we think that the car is a key to the business.
+(54:05.040) The most important thing is that the most important car and car
+(54:10.480) are our customers.
+(54:12.640) We are money happy for the development of the market.
+(54:15.520) Because of the AI server,
+(54:19.520) they are still low single digit in the market.
+(54:22.800) We think this is a big business model,
+(54:25.360) and can leverage our current DNA.
+(54:28.240) And also can develop their customers' service business.
+(54:33.360) So we will still be able to grow this business and grow.
+(54:40.360) Thank you very much.
+(54:42.360) And then, Bob, just said that margin impact 1% and 40% of the market.
+(54:49.360) This is after we can from NRE or other ways to give customers a compensation?
+(54:57.360) Or is this a lending curve in the cost of the cost?
+(55:02.360) Thank you.
+(55:37.000) Our time is almost there.
+(55:40.440) Can Elton ask us a closing remark?
+(55:44.760) Thank you.
+(55:47.080) Thank you for your investment.
+(55:50.200) Thank you for your question.
+(55:54.200) Just as I just told you,
+(55:56.280) we've seen the entire AI demand
+(55:58.840) for our 30 years to see demand and outlook
+(56:02.600) is more than happy.
+(56:04.380) And at the same time,
+(56:05.640) we found that the customer
+(56:06.840) has been from the data center
+(56:08.180) from the previous
+(56:10.040) the cost of the cost of the cost of the cost.
+(56:12.040) So, we're currently
+(56:12.840) the most important thing to use
+(56:13.840) to help them
+(56:26.840) and I hope the customer will be able to enjoy the development of AI.
+(56:32.280) Thank you.
+(56:35.080) Thank you Elton.
+(56:36.520) Thank you for the entire network of the network.
+(56:38.680) We will be here today.
+(56:41.320) We hope you will be healthy and healthy.
+(56:43.640) Thank you.
