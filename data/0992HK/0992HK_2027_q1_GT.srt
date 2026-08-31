@@ -1,0 +1,501 @@
+[METADATA]
+Source: 0992HK_2027_q1_exp13
+Review-Level: conservative_from_FIN
+Reviewer: Claude Sonnet 5 (session a936bc12)
+Reviewed-At: 2026-08-31
+Audio-Checked: none
+Correction-Sources: official press release (executive names, product names Qira/Tianxi/TruScale), official investor presentation, cross-check against official financial figures
+Corrections: 13 (Yuanqing's presentations; Lixi Yuan IR contact name; "our business groups"; fiscal Q1 revenue; "the gap" not "the GAAP" over next player [avoids HKFRS/GAAP confusion]; Yuanqing x2 [was Minxin]; And ISG revenue; Qira x2 [was Kira]; Tianxi [was Qianshi]; TruScale x2 [was true-scale/TrueScale]; AI revenue [was AR revenue]; ODM+ model [was BIN model])
+Confidence: high
+Notes: All corrections verified against official press release/presentation. A handful of analyst-firm names (e.g. "McCrory", "VBS", "Howard Howe") remain unconfirmed/likely mis-transcribed but are not corrected here — low financial materiality, no verifiable ground truth found.
+Language: en
+---
+(00:00.000) Good morning, good afternoon, and good evening. Welcome to Lenovo's earnings webcast. This is Lixi Yuan, Director of Investor Relations at Lenovo. Thanks everyone for joining us today.
+(00:14.640) Before we start, let me introduce our management team joining the call today.
+(00:19.800) Yuanqing Yang, Lenovo's Chairman and CEO. Winston Cheng, Group CFO.
+(00:26.360) Luca Rossi, President of Intelligence Devices Group
+(00:30.760) Ashley Grapparala, President of Infrastructure Solutions Group
+(00:35.620) Ken Wong, President of Solutions and Services Group
+(00:39.800) We will begin with Yuanqing's presentations, and after that, we will open the call for questions.
+(00:46.420) Now, let me turn it over to our Chairman and CEO, Yuanqing Yang.
+(00:51.520) Yuanqing, please.
+(00:52.520) Hello everyone, and thank you for joining us today.
+(00:56.980) I'm pleased to share that Lenovo just delivered the best quarter in our entire history.
+(01:05.140) Record revenue, record adjusted profit, and record AI momentum.
+(01:10.920) This once again validates our strategic foresight and the strength of our execution.
+(01:18.400) Powered by our hybrid AI strategy, operational excellence, and relentless innovation, we
+(01:26.160) are confident in sustaining this growth momentum and driving long-term profitability.
+(01:32.400) Let's start with the group level.
+(01:36.560) We delivered a record revenue of $26.9 billion, up 43% year-on-year.
+(01:45.360) Adjusted net income exceeded the 1 billion milestone for the first time, up 176% year-on-year,
+(01:54.440) with adjusted net margin significantly improved by almost 2 points year-on-year.
+(02:01.940) Equally important, all our business groups delivered a strong double-digit revenue growth and set new fiscal Q1 records.
+(02:11.300) And our geographies delivered strong revenue growth, ranging from 25% to 58%.
+(02:21.700) With the consistent execution of our hybrid AI strategy, AI-related revenue accelerated
+(02:28.420) to over $9 billion, up 60% year-on-year, now accounting for 35% of group revenue.
+(02:38.060) At the same time, we continue to invest in innovation with R&D expenses up 30% year-on-year.
+(02:48.400) Beyond the impressive numbers, I want to highlight three historical breakthroughs worth attention.
+(02:56.020) First, building on our position as a market leader in PC and smart devices,
+(03:01.880) we are becoming a global AI infrastructure leader as well.
+(03:06.360) The last quarter's performance of ISG, our infrastructure solution business, proved that
+(03:15.240) it has truly become a growth and profit engine for Lenovo.
+(03:20.400) Our continued focus on investing in ISG's transformation, refining its ODM+ model and
+(03:27.520) strengthening its capabilities has paid off.
+(03:32.200) This has well positioned ISG to capture the surge in AI infrastructure demand.
+(03:39.960) Second, as the only official technology partner of the FIFA World Cup 2026, we deliver AI
+(03:49.960) technologies and solutions at a scale never seen before.
+(03:55.560) Three countries, 16 cities, 104 matches, are compelling proof points for AI democratization in action.
+(04:06.180) We successfully elevated our brand from PC leader to AI leader.
+(04:12.740) And through this incredible global platform, we significantly strengthened our customer relationship.
+(04:19.880) Third, we accurately anticipated the supply shortages and cost increases.
+(04:25.560) Through our scale, our resilient global supply chain built on our global local model and
+(04:34.000) strong supply relationships, as well as the agility and efficiency of our end-to-end self-controlled
+(04:42.320) operating model, we successfully turned those industry-wide constraints into competitive
+(04:50.280) advantages.
+(04:51.280) This not only demonstrates our ability to seize opportunities, but also validates our
+(04:58.840) differentiated strengths.
+(05:02.280) These results go beyond just beating expectations.
+(05:07.320) The market is increasingly recognizing that our strategy is working, our transformation
+(05:14.160) is real, and our performance is built to last.
+(05:19.040) AI is now embedded in our products, services, operations, and innovation.
+(05:26.520) It is delivering value for our customers while reshaping our processes and driving tangible growth across our business and bottom line.
+(05:38.220) Now, let's look at each business group in more detail.
+(05:42.680) IDG, or Intelligent Device Group, delivered an exceptional quarter despite significant
+(05:51.400) market headwinds.
+(05:54.020) For our PC and smart devices business, we achieved record fiscal Q1 revenue, up nearly
+(06:00.080) 30% year-on-year, with industry-leading profitability.
+(06:05.960) We further strengthened our global PC leadership, extending our lead over the number two player
+(06:12.300) for the 10th consecutive quarter by more than 5 points.
+(06:17.700) Tablet revenue surged more than 80% year-on-year.
+(06:22.080) And our smartphone business delivered
+(06:24.100) its best-ever fiscal Q1 revenue up 15% year-on-year.
+(06:29.640) Now let's turn to ISG, infrastructure solution growth.
+(06:34.240) Last quarter, when ISG returned to profitability,
+(06:38.780) many asked, was that a one-off?
+(06:42.300) Can this profitable growth be sustained?
+(06:45.820) This quarter, ISG delivered a clear answer.
+(06:49.820) Not only can it be sustained, but the momentum is also even stronger.
+(06:57.020) ISG nearly doubled its revenue to a record $8.5 billion.
+(07:04.300) Operating profit reached close to $780 million,
+(07:08.940) with operating margin exceeding 9%, surpassing the previous quarter's record highs.
+(07:16.940) This is the result of continued investment in cloud, edge, AI, particularly AI inferencing,
+(07:23.940) which enables us to capture the booming token economy and empower our customers' agent transformation.
+(07:32.940) Our dual strategy in CSP or cloud service provider and enterprise and SMB continues
+(07:44.160) to drive extraordinary growth across both segments.
+(07:50.340) Both CSP and ESMB revenue nearly doubled year on year.
+(07:54.740) At the same time, we draw strong momentum in both traditional and AI compute.
+(08:02.280) In traditional compute, we rose to number two in the global x86 server market, with
+(08:09.120) profitability accelerating rapidly.
+(08:12.940) In AI compute, our AI server pipeline grew to $54 billion, more than doubling from the
+(08:21.280) previous quarter.
+(08:23.280) SSG, or Solutions and Services Group, delivered another outstanding quarter with revenue up
+(08:30.460) up 28% year-on-year to $2.9 billion, and operating margin up 2 points year-on-year to 24%.
+(08:41.900) Managed services and projects and solutions together accounted for over 62% of SSG revenue,
+(08:50.300) reaching a new high.
+(08:52.340) At the recently concluded FIFA World Cup, we delivered a zero fault execution at a massive scale.
+(09:01.340) From front-end applications like FIFA AI Pro, Referee View AI Stabilizer, and 3D Player avatars,
+(09:12.340) to our AI-powered command center working behind the scenes to manage value operations across the tournament.
+(09:21.340) But what excites us more is the big picture of AI democratization.
+(09:29.020) We are taking these capabilities, such as real-time data processing and AI-powered analytics,
+(09:37.020) and extending them deeper into other sports.
+(09:41.000) We are also scaling them across broader industries like smart cities and manufacturing, turning
+(09:47.700) private data into tangible business value. And this is already reflected in our performance.
+(09:56.460) Our TruScale business grew 35%. Our AI library drove 50% revenue growth in projects and solutions.
+(10:05.880) Looking ahead, our mission is clear, bringing AI to every individual and every enterprise.
+(10:14.140) On personal AI, we are building AI superagent Qira globally and Tianxi in China.
+(10:20.640) They are orchestrated across devices and ecosystems, and with context awareness and privacy protection
+(10:29.280) as the foundation, they deliver truly personalized, continuous and proactive intelligence for
+(10:36.380) individuals.
+(10:37.380) On Enterprise AI, we are helping customers turn private data into insights and business value,
+(10:44.380) powered by the Lenovo Hybrid AI Advantage framework.
+(10:49.380) Through years of consistent execution of our hybrid AI strategy,
+(10:54.380) we are fully prepared to seize the tremendous opportunities of AI democratization.
+(11:01.380) Before I close, let me reiterate, this quarter has once again proven that we not only deliver
+(11:12.000) on our promises, but also have the capability to sustain the delivery.
+(11:20.380) Operational excellence and relentless innovation are our foundation.
+(11:26.020) Clear strategy and strong execution are our engine.
+(11:30.600) enable us to not only navigate the market cycles but to seize the opportunities and win.
+(11:38.680) Earlier this year, we set a goal to reach $100 billion in revenue within two years.
+(11:46.440) Given the momentum we have built in Q1, I am confident we are ahead of schedule
+(11:52.760) and on track to achieve it sooner than planned.
+(11:56.360) Thank you. Now let me turn it over to our CFO, Winston. Winston, please.
+(12:07.600) Thank you, Yuanqing. I'm pleased to walk you through Lenovo's results for the first quarter of fiscal year 26-27.
+(12:15.080) This was a quarter that delivered our strongest performance on record with all-time high revenues and adjusted net profit.
+(12:22.760) We delivered a record first quarter revenue of $26.9 billion, up 43% year-on-year, marking the highest growth in the past five years and delivering the strongest quarter in the group's history.
+(12:37.240) AI-related revenues grew 60% year-on-year and now represent 35% of group revenues.
+(12:43.700) Led by our hybrid AI strategy, we're uniquely positioned to capture AI opportunities through a comprehensive business portfolio spanning devices, infrastructure, and services, underpinning our broad-based performance in the first quarter.
+(12:59.280) All three business groups deliver record-first fiscal quarter revenues and operating profits, bringing the group's adjusted net profit to an all-time high.
+(13:09.160) In IDG, we strengthened global PC leadership and widened the gap over the next player.
+(13:14.380) While profitability remained stable, despite a challenging operating environment with ongoing component supply demand imbalances impacting component costs,
+(13:25.880) the smartphone business delivered double-digit year-on-year revenue growth.
+(13:29.460) And ISG revenue reached record high with both CSP and ENSMB revenues nearly doubling year-on-year
+(13:37.780) and operating margin expanding to a record 9.1%.
+(13:42.200) SSG achieved record revenues and continued to expand its operating margin.
+(13:48.720) Adjusted operating income increased 141% year-on-year to $1.5 billion,
+(13:54.300) while adjusted net income grew 176% year-on-year to $1.1 billion, surpassing $1 billion milestone for the first time.
+(14:04.880) Adjusted operating and net margins expanded to 5.7% and 4%, respectively, supported by higher revenue scale and continued efficiency gains.
+(14:15.520) Reported net income was a loss of $609 million, primarily due to the $1.7 billion non-cash fair value loss from Warren revaluation,
+(14:28.100) driven by strong share price performance during the first fiscal quarter, and a $30 million notional interest from the convertible bonds.
+(14:37.040) After adjusting for these non-cash and non-operating items, adjusted operating and net income results provide a better reflection of the operating results of the group.
+(14:48.860) Now let me walk you through the key highlights of our business groups.
+(14:54.140) IDG delivered a record first fiscal quarter revenue of $17.1 billion, up 27% year-on-year.
+(15:01.680) Operating profit also increased 27% year-on-year to $1.2 billion, while maintaining an industry-leading operating margin of 7.1%, reflecting our operational excellence, supply chain resilience, and continued innovation.
+(15:15.960) Our global PC market share reached 24.2% in the first fiscal quarter, widening our lead over Next Player for a 10th consecutive quarter.
+(15:26.840) We sustain market leadership across commercial and consumer segments and deliver a record first fiscal quarter high AIPC global market share of 25.1%.
+(15:38.860) Against a challenging operating environment, Lenovo was the only one of the top three PC vendors to gain market share during the quarter while maintaining stable profitability.
+(15:49.600) Our non-PC adjacencies deliver double-digit revenue growth, driving further premiumization and enhancing our portfolio mix.
+(16:00.440) In smartphones, Motorola delivered the highest first quarter revenue since 2015, supported it by double-digit year-on-year growth, and achieved a record premium revenue mix of 37%.
+(16:12.600) A core competitive advantage for Lenovo is our broad and comprehensive device ecosystem,
+(16:19.660) spanning PCs, tablets, smartphones, workstations, and other smart devices.
+(16:25.420) Over the past two years, we have rapidly scaled our global install base, delivering 12.4%
+(16:31.800) two-year CAGRs, significantly outpacing the overall device market over the same period.
+(16:37.920) We continue to gain market share in our AI PC premium smartphones, which builds the foundation
+(16:43.500) for us to deliver our personal AI vision at scale.
+(16:47.160) Looking ahead, we continue to drive growth and profitability through scale advantages,
+(16:52.540) premiumization and new monetization opportunities in adjacencies and other AI devices leveraging
+(16:58.620) our global brand recognition and distribution capabilities.
+(17:02.880) ISG continued to accelerate revenue growth with significant margin improvement.
+(17:09.980) Revenue increased to a record $8.5 billion of 98% year-on-year.
+(17:15.300) Operating profit reached a record $777 million, driving operating margin to an all-time high
+(17:21.920) of 9.1%.
+(17:24.320) As demonstrated by our strong revenue growth and expanding profitability over the past
+(17:28.320) several quarters, we are confident in our ability to lead the global AI infrastructure industry
+(17:33.860) through our differentiated ODM plus strategy and unique end-to-end operating model,
+(17:39.960) providing sustainable competitive strength. We saw broad-based strength across traditional compute,
+(17:46.740) AI servers, and storage. Excluding the impact of international GPU sales in China in the prior
+(17:53.380) year, global AI server revenues deliver triple-digit year-on-year growth. Our AI server
+(17:59.900) pipeline expanded to $54 billion, up 157% quarter-on-quarter, driven by accelerating AI
+(18:09.200) infrastructure momentum and a rapidly expanding customer base. We've also expanded our North
+(18:15.460) Carolina Smart Campus, adding meaningful new server manufacturing capacity to capture rising
+(18:22.180) demand from hyperscalers and enterprise customers. This expansion reinforces our commitment to our
+(18:29.380) global local approach, a key advantage we have built over the years to deliver greater efficiency,
+(18:36.260) agility, and speed. The exceptional results reflect the success of our dual-engine business model,
+(18:43.820) with both CSP and enterprise SMB revenues nearly doubling year-on-year. Our strengthened
+(18:51.100) go-to-market capabilities and leading technologies, including Neptune liquid cooling systems,
+(18:56.880) are driving higher value opportunities and accelerating profit growth.
+(19:02.520) Through our deepened strategic partnership with ecosystem leaders, including NVIDIA,
+(19:07.840) AMD, and Intel, we are scaling our AI infrastructure portfolio to capture opportunities across
+(19:14.680) both training and inferencing workloads.
+(19:17.000) We are also scaling GB300 deployments to capture growing AI demand while accelerating VeraRubin rack solution readiness and time to market.
+(19:27.780) At the same time, AI adoption among enterprise customers is gaining meaningful momentum.
+(19:33.960) Our enterprise and SMB business is strategically positioned to capture the growing AI inferencing opportunity, leveraging a scalable transactional model, and simplified pre-validated enterprise solutions.
+(19:49.320) Our momentum in AI infrastructure continued to drive customer wins across CSP, Enterprise, and SMB, underpinned by the strengths in our unique ODM Plus model, global operating scale, supply chain agility, and leading liquid cooling technology.
+(20:08.060) In CSP, we delivered an AI factory with over 7,000 GPUs for a leading AI cloud provider and supported rapid AI expansion of another AI infrastructure provider with the deployment of thousands of servers.
+(20:23.060) In enterprise and SMB, we helped an enterprise AI innovator to reduce model training and inference time by 70%, while enabling another AI video analytics provider to deploy intelligence edge AI operational platform, enhancing security through real-time analytics and cost-effective deployment.
+(20:45.560) Enabled by our Neptune liquid cooling solutions, we deliver high-density AI factory solutions
+(20:52.480) with 18.3 exaflops of performance, while also helping a leading university to build high-performance
+(20:59.800) computing platform with improved energy efficiency, enabling advanced scientific research at scale.
+(21:06.780) These wins reinforce Lenovo's position as a leading AI infrastructure partner for our customers
+(21:13.240) and the strength of our execution across diverse segments.
+(21:17.520) Turning to SSG, SSG delivered record quarterly revenue of $2.9 billion, up 28% year-on-year,
+(21:25.520) with operating profit increasing 39% year-on-year to $697 million and operating margin expanding
+(21:32.520) to a record 24.2%.
+(21:34.620) AI services revenue grew at triple-digit year-on-year, driven by accelerating customer adoption and
+(21:41.860) higher returns from their AI investments.
+(21:45.240) Revenue mix for managed services and project and solutions expanded to a record 62.4% of
+(21:52.020) SSG revenues.
+(21:54.160) Bookings and TruScale's infrastructure as a service deliver hyper growth driven by AI
+(21:59.420) factory success across both AI cloud and enterprise customer segments.
+(22:04.680) Projects and solutions revenue growth gained momentum supported by a robust multi-quarter
+(22:11.060) booking backlog. SSG is strategically positioned in the fast-growing segments defined by AI
+(22:19.400) solutions and services. During the quarter, SSG continued to outperform the market,
+(22:24.620) growing nearly twice the market growth rate. AI is fundamentally expanding SSG's addressable market,
+(22:32.040) adding over $200 billion of incremental opportunity in this fiscal year alone.
+(22:36.440) We expect total SSG TAM to grow to more than $850 billion by fiscal year 2930, with AI-led TAM growing meaningfully faster and nearly doubling over the same period.
+(22:52.080) Through its full-stack enterprise AI framework, SSG brings together infrastructure, platforms, services, and industry solutions to help customers move from AI experimentation to production.
+(23:06.440) To conclude this quarter's results, highlights, and build on Yuanqing's comments about the FIFA World Cup,
+(23:13.360) I would like to add more color on how Lenovo's full-stack AI capabilities were deployed at global scale and the impact this partnership delivered.
+(23:22.740) We delivered 99.99% solution uptime across all tournament operations while deploying and managing more than 25,000 Lenovo and Motorola devices across more than 600 FIFA sites.
+(23:39.080) This partnership also became a powerful platform for customer engagement.
+(23:43.320) We hosted 16,000 guests throughout the tournament, including Fortune 500 CEOs, investors, partners, and customers, creating meaningful opportunities to deepen relationships and showcase our innovation firsthand.
+(23:58.600) The brand impact has been significant.
+(24:01.640) The tournament generated billions of social media impressions and tens of thousands of media stories, and we outperformed in share of voice among all FIFA partners.
+(24:10.940) a powerful new platform for telling the story of Lenovo AI at global scale.
+(24:16.860) Our strategy is clear. Our execution is focused and disciplined.
+(24:21.340) This quarter's results on the back of a record fiscal year marked by record revenue, record profitability,
+(24:27.700) and AI-related revenue that now represents 35% of the group are not just a one-time event.
+(24:34.020) They reflect the compounding effect of our clear strategy, capabilities we have built over decades, and execution across every business group and geography.
+(24:45.320) With our global scale, operational excellence, and innovation leadership, we are converting growth into higher shareholder returns.
+(24:53.680) As we enter an accelerated era of AI-driven growth, we remain confident in our ability to sustain this momentum and deliver durable, profitable growth with even greater resilience and executional strength.
+(25:08.240) We are confident in our ability to deliver the $100 billion revenue target in the near term and are on a strong path toward achieving a net income margin of over 5%.
+(25:19.680) We will now answer any questions you may have.
+(25:27.920) Thank you, Winston.
+(25:28.920) Now we will move on to the Q&A session.
+(25:31.700) This session will be English only.
+(25:33.880) Please be reminded to limit yourself to two questions at a time.
+(25:37.660) To submit a question, please type your question in the Q&A box on the right-hand side and
+(25:42.160) click submit.
+(25:43.160) While we are waiting for the questions, allow me to introduce the management team again.
+(25:49.460) Other than our Chairman and CEO, Yanqing Yang, our CFO, Winston Cheng, we also have the following
+(25:54.780) business leaders with us today for Q&A.
+(25:57.960) Luca Rossi, President of Intelligence Devices Group.
+(26:01.980) Ashley Guraparala, President of Infrastructure Solutions Group.
+(26:06.400) And Ken Wong, President of Solutions and Services Group.
+(26:10.340) Now we will open the floor for questions.
+(26:16.620) The first question we've received from the question list is from Tony Zhang from CLSA.
+(26:23.720) He's asking for our three to five years target of $130 billion revenue target and 5% plus
+(26:31.440) net margin target.
+(26:32.440) What will be the key drivers for the business scale growth and margin expansion?
+(26:37.580) We've also received a similar question from Paul Crow from Morgan Stanley.
+(26:42.300) What is the main driver to get to the 5% plus net margin target?
+(26:46.560) Is this mainly driven by profit improvements from IDG, ISG, or SSG?
+(26:51.760) May I please invite our chairman and CEO, Yuanqing, to address this question, please?
+(26:57.400) Thank you. Thank you for the question.
+(26:59.000) So our strong Q1 performance is a clear testament to our commitment to sustainable revenue and profitability.
+(27:12.300) In my view, our ability to sustain long-term growth going forward comes from the following areas.
+(27:27.300) First, clear strategy and strong execution as our engine.
+(27:35.300) We firmly believe the broader direction of AI is just the beginning.
+(27:43.260) We are entering the AI influencing era,
+(27:48.700) which will consume even more computing power than training.
+(27:54.620) And private AI built on personal and enterprise private data has barely begun.
+(28:02.600) begun. As that takes shape, AI demand will only grow stronger. With our hybrid AI strategy and
+(28:13.960) strong execution, we are confident in capturing this enormous opportunity. Actually, our years
+(28:22.680) of investment and transformation are already paying off. AI is now a clear growth engine
+(28:30.400) across every business group, IDG, ISG, and SSG,
+(28:36.380) all delivering strong double-digit year-on-year growth
+(28:40.520) with improved profitability.
+(28:44.740) Our AI revenue accelerated to more than $9 billion
+(28:50.880) last quarter, now accounting for 35% of group total revenue.
+(29:00.400) Second, our operational excellence is our foundation.
+(29:10.000) Our scale with our full-stack product portfolio from every category of AI devices and infrastructure.
+(29:22.600) Our resilient global supply chain built on our global local model, diversified sourcing
+(29:35.720) strategy and strong supplier relationships, as well as the agility and efficiency of our
+(29:46.960) end-to-end self-controlled operating model have consistently turned the challenges into
+(29:54.560) opportunities despite the market volatility.
+(30:02.240) Finally, our relentless innovation spans both personal AI and enterprise AI.
+(30:08.400) On personal AI, we are driving our vision of one personal AI, multiple devices, with launch of Qira.
+(30:18.400) On enterprise AI, not only our continuous investment on liquid cooling, on edge computing and inferencing have helped our ISG to deliver strong momentum.
+(30:35.400) We are also helping customers turn private data into insights and business value, powered by the Lenovo Hybrid AI Advantage framework.
+(30:49.000) In summary, the market tailwind certainly helps, but Lenovo's results are far more than just riding the trend.
+(30:59.620) It's the accumulated results of our foundation built over the years.
+(31:06.740) It enables us to not just navigate the market cycle, but to seize the opportunity and win.
+(31:12.820) Thus, we are confident to sustain the growth and profitability improvement.
+(31:18.540) Actually, as I said at the opening, so at the beginning of the fiscal year, we communicated with you.
+(31:30.780) So we want to achieve 100 billion yearly revenue in two years.
+(31:38.100) But with the strong momentum in Q1, we are ahead of schedule.
+(31:43.300) So we are ready to deliver that in this fiscal year.
+(31:46.980) and driving to even higher profitability.
+(31:55.680) Thank you.
+(31:56.700) Thank you very much.
+(31:58.000) So just on this topic,
+(31:59.280) may I please also invite our group CFO, Winston,
+(32:01.740) to add your comments.
+(32:03.780) Winston, please.
+(32:05.320) Yeah, just in terms of the path to,
+(32:08.520) obviously the TAM that we have,
+(32:10.160) both for the IDG,
+(32:13.240) but also in particular ISG business.
+(32:15.100) And we're not even addressing the new acquisition of the storage market, which we added a $38 billion TAM to it, positioned as well for long-term growth in excess of the number that we're quoting right now.
+(32:28.080) But in terms of the path to that 5%, as you can see, historically, we've relied a lot on PC today.
+(32:36.040) ISG is becoming a very meaningful contributor and is growing continuously in terms of both revenues.
+(32:42.440) But more importantly, we're growing as a group faster on the profit front.
+(32:47.360) So from that perspective, I think it sets up in a natural course for margin expansion.
+(32:51.780) And of course, that's before our full ramp up on the SSG business as well, which we'll share in the coming quarters.
+(33:00.240) Yeah. Thank you.
+(33:02.120) Thank you, Winston.
+(33:03.580) The next question is really we have received some various analysts and investors asking, how do we expect memory pricing costs to trend through the second half and into the next year?
+(33:14.940) So what are the opportunities and risks do we see this create for our business groups and for the group overall?
+(33:20.720) I think for this question, may I please also invite our chairman, Yuanqing, to share your thoughts.
+(33:26.640) Yeah, Yuanqing, please.
+(33:29.620) First, as I outlined earlier, so AI as a whole is far from a bubble.
+(33:40.400) So actually, it's just the first stage of AI democratization.
+(33:45.540) As it evolves and becomes more accessible, it will only generate more demand towards
+(33:57.300) AI democratization. And with that, we believe demand for memory will continue to rise
+(34:04.420) for a considerable period ahead, at least by the end of next year.
+(34:19.620) That means that the supply will still be constrained.
+(34:23.540) But I think Lenovo is in a better position.
+(34:30.100) So in this environment, our resilient supply chain and operational excellence will clearly benefit us.
+(34:40.200) And I believe this is also another key reason why our performance can be sustained over the long term.
+(34:48.040) In my view, it comes from three aspects.
+(34:54.280) First, it's our scale.
+(34:57.600) So we have a full-stack product portfolio from every category of AI devices to infrastructure.
+(35:06.640) Most competitors are either just consumer devices or infrastructure, while Lenovo has
+(35:12.760) both.
+(35:14.180) That enables us to operate at a significantly larger scale.
+(35:20.940) I believe Lenovo is now among the top customers of the major semiconductor suppliers.
+(35:28.800) Second, our global local model, particularly our diversified sourcing strategy and the
+(35:40.420) strong relationships with suppliers across the globe, not just suppliers in China, in the US,
+(35:52.820) in Korea, and in China as well. So actually, you know, we definitely cannot ignore the China
+(36:00.980) supply. So that gave us a lot of efficient and cost-competitive supply. So actually,
+(36:14.580) this is a supply chain advantage of our globalization strategy we have built over many years.
+(36:21.460) Last but not least, our resilience based on our end-to-end business model.
+(36:33.340) So we are probably a very unique company in the industry.
+(36:37.900) We're not just focusing on branding, marketing, sales and service like some of our competitors,
+(36:48.480) equally strong in manufacturing, in-house manufacturing, in-house R&D. So we operate
+(36:57.040) end-to-end model from product design, demand forecasting, procurement, manufacturing,
+(37:04.000) all the way to sales and the services, combining in-house capabilities with our ODM Plus model.
+(37:11.520) So that means we have control of the entire value chain, so we can react to the market
+(37:17.920) dynamics quickly. So when the material costs rise, we can adjust the pricing at the front end in a
+(37:26.000) timely manner. So this is truly another unique advantage. So the supply environment is challenging
+(37:37.520) for everyone, but we have consistently turned the challenge into advantage to grow market share and
+(37:46.640) to improve profitability.
+(37:50.640) So this benefits not just our infrastructure business,
+(37:54.400) but the IDG PC, smartphone, tablet business as well.
+(38:02.160) Thank you.
+(38:03.280) Thank you very much.
+(38:05.020) We have more questions coming in,
+(38:07.040) and the next question is from Cherry Ma from McCrory.
+(38:11.000) This question is on IDG.
+(38:12.560) Can you please share updates on the outlook for PC and smartphone for the market and also for Lenovo?
+(38:19.420) Do we see different trends between the commercial and consumer segments?
+(38:24.760) So for this question, I'd like to invite our IDG president, Luca Rossi. Luca, over to you.
+(38:31.400) Thank you. And thanks for the question, Sherry.
+(38:34.780) So I'll start from the PC market. We have seen in Q1 a relatively stronger than expected market, partially maybe due to a little bit of anticipated demand to mitigate the future cost up, but I would say also due to good demand and adoption of the new AI PC category, where we definitely lead, just like the total PC market.
+(39:01.720) And we have executed well in Q1. We grew double digit in revenue, gained market share for the 12th consecutive quarter and maintaining industry leading profitability.
+(39:13.700) Now, looking forward, we expect that the second half of our fiscal year, the market will contract double digit in units, probably around 15 percent, maybe a little bit more, a little bit less, depending on the region, depending on the segment.
+(39:29.520) we also believe that the commercial segment will be relatively more resilient than the consumer one
+(39:37.400) but now for Lenovo we intend to continue to operate at premium to market meaning continuing
+(39:45.440) to gain share for each quarter and for the full year and on the revenue side probably more
+(39:52.120) importantly we believe that we will be able to continue to offset the units decline with higher
+(39:59.000) ASP, improved premium mix, improved AIPC mix, and definitely equally important, if not more
+(40:08.160) important, with our procurement scale, design to cost, product innovation, we will be able
+(40:15.500) to maintain industry-leading profitability.
+(40:18.660) That is for PC.
+(40:20.860) Looking at the smartphone market, the picture is not very different from PC.
+(40:26.180) The inflationary cost environment will impact demand.
+(40:31.040) We estimate demand or shipments overall in the market to decline around 20%.
+(40:37.380) For our Motorola business, we delivered a solid Q1 with double-digit revenue growth.
+(40:44.680) And going forward, we expect to be able to more than offset the Unis decline with increased ASP, better premium mix.
+(40:53.020) And just like PC, we will be able to sustain not only revenue, but also the current margin profile.
+(41:02.120) Motorola continues to be, I will say, in the journey to grow market share in an increasing number of selected markets.
+(41:11.500) We will sustain and solidify North America, Latin America.
+(41:16.500) These are the two foundational markets.
+(41:18.580) Meanwhile, accelerate Asia-Pacific and EMEA, where we have the largest profitable growth opportunity.
+(41:27.480) And last but not least, we are also significantly improving our product portfolio.
+(41:32.940) So expect a further enhancement in our premium mix in late 26 and 2027.
+(41:40.500) Thank you.
+(41:43.320) Thank you, Luca.
+(41:44.560) Just on this topic, we've also got a question related to the previous one.
+(41:49.160) So it's from Howard Howe from Morgan Stanley asking,
+(41:52.220) can you talk a little bit about how you are able to keep IDGOP margin flat year
+(41:57.120) and year at 7.1% and how should we think about the profitability for this
+(42:02.220) business going forward? Yeah.
+(42:04.140) Luca, would you like to continue to address this?
+(42:07.060) Thank you for the question, Howard. So as I said,
+(42:10.960) just now, we are definitely in an inflationary cost environment, particularly in certain
+(42:17.200) commodity memory, but memory is not the only one. And definitely, I think nobody is immune,
+(42:24.080) it's not an easy environment. However, as you saw from the numbers, we are working hard to be able
+(42:31.060) to maintain our operating margin flat, or even improve it over time by leveraging, I will say,
+(42:40.700) several factors that are part of our unique formula. Product innovation, design to cost,
+(42:48.320) growth in premium, growth in what we call marginal creative addictions,
+(42:55.500) kind of workstation visuals, accessories, strengthen, this is also important, strengthen
+(43:02.760) our pricing power for our brands. All the efforts we are doing on our brands
+(43:09.200) obviously yields back in more pricing power.
+(43:13.580) And the procurement scale is also important.
+(43:16.880) Our global, local, our operational excellence.
+(43:20.340) So all these are part of our winning formula.
+(43:24.500) So going forward, I will say we are confident
+(43:28.880) that we will continue to grow at premium to market
+(43:31.840) and continue to deliver industry-leading profitability.
+(43:35.340) We have gone through this challenging market condition in the past many times, and typically, or always, we emerged stronger. So I'm very confident we will continue to do that. Thank you.
+(43:50.660) Thank you, Luca. We've received a lot of questions on IISG, so now I'm going to move on to IISG as a business group.
+(44:00.820) So the next question is from Emily Swan from VBS, asking, IISG operating margin reached a record 9.1% this quarter, while it had the prior 3.6% record.
+(44:11.880) So how much of this outperformance is structural versus transitory factors, such as particularly
+(44:19.880) favorable order mix or one-time cost timing?
+(44:23.840) And does management view 7% to 8% as the right long-term anchor, or is there upside to that
+(44:29.640) range?
+(44:30.640) So Ashley, would you like to take the question, please?
+(44:33.120) Ashley Kuo- Sure.
+(44:34.120) Thank you for the question, Emily.
+(44:38.240) I'll summarize by saying that up front, we don't see the record operating income and operating margin as a factor of a one-time per quarter issue.
+(44:57.340) And I do see it as indicative of the performance of the business.
+(45:01.740) as you point out you know is it a favorable mix of product or business if if you look into the
+(45:13.840) the details we we usually talk about our business in cloud service provider segment and our enterprise
+(45:21.420) and small medium business segment and both grew at a almost doubling year-over-year rate so
+(45:29.040) So from a mix point of view, the growth was the story, not the mix.
+(45:35.000) In addition to many of the factors that YY has already laid out relative to the durable advantages that Lenovo Group enjoys and has earned,
+(45:49.680) I'll just point out a few maybe for how I think about the durability going forward of our operating margin.
+(45:57.240) I think it all starts with strong discipline execution within the business.
+(46:02.960) And of course, I'm a big believer in ongoing transformation.
+(46:08.640) And as well, I said, when you have the supply assurance in this marketplace of just a world class resilient supply chain and manufacturing network.
+(46:19.520) If you couple that with a transformation to a heavy mix of high-velocity, low, almost no-touch infrastructure transitions, that's a very durable model change.
+(46:34.120) Our rich portfolio of AI-ready solutions, and this is built on our ThinkSystem and ThinkAgile high-performance systems,
+(46:42.760) with our power and cooling IP that has existed.
+(46:48.080) We're now in generation six of Neptune,
+(46:50.240) I think is something that is only getting better over time
+(46:54.220) as we move through product transitions.
+(46:56.440) And now fully supporting with supply readiness
+(47:00.720) for just the entire portfolio of NVIDIA
+(47:06.340) and Lenovo platforms around B200.
+(47:09.060) Very strong demand around the Lenovo, NVIDIA B300 and GB300 solutions, whether air-cooled or using our direct liquid cooling capacity.
+(47:21.180) And we're really building a very robust pipeline for our Vera Rubin roadmap.
+(47:27.620) And this includes everything from really enterprise-agentic use cases, and it'll scale all the way to hyperscale AI cloud deployments.
+(47:38.340) So I will tell you, based on our testing, our pilots, this architecture is really going to be a generational leap.
+(47:46.420) It's going to address the scaling demands that we see in the AI industry today.
+(47:52.440) Finally, we're optimizing and really spending a lot of time enabling our segment and sales coverage models to address what is just a growing demand in our customers.
+(48:05.060) of for enterprise inference agentic ai solutions uh a focus on more efficient token usage that's
+(48:13.300) driving an increased pipeline and that's a durable uh not a one-quarter uh phenomenon
+(48:22.260) i'm also really pleased with uh the increase in lenovo strategic partners uh and business
+(48:28.900) partners who are taking our ai and traditional solutions to their end customers as well
+(48:33.700) And that's increasing our pipeline as we go forward.
+(48:37.360) So there'll be some mix dynamics going forward into future quarters, but that'll be driven by market and supply factors.
+(48:46.260) Our underlying transformation and our durable capability is not a one-time.
+(48:53.860) As Winston mentioned, we also will see some mix change going forward as the Infinidat family, we're happy to have them as part of the Lenovo group now.
+(49:08.120) And that gives us increased exposure to the storage infrastructure TAM, and that has a markedly higher margin profile that will start to enter our mix as well.
+(49:23.860) Thank you, Ashley. I think you also talked about the AI pipeline. We have received questions on this topic. So it's from Albert Huang from JPMorgan. He's asking, what is the definition of the 54 billion AI server pipeline? Is it mainly GPU related and confirmed order wins? If so, how long do you think it would take Lenovo to fulfill these orders? In other words, how quickly can Lenovo rent capacity and increase output?
+(49:51.500) So perhaps you would like to elaborate a little bit more on this topic.
+(49:55.000) Sure. Thank you for the question, Albert.
+(49:59.540) The way to look at the pipeline, we don't guide forward into committed orders.
+(50:07.820) So to give a relative growth factor for the future, we talk about pipeline.
+(50:14.680) And so this is, you know, customer engagements, deals, future orders that are uncommitted or unqualified at that point, but indicative of a fairly normalized commitment and conversion rate, which, again, we don't guide to.
+(50:39.200) it's being driven and growing at an incredible rate because of pretty simple factors really
+(50:49.540) what I talked about where we're able to provide supply insurance and a very very robust and
+(50:57.460) capable AI solution and services behind that but the use cases we're seeing driving
+(51:05.740) the majority of our pipe today are agentic AI uses and enterprises.
+(51:12.980) I'm seeing that private AI clouds are becoming really a standard way
+(51:19.340) for approaching token efficiency within our customer set.
+(51:24.440) We're seeing an actual increasing of overall budgets,
+(51:31.060) And within budgets, we're seeing an increased mix for AI within those IT budgets.
+(51:38.760) Strong server refresh cycle is underway.
+(51:42.760) You can take, as a customer, one of the Lenovo ThinkSystem servers today and replace six or seven competitive boxes from previous generations.
+(51:56.280) That consolidation factor is huge either for AI or to make room within your estate for AI.
+(52:04.360) We're also seeing ongoing and, frankly, accelerating AI data center buildouts, where we're providing not only the infrastructure, the manufacturing, the supply assurance,
+(52:17.720) But through our SSG team, we have incredible capability and talent around installation, deployment, ongoing maintenance, services, operations.
+(52:29.260) And this is just creating more and more momentum in the pipe.
+(52:34.400) And of course, now we're, as I mentioned earlier, starting to see and get more vision into a pipeline of increased mission critical storage expansion with Infinidat as part of our family now.
+(52:50.760) and that's really across verticals,
+(52:54.240) everything from finance, business,
+(53:00.480) across telco, infrastructure,
+(53:04.360) all the way up to AI data centers
+(53:07.340) where you have to have mission-critical storage
+(53:10.860) as part of the solution provided to your customers.
+(53:16.360) Thank you, Ashley.
+(53:17.880) We'll take one more question.
+(53:19.240) The next one is from Randy at Abrams from UBS.
+(53:23.360) So how quickly is enterprise adoption for AI infrastructure and agents translating to higher service revenue?
+(53:30.460) What are the additional sources of revenue that AI is bringing to SSG?
+(53:35.600) So I'd like to invite our SSG president, Ken Wong, to address this one.
+(53:40.320) Ken, over to you.
+(53:41.320) Sure. Thank you, Randy.
+(53:42.600) So indeed, we have been seeing very strong growth across all our line of services in SSG.
+(53:51.260) And by the way, last quarter was the 21st consecutive quarter of double digit revenue growth on a year to year basis and with significant premium to the market.
+(54:02.920) And much of this growth is supported by rapidly accelerating AI solution and AI factory services, long-term recurring contracts, and a multi-quarter booking backlogs.
+(54:17.760) And as YY mentioned, I think we have been investing to build the Lenovo Hybrid AI Advantage stack.
+(54:25.520) and this definitely helped us to win more business
+(54:29.980) in this fast-growing market, you know,
+(54:33.080) and give us more confidence about the growth
+(54:36.080) beyond hardware and beyond a single order.
+(54:39.700) And I think if we look at the growth of conviction
+(54:42.020) for the future growth also, you know,
+(54:45.160) stem from, you know, the impact that we have seen
+(54:48.720) around AI that could bring to our customer.
+(54:53.620) You know, for example, we just implement an AI-powered workplace solution to ultimately support operation for one of the largest global financial institutions in the world with more than 100,000 employees.
+(55:10.500) And with the AI solution, we're able to reduce the operating cost by 20% plus.
+(55:16.100) This is a huge impact.
+(55:17.360) Another example of AI solution is that we have implemented an AI robotic site inspection solution for one of the leading energy companies in Asia across the 30 sites in Asia and helped them to reduce maintenance costs and also significantly reduce the downtime.
+(55:40.900) Again, these are significant impact, be it revenue generation or cost saving that AI are able to bring to our customers.
+(55:53.880) So with that, I think we have the right strategy.
+(55:57.360) We have the right Lenovo Hybrid AI advantage stack.
+(56:02.300) And hence, we'll continue to be confident
+(56:05.000) about we're able to capture the AI demand
+(56:08.220) and be able to perform at a premium to the market
+(56:11.980) for both our revenue growth and our profitability.
+(56:16.440) Thank you.
+(56:17.480) Thank you, Ken.
+(56:18.460) So this will be the last question
+(56:20.140) and this will be the end of this earning webcast.
+(56:22.420) and thanks to everyone for joining the call.
+(56:24.540) If you have more questions,
+(56:25.460) feel free to reach out to our IR team.
+(56:27.420) We're delighted to speak to you.
+(56:29.300) Thanks and have a great day.

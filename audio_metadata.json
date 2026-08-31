@@ -1,4 +1,15 @@
 {
+  "0992HK_2027_q1": {
+    "checked_at": "2026-08-31",
+    "duration_sec": 3393.813,
+    "file": "data/0992HK/0992HK_2027_q1.m4a",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/0992HK_2027_q1.m4a",
+    "sha256": "ddf6c7e2aaf02173634feebea187eb5f3323cfaa017a18e8108023b4ff94fc43",
+    "size_bytes": 135276781,
+    "source": "official_webcast_replay",
+    "source_url": "https://lenovo-q1-fy2627-investor-webcast-aug-2026.open-exchange.net/",
+    "status": "ok"
+  },
   "2301_2025_q4": {
     "checked_at": "2026-07-18",
     "duration_sec": 858.0,

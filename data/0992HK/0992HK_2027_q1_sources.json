@@ -1,0 +1,36 @@
+{
+  "stock_id": "0992.HK",
+  "fiscal_label": "Q1 FY2026/27",
+  "period_end": "2026-06-30",
+  "announced": "2026-08-13",
+  "event_type": "法說會+財報",
+  "sources": [
+    {
+      "source_url": "https://doc.irasia.com/listco/hk/lenovo/interim/2027/int1q.pdf",
+      "source_type": "Official HKEX-style results announcement (unaudited consolidated financial statements)",
+      "retrieved_at": "2026-08-31",
+      "notes": "Converted to data/0992HK/0992HK_2027_q1_report_en.md (income statement, balance sheet, cash flow, non-HKFRS reconciliation)."
+    },
+    {
+      "source_url": "https://investor.lenovo.com/en/financial/results/press_2627_q1.pdf",
+      "source_type": "Official press release",
+      "retrieved_at": "2026-08-31",
+      "notes": "Merged into 0992HK_2027_q1_report_en.md financial-highlights section."
+    },
+    {
+      "source_url": "https://investor.lenovo.com/en/financial/results/presentation_2627_q1.pdf",
+      "source_type": "Official investor presentation deck",
+      "retrieved_at": "2026-08-31",
+      "notes": "Segment/geography detail merged into 0992HK_2027_q1_report_en.md."
+    },
+    {
+      "source_url": "https://lenovo-q1-fy2627-investor-webcast-aug-2026.open-exchange.net/",
+      "source_type": "Official OpenExchange webcast replay (registration-gated) video/mp4, audio extracted",
+      "retrieved_at": "2026-08-31",
+      "duration_sec": 3393.81,
+      "notes": "Guest registration required (name/email/company/role); user-provided credentials used with explicit consent, stored in ignored .env as WEBCAST_*. Audio extracted to 0992HK_2027_q1.m4a (135MB, AAC copy from source mp4) and uploaded to GitHub Release audio-files. FIN.srt requested via Mac-mini pipeline (skill-mlx-api-client-whisper / tools/manage_missing_fin_issues.py), issue https://github.com/ZhongZheng782/Mac-mini/issues/134."
+    }
+  ],
+  "label_mismatch_note": "raw_event_upcoming_earnings.csv 與 README 將此事件標為 'FY2026 Q4'，與 Lenovo 官方標示的 'Q1 FY2026/27'（財年 4/1 起算，期末 2026-06-30，公告 2026-08-13）不符。已依官方標籤採用 0992HK_2027_q1 作為 stem（同時因 tools/manage_missing_fin_issues.py 的 STEM_RE 僅接受英數字，資料夾亦由 data/0992.HK 改名為 data/0992HK，去除點號）；CSV/README 標籤沿用既有 calendar_to_fiscal() 推算邏輯，建議後續檢查其對 0992.HK（財年 4 月起算）的月份/季度換算，precedent 見 NVDA_2027_q2_sources.json。",
+  "critical_note": "官方 HKFRS 法定財報顯示本季歸屬母公司淨損 US$609M（每股虧損 US$5.04 cents），而市場報導普遍引用的是 non-HKFRS 'adjusted net income' US$1,075M（+176% YoY）。差異主因為 US$1,690M 認股權證（2025年發行）公允價值變動的非現金損失。digest 撰寫時務必以 HKFRS 法定數字為主軸，non-GAAP 數字僅作為管理層自訂衡量指標並列，不可讓 non-GAAP 頭條掩蓋 GAAP 虧損事實。"
+}
