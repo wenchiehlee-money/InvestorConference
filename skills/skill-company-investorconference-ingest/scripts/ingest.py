@@ -2407,6 +2407,22 @@ def update_readme() -> None:
             # 財報 row should link to it too whenever it exists, not always "-".
             digest = _digest_cell(sid, ingested['year'], ingested['quarter'])
         else:
+            # A 受邀法說 (invited/broker-hosted conference) with no ingested
+            # materials of its own is only a "gap" worth surfacing if the
+            # underlying quarter has no coverage at all. If real materials for
+            # this (sid, year, quarter) already exist under a different date
+            # (the genuine 法說會/財報 row), this slot is a confirmed duplicate:
+            # broker-hosted NDR/roadshow sessions consistently turn out to be
+            # invite-only, unrecorded, and explicitly reiterate the already-
+            # public earnings-day figures (see 2330 2026 Q1/Q2, 2308 2026 Q1,
+            # 3231 2026 Q1 -- verified via each company's own material-info
+            # filing or ingest.py's discovery pipeline finding no media). An
+            # all-dashes row here adds no actionable information, so drop it.
+            if ev_type == "受邀法說" and sid and exp_year and exp_q:
+                dup_key = (sid, exp_year, exp_q)
+                if any((r["stock_id"], r["year"], r["quarter"]) == dup_key for r in rows):
+                    continue
+
             # CSV-only row (not yet ingested): suppress far-future placeholders
             # (show only once within the next 4 weeks) but always show past-due
             # events that were never claimed by any ingested material -- a past
