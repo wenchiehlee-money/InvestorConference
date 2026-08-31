@@ -29,6 +29,12 @@
       "retrieved_at": "2026-08-31",
       "duration_sec": 3393.81,
       "notes": "Guest registration required (name/email/company/role); user-provided credentials used with explicit consent, stored in ignored .env as WEBCAST_*. Audio extracted to 0992HK_2027_q1.m4a (135MB, AAC copy from source mp4) and uploaded to GitHub Release audio-files. FIN.srt requested via Mac-mini pipeline (skill-mlx-api-client-whisper / tools/manage_missing_fin_issues.py), issue https://github.com/ZhongZheng782/Mac-mini/issues/134."
+    },
+    {
+      "source_url": "data/Yahoo.Finance/raw_yahoo_finance_consensus_history.csv",
+      "source_type": "Third-party analyst consensus (Yahoo Finance, synced via wenchiehlee/Yahoo.Finance repo)",
+      "retrieved_at": "2026-08-31",
+      "notes": "0992.HK itself is not in the upstream ConceptStocks tracked universe; Lenovo is tracked only under its US ADR ticker LNVGY (row: 'Lenovo概念,Lenovo Group ADR,LNVGY,...' in data/ConceptStocks/raw_conceptstock_company_metadata.csv upstream). Most recent forecast_asof_date <= announcement date (2026-08-13) available in the local CSV is 2026-06-14 (stale: ~2 months before announcement, before quarter-end 2026-06-30). revenue_0q_avg=$22,154,544,920 used as market-expectation baseline for Q1 FY26/27 revenue (company-total, not per-share, so directly comparable across ADR vs ordinary-share listing). earnings_0y_avg=2.29044 (annual EPS estimate) NOT used for per-share comparison: LNVGY-to-0992.HK ADR ratio unknown, scale mismatch vs quarterly EPS makes comparison unsafe."
     }
   ],
   "label_mismatch_note": "raw_event_upcoming_earnings.csv 與 README 將此事件標為 'FY2026 Q4'，與 Lenovo 官方標示的 'Q1 FY2026/27'（財年 4/1 起算，期末 2026-06-30，公告 2026-08-13）不符。已依官方標籤採用 0992HK_2027_q1 作為 stem（同時因 tools/manage_missing_fin_issues.py 的 STEM_RE 僅接受英數字，資料夾亦由 data/0992.HK 改名為 data/0992HK，去除點號）；CSV/README 標籤沿用既有 calendar_to_fiscal() 推算邏輯，建議後續檢查其對 0992.HK（財年 4 月起算）的月份/季度換算，precedent 見 NVDA_2027_q2_sources.json。",
