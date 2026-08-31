@@ -91,6 +91,7 @@ description: 法說會/earnings call 與財報結果 digest。當使用者要求
 ### 3.2 來源使用原則
 
 1. 財務數字以公司正式文件為第一來源：TW 若同季有官方合併財報（sibling `../MOPS` repo 的 AI1/AIA 申報檔），以財報為第一來源，`_ir.md`/`_ir_en.md` 僅作 guidance、segment、KPI 與定性補充；若無財報只有法說會簡報，才以簡報數字為準。US 優先 earnings release/report、financial tables、performance review/deck 與 SEC filing（若可得）。
+   * 若引用當下 `../MOPS` repo 尚無 `.md` 轉檔，digest 可先以 `.pdf`（或自行 PyMuPDF 抽取）為來源並在證據台帳註明，但**日後若該 MOPS 檔案已補上 `.md` 轉檔，應在下次碰觸該 digest 時把引用路徑改為 `.md`**（`.md` 版通常經過表格結構還原，較 PyMuPDF 直接抽取的原始文字層更易核對），避免 `.pdf` 引用長期留存而未同步。
 2. Q&A 重要性高於 prepared remarks；Q&A 可能揭露法人真正擔心的問題、管理層未主動提到的限制與不確定性。
 3. GT 字幕優先於 FIN 字幕，但必須讀取 GT metadata/review level；若 GT 僅為 `conservative_from_FIN` 或缺 metadata，重大結論仍需回到 IR、Q&A、第三方逐字稿與音檔交叉驗證。
 4. 產生 GT 或 digest 前必須檢查 repo 根目錄 `audio_metadata.json`；若目標 stem `status` 為 `duplicate`、`invalid` 或 checksum 與其他季度相同，視為音訊錯配 Blocker/Major，不可把 FIN 時間軸視為本季音訊證據。
