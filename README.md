@@ -21,8 +21,8 @@
 | 7734 印能科技 | 2026 Q2 | 受邀法說 | 2026-08-27 | 無 | - | - | [中](data/7734/7734_2026_q2_ir.pdf) | [EN](data/7734/7734_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7734) |
 | MRVL Marvell Technology, Inc. | FY2025 Q2 | 受邀法說 | 2026-08-27 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MRVL/financials/) |
 | MRVL Marvell Technology, Inc. | FY2025 Q2 | 財報 | 2026-08-27 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MRVL/financials/) |
-| NVDA NVIDIA 輝達 | FY2027 Q2 | 法說會 | 2026-08-26 | [59.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/NVDA_2027_q2.m4a) | [📝](data/NVDA/NVDA_2027_q2_FIN.srt) / [📄](data/NVDA/NVDA_2027_q2_transcript.md) | [✅](data/NVDA/NVDA_2027_q2_GT.srt) | - | - | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
-| NVDA NVIDIA 輝達 | FY2027 Q2 | 財報 | 2026-08-26 | - | - | - | - | [EN](data/NVDA/NVDA_2027_q2_report_en.md) | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
+| NVDA NVIDIA 輝達 | FY2027 Q2 | 法說會 | 2026-08-26 | [59.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/NVDA_2027_q2.m4a) | [📝](data/NVDA/NVDA_2027_q2_FIN.srt) / [📄](data/NVDA/NVDA_2027_q2_transcript.md) | [✅](data/NVDA/NVDA_2027_q2_GT.srt) | - | - | [📊](data/reports/conference-digests/NVDA/NVDA_2027_q2_digest.md) | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
+| NVDA NVIDIA 輝達 | FY2027 Q2 | 財報 | 2026-08-26 | - | - | - | - | [EN](data/NVDA/NVDA_2027_q2_report_en.md) | [📊](data/reports/conference-digests/NVDA/NVDA_2027_q2_digest.md) | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
 | HPQ HP Inc. | FY2026 Q1 | 受邀法說 | 2026-08-26 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPQ/financials/) |
 | HPQ HP Inc. | FY2026 Q1 | 財報 | 2026-08-26 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPQ/financials/) |
 | 6285 啟碁 | 2026 Q2 | 受邀法說 | 2026-08-21 | 無 | - | - | [中](data/6285/6285_2026_q2_ir.pdf) | [EN](data/6285/6285_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6285) |
