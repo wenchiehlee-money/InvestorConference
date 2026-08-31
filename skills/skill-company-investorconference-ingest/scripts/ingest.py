@@ -2400,7 +2400,12 @@ def update_readme() -> None:
                 pdf_en_file = ingested.get("pdf_en")
                 pdf_cn, pdf_en = _format_ir_cells(sid, pdf_cn_file, pdf_en_file)
 
-            digest = _digest_cell(sid, ingested['year'], ingested['quarter']) if ev_type != "財報" else "-"
+            # Digests now merge 法說會/受邀法說 + 財報 into one file when both
+            # exist for the same stock/quarter (SKILL.md 3.1.2), and a
+            # 財報-only quarter gets the same {stock}_{year}_q{q}_digest.md
+            # filename under the lean SKILL.md 5.0 architecture -- so the
+            # 財報 row should link to it too whenever it exists, not always "-".
+            digest = _digest_cell(sid, ingested['year'], ingested['quarter'])
         else:
             # CSV-only row (not yet ingested): suppress far-future placeholders
             # (show only once within the next 4 weeks) but always show past-due
@@ -2493,7 +2498,10 @@ def update_readme() -> None:
                 tables = _format_pdf_cell(r.get("financial_tables_en"), "Tables")
                 pdf_en = tables if pdf_en == "-" else f"{pdf_en} / {tables}"
             row_type = "財報"
-            digest_cell = "-"
+            # Same reasoning as the CSV-matched branch above: a merged or
+            # 財報-only digest can exist under this stock/year/quarter even
+            # though this row has no audio/IR/SRT of its own.
+            digest_cell = _digest_cell(sid, r['year'], r['quarter'])
         else:
             audio  = _webcast_cell(r)
             fin, gt = _call_transcript_cells(r)
