@@ -102,6 +102,7 @@ KNOWN_TW_PLAYWRIGHT_IR_BY_QUARTER = {
     ("3034", "2025", "3"): "https://www.novatek.com.tw/upload/website/_2025Q3_25110708_904.html",
     ("3034", "2025", "4"): "https://www.novatek.com.tw/upload/website/_2025Q4_26020909_911.html",
     ("3045", "2026", "1"): "http://www.zucast.com/webcast/YZRGwetH",  # 台灣大 2026Q1 法說會 2026-05-13 (Zucast 需註冊; 音檔為 S3 直連 mp3, 已下載至 3045_2026_q1.m4a)
+    ("3045", "2026", "2"): "http://www.zucast.com/webcast/O9Iud5A5",  # 台灣大 2026Q2 法說會 2026-08-14 (official Zucast webcast)
 }
 
 # IR portal URLs for Taiwan stocks that host webcast on their own IR sites
@@ -137,6 +138,17 @@ KNOWN_PDF_ATTACHMENTS = {
     ],
     "2395": [
         ("ir_en", "https://advcloudfiles.advantech.com/investor/Events/Advantech_{quarter}Q_{year}_Investors_Meeting_English.pdf"),
+    ],
+}
+
+# Quarter-specific official PDF attachments for issuers whose IR filenames are
+# event-specific rather than reusable templates.
+KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
+    ("3045", "2026", "2"): [
+        ("ir", "https://corp.taiwanmobile.com/files/investor-relations/convention/2Q26webcast_Chinese_final.pdf"),
+        ("ir_en", "https://english.taiwanmobile.com/english/upload/investor/2Q26webcast_English_final.pdf"),
+        ("performance_review", "https://english.taiwanmobile.com/english/upload/investor/mgmtreport20260814_update.pdf"),
+        ("transcript", "https://english.taiwanmobile.com/english/upload/investor/2Q26_Conference_Call_transcript(withQA).pdf"),
     ],
 }
 
@@ -1765,12 +1777,13 @@ def download_pdfs(stock_id: str, year: str, quarter: str,
             else:
                 print(f"[US-NIR] No matching presentation found for {year} Q{quarter}")
 
-    templates = KNOWN_PDF_ATTACHMENTS.get(stock_id, [])
+    templates = list(KNOWN_PDF_ATTACHMENTS.get(stock_id, []))
+    templates.extend(KNOWN_PDF_ATTACHMENTS_BY_QUARTER.get((stock_id, year, quarter), []))
     if not templates:
         return downloaded
 
     for suffix, url_template in templates:
-        url = url_template.format(year=year, quarter=quarter)
+        url = url_template.format(year=year, quarter=quarter, yy=year[-2:])
         filename = f"{stock_id}_{year}_q{quarter}_{suffix}.pdf"
         dest = save_dir / filename
 
@@ -2043,7 +2056,9 @@ def update_readme() -> None:
             m7 = performance_review_pat.match(f.name)
             if m7:
                 _, year, qnum = m7.groups()[:3]
-                _entry(stock_id, year, qnum)["pdf_en"] = f"data/{stock_id}/{f.name}"
+                e = _entry(stock_id, year, qnum)
+                if not e.get("pdf_en"):
+                    e["pdf_en"] = f"data/{stock_id}/{f.name}"
             m8 = transcript_pdf_pat.match(f.name)
             if m8:
                 _, year, qnum = m8.groups()[:3]

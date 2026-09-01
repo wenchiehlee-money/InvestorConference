@@ -1,0 +1,461 @@
+[METADATA]
+Source: 3045_2026_q2_FIN.srt
+Language: en
+Review-Level: conservative_from_FIN
+Reviewer: Codex
+Corrections: proprietary terms, financial terminology, company names, speaker names, Q&A terminology
+Correction-Sources: official Taiwan Mobile 2Q26 transcript PDF; official Chinese/English presentation PDFs; official management report PDF; FIN.srt
+Audio-Checked: none
+Reviewed-At: 2026-09-01
+Confidence: medium
+---
+(00:00.000) Good afternoon, ladies and gentlemen. Welcome to the Taiwan Mobile conference call. Our chairperson today is Mr. Jamie Lin. Mr. Lin, please begin your call and I'll have you stand by for the question and answer session. Thank you.
+(00:12.040) Thank you, operator. Good afternoon, everyone. Welcome to Taiwan Mobile's 2nd quarter 2026 results conference call.
+(00:19.440) We are reporting a record quarter in revenue and profitability outperformance. But before I share more details, please refer to our safe harbor notice on this page.
+(00:30.000) Now let's start with our business overview.
+(00:32.920) Please turn to page four for Q2 highlights.
+(00:36.800) So in Q2, our three-tier flywheel demonstrated remarkable momentum.
+(00:42.000) Our core growth engines, namely Telco, Telco Plus, and Telco Plus Tech, all delivered robust
+(00:51.580) YOY top-line growth, reinforcing our position as the market leader as an AI-powered ICT
+(00:57.940) company or an AICT company, as we call it.
+(01:02.020) On the profitability front, Q2 proved to be a landmark quarter as we continue to embark
+(01:08.720) on our golden decade journey.
+(01:11.640) Consolidated EBITDA and EBIT rose by 9% and 18% YOY, respectively, with EBIT reaching
+(01:18.440) a two-decade high and showcasing powerful operating leverage, coupled with significantly
+(01:25.400) the enhanced non-operating performance,
+(01:28.280) net income surged by 38% YOY,
+(01:31.420) with EPS reaching $1NT.49,
+(01:35.280) delivering the highest EPS in the sector
+(01:38.580) for three quarters in a row.
+(01:41.220) This standout profitability was underpinned
+(01:43.500) by our proactive integration of AI
+(01:45.920) to drive operational efficiencies,
+(01:48.860) optimized subsidy and commission structures,
+(01:51.640) as well as disciplined capex management, which led to lower D&A expenses.
+(01:59.780) George, our CFO, will explain our structural cost optimization in more detail later.
+(02:04.980) Now let's take a closer look at our Telco Core business on the next page.
+(02:12.460) So Telco Core includes our mobile and home businesses.
+(02:16.920) The Sustainable Growth Foundation strategy continues to yield excellent results.
+(02:21.640) reflected in our record low post-paid churn rate of 0.5%,
+(02:25.860) a 9 basis point improvement YoY,
+(02:31.960) and a 3% YOY increase in smartphone ARPU to $689 in Q2.
+(02:39.040) As a result, our Q2 mobile service revenue grew by 3% YOY,
+(02:43.840) hitting an all-time high.
+(02:46.280) 5G penetration came in at 45%, up 3 percentage points YOY,
+(02:51.640) leaving us ample runway to upsell going forward.
+(02:55.600) For contract renewals, we delivered a 6% overall monthly tariff uplift,
+(03:01.440) driven by a 46% bump up in 4G to 5G upgrades.
+(03:06.160) As a result, 5G revenue grew by 8% while lifting its contribution to mobile service revenue to 69%.
+(03:14.400) This commercial success is firmly backed by our leading network quality.
+(03:18.540) In OpenSignal's H1 2026 report,
+(03:22.560) Taiwan Mobile ranks number one across six key categories,
+(03:26.820) taking sole ownership of the top spot
+(03:28.980) and placed in the global top three
+(03:31.680) in both network reliability and consistent quality,
+(03:36.720) while leading in video and voice app experiences.
+(03:41.940) Our unique bundles serve as a strong moat,
+(03:44.600) consistently driving upselling and customer loyalty.
+(03:49.320) In Q2, we introduced a new high-value,
+(03:52.160) multi-platform OTT bundle that combines mobile data
+(03:55.560) with a two-year subscription to Netflix, Prime Video, HBO Max,
+(03:59.660) and our own MyVideo.
+(04:01.860) Similar to our existing Double Play and OP bundles,
+(04:04.560) the vast majority of subscribers opted for $999 or higher rate plans.
+(04:12.120) Driving sustained subscriber and output expansion.
+(04:15.720) Moving to the home business segment, our broadband business recorded a solid 5% YOY growth in
+(04:23.300) Q2, including double-play users, broadband users, and speeds of 300 megabits or higher
+(04:31.320) surged by 22% YOY, greatly outperforming the incumbent player.
+(04:37.240) Next, let's turn to page six for our growth engine number two.
+(04:42.140) In the telco plus segment, we continue to unleash the potential of our Gift-as-a-Service model,
+(04:48.680) providing integrated AICT solutions for enterprise, AI data center,
+(04:53.140) and cybersecurity services to our enterprise clients, including high-potential SMEs.
+(04:59.240) Growth in this segment has been stellar, with revenue surging 19% YoY in Q2.
+(05:05.320) This performance was driven by key government SI projects, steady contributions from our AI data center.
+(05:15.280) Notably, our data center revenue soared 89% YoY in Q2, while our AICT for enterprise business also expanded significantly.
+(05:26.220) As enterprises accelerated their AI-led transformations,
+(05:29.680) Taiwan Mobile is uniquely positioned as the premier partner of choice, backed by our robust infrastructure and telecom-grade reliability.
+(05:39.260) This provides a powerful long-term tailwind to our telecom service revenue.
+(05:45.200) Next, let's turn to our new Telco Plus and tech businesses.
+(05:48.860) So our third growth engine, telco plus tech businesses, delivered a 4% revenue growth
+(05:56.380) in Q2, while our new telco plus tech businesses, which exclude momo, grew by a robust 18%,
+(06:04.500) driven by strong execution across three key businesses.
+(06:08.100) First, our Direct Carrier Billing business, or 大哥付隨帳收 in Mandarin, continued
+(06:13.700) to expand steadily as we broaden our service offerings to drive recurring usage.
+(06:21.340) Leveraging proprietary AI algorithms for precision targeting and risk management, we are seeing
+(06:27.640) accelerated adoption of carrier-based payment across our user base.
+(06:32.040) Second, our e-commerce services for brands, or 品牌電商, grew exponentially,
+(06:38.520) with revenue more than doubling YOY.
+(06:40.520) This was driven by strong sales performance from key anchor brand clients such as Royal
+(06:46.540) Canin and Philips, alongside the addition of a new channel partner in Q2.
+(06:54.120) Furthermore, the upcoming launch of Japan's iconic lifestyle brand, 3COINS, across key
+(07:00.720) channels, especially momo, will help fuel our top-line momentum as we head into the
+(07:06.280) second half of the year.
+(07:07.400) Third, our proprietary OTT brand MyVideo delivered solid top-line revenue growth through both platform subscriptions and content investments, boosted by the strong box office performance of several key titles.
+(07:22.520) Finally, let's take a look at momo.
+(07:25.220) So, momo's GMV growth accelerated to 7% YOY in Q2.
+(07:29.360) Since March, momo has delivered four consecutive months of YOY revenue growth, driving a 4%
+(07:36.800) YOY revenue increase in Q2.
+(07:40.380) Take Rate saw a modest YOY expansion, while EBITDA margin remained resilient despite
+(07:45.700) market competition.
+(07:47.480) Combined with reduced D&A expenses, momo's operating income grew by 3% YOY in Q2.
+(07:53.740) On the cash front, its negative cash conversion cycle provided a powerful working capital
+(07:57.960) tailwind, driving an even more pronounced increase in operating cash flow.
+(08:03.880) The key growth initiatives, mo-shop+ and Retail Media Network, or RMN in short, continue
+(08:10.460) to expand rapidly.
+(08:11.760) Our 3P marketplace, mo-shop+, now features over 3.7 million SKUs and more than 10,000
+(08:18.980) selected merchants, delivering double-digit YOY GMV growth in H1.
+(08:23.520) Simultaneously, the RMN initiative gained further traction, with merchant penetration
+(08:30.340) reaching approximately 50% as of quarter-end and revenue surging by double digits YoY.
+(08:39.000) With that overview of our strategic progress, I'll now turn the floor over to our CFO
+(08:43.700) George Chang for a detailed look at our financials.
+(08:46.640) George Chang, CFO & Spokesperson: Thanks, Jamie.
+(08:49.280) Good afternoon.
+(08:50.280) Let's begin with our performance by business segments.
+(08:53.760) In 2Q26, our telecom revenue delivered a solid 4% YOY growth, with fixed-line business contributing about half of this revenue expansion.
+(09:05.020) Telecom EBIT rose by 25% YOY, representing 77% of our consolidated EBITDA.
+(09:12.040) This massive margin expansion highlights our operating leverage, driven by strong growth across all three engines and prudent cost disciplines in customer acquisition and retention.
+(09:24.420) Accompanied by a gradual revenue recovery over the past two quarters, momo's EBITDA has stabilized YOY.
+(09:31.660) whereas EBIT grew 3% YoY thanks to a decline in DNA,
+(09:36.840) as momo strategically reduced its reliance on third-party logistics facilities and enhanced fulfillment efficiency.
+(09:44.940) Accounting for our equity stake, momo contributed roughly 6% to Taiwan Mobile's net income in the second quarter.
+(09:53.320) Finally, CATV EBIT dipped YOY, but this was mainly due to a high base in the paid TV business.
+(10:00.740) broadband profitability remained robust with double-digit YOY growth.
+(10:06.840) To further elaborate on the power for operating leverage in our telecom business,
+(10:12.760) as you can see on page 11, telecom revenue grew by 4% in the second quarter,
+(10:19.080) but telecom EBIT grew by 25% YOY, expanding at more than 6 times the rate of revenue growth.
+(10:27.960) Within this YOY EBIT growth, more than half stem from AI-driven structural efficiency gains in subscriber acquisition and retention costs.
+(10:38.240) As mobile capex continued to trend down, lower telecom D&A expenses contributed another 16% to the EBIT increase.
+(10:47.800) Let's go to a results summary.
+(10:49.620) Consolidated revenue rose by 4% YOY as telecom, momo, and cable TV all delivered revenue growth for two quarters in a row.
+(11:01.720) Operating income went up by 18% YOY, setting a new quarterly high in over two decades.
+(11:08.560) On the non-operating front, expenses dropped significantly YOY, mainly driven by lower financing costs.
+(11:15.160) higher equity method income led by SIS tax, mark-to-market gains on our investment holdings,
+(11:22.860) and favorable base effects from Q2 2025 asset write-offs and FX translation losses.
+(11:29.980) As a result, 2Q26 net income surged 38% worldwide to a 20-year high.
+(11:37.400) For the first half of 2026, EPS reached NT2.86, the highest among our peers.
+(11:46.180) Let's move on to balance sheet.
+(11:49.480) We continue to drive improvement in our asset efficiency and balance sheet strength.
+(11:55.360) Within current assets, accounts receivable and contract assets grew 11% YOY in line with top-line expansion across all business.
+(12:03.660) In non-current assets, PP&E declined as capital additions stayed below depreciation, with 5G rollout and network consolidation capex now behind us.
+(12:16.600) On the liability and equity side, our disciplined capital management and steady cash flow generation allowed us to reduce gross debt by $8.5 billion quote-on-quarter and $10.9 billion year-over-year.
+(12:31.120) During this quarter, we also successfully monetized a portion of our treasury shares, adding about $4 billion to both our cash balances as well as total shareholders' equity.
+(12:43.860) Notably, at the end of the second quarter, our legal reserve balance has reached the
+(12:50.400) statutory threshold of our paid-in capital.
+(12:53.100) As a result, we are no longer required to set aside earnings for legal reserve, and
+(12:58.800) that will give us greater flexibility for future profit distribution.
+(13:03.860) Finally, driven by ongoing debt reduction and earnings growth, our net debt-to-Ibida
+(13:09.460) ratio dropped to 1.33 times, while ROE expanded to 19%, underscoring our sharp focus and sustained
+(13:18.200) capital efficiency. Lastly, let's look at the cash flow. Moving to cash flow and capital allocation,
+(13:25.980) in second quarter, we delivered robust operating cash flow growth worldwide, driven by expanding
+(13:31.260) telecom EBITDA and favorable working capital dynamics at momo. Investing cash flow decreased
+(13:37.740) both sequentially on YOY.
+(13:40.100) The quote-on-quote drop reflects a high comparison base
+(13:43.260) from our strategic media investment Q1,
+(13:47.460) while the YOY decline was primarily driven
+(13:49.740) by reduced capex in mobile and momo.
+(13:53.180) Backed by strong cash flow generation,
+(13:55.900) we accelerated debt repayment during the quarter,
+(13:59.180) well exceeding both Q1 and prior year levels.
+(14:02.600) Consequently, second quarter pre-IFRS 16 free cash flow surged to $7.45 billion, delivering an annualized free cash flow yield of 8.4%,
+(14:16.100) further strengthening our foundation for sustainable shareholder returns.
+(14:21.560) Let me turn the presentation back to Jamie for event update and key message.
+(14:25.140) All right. Thank you, George.
+(14:26.840) So let's turn to page 16 for our 2026 guidance update.
+(14:34.160) So our strong performance in the first half, as you can see, driven by greater operating leverage from AI-led structural cost savings, gives us high confidence heading into the second half of the year.
+(14:46.540) As a result, we are raising our full-year 2026 profit guidance.
+(14:50.660) We're maintaining our revenue growth target of 5% to 7% while upgrading our outlook for
+(14:57.580) four-year telecom operating profit growth from 4% to 6% to 13% to 15% and consolidated
+(15:07.420) operating profit from 1% to 2% YOY to 7% to 9% YOY.
+(15:14.540) So please note that this guidance is presented on the standalone basis and does not incorporate
+(15:20.340) any financial or operational impact from the proposed tender offer of SysTax.
+(15:26.100) Alongside our raised guidance, let's also look at our recent achievements in ESG and
+(15:31.860) corporate recognition.
+(15:34.600) On the next page, I'm very proud to share that Taiwan Mobile has once again achieved top
+(15:39.060) honors in XTEL's All-Asia Executive Team Survey.
+(15:43.480) For the fourth consecutive year, we have been named a Most Honored Company in the overall
+(15:49.080) Asia regions, remaining the only Taiwanese telco to consistently hold this distinction.
+(15:55.520) Furthermore, in the rest of Asia region, we secured number one overall ranking for the
+(16:00.700) fifth year in a row with our CEO, CFO, IR team, board, and ESG, all placing in the top
+(16:06.620) three brackets in their respective categories.
+(16:11.600) On behalf of our leadership team and our board, I thank you for your trust, your continued
+(16:17.760) partnership and your recognition of our team's pursuit of strategic excellence and commitment
+(16:23.040) to world-class execution with strong corporate governance.
+(16:26.820) Speaking of which, we ranked in the top 5% of Taiwan corporate governance evaluation
+(16:34.380) for the 12th consecutive year.
+(16:37.560) One of only seven companies in Taiwan to achieve this track record.
+(16:46.020) On the environmental leadership, we earned the highest A rating in CDP supplier engagement assessment for the fifth straight year, alongside continued inclusion in the DJSI World Index and FTSE for Good TIP Taiwan ESG Index.
+(17:03.040) On the technology front, our next-generation non-traditional network solutions won the Gold Award in the inaugural Satellite Digital Application Innovation Competition organized by the Ministry of Digital Affairs.
+(17:16.840) Furthermore, our in-house developed AI solution, VotexAI, or AI 聽寫大哥 in Mandarin,
+(17:25.520) received the Taiwan AI Award and Silver Award for Product Innovation at the AI Taiwan Future
+(17:32.320) Commerce Expo.
+(17:33.880) This highlights our leadership as one of the few telecom operators in the world who successfully
+(17:39.000) achieved the productization of in-house AI capabilities.
+(17:45.260) Just to conclude our Q2 presentation, here's the key message we would like for you to take
+(17:50.060) away with.
+(17:51.300) First, regarding our key growth drivers, we are driving sustained momentum across our
+(17:56.640) mature core telecom operations and mobile business, while expanding rapidly in our Telco
+(18:02.780) Plus and new Telco Plus tech businesses.
+(18:05.580) Second, on capturing alpha in the agentic era, we are pioneering AI-driven structural
+(18:12.100) cost reductions and productizing the platforms we have built, which in turn accelerates growth
+(18:18.460) of our enterprise business. Finally, for our future outlook, we are fully confident in our
+(18:24.560) ability to meet our updated four-year financial guidelines, and we remain firmly committed to
+(18:30.460) maximizing long-term structural increase in shareholder returns, thereby delivering a golden
+(18:35.860) To further accelerate this next phase of growth, we have also taken a major step forward on
+(18:43.180) the M&A front.
+(18:45.180) So on page 19, as you've seen in our material information announcement from August 12, we
+(18:51.860) are launching a tender offer through our wholly owned subsidiary TCC, or Taixing Dianxun in
+(18:58.180) Mandarin to acquire up to 58% stake, additional stake in Systex.
+(19:05.000) On top of the 11.86%, we have already owned since September of 2024.
+(19:13.040) Here is a summary of our deal terms and timeline.
+(19:16.220) As shown on the slide, the offer features a 50-50 cash and stock split with the cash
+(19:22.560) portion fully supported by TCC's own capital and group borrowings.
+(19:27.900) The transaction is subject to Taiwan Fair Trade Commission approval with the tender
+(19:33.880) period running from August 18 through October 6.
+(19:38.980) All detailed figures are on the screen for your reference.
+(19:46.080) But more importantly, let me walk you
+(19:47.860) through the three major synergies of this transaction
+(19:50.760) on the next page, which will allow
+(19:53.600) us to double our enterprise ICD market share
+(19:56.260) and drive bottom line growth.
+(19:59.780) First, cross-selling and broadened market reach.
+(20:03.040) So by combining Taiwan Mobile's CT leadership with Systex's IT capabilities,
+(20:08.400) we are aligning our software R&D and Salesforce across cloud, network, software, hardware, and cybersecurity.
+(20:15.760) With nearly 4,500 software engineers and 1,000 sales professionals across two groups,
+(20:22.260) we will offer comprehensive one-stop AI and ICT solutions,
+(20:27.380) unlocking massive cross-selling opportunities across enterprise and government markets.
+(20:33.040) Financially, as SysTax is a profitable business, recognizing investment returns alongside its
+(20:39.560) synergies will be immediately accretive to our EPS in year one.
+(20:47.860) Second AI, to fully capitalize on the enterprise AI transition, we are matching our AIDC infrastructure
+(20:56.540) already at 25 megawatt and growing with Systex's Ai4iA industry solutions.
+(21:02.960) This synergy ensures seamless AI application deployment for enterprises, powered by our
+(21:07.940) high-performance AIDC and high-speed network assets.
+(21:12.080) Third, regional opportunities.
+(21:14.780) Taiwan Mobile and Systex share highly overlapping regional development strategies in Asia, with
+(21:22.480) both companies already expanding into Japan and greater Southeast Asia.
+(21:27.820) Through this deep strategic alliance, we will join forces to accelerate our expansions in
+(21:33.540) these regional markets and capture larger international opportunities.
+(21:37.140) So in summary, this strategic investment bridges IT and CTE, paving the way for sustainable
+(21:44.460) growth and enhanced long-term shareholder value.
+(21:49.160) Finally, on the next page, here's a pro forma net income contribution analysis under different
+(21:55.140) ownership scenarios for your information.
+(21:58.860) With that, let's open the floor up for questions.
+(22:01.460) If you are participating online, you are more than welcome to send your questions via the
+(22:05.440) online chat box.
+(22:06.940) We will begin by addressing the telephone line inquiries before we move on to the web.
+(22:11.380) So operator, please go ahead.
+(22:13.380) Thank you, Mr. Lin.
+(22:15.380) Ladies and gentlemen, we will now pull for questions.
+(22:17.380) If you would like to register for your question, please press star 1 on your telephone keypad.
+(22:22.700) Thank you.
+(22:25.140) And our first question comes from Sigvijil with JPMorgan.
+(22:30.900) Please go ahead.
+(22:31.900) Thank you.
+(22:32.900) Hi.
+(22:33.900) Thank you very much.
+(22:36.340) And thank you, Jamie and George, for the presentation and congratulations for a very strong set of
+(22:41.760) results for second quarter.
+(22:43.420) I do have a long list of questions.
+(22:46.980) Would you prefer for me to ask all of them at once or take it one by one?
+(22:53.380) Hey Sigrid, let's take it one by one.
+(22:58.140) It'll be easier.
+(22:59.140) Thank you.
+(23:00.140) Okay, sure.
+(23:01.140) Thank you.
+(23:02.140) So my first question is on SysEx acquisition.
+(23:10.740) You mentioned that after the acquisition, you will double your enterprise ICT market
+(23:16.920) share.
+(23:17.920) Can I just check what's your current ICT market share?
+(23:21.060) So the combined market share between the two groups would be at around 7%.
+(23:30.960) And we're shooting to double that number in the next five to six years.
+(23:37.300) Understand.
+(23:42.000) And for the AIDC opportunity that you mentioned on the synergies slide, will we look to expand
+(23:51.040) more on AIDC revenue opportunities
+(23:54.340) beyond the ones that we have at the moment?
+(23:57.440) I understand that it's with the GMI Cloud.
+(24:00.520) If we're going to do that,
+(24:02.700) what is the capital needed
+(24:04.420) to expand the part of the business?
+(24:08.040) Yes, we are proactively
+(24:10.620) talking to many partners
+(24:13.900) in terms of securing AIDC
+(24:18.240) compute capabilities.
+(24:21.160) And as you may know, right now, the bottleneck for enterprises to deploy
+(24:28.460) AI applications is in securing enough data center computing power.
+(24:36.500) And so our pipeline of AIDCs that will come online in the next 12,
+(24:45.620) 24 months will allow Systex to be much more aggressive in securing AI applications business
+(24:55.340) across their customer base.
+(25:00.120) And our strategy here is working with infrastructure developers so that it's more of an S-to-L-L-I-F
+(25:08.900) model for us.
+(25:10.380) But I understand.
+(25:15.080) And my next question is on group KPEX.
+(25:19.240) I noticed that group KPEX has been coming down.
+(25:23.800) Would you just remind us what is the main component of our KPEX at the moment?
+(25:29.820) And to follow up, our peers are spending more KPEX on network upgrade.
+(25:35.980) Do you see that we have a similar need at Taiwan Mobile side?
+(25:40.220) And maybe you can just give us a sense of how we're going to plan KPEX going forward.
+(25:44.480) That would be great.
+(25:47.020) So like we said during the presentation, I think 5G rollout is behind us.
+(25:51.980) And so going forward, yes, we will use AI-driven sort of strategies to spend capex in a wise
+(26:07.360) way to make our network perform better.
+(26:10.180) But we don't imagine – we don't foresee this to be a huge capital demand going forward.
+(26:21.980) I was going to say that as far as on a consolidated basis, the majority was still telecom driven
+(26:36.660) in first half.
+(26:37.660) momo was probably less than 10% or around 10%.
+(26:44.740) Okay, great.
+(26:46.740) Thank you.
+(26:48.740) So my last question is on guidance.
+(26:52.460) I'm looking at the updated guidance of consolidated operating profit of growing at 7% to 9% year-on-year.
+(27:00.520) Now, our first half growth rate is well exceeding the upgraded guidance.
+(27:06.920) So may I understand, are we baking in some form of conservatism for second half?
+(27:15.120) or I just want to understand why is the guidance much lower than the first half growth rate?
+(27:22.540) Yes, I think you were pretty accurate in sort of anticipating our stance.
+(27:30.840) So we didn't want to give a guidance that we don't have 100% confidence in achieving.
+(27:38.680) Can I just follow up on what's the reason for the conservatism?
+(27:45.120) If you look at second half, let's not forget that it's usually the seasonal factor from
+(27:53.300) an Apple launch, for instance.
+(27:55.520) So whether that will have any impact on the retention acquisition cost is a little bit
+(28:01.020) less certain versus first half.
+(28:03.980) But as we explained earlier, if you look at the operating leverage, try to break it down,
+(28:09.380) The DNA was actually a big portion, and you can pretty much assume that that's going
+(28:15.480) to be sustained in the second half at least.
+(28:19.320) So yes, to simply answer your question, I would say that the guidance implied for the
+(28:26.140) second half definitely is on the conservative side.
+(28:29.380) Okay, thank you.
+(28:32.140) I'll jump in the queue.
+(28:35.700) Thank you so much.
+(28:39.140) Thank you.
+(28:40.140) As our next question comes from Charlie Knight with HSBC.
+(28:43.140) Please go ahead.
+(28:44.140) Thank you.
+(28:45.140) Charlie Knight, HSBC
+(28:46.140) Thank you.
+(28:47.140) Thank you for the opportunity to ask question.
+(28:49.640) Congratulations on the strong result.
+(28:52.160) I have two follow-up questions regarding the proposed tender offer for SyncTax.
+(28:58.460) The first one, as you just mentioned, you are targeting to expand the software IT service
+(29:03.640) market share from 10% to 14%.
+(29:06.140) Amanda, what action has to achieve that?
+(29:10.820) Is that organic cross-sale?
+(29:11.820) That's my first question.
+(29:12.820) Thank you.
+(29:13.820) Thank you for the kind words.
+(29:14.820) Yes, like we mentioned during our presentation, so the three main strategies are, number one,
+(29:23.900) cross-selling, number two, AI-driven growth, and number three, regional expansion acceleration.
+(29:31.600) So we plan to execute those three strategies really diligently so that the combined group
+(29:42.880) can be growing at a much faster pace after the tender offer is completed.
+(29:48.480) Got you.
+(29:51.100) Thank you.
+(29:52.100) And my next question is also a follow-up question on the AIDC.
+(29:55.840) after your merger.
+(29:58.100) what would be your combined total current
+(30:01.320) AIDC capacity, assuming you acquire Systex,
+(30:05.360) and how much is your future planned AIDC capacity?
+(30:10.720) And I know that your peer, Chunghwa Telecom,
+(30:13.240) just announced a big AIDC kickoff recently,
+(30:16.760) and how do you see the competitive dynamics in Taiwan
+(30:20.060) regarding AIDC market?
+(30:23.660) Thanks for the question.
+(30:24.860) Right now, Systex doesn't really own any sort of AI-grade DC properties.
+(30:32.600) And for us, if you combine our more traditional DC and AI DC, we're standing at a little bit above 30 megawatt.
+(30:41.680) And we are looking to grow this portfolio quite proactively in the next 12 to 24 months.
+(30:54.860) Like we expressed earlier, we will be growing this mostly through an asset-light model.
+(31:05.080) Got you.
+(31:06.080) So can I consider that you will first secure clients and then kick off the projects?
+(31:16.100) What's the dynamic?
+(31:17.100) And Mano, what are your anchor clients in your mind?
+(31:23.480) global CSPs or local Taiwan tech companies, any color would be really appreciated.
+(31:30.740) Okay, so right now we have a pipeline of projects that we're evaluating together with our developer partners,
+(31:40.260) multiple developer partners in multiple locations, both in Taiwan and outside Taiwan regionally.
+(31:47.200) In terms of customer base, right now we're receiving very strong demand from corporates
+(31:52.560) and also Neoclouds.
+(31:54.920) We will be under-indexing the three hyperscalers
+(32:01.920) as the business model there is less attractive.
+(32:08.220) Got you, got you.
+(32:09.700) Thank you very much.
+(32:11.400) Thank you.
+(32:15.960) Once again, ladies and gentlemen,
+(32:17.280) if you'd like to register for questions,
+(32:19.000) please press star 1 on your telephone keypad.
+(32:21.320) Thank you.
+(32:22.560) Once again, ladies and gentlemen, there is no more questions.
+(32:34.560) Operator, if there is no more questions from the telephone line, we would like
+(32:43.060) to move to the online chat box question.
+(32:46.060) Yes, no questions.
+(32:48.060) Thank you.
+(32:49.060) Okay, great.
+(32:50.060) Great. So thank you, Debbie Tan from Shing Kong Life Insurance.
+(32:56.460) Your question is presently in the chat.
+(32:58.400) Could you share your strategic intent behind acquiring Systex?
+(33:05.200) Beyond the profit contribution that can be recognized from the acquisition,
+(33:10.380) are there any qualitative figures that have translated into actual profit that lift?
+(33:17.060) So, Debbie, I understand that you asked this question before we gave the presentation on our thinking behind the tender offer.
+(33:27.440) And so if I may, I would reiterate our three core synergy driver would be cross-selling, AI-driven enterprise business growth, and also regional expansion opportunities.
+(33:43.480) And we see all three being major growth accelerator that the two groups can come together and execute and really grow our market share in the next five, six years from 7% to 14%.
+(33:58.200) So we see a huge synergy to be generated as the two groups work together.
+(34:08.120) So hope that answers your question.
+(34:09.440) if you have additional questions, please do leave your follow-up questions in the chat box.
+(34:18.000) And next, I would like to address another question from Kirk Boodry from Bloomberg Intelligence.
+(34:25.480) So the question goes, hi, how long does it take to deploy data center capacity from contract signing to opening?
+(34:33.760) Also, you mentioned neoclouds.
+(34:37.260) What is the relationship you have with companies like this?
+(34:40.580) All right, so thank you, Kirk.
+(34:43.380) So we're taking an asset-light approach.
+(34:46.700) So we're mainly working with newly built greenfields or brownfields that can be quickly deployed
+(34:55.120) into AIDC, usually within six to 18 months.
+(35:00.520) And so that's why I say that in our pipeline we have multiple locations that we're looking
+(35:08.020) to light up in the next 12 to 24 months.
+(35:12.100) And we like we communicated before in our press releases our TAIDC01 we're working
+(35:23.160) with one of the NeoClouds called GMI and we have a very close relationship with them and
+(35:29.380) We do have – we are engaged – actively engaged with – actively engaged in discussions
+(35:38.260) with a few other neoclouds.
+(35:41.360) And so it's been a win-win partnership for us and GMI and we'd like to replicate this
+(35:50.860) type of partnership with both GMI and other neocloud providers.
+(35:55.480) So hopefully that answers your question.
+(35:59.380) So, operator, we can check if there's more questions from telephone line.
+(36:03.380) Sure.
+(36:04.380) Once again, ladies and gentlemen, if you'd like to register for questions, please press
+(36:08.700) star 1 on your telephone keypad.
+(36:10.620) Thank you.
+(36:11.620) And we have a follow-up question from Sigrid with JPMorgan.
+(36:16.880) Please go ahead.
+(36:17.880) Thank you.
+(36:18.880) Hi.
+(36:19.880) Thank you.
+(36:20.880) Thank you for taking my question again.
+(36:23.060) I just have a follow-up on the Neocloud question.
+(36:27.300) You mentioned hyperscale business model is a lot less attractive as compared to Neocloud.
+(36:32.940) Could you elaborate more on what makes Hyperscale business model less attractive as compared
+(36:38.620) to Neocloud B?
+(36:39.620) Thank you.
+(36:40.620) All right.
+(36:41.620) Sure.
+(36:42.620) So, as you can observe from NVIDIA's latest reporting structural change, they're breaking
+(36:56.220) out public cloud business and other cloud business.
+(37:04.100) The reason why they're doing that is the three hyperscalers are getting so big they have
+(37:09.500) a lot of leverage against their suppliers.
+(37:13.660) So doing business with them at this point is not as attractive as if you were to do
+(37:25.140) business with emerging players at NeoCloud and also corporate customers.
+(37:30.880) Granted, with corporate customers, their per order demand is a bit less.
+(37:38.340) So it'll take us and Systex to work together to secure several orders in order to fill
+(37:50.840) a data center.
+(37:52.020) So that's also why we see the synergy as being win-win for both sides.
+(37:57.260) So hopefully that answers your question.
+(37:59.800) See you.
+(38:07.980) Thank you.
+(38:08.740) Once again, ladies and gentlemen, if you'd like to register for questions,
+(38:11.780) please press star 1 on your telephone keypad.
+(38:14.120) Thank you.
+(38:14.560) Once again, ladies and gentlemen, that is now one for questions.
+(38:23.180) This is me, Mr. Lin.
+(38:25.640) There seems to be no further questions at this point in time.
+(38:31.560) Thank you.
+(38:32.560) All right.
+(38:33.560) Thank you, operator.
+(38:34.560) So, I want to thank everyone again for your support and we will look forward to seeing
+(38:39.800) you again at our next earnings call.
+(38:41.560) Bye-bye now.
+(38:42.560) Thank you.
+(38:43.560) Thank you for participation.
+(38:44.560) This concludes our conference.
+(38:45.560) Thank you.
+(38:46.560) Goodbye.
