@@ -6,6 +6,8 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----------:|:----:|
+| MU Micron Technology | FY2026 Q2 | 受邀法說 | 2026-09-30 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MU/financials/) |
+| MU Micron Technology | FY2026 Q2 | 財報 | 2026-09-30 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MU/financials/) |
 | 2356 英業達 | 2026 Q2 | 受邀法說 | 2026-09-24 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2356) |
 | ORCL Oracle Corporation | FY2026 Q3 | 法說會 | 2026-09-10 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ORCL/financials/) |
 | ORCL Oracle Corporation | FY2026 Q3 | 財報 | 2026-09-10 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ORCL/financials/) |
