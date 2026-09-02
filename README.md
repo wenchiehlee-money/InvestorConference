@@ -15,8 +15,8 @@
 | AVGO Broadcom Inc. | FY2026 Q1 | 受邀法說 | 2026-09-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AVGO/financials/) |
 | HPE Hewlett Packard Enterprise Co. | FY2026 Q1 | 財報 | 2026-09-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
 | AVGO Broadcom Inc. | FY2026 Q1 | 財報 | 2026-09-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AVGO/financials/) |
-| DELL Dell Technologies 戴爾科技 | FY2027 Q2 | 法說會 | 2026-09-01 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/DELL/financials/) |
-| DELL Dell Technologies 戴爾科技 | FY2027 Q2 | 財報 | 2026-09-01 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/DELL/financials/) |
+| DELL Dell Technologies 戴爾科技 | FY2027 Q2 | 法說會 | 2026-09-01 | [59.9 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/DELL_2027_q2.m4a) | [📄](data/DELL/DELL_2027_q2_transcript.pdf) | - | - | [EN](data/DELL/DELL_2027_q2_performance_review.pdf) ([MD](data/DELL/DELL_2027_q2_performance_review.md)) | - | [↗](https://finance.yahoo.com/quote/DELL/financials/) |
+| DELL Dell Technologies 戴爾科技 | FY2027 Q2 | 財報 | 2026-09-01 | - | - | - | - | [EN](data/DELL/DELL_2027_q2_report_en.pdf) ([MD](data/DELL/DELL_2027_q2_report_en.md)) / [Tables](data/DELL/DELL_2027_q2_financial_tables.pdf) ([MD](data/DELL/DELL_2027_q2_financial_tables.md)) | - | [↗](https://finance.yahoo.com/quote/DELL/financials/) |
 | 8299 群聯 | 2026 Q2 | 受邀法說 | 2026-08-28 | 無 | - | - | [中](data/8299/8299_2026_q2_ir.pdf) | [EN](data/8299/8299_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8299) |
 | 2882 國泰金 | 2026 Q2 | 財報 | 2026-08-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2882) |
 | 2882 國泰金 | 2026 Q2 | 法說會 | 2026-08-28 | [23.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2882_2026_q2.m4a) | [📝](data/2882/2882_2026_q2_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2882) |

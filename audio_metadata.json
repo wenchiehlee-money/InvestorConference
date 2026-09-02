@@ -570,6 +570,18 @@
     "source": "local_file",
     "status": "ok"
   },
+  "DELL_2027_q2": {
+    "captured_media_url": "https://od.cdn.webcasts.com/securehds/_definst_/mp4:dell001/1747682/d94d9a0909c9822798c5f9b6bf7e4959effda192_1.m4a/chunklist.m3u8",
+    "checked_at": "2026-09-02",
+    "duration_sec": 3596.053,
+    "file": "data/DELL/DELL_2027_q2.m4a",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/DELL_2027_q2.m4a",
+    "sha256": "d3b0c5d483a44315ff93f16774d6ee1f047b4c53dbef2c0bfdc628209a9108de",
+    "size_bytes": 41728739,
+    "source": "official_webcast_replay",
+    "source_url": "https://event.webcasts.com/starthere.jsp?ei=1747682&tp_key=d94d9a0909",
+    "status": "ok"
+  },
   "NVDA_2027_q2": {
     "checked_at": "2026-08-30",
     "duration_sec": 3570.457,
