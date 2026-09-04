@@ -1,0 +1,394 @@
+[METADATA]
+Source: AVGO_2026_q3_exp11
+Language: zh
+---
+(00:00.000) 歡迎來到Broadcom Inc.'s 3rd Quarter Fiscal Year 2026 Financial Results Conference Call。
+(00:06.960) 在這時候,為了開啟聲明和介紹,我會把電話打給GU,Broadcom Inc.'s Investor Relations Head.
+(00:15.260) 請進去吧。
+(00:16.540) 謝謝,Cherie,大家早上好。
+(00:27.410) Chief Financial Officer
+(01:02.390) 字幕志願者 楊茜茜
+(02:02.170) I will now turn the call over to Hawks.
+(20:25.440) and represented 30% of our total revenue
+(20:36.650) 領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領域的領�
+(20:42.770) to approximately 84%
+(20:44.970) moving on to the balance sheet
+(20:55.990) up 4.3 billion sequentially
+(20:58.970) 第三季的收入是4.5億元,以支持我們的強化半導體需求。
+(21:06.180) Moving on to cash flow
+(21:08.950) 接下來是收入,前半季的免稅收入是13.7億元,
+(21:13.250) and represented 46% of revenue
+(21:16.110) 前半季的資金額值532億元。
+(21:20.960) Turning to capital allocation
+(21:58.350) In June,
+(22:00.820) In June,
+(22:15.200) 我們在6月份就將關閉第一個$35億的傳播產品
+(22:23.660) which is already underway.
+(23:40.380) 我們認為這些選擇是低風險的,
+(23:45.420) 支持了這些研究室的強勢利益和持續的賺錢。
+(23:54.510) moving on to guidance
+(23:55.650) 我們的指導目標是
+(24:05.100) 93% year on year
+(24:07.700) 為34.8億元的積極性資金
+(24:13.560) up 136% year on year
+(24:17.330) Within this,
+(24:18.090) Within this,
+(24:23.640) up over 236% year-on-year.
+(24:34.200) 25%.
+(24:36.970) Moving on to margins.
+(24:40.220) moving on to margins
+(24:50.570) down from 78% a year ago.
+(24:53.960) As we've discussed previously,
+(25:00.000) with their increasing memory content
+(25:05.870) Regardless,
+(25:06.830) Regardless,
+(25:12.160) flat from a year ago,
+(25:14.000) because our strong revenue growth
+(25:20.240) We expect the non-GAAP tax rate for Q4
+(25:25.840) to be approximately 16%
+(25:30.680) and the geographic mix of income
+(26:02.550) 優優獨播劇場——YoYo Television Series Exclusive
+(26:18.340) 在每個月內更新
+(26:58.240) 您談到
+(27:01.020) 您說需求
+(27:03.440) 可能會比那些更高
+(27:06.240) 那些供應的框架是什麼,
+(27:08.200) 那些供應的框架是什麼,
+(27:11.700) if you're able to resolve them
+(27:13.220) 那是一個很浪費的問題。
+(29:10.020) Your line is open
+(29:10.920) Hey guys, thanks for my question
+(29:13.100) 我還想關注Jose的關於供應,這是一個很重要的關鍵點。
+(29:16.660) 你能不能說說,從一個配置,或者是一個互聯網的代替,
+(29:22.380) 有沒有任何XPUs決定使用你的新加坡快遞,
+(29:27.340) 以及如何將這些供應圖片放在一起?
+(29:58.930) 我可以給你另一個答案,因為那是一個短時間的答案。
+(30:06.030) 我給你一個簡單的解釋。
+(30:08.210) 你給的Google號碼,你說10Gbps是專業的。
+(30:11.390) 這不是一個數字,10Gbps是專業的。
+(30:16.080) 謝謝
+(30:24.400) 我們下個問題的一分鐘
+(30:28.150) 然後我們來到
+(30:30.410) JP Morgan的Harlan Sir
+(30:33.070) 你的話題開了
+(30:33.910) 好的 早上好
+(30:35.980) 謝謝你提出我的問題
+(30:37.860) Hawk 你的客戶
+(30:39.200) 在駕駛XPU
+(30:40.440) GPU的表現更高
+(30:42.600) 聯絡幅度
+(30:44.110) 也在增加
+(30:45.050) 你的客戶
+(30:46.470) 現在在從
+(30:47.450) 100Gbps
+(30:49.790) 到200Gbps
+(30:53.100) 從Tomahawk 5
+(30:54.540) 到Tomahawk 6
+(30:55.580) 我們聽到
+(30:56.460) Tomahawk 6
+(31:01.380) 我們也聽說你們幾乎已經賣出了Tamahawk 6
+(31:05.360) 下年我還不確定你能否給我們更新
+(31:08.820) 而且也很高興看到團隊擁有了Tamahawk 7
+(31:12.740) 與Toronto Geek Surdeys
+(31:14.080) 除了你的六個基礎型XPU顧客
+(31:17.200) 多少人都在使用Tamahawk Scale-Out聯絡
+(31:21.280) 你能不能給我們更新
+(31:23.520) 你的Tamahawk Ultra Scale-Up平臺的使用呢
+(32:20.010) Charlie, we'll take this question.
+(32:21.430) Low Latency Ethernet
+(32:22.750) The adoption also on this device
+(32:25.810) has surprised us
+(32:26.750) and we're starting to see it deployed
+(32:29.490) starting actually this quarter
+(32:31.030) and in FY27
+(32:32.410) coming up in scale-up applications
+(32:36.220) What Charlie is saying
+(32:56.920) Ethernet won't be able to do it
+(33:13.140) with REST
+(33:14.960) Thanks Charlie
+(33:20.890) Thanks Hawk
+(33:21.490) One moment for our next question
+(33:25.120) And now we'll come from the line
+(33:28.680) of Stacy Raskon
+(33:29.940) with Bernstein
+(33:30.680) Your line is open
+(33:31.720) Hi guys
+(33:33.290) Thanks for taking my questions
+(33:34.730) I just wanted to verify
+(33:36.430) If I add up the gigawatts
+(33:38.950) I'm still getting roughly 10 for 27
+(33:42.330) 27,有約6個是安卓的
+(33:44.800) and roughly 20 for 28
+(33:47.270) 28的電話
+(33:50.530) 是安卓的
+(33:52.630) and if it is
+(33:53.770) and if it is
+(33:56.550) I come out with your revenue guys
+(33:57.910) I come out with your revenue guys
+(34:00.550) 你的顧客建議是40
+(34:04.720) and I'm just wondering
+(34:09.950) 您的內容是如何向前推進?
+(34:14.310) 我們將進行更多的XPU 轉移,
+(34:18.820) 以更高的能量和更高的記憶力,如何向前推進?
+(34:22.980) 首先,我們要先調整GW的數量,
+(34:24.460) 然後我們要再調整內容。
+(34:26.360) Stacey,你很聰明。
+(34:28.470) 你提出了兩個困難的問題。
+(34:34.050) 讓我解釋一下。
+(34:38.760) 我們沒有告訴你,
+(35:36.650) 他們要把數據中心放在一起
+(35:55.880) 談論2.4728
+(36:09.210) 30GW
+(36:10.960) 會進行生產
+(36:12.100) 如果有人進行生產
+(36:53.760) 250億
+(37:01.760) 信心
+(37:08.150) 我們的下一個問題
+(38:03.830) 來自Ben Reitz
+(38:07.730) 你的話題開了
+(38:09.650) 我是Ben
+(38:12.870) 謝謝你問的問題
+(38:15.070) 你能否顯示更多燈光
+(38:17.000) 最高的折扣風險
+(38:18.720) 和背景協議
+(38:20.680) 你的最後的圖表顯示
+(38:22.940) 第一層的預測量
+(38:25.180) 有29億以上的規模
+(38:26.620) 這是屬於每個
+(38:29.340) 近期幾個多月內的
+(38:30.340) 國際智力和理論預測量的
+(38:32.500) 預測量的預測量嗎
+(38:34.250) 你能不能添加一點顏色
+(38:36.790) 在這方面的預測量
+(38:38.770) 以及相關的風險
+(38:41.030) 請問我們今天沒有
+(38:46.700) 寫明任何預測量的
+(38:50.060) 預約或背景
+(38:51.220) 所以沒有任何新的東西要添加
+(38:53.890) 所以您所描述的數據
+(38:58.230) 仍然是正確的
+(39:01.110) 我已經準備了準備的評論
+(39:06.870) 我們期望我們將會做的任何事
+(39:10.010) they're going to have unique features
+(39:11.770) 而且將會具有
+(39:16.230) And to the investor needs
+(39:20.770) and what each one's going to look like
+(39:22.210) But we will tell you at the right time
+(39:24.530) We have nothing to announce today
+(39:25.950) Thank you
+(39:38.000) One moment for our next question
+(39:39.500) 來自Vivac Aria
+(39:41.800) with Bank of America
+(39:42.740) Your line is open
+(39:43.920) Thanks for taking my question
+(39:46.850) Amy I just wanted to clarify
+(39:48.330) any impact on gross margins in 27 and 28
+(39:58.670) will be your largest AI customers
+(40:02.430) Even though Google continues to say
+(40:04.410) they are supply constraints
+(40:05.710) so why aren't they
+(40:06.870) you know taking more
+(40:08.110) and in many cases
+(40:09.050) these frontier labs
+(40:10.330) depend on land
+(40:11.910) power shell
+(40:12.710) from their cloud service providers
+(40:14.750) you know sometimes
+(40:15.650) and very related entities
+(40:16.950) so how much of their use of silicon
+(40:18.870) is truly their choice
+(40:20.650) versus what their
+(40:22.290) CSP or funding partner
+(40:24.010) decades
+(40:24.910) I'm just curious
+(40:25.820) you know what gives you
+(40:27.180) the certainty
+(40:27.680) that they will give
+(40:28.940) Broadcom
+(40:29.560) right that specific business
+(40:31.300) in you know
+(40:32.600) 27 or 28
+(40:33.560) 那麼他們的資金有多麼依靠其他互聯網服務供應公司
+(40:38.540) 所以他們可能會有不同的看法
+(40:40.280) 對於那些具有特定的機構的選擇
+(40:43.920) 最好的方法是
+(40:46.130) 幾個方向
+(40:48.200) 幾個目標
+(41:25.810) 他們需要去
+(41:27.080) 這些互聯網服務
+(41:35.540) 這些
+(41:37.320) 就像在想
+(41:38.380) 我說
+(41:40.130) 有兩個天賦
+(41:41.310) 在中間
+(41:42.860) 我們做我們可以的事
+(41:53.210) 來幫助他們
+(41:53.610) 其中一部分是
+(41:54.450) 提供資源
+(41:58.140) 這些公司
+(42:00.840) 全球模型在世界上能夠提供這些
+(42:11.800) 我們在做的東西是一個很好的投資
+(42:18.770) 每個Gigawatt的計算機
+(42:24.020) 能夠達到30億Gigawatt
+(42:32.820) 我們的商業模型是一個高級計算機
+(43:37.290) 能夠執行自己的數據中心
+(43:39.460) 能夠成為第一個提供AI
+(43:42.020) Generative AI API
+(43:44.480) 我們看到這些事實發生
+(43:48.840) 這些事實發生
+(43:51.520) 我們正在提供這些
+(43:55.490) 我願意接受您的股份問題
+(43:59.320) 首先我想要確定我剛才說的
+(44:02.820) 就是要非常細膩
+(44:04.580) 我們的細膠解決項目成本
+(44:07.780) 大約有六個
+(44:09.280) 分別是細膠解決項目
+(44:19.070) 然後在細膠解決項目之中
+(44:23.150) 亦有分別是
+(44:24.730) 產品混合
+(44:25.870) 還增加了記憶內容
+(44:29.060) 當我們的細膠解決項目
+(44:35.110) 變得更大
+(44:35.270) 這就影響了我們的成本
+(44:36.330) 我們每個月都會告訴大家
+(44:39.420) so we'll tell you each quarter
+(44:42.340) the first time we've told you guys that
+(44:45.330) Because stop focusing on gross margin
+(44:48.820) It's what we are saying
+(44:49.580) Look at where it matters
+(44:50.920) look at where net is
+(44:53.660) At the end of the day
+(44:54.580) 在最後的領域,
+(45:09.460) Operating leverage we call it
+(45:12.870) Operating margin
+(45:14.630) One moment for our next question
+(45:29.450) 我們接下來的問題是從Tom O'Malley的網站,您的網站已經開了。
+(45:34.160) Your line is open
+(45:35.140) Thanks for taking the question
+(45:38.050) This one is for Hawk and Charlie
+(45:39.330) this one is for Hock and Charlie
+(45:44.650) 我們應該怎麼想要把Tomahawk Ultra的連接率
+(45:47.670) to the ASICs that you're developing?
+(45:49.330) I would assume that
+(45:52.670) for an ASIC
+(45:56.010) maybe some kind of forecast
+(45:58.810) are using your Tomahawk Ultra
+(46:00.010) How many are using Ethernet
+(46:01.450) how many are using Ethernet
+(46:04.550) is going to lead to
+(46:07.190) 有任何幫忙的話,那會很棒的,謝謝。
+(46:08.750) 好的,沙尼。
+(46:11.940) 對,
+(46:12.300) 關於接觸率,
+(46:15.180) 今天我們實際上看到客戶建造XPUs,
+(46:20.740) 或者是Tamahawk 6,以前是Tamahawk 5,現在是Tamahawk 6,
+(46:27.880) 而有些人是Tamahawk Ultra。
+(46:30.380) 如果你看到我們看到的XPUs和甚至GPUs,
+(46:35.980) 我們看到高級解決方案,
+(46:38.000) 與Somahawk-6與Somahawk-Ultra合作
+(46:42.130) 他們為此做的原因是
+(46:44.910) 正如Hawk早前提到的
+(46:47.190) 它是以Ethernet基礎
+(46:48.910) 也就是它是開放的
+(46:50.090) 任何人都可以與它聯繫
+(46:52.250) 尤其是與我們整個企業
+(46:57.030) 合作的標準
+(46:57.350) 所以在現在的情況下
+(46:59.210) 我們看到它在XPU上
+(47:02.910) 和一些GPU硬件上
+(47:12.100) 我們下一個問題
+(47:19.150) 好的,謝謝你接受我的問題,恭喜你得到好的結果和你給的非常印象深刻的長期觀察。
+(47:28.640) 你能不能告訴我們一些關於土地力量和銷量的限制?
+(47:35.240) 你之前提到這一點,
+(47:36.460) 但是我想問到什麼程度來說,
+(47:38.660) 觀察是與可能的限制有關的。
+(47:43.440) 謝謝。
+(49:27.180) 謝謝
+(49:29.820) 我們期待這些軟件被確保
+(49:32.500) 謝謝
+(49:33.460) 我認為,
+(49:34.920) 我認為在每個情況下
+(50:11.260) 我們的夥伴們將要尋找很多不同的源頭
+(50:15.380) 在某些情況下,我們可能會進入並幫助
+(50:18.700) 如果對我們有意義
+(50:19.940) 如果在我們的框架中
+(50:23.120) 而在其他情況下,我們可能不
+(50:24.700) 但我們將要看一看各種情況
+(50:26.260) 並分析,你知道,分析具體的需要
+(50:30.380) 謝謝你兩個
+(50:33.010) One moment for our next question
+(50:36.080) 然後我們會來自
+(50:39.960) Your line is open
+(50:40.720) Thanks for taking my question
+(50:44.100) 謝謝您接受我的問題
+(50:45.920) 您能否解釋其他影響您的目標的限制呢?
+(50:49.220) You mentioned land power shell
+(50:50.860) 您提到地力車,您認為這是您面臨的最大限制嗎?
+(50:54.160) heading into fiscal 27
+(50:55.540) 在今年二十七年,您能否具體解釋其他供應銀行的限制?
+(50:59.800) whether it be memory substrates
+(51:03.260) 或其他能夠影響你的外圍
+(51:06.460) 到什麼程度你能夠期待
+(51:08.420) 它們能夠升級
+(51:10.680) 謝謝
+(53:00.150) multidimensional problem
+(53:05.200) coming from various sources
+(53:07.320) and then depending on different times
+(53:09.880) become a bottleneck
+(53:11.950) so it's a constant interesting challenge
+(53:15.340) to deal with
+(53:21.580) Thank you
+(53:27.130) Our next question
+(53:29.160) that will come from the line
+(53:30.440) of Vijay Rakesh with Mizuho
+(53:32.520) Your line is open
+(53:33.560) Hi, thanks Hawk and Amy
+(53:36.820) Just a quick question
+(53:38.140) Thanks for doing the visibility
+(53:40.360) on fiscal 27 and fiscal 28 AI revenues
+(53:43.660) 這是一個很簡單的問題
+(53:44.820) 如果您能夠通過
+(53:45.500) XPU的隨續年代
+(53:47.200) 您能夠談談
+(53:49.320) 您的1美元每GW
+(53:51.260) 應該如何改善
+(53:54.700) 隨續XPU的年代
+(53:56.520) 還有我看到
+(53:57.760) 你的CAPEX升了
+(53:58.680) 我只是在問
+(53:59.400) 您是否在增加
+(54:00.100) EML CW
+(54:03.420) GEMPHOSPHIDE的能力
+(54:04.840) 謝謝
+(54:10.760) 我和你
+(54:16.640) 在幾個月內
+(54:17.700) 我們繼續投資
+(54:19.180) 在我們的工廠中
+(54:21.000) 在生產中
+(54:25.570) EML,
+(54:28.990) CW,
+(54:30.550) Vixel,
+(54:31.670) 也在新加坡和新加坡的發酵工程中,
+(54:49.660) 我提到的這一點,
+(55:22.290) Gigawatt,
+(55:27.000) 這是非常有趣的
+(55:28.420) because in mines,
+(55:31.070) which is common,
+(55:34.020) there are power increase,
+(56:07.290) but it's a bit advanced in dollars,
+(56:32.540) because for the chip,
+(56:45.570) the content in dollars,
+(56:48.240) 會有很多更多的1GW
+(56:54.240) 1GW每個美元
+(57:01.500) 但我們必須看到
+(57:08.710) got it,
+(57:16.590) thanks,
+(57:16.890) very interesting talk,
+(57:17.990) and Charlie,
+(57:18.650) thank you.
+(57:19.170) 謝謝
+(57:28.400) Thank you, Cherie.
+(57:30.080) This quarter,
+(57:36.970) September 8th.
+(57:47.580) December 9th,
+(57:48.920) 2026.
