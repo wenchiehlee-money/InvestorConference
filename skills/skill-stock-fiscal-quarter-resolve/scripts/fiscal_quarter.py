@@ -36,6 +36,8 @@ KNOWN_US_FISCAL_YEAR_START_MONTH = {
     "MSFT": 7,    # July
     "NVDA": 2,    # February (FY starts Feb 1)
     "DELL": 2,    # February (FY starts Feb 1)
+    "AVGO": 11,   # November (FYE ~early Nov; SEC EDGAR fiscal-year-end 11/01)
+    "HPE": 11,    # November (FYE Oct 31; Q3 FY2026 ended 2026-07-31)
 }
 
 # US stocks whose fiscal year equals the calendar year, but whose upstream

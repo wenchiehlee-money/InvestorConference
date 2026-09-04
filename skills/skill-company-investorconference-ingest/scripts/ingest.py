@@ -156,6 +156,17 @@ KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
         ("performance_review", "https://delltechnologies.gcs-web.com/static-files/5d15be71-1d9a-45ec-8308-8987fb41084d"),
         ("transcript", "https://delltechnologies.gcs-web.com/static-files/a24f97e4-63b2-460d-a4be-44738826e8ce"),
     ],
+    ("HPE", "2026", "3"): [
+        ("report_en", "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-press-release.pdf"),
+        ("financial_tables", "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-quarterly-results.pdf"),
+        ("performance_review", "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-presentation.pdf"),
+    ],
+    # AVGO ("AVGO", "2026", "3") report_en is sourced from the SEC 8-K Exhibit 99.1
+    # (https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm),
+    # which is HTML, not a downloadable PDF. Converted to
+    # data/AVGO/AVGO_2026_q3_report_en.md by hand; see data/AVGO/AVGO_2026_q3_sources.json.
+    # investors.broadcom.com itself is unreachable from headless/requests fetches in this
+    # environment (connection hangs), so no entry is registered here for that host.
 }
 
 # IR portal URLs for US stocks (ticker -> IR URL)
@@ -180,6 +191,7 @@ KNOWN_US_WEBCASTS_BY_QUARTER = {
     ("NVDA", "2027", "2"): "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-2nd-Quarter-FY27-Financial-Results/default.aspx",  # Q2FY27 results call 2026-08-26 2pm PT
     ("DELL", "2026", "1"): "https://event.webcasts.com/starthere.jsp?ei=1747660&tp_key=82c5169428",  # Q1FY27 results call 2026-05-28
     ("DELL", "2027", "2"): "https://event.webcasts.com/starthere.jsp?ei=1747682&tp_key=d94d9a0909",  # Q2FY27 results call 2026-09-01
+    ("HPE", "2026", "3"): "https://event.choruscall.com/mediaframe/webcast.html?webcastid=ycWBiZdW",  # Q3FY26 results call 2026-09-02
 }
 
 # Quarter-specific Yahoo Finance earnings transcript pages.
@@ -198,6 +210,8 @@ KNOWN_US_STOCKS = {
     "QCOM": ("Qualcomm",   "高通"),
     "DELL": ("Dell Technologies", "戴爾科技"),
     "GOOGL": ("Alphabet Inc.", ""),
+    "AVGO": ("Broadcom Inc.", "博通"),
+    "HPE": ("Hewlett Packard Enterprise Co.", "慧與科技"),
 }
 
 # KNOWN_US_CALENDAR_YEAR_EARNINGS, KNOWN_US_FISCAL_YEAR_START_MONTH, and

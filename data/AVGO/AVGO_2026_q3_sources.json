@@ -1,0 +1,25 @@
+{
+  "ticker": "AVGO",
+  "fiscal_year": "2026",
+  "fiscal_quarter": "3",
+  "event_date": "2026-09-02",
+  "sources": [
+    {
+      "source_type": "SEC 8-K Exhibit 99.1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm",
+      "accession": "0001730168-26-000076",
+      "retrieved_at": "2026-09-04T00:00:00Z",
+      "sha256_of_conversion": "a5c5ce8a24b9250afb714ad237d26b0f5c9f7ab60670fde0562503ebec4c23ef",
+      "local_file": "data/AVGO/AVGO_2026_q3_report_en.md",
+      "notes": "Converted from official SEC EDGAR HTML exhibit (press release text + full financial tables) to Markdown; narrative and table content preserved verbatim, only markup stripped."
+    }
+  ],
+  "quarter_label_mismatch": {
+    "csv_label": "FY2026 Q1",
+    "correct_label": "FY2026 Q3",
+    "evidence": "SEC 8-K filed 2026-09-02 explicitly titled Third Quarter Fiscal Year 2026; fiscal quarter ended 2026-08-02.",
+    "root_cause": "raw_event_upcoming_earnings.csv event name literally embedded the wrong \"FY2026 Q1\" text; AVGO/HPE were missing from KNOWN_US_FISCAL_YEAR_START_MONTH in skills/skill-stock-fiscal-quarter-resolve, so update_readme() could not override the bad CSV label. Fixed by registering AVGO/HPE with fiscal-year-start-month=11.",
+    "side_effect": "The wrong FY2026 Q1 label also caused the >50-day invited-conference heuristic to misclassify this event as 受邀法說 instead of 法說會; corrected once the fiscal quarter resolves to Q3."
+  },
+  "audio_status": "Not ingested. Broadcom conference call replay is only accessible via investors.broadcom.com (blocked outbound from this environment — connection hangs / no response); requires interactive Playwright/chrome-devtools escalation per skill-company-investorconference-ingest SKILL.md."
+}
