@@ -21,5 +21,16 @@
     "root_cause": "raw_event_upcoming_earnings.csv event name literally embedded the wrong \"FY2026 Q1\" text; AVGO/HPE were missing from KNOWN_US_FISCAL_YEAR_START_MONTH in skills/skill-stock-fiscal-quarter-resolve, so update_readme() could not override the bad CSV label. Fixed by registering AVGO/HPE with fiscal-year-start-month=11.",
     "side_effect": "The wrong FY2026 Q1 label also caused the >50-day invited-conference heuristic to misclassify this event as 受邀法說 instead of 法說會; corrected once the fiscal quarter resolves to Q3."
   },
-  "audio_status": "Not ingested. Broadcom conference call replay is only accessible via investors.broadcom.com (blocked outbound from this environment — connection hangs / no response); requires interactive Playwright/chrome-devtools escalation per skill-company-investorconference-ingest SKILL.md."
+  "audio_status": "Ingested via Google Finance earnings-tab secondary fallback (skill-company-investorconference-ingest SKILL.md \"Google Finance earnings tab secondary fallback\") after investors.broadcom.com itself proved unreachable from this environment (connection hangs / no response).",
+  "audio_source": {
+    "source_type": "google_finance_quartr",
+    "source_url": "https://www.google.com/finance/beta/quote/AVGO:NASDAQ?tab=earnings",
+    "captured_media_url": "https://files.quartr.com/audio-files/01a06437-d6d2-7154-a575-4b4fe260af9f/master.m3u8?ref=R29vZ2xl",
+    "page_confirmed_label": "Fiscal Q3 2026 earnings call",
+    "retrieved_at": "2026-09-04T00:00:00Z",
+    "duration_sec": 3488.17,
+    "sha256": "5149f841d7ed2b673c3d10b49a3829d0b1b108612802dbf8d2792a2d19107a8d",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/AVGO_2026_q3.m4a",
+    "local_file": "data/AVGO/AVGO_2026_q3.m4a"
+  }
 }

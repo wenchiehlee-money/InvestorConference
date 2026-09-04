@@ -570,6 +570,19 @@
     "source": "local_file",
     "status": "ok"
   },
+  "AVGO_2026_q3": {
+    "captured_media_url": "https://files.quartr.com/audio-files/01a06437-d6d2-7154-a575-4b4fe260af9f/master.m3u8?ref=R29vZ2xl",
+    "checked_at": "2026-09-04",
+    "duration_sec": 3488.17,
+    "file": "data/AVGO/AVGO_2026_q3.m4a",
+    "note": "Secondary discovery source per skill-company-investorconference-ingest Google Finance earnings-tab fallback; company IR/webcast replay was blocked or requires interactive browser session.",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/AVGO_2026_q3.m4a",
+    "sha256": "5149f841d7ed2b673c3d10b49a3829d0b1b108612802dbf8d2792a2d19107a8d",
+    "size_bytes": 28950360,
+    "source": "google_finance_quartr",
+    "source_url": "https://www.google.com/finance/beta/quote/AVGO:NASDAQ?tab=earnings",
+    "status": "ok"
+  },
   "DELL_2027_q2": {
     "captured_media_url": "https://od.cdn.webcasts.com/securehds/_definst_/mp4:dell001/1747682/d94d9a0909c9822798c5f9b6bf7e4959effda192_1.m4a/chunklist.m3u8",
     "checked_at": "2026-09-02",
@@ -580,6 +593,19 @@
     "size_bytes": 41728739,
     "source": "official_webcast_replay",
     "source_url": "https://event.webcasts.com/starthere.jsp?ei=1747682&tp_key=d94d9a0909",
+    "status": "ok"
+  },
+  "HPE_2026_q3": {
+    "captured_media_url": "https://files.quartr.com/audio-files/01a06414-9c08-75b7-9214-9b068bf47229/master.m3u8?ref=R29vZ2xl",
+    "checked_at": "2026-09-04",
+    "duration_sec": 3850.965,
+    "file": "data/HPE/HPE_2026_q3.m4a",
+    "note": "Secondary discovery source per skill-company-investorconference-ingest Google Finance earnings-tab fallback; company IR/webcast replay was blocked or requires interactive browser session.",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/HPE_2026_q3.m4a",
+    "sha256": "b0e8e4a41f67b9f57b156c3024df68994b462f09584346b6c3fbc33d0cfb496b",
+    "size_bytes": 61912955,
+    "source": "google_finance_quartr",
+    "source_url": "https://www.google.com/finance/beta/quote/HPE:NYSE?tab=earnings",
     "status": "ok"
   },
   "NVDA_2027_q2": {
