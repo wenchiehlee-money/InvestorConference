@@ -78,7 +78,10 @@ Ingest 必須把來源分成兩層，且不得讓二級來源覆蓋一級來源�
 
 #### Google Finance earnings tab secondary fallback
 
-若公司 IR、官方 webcast/replay 與 MOPS/TWSE 都沒有取得音檔，Ingest 可把 Google Finance earnings tab 當作二級 discovery fallback，例如 `https://www.google.com/finance/beta/quote/2382:TPE?tab=earnings`。這個來源常由 Quartr 提供文件、逐字稿或 HLS replay audio，可補足 README 中暫列 `無` 的音檔缺口。
+若公司 IR、官方 webcast/replay 與 MOPS/TWSE 都沒有取得音檔，Ingest 可把 Google Finance earnings tab 當作二級 discovery fallback，例如 `https://www.google.com/finance/beta/quote/2382:TPE?tab=earnings`（台股，固定 `:TPE` 後綴）或 `https://www.google.com/finance/beta/quote/AVGO:NASDAQ?tab=earnings`（美股，交易所後綴依 ticker 而異）。這個來源常由 Quartr 提供文件、逐字稿或 HLS replay audio，可補足 README 中暫列 `無` 的音檔缺口。
+
+> [!NOTE]
+> 美股 ticker 沒有像台股 `:TPE` 這種固定後綴，需要逐一在 `ingest.py` 的 `KNOWN_US_GOOGLE_FINANCE_EXCHANGE` 登記 `{ticker: exchange}`（例如 `AVGO: NASDAQ`、`HPE: NYSE`）才會啟用；未登記的 ticker，`scrape_google_finance_earnings_audio()` / `fetch_google_finance_transcript()` 會直接回傳空結果，不會猜測交易所或假造候選網址。新增一個美股 ticker 前，必須先手動打開該頁面確認交易所後綴正確、且頁面能顯示目標 `Fiscal Q{N} {Year}` 文字，才可登記。已驗證：AVGO FY2026 Q3、HPE FY2026 Q3（2026-09-04 ingest）。
 
 使用條件：
 
@@ -89,6 +92,8 @@ Ingest 必須把來源分成兩層，且不得讓二級來源覆蓋一級來源�
 5. 若 URL 含會議日期（例如 `/streams/2026-07-30/...`），日期必須落在目標季度的法說會窗口。
 6. 下載後仍要通過 checksum、duration、duplicate gate；成功時 `audio_metadata.json` 必須記錄 `source: google_finance_quartr`、Google Finance page `source_url`、實際 `captured_media_url` 與 secondary-source note。
 7. Google/Quartr 只能補音檔、逐字稿與 discovery metadata；README 的季度、日期、事件類型與官方 PDF 判定仍以一級來源為準。
+
+**逐字稿（transcript）**：同一個 earnings tab 頁面通常也內嵌 Quartr 提供的完整逐字稿（含講者姓名/職稱與時間戳記，從開場到 Q&A 到 operator 結束語）。`fetch_google_finance_transcript(stock_id, year, quarter, stem, save_dir)` 會捲動該頁面觸發逐字稿區塊 lazy-load、以同一個 `Fiscal Q{N} {Year}` 文字比對確認季度，再存成 `{stem}_google_finance_transcript.md`（清除 UI 雜訊如 `music_history`/`Listen from here`，保留講者標題與時間戳）。這個檔案的地位等同 `_yahoo_transcript.md`／`_alphaspread_transcript.md`：只是補充來源，數字與引言仍以公司 IR/SEC filing 及官方音檔為準；`ingest_earnings_audio()` 的 `done()` 已將它接在 AlphaSpread/Yahoo transcript 之後、都沒有結果時自動嘗試一次。
 
 若一級與二級來源衝突，例如第三方索引把公司官方 `2026 Q2` 法說會標成 `2026Q3`：
 

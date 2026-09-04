@@ -947,8 +947,37 @@ def _is_google_finance_media_candidate(url: str) -> bool:
     return not any(token in low for token in blocked)
 
 
+# Google Finance's earnings tab identifies a US stock as "{TICKER}:{EXCHANGE}"
+# rather than a fixed suffix like TW's ":TPE" for every ticker, so US tickers need
+# an explicit per-ticker exchange lookup. Only add a ticker once its exchange has
+# been verified to resolve to a real, quarter-matching earnings tab page -- an
+# unknown/wrong exchange silently returns {} rather than fabricating a candidate.
+KNOWN_US_GOOGLE_FINANCE_EXCHANGE = {
+    "NVDA": "NASDAQ",
+    "AAPL": "NASDAQ",
+    "MSFT": "NASDAQ",
+    "TSLA": "NASDAQ",
+    "AMD": "NASDAQ",
+    "QCOM": "NASDAQ",
+    "DELL": "NYSE",
+    "GOOGL": "NASDAQ",
+    "AVGO": "NASDAQ",
+    "HPE": "NYSE",
+}
+
+
 def _google_finance_exchange_for_market(market: str) -> str | None:
     return {"TW": "TPE"}.get(market)
+
+
+def _google_finance_source_url(stock_id: str, market: str) -> str | None:
+    """Return the Google Finance earnings-tab URL for stock_id, or None if unmapped."""
+    exchange = _google_finance_exchange_for_market(market)
+    if not exchange and market == "US":
+        exchange = KNOWN_US_GOOGLE_FINANCE_EXCHANGE.get(stock_id.upper())
+    if not exchange:
+        return None
+    return f"https://www.google.com/finance/beta/quote/{stock_id}:{exchange}?tab=earnings"
 
 
 def scrape_google_finance_earnings_audio(stock_id: str, year: str, quarter: str) -> dict:
@@ -957,14 +986,13 @@ def scrape_google_finance_earnings_audio(stock_id: str, year: str, quarter: str)
 
     Google/Quartr must not override company IR, MOPS/TWSE, or other primary sources. This
     fallback only returns a reusable media URL when the rendered page identifies the target
-    fiscal quarter and exposes a recorded audio manifest.
+    fiscal quarter and exposes a recorded audio manifest. Works for both TW (fixed :TPE
+    suffix) and US tickers registered in KNOWN_US_GOOGLE_FINANCE_EXCHANGE.
     """
     market = detect_market(stock_id)
-    exchange = _google_finance_exchange_for_market(market)
-    if not exchange:
+    source_url = _google_finance_source_url(stock_id, market)
+    if not source_url:
         return {}
-
-    source_url = f"https://www.google.com/finance/beta/quote/{stock_id}:{exchange}?tab=earnings"
     target_year, month_min, month_max = _quarter_date_window(year, quarter)
     fiscal_tokens = [
         f"Fiscal Q{quarter} {year}",
@@ -1052,6 +1080,103 @@ def scrape_google_finance_earnings_audio(stock_id: str, year: str, quarter: str)
             "company IR/MOPS/TWSE sources remain primary."
         ),
     }
+
+
+def fetch_google_finance_transcript(stock_id: str, year: str, quarter: str, stem: str, save_dir: Path) -> list[Path]:
+    """
+    Fetch the Quartr-provided call transcript embedded in a Google Finance earnings tab.
+
+    Same secondary-source status as scrape_google_finance_earnings_audio(): only saved
+    when the rendered page confirms the target fiscal quarter (the same
+    "Fiscal Q{quarter} {year}" token check), and never treated as a substitute for
+    company IR / SEC filings / official audio for figures or quotes.
+
+    Saves {stem}_google_finance_transcript.md, or returns [] if the page has no
+    matching transcript.
+    """
+    market = detect_market(stock_id)
+    source_url = _google_finance_source_url(stock_id, market)
+    if not source_url:
+        return []
+
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        print("[Google-Finance] playwright not installed; skipping transcript fetch.")
+        return []
+
+    fiscal_tokens = [f"Fiscal Q{quarter} {year}", f"Q{quarter} {year} earnings", f"Q{quarter} {year} Earnings"]
+
+    print(f"[Google-Finance] Fetching transcript: {source_url}")
+    body_text = ""
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-setuid-sandbox"])
+            page = browser.new_page(user_agent=UA)
+            page.goto(source_url, wait_until="domcontentloaded", timeout=45000)
+            page.wait_for_timeout(3000)
+            # The transcript panel lazy-loads more speaker segments as you scroll it;
+            # keep scrolling until the rendered body text stops growing.
+            prev_len, stable = 0, 0
+            for _ in range(60):
+                page.mouse.wheel(0, 2000)
+                page.wait_for_timeout(400)
+                body_text = page.locator("body").inner_text(timeout=5000)
+                if len(body_text) == prev_len:
+                    stable += 1
+                    if stable >= 5:
+                        break
+                else:
+                    stable = 0
+                prev_len = len(body_text)
+            browser.close()
+    except Exception as e:
+        print(f"[Google-Finance] Transcript browser fetch failed: {e}")
+        return []
+
+    if not any(token in body_text for token in fiscal_tokens):
+        print("[Google-Finance] Target fiscal quarter text not confirmed on transcript page; skipping.")
+        return []
+
+    start = body_text.find("Call transcript")
+    end = body_text.find("Related earnings")
+    if start == -1 or end == -1 or end <= start:
+        print("[Google-Finance] No 'Call transcript' section found.")
+        return []
+    seg = body_text[start:end]
+
+    drop_exact = {"Call transcript", "summarize_auto", "expand_more", "expand_all", "music_history", "Listen from here"}
+    speaker_re = re.compile(r"^[A-Z][A-Za-z.'\- ]+,\s.+$")
+    timestamp_re = re.compile(r"^\d+h\s*\d+m\s*\d+s$|^\d+m\s*\d+s$|^\d+s$|^\d+h\s*\d+m$|^\d+m$")
+
+    out_lines = []
+    for raw_line in seg.split("\n"):
+        line = raw_line.strip()
+        if not line or line in drop_exact:
+            continue
+        if timestamp_re.match(line):
+            out_lines.append(f"\n_[{line}]_")
+        elif speaker_re.match(line) and len(line) < 80:
+            out_lines.append(f"\n**{line}**")
+        else:
+            out_lines.append(line)
+    body = re.sub(r"\n{3,}", "\n\n", "\n".join(out_lines))
+
+    header = (
+        f"# {stock_id} Fiscal Q{quarter} {year} Earnings Call Transcript\n\n"
+        f"Source: Google Finance earnings tab (Quartr-provided transcript)\n{source_url}\n\n"
+        "> Third-party/secondary transcript source. Supplements but does not override "
+        "company IR / SEC filings / official audio for figures or quotes; cross-check "
+        "against the official press release and financial tables in this same directory.\n\n"
+        "---\n\n"
+    )
+
+    save_dir.mkdir(parents=True, exist_ok=True)
+    md_path = save_dir / f"{stem}_google_finance_transcript.md"
+    md_path.write_text(header + body + "\n", encoding="utf-8")
+    print(f"[Google-Finance] OK Saved transcript -> {md_path.name} ({len(body)} chars)")
+    return [md_path]
+
 
 def title_matches_target_quarter(title: str, year: str, quarter: str) -> bool:
     """Return True only when a media title explicitly matches the target fiscal quarter."""
@@ -3177,6 +3302,10 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
             if yahoo_url:
                 extra_paths.extend(fetch_yahoo_transcript(yahoo_url, stem, transcript_dir))
 
+        # 3. Google Finance / Quartr (Secondary & Automatic; TW or KNOWN_US_GOOGLE_FINANCE_EXCHANGE)
+        if not as_paths and not extra_paths:
+            extra_paths.extend(fetch_google_finance_transcript(stock_id, year, quarter, stem, transcript_dir))
+
         # MOPS PDFs - use conf_date discovered during audio scraping
         if _conf_date[0]:
             mops_pdfs = download_mops_pdfs(
@@ -3351,23 +3480,24 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
         if download_audio(target_url, output_path):
             return done()
 
-    # Google Finance is a secondary discovery source. It is intentionally after
+    # Google Finance is a secondary discovery source (TW via a fixed :TPE suffix,
+    # US tickers via KNOWN_US_GOOGLE_FINANCE_EXCHANGE). It is intentionally after
     # official company IR and MOPS probes, and accepted audio is tagged as secondary
-    # in audio_metadata.json for auditability.
-    if market == "TW":
-        google_audio = scrape_google_finance_earnings_audio(stock_id, year, quarter)
-        google_url = google_audio.get("audio_url")
-        if google_url:
-            _audio_source_info[0] = {
-                "source": google_audio.get("provider", "google_finance_quartr"),
-                "source_url": google_audio.get("source_url"),
-                "captured_media_url": google_url,
-                "note": google_audio.get("note"),
-            }
-            print(f"\n[Google-Finance] Downloading secondary audio candidate: {google_url}")
-            if download_audio(google_url, output_path, no_check_cert=True):
-                return done()
-            print("[Google-Finance] Secondary audio download failed. Falling back to PDFs.")
+    # in audio_metadata.json for auditability. scrape_google_finance_earnings_audio()
+    # itself returns {} for any ticker without a known exchange mapping.
+    google_audio = scrape_google_finance_earnings_audio(stock_id, year, quarter)
+    google_url = google_audio.get("audio_url")
+    if google_url:
+        _audio_source_info[0] = {
+            "source": google_audio.get("provider", "google_finance_quartr"),
+            "source_url": google_audio.get("source_url"),
+            "captured_media_url": google_url,
+            "note": google_audio.get("note"),
+        }
+        print(f"\n[Google-Finance] Downloading secondary audio candidate: {google_url}")
+        if download_audio(google_url, output_path, no_check_cert=True):
+            return done()
+        print("[Google-Finance] Secondary audio download failed. Falling back to PDFs.")
 
     pdf_paths = download_pdfs(stock_id, year, quarter, save_dir)
     # Scan save_dir for any PDFs that were downloaded by MOPS playwright scraper or other methods
