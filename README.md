@@ -151,11 +151,11 @@
 | 2303 聯電 | 2026 Q1 | 受邀法說 | 2026-06-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2303) |
 | 3035 智原 | 2026 Q1 | 受邀法說 | 2026-06-04 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3035) |
 | 3231 緯創 | 2026 Q1 | 受邀法說 | 2026-06-04 | 無 | - | - | [中](data/3231/3231_2026_q1_ir.pdf) ([MD](data/3231/3231_2026_q1_ir.md)) | [EN](data/3231/3231_2026_q1_ir_en.pdf) ([MD](data/3231/3231_2026_q1_ir_en.md)) | [📊](data/reports/conference-digests/3231/3231_2026_q1_digest.md) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3231) |
-| AVGO Broadcom Inc. | 2026 Q1 | 受邀法說 | 2026-06-03 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AVGO/financials/) |
-| AVGO Broadcom Inc. | 2026 Q1 | 財報 | 2026-06-03 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AVGO/financials/) |
+| AVGO Broadcom Inc. 博通 | 2026 Q2 / Q3FY2026 | 法說會 | 2026-06-03 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AVGO/financials/) |
+| AVGO Broadcom Inc. 博通 | 2026 Q2 / Q3FY2026 | 財報 | 2026-06-03 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AVGO/financials/) |
+| HPE Hewlett Packard Enterprise Co. 慧與科技 | 2026 Q2 / Q3FY2026 | 法說會 | 2026-06-01 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
+| HPE Hewlett Packard Enterprise Co. 慧與科技 | 2026 Q2 / Q3FY2026 | 財報 | 2026-06-01 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
 | 2379 瑞昱 | 2026 Q1 | 受邀法說 | 2026-06-01 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2379) |
-| HPE Hewlett Packard Enterprise Co. | 2026 Q1 | 受邀法說 | 2026-06-01 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
-| HPE Hewlett Packard Enterprise Co. | 2026 Q1 | 財報 | 2026-06-01 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
 | 2882 國泰金 | 2026 Q1 | 財報 | 2026-05-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2882) |
 | 2882 國泰金 | 2026 Q1 | 法說會 | 2026-05-29 | [31.1 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2882_2026_q1.m4a) | [📝](data/2882/2882_2026_q1_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2882) |
 | DELL Dell Technologies 戴爾科技 | FY2027 Q1 | 法說會 | 2026-05-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/DELL/financials/) |
