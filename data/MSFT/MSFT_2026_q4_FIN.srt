@@ -85,8 +85,8 @@ Language: zh
 (06:52.770) 我們與我們的Silicon模型共計劃
 (06:56.600) 我們看到了MAI-200的MAI模型
 (06:59.580) when running MAI models on Maya 200
-(07:01.860) 但更重要的是,我們在建立一個新的模型系統,
-(07:05.940) 在哪裡?
+(07:01.860) 但更重要的是,我們在建立新的模型系統,
+(07:05.940) 在哪裡呢?
 (07:10.720) are separate from any one model family
 (07:17.500) And it's not just about cost
 (07:24.220) because every model is substitutable
@@ -845,101 +845,135 @@ Language: zh
 (58:21.160) 這些變化已經變得很嚴重了。
 (58:23.200) 所以我們對這方面的專注是,首先,我們要取得同樣的方式,例如我們取得了知識,工作,或編輯的方式,
 (58:28.880) 也就是你必須要開始以知識為先的模型向前的方式。
-(58:33.960) 所以我們舉行的發展是,
-(58:38.140) 先要確保你擁有維持維持的維持隊員,
-(58:48.860) 然後你擁有維持維持隊員,然後你擁有維持隊員,
-(58:53.850) 然後你擁有維持隊員,
-(59:03.670) that's continuously operating
-(59:05.910) to create the cyber defense you need
+(58:33.960) 我們推出的設計是,
+(58:38.200) 先要確保你會看到維持維持的維持隊員,
+(58:45.560) 然後你會看到維持隊員在維持隊員的維持隊員,
+(58:49.360) 然後你會看到維持隊員在維持隊員的維持隊員。
+(58:53.910) and making sure that you're triaging
+(58:57.610) and the green team that fixes
+(58:59.710) 合作
+(59:03.390) that's continuously operating
+(59:05.930) to create the cyber defense you need
 (59:12.890) 包括承諾信號、承諾信號、網絡信號、應用信號等,
-(59:16.290) the defender signal
-(59:17.310) the network signal
-(59:18.550) the app security signal
-(59:20.130) 這些都能幫助建立一個證明,
-(59:23.590) 以使你能夠實際地保護自己。
-(59:28.130) the other thing they've also said is
-(59:30.490) especially in cyber it becomes critical
-(59:32.880) 是很困難的,要有這樣的多模型設計,這就是我們第一個要問的問題。
-(59:37.360) 不僅僅僅是價值的問題,在CyberGym的Mdash數據中,
-(59:43.560) 我們證明了你能夠有Methos的表現,
-(59:47.630) 50%的價值,因為這種MAI的Cyber Flash 1。
-(59:52.950) 原因是,90%的任務是用Cyber Flash 1的模型,
-(59:57.770) 而10%的工作
+(59:16.310) the defender signal, the network signal
+(59:18.570) the app security signal
+(59:20.110) 這些都能幫助建立一個證明,
+(59:23.610) 以使你能夠實際地保護自己。
+(59:28.130) The other thing they also said is
+(59:30.510) Especially in cyber it becomes critical
+(59:32.900) To have that multi-model approach
+(59:34.600) 對第一個問題來說
+(59:37.200) Not just for cost
+(59:38.580) 我們也證明了
+(59:43.040) That essentially you can have
+(59:45.360) Methos level performance
+(59:46.520) With 50% less cost
+(59:49.090) Because of this MAI cyber flash one
+(59:52.230) CyberFlash1
+(59:57.490) 而10%的工作
 (60:00.170) 仍然在前面
-(60:04.910) in what is essentially a pipeline job
+(60:04.890) in what is essentially a pipeline job
 (60:07.030) is a super important characteristic
 (60:10.070) and so to us this is an important piece
-(60:14.730) 另外,
-(60:17.090) 無論什麼原因,
-(60:20.090) 那你可能就不能留下高低低的力量。
-(60:23.560) 你必須仍然能夠繼續你的私人行業。
-(60:26.420) and that's the other piece
-(60:28.160) So it's cost and resilience
-(60:33.060) And that's what we're trying to build in
-(60:35.200) Whether it's in code
-(60:39.880) and we are very excited about perception
-(60:43.000) And what it means quite frankly
-(60:46.800) Super helpful, thank you
-(60:49.130) Thanks Brad
-(60:50.740) 謝謝,Brad。
-(61:00.460) Please proceed
+(60:14.730) 另一件事,我認為從一個自信觀的角度來看,
+(60:17.090) 無論何時,如果一個設定模式離開,
+(60:20.090) 那麼你可能就不能浪費力量。
+(60:23.540) 你必須能夠依舊繼續你的自信行業。
+(60:26.400) and that's the other piece
+(60:28.180) so it's cost and resilience
+(60:30.240) is both an important criteria
+(60:33.100) And that's what we're trying to build in
+(60:35.180) whether it's in code
+(60:36.080) whether it's in cyber
+(60:37.320) whether it is in knowledge work
+(60:39.760) and we are very excited about perception
+(60:43.000) and what it means quite frankly
+(60:44.680) for our security business going forward
+(60:46.800) super helpful thank you
+(60:49.130) thanks Brad
+(60:50.760) 謝謝,Brad。
+(60:57.640) Gabriella Borges with
+(60:59.400) Global Sachs. Please proceed
 (61:01.160) Hey, good afternoon, thank you
 (61:04.010) Amy, I wanted to ask you about ROI
-(61:06.530) And you've given us color
+(61:07.070) And you've given us color
+(61:08.490) on the Catholic side of the equation
 (61:10.050) You've given us color
-(61:12.830) 有關
+(61:12.810) Maybe put those two
+(61:14.550) pieces together for us
 (61:16.010) When you look at and track ROI
-(61:18.150) 在今天做的CAPEX決定中
-(61:20.690) How does that compare to a year ago
+(61:18.210) 在今天做的CAPEX決定中
+(61:20.710) How does that compare to a year ago
 (61:22.630) And what are some of the levers
 (61:25.470) that you can still pull
 (61:27.650) for example
-(61:31.210) Thank you
-(61:33.150) Thanks Gabriella
+(61:31.370) Thank you
+(61:33.930) Thanks, Gabriella
 (61:35.070) I don't know that
-(61:37.360) quite frankly my math has changed
-(61:40.840) in terms of how I do it
-(61:42.880) over the past year
+(61:40.840) In terms of how I do it
 (61:44.380) Over the past year
-(61:47.360) 是專注在TAM擴展的信心
-(61:52.260) the margin levers that we have
-(61:55.640) in terms of both product improvements
-(62:14.120) 產品部分的各方面
-(62:44.440) with a more efficient
-(62:49.940) or also margin levers.
-(62:56.450) 增加了ROIC的信心
-(62:59.350) 坦白說,我們在投資的美元
-(63:01.410) 繼續投資
-(63:03.250) 當我們想到
-(63:06.450) 股票的混合
-(63:07.870) 能夠有很廣泛的
-(63:10.770) 知識工作、
-(63:12.790) 驗證、
-(63:13.510) 保險,
-(63:14.350) 那麼基本上,
-(63:16.270) 我會稱之為 agent layer 365
-(63:18.930) 是一種虛擬
-(63:20.530) 但這些都成為了一個機會
-(63:23.130) 然後當然我們也談到
-(63:25.570) Between model efficiency
-(63:30.820) 包括我們的投資在1P
-(63:33.780) 那些解決方案
-(63:37.520) 我們有很多的改進
-(63:40.880) That we're focused on
-(63:41.980) That we're focused on
+(61:47.580) 是專注在TAM擴展的信心
+(61:53.020) 對於我們的額外額外額來說
+(61:55.220) 我們的額外額外額
+(61:55.860) 是專業的改進
+(62:00.400) 和產品的改進
+(62:04.240) 我們已經談到一些
+(62:05.980) 今天我們在電話中提到的
+(62:08.320) 我們的額外額外額
+(62:09.260) 是我們將繼續提供的
+(62:10.880) 豐富性能
+(62:11.620) 在應用部分和進口部分
+(62:15.640) 但您對的
+(62:18.660) 我們沒有觸及所有的部分
+(62:20.160) 我認為Sathya其實
+(62:23.040) 我們仍然有機會,當然,我們繼續尋找最好的價值表現
+(62:29.100) 包括我們的投資在第一個階段上
+(62:32.860) 坦白說,我們的工作在模擬多元化方面
+(62:36.740) 也是一種價值改善機會
+(62:40.080) 能夠達到最好的成果
+(62:43.720) 以更有效性的方式
+(62:47.940) and efficient in terms of cost structure
+(62:49.920) are also margin lovers
+(62:51.320) all of these things contribute
+(62:53.410) obviously to your point
+(62:55.070) of increased confidence in ROIC
+(62:59.030) frankly,
+(63:00.970) and continue to invest going forward
+(63:04.010) and as we think about
+(63:05.790) the mix of the portfolio
+(63:07.470) being able to have a pretty broad pool
+(63:11.410) across knowledge work, coding, security
+(63:13.870) Then basically the agent layer
+(63:17.450) I'll call that agent 365
+(63:19.210) It's kind of a cheat
+(63:20.370) But all of that also is an opportunity
+(63:22.970) And then of course
+(63:24.050) What we talked about on the Azure side
+(63:25.530) Between model efficiency
+(63:29.000) Silicon and component efficiency
+(63:30.800) 包括我們的投資在1P
+(63:33.780) And just the overall efficiency
+(63:36.080) Of running it at a hyper scale
+(63:37.500) So we have quite a few levers
+(63:39.520) To continue to see improvement
+(63:40.800) That we're focused on
+(63:41.980) But as Joaquin mentioned
+(63:43.350) This is the grind work
 (63:45.010) This is like every day
-(63:46.210) This is like every day
-(63:49.430) and we actually are quite good
-(63:53.290) 並且確保我們能夠為客戶達到達到的
-(63:58.240) 感謝
-(63:58.600) 謝謝
-(63:59.160) 感謝
-(64:00.350) 這就結束了今天的獲得電話
-(64:03.650) 謝謝您的參與
-(64:04.890) 我們很期待與您一起談談
-(64:07.290) 非常感謝
-(64:08.800) 謝謝
-(64:08.980) 各位女士們
-(64:12.990) 今天的會議結束了
-(64:14.670) 您可以在此時間內連接您的電話
-(64:17.060) 享受您的一天
+(63:46.210) You just get a little better
+(63:47.830) Get a little better
+(63:49.590) And we actually are quite good
+(63:52.170) At that grind
+(63:53.270) 在做工序
+(63:55.650) That all makes sense
+(63:58.360) Thank you
+(63:58.840) Thanks Gabriella
+(64:00.730) 謝謝Cabriela
+(64:03.790) Thank you for joining us today
+(64:05.230) Thank you for joining us today
+(64:07.250) Thank you very much
+(64:08.640) Thank you
+(64:09.120) Ladies and gentlemen
+(64:13.010) This does conclude today's conference
+(64:14.410) 今天的會議結束了
+(64:16.860) And enjoy the rest of your day
