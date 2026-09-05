@@ -77,11 +77,22 @@ if client.check_fin_status("some-channel_dQw4w9WgXcQ"):
 python scripts/whisper_issue_client.py status some-channel_dQw4w9WgXcQ
 ```
 
-## 🌐 語言提示（`language`）
+## 🌐 語言提示（`language`）— issue metadata 欄位 vs. 實際生效位置
 
-`investor_conference` source_type 下，`issue_body()` 會依 stem 解析出的 `stock_id` 自動附上 `language` 欄位：數字股號（台股）→ `zh`，英文字母 ticker（美股/國際股）→ `en`。這是 2026-09-05 修正的 bug：AVGO/HPE FY2026 Q3 第一次跑出的 `FIN.srt` 是 `Language: zh`，把英文法說會內容轉成語意錯誤的中文譯述（甚至把年份講錯），比對 `data/DELL/DELL_2027_q2_FIN.srt`、`data/NVDA/NVDA_2027_q2_FIN.srt` 才發現這兩者原本就是用 `Language: en` 正確產生。
+`investor_conference` source_type 下，`issue_body()` 會依 stem 解析出的 `stock_id` 自動附上 `language` 欄位：數字股號（台股）→ `zh`，英文字母 ticker（美股/國際股）→ `en`。若呼叫 `open_fin_request()` 或 `issue_body()` 時想覆寫自動判斷，可傳入 `language="en"` / `language="zh"` 明確指定。
 
-若呼叫 `open_fin_request()` 或 `issue_body()` 時想覆寫自動判斷（例如某美股法說會其實是中文口音混雜、或某台股子公司法說會用英文），可傳入 `language="en"` / `language="zh"` 明確指定，優先於 `language_for_stock_id()` 的自動推斷。
+> [!CAUTION]
+> 這個 `language` 欄位目前**只出現在 issue body 裡供人閱讀，Mac-mini 端的 `run-pipeline.yml` 並不會讀取它**（`parse_issue_metadata()` 完全沒有解析 `language` key）。真正決定轉錄語言的是 **`ZhongZheng782/Mac-mini` repo 裡的 `mlx-api-server-whisper/company-configs/{TICKER}/whisper.yaml`**（`language: en` / `language: zh` 欄位）；該檔案不存在時，`run-pipeline.yml` 會透過 `2>/dev/null || echo "zh"` 悄悄退回 `zh`。
+>
+> 2026-09-05 實際發生：AVGO/HPE FY2026 Q3 第一次跑出的 `FIN.srt` 是 `Language: zh`，把英文法說會內容轉成語意錯誤的中文譯述（甚至把年份講錯），比對 `data/DELL/DELL_2027_q2_FIN.srt`、`data/NVDA/NVDA_2027_q2_FIN.srt` 才發現這兩者是因為早就有對應的 `company-configs/DELL/whisper.yaml`、`company-configs/NVDA/whisper.yaml`（`language: en`）才轉錄正確；AVGO/HPE 當時完全沒有這個目錄。
+>
+> **幫任何非台股（英文字母 ticker）新增 ingest 時，必須同時在 `ZhongZheng782/Mac-mini` repo 建立 `mlx-api-server-whisper/company-configs/{TICKER}/whisper.yaml`**（比照 `DELL`/`NVDA`/`QCOM` 既有格式：`company_name`、`stock_id`、`language: en`、`executives`、`products`、`terms`、`example_sentences`，內容需從已取得的官方逐字稿/新聞稿驗證，不得憑空杜撰），單靠 issue body 的 `language` 欄位不會生效。
+>
+> 若某張 `generate-FIN` issue 已經在補建 config 之前先跑過一次（因而產出錯誤語言的 `FIN.srt`），不要重開新 issue（`open_fin_request()` 對同標題的 open issue 是 no-op）；改為對同一張 issue 移除再加回 `generate-FIN` label 來重新觸發 `issues: types: [labeled]` 事件：
+> ```bash
+> gh issue edit <number> --repo ZhongZheng782/Mac-mini --remove-label generate-FIN
+> gh issue edit <number> --repo ZhongZheng782/Mac-mini --add-label generate-FIN
+> ```
 
 ## 🔁 GT 修正迴圈（`refine_fin_srt`）
 
