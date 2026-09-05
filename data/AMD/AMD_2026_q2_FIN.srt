@@ -1,0 +1,952 @@
+[METADATA]
+Source: AMD_2026_q2_exp11
+Language: zh
+---
+(00:00.000) 你好,歡迎光臨AMD的第二季度2026的會議訪問。
+(00:04.680) 目前,所有參賽者都在聽聽的模式中。
+(00:08.420) 問題與回答的會議會依照正式的介紹。
+(00:11.930) 如果有任何人需要在會議中的運作助理,請按0在手機的鍵盤中按下。
+(00:17.810) 請留意,這次的會議正在錄製中。
+(00:21.420) 我現在將會議室的主席 Matt Ramsey,財政策略總裁,以及I.R。
+(00:26.960) Thank you, Matt. You may begin.
+(00:56.550) 本期的推廣文章中有全面的不合格的解決方案,以及我們的網站上發佈的文章。
+(01:05.000) As a reminder,
+(01:05.900) 作為一個提醒,
+(01:18.900) Unless otherwise noted,
+(01:50.180) 下一個活動
+(01:55.150) 11月
+(02:02.030) 8周
+(02:07.710) 今天的討論
+(02:14.570) 期望
+(02:53.720) continued to expand
+(02:58.940) driven by significantly higher sales
+(03:04.540) and embedded processors
+(03:08.390) and now represents 58% of total revenue
+(03:11.470) up from 42% a year ago
+(03:14.090) reflecting the rapidly expanding scale
+(03:19.070) 我們的記錄結果
+(03:25.220) and demonstrate the strength
+(03:28.760) We are still in the early stages
+(03:33.890) as deployments grow across a broad set
+(03:37.570) driving demand for more compute
+(03:39.850) 並在前年期間
+(03:42.910) and earnings power in the years ahead
+(03:44.850) Turning to our segments
+(03:48.020) 轉到我們的項目,Data Center的收益增長了107%年度,
+(03:52.250) to a record 6.7 billion
+(03:57.090) And Instinct Accelerators
+(03:58.750) 在Server上,我們達到我們的第五個合同的一季,
+(04:03.020) Of record server CPU revenue
+(04:04.760) With cloud and enterprise sales
+(04:09.440) 超過我們上一季的X86收益數據。
+(04:16.580) As customers expanded deployments
+(04:18.860) Of both 5th Gen EPIC Turin
+(04:20.660) And 4th Gen EPIC Genoa families
+(04:28.490) Across their internal infrastructure
+(04:30.030) and public cloud offerings
+(04:31.830) including AWS,
+(04:36.330) Oracle,
+(04:44.200) available globally
+(04:45.260) as providers broaden their offerings
+(04:51.090) That expanding footprint is translating
+(04:59.610) adding tens of millions of instances
+(05:35.420) 以及其他
+(05:39.430) Looking ahead
+(05:46.300) spanning high-frequency AI host nodes
+(05:53.610) Our 6th Gen EPIC Venice family
+(05:59.320) 並且它將達成了Epic 歷史上最大的代理性的成功率。
+(06:03.820) Epic History
+(06:08.890) and 2 nm technology
+(06:12.850) 達到X86 CPU的主要表現率超過2次,
+(06:17.930) 以及達到Arm-based CPU的主要表現率超過3.3次。
+(06:27.540) 共同執行每核和每闊的執行力,
+(06:30.600) 並提供各種耳機設定,
+(06:34.140) 使客戶更有能力
+(06:44.180) Venice is in production now,
+(06:47.820) with every major OEM
+(06:50.980) and the leading cloud providers
+(06:55.560) beginning later this year
+(07:00.900) prior EPIC generation
+(07:06.160) Data Center AI Business
+(07:10.870) revenue more than doubled year over year
+(07:13.110) driven by strong demand
+(07:16.810) MI355X adoption continued to broaden
+(07:35.190) our RackScale AI platform
+(07:37.110) combining Epic Venice CPUs
+(07:39.570) MI450 Series GPUs
+(07:42.030) Pensando Networking
+(07:43.690) Rock'em Software
+(07:48.790) HELIOS達到15%以上的通貨
+(07:51.970) at the same rack power
+(07:53.150) and up to 30% more tokens per dollar
+(07:56.050) than the competition
+(07:56.770) Customer pull for Helios is very strong
+(08:01.140) 並在我們最初的預測前進
+(08:03.200) In addition to our multi-generation
+(08:06.060) Gigawatt scale deployments
+(08:08.000) with OpenAI and Meta
+(08:09.500) we announced a new strategic partnership
+(08:11.920) with Anthropic
+(08:12.840) Anthropic 將達到 2GW
+(08:19.480) 並達到第一GW的擴展
+(08:24.500) Partnership includes a multi-year
+(08:37.820) We also expanded our long-standing
+(08:40.600) partnership with Microsoft.
+(08:47.400) its AI customers,
+(08:48.620) and Azure AI services.
+(08:51.530) Together, these commitments
+(09:01.780) Helios is now in production,
+(09:03.360) with initial shipments
+(09:06.460) and ramp through the fourth quarter
+(09:14.960) 優優獨播劇場——YoYo Television Series Exclusive
+(09:50.520) 我們期望MI500
+(09:56.740) 在 Instinct History
+(10:00.580) 000 times in just four years.
+(10:02.840) According to our AI software stack,
+(10:10.080) capabilities,
+(10:10.620) and developer experience
+(10:15.680) in production at scale
+(10:19.640) More than 3 million models
+(10:23.660) The leading open models
+(10:27.720) and open source contributions to Rockham
+(10:32.780) over the past year
+(10:40.720) ROCKEM.AI讓發展者使用今天最主要的研究人員
+(10:45.540) 包括Claude, Codex, and Cursor
+(10:48.040) 來創造,連接,和調整
+(10:50.240) Instinct的研究
+(10:51.440) 使它更加快速
+(10:53.340) 和容易帶來
+(10:54.340) AMD的新模型和功能
+(10:56.000) Rotcom.ai達到
+(10:59.760) 更多的訓練表現
+(11:01.320) 和更多的三次
+(11:02.420) Rotcom 7的
+(11:02.940) 訓練表現
+(11:03.840) 在廣泛的模型中
+(11:06.460) 我們也在與
+(11:09.680) 主要的AI研究室
+(11:10.880) 包括OpenAI, Anthropic,
+(11:12.860) Meta,和其他人
+(11:14.040) 與Rotcom的模型
+(11:16.320) 共同調整
+(11:16.440) 並使得整個AMD
+(11:25.920) 比我們預計的六個月前的
+(11:32.280) 企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企業的企�
+(11:58.900) For AMD,
+(12:01.440) this larger opportunity,
+(12:11.910) In data center AI,
+(12:13.090) 在數字中心AI中,
+(12:22.010) with growth accelerating in 2027.
+(12:24.950) 以至2027年的增長。
+(12:35.820) in the second half of 2026
+(12:37.640) and more than 70% for the full year 2027
+(12:41.690) off a much higher base
+(12:43.530) taken together
+(12:51.270) turning to client and gaming
+(12:54.450) segment revenue grew 6% year over year
+(12:58.450) In client,
+(13:00.810) 收入增加了23%
+(13:04.870) to 3.1 billion
+(13:10.710) 在這一季
+(13:13.150) with rise in pro sales
+(13:16.890) 每年
+(13:19.610) technology,
+(13:20.130) automotive,
+(13:20.850) and financial services companies.
+(13:22.490) Dell, HP, Lenovo, Asus, and others
+(13:28.600) 開發了一個廣泛的商業PC
+(13:31.700) powered by our latest generation
+(13:33.640) Ryzen AI Pro 400 series processors
+(13:36.760) 我們的Ryzen AI Halo的
+(13:43.010) which went on sale in the quarter
+(13:44.810) 在7月份,我們推出了
+(13:48.380) Ryzen AI Halo platform
+(13:50.060) powered by our new Gorgon Halo processor
+(13:52.820) 能夠運行192GB的聯絡記錄
+(14:30.860) 這受到我們的Ryzen股票增長和增長的商業執行的力量
+(15:06.580) Demand was broad-based,
+(15:09.860) with strength across networking,
+(15:11.440) aerospace and defense,
+(15:12.760) test,
+(15:13.870) measurement and emulation,
+(15:15.050) and communications customers.
+(15:18.360) grew significantly in the quarter
+(15:21.400) as hyperscalers and networking customers
+(15:30.140) in the data center
+(15:33.680) 擴展我們的股票
+(15:40.320) 以及CREA AI Robotics Platform
+(15:44.550) looking more broadly
+(15:53.440) embedded x86
+(15:57.300) for the segment
+(16:01.970) and gaining share
+(16:04.830) are expanding
+(16:08.610) also remains very strong
+(16:14.160) 主要受到聯絡、數碼中心、
+(16:21.980) 總結來說,
+(17:54.410) 多年來的AI擴展 cycle
+(18:07.480) 我們會把電話轉到Jean來提供我們的第二季度結果的顏色。Jean。
+(18:12.610) 謝謝Lisa,大家早上好。
+(18:16.030) 我先開始介紹我們的第二季度金融結果,並且提供我們目前的目標。
+(18:22.570) 在2026年度的第三季度中,我們有出色的第二季度。
+(18:28.370) marking our sixth consecutive quarter
+(18:30.790) 有超過30%的年份增長
+(18:34.270) revenue increased 50% year-over-year
+(18:38.130) 和13%平均
+(18:42.590) 由於繼續的
+(18:46.180) 重要的是
+(18:52.880) 總的收入
+(18:56.770) 和增加AMD的增長
+(19:00.050) 我們的比較比喻
+(19:04.220) increased approximately 82% year-to-year
+(19:07.900) 這很明顯地顯示了我們的收益增長和我們的收益力,
+(19:19.700) up over 200 basis points year-to-year
+(19:23.120) and 80 basis points sequentially
+(19:25.640) Reflecting a favorable product mix
+(19:28.450) 和我們的數字中心生產業
+(19:31.530) operating expenses were 3.4 billion
+(19:35.300) an increase of 40% year-over-year
+(19:37.940) as we continue to invest in R&D
+(19:40.640) to expand our AI silicon systems
+(19:43.360) and software capabilities
+(19:44.760) 和設計能力
+(19:48.080) operating income was 3.1 billion
+(19:51.660) representing a 27% operating margin
+(19:54.580) now turning to our reportable segment
+(19:57.790) starting with the data center segment
+(19:59.750) Revenue was a record 6.7 billion,
+(20:03.520) more than doubling year-over-year,
+(20:05.420) and up 16% sequentially.
+(20:08.080) Growth was driven by greater than 70%
+(20:14.340) with record enterprise sell-through
+(20:26.090) reflecting the continued mix shift
+(20:44.790) cloud providers,
+(20:45.950) leading AI startups,
+(20:47.770) national labs,
+(20:48.890) and solvent AI deployment.
+(21:03.800) up 6% year-to-year and 7% sequentially.
+(21:11.110) up 23% year-to-year and 6% sequentially,
+(21:14.890) led by record mobile revenue.
+(21:22.370) down 31% year-to-year,
+(21:27.270) Sequentially,
+(21:28.680) gaming revenue increased 8%,
+(21:30.920) driven by higher semi-customer sales,
+(21:38.010) Client gaming segment operating income
+(21:42.530) or 15% of revenue,
+(21:44.430) compared to $767 million,
+(21:47.910) or 21% a year goal.
+(21:50.740) 反映繼續的投資在市場活動中
+(21:56.560) In-Bed Segment Revenue was $977 million,
+(22:01.500) up 19% year-to-year and 12% sequentially
+(22:05.220) 既然需求繼續向後市場進步
+(22:12.020) In better segment,
+(22:19.380) 優優獨播劇場——YoYo Television Series Exclusive
+(22:52.740) 或13.1 billion
+(22:54.340) Now turning to our third quarter
+(22:57.680) 2026 outlook
+(22:59.160) We expect revenue to be
+(23:01.930) approximately 13 billion
+(23:03.850) plus or minus 300 million
+(23:05.990) At the middle point of our guidance
+(23:08.440) revenue is expected to be up
+(23:10.600) 41% year over year
+(23:12.660) driven by very strong
+(23:14.810) double-digit growth
+(23:16.030) in our data center segment
+(23:17.550) strong double-digit growth
+(23:20.120) in our embedded segment
+(23:21.540) and the decline in the client
+(23:23.320) gaming segment
+(23:24.440) 優優獨播劇場——YoYo Television Series Exclusive
+(23:57.480) to be approximately 56%.
+(24:00.280) Non-GAAP operating expenses
+(24:02.550) to be approximately 3.65 billion.
+(24:06.560) Non-GAAP other income and expense
+(24:08.400) 將達到約55億
+(24:12.900) Non-GAAP effective tax rate to be 13%,
+(24:15.740) and a diluted share account
+(24:17.540) 將達到約1.66億
+(24:22.850) In closing,
+(24:26.150) of revenue growth
+(24:27.130) and a significant earnings expansion
+(24:29.510) Reflecting the strength of our execution
+(24:35.310) 和實力
+(24:38.930) we enter the second half of the year
+(24:41.570) very well positioned to deliver
+(24:43.790) continued profitable growth
+(24:45.750) With that, I'll turn it back to Matt
+(24:48.530) for the Q&A session
+(24:49.690) Thank you very much, Jean
+(24:52.870) John, we'd like to go ahead
+(24:54.640) and start the Q&A session now
+(24:57.960) We ask that each caller ask one question
+(25:00.240) with one brief follow-up
+(25:01.660) Thank you
+(25:38.400) 請您繼續問問題
+(25:39.640) 謝謝你提出我的問題
+(25:42.850) Lisa 你在1.4億美元的項目上
+(25:48.050) 你在CPU上提出了1.4億美元的項目
+(25:49.030) 你提出了220億美元的項目
+(25:52.830) 但在這些項目上的共同性非常不同
+(25:55.890) 所以我認為
+(25:57.270) 這個問題的起源是
+(25:59.890) 你看到那種線索的情況
+(26:02.770) 在Data Center GPU商業和CPU商業中
+(26:06.590) 這是這個年紀年紀
+(26:08.890) 當你從$27年年紀中看起來,
+(26:13.830) from a dollars perspective,
+(26:15.730) where are you seeing the most strength?
+(26:18.840) Yeah, Tom, thanks for the question.
+(26:20.360) So,
+(26:20.560) look,
+(26:21.120) we are certainly seeing a very,
+(26:36.540) as we go forward
+(26:42.140) and our Q4 guide
+(26:47.440) so we're seeing server grow over 80%
+(26:53.920) 我們看到了很強大的伺服器AI增長
+(26:58.840) 我們可以想像一下
+(27:02.460) Data Center AI TAM肯定會增長
+(27:06.680) As we ramp the large strategic customers
+(27:10.400) that we have on Helios in 2027
+(27:13.400) you would expect substantial growth
+(27:16.180) in that business in 2027
+(27:18.640) 但這兩個公司
+(27:21.360) of our 2027 growth and beyond
+(27:24.680) And then maybe under that framework
+(27:28.200) 兩家公司將會在下年增加非常強烈
+(27:30.960) maybe this one's for you Gene
+(27:32.400) You obviously have some headwinds
+(27:34.620) on the GPU side as you're ramping Helios
+(27:37.220) but also on the server processor side
+(27:39.460) you would imagine that you're getting
+(27:40.780) above corporate gross margins there
+(27:42.920) maybe as you look at the trade-offs
+(27:44.820) to gross margins into next year
+(27:46.440) is one kind of offsetting the other
+(27:48.340) 或者你認為
+(27:50.400) just given some of the tailwinds
+(27:51.820) you're seeing with pricing
+(27:53.220) directionally with the mix shift
+(27:55.000) to more CPUs
+(27:56.680) could you see a tailwind more so
+(27:58.800) than a headwind into calendar year 27
+(28:00.640) thank you very much guys
+(28:02.360) Tom, that's a great question
+(28:04.320) thank you for that
+(28:05.140) 謝謝你
+(28:12.800) 商業混合
+(28:18.720) and our guidance for Q3 2026.
+(28:23.240) 我們的目標中
+(28:30.390) 第一點是
+(28:33.570) 我們的設備商業的增長非常明顯
+(28:37.090) 我們的商業的長期增長和長期增長
+(28:42.650) 從經濟增長的角度來說
+(28:49.970) On the other side you are right
+(28:51.950) Data Center AI Ramp的長期增長
+(28:57.440) 因為從收入機會的角度來看
+(29:00.640) 我們看到Data Center AI的大幅增長收入機會,
+(29:05.500) from data center AI
+(29:11.740) But also gross profit
+(29:13.220) but also gross profit
+(29:17.740) I think the mix will determine
+(29:22.640) but overall we actually feel good
+(29:27.480) through the transition of the business
+(29:30.200) and continue to improve the gross margin
+(29:39.780) we actually think embedded business
+(29:42.020) will give us additional tailwind
+(29:45.300) on the growth margin side in 2027
+(29:47.520) so I feel really good about that
+(29:50.280) Thank you
+(29:54.890) Thank you
+(29:56.670) Timothy Arcuri with UBS
+(29:58.570) Please proceed with your question
+(30:00.450) Thanks a lot
+(30:02.470) Thanks a lot
+(30:04.870) 就是在資訊中所融入的資訊
+(30:07.670) 所以問題是,在Q2和Q3之間的增長中
+(30:13.690) 哪些會增長更多,在美元上,CPU還是GPU
+(30:17.630) 我問的原因是,如果我把你的半數率
+(30:21.390) CPU在Q4的增長可能不太多
+(30:26.530) So I'm not sure if I'm doing that wrong.
+(30:28.250) Can you just give us some color there?
+(30:29.670) I'm just looking at that, Tim.
+(30:34.020) 我相信CPU的傳輸量會在Q3和Q4增長
+(30:41.060) 我認為我們的生產量非常強
+(30:44.840) 我們有很強烈的需求
+(30:50.590) 我們在增加傳輸量的一年內增加了增加供應
+(30:56.450) 我們在指引Q3的傳輸量
+(31:03.730) 伺服器和電子中心AI
+(31:08.730) 然後我們應該期待
+(31:14.310) with more supply coming on for server
+(31:16.590) as well as for data center AI
+(31:19.630) 都會增加
+(31:22.790) 會更加有成長
+(31:24.930) 所以這應該給大家
+(31:28.140) 我們認為Q3是一個強勢的季節
+(31:32.460) 我們看到較強的二維碼增長
+(31:36.520) going into data center segment
+(31:39.280) and in Q4 it will be higher than that
+(31:41.900) Okay, thanks
+(31:45.000) And then just as a follow up
+(31:46.420) 然後作為一個繼續提問
+(31:50.480) I think it's a 40% CAGR out through 2030
+(31:53.380) 您認為您可以
+(31:58.060) 所以您的計劃是
+(32:03.880) Yes, so as we look at the overall time
+(32:07.180) first of all,
+(32:10.740) 當您看我們每個公司的每個部分
+(32:12.800) Whether it's server CPU, data center, AI
+(32:18.220) AI,
+(32:22.540) 我們看到他們都在AI的後緩中有利
+(32:26.560) I think in each one of the segments
+(32:29.360) I think in each one of the segments,
+(32:32.640) so from that standpoint
+(32:33.780) 所以從這個角度來看,以TAM為40%以上的觀點來看,
+(32:37.080) 我們也認為我們將增長更多,從整體經營角度來看。
+(32:41.820) 從整體的收入觀點來看
+(32:45.660) Thank you
+(32:50.470) 我們的下一位問題來自美國銀行的阿里亞
+(32:53.150) with Bank of America Securities
+(32:54.810) Please proceed with your question
+(32:56.330) Thanks for taking my question
+(32:59.190) 謝謝你提出我的問題。麗莎,我很好奇,
+(33:02.770) 有多少GW的數量
+(33:08.770) 進行的網絡設施
+(33:12.990) 我認為目前的預測
+(33:16.110) is about 3 gigawatts
+(33:17.710) 是有3GW
+(33:22.210) 似乎是最低的15億美元
+(33:25.610) 所以我想知道您是否同意這些觀點
+(33:28.330) and then what is the upside or downside
+(33:30.030) 對GIGAWATT或內容的預測
+(33:34.490) 對,Vivek,這問題有很多部分
+(33:38.010) so maybe let me take them one at a time
+(33:40.250) from an overall data center standpoint
+(33:44.070) 我們在2027年有一點點顏色
+(33:47.390) we believe that the server CPU portion
+(33:50.310) of our data center business
+(33:51.410) will grow by over 70% year over year
+(33:54.310) off of a higher base
+(33:55.410) and we believe the overall segment
+(33:57.350) will grow by over 100%
+(33:59.610) so will more than double
+(34:00.590) due to the data center AI ramping
+(34:03.610) so we do see a very significant ramp
+(34:05.470) into 2027
+(34:07.010) we are very happy with our
+(34:09.570) strategic anchor customers
+(34:11.530) in open AI
+(34:12.970) meta and anthropic
+(34:14.690) they are all in the process of ramping
+(34:17.590) the commute demand is high
+(34:19.070) and this is very much
+(34:20.790) aligning their data center build outs
+(34:23.570) and their work with their
+(34:24.870) cloud service providers together
+(34:41.170) I think from a Helios ramp standpoint,
+(34:55.370) Q4 is the very beginning of the ramp,
+(34:56.510) Q5 is the very beginning of the ramp,
+(34:56.510) Q6 is the very beginning of the ramp,
+(34:56.510) Q7 is the very beginning of the ramp,
+(34:56.510) Q4 is a step up
+(34:56.530) Q4 is a step up
+(35:00.310) and will ramp as we go through 2027
+(35:05.090) on how that data center AI will play out
+(35:09.150) and in terms of the revenue per gigawatt
+(35:13.470) I think we've said double digit billions
+(35:15.630) we're still in that range
+(35:17.930) I think that looks like
+(35:24.720) 最重要的是,我們會繼續與我們的夥伴合作,
+(35:28.700) 因為我們有更多的電源需求,
+(35:31.840) 我們希望能達到這些需求。
+(35:34.680) 謝謝Lisa。
+(35:37.350) 我再問一個技術問題。
+(35:40.910) 當我們看HELIOS的規格,
+(35:43.230) 它有50%以上的HVM than the competition.
+(35:49.570) 我覺得你的產品總是有更多的HVM。
+(35:51.670) in your product
+(35:52.650) so how much of the benefit
+(35:54.010) is because of having
+(35:55.470) 50% more HVM
+(35:57.210) and then doesn't that
+(35:58.070) expose AMD more
+(35:59.370) to memory cost inflation
+(36:01.670) so I'm just curious
+(36:02.470) how are you ensuring
+(36:03.850) that you are able
+(36:04.450) to maintain margins
+(36:05.370) and get this memory allocation
+(36:08.070) and I think Gene
+(36:10.090) already suggested
+(36:10.710) you are comfortable
+(36:11.310) with the gross margin range
+(36:12.790) but I'm curious
+(36:13.370) how much of the benefit
+(36:14.330) is just because of the use
+(36:15.590) of more HVM
+(36:17.150) and does that still enable you
+(36:19.470) to meet your profitability
+(36:20.930) 你的利潤目標和支出要求?謝謝
+(36:25.150) 是的,我們與記憶體合作非常密切
+(36:29.470) 在GPU、HBM記憶體上
+(36:36.610) 都在很密切地合作
+(36:46.170) we have a strong ramp in our business
+(36:48.770) 有非常好的明確度在HBM的提供
+(36:53.910) for what we expect to deliver in 2027
+(36:58.170) and the other piece of it is
+(36:59.750) 另一部分是在記憶體積和記憶體積方面
+(37:02.410) 這是AMD的解決方式的一個優點
+(37:06.150) 當你考慮到大型模型的尺寸
+(37:08.590) 它們真的有利於大型記憶體積
+(37:11.430) 而這涉及到管理費用的總額
+(37:13.910) 我們確實認識在這個記憶體環境中
+(37:17.050) 每個客戶都在研究如何
+(37:20.810) and we have the opportunity if desired
+(37:24.210) to also modify that memory footprint
+(37:27.370) 改變記憶體的利潤
+(37:44.310) 但是有些工作人員稱它為中小型模式
+(37:47.750) 這可能沒有太大利益
+(37:50.630) 而在這個情況下
+(37:51.770) 我們會將記憶體觸感解決
+(37:53.830) 如您所預期的
+(37:54.930) 謝謝
+(37:59.270) 接下來的問題
+(38:00.270) 是由T.D. Cowan
+(38:01.450) 與Joshua Buckalter
+(38:02.370) 請繼續問問題
+(38:05.070) 大家好
+(38:06.590) 謝謝您接受我的問題
+(38:07.750) 恭喜你們的很強烈的結果
+(38:09.870) 我還想再次追蹤
+(38:11.910) 2027年的CPU估計
+(38:13.490) 聽起來很像
+(38:15.970) 聽起來供應器的供應器
+(38:17.650) 已經鎖定了
+(38:20.470) if it continues to track that way
+(38:22.390) But I guess any help you can give us
+(38:24.630) on sort of the unit and ASP assumptions
+(38:26.410) that are baked in there
+(38:27.510) Like I think investors are struggling
+(38:29.210) to model the CPU market overall
+(38:31.450) So like how should we think about
+(38:33.030) I guess core account growth
+(38:34.110) or whatever is the right proxy
+(38:35.330) as we think about modeling this business
+(38:37.390) Thank you
+(38:38.050) Yeah, sure, Josh
+(38:40.040) 所以讓我們開始
+(38:42.320) on the growth that we have seen so far
+(38:45.020) 確實有兩個級別的增長
+(38:48.880) 如果您看看我們的Q2表現
+(38:51.160) 我們說我們在 cloud 和 enterprise 中
+(38:56.980) 我們實際上有兩個級別的增長
+(38:59.280) 在兩個級別和ASP
+(39:01.340) 但是它們的增長是更大的
+(39:03.860) 級別增長是更高的
+(39:05.420) 這就是我們的生意的性格
+(39:08.520) 我們在整個市場上
+(39:14.260) 在ASP增長方面,我們的ASP增長是比較高的
+(39:17.580) 確實是比較高的,但是我們的目標是
+(39:21.520) 你應該期待ASP增長和加密貨幣的增長
+(39:23.840) 我們在過去幾個季度中,我們很專心地在研究
+(39:28.900) 我們看到了傳輸需求和服務需求的大幅增長
+(39:33.020) 我們在各個供應鏈上都在研究
+(39:36.300) back-end capacity,
+(39:37.400) substrates,
+(39:38.440) 努力地努力
+(39:44.540) 努力地努力
+(39:49.700) We can raise the second half guidance
+(39:57.400) So you should think about both units
+(40:01.220) Thank you for all the color there,
+(40:04.400) And then Lisa in your prepared remarks
+(40:08.920) Can we unpack that comment a little bit
+(40:15.500) How should we think about
+(40:27.900) Yes,
+(40:28.420) so Josh,
+(40:30.050) Helios was ahead of our initial forecast
+(40:33.330) it was as it relates to the
+(40:36.490) overall volumes, so the
+(40:42.550) It's like an outstanding product.
+(40:44.210) product, so what we're seeing
+(40:50.510) 但也在整個經濟環境上花時間
+(40:53.170) 有很高的信心,
+(40:55.610) Helios會成為AI股票的最佳提供,
+(41:02.020) 尤其是在影響性方面
+(41:03.640) 這就是我所說的,比我們的起初期望還要高
+(41:07.340) 關於您的評論關於成績和表現,我們會如何期待呢?
+(41:13.940) 我們會期待整體成績會改善
+(41:18.620) As we go through the next few quarters
+(41:20.620) 開始的一季是這一季,然後再到第二季
+(41:25.420) 我們一直期望這些收益會繼續增長
+(41:29.460) As we go through the first few quarters
+(41:31.840) 特別是在這個項目上
+(41:34.580) Thank you,
+(41:39.560) 謝謝
+(41:43.280) Please proceed with your question
+(41:44.800) Yes, thanks for taking the question
+(41:47.820) 如你所想
+(41:52.220) 在您的近期活動中,您顯示了傳播市場的新的220億TAM,
+(41:57.480) 您將它們放在三個框架中,對嗎?
+(42:00.780) 總的來說,我認為您把它稱為Sandbox Servers,
+(42:04.280) 然後是AI的前端軟件。
+(42:06.960) 因此,我們在考慮您所談論的增長時,
+(42:11.100) 我想問您能否幫助我們意識到這些框架的大小,
+(42:18.000) 那中間級別的市場是多少呢?
+(42:21.920) 我們在80%增長後半年的市場和70%增長後半年的市場之間的銀行產業市場是多少呢?
+(42:27.880) 你對這種機會有多大?
+(42:30.910) 我認為...
+(42:32.830) 讓我開始從結束的角度來看
+(42:34.830) 在2030年期間,220億美元的銀行產業市場
+(42:40.070) 我們看到銀行產業或銀行銀行產業是最大的銀行產業
+(42:45.890) it's the fastest growing piece
+(42:47.950) it's also the smallest piece today
+(42:49.590) so in the near term
+(42:51.190) I would say that
+(42:52.490) there is certainly growth in that area
+(42:55.990) 但是我們在這三四五年內
+(42:58.890) 我們認為那是 server market 的最大增長
+(43:01.010) and I think the thing that is
+(43:02.940) very strong about our portfolios
+(43:05.380) 我們認為我們可以在每個部分都增長
+(43:08.040) so when you think about
+(43:09.920) the types of CPUs you need
+(43:12.120) for each of these workloads
+(43:13.160) 你需要不同的定位
+(43:15.520) 這是我們曾經試圖提出的一件事
+(43:17.900) 它不僅僅是一臺CPU
+(43:19.420) 它實際上是你需要的一大堆CPU
+(43:22.740) 從我們的角度來看
+(43:24.440) Venice絕對擁有所有類型的領域
+(43:28.420) 無論你是談論全核表現
+(43:30.600) 或是談論整個鍵盤表現
+(43:33.900) 這給我們一個非常強勢的位置
+(43:36.800) 在Agentic AI的主要目標上
+(43:39.600) 還有Agentic AI的項目
+(43:40.860) 和Agentic AI的項目
+(43:44.240) 所以從我們的角度來看,
+(43:45.840) 當我們看看我們的客戶的擁擠和客戶的激勵,
+(43:49.480) 從TURN到Venice,
+(43:51.740) TURN已經非常受用了,
+(43:55.920) 尤其是在超級計算機中。
+(43:57.720) 我們所看到的是,當我們進入Venice的時候,工作量實際上增長了。
+(44:01.320) 因此,有更多的工作量將在領域上的領域中發展,而不是在領域前的領域中發展。
+(44:08.480) 這就是給我們的信譽
+(44:10.360) 說我們能夠成長
+(44:12.500) 在市場上的價值上
+(44:14.240) 根據產品的位置
+(44:15.700) 謝謝 非常有用
+(44:18.490) 還有一個簡單的繼續
+(44:19.710) 我認為這對很多人來說
+(44:22.790) 但我認為在過去
+(44:23.930) 你討論了客戶生產
+(44:25.950) 即使有些
+(44:27.290) 在PC市場上的壓力
+(44:28.990) 在這一年
+(44:30.350) 在每個月的基礎上
+(44:32.050) 你仍然看到這些
+(44:33.090) 你是否願意
+(44:34.170) 給我們一些想法
+(44:35.550) 你認為
+(44:37.670) 在客戶CPU方面是否有更大的影響?
+(44:41.850) 首先,在客戶CPU行業上,
+(44:45.570) 我們一直以來認為這是一個非常重要的行業。
+(44:49.690) 我特別認為地區AI將會繼續成為
+(44:53.350) 人們的AI經驗更大的一部分。
+(44:56.690) 所以,我認為AI PCs將會變得更重要。
+(44:59.410) 關於我們的客戶行業在2026年,
+(45:01.930) 我認為我們的第一半的表現非常強勁。
+(45:04.350) 雖然我們期待第二半的市場會下跌
+(45:09.230) 在第二半期間
+(45:13.230) 所以我們看待
+(45:20.890) certainly there and as we go into 2027
+(45:23.870) 而在2027年進行
+(45:28.330) 去解決不僅是傳統的手提筆和電腦市場
+(45:32.790) 但是你也要考慮一個比較AI的PC經驗
+(45:38.570) 就像我們所談論的Ryzen AI Halo
+(45:41.170) 所以我認為PC市場是一個重要的方法
+(45:46.570) 讓我們能夠達到更多的使用者
+(45:48.610) 以及我們能夠在市場前進地增長
+(45:51.630) 市場本身會有點依靠一些部份
+(45:55.930) 我們都在觀察部份的費用
+(45:57.970) 以及將會如何發揮在接下來的幾個月內
+(46:01.890) 但是我認為我們的股票和我們的增長內容和業務
+(46:06.530) 對我們的客戶混合來說是非常有利的
+(46:09.950) 接下來的問題來自Stacey Raskin
+(46:17.070) Bernstein Research
+(46:18.430) 請你評論一下你的問題
+(46:20.230) 大家好 謝謝你提出我的問題
+(46:23.220) 第一點 我想要點擊在媒體上的一些東西
+(46:25.820) 它說數據中心在第二半上升
+(46:29.540) 所以它在Q2上升了107%
+(46:31.000) 您在Q3上升在80%
+(46:34.060) in Q3
+(46:36.100) so how do I interpret
+(46:37.880) which is not accelerations
+(46:39.220) how do I interpret that statement
+(46:40.640) is like the second half
+(46:41.680) collectively higher than the 107%
+(46:44.940) that you see in Q2
+(46:46.540) or are you just sort of
+(46:48.290) how should I be interpreting
+(46:51.690) what you guys wrote in the press release
+(46:53.130) around data center accelerating
+(46:54.130) yeah hi Stacy
+(46:56.930) this is Dean good question
+(46:58.130) I think when we talk about
+(46:59.850) this acceleration
+(47:01.470) we are talking about
+(47:02.690) the second half
+(47:03.630) versus the first half
+(47:05.230) If you look at the first half
+(47:07.300) our data center business
+(47:09.180) year-over-year growth
+(47:10.720) versus the second half
+(47:12.360) we do think there's an acceleration
+(47:14.200) that's the reflection there
+(47:16.300) Thank you for that
+(47:19.690) And then I think for my follow-up
+(47:21.650) I want to dig in a little more
+(47:23.720) 下年的數字中心目標
+(47:25.360) So you said like more
+(47:26.240) I think servers more than 70%
+(47:28.200) the total more than doubling
+(47:30.400) I guess what I'm asking is
+(47:31.320) how much work is the more
+(47:32.420) in that statement doing
+(47:34.760) Like you seem to be on a trajectory
+(47:39.030) I guess just how should I be
+(47:43.240) interpreting the more in the statement
+(47:45.520) understanding that we're only in August
+(47:47.440) of 26 I get it
+(47:48.520) what's next on your mind there
+(47:50.760) Stacy you bring a smile to my face
+(47:53.860) so I would say
+(47:55.680) 我們想給大家想想2027年
+(47:58.820) 2027 and yes
+(48:00.540) the server CPU we're saying is more than
+(48:02.740) 70% which we think
+(48:04.700) at this point is a very
+(48:06.900) strong statement just given
+(48:08.560) where the business is
+(48:10.540) 我們期望整體的電子中心企業
+(48:16.320) 超過100%的原因是因為
+(48:23.360) 以我們的競技客戶的強化為例
+(48:27.420) Helios的Ramp,以及我們所談到的所有東西
+(48:31.720) 希望這些問題能回答您的更多問題
+(48:35.520) Thank you,
+(48:40.440) 接下來的問題是從金·史奈德的線上
+(48:44.730) 請繼續問問題
+(49:22.240) OpenAI, Anthropic, Meta
+(49:30.520) So both hyperscalers and others
+(49:33.240) So the diversity of the business
+(49:35.280) And there are additional customers
+(49:37.960) 對 Helios 興趣,我們可以說是
+(49:39.860) 對 Helios 興趣,我們可以說是
+(49:44.000) 所以我認為我們將會有很好的客戶多元
+(49:46.020) 在接下來的幾個月內進行的過程中
+(49:48.960) 我們正在做的是
+(49:54.100) 所以我們正在與每個客戶
+(49:58.440) 在他們的資訊中心計劃
+(50:06.280) 特別是我們進入Q4和Q1的時間範圍
+(50:12.060) you mentioned data center readiness
+(50:15.880) and so I wanted to sort of test
+(50:20.800) 以及他們的能力
+(50:24.220) 無論是核心能力核心或其他任何其他
+(50:31.970) or even the back half of 27
+(50:34.170) 會讓您停止攻擊目標
+(50:36.670) Thank you
+(50:39.380) 我認為我們沒有任何
+(50:43.240) 我們對目標感到很高興
+(50:45.240) 現在你問我什麼是範圍
+(50:47.880) 有範圍
+(50:50.020) 這範圍會依靠
+(50:52.180) 能力
+(50:53.860) 在短暫的方式
+(50:55.360) 提供更多的能力
+(50:57.620) 所以我認為
+(50:58.760) 我們在建造整個供應鏈
+(51:02.000) 確保整個
+(51:04.020) 我們的SILICON
+(51:05.880) CPU、GPU網路
+(51:07.140) 所有的HELIOS
+(51:09.540) 我認為我們感到非常好
+(51:11.500) 關於這個供應鏈的部分
+(51:13.560) 我們很密切地
+(51:16.940) operators and ensuring that
+(51:19.900) and that gives us
+(51:24.580) strong confidence in what we've guided
+(51:28.440) 經營者的信心
+(51:33.960) and I think there's a clear desire
+(51:40.270) to bring on more AI compute faster
+(51:42.090) we are seeing every day
+(51:50.140) 這就是我們與我們的客戶和夥伴一起做的工作
+(51:53.900) Thank you,
+(51:58.720) 謝謝
+(52:02.240) Please proceed with your question
+(52:03.880) 請你進行問話
+(52:06.730) If I take your data center guide, Lisa
+(52:09.890) 它就意味著instinct的收入是30億
+(52:13.710) and so curious two parts on this
+(52:15.670) 你如何看到收入的速度
+(52:17.390) first half,
+(52:17.950) second half,
+(52:18.570) 第一半 第二半
+(52:29.590) you know,
+(52:30.500) starting in Q1 and then exiting in Q4?
+(52:35.280) I think,
+(52:35.740) CJ,
+(52:36.460) you're saying 30 billion,
+(52:38.340) are you talking about the server,
+(52:41.380) or are you talking about,
+(52:44.560) right?
+(52:45.540) 27 instinct, yeah.
+(52:47.220) Yeah,
+(52:47.740) 2027,
+(52:51.180) maybe let me help you,
+(52:53.040) CJ,
+(52:53.440) CJ, I think what you're hearing from us
+(52:59.320) and maybe back to Stacy's question,
+(53:03.470) without going into exact numbers,
+(53:06.470) I think this notion of over 100%
+(53:14.260) 我們看來,這是一個過去的幾個季度的增長,
+(53:18.440) 而我們在過去的幾個季度中,
+(53:21.160) 我們期望將會繼續增長,
+(53:22.840) 以一季度的方式來說。
+(53:25.170) 是的,這是我們最好的想法。
+(53:28.210) 我相信,如果你有更多的問題,
+(53:31.860) 我相信Jean可以作出幫助。
+(53:33.060) 是的,是的。
+(53:34.020) 而在市場額外的額外,
+(53:38.120) 如果我們把供應市場放在一邊,
+(53:51.060) as I said earlier,
+(53:52.040) As I said earlier,
+(53:59.780) and the data center AI ramp.
+(54:02.940) So I actually think,
+(54:09.560) it could be, you know, different mix.
+(54:11.840) could change differently
+(54:13.020) but overall
+(54:13.860) when we think about this
+(54:15.760) we are actually very optimistic
+(54:17.340) about how we manage the ramp
+(54:19.640) of the MI450
+(54:22.420) at the same time
+(54:24.160) you know
+(54:24.760) with the server business
+(54:26.240) continue to improve
+(54:28.100) and grow significantly
+(54:30.500) in 2027
+(54:31.820) overall
+(54:32.660) I think they have a good offset
+(54:35.420) in general overall
+(54:38.610) but I do think
+(54:40.110) it's important to remember
+(54:42.430) we have multiple other levers
+(54:45.530) not only embedded businesses
+(54:47.570) but also client business
+(54:50.530) we continue to improve gross margin
+(54:52.790) and operation team
+(54:55.650) continue to do a great job
+(54:59.970) Thank you
+(55:05.240) comes from the line of Joe Moore
+(55:09.160) Please proceed with your question
+(55:10.940) Great, thank you
+(55:12.800) In the server CPU business
+(55:14.480) 你現在的供應圍繞很緊張
+(55:17.770) 市場似乎非常緊張
+(55:19.270) 你預期這種緊張度會繼續繼續增長
+(55:22.350) 而當你考慮下年
+(55:23.470) 你會談論供應鏈的全體能力
+(55:25.290) 來支持這種增長
+(55:27.290) 你所談論的特別是CPU
+(55:29.670) 當然
+(55:31.550) 我認為CPU供應鏈的供應鏈
+(55:34.910) 現在很緊張
+(55:35.850) 它在第一半年中已經很緊張
+(55:38.230) 因為這種供應鏈的多數是不預測的
+(55:40.690) 我們進入了2027年
+(55:43.290) 供應鏈的供應鏈是更好預測的
+(55:45.050) 所以我們期望2027年的供應鏈情況會比2026年更好
+(55:51.350) 我們感到很高興能夠滿足我們剛才提到的70%週年增長。
+(55:57.420) which was over 70% year over year growth
+(56:00.020) 我認為,根據事情發生的情況下,
+(56:03.840) 可能增長的機會會增加,
+(56:06.480) as we get through the next few quarters
+(56:09.220) Thank you for that
+(56:11.780) 您們在2nm上有很多的增長
+(56:15.300) 有很多關注3nm的短短供應
+(56:18.660) 這有幫助嗎?
+(56:19.760) 還是更加困難的
+(56:21.460) 在新的軟件上提供新的能量?
+(56:26.630) Joe, 新的軟件上提供新的能量
+(56:29.490) 總是很困難的
+(56:29.610) 我認為我們的方法
+(56:31.170) 有點特別
+(56:34.130) 因為我們使用線路技術
+(56:36.950) 我們在新的軟件上
+(56:38.310) 比較少的線路
+(56:41.150) 所以這給我們機會
+(56:44.390) 我們非常努力的
+(56:46.010) 確保我們能夠
+(56:48.710) To meet the very strong customer demand
+(56:51.330) So from my perspective
+(56:52.450) 所以從我的看法,我認為這些都在做的工作中
+(56:55.150) 我們確實在看整體供應鏈,不僅是派發
+(56:58.030) Not just wafers
+(56:58.930) So that includes back-end capacity
+(57:02.970) But we feel good about where we are
+(57:08.370) 強大的航路和傳輸器,以及
+(57:11.190) John,我們有時間再接一位問問
+(57:15.810) Before we close out the call, please
+(57:17.070) Thank you
+(57:19.850) 我們的最後一個問題
+(57:23.670) Please proceed with your question
+(57:25.350) Hi, thank you for taking my questions
+(57:28.300) 謝謝您提出我的問題
+(57:31.620) 與Cerebrus
+(57:35.980) Can you talk about just qualitatively
+(57:39.360) how do you expect the sales to grow
+(57:42.040) 在
+(57:45.420) Yeah, absolutely
+(57:47.920) 整體來說,投資市場在今年至明年成長非常大。
+(57:51.240) is growing very substantially
+(57:54.180) over this year into next year
+(57:57.580) the fast inference in particular
+(57:59.020) is an area which is
+(58:01.060) let's call it starting
+(58:02.380) to become more and more relevant
+(58:04.900) 所以我們與Cerebrus合作,
+(58:06.980) I think they have great technology
+(58:08.500) together with Helios
+(58:10.680) plus their wafer scale engine
+(58:13.460) 我們得到很好的方案給我們的客戶,
+(58:16.720) and we would expect that solution
+(58:18.520) to start becoming available in Q4
+(58:25.600) 從我們的看法,
+(58:29.240) and we continue to look at ways to
+(58:37.600) for the various workloads out there
+(58:39.140) 我們認為這是我們做的更多的
+(58:44.940) Great and one for Gene
+(58:48.030) How should we think about OPEX growth
+(58:50.350) 與您談論過去幾年內的
+(58:54.130) you talked about in the next few years
+(58:57.270) 是的,我認為Visa說的TEM增長在40%
+(59:03.130) and will be growing faster than TEM
+(59:05.970) from OPEC's perspective
+(59:07.910) we'll continue to invest
+(59:09.670) 我們會繼續投資
+(59:13.090) 但您應該期待我們
+(59:17.870) less than the top line revenue growth
+(59:20.570) 這就是我們的商業模式
+(59:24.230) 設計的目的
+(59:26.810) To deliver earnings per share
+(59:28.570) 這也相當於麗莎說的
+(59:31.330) 我們的EPS會較為高於$20
+(59:36.030) We outlined at our financial analyst day
+(59:38.750) 謝謝您的參與
+(59:43.360) That joined our call today
+(59:44.500) 今天參與了我們的電話
+(59:46.340) Thank you
+(59:46.860) Thank you, ladies and gentlemen
+(59:50.510) 謝謝各位女士和男士
+(59:52.330) 今天的問問和答案設計
+(59:54.470) We thank you for your participation
+(59:56.010) 您可以在這段時間內
