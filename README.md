@@ -116,7 +116,7 @@
 | 2379 瑞昱 | 2026 Q2 | 財報 | 2026-07-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2379) |
 | MSFT Microsoft 微軟 | FY2026 Q4 | 法說會 | 2026-07-29 | [64.3 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/MSFT_2026_q4.m4a) | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MSFT/financials/) |
 | MSFT Microsoft 微軟 | FY2026 Q4 | 財報 | 2026-07-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MSFT/financials/) |
-| QCOM Qualcomm 高通 | FY2026 Q3 | 法說會 | 2026-07-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/QCOM/financials/) |
+| QCOM Qualcomm 高通 | FY2026 Q3 | 法說會 | 2026-07-29 | [40.7 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/QCOM_2026_q3.m4a) | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/QCOM/financials/) |
 | QCOM Qualcomm 高通 | FY2026 Q3 | 財報 | 2026-07-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/QCOM/financials/) |
 | 2303 聯電 | 2026 Q2 | 法說會 | 2026-07-29 | [58.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2303_2026_q2.m4a) | [📝](data/2303/2303_2026_q2_FIN.srt) | - | [中](data/2303/2303_2026_q2_ir.pdf) ([MD](data/2303/2303_2026_q2_ir.md)) | [EN](data/2303/2303_2026_q2_ir_en.pdf) ([MD](data/2303/2303_2026_q2_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2303) |
 | META Meta Platforms Inc. | 2026 Q2 | 法說會 | 2026-07-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/META/financials/) |

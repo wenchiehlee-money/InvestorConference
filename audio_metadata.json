@@ -656,5 +656,18 @@
     "size_bytes": 72026852,
     "source": "local_file",
     "status": "ok"
+  },
+  "QCOM_2026_q3": {
+    "captured_media_url": "https://files.quartr.com/audio-files/019fafca-f70a-71f9-a671-a05e7fc79098/master.m3u8?ref=R29vZ2xl",
+    "checked_at": "2026-09-05",
+    "duration_sec": 2441.322,
+    "file": "data/QCOM/QCOM_2026_q3.m4a",
+    "note": "Secondary source discovery: Google Finance earnings tab exposed Quartr replay audio; company IR/MOPS/TWSE sources remain primary.",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/QCOM_2026_q3.m4a",
+    "sha256": "e62a9b35c5c637eb941b0790f47723f2af9755b301c3e9bade9ffeb5ff1b35ae",
+    "size_bytes": 39199272,
+    "source": "google_finance_quartr",
+    "source_url": "https://www.google.com/finance/beta/quote/QCOM:NASDAQ?tab=earnings",
+    "status": "ok"
   }
 }
