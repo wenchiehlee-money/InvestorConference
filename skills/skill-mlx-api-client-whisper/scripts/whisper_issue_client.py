@@ -150,8 +150,12 @@ class WhisperIssueClient:
     def issue_title(self, stem: str) -> str:
         return f"Generate FIN.srt: {stem}"
 
-    def issue_body(self, stem: str, audio_url: str, fin_path: str, task_type: str = "generate_fin_srt", stock_id: str | None = None) -> str:
+    def issue_body(
+        self, stem: str, audio_url: str, fin_path: str, task_type: str = "generate_fin_srt",
+        stock_id: str | None = None, language: str | None = None,
+    ) -> str:
         parsed = parse_stem(stem, self.source_type)
+        resolved_stock_id = stock_id or parsed.get("stock_id")
         metadata = {
             "task_type": task_type,
             "source_repo": self.source_repo,
@@ -160,10 +164,28 @@ class WhisperIssueClient:
             "audio_url": audio_url,
             "expected_fin_srt_path": fin_path,
         }
-        if stock_id or parsed.get("stock_id"):
-            metadata["stock_id"] = stock_id or parsed.get("stock_id")
+        if resolved_stock_id:
+            metadata["stock_id"] = resolved_stock_id
+        resolved_language = language or self.language_for_stock_id(resolved_stock_id)
+        if resolved_language:
+            metadata["language"] = resolved_language
         yaml_lines = [f'{key}: "{value}"' for key, value in metadata.items()]
         return f"{self.source_label} detected audio with no FIN.srt.\n\n```yaml\n" + "\n".join(yaml_lines) + "\n```\n"
+
+    @staticmethod
+    def language_for_stock_id(stock_id: str | None) -> str | None:
+        """
+        Whisper language hint: numeric stock_id -> Taiwan-listed (zh), alphabetic
+        stock_id -> a US/international ticker whose earnings call is in English (en).
+
+        Added after AVGO/HPE FY2026 Q3's first FIN.srt came back as garbled Chinese
+        paraphrase of English speech (language defaulted to zh with no hint set) --
+        non-Taiwan tickers must request "en" explicitly rather than relying on the
+        pipeline's own language auto-detection.
+        """
+        if not stock_id:
+            return None
+        return "zh" if stock_id.isdigit() else "en"
 
     def fin_path_for(self, stem: str) -> str:
         parsed = parse_stem(stem, self.source_type)
@@ -184,7 +206,10 @@ class WhisperIssueClient:
             page += 1
         return issues_by_title
 
-    def open_fin_request(self, stem: str, audio_url: str, task_type: str = "generate_fin_srt", stock_id: str | None = None) -> dict | None:
+    def open_fin_request(
+        self, stem: str, audio_url: str, task_type: str = "generate_fin_srt",
+        stock_id: str | None = None, language: str | None = None,
+    ) -> dict | None:
         """Open a generate-FIN issue for `stem` if one isn't already open. Idempotent."""
         open_issues = self.list_open_issues()
         title = self.issue_title(stem)
@@ -199,7 +224,7 @@ class WhisperIssueClient:
         new_issue = self.client.request(
             "POST",
             f"/repos/{self.target_repo}/issues",
-            {"title": title, "body": self.issue_body(stem, audio_url, fin_path, task_type, stock_id)},
+            {"title": title, "body": self.issue_body(stem, audio_url, fin_path, task_type, stock_id, language)},
         )
         self.client.request(
             "POST",
