@@ -114,7 +114,7 @@
 | 3443 創意 | 2026 Q2 | 財報 | 2026-07-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3443) |
 | 3443 創意 | 2026 Q2 | 法說會 | 2026-07-30 | 無 | - | - | [中](data/3443/3443_2026_q2_ir.pdf) ([MD](data/3443/3443_2026_q2_ir.md)) | [EN](data/3443/3443_2026_q2_ir_en.pdf) ([MD](data/3443/3443_2026_q2_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3443) |
 | 2379 瑞昱 | 2026 Q2 | 財報 | 2026-07-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2379) |
-| MSFT Microsoft 微軟 | FY2026 Q4 | 法說會 | 2026-07-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MSFT/financials/) |
+| MSFT Microsoft 微軟 | FY2026 Q4 | 法說會 | 2026-07-29 | [64.3 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/MSFT_2026_q4.m4a) | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MSFT/financials/) |
 | MSFT Microsoft 微軟 | FY2026 Q4 | 財報 | 2026-07-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MSFT/financials/) |
 | QCOM Qualcomm 高通 | FY2026 Q3 | 法說會 | 2026-07-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/QCOM/financials/) |
 | QCOM Qualcomm 高通 | FY2026 Q3 | 財報 | 2026-07-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/QCOM/financials/) |

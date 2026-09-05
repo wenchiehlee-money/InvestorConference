@@ -634,6 +634,19 @@
     "source_url": "https://www.google.com/finance/beta/quote/HPE:NYSE?tab=earnings",
     "status": "ok"
   },
+  "MSFT_2026_q4": {
+    "captured_media_url": "https://files.quartr.com/audio-files/019fb00a-6789-73ce-886d-87725d8e2e1f/master.m3u8?ref=R29vZ2xl",
+    "checked_at": "2026-09-05",
+    "duration_sec": 3858.688,
+    "file": "data/MSFT/MSFT_2026_q4.m4a",
+    "note": "Secondary source discovery: Google Finance earnings tab exposed Quartr replay audio; company IR/MOPS/TWSE sources remain primary.",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/MSFT_2026_q4.m4a",
+    "sha256": "d4442c7fd38351cf5fd4eabab283d932f19ab9454d6ef68b84b02f6771781ea8",
+    "size_bytes": 62090502,
+    "source": "google_finance_quartr",
+    "source_url": "https://www.google.com/finance/beta/quote/MSFT:NASDAQ?tab=earnings",
+    "status": "ok"
+  },
   "NVDA_2027_q2": {
     "checked_at": "2026-08-30",
     "duration_sec": 3570.457,
