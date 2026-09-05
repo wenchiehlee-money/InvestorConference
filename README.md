@@ -90,7 +90,7 @@
 | 5274O 信驊 | 2026 Q2 | 財報 | 2026-08-05 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/5274.TWO/financials/) |
 | GFS GlobalFoundries Inc. | 2026 Q2 | 財報 | 2026-08-05 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/GFS/financials/) |
 | 3231 緯創 | 2026 Q2 | 法說會 | 2026-08-04 | [58.1 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3231_2026_q2.m4a) | [📝](data/3231/3231_2026_q2_FIN.srt) | [✅](data/3231/3231_2026_q2_GT.srt) | [中](data/3231/3231_2026_q2_ir.pdf) ([MD](data/3231/3231_2026_q2_ir.md)) | [EN](data/3231/3231_2026_q2_ir_en.pdf) ([MD](data/3231/3231_2026_q2_ir_en.md)) | [📊](data/reports/conference-digests/3231/3231_2026_q2_digest.md) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3231) |
-| AMD AMD 超微 | 2026 Q2 | 法說會 | 2026-08-04 | 無 | - | - | - | [EN](data/AMD/AMD_2026_q2_ir_en.pdf) | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
+| AMD AMD 超微 | 2026 Q2 | 法說會 | 2026-08-04 | [60.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/AMD_2026_q2.m4a) | - | - | - | [EN](data/AMD/AMD_2026_q2_ir_en.pdf) | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
 | 3034 聯詠 | 2026 Q2 | 財報 | 2026-08-04 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | AMD AMD 超微 | 2026 Q2 | 財報 | 2026-08-04 | - | - | - | - | [Tables](data/AMD/AMD_2026_q2_financial_tables.pdf) | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
 | 7769 鴻勁 | 2026 Q2 | 財報 | 2026-08-03 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7769) |
