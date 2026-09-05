@@ -1,0 +1,754 @@
+[METADATA]
+Source: AAPL_2026_q3_exp11
+Language: zh
+---
+(00:00.000) 大家好,歡迎來到Apple Q3 fiscal year 2026 earnings conference call。
+(00:05.940) 我的名字是Suhasini Chandramali,銀行夥伴的副總裁。
+(00:10.240) Today's call is being recorded.
+(00:12.700) 今天先說的是Apple CEO Tim Cook,再說的是CFO Kevin Parekh。
+(00:18.500) 今天的通訊會議也包括了將來的CEO,John Ternes。
+(00:22.940) 在準備的聲明後,我們會開啟訊息給分析者。
+(00:26.600) 請留意,一些您會聽到的資訊在今天的討論中,
+(00:43.390) 這些指示包括危機和不確定性
+(01:31.810) Apple assumes no obligation
+(01:33.170) to update any forward-looking statements
+(02:05.840) 我們繼續看到我們最受歡迎的項目,
+(02:10.680) 以 iPhone 收益從一週年以來的22%增長,
+(02:16.560) 我們看到了我們的最好的Mac lineup的激動,
+(02:21.480) 我們成為了29%的強勁成本,
+(02:26.780) 我們的服務也成立了一週年收入的收入,
+(02:38.780) 我們很高興看到在美國、
+(02:44.840) Latin America,
+(02:45.640) Western Europe,
+(02:46.820) India,
+(02:47.600) China mainland,
+(02:48.800) Japan,
+(02:49.620) and Southeast Asia.
+(02:51.560) 我們也成立了在多個市場中的發展和發展記錄
+(03:00.650) 這一年的WWDC是我們最新的新產品的美好展示
+(03:11.140) a completely reimagined version of Siri
+(03:14.160) 我們是一個非常能夠,深入地,
+(03:17.580) 並且更加人性的,
+(03:20.720) 並且我們的平臺上的設計是非常完美的。
+(03:25.110) 我們的設計和公開的數據,
+(04:02.590) At WWDC,
+(04:09.240) 我們感到非常感激的反應
+(04:13.620) 新的保健功能如
+(04:54.660) Beginning with iPhone
+(05:32.030) across the lineup
+(05:37.550) battery life
+(05:38.990) durability
+(05:39.990) durability
+(05:48.910) the remarkably thin design of iPhone Air
+(05:52.150) iPhone SEVENTEEN的平衡表現和持久性
+(05:55.770) Or the exceptional value of iPhone 17e
+(05:59.630) There's an iPhone for every customer
+(06:02.490) Mac delivered its best June quarter yet
+(06:06.100) With $10.4 billion in revenue
+(06:12.300) Despite significant supply constraints
+(06:19.010) Of our latest lineup with MacBook Pro
+(06:50.930) 優優獨播劇場——YoYo Television Series Exclusive
+(07:01.780) MAC-9 Powerhouse,
+(07:05.680) on-device inference,
+(07:09.720) And we're seeing customers
+(07:18.570) for agentic AI,
+(07:21.690) to run frontier class models locally
+(07:24.290) across the lineup
+(07:26.280) Across the lineup,
+(07:29.360) MacBook Neo has been especially popular
+(07:32.340) with its distinctive design
+(07:34.480) and excellent value
+(07:35.820) and excellent value
+(07:41.420) MacBook Air
+(07:43.870) the world's most popular laptop
+(07:45.970) continues to deliver the portability
+(07:48.490) and performance customers love with M5
+(07:51.390) and MacBook Pro
+(07:53.450) powered by M5 Pro
+(07:55.750) remains a go-to choice
+(08:13.690) do-anything device for students,
+(08:15.650) entrepreneurs,
+(08:16.530) entrepreneurs,
+(08:21.190) portability,
+(08:22.270) and versatility.
+(08:23.610) and versatility.
+(08:45.920) and the ultra-portable iPad Mini,
+(08:58.200) up 6% from a year ago.
+(09:00.660) We grew in every geographic segment
+(09:30.520) are having for users all over the world
+(09:33.380) changing, even saving lives
+(09:36.140) Meanwhile, we continue raising the bar
+(09:40.170) across our AirPods lineup
+(09:46.130) or the premium listening experience
+(09:52.610) 而通訊軟件加強了Apple的智慧
+(09:56.980) 人們正在越過語言障礙和聯繫
+(10:01.800) 如我所說
+(10:09.330) 包括Siri AI
+(10:15.110) 這些經驗非常有用
+(10:22.690) with the latest models running on device
+(10:28.070) We began laying the groundwork for users
+(10:58.490) and deep on-device intelligence,
+(11:16.400) 優優獨播劇場——YoYo Television Series Exclusive
+(12:20.560) to this year's Emmy Awards
+(12:21.760) Apple達到89名名單
+(12:25.520) 全媒體都在大劇劇和劇情劇的級別中
+(12:29.100) and comedy series categories
+(12:30.740) 有三個偉大的劇情劇名單
+(12:33.900) 和三個偉大的劇情劇名單
+(12:37.280) Widows Bay also stands out
+(12:40.640) as the year's most nominated new program
+(12:42.760) earning 19 Emmy nominations
+(12:45.440) In the six and a half years since launch
+(12:48.460) Apple TV has earned more than 850 wins
+(12:52.440) and nearly 3,800 nominations
+(12:54.820) In time for the World Cup
+(12:58.540) 我們把Apple Sports
+(13:04.160) 並使得比較容易
+(13:11.980) 在同一時間,我們正在一半的F1年紀錄,
+(13:17.350) 而Apple TV的訂閱者都在每個季度都在跟隨他們的最愛的駕駛員和團隊。
+(13:23.930) In retail, we were pleased to announce
+(13:30.290) Apple Upgrade是一種新的硬件供應程序,
+(13:34.610) launched in partnership with Klarna
+(13:45.130) In all of our work
+(14:04.130) 在全球的智能知識日上,
+(14:08.260) 我們將推出新的功能,
+(14:13.420) 新的智能能力將會推出聲音翻譯、音量控制器、聲音控制器,
+(14:17.710) magnifier,
+(14:18.730) voice control,
+(14:19.910) voice control,
+(14:23.970) 我們還將使用電腦語言認識,以為我們可以在影片中發放不出字幕。
+(15:00.930) 我們在美國的4年內,我們在美國的6百億美元承諾,
+(15:06.520) 我們在美國的6百億美元承諾,
+(15:12.380) into the US
+(15:13.740) We're pleased with the progress
+(15:16.010) we've already made
+(15:17.250) advancing the American supply chain
+(15:19.390) Earlier this month
+(15:21.330) Apple announced a new agreement
+(15:23.370) with Broadcom
+(15:24.210) to design and produce
+(15:25.710) custom silicon components
+(15:27.210) and cutting edge
+(15:28.690) wireless connectivity technologies
+(15:30.410) The new multi-year agreement
+(15:33.600) with Broadcom
+(15:34.420) which is part of Apple's
+(15:36.360) American manufacturing program
+(15:38.020) is expected to exceed
+(15:40.260) 30 billion dollars
+(15:42.220) This marks our largest ever
+(15:47.020) It's also an important step forward
+(16:10.860) The center will teach students,
+(16:13.580) supplier employees,
+(16:14.820) supplier employees,
+(16:36.900) Our roadmap is phenomenal
+(16:49.170) 建立最好的產品和服務
+(16:55.410) 這是一個特別的 privilege
+(17:00.880) 幫助他們創造
+(17:06.020) 我不能更興奮地看
+(17:11.680) 繼續發展
+(17:16.200) With that, I'll turn it over to Kevin
+(17:19.240) Thanks Tim, and good afternoon everyone
+(17:22.690) 這裡是我們的主要金融預測
+(18:05.620) up 12% year-over-year.
+(18:26.680) when you remove this favorable impact
+(18:46.240) Services gross margin was 75.6%,
+(19:17.410) 從資金支付
+(20:00.910) iPhone was the top-selling model
+(20:04.330) urban China,
+(20:05.590) the UK,
+(20:06.670) France,
+(20:07.630) Australia and Japan
+(20:09.980) 我們很高興地回答了iPhone 17家庭的問題
+(20:19.700) MAC revenue was $10.4 billion,
+(20:22.860) up 29% year over year,
+(20:25.340) a new June quarter record,
+(20:37.260) India,
+(20:38.200) and Southeast Asia.
+(20:39.860) MacBook Neo的收入是非常大的
+(20:43.590) 我們繼續把新的顧客帶來世界各地的產品
+(20:47.320) As Tim mentioned,
+(20:54.120) including in the U.S.,
+(20:56.000) China mainland,
+(20:57.040) and India.
+(20:58.980) 而且,在美國,Mac的顧客滿意率最近是95%
+(21:04.360) iPad revenue was $6.2 billion,
+(21:08.370) down 6% year over year,
+(21:16.950) At the same time,
+(21:18.650) 優優獨播劇場——YoYo Television Series Exclusive
+(21:37.520) up 6% year over year,
+(22:02.590) was reported at 95%
+(22:08.990) of $30.7 billion, up 12% year over year
+(22:15.670) For the total services business
+(22:21.670) We set records in every category
+(22:23.890) with June quarter records in advertising
+(22:25.890) App Store, Apple Care, Music and Video
+(22:29.850) and video,
+(22:33.550) 我們很期待我們的長期經營優勢
+(22:38.260) 我們的大型裝置基地有超過2.5億的活動設備
+(22:42.040) 我們有非常強大的基基
+(22:45.160) 我們的服務繼續吸引更多的客戶
+(22:48.440) 我們現在已經超過了1.5億的資金
+(24:30.160) transitioning 25,000 students
+(24:31.940) from Windows devices to MacBook Neo
+(24:34.500) across its 18 high schools
+(24:36.340) In Washington,
+(24:38.590) Peninsula School District 401
+(24:40.230) moved over 8,000 students
+(24:42.550) from Chromebooks to MacBook Neo
+(24:44.070) And in Oklahoma,
+(24:46.060) Midwest City,
+(24:47.280) Del City School District
+(24:48.560) purchased over 6,000 MacBook Neos
+(24:51.200) 成為了學生的全Apple地區。
+(24:53.600) In fact,
+(24:55.260) in the last quarter,
+(24:56.420) about half of the MacBook Neo
+(24:58.200) by U.S. education institutions
+(25:15.780) 在這一季
+(25:34.880) that Suhasini referred to
+(25:40.110) 我們所提供的顏色認為,
+(25:46.170) 而全球的 macroeconomic outlook 從今天開始並沒有變異。
+(25:52.050) 我們也期望我們的週年半的總公司收益會受到兩個主要因素的影響。
+(25:58.220) 我們期望外匯成為大約2.5%的年度總公司增長率,
+(26:33.620) 優優獨播劇場——YoYo Television Series Exclusive
+(26:49.210) For services,
+(27:42.690) August 13th, 2026
+(27:44.210) to shareholders of record
+(27:45.850) as of August 10th, 2026
+(27:47.950) Before we take questions
+(27:49.970) let me turn it back over to Tim
+(27:51.670) Thanks, Kevin
+(27:53.870) Before we get into questions
+(27:55.760) I just wanted to take a moment
+(27:57.780) to say thank you to all of you
+(28:00.420) from our shareholders
+(28:01.870) particularly our long-term shareholders
+(28:03.950) who have put their trust in us
+(28:06.110) for so many years
+(28:07.250) to the analysts
+(28:08.670) who have followed our company so closely
+(28:11.170) As you know
+(28:18.490) The transition is going seamlessly
+(28:25.470) and lead Apple into its next era
+(28:27.690) He is truly one of a kind
+(28:33.840) As I've said,
+(28:38.910) in our executive team
+(28:40.770) and in the extraordinary people at Apple
+(28:46.630) all over the world
+(28:48.090) We have a bright future ahead
+(28:53.460) So thank you all
+(28:56.000) 我們會很高興地回答您的問題
+(28:59.060) Thank you Tim
+(29:00.730) 謝謝Tim
+(29:02.970) 兩個問題
+(29:05.910) Certainly
+(29:08.240) 我們先問第一個問題
+(29:10.340) from Amit Daryanani from Evercore
+(29:12.760) Please go ahead
+(29:15.260) Thanks for taking my question
+(29:17.180) Tim 祝你幸運
+(29:20.800) 可能先說一下
+(29:26.260) 是約500%的
+(29:32.920) 你能不能談談一下
+(29:38.120) 相比之下的輸出限制
+(29:40.780) 廣泛的增長
+(29:45.300) Yeah, this is Kevin. How are you doing?
+(29:47.280) 為什麼不我先開始介紹逐漸的改變
+(29:49.780) 然後我讓Tim進入更多關於供應限制的課程
+(29:53.920) 我提出了在我準備的評論中
+(29:56.340) 我們期待週年一半的總收益
+(29:58.300) 會增長9-11%一年一半
+(30:01.920) 然後我們期待這會受到兩個主要因素的影響
+(30:05.000) 首先我們在週年一半到週年一半
+(30:08.280) 我們期待國際交易有逐漸的風險
+(30:11.060) 約2.5%
+(30:13.080) 一年一半的總公司增長率
+(30:15.760) 然後第二個影響是,
+(30:19.030) 供應限制的影響是,
+(30:21.110) 我們期待它會大幅增長,
+(30:22.850) 當我們從 June 到 September 之間的供應限制,
+(30:25.930) 而這個供應限制會影響 iPhone、Mac 和 iPad 的供應限制。
+(30:32.770) 實際上,當你組合這兩個因素,我們將接近 June 的總公司增長率。
+(30:40.840) 對,Mitt,這是 Tim。首先,謝謝您的詢問。
+(30:44.640) During the June quarter,
+(30:46.440) 我們經歷了
+(30:51.120) 而更少的是iPhone和iPad
+(30:54.940) 這些是由於非常高的需求水平
+(30:58.990) and as we've said before,
+(31:00.970) 而我們之前也說過
+(31:06.000) 而這些限制主要是由於
+(31:15.220) 如果您再看前面的今年的季度
+(31:19.930) 即是本月的季度
+(31:26.350) 然而,
+(31:30.490) 我們預期供應限制的影響將大幅度增加。
+(31:37.550) 在9月份,估計的供應限制會影響iPhone、Mac和iPad
+(31:45.370) 因此,目前我們正在遇到一些非常重要的供應限制
+(31:51.420) 以限制供應鏈在供應鏈上的穩定性
+(31:55.960) 非常有幫助,謝謝你
+(32:00.690) Tim,
+(32:01.230) 我還有一個記憶問題
+(32:10.810) 是為了讓他們付出更多的資金
+(32:13.330) 記憶浪費的改善
+(32:15.130) 似乎是為了挑戰
+(32:15.710) 您們現在的問題
+(32:17.270) 有報告指出
+(32:19.190) 您們在尋求
+(32:19.730) 記憶浪費的更多 flexibility
+(32:21.150) 您可以談談
+(32:22.910) 這是否在尋求
+(32:24.110) 確保您們有供應
+(32:27.210) 並且是一種方法
+(32:28.210) 來解決記憶浪費
+(32:29.330) 還是為了保護
+(32:30.930) 您們的客戶的價值
+(32:32.390) 您可以分享這些信息
+(32:33.650) 這會很幫助
+(32:34.070) 謝謝
+(32:35.010) 讓我回過頭來
+(32:36.690) 談論記憶在 general
+(32:38.810) 因為我知道
+(32:39.210) 因為我知道
+(32:43.050) 如果您看
+(32:47.390) 我們付出了比周末的記憶更多的錢
+(32:52.760) And then, as I alluded to last quarter,
+(32:55.920) last quarter
+(33:02.160) And that is what happened.
+(33:04.700) it was partially offset
+(33:08.880) 在9月份,
+(33:12.030) 我們預計要支付更高的記錄費,
+(33:15.810) 我們能夠以幾個因素來解決,
+(33:21.090) 讓我走過他們。
+(33:24.690) 首先,如您預料的,在9月份,我們將得到某些持有品牌的利潤。
+(33:30.470) in the September quarter
+(33:31.690) however
+(33:33.430) we believe this will see
+(33:36.050) decreasing benefit from this
+(33:38.230) over time
+(33:39.210) beyond the September quarter
+(33:41.690) the second is
+(33:43.550) we're expecting lower costs
+(33:47.230) on certain
+(33:48.650) non-memory components
+(33:51.420) that are
+(33:52.980) in our bomb
+(33:54.900) and then if you
+(33:57.380) look beyond September
+(33:58.660) we see the market
+(34:10.610) In terms of the sources of supply
+(34:32.160) 在售價方面不明顯,
+(34:33.720) 但它可能在供應方面有幫助,
+(34:37.360) 因此我們在預測所有選項。
+(34:40.940) 好的,謝謝你,阿米特。
+(34:46.720) 行動員,請問我們的下一個問題。
+(34:48.840) 我們的下一個問題來自邁克爾和格爾曼·薩克斯。請進行。
+(34:55.540) 早上好。
+(34:59.090) 首先,Tim,恭喜你在這次訪問中獲得了優秀。
+(35:06.980) 在我的問題上,我也有兩個問題。
+(35:09.260) First on the Apple upgrade program
+(35:15.690) the expected adoption rates
+(35:22.080) device install base
+(35:30.690) Or also having an equal impact
+(35:37.300) 在美國的手機資產資源中
+(35:39.140) 就像 iPhone 歷史上的那樣
+(35:41.260) 謝謝
+(35:41.620) Michael 首先
+(35:43.700) 謝謝您的評論
+(35:45.040) 我非常感謝
+(35:46.080) 如果您看看
+(35:48.440) 升級計劃
+(35:51.780) 它們的主要目的
+(35:53.480) 是讓客戶
+(35:55.880) 能夠用我們最新的產品
+(35:58.440) 拿到他們對的賣出計劃
+(36:02.570) 當然 如您所知
+(36:04.170) Apple 產品的適當價值
+(36:13.470) 因此,
+(36:25.750) And so we're very excited about it
+(36:29.200) It is offered in our retail stores
+(36:32.240) 所以它們並沒有在所有頻道上的提供
+(36:37.480) 所以我們會看到客戶的收入是什麼,但是早期的反應是相當正常的。
+(36:44.000) 是的,邁克爾,我剛才也提到,它現在也僅在美國上售。
+(36:50.180) 好的,謝謝你,這非常有幫助。
+(36:52.680) 然後,我的第二個問題,就在iOS27和Apple Intelligence上,
+(36:59.510) 我們在這個月前進入了公共數碼。
+(37:03.330) 您可以談談公共數碼的學習嗎?
+(37:05.470) learnings from the public beta?
+(37:11.630) for iPhones this holiday?
+(37:19.130) inform how you're thinking
+(37:26.660) recover some of those costs
+(37:32.880) 首先,我們對Siri AI的興奮感到非常高。
+(37:36.200) We had a great reception from WWDC
+(37:40.540) 我們立即發佈了發佈人數的輸入輸入項目後。
+(38:12.630) That's based on your personal context
+(38:27.050) It's obviously early going for us
+(38:30.030) 我們也認為
+(38:45.490) and so we will have
+(38:55.630) 人們可以買到iCloud Plus的組件
+(39:02.020) and we'll see how the pickup for that is
+(39:05.220) 但我們不可能更興奮地問問
+(39:09.380) 那裡的產品是什麼
+(39:14.230) Thank you
+(39:14.970) Thank you, Michael
+(39:16.360) 謝謝你 邁克爾
+(39:19.120) 我們下一個問題是
+(39:24.070) Please go ahead
+(39:25.150) 請進去
+(39:29.020) 謝謝你問的問題
+(39:31.460) I'll really miss you
+(39:38.430) 我認為人們正在想出這一點
+(39:41.190) a little bit this way
+(39:42.170) is that the street had yet 12% growth
+(39:45.130) for the quarter September
+(39:46.750) and so you could argue that
+(39:49.010) to get to the 10% you guided
+(39:50.630) that's just the FX
+(39:51.610) and then in the first quarter
+(39:53.730) which is December
+(39:54.550) street has decelerated quite a bit
+(39:56.950) to like 8 to 9%
+(39:58.810) 所以我認為,我們在這些時間之內圍繞著的事情是,
+(40:02.590) 是這些供應限制 really hit you in december
+(40:05.570) and you know impact that
+(40:08.130) Street做了一個很好的工作,
+(40:10.150) 把這個數字放進了,
+(40:14.690) you know deep view
+(40:16.710) 你知道,Deepview,
+(40:18.890) as you see it tim
+(40:20.410) and we really appreciate it thanks
+(40:22.550) 讓我們再談談供應限制,
+(40:25.500) 然後,凱文可以重新談論金融指示。
+(40:30.560) as i mentioned before
+(40:32.920) the primary issue
+(40:39.300) That's the primary supply constraint now
+(40:43.200) and the root cause of it
+(40:50.720) demand forecast issue to be candid
+(40:57.100) where the iPhone and the Mac
+(41:01.000) are both doing remarkably better
+(41:05.120) than we thought they would do
+(41:08.190) and we had high expectations
+(41:10.030) 所以我們的預料並沒有低
+(41:13.130) but as you can see
+(41:14.410) from iPhone's growth being 22%
+(41:17.410) and Mac's growth at 29%
+(41:21.490) iPhone的22%是目前的年份
+(41:24.990) that these are extraordinary numbers
+(41:27.730) 我們的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應鏈的供應�
+(41:32.810) so we've been pulling supply ahead
+(41:39.750) and so we've got a quarter
+(41:49.390) Kelvin, 你想加上金融指導嗎?
+(41:54.110) Ben,
+(41:54.650) let me jump in here,
+(41:56.850) and the dynamics Tim mentioned,
+(42:03.310) 這實際上是9-11%的指導。
+(42:12.360) 我們沒有提供任何顏色或指導除了9-11%。
+(42:14.040) you mentioned December,
+(42:14.840) 我們沒有提供任何顏色或指導除了9-11%。
+(42:18.600) OK. And then,
+(42:24.330) you know,
+(42:24.990) if I could just ask,
+(42:25.770) and you guys,
+(42:27.450) you know,
+(42:28.090) know what's in the press all the time,
+(42:30.890) 但有一個小公司在亞利桑那裡也在建造一間電子商場。
+(42:36.570) you know,
+(42:36.890) 您們可能有意識到,您們可以跟它們合作,可能能夠減少您們的電子限制。
+(42:43.010) 您們有任何可能要讓您們把電子供應商在一個合理的時間範圍內減少這些限制,
+(42:54.840) Yeah,
+(42:55.300) 是的,
+(43:07.290) it's a great issue in some ways.
+(43:09.030) 是一個非常強大的iPhone和Mac的產品 cycle,
+(43:12.270) 產品 cycle
+(43:18.010) In Arizona,
+(43:20.430) we do source over 100 million components
+(43:27.830) this year out of Arizona
+(43:30.250) and so we have
+(43:38.600) 我們不得不感興奮地感受到這種氣氛的增長和生產
+(43:46.830) 是的,謝謝
+(43:54.170) 謝謝你,Ben
+(43:55.460) 管理員,我們可以接下來的問題嗎?
+(43:58.020) 我們接下來的問題來自 Morgan Stanley的Eric Woodring,請繼續
+(44:03.890) 太好了,謝謝大家帶來我的問題
+(44:07.560) Tim、Joseca,就像大家所說的一樣,很高興與你們合作
+(44:11.220) 希望能夠再次與你們談談
+(44:16.460) Pricing here Tim
+(44:18.240) and kind of unprecedented
+(44:19.260) for you to take pricing
+(44:20.480) in the ways that you have
+(44:21.580) I guess two related questions
+(44:23.730) is just you know
+(44:24.670) is it your intention
+(44:25.430) to pursue some of these
+(44:27.430) multi-year LTAs
+(44:28.810) with your suppliers
+(44:29.550) just to ensure access to supply
+(44:31.750) at pre-agreed prices
+(44:33.450) and when you approach
+(44:35.450) product pricing in this environment
+(44:37.310) is it your intention
+(44:38.790) to protect product gross profit dollars
+(44:41.370) is it your intention
+(44:42.410) to protect product gross margins
+(44:44.010) we just love the kind of thought process
+(44:53.690) 我們會不斷地提高價值,
+(44:57.780) 我會說我們做了,
+(44:58.940) 因為我們在我認為是一百年浮沫的記憶價值上的一百年浮沫,
+(45:16.780) in terms of our philosophy
+(45:19.660) we look at units,
+(45:22.500) revenue,
+(45:23.380) and margin,
+(45:25.240) and then come to a business judgment
+(45:32.130) and so it's not a mathematical formula
+(45:39.650) 或只是看一層層面的事情
+(45:43.930) 我們看所有三層層面
+(45:49.630) instead of a 90-day clock
+(45:52.610) Hopefully that helps
+(45:56.880) I appreciate that
+(45:57.800) Yeah, that does help. Thank you, Tim
+(46:00.060) And then just maybe a quick follow-up
+(46:02.040) I guess Tim or Kevin
+(46:04.080) 12%的服務增長
+(46:08.220) I imagine FX maybe played a role there
+(46:10.440) 我認為4Q基礎的預測
+(46:15.240) I think the math would imply
+(46:16.720) Below 10% Year Over Year As Reported
+(46:19.440) So Can You Maybe Just Help Us Understand
+(46:23.380) 明白這個速度的功能因素
+(46:26.880) And If That's App Store
+(46:29.420) 我認為是一些第三者
+(46:34.820) You Know Is That A Function Of AI
+(46:41.390) 我們也希望能夠解釋到這些動作的部分
+(46:44.170) Thank You So Much
+(46:45.030) Hey Eric This Is Kevin
+(46:47.100) 我會選擇這個
+(46:47.960) 所以我們來從我們在第二季度的稅務資金中的16%
+(46:54.060) 到我們剛才提到的12%在你提及的中季度
+(46:57.800) 如果我們看起來,在4月的季度上,
+(47:00.660) 國際交易是年份增長的主導因素
+(47:05.840) 還有幾個其他要注意的因素
+(47:07.840) 第一,我們有F1的戲劇推出
+(47:09.760) F1是歷史上最高的戲劇推出
+(47:13.580) 而這一年我們沒有戲劇推出
+(47:16.320) 所以這有很好的影響,既是在四月中旬,又是在一年前的四月中旬
+(47:19.230) 在舊年半月和週年半月前的一年中。
+(47:21.650) 另外,我們也看到了一些影響在App Store的表現
+(47:26.380) 我們也看到了一些手機遊戲,還有我們在某些國家的App Store商務模式中有所變化
+(47:28.340) 例如在電腦遊戲中。
+(47:32.430) in certain countries
+(47:33.670) 而在美國,我們繼續在法庭法律下持續執行連接交易的影響
+(47:36.710) impacting the link-out transactions
+(47:45.100) So if we take a step back
+(48:10.290) 然後我們也設置了全球時間記錄
+(48:23.520) 我們在準備的評論中
+(48:49.130) 我認為我們的領域是比較穩定的
+(48:54.670) 但是我們看到的領域是比較穩定的
+(49:01.320) 我認為我們期望外交會繼續成為一場風雨
+(49:05.400) 這就是一個主要的主題
+(49:09.960) 我們期望外交會
+(49:15.740) 從週末至週末的年份增長率
+(49:22.260) 週末至週末的平均增長率
+(49:27.460) 週末的平均增長率
+(49:31.620) 謝謝你
+(49:41.600) 謝謝
+(49:48.690) 是從阿倫瑞克斯
+(49:55.320) So best wishes Tim
+(49:56.300) I guess I want to
+(49:58.640) 我想我想想,也許這與記憶價值的運行運動有關,
+(50:02.000) but as you look at the demand
+(50:03.860) that you're seeing right now
+(50:04.880) I'm curious of how you assess
+(50:06.220) 無論你是從消費者,甚至從教育市場上發揮出的需求
+(50:09.380) either from the consumer
+(50:10.460) 無論是從消費者或甚至從教育市場上的生產,
+(50:13.300) and whether or not you're factoring that
+(50:24.300) 我們在這段時間內有22%增長率。
+(50:32.920) 這段季度有22%的增長率。
+(50:37.740) And so it's not obvious, I would say
+(50:44.050) I would say
+(50:51.860) 我們現在必須在iPad和Mac上增加價格
+(50:57.950) 而價格廣泛度在那裡太早了
+(51:02.610) 才能夠得到絕對的結論
+(51:06.500) 那裡發生了什麼事
+(51:09.670) 因為那裡的頻道需要很長時間
+(51:12.110) 來調整
+(51:14.190) 因為那裡有頻道購物
+(51:15.410) 需要很長時間讓消費者回應
+(51:19.530) 因此,我們將在未來的幾個星期中更加了解這一點。
+(51:23.930) 非常有幫助。
+(51:27.850) 然後,作為一個短期的追溯,
+(51:29.210) 或許在更長時間的時間內,
+(51:30.810) 因此,人工智能逐漸增長,
+(51:35.870) 並且更多的消費者使用人工智能。
+(51:37.970) 我很好奇,Tim,
+(51:39.270) 如果您看到人工智能提供更多的機會,
+(51:43.830) 我可以感謝您的提供詳細,
+(51:46.030) 但您是否看到其他能夠達成的市場,
+(51:49.250) 從人工智能上去進行進展?
+(51:51.710) Yes,
+(52:00.090) 因
+(52:13.970) 當然,
+(52:14.790) 能夠在機器上執行某個數量的要求也是一個非常策略性和競爭性的武器。
+(52:32.840) 所以,我不能更興奮地提供這些機會。
+(52:40.800) 謝謝,Aaron。
+(52:42.440) 執行員,我們可以接下來的問題嗎?
+(52:44.700) 請問是從 Bank of America的Wansi Mohan。
+(52:49.900) 請進行。
+(52:50.520) 好的,謝謝你。
+(52:53.410) Tim,首先,恭喜你成為了CEO。
+(52:56.410) 你在2011年,當蘋果報道了108億元的收入,
+(53:02.780) 而你剛剛發佈了109億元的一半。
+(53:06.560) 真是一個精彩的旅程。
+(53:09.460) 謝謝你,我非常感謝你。
+(53:13.810) 當然,Tim。
+(53:14.830) 很高興認識你。
+(53:16.390) For my question, first on Siri AI
+(53:19.570) 您是否期望Siri AI會改變Apple的資金激進度
+(53:24.550) 雖然您擁有這麼多操作機器的操作功能
+(53:30.470) and you have this distributed compute
+(53:32.390) 您也有提供一些後面的要求
+(53:35.950) 在您自己的首部機器上
+(53:40.010) 以及第三部機器上
+(53:43.930) 將在未來變化,
+(53:47.330) and I will follow up
+(53:48.430) We use a hybrid model
+(53:50.850) 我認為Kevin
+(53:54.870) and so we use some third party cloud
+(53:59.450) and we do our own data centers
+(54:01.910) and so there will be a mix
+(54:04.620) but generally speaking
+(54:06.520) 我們已經在增長
+(54:10.820) and spending more in AI in general
+(54:15.840) and quite a bit more
+(54:20.720) and there are other locations on the P&L
+(54:23.980) other than OPEX
+(54:24.900) like OCOG and etc
+(54:26.920) that also have AI expenditures
+(54:30.780) and so we'll see what Siri AI does
+(54:35.600) from the cost side of it
+(54:37.640) but there's also the ability
+(54:41.580) 當人們使用它很多時候,他們也會在iCloud計劃上移動。
+(54:47.460) 因此,目前,這方面的平衡是有點不確定的。
+(54:58.740) John,你現在在電話裡面,恭喜你取得了新的職位。
+(55:04.520) 如果您覺得這裡的競爭環境正在改變,
+(55:09.180) 尤其是你聽到可能會有公司
+(55:13.920) 像OpenAI建立
+(55:14.920) AI-enabled競爭裝置
+(55:17.120) 或者SpaceXAI
+(55:18.040) 可能會有個手機
+(55:19.500) 能夠超越一些
+(55:20.780) 普通的車輛攻擊
+(55:22.240) 我很喜歡你的高層思考
+(55:24.260) 你看到的競爭環境
+(55:26.650) 和Apple的位置
+(55:28.390) 謝謝你問
+(55:31.860) 我猜我只能說
+(55:33.420) 重複Tim說的
+(55:35.040) 我們有很多機會
+(55:36.320) 在這種空間中
+(55:39.600) 所以我們很專注於我們的計劃
+(55:42.220) 非常興奮
+(55:43.020) 太棒了
+(55:50.190) 謝謝你 王子
+(55:51.030) 總裁
+(55:51.690) 請問我們最後一個問題
+(55:53.390) 我們現在請J.P.Morgan的
+(55:56.960) Sameek Chatterjee
+(55:58.160) 請進行
+(55:59.680) 你好
+(56:02.380) 謝謝您把我擋在這裡
+(56:03.760) 還有10個我自己也希望的事
+(56:06.100) 我第一個問題
+(56:09.060) 如果我回到WWDC
+(56:10.840) 當您宣佈了Siri AI
+(56:12.580) 您也提到
+(56:14.340) 同時也提到
+(56:15.420) 我們可能不會在中國
+(56:17.500) 在中國和歐洲進行業務
+(56:19.620) 所以我只是想知道您的更新想法
+(56:21.720) 在這方面
+(56:22.300) 還有哪些更多的顏色
+(56:24.740) 在關於您需要跨過的困難
+(56:26.740) 來能夠發展在那些領域
+(56:28.300) 還有一個繼續
+(56:29.060) 謝謝
+(56:29.400) 是的 謝謝你問的問題
+(56:32.400) 讓我個人解釋一下
+(56:35.160) 如果您看待歐洲
+(56:37.620) 我們與委員會專業
+(56:39.720) 顯然我們的完整的希望
+(56:46.160) 我們的目標是同時在每個地方都開啟
+(56:49.600) 這就是我們的理論
+(56:56.700) 我們沒有在歐洲聯合會上做到
+(57:01.300) 但是我們專門與他們聯合
+(57:03.860) 嘗試與他們提供Siri AI
+(57:10.680) 它是提供或會提供在那裡的Mac
+(57:17.380) 因為Mac不被同樣的制御
+(57:22.000) as the iPhone and the iPad
+(57:25.430) So NetNet, we're working with them
+(57:28.550) and hope to reach some sort of solution
+(57:33.620) If you then look at China
+(57:36.810) 上星期,
+(57:39.450) 我們收到批准設置Apple智能的原始功能,
+(57:46.750) 例如清潔等等。
+(57:51.470) and so forth
+(57:53.230) and so we're working now
+(57:56.850) through the rollout of those
+(57:59.050) and there will be more work required
+(58:03.470) down the road for Siri AI
+(58:07.750) but we're at the front end of that
+(58:10.170) and for my follow up
+(58:15.120) Kevin just not to beat
+(58:17.280) sort of this FX thing to death here
+(58:19.420) but if I look at the gross margin
+(58:21.900) you delivered 48% in the quarter
+(58:24.540) 或不有退款利率
+(58:26.560) 您指向46.5元
+(58:29.140) 您有什麼方法可以通過
+(58:30.660) 這種選項轉換
+(58:32.000) 以及如何使得FX影響它
+(58:34.400) 或是增加貨物價值等等
+(58:37.320) 這些選項轉換
+(58:39.140) 因為它看起來比您的
+(58:41.400) 正常的方式更加典型
+(58:43.560) 是的 阿米克
+(58:44.540) 那是一個很好的問題
+(58:45.320) 那麼讓我走過
+(58:46.200) 我們的粗費平均影響
+(58:48.220) 我們看我們的粗費平均換
+(58:50.020) 從49.3元
+(58:51.740) 我們在公司的總值上
+(58:52.860) for the March quarter
+(58:54.460) and as you mentioned
+(58:55.660) the 48.1 adjusted for the tariff refund
+(58:57.660) in the June quarter
+(58:58.640) the 120 basis point change
+(59:00.780) if you look at the drivers of that
+(59:03.460) more than 100% of that can be explained
+(59:05.860) That Tim outlined
+(59:07.520) while FX was a factor
+(59:09.260) really the main driver
+(59:10.980) was really the memory cost impact
+(59:12.840) and as Tim outlined earlier
+(59:14.520) when we talked a bit about
+(59:15.460) the dynamics around the memory cost
+(59:17.080) we did see some partial offsets
+(59:19.300) from things like
+(59:20.700) the benefit of carrying inventory
+(59:33.140) 到46.5
+(59:52.140) 並且有適合的混合。
+(59:55.320) when you look at that versus the memory
+(59:56.720) and so generally the sequential change
+(59:58.760) from the March quarter
+(59:59.640) to the 46.5 you referenced
+(60:01.940) is really driven by memory
+(60:05.230) 非常好
+(60:07.550) and congrats again, Tim
+(60:08.970) Thank you so much for saying that
+(60:10.970) I appreciate it
+(60:11.730) Thank you, Samik
+(60:13.600) 今天的電話會在Apple Podcast和Apple.com上發佈,謝謝你今天與我們聯繫
+(60:15.580) 在Apple Podcast
+(60:18.380) Thanks again for joining us today
+(60:20.280) 再次感謝您的參與
+(60:25.420) We do appreciate your participation
+(60:27.240) 謝謝大家
