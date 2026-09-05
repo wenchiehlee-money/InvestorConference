@@ -77,6 +77,12 @@ if client.check_fin_status("some-channel_dQw4w9WgXcQ"):
 python scripts/whisper_issue_client.py status some-channel_dQw4w9WgXcQ
 ```
 
+## 🌐 語言提示（`language`）
+
+`investor_conference` source_type 下，`issue_body()` 會依 stem 解析出的 `stock_id` 自動附上 `language` 欄位：數字股號（台股）→ `zh`，英文字母 ticker（美股/國際股）→ `en`。這是 2026-09-05 修正的 bug：AVGO/HPE FY2026 Q3 第一次跑出的 `FIN.srt` 是 `Language: zh`，把英文法說會內容轉成語意錯誤的中文譯述（甚至把年份講錯），比對 `data/DELL/DELL_2027_q2_FIN.srt`、`data/NVDA/NVDA_2027_q2_FIN.srt` 才發現這兩者原本就是用 `Language: en` 正確產生。
+
+若呼叫 `open_fin_request()` 或 `issue_body()` 時想覆寫自動判斷（例如某美股法說會其實是中文口音混雜、或某台股子公司法說會用英文），可傳入 `language="en"` / `language="zh"` 明確指定，優先於 `language_for_stock_id()` 的自動推斷。
+
 ## 🔁 GT 修正迴圈（`refine_fin_srt`）
 
 若 GT.srt 在本 repo 被人工修正過，本 repo 是 GT owner；Mac-mini 不會把 cache GT 回推覆蓋本 repo。想讓 Mac-mini 重新拉最新 GT 並重跑 CER 評分（不需要重新轉錄），呼叫時指定 `task_type="refine_fin_srt"`：
