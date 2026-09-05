@@ -1,0 +1,945 @@
+[METADATA]
+Source: MSFT_2026_q4_exp11
+Language: zh
+---
+(00:35.440) On the call with me are Satya Nadella,
+(00:38.180) Chairman and Chief Executive Officer,
+(00:40.160) Amy Hood,
+(00:41.360) Chief Financial Officer,
+(00:42.680) Alice Jolla,
+(00:44.000) Chief Accounting Officer,
+(00:45.240) and Brian Defoe,
+(00:46.520) and Brian Defoe,
+(01:05.310) 更詳細的 Outlook 項目會在 Microsoft Investor Relations 網站上提供的 Outlook 評論
+(01:11.670) 在今天的電話中
+(01:12.890) 在電話中,我們將談論一些非GAP 項目
+(01:16.530) 非GAP 金融項目所提供的項目
+(01:19.330) 應該不被作為選擇
+(01:20.930) 或比較金融表現的項目
+(01:24.350) 這些項目被提供為額外的證明項目
+(01:28.950) 以幫助投資者更深入瞭解公司的第四季度表現
+(01:32.870) 除了這些項目和事件的影響
+(01:36.730) 還有其他負面的成果
+(01:40.610) 都與去年的相關時期相關
+(01:45.090) 沒有其他預料
+(01:49.460) 作為一個模式
+(01:53.300) 在加密貨幣增長率的
+(01:56.320) 不可分佈的效果
+(01:59.870) we will refer to the growth rate only
+(02:02.110) we will post our prepared remarks
+(02:07.320) immediately following the call
+(02:09.540) today's call is being webcast live
+(02:13.580) and recorded
+(02:21.550) you can replay the call
+(02:26.690) During this call,
+(02:32.000) which are predictions,
+(02:33.280) projections,
+(02:34.120) or other statements about future events
+(02:55.220) 與交易部的安全保障
+(02:58.700) 我們不應該
+(03:03.720) 並且我將電話轉到Sathya
+(03:07.600) Thank you very much,
+(03:08.940) 謝謝你 約翰
+(03:14.800) 超過$331億
+(03:17.960) up 18%.
+(03:19.560) Microsoft Cloud surpassed $214 billion,
+(03:23.160) up 27%,
+(03:24.840) and Azure surpassed $100 billion,
+(03:27.180) up 41%.
+(03:29.080) Going forward, we have two goals
+(03:31.300) First, ensuring AI empowers every person
+(03:34.680) amplifying their agency and ambition
+(03:37.000) 第二,能夠增強每個公司
+(03:39.700) 建立自己的繼續學習路線
+(03:42.140) 確保他們不出口他們的核心IP
+(03:44.960) 現在我們來談談我們在我們的 stack 中
+(03:48.700) 開始我們的AI平臺和 infra
+(03:51.140) 我們在今年度的五個國家中,
+(03:56.100) bringing the total to 88 this year
+(03:58.540) 並且我們在運行上增加了我們的規模,
+(04:05.740) Over the last fiscal year
+(04:07.140) Over the last fiscal year
+(04:10.220) In our largest regions by nearly 50%
+(04:21.640) 並且我們在運行上增加了我們的
+(04:38.950) for our customers
+(05:26.900) CPUs are just as important as GPUs
+(05:32.060) our own first party workloads
+(05:37.800) And by the end of this month,
+(05:43.780) in over 25 data centers around the world
+(05:50.380) we are building on this infrastructure
+(05:55.420) It starts with model choice
+(05:57.780) Every customer wants the right model
+(06:06.980) with over 11,000 models
+(06:12.120) as well as our own MAI family
+(06:14.140) Since the start of the year
+(06:19.880) 例如,Levi Strauss & Co.在Foundry上使用OpenAI和Anthropic的模型
+(06:22.320) Levi Strauss & Co. for example
+(06:27.880) 這將將更多於1000個業內特定的資源進入一個聯合企業AI平臺
+(06:32.060) into a unified enterprise AI platform
+(06:34.880) 我們還在推廣我們自己的模型發展
+(06:38.490) 我們更新了一百多個新模型
+(06:40.690) 包括畫面、聲音、傳輸、選擇、安全
+(06:44.070) 包括我們第一個計算模型MAI-1
+(06:47.570) 全都以價值性的影響在最核心的使用情況下
+(06:50.990) for the enterprise use cases
+(06:52.770) 我們與我們的Silicon模型共計劃
+(06:56.600) 我們看到了MAI-200的MAI模型
+(06:59.580) when running MAI models on Maya 200
+(07:01.860) 但更重要的是,我們在建立一個新的模型系統,
+(07:05.940) 在哪裡?
+(07:10.720) are separate from any one model family
+(07:17.500) And it's not just about cost
+(07:24.220) because every model is substitutable
+(07:30.400) For example,
+(07:33.860) 在GitHub Co-Pilot上
+(07:37.020) and 10% lower median token usage
+(07:39.940) 並且仍然有
+(07:44.300) In Excel,
+(07:51.240) 達到最普遍的任務
+(08:18.740) 到84%的GPU費用
+(08:20.960) 在MAI Image 2.5的PowerPoint中
+(08:23.380) 而這個系統
+(08:24.680) 是任何公司都可以使用的
+(08:26.880) 作為Foundry的一部分
+(08:27.940) 下一個層次是
+(08:29.580) 互聯網的數據和環境
+(08:31.080) 數據層次是從
+(08:33.380) 主要支持應用程式
+(08:34.900) 使用的人
+(08:35.460) 到支持經紀人
+(08:36.980) 客戶都在迅速地
+(08:38.340) 使用我們的AI-optimized
+(08:39.940) 數據層次
+(08:40.540) 例如Cosmos DB
+(08:41.420) 和PostgreSQL
+(08:42.460) 以給經紀人
+(08:43.880) 快速的、安全的
+(08:44.900) 實時的數據
+(08:46.300) 和環境的需要
+(08:47.240) for memory and retrieval
+(08:48.640) PostgreSQL revenue was up 55%
+(08:54.000) also the number of PostgreSQL customers
+(08:56.460) also using Foundry increased 80%
+(08:59.500) as customers increasingly choose it
+(09:01.420) as the database for AI workloads
+(09:03.440) and we are going further with HorizonDB
+(09:06.800) 我們的新的全面管理PostgreSQL服務
+(09:10.380) 在Azure上
+(09:12.580) of self-managed deployments
+(09:14.180) when it comes to analytics
+(09:15.900) 我們現在有超過40,000的發佈客戶,每年有超過60%的收益
+(09:22.540) 還有超過17,000的客戶現在使用Foundry和Fabric,每年有超過60%的收益
+(09:28.640) 作為企業,聯繫專家進行實時的行業分析,分析發佈的數據
+(09:35.740) 這一季,我們也介紹了Rafin,是Agent-First SDK,
+(09:40.650) 為發佈應用程序提供的連接服務
+(09:42.450) for building apps and fabric
+(09:43.930) More than 2,500 customers
+(09:46.980) have already used Rayfin
+(09:48.840) and is now powering the backends
+(09:50.900) for apps created with Repl.2
+(09:52.920) On top of this data estate
+(09:55.150) we are building an IQ layer
+(09:56.810) 它將數據和模擬能力聯合來達到正確的環境
+(10:01.670) Tens of thousands of customers
+(10:03.310) including nearly 90% of the Fortune 500
+(10:05.730) are already grounding their agents
+(10:10.470) 這一季,我們介紹了WebIQ,
+(10:16.990) 它已經被最受歡迎的AI幫助者,包括ChatGPT,使用了。
+(10:22.380) 除了模擬選擇、數據和 context,
+(10:29.500) It gives agents access to the IQ layer,
+(10:32.220) the tools they use,
+(10:33.940) along with durable state and memory,
+(10:36.240) secure sandboxes,
+(10:37.840) rubrics and evals,
+(10:39.020) 計劃和預算
+(10:41.480) We now have 100,000 Foundry customers
+(10:47.160) Telefonica,
+(10:47.960) for example,
+(10:48.640) Foundry 執行的基礎是它的公司的設計平臺
+(10:52.140) with its first wave of agents
+(10:56.600) 全面增加了Foundry的顧客數量
+(10:59.680) 在1億加密貨幣每年增加了4X
+(11:03.540) 最後,Agent365與我們提供了一個控制框
+(11:08.620) 將公司的 existing governance, identity, security and management frameworks
+(11:14.040) 延伸到他們建立的顧客
+(11:15.660) 兩個月後,Agent365現在有近40億的顧客
+(11:20.820) 訂閱了10億的公司
+(11:23.480) 現在讓我轉移
+(11:27.600) 關於知識工作
+(11:30.400) When it comes to knowledge work
+(11:33.080) 我們現在有超過30億
+(11:37.860) 總共席的席位超過一半
+(11:41.980) 合作席從聊天到合作工作到自動運行
+(12:20.610) 更廣泛地說,我們在提升負面的質量和表現,
+(12:24.000) The quality and performance of Copilot
+(12:26.000) 我們的顧客反映了我們的高度和表現。
+(12:28.740) Over the last three quarters
+(12:30.640) user satisfaction scores have doubled
+(12:32.760) and are now at an all-time high
+(12:34.640) and this quarter alone
+(12:35.800) we cut latency by 25%
+(12:38.860) These quality improvements
+(12:40.380) 這些質量的改善,
+(12:43.260) are driving record usage intensity
+(12:45.900) The number of conversations per user
+(12:49.400) nearly doubled year over year
+(12:51.160) Average weekly engagement is on par
+(12:53.520) with Outlook and Teams
+(12:55.080) and the time from deployment
+(12:57.460) to what we think of as high usage
+(12:59.460) meaning monthly active usage
+(13:01.680) about 80% across a customer's user base
+(13:05.120) has fallen from months
+(13:06.620) to just days over the past year
+(13:08.500) the number of customers
+(13:10.100) with more than 50,000 seats
+(13:12.380) increased over 7x year over year
+(13:15.000) and the number of enterprise customers
+(13:17.640) deploying Copilot
+(13:21.420) grew nearly 75% quarter over quarter
+(13:29.180) NHS England,
+(13:33.760) to 505,000 clinicians and staff
+(13:43.660) KPMG在全球的工作人員中的發展和發展中,
+(13:48.080) 有超過276,000個專業人員
+(13:51.140) 而HSBC承擔了200,000個職業
+(13:54.180) 以增加職業轉變
+(13:56.560) 阿斯利亞、波音、Infosys、Coke Inc
+(14:00.780) Procter & Gamble、Celantis
+(14:02.780) Tata Consulting Service
+(14:04.320) Pittsburgh Medical Center
+(14:06.400) Wales Fargo and Wipro
+(14:08.020) 每個人購買60,000多個
+(14:10.180) 我們受到反應
+(14:13.200) 我們的新E7系列
+(14:20.780) Copilot, E5, Entra and Agent 365
+(14:30.840) 這一季,EY 將將 E7 轉移至 400,000 人。
+(14:37.220) 在此之後,我們還在進行我們的商業模式
+(14:44.440) 並增加我們的負債
+(15:14.010) Action using the same data models
+(15:16.190) rules, permissions, security guardrails
+(15:18.870) and audit trails as any application user
+(15:21.930) 我們還在從席位到席位和消費模式進行。
+(15:25.100) plus consumption model
+(15:32.340) up 4x quarter over quarter
+(15:34.580) with customers like Northern Trust
+(15:39.200) When it comes to developers
+(15:41.540) GitHub Co-Pilot now has 50 million users
+(15:50.340) and also significant consumption revenue
+(15:52.400) after the new model went into effect
+(15:58.300) All Up GitHub now has 225 million users
+(16:02.120) as organizations across every industry
+(16:04.720) including over 90% of the Fortune 500
+(16:09.600) The agentic era is being built on GitHub
+(16:18.650) In security,
+(16:27.260) To date,
+(16:37.840) And earlier this week,
+(16:39.670) we introduced Project Perception,
+(16:47.590) investigate threats,
+(16:49.290) and drive remediation.
+(16:57.310) In healthcare,
+(16:58.490) In healthcare,
+(17:03.990) including 28 million this quarter,
+(17:05.950) up 2x year-over-year.
+(17:07.650) 我們在這一年期間,我們在這一年期間,
+(17:21.670) provides a comprehensive platform
+(17:27.990) Early customers include BHP, GSK
+(17:33.610) Across both our high value
+(17:38.810) we are focused on helping customers
+(17:43.770) The most comprehensive
+(17:49.680) and therefore
+(18:04.340) we launched Microsoft Frontier Core,
+(18:10.180) We will embed 6,
+(18:19.440) 我們在過去一年中測試了這種模式,
+(18:22.300) 完成了164個顧客的330項目的項目,
+(18:26.740) 包括世界上很多企業的企業。
+(18:31.020) 例如,我們的FDE團隊與Novo Nordisk合作,
+(18:34.340) 以建立一名專業人員幫助分析醫療資料,
+(18:37.420) 並且遵守它們的專業執行要求。
+(18:40.220) 我們也與LSEC合作,
+(18:41.800) 以融合AI進入LSEC工作室,
+(18:44.180) 幫助金融專業人問出複雜的問題,
+(18:47.380) 並快速找到適當的專業和不專業金融內容的答案。
+(18:52.120) 最後,讓我談談電腦和消費者。
+(18:55.040) 在Xbox上來說,
+(18:56.680) Xbox, we are making the necessary
+(19:01.800) to reset the business for long-term
+(19:04.640) growth. We have the best
+(19:09.280) studios around the world and believe
+(19:12.120) 並期待在2027年度
+(19:16.480) 將生產業繼續成長
+(19:46.890) 繼續看到
+(19:52.730) 五個年級的
+(19:57.930) 以降低時間,擁有和提升選舉。
+(20:00.930) 聯絡人員的席位增加了百分之百的百分之百。
+(20:04.610) 在結束,我被新的機會激動了
+(20:08.080) 我從未有更有信心的在Microsoft的機會
+(20:11.060) to drive durable long-term growth
+(20:15.840) With that, let me turn it over to Amy
+(20:19.500) 謝謝Sathya,大家早上好
+(20:22.320) This fiscal year,
+(20:23.700) This fiscal year,
+(20:26.720) with growth accelerating to 18%,
+(20:29.340) 由於強勁的需求
+(20:39.150) increasing 21% to more than $155 billion
+(20:43.450) as we invested in long-term growth
+(21:19.700) on diluted earnings per share
+(21:21.480) These included a $3.2 billion gain
+(21:24.200) from our investment in Anthropic
+(21:25.440) and lower than expected expenses
+(21:29.200) which were partially offset
+(21:30.640) 這些預計劃被Xbox的抵抗費和抵抗費和Xbox的抵抗費強化了。
+(21:33.320) When adjusting for these items
+(21:35.520) we exceeded expectations across revenue
+(21:37.540) operating income and earnings per share
+(21:39.480) 因為在這一季有很強的需求和執行。
+(21:42.280) Company gross margin percentage was 67%
+(21:45.510) down year over year
+(21:46.750) driven by sales mix shift to Azure
+(21:48.370) as well as continued investments
+(21:50.890) and growing product usage
+(21:52.270) and growing product usage
+(21:55.390) particularly in Azure
+(21:58.930) Operating expenses increased 10%
+(22:01.630) driven by continued investment
+(22:04.510) talent and data
+(22:06.190) and data,
+(22:08.910) across the portfolio
+(22:12.290) as well as some of the discrete items
+(22:14.850) mentioned earlier
+(22:31.550) Capital expenditures were $41 billion
+(22:38.830) 大約二三分的我們的CAPEX是短期生產
+(22:42.090) primarily CPUs and GPUs
+(22:44.690) 因為客戶更加建立了解決方案
+(22:49.550) 剩餘的費用是長期生產
+(23:17.650) Reflecting Higher Capital Expenditures
+(23:23.030) Through dividends and share repurchases
+(23:31.770) Now, to our commercial results
+(23:33.990) Commercial bookings grew 18%
+(23:36.800) When excluding the impact from OpenAI
+(23:41.680) And reflecting broad customer demand
+(23:44.280) Across geographies and customer segments
+(23:46.940) Bookings increased 10%
+(23:58.940) all sequential commercial RPO growth
+(24:02.380) 是由於顧客的承諾
+(24:06.800) RPO增加了25%
+(24:10.820) 除了OpenAI
+(24:15.830) 約30%將被認為
+(24:19.330) up 37% year over year
+(24:21.330) 剩餘的部分
+(24:24.430) increased 112%
+(24:26.290) Microsoft Cloud revenue
+(24:30.820) and grew 27%
+(24:32.680) reflecting strong demand across Azure
+(24:37.580) and for the full year
+(24:39.040) our cloud revenue surpassed $214 billion
+(24:42.400) with nearly 90% from customers outside
+(25:01.460) M3.65
+(25:38.450) drove ARPU growth this quarter
+(25:46.130) all customer segments
+(25:49.230) and frontline worker offerings
+(25:50.830) M365 commercial products revenue
+(25:53.430) increased 19% ahead of expectations
+(25:55.570) 前來的期望
+(25:59.170) 造成了高級的
+(26:01.950) 中期收入認識
+(26:04.630) M365 consumer cloud revenue
+(26:07.190) 24%和22%
+(26:10.470) again driven by ARPU growth
+(26:11.930) and M365 consumer subscriptions grew 7%
+(26:15.410) LinkedIn收入增加了12%
+(26:19.090) primarily driven by marketing solutions
+(26:26.310) against a strong prior year comparable
+(26:28.150) Booking's growth in ERP remains healthy
+(26:38.510) LINKED IN REVENUE
+(26:40.670) with increased M365 copilot usage
+(26:45.950) and drive further efficiency gains
+(27:13.820) revenue grew 43% against a prior year
+(27:20.620) Revenue growth was ahead of expectations
+(27:23.150) driven by efficiency gains
+(27:24.770) across our CPU and GPU fleet
+(27:26.930) as well as process improvements
+(27:34.630) was quickly monetized
+(27:39.310) GitHub co-pilot consumption
+(27:40.670) following the June business model change
+(27:44.850) in our on-premises server business
+(28:13.320) segment gross margins were also impacted
+(28:39.750) Revenue was $12.9 billion
+(28:44.790) and devices revenue decreased 7%
+(28:47.850) and Windows OEM decreased 5%
+(28:51.650) and a high prior year comparable
+(28:55.570) results were ahead of expectations
+(28:58.970) as OEM and channel partners
+(29:02.610) search advertising revenue XTAC
+(29:38.160) increased 8% and 7% in constant currency
+(29:40.620) driven by the continued investments
+(29:42.360) and shared R&D noted earlier
+(29:43.800) as well as impairment charges in Xbox
+(29:54.760) Now, before I move to Outlook
+(29:57.700) effective at the start of FY27
+(29:59.600) 我們將延長我們的數據中心和辦公室的額外利益
+(30:02.400) of our data centers and office buildings
+(30:04.040) from 15 to 25 years
+(30:06.600) reflecting our operating history
+(30:11.070) 這次更新的影響
+(30:39.410) this useful life impact
+(30:40.350) our calendar year
+(30:41.530) 2026 Capex investment
+(30:43.630) expectations remain unchanged
+(30:45.630) however
+(30:47.180) the shift from finance
+(30:48.620) to operating leases
+(30:49.500) adjust our expectation
+(30:51.040) to approximately
+(30:52.280) 175 billion dollars
+(30:54.480) now moving to our outlook
+(30:56.420) let me start with some
+(30:57.740) full year commentary
+(30:58.620) for FY27
+(30:59.720) first some reminders
+(31:01.840) in both M365 commercial products
+(31:04.420) and server products KPIs
+(31:06.680) we are lapping higher
+(31:07.960) transactional purchasing
+(32:00.820) 在R&D的數量、資金和資金
+(32:10.250) Even as we invest to meet growing demand
+(32:16.610) In addition, we expect to remain
+(32:22.280) And finally, we expect our FY27
+(32:28.210) Now to the outlook for our first quarter
+(32:35.390) Based on current rates,
+(32:44.460) Within the segments,
+(32:45.560) Within the segments,
+(32:56.920) Starting with our commercial business.
+(33:06.260) 與我們的核心股份的
+(33:09.880) 營銷行動
+(33:14.140) 會造成在每個月
+(33:18.340) 微信的增長率
+(33:23.520) Now to segment guidance
+(33:25.460) 在生產業和經營的
+(33:31.560) or growth of 11 to 12 percent
+(33:33.920) In M365 Commercial Cloud,
+(33:40.680) 在一個調整的程序上
+(33:49.470) 我們的 momentum和co-pilot
+(34:09.080) M365的成本是多少?
+(35:01.480) or growth of 33 to 34 percent.
+(35:04.900) in Azure
+(35:18.390) even with the strong close to Q4
+(35:25.180) and as a reminder
+(35:41.120) Noted earlier
+(36:34.200) 優優獨播劇場——YoYo Television Series Exclusive
+(37:47.180) 在第二半年中增強了
+(37:53.580) 對我們的客戶發揮的重要投資
+(38:16.100) 行動員
+(38:36.900) 從問號中取消
+(38:53.370) Okay, great. Thank you, Sacha.
+(39:04.730) Maybe I could ask this in two parts.
+(39:07.110) 首先,
+(39:07.690) 您認為公開和選擇模型在下半年或兩年之內能夠使用公開模型的材料如何?
+(39:15.830) 雖然認為許多企業在開始時可能會拒絕使用公開模型
+(39:20.110) 第二,您認為這個轉變讓Microsoft有什麼利益?
+(39:24.930) 雖然您也擁有大量的Frontier Lab的揭露
+(39:28.630) 謝謝
+(39:28.890) 謝謝,Karl
+(39:32.000) 所以我們來到這裡的方式是,
+(39:34.800) 在最後一天,
+(39:37.020) 目標是讓公司在我所描述的建立人物資金和資金資金中控制自己的命運。
+(39:49.660) 所以在最後一天,如果一個公司是一個學習機器,他們需要自己的學習機器。
+(39:55.720) And that's sort of really the goal
+(39:58.000) And the models are an input
+(40:00.480) not some extraction
+(40:05.000) But in some sense you have to really
+(40:07.180) at the end of the day
+(40:08.940) every firm is going to evaluate
+(40:12.500) with their outcomes
+(40:16.240) I think that that is now fairly clear
+(40:21.660) This is not going to be about
+(40:23.480) Come in and take all my knowledge
+(40:25.760) and benefit yourself
+(40:27.680) I am not getting anything out of it
+(40:31.020) so given that direction of travel
+(40:35.030) sort of design of the platform
+(40:37.130) which is you got to keep your harness
+(40:39.730) separate from the model
+(40:41.750) and the harness will ensure
+(40:43.670) that your memory, your context
+(40:46.900) all of that is external
+(40:49.800) that means any given model
+(40:51.600) at any given time is swappable
+(40:53.400) time is swappable
+(40:56.100) 有沒有理由不做
+(40:57.340) 但你也可以使用許多的
+(40:59.790) 所以如果你看看
+(41:01.490) 我給的一些數據
+(41:03.010) 這是一個很好的例子
+(41:04.590) 如何使用前端模特
+(41:06.670) 為他們的供應
+(41:07.650) 如何使用低價模特
+(41:09.610) 為他們的供應
+(41:10.710) 並且訓練你的自己的模特
+(41:12.650) 當你不想使用
+(41:13.690) 任何的外部模特
+(41:14.630) 因為你總之
+(41:15.610) 你有所有的出口
+(41:16.770) 你有所有的邏輯
+(41:17.770) 你有所有的 context
+(41:18.910) 那是真的
+(41:20.820) 企劃設計的建築
+(41:22.960) 我們將要宣傳
+(41:24.910) 我們自己在使用
+(41:26.170) Copilot is built that way
+(41:27.550) GitHub Copilot is built that way
+(41:29.350) Security Copilot is built that way
+(41:34.310) So that every enterprise can use it
+(41:37.170) And within there
+(41:38.230) There will be a mix of open weights
+(41:39.910) Closed weights
+(41:40.950) And by the way
+(41:41.850) And by the way
+(41:43.930) Is remember
+(41:44.970) Is remember
+(41:54.550) You will maybe need multiple models
+(42:01.170) 這就是我們要想的方法
+(42:06.150) 所以這裡有很多設計空間
+(42:11.590) the frontier is about every firm
+(42:15.110) 以及選擇 負擔控制
+(42:22.390) I think maybe Carl,
+(42:24.270) a little bit to the end of your question
+(42:27.110) which is that it's why it's important
+(42:33.330) to be able to deliver the right model
+(42:41.270) 因此,
+(42:42.240) 隨著我們繼續看到增長的需求,
+(42:45.940) 無論哪個模型被選擇,
+(42:48.340) 或是哪個模型的家庭,
+(42:49.340) 或是你自己的模型,
+(42:52.430) Azure的平臺非常有效地達到這些需求。
+(42:56.370) 因此,認為這種設施是非常有效的。
+(43:00.100) 非常有效,謝謝。
+(43:03.510) Carl,Operator,接下來的問題,請。
+(43:08.000) 接下來的問題來自Brent Thill和Jeffries。請進行。
+(43:13.160) Amy,
+(43:14.850) Azure的速度很厲害
+(43:24.190) 你和Satya都看到了
+(43:30.580) 關於供應限制
+(43:40.950) 謝謝Brett
+(43:42.390) 首先,在系統中仍然存在限制
+(43:47.170) 我們繼續說,我認為現在
+(43:51.040) 在數月內,需求繼續超過
+(43:55.620) 提供的供應
+(43:56.660) 這確實是實際的
+(43:58.880) 我認為你甚至能看到
+(44:00.260) 在市場市場中發生的價值
+(44:04.980) 所以當你認為
+(44:07.360) 能夠更好地達到
+(44:10.100) 第一點我們專注在
+(44:11.920) the first thing we focus on,
+(44:14.260) in my prepared remarks
+(44:15.580) is efficiency
+(44:17.160) being able to get more
+(44:19.380) out of everything that we've got
+(44:21.900) in the fleet
+(44:23.320) that applies to efficiency gains
+(44:25.660) in the CPU fleet
+(44:26.720) it's going to be efficiency gains
+(44:28.040) in the GPU fleet
+(44:29.040) we saw a good work this quarter
+(44:32.550) in particular from our engineering teams
+(44:34.650) to make as much of that available
+(44:36.090) as we could
+(44:37.470) 因為我們所談到的供應、需求和平衡
+(44:40.210) we've been talking about
+(44:41.450) When we can make efficiency gains
+(44:44.240) they are quickly monetized in quarter
+(44:47.120) and I think that dynamic
+(44:49.070) 確實影響了一季的效率
+(44:51.830) I would also say
+(44:53.900) some of the process improvements
+(44:56.210) we've made to make sure
+(44:58.070) both CPUs and GPUs
+(45:00.350) just the lead time
+(45:01.930) from how quickly we can get things
+(45:04.190) to simplify it tremendously
+(45:05.390) plugged in
+(45:06.450) was also improved
+(45:08.290) over the past 90 days
+(45:10.330) and so those improvements again
+(45:11.810) Again,
+(45:11.810) very quickly monetized
+(45:15.390) and at the scale that we're operating,
+(45:17.670) in terms of across the entire
+(45:20.610) hyperscale fleet
+(45:27.090) 這是我們預期看到和談論的一部分
+(45:37.960) Oh, great. Next question, please.
+(45:39.720) 接下來的問題是馬克·莫德勒與貝蘭斯汀研究院的問題
+(45:46.920) 請繼續
+(45:51.220) and congratulations on the solid
+(45:54.120) really great quarter
+(45:55.700) Satya, Amy
+(45:57.970) 撒基亞·艾米
+(46:02.450) with concerns about oversupply coming
+(46:08.630) increasing impacting margins
+(46:11.790) Amy, two related questions
+(46:14.530) How does Microsoft protect itself
+(46:16.930) if there really is overcapacity
+(46:21.620) or overbuilding of chips, etc.
+(46:23.560) And on the flip side of that
+(46:30.190) the component prices
+(46:31.070) and that it doesn't just drive you
+(46:37.990) or negatively impact your margin
+(46:41.920) Thank you
+(46:42.480) Questions are a little bit related
+(46:47.820) But I'll start with maybe the first
+(46:50.910) 現在的情況是,
+(46:54.000) 當然,
+(46:54.300) 需求超過了額外供應,
+(46:57.840) 在一個比較極端的時刻。
+(47:02.700) 但是當你開始在長期內思考,
+(47:06.340) 我試圖向大家提醒,
+(47:08.220) 很多的價值,
+(47:11.320) 尤其是在CAPEX中,
+(47:13.800) 我們看到CAPEX的收入非常向短期生產,
+(47:19.880) which really,
+(47:26.060) And so if the demand environment changes
+(47:28.900) 你只要慢下
+(47:33.260) right,
+(47:34.320) and the driver of COGS.
+(47:37.180) 投資在地域和數據中心建設
+(47:44.320) 是整體的費用結構的小部分
+(47:47.800) and it can be
+(47:49.420) timing can be changed on much of that
+(47:53.480) especially on the builds
+(47:55.560) 或者你能夠增加建築的時間
+(47:59.400) as I was saying
+(48:00.560) 一些GPU和CPU
+(48:04.440) 所以當你考慮
+(48:08.540) 高級化工程師
+(48:11.360) in terms of having the flexibility
+(48:26.360) 我認為如果您看我們的背景
+(48:43.440) LateBind
+(48:44.060) Some of the more expensive components
+(48:46.280) in short term
+(48:47.160) You have a big book of business
+(48:48.820) that's flexible
+(48:49.600) You have a big first party app business
+(48:52.600) that also uses the capacity
+(48:55.000) that you're building out
+(48:56.120) in addition to your Azure platform
+(48:58.860) It does allow us
+(49:00.760) to have a lot more flexibility
+(49:01.980) to manage through those
+(49:03.780) When it comes to the pricing question
+(49:06.120) I think that's really impacting
+(49:08.140) everybody equivalently
+(49:09.700) in so many ways
+(49:11.800) what we've been trying to do
+(49:15.260) is to just make sure
+(49:19.240) efficiency work we can
+(49:22.600) We're reminding people that, frankly
+(49:25.960) The cloud offers tremendous benefits
+(49:28.620) versus having to make these purchases
+(49:36.660) so the cloud still provides a great ROI
+(49:41.180) in those types of situations
+(49:45.480) 但是這些東西
+(49:49.590) 我們能夠讓價格
+(49:51.690) But keep value where we
+(49:53.930) Listen, for the long term
+(49:56.230) 我們想讓客戶和您有價值,
+(49:59.680) 因此我們也在注重這一點。
+(50:01.720) And if I just add to Amy's comments
+(50:04.480) I thought Amy captured it well
+(50:10.640) And so in my mind
+(50:12.360) 在我看來,我認為您必須要正確地解決貨幣的問題。
+(50:15.100) 這就是我們所集中的很多事情。
+(50:17.380) You have to get the portfolio right
+(50:19.240) Amy talked about how
+(50:20.540) What we're doing
+(50:21.640) Whether it's in Copilot or the Super App
+(50:24.720) Bringing all the form factors
+(50:26.360) Or all the way to Azure
+(50:28.040) And the agent first
+(50:29.480) Sort of primitives in Azure
+(50:31.180) 在Azure
+(50:33.880) To all come together
+(50:35.240) The mix of customers is super important
+(50:37.780) You have to recognize the breadth
+(50:41.100) the geomix
+(50:45.820) the workload mix
+(50:48.300) When you're even building capacity
+(50:50.180) 然後你必須要開通
+(50:52.340) At the end of the day, you do need to
+(50:54.980) Amy說了很多
+(50:57.720) 甚至在最後一季
+(50:59.860) 這不只是在最後一季
+(51:02.420) 你必須在最後一季
+(51:05.340) 在最後一季
+(51:07.940) And then we know that there will be
+(51:10.780) Ups and downs of what is the cycle here
+(51:14.700) But the secular shift is clear
+(51:17.260) And we are very bullish about us coming
+(51:19.960) With the right sort of mix of business
+(51:23.380) And the right margin structure
+(51:24.840) 最重要的是我們的客戶的對比。
+(51:29.360) Excellent, thank you so much
+(51:31.200) 謝謝,馬爾。
+(51:35.020) 接下來的問題,請。
+(51:39.640) With Morgan Stanley, please proceed
+(51:41.680) 好 早上好 謝謝你提出的問題
+(51:44.850) 也恭喜我們在今年很強烈的結束
+(51:46.810) 我想問問N365的 co-pilot
+(51:50.670) 顯然是一個很強烈的區域
+(51:52.890) 有超過30億的買賣席
+(51:54.410) 而且有很強烈的速度
+(51:55.990) 你能不能說說
+(51:57.150) 你看到客戶在這裡
+(51:59.050) 從pilot到border deployments
+(52:00.550) 這裡是否仍然是pilot driven motion
+(52:03.150) 還是我們看到
+(52:03.750) 更多的border deployments
+(52:04.850) 然後當我們想到
+(52:05.930) product的monetization
+(52:06.670) 在額外席位
+(52:08.930) 和移動到高價SKUs
+(52:11.050) 像E7
+(52:11.690) 然後消耗
+(52:12.790) 您看到的主要模擬者是什麼?
+(52:16.850) 謝謝你,亞倫。
+(52:21.000) 讓我先開始,然後你再說。
+(52:23.040) 我認為,是的,它開始在產品形狀上。
+(52:26.840) 您可以看到,即使在半年內,
+(52:30.420) 產品形狀已經改變得很嚴重了。
+(52:32.520) 我們現在有聊天、合作、自動運輸、
+(52:36.400) Code all coming
+(52:38.020) to essentially what is going to become
+(52:40.280) this flagship super app
+(52:42.020) that various roles can use it
+(52:45.980) 如果您考慮到使用方面,那是一個非常有趣的數據。
+(52:50.640) that's a place where again
+(52:52.180) lots of interesting data there
+(52:53.960) which is time to usage
+(52:55.760) has drastically come down
+(52:58.580) what used to be months is days
+(53:00.860) so when a license is bought to usage
+(53:04.060) 整體的使用壓力增加了大幅大增
+(53:08.490) 我們在談論使用壓力的同一層面
+(53:12.830) 就是一種日常的通訊工具
+(53:15.350) 例如Outlook或Teams
+(53:17.280) 第二點我會說
+(53:19.040) 是整體的企業運輸
+(53:24.720) 所以它不像是一個
+(53:26.220) 在某些地方的工具
+(53:28.000) 但它是連接的
+(53:29.780) 無論是你帶了E7
+(53:31.800) 所以它是運行工具的
+(53:39.620) all wired in as well
+(53:44.580) so for example your CRM system
+(53:49.160) your ERP system
+(53:53.640) that go into co-work
+(53:57.620) and wire it into the super app
+(53:59.940) 對吧
+(54:00.300) 這增加了使用
+(54:01.640) 所以它們都結合了
+(54:02.720) 然後另一個是商業模式
+(54:05.110) 所以我們現在有
+(54:06.290) 這種價值商業模式
+(54:07.830) 而且我們現在也有
+(54:09.190) 價值商業模式
+(54:10.930) 所以它是價值加使用
+(54:12.570) 所以我們已經看到
+(54:14.750) 這種價值的增長
+(54:17.170) 來自像E7
+(54:18.930) 但實際上
+(54:20.410) 我們與客戶提供更多價值
+(54:22.070) 和客戶的成果
+(54:23.870) 在企業層面上
+(54:25.910) 實際上
+(54:27.030) 如果我認為
+(54:27.680) 歷史上
+(54:28.640) 公司的 co-pilot
+(54:31.300) it is much more narrow
+(54:32.880) this is the first time
+(54:34.260) where you really have
+(54:35.440) an enterprise wide tool
+(54:36.620) which has a both
+(54:37.920) per seat and usage based pricing
+(54:39.940) so the TAM is much more expansive
+(54:41.600) we're going to be very very focused
+(54:43.800) on driving customer value
+(54:45.300) and then expanding with it
+(54:47.540) yeah Adam and I think
+(54:48.740) I talked a little bit
+(54:50.720) in my prepared remarks
+(54:52.240) but I do think
+(54:53.260) what we've been seeing is
+(54:56.060) over the course of this year
+(54:57.840) some of the growth at ARPU
+(54:59.540) was from E5
+(55:01.520) plus the co-pilot license
+(55:05.060) that Satya is talking about
+(55:06.360) we'll see a little bit more
+(55:07.980) 我們會看到更多的
+(55:11.420) in the agent 365 component in particular
+(55:14.180) where Satya is talking about
+(55:15.460) I mean having sec ops and fin ops
+(55:18.140) think about in general
+(55:19.500) everyone is going to need
+(55:21.140) both observability of token spend
+(55:22.960) and the manageability of token spend
+(55:24.940) for all business processes
+(55:26.880) and that is what E7 brings
+(55:28.920) and so I think that is
+(55:30.900) it was only in market
+(55:34.020) and I think we were quite encouraged
+(55:35.240) by the value customers saw in that skew
+(55:38.320) I think we'll continue to focus on that
+(55:41.300) through the year
+(55:43.780) what Safia is talking about
+(55:47.560) and as I think about that expansive
+(55:50.440) that's really where we're talking about
+(55:52.240) this usage and consumption growth
+(55:54.340) and so as more of those experiences
+(55:58.140) get wired in
+(56:02.420) It'll be quite, I think, changing
+(56:08.800) That would be fun for you, Adam
+(56:10.950) 我認為你一位同事出版了一個 ROIC 文件,
+(56:14.660) So I took that document to co-pilot
+(56:17.590) Which is a PDF
+(56:18.930) And I said, build me a new sort of
+(56:22.790) RBI dashboard, essentially
+(56:26.420) But here is the thing
+(56:28.020) It built a rich semantic model
+(56:49.580) that to me is a classic example
+(57:01.140) Go to the repo and find it in GitHub
+(57:03.460) 並且它們都
+(57:05.900) 專門與Agent365
+(57:08.680) 所說的
+(57:12.060) 新的工作方式
+(57:17.000) Very helpful, thank you
+(57:20.420) Operator, next question please
+(57:23.780) 下一個問題
+(57:29.560) Please proceed
+(57:30.420) 請進行
+(57:33.510) 提出我的問題
+(57:37.290) MICROSOFT做的一切
+(57:39.130) 遊戲領域最近改變了
+(57:40.090) 最新的Frontier Model推出
+(57:42.090) 這周您介紹了
+(57:43.730) 顧客觀點
+(57:44.550) 您能否廣泛地
+(57:46.090) 解釋這個時刻
+(57:46.930) 對您的資產業
+(57:48.190) 的意義
+(57:48.510) 並且廣泛地
+(57:50.600) 對MICROSOFT的信心
+(57:52.340) 的意義
+(57:52.600) 謝謝
+(57:52.960) 謝謝你問這個問題
+(57:56.220) 我認為你對
+(57:57.040) 整個
+(57:58.800) 我認為整個
+(57:59.520) 資產業的
+(58:01.820) 資產業
+(58:02.240) 是需要的
+(58:06.680) 在資產產品
+(58:08.840) 甚至資產行業
+(58:12.240) 因為最終你必須要改變自己的產品,
+(58:15.620) 也要改變你作為一個公司的行業方式,
+(58:19.100) 以保護自己。
+(58:21.160) 這些變化已經變得很嚴重了。
+(58:23.200) 所以我們對這方面的專注是,首先,我們要取得同樣的方式,例如我們取得了知識,工作,或編輯的方式,
+(58:28.880) 也就是你必須要開始以知識為先的模型向前的方式。
+(58:33.960) 所以我們舉行的發展是,
+(58:38.140) 先要確保你擁有維持維持的維持隊員,
+(58:48.860) 然後你擁有維持維持隊員,然後你擁有維持隊員,
+(58:53.850) 然後你擁有維持隊員,
+(59:03.670) that's continuously operating
+(59:05.910) to create the cyber defense you need
+(59:12.890) 包括承諾信號、承諾信號、網絡信號、應用信號等,
+(59:16.290) the defender signal
+(59:17.310) the network signal
+(59:18.550) the app security signal
+(59:20.130) 這些都能幫助建立一個證明,
+(59:23.590) 以使你能夠實際地保護自己。
+(59:28.130) the other thing they've also said is
+(59:30.490) especially in cyber it becomes critical
+(59:32.880) 是很困難的,要有這樣的多模型設計,這就是我們第一個要問的問題。
+(59:37.360) 不僅僅僅是價值的問題,在CyberGym的Mdash數據中,
+(59:43.560) 我們證明了你能夠有Methos的表現,
+(59:47.630) 50%的價值,因為這種MAI的Cyber Flash 1。
+(59:52.950) 原因是,90%的任務是用Cyber Flash 1的模型,
+(59:57.770) 而10%的工作
+(60:00.170) 仍然在前面
+(60:04.910) in what is essentially a pipeline job
+(60:07.030) is a super important characteristic
+(60:10.070) and so to us this is an important piece
+(60:14.730) 另外,
+(60:17.090) 無論什麼原因,
+(60:20.090) 那你可能就不能留下高低低的力量。
+(60:23.560) 你必須仍然能夠繼續你的私人行業。
+(60:26.420) and that's the other piece
+(60:28.160) So it's cost and resilience
+(60:33.060) And that's what we're trying to build in
+(60:35.200) Whether it's in code
+(60:39.880) and we are very excited about perception
+(60:43.000) And what it means quite frankly
+(60:46.800) Super helpful, thank you
+(60:49.130) Thanks Brad
+(60:50.740) 謝謝,Brad。
+(61:00.460) Please proceed
+(61:01.160) Hey, good afternoon, thank you
+(61:04.010) Amy, I wanted to ask you about ROI
+(61:06.530) And you've given us color
+(61:10.050) You've given us color
+(61:12.830) 有關
+(61:16.010) When you look at and track ROI
+(61:18.150) 在今天做的CAPEX決定中
+(61:20.690) How does that compare to a year ago
+(61:22.630) And what are some of the levers
+(61:25.470) that you can still pull
+(61:27.650) for example
+(61:31.210) Thank you
+(61:33.150) Thanks Gabriella
+(61:35.070) I don't know that
+(61:37.360) quite frankly my math has changed
+(61:40.840) in terms of how I do it
+(61:42.880) over the past year
+(61:44.380) Over the past year
+(61:47.360) 是專注在TAM擴展的信心
+(61:52.260) the margin levers that we have
+(61:55.640) in terms of both product improvements
+(62:14.120) 產品部分的各方面
+(62:44.440) with a more efficient
+(62:49.940) or also margin levers.
+(62:56.450) 增加了ROIC的信心
+(62:59.350) 坦白說,我們在投資的美元
+(63:01.410) 繼續投資
+(63:03.250) 當我們想到
+(63:06.450) 股票的混合
+(63:07.870) 能夠有很廣泛的
+(63:10.770) 知識工作、
+(63:12.790) 驗證、
+(63:13.510) 保險,
+(63:14.350) 那麼基本上,
+(63:16.270) 我會稱之為 agent layer 365
+(63:18.930) 是一種虛擬
+(63:20.530) 但這些都成為了一個機會
+(63:23.130) 然後當然我們也談到
+(63:25.570) Between model efficiency
+(63:30.820) 包括我們的投資在1P
+(63:33.780) 那些解決方案
+(63:37.520) 我們有很多的改進
+(63:40.880) That we're focused on
+(63:41.980) That we're focused on
+(63:45.010) This is like every day
+(63:46.210) This is like every day
+(63:49.430) and we actually are quite good
+(63:53.290) 並且確保我們能夠為客戶達到達到的
+(63:58.240) 感謝
+(63:58.600) 謝謝
+(63:59.160) 感謝
+(64:00.350) 這就結束了今天的獲得電話
+(64:03.650) 謝謝您的參與
+(64:04.890) 我們很期待與您一起談談
+(64:07.290) 非常感謝
+(64:08.800) 謝謝
+(64:08.980) 各位女士們
+(64:12.990) 今天的會議結束了
+(64:14.670) 您可以在此時間內連接您的電話
+(64:17.060) 享受您的一天
