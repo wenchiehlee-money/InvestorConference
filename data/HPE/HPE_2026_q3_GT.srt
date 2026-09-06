@@ -1,0 +1,689 @@
+[METADATA]
+Source: HPE_2026_q3_FIN.srt
+Review-Level: conservative_from_FIN
+Reviewer: Codex
+Reviewed-At: 2026-09-06
+Audio-Checked: none
+Correction-Sources: FIN, google_finance_transcript, official_report_pdf, official_financial_tables_pdf, official_performance_review_pdf
+Corrections: metadata, speaker-boundary-preservation, names, terminology, numbers
+Confidence: medium
+Timing-Note: FIN timestamps are retained; corrections are conservative and cross-checked against Google Finance/Quartr transcript plus company materials where available.
+Notes: Research-usable GT candidate for digest; not a full human audio-reviewed GT.
+---
+(00:00.000) Please note this event is being recorded. I would now like to turn the conference over to Ms. Shannon Cross, Chief Strategy Officer. Please go ahead.
+(00:10.500) Good afternoon. I'm Shannon Cross, Chief Strategy Officer for HPE.
+(00:16.200) I'd like to welcome you to our fiscal 2026 third quarter earnings conference call with Antonio Neri, HPE's President and Chief Executive Officer, and Marie Myers, HPE's Chief Financial Officer.
+(00:30.000) Before handing the call to Antonio, let me remind you that this call is being webcast.
+(00:35.620) A replay of the webcast will be available shortly after the call concludes.
+(00:40.200) We have posted the press release and the slide presentation accompanying the release on our HPE Investor Relations webpage.
+(00:48.420) Elements of the financial information referenced on this call are forward-looking and are based on our best view of our business and the external factors affecting us as we see them today.
+(01:00.000) HPE assumes no obligation and does not intend to update any such forward-looking statements.
+(01:08.100) We also note that the financial information discussed on this call reflects estimates
+(01:12.520) based on information available at this time and could differ materially from the amounts
+(01:17.760) ultimately reported in HPE's quarterly report on Form 10-Q for the fiscal quarter
+(01:24.000) ended July 31, 2026.
+(01:28.100) used in verbal remarks are rounded for ease of discussion. For more detailed information,
+(01:33.580) please see the earnings materials, as well as disclaimers relating to forward-looking
+(01:37.800) statements that involve risk, uncertainties, and assumptions. Please refer to HPE's filings
+(01:43.600) with the SEC for more detailed discussion of these risks. For financial information that we
+(01:49.780) are showing on a non-GAAP basis, we have provided reconciliations to the comparable GAAP information.
+(01:56.440) Please refer to the tables and slide presentation accompanying today's earnings release on our
+(02:01.240) Investor Relations website for details. Throughout this conference call, all revenue growth rates,
+(02:06.580) unless noted otherwise, are presented on a year-over-year basis. Unless otherwise noted,
+(02:12.340) all financial metrics and growth rates discussed today are non-GAAP, and EPS refers to non-GAAP
+(02:18.580) diluted net earnings per share. Certain financial information featured in the presentation today
+(02:24.100) has been normalized to include Juniper Networks' results as of the beginning of HPE's fiscal year 2025.
+(02:31.240) Antonio and Marie will reference our earnings presentation in their prepared comments.
+(02:36.020) We will also be disclosing records for certain financial metrics during the presentation.
+(02:41.300) Please refer to our end notes in the presentation while reading these statements.
+(02:45.640) With that, let me turn it over to Antonio.
+(02:49.320) Thank you, Shannon. Good afternoon, everyone.
+(02:52.300) Our strategy is proving itself again this quarter.
+(02:55.620) We deliver another set of record financial results, which demonstrates the durability of our profitable growth momentum and disciplined execution across the company.
+(03:06.240) We exceeded all our company-wide financial commitments, achieving record results across revenue, gross margin, non-GAAP operating profit, and earnings per share.
+(03:16.860) AI has become a multi-year growth driver, expanding demand across our HPE portfolio.
+(03:25.340) Customer demand in the quarter accelerated across both business segments, with orders growing faster than revenues.
+(03:32.700) We booked more orders than any prior quarter in our history, resulting in a record-breaking backlog for the company.
+(03:40.480) Supply constraints continue to affect our ability to fulfill the increased customer demand.
+(03:47.620) We are collaborating very closely with our partners to secure additional multi-year supply agreements.
+(03:53.940) We are also providing our customers with alternative product configurations and deeper planning interlocks to better forecast supply availability.
+(04:03.000) In fiscal Q3, HPE delivered record revenue of $12.2 billion, up 34% from a year ago.
+(04:13.320) Our HPE revenue growth year-to-date has risen about twice as fast as it did over the same period last year.
+(04:22.640) HPE non-GAAP gross margin was a record of 40%.
+(04:26.880) We generated record non-GAAP operating profit of $2 billion, two and a half times more than a year ago.
+(04:36.360) Non-GAAP earnings per share was $1.11, another record, and the first time we achieved more than $1 in non-GAAP EPS in a single quarter.
+(04:46.860) Our outstanding operating results translated directly into a stronger cash generation, resulting in our highest free cash flow ever for a third quarter at $958 million.
+(05:02.580) Last quarter, we updated our fiscal 2026 outlook and introduced our initial fiscal 2027 growth framework.
+(05:11.040) Thanks to our record results, record orders, and record backlog, we are raising our outlook for both fiscal 2026 and fiscal 2027.
+(05:22.820) Marie will discuss the details shortly.
+(05:25.860) Before I hand over the call to Marie, I want to provide some observations about the market and our business segment performance.
+(05:33.440) I also want to note an important milestone regarding our Juniper Networks acquisition.
+(05:38.160) In August, a U.S. federal court approved our settlement with the Department of Justice, saying it serves the public interest.
+(05:47.840) We are pleased with the outcome, which reinforces our confidence in the long-term value of bringing these two great networking portfolios together.
+(05:57.420) A year after closing the Juniper Networks acquisition, our integration plan and cost synergies remain ahead of schedule.
+(06:04.740) The business performance continues to strengthen through expanded innovation and strong execution.
+(06:11.780) The enhanced ability to compete is already driving more innovative networking solutions for customers and higher profitable growth for shareholders.
+(06:20.820) Order bookings and revenue for our networking products and services reached record levels despite supply constraints,
+(06:29.220) which limited our ability to convert the higher demand into revenue in the quarter.
+(06:33.560) Campus and branch had record revenue as customers modernize aging edge infrastructure and deploy AI-driven network operations.
+(06:45.040) Orders were ahead of revenue, demonstrating the differentiation of our self-driving networks and the versatility across multiple cloud deployment models.
+(06:54.600) Routing and data center switching demand accelerated in the quarter, with orders substantially ahead of revenue and our backlog at its highest ever.
+(07:06.040) Our backlog reflects strong customer demand from hyperscalers and neoclouds for our routers, switching and AI-driven operations software, as they continue to increase their AI cloud Capex infrastructure investments.
+(07:20.880) Growth in our backlog shows strong customer demand is running ahead of available supply.
+(07:28.720) We expect to convert more orders into revenue in Q4, which gives us even greater confidence in sustaining our networking growth in fiscal 2027.
+(07:40.020) Today, we announced an expanded collaboration with Oracle to accelerate gigawatt-scale AI infrastructure.
+(07:47.360) Oracle will deploy HPE Juniper Networking routers and switches across one of the largest AI cloud infrastructure build-outs.
+(07:57.960) HPE is uniquely positioned to support Oracle with a Network for AI portfolio, which is one of the most comprehensive in the industry.
+(08:08.020) SASE and security also contributed to our growth.
+(08:11.080) Our strong performance in firewall, SD branch, and branch SRX reflects growing customer demand for networking and security that operate as one converged solution.
+(08:24.060) I hope you will attend our upcoming Networking Investor Day later this month to hear more about how our networking strategy, innovation, and business momentum are giving us even greater confidence in the opportunity ahead.
+(08:37.580) While our networking segment continues to strengthen through our thoughtful integration, our cloud and AI segment continues to perform exceptionally well in a very supply-constrained environment.
+(08:51.380) We delivered record revenue, operating profit, and operating margin.
+(08:56.380) AI is beginning to inflect beyond early proof-of-concept training deployments into a broader enterprise workflow transformation opportunity.
+(09:04.500) Customers are increasingly investing in new agentic AI applications and AI inferencing, requiring accelerated computing infrastructure, secure data storage access, and enterprise-grade cloud management.
+(09:19.340) Our comprehensive cloud and AI portfolio is perfectly positioned for this market inflection.
+(09:24.980) We continued to experience strong demand across traditional servers, AI systems, storage, private cloud solutions, and GreenLake cloud services.
+(09:35.680) The server product category dropped the outperformance with high demand for traditional servers and AI systems.
+(09:43.980) We saw strong demand from large enterprises, neocloud service providers, and sovereign customers.
+(09:50.160) We expect demand to remain exceptionally high as our pipeline remains multiples of our backlog.
+(09:58.600) A fundamental shift in the server business is becoming quite clear.
+(10:03.920) The way customers value their IT infrastructure is changing.
+(10:08.040) Their focus is not just whether a server can run AI workloads, but also how it can enable entirely new business workflows using new AI applications.
+(10:18.060) We are seeing AI-related enterprise initiatives receive higher levels of investment than traditional IT projects.
+(10:27.420) There is more top-level executive engagement in making those investment decisions, including company boards, which are championing AI technology to unlock further business transformation potential.
+(10:38.900) Storage had a standout quarter with record revenue.
+(10:44.400) It benefited from our decision to focus on our own IP offerings by delivering a modern
+(10:50.700) multi-data protocol platform for the AI era.
+(10:55.400) Customers are beginning to evaluate whether the AI workloads can be run most efficiently
+(11:00.960) with the best secure data management and the lowest cost per token.
+(11:06.140) are still in the process of modernizing data storage environments while preparing for the
+(11:11.020) next generation of AI-driven workloads and applications. They want data to be close to
+(11:16.560) their AI infrastructure, and they want control over sensitive information. These trends are
+(11:22.800) driving strong demand for our HPE Elettra MP storage solutions. We are confident our
+(11:29.300) comprehensive data storage value proposition will continue to accelerate this momentum
+(11:34.060) in our storage business.
+(11:36.640) Our private cloud AI platform allows customers
+(11:39.400) to manage enterprise AI applications and AI agents
+(11:42.920) while keeping control of data, governance, security, and operations.
+(11:48.240) Demand for PC AI is strong from enterprise customers
+(11:51.800) that want to optimize the token economics
+(11:54.760) of large-scale AI deployments on-premises.
+(11:59.120) That is rapidly scaling our order bookings
+(12:01.580) and the size of our customer base.
+(12:04.060) GreenLake remains one of our greatest differentiators because it allows customers to manage infrastructure
+(12:11.740) and software through a secure hybrid cloud operating model, regardless of where traditional
+(12:17.380) and new AI workloads reside.
+(12:21.060) Customers are broadening their utilization of our GreenLake cloud services, expanding
+(12:25.800) their existing usage by consuming our new software and intelligent cloud services, which
+(12:31.680) increases our net retention rates.
+(12:35.200) In Q3, the number of GreenLake customers grew 18% to 52,000,
+(12:40.460) up from 44,000 a year ago.
+(12:44.460) HPE Financial Services continues to deepen our customer relationships
+(12:48.340) and offer a meaningful competitive advantage,
+(12:50.860) which is becoming especially important as more customers
+(12:54.780) look for financing options to help with their AI investments.
+(12:58.560) As a result, HPE FS generated third quarter records in financing volumes, residual value, and return on equity.
+(13:08.900) In closing, HPE delivered another outstanding quarter, exceeding our company-wide commitments and demonstrating the ongoing differentiation in our strategy and its execution.
+(13:20.980) As we look ahead, the same underlying drivers of our performance give us confidence in continuing to deliver higher profitable growth, higher cash flow generation, and higher capital returns for shareholders.
+(13:36.660) I want to thank our team members for their focus and strong execution so far this year.
+(13:43.120) Our amazing talent and culture have set our performance apart this quarter and in fiscal 2026 to date.
+(13:50.920) With that, let me turn the call over to Marie.
+(13:53.780) Marie?
+(13:55.400) Thank you, Antonio, and good afternoon, everyone.
+(13:58.820) We delivered another strong quarter,
+(14:01.200) reflecting accelerating demand for AI
+(14:03.460) and solid networking momentum,
+(14:05.980) together with disciplined execution across the company.
+(14:09.340) The demand environment remains robust
+(14:11.320) as orders continue to outpace revenue.
+(14:14.520) Investment in AI infrastructure
+(14:15.980) is increasing at a rapid pace,
+(14:18.460) with enterprise spending focused on agentic AI workloads and AI inferencing.
+(14:24.060) Importantly, this opportunity is broadening across use cases,
+(14:28.140) customer verticals, and geographies,
+(14:30.600) reinforcing the value of HPE's expanded portfolio
+(14:33.940) and our ability to provide customers with integrated solutions
+(14:37.520) across the enterprise technology stack.
+(14:40.480) We remain focused on executing against strong customer demand,
+(14:45.440) navigating a dynamic supply environment,
+(14:47.540) managing mix and input costs while driving operating leverage.
+(14:52.400) This discipline is reflected in our financial performance,
+(14:55.260) supporting durable, profitable growth in fiscal 2026 and 2027.
+(15:01.060) Let me walk you through the results.
+(15:04.020) Revenue of $12.2 billion increased 34%, exceeding the high end of our guidance range,
+(15:11.200) with order growth up 42% on a normalized basis led by demand and traditional service,
+(15:16.860) AI systems, and networking. Gross margin exceeded 40% driven by disciplined pricing
+(15:23.120) in traditional servers and increased networking mix. Going forward, we expect our gross margin
+(15:28.740) to moderate toward more historical levels driven by the growth in AI systems and the
+(15:33.400) normalization in traditional servers, offset by the growing mix of networking. Operating expense
+(15:39.560) was up 17% sequentially due to higher variable compensation, reflecting our record financial
+(15:45.320) results. We expect operating expense to decrease in FY27 as variable compensation normalizes and
+(15:52.460) we see continued benefit from catalyst transformation efficiencies and Juniper integration synergies.
+(15:58.500) Operating profit was $2 billion, up nearly 40% sequentially. Operating margin of 16.2%
+(16:05.980) expanded by 290 basis points sequentially, driven by gross margin expansion and operating leverage.
+(16:13.160) EPS was $1.11, well above the high end of our guidance.
+(16:18.420) GAAP EPS was $1.06.
+(16:21.520) We delivered Q3 free cash flow of $958 million, driven by strong operating profit as well as collections.
+(16:30.520) Now, let's turn to our segment results.
+(16:34.040) Networking revenue of $2.9 billion was up 10% on a normalized basis, consistent with our outlook.
+(16:39.860) orders increased 36%, about three and a half times faster than revenue. Order growth was
+(16:47.000) broad-based across the portfolio, led by AI infrastructure-related investments in data
+(16:52.360) center switching and routing and strong demand for self-driving networks in campus and branch.
+(16:58.700) Networks for AI demand accelerated in Q3, with orders reaching a new high of $700 million,
+(17:04.280) up triple digits. Our portfolio, a competitive position in scale up, scale out, and scale across,
+(17:12.920) strengthened by the recent launch of our direct liquid-cooled Tomahawk 6-base switch
+(17:17.400) and our differentiated PTX and MX routing portfolio. Our pipeline continues to increase
+(17:24.160) with further acceleration expected as we bring the Helios platform to market.
+(17:29.400) We expect Networks for AI to be a meaningful growth engine for the company.
+(17:35.120) Cumulative networks for AI orders were $2.2 billion, surpassing our FY26 target.
+(17:41.860) As a result, we are increasing our year-end target to $2.5 to $3 billion.
+(17:48.220) To meet this order growth, we have more than doubled our networking purchase commitments quarter over quarter.
+(17:55.020) Within networking, campus and branch revenue grew 8% on a normalized basis.
+(18:00.160) Routing revenue growth accelerated to 23% as we benefit from increasing demand for our on- and off-ramp AI network infrastructure.
+(18:09.020) Security grew 12%, while data center networking revenue declined 6% due to shipment timing driven by supply constraints.
+(18:16.920) Order momentum was much stronger across most product categories, with data centers switching and routing up high double digits and campus and branch up low teens.
+(18:26.460) We remained focused on improving order conversions to drive faster top-line growth and greater scale.
+(18:34.220) Across customer verticals, enterprise revenue grew 12% and service provider grew 5% on a normalized basis.
+(18:41.840) Enterprise growth was driven by strong demand from large global accounts prioritizing network modernization across campus and branch and data center switching.
+(18:50.660) Networking operating margin of 22% was in line with guidance, reflecting disciplined execution and the early realization of GDP synergies, partially offset by higher variable compensation.
+(19:04.360) Moving to cloud and AI, we delivered fiscal Q3 revenue of $9 billion, up 25% exceeding our outlook, reflecting strength in traditional servers as higher average selling prices drove server revenue to an all-time high.
+(19:22.360) Our disciplined pricing and increased scale drove operating profit above $1.5 billion.
+(19:28.500) We were pleased to see operating profit growth accelerate up 61% sequentially and triple digits year over year.
+(19:37.920) Operating margin of 17% was up 460 basis points sequentially, demonstrating our ability to scale our business profitably.
+(19:48.360) Server revenue growth of 35% accelerated sequentially as strong ASP growth in traditional servers offset supply-constrained unit volumes.
+(19:57.420) Orders increased strong double digits year over year, reflecting robust demand from large enterprise, sovereign, and cloud providers.
+(20:08.360) Our supplier agreements, now multi-year in some cases, ensure us the capacity allocations we need to reduce lead times, improve at-bat log conversion, and drive higher new order growth, supported by our historically highest level of purchase commitments.
+(20:24.960) We see enterprises increasingly moving from AI pilots to production deployments, using traditional servers for agentic AI workloads and inferencing.
+(20:36.100) Examples include a global financial services firm leveraging AI for market analytics and trading insights, and a large retail customer deploying on-prem agentic AI workloads to lower public cloud AI token costs.
+(20:51.240) As evidence of this strong growth, we are pleased to report that after quarter end, HPE was awarded a multi-billion dollar server deal with a hyperscaler customer specifically designed for inferencing, supporting our view that demand for inferencing and agentic AI workloads is building.
+(21:12.000) AI systems orders of $2.4 billion increased over 30% sequentially, reflecting broad-based demand across customer segments.
+(21:22.520) Enterprise demand more than doubled, reflecting increasing overall infrastructure spending as AI initiatives have become board-level priorities.
+(21:31.600) Our AI systems backlog increased 14% sequentially to a new high, and our pipeline remains multiples of our backlog.
+(21:41.020) AI systems revenue for the quarter was almost $1.6 billion.
+(21:45.060) We expect AI systems revenue to improve sequentially in Q4, given timing of backlog conversion.
+(21:52.520) Storage revenue increased 10%, driven by strong order growth, with higher ASPs and a favorable
+(21:58.960) mixture towards higher-value owned IP and private cloud.
+(22:04.120) PCAI orders increased triple digits in Q3 as customers are adopting our AI factory platform
+(22:09.940) to support agentic AI and inferencing initiatives.
+(22:14.600) Electra MP orders and revenue increased strong double digits year over year.
+(22:19.680) We see robust growth potential for our X10K object and file system,
+(22:25.400) broadening our AI solutions portfolio to address the rapidly expanding unstructured data market.
+(22:32.520) And finally, financial service revenue was roughly flat year over year,
+(22:36.580) and the business continued to generate a return on equity exceeding 20%.
+(22:42.180) Turning to our integration and transformation initiatives.
+(22:47.280) We are making strong progress in building a more efficient company
+(22:51.220) as we are running ahead of plan on multiple projects
+(22:54.520) to lower our cost of sales and operating expenses.
+(22:58.560) Juniper Synergy's capture remains on track to achieve
+(23:01.260) our $600 million annual run rate savings target by the end of FY28, with integration costs tracking
+(23:09.060) better than planned. Last quarter, we highlighted the growing contribution of AI-enabled process
+(23:15.480) simplification within Catalyst. Since then, we have expanded both our AI and operational
+(23:21.420) simplification efforts across the enterprise. HPE is now deploying an internal agentic AI platform
+(23:29.240) built on our own private cloud AI, open source and open weight models, leveraging intelligent
+(23:35.420) routing that sends each workload request to the most cost-effective AI model. According to our
+(23:42.080) own internal analysis, our PCA offering can reduce token costs versus the public cloud by up to 60%.
+(23:49.320) Routine tasks stay on premise while frontier models are reserved for the most complex work.
+(23:55.120) Moving to cash, we delivered operating cash flow of $1.6 billion. Free cash flow totaled $958 million in Q3. As a result, we are raising our free cash flow target to at least $3.75 billion for FY26.
+(24:12.560) A cash conversion cycle improved by one day from Q2, driven primarily by a decrease in days receivable due to more favorable billings linearity within the quarter, along with stronger collections.
+(24:25.520) This was offset by an increase in days of inventory due to higher purchases in anticipation of future shipments.
+(24:32.880) Inventory ended the quarter at $11.8 billion, up year-over-year and sequentially,
+(24:38.080) reflecting higher commodity costs and targeted purchases to support increased orders and increased backlog.
+(24:45.140) In Q3, we returned $324 million to common shareholders,
+(24:50.140) including $189 million in common dividends and $135 million via share repurchases.
+(24:56.700) We received gross proceeds of approximately $1.4 billion after closing our H3C transactions
+(25:03.220) and used cash on hand to retire our term loan.
+(25:07.420) Consequently, we exited Q3 with a net leverage ratio of 1.8 times below our target of 2 times.
+(25:15.560) We completed the sale of our Telco Solutions business last month
+(25:19.540) and intend to retire $1.25 billion of notes maturing later this month.
+(25:24.960) We plan to return at least 75% of our free cash flow to shareholders in Q4.
+(25:32.560) Turning to guidance, we're increasing our outlook on the strength of our Q3 results and confidence in the durability in demand.
+(25:40.920) We expect Q4 revenue to be between $13.9 and $14.8 billion, reflecting continued strong demand across both segments.
+(25:50.260) We expect networking revenue to grow 11% to 13%, driven by order strength and improved supply chain conversion.
+(25:58.700) We expect networking operating margin to improve modestly quarter over quarter, driven by top-line growth and juniper synergies.
+(26:07.000) In cloud and AI, we expect revenue to grow 60% to 72%, reflecting sustained demand, higher ASPs and traditional servers, and greater AI revenue conversion.
+(26:17.640) We expect operating margin to moderate sequentially to a mid-teens rate.
+(26:23.700) We expect Q4 total operating expenses to decrease sequentially by a low single digit due to lower variable compensation expense and increased catalyst transformation efficiencies and Juniper synergy capture.
+(26:37.360) We expect our operating margin rate to decline sequentially driven primarily by a higher mix of AI systems in cloud and AI and pricing.
+(26:45.520) As a result, we expect EPS between $1.20 and $1.30 and GAAP EPS between $1.12 and $1.22.
+(26:58.300) Based on our Q3 results and Q4 outlook, we are raising our FY26 EPS guidance range to $3.75 to $3.85.
+(27:09.320) We are also raising our GAAP EPS range to $2.93 and $3.03.
+(27:17.360) We now expect FY26 free cash flow of at least $3.75 billion.
+(27:25.040) Given the demand strength and sizable backlog we saw at the end of Q3,
+(27:29.940) combined with some large deals we signed post-quarter close,
+(27:33.860) we are updating our fiscal 27 framework and now expect
+(27:37.780) Consolidated revenues to grow 13% to 17%.
+(27:42.260) Networking revenue growth of 14% to 17%.
+(27:46.100) Cloud and AI revenue growth of 14% to 18%.
+(27:50.340) Company operating profit growth of 14% to 18%.
+(27:54.820) Company operating margin of 14% to 15% supported by a modest decline in operating expense.
+(28:02.900) Networking operating margin in the mid to high 20% range.
+(28:06.540) cloud and AI operating margin of approximately 13%, EPS of $4.40 to $4.60, which implies growth
+(28:16.280) of 16% to 20% versus the midpoint of our FY26 EPS outlook, and free cash flow of at least
+(28:24.540) $5 billion. Importantly, this framework builds on our higher FY26 guidance,
+(28:30.960) pointing to a significant improvement in our fiscal 2027 outlook.
+(28:36.540) In closing, Q3 was an exceptional quarter for HPE. We generated strong financial results,
+(28:45.420) raised our fiscal 26 and fiscal 27 commitments, and achieved our leverage target more than a year
+(28:52.680) ahead of our original plan. Demand remains ahead of revenue, and our backlog is a record,
+(28:59.940) and our Juniper integration and Catalyst initiatives are delivering ahead of our FY26 plan.
+(29:05.480) As we head into the final quarter of Fiscal 26 and look ahead to Fiscal 27, we are executing from a position of strength, with durable demand, strong margins, and the operational discipline to sustain both.
+(29:21.060) With that, I'll turn the call back to the operator to begin Q&A.
+(29:27.840) Thank you. We will now begin the question and answer session.
+(29:30.880) To ask a question, you may press star then 1 on your touchtone phone.
+(29:36.520) If you are using a speakerphone, please pick up your handset before pressing the keys.
+(29:41.360) If at any time your question has been addressed and you would like to withdraw your question, please press star then 2.
+(29:48.640) And our first question for today will come from Catherine Murphy with Goldman Sachs.
+(29:53.880) And please limit yourself to one question.
+(29:57.120) Thank you for the question.
+(29:58.380) It was encouraging to see the momentum across the total portfolio with the record orders that you mentioned in the quarter, as well as the raised fiscal 27 outlook for 13% to 17% growth.
+(30:08.560) First, can you talk about what's giving you confidence that the current demand represents a sustained infrastructure cycle rather than customers pulling forward spend?
+(30:17.300) And then as a follow-up, can you quantify how much of the raised fiscal 27 outlook is related to the new hyperscale inference and Oracle deals that you highlighted versus improved outlook within the remaining business?
+(30:29.700) Thank you very much.
+(30:32.280) Well, thanks, Kathy, and good afternoon.
+(30:35.920) Look, our guide is informed by what we see in the market, and the market is telling us that demand continues to be exceptionally strong.
+(30:44.360) So there continues to be large build-out for AI clouds, and obviously we participate in that in a very disciplined approach.
+(30:53.380) Although networking, we continue to see significant demand for our routers and data center switches,
+(30:59.860) which you saw we had record-breaking orders of $700 million this particular quarter,
+(31:05.700) and we expect that to end between $2.5 and $3 billion for the year.
+(31:09.220) and when I think about 2027, in our guide,
+(31:13.620) we have not included the AMD Helios opportunity at all,
+(31:17.460) which is going to start ramping sometime end of this calendar year in 2027.
+(31:23.340) So demand is exceptionally strong.
+(31:26.060) And then on the cloud and AI,
+(31:29.780) what gives us the confidence is the acceleration in the enterprise.
+(31:33.860) The enterprise clearly has hit an inflection point
+(31:37.140) and that inflection point is driven by the deployment of agentic AI and AI inferencing.
+(31:44.300) And what we see that is because the number of use cases, and we see that ourselves.
+(31:49.420) Just to give a perspective, we have more than 1,200 use cases in our company,
+(31:53.440) 300-plus in production, and we continue to learn how to do that and accelerate the pace.
+(32:00.860) We see that now in the broader enterprise market across multiple verticals.
+(32:05.540) In reality, that's going to favor our traditional server and storage business and our private cloud stack
+(32:10.520) because they don't need a huge amount of GPUs or even CPUs for that matter.
+(32:17.720) What they need is a very tight couple infrastructure that ultimately brokers the cost of tokens,
+(32:24.920) that ultimately allows them to do what they need to do.
+(32:28.080) So the number of tokens on-premise is growing very, very rapidly.
+(32:32.200) So that's what informs us on the durability of this demand.
+(32:37.040) And we see that in our pipeline, because ultimately you guide yourself about the pipeline
+(32:42.060) and how much of the pipeline you can convert first in orders and eventually to revenue.
+(32:46.600) So that's what gives us the confidence to provide the guide that we guided for 2027.
+(32:51.980) So just in terms of the guide itself, as you know, we guided to 13% to 17% on revenue for the total company.
+(32:59.020) In terms of networking, the Oracle deal plus the core, the beginning of the Oracle deal,
+(33:03.980) is in the 14 to 17 that we guided for the networking growth.
+(33:07.800) And in terms of the hyperscaler deal, some of that as well is included in the cloud and AI,
+(33:12.020) which we guided to 14 to 18.
+(33:14.960) So that's how you should be thinking about the revenue.
+(33:16.960) Once again, there's puts and takes and all.
+(33:19.060) There is more AI revenue and cloud and AI as well as you get into 27, so just bear that in mind.
+(33:26.420) The next question.
+(33:27.480) Thank you, Kat. Operator?
+(33:28.840) The next question will come from Amit Daryani with Evercore.
+(33:32.440) Please go ahead.
+(33:35.420) Thanks a lot.
+(33:36.440) Good afternoon, everyone,
+(33:37.300) and congrats on some fairly impressive numbers over here.
+(33:40.540) Antonio, I wanted to just ask on networking, though,
+(33:42.940) the organic growth of 10% looks a little light
+(33:45.880) relative to what I think your peers are seeing right now,
+(33:48.020) I think relative to what you perhaps expected.
+(33:50.220) But your order that's up 36% is really strong.
+(33:53.340) Maybe just talk about what's driving the GAAP over here
+(33:55.720) and how should revenues begin to catch up with orders.
+(33:58.400) If you just spend a little bit of time on that, that would be helpful.
+(34:00.880) And then I didn't hear you folks talk about the Oracle announcement a lot.
+(34:04.420) Maybe just help us appreciate, you know, what are you providing them?
+(34:07.260) Is it scale out, scale across?
+(34:09.200) Just provide a little bit more color on that deal because it seems like a fairly important thing on the networking side at least.
+(34:13.400) Thank you.
+(34:15.320) Sure, Amit.
+(34:17.200) You know, the order momentum is super strong.
+(34:21.240) In fact, as we said in our prepared remarks, our orders are growing three and a half times faster than the revenue.
+(34:27.980) And so what has limited us is the availability of supply.
+(34:31.800) And we expect that supply to become more aligned to our order bookings as we go forward, starting Q4,
+(34:38.900) where you can see we're going to grow on the revenue side from 10% in Q3 to 11% to 13% in Q4,
+(34:45.580) and then eventually to 14% to 17% in the full 2027 year.
+(34:51.240) And so that's our focus.
+(34:52.660) It's really on that supply availability.
+(34:56.000) That's why Marie said that we have doubled the number of commitments in terms of inventory.
+(35:03.140) And we are working with our suppliers through that.
+(35:05.600) And the reality is that we will see continued orders ahead of revenues,
+(35:14.080) but we expect that to kind of close a little bit as we go forward.
+(35:18.340) So we expect an acceleration of revenue as we go forward, but supply will continue to be the constraint.
+(35:25.540) Now, within that, Marie talked about core.
+(35:28.420) So core for us is the campus and branch, which always has to represent more than 50%.
+(35:34.580) This quarter was probably 50% of it.
+(35:37.620) And that had double-digit order growth, low double-digit order growth, but we posted record revenue.
+(35:43.680) We expect that to continue to improve as we go forward because we have a terrific value proposition with our self-driving networks and the versatility of both MIST and Aruba Central Platform.
+(35:56.020) And then on the Oracle side of the equation is an expansion of what Juniper used to do, but now we are doing it at gigawatt scale.
+(36:07.180) and it's going to be a very set number of deployments on a global basis.
+(36:13.780) And they're going to use both our QFX switching products,
+(36:17.520) which is based on the Broadcom Tomahawk 6 and our software and our AIOps.
+(36:23.840) So think about that as a scale out.
+(36:26.780) And then our Scale Across, which is our PTX routing platform,
+(36:31.300) which uses our own silicon,
+(36:33.840) which is a major differentiation for scalability, which is our Express 5 silicon,
+(36:41.480) which we designed now a couple of years ago.
+(36:44.380) So on a combined basis, this is a multi-gigawatt on a multi-year basis.
+(36:55.440) Thanks, Operator. Can we have the next question, please?
+(36:58.180) The next question will come from Aaron Rakers with Wells Fargo. Please go ahead.
+(37:03.380) Yeah, thanks for taking the question and congratulations on the strong results.
+(37:07.920) On the traditional server side, I guess the question I have is, I think you talked about a lot of the growth being driven by the ability to pass through pricing relative to unit growth.
+(37:18.460) So I guess my question is, as we think about AI moving into the enterprise environments more prolifically,
+(37:25.860) how would you characterize the installed base and the upgrade opportunity that you're seeing associated with that?
+(37:31.820) And should we start to think about unit growth accelerating on top of the ASP pass-through?
+(37:36.720) And then secondarily to that, the hyperscale deal, I think, you know, in the past,
+(37:40.940) HPE has been pretty clear of, you know, you'll be opportunistic on, you know,
+(37:45.020) AI opportunities and maybe some of the larger hyperscalers.
+(37:48.160) Has this changed strategically at all?
+(37:51.400) Are you going after some additional hyperscale deals more actively going forward?
+(37:56.600) Thank you.
+(37:58.540) Thank you, Aaron.
+(37:59.660) Maybe I'll start with the latter because it's a very important use case.
+(38:06.020) It is a hyperscaler customer, but think about them as an enterprise customer
+(38:12.460) who is going to use our AI inferencing for their own internal usage.
+(38:17.500) So our strategy has not changed from a, you know, selling large amount of infrastructure for them to serve like it used to be in the past, the cloud business.
+(38:29.760) This is about a multi-billion dollar AI inferencing for their own internal usage as an enterprise customer.
+(38:39.840) It just happened to be they are labeled as a hyperscaler customer.
+(38:44.400) Okay?
+(38:44.640) And so that's one takeaway.
+(38:47.500) Second is that, look, units will modulate as supply becomes available, right?
+(38:53.360) And so we, as Marie said in her prepared remarks, we still, like everyone else,
+(39:00.240) working through the supply availability.
+(39:02.820) But what we are very excited about is that the acceleration of traditional servers
+(39:11.440) and storage, by the way, in private cloud, because some customers go server-only,
+(39:15.800) Some go with servers attached to storage attached to servers.
+(39:20.420) And some are using the full stack, like a private cloud AI, which in many ways is the AI factory that we co-engineer with NVIDIA.
+(39:28.400) And in that case, right, it's about the growing of the AI deployment on-premise.
+(39:34.840) And so over time, right, it's going to become how large those deployments come.
+(39:39.540) And ultimately, whether you're server-only or you go private cloud, that will drive units.
+(39:44.200) but also it will come down to the conversion of the units based on the supply availability as we navigate 2027.
+(39:53.120) But right now, as we said, right, we expect continued exceptional demand into Q4 in 2027.
+(40:02.700) Thank you, Aaron. Operator, can we have the next question?
+(40:06.020) The next question will come from Joseph Cardosa with J.P. Morgan. Please go ahead.
+(40:10.440) Hi, congrats as well, and thank you for the question.
+(40:14.680) And maybe if I could, I think, Antonio, you mentioned that you're not embedding the
+(40:18.720) Helios opportunity into the fiscal 27 outlook.
+(40:21.980) Can you just touch on the rationale behind that decision and what's keeping you on the
+(40:25.080) sideline from introducing that into the framework?
+(40:27.900) And any thoughts on how we should think about the magnitude of upside that you could introduce
+(40:32.320) to the networking revenue and margin outlook when and if that gets introduced into the
+(40:36.240) framework?
+(40:37.240) Thank you.
+(40:38.240) Yeah.
+(40:39.240) No, thank you for the question.
+(40:41.620) Well, I mean, we are working very closely with our partner, AMD,
+(40:46.440) and we expect that infrastructure to be available for ordering later in this calendar year.
+(40:53.900) And we're working together on a very large pipeline,
+(40:57.100) which obviously this infrastructure is designed for large AI deployment at scale,
+(41:03.500) particularly for training, and then obviously can be used as well for inferencing.
+(41:07.460) But these are a concentrated number of customers in the end that need that level of infrastructure,
+(41:15.200) not different than they're using today with NVIDIA NBLs 72 and 144 or VeriRuby.
+(41:22.620) We felt that we wanted to see a little bit more as the schedule firm up
+(41:27.180) and then eventually start deploying these capabilities.
+(41:32.180) And then as we go through the subsingle quarters, we're going to share more about how that's happening.
+(41:36.860) But the opportunity is pretty massive.
+(41:39.820) When you look at the size of that deployment, it can be as a market, okay, not HPE, tens of billions of dollars, okay, tens of billions of dollars.
+(41:49.020) The difference this time is that for us, the scale-up tray switches are HPE Juniper.
+(41:56.180) And let me be clear, we are going to sell HPE Juniper scale-up switches beyond just embedded in an HPE Helios rack.
+(42:07.660) So we can sell it to anyone for that matter, because obviously customers will want sometimes different compute vendors, which is totally fine.
+(42:16.440) But that opportunity is in the margins of the trade switch and the opportunity to sort of broadly beyond the HPE as a partner with AMD as we go forward.
+(42:27.220) So once we see a little bit more of that, Maria and I will share more.
+(42:31.960) But this is not in the 14% to 17% growth that we just share with you as a part of networking only.
+(42:40.620) And I would just add that once we get to the end of Q4, we'll give a fulsome guide for 27 as well.
+(42:46.440) Great. Thank you, Joe. Operator, can we have the next question, please?
+(42:51.220) The next question will come from Wamsi Mohan with Bank of America. Please go ahead.
+(42:57.300) Yes, thank you. I was wondering if you could share any more details around your $3.5 billion
+(43:03.080) inferencing deal that you signed. What exactly is part of that? And can you talk a little bit
+(43:09.600) about the economics around this? And are you changing your approach to incremental hyperscale
+(43:16.020) opportunities. Thank you.
+(43:19.960) Yeah, so obviously we can't talk about the customer, but it's a hyperscaler
+(43:25.940) customer, but it's acting, as I said to Aaron, as an enterprise. We are not
+(43:32.680) selling 1C, what used to refer as a tier one infrastructure. You recall that
+(43:38.180) during the cloud days. We are not selling that type of infrastructure. We are
+(43:42.080) selling traditional servers for AI inferencing that they will use for their own internal usage.
+(43:53.760) Great. Thank you very much. Thank you, Wamsi. Operator, can we have the next question, please?
+(43:59.340) The next question will come from Asaya Merchant with Citi. Please go ahead.
+(44:05.220) Great. Thanks for the question. Can I take down a little bit on supply constraints?
+(44:11.000) You know, where do you see them most acute right now and kind of your expectations on these supply constraints easing or how you're thinking about your agreements, you know, long-term agreements that you've signed to source the supply?
+(44:26.380) Thank you.
+(44:28.980) Yeah, thank you for the question.
+(44:31.140) The supply constraints, generally speaking, continue to be the same, right?
+(44:35.840) So obviously on the commodity side is DDR5 is a great example of it.
+(44:42.800) DDR4 for the older generation.
+(44:46.500) NAND in the flash drive space.
+(44:50.400) Those have been consistent themes now for three quarters since the beginning of 2026.
+(44:57.700) And then there is a other set of parts underneath that they are constrained by welfare capacity.
+(45:03.720) And so we expect that to continue to be the case because ultimately you have to solve two problems.
+(45:12.700) One is clean room capacity to turn wafer into a more available supply.
+(45:19.220) That should improve some in 2027 because we know our partners continue to invest in clean room capacity.
+(45:28.840) But ultimately, structurally, this will be solved with wafer capacity.
+(45:33.720) because in the end, you need the wafers to turn parts into actual supply of products.
+(45:40.420) And so that's the challenge we're all navigating through.
+(45:44.000) And the wafer capacity affects other parts, right?
+(45:47.420) But in the memory space, you also have another trend underneath
+(45:51.740) that obviously is driven by the technology shift.
+(45:55.480) You know, we have DDR4 to DDR5. That's understood.
+(45:59.660) But then you have traditional DRAM moving to HBM.
+(46:03.720) And that HBM demand is super high because it's driven by the GPU and the better memory that comes with it.
+(46:12.040) So this is why, you know, you have to look at this,
+(46:14.700) wafer capacity, clean room capacity,
+(46:16.700) and then eventually the mix of what type of memory will be used and demanded as we go forward.
+(46:23.160) Now, in the traditional server, we use DRAM.
+(46:26.020) We don't use HBMs.
+(46:28.300) And so that's where, you know, we are focused very extensively.
+(46:31.560) Once you buy a rack scale architecture, you come with HPMs, and therefore, once you get that server tray with the GPUs, the memory comes with it.
+(46:42.180) So this is what we need to navigate through.
+(46:44.840) But my expectation, personally, after seeing the exceptional demand that we see in the market and talking to our suppliers, some of them would sign already multi-year LTA agreements to lock a capacity.
+(46:58.360) we decide how to use that capacity, then, you know, it tells me this is going to last for a longer period of time,
+(47:05.780) which obviously will have consequences on cost and pricing.
+(47:10.200) But so far, I think HP has been very effective in managing that process.
+(47:15.660) Thank you, Asya.
+(47:17.020) Operator, can we have the next question, please?
+(47:19.100) The next question will come from Eric Woodring with Morgan Stanley.
+(47:23.200) Please go ahead.
+(47:23.860) super thanks so much guys for uh for taking my questions and congrats on the nice quarter here
+(47:29.140) um marine you're prepared remarks on uh you mentioned gross margins and you mentioned a
+(47:33.860) normalization in traditional server margins i think looking forward um can you maybe just
+(47:38.640) elaborate a bit on what that means like why would you see a normalization in server margins
+(47:43.120) if demand is as strong as you're referencing in your unit trajectory should seemingly improve as
+(47:48.280) you get better supply like is this how you benefited from low-cost inventory now that's
+(47:53.300) starting to uptick in your bill of materials. I'm just trying to understand your comment and exactly
+(47:57.160) what you're trying to message there. Thanks so much. Yeah, no worries, Eric, and good afternoon.
+(48:02.680) So maybe I'll just start out by giving you some context on the quarter, what drove those margins,
+(48:07.540) and then how we think about them going into Q4 and into 27. So I would think about Q3 more as a
+(48:13.760) confluence of everything coming together at once. Obviously, you saw the impact of strong revenue
+(48:19.780) scale and that played through in terms of leverage, higher gross margins. We talked about
+(48:24.560) our discipline pricing. You heard Antonio talk about how we've been very diligent around pricing
+(48:29.280) in this constrained component environment. Don't forget, we've also got the benefits of programs
+(48:33.840) like Catalyst that have been flowing through as a put and a take. And then there was a mix of deals
+(48:37.620) in the quarter that also impacted and really, frankly, benefited us in terms of our Q3 rates on
+(48:43.480) what I'd say with respect to servers. As you get forward and you look forward into Q4, and then
+(48:48.780) this does carry forward into the guide that we gave into 27. Bear in mind that the mix of deals,
+(48:56.100) specifically in AI, will ship. So we do expect to ship more AI revenue, specifically in Q4. You can
+(49:03.180) see that our inventory number went up, so we're positioning ourselves to ship some larger AI
+(49:08.180) transactions, and we expect to have a bigger mix of that also into 27. And then I just doubled down
+(49:13.220) Actually, the mix of deals, even inside a traditional server, will also moderate as we go into Q4 and into 27.
+(49:20.620) So that's how I'd be thinking about the margins.
+(49:23.260) Obviously, we're pleased with the guide that we've given.
+(49:26.960) But I think at this point, we had a great quarter in terms of confluence of all the factors coming together.
+(49:34.220) Thank you, Eric.
+(49:35.520) Operator, can we have the next question, please?
+(49:37.680) The next question will come from Tim Long with Barclays.
+(49:40.860) Please go ahead.
+(49:43.220) Thank you. A two-parter, if I could, on the AI networking side. First, you know, nice win with
+(49:51.220) Oracle. As you mentioned, it had been a pretty big Juniper customer. So just curious if that win
+(49:59.780) can propel any other, you know, be used as a reference design or reference case for other,
+(50:06.680) you know, either hyperscale Azure or Neo clouds. There's obviously a lot of
+(50:10.500) new networking opportunities out there.
+(50:12.840) So I'm curious if you think that larger, more profile AI wind can do that.
+(50:17.700) And second, and Tony, you mentioned the scale across with the custom silicon.
+(50:24.200) I'm curious what you guys are hearing on, you know,
+(50:27.400) the importance of having that customer silicon.
+(50:29.760) Do you think that was important for the wind?
+(50:31.340) And similarly, is that something that can help drive even more scale across
+(50:35.520) as that's becoming more important for the AI companies?
+(50:38.140) Thanks.
+(50:38.240) Yes, Tim, thank you. The answer is yes and yes. I mean, yes, because obviously it proves on the first part of your question that we have a scalable, you know, set of products that deliver the performance with the AI capabilities.
+(50:58.580) and now everybody's looking for to drive these self-driving kind of operations.
+(51:04.360) And we have embedded that across the entire portfolio,
+(51:07.140) not just in the campus and branch,
+(51:08.580) but also if you look at our routers,
+(51:10.840) are amazing what they can do in optimizing that bandwidth using AI.
+(51:16.260) But also we were first time to market with the 1.6 terabits.
+(51:21.640) And time to market here is a very important aspect of competing and winning in the market.
+(51:27.340) You know, so Rami and I spent a lot of time with the team, how we continue to stay ahead of the curve and be first time to market with these latest technologies.
+(51:36.520) So we were definitely first time to market Juniper was with a 1.6 terabit in air cooled.
+(51:44.040) And we were the first 1.6 time to market with the direct liquid cooling.
+(51:52.240) and then on the route and so we hope that that's going to drive you know a significant amount of
+(51:59.160) interest and we have a lot of conversations with customers right to leverage this portfolio
+(52:03.720) on the routing side look it's very hard to do what our silicon does there's only two three
+(52:10.620) players have done this a massive scale and it's a source of differentiation what our express silicon
+(52:16.840) does for the routing is unique.
+(52:21.060) And if you think about that PTX, I'll give this example,
+(52:25.120) perhaps not in the eye space, but if you take the latest PTX
+(52:29.060) product, which is three quarters of a rack, and you take
+(52:32.880) New York and London, all 60 million people
+(52:36.580) watching a Netflix movie concurrently
+(52:40.900) on that platform, the platform can manage it. Think about
+(52:45.060) the scale, right, that these products can do. And that's very hard to do. So that's why, you know,
+(52:50.820) as these gigawatts and gigawatts of infrastructure gets deployed, which we think by the end of the
+(52:56.240) decade will be over 270 gigawatts, you have to connect all of them. And therefore, you need a,
+(53:03.860) at the end of that pipe, you need a router with that level of capabilities.
+(53:09.520) Thanks, Tim. Operator, can we have the next question, please?
+(53:13.100) The next question will come from David Vaught with UBS. Please go ahead.
+(53:19.200) Great, guys. Thanks for taking my question. Maybe a combo for Antonio and Marie. So I think, Antonio, if I think about your 27 outlook, you're taking the revenue up by about $4 billion relative to where we were 90 days ago.
+(53:31.540) So can you kind of dig in on the supply chain?
+(53:34.260) I know you talked a little bit about it before, but what improved on the margin?
+(53:38.240) Was it just securing more purchase commitments?
+(53:40.960) But what gives you more confidence that you have enough supply chain relative to 90 days
+(53:44.920) ago to kind of hit that target?
+(53:46.640) And then Marie, for you, same kind of question.
+(53:48.900) You're taking that number up by about $4 billion, and it looks like the free cash flow
+(53:52.660) drop through is pretty impressive.
+(53:54.320) You know, incrementally, you know, $500 million flows through at least, which is better than
+(53:58.780) your current conversion on the business.
+(54:01.220) Can you help us understand kind of what's going on with the free cash flow conversion from the guidance race?
+(54:05.280) Thank you.
+(54:07.080) So, yeah, the first part of your question, the answer is yes.
+(54:11.180) Yeah, because obviously we put numbers out there if we have the ability to fulfill it.
+(54:16.760) And that came through the work that our supply chain team have done to secure these multi-year long-term agreements that locks the capacity.
+(54:25.220) And obviously, every 90 days, we can actually adjust what type of usage in that capacity, within that capacity, we want to get out of it.
+(54:35.840) And so your math is absolutely in the range.
+(54:39.380) And that's why we are confident in this guide because on one end, you have the demand for it.
+(54:44.680) And on the other end, you have the supply to fulfill it.
+(54:47.480) And that's why this is a durable, profitable growth.
+(54:51.440) And on the cash flow, Maria?
+(54:52.360) Yeah, no, look, I first of all say, look, really pleased with the guide we gave of at least $5 billion, which is up 33% year on year.
+(54:59.020) And as you correctly pointed out, one of the biggest drivers of that improvement in the rate is really the fact that we've got a lot less restructuring as we go into 27.
+(55:06.300) Just remember that the programs that we had like Catalyst and the Juniper Synergy programs, really we had the sort of the, I'd say the brunt of the restructuring in this year in 26.
+(55:17.500) As we get into 27, we start to bleed that down and it'll be a bit of a tail left on
+(55:21.880) the Juniper Synergy Plan, which will honestly bleed off by the sort of end of Q4 of next
+(55:26.120) year.
+(55:27.120) I think the other thing, Marie, that's important to understand is that as we accelerate
+(55:31.000) the growth in networking, which obviously 14% to 17% is an acceleration compared to
+(55:36.580) 2026, the working capital demand in networking is significantly lower because it is a faster
+(55:42.840) turn to revenue once you get the inventory on hand.
+(55:47.500) Thank you, David. Operator, can we have the next question, please?
+(55:51.000) The next question will come from Mark Newman with Bernstein. Please go ahead.
+(55:57.020) Hi, thanks for taking the question.
+(55:58.860) Digging a bit more into the server side, you reported server revenue up 35% year-on-year.
+(56:10.380) Obviously, you've got some AI servers in there.
+(56:15.120) So I think if you take that out, it implies that traditional servers growing a bit faster than that number.
+(56:22.820) Just wondered if you could, and you said orders for traditional servers up 75% year over year.
+(56:30.520) I wondered if you could clarify for us how much of this growth is high ASPs and richer configurations,
+(56:43.140) which you mentioned on slide eight, versus unit growth.
+(56:48.240) Is there any significant unit growth in terms of units or CPU cores or any kind of metric like that?
+(56:56.460) or is this exclusively pricing and configuration?
+(57:02.280) And related to that, the orders being stronger growth than the revenue,
+(57:13.020) can we ascertain from that that you're significantly supply constrained
+(57:18.120) and how long would that supply constraint last?
+(57:23.620) I'm just wondering in terms of projecting out, like, should we see further acceleration of server growth from here as supply constraint alleviate, or is that supply constraint going to remain at similar levels going forward?
+(57:37.040) Thanks very much.
+(57:39.420) Yeah, you put a lot in that question, but I'm going to simplify it for you a little bit.
+(57:44.520) Look, we expect in Q4 units to strengthen because of what we see in the market.
+(57:50.760) and obviously in 2026, the units have been constrained by the supply availability,
+(57:57.220) which means that a lot of the growth came through the ASPs. But as we go into Q4, we expect units
+(58:03.300) to strengthen and a lot of that will be on the back of the AI inferencing and the genetic AI
+(58:09.660) that we see. Supply will continue to be constrained, which means we're going to continue
+(58:14.040) to run into high backlogs as we go forward.
+(58:17.860) But to the question that was asked earlier on, we factor that in in our guide because
+(58:23.820) our guide reflects what we believe the supply availability against the backlog and the demand
+(58:29.360) will be.
+(58:30.440) So I will stay focused on the guide.
+(58:34.220) I will stay focused on the fact that supply will continue to stay constrained, but the
+(58:39.160) demand will continue to be exceptionally high.
+(58:41.560) And so we expect the cloud and AI segment to grow 14% to 18% on revenue,
+(58:48.520) and that's a very strong growth.
+(58:52.000) And it will continue to be led by traditional servers,
+(58:55.400) higher conversion on AI systems as we go forward, particularly in Q4,
+(59:00.200) and then ultimately the storage business,
+(59:02.740) because obviously the storage business helps on the profitability side
+(59:07.180) because of the margin structure.
+(59:08.700) But look, as we said in our remarks, storage grew twice as fast as the revenue that we posted in the quarter.
+(59:17.100) Yeah, and I'll just add, Mark, that we actually – it was a raise on cloud and AI revenue actually for 2017 to get to the 14 to 18.
+(59:23.980) So I think that just illustrates the strength of the demand that we're seeing out there.
+(59:29.320) Thank you, Mark.
+(59:30.380) Operator, we'll take our final question.
+(59:32.860) Our final question will come from Matt Nickman with Truist.
+(59:36.840) Please go ahead.
+(59:38.700) Hey, thanks so much for squeezing me in, and I'll echo the congrats on the great results.
+(59:44.440) Maybe more of a high-level question.
+(59:46.080) I'm wondering, Antonio, if you're seeing any incremental hesitation or pushback from customers with regards to demand appetite,
+(59:54.200) just in light of some of the bigger pricing actions aimed at offsetting higher memory costs.
+(59:59.940) And maybe on a related note, if you can speak to where incremental budget to invest in IT infrastructure and HP products are coming from at some of your larger customers.
+(60:10.500) Thanks.
+(60:12.000) Sure.
+(60:12.800) No, we don't see hesitation.
+(60:15.260) I will say at the beginning of this hyper cycle on the cost, obviously, they were a little bit of in shock.
+(60:22.040) and they're trying to navigate through that timing by focusing on understanding the trends
+(60:28.880) and looking at the spot market and the like.
+(60:32.140) Once they understood that, they understood that particularly on AI you need to go faster,
+(60:37.880) they figured out, look, waiting is not an option,
+(60:41.940) but they're getting smarter about where to land their budgets
+(60:45.320) and how to optimize for this token economics,
+(60:48.760) which Marie talked about, look, when you do it on premise,
+(60:52.040) and we do that ourselves and we share the number,
+(60:55.300) we can see up to 60% cost benefits on a token basis.
+(61:00.580) And so, no, I don't see hesitation at this point in time,
+(61:04.400) and that's why demand continues to be exceptionally strong.
+(61:09.540) That's very clear.
+(61:11.080) In terms of budget, look, budgets overall are going up.
+(61:14.540) Look, in our case, you can talk about it.
+(61:17.240) Of course, there is prioritization within the budget.
+(61:20.460) Should I replace that older infrastructure so I invest more in AI?
+(61:24.620) It's a balanced approach.
+(61:25.960) But in our case, we are growing the budget to consume more tokens
+(61:30.360) because we are very aggressive in deploying AI as a part of the catalyst transformation.
+(61:36.180) Obviously, we do it with governance, rigor, return on invested capital, and all the things.
+(61:41.360) But in the end, it's an add-on.
+(61:43.960) It's not a subtraction of something else.
+(61:46.480) So I was talking to a large customer yesterday, which is in the financial sector, and he told me, yeah, we are going all in, and now we have done the math, and we believe it would be better suited for us to build an AI factory on-premise so that we can improve the agility of deploying AI with the cost and controls, particularly in financial services with the compliance, right, that regulates that vertical.
+(62:14.880) So we see that momentum continue.
+(62:18.220) And I believe 2027 is going to be even stronger for enterprise
+(62:21.220) because they become more confident in what they're doing.
+(62:23.800) And one win leads to another win, right, on how this has been successful.
+(62:30.480) Because in the end, it's business process transformation.
+(62:33.460) It's workload transformation.
+(62:35.120) It's not just technology for the sake of technology.
+(62:39.640) Thanks, Matt.
+(62:41.120) Antonio, would you like to say something?
+(62:42.120) Yeah, no, thank you for your time.
+(62:43.480) I know you have a lot of earnings to cover.
+(62:46.540) I will remind you of the Networking Investor Day.
+(62:49.920) Please attend if you can.
+(62:51.380) We're going to share with Rami our view of the future.
+(62:55.860) Clearly, super excited about the Juniper acquisition.
+(62:59.000) It has been a huge success.
+(63:01.640) And we're just at the beginning.
+(63:02.760) You saw some of the wins that we just announced.
+(63:06.520) The runway ahead of us is enormous.
+(63:09.640) whether it's new wins to Tim's question early on or with further customers or the Helios opportunity.
+(63:19.000) The fact that everybody was concerned about integration, this was executed very thoughtfully.
+(63:25.260) And the fact we're growing three and a half times faster in revenue shows you that we have the right portfolio,
+(63:30.480) the right time with the right talent.
+(63:32.660) And then in the cloud AI, I think we are delivering operating leverage.
+(63:36.440) I mean, the execution there has been excellent, but our strategy is very intentional.
+(63:42.280) We are leading with networking.
+(63:44.380) We are at the core becoming a networking company, and the rest of the portfolio is there to serve the customer needs by driving the profitability and ultimately generating more cash, which has been a huge success so far, and it will be a bigger success in 2027.
+(64:00.940) So thank you for your time today.
+(64:02.660) The conference is now concluded.
+(64:06.800) Thank you for attending today's presentation.
+(64:09.700) You may now disconnect.
