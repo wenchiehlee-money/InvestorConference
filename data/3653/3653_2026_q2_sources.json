@@ -1,0 +1,27 @@
+{
+  "stock_id": "3653",
+  "company": "健策",
+  "year": 2026,
+  "quarter": "Q2",
+  "event_date": "2026-08-12",
+  "event_type": "財報",
+  "mode": "earnings_result_digest",
+  "sources": [
+    {
+      "type": "mops_financial_report",
+      "path": "../MOPS/downloads/3653/202602_3653_AI1.md",
+      "notes": "Official MOPS consolidated financial report used as primary source."
+    },
+    {
+      "type": "repo_consensus",
+      "path": "data/Yahoo.Finance/raw_yahoo_finance_consensus_history.csv",
+      "notes": "Yahoo.Finance consensus history repo snapshot, latest forecast_asof_date <= 2026-08-12 is 2026-06-14."
+    },
+    {
+      "type": "digest",
+      "path": "data/reports/conference-digests/3653/3653_2026_q2_digest.md"
+    }
+  ],
+  "gt_gate": "skipped_financial_report_only",
+  "notes": "README row is financial report only; no call/audio/IR material exists in InvestorConference for this quarter. Per digest skill 5.0, GT is not required."
+}
