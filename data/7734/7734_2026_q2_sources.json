@@ -1,0 +1,27 @@
+{
+  "stock_id": "7734",
+  "company": "印能科技",
+  "event": "2026 Q2 受邀法說",
+  "event_date": "2026-08-27",
+  "generated_at": "2026-09-06",
+  "source_status": {
+    "audio": "none_found",
+    "fin": "not_applicable_no_audio",
+    "gt": "not_applicable_no_audio",
+    "ir_pdf": "available",
+    "ir_md": "generated_from_pdf",
+    "financial_report": "available_from_mops_repo"
+  },
+  "sources": [
+    {"type": "ir_pdf_cn", "path": "data/7734/7734_2026_q2_ir.pdf"},
+    {"type": "ir_pdf_en", "path": "data/7734/7734_2026_q2_ir_en.pdf"},
+    {"type": "ir_md_cn", "path": "data/7734/7734_2026_q2_ir.md"},
+    {"type": "ir_md_en", "path": "data/7734/7734_2026_q2_ir_en.md"},
+    {"type": "mops_financial_report", "path": "../MOPS/downloads/7734/202602_7734_AI1.md"},
+    {"type": "market_consensus", "path": "data/Yahoo.Finance/raw_yahoo_finance_consensus_history.csv", "note": "Latest available 7734 consensus snapshot before the event date is 2026-06-14."}
+  ],
+  "notes": [
+    "README marks audio as 無. No local audio, FIN, GT, or third-party transcript is available for this invited event.",
+    "Digest uses official IR PDF/MD plus MOPS financial report. GT generation is not applicable because no audio/transcript source exists."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "ticker": "MRVL",
+  "company": "Marvell Technology, Inc.",
+  "event": "FY2027 Q2 earnings conference call",
+  "event_date": "2026-08-27",
+  "fiscal_period": "FY2027 Q2",
+  "quarter_ended": "2026-08-01",
+  "generated_at": "2026-09-06",
+  "source_status": {
+    "audio": "official_webcast_exists_but_local_audio_not_acquired",
+    "fin": "not_generated_no_local_audio",
+    "gt": "not_generated_no_local_audio",
+    "official_release": "available",
+    "official_pdfs": "downloaded_and_converted_to_md",
+    "ten_q": "official_html_available"
+  },
+  "sources": [
+    {"type": "official_financial_results_page", "url": "https://investor.marvell.com/financial-information/financial-results"},
+    {"type": "official_earnings_release", "url": "https://investor.marvell.com/news-events/press-releases/detail/1031/marvell-technology-inc-reports-second-quarter-of-fiscal-year-2027-financial-results"},
+    {"type": "official_webcast", "url": "https://event.choruscall.com/mediaframe/webcast.html?webcastid=Xfr9kMby", "note": "HTML exposes event metadata but no direct mp3/m3u8 URL in this environment; local yt-dlp is unavailable."},
+    {"type": "financial_business_results_pdf", "url": "https://d1io3yog0oux5.cloudfront.net/_eac9f0b88f7114d6778a284aa60d5990/marvell/db/3734/35391/presentation/2026_08_27_Marvell_Q2_FY27_financial_business_results_FINAL+%281%29.pdf", "path": "data/MRVL/MRVL_2027_q2_financial_business_results.pdf", "md_path": "data/MRVL/MRVL_2027_q2_financial_business_results.md"},
+    {"type": "additional_earnings_information_pdf", "url": "https://d1io3yog0oux5.cloudfront.net/_eac9f0b88f7114d6778a284aa60d5990/marvell/db/3734/35391/additional_earnings_information/MRVL+Q2%2727+Additional+Information_FINAL+v2.pdf", "path": "data/MRVL/MRVL_2027_q2_additional_earnings_information.pdf", "md_path": "data/MRVL/MRVL_2027_q2_additional_earnings_information.md"},
+    {"type": "official_10q_html", "url": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-26-000025/mrvl-20260801.htm"}
+  ],
+  "notes": [
+    "README previously labeled this row as FY2025 Q2. Official Marvell materials identify it as FY2027 Q2, quarter ended 2026-08-01.",
+    "Digest is based on official release/PDF materials. Q&A-specific analysis is limited because no local audio/transcript/GT was acquired."
+  ]
+}
