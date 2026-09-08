@@ -2037,9 +2037,9 @@ def ingest_from_todo(auto_push: bool = False) -> None:
                 if evt_date > today: continue
 
                 # Extract stock ID
-                m = re.search(r'[（(](\w+)[）)]', evt_name)
+                m = re.search(r'[（(]([A-Za-z0-9_.]+)[）)]', evt_name)
                 if not m: continue
-                stock_id = m.group(1)
+                stock_id = m.group(1).replace('.', '').upper()
 
                 # Determine year/quarter - prefer explicit info in CSV over date heuristic
                 remarks = row.get("備註", "")
@@ -2122,7 +2122,7 @@ def update_readme() -> None:
                         tw_company_names[sid_info.strip()] = name_info.strip()
         except Exception: pass
 
-    _TICKER = r'(?:\d{4}|[A-Z]{1,5})'
+    _TICKER = r'(?:\d{4}HK|\d{4}|[A-Z]{1,5})'
     audio_pat  = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)\.(mp3|m4a|wav|mp4)$', re.I)
     pdf_cn_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_ir\.pdf$', re.I)
     pdf_en_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_ir_en\.pdf$', re.I)
@@ -2151,7 +2151,7 @@ def update_readme() -> None:
 
     exclude_dirs = {"web", "tmp", "tools", "spec", "definitions", ".git", ".github", "__pycache__"}
     for d in sorted((repo / "data").iterdir()):
-        if not d.is_dir() or d.name.lower() in exclude_dirs or not re.match(r'^(\d{4}|[A-Z]{1,5})$', d.name, re.I):
+        if not d.is_dir() or d.name.lower() in exclude_dirs or not re.match(r'^(\d{4}HK|\d{4}|[A-Z]{1,5})$', d.name, re.I):
             continue
         stock_id = d.name.upper() if not d.name.isdigit() else d.name
         for f in sorted(d.iterdir()):
@@ -2323,6 +2323,8 @@ def update_readme() -> None:
 
     def _get_mops_link(stock_id: str, fallback_link: str = None) -> str:
         """Return a markdown link to MOPS for TW stocks, or fallback for others."""
+        if stock_id == '0992HK':
+            return '[↗](https://finance.yahoo.com/quote/0992.HK/financials/)'
         if stock_id and stock_id.isdigit() and len(stock_id) == 4:
             # Direct link to MOPS for Taiwan stocks
             url = f"https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id={stock_id}"
@@ -2376,8 +2378,8 @@ def update_readme() -> None:
         ev_class = ev.get("類別", "")
         if ev_class in ("財報", "財報公告"):
             continue
-        m = re.search(r'[（(](\w+)[）)]', ev.get("事件名稱", ""))
-        sid_pre = m.group(1) if m else None
+        m = re.search(r'[（(]([A-Za-z0-9_.]+)[）)]', ev.get("事件名稱", ""))
+        sid_pre = m.group(1).replace('.', '').upper() if m else None
         if not sid_pre:
             continue
         y_pre, q_pre = _csv_row_yq(ev.get("事件名稱", ""), ev.get("備註", ""), ev.get("開始日期", ""))
@@ -2391,8 +2393,8 @@ def update_readme() -> None:
     for ev in upcoming_ir:
         if ev.get("類別", "") not in ("財報", "財報公告"):
             continue
-        m = re.search(r'[（(](\w+)[）)]', ev.get("事件名稱", ""))
-        sid_pre = m.group(1) if m else None
+        m = re.search(r'[（(]([A-Za-z0-9_.]+)[）)]', ev.get("事件名稱", ""))
+        sid_pre = m.group(1).replace('.', '').upper() if m else None
         if not sid_pre:
             continue
         y_pre, q_pre = _csv_row_yq(ev.get("事件名稱", ""), ev.get("備註", ""), ev.get("開始日期", ""))
@@ -2415,8 +2417,8 @@ def update_readme() -> None:
         remarks  = ev.get("備註", "")
         link1    = ev.get("Link1", "")
         # Support both numeric (2330) and alpha (TSM) IDs
-        m = re.search(r'[（(](\w+)[）)]', ev_name)
-        sid = m.group(1) if m else None
+        m = re.search(r'[（(]([A-Za-z0-9_.]+)[）)]', ev_name)
+        sid = m.group(1).replace('.', '').upper() if m else None
 
         # Prefer explicit year/quarter from CSV, but guard against stale/misclassified
         # US earnings-calendar rows. Apply the same correction to derived US call
@@ -2522,11 +2524,12 @@ def update_readme() -> None:
                 chi = tw_company_names.get(sid) or KNOWN_TW_STOCKS.get(sid, ("", ""))[1]
                 if not chi:
                     # e.g. "台積電(2330) 財報" -> "台積電"
-                    chi = re.sub(r'[（(]\w+[）)].*', '', ev_name).strip()
-                display_name = f"{sid} {chi}".strip()
+                    chi = re.sub(r'[（(][A-Za-z0-9_.]+[）)].*', '', ev_name).strip()
+                display_sid = "0992.HK" if sid == "0992HK" else sid
+                display_name = f"{display_sid} {chi}".strip()
         else:
             # Clean duplicate tickers e.g. "台積電(TSM)(TSM) 財報" -> "台積電(TSM) 財報"
-            display_name = re.sub(r'\((\w+)\)\(\1\)', r'(\1)', ev_name)
+            display_name = re.sub(r'\(([A-Za-z0-9_.]+)\)\(\1\)', r'(\1)', ev_name)
 
         def _qstr(year, q, ticker=sid):
             """Format quarter string; preserve explicit US FY labels from CSV."""
@@ -2558,7 +2561,8 @@ def update_readme() -> None:
                 audio   = _webcast_cell(ingested)
                 fin, gt = _call_transcript_cells(ingested)
                 pdf_cn_file = ingested.get("pdf_cn")
-                pdf_en_file = ingested.get("pdf_en")
+                pdf_en_file = (ingested.get("pdf_en") or ingested.get("report_en")
+                                 or ingested.get("report_cn"))
                 pdf_cn, pdf_en = _format_ir_cells(sid, pdf_cn_file, pdf_en_file)
 
             # Digests now merge 法說會/受邀法說 + 財報 into one file when both
@@ -2665,7 +2669,8 @@ def update_readme() -> None:
             display = f"{sid_up} {en}" + (f" {chi}" if chi else "")
         else:
             chi = tw_company_names.get(sid) or KNOWN_TW_STOCKS.get(sid, ("", ""))[1]
-            display = f"{sid} {chi}".strip()
+            display_sid = "0992.HK" if sid == "0992HK" else sid
+            display = f"{display_sid} {chi}".strip()
         if has_financial_report and not (has_audio or has_ir_cn or has_ir_en or has_srt):
             audio = "-"
             fin = "-"
