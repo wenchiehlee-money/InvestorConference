@@ -34,6 +34,7 @@ CASES = [
     ("AVGO", "2026-09-02", "FY2026 Q3", "SEC 8-K avgo-08022026x8kxex99.htm: 'Third Quarter Fiscal Year 2026' (period likely ended ~2026-08-02); raw_event_upcoming_earnings.csv had this mislabeled as FY2026 Q1"),
     ("HPE", "2026-09-02", "FY2026 Q3", "SEC 8-K ex-991x922026x8k.htm / investors.hpe.com press release: 'fiscal 2026 third quarter results' (period ended 2026-07-31); raw_event_upcoming_earnings.csv had this mislabeled as FY2026 Q1"),
     ("0992.HK", "2026-08-13", "FY2027 Q1", "Lenovo official Q1 FY2026/27 results announcement; fiscal year starts April 1"),
+    ("HPQ", "2026-08-26", "FY2026 Q3", "HP official fiscal 2026 third-quarter results release; fiscal year ends October 31"),
 ]
 
 

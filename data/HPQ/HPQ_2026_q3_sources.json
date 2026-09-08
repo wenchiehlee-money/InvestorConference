@@ -1,0 +1,25 @@
+{
+  "stock_id": "HPQ",
+  "company": "HP Inc.",
+  "event_type": "財報",
+  "year": "2026",
+  "quarter": "3",
+  "period_end": "2026-07-31",
+  "announcement_date": "2026-08-26",
+  "primary_source": "HP Investor Relations / official earnings release",
+  "sources": [
+    {
+      "source_type": "official earnings release PDF",
+      "source_url": "https://www.hp.com/content/dam/sites/garage-press/press/press-releases/2026/q3-fy26-earnings/HP_Inc_Reports_Q3FY26_Earnings.pdf",
+      "local_path": "data/HPQ/HPQ_2026_q3_report_en.pdf",
+      "sha256": "4b5104ee068580b9ce6efeedc342486c16335e889bc5a90b5ab7c600ca449cbc",
+      "notes": "HP official Q3 FY2026 results; release is unaudited."
+    },
+    {
+      "source_type": "official audio webcast",
+      "source_url": "https://www.hp.com/investor/2026Q3Webcast",
+      "notes": "Official FY26 Q3 earnings-call webcast/replay URL; no local audio file was downloaded."
+    }
+  ],
+  "notes": "The August 26, 2026 event is HP fiscal 2026 Q3, not Q1. README/CSV labels were corrected from stale upstream metadata."
+}
