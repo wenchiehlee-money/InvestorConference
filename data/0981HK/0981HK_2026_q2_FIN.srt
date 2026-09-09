@@ -1,0 +1,567 @@
+[METADATA]
+Source: 0981HK_2026_q2_exp13
+Language: en
+---
+(00:00.000) Welcome to Semiconductor Manufacturing International Corporation's
+(00:29.980) Second Quarter 2026 Webcast Conference Call.
+(00:34.560) Today's call will be simultaneously streamed through the Internet and telephone.
+(00:39.020) Please be advised that if you join the meeting by phone,
+(00:42.020) your dial-ins are in a listen-only mode.
+(00:45.280) However, after the conclusion of the management's presentation,
+(00:48.340) we will have a question-and-answer session.
+(00:51.080) At this time, you will receive instructions on how to participate.
+(00:54.740) 現在有請資深副總裁董事會秘書郭光麗女士主持。
+(01:01.860) Without further ado, I'd like to introduce Ms. Guo Guangli,
+(01:04.820) Senior Vice President and Board Secretary, to host the webcast.
+(01:24.740) 私生副總裁、財務負責人吳俊峰博士
+(01:29.260) Greetings, welcome to SMIC's second quarter 2026 webcast conference call.
+(01:36.620) Attending today's call are Dr. Zhao Haijun,
+(01:39.660) Co-Chief Executive Officer, Dr. Wu Junfeng,
+(01:43.480) Senior Vice President and Person in Charge of Finance.
+(01:48.620) 在此提醒各位,我們今天的表述包括了前瞻性陳述,
+(01:52.820) 是對公司未來業績的預期而非保證,並受固有風險和不確定因素的影響。
+(02:01.580) 請參與我們業績公告中的前瞻性陳述。
+(02:05.860) 除非另有說明,業績說明會的數據根據國際財務報告準則來表述,貨幣以美元表示。
+(02:13.820) Let me remind you that today's presentation contains forward-looking statements that do not guarantee future performance, but represent the company's expectations and are subject to inherent risks and uncertainties.
+(02:28.340) Please refer to the forward-looking statements in our earnings announcement.
+(02:32.180) Please note that today's earning statement is presented in accordance with International Financial Reporting Standards, IFRS, and currency figures are in U.S. dollars, unless otherwise stated.
+(02:46.800) 接下來,有請吳俊峰博士介紹公司的財務情況。
+(02:51.700) I will now hand the call to Dr. Wu Junfeng to introduce the company's financial status.
+(02:56.900) 大家好,首先我向大家彙報2026年第二季度以及上半年未經審核業績,然後給出第三季度指引。
+(03:11.940) First, I will report our notated results for the second quarter and the first half of 2026, followed by our guidance for the third quarter.
+(03:24.380) 二季度業績如下。
+(03:25.180) Sales revenue is $30.06 billion,
+(03:29.740) return growth is 20%,
+(03:31.920) interest rate is 25.3%,
+(03:35.260) return growth is 5.2%,
+(03:38.160) operating profit is $5.34 billion,
+(03:42.720) tax relief and sales profit is $21.09 billion,
+(03:47.660) tax relief and sales profit is 70.2%,
+(03:53.040) 歸屬於本公司的應債利潤為4.79億美元。
+(03:58.400) The second quarter results were as follows.
+(04:01.900) Revenue was 3,006 million, up 20% sequentially.
+(04:07.000) Gross margin was 25.3%, up 5.2 percentage points sequentially.
+(04:13.560) Profit from operations was 534 million.
+(04:18.040) EBITDA was 2,109 million.
+(04:21.120) EBITDA margin was 70.2%.
+(04:24.240) Profit attributable to the company was 479 million.
+(04:51.120) Moving to the balance sheet, at the end of the second quarter, the company had total
+(05:06.740) assets of $57.2 billion, of which total cash on hand was $13.9 billion.
+(05:14.300) Total liabilities were $19.3 billion, of which total debt was $14 billion.
+(05:21.120) Total equity was 37.9 billion.
+(05:25.180) Debt-to-equity ratio was 37%,
+(05:27.960) and net debt-to-equity ratio was 0.4%.
+(05:32.160) 關於現金流量,
+(05:35.360) 在二季度,
+(05:37.040) 經營活動所得現金金額為25.22億美元,
+(05:42.380) 投資活動所用現金金額為22.71億美元,
+(05:48.160) 融資活動所得現金金額為
+(05:50.940) 6.07億美元。
+(05:53.780) In terms of cash flow, in the second quarter, net cash generated from operating activities was 2,522 million.
+(06:03.360) Net cash used in investing activities was 2,271 million.
+(06:10.060) Net cash generated from financing activities was 607 million.
+(06:15.280) 公司2026年上半年未經審核業績如下,銷售收入為55.11億美元,同比增長23.7%,毛利率為22.9%,同比上升1.5個百分點,經營利潤為7.82億美元,
+(06:39.220) 息稅折舊及攤銷前利潤為35.45億美元
+(06:44.660) 息稅折舊及攤銷前利潤率為64.3%
+(06:50.220) 歸屬於本公司的應當利潤為6.77億美元
+(06:56.460) The company's unaudited results for the first half of 2026 were as follows.
+(07:02.400) Revenue was $5,511 million, up 23.7% year-over-year.
+(07:09.860) Gross margin was 22.9%, up 1.5 percentage points year-over-year.
+(07:16.740) Profit from operations was $782 million.
+(07:21.460) EBITDA was $3,545 million.
+(07:25.520) EBITDA margin was 64.3%.
+(07:28.400) Profit attributable to the company was $677 million.
+(07:45.560) For the third quarter of 2026, our guidance is as follows.
+(07:55.620) Revenue is expected to increase by 2% to 4% sequentially
+(08:01.080) And gross margin is expected to be in the range of 26% to 28%
+(08:07.620) 以上是財務方面的情況,謝謝
+(08:10.820) This concludes the financial status, thank you
+(08:14.740) 謝謝吳博士
+(08:17.280) 接下來,有請聯合首席執行官趙海君博士介紹運營情況
+(08:23.160) Thank you, Dr. Wu
+(08:24.980) Next, I will hand the call to Dr. Zhao Haijing to comment on operations.
+(08:30.640) 大家好,歡迎參加中興國際2026年二季度業績說明會。
+(08:36.500) Hello everyone, thank you for attending SMIC's second quarter 2026 earnings call.
+(08:42.980) 二季度公司金源量價提升,單季收入突破30億美元,各項核心經營數據同比與環比,實現了大幅增長。
+(08:53.300) To be specific, the company's total sales revenue of $30.06 billion has increased by 20% in return,
+(09:00.960) with the amount of exports increasing by 14.4%.
+(09:03.900) The average sales unit price of the company has increased by 5.7%.
+(09:07.960) The increase in exports is mainly due to the demand for artificial intelligence for配套芯片,
+(09:13.000) and the increase in the supply and delivery of customers.
+(09:15.800) The company has newly increased 8,000 chips to integrate 12-inch monthly production capacity.
+(09:19.200) In the second quarter, the company's business achieved growth in both wafer shipment and price.
+(09:31.900) Quarterly revenue surpassed $3 billion,
+(09:34.100) with all key operating metrics recording substantial increases year-over-year and quarter-over-quarter.
+(09:41.340) Specifically, the company overall achieved a total revenue of $3,006 million,
+(09:47.320) a sequential increase of 20%.
+(09:50.800) Among that, the shipment increased by 14.4%, while the blended ASP increased by 5.7%.
+(09:59.560) The increase in shipment was mainly driven by surging demand for peripheral chips brought by AI,
+(10:06.780) as well as customers shipment pooled in.
+(10:09.220) The company newly added 8,012-inch equivalent monthly capacity, and utilization rates increased by 0.6 percentage points sequentially to 93.7%.
+(10:39.220) China's growth rate is the highest, reaching 22%.
+(10:43.340) The main reason is that the demand for artificial intelligence-compatible chips is increasing,
+(10:47.800) and overseas orders are returning and localization is being strengthened.
+(10:52.200) According to the size of the energy revenue, 12-inch and 8-inch are 78% and 22% respectively.
+(10:59.240) From the amount, 12-inch energy revenue is 24%, and 8-inch energy revenue is 11%.
+(11:08.360) In the second quarter, in terms of companies' revenue by region, China, America, and New Asia accounted for 90%, 8%, and 2% respectively.
+(11:21.280) All regions recorded revenue increases in absolute dollar terms.
+(11:26.300) China recorded the most substantial growth at 22%, mainly driven by robust demand for AI peripheral chips,
+(11:33.920) the backflow of overseas orders, and continued strengthening of localized manufacturing.
+(11:41.300) By size, wafer revenue from 12-inch and 8-inch accounted for 78% and 22% respectively.
+(11:49.820) The wafer revenue amount from 12-inch increased by 24% sequentially,
+(11:55.620) and wafer revenue amount from 8-inch increased by 11% sequentially.
+(12:00.460) 經驗收入以應用來看,智能手機、電腦與平板、消費電子、互聯預可穿戴、工業與汽車,收入佔比分別為17%,16%,44%,7%和17%,絕對值環比均有提升。
+(12:19.460) 公司將產能更多調配給需求緊缺的領域,使得人工智能配套、電腦與平板、工業與汽車收入絕對值環比增長在四成左右。
+(12:32.460) 其他應用,雖然終端整體下行,但客戶的提前拉貨抵消了部分影響,使得手機消費互聯與可穿戴收入絕對值也實現了8%,16%和13%的成長。
+(12:49.460) By application, wafer revenue from smartphone, computer and tablet, consumer electronics, connectivity and IoT, industrial and automotive accounted for 17%, 16%, 44%, 7%, and 17% respectively.
+(13:10.160) All absolute values rose quarter over quarter.
+(13:14.280) The company allocated more capacity to segments facing tight demand, resulting in quarter-over-quarter absolute value revenue growth of approximately 40% for AI peripheral chips, computer and tablets, as well as industrial and automotive.
+(13:31.940) For other applications, despite an overall downturn in end-device, customers pull in partially offset the impact, driving absolute value revenue growth of 8%, 16%, and 13% for smartphone, consumer electronics, and connectivity and IoT, respectively.
+(14:01.940) 平均銷售單價上升與產能利潤率好於預期,
+(14:06.700) 抵消了折舊增加對毛利率的拖累。
+(14:09.960) 從息稅折舊及攤銷前利潤率來看,
+(14:14.140) 環比提升了近13個百分點,達到了70%。
+(14:18.540) In the second quarter, the company's growth margin increased by 5.2 percentage points to 25.3%,
+(14:26.500) mainly due to an increase in blended ASP and better-than-expected utilization rate,
+(14:33.240) which offset the drag by growth margin from increased depreciation.
+(14:38.440) Besides, EBITDA margin increased by nearly 13 percentage points sequentially to 70%.
+(14:56.500) 較去年同期提升了1.5個百分點。
+(14:59.920) 上半年,公司資本開支合計34億美元。
+(15:03.540) According to the unaudited results for the first and second quarters,
+(15:07.680) the company's revenue in the first half of 2026 surpassed 5.5 billion,
+(15:13.880) up 23.7% comparing to the same period last year.
+(15:18.340) The growth margin was 22.9%, up 1.5 percentage points comparing to the same period last year.
+(15:27.100) The company's total capital expenditures for the first half of the year were $3.4 billion.
+(15:48.340) In the third quarter, the company's shipment is expected to continue to grow, and the price
+(16:08.980) is expected to remain resilient.
+(16:10.960) The quarterly revenue is guided to increase 2% to 4% sequentially, and the gross margin
+(16:18.100) is guided to rise sequentially to be in the range of 26% to 28% after offsetting incremental
+(16:26.160) depreciation in the third quarter and peak summer season power costs. Utilization rate,
+(16:33.100) inclusive of newly added capacity, is expected to remain at a high level of around 95%,
+(16:40.480) which effectively dilutes unit fixed costs.
+(16:48.100) and the effects of the pandemic will continue.
+(16:50.900) It will also bring a wide range of needs for the manufacturing of integrated power.
+(16:53.840) The company is flexible in its production capacity,
+(16:56.440) and will quickly verify new production capacity
+(16:58.080) to help alleviate the shortage of industrial chain.
+(17:03.120) At the same time, we also see that the pressure of supply chain cost increase
+(17:06.340) has been transmitted to the manufacturing process.
+(17:09.440) The company will actively respond to it,
+(17:10.900) overcome difficulties, and work to reduce the impact to the minimum.
+(17:14.640) Overall, we will continue to work on the industry direction and company development
+(17:17.940) Looking ahead to the second half of this year, the industrial momentum and spillover effects
+(17:26.320) generated by AI will persist, driving broad-based demand for integrative circuit manufacturing.
+(17:33.740) The company will flexibly allocate existing capacity and accelerate the qualification of
+(17:41.120) newly added capacity to help ease supply constraints across the industrial chain.
+(17:46.440) At the same time, we also observed that pressure on upward supply chain costs has been passed through to the manufacturing segment.
+(17:56.180) The company will proactively address these challenges and mitigate headwinds to minimize the overall impact.
+(18:04.040) Overall, the company maintains an optimistic outlook on industry trends and the company's development.
+(18:10.540) 最後我們依然要感謝客戶、供應商、投資者以及社會各界對公司的理解和大力支持。謝謝大家。
+(18:19.480) Finally, we sincerely thank all customers, suppliers, investors, and community for your understanding and strong support. Thank you all.
+(18:30.980) 謝謝趙博士。
+(18:32.420) 接下來我們進入問答環節,由趙博士和吳博士進行回答。
+(18:37.540) 中文提問將由中文回答。
+(18:41.720) 英文提問將由英文回答。
+(18:45.200) 每位提問者最多提兩個問題。
+(18:48.100) Thank you, Dr. Zhao.
+(18:49.800) Next is our Q&A session.
+(18:52.160) Questions will be answered by Dr. Zhao and Dr. Wu.
+(18:56.040) Chinese questions will be answered in Chinese.
+(18:59.160) English questions will be answered in English.
+(19:02.180) Please limit your questions to two per person.
+(19:04.580) I would now like to open up the call for Q&A. Operator, please assist.
+(19:10.880) 感謝,我們現在開始問答環節。
+(19:14.080) 如果您想發問,請按新一一鍵。
+(19:17.820) 如果您想取消發問,請重按新一一鍵。
+(19:22.040) We will now begin the question and answer session.
+(19:25.040) To ask a question, please press star 11 on your telephone.
+(19:28.880) To withdraw your question, please press star 11 again.
+(19:34.580) 您的第一道問題來自於華泰證券的黃樂平。
+(19:40.840) Your first question comes from Le Ping Huang of Huatai Securities.
+(19:44.880) 請提問。
+(19:46.620) 趙總非常恭喜,非常強強的業績。
+(19:50.500) 我首先問一下,二季度的非常強的量,
+(19:55.340) 我看是14.4%的量是來自什麼地方?
+(19:58.620) 我看了一下,二季度的產能的增長現在只有1.7%,
+(20:03.580) 然後產能利用率也只有百分之有小幅的增長
+(20:07.420) 那出貨量是明顯快於就是產出的增速
+(20:11.440) 這是主要是來自於那個就新廠啟動之後的貢獻
+(20:15.380) 還是由於那個製品和那個成品的庫存的釋放
+(20:19.580) 而且您剛才也就是也在那個
+(20:23.380) 提到那個AI配套芯片的需求
+(20:27.080) 我想問一下這裡面就是
+(20:29.080) 因為我看了一下從應用角度來看
+(20:31.300) The rate of growth is relatively fast, with 42% growth in industrial and automobile industries,
+(20:35.380) and 39% growth in computers and tablets.
+(20:37.700) Is this a big part of the AI chip you mentioned earlier?
+(20:43.380) What kind of products are there? Thank you.
+(20:45.380) That's the first question.
+(20:48.020) Thank you for the first question.
+(20:50.340) The growth of the global market is mainly due to the increase in exports,
+(21:55.300) China
+(23:53.300) 三季度指引現在是二到四個點的指引,然後我看到毛利率還是在繼續上升,就從25.3到26到28,那這是否意味著就是說三季度我們的毛利率還在繼續往上走,然後出貨量是不是因為剛才你也提了就是有提前發貨的影響,是不是出貨量會相對來說比較平穩一點?
+(24:17.300) How should we understand the increase of 3G
+(24:20.380) to 2G due to obvious changes?
+(24:23.260) Thank you.
+(24:26.680) Yes, Le Ping.
+(24:28.620) We have to come from two places.
+(24:30.620) One is how many wafers you have.
+(24:32.080) The second is how many wafers you have.
+(24:32.980) When you are down the line,
+(24:34.460) the price you set at that time
+(24:36.480) is the previous price or the later price.
+(24:38.920) So many wafers we have exported in the second quarter
+(24:41.120) are actually from the first quarter,
+(24:42.660) even from the fourth quarter last year.
+(24:44.860) At this time, it's still the old price.
+(24:47.300) The price of the central international market starts from the bottom line.
+(24:52.180) New orders, new prices, new prices.
+(24:55.980) So what we have produced in the third quarter
+(24:59.580) or what we continue to produce are all using new prices.
+(25:02.940) So the price effect in the third quarter
+(25:06.180) will be more than 100%.
+(25:08.620) So it will bring a growth of a lot.
+(25:10.900) In the third quarter, we are the same.
+(25:13.940) Every quarter, there is a big increase in the discount.
+(26:16.740) Thank you.
+(26:46.740) Zhongxing Zhengquan de Wang Ziyuan.
+(26:49.460) Your next question comes from Ziyuan Wang of CITIC Securities.
+(26:52.980) Qingting wen.
+(26:55.860) 好的,謝謝。
+(26:56.940) 首先恭喜管理層K2取得了非常亮眼的業績表現。
+(27:00.640) 我有兩個問題,就是第一個是關於價格。
+(27:04.520) 想問一下今年以來,金銀代工大概提了幾次價格,
+(27:08.380) 然後每次大概提價的幅度是如何?
+(27:12.120) 目前這個漲價是針對部分產品還是比較全面的,
+(27:16.520) 整個提價的品類
+(27:20.160) 那麼今年下半年到明年
+(27:22.540) 是否還有進一步提價的空間
+(27:24.420) 我們看到公司Q2的平均單價
+(27:27.200) 是991美金
+(27:29.540) 等效8寸微分
+(27:31.080) 環比大概是5.7的提升
+(27:33.520) 就這個Q2的裡面的提價
+(27:35.620) 它就是單純提價的部分
+(27:38.880) 和產品組合結構變化的部分
+(27:41.480) 影響分別有多少
+(27:42.620) 這是第一個問題
+(27:44.040) 謝謝
+(27:44.220) Thank you.
+(28:44.220) 中芯國際
+(32:14.220) One is directly related to the circuit board and the algorithm board of the data center.
+(32:19.820) These directly related ones, we call it a compatible chip.
+(32:23.020) For example, logic circuits, for example, BCD, for example, light module,
+(32:28.820) send and receive, these parts are all public demand from the long term.
+(32:34.220) The second is to see that overseas, due to the increase in its artificial intelligence compatible chip,
+(32:40.020) So they squeezed out the traditional ones, which they should have done.
+(32:45.820) Now they don't do it.
+(32:46.960) For example, the village company no longer does these specialty memory,
+(32:50.820) which is a special low density memory, now flash, then flash.
+(32:54.360) They don't do it.
+(32:55.440) Now we see that these places can't meet the needs.
+(33:01.720) So their prices have been going up.
+(33:04.600) We also see some trends of return.
+(33:07.640) The trend is that people are not willing to use the chips related to their phones and the DDI-C chips that display the monitor.
+(33:22.880) Now there is a clear trend that they can't get the production capacity.
+(33:27.060) So people are already starting to negotiate how to arrange the future production capacity and price.
+(33:32.280) So the market is not enough.
+(34:05.320) Okay, thank you, Mr. Zhao.
+(34:06.880) Very clear.
+(34:07.560) Thank you.
+(34:11.640) The next question is from Zhang Yikang from Zhongjing.
+(34:15.980) Your next question comes from Yikang Zhang of CICC.
+(34:19.520) Please ask a question.
+(34:23.400) Zhao Bo, Wu Bo, everyone, thank you for this question.
+(34:27.280) My first question is about the use of energy and demand.
+(34:31.380) 首先是公司的產能利用率的提高
+(34:35.880) 和高運行是可以持續
+(34:38.080) 然後門口請趙總幫我們把
+(34:40.880) 比如說電源管理 MCU
+(34:43.120) TLS
+(34:44.460) 然後包括顯示驅動還有模擬
+(34:47.340) 這幾個成熟製成的能力歸類一下
+(34:50.580) 比如說包括供不應求供需平衡
+(34:53.540) 然後還有是像人在區庫存
+(34:55.880) 這麼幾個類別裡面
+(34:58.480) 另外就是在需求端
+(35:00.620) We see that the ratio of industrial and car rules has improved.
+(35:06.460) We can also see that the ratio of car rules and industrial
+(35:08.660) has already been reduced from the protection layer to the middle.
+(35:13.620) This is my question.
+(35:14.860) It's mainly about the use of industrial and demand levels.
+(35:17.580) Thank you.
+(35:19.500) Okay, Yikang, thank you.
+(35:21.460) Now, we can see that the entire industry is in a different heat.
+(35:27.460) If we look at the supply and demand situation,
+(35:31.060) the output we can provide is far higher than what we need.
+(35:34.580) That is, the output related to AI,
+(35:37.020) data center, and computer programming.
+(35:40.780) This output is mainly related to logic circuits.
+(35:44.580) And then, all the boards inside
+(35:47.700) are related to power management.
+(35:49.100) Power management and power supply
+(35:50.780) actually require a lot of things.
+(35:53.300) Whether it's GPU or CPU,
+(35:55.740) The next to it is the HBM memory, DRAM is needed.
+(35:58.940) The SSD, we call it the solid hard drive,
+(36:03.300) this driver and solid hard drive is needed.
+(36:06.340) The entire cooling motor drive is needed.
+(36:09.400) The power supply in the light module is also needed.
+(36:11.680) This amount is very large.
+(36:13.260) In one cabinet, if there are 72 GPUs in one cabinet,
+(36:17.880) and then add other accessories,
+(36:20.600) maybe power supply, power management,
+(36:22.120) it will reach more than 16,000.
+(36:24.240) So this demand is not enough.
+(36:29.080) Now it seems that the main thing to store is mobile phones.
+(36:33.020) Some of the goods that we have brought up should slowly increase in storage.
+(36:36.340) Originally, we called these consumer-related prices very low on the panel.
+(36:42.020) We basically have very few orders.
+(36:46.720) Storage is not very high, but the demand is not forgotten.
+(36:49.740) 但是隨著產能的緊缺,大家也擔心來年如果手機回來了需求,來年如果消費類像咱們看到的電視啊,monitor,電腦,這些需求如果回來了,大家現在的這個儲備庫存是不夠的,所以大家也擔心來年拿不到產能,所以現在開始做一些備貨。
+(37:42.700) 汽車類的比值和工業類的增加了
+(37:46.100) 是因為這些客戶他的產品
+(37:48.680) 既可以供應汽車類的
+(37:51.640) 這個工業類的
+(37:53.260) 也可以供應手機類的面板類的
+(37:55.500) 所以在最近一段時間裡
+(37:58.000) 他還是堅持要下貨的
+(37:59.620) 這個下貨主要是用在
+(38:01.580) 汽車類和工業類裡面了
+(38:03.760) 所以手機類和消費類的
+(38:06.320) 用的就比較少一點
+(38:07.540) 所以中芯國際這方面的出貨
+(38:10.340) 實際是下降了
+(38:11.440) but the ratio has increased.
+(38:13.740) That's the main reason.
+(38:17.440) I see. Thank you, Mr. Zhao.
+(38:19.440) My question is about the distribution,
+(38:23.440) price, and pricing of the product.
+(38:28.440) You mentioned different downstream needs.
+(38:31.940) In terms of consumption, industry,
+(38:34.440) and car regulations and AI,
+(38:36.940) and the customer base,
+(38:38.740) and how we can distribute our production capacity according to the principles.
+(38:43.540) If we exclude the product combination,
+(38:47.940) and look at the different types of process,
+(38:50.540) how much is the price increase and decrease?
+(38:54.140) And have we already discussed all the price increases in the third quarter?
+(38:59.340) Or is there still a part that hasn't been addressed?
+(39:01.940) That's my second question about the distribution of production capacity,
+(39:04.140) the deadline, and the pricing.
+(41:36.940) We should also be respected and acknowledged.
+(41:40.460) So in these places, we have a certain price range.
+(41:45.660) There are also very sufficient reasons.
+(41:49.140) In other aspects, we have to achieve the best standards in the industry,
+(41:52.620) including consumption and mobile phones.
+(41:54.940) But these prices are related to the situation in the industry.
+(42:00.640) So when we are in the industry,
+(42:02.560) We will not be taking the initiative to reduce production costs or increase prices in these areas.
+(42:08.560) Because we are still in various channels.
+(42:11.560) I also talked about this at this meeting.
+(42:13.560) China and the United States have divided their products into at least 8 to 10 channels.
+(42:18.560) We have divided its application scene into five large application scenes.
+(42:22.560) In the future, we will gradually divide it into six to seven scenes.
+(42:27.560) One of them is the human intelligence package that I just mentioned.
+(42:30.560) We will divide it into more details.
+(42:33.180) So these application scenarios are different when they are different.
+(42:36.200) Its accuracy is different.
+(42:38.520) Some places, customers are not sensitive to prices,
+(42:41.660) but they ask the central international to support production and technology development.
+(42:45.580) Some places ask us to support price and share difficulties.
+(42:50.340) So we are now looking at this separately.
+(42:53.040) In the meeting just now, I also said that
+(42:55.420) the central international is in the consumer and mobile category this year.
+(42:59.060) We are still working with our customers.
+(43:01.060) We don't have a lot of debt.
+(43:03.060) We don't have a lot of savings.
+(43:05.060) So you see
+(43:07.060) our mobile phone consumption
+(43:09.060) is still growing
+(43:11.060) rather than decreasing.
+(43:13.060) If customers want to get their goods,
+(43:15.060) we still give them the best price.
+(43:17.060) Okay?
+(43:19.060) Okay, okay.
+(43:21.060) Thank you, Mr. Zhao.
+(43:23.060) Congratulations again on your very good performance.
+(43:25.060) I have no questions here.
+(43:27.060) 謝謝耶康
+(43:28.240) 感謝
+(43:30.260) 下一個問題來自於東方證券的快件
+(43:35.040) Your next question comes from
+(43:36.720) 建塊 of Korean Securities
+(43:38.580) 請提問
+(43:39.340) 趙總和各位領導好
+(43:42.900) 我這邊就看到咱們公司
+(43:45.580) 在二季度的這個Ibida
+(43:47.500) 這個利潤率是超過了70%
+(43:51.660) 那這個水平在公司歷史上
+(43:54.460) and also the horizontal comparison in various gold mining factories around the world
+(43:59.900) are all very good levels.
+(44:01.980) The company also expects that the profit margin of the third quarter
+(44:04.780) can still continue to increase.
+(44:06.720) At the same time, the saving ratio may still remain at a relatively high level.
+(44:10.940) So what is our outlook on the EBITDA profit margin indicator?
+(44:19.260) Thank you for the question.
+(44:50.920) The price we have reached, the interest rate we have reached, the use rate we have reached,
+(44:54.680) can all be predicted, can be continuous, can be continued.
+(44:58.400) But it is indeed our interest rate.
+(45:00.580) You can calculate it.
+(45:01.760) How much will we increase in a year?
+(45:02.900) This year, the discount will increase by about 30%.
+(45:05.940) As we just talked about the second quarter,
+(45:08.380) our discount amount is $1.2 billion.
+(45:12.720) This year, it is $4.9 billion, $5 billion.
+(45:16.320) So every quarter, it has increased.
+(47:19.020) and EBITDA plus the performance of interest rates.
+(47:24.060) Junfeng, do you want to add something?
+(47:27.160) Regarding EBITDA, Q2 has indeed reached a historical high.
+(47:33.900) But we also see that Q2's interest rates are also a recent high.
+(47:39.380) For EBITDA, in addition to interest rates and annual profits,
+(48:44.340) 感謝。下一道問題來自於國泰海通證券的羅通。
+(48:50.900) Your next question comes from Tong Luo of國泰海通Securities.
+(48:55.540) 請提問。
+(48:56.340) 大家好,吳總,各位管理層好。
+(49:01.240) 我這邊就是針對毛利率再提一個問題。
+(49:04.960) 就是因為我們看到26年的話,
+(49:07.400) 折舊應該同比增長差不多30%,
+(49:09.560) 理論上毛利率應該還是有比較大的一個壓力的,
+(49:12.640) But we do see that the company has done a good job in this area.
+(49:16.360) Whether it is this quarter's
+(50:09.080) We can take some of it and use it to make it more cost-effective for our customers.
+(50:16.040) For example, we can reduce the logic circuit a little bit.
+(50:17.940) We can take it to do MCU, do Specialty Memory,
+(50:22.360) or some of the things that we used to do, like RCD Driver.
+(50:27.380) Maybe we don't need to carry so many goods during this period of time.
+(50:30.140) So we can take it out and use it as a no-flash.
+(50:33.040) This way, we can optimize some products.
+(50:34.920) Thank you.
+(51:04.920) 來自於中信里昂證券的Tony Zhang.
+(51:09.100) Your next question comes from Tony Zhang of CLSA.
+(51:13.000) 請提問。
+(51:13.780) 謝謝各位領導。
+(51:16.780) 我是中信里昂的Tony Zhang。
+(51:18.660) 那麼我有一個問題就是,
+(51:20.580) 之前咱們公司預期今年的折舊費用是同比上漲30%,
+(51:25.040) 請問現在看折舊的情況是怎麼樣?
+(51:28.520) 那麼我們下半年我們預期折舊的具體金額是多少?
+(51:31.900) When do you expect the discount to reach a peak or a turning point?
+(51:36.340) Thank you.
+(51:38.660) Do you want to answer this first?
+(51:42.440) Okay.
+(51:44.800) We also said at the press conference,
+(51:48.700) the discount this year will rise by about three times.
+(51:53.760) In the first half of the year,
+(51:55.340) our discount is about 23 billion.
+(51:59.160) Now it looks like the whole year,
+(52:01.200) The growth of Zhejiu is basically the same as we said before.
+(52:05.800) The growth is expected to rise to about 30%.
+(52:09.800) The total will be close to 500 billion.
+(52:15.400) When will Zhejiu reach its peak?
+(52:19.800) Because according to some of the projects that have been released before,
+(52:27.200) We have been investing in Capex for years.
+(52:30.200) And we are also investing in Zhejiu.
+(52:35.440) So, according to the previous project,
+(52:38.960) we will be in a peak of Zhejiu in 2027.
+(52:43.080) But actually, because our expansion plan
+(52:46.560) is also being adjusted gradually,
+(52:48.600) and according to the market situation,
+(52:50.560) and the situation of the market,
+(52:52.080) we will also make some expansion arrangements.
+(53:26.000) So, as for when the peak will be, there is still uncertainty.
+(53:33.000) Mr. Zhao.
+(53:35.000) Tony, I should say this.
+(53:38.000) The KPIX investment of fixed assets that we have announced
+(53:44.000) is actually a record that can be calculated immediately.
+(53:47.000) It is the peak.
+(53:49.000) Now, Mr. Wu said that according to what has been announced before,
+(53:54.000) We are going to tell you right away that we will be in the top of the list in the next year.
+(54:00.000) We can be in the top of the list in the next few seasons.
+(54:01.000) But now, we have been talking to you all about the AI and customer needs during the meeting.
+(54:11.000) Today, we have received requests from customers asking us to prepare the energy.
+(54:15.000) There is a big change in this.
+(54:18.000) This change is an increase.
+(54:19.000) So we are also adjusting the space in each factory to further increase the equipment.
+(54:27.200) So we will continue to talk about this in a communication meeting or public-to-public situation.
+(54:34.840) This will make it difficult for us to say what we have talked about before.
+(55:14.760) 跟我們的投資者進行交流,好吧?
+(55:18.720) 好的,謝謝趙總,吳總。
+(55:20.240) 謝謝,好的,謝謝趙總,吳總。
+(55:21.840) 感謝。
+(55:24.380) 今天的最後一道問題來自於
+(55:27.560) 國海證券的胡建。
+(55:29.360) Last question for today comes from
+(55:31.440) 建, who from Guohai Securities?
+(55:33.800) 請提問。
+(55:36.680) 謝謝,謝謝趙博,謝謝吳博。
+(55:39.240) 很榮幸最後一個問題,
+(55:41.080) 就是我們可以看到
+(55:43.200) 昨天在公司發佈了亮眼的財報的同時吧
+(55:46.660) 國內幾大模擬巨頭的龍頭
+(55:51.340) 也呈現出了非常好的一個業績表現
+(55:53.380) 所以想跟趙伯偉請教一下
+(55:55.820) 就目前我們看到的景氣度而言
+(55:59.380) 就是BCD這樣一個公益平臺
+(56:01.160) 當前的供需和價格走勢
+(56:04.640) 和其他環節
+(56:05.740) 減度的景氣度差異
+(56:08.320) 然後這其中
+(56:09.840) 就我們分析的話
+(56:11.280) such as light and AI,
+(56:14.080) how much impact does it have on the demand?
+(56:16.320) I would also like to ask Zhao Bo a question.
+(56:18.320) Because many simulation companies
+(56:21.200) emphasize that they may have deeper
+(56:25.640) engineering accumulation,
+(56:26.600) including the concept of virtual IDM.
+(56:29.160) So I would like Zhao Bo to answer us.
+(56:32.240) How much is the difference between the two companies
+(56:34.440) in the exchange of products,
+(56:37.440) including their own engineering,
+(56:40.840) Thank you.
+(58:40.840) 它需求量每個月只有100片,換成12寸一個月不到,你下線都不方便,對吧?
+(58:48.360) 所以就變成了說有一些是8英寸,要牢牢的在那裡,再加上8英寸的設備更成熟。
+(58:55.060) 12寸設備往往現在你建條產線,你要做65納米,50納米,可能有的設備相當於是22納米,或者是更先進的。
+(59:33.840) I can see that there will be no problem at the end of next year.
+(59:36.580) Because everyone announced that a data center was built,
+(59:38.920) announced that they would buy GPUs.
+(59:40.660) There are also industry leading companies
+(59:42.440) that are now building more advanced production plants,
+(59:47.100) high-end production plants.
+(59:48.500) Those will not be wasted.
+(59:50.720) Those production plants,
+(59:52.040) every GPU or computing ASIC produced,
+(59:56.700) will definitely be equipped with the corresponding,
+(59:59.080) as I said earlier,
+(59:59.600) these simulation circuits, power supply,
+(60:01.120) 光模塊數據管理
+(60:03.220) HBM
+(60:04.000) SIC
+(60:04.900) 他都會在那個地方的
+(60:07.500) 所以這個配套的趨勢
+(60:09.500) 也可以肯定
+(60:10.400) 將來他一定是這樣的需求
+(60:12.920) 所以我們看到BCD平臺的需求
+(60:16.200) 和價格走勢
+(60:18.380) 一直是堅挺的
+(60:19.420) 一直是供不應求的
+(60:21.580) 那這個剛才講的
+(60:22.940) 不同的公司
+(60:23.820) 這個差異怎麼樣
+(60:25.460) 差異現在看兩點
+(60:27.500) 第一個是電壓
+(60:28.980) 應該大家要求這個要做高壓一點,這樣可以節省很多導線,也可以提供更大的電流,從48伏一直變到1伏,這個做48伏的這個需求量是比較大的,供應的人也是比較少的,可靠性也比較少,因為你的耐壓一定要耐壓到80到100伏,你才可以工作在48伏,這需要長期的驗證,那這個部分供應是比較少的。
+(60:53.980) Thank you.
+(61:23.980) 好了,再見。
+(61:26.680) 感謝。
+(61:27.660) 現在請郭光麗女士致結束於。
+(61:31.760) I would now like to hand the call back to Ms. Guo Guangli for closing remarks.
+(61:38.360) 謝謝今天參加電話會議的各界人士,感謝大家的信任和支持。
+(61:45.240) Thank you for participating in today's conference call.
+(61:48.600) Thank you for your trust and support.
+(61:53.980) 也計說明會到此結束
+(61:56.100) 感謝您的參與
+(61:57.660) This concludes SMIC's second quarter
+(62:00.560) webcast conference call
+(62:02.200) We thank you for joining us today
