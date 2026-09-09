@@ -2728,8 +2728,18 @@ def update_readme() -> None:
             seen_rows.add(row_key)
     merged = unique_merged
 
-    # Sort by date descending (newest first), then by year and quarter descending; entries without date sink to the bottom
-    merged.sort(key=lambda x: (x["date"] != "", x["date"] or "", x["year"] or "", x["q"] or ""), reverse=True)
+    # Keep same-day earnings and conference rows together. The previous sort used
+    # only date, so CSV insertion order could split a stock's paired rows across
+    # unrelated companies reporting on the same day.
+    type_order = {"法說會": 0, "受邀法說": 1, "財報": 2}
+    merged.sort(key=lambda x: type_order.get(x["type"], 9))
+    merged.sort(key=lambda x: (
+        x["sid"] or x["name"], x["year"] or "", x["q"] or ""
+    ))
+    merged.sort(
+        key=lambda x: (x["date"] != "", x["date"] or ""),
+        reverse=True,
+    )
 
     # Build README
     lines = [
