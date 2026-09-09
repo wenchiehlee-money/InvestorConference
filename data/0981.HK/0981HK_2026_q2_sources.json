@@ -32,6 +32,13 @@
       "kind": "cash_flow",
       "url": "https://smic.cdn.shwebspace.com/uploads/6a7d7c6a/2Q2026-CF.xlsx",
       "local_path": "data/0981.HK/0981HK_2026_q2_cash_flow.xlsx"
+    },
+    {
+      "kind": "webcast_replay_audio",
+      "url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/0981HK_2026_q2_webcast.m4a",
+      "local_path": "data/0981.HK/0981HK_2026_q2_webcast.m4a",
+      "duration_sec": 3724.57,
+      "source_url": "https://edge.media-server.com/mmc/p/ew6dh658"
     }
   ],
   "sha256": {
@@ -41,7 +48,7 @@
     "0981HK_2026_q2_balance_sheet.xlsx": "ed6c9105a736198f92b8be259529c30d6d7269cca8f1339e023909f10fdd5220",
     "0981HK_2026_q2_cash_flow.xlsx": "1d97beeee0981f9928be9f006347f66a8cd1a8387e7a6daad0d03ae26f99beb5"
   },
-  "notes": "Official SMIC 2026 Q2 materials. The webcast landing page was checked on 2026-09-09 and presents a registration/guestbook gate; no downloadable audio or replay URL was exposed. A public third-party transcript was found and recorded under secondary_sources, but it has no audio timestamps, so FIN.srt and GT.srt are intentionally not generated.",
+  "notes": "Official SMIC 2026 Q2 materials plus registered webcast replay. The webcast required registration; after authorized registration on 2026-09-09, the 01:02:04 English replay was downloaded and uploaded to the shared audio-files release. FIN.srt generation is delegated to the Mac mini MLX Whisper pipeline (issue #144); no local Whisper transcription is permitted. GT.srt remains pending FIN review.",
   "webcast_url": "https://edge.media-server.com/mmc/p/ew6dh658",
   "secondary_sources": [
     {

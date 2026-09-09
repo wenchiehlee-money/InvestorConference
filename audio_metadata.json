@@ -682,5 +682,16 @@
     "source": "google_finance_quartr",
     "source_url": "https://www.google.com/finance/beta/quote/QCOM:NASDAQ?tab=earnings",
     "status": "ok"
+  },
+  "0981HK_2026_q2": {
+    "checked_at": "2026-09-09",
+    "duration_sec": 3724.57,
+    "file": "data/0981.HK/0981HK_2026_q2_webcast.m4a",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/0981HK_2026_q2_webcast.m4a",
+    "sha256": "71f6c1344a3bf4911d55034f6d0c508f879a2e04edcd1e5d6c274dbf2f3d83fe",
+    "size_bytes": 30439376,
+    "source": "official_webcast_replay",
+    "source_url": "https://edge.media-server.com/mmc/p/ew6dh658",
+    "status": "ok"
   }
 }
