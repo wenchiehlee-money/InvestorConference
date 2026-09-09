@@ -109,6 +109,25 @@ def has_audio_source(root: Path, company: Path, base: str, audio_metadata: dict)
     return bool(manifest.get(base))
 
 
+def has_manifest_transcript_source(company: Path, year: int, q: int) -> bool:
+    """Recognize transcript URLs recorded in a quarter source manifest."""
+    quarter = f"{year} Q{q}"
+    for path in company.glob("*_sources.json"):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if str(data.get("quarter", "")).replace("FY", "").strip() != quarter:
+            continue
+        for source in data.get("secondary_sources", []):
+            if not isinstance(source, dict):
+                continue
+            kind = str(source.get("kind", "")).lower()
+            if "transcript" in kind and source.get("url"):
+                return True
+    return False
+
+
 def check_audio_metadata(base: str, metadata: dict):
     findings = []
     item = metadata.get(base)
@@ -347,6 +366,8 @@ def lint_quarter(root: Path, sid: str, year: int, q: int, durations: dict, audio
     if not gt.exists() and not fin.exists():
         if has_audio_source(root, company, base, audio_metadata):
             findings.append(Finding("WARN", f"{base}_*.srt", "—", "audio 已存在但缺字幕檔", "用 ingest/ASR 產生 FIN.srt，再依 digest SOP 補 GT"))
+        elif has_manifest_transcript_source(company, year, q):
+            findings.append(Finding("INFO", f"{base}_*.srt", "—", "已有 transcript source，但沒有 audio/timestamped subtitles，無法產生 FIN/GT", "保留 transcript 作補充來源；取得音檔後再產生 FIN 並依 digest SOP 校正 GT"))
         else:
             findings.append(Finding("WARN", f"{base}_audio", "—", "缺 audio/transcript source，尚無法產生字幕", "先用 ingest 補官方 audio、webcast replay 或可信 transcript source"))
 

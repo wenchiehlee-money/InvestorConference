@@ -41,6 +41,14 @@
     "0981HK_2026_q2_balance_sheet.xlsx": "ed6c9105a736198f92b8be259529c30d6d7269cca8f1339e023909f10fdd5220",
     "0981HK_2026_q2_cash_flow.xlsx": "1d97beeee0981f9928be9f006347f66a8cd1a8387e7a6daad0d03ae26f99beb5"
   },
-  "notes": "Official SMIC 2026 Q2 materials. The official page exposes an Investor Conference Call Audio Webcast; no downloadable audio file, transcript, or digest was available in-repo.",
-  "webcast_url": "https://edge.media-server.com/mmc/p/ew6dh658"
+  "notes": "Official SMIC 2026 Q2 materials. The webcast landing page was checked on 2026-09-09 and presents a registration/guestbook gate; no downloadable audio or replay URL was exposed. A public third-party transcript was found and recorded under secondary_sources, but it has no audio timestamps, so FIN.srt and GT.srt are intentionally not generated.",
+  "webcast_url": "https://edge.media-server.com/mmc/p/ew6dh658",
+  "secondary_sources": [
+    {
+      "kind": "third_party_transcript",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-smic-beats-q2-2026-forecasts-on-aidriven-demand-93CH-4859626",
+      "retrieved_at": "2026-09-09",
+      "notes": "Public transcript of the 2026 Q2 webcast call, including management remarks and Q&A. No audio file or timestamped transcript was exposed by this source."
+    }
+  ]
 }
