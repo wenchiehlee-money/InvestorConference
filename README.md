@@ -17,7 +17,7 @@
 | 2356 英業達 | 2026 Q2 | 受邀法說 | 2026-09-24 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2356) |
 | 3022 威強電 | 2026 Q2 | 受邀法說 | 2026-09-23 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3022) |
 | 6214 精誠 | 2026 Q2 | 受邀法說 | 2026-09-17 | 無 | - | - | [中](data/6214/6214_2026_q2_ir.pdf) | [EN](data/6214/6214_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6214) |
-| 7728 光焱科技 | 2026 Q2 | 受邀法說 | 2026-09-17 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7728) |
+| 7728 光焱科技 | 2026 Q2 | 受邀法說 | 2026-09-17 | [47.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/7728_2026_q2.m4a) | - | - | [中](data/7728/7728_2026_q2_ir.pdf) | [EN](data/7728/7728_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7728) |
 | 3014 聯陽 | 2026 Q2 | 受邀法說 | 2026-09-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3014) |
 | ORCL Oracle Corporation | FY2026 Q3 | 法說會 | 2026-09-10 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ORCL/financials/) |
 | ORCL Oracle Corporation | FY2026 Q3 | 財報 | 2026-09-10 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ORCL/financials/) |
