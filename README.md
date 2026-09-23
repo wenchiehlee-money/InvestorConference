@@ -6,6 +6,7 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----------:|:----:|
+| 2354 鴻準 | 2026 Q3 | 財報 | 2026-10-21 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2354) |
 | 2330 台積電 | 2026 Q3 | 財報 | 2026-10-15 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | TSM Taiwan Semiconductor Manufacturing Company Limited | 2026 Q3 | 法說會 | 2026-10-15 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/TSM/financials/) |
 | TSM Taiwan Semiconductor Manufacturing Company Limited | 2026 Q3 | 財報 | 2026-10-15 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/TSM/financials/) |
