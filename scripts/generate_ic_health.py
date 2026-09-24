@@ -173,6 +173,8 @@ def main():
     has_audio_count = 0
     has_transcript_count = 0
     has_srt_count = 0
+    has_fin_srt_count = 0
+    has_gt_srt_count = 0
     fully_ingested_count = 0
     pdf_only_count = 0
     has_digest_count = 0
@@ -200,6 +202,8 @@ def main():
         has_transcript = any(f.endswith("_transcript.md") or f.endswith("_alphaspread_transcript.md") for f in files)
         
         # Check SRT: filename contains _FIN.srt or _GT.srt
+        has_fin_srt = any(f.endswith("_FIN.srt") for f in files)
+        has_gt_srt = any(f.endswith("_GT.srt") for f in files)
         has_srt = any(f.endswith("_FIN.srt") or f.endswith("_GT.srt") for f in files)
         
         # Known invalid or duplicate/placeholder audio files (remote state)
@@ -236,6 +240,10 @@ def main():
             has_transcript_count += 1
         if has_srt:
             has_srt_count += 1
+        if has_fin_srt:
+            has_fin_srt_count += 1
+        if has_gt_srt:
+            has_gt_srt_count += 1
 
         catalog_types = catalog_event_types.get(key, set())
         is_catalog_conference = bool(catalog_types & {"法說會", "受邀法說"})
@@ -430,6 +438,8 @@ def main():
         "has_audio": has_audio_count,
         "has_transcript": has_transcript_count,
         "has_srt": has_srt_count,
+        "has_fin_srt": has_fin_srt_count,
+        "has_gt_srt": has_gt_srt_count,
         "fully_ingested": fully_ingested_count,
         "pdf_only": pdf_only_count,
         "pdf_only_healthy": pdf_only_healthy_count,
@@ -471,6 +481,8 @@ def main():
         "has_audio",
         "has_transcript",
         "has_srt",
+        "has_fin_srt",
+        "has_gt_srt",
         "fully_ingested",
         "pdf_only",
         "pdf_only_healthy",
