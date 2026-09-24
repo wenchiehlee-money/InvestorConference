@@ -20,7 +20,7 @@
 | MU Micron Technology | FY2026 Q2 | 受邀法說 | 2026-09-30 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MU/financials/) |
 | MU Micron Technology | FY2026 Q2 | 財報 | 2026-09-30 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MU/financials/) |
 | 2356 英業達 | 2026 Q2 | 受邀法說 | 2026-09-24 | 無 | - | - | [中](data/2356/2356_2026_q2_ir.pdf) | [EN](data/2356/2356_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2356) |
-| 3022 威強電 | 2026 Q2 | 受邀法說 | 2026-09-23 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3022) |
+| 3022 威強電 | 2026 Q2 | 受邀法說 | 2026-09-23 | [58.9 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3022_2026_q2.m4a) | - | - | [中](data/3022/3022_2026_q2_ir.pdf) | [EN](data/3022/3022_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3022) |
 | 6996 力領科技 | 2026 Q2 | 受邀法說 | 2026-09-22 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6996) |
 | 6214 精誠 | 2026 Q2 | 受邀法說 | 2026-09-17 | 無 | - | - | [中](data/6214/6214_2026_q2_ir.pdf) ([MD](data/6214/6214_2026_q2_ir.md)) | [EN](data/6214/6214_2026_q2_ir_en.pdf) ([MD](data/6214/6214_2026_q2_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6214) |
 | 7728 光焱科技 | 2026 Q2 | 受邀法說 | 2026-09-17 | [47.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/7728_2026_q2.m4a) | [📝](data/7728/7728_2026_q2_FIN.srt) | - | [中](data/7728/7728_2026_q2_ir.pdf) | [EN](data/7728/7728_2026_q2_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7728) |
