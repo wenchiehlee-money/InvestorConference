@@ -24,7 +24,7 @@ def is_company_dir(path):
     # Exclude non-stock directories
     if name in (".git", ".github", ".claude", "__pycache__", "definitions", "spec", "tmp", "tools", "web", "logs", "scripts"):
         return False
-    return name.isdigit() or (name.isupper() and name.isalpha())
+    return name.isalnum()
 
 def pdf_md_status(comp_dir, files):
     """Classify presentation PDF -> MD conversion quality for an event.
@@ -134,13 +134,13 @@ def main():
     # data/reports/conference-digests/{sid}/{key}_digest.md
     # Legacy fallback: Conference-digest/{key}_digest.md
     digest_keys = set()
-    digest_pattern = re.compile(r"^([A-Za-z0-9]+)_(\d{4})_[qQ]([1-4])_digest\.md$")
+    digest_pattern = re.compile(r"^([A-Za-z0-9.]+)_(\d{4})_[qQ]([1-4])_digest\.md$")
     for digest_dir in (DIGEST_DIR, LEGACY_DIGEST_DIR):
         if digest_dir.exists():
             for f in digest_dir.rglob("*_digest.md"):
                 m = digest_pattern.match(f.name)
                 if m:
-                    digest_keys.add(f"{m.group(1).lower()}_{m.group(2)}_q{m.group(3)}")
+                    digest_keys.add(f"{m.group(1).replace('.', '').lower()}_{m.group(2)}_q{m.group(3)}")
 
     catalog_event_types = load_catalog_event_types()
     catalog_report_rows = load_catalog_report_rows()
