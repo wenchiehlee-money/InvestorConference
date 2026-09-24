@@ -50,6 +50,30 @@ def pdf_md_status(comp_dir, files):
             status = "partial"
     return status
 
+def load_catalog_event_types():
+    """Return README catalog types keyed by normalized stock/year/quarter."""
+    result = {}
+    readme = REPO_ROOT / "README.md"
+    if not readme.exists():
+        return result
+    row_re = re.compile(r"^\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|")
+    code_re = re.compile(r"^\s*([A-Za-z0-9]+(?:\.[A-Za-z0-9]+)?)")
+    quarter_re = re.compile(r"(?:FY)?(\d{4})\s+Q([1-4])")
+    for line in readme.read_text(encoding="utf-8", errors="ignore").splitlines():
+        match = row_re.match(line)
+        if not match:
+            continue
+        company, quarter, event_type = (part.strip() for part in match.groups())
+        code_match = code_re.match(company)
+        quarter_match = quarter_re.search(quarter)
+        if not code_match or not quarter_match:
+            continue
+        code = code_match.group(1).replace(".", "").lower()
+        key = f"{code}_{quarter_match.group(1)}_q{quarter_match.group(2)}"
+        result.setdefault(key, set()).add(event_type)
+    return result
+
+
 def main():
     print("=== Generating InvestorConference Data Health Summary ===")
     
@@ -91,6 +115,8 @@ def main():
                 m = digest_pattern.match(f.name)
                 if m:
                     digest_keys.add(f"{m.group(1).lower()}_{m.group(2)}_q{m.group(3)}")
+
+    catalog_event_types = load_catalog_event_types()
 
     # 2. Scan company directories for conference keys
     company_dirs = [d for d in (REPO_ROOT / "data").iterdir() if is_company_dir(d)]
@@ -140,8 +166,8 @@ def main():
     for key in sorted(event_keys):
         files = file_map.get(key, [])
         
-        # Check PDF: filename contains _ir.pdf or _ir_en.pdf
-        has_pdf = any(f.endswith("_ir.pdf") or f.endswith("_ir_en.pdf") for f in files)
+        # IR PDFs are conference presentation decks, not statutory financial reports.
+        has_presentation_pdf = any(f.endswith("_ir.pdf") or f.endswith("_ir_en.pdf") for f in files)
         
         # Check Transcript: filename contains _transcript.md or _alphaspread_transcript.md
         has_transcript = any(f.endswith("_transcript.md") or f.endswith("_alphaspread_transcript.md") for f in files)
@@ -175,7 +201,7 @@ def main():
         # Check for event specific Markdown file (excluding README.md)
         has_event_md = any(f.lower().startswith(key.lower()) and f.endswith(".md") for f in files)
 
-        if has_pdf:
+        if has_presentation_pdf:
             has_pdf_count += 1
         if has_audio:
             has_audio_count += 1
@@ -184,21 +210,35 @@ def main():
         if has_srt:
             has_srt_count += 1
 
-        # Separate Formulation logic: conference if in manifest (even if audio is invalid) or has srt, or 2324_2026_q1
-        is_audio_conf = (key in audio_keys) or has_transcript or has_srt or (key.lower() == "2324_2026_q1")
+        catalog_types = catalog_event_types.get(key, set())
+        is_catalog_conference = bool(catalog_types & {"法說會", "受邀法說"})
+        is_standalone_report = "財報" in catalog_types and not is_catalog_conference
 
-        # Fully Ingested: has PDF + Audio + (Transcript or SRT)
-        is_fully = has_pdf and has_audio and (has_transcript or has_srt)
+        # A presentation PDF is conference material even when audio has not yet
+        # been discovered. Catalog type is authoritative when available.
+        is_audio_conf = (
+            is_catalog_conference
+            or has_presentation_pdf
+            or (key in audio_keys)
+            or has_transcript
+            or has_srt
+            or (key.lower() == "2324_2026_q1")
+        )
+
+        # Fully Ingested: presentation PDF + valid audio + (Transcript or SRT)
+        is_fully = has_presentation_pdf and has_audio and (has_transcript or has_srt)
         if is_fully:
             fully_ingested_count += 1
 
-        # PDF Only (Pure Financial Reports)
-        is_pdf_only = has_pdf and not is_audio_conf
+        # Standalone financial reports are identified by catalog event type, not
+        # by the absence of audio. An IR PDF is never a financial-report PDF.
+        report_material_re = re.compile(r"(?:_report|financial|earnings|statement|management_report|skills_result)", re.IGNORECASE)
+        report_files = [f for f in files if report_material_re.search(f) and f.lower().endswith((".pdf", ".md"))]
+        is_pdf_only = is_standalone_report
         if is_pdf_only:
             pdf_only_count += 1
             pdf_only_report_keys.add(key)
-            # If it has a transcript file or any event-specific Markdown conversion, it is Healthy
-            if has_transcript or has_event_md:
+            if any(f.lower().endswith(".md") for f in report_files):
                 pdf_only_healthy_count += 1
             else:
                 pdf_only_broken_count += 1
@@ -226,6 +266,14 @@ def main():
 
     total_audio_conferences = len(audio_conference_keys)
     total_pdf_only_reports = len(pdf_only_report_keys)
+    conference_presentation_only_count = sum(
+        1 for key in audio_conference_keys
+        if any(f.endswith("_ir.pdf") or f.endswith("_ir_en.pdf") for f in file_map.get(key, []))
+        and not (key in audio_keys)
+        and not any(f.endswith("_transcript.md") or f.endswith("_alphaspread_transcript.md") for f in file_map.get(key, []))
+        and not any(f.endswith("_FIN.srt") or f.endswith("_GT.srt") for f in file_map.get(key, []))
+    )
+    conference_other_incomplete_count = max(0, total_audio_conferences - fully_ingested_count - conference_presentation_only_count)
 
     ingestion_rate_pct = 100.0
     if total_conferences > 0:
@@ -265,7 +313,7 @@ def main():
     print(f"Has Transcript: {has_transcript_count}")
     print(f"Has SRT: {has_srt_count}")
     print(f"Fully Ingested: {fully_ingested_count}")
-    print(f"PDF Only (Pure Reports): {pdf_only_count}")
+    print(f"Standalone Financial Reports: {pdf_only_count}")
     print(f"  - MD Completed (Healthy): {pdf_only_healthy_count}")
     print(f"  - MD Missing (Broken): {pdf_only_broken_count}")
     print(f"  - MD Conversion Rate: {pdf_only_ingestion_rate_pct}%")
@@ -287,6 +335,12 @@ def main():
         "total_conferences": total_conferences,
         "total_audio_conferences": total_audio_conferences,
         "total_pdf_only_reports": total_pdf_only_reports,
+        "total_conference_events": total_audio_conferences,
+        "conference_presentation_only": conference_presentation_only_count,
+        "conference_other_incomplete": conference_other_incomplete_count,
+        "standalone_report_events": total_pdf_only_reports,
+        "standalone_report_healthy": pdf_only_healthy_count,
+        "standalone_report_broken": pdf_only_broken_count,
         "has_pdf": has_pdf_count,
         "has_audio": has_audio_count,
         "has_transcript": has_transcript_count,
@@ -316,6 +370,12 @@ def main():
         "total_conferences",
         "total_audio_conferences",
         "total_pdf_only_reports",
+        "total_conference_events",
+        "conference_presentation_only",
+        "conference_other_incomplete",
+        "standalone_report_events",
+        "standalone_report_healthy",
+        "standalone_report_broken",
         "has_pdf",
         "has_audio",
         "has_transcript",

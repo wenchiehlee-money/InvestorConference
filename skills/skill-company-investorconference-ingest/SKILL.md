@@ -290,6 +290,15 @@ python skills/skill-company-investorconference-ingest/scripts/ingest.py <stock_i
 python skills/skill-company-investorconference-ingest/scripts/ingest.py --update-readme
 ```
 
+### README event rows and health-counting boundary
+
+README is both an event catalog and a material-status view. Keep these concepts separate:
+
+1. A same-day `法說會` and `財報` are two rows and count as `1 + 1`; never deduplicate them because their dates match. The conference row tracks call/presentation/transcript materials, while the report row tracks the official financial-report material.
+2. Future calendar rows with no assets are valid `planned/not_due` rows, not ingestion failures. They must be excluded from Healthy/Warning/Broken ingestion denominators until their due date or until material collection is explicitly requested.
+3. Ingestion health denominators come from due/past event keys and artifact evidence, not from every README row. Keep conference-event and report-event denominators separate; `pdf_only` means standalone report events with no conference/audio/transcript signal, not every report paired with a conference.
+4. If a consolidated report inventory is needed, calculate it separately as `conference-paired reports + standalone pdf-only reports` and label it as all reports. Do not overwrite the `pdf_only` health metric with that catalog count.
+
 ### README `--update-readme` 合併規則：法說會 vs 受邀法說 vs 財報
 
 `raw_event_upcoming_earnings.csv`（同步自 `wenchiehlee-investment/InvestorEvents`，該 repo 即時爬 MOPS）對同一 `(股票, 年, 季)` 可能同時出現多筆非財報事件——例行季度法說會，以及公司另外受邀參加、與該季財報公布日相隔甚遠的投資論壇。`--update-readme` 用以下規則區分並合併已 ingest 的素材，避免把某一場的音檔/逐字稿/PDF 誤貼到另一場的日期上：

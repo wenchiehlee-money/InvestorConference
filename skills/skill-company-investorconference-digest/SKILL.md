@@ -124,6 +124,8 @@ Repo 邊界與來源判定：
 
 ### 3.1.2 法說會與財報同季合併規則
 
+計數與排程邊界：README 的未來 planned/not_due rows 不是 digest 缺漏，不得列入 digest eligible、pending 或 coverage rate；只有到期/過期且具備可分析材料的事件才進入 digest health 分母。`法說會` 與同日 `財報` 仍是兩筆輸入記錄，但同一公司/季度若有法說會材料，只產出一份合併 digest。
+
 台股同一 `{StockID}/{Year}/{Quarter}` 在 README 常同時出現「法說會」（或「受邀法說」）與「財報」兩筆 CSV 事件（例如同一天公告），美股則常見同日 earnings release + earnings call。這兩者**不得**產出兩份互不引用的獨立報告，必須合併為單一 digest：
 
 1. **判定規則**：只要同一 `{StockID}/{Year}/{Quarter}` 存在任一法說會/受邀法說材料（音檔、FIN/GT、IR 簡報、逐字稿），一律使用第 5.1 節「13 節研究層＋投資決策摘要」完整架構產出唯一一份 `{StockID}_{Year}_q{N}_digest.md`；不得因為同時也有 `類型=財報` 的 CSV 列，就額外另開一份 5.0 精簡版報告，也不得省略財報數字直接沿用法說會簡報數字。只有「同季完全沒有法說會/受邀法說材料」時才用 5.0 精簡架構（見 3.1.1）。

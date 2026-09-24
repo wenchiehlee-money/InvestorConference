@@ -13,6 +13,10 @@ description: >-
 
 You maintain `InvestorConference` source material quality. The goal is not just to create an `.md` file; it is to ensure the official IR PDF exists, the Markdown sidecar traces back to that PDF, and any OCR gaps are explicit through `TODO:OCR` / `OCR:done` markers.
 
+## Event scope and planned rows
+
+This skill repairs materials for an explicitly due or requested event. A future README row with no PDF is `planned/not_due`, not a broken PDF conversion. Keep same-day `法說會` and `財報` as separate records: an IR presentation PDF belongs to the conference record, while the official financial statement belongs to the report record.
+
 ## Standard Workflow
 
 Run from the `InvestorConference` repo root:

@@ -30,6 +30,12 @@ only needs "what fiscal quarter does this announcement date fall in" should
 not have to pull in MOPS scraping, yfinance calls, or watchlist CSV
 prerequisites the way `skill-stock-investorevent-fetch` does.
 
+## Event pairing contract
+
+The resolved fiscal year/quarter is the canonical identity used to pair a routine `法說會` with its same-quarter `財報`. It must not be used to collapse the two records: same company + same quarter may legitimately produce two catalog rows and both count as one record in their own category. Date equality is supporting evidence only, not a deduplication key.
+
+Future planned rows may carry a resolved quarter before any material exists. That is a valid `planned/not_due` state and must not be classified as an ingestion failure; health consumers decide due/not-due status separately from quarter identity.
+
 ## API
 
 ```python
