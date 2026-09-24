@@ -74,6 +74,32 @@ def load_catalog_event_types():
     return result
 
 
+def load_catalog_report_rows():
+    """Return README rows whose event type is exactly the statutory report type."""
+    result = []
+    readme = REPO_ROOT / "README.md"
+    if not readme.exists():
+        return result
+    code_re = re.compile(r"^\s*([A-Za-z0-9]+(?:\.[A-Za-z0-9]+)?)")
+    quarter_re = re.compile(r"(?:FY)?(\d{4})\s+Q([1-4])")
+    date_re = re.compile(r"\d{4}-\d{2}-\d{2}")
+    for line in readme.read_text(encoding="utf-8", errors="ignore").splitlines():
+        if not line.startswith("|"):
+            continue
+        cells = [part.strip() for part in line.strip().strip("|").split("|")]
+        if len(cells) < 4 or cells[2] != "\u8ca1\u5831":
+            continue
+        code_match = code_re.match(cells[0])
+        quarter_match = quarter_re.search(cells[1])
+        if not code_match or not quarter_match:
+            continue
+        code = code_match.group(1).replace(".", "").lower()
+        key = f"{code}_{quarter_match.group(1)}_q{quarter_match.group(2)}"
+        event_date = cells[3] if date_re.fullmatch(cells[3]) else None
+        result.append((key, event_date))
+    return result
+
+
 def main():
     print("=== Generating InvestorConference Data Health Summary ===")
     
@@ -117,6 +143,7 @@ def main():
                     digest_keys.add(f"{m.group(1).lower()}_{m.group(2)}_q{m.group(3)}")
 
     catalog_event_types = load_catalog_event_types()
+    catalog_report_rows = load_catalog_report_rows()
 
     # 2. Scan company directories for conference keys
     company_dirs = [d for d in (REPO_ROOT / "data").iterdir() if is_company_dir(d)]
@@ -275,6 +302,46 @@ def main():
     )
     conference_other_incomplete_count = max(0, total_audio_conferences - fully_ingested_count - conference_presentation_only_count)
 
+    # Count every README statutory-report row, including rows paired with a conference.
+    # Future and undated rows are tracked separately and excluded from health.
+    report_events_count = 0
+    report_healthy_count = 0
+    report_warning_count = 0
+    report_broken_count = 0
+    report_planned_count = 0
+    report_material_re = re.compile(
+        r"(?:_report|financial|earnings|statement|management_report|skills_result)",
+        re.IGNORECASE,
+    )
+    today = datetime.now(TAIPEI_TZ).date()
+    for key, event_date in catalog_report_rows:
+        if not event_date:
+            report_planned_count += 1
+            continue
+        try:
+            if datetime.strptime(event_date, "%Y-%m-%d").date() > today:
+                report_planned_count += 1
+                continue
+        except ValueError:
+            report_planned_count += 1
+            continue
+        report_events_count += 1
+        files = file_map.get(key, [])
+        report_pdfs = [
+            f for f in files
+            if report_material_re.search(f) and f.lower().endswith(".pdf")
+        ]
+        report_mds = [
+            f for f in files
+            if report_material_re.search(f) and f.lower().endswith(".md")
+        ]
+        if report_pdfs and report_mds:
+            report_healthy_count += 1
+        elif report_pdfs or report_mds:
+            report_warning_count += 1
+        else:
+            report_broken_count += 1
+
     ingestion_rate_pct = 100.0
     if total_conferences > 0:
         ingestion_rate_pct = round((fully_ingested_count / total_conferences * 100), 2)
@@ -286,7 +353,15 @@ def main():
     if total_audio_conferences > 0:
         conference_ingestion_rate_pct = round((fully_ingested_count / total_audio_conferences * 100), 2)
 
-    # Ingestion rate of PDF reports
+    # Ingestion rate of the full due/observed financial-report catalog.
+    report_ingestion_rate_pct = 0.0
+    if report_events_count > 0:
+        report_ingestion_rate_pct = round(
+            ((report_healthy_count + report_warning_count) / report_events_count * 100),
+            2,
+        )
+
+    # Legacy standalone-report rate retained for backward compatibility.
     pdf_only_ingestion_rate_pct = 0.0
     if total_pdf_only_reports > 0:
         pdf_only_ingestion_rate_pct = round((pdf_only_healthy_count / total_pdf_only_reports * 100), 2)
@@ -313,7 +388,12 @@ def main():
     print(f"Has Transcript: {has_transcript_count}")
     print(f"Has SRT: {has_srt_count}")
     print(f"Fully Ingested: {fully_ingested_count}")
-    print(f"Standalone Financial Reports: {pdf_only_count}")
+    print(f"Financial-report catalog rows (due): {report_events_count}")
+    print(f"  - Healthy: {report_healthy_count}")
+    print(f"  - Warning: {report_warning_count}")
+    print(f"  - Broken: {report_broken_count}")
+    print(f"  - Future/planned excluded: {report_planned_count}")
+    print(f"Standalone Financial Reports (legacy subset): {pdf_only_count}")
     print(f"  - MD Completed (Healthy): {pdf_only_healthy_count}")
     print(f"  - MD Missing (Broken): {pdf_only_broken_count}")
     print(f"  - MD Conversion Rate: {pdf_only_ingestion_rate_pct}%")
@@ -341,6 +421,11 @@ def main():
         "standalone_report_events": total_pdf_only_reports,
         "standalone_report_healthy": pdf_only_healthy_count,
         "standalone_report_broken": pdf_only_broken_count,
+        "report_events": report_events_count,
+        "report_healthy": report_healthy_count,
+        "report_warning": report_warning_count,
+        "report_broken": report_broken_count,
+        "report_planned": report_planned_count,
         "has_pdf": has_pdf_count,
         "has_audio": has_audio_count,
         "has_transcript": has_transcript_count,
@@ -352,6 +437,7 @@ def main():
         "ingestion_rate_pct": ingestion_rate_pct,
         "conference_ingestion_rate_pct": conference_ingestion_rate_pct,
         "pdf_only_ingestion_rate_pct": pdf_only_ingestion_rate_pct,
+        "report_ingestion_rate_pct": report_ingestion_rate_pct,
         "durations_registered_count": durations_registered_count,
         "ready_to_use_rate_pct": ready_to_use_rate_pct,
         "has_digest": has_digest_count,
@@ -376,6 +462,11 @@ def main():
         "standalone_report_events",
         "standalone_report_healthy",
         "standalone_report_broken",
+        "report_events",
+        "report_healthy",
+        "report_warning",
+        "report_broken",
+        "report_planned",
         "has_pdf",
         "has_audio",
         "has_transcript",
@@ -387,6 +478,7 @@ def main():
         "ingestion_rate_pct",
         "conference_ingestion_rate_pct",
         "pdf_only_ingestion_rate_pct",
+        "report_ingestion_rate_pct",
         "durations_registered_count",
         "ready_to_use_rate_pct",
         "has_digest",
