@@ -73,6 +73,8 @@ Micron 的季度頁會把正式材料分在不同官方入口：`Q3 Earnings Dec
 
 GlobalFoundries 的季度結果頁同時列出 earnings release、earnings presentation 與 Form 6-K；季度 `earnings release` PDF 才是 `F`，`earnings presentation` PDF 才是 `I`。兩個 PDF 必須分別轉成 `*_report_en.md` 與 `*_ir_en.md`，不可用同一份 PDF 同時填兩種旗標。
 
+Marvell 的季度頁會同時提供 `Earnings Release PDF`、`Financial and Business Results PDF` 與 `Additional Earnings Information PDF`。`Earnings Release PDF` 應標準化為 `*_report_en.pdf/md`，作為 `F/X`；營運簡報則維持 `*_performance_review.pdf/md`，作為 `I/M`。不能因為其他財務 PDF 已存在就跳過 earnings-release PDF。
+
 因此，像 `2382_2026_q2_ir.pdf` / `_ir_en.pdf` 這類從 `238220260813M001.pdf` / `E001.pdf` 取得的檔案，應描述為「MOPS 法說會附件 / investor-conference presentation deck」。即使內容包含 Q2 財務結果，也不是 MOPS repo 的財報文件。相反地，README `財報` row 連到 `wenchiehlee-investment/MOPS/downloads/.../202602_2382_AI1.pdf` 這類檔案時，才是財報事件材料。
 
 ### 來源層級與衝突處理

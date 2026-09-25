@@ -1,22 +1,17 @@
-<!-- source="MRVL_2027_q2_financial_business_results.pdf" extractor="pypdf" generated="2026-09-06" -->
+<!-- mac-mini-ocr:hybrid-base source="MRVL_2027_q2_performance_review.pdf" extractor="pypdf" generated="2026-09-25" -->
 
-# MRVL_2027_q2_financial_business_results.pdf
+# MRVL_2027_q2_performance_review.pdf（文字層抽取，必要頁面以 Mac-mini OCR 補轉錄）
 
-
-
-<!-- page 1 -->
-
+<!-- PAGE:1 -->
+## 第 1 頁
 
 Financial and 
 Business Results
 Q2 FY27
 August 27, 2026
 
-
-
-
-<!-- page 2 -->
-
+<!-- PAGE:2 -->
+## 第 2 頁
 
 © 2026 Marvell. All rights reserved. 2
 Cautionary statement
@@ -40,11 +35,8 @@ enhance our understanding of certain aspects of our financial performance, we do
 or superior to, financial measures calculated in accordance with GAAP. A reconciliation for non -GAAP financial measures is in th e 
 Appendices to this presentation.
 
-
-
-
-<!-- page 3 -->
-
+<!-- PAGE:3 -->
+## 第 3 頁
 
 © 2026 Marvell. All rights reserved. 3
 Fiscal year nomenclature
@@ -54,11 +46,8 @@ year is added to the fourth quarter, making such quarter consist of 14 weeks. Fi
 period. Fiscal 2025 and fiscal 2026 each had a 52 -week period. Fiscal 2027 will be a 52 -week period.
 The second quarter of fiscal year 2027 is the three -month period ended August 1, 2026.
 
-
-
-
-<!-- page 4 -->
-
+<!-- PAGE:4 -->
+## 第 4 頁
 
 © 2026 Marvell. All rights reserved. 4
 Investor Day 2026
@@ -68,11 +57,8 @@ Tuesday, October 6 at 9am–12pm
 Live in-person event 
 with live webcast
 
-
-
-
-<!-- page 5 -->
-
+<!-- PAGE:5 -->
+## 第 5 頁
 
 © 2026 Marvell. All rights reserved. 5
 Marvell end markets
@@ -112,11 +98,8 @@ interfaces
 Scale-up 
 fabrics
 
-
-
-
-<!-- page 6 -->
-
+<!-- PAGE:6 -->
+## 第 6 頁
 
 © 2026 Marvell. All rights reserved. 6
 Marvell connects AI infrastructure
@@ -147,11 +130,8 @@ switches | CPO
 D2D I/O | SerDes 
 100s of km ~ 1km meters millimeters
 
-
-
-
-<!-- page 7 -->
-
+<!-- PAGE:7 -->
+## 第 7 頁
 
 © 2026 Marvell. All rights reserved. 7
 Marvell custom: XPU and XPU attach 
@@ -172,11 +152,8 @@ Die-to-die I/O  ·  SerDes   ·   Dense SRAM   ·   Custom HBM   ·   Packaging 
 + …
 …
 
-
-
-
-<!-- page 8 -->
-
+<!-- PAGE:8 -->
+## 第 8 頁
 
 © 2026 Marvell. All rights reserved. 8
 Record Q2 FY27 financial performance
@@ -193,11 +170,8 @@ Growing custom silicon franchise
 programs associated with the TPU ecosystem
 Executive summary
 
-
-
-
-<!-- page 9 -->
-
+<!-- PAGE:9 -->
+## 第 9 頁
 
 © 2026 Marvell. All rights reserved. 9
 By the numbers Q2 FY27
@@ -220,11 +194,8 @@ $254M
 Returned to shareholders
 $200M buybacks · $54M dividends
 
-
-
-
-<!-- page 10 -->
-
+<!-- PAGE:10 -->
+## 第 10 頁
 
 © 2026 Marvell. All rights reserved. 10
 Revenue Q2 FY27
@@ -235,11 +206,8 @@ $2,739M
 Q2 FY26 Q1 FY27 Q2 FY27
 Up 37% y/y and 13% q/q
 
-
-
-
-<!-- page 11 -->
-
+<!-- PAGE:11 -->
+## 第 11 頁
 
 © 2026 Marvell. All rights reserved. 11
 GAAP
@@ -259,11 +227,8 @@ $0.80
 $0.94 
 2
 
-
-
-
-<!-- page 12 -->
-
+<!-- PAGE:12 -->
+## 第 12 頁
 
 © 2026 Marvell. All rights reserved. 12
 Gross margin Q2 FY27
@@ -278,11 +243,8 @@ Non-GAAP gross margin was 58.9%, slightly above the midpoint of guidance.
 Non-GAAP1
 59.4%
 
-
-
-
-<!-- page 13 -->
-
+<!-- PAGE:13 -->
+## 第 13 頁
 
 © 2026 Marvell. All rights reserved. 13
 Operating margin Q2 FY27
@@ -298,11 +260,8 @@ Non-GAAP1
 Non-GAAP operating margin expanded 180 basis points year over year and 160 basis points 
 sequentially, demonstrating significant operating leverage.
 
-
-
-
-<!-- page 14 -->
-
+<!-- PAGE:14 -->
+## 第 14 頁
 
 © 2026 Marvell. All rights reserved. 14
 Operating cash flow and capital return Q2 FY27
@@ -318,11 +277,8 @@ $250.9
 Q2’26 Q1’27 Q2’27Q2’26 Q1’27 Q2’27
 $251.7 $253.9$253.8
 
-
-
-
-<!-- page 15 -->
-
+<!-- PAGE:15 -->
+## 第 15 頁
 
 © 2026 Marvell. All rights reserved. 15
 Q2 FY27 Summary P&L | GAAP
@@ -336,11 +292,8 @@ Net income $194.8 $34.5 $308.0 58% 793%
 Earnings per share1 $0.22 $0.04 $0.33 50% 725%
 1. Earnings per share (EPS) = diluted earnings per share.
 
-
-
-
-<!-- page 16 -->
-
+<!-- PAGE:16 -->
+## 第 16 頁
 
 © 2026 Marvell. All rights reserved. 16
 Q2 FY27 Summary P&L | Non-GAAP1
@@ -355,11 +308,8 @@ Earnings per share2 $0.67 $0.80 $0.94 +40% +18%
 1. See Appendices for GAAP to Non -GAAP reconciliation. 
 2. Earnings per share (EPS) = diluted earnings per share.
 
-
-
-
-<!-- page 17 -->
-
+<!-- PAGE:17 -->
+## 第 17 頁
 
 © 2026 Marvell. All rights reserved. 17
 Q2 FY27 Summary balance sheet items
@@ -369,11 +319,8 @@ Accounts receivable, net $1,452 $1,872 $2,218
 Inventories $1,052 $1,401 $1,361
 T otal debt $4,467 $4,961 $4,963
 
-
-
-
-<!-- page 18 -->
-
+<!-- PAGE:18 -->
+## 第 18 頁
 
 © 2026 Marvell. All rights reserved. 18
 Data center end market Q2 FY27
@@ -394,11 +341,8 @@ Revenue ($M)
 Up 46% y/y and 18% q/q
 Q2’26 Q1’27 Q2’27
 
-
-
-
-<!-- page 19 -->
-
+<!-- PAGE:19 -->
+## 第 19 頁
 
 © 2026 Marvell. All rights reserved. 19
 Communications and other end market Q2 FY27
@@ -417,11 +361,8 @@ Revenue ($M)
 Up 10% y/y, down 3% q/q
 Q2’26 Q1’27 Q2’27
 
-
-
-
-<!-- page 20 -->
-
+<!-- PAGE:20 -->
+## 第 20 頁
 
 © 2026 Marvell. All rights reserved. 20
 ($ in millions) Q2’26 Q1’27 Q2’27 Y/Y Q/Q
@@ -432,11 +373,8 @@ Q2 FY27 Summary revenue by end market1
 networking, carrier infrastructure, consumer and automotive/industrial end markets into a new communications and other 
 end market, as shown. The composition of our data center end market remains unchanged.
 
-
-
-
-<!-- page 21 -->
-
+<!-- PAGE:21 -->
+## 第 21 頁
 
 © 2026 Marvell. All rights reserved. 21
 Financial outlook
@@ -448,21 +386,15 @@ Diluted share count 921 million 921 million
 Diluted net income per share $0.53 +/- $0.05 $1.10 +/- $0.05
 1. See Appendices for GAAP to Non -GAAP reconciliation.
 
-
-
-
-<!-- page 22 -->
-
+<!-- PAGE:22 -->
+## 第 22 頁
 
 © 2026 Marvell. All rights reserved. 22
 Appendices
 Reconciliations from GAAP to Non-GAAP
 
-
-
-
-<!-- page 23 -->
-
+<!-- PAGE:23 -->
+## 第 23 頁
 
 © 2026 Marvell. All rights reserved. 23
 Non-GAAP financial measures exclude the effect of stock-based compensation expense, amortization of acquired intangible assets, acquisition and divestiture related costs, restructuring and other related charges (gains), 
@@ -495,11 +427,8 @@ GAAP measures are uncertain, depend on various factors, could be material to Mar
 limited to, restructuring and other related charges, asset impairments, stock-based compensation expense and other nonrecurring expenses that cannot reasonably be estimated in advance.
 Discussion of Non-GAAP financial measures
 
-
-
-
-<!-- page 24 -->
-
+<!-- PAGE:24 -->
+## 第 24 頁
 
 © 2026 Marvell. All rights reserved. 24
 Appendices
@@ -515,11 +444,8 @@ Non-GAAP gross profit $ 1,191.4 $ 1,423.8 $ 1,614.0
 Reconciliation of GAAP gross profit to Non -GAAP gross profit
 (a) Restructuring and other related items include gain on sale of property, changes in contractual obligations, employee severanc e costs, facility exit related charges, and other.
 
-
-
-
-<!-- page 25 -->
-
+<!-- PAGE:25 -->
+## 第 25 頁
 
 © 2026 Marvell. All rights reserved. 25
 Appendices
@@ -533,11 +459,8 @@ Non-GAAP gross margin 59.4% 58.9% 58.9%
 Reconciliation of GAAP gross margin to Non -GAAP gross margin
 (a) Restructuring and other related items include gain on sale of property, changes in contractual obligations, employee severanc e costs, facility exit related charges, and other.
 
-
-
-
-<!-- page 26 -->
-
+<!-- PAGE:26 -->
+## 第 26 頁
 
 © 2026 Marvell. All rights reserved. 26
 Appendices
@@ -555,11 +478,8 @@ Non-GAAP operating expenses $ 492.6 $ 576.9 $ 610.8
 (b) Other costs in operating expenses, operating income and interest and other loss, net include acquisition and divestiture re lated costs, gain or loss on investments, gain on sale 
 of intellectual property, and legal contingency matters.
 
-
-
-
-<!-- page 27 -->
-
+<!-- PAGE:27 -->
+## 第 27 頁
 
 © 2026 Marvell. All rights reserved. 27
 Appendices
@@ -578,11 +498,8 @@ Non-GAAP operating expenses $ 698.8 $ 846.9 $ 1,003.2
 (b) Other costs in operating expenses, operating income and interest and other loss, net include acquisition and divestiture rela ted costs, gain or loss on investments, gain on sale of 
 intellectual property, and legal contingency matters.
 
-
-
-
-<!-- page 28 -->
-
+<!-- PAGE:28 -->
+## 第 28 頁
 
 © 2026 Marvell. All rights reserved. 28
 Appendices
@@ -599,11 +516,8 @@ Non-GAAP operating margin 34.8 % 35.0 % 36.6 %
 (b) Other costs in operating expenses, operating income and interest and other loss, net include acquisition and divestiture re lated costs, gain or loss on investments, gain on sale 
 of intellectual property, and legal contingency matters.
 
-
-
-
-<!-- page 29 -->
-
+<!-- PAGE:29 -->
+## 第 29 頁
 
 © 2026 Marvell. All rights reserved. 29
 Appendices
@@ -620,11 +534,8 @@ Non-GAAP interest and other loss, net $ (48.2) $ (40.1) $ (30.3)
 (b) Other costs in operating expenses, operating income and interest and other loss, net include acquisition and divestiture re lated costs, gain or loss on investments, gain on sale 
 of intellectual property, and legal contingency matters.
 
-
-
-
-<!-- page 30 -->
-
+<!-- PAGE:30 -->
+## 第 30 頁
 
 © 2026 Marvell. All rights reserved. 30
 Appendices
@@ -643,11 +554,8 @@ Pre-tax total special items 416.9 723.5 594.6
 Other income tax effects and adjustments (c) (26.2) (40.0) (36.7)
 Non-GAAP net income $ 585.5 $ 718.0 $ 865.9
 
-
-
-
-<!-- page 31 -->
-
+<!-- PAGE:31 -->
+## 第 31 頁
 
 © 2026 Marvell. All rights reserved. 31
 Appendices
@@ -659,11 +567,8 @@ intellectual property, and legal contingency matters.
 months ended May 2, 2026. Other income tax effects and adjustments relate to tax provision based on a non -GAAP income tax rate o f 10.0% for the three and six months ended 
 August 2, 2025.
 
-
-
-
-<!-- page 32 -->
-
+<!-- PAGE:32 -->
+## 第 32 頁
 
 © 2026 Marvell. All rights reserved. 32
 Appendices
@@ -677,11 +582,8 @@ diluted 870.4 893.3 921.2
 GAAP diluted net income per share $ 0.22 $ 0.04 $ 0.33
 Non-GAAP diluted net income per share $ 0.67 $ 0.80 $ 0.94
 
-
-
-
-<!-- page 33 -->
-
+<!-- PAGE:33 -->
+## 第 33 頁
 
 © 2026 Marvell. All rights reserved. 33
 Appendices
@@ -696,11 +598,8 @@ Stock-based compensation ~0.8%
 Amortization of acquired intangible assets ~3.9%
 Non-GAAP gross margin 57.5% - 58.5%
 
-
-
-
-<!-- page 34 -->
-
+<!-- PAGE:34 -->
+## 第 34 頁
 
 © 2026 Marvell. All rights reserved. 34
 Appendices
@@ -714,11 +613,8 @@ Restructuring related charges 1
 Other 2
 Total Non-GAAP operating expenses ~ $655
 
-
-
-
-<!-- page 35 -->
-
+<!-- PAGE:35 -->
+## 第 35 頁
 
 © 2026 Marvell. All rights reserved. 35
 Appendices
@@ -732,11 +628,8 @@ Other income tax effects and adjustments (0.03)
 Other 0.05
 Non-GAAP diluted net income per share $1.10 +/- $0.05
 
+<!-- PAGE:36 -->
+## 第 36 頁
 
-
-
-<!-- page 36 -->
-
-
-
-
+<!-- TODO:OCR source="MRVL_2027_q2_performance_review.pdf" page=36 reason=scanned-page -->
+> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。

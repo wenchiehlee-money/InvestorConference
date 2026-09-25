@@ -1,21 +1,16 @@
-<!-- source="MRVL_2027_q2_additional_earnings_information.pdf" extractor="pypdf" generated="2026-09-06" -->
+<!-- mac-mini-ocr:hybrid-base source="MRVL_2027_q2_additional_earnings_information.pdf" extractor="pypdf" generated="2026-09-25" -->
 
-# MRVL_2027_q2_additional_earnings_information.pdf
+# MRVL_2027_q2_additional_earnings_information.pdf（文字層抽取，必要頁面以 Mac-mini OCR 補轉錄）
 
-
-
-<!-- page 1 -->
-
+<!-- PAGE:1 -->
+## 第 1 頁
 
 Marvell Technology, Inc.
 Second Quarter of Fiscal Year 2027
 August 27, 2026
 
-
-
-
-<!-- page 2 -->
-
+<!-- PAGE:2 -->
+## 第 2 頁
 
 © 2026 Marvell confidential. All rights reserved. 2
 Discussion of Non-GAAP Financial Measures 
@@ -42,11 +37,8 @@ measures calculated in accordance with GAAP. Consistent with this approach, Marv
 financial statements provides such readers with useful supplemental data that, while not a substitute for GAAP financial meas ures, allows for greater transparency 
 in the review of its financial and operational performance.
 
-
-
-
-<!-- page 3 -->
-
+<!-- PAGE:3 -->
+## 第 3 頁
 
 © 2026 Marvell confidential. All rights reserved. 3
 Discussion of Non-GAAP Financial Measures (continued)
@@ -65,11 +57,8 @@ quarter of fiscal 2027 because certain items that impact those GAAP measures are
 computed in accordance with GAAP, and cannot be provided without unreasonable effort. These items include, but are not limited to, restructuring and other 
 related charges, asset impairments, stock-based compensation expense and other nonrecurring expenses that cannot reasonably be estimated in advance.
 
-
-
-
-<!-- page 4 -->
-
+<!-- PAGE:4 -->
+## 第 4 頁
 
 Marvell Technology, Inc.
 Unaudited Condensed Consolidated Balance Sheets
@@ -125,11 +114,8 @@ Total liabilities and stockholders’ equity $ 19,715.6 $ 20,204.5 $ 20,023.7 $ 
 GAAP inventory turns 5.4 3.5 3.5 3.8 4.0 3.1 3.3 3.8
 GAAP days in inventory 67 104 104 96 91 117 110 96
 
-
-
-
-<!-- page 5 -->
-
+<!-- PAGE:5 -->
+## 第 5 頁
 
 Marvell Technology, Inc.
 Unaudited Condensed Consolidated Statements of Operations
@@ -176,11 +162,8 @@ Research and development  101.7  96.9  101.1  104.1  102.8  101.0  143.5  219.2
 Selling, general and administrative  40.4  40.6  29.8  36.1  35.2  31.5  49.9  91.1 
 Total stock-based compensation $ 158.4 $ 147.6 $ 142.1 $ 153.6 $ 152.1 $ 143.0 $ 207.6 $ 326.2
 
-
-
-
-<!-- page 6 -->
-
+<!-- PAGE:6 -->
+## 第 6 頁
 
 Cash flows from operating activities:
 Net income (loss) $ (676.3) $ 200.2 $ 177.9 $ 194.8 $ 1,901.3 $ 396.1 $ 34.5 $ 308.0 
@@ -231,11 +214,8 @@ May 2,
 August 1,
 2026
 
-
-
-
-<!-- page 7 -->
-
+<!-- PAGE:7 -->
+## 第 7 頁
 
 Cash flows from financing activities:
 Repurchases of common stock  (200.0)  (200.0)  (340.0)  (200.0)  (1,300.0)  (200.1)  (200.0)  (200.0) 
@@ -272,11 +252,8 @@ May 2,
 August 1,
 2026
 
-
-
-
-<!-- page 8 -->
-
+<!-- PAGE:8 -->
+## 第 8 頁
 
 Marvell Technology, Inc.
 Unaudited Reconciliations from GAAP to Non-GAAP
@@ -320,11 +297,8 @@ allows for greater transparency in the review of its financial and operational p
 operating results in a manner similar to how Marvell analyzes its operating results internally. Management also believes that these non-GAAP financial measures may be used to facilitate 
 comparisons of Marvell’s results with that of other companies in its industry.
 
-
-
-
-<!-- page 9 -->
-
+<!-- PAGE:9 -->
+## 第 9 頁
 
 Marvell Technology, Inc.
 Unaudited Reconciliations from GAAP to Non-GAAP - (Continued)
@@ -375,11 +349,8 @@ allows for greater transparency in the review of its financial and operational p
 operating results in a manner similar to how Marvell analyzes its operating results internally. Management also believes that these non-GAAP financial measures may be used to facilitate 
 comparisons of Marvell’s results with that of other companies in its industry.
 
-
-
-
-<!-- page 10 -->
-
+<!-- PAGE:10 -->
+## 第 10 頁
 
 Marvell Technology, Inc.
 Quarterly Revenue Trend By End Market
@@ -426,11 +397,8 @@ Data center  73 %  75 %  76 %  74 %  73 %  74 %  76 %  79 %
 Communications and other  27 %  25 %  24 %  26 %  27 %  26 %  24 %  21 %
 Total Net Revenue  100 %  100 %  100 %  100 %  100 %  100 %  100 %  100 %
 
+<!-- PAGE:11 -->
+## 第 11 頁
 
-
-
-<!-- page 11 -->
-
-
-
-
+<!-- TODO:OCR source="MRVL_2027_q2_additional_earnings_information.pdf" page=11 reason=scanned-page -->
+> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。

@@ -192,6 +192,9 @@ KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
         ("report_en", "https://investors.gf.com/node/11081/pdf"),
         ("ir_en", "https://investors.gf.com/static-files/367dece5-f70e-4e66-9c9a-8e5ebde7810b"),
     ],
+    ("MRVL", "2027", "2"): [
+        ("report_en", "https://d1io3yog0oux5.cloudfront.net/_66d73b48265f58a017235898e12a0df5/marvell/news/2026-08-27_Marvell_Technology_Inc_Reports_Second_Quarter_of_1031.pdf"),
+    ],
     ("TSM", "2026", "2"): [
         ("transcript", "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf"),
     ],
