@@ -44,10 +44,22 @@ KNOWN_US_FISCAL_YEAR_START_MONTH = {
     "0992HK": 4,   # Lenovo fiscal year starts April 1 (HK listing 0992.HK)
 }
 
+# Some issuers announce results shortly after the fiscal quarter closes.  For
+# these companies, the announcement month—not the quarter-end month—is the
+# stable observable used by the event calendar.  The cycle starts at the first
+# announcement month for Q1 and wraps across the calendar year.
+KNOWN_US_ANNOUNCEMENT_CYCLE_START_MONTH = {
+    "ARM": 7,   # Jul/Aug 2026 announcement = FY2027 Q1
+    "MU": 12,   # Dec 2025 announcement = FY2026 Q1
+    "ORCL": 9,  # Sep 2026 announcement = FY2027 Q1
+}
+
 # US stocks whose fiscal year equals the calendar year, but whose upstream
 # "upcoming report" metadata is unreliable — announcement-date-derived
 # calendar quarter should override it.
-KNOWN_US_CALENDAR_YEAR_EARNINGS = {"AMD", "AMZN", "GOOGL", "INTC", "META", "TSM"}
+KNOWN_US_CALENDAR_YEAR_EARNINGS = {
+    "AMD", "AMZN", "ASML", "GOOGL", "INTC", "META", "SIMO", "TSM",
+}
 
 
 def normalize_ticker(symbol: str) -> str:
@@ -112,6 +124,18 @@ def resolve_fiscal_quarter(ticker: str, date_str: str) -> dict:
         result as authoritative.
     """
     t = normalize_ticker(ticker)
+
+    if t in KNOWN_US_ANNOUNCEMENT_CYCLE_START_MONTH:
+        start_month = KNOWN_US_ANNOUNCEMENT_CYCLE_START_MONTH[t]
+        year = int(date_str[:4])
+        month = int(date_str[5:7])
+        quarter = ((month - start_month) % 12) // 3 + 1
+        fiscal_year = year + 1 if month >= start_month else year
+        return {
+            "year": str(fiscal_year), "quarter": str(quarter),
+            "confidence": "fiscal_offset",
+            "label": f"FY{fiscal_year} Q{quarter}",
+        }
 
     if t in KNOWN_US_FISCAL_YEAR_START_MONTH:
         cal_year, cal_q = expected_us_calendar_earnings_quarter(date_str)

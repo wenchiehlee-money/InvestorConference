@@ -161,6 +161,26 @@ KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
         ("financial_tables", "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-quarterly-results.pdf"),
         ("performance_review", "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-presentation.pdf"),
     ],
+    ("ARM", "2027", "1"): [
+        ("report_en", "https://investors.arm.com/static-files/d8db20bd-7b96-486a-b99b-23315627d1ec"),
+        ("transcript", "https://investors.arm.com/static-files/2ef5e3bf-f276-4a46-a4a2-2aadccd6710b"),
+    ],
+    ("ASML", "2026", "2"): [
+        ("ir_en", "https://ourbrand.asml.com/asset/9078cf4d-91fd-4dd9-a5d5-d1caab6dc046/2026_07_15_Presentation-Investor-Relations-Q2-2026.pdf"),
+        ("transcript", "https://ourbrand.asml.com/asset/1fd3908a-0381-47b5-9b69-a3094f656651/2026_07_15-ASML-Transcript-investor-call-Q2-2026.pdf"),
+    ],
+    ("META", "2026", "2"): [
+        ("report_en", "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf"),
+        ("ir_en", "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Earnings-Presentation-Q2-2026.pdf"),
+        ("transcript", "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf"),
+    ],
+    ("MU", "2026", "3"): [
+        ("ir_en", "https://micron.gcs-web.com/static-files/2354ecda-77a0-4ddd-8462-a631eb491356"),
+        ("transcript", "https://micron.gcs-web.com/static-files/631b1a32-5537-46ae-8f40-82e42fc79dfe"),
+    ],
+    ("TSM", "2026", "2"): [
+        ("transcript", "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf"),
+    ],
     # AVGO ("AVGO", "2026", "3") report_en is sourced from the SEC 8-K Exhibit 99.1
     # (https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm),
     # which is HTML, not a downloadable PDF. Converted to
@@ -212,6 +232,14 @@ KNOWN_US_STOCKS = {
     "GOOGL": ("Alphabet Inc.", ""),
     "AVGO": ("Broadcom Inc.", "博通"),
     "HPE": ("Hewlett Packard Enterprise Co.", "慧與科技"),
+    "AMZN": ("Amazon.com Inc.", "亞馬遜"),
+    "ARM": ("Arm Holdings plc", "安謀"),
+    "ASML": ("ASML Holding N.V.", "艾司摩爾"),
+    "META": ("Meta Platforms Inc.", "Meta"),
+    "MU": ("Micron Technology", "美光"),
+    "ORCL": ("Oracle Corporation", "甲骨文"),
+    "SIMO": ("Silicon Motion Technology Corporation", "慧榮科技"),
+    "TSM": ("Taiwan Semiconductor Manufacturing Company Limited", "台積電"),
 }
 
 # KNOWN_US_CALENDAR_YEAR_EARNINGS, KNOWN_US_FISCAL_YEAR_START_MONTH, and
@@ -963,6 +991,14 @@ KNOWN_US_GOOGLE_FINANCE_EXCHANGE = {
     "GOOGL": "NASDAQ",
     "AVGO": "NASDAQ",
     "HPE": "NYSE",
+    "AMZN": "NASDAQ",
+    "ARM": "NASDAQ",
+    "ASML": "NASDAQ",
+    "META": "NASDAQ",
+    "MU": "NASDAQ",
+    "ORCL": "NYSE",
+    "SIMO": "NASDAQ",
+    "TSM": "NYSE",
 }
 
 
@@ -1650,12 +1686,23 @@ def download_audio(source: str, output_path: Path,
             str(output_path),
         ]
         print(f"[ffmpeg] {' '.join(ffmpeg_cmd)}")
-        result = subprocess.run(ffmpeg_cmd, capture_output=True, encoding="utf-8", errors="replace")
+        try:
+            result = subprocess.run(
+                ffmpeg_cmd,
+                capture_output=True,
+                encoding="utf-8",
+                errors="replace",
+                timeout=30,
+            )
+        except subprocess.TimeoutExpired:
+            print("[ffmpeg] Direct media extraction timed out after 30s; falling back to yt-dlp.")
+            output_path.unlink(missing_ok=True)
+            result = None
         if output_path.exists() and output_path.stat().st_size > 0:
             return True
         if output_path.exists():
             output_path.unlink()
-        if result.stderr:
+        if result and result.stderr:
             lines = [l for l in result.stderr.splitlines() if l.strip()]
             for line in lines[-3:]:
                 print(f"[ffmpeg] {line}")
@@ -3526,6 +3573,21 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
         if auto_push:
             return commit_push_files(stock_id, year, quarter, output_path, pdf_paths, [])
         return str(pdf_paths[0])
+
+    # A rendered Google Finance/Quartr page can expose a quarter-confirmed
+    # transcript even when its HLS replay cannot be extracted. Preserve that
+    # evidence instead of discarding the entire completed conference event.
+    if market == "US":
+        transcript_dir = INVESTOR_CONFERENCE_REPO / "data" / stock_id
+        transcript_paths = fetch_google_finance_transcript(
+            stock_id, year, quarter, f"{stock_id}_{year}_q{quarter}", transcript_dir
+        )
+        if transcript_paths:
+            print(
+                f"\nOK SUCCESS: saved {len(transcript_paths)} quarter-confirmed transcript(s) "
+                f"for {stock_id} {year} Q{quarter}; audio remains unavailable."
+            )
+            return str(transcript_paths[0])
 
     print(f"\nFAILED FAILED: Could not find audio or official conference attachment PDFs for {stock_id} {year} Q{quarter}")
     return None
