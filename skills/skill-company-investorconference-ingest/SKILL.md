@@ -67,6 +67,8 @@ Ingest 不得只信任 MOPS 查詢結果的第一個影音檔。部分公司或 
 
 對非台灣股票，`F/X` 也代表官方財務結果材料，不限於 MOPS：`F` 是公司 IR 的 earnings-release / financial-results PDF、SEC 8-K Exhibit 99.1 或 SEC/公司 financial-tables PDF；`X` 是同一份 PDF 的 Markdown 轉檔。若官方只有 HTML/Markdown 而沒有可驗證的 PDF，可以保留官方 HTML/Markdown 作為補充證據，但不得填 `F`；只有對應 PDF 的 Markdown 才能填 `X`。這些是財報材料，不能與 `I/M`（IR presentation PDF/MD）混用；第三方 transcript 不得填入 `F/X`。
 
+Broadcom 等 IR CDN 可能對 Python `requests` 回傳 HTTP 403，但同一個公開 PDF 可由 `curl` 取得。下載器只對 403 啟用 `curl` fallback，並強制檢查 `%PDF-` magic bytes；HTML challenge 或錯誤頁會被拒絕。Broadcom earnings 還必須檢查官方 Events & Presentations archive：有日期的 `Company Presentation`（例如 `20260902 Broadcom_Company_Overview.pdf`）才可作該季 `I`，earnings-release PDF 才是 `F`，兩者不可混用。
+
 因此，像 `2382_2026_q2_ir.pdf` / `_ir_en.pdf` 這類從 `238220260813M001.pdf` / `E001.pdf` 取得的檔案，應描述為「MOPS 法說會附件 / investor-conference presentation deck」。即使內容包含 Q2 財務結果，也不是 MOPS repo 的財報文件。相反地，README `財報` row 連到 `wenchiehlee-investment/MOPS/downloads/.../202602_2382_AI1.pdf` 這類檔案時，才是財報事件材料。
 
 ### 來源層級與衝突處理

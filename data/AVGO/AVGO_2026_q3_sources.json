@@ -5,6 +5,22 @@
   "event_date": "2026-09-02",
   "sources": [
     {
+      "source_type": "Broadcom investor-relations earnings release PDF",
+      "source_url": "https://investors.broadcom.com/node/64671/pdf",
+      "retrieved_at": "2026-09-25T00:00:00Z",
+      "sha256": "917df867fbc57b198cff016df4ed16a8fe64f5d104feb2eb0910e6e28a03e4a1",
+      "local_file": "data/AVGO/AVGO_2026_q3_report_en.pdf",
+      "notes": "Official Broadcom PDF version of the Q3 FY2026 earnings release; this is the F source."
+    },
+    {
+      "source_type": "Broadcom investor-relations quarter-specific company presentation PDF",
+      "source_url": "https://investors.broadcom.com/static-files/602c2fd3-89a0-436f-b638-4890f20feda7",
+      "retrieved_at": "2026-09-25T00:00:00Z",
+      "sha256": "1b3fb1bccffd0f5c2bb3635193427cd0bb4e003f1eb158aa0df1e3eec2e56cc3",
+      "local_file": "data/AVGO/AVGO_2026_q3_ir_en.pdf",
+      "notes": "Official Events & Presentations entry titled 20260902 Broadcom_Company_Overview.pdf; this is the I source."
+    },
+    {
       "source_type": "SEC 8-K Exhibit 99.1",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm",
       "accession": "0001730168-26-000076",

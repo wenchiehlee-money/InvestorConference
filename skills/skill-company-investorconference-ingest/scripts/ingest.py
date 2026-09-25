@@ -190,12 +190,12 @@ KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
     ("TSM", "2026", "2"): [
         ("transcript", "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf"),
     ],
-    # AVGO ("AVGO", "2026", "3") report_en is sourced from the SEC 8-K Exhibit 99.1
-    # (https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm),
-    # which is HTML, not a downloadable PDF. Converted to
-    # data/AVGO/AVGO_2026_q3_report_en.md by hand; see data/AVGO/AVGO_2026_q3_sources.json.
-    # investors.broadcom.com itself is unreachable from headless/requests fetches in this
-    # environment (connection hangs), so no entry is registered here for that host.
+    ("AVGO", "2026", "3"): [
+        # Broadcom publishes the earnings release as a PDF node and the
+        # quarter-specific investor deck in Events & Presentations.
+        ("report_en", "https://investors.broadcom.com/node/64671/pdf"),
+        ("ir_en", "https://investors.broadcom.com/static-files/602c2fd3-89a0-436f-b638-4890f20feda7"),
+    ],
 }
 
 # IR portal URLs for US stocks (ticker -> IR URL)
@@ -2020,7 +2020,31 @@ def download_pdfs(stock_id: str, year: str, quarter: str,
                 print(f"[PDF] OK Saved: {dest} ({dest.stat().st_size // 1024} KB)")
                 downloaded.append(dest)
             else:
-                print(f"[PDF] FAILED HTTP {resp.status_code}: {url}")
+                # Some public IR CDNs return 403 to Python requests but serve
+                # the same document to curl. Retry only that public URL, then
+                # require PDF magic bytes so an HTML error page is rejected.
+                if resp.status_code == 403 and shutil.which("curl"):
+                    print(f"[PDF] requests returned 403; retrying with curl: {url}")
+                    try:
+                        subprocess.run(
+                            ["curl", "-L", "--fail", "--silent", "--show-error",
+                             "--connect-timeout", "20", "--max-time", "90",
+                             "-o", str(dest), url],
+                            check=True,
+                        )
+                        with open(dest, "rb") as f:
+                            magic = f.read(5)
+                        if magic != b"%PDF-":
+                            dest.unlink(missing_ok=True)
+                            print(f"[PDF] curl response was not a PDF: {url}")
+                        else:
+                            print(f"[PDF] OK Saved via curl: {dest} ({dest.stat().st_size // 1024} KB)")
+                            downloaded.append(dest)
+                    except Exception as curl_error:
+                        dest.unlink(missing_ok=True)
+                        print(f"[PDF] curl fallback failed: {curl_error}")
+                else:
+                    print(f"[PDF] FAILED HTTP {resp.status_code}: {url}")
         except Exception as e:
             print(f"[PDF] FAILED Failed: {e}")
 
