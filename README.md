@@ -2,6 +2,14 @@
 
 台股及美股法人說明會（法說會）音檔與投資人關係資料收錄庫。
 
+## Investor material matrix
+
+The canonical stock/year/quarter material matrix is generated from this repository's validated artifacts:
+
+- [Detailed Markdown matrix](docs/investor_material_matrix.md)
+- [Machine-readable CSV](data/investor_material_matrix.csv)
+- Generator: `scripts/generate_investor_material_matrix.py`
+
 ## 法說會一覽
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |
