@@ -1,0 +1,32 @@
+{
+  "ticker": "MU",
+  "fiscal_year": "2026",
+  "fiscal_quarter": "3",
+  "event_date": "2026-06-24",
+  "sources": [
+    {
+      "source_type": "Micron investor-relations earnings release PDF",
+      "source_url": "https://micron.gcs-web.com/node/50671/pdf",
+      "retrieved_at": "2026-09-25T00:00:00Z",
+      "sha256": "46423ddf88e38d33f57aba73274545444812d175f9c7b62ca7f1e16868eeed71",
+      "local_file": "data/MU/MU_2026_q3_report_en.pdf",
+      "notes": "Official Micron Q3 FY2026 earnings release PDF; this is the F source."
+    },
+    {
+      "source_type": "Micron investor-relations earnings deck PDF",
+      "source_url": "https://micron.gcs-web.com/static-files/2354ecda-77a0-4ddd-8462-a631eb491356",
+      "retrieved_at": "2026-09-25T00:00:00Z",
+      "sha256": "29468a786fa4a9c7728735ea8e3ad5853bb1375a297c636e86e6a4dd3b155929",
+      "local_file": "data/MU/MU_2026_q3_ir_en.pdf",
+      "notes": "Official Q3 2026 Earnings Deck; this is the I source."
+    },
+    {
+      "source_type": "Micron investor-relations prepared remarks PDF",
+      "source_url": "https://micron.gcs-web.com/static-files/631b1a32-5537-46ae-8f40-82e42fc79dfe",
+      "retrieved_at": "2026-09-25T00:00:00Z",
+      "sha256": "a3ce62b84a059e35fae80c2bfd5c89f9af334193fd6aceff698fc3008e7d4c27",
+      "local_file": "data/MU/MU_2026_q3_transcript.pdf",
+      "notes": "Official Q3 2026 prepared remarks; supplementary transcript source."
+    }
+  ]
+}

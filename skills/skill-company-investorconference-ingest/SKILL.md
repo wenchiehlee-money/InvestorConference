@@ -69,6 +69,8 @@ Ingest 不得只信任 MOPS 查詢結果的第一個影音檔。部分公司或 
 
 Broadcom 等 IR CDN 可能對 Python `requests` 回傳 HTTP 403，但同一個公開 PDF 可由 `curl` 取得。下載器只對 403 啟用 `curl` fallback，並強制檢查 `%PDF-` magic bytes；HTML challenge 或錯誤頁會被拒絕。Broadcom earnings 還必須檢查官方 Events & Presentations archive：有日期的 `Company Presentation`（例如 `20260902 Broadcom_Company_Overview.pdf`）才可作該季 `I`，earnings-release PDF 才是 `F`，兩者不可混用。
 
+Micron 的季度頁會把正式材料分在不同官方入口：`Q3 Earnings Deck` 是 `I`、同季 earnings-release PDF 是 `F`、prepared remarks 是補充逐字稿；下載器應以季度頁/事件頁提供的 canonical `micron.gcs-web.com` URL 為準，不要保留會回 404 的舊 `investors.micron.com/node/...` 別名。
+
 因此，像 `2382_2026_q2_ir.pdf` / `_ir_en.pdf` 這類從 `238220260813M001.pdf` / `E001.pdf` 取得的檔案，應描述為「MOPS 法說會附件 / investor-conference presentation deck」。即使內容包含 Q2 財務結果，也不是 MOPS repo 的財報文件。相反地，README `財報` row 連到 `wenchiehlee-investment/MOPS/downloads/.../202602_2382_AI1.pdf` 這類檔案時，才是財報事件材料。
 
 ### 來源層級與衝突處理
