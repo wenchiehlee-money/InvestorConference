@@ -132,13 +132,15 @@ def calendar_period(code, year, quarter, taiwan_ids):
     return calendar_year, calendar_quarter
 
 
-def calendar_view(rows, taiwan_ids, target_year=2026):
+def calendar_view(rows, taiwan_ids):
     result = {}
     for (code, source_year), row in rows.items():
         for source_quarter in range(1, 5):
             source_cell = row.get(source_quarter, {})
+            if not any(source_cell.get(field) for field in FIELDS):
+                continue
             year, quarter = calendar_period(code, source_year, source_quarter, taiwan_ids)
-            if year != target_year or norm(code) in taiwan_ids or norm(code).isdigit():
+            if norm(code) in taiwan_ids or norm(code).isdigit():
                 continue
             key = (code, year)
             output = result.setdefault(
@@ -361,21 +363,23 @@ def write(rows, digest_sources):
         "",
         "## Non-Taiwan stocks — calendar-period view",
         "",
-        "This view normalizes non-Taiwan source fiscal-quarter keys into calendar `2026 Q1–Q4` periods so they can be compared directly with Taiwan stocks. The source/fiscal quarter identity remains available in the canonical data and repository files.",
+        "This view normalizes non-Taiwan source fiscal-quarter keys into calendar-year quarter periods so they can be compared directly with Taiwan stocks. The source/fiscal quarter identity remains available in the canonical data and repository files.",
         "",
         "Each quarter contains `I/M/F/X/D` cells in that order. `D` may be `D-` when the digest has source gaps.",
         "",
-        "|Stock|2026 Q1|2026 Q2|2026 Q3|2026 Q4|",
-        "|---|---|---|---|---|",
+        "Rows are grouped by stock and calendar year; quarter cells are `Q1` through `Q4`.",
+        "",
+        "|Stock|Calendar year|Q1|Q2|Q3|Q4|",
+        "|---|---:|---|---|---|---|",
     ])
-    for key in sorted(calendar_rows, key=lambda item: calendar_rows[item]["stock_name"].casefold()):
+    for key in sorted(calendar_rows, key=lambda item: (calendar_rows[item]["stock_name"].casefold(), -item[1])):
         row = calendar_rows[key]
         quarter_cells = []
         for quarter in range(1, 5):
             cell = row.get(quarter, {})
             values = [cell.get(field, "") for field in ("I", "M", "F", "X", "D")]
             quarter_cells.append("<br>".join(value for value in values if value) or "—")
-        lines.append(f"|{row['stock_name']}|" + "|".join(quarter_cells) + "|")
+        lines.append(f"|{row['stock_name']}|{row['year']}|" + "|".join(quarter_cells) + "|")
     MD_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     MD_OUTPUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
