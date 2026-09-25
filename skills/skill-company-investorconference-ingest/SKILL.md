@@ -94,6 +94,7 @@ Ingest 必須把來源分成兩層，且不得讓二級來源覆蓋一級來源�
 5. 若 URL 含會議日期（例如 `/streams/2026-07-30/...`），日期必須落在目標季度的法說會窗口。
 6. 下載後仍要通過 checksum、duration、duplicate gate；成功時 `audio_metadata.json` 必須記錄 `source: google_finance_quartr`、Google Finance page `source_url`、實際 `captured_media_url` 與 secondary-source note。
 7. Google/Quartr 只能補音檔、逐字稿與 discovery metadata；README 的季度、日期、事件類型與官方 PDF 判定仍以一級來源為準。
+8. Quartr `master.m3u8` 是完整長篇 HLS 會議串流；即使 playlist 與 segments 可正常 HTTP 200，也可能超過短下載 timeout。實作對 Quartr HLS 使用最長 600 秒的 ffmpeg/yt-dlp timeout；timeout 只代表本次下載未完成，不得標記為 `not_published` 或誤判為需要註冊。
 
 **逐字稿（transcript）**：同一個 earnings tab 頁面通常也內嵌 Quartr 提供的完整逐字稿（含講者姓名/職稱與時間戳記，從開場到 Q&A 到 operator 結束語）。`fetch_google_finance_transcript(stock_id, year, quarter, stem, save_dir)` 會捲動該頁面觸發逐字稿區塊 lazy-load、以同一個 `Fiscal Q{N} {Year}` 文字比對確認季度，再存成 `{stem}_google_finance_transcript.md`（清除 UI 雜訊如 `music_history`/`Listen from here`，保留講者標題與時間戳）。這個檔案的地位等同 `_yahoo_transcript.md`／`_alphaspread_transcript.md`：只是補充來源，數字與引言仍以公司 IR/SEC filing 及官方音檔為準；`ingest_earnings_audio()` 的 `done()` 已將它接在 AlphaSpread/Yahoo transcript 之後、都沒有結果時自動嘗試一次。
 

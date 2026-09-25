@@ -7,9 +7,9 @@ https://www.google.com/finance/beta/quote/AMZN:NASDAQ?tab=earnings
 
 ---
 
-Amazon reported Q2 2026 revenue of $200.6B, up 20% year-over-year, beating estimates of $196.6B. Operating income increased 43% year-over-year to $27.5B, which included a $1.2B benefit from tariff-related refunds and energy contract derivative accounting. Reported EPS of $5.75 significantly exceeded the estimated $1.819.
+Amazon delivered a strong Q2 2026, reporting revenue of $200.6B (up 20% YoY) and operating income of $27.5B (up 43% YoY). Financial results were boosted by a $600M tariff-related refund in North America and a $600M energy contract derivative valuation gain primarily benefiting AWS.
 Highlights
-Amazon reported Q2 2026 revenue of $200.6B, up 20% year-over-year, beating estimates of $196.6B. Operating income increased 43% year-over-year to $27.5B, which included a $1.2B benefit from tariff-related refunds and energy contract derivative accounting. Reported EPS of $5.75 significantly exceeded the estimated $1.819.
+Amazon delivered a strong Q2 2026, reporting revenue of $200.6B (up 20% YoY) and operating income of $27.5B (up 43% YoY). Financial results were boosted by a $600M tariff-related refund in North America and a $600M energy contract derivative valuation gain primarily benefiting AWS.
 Expand highlights
 [Operator Instructions]
 Thank you for standing by. Good day, everyone, and welcome to the Amazon.com Quarter Two 2026 financial results teleconference. At this time, all participants are in a listen-only mode. After the presentation, we will conduct a question-and-answer session. Today's call is being recorded. For opening remarks, I'll be turning the call over to the Vice President of Investor Relations, Mr. Dave Fildes. Thank you, sir. Please go ahead.

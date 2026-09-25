@@ -1686,16 +1686,21 @@ def download_audio(source: str, output_path: Path,
             str(output_path),
         ]
         print(f"[ffmpeg] {' '.join(ffmpeg_cmd)}")
+        # Quartr conference calls are full-length HLS streams.  Their master
+        # playlist and segments are publicly reachable, but a complete call
+        # can legitimately take longer than the short timeout used for a
+        # single MP4/PDF-like media object.
+        ffmpeg_timeout = 600 if is_quartr_hls else 120
         try:
             result = subprocess.run(
                 ffmpeg_cmd,
                 capture_output=True,
                 encoding="utf-8",
                 errors="replace",
-                timeout=30,
+                timeout=ffmpeg_timeout,
             )
         except subprocess.TimeoutExpired:
-            print("[ffmpeg] Direct media extraction timed out after 30s; falling back to yt-dlp.")
+            print(f"[ffmpeg] Direct media extraction timed out after {ffmpeg_timeout}s; falling back to yt-dlp.")
             output_path.unlink(missing_ok=True)
             result = None
         if output_path.exists() and output_path.stat().st_size > 0:
@@ -1730,7 +1735,7 @@ def download_audio(source: str, output_path: Path,
             capture_output=True,
             encoding="utf-8",
             errors="replace",
-            timeout=90,
+        timeout=600 if is_quartr_hls else 180,
         )
     except subprocess.TimeoutExpired:
         print("[yt-dlp] Download timed out after 90s; rejecting this media candidate.")

@@ -1,18 +1,15 @@
-# Broadcom Inc. (AVGO) Fiscal Q3 2026 Earnings Call Transcript
+# AVGO Fiscal Q3 2026 Earnings Call Transcript
 
 Source: Google Finance earnings tab (Quartr-provided transcript)
 https://www.google.com/finance/beta/quote/AVGO:NASDAQ?tab=earnings
 
-> Third-party/secondary transcript source. Per skill-company-investorconference-ingest,
-> this supplements but does not override company IR / SEC filings / official audio for
-> figures or quotes; cross-check against the official press release and financial
-> tables in this same directory.
+> Third-party/secondary transcript source. Supplements but does not override company IR / SEC filings / official audio for figures or quotes; cross-check against the official press release and financial tables in this same directory.
 
 ---
 
-Broadcom delivered a record Q3 2026, driven by hot demand for AI semiconductors, which grew 221% year-over-year and 54% sequentially. Consolidated revenue reached $29.6 billion, up 86% year-over-year, while operating income grew 92% to a record $20.1 billion, yielding a record 68% operating margin reflecting strong operating leverage.
+Broadcom delivered a record Q3 2026, with consolidated revenue up 86% YoY to $29.6B and non-GAAP EPS up 96% YoY to $3.32, driven by hot AI semiconductor demand. Operating income grew 92% YoY with a record operating margin of 68%, demonstrating significant operating leverage.
 Highlights
-Broadcom delivered a record Q3 2026, driven by hot demand for AI semiconductors, which grew 221% year-over-year and 54% sequentially. Consolidated revenue reached $29.6 billion, up 86% year-over-year, while operating income grew 92% to a record $20.1 billion, yielding a record 68% operating margin reflecting strong operating leverage.
+Broadcom delivered a record Q3 2026, with consolidated revenue up 86% YoY to $29.6B and non-GAAP EPS up 96% YoY to $3.32, driven by hot AI semiconductor demand. Operating income grew 92% YoY with a record operating margin of 68%, demonstrating significant operating leverage.
 Expand highlights
 [Operator Instructions]
 Welcome to Broadcom Inc.'s third quarter fiscal year 2026 financial results conference call. At this time, for opening remarks and introductions, I would like to turn the call over to Ji Yoo, Head of Investor Relations of Broadcom Inc. Please go ahead.
@@ -49,7 +46,7 @@ _[11m 42s]_
 The lesson here is when you co-develop a chip that is optimized for your particular LLM workloads, you will outperform any GPU. Like GPUs, Jalapeño demonstrates that it can also run other frontier models, and you can do all this at half the cost of a GPU. Our partnership with Meta to deliver multiple generations of MTIA XPUs remains on track. Between now and the end of 2027, we will be delivering three generations of MTIA accelerators to Meta. Across these three generations, we have line of sight to deploying 3 GW through 2028. Our content in AI, as you know, goes beyond XPUs. We are the leader in AI networking, and we continue to extend our lead.
 
 _[12m 57s]_
-In Ethernet switching for scale up and scale out, we were first to market with our 100 Tb Tomahawk 6, and we just picked up Tomahawk 7, the industry's first 200 Tbps Ethernet switch. For scaling in, we continue to be the leader in every generation of PCI Express switching. We are now the leader in leading-edge optical DSPs and are rapidly expanding our capacity and market position as a leader in EMLs, VCSELs, and CW lasers for optical interconnects. In sum, we continue to invest, and invest heavily, to provide the broadest and most leading-edge AI portfolio. In fact, our AI networking revenue is expected to grow just as fast as XPUs over the next few years. Reflecting our excellent progress with this key group of LLM customers, here is our outlook for our AI semiconductor revenue.
+In Ethernet switching for scale up and scale out, we were first to market with our 100 Tb Tomahawk 6, and we just tape-out Tomahawk 7, the industry's first 200 Tbps Ethernet switch. For scaling in, we continue to be the leader in every generation of PCI Express switching. We are now the leader in leading-edge optical DSPs and are rapidly expanding our capacity and market position as a leader in EMLs, VCSELs, and CW lasers for optical interconnects. In sum, we continue to invest, and invest heavily, to provide the broadest and most leading-edge AI portfolio. In fact, our AI networking revenue is expected to grow just as fast as XPUs over the next few years. Reflecting our excellent progress with this key group of LLM customers, here is our outlook for our AI semiconductor revenue.
 
 _[14m 26s]_
 In 2027, we have secured the supply to again double AI revenue to approximately $115 billion. Our demand actually exceeds this outlook, and we will work to improve supply. In 2028, we expect the trajectory of growth to continue. We have line of sight for fiscal 2028 AI semiconductor revenue growth to again double to $230 billion. Here again, we have secured the supply to meet this outlook. This AI revenue guidance through 2028 is being provided to give you the trajectory of our growth. That demand continues to be extremely strong. As a result, I have to say, we are very much on target to exceed $30 in earnings per share in fiscal 2028. Turning to non-AI semiconductors, Q3 revenue of $4.2 billion was up 5% year-on-year and flat sequentially. Broadband and server storage together were up, partially offset by a decline in wireless.
@@ -385,18 +382,18 @@ _[58m 3s]_
 Thank you all for participating. This concludes today's program. You may now disconnect.
 At a glance
 Insights from the latest news and reports
-9 sites
+5 sites
 insights_auto
-Broadcom Beats EPS and Revenue Estimates:Broadcom reported non-GAAP diluted EPS of $3.32, beating the consensus estimate of $3.24, and pulled in record revenue of $29.59 billion, which topped Wall Street expectations of $29.36 billion.
+Broadcom Exceeds Q3 Expectations Safely:Broadcom reported Q3 fiscal 2026 revenue of $29.591 billion, slightly beating the estimated $29.435 billion, while GAAP diluted EPS came in at $2.68.
 insights_auto
-AI Semiconductor Demand Drives Record Performance:Driven by strong demand for custom AI accelerators and networking gear, AI semiconductor revenue surged 221% year-over-year to $16.7 billion, representing 56% of total revenue.
+AI Semiconductor Sector Drives Revenue Growth:The company's performance was powered by record AI semiconductor revenue of $16.7 billion, which surged 221% year-over-year and now represents 56% of total revenue.
 insights_auto
-Mixed Near-Term and Massive Long-Term Guidance:Broadcom projected Q4 revenue of approximately $34.8 billion, slightly missing some analyst consensus estimates of $35.03 billion, but significantly raised its multi-year AI sales projections through fiscal 2028.
+Robust Upward Revenue Guidance Provided:Broadcom expects fourth-quarter consolidated revenue to increase 93% year-over-year to approximately $34.8 billion, fueled by accelerating demand for custom accelerators and AI networking solutions.
 insights_auto
-Hardware Dominance Triggers Margin Compression:While non-GAAP operating margins expanded to 67.9%, non-GAAP gross margin compressed to 75% from 78.4% a year ago due to a higher revenue mix of lower-margin, memory-intensive AI hardware.
+Segment Revenues Shift Favoring Semiconductors:Semiconductor solutions brought in $20.8 billion in revenue, up 127% year-over-year, while infrastructure software added $8.8 billion, representing a 29% increase.
 insights_auto
-Thin Beat Margin Dampens Market Reaction:Despite achieving its ninth consecutive quarterly beat, Broadcom's stock slid roughly 4.4% in midday trading following the announcement as investors reacted to thin beat margins against high expectations.
+Strong Cash Generation and Profitability Metrics:The firm generated a record free cash flow of $13.7 billion, representing 46% of total revenue, alongside a strong non-GAAP operating margin of 67.9%.
 search_spark
-What specific data center and supply constraints could limit Broadcom's pace of AI deployment through 2028?
+How will the anticipated mix shift toward high-volume custom accelerators impact Broadcom's structural gross margins in upcoming quarters?
 search_spark
-How will the shift toward lower-margin custom XPUs impact Broadcom's long-term profitability and free cash flow generation?
+What specific supply chain or capacity constraints could challenge Broadcom's ability to achieve its aggressive long-term AI revenue milestones?

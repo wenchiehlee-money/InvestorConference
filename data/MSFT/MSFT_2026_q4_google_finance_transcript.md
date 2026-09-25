@@ -7,9 +7,9 @@ https://www.google.com/finance/beta/quote/MSFT:NASDAQ?tab=earnings
 
 ---
 
-Microsoft reported record fiscal year 2026 results, with annual revenue up 18% to over $331 billion. Microsoft Cloud revenue surpassed $214 billion (up 27% year-over-year) and Azure surpassed $100 billion (up 41% year-over-year). In Q4, revenue reached $90 billion, up 18%, driven by strong demand across Azure and AI services.
+Microsoft reported strong Q4 2026 results to close a record fiscal year. Annual revenue surpassed $331 billion, up 18% year-over-year. Microsoft Cloud revenue rose 27% to over $214 billion, and Azure revenue exceeded $100 billion, growing 41% annually. The company expanded its global footprint by adding 31 new data centers this quarter.
 Highlights
-Microsoft reported record fiscal year 2026 results, with annual revenue up 18% to over $331 billion. Microsoft Cloud revenue surpassed $214 billion (up 27% year-over-year) and Azure surpassed $100 billion (up 41% year-over-year). In Q4, revenue reached $90 billion, up 18%, driven by strong demand across Azure and AI services.
+Microsoft reported strong Q4 2026 results to close a record fiscal year. Annual revenue surpassed $331 billion, up 18% year-over-year. Microsoft Cloud revenue rose 27% to over $214 billion, and Azure revenue exceeded $100 billion, growing 41% annually. The company expanded its global footprint by adding 31 new data centers this quarter.
 Expand highlights
 [Operator Instructions]
 Greetings, welcome to the Microsoft fiscal year 2026 fourth quarter earnings conference call. At this time, all participants are in a listen-only mode. A question and answer session will follow the formal presentation. If anyone should require operator assistance, please press star zero on your telephone keypad. As a reminder, this conference is being recorded. It is now my pleasure to introduce Jonathan Neilson, Vice President of Investor Relations. Please go ahead.
@@ -369,20 +369,20 @@ _[1h 4m 12s]_
 Ladies and gentlemen, this does conclude today's conference. You may disconnect your lines at this time, and enjoy the rest of your day.
 At a glance
 Insights from the latest news and reports
-9 sites
+12 sites
 insights_auto
-Microsoft Beats EPS and Revenue Estimates:Microsoft reported Q4 2026 adjusted EPS of $4.81 and revenue of $90.01 billion, strongly outperforming the estimated adjusted EPS of $4.239 and revenue expectations of $87.63 billion.
+Microsoft Exceeds Revenue Predictions:Microsoft reported Q4 2026 revenue of $90.01 billion, outperforming the estimated $87.63 billion, while its reported adjusted EPS came in at $4.81, slightly under the estimated 4.822 but reflecting strong underlying operational growth.
 insights_auto
-Cloud and Azure Fuel Key Outperformance:Microsoft Cloud quarterly revenue climbed 27% year-over-year to $59.3 billion, anchored by stellar Azure and other cloud services growth accelerating to 43%.
+Azure Surpasses Revenue Milestones:Azure revenue grew 43% for the quarter, driving its annualized fiscal revenue past the $100 billion milestone for the first time amidst strong AI and enterprise consumption.
 insights_auto
-Aggressive Capital Expenditure Growth Forecasted:Microsoft provided forward guidance projecting double-digit revenue and operating income growth for fiscal 2027, highlighted by plans to accelerate infrastructure spending to roughly $175 billion in capital expenditures.
+Bullish Acceleration Guided for Azure:Management provided a highly significant forward outlook, guiding Azure constant-currency revenue growth to accelerate to approximately 45% in Q1 fiscal 2027.
 insights_auto
-AI Product Adoption Scales Rapidly:The company's commercial AI push saw massive growth, with Microsoft 365 Copilot surpassing 30 million paid seats and the newly launched Agent 365 registering nearly 40 million agents in two months.
+Copilot User Base Expands Rapidly:Microsoft 365 Copilot reached a new high of over 30 million paid seats, with net paid seat additions more than doubling sequentially quarter-over-quarter.
 insights_auto
-Positive Extended Trading Share Reaction:Driven by strong operational leverage, broad cloud demand, and an impressive full-year performance, Microsoft shares surged approximately 8% in extended trading following the announcement.
+Aggressive Capital Spending Expansion Continues:Capital expenditures reached $41 billion for the quarter and are projected to surpass $50 billion in Q1 fiscal 2027 to address ongoing AI infrastructure demand and capacity constraints.
 insights_auto
-More Personal Computing Unit Weakness:While the Intelligent Cloud and business process segments flourished, the More Personal Computing division dropped 4% to $12.9 billion due to lower hardware and Xbox gaming content revenues.
+Shares Rally on Earnings Strength:Following the strong operational metrics and cloud outperformance, Microsoft shares jumped approximately 8% in extended after-hours trading.
 search_spark
-How does the projected $175 billion fiscal 2027 capital expenditure plan impact Microsoft's operating margins and free cash flow expectations?
+How does the projected acceleration of Azure growth to 45% look to impact Microsoft's operating margins given the increasing AI infrastructure spend?
 search_spark
-What factors caused the 4% revenue decline in the More Personal Computing segment, and what is the recovery outlook for Xbox and Windows OEM?
+What specific factors are driving the expected low-20s percentage decline in Windows OEM and Devices revenue for the upcoming quarter?

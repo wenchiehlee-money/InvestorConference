@@ -7,9 +7,9 @@ https://www.google.com/finance/beta/quote/TSM:NYSE?tab=earnings
 
 ---
 
-TSMC reported strong Q2 2026 results with revenue reaching $40.2B, driven by robust demand for advanced leading-edge process technologies. Wafer revenue was heavily anchored by advanced technologies (7nm and below) at 77%, with 2nm at 3%, 3nm at 30%, 5nm at 33%, and 7nm at 11%. HPC revenue grew 20% sequentially, representing 66% of total revenue.
+TSMC reported strong Q2 2026 results with advanced technologies (7nm and below) accounting for 77% of wafer revenue. Advanced 2nm process technology contributed 3% of wafer revenue, while 3nm and 5nm processes generated 30% and 33% respectively. High-Performance Computing (HPC) grew 20% sequentially to represent 66% of total revenue.
 Highlights
-TSMC reported strong Q2 2026 results with revenue reaching $40.2B, driven by robust demand for advanced leading-edge process technologies. Wafer revenue was heavily anchored by advanced technologies (7nm and below) at 77%, with 2nm at 3%, 3nm at 30%, 5nm at 33%, and 7nm at 11%. HPC revenue grew 20% sequentially, representing 66% of total revenue.
+TSMC reported strong Q2 2026 results with advanced technologies (7nm and below) accounting for 77% of wafer revenue. Advanced 2nm process technology contributed 3% of wafer revenue, while 3nm and 5nm processes generated 30% and 33% respectively. High-Performance Computing (HPC) grew 20% sequentially to represent 66% of total revenue.
 Expand highlights
 
 **Jeff Su, Director of Investor Relations, TSMC**

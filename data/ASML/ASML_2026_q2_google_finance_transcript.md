@@ -228,18 +228,18 @@ _[11m 56s]_
 Thank you.
 At a glance
 Insights from the latest news and reports
-12 sites
+1 site
 insights_auto
-ASML Beats EPS and Revenue Estimates:ASML reported a reported adjusted EPS of 7.58, beating the estimated 6.948, and generated reported revenue of $9,326,500,000, which surpassed expectations of $8,933,226,610.
+ASML Beats EPS and Revenue Estimates:ASML reported Q2 2026 adjusted EPS of 7.58, beating the estimated 6.948, while quarterly revenue reached 9,326,500,000 to surpass the estimated 8,933,226,610.
 insights_auto
-Installed Base Management Drives Gross Margin:The company achieved a gross margin of 54.0%, exceeding internal guidance due to higher-than-expected upgrade business and high-margin components within Installed Base Management sales, which reached €2.8 billion.
+Strong Growth in Core Lithography Systems:The company shipped 91 total lithography systems during the quarter, up from 76 systems a year earlier, fueled by accelerated customer capacity expansions.
 insights_auto
-Full-Year Guidance Significantly Upgraded:ASML significantly raised its full-year 2026 total net sales guidance to between €43 billion and €45 billion, up from the prior outlook of €36 billion to €40 billion, fueled by accelerating customer capacity expansion plans.
+Full-Year Guidance Significantly Upgraded:Management raised its full-year 2026 revenue guidance to a range of 43 billion euros to 45 billion euros, representing a strong upward shift from its prior outlook of 36 billion euros to 40 billion euros.
 insights_auto
-AI Demands Fuel Explosive Segment Growth:Driven by ongoing infrastructure investments in artificial intelligence, ASML expects its EUV system sales to grow by over 45% and memory segment revenues to surge by roughly 75% for the full year.
+AI Demand Drives Business Units:Artificial intelligence demand has heavily supported ASML's systems, with memory revenue projected to grow 75% and advanced logic/foundry net sales expected to climb over 25% this year.
 insights_auto
-Intel Achieves High-NA Production Milestone:ASML highlighted that Intel has officially begun using its next-generation High-NA EUV lithography tools in production on advanced product layers, marking a critical technological milestone for the platform.
+Intel Deploys Next-Gen High-NA EUV:ASML achieved a critical operational milestone as Intel became the first chipmaker to deploy its next-generation High-NA EUV lithography systems into active production manufacturing.
 search_spark
-How secure is ASML's order pipeline for 2027 and 2028 amid evolving global export controls?
+How will the planned 30% production capacity increase for EUV and DUV systems affect ASML's margins heading into 2027?
 search_spark
-What impact will the planned 30% production capacity expansion in 2027 have on ASML's long-term gross margin trends?
+What specific risks do ongoing global export controls present to ASML's projected full-year market share in China?

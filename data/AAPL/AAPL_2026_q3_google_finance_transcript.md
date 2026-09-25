@@ -7,9 +7,9 @@ https://www.google.com/finance/beta/quote/AAPL:NASDAQ?tab=earnings
 
 ---
 
-Apple reported record June quarter revenue of $109.4B, up 16% YoY, beating estimates. Growth was driven by record iPhone sales (up 22% to $54.3B) and Mac sales (up 29% to $10.4B), alongside record Services revenue of $30.7B (up 12% YoY). Gross margin reached 50.1%, aided by tariff refunds.
+Apple reported record Q3 2026 revenue of $109.4 billion, up 16% year-over-year, beating estimates. Growth was driven by an all-time high installed base of over 2.5 billion active devices, record iPhone revenue of $54.3 billion (up 22%), a 29% surge in Mac revenue to $10.4 billion, and Services revenue growing 12% to $30.7 billion.
 Highlights
-Apple reported record June quarter revenue of $109.4B, up 16% YoY, beating estimates. Growth was driven by record iPhone sales (up 22% to $54.3B) and Mac sales (up 29% to $10.4B), alongside record Services revenue of $30.7B (up 12% YoY). Gross margin reached 50.1%, aided by tariff refunds.
+Apple reported record Q3 2026 revenue of $109.4 billion, up 16% year-over-year, beating estimates. Growth was driven by an all-time high installed base of over 2.5 billion active devices, record iPhone revenue of $54.3 billion (up 22%), a 29% surge in Mac revenue to $10.4 billion, and Services revenue growing 12% to $30.7 billion.
 Expand highlights
 
 **Suhasini Chandramouli, Director of Investor Relations, Apple**
@@ -476,20 +476,20 @@ Thank you, Samik. A replay of today's call will be available on Apple Podcasts a
 Once again, this does conclude today's conference. We do appreciate your participation.
 At a glance
 Insights from the latest news and reports
-8 sites
+9 sites
 insights_auto
-Apple Beats EPS and Revenue Estimates:Apple reported a reported revenue of $109,417,000,000, outperforming the estimated $108,959,817,930, and posted a reported adjusted EPS of $2.02, beating the estimated 1.892.
+Apple Beats EPS and Revenue Estimates:Apple reported a diluted EPS of $2.02, beating the estimated $1.981, and posted revenue of $109.417 billion, exceeding the forecasted $108.9598 billion.
 insights_auto
-Hardware Rebounds with Record Growth Drivers:iPhone sales surged 22% year-over-year to $54.3 billion, while Mac revenue jumped 29% to $10.4 billion, driving the strongest June quarter in the company's history despite a 6% drop in iPad sales.
+Hardware Drives June Quarter Performance:iPhone sales rose 22% year-over-year to $54.3 billion, while Mac revenue jumped 29% to $10.4 billion, establishing new June quarter records for both product lines.
 insights_auto
-Slowing September Growth and Supply Warnings:Management projected revenue growth to slow down to 9%–11% for the upcoming September quarter due to a 2.5-point foreign-exchange headwind and significantly worsening advanced semiconductor node supply constraints.
+Decelerating Guidance Triggers Stock Drop:Apple issued forward guidance pointing to 9% to 11% revenue growth for the September quarter due to foreign exchange headwinds and significant supply constraints.
 insights_auto
-Severe Pressures from Global Memory Crunch:Apple is grappling with a severe global memory chip scarcity that forced price increases on Macs and iPads, a supply constraint Tim Cook characterized as a "100-year flood."
+Memory Crunch Forces Price Hikes:Management described rising component costs as a hundred-year flood in memory pricing, leading to reluctant price increases on Macs and iPads.
 insights_auto
-Services and Tariffs Prop Up Profitability:Services revenue hit a June-quarter record of $30.7 billion with a high gross margin of 75.6%, while overall company gross margin reached 50.1% thanks to a 2 percentage point boost from tariff refunds.
+Tariff Refunds Boost Net Margins:A favorable impact from one-time tariff refunds added roughly 2 percentage points to gross margin and provided an $0.11 benefit to the quarter's EPS.
 insights_auto
-CEO Transition and Leadership Handover:This quarter marked Tim Cook's final earnings call as CEO before officially handing over the reins to Senior Vice President of Hardware Engineering John Ternus on September 1, 2026.
+Tim Cook Concludes CEO Tenure:This record-breaking June quarter marked the final earnings call for outgoing CEO Tim Cook before handing leadership over to John Ternus.
 search_spark
-How severely will the tightening advanced semiconductor supply bottleneck impact upcoming iPhone 18 production and holiday quarter shipments?
+How will the anticipated supply constraints on advanced chip nodes impact the iPhone launch in the September quarter?
 search_spark
-What are Apple's plans to monetize its upcoming AI ecosystem and the redesigned Siri through paid tier structures like iCloud+ upgrades?
+What strategies is Apple employing to mitigate the headwind of rising memory costs on its future gross margins?

@@ -7,9 +7,9 @@ https://www.google.com/finance/beta/quote/GOOGL:NASDAQ?tab=earnings
 
 ---
 
-Alphabet delivered robust Q2 2026 performance with consolidated revenue increasing 24% year-over-year to $119.8B, beating expectations, while operating income grew 30% to $40.8B. Net income was significantly bolstered by substantial unrealized gains within the company's equity securities portfolio, driving reported EPS to $9.11.
+Alphabet reported strong Q2 2026 performance with consolidated revenue increasing 24% year-over-year to $119.8B and operating income growing 30% to $40.8B. Performance was driven by a 17% growth in Search and Other revenue ($63.3B), a 13% increase in YouTube advertising revenue ($11.1B), and a massive 82% surge in Google Cloud revenue ($24.8B).
 Highlights
-Alphabet delivered robust Q2 2026 performance with consolidated revenue increasing 24% year-over-year to $119.8B, beating expectations, while operating income grew 30% to $40.8B. Net income was significantly bolstered by substantial unrealized gains within the company's equity securities portfolio, driving reported EPS to $9.11.
+Alphabet reported strong Q2 2026 performance with consolidated revenue increasing 24% year-over-year to $119.8B and operating income growing 30% to $40.8B. Performance was driven by a 17% growth in Search and Other revenue ($63.3B), a 13% increase in YouTube advertising revenue ($11.1B), and a massive 82% surge in Google Cloud revenue ($24.8B).
 Expand highlights
 [Operator Instructions]
 Welcome, everyone. Thank you for standing by for the Alphabet Second Quarter 2026 Earnings Conference Call. At this time, all participants are in listen-only mode. After the speaker presentation, there will be a question and answer session. To ask a question during the session, you will need to press star one on your telephone. I would now like to hand the conference over to your speaker today, Jim Friedland, Head of Investor Relations. Please go ahead.
@@ -361,20 +361,20 @@ _[1h 1m 58s]_
 Thank you, everyone. This concludes today's conference call. Thank you for participating. You may now disconnect.
 At a glance
 Insights from the latest news and reports
-8 sites
+10 sites
 insights_auto
-Alphabet Outpaces Top-Line Expectations Significantly:Alphabet delivered a massive beat for Q2 2026, reporting an adjusted EPS of $9.11 against estimated expectations of $2.911, and a total revenue of $119.796 billion, exceeding the forecasted $116.976 billion.
+Alphabet Outpaces Estimates Across Toplines:Alphabet delivered a significant beat for Q2 2026, posting a reported adjusted EPS of $9.11 against the estimated $2.911, alongside reported revenue of $119.8 billion which exceeded expectations of $116.98 billion.
 insights_auto
-Google Cloud Drives Unprecedented Acceleration:Google Cloud emerged as the quarter's strongest growth catalyst, surging 82% year-over-year to $24.8 billion, representing a significant acceleration compared to the 63% growth recorded in Q1 2026.
+Google Cloud Drives Massive Growth:Google Cloud revenue accelerated significantly, surging 82% year-over-year to $24.8 billion, a massive step up from the 63% growth recorded in the first quarter of 2026 and driven by deep enterprise AI infrastructure adoption.
 insights_auto
-Capital Expenditures Target Infrastructure Expansion:Alphabet aggressively raised its full-year 2026 capex guidance to a range of $195 billion to $205 billion from its previous $180 billion to $190 billion projection to expand AI capacity.
+Full-Year CapEx Guidance Raised Again:Management increased its full-year 2026 capital expenditure guidance to a range of $195 billion to $205 billion, up from the previously forecasted $180 billion to $190 billion, to aggressively ramp up computing capacity for AI demand.
 insights_auto
-Massive Unrealized Investment Gains Boost Net:The company's reported net income and EPS figures were heavily inflated by a $98.0 billion operational windfall, primarily consisting of net unrealized gains on its equity investments in SpaceX and Anthropic.
+Free Cash Flow Turns Negative:Driven by heavy technical infrastructure outlays, quarterly capital expenditure doubled year-over-year to $44.9 billion, pushing Alphabet's free cash flow to a negative $5.9 billion for the quarter.
 insights_auto
-Digital Advertising Maintains Resilient Upward Trend:Google Search and Other advertising revenue grew by 17% to $63.3 billion, while YouTube advertising sales crossed $11 billion with a healthy 13% increase year-over-year.
+YouTube Growth Catalyzed by FIFA:YouTube advertising revenue rose 13% year-over-year to exceed $11 billion, drawing a significant tailwind from the FIFA World Cup 2026 which brought in over 1.7 billion unique viewers to related content.
 insights_auto
-First-Ever Negative Free Cash Flow Sparked:Driven entirely by intense AI infrastructure build-out costs, Alphabet recorded a negative free cash flow of $5.9 billion for the quarter, down from a positive $10.1 billion in Q1.
+Market Cools Over Spending Concerns:Despite posting a 24% increase in revenue and an exceptional EPS beat, Alphabet shares slid over 4% in extended trading as investors reacted to near-term margin pressures and surging capital expenditure.
 search_spark
-How does Alphabet intend to manage near-term operating margin pressures stemming from its aggressive capital expenditure guidance?
+How does management plan to manage near-term margin pressures from utilizing third-party capacity leases?
 search_spark
-What specific performance metrics from enterprise AI adoption are driving the 82% acceleration in Google Cloud revenue?
+When does Alphabet expect the massive infrastructure investments and record $514 billion Cloud backlog to fully convert into positive free cash flow?

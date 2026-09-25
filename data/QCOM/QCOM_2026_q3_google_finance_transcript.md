@@ -7,9 +7,9 @@ https://www.google.com/finance/beta/quote/QCOM:NASDAQ?tab=earnings
 
 ---
 
-Qualcomm delivered Q3 2026 revenue of $9.9 billion, hitting the high end of guidance, alongside non-GAAP EPS of $2.21. QCT revenues reached $8.5 billion, supported by record automotive sales and IoT growth, while QTL revenues stood at $1.3 billion. Total non-handset revenues climbed 28% year-over-year, advancing the company's long-term diversification strategy.
+Qualcomm delivered Q3 fiscal 2026 revenues of $9.9 billion and non-GAAP EPS of $2.21, hitting the high end of its revenue guidance. QCT segment revenues reached $8.5 billion, buoyed by record automotive performance and IoT expansion, while QTL licensing business revenues came in at $1.3 billion.
 Highlights
-Qualcomm delivered Q3 2026 revenue of $9.9 billion, hitting the high end of guidance, alongside non-GAAP EPS of $2.21. QCT revenues reached $8.5 billion, supported by record automotive sales and IoT growth, while QTL revenues stood at $1.3 billion. Total non-handset revenues climbed 28% year-over-year, advancing the company's long-term diversification strategy.
+Qualcomm delivered Q3 fiscal 2026 revenues of $9.9 billion and non-GAAP EPS of $2.21, hitting the high end of its revenue guidance. QCT segment revenues reached $8.5 billion, buoyed by record automotive performance and IoT expansion, while QTL licensing business revenues came in at $1.3 billion.
 Expand highlights
 [Operator Instructions]
 Ladies and gentlemen, thank you for standing by. Welcome to the Qualcomm Third Quarter Fiscal 2026 Earnings Conference Call. At this time, all participants are in listen-only mode. Later, we'll conduct a question and answer session. If you'd like to ask a question during this time, press star then the number one on your telephone keypad. To withdraw your question, press star then the number two. If you're using a speakerphone, please pick up your handset before pressing the numbers.
@@ -319,18 +319,18 @@ At a glance
 Insights from the latest news and reports
 8 sites
 insights_auto
-Revenue Beats but EPS Misses:Qualcomm reported Q3 2026 revenue of $9.95 billion, beating expectations of $9.67 billion, but its adjusted EPS of $1.87 fell short of the estimated $2.221.
+Revenue Beats but EPS Misses Estimates:Qualcomm reported adjusted EPS of $1.87, missing the estimated $2.157, while reported revenue reached $9.95 billion, beating expectations of $9.67 billion.
 insights_auto
-Automotive Performance Hits Record Highs:The company's automotive division saw a strong performance with revenue growing 61% year-over-year to a record $1.6 billion, demonstrating successful non-handset diversification despite a 20% decline in handset chip sales.
+Automotive Revenue Reaches Record Highs:Qualcomm's automotive segment surged 61% year-over-year to a record $1.59 billion, driven by the expansion of its Snapdragon Digital Chassis frameworks.
 insights_auto
-Guidance Reflects Impending Margin Compression:Qualcomm provided lower-than-expected Q4 2026 guidance with an adjusted EPS range of $2.05 to $2.25 on revenue between $9.7 billion and $10.5 billion due to rising input and component costs.
+Cautious EPS Outlook Issued on Headwinds:The company issued fiscal fourth-quarter adjusted EPS guidance of $2.05 to $2.25, falling below market expectations of $2.36 due to persistent computer part supply chain constraints.
 insights_auto
-Supply Chain Pressures Drive Inflation:The semiconductor industry is navigating a widespread supply crunch and high utilization rates, forcing Qualcomm to implement across-the-board price hikes to counter rising manufacturing costs.
+Smartphone Business Experiences Broad Softness:Handset segment revenue dropped 20% year-over-year to $5.1 billion, reflecting a broad-based slowdown in global smartphone demand and a bottoming market in China.
 insights_auto
-Aggressive AI Data Center Strategy:Qualcomm completed its $3.92 billion acquisition of Modular Inc. to boost AI software capabilities and targets accelerating data center revenues to $5 billion by fiscal 2027.
+Stock Slams Following Weak Guidance:Qualcomm's stock slid over 7% in extended trading as investors reacted to the light near-term earnings forecast and a sharply weaker outlook for Apple-related revenues.
 insights_auto
-Market Pullback follow by Recovery:Shares initially dropped nearly 7% to a low of $147.61 following the earnings release but recovered through August as long-term AI diversification plans revived investor confidence.
+Diversification Beyond Handsets Gathers Pace:The company completed its acquisition of Modular Inc. and expanded its data center AI infrastructure strategy, aiming for $40 billion in non-handset revenues by fiscal 2029.
 search_spark
-How does Qualcomm plan to mitigate lower profit margins on its incoming custom silicon data center wins?
+How does Qualcomm plan to mitigate rising chip input costs and restore its gross margins?
 search_spark
-What impact will the accelerated decline in Apple modem revenues have on fiscal year 2027 performance?
+What impact will the reduction in Apple-related revenue have on Qualcomm's fiscal 2027 performance?
