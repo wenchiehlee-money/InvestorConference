@@ -270,6 +270,12 @@ Downstream consumers should prefer this official CSV over `../ConceptStocks` pro
 > [!CAUTION]
 > 美股第三方 transcript 只能作補充來源。若 Yahoo/AlphaSpread 與公司 IR、earnings release 或 SEC filing 衝突，digest 應以公司文件與可驗證音訊為準。
 
+## Audio storage boundary
+
+Conference audio is stored only as a GitHub Release asset under the `audio-files`
+release. It is never committed to Git, Git LFS, or Google Drive. Any legacy Google
+Drive migration script is historical-only and must not be used by new ingestion.
+
 ## 📂 檔案清單
 * `scripts/ingest.py`：主 Ingest 邏輯。
 * `scripts/audio_utils.py`：本地音檔狀態與 manifest 讀寫。
