@@ -1,4 +1,4 @@
-<!-- mac-mini-ocr:hybrid-base source="GFS_2026_q2_ir_en.pdf" extractor="fitz" generated="2026-08-07" -->
+<!-- mac-mini-ocr:hybrid-base source="GFS_2026_q2_ir_en.pdf" extractor="pypdf" generated="2026-09-25" -->
 
 # GFS_2026_q2_ir_en.pdf（文字層抽取，必要頁面以 Mac-mini OCR 補轉錄）
 
@@ -162,8 +162,8 @@ $1.79B
 4
  (1)  See the Appendix for a detailed reconciliation of Non-IFRS measures to the most directly comparable IFRS measure and for a discussion of why we believe these Non-IFRS measures are useful.
 Second Quarter 2026 Results
-Non-IFRS Gross 
-Margin(1)
+Non-IFRS  Gross 
+Margin (1)
 29.9%
 ↑ 470bps Y/Y
 Non-IFRS Earnings 
@@ -195,31 +195,24 @@ first-ever quarterly
 cash dividend of $0.12 
 per share
 Key Second Quarter 2026 Highlights
-»
-»
-»
-»
-Quarterly Results
-Margin Expansion
-End Market Highlight
-Shareholder Return 
+» »
+» »
+Quarterly Results Margin Expansion
+End Market Highlight Shareholder Return 
  (1)  See the Appendix for a detailed reconciliation of Non-IFRS measures to the most directly comparable IFRS measure and for a discussion of why we believe these Non-IFRS measures are useful.
 
 <!-- PAGE:6 -->
 ## 第 6 頁
 
-<!-- OCR:done source="GFS_2026_q2_ir_en.pdf" page=6 date="2026-08-07" -->
-<!-- OCR_PAGE -->
-Key Announcements
-A
+<!-- TODO:OCR source="GFS_2026_q2_ir_en.pdf" page=6 reason=scanned-page -->
+> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
 
 <!-- PAGE:7 -->
 ## 第 7 頁
 
 7
 GF Accelerates U.S. Silicon Photonics Leadership
-Scaling Technologies for the Next Wave of AI
-Customer-Driven Roadmap
+Scaling Technologies for the Next Wave of AI Customer-Driven Roadmap
 Working with leading customers to ensure emerging NPO and CPO 
 architectures are supported by U.S.-based R&D.
 SCALE™ Platform
@@ -255,14 +248,11 @@ President, Corning Incorporated
 Silicon photonics has the potential to play an important role in supporting next-generation AI 
 platforms by helping address growing bandwidth and connectivity demands. We welcome 
 efforts that advance innovation in this important technology area.” — Kevin O'Buckley, EVP, 
-Global Operations and Supply Chain, Qualcomm Technologies, Inc.
-“
-“
+Global Operations and Supply Chain, Qualcomm Technologies, Inc.“ “
 Scaling US manufacturing requires advances across chips, networking, optics, software, and 
 manufacturing. Silicon photonics is essential to that future, and GlobalFoundries brings the 
 manufacturing expertise to help make it real in the United States.” — Jensen Huang, 
-Founder and CEO, Nvidia
-“
+Founder and CEO, Nvidia“
 GlobalFoundries' announcement helps strengthen the innovation ecosystem needed to 
 accelerate development of these foundational technologies.” — Near Margalit, VP and GM 
 of Optical Systems Division, Broadcom
@@ -275,13 +265,11 @@ We welcome GlobalFoundries’ continued investment in U.S.-based innovation and
 manufacturing, and the broader public-private collaboration needed to advance these 
 foundational technologies.” — Mark Papermaster, CTO and EVP, AMD
 “
-“
-“
+“ “
 GlobalFoundries' investments in silicon photonics and advanced packaging, combined with 
 support from the U.S. government, are helping accelerate an open path to next-generation 
 optical interconnect that will be essential for the future of AI and high-performance 
-computing." — Michael Hurlston, CEO, Lumentum
-“
+computing." — Michael Hurlston, CEO, Lumentum“
 Microsoft welcomes industrywide investments that accelerate innovation and strengthen the 
 ecosystem developing the technologies that will power the future of AI." — Rani Borkar, 
 President of Azure Hardware Systems and Infrastructure, Microsoft
@@ -301,7 +289,7 @@ market within AI data centers.
 Incremental Benefits From Acquisition:
 GF Acquires Photeon Technologies' IVR Team
 GF brings together a unique combination of capabilities under one 
-roof: FinFET technology, advanced thin-film integrated magnetics, 
+r o o f :  F i n F E T  t e c h n o l o g y ,  a d v a n c e d  t h i n - f i l m  i n t e g r a t e d  m a g n e t i c s ,  
 semiconductor manufacturing, and system understanding expertise. 
 Together, these capabilities give us the opportunity to fundamentally 
 rethink voltage regulation for AI processors.
@@ -355,8 +343,7 @@ Team
 
 11
 GF Establishes Quantum Technology Solutions
-GF Enabling The Next Frontier Of Computation
-Cryogenic CMOS & Advanced Packaging
+GF Enabling The Next Frontier Of Computation Cryogenic CMOS & Advanced Packaging
 Proven FDX cryo-CMOS read-out & control, extended with 3D 
 heterogeneous packaging & superconducting interconnects.
 Qubit-Agnostic Platform
@@ -392,36 +379,28 @@ Dimmock, CEO, Quantum Motion
 GlobalFoundries' commitment to scaling quantum is an important step for 
 innovation in the quantum computing ecosystem." — Timothy Costa, Vice 
 President and General Manager for Computational Engineering and Quantum, 
-NVIDIA
-“
-“
+NVIDIA“ “
 Diraq’s work with GlobalFoundries on FDX™ has been central to advancing 
 our cryogenic CMOS and silicon spin qubit technologies on an established 
-manufacturing node.” — Andrew Dzurak, Founder and CEO, Diraq
-“
+manufacturing node.” — Andrew Dzurak, Founder and CEO, Diraq“
 A dedicated quantum foundry at GF will give us the manufacturing 
 capabilities to advance our roadmap and bring our next wave of quantum 
-systems closer to real-world deployment.” — Jason Lynch, CEO, Equal1
-“
+systems closer to real-world deployment.” — Jason Lynch, CEO, Equal1“
 GlobalFoundries' investment marks an important step to strengthen the U.S.-
 based manufacturing foundation for the quantum ecosystem.” — Charina 
-Chou, COO, Google Quantum AI
-“
+Chou, COO, Google Quantum AI“
 A secure U.S. manufacturing base, capable of building across multiple qubit 
 modalities, is essential to moving quantum from research milestones to 
 practical computing.” — Lauri Sainiemi, Corporate Vice President, Fabrication 
 at Microsoft Quantum
 “
-“
-“
+“ “
 
 <!-- PAGE:13 -->
 ## 第 13 頁
 
-<!-- OCR:done source="GFS_2026_q2_ir_en.pdf" page=13 date="2026-08-07" -->
-<!-- OCR_PAGE -->
-End Markets
-40
+<!-- TODO:OCR source="GFS_2026_q2_ir_en.pdf" page=13 reason=scanned-page -->
+> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
 
 <!-- PAGE:14 -->
 ## 第 14 頁
@@ -547,80 +526,15 @@ trusted U.S. foundry.
 ## 第 19 頁
 
 (Unaudited, in millions USD)
- 
- 
- 
- 
- 
- 
-Year-over-Year
-Sequential
- 
- Q2 2026
-Q1 2026
-Q2 2025
-Q2 2026 vs Q2 2025 Q2 2026 vs Q1 2026
-Smart Mobile Devices
- 
-$644
-$558
-$683
- 
-$(39)
-(6)%
-$86
-15%
+        Year-over-Year  Sequential
+  Q2 2026  Q1 2026  Q2 2025  Q2 2026 vs Q2 2025  Q2 2026 vs Q1 2026
+Smart Mobile Devices  $644 $558 $683  $(39) (6)%  $86 15%
 Communications Infrastructure 
-and Data Center
- 
-$277
-$230
-$171
- 
-$106
-62%
-$47
-20%
-Home and Industrial IoT
- 
-$331
-$255
-$300
- 
-$31
-10%
-$76
-30%
-Automotive
- 
-$333
-$382
-$368
- 
-$(35)
-(10)%
-$(49)
-(13)%
-Technology Services 
- 
-$201
-$209
-$166
- 
-$35
-21%
-$(8)
-(4)%
-Revenue
- 
-$1,786
-$1,634
-$1,688
- 
-$98
-6%
-$152
-9%
+and Data Center  $277 $230 $171  $106 62%  $47 20%
+Home and Industrial IoT  $331 $255 $300  $31 10%  $76 30%
+Automotive  $333 $382 $368  $(35) (10)%  $(49) (13)%
+Technology Services  $201 $209 $166  $35 21%  $(8) (4)%
+Revenue  $1,786 $1,634 $1,688  $98 6%  $152 9%
 19
 Q2 2026 Revenue by End Market 
 ((Unaudited, in millions)
@@ -640,8 +554,7 @@ Q2 2026 Revenue Mix by End Market
 19%
 19%
 11%
-Q2 2025
-Q2 2026
+Q2 2025Q2 2026
 Smart Mobile Devices
 Communications Infrastructure and Data Center
 Home and Industrial IoT
@@ -654,28 +567,23 @@ Totals may not sum to 100% due to rounding
 ## 第 21 頁
 
 Capital Allocation
-▪We continue to expect adjusted 
+▪ We continue to expect adjusted 
 free cash flow margin(1) of 
 approximately 10% for the full year 
 2026.
-▪GF's Board of Directors approved a 
+▪ GF's Board of Directors approved a 
 continuation of our $0.12 quarterly 
 dividend, payable on October 9, 
 2026 to shareholders of record as 
 of September 23, 2026.
 Year-to-Date 2026
-Cash flow from operations
-$947
-Capital expenditures
-$723 (21% of Revenue)
+Cash flow from operations $947
+Capital expenditures $723 (21% of Revenue)
 Non-IFRS Capital expenditures 
-net of government grants(1)
-$717 (21% of Revenue)
-Non-IFRS Adjusted FCF(1)
-$230 (7% of Revenue)
+net of government grants(1) $717 (21% of Revenue)
+Non-IFRS Adjusted FCF(1) $230 (7% of Revenue)
 Cash, cash equivalent and 
-marketable securities
-$3.3B at the end of Q2’26
+marketable securities $3.3B at the end of Q2’26
  (1) See the Appendix for a detailed reconciliation of Non-IFRS measures to the most directly comparable IFRS measure and for a discussion of 
 why we believe these Non-IFRS measures are useful.
 21
@@ -683,37 +591,31 @@ why we believe these Non-IFRS measures are useful.
 <!-- PAGE:22 -->
 ## 第 22 頁
 
-<!-- OCR:done source="GFS_2026_q2_ir_en.pdf" page=22 date="2026-08-07" -->
-<!-- OCR_PAGE -->
-Outlook
-H
-22
+<!-- TODO:OCR source="GFS_2026_q2_ir_en.pdf" page=22 reason=scanned-page -->
+> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
 
 <!-- PAGE:23 -->
 ## 第 23 頁
 
 Q3 2026 Guidance(1)
 (Unaudited, in millions USD, except per share amounts)
-(1)  The Guidance provided contains forward-looking statements as defined in the U.S. Private Securities Litigation Act of 1995, and is subject to the safe harbors created therein. The Guidance includes management's beliefs and assumptions and is
-based on information that is available as of the date of this release.
-(2)  Non-IFRS gross margin, Non-IFRS operating expenses, Non-IFRS operating margin and Non-IFRS diluted EPS are Non-IFRS measures and, for purposes of the Guidance only, are defined as gross profit as a percent of revenue, operating
+(1)  The Guidance provided contains forward-looking statements as defined in the U.S. Private Securities Litigation Act of 1995, and is subject to the safe harbors created therein. The Guidance includes management's beliefs and assumptions and is 
+based on information that is available as of the date of this release. 
+(2)  Non-IFRS gross margin, Non-IFRS operating expenses, Non-IFRS operating margin and Non-IFRS diluted EPS are Non-IFRS measures and, for purposes of the Guidance only, are defined as gross profit as a percent of revenue, operating 
 expenses, operating profit as a percent of revenue, and diluted EPS, all before share-based compensation, respectively. See "Financial Measures (Non-IFRS)" for further discussion on these Non-IFRS measures and why we believe they are useful.
-(3)  We expect share-based compensation of $18 million and $58 million in cost of revenue and operating expenses, respectively. The Non-IFRS margin impacts are calculated by dividing share-based compensation by net revenue, and the Non-IFRS
+(3)  We expect share-based compensation of $18 million and $58 million in cost of revenue and operating expenses, respectively. The Non-IFRS margin impacts are calculated by dividing share-based compensation by net revenue, and the Non-IFRS 
 diluted EPS impact is calculated by dividing share-based compensation by the fully diluted share count.
-(4)  Included in IFRS and Non-IFRS diluted EPS is net interest income (expense) and other income (expense) which we estimate will be between $3 million and $11 million for the third quarter 2026. Also included in IFRS and Non-IFRS diluted EPS is
-income tax expense which we estimate will be between $28 million and $52 million for the third quarter 2026.
+(4)  Included in IFRS and Non-IFRS diluted EPS is net interest income (expense) and other income (expense) which we estimate will be between $3 million and $11 million for the third quarter 2026. Also included in IFRS and Non-IFRS diluted EPS is 
+income tax expense which we estimate will be between $28 million and $52 million for the third quarter 2026. 
+IFRS Share-Based 
+Compensation(3) Non-IFRS(2)
+Net Revenue $1,885 ± $25
+Gross Margin(2) 29.5% ± 100bps ~100bps 30.5% ± 100bps
+Operating Expenses(2) $318 ± $10 ~$58 $260 ± $10
+Operating Margin(2) 12.7% ± 170bps ~400bps 16.7% ± 170bps
+Diluted EPS(2)(4) $0.37 ± $0.05 ~$0.14 $0.51 ± $0.05
+Fully Diluted Share Count ~556
 23
-
-**表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
-|  |  |  |  |  | Non-IFRS(2) |
-|---|---|---|---|---|---|
-|  |  |  |  |  |  |
-| Gross Margin(2) | 29.5% ± 100bps |  | ~100bps |  | 30.5% ± 100bps |
-|  |  |  |  |  | $260 ± $10 |
-| Operating Margin(2) | 12.7% ± 170bps |  | ~400bps |  | 16.7% ± 170bps |
-|  |  |  | ~$0.14 |  | $0.51 ± $0.05 |
-| Fully Diluted Share Count | ~556 |  |  |  |  |
-
 
 <!-- PAGE:24 -->
 ## 第 24 頁
@@ -728,119 +630,54 @@ Reconciliations
 
 (Unaudited, in millions, except per share data and wafer shipments)
 (1) See the Appendix for a detailed reconciliation of Non-IFRS measures to the most directly comparable IFRS measure and for a discussion of why we believe these Non-IFRS measures are useful.
-Year-over-Year
-Sequential
+Year-over-Year Sequential
+Q2 2026 Q1 2026 Q2 2025 Q2 2026 vs Q2 2025 Q2 2026 vs Q1 2026
+Net revenue $ 1,786 $ 1,634 $ 1,688 $ 98  6% $ 152  9 %
+Gross profit $ 505 $ 451 $ 408 $ 97  24 % $ 54  12 %
+Gross margin  28.3%  27.6%  24.2% +410bps +70bps
+Non-IFRS gross profit(1) $ 534 $ 474 $ 425 $ 109  26 % $ 60  13 %
+Non-IFRS gross margin(1)  29.9%  29.0%  25.2% +470bps +90bps
+Operating profit $ 174 $ 180 $ 196 $ (22)  (11%) $ (6)  (3) %
+Operating margin  9.7%  11.0%  11.6% (190)bps (130)bps
+Non-IFRS operating profit(1) $ 298 $ 271 $ 258 $ 40  16% $ 27  10 %
+Non-IFRS operating margin(1)  16.7%  16.6%  15.3% +140bps +10bps
+Net income $ 167 $ 104 $ 228 $ (61)  (27%) $ 63  61 %
+Net income margin  9.4%  6.4%  13.5% (410)bps +300bps
+Non-IFRS net income(1) $ 256 $ 227 $ 234 $ 22  9% $ 29  13 %
+Non-IFRS net income margin(1)  14.3%  13.9%  13.9% +40bps +40bps
+Diluted earnings per share ("EPS") $ 0.30 $ 0.18 $ 0.41 $ (0.11)  (27) % $ 0.12  67 %
+Non-IFRS diluted EPS(1) $ 0.46 $ 0.40 $ 0.42 $ 0.04  10% $ 0.06  15 %
+Non-IFRS adjusted EBITDA(1) $ 587 $ 561 $ 585 $ 2  — % $ 26  5 %
+Non-IFRS adjusted EBITDA margin(1)  32.9%  34.3%  34.7% (180)bps (140)bps
+Cash from operations $ 405 $ 542 $ 431 $ (26)  (6) % $ (137)  (25) %
+Wafer shipments (300MM Equivalent) (in thousands)  625  579  581  44  8 %  46  8 %
 25
 Q2 2026 Financial Summary
-
-**表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
-|  | Q2 2026 |  |
-|---|---|---|
-| Net revenue | $ 1,786 | $ 1,634 $ 1,688 $ 98 6% $ 152 9 % |
-| Gross profit | $ 505 | $ 451 $ 408 $ 97 24 % $ 54 12 % |
-| Gross margin | 28.3% | 27.6% 24.2% +410bps +70bps |
-| Non-IFRS gross profit(1) | $ 534 | $ 474 $ 425 $ 109 26 % $ 60 13 % |
-| Non-IFRS gross margin(1) | 29.9% | 29.0% 25.2% +470bps +90bps |
-| Operating profit | $ 174 | $ 180 $ 196 $ (22) (11%) $ (6) (3) % |
-| Operating margin | 9.7% | 11.0% 11.6% (190)bps (130)bps |
-| Non-IFRS operating profit(1) | $ 298 | $ 271 $ 258 $ 40 16% $ 27 10 % |
-| Non-IFRS operating margin(1) | 16.7% | 16.6% 15.3% +140bps +10bps |
-| Net income | $ 167 | $ 104 $ 228 $ (61) (27%) $ 63 61 % |
-| Net income margin | 9.4% | 6.4% 13.5% (410)bps +300bps |
-| Non-IFRS net income(1) | $ 256 | $ 227 $ 234 $ 22 9% $ 29 13 % |
-| Non-IFRS net income margin(1) | 14.3% | 13.9% 13.9% +40bps +40bps |
-| Diluted earnings per share ("EPS") | $ 0.30 | $ 0.18 $ 0.41 $ (0.11) (27) % $ 0.12 67 % |
-| Non-IFRS diluted EPS(1) | $ 0.46 | $ 0.40 $ 0.42 $ 0.04 10% $ 0.06 15 % |
-| Non-IFRS adjusted EBITDA(1) | $ 587 | $ 561 $ 585 $ 2 — % $ 26 5 % |
-| Non-IFRS adjusted EBITDA margin(1) | 32.9% | 34.3% 34.7% (180)bps (140)bps |
-| Cash from operations | $ 405 | $ 542 $ 431 $ (26) (6) % $ (137) (25) % |
-| Wafer shipments (300MM Equivalent) (in thousands) | 625 | 579 581 44 8 % 46 8 % |
-
 
 <!-- PAGE:26 -->
 ## 第 26 頁
 
 Statement of Operations
 Three Months Ended
-June 30, 2026
-March 31, 2026
-June 30, 2025
-Net revenue
-$ 
-1,786 $ 
-1,634 $ 
-1,688 
-Cost of revenue
- 
-1,281  
-1,183  
-1,280 
-Gross profit 
-$ 
-505 $ 
-451 $ 
-408 
+June 30, 2026 March 31, 2026 June 30, 2025
+Net revenue $ 1,786 $ 1,634 $ 1,688 
+Cost of revenue  1,281  1,183  1,280 
+Gross profit $ 505 $ 451 $ 408 
 Operating expenses:
-Research and development 
- 
-174  
-132  
-134 
-Selling, general and administrative 
- 
-157  
-139  
-78 
-Operating expenses
-$ 
-331 $ 
-271 $ 
-212 
-Operating profit
-$ 
-174 $ 
-180 $ 
-196 
-Finance income (expense), net
- 
-9  
-15  
-17 
-Other income (expense), net
- 
-13  
-(10)  
-8 
-Income tax (expense) benefit
- 
-(29)  
-(81)  
-7 
-Net income
-$ 
-167 $ 
-104 $ 
-228 
+Research and development  174  132  134 
+Selling, general and administrative  157  139  78 
+Operating expenses $ 331 $ 271 $ 212 
+Operating profit $ 174 $ 180 $ 196 
+Finance income (expense), net  9  15  17 
+Other income (expense), net  13  (10)  8 
+Income tax (expense) benefit  (29)  (81)  7 
+Net income $ 167 $ 104 $ 228 
 EPS:
-Basic
-$ 
-0.30 $ 
-0.19 $ 
-0.41 
-Diluted
-$ 
-0.30 $ 
-0.18 $ 
-0.41 
+Basic $ 0.30 $ 0.19 $ 0.41 
+Diluted $ 0.30 $ 0.18 $ 0.41 
 Shares used in EPS calculation:
-Basic
-549
-555
-555
-Diluted
-556
-561
-557
+Basic 549 555 555
+Diluted 556 561 557
 (Unaudited, in millions, except per share amounts)
 26
 
@@ -849,41 +686,37 @@ Diluted
 
 Statements of Financial Position
 (Unaudited, in millions)
+As of 
+June 30, 2026 December 31, 2025
+Assets:
+Cash and cash equivalents $ 1,087 $ 1,809 
+Marketable securities  1,270  1,241 
+Receivables, prepayments and other  1,489  1,578 
+Inventories  1,622  1,577 
+Current assets  5,468  6,205 
+Property, plant, and equipment, net  7,098  7,223 
+Goodwill and intangible assets, net  1,861  1,368 
+Marketable securities  946  939 
+Right-of-use assets  578  569 
+Other assets  937  837 
+Non-current assets  11,420  10,936 
+Total assets $ 16,888 $ 17,141 
+Liabilities and equity:
+Current portion of long-term debt $ 98 $ 86 
+Other current liabilities  2,111  2,282 
+Current liabilities  2,209  2,368 
+Non-current portion of long-term debt  1,024  1,065 
+Non-current portion of lease obligations  495  487 
+Other liabilities  1,286  1,238 
+Non-current liabilities  2,805  2,790 
+Total liabilities  5,014  5,158 
+Shareholders’ equity:
+Common stock / additional paid-in capital $ 23,937 $ 24,231 
+Accumulated deficit  (12,178)  (12,381) 
+Accumulated other comprehensive income  59  78 
+Non-controlling interests  56  55 
+Total liabilities and equity $ 16,888 $ 17,141 
 27
-
-**表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
-|  |  | As of |
-|---|---|---|
-|  | June 30, 2026 December 31, 2025 |  |
-| Assets: |  |  |
-| Cash and cash equivalents $ 1,087 $ 1,809 |  |  |
-| Marketable securities 1,270 1,241 |  |  |
-| Receivables, prepayments and other 1,489 1,578 |  |  |
-| Inventories 1,622 1,577 |  |  |
-| Current assets 5,468 6,205 |  |  |
-| Property, plant, and equipment, net 7,098 7,223 |  |  |
-| Goodwill and intangible assets, net 1,861 1,368 |  |  |
-| Marketable securities 946 939 |  |  |
-| Right-of-use assets 578 569 |  |  |
-| Other assets 937 837 |  |  |
-| Non-current assets 11,420 10,936 |  |  |
-| Total assets $ 16,888 $ 17,141 |  |  |
-| Liabilities and equity: |  |  |
-| Current portion of long-term debt $ 98 $ 86 |  |  |
-| Other current liabilities 2,111 2,282 |  |  |
-| Current liabilities 2,209 2,368 |  |  |
-| Non-current portion of long-term debt 1,024 1,065 |  |  |
-| Non-current portion of lease obligations 495 487 |  |  |
-| Other liabilities 1,286 1,238 |  |  |
-| Non-current liabilities 2,805 2,790 |  |  |
-| Total liabilities 5,014 5,158 |  |  |
-| Shareholders’ equity: |  |  |
-| Common stock / additional paid-in capital $ 23,937 $ 24,231 |  |  |
-| Accumulated deficit (12,178) (12,381) |  |  |
-| Accumulated other comprehensive income 59 78 |  |  |
-| Non-controlling interests 56 55 |  |  |
-| Total liabilities and equity $ 16,888 $ 17,141 |  |  |
-
 
 <!-- PAGE:28 -->
 ## 第 28 頁
@@ -891,87 +724,29 @@ Statements of Financial Position
 Statement of Cash Flows
 (Unaudited, in millions)
 Three Months Ended
-June 30, 2026
-June 30, 2025
+June 30, 2026 June 30, 2025
 Operating Activities:
-Net income 
-$ 
-167 $ 
-228 
-Depreciation and amortization
- 
-307  
-335 
-Finance (income) expense, net and other
- 
-(14)  
-(8) 
-Deferred income taxes
- 
-18  
-(20) 
-Net change in working capital 
- 
-(115)  
-(136) 
-Other non-cash operating activities
- 
-42  
-32 
-Net cash provided by operating activities
-$ 
-405 $ 
-431 
+Net income $ 167 $ 228 
+Depreciation and amortization  307  335 
+Finance (income) expense, net and other  (14)  (8) 
+Deferred income taxes  18  (20) 
+Net change in working capital  (115)  (136) 
+Other non-cash operating activities  42  32 
+Net cash provided by operating activities $ 405 $ 431 
 Investing Activities:
-Purchases of property, plant and equipment and intangible assets
-$ 
-(411) $ 
-(159) 
-Acquisitions, net of cash acquired
- 
-(440)  
-— 
-Net sales (purchases) of marketable securities
- 
-(294)  
-(23) 
-Other investing activities
- 
-26  
-(25) 
-Net cash used in investing activities
-$ 
-(1,119) $ 
-(207) 
+Purchases of property, plant and equipment and intangible assets $ (411) $ (159) 
+Acquisitions, net of cash acquired  (440)  — 
+Net sales (purchases) of marketable securities  (294)  (23) 
+Other investing activities  26  (25) 
+Net cash used in investing activities $ (1,119) $ (207) 
 Financing Activities:
-Proceeds from issuance of equity instruments, net of taxes paid
-$ 
-(3) $ 
-1 
-Proceeds (repayment) of debt, net
- 
-(45)  
-(36) 
-Net cash used in financing activities 
-$ 
-(48) $ 
-(35) 
-Effect of exchange rate changes
- 
-—  
-5 
-Net change in cash and cash equivalents
-$ 
-(762) $ 
-194 
-Cash and cash equivalents at the beginning of the period
- 
-1,849  
-1,596 
-Cash and cash equivalents at the end of the period
-$ 
-1,087 $ 
-1,790 
+Proceeds from issuance of equity instruments, net of taxes paid $ (3) $ 1 
+Proceeds (repayment) of debt, net  (45)  (36) 
+Net cash used in financing activities $ (48) $ (35) 
+Effect of exchange rate changes  —  5 
+Net change in cash and cash equivalents $ (762) $ 194 
+Cash and cash equivalents at the beginning of the period  1,849  1,596 
+Cash and cash equivalents at the end of the period $ 1,087 $ 1,790 
 28
 
 <!-- PAGE:29 -->
@@ -982,6 +757,7 @@ IFRS to Non-IFRS Reconciliations (1)
 (1)  See "Financial Measures (Non-IFRS)" for further discussion on these Non-IFRS measures and why we believe they are useful.
 (2)  Structural optimization represents costs associated with employee workforce reductions, manufacturing footprint alignment and liquidation charges.
 (3)  Includes tax impact from foreign exchange revaluation of German deferred taxes.
+ 
 Three Months Ended June 30, 2026
 Gross profit
 Selling, 
@@ -989,29 +765,30 @@ general &
 administrative
 Research & 
 development
-Operating
+Operating 
 profit
-Other income
+Other income 
 (expense)
-Income tax
-(expense)
+Income tax 
+(expense) 
 benefit
-Net income 
-Diluted EPS
+Net income Diluted EPS
+As Reported $ 505 $ 157 $ 174 $ 174 $ 13 $ (29) $ 167 $ 0.30 
+IFRS margins (1)  28.3%  9.7%  9.4% 
+Share-based 
+compensation  23  (38)  (25)  86  —  (3)  83  0.15 
+Structural optimization(2)  3  (4)  —  7  —  (2)  5  0.01 
+Amortization of acquired 
+intangibles and other 
+acquisition related 
+charges
+ 3  (23)  (5)  31  —  —  31  0.06 
+Revaluation and gain on 
+sale equity investments  —  —  —  —  (25)  5  (20)  (0.04) 
+Tax matters(3)  —  —  —  —  —  (10)  (10)  (0.02) 
+Non-IFRS measures(1) $ 534 $ 92 $ 144 $ 298 $ (12) $ (39) $ 256 $ 0.46 
+Non-IFRS margins (1)  29.9%  16.7%  14.3% 
 29
-
-**表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
-| As Reported $ 505 $ 157 $ 174 $ 174 $ 13 $ (29) $ 167 | $ 0.30 |
-|---|---|
-| IFRS margins (1) 28.3% 9.7% 9.4% |  |
-| Share-based; 23 (38) (25) 86 — (3) 83 0.15; compensation |  |
-| Structural optimization(2) 3 (4) — 7 — (2) 5 0.01 |  |
-| Amortization of acquired; intangibles and other; 3 (23) (5) 31 — — 31 0.06; acquisition related; charges |  |
-| Revaluation and gain on; — — — — (25) 5 (20) (0.04); sale equity investments |  |
-| Tax matters(3) — — — — — (10) (10) (0.02) |  |
-| Non-IFRS measures(1) $ 534 $ 92 $ 144 $ 298 $ (12) $ (39) $ 256 $ 0.46 |  |
-| Non-IFRS margins (1) 29.9% 16.7% 14.3% |  |
-
 
 <!-- PAGE:30 -->
 ## 第 30 頁
@@ -1019,6 +796,7 @@ Diluted EPS
 (1) See "Financial Measures (Non-IFRS)" for further discussion on these Non-IFRS measures and why we believe they are useful.
 (2)  Structural optimization represents costs associated with employee workforce reductions, manufacturing footprint alignment and liquidation charges.
 (3)  Includes $38 million tax impact from foreign exchange revaluation of German deferred taxes.
+ 
 Three Months Ended March 31, 2026
 Gross profit
 Selling, 
@@ -1026,30 +804,30 @@ general &
 administrative
 Research & 
 development
-Operating
+Operating 
 profit
-Other income
+Other income 
 (expense)
-Income tax
-(expense)
+Income tax 
+(expense) 
 benefit
-Net income
-Diluted EPS
+Net income Diluted EPS
+As Reported $ 451 $ 139 $ 132 $ 180 $ (10) $ (81) $ 104 $ 0.18 
+IFRS margins (1)  27.6%  11.0%  6.4% 
+Share-based 
+compensation  16  (32)  (15)  63  —  (2)  61  0.11 
+Structural optimization(2)  2  (3)  (1)  6  —  (1)  5  0.01 
+Amortization of acquired 
+intangibles and other 
+acquisition related 
+charges
+ 5  (15)  (2)  22  —  (3)  19  0.03 
+Tax matters(3)  —  —  —  —  —  38  38  0.07 
+Non-IFRS measures (1) $ 474 $ 89 $ 114 $ 271 $ (10) $ (49) $ 227 $ 0.40 
+Non-IFRS margins (1)  29.0%  16.6%  13.9% 
 (Unaudited, in millions, except per share amounts)
 IFRS to Non-IFRS Reconciliations(1)
 30
-
-**表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
-| As Reported $ 451 $ 139 $ 132 $ 180 |  |  |  |  |  |  |  |  |  | $ (10) | $ (81) |  | $ 104 |  | $ 0.18 |  |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| IFRS margins (1) 27.6% 11.0% |  |  |  |  |  |  |  |  |  |  |  |  | 6.4% |  |  |  |
-| Share-based; compensation | 16 |  |  | (32) | (15) 63 |  |  |  |  | — |  | (2) | 61 |  | 0.11 |  |
-| Structural optimization(2) 2 (3) (1) 6 |  |  |  |  |  |  |  |  |  | — |  | (1) | 5 |  | 0.01 |  |
-| Amortization of acquired; intangibles and other; 5 (15) (2) 22; acquisition related; charges |  |  |  |  |  |  |  |  |  | — |  | (3) | 19 |  | 0.03 |  |
-| Tax matters(3) |  | — |  | — |  | — |  | — |  | — |  | 38 |  | 38 |  | 0.07 |
-| Non-IFRS measures (1) $ 474 $ 89 $ 114 $ 271 $ (10) $ (49) $ 227 $ 0.40 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| Non-IFRS margins (1) 29.0% 16.6% 13.9% |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-
 
 <!-- PAGE:31 -->
 ## 第 31 頁
@@ -1061,15 +839,28 @@ general &
 administrative
 Research & 
 development
-Operating
+Operating 
 profit
-Other income
+Other income 
 (expense)
-Income tax
-(expense)
+Income tax 
+(expense) 
 benefit
-Net income 
-Diluted EPS
+Net income Diluted EPS
+As Reported $ 408 $ 78 $ 134 $ 196 $ 8 $ 7 $ 228 $ 0.41 
+IFRS margins (1)  24.2%  11.6%  13.5% 
+Share-based 
+compensation  17  (29)  (8)  54  —  (2)  52  0.09 
+Structural optimization(2)  —  (5)  —  5  (24)  —  (19)  (0.03) 
+Amortization of acquired 
+intangibles and other 
+acquisition related 
+charges
+ —  (2)  (1)  3  —  —  3  0.01 
+Litigation claims  —  —  —  —  9  (1)  8  0.01 
+Tax matters(3)  —  —  —  —  —  (38)  (38)  (0.07) 
+Non-IFRS Measures (1) $ 425 $ 42 $ 125 $ 258 $ (7) $ (34) $ 234 $ 0.42 
+Non-IFRS margins (1)  25.2%  15.3%  13.9% 
 (Unaudited, in millions, except per share amounts)
 IFRS to Non-IFRS Reconciliations(1)
 31
@@ -1077,55 +868,26 @@ IFRS to Non-IFRS Reconciliations(1)
 (2)  Structural optimization represents costs associated with employee workforce reductions, manufacturing footprint alignment and liquidation charges.
 (3) Comprised of net deferred tax asset recognition and foreign exchange impact.
 
-**表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
-| As Reported $ 408 $ 78 $ 134 $ 196 |  |  |  | $ 8 | $ 7 $ 228 |  | $ 0.41 |
-|---|---|---|---|---|---|---|---|
-| IFRS margins (1) 24.2% 11.6% |  |  |  |  |  | 13.5% |  |
-| Share-based; compensation | 17 | (29) | (8) 54 | — | (2) 52 |  | 0.09 |
-| Structural optimization(2) — (5) — 5 (24) — (19) (0.03) |  |  |  |  |  |  |  |
-| Amortization of acquired; intangibles and other; — (2) (1) 3 — — 3 0.01; acquisition related; charges |  |  |  |  |  |  |  |
-| Litigation claims — — — — 9 (1) 8 0.01 |  |  |  |  |  |  |  |
-| Tax matters(3) — — — — — (38) (38) (0.07) |  |  |  |  |  |  |  |
-| Non-IFRS Measures (1) $ 425 $ 42 $ 125 $ 258 $ (7) $ (34) $ 234 $ 0.42 |  |  |  |  |  |  |  |
-| Non-IFRS margins (1) 25.2% 15.3% 13.9% |  |  |  |  |  |  |  |
-
-
 <!-- PAGE:32 -->
 ## 第 32 頁
 
 Three Months Ended
-June 30, 2026
-March 31, 2026
-June 30, 2025
-Net cash provided by operating activities
-$ 
-405 
-$ 
-542 
-$ 
-431
+June 30, 2026 March 31, 2026 June 30, 2025
+Net cash provided by operating activities $ 405 $ 542 $ 431 
 Less: Purchases of property, plant and 
-equipment and intangible assets
- 
-(411) 
- 
-(312) 
- 
-(159)
+equipment and intangible assets  (411)  (312)  (159) 
+Add: Proceeds from government grants  3  3  5 
+Non-IFRS total capital expenditures net of 
+proceeds from government grants(1) $ (408) $ (309) $ (154) 
+Non-IFRS adjusted free cash flow(1) $ (3) $ 233 $ 277 
+Non-IFRS adjusted free cash flow margin(1)  (0.2) %  14.3 %  16.4 %
 (1)    See "Financial Measures (Non-IFRS)" for further discussion on this Non-IFRS measure and why we believe it is useful.
+ 
 (Unaudited, in millions)
 32
 IFRS to Non-IFRS Reconciliation 
 Non-IFRS Adjusted Free Cash Flow(1)
 a
-
-**表格 1（自動偵測，儲存格合併已保留空白,不做重複填值)：**
-| Add: Proceeds from government grants 3 3 5 |  |
-|---|---|
-| Non-IFRS total capital expenditures net of; $ (408); proceeds from government grants(1) | $ (309) $ (154) |
-| Non-IFRS adjusted free cash flow(1) $ (3) $ 233 $ 277 |  |
-| Non-IFRS adjusted free cash flow margin(1) (0.2) % | 14.3 % 16.4 % |
-
 
 <!-- PAGE:33 -->
 ## 第 33 頁
@@ -1134,101 +896,21 @@ IFRS to Non-IFRS Reconciliation
 Non-IFRS Adjusted EBITDA(1) 
 (1)  See "Financial Measures (Non-IFRS)" for further discussion on this Non-IFRS measure and why we believe it is useful.
 Three Months Ended
-June 30, 2026
-March 31, 2026
-June 30, 2025
-Net revenue
-$ 
-1,786 
-$ 
-1,634 
-$ 
-1,688 
-Net income 
- 
-167 
- 
-104 
- 
-228 
-Net income margin
- 9.4 %
- 6.4 %
- 13.5 %
-Depreciation and amortization
- 
-307 
- 
-311 
- 
-335 
-Finance expense
- 
-23 
- 
-22 
- 
-22 
-Finance income
- 
-(32) 
- 
-(37) 
- 
-(39) 
-Income tax expense (benefit)
- 
-29 
- 
-81 
- 
-(7) 
-Share-based compensation
- 
-86 
- 
-63 
- 
-54 
-Structural optimization
- 
-7 
- 
-6 
- 
-(19) 
-Revaluation of equity investments
- 
-(25) 
- 
-— 
- 
-— 
-Litigation claims
- 
-— 
- 
-— 
- 
-9 
-Other acquisition related charges
- 
-25 
- 
-11 
- 
-2 
-Non-IFRS adjusted EBITDA(1)
-$ 
-587 
-$ 
-561 
-$ 
-585 
-Non-IFRS adjusted EBITDA margin(1)
- 32.9 %
- 34.3 %
- 34.7 %
+June 30, 2026 March 31, 2026 June 30, 2025
+Net revenue $ 1,786 $ 1,634 $ 1,688 
+Net income  167  104  228 
+Net income margin  9.4 %  6.4 %  13.5 %
+Depreciation and amortization  307  311  335 
+Finance expense  23  22  22 
+Finance income  (32)  (37)  (39) 
+Income tax expense (benefit)  29  81  (7) 
+Share-based compensation  86  63  54 
+Structural optimization  7  6  (19) 
+Revaluation of equity investments  (25)  —  — 
+Litigation claims  —  —  9 
+Other acquisition related charges  25  11  2 
+Non-IFRS adjusted EBITDA(1) $ 587 $ 561 $ 585 
+Non-IFRS adjusted EBITDA margin(1)  32.9 %  34.3 %  34.7 %
 (Unaudited, in millions)
 33
 
@@ -1236,7 +918,7 @@ Non-IFRS adjusted EBITDA margin(1)
 ## 第 34 頁
 
 In addition to the financial information presented in accordance with International Financial 
-Reporting Standards ("IFRS"), this presentation includes the following Non-IFRS financial 
+Reporting Standards ("IFRS"), this  presentation includes the following Non-IFRS financial 
 measures: Non-IFRS gross profit, Non-IFRS operating profit, Non-IFRS operating expense, 
 Non-IFRS net income, Non-IFRS selling, general and administrative, Non-IFRS research 
 and development, Non-IFRS other income (expense), Non-IFRS income tax benefit 
