@@ -44,6 +44,20 @@ NON_TW_FISCAL_START_MONTH = {
 # A few source keys were created before the fiscal-quarter resolver was
 # deployed, or use an issuer-specific announcement cycle.  These are the
 # verified calendar-period identities for the current material set.
+# Explicitly verified official-source gaps.  A linked `-` means the issuer
+# page was checked for that quarter and no qualifying document was published;
+# it is a status marker, not a populated material cell.
+OFFICIAL_UNAVAILABLE = {
+    ("AAPL", 2026, 3): {
+        "I": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+        "M": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+    },
+    ("MSFT", 2026, 4): {
+        "I": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+        "M": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+    },
+}
+
 CALENDAR_PERIOD_OVERRIDES = {
     ("DELL", 2026, 1): (2026, 1),
     ("ARM", 2027, 1): (2026, 2),
@@ -280,8 +294,19 @@ def build():
                     field = "F" if match.group(3).lower() == "pdf" else "X"
                     cell[field] = linked(field, MOPS_BLOB + f"downloads/{code}/{path.name}")
 
+    # Add explicit official-source gap markers only after all real files have
+    # been collected.  A real file always wins over a stale gap declaration.
+    for (code, year, quarter), fields in OFFICIAL_UNAVAILABLE.items():
+        cell = rows.get((code, year), {}).get(quarter)
+        if not cell:
+            continue
+        for field, url in fields.items():
+            if not cell.get(field):
+                cell[field] = linked("-", url)
+
     # Classify digest cells only after every source pass has populated A/S/I/M/F/X.
     # G is deliberately excluded because it is generated after digest review.
+    # `[-](...)` is an official-unavailable marker, not a material.
     required_before_gt = ("A", "S", "I", "M", "F", "X")
     for row in rows.values():
         for quarter in range(1, 5):
@@ -289,7 +314,10 @@ def build():
             digest = cell.get("D", "")
             if not digest:
                 continue
-            label = "D" if all(cell.get(field) for field in required_before_gt) else "D-"
+            label = "D" if all(
+                cell.get(field) and not cell.get(field, "").startswith("[-]")
+                for field in required_before_gt
+            ) else "D-"
             cell["D"] = re.sub(r"^\[(?:D|D-)\]", f"[{label}]", digest)
     return rows, digest_sources
 
@@ -329,7 +357,7 @@ def write(rows, digest_sources):
         "The CSV retains source fiscal-year keys for provenance. Each row is one stock/calendar-year; each quarter occupies eight compact columns.",
         "Every populated cell links to the artifact that was verified.",
         "",
-        "`A` audio · `S` FIN.srt · `G` GT.srt · `I` IR presentation PDF · `M` IR presentation MD · `F` financial-report PDF · `X` financial-report MD · `D` digest with all pre-G materials (`A/S/I/M/F/X`) · `D-` digest with one or more pre-G materials missing. Digest precedes GT generation, so missing `G` does not downgrade `D`.",
+        "`A` audio · `S` FIN.srt · `G` GT.srt · `I` IR presentation PDF · `M` IR presentation MD · `F` financial-report PDF · `X` financial-report MD · `-` official source checked but no qualifying document published (not counted as material) · `D` digest with all pre-G materials (`A/S/I/M/F/X`) · `D-` digest with one or more pre-G materials missing. Digest precedes GT generation, so missing `G` does not downgrade `D`.",
         "",
         "|Stock|Year|" + "|".join(FIELDS * 4) + "|",
         "|---|---:|" + "|".join(["---"] * 32) + "|",
@@ -354,7 +382,7 @@ def write(rows, digest_sources):
             for field in FIELDS:
                 value = row.get(q, {}).get(field, "")
                 cells.append(value)
-                if value:
+                if value and not value.startswith("[-]"):
                     totals[q][field] += 1
         lines.append("|" + "|".join(cells) + "|")
     lines.extend([
