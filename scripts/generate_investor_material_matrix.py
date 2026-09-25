@@ -9,6 +9,7 @@ artifact that caused the flag to be present.
 import csv
 import json
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -145,14 +146,15 @@ def build():
 
 
 def write(rows):
-    columns = ["stock", "stock_name", "year"] + [f"q{q}_{field}" for q in range(1, 5) for field in FIELDS]
+    columns = ["stock", "stock_name", "year", "generated_at"] + [f"q{q}_{field}" for q in range(1, 5) for field in FIELDS]
+    generated_at = datetime.now(timezone.utc).isoformat()
     CSV_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     with CSV_OUTPUT.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=columns)
         writer.writeheader()
         for key in sorted(rows, key=lambda item: (rows[item]["stock_name"].casefold(), -item[1], item[0])):
             row = rows[key]
-            output = {"stock": row["stock"], "stock_name": row["stock_name"], "year": row["year"]}
+            output = {"stock": row["stock"], "stock_name": row["stock_name"], "year": row["year"], "generated_at": generated_at}
             for q in range(1, 5):
                 for field in FIELDS:
                     output[f"q{q}_{field}"] = row.get(q, {}).get(field, "")
