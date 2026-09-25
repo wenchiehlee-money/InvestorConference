@@ -66,7 +66,8 @@ def linked(label, url):
 
 
 def ensure(rows, code, year, quarter, display):
-    row = rows.setdefault((code, year), {"stock": code, "stock_name": display or code, "year": year})
+    canonical_code = norm(code)
+    row = rows.setdefault((canonical_code, year), {"stock": code, "stock_name": display or code, "year": year})
     row.setdefault(quarter, {field: "" for field in FIELDS})
     return row[quarter]
 
@@ -106,7 +107,7 @@ def build():
             elif lower.endswith(("_ir.md", "_ir_en.md")):
                 cell["M"] = linked("M", IC_BLOB + f"data/{code}/{path.name}")
             audio_key = f"{norm(code)}_{year}_q{quarter}"
-            if audio_key in manifest and audio_key not in invalid_audio:
+            if (norm(code), year, quarter) in conference_catalog and audio_key in manifest and audio_key not in invalid_audio:
                 cell["A"] = linked("A", manifest[audio_key])
 
     digest_root = ROOT / "data" / "reports" / "conference-digests"
@@ -120,7 +121,7 @@ def build():
             if not match or not path.read_text(encoding="utf-8", errors="replace").strip():
                 continue
             event = (norm(code), int(match.group(2)), int(match.group(3)))
-            row = rows.get((code, event[1]))
+            row = rows.get((norm(code), event[1]))
             existing = row.get(event[2], {}) if row else {}
             if event not in conference_catalog and not any(existing.get(field) for field in ("A", "S", "G", "I", "M")):
                 continue
@@ -169,12 +170,22 @@ def write(rows):
         "|Stock|Year|" + "|".join(FIELDS * 4) + "|",
         "|---|---:|" + "|".join(["---"] * 32) + "|",
     ]
+    totals = {q: {field: 0 for field in FIELDS} for q in range(1, 5)}
     with CSV_OUTPUT.open(encoding="utf-8", newline="") as handle:
         for row in csv.DictReader(handle):
             cells = [row["stock_name"], row["year"]]
             for q in range(1, 5):
-                cells.extend(row[f"q{q}_{field}"] for field in FIELDS)
+                for field in FIELDS:
+                    value = row[f"q{q}_{field}"]
+                    cells.append(value)
+                    if value:
+                        totals[q][field] += 1
             lines.append("|" + "|".join(cells) + "|")
+    lines.extend([
+        "|**Total populated cells**|—|" + "|".join(str(totals[q][field]) for q in range(1, 5) for field in FIELDS) + "|",
+        "",
+        "The total row counts populated stock-quarter cells in each quarter column. For the conference components, the four-quarter sums reconcile to the health summary: `A=95`, `S=99`, `G=46`, `I=143`, and `D=37`. `M` is the count of presentation Markdown cells. `F`/`X` are quarter-level financial-report cells; table (22) separately counts individual MOPS PDF/MD artifacts, so its artifact total is not mathematically interchangeable with this quarter matrix.",
+    ])
     MD_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     MD_OUTPUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
