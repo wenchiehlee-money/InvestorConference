@@ -170,8 +170,7 @@ def write(rows):
         key=lambda item: (
                 1 if (
                     norm(rows[item]["stock"]) in taiwan_ids
-                    if taiwan_ids
-                    else rows[item]["stock"].isdigit()
+                    or rows[item]["stock"].isdigit()
                 ) else 0,
                 rows[item]["stock_name"].casefold(),
                 -item[1],
