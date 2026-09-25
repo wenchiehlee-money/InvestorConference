@@ -2,6 +2,10 @@ group:
   - files:
       - source: data/reports/investor_conference_health_summary.csv
         dest: data/InvestorConference/investor_conference_health_summary.csv
+      - source: data/investor_material_matrix.csv
+        dest: data/InvestorConference/investor_material_matrix.csv
+      - source: docs/investor_material_matrix.md
+        dest: docs/investor_material_matrix.md
       - source: data/financials/raw_ir_quarterly_financials.csv
         dest: data/InvestorConference/raw_ir_quarterly_financials.csv
       - source: raw_column_definition_IC.md

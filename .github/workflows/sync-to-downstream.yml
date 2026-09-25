@@ -9,6 +9,8 @@ on:
       - "raw_column_definition_IC.md"
       - "raw_event_upcoming_earnings.csv"
       - "data/financials/raw_ir_quarterly_financials.csv"
+      - "data/investor_material_matrix.csv"
+      - "docs/investor_material_matrix.md"
       - ".github/sync-biztrends.yml"
       - ".github/sync-mops.yml"
       - ".github/workflows/sync-to-downstream.yml"
