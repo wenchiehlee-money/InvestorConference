@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MOPS_ROOT = ROOT.parent / "MOPS"
 CSV_OUTPUT = ROOT / "data" / "investor_material_matrix.csv"
 MD_OUTPUT = ROOT / "docs" / "investor_material_matrix.md"
-FIELDS = ("A", "S", "G", "I", "M", "F", "X", "D")
+FIELDS = ("A", "S", "G", "I", "M", "F", "X", "D", "D-")
 IC_BLOB = "https://github.com/wenchiehlee-money/InvestorConference/blob/main/"
 IC_RELEASE = "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/"
 MOPS_BLOB = "https://github.com/wenchiehlee-investment/MOPS/blob/main/"
@@ -150,7 +150,13 @@ def build():
             if event not in conference_catalog and not any(existing.get(field) for field in ("A", "S", "G", "I", "M")):
                 continue
             cell = ensure(rows, code, event[1], event[2], display)
-            cell["D"] = linked("D", IC_BLOB + f"data/reports/conference-digests/{code}/{path.name}")
+            digest_url = IC_BLOB + f"data/reports/conference-digests/{code}/{path.name}"
+            # Digest precedes GT generation.  D- means the digest exists but FIN
+            # is still missing, so it cannot yet support FIN review -> GT.
+            if not existing.get("S"):
+                cell["D-"] = linked("D-", digest_url)
+            else:
+                cell["D"] = linked("D", digest_url)
 
     downloads = MOPS_ROOT / "downloads"
     if downloads.exists():
@@ -202,7 +208,7 @@ def write(rows):
         "Each row is one stock/year; each quarter occupies eight compact columns.",
         "Every populated cell links to the artifact that was verified.",
         "",
-        "`A` audio · `S` FIN.srt · `G` GT.srt · `I` IR presentation PDF · `M` IR presentation MD · `F` financial-report PDF · `X` financial-report MD · `D` verified conference digest MD.",
+        "`A` audio · `S` FIN.srt · `G` GT.srt · `I` IR presentation PDF · `M` IR presentation MD · `F` financial-report PDF · `X` financial-report MD · `D` digest with FIN available · `D-` digest with FIN still missing. Digest precedes GT generation, so missing `G` does not downgrade `D`.",
         "",
         "|Stock|Year|" + "|".join(FIELDS * 4) + "|",
         "|---|---:|" + "|".join(["---"] * 32) + "|",
@@ -221,7 +227,7 @@ def write(rows):
     lines.extend([
         "|**Total populated cells**|—|" + "|".join(str(totals[q][field]) for q in range(1, 5) for field in FIELDS) + "|",
         "",
-        "The total row counts populated stock-quarter cells in each quarter column. For the conference components, the four-quarter sums reconcile to the health summary: `A=95`, `S=99`, `G=46`, `I=143`, and `D=37`. `M` is the count of presentation Markdown cells. `F`/`X` are quarter-level financial-report cells; table (22) separately counts individual MOPS PDF/MD artifacts, so its artifact total is not mathematically interchangeable with this quarter matrix.",
+        "The total row counts populated stock-quarter cells in each quarter column. `D` and `D-` are mutually exclusive digest states: `D` has FIN available; `D-` still needs FIN before GT review. `G` is generated after digest review. `F`/`X` are quarter-level financial-report cells; table (22) separately counts individual MOPS PDF/MD artifacts, so its artifact total is not mathematically interchangeable with this quarter matrix.",
     ])
     MD_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     MD_OUTPUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
