@@ -1,0 +1,927 @@
+[METADATA]
+Source: META_2026_q2_exp11
+Language: zh
+---
+(00:00.000) 我的名字是Krista,今天我是您的會議行政部主任。
+(00:04.440) 在這時候,我想歡迎大家來META的第二季度2026年獲得會議通知。
+(00:16.120) 在講講講講後,會有問答和回答的時間。
+(00:20.740) please press star,
+(00:26.300) again,
+(00:26.800) press star 1.
+(00:27.860) 我們請您限制自己一個問題,
+(00:33.400) Thank you very much.
+(00:34.680) Thank you very much.
+(00:39.820) Thank you.
+(00:41.470) 謝謝。
+(00:47.030) 今天與我們討論的結果是Mark Zuckerberg,CEO,和Susan Lee,CFO。
+(00:53.640) 我們今天的言論將包括目前的預測
+(01:35.060) 我們下期再見
+(02:34.570) across our apps is pretty remarkable
+(02:48.310) where our investments in AI
+(02:53.550) 他們在提升人們使用我們的應用程序
+(02:58.230) 並幫助我們的團隊
+(03:31.720) for accelerating our core business
+(03:34.500) 主要商業
+(03:37.660) In Instagram and Facebook
+(03:45.340) LLMs增加了第一個理論的理解,
+(03:51.940) 以及人們的興趣和目標的深入理解。
+(03:55.340) 當他們使用我們的應用程序,
+(03:58.100) 當他們使用我們的應用程序,
+(04:01.460) 更能反映人們的目標和興趣。
+(04:43.160) to determine an ad's relevance
+(04:48.200) on both Facebook and Instagram
+(04:49.760) and on a dollar basis
+(04:51.580) And on a dollar basis,
+(04:58.820) so these AI investments are paying off
+(05:02.320) AI investments are paying off.
+(05:23.690) MUSE Image is going to supercharge this.
+(05:26.330) The model can analyze images
+(05:28.330) improve its own work
+(05:29.930) and produce better ad variations
+(05:31.810) based on advertiser input
+(05:36.410) We also just launched Meta 1
+(05:38.770) a new subscription offering
+(05:40.390) that provides more tools and AI features
+(05:42.570) across our apps
+(05:43.490) As demand grows
+(05:44.730) 我們將在市場增長中提供各種不同的級別和價格選擇。
+(05:46.810) and pricing options there as well
+(05:48.490) And I'm also excited about how AI
+(05:53.340) 早前,
+(05:56.260) 我們也剛剛發佈了Forum,
+(06:02.260) 我預期它會變得更容易發佈新的應用程序,所以我們正在計劃創建更多的想法,
+(06:11.420) as we've done with Threads.
+(06:13.560) It's been a little more than a year
+(06:20.820) 在上個月,我們發佈了MUSE Spark 1.1和MUSE Image。
+(06:25.100) 自從我們重建Meta AI和聯合MUSE Spark,我們看到了60%增加
+(06:36.420) MuseSpark 1.1 is a strong,
+(06:45.060) and multimodal understanding.
+(07:43.880) I'm very excited about this
+(07:48.620) As we move towards a future
+(07:54.540) I think that WhatsApp
+(07:59.440) WhatsApp is already the leading surface
+(08:03.700) where people engage with Meta AI
+(08:07.860) across our messaging apps
+(08:19.420) that even Meta can't see
+(08:31.760) 我們在今個月上輪流發佈了Messenger和WhatsApp的Meta商業,
+(08:35.420) on WhatsApp and Messenger
+(08:36.540) 已經有超過1億的商業用它們來談論他們的客戶或每週完成銷售。
+(08:39.540) using them to talk to their customers
+(09:09.690) giving you competitive intelligence
+(09:12.510) What's working and what's not
+(09:13.570) 而在時間內
+(09:17.230) 讓你開始和整個生意
+(09:21.130) In terms of how we will monetize these
+(09:24.870) 我們有很多訂閱,價格基於量,
+(09:28.550) 我期待我們將繼續進行更多的發展,
+(09:32.270) To be like our ad systems
+(09:33.450) 就像我們的賣賣系統一樣,
+(09:37.310) 在時間上,這將讓我們在我們的計算中
+(09:45.620) 優優獨播劇場——YoYo Television Series Exclusive
+(10:11.560) and new products
+(10:12.480) but we also expect to grow
+(10:14.400) a large business
+(10:15.400) serving large customers as well
+(10:17.140) we've built our API
+(10:18.760) we're rolling out business agents
+(10:20.200) we're getting a lot of offers
+(10:21.280) for compute at a significant premium
+(10:23.060) over what we paid for it
+(10:24.340) and we have more coding
+(10:26.700) and productivity tools
+(10:27.580) on our roadmap as well
+(10:28.840) and we'll have more to share
+(10:30.260) on all of this soon
+(10:31.260) as we get closer
+(10:33.160) to personal super intelligence
+(10:34.580) we are also going to need hardware
+(10:36.780) that allows you to seamlessly
+(10:38.060) interact with it
+(10:38.940) glasses are the ideal form factor
+(10:54.460) 我們剛剛發佈了我們自己的Meta眼鏡
+(11:11.440) exceeding our expectations
+(11:12.460) and we're going to have more to share
+(11:14.780) on our glasses lineup
+(11:15.840) at this year's Connect conference
+(11:17.260) on September 23rd
+(11:18.680) so I encourage you to tune in then
+(11:20.600) before I wrap
+(11:22.540) I want to mention that
+(11:24.300) I just published an op-ed
+(11:26.320) about why I'm so optimistic
+(11:28.300) that we are building a positive future
+(11:30.260) for everyone
+(11:31.000) at Meta
+(11:32.160) we have always built technology
+(11:33.900) to put power in people's hands
+(11:35.680) so that they can connect
+(11:36.840) with the people they care about
+(11:37.860) and shape the world
+(11:39.400) in the ways that they want
+(11:51.420) As we enter this next chapter
+(11:56.640) We're the only major company building AI
+(12:03.340) directly into people's hands
+(12:06.020) We're focused on distributing it widely
+(12:07.700) 並給予每個人的能力
+(12:12.180) 這就是社會一直在進行的方式
+(12:14.240) I think that these are the right values
+(12:16.300) for building a positive AI future
+(12:17.900) And if we help build this
+(12:19.540) 如果我們幫助建立這些
+(12:21.400) a very strong business as well
+(12:23.120) 所以這就是我今天想說的一切
+(12:25.540) AI is improving our core business
+(12:28.220) It's making our apps more relevant
+(12:29.700) 它是讓我們的應用軟件更有用
+(12:31.980) 我們正在達成更多新的產品
+(12:34.640) 我們將有很多更多的產品
+(12:37.390) And we're investing aggressively
+(12:39.110) because the potential is huge
+(12:40.870) 我們知道這裡有很多方法來達到價值
+(12:44.050) 如常,我感謝大家來與我們一起走這達計
+(12:47.730) And now, here's Susan
+(12:49.230) and now, here's Susan
+(12:53.210) Let's begin with our segment results
+(12:55.740) 每個比例都在每年每年的平均程度上
+(13:00.200) 除非其他人不提出
+(13:13.990) or 26% on a constant currency basis
+(13:20.500) served across our services increased 14%
+(13:27.400) driven by growth in engagement and users
+(13:29.920) as well as ad load optimizations
+(13:31.880) The global average price per ad
+(13:34.520) increased 12% year over year
+(13:36.800) driven by ad performance gains
+(13:38.840) improvements in macro conditions
+(13:41.040) relative to Q2 of last year
+(13:43.340) and currency tailwinds
+(13:52.630) For the first time,
+(14:05.980) within our reality lab segment
+(14:08.670) Q2 revenue was $431 million
+(14:11.790) up 16% year over year
+(14:20.490) moving now to our consolidated results
+(14:24.100) Q2 total revenue was $60.8 billion
+(14:32.050) Q2 total expenses were $42 billion
+(14:35.280) up 55% compared to last year
+(14:44.300) and $1.2 billion in severance expenses
+(14:51.200) 年度增長的成果主要是由於增加的聯合資金,
+(14:56.330) 基於資金費用,法律費用,和第三者AI資金費用。
+(15:02.130) 除了之前提到的資金費用,
+(15:05.810) Growth in Employee Compensation
+(15:08.030) was driven by technical hires
+(15:09.910) we've added over the past year
+(15:11.530) particularly AI talent
+(15:13.110) The growth in infrastructure costs
+(15:15.480) was driven by higher depreciation
+(15:17.340) data center operating costs
+(15:19.080) and third-party cloud spend
+(15:20.720) We ended Q2 with over 75,000 employees
+(15:25.380) down 3% from Q1
+(16:39.240) Turning now to the business performance.
+(16:47.980) for our community
+(16:51.500) that engagement over time.
+(16:57.650) 在Instagram上,這一季的全球時間資源增加了兩個數字每年這一季,
+(17:03.660) 大致由於改善了我們的Feed和Reels推薦。
+(17:07.520) 在Facebook上,我們看到了我們的視頻時間增加了9%每年,
+(17:13.240) and over 10% within the US and Canada
+(17:19.410) 我們發現LLMs更加能夠達到計算和推薦的增長
+(18:17.700) across signals like
+(18:19.740) and summarization
+(18:20.680) and we've seen positive early results
+(18:22.900) Finally, our recommendations
+(18:26.260) are also becoming more personalized
+(18:28.120) surfacing more fresh content
+(18:29.880) while giving people more direct control
+(18:31.840) over what they see
+(18:36.130) ranking improvement to date
+(18:37.430) combining faster inference
+(18:39.150) with a new architecture
+(18:40.130) that draws on deeper user history
+(18:42.170) to improve predictions
+(18:43.350) This drove a 15 basis point increase
+(18:46.450) in its sessions on Instagram
+(18:47.890) with particular strength
+(18:49.210) in reshares and time spent
+(19:23.150) 我們也在給人們更多的直接控制,
+(19:54.580) simultaneously
+(19:55.880) 中央市場的市場質量
+(19:59.580) 主要推薦系統
+(20:02.880) 一直在繼續
+(20:05.780) with recommendations data
+(20:06.960) 與推薦資料
+(20:09.580) We're encouraged by this milestone
+(20:11.680) 鼓勵我們
+(20:14.720) 期待繼續的進步
+(20:18.170) increasing monetization efficiency
+(20:20.170) The first part of this work
+(20:22.500) 是在
+(20:25.620) Here, we continue to enhance our systems
+(20:35.900) on our newer surfaces,
+(20:39.400) On WhatsApp, we have introduced support
+(20:42.160) for more types of ad destinations
+(20:49.440) Moving to the second part,
+(20:54.380) 以提升服務用家的業務效率
+(21:25.510) 這對宣傳者的表現增加了很大的成果
+(21:28.770) we deployed the first generative model
+(21:33.160) 轉移到我們的項目取得系統中
+(21:36.240) 早期的發動機用LLMs
+(21:41.030) 引發了 Instagram 應用活動轉移的1%增加
+(21:49.660) to analyze ads and organic activity
+(21:51.840) 並同時提升使用經驗和宣傳業界的表現
+(21:56.760) 並結合我們的GEM模式
+(22:01.220) 這些提升導致了8.3%的增加
+(22:06.520) 在賣出的點擊
+(22:12.420) 我們也在使用AI
+(22:17.280) 發展賣出創意
+(22:20.500) 我們的AI-powered Advantage Plus
+(22:40.780) 更容易和更有效率
+(23:03.040) Adoption of our Gen AI ad creative tools
+(23:06.900) continues to scale
+(23:08.000) with over 9 million small businesses
+(23:10.060) using at least one AI creative tool
+(23:12.360) Image generation
+(23:13.840) which now lets advertisers
+(23:15.400) produce more creatives
+(23:16.640) that scale from existing content
+(23:18.140) including a new ability
+(23:20.760) to create images from video assets
+(23:23.180) 這一季的執行
+(23:26.020) We also introduced
+(23:27.880) 新的end-to-end creative solution
+(23:35.860) 下一個創作決定
+(23:38.580) 我們正在建立
+(23:41.520) so teams can diagnose,
+(23:42.800) generate,
+(23:43.440) can diagnose, generate, and scale
+(23:47.910) 在MUSE Image的展開前,
+(23:55.910) With Meta Business Agent,
+(23:57.940) With Meta Business Agent,
+(24:03.060) by responding to inquiries,
+(24:06.400) Earlier this month,
+(24:07.870) Earlier this month,
+(24:10.370) 這就是讓企業建造、設計和轉發他們的商業在WhatsApp的高度上的商業。
+(24:17.030) 這 platform 提供更大的企業,
+(24:21.160) guardrails,
+(24:22.040) and measurement built in,
+(24:23.340) 所以他們可以定義和提供個人經驗,
+(24:26.440) 開始在他們的客戶已經使用的訊息應用中。
+(24:31.020) Movida,
+(24:31.640) Movita,是巴西最大的車車公司,
+(24:42.700) in a single conversation.
+(25:15.800) MetaOne是我們的訂閱股份的改革
+(25:19.020) 以為我們可以為每天的用戶、商業和創建者提供更多的價值
+(25:22.680) 所以他們可以使用更多的技術和AI技術來創建、連接和展示
+(25:26.760) 我們很期待將這些提供給更多的用戶
+(25:29.140) 並繼續建立更多的提供給我們的訂閱者
+(26:17.580) Longer term,
+(26:26.480) Second,
+(27:05.850) for everyone
+(27:19.260) for which we may need additional compute
+(27:24.460) aims to give us the flexibility
+(27:31.900) to accommodate future server decisions
+(27:34.280) The long-lived nature of these assets
+(27:36.760) inherently provides the flexibility
+(27:41.140) to the pace of AI adoption
+(28:21.710) 我們期待這些機會的維持
+(28:27.800) 保持我們的策略幅度
+(28:47.690) 昨天的公佈與黑島昨天是一個例子
+(28:55.860) Moving now to our financial outlook,
+(28:58.380) 我們期望第三季度
+(29:04.880) 我們的指導
+(29:11.530) based on current exchange rates.
+(29:13.690) 轉到費用和CAPEX目標
+(29:17.300) 我們在提高
+(29:39.850) We anticipate 2026 capital expenditures,
+(29:54.790) Absent any changes to our tax landscape,
+(29:58.000) 我們期望我們的負債率
+(30:04.300) 從我們的前面的看法
+(30:08.300) Finally,
+(30:08.800) 最後,我們繼續監視
+(30:17.060) For example,
+(30:17.940) 例如,我們繼續看到
+(30:25.640) for this year in the U.S.,
+(30:28.890) In closing, our business momentum
+(30:35.850) and engagement initiatives
+(30:40.610) with exciting model releases
+(30:42.310) and we expect to build on that momentum
+(30:49.360) Thank you
+(30:51.610) We will now open the lines for questions
+(31:02.010) Please limit yourself to one question
+(31:04.490) 請請回答您的問題
+(31:07.210) 以保證您有清楚
+(31:08.430) 如果您在今天的電視題中έ
+(31:10.970) 請按鈕
+(31:11.550) 您先說第一項內容
+(31:16.370) 請請 fixed
+(31:22.800) 一位是Mark,一位是Susan
+(31:27.300) API tools and compute rental,
+(31:32.480) but my question is,
+(31:36.220) the compute capacity,
+(31:43.610) sort of in 26 and 27,
+(31:51.870) 然後,蘇珊,有些公開評論關於27的質量和增加質量,
+(31:57.410) 我非常感謝你提到的CAPEX。
+(32:03.360) 甚至是談論根據上下降或下降壓力的基礎,
+(32:07.740) 去投資這種多年輕型的建築
+(32:09.800) 並且有27個項目
+(32:11.120) 我可以先說第一個
+(32:16.810) 所以在不同的機會上
+(32:20.270) 和我們在計算計算
+(32:21.930) 總體上
+(32:23.930) 計算計算的大部分
+(32:25.690) 是向訓練模型
+(32:27.350) 成為一間主要的研究室
+(32:29.770) 我認為這是一個重要的投資
+(32:31.370) 但其餘的
+(32:32.210) 是向計算計算
+(32:34.170) 不同的產品和收入
+(32:35.530) 新的機會,
+(32:36.110) 從調整和改善我們的核心企業,
+(32:42.050) 到建立新的
+(32:43.590) 公司產品,我們將將會發布的新產品,到API,到商務人員的工作,到
+(32:50.230) 我提到的路線上的設計工具工作,然後還有
+(32:56.070) 直接賣出計算機的機會,我說過我們有
+(33:07.110) 我們的收入是一個很重要的資金
+(33:17.750) 但我們認為
+(33:21.370) 賣出數碼
+(33:28.710) 但我實際上很興奮
+(33:30.930) 我們將看到所有這些領域的有意義增長
+(33:34.450) 我認為我們將有更多的分享
+(33:38.420) 我們將有更多的分享
+(33:40.360) Brian,您的第二個問題
+(33:45.250) 我們現在不提供
+(33:46.390) 2027 CapEx的具體目標
+(33:49.510) 設計計劃仍然非常流暢
+(33:52.870) 甚至今年
+(33:54.330) 我們的目標裡有各種結果
+(33:55.930) 我在我的主要評論中
+(33:59.550) to our focus on being
+(34:08.210) and giving us the flexibility
+(34:13.610) and beyond but also giving us
+(34:24.710) so we're still working through
+(34:28.790) 總體來說,我們認為近期質量比長期質量更值得,
+(34:33.010) 並且它仍然是一個非常流暢的計劃過程。
+(34:39.240) 接下來的問題來自Erik Sheridan,Goldman Sachs。
+(34:43.260) 請問一下。
+(34:44.240) 謝謝你提出這個問題。
+(34:46.630) 如果我可以,
+(34:47.530) 你設定了企業機會的機會,
+(34:50.350) 你認為今天有多少機會,
+(34:54.370) 根據你建立的去市計劃來說,
+(34:57.590) 推廣和市場市場的
+(35:00.270) 你已經有的
+(35:03.390) 要建立的
+(35:06.630) 然後蘇珊
+(35:09.250) 如果我能再推進一下
+(35:12.730) for the next couple of years
+(35:13.750) for the next couple of years,
+(35:15.790) 今天為了看看如何向前進行投資的方法
+(35:22.170) 我們繼續得到投資者的問題
+(35:24.450) 關於如何思考貸款和資金的混合
+(35:27.090) 和資源的資金
+(35:28.670) 理論上
+(35:29.830) 您們是如何計劃
+(35:30.850) 想要有決心的
+(35:32.050) 在花費上
+(35:33.210) 但並且
+(35:33.790) 與資金的需要
+(35:34.910) 結合
+(35:35.070) 謝謝
+(35:35.730) 我可以談談
+(35:38.600) 第一個部分
+(35:39.540) 我認為
+(35:40.320) 在企業上
+(35:41.320) 會有一個
+(35:41.900) 綜合的
+(35:43.700) 傳輸現代企業
+(35:45.660) 即是
+(35:46.120) 實際上
+(35:46.700) 賣出
+(35:47.220) 市場
+(35:48.320) 和
+(35:49.080) 企業
+(35:50.400) 基本上
+(35:51.900) 是
+(35:52.000) 顧客
+(35:52.380) 嘗試
+(35:53.080) 與
+(35:54.240) 顧客
+(35:55.380) 與
+(35:55.620) 他們
+(35:56.060) 直接
+(35:56.620) 賣出
+(35:56.920) 當然
+(35:57.660) 那是
+(35:58.500) 在Facebook和Instagram之間的大多數公司
+(36:00.640) 我們認為有機會與公司專家
+(36:07.080) 在訊息軟件和其他層面上
+(36:10.700) 繼續與客戶互動
+(36:13.000) 正如互動系統
+(36:15.120) 我們會得到賠償
+(36:17.520) 當我們給予這些公司的結果
+(36:19.760) 我們認為這是一個
+(36:21.020) 我們有的銷售和合作
+(36:23.080) 與許多億的宣傳商
+(36:29.260) that use our platforms
+(36:30.680) so that one I think
+(36:32.980) 所以,我覺得這項目應該是我們的自然機會。
+(36:36.680) 我們對這種行業的發展有很大的貢獻
+(36:40.620) where we're not trying to
+(36:42.680) 我們想要在近期時間中提升售價
+(36:44.980) 我們想要提升人們的結果
+(36:46.600) and build out a robust auction
+(36:47.860) and that's what we've seen
+(36:48.740) has served the business well over time
+(36:52.080) there are other enterprise customers
+(36:54.480) 我們也許會增加服務
+(36:56.460) We're building,
+(36:57.520) 我們正在建立
+(37:03.640) 我們需要確保
+(37:07.840) and now that we have those,
+(37:09.360) 現在我們有了這些
+(37:12.380) 有機會服務,
+(37:15.080) 那是我們歷史上的一個相當不同的筋骨,
+(37:18.460) 我們將將會分享更多的,
+(37:22.360) 但是我認為這些是非常大的機會。
+(37:26.540) 我認為有很多消息關於計算機方面,
+(37:32.540) 但我認為企業機會是所有這些不同的東西的一部分。
+(37:37.520) 不僅僅是計算機的售賣,
+(37:39.720) 也許是API服務、營銷服務、其他業務的業務,
+(37:45.760) 除了市場上的業務,
+(37:46.680) 也許是整體的供應。
+(37:49.480) 我認為這只是一個非常大的機會。
+(37:53.140) So we're quite focused on that,
+(37:55.880) 這將是我們作為公司建立的新肌肉,
+(37:59.140) 但我認為這是我們建立的非常重要的一個機會,
+(38:01.440) 這樣我們可以確保我們能夠提高我們前面的機會。
+(38:06.800) Eric,
+(38:07.200) on your second question,
+(38:08.200) in terms of sources of capital,
+(38:10.640) you know,
+(38:17.420) you know,
+(38:30.580) to include a greater mix of debt
+(38:32.260) 我們在研發我們的資金價值
+(38:34.560) and we have generally found it prudent
+(38:37.400) 我們要繼續增加
+(38:41.000) as we make investments in initiatives
+(38:42.820) that themselves have long time horizons
+(38:45.480) 尤其是AI基礎項目的項目
+(38:47.640) 我們也把我們的範圍增大
+(38:51.220) 以加入夥伴
+(38:52.100) 就像昨天我們宣佈的黑島
+(38:54.680) 我們將繼續考慮
+(38:58.060) 相應的不同資源
+(38:59.980) 在未來的項目中
+(39:03.280) 您的下一個問題
+(39:07.030) 來自馬克·史姆勒克
+(39:08.830) 請您說吧
+(39:11.670) 謝謝您提出這個問題
+(39:13.090) 馬克
+(39:13.950) 每個人都有一個故事
+(39:15.550) 有人回到大約的新城市
+(39:18.370) 寫了深入的文章
+(39:19.010) 建立了AI的業務
+(39:20.530) 然後他們回家
+(39:21.630) 他們告訴父母
+(39:22.910) 他們用AI錯了
+(39:24.070) 這就是一個榮譽的搜索工具
+(39:26.110) 消費者的行為
+(39:27.450) 總是很難預測
+(39:29.230) 但在大家的AI上
+(39:30.110) 讀你的課程
+(39:31.270) 你覺得消費者的執行
+(39:34.070) 能否關閉AI的用途區域
+(39:36.110) 我們在某種程度上
+(39:37.530) 有什麼問題嗎
+(39:38.430) 還是我們需要
+(39:39.370) 更加的專注
+(39:40.190) 謝謝
+(39:42.640) 我覺得有些事情
+(39:43.700) 已經被解決了
+(39:45.060) 我認為
+(39:45.600) 我認為AI與其他技術相比,
+(39:51.260) and the cycle may accelerate,
+(39:53.440) 你會獲得新的能力,
+(39:59.220) 因此,
+(40:05.920) 然後還有其他產品在這些領域中的競爭者。
+(40:11.100) 然後,在最後一年裡,我認為網絡人員市場非常快地增長。
+(40:16.920) And that's the first real agentic market
+(40:19.760) 我認為網絡人員市場的第一個原因有許多原因。
+(40:31.440) so it's sort of in some ways
+(40:37.400) 但是我們的預測,
+(40:39.620) 或者我們在這裡做的預測是,
+(40:42.430) 我們認為公司人員將會成為一個非常重要和巨大的市場。
+(40:52.330) 我認為如果您在五年之後看出,例如,您想要的任何一段時間,
+(40:59.430) 您不可能有幾百萬人與個人經紀人認識您的目標,
+(41:03.490) 並且在您面前 24 7 的工作,以達成您的目標。
+(41:06.730) 無論您關心什麼項目,
+(41:08.790) 無論是幫助您與您的健康與職業,
+(41:13.910) 或您的個人資金,
+(41:15.470) 或您的業務與您的家庭更好,
+(41:17.570) 或者改善和增加你的關係
+(41:20.450) 幫助你的職業
+(41:21.650) 就是所有這些不同的東西
+(41:23.310) 這是一個非常深入的用途
+(41:26.750) 但就像你所說的
+(41:28.250) 我認為建築給消費者
+(41:30.090) 是比建築給發展者不同的
+(41:33.310) 如果你建築給消費者
+(41:35.270) 尤其是如果你想建築
+(41:36.350) 一些不被幾百萬人使用
+(41:39.150) 但被幾百萬人使用
+(41:40.570) 它必須只是工作
+(41:42.070) 它必須簡單
+(41:43.630) 我認為我們今天看到的很多
+(41:45.790) 很多是傳統的專業人員
+(41:51.010) 你必須進入一個電腦,把它設置好
+(41:55.910) 但可能在時間內它會破壞
+(42:01.490) 正在工作的專業人員
+(42:07.250) 我們非常興奮
+(42:12.430) 除了我們與商務人員做的事
+(42:14.770) In addition to all these other things
+(42:16.750) While also developing the models
+(42:19.290) 我們認為會繼續
+(42:21.310) 進行新的能力
+(42:23.850) So this is why we're very optimistic
+(42:25.850) Now I get
+(42:26.570) now I get
+(42:29.750) And that's going to be very exciting
+(42:30.910) And we haven't done that yet
+(42:32.690) So this is
+(42:34.570) There's kind of only so much
+(42:36.750) 我只能在一個收入訪問中
+(42:39.210) But I think
+(42:40.890) 我認為這是一個非常大的機會,
+(42:42.870) 一個我認為是有人做的幾乎無可奈何的機會。
+(42:48.890) 我認為這對META的能力有很大影響。
+(42:52.550) 我們建立了幾百億人的生產品,
+(42:55.350) 我們很棒的,
+(42:55.990) 一旦我們找到有用的東西,
+(42:57.370) 我們將它調整成一大群人,
+(42:59.110) 我們很棒的,
+(43:00.090) 我們能夠支持這種嚴厲的應用,
+(43:10.230) And that's what we're very focused on
+(43:17.780) With JP Morgan
+(43:18.740) Please go ahead
+(43:19.920) Great, thanks for taking the questions
+(43:22.960) One for Susan, one for Mark
+(43:24.580) Susan 你提到LLMs
+(43:28.520) 更加能夠達到
+(43:30.900) 您能不能多說一下
+(43:33.620) And how far along you are
+(43:36.020) 在更多的計算和計算
+(43:38.860) 然後,
+(43:42.440) 你也在同時購買了三個人的資源
+(43:51.460) 所以我希望你可以幫我們瞭解一下
+(43:53.420) 這裡的一些區別
+(43:54.040) 是否只是時間和停止區別的問題
+(43:57.500) 還是訓練和運輸
+(43:59.620) 並且支援每個人最適合的芯片
+(44:02.860) 謝謝
+(44:05.500) 謝謝Doug
+(44:06.320) 我先回答第一個問題
+(44:07.440) 關於我們在計劃路線上的問題
+(44:11.120) 首先我們確實看到
+(44:17.780) over the rest of the year and into 2027
+(44:25.680) A couple things I would highlight
+(44:27.860) 我會先提出幾個事情。
+(44:33.040) and relevant to user interests
+(44:44.280) in a given moment
+(44:47.420) in delivering on this vision
+(44:56.700) creators that people value
+(44:58.460) to capture user interests more precisely
+(45:09.820) 第二,我們繼續改善我們的數據環境,以使我們的模擬能夠更多的數據訓練,並更有效地提供更多的數據。
+(45:17.900) 我們將更加詳細地提供使用者在過去的經歷中與過去的用戶互動的內容,
+(45:24.540) 並以更加強硬的內容來增加過去的用戶互動。
+(45:26.200) 這讓我們的模擬更加仔細地學習使用者的更多或少的產生。
+(45:31.340) 我們將繼續調整我們使用的使用互動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動運動�
+(45:59.720) 我認為我們對這種工作有很大的信心
+(46:06.140) 我們也投資了用LLM基礎的建議系統
+(46:12.260) 我們也增長了我們這一半的計劃項目
+(46:15.840) 這也幫助我們的工程師更有成果
+(46:20.280) 這是我們也很期待的另一個路線
+(46:25.680) I can answer the second part of that
+(46:28.880) 我認為您的問題是
+(46:30.800) 我們如何認為我們要賣出計算機的提供
+(46:37.390) 但是我們還在買計算機
+(46:38.930) 我認為,看來,高級觀察是
+(46:42.320) 計算機的質量不夠多
+(46:44.280) 所以,這就是為什麼我們看到
+(46:48.620) 基本上,我們得到計算機的計算機的大量提供
+(46:54.340) 但是我們也有很多內部的用途
+(46:57.200) 我們認為會非常值得
+(46:58.760) 在經營生產上來說,
+(47:01.420) 我們需要做的一項普遍的交易是如何處理今天 vs 將來發展未來的資產。
+(47:12.800) 我認為這總是一個股票。
+(47:15.440) 你不想只做長期性的事情,不想證明近期存在的市場。
+(47:21.820) 在近期期間存在的資產,但我還認為它會很愚蠢地基本上只是賣出所有的數碼,
+(47:27.320) and take a short-term profit
+(47:30.840) 但當你有機會在這方面建立智慧
+(47:34.520) which will be a kind of a multiple
+(47:36.640) 這會在這方面結合數碼的價值
+(47:40.000) 所以,我認為答案是我們所做的,就是基本上使用很多我們的資產,
+(47:44.160) 就是用很多我們的資金來建立數碼
+(47:48.240) 我們確保我們能夠直接兌換計算機
+(47:52.900) 當這意味著有意義
+(47:54.360) 但也知道我們有很多不同的用途
+(47:59.640) 來兌換計算機的智慧
+(48:01.500) 包括我們談論的企業案件
+(48:05.000) 以及我們談論的一些消費者
+(48:07.300) 以及我們談論的一些企業案件
+(48:12.220) 也不是我們還沒談論的新產品
+(48:15.940) that we haven't talked about
+(48:16.660) but just in terms of using that
+(48:18.680) to be able to further add intelligence
+(48:21.040) 提升職位、推薦、廣告、
+(48:22.660) and ads and the core services
+(48:24.760) so I think all of that is true
+(48:27.220) and it creates this dynamic
+(48:28.600) where there is a lead time
+(48:31.340) where we're investing
+(48:32.180) and building out these data centers now
+(48:33.800) they come online
+(48:34.820) at some point in the future
+(48:36.140) you obviously are not getting value
+(48:37.760) out of them until they're online
+(48:40.700) but we basically see a very large demand
+(48:43.840) for all of this
+(48:44.780) 並且想盡力建立所有這些不同的公司的機會
+(48:49.380) 您的下一個問題來自迪斯頓博士
+(48:55.210) 與美國銀行
+(48:56.510) 請繼續
+(48:57.370) 好 謝謝
+(48:59.580) 馬克
+(49:00.240) 您在一年前擔任了您的AI研究研究室的職業領導
+(49:04.080) 您能否給我們您的想法
+(49:06.480) 關於研究室的表現
+(49:08.300) 您認為街頭市場會否看到
+(49:10.560) 發展速度和產品速度的增長
+(49:12.400) 至於模特
+(49:13.220) 或芯片
+(49:14.140) 或其他未來的東西
+(49:15.720) 然後,您認為研究室在建立什麼樣的持續性競爭優勢?謝謝。
+(49:20.860) 是的,我非常高興我們正在進行的路線。
+(49:27.620) 我們發佈了幾個計算機,我認為這些計算機在我們的早期計算架上非常印象深刻。
+(49:33.500) 如我所說,我們正在進行計算的過程中,計算機的計算比較大,計算機的計算比較豐富。
+(49:38.440) 我們也很興奮。
+(49:39.700) 我覺得這方面有智能的部分
+(49:48.180) 我認為在任何你想進入的產品類型中
+(49:54.480) 你會學習一些轉轉彎曲的東西
+(50:06.440) 你得到更多的反應
+(50:10.400) 所以我認為這是一個領域
+(50:12.060) 人們理解的程度上
+(50:14.380) 很沉迷於智慧
+(50:15.740) 但資料和知識的部分
+(50:17.980) 為人們服務好
+(50:19.100) 是非常重要的
+(50:19.940) 如果你談到
+(50:20.480) 個人超級智慧
+(50:22.300) 那麼當然
+(50:23.260) 有一個很明顯的
+(50:25.540) 人生中的所有事情
+(50:26.740) 和他們的目標
+(50:28.780) 是一個非常重要的
+(50:31.560) 方面
+(50:31.860) 有些公司
+(50:34.240) 開始在不同的領域
+(50:35.580) 不同的市場
+(50:36.920) 不同的部分
+(50:37.680) 但我認為
+(50:40.880) 我認為大多數這些東西的原因是,
+(50:44.380) 首先,
+(50:45.440) 技術是一般的,
+(50:46.700) 所以當你建立智能,
+(50:48.120) 它可以使用很多不同的用途,
+(50:50.020) 但是你需要投資在建立飛輪上,
+(50:53.760) 因為我認為這就是你在時間上建立的健康利益,
+(50:57.360) 但我認為我們在META中繼續展示,
+(51:01.700) 當我們有一個合作的產品,
+(51:06.070) 我認為我們
+(51:09.940) 我認為我們可能是世界上最好的公司
+(51:12.300) 在調整這些經驗與億多人的經驗
+(51:15.000) 所以我感覺很高興
+(51:17.020) 關於私人經紀的工作
+(51:18.040) 我感覺很高興
+(51:18.880) 關於公司經紀的工作
+(51:20.800) 我們已經有我們的基礎
+(51:22.880) 公司和小企業
+(51:25.700) 我們的服務
+(51:26.360) 和能夠調整這些
+(51:27.600) 並將它們分開
+(51:28.380) 我認為這些是持久的優勢
+(51:31.720) 同時也有我們在建立的
+(51:32.660) DataFlyWheels
+(51:34.360) 然後,當然,在研究方面
+(51:37.260) 你需要建立一個好的文化
+(51:38.720) 這是一種簡單的東西,
+(51:41.120) 但我認為你只需要確保你正在建立團隊的方式,
+(51:47.100) 在你管理事情的好方式中,與低級的戲劇相互衝突。
+(51:53.500) 這就是你所期望的目標。
+(51:56.680) 如果你能做到,
+(51:57.600) 那可能不會是一個明確的數學解釋,
+(52:06.280) 但我認為這就是生意的方式。
+(52:07.920) 所以是的,這就是我們所做的事情
+(52:09.740) 我們接下來的問題來自羅斯·桑德勒與巴克利斯
+(52:15.990) 請繼續
+(52:16.730) 是的,馬克斯
+(52:20.240) 在AI研究中的評論上
+(52:24.340) MUSE SPARK 1.1
+(52:26.880) 很接近Paretto frontier
+(52:29.580) 但它在intelligence spectrum的低層層
+(52:33.240) 或者我應該說是低價層
+(52:35.080) 從你最後的答案來看
+(52:37.620) 你認為低價層和
+(52:41.740) and the more expensive performance
+(52:44.080) 您可以談談這一點嗎
+(52:46.140) and then the leadership of your lab
+(52:49.290) 在幾年前你曾經回到開放的位置
+(52:52.150) 在幾年前你曾經回到開放的位置
+(52:54.530) so how does that fit into the strategy
+(52:56.780) and all this discussion around
+(52:58.300) monetization of AI products and models
+(53:02.360) thank you very much
+(53:03.780) yes so I mean just to get into the
+(53:07.850) 這個科學的過程
+(53:10.210) basically training large models
+(53:12.720) at each stage of training a large model
+(53:15.540) you see novel behaviors
+(53:17.400) 所以,基本上,你需要從訓練小型模型到建立大型模型的方式去做這些事情。
+(53:22.240) to building larger models
+(53:23.640) 我們目前發佈的模型是基於
+(53:27.380) are based on
+(53:29.200) there are a certain scale
+(53:30.720) in climbing up the scaling ladder
+(53:32.100) 我們繼續建立大型模型。
+(53:34.200) so I think for MuseSpark 1
+(53:37.120) and MuseSpark 1.1
+(53:38.880) 我認為它們是非常印象深刻的模型
+(53:42.560) 為了模型的高度
+(53:48.800) And I feel quite good about them.
+(53:51.400) 我們想要有更進步的模型
+(53:54.880) 這就是為什麼我們在調整更大的模型
+(53:56.560) 這就是為什麼我們在建立一大堆研究環境
+(53:59.420) 但同時
+(54:07.350) 這將會是我們對消費者的設備的大部分。
+(54:10.370) 如果你在服務百億人,你希望能夠有更豐富的模型,
+(54:17.590) 為很艱難的問題提供更多的模型,
+(54:19.990) 而你希望能夠服務大多數的模型,
+(54:24.710) 從更簡單和更有效率的模型。
+(54:27.010) 所以,我認為兩者都會非常重要。
+(54:29.470) 效率真的很重要,
+(54:31.490) 但我也認為我們希望能夠解決世界各地的企業和客戶最艱難的問題。
+(54:38.310) We care about both of them.
+(54:41.190) 在開發,我們一直認為開發是一個很重要的部分,它對世界好,
+(54:47.950) 它是對世界好,它創造了自己的反應連續,
+(54:52.930) 對我們來說是很正確的
+(54:59.990) 但是我們一直基本上說
+(55:04.440) and that continues to be true.
+(55:05.920) 現在在構建Meta Super Intelligence Labs,
+(55:10.800) 在某種程度上,
+(55:11.800) 反而逆向意識地,
+(55:12.900) 它需要更多的工作
+(55:14.440) 來做開放式模型,
+(55:15.820) 因為你不需要,
+(55:18.760) 如果你做了一個
+(55:19.880) 關閉的系統,
+(55:20.800) 你只在建立自己的使用情況下,
+(55:23.380) 它可以有點更加減弱,
+(55:24.660) 而如果你發佈它是開放式,
+(55:26.500) 它會被用於很多東西,
+(55:27.840) 你需要把它做得更加順滑,
+(55:30.760) 我只是想確保
+(55:32.580) 我們確保MSL團隊能夠進行最明顯的模式建立
+(55:38.880) 我們期待我們將在一段時間之內再次推出一些開放式模式
+(55:45.760) 但正如我們一直說,我們對這件事並不道德
+(55:50.740) 我們認為開放式模式重要,我們想與這個系統貢獻
+(55:55.140) 我們計劃在開放式模式中進行混合
+(55:58.260) 我們還有一個問題
+(56:04.110) 這個問題來自肯·戈羅斯基與威爾斯法哥的聯絡
+(56:09.130) 請問
+(56:09.450) 謝謝
+(56:11.640) 請問
+(56:12.600) 我想問一下
+(56:14.760) 馬克
+(56:15.280) 剛才提到的最後一個問題
+(56:17.520) 關於開放價值計劃
+(56:19.410) 有很多討論
+(56:21.150) 您也討論了這個論點
+(56:23.080) 為什麼不改變META的觀點
+(56:30.180) 在開放價值價值計劃中
+(56:38.880) 是否有機會讓您不需要
+(56:41.920) So that's question one
+(56:43.200) so that's question one
+(56:46.300) You noted that in your prepared remarks
+(56:49.080) 您計劃要衡量26和27的容量。
+(56:52.180) Is that a demand or a supply comment
+(56:55.040) 意思是,
+(56:57.380) 以整個構造的權限使用27
+(57:00.380) Or are you saying that you will evaluate
+(57:03.010) 28 and beyond builds
+(57:04.610) 和以Meta products和服務的供應
+(57:07.090) Thank you
+(57:07.890) I can take the open source question
+(57:18.460) Let's see
+(57:21.580) So do we
+(57:24.240) Basically the question is
+(57:26.180) Do we think that because there are some
+(57:28.040) open weight models that we
+(57:30.060) that we can just rely on those
+(57:32.110) I mean right now the open source models
+(57:34.370) are not as strong as the frontier models
+(57:36.130) So no is the basic answer
+(57:38.750) And then there's also
+(57:40.010) 也有持續的政策討論和討論其他公司的行為
+(57:48.470) 我們認為這是一個公司可以依靠的事情
+(57:52.790) 我認為這很困難
+(57:54.290) 所以我們認為我們可以做更好的工作
+(57:56.830) 我們認為有些風險
+(57:58.810) 在這種依靠中,我不認為這是正確的行為
+(58:02.090) 我們是一個公司
+(58:05.690) 如果你看到Meta,
+(58:07.310) 如果我們回顧一下這個問題,
+(58:09.030) 很多人認為我們建立了一些社交媒體應用程序,
+(58:14.230) 我們是一家全組技術公司,
+(58:18.010) 我們建立了我們自己的數據中心,
+(58:19.830) 我們自己的數據,
+(58:20.650) 我們自己的設備,
+(58:21.550) 我們自己的低級設備,
+(58:22.850) 當我們開始時,
+(58:24.350) 我對設計的背景,
+(58:27.810) 我寫了很多系統的文件,
+(58:33.810) 其他社交媒體並沒有迅速和有效地使用Facebook
+(58:41.050) 我們只是能夠建立更人性化、更精準、更有效性的東西
+(58:49.350) 有些高品質的經驗並不可能讓其他人建立
+(58:52.330) 因為我們遠遠跌倒
+(58:54.930) 而我認為,
+(58:57.120) 在建立自己的設計之下,
+(59:02.980) 有一個很重要的部分,
+(59:04.820) 這就是META的重要性。
+(59:07.440) 另外,這也是為何其他人關心 open source,
+(59:11.400) 為何open source在整體上重要,
+(59:12.820) 因為其他公司,即使他們沒有能力建立設計計劃,
+(59:17.500) 也不需要只依靠一些關閉的研究室。
+(59:21.840) 我認為在世界上有一個非常重要的地方是有開源模式
+(59:27.860) 事實上,這並不取決於我所談的API機會或其他東西
+(59:32.420) 因為有人仍然需要執行模式,執行代碼
+(59:35.380) 能夠執行這些模式有效地執行這些模式,
+(59:40.760) 這將繼續成為公司利益的一種
+(59:45.180) 所以我不認為這些東西實際上是有可能的
+(59:48.940) 但當我看來,
+(59:50.160) 很多在世界上想要的客戶和公司,
+(59:52.900) 他們會想要知道他們的命運控制,
+(59:58.040) 他們可以相信他們使用的模型,
+(60:00.720) 他們的數據安全,
+(60:03.360) 他們不會向競爭者傳輸,
+(60:05.260) 等等。
+(60:05.860) 所以,我認為開發是很重要的,但我認為我們也要建立模型,這是一個重要的部分。
+(60:11.680) 對於它的價值來說,我認為這些模型都會被評估在一個普通的計算機上,
+(60:18.480) 他們會被評估在一個模型或其他模型中的幾個點之內,
+(60:23.000) 但他們都真的有不同的技能混合,就像人類一樣,
+(60:28.400) 對吧,就像人類在某些領域中有波動,
+(60:31.040) 他們有不同的個性,他們有不同的好和壞,
+(60:34.780) 如果你想建立人類的個性超級智慧,
+(60:37.280) 私人超級智慧 for people or you're trying to build a business agent for small
+(60:41.780) 需要有不同的技巧
+(60:44.880) than what the other labs are tuning
+(60:46.280) 和其他研究室的改善
+(60:53.420) 或我們的博客系統
+(60:55.680) 我相信在這方面的全數研究模式裡
+(60:58.840) 我們將有很多的利益
+(61:02.260) 以及我們如何建立個人超級智能人員、商務人員
+(61:05.820) 所有這種不同的用途
+(61:07.300) 給我們想服務的各種不同的客戶
+(61:09.780) 所以除了我們所持有的傳輸
+(61:12.020) 以及能夠接觸所有這些人
+(61:14.600) 並且計算工作的產品
+(61:15.900) 我認為這是很多持久的優勢
+(61:18.000) 就是你建立一個
+(61:19.020) 具有這種用途的
+(61:21.960) 嚴格的用途
+(61:23.360) 我認為這是一個巨大的投資
+(61:26.640) 這是一個巨大的獎勵
+(61:27.700) 我們看到技術正在運作
+(61:29.420) 我們很高興與研究室的途徑
+(61:31.160) 我們很興奮與將來的產品
+(61:38.160) across the industry.
+(61:39.280) across the industry
+(61:52.820) there are really two factors.
+(61:54.620) One is we are today and expect to be
+(62:03.300) and that really includes
+(62:05.540) our core business too
+(62:12.640) if we had it
+(62:17.460) on building capacity
+(62:23.900) earlier in my comments
+(62:28.940) The world is going to evolve a lot
+(62:30.340) Our own internal demand will evolve
+(62:32.260) 我們會在那時候轉過很多卡
+(62:34.460) 所以當我們在今天計劃28
+(62:37.480) We're really focusing on flexibility
+(62:39.080) 這只是給我們的能力
+(62:42.680) 但是真的要做出實際的決定
+(62:45.800) 在未來買芯片和其他大型的產品
+(62:50.060) 所以現在我認為
+(62:53.660) For capacity in 26 and 27
+(62:55.340) 這就是我們正在建立的
+(62:56.760) Great, thank you for joining us today
+(63:01.380) 謝謝您今天與我們聯繫,
+(63:03.400) This concludes today's conference call
+(63:07.000) Thank you for your participation
+(63:08.440) and you may now disconnect
