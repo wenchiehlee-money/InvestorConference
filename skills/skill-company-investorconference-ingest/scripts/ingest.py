@@ -178,6 +178,10 @@ KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
         ("report_en", "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf"),
         ("ir_en", "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-slides.pdf"),
     ],
+    ("AMZN", "2026", "2"): [
+        ("report_en", "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q2/earnings-result/AMZN-Q2-2026-Earnings-Release.pdf"),
+        ("ir_en", "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q2/presentation/Webslides_Q226.pdf"),
+    ],
     ("MU", "2026", "3"): [
         ("ir_en", "https://micron.gcs-web.com/static-files/2354ecda-77a0-4ddd-8462-a631eb491356"),
         ("transcript", "https://micron.gcs-web.com/static-files/631b1a32-5537-46ae-8f40-82e42fc79dfe"),

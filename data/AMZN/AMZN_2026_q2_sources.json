@@ -1,0 +1,32 @@
+{
+  "stock_id": "AMZN",
+  "company": "Amazon.com, Inc.",
+  "event_type": "財報",
+  "year": "2026",
+  "quarter": "2",
+  "fiscal_year_end": "1231",
+  "sources": [
+    {
+      "source_type": "official earnings release PDF",
+      "source_url": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q2/earnings-result/AMZN-Q2-2026-Earnings-Release.pdf",
+      "local_path": "data/AMZN/AMZN_2026_q2_report_en.pdf",
+      "sha256": "ea73fa991786fdb5e6e8bcd980f94d1f3bc4ca84f2d138c77a7a99d6b961e3c4",
+      "size_bytes": 542687,
+      "notes": "Official Amazon Q2 2026 earnings-release PDF; paired matrix F/X source."
+    },
+    {
+      "source_type": "official investor presentation PDF",
+      "source_url": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q2/presentation/Webslides_Q226.pdf",
+      "local_path": "data/AMZN/AMZN_2026_q2_ir_en.pdf",
+      "sha256": "60a2b40afd1d966685fb35c9c7913c059a495ac7dc4590b82423138788d8f23c",
+      "size_bytes": 142692,
+      "notes": "Official Amazon Q2 2026 earnings slides; paired matrix I/M source. Markdown currently retains one TODO:OCR page."
+    },
+    {
+      "source_type": "Google Finance/Quartr secondary audio and transcript",
+      "source_url": "https://www.google.com/finance/beta/quote/AMZN:NASDAQ?tab=earnings",
+      "local_path": "data/AMZN/AMZN_2026_q2_google_finance_transcript.md",
+      "notes": "Secondary conference evidence; does not replace official I/M/F/X artifacts."
+    }
+  ]
+}
