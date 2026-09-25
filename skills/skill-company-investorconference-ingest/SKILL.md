@@ -10,7 +10,7 @@ description: 投資人說明會/財報事件材料蒐集 Ingest 模組（支援�
 ## ⚙️ 核心功能
 1. **智慧影音下載 (Smart Ingest)**：自動檢測美股/台股市場，解析 webcast 影音網址或透過 YouTube 尋找，並藉由 `yt-dlp` 下載音檔。
 2. **材料蒐集與落檔**：保存音檔、IR PDF/Markdown、第三方逐字稿、Yahoo/AlphaSpread/AlphaMemo 等可用來源。若產生機器字幕，僅視為 `*_FIN.srt` 初稿。
-3. **美股 earnings-call 材料支援**：對 DELL、QCOM 等英文字母 ticker，優先蒐集 earnings release、prepared remarks、performance review/deck、financial tables、transcript PDF/HTML、Yahoo/AlphaSpread transcript、SEC 10-Q/10-K 連結（若可得）。
+3. **美股 earnings-call 材料支援**：對所有非台灣 ticker，依照季度解析結果蒐集 earnings release、prepared remarks、IR presentation、performance review/deck、financial tables、transcript PDF/HTML 與 SEC 10-Q/10-K/8-K；Yahoo/Google Finance/AlphaSpread 僅作 discovery 或 transcript 補充，不得成為官方材料的終點。
 4. **簡報 OCR 與文字層提取**：批次處理各公司 PDF 簡報，必要時透過 Mac-mini 高精度 OCR API 補齊圖表數值。
 5. **README、Manifest 與音檔 metadata 自動同步**：維護 `audio_manifest.json`、`audio_durations.json`、`audio_metadata.json` 與 README.md 表格。
 
@@ -65,7 +65,7 @@ Ingest 不得只信任 MOPS 查詢結果的第一個影音檔。部分公司或 
 | MOPS 法說會附件 | `t100sb07_1` 法說會/受邀法說公告附件，常見檔名 `{stock}{YYYYMMDD}{M/E}001.pdf` | `法說會` / `受邀法說` | `data/{stock}/{stock}_{year}_q{quarter}_ir.pdf`、`_ir_en.pdf` | 法說會簡報、presentation deck、營運/財務結果簡報；可支援 digest 與 GT 校正 | 不得稱為「財報」或用來滿足 `財報` row 的 statutory financial report 缺口 |
 | MOPS repo 財報文件 | `../MOPS` 或 `wenchiehlee-investment/MOPS/downloads/...`，常見檔名 `{YYYYQQ}_{stock}_AI1.pdf`、`AIA.pdf` | `財報` | README 外部連結或後續落檔為 report/financial statement 類材料 | 財報事件的一級財務文件、GoodInfo 尚未更新時的財務數字來源 | 不得用來滿足 `法說會` row 的音檔/法說會附件缺口；除非同一來源明確也是法說會簡報 |
 
-對非台灣股票，`F/X` 也代表官方財務結果材料，不限於 MOPS：`F` 是公司 IR 的 earnings-release / financial-results PDF、SEC 8-K Exhibit 99.1 或 SEC/公司 financial-tables PDF；`X` 是該 PDF 的 Markdown 轉檔。這些是財報材料，不能與 `I/M`（IR presentation PDF/MD）混用；第三方 transcript 不得填入 `F/X`。
+對非台灣股票，`F/X` 也代表官方財務結果材料，不限於 MOPS：`F` 是公司 IR 的 earnings-release / financial-results PDF、SEC 8-K Exhibit 99.1 或 SEC/公司 financial-tables PDF；`X` 是同一份 PDF 的 Markdown 轉檔。若官方只有 HTML/Markdown 而沒有可驗證的 PDF，可以保留官方 HTML/Markdown 作為補充證據，但不得填 `F`；只有對應 PDF 的 Markdown 才能填 `X`。這些是財報材料，不能與 `I/M`（IR presentation PDF/MD）混用；第三方 transcript 不得填入 `F/X`。
 
 因此，像 `2382_2026_q2_ir.pdf` / `_ir_en.pdf` 這類從 `238220260813M001.pdf` / `E001.pdf` 取得的檔案，應描述為「MOPS 法說會附件 / investor-conference presentation deck」。即使內容包含 Q2 財務結果，也不是 MOPS repo 的財報文件。相反地，README `財報` row 連到 `wenchiehlee-investment/MOPS/downloads/.../202602_2382_AI1.pdf` 這類檔案時，才是財報事件材料。
 
@@ -271,6 +271,96 @@ Downstream consumers should prefer this official CSV over `../ConceptStocks` pro
 
 > [!CAUTION]
 > 美股第三方 transcript 只能作補充來源。若 Yahoo/AlphaSpread 與公司 IR、earnings release 或 SEC filing 衝突，digest 應以公司文件與可驗證音訊為準。
+
+### 🇺🇸 美股 deterministic ingest workflow
+
+美股資料通常比台股容易透過公司 IR 或 SEC 取得，但「容易找到」不等於「已完成 ingest」。每個 ticker/quarter 必須依下列順序執行；不得因為已經有 transcript、`sources.json` 或 digest 就宣告 `I/M/F/X` 完成。
+
+#### 1. 先固定季度身份與 calendar period
+
+1. 先呼叫 `skill-stock-fiscal-quarter-resolve`，以公告日期、公司財年起始月、SEC period-of-report 與公司頁面標籤確認 `fiscal_year/fiscal_quarter`。
+2. 保留原始 fiscal key，例如 `NVDA_2027_q2`；另外計算 calendar period，例如 `2026 Q2`。不得把 calendar year 直接寫回來源檔名。
+3. 若 metadata、Yahoo/ConceptStocks、公司 IR、SEC 的季度標籤衝突，以公司 IR/SEC 為準，並在 `{stem}_sources.json` 記錄 mismatch。
+4. 同一 calendar quarter 的同日 `法說會` 與 `財報` 仍是兩個 event records；材料可以共用同一季度 key，但不能把事件列去重。
+
+#### 2. 對每個季度執行官方 source ladder
+
+| 順序 | 先查 | 可取得的材料 | 成功條件 |
+| :--- | :--- | :--- | :--- |
+| 1 | 公司 IR earnings/results page | earnings release、financial tables、prepared remarks、IR deck、replay | 頁面明確包含公司、季度與公告日期；保存 quarter-specific URL |
+| 2 | 公司 IR PDF/HTML 直接連結 | `I/M` 或 `F/X` | 先分類文件，不可把 earnings release 當 presentation |
+| 3 | SEC submissions/company filing index | 8-K Exhibit 99.1、10-Q、10-K、earnings release exhibit | 保存 accession、filing date、period of report、原始 URL；使用 SEC 官方內容作交叉驗證 |
+| 4 | 官方 webcast/replay | audio、官方 transcript | 驗證季度文字與會議日期後才落檔 |
+| 5 | Google Finance/Quartr、Yahoo、AlphaSpread | audio/transcript/discovery URL | 僅補音訊、逐字稿或找線索；不得取代官方 `I/M/F/X` |
+
+每一層都必須記錄「已查過但沒有目標季度材料」；不能只記錄成功下載的來源。若公司 IR 被 Cloudflare/Akamai 擋住，依本 skill 的 Playwright/chrome-devtools fallback 重試，不得直接標記 unavailable。
+
+#### 3. 嚴格套用 `I/M/F/X` 分類
+
+| Flag | 必須存在 | 不可用來替代 |
+| :--- | :--- | :--- |
+| `I` | 官方 IR presentation / investor deck PDF，例如 `*_ir_en.pdf` | earnings release、10-Q、transcript |
+| `M` | `I` 的同一份 PDF 轉成 Markdown，例如 `*_ir_en.md` | transcript、SEC HTML、另一份 financial-results MD |
+| `F` | 官方 earnings release、financial-results、financial tables 或 SEC exhibit PDF | 只有 HTML/MD、transcript、digest |
+| `X` | `F` 的同一份 PDF 轉成 Markdown，例如 `*_report_en.md` 或 `*_financial_tables.md` | 只有 SEC URL、第三方摘要、沒有 PDF 對應的 MD |
+
+必要的配對規則：
+
+- `I` 沒有 `M` 時，必須建立 `TODO: convert I PDF to MD`，不能因 PDF 可讀就補填 M。
+- `M` 沒有同 stem 的 `I` 時，必須降級為 orphan MD，不能填 `M`。
+- `X` 沒有同一季度/同一來源的 `F` 時，保留 `X` 但必須在 sources sidecar 標為 `pdf_missing`；matrix 不得假裝 F 存在。
+- `F` PDF 轉檔含 `TODO:OCR` 時，F 可存在但 X 必須標為 incomplete，並建立 OCR TODO；不能把 partial MD 當成完整 X。
+- `I/M` 與 `F/X` 必須分別記錄 source URL、source type、SHA-256；兩組檔案即使來自同一個 IR page，也不能互相滿足。
+
+建議的落檔名稱：
+
+```text
+data/{TICKER}/{TICKER}_{FY}_{q}_ir_en.pdf
+data/{TICKER}/{TICKER}_{FY}_{q}_ir_en.md
+data/{TICKER}/{TICKER}_{FY}_{q}_report_en.pdf
+data/{TICKER}/{TICKER}_{FY}_{q}_report_en.md
+data/{TICKER}/{TICKER}_{FY}_{q}_financial_tables.pdf
+data/{TICKER}/{TICKER}_{FY}_{q}_financial_tables.md
+data/{TICKER}/{TICKER}_{FY}_{q}_10q.md
+data/{TICKER}/{TICKER}_{FY}_{q}_sources.json
+```
+
+`10q.md`、`8k.md` 等 SEC snapshot 必須在 `sources.json` 指向 accession 與原始 SEC URL；若要成為 matrix 的 `X`，應同時保存對應的官方 filing PDF snapshot，並使用 `report_en` 或 `financial_tables` 的標準命名。未經對應 PDF 驗證的 SEC Markdown 只能作 provenance/source evidence。
+
+#### 4. 每季度完成 gate
+
+對每個已到期或明確要求 ingest 的美股季度，執行以下 gate 並保存結果：
+
+```text
+[ ] fiscal quarter / calendar period resolved
+[ ] official IR results page checked
+[ ] SEC filing index checked when applicable
+[ ] I: presentation PDF present or explicit not-published
+[ ] M: presentation PDF converted, no TODO:OCR
+[ ] F: official financial-results PDF present
+[ ] X: matching financial-results Markdown present, no TODO:OCR
+[ ] transcript/audio classified as supplemental, never used as I/M/F/X
+[ ] sources.json has URLs, source types, dates/accession, sha256, and missing-material notes
+[ ] README and investor_material_matrix regenerated
+```
+
+若官方沒有發行某一類文件，寫入 `not_published`；若應有但尚未抓到，寫入 `TODO:ingest`；若 PDF 已抓到但轉檔/OCR 尚未完成，寫入 `TODO:OCR`。三者不可都用空白表示，否則無法區分「公司沒有」與「pipeline 漏抓」。
+
+#### 5. 批次稽核與補抓順序
+
+先處理最新 calendar quarter 中缺少 `F/X` 的公司，再處理只缺 `I/M` 的公司，最後才補 transcript/audio。建議每次以一家公司一個季度為單位，避免把同公司的不同 fiscal quarter 混在一起：
+
+```bash
+# 先列出官方來源與季度 mapping；不得直接以 transcript 當完成
+python skills/skill-company-investorconference-ingest/scripts/fetch_official_ir_financials.py \
+  --provider all --replace-symbol
+
+# 完成指定季度後重建 matrix / README
+python skills/skill-company-investorconference-ingest/scripts/ingest.py \
+  <TICKER> <FISCAL_YEAR> <FISCAL_QUARTER> --update-readme
+```
+
+批次完成後，對每個非台股 ticker 輸出一行 `calendar_period`, `I`, `M`, `F`, `X`, `missing_reason`。沒有 `F` 的 `X`、只有 transcript 的季度、以及只有 `I/M` 的季度都必須進入 TODO/issue 清單，而不是被歸類為「資料不存在」。
 
 ## Audio storage boundary
 
