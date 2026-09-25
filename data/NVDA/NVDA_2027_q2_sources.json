@@ -6,6 +6,22 @@
   "event_type": "財報",
   "sources": [
     {
+      "source_url": "https://investor.nvidia.com/files/doc_financials/2027/Q227/Q2FY27-CFO-Commentary.pdf",
+      "source_type": "NVIDIA official Q2 FY2027 CFO Commentary PDF",
+      "retrieved_at": "2026-09-25",
+      "sha256": "fd5a8f16308e49fedb17a2519495fe646e93cc4c5efbdbff547917f9a40682f5",
+      "local_file": "data/NVDA/NVDA_2027_q2_report_en.pdf",
+      "notes": "Official financial-results commentary used as the F source; Markdown conversion is complete."
+    },
+    {
+      "source_url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q227/NVDA-F2Q27-Quarterly-Presentation-final-1.pdf",
+      "source_type": "NVIDIA official Q2 FY2027 quarterly presentation PDF",
+      "retrieved_at": "2026-09-25",
+      "sha256": "09ab4748a56475e25b20ad3decdd5e50d46531449f5778b508a7663bc4ed212e",
+      "local_file": "data/NVDA/NVDA_2027_q2_ir_en.pdf",
+      "notes": "Official quarterly presentation used as the I source; Markdown has one TODO:OCR page because the OCR endpoint was unavailable."
+    },
+    {
       "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
       "source_type": "SEC 8-K Exhibit 99.1 earnings press release",
       "retrieved_at": "2026-08-27",
