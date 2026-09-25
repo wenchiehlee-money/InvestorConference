@@ -71,6 +71,8 @@ Broadcom 等 IR CDN 可能對 Python `requests` 回傳 HTTP 403，但同一個�
 
 Micron 的季度頁會把正式材料分在不同官方入口：`Q3 Earnings Deck` 是 `I`、同季 earnings-release PDF 是 `F`、prepared remarks 是補充逐字稿；下載器應以季度頁/事件頁提供的 canonical `micron.gcs-web.com` URL 為準，不要保留會回 404 的舊 `investors.micron.com/node/...` 別名。
 
+GlobalFoundries 的季度結果頁同時列出 earnings release、earnings presentation 與 Form 6-K；季度 `earnings release` PDF 才是 `F`，`earnings presentation` PDF 才是 `I`。兩個 PDF 必須分別轉成 `*_report_en.md` 與 `*_ir_en.md`，不可用同一份 PDF 同時填兩種旗標。
+
 因此，像 `2382_2026_q2_ir.pdf` / `_ir_en.pdf` 這類從 `238220260813M001.pdf` / `E001.pdf` 取得的檔案，應描述為「MOPS 法說會附件 / investor-conference presentation deck」。即使內容包含 Q2 財務結果，也不是 MOPS repo 的財報文件。相反地，README `財報` row 連到 `wenchiehlee-investment/MOPS/downloads/.../202602_2382_AI1.pdf` 這類檔案時，才是財報事件材料。
 
 ### 來源層級與衝突處理

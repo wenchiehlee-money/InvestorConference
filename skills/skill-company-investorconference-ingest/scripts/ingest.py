@@ -188,6 +188,10 @@ KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
         ("ir_en", "https://micron.gcs-web.com/static-files/2354ecda-77a0-4ddd-8462-a631eb491356"),
         ("transcript", "https://micron.gcs-web.com/static-files/631b1a32-5537-46ae-8f40-82e42fc79dfe"),
     ],
+    ("GFS", "2026", "2"): [
+        ("report_en", "https://investors.gf.com/node/11081/pdf"),
+        ("ir_en", "https://investors.gf.com/static-files/367dece5-f70e-4e66-9c9a-8e5ebde7810b"),
+    ],
     ("TSM", "2026", "2"): [
         ("transcript", "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf"),
     ],

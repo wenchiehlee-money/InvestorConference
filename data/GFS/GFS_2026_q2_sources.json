@@ -1,0 +1,24 @@
+{
+  "ticker": "GFS",
+  "fiscal_year": "2026",
+  "fiscal_quarter": "2",
+  "event_date": "2026-08-05",
+  "sources": [
+    {
+      "source_type": "GlobalFoundries investor-relations earnings release PDF",
+      "source_url": "https://investors.gf.com/node/11081/pdf",
+      "retrieved_at": "2026-09-25T00:00:00Z",
+      "sha256": "0c71dfb0dc2b57cc633468203524ddae44ee3b9cb49ab5ca40efa6865a4562eb",
+      "local_file": "data/GFS/GFS_2026_q2_report_en.pdf",
+      "notes": "Official Q2 2026 earnings release; this is the F source. Markdown has one TODO:OCR page because the OCR endpoint was unavailable."
+    },
+    {
+      "source_type": "GlobalFoundries investor-relations earnings presentation PDF",
+      "source_url": "https://investors.gf.com/static-files/367dece5-f70e-4e66-9c9a-8e5ebde7810b",
+      "retrieved_at": "2026-09-25T00:00:00Z",
+      "sha256": "ecdc5f65fd8f60eeec471d6d22bb89aef8c58f3d46050ab8e7473ab8e1c0ad0d",
+      "local_file": "data/GFS/GFS_2026_q2_ir_en.pdf",
+      "notes": "Official Q2 2026 earnings presentation; this is the I source. Markdown has three TODO:OCR pages because the OCR endpoint was unavailable."
+    }
+  ]
+}
