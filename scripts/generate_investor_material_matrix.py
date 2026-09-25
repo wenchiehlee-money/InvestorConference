@@ -47,6 +47,18 @@ def names():
     return result
 
 
+def taiwan_stock_ids():
+    """Return the Taiwan stock universe used for market classification."""
+    result = set()
+    stock_map = ROOT / "StockID_TWSE_TPEX.csv"
+    if stock_map.exists():
+        with stock_map.open(encoding="utf-8-sig", newline="") as handle:
+            for row in csv.reader(handle):
+                if row and row[0].strip():
+                    result.add(norm(row[0].strip()))
+    return result
+
+
 def conference_keys():
     result = set()
     for line in (ROOT / "README.md").read_text(encoding="utf-8").splitlines():
@@ -148,11 +160,24 @@ def build():
 def write(rows):
     columns = ["stock", "stock_name", "year", "generated_at"] + [f"q{q}_{field}" for q in range(1, 5) for field in FIELDS]
     generated_at = datetime.now(timezone.utc).isoformat()
+    taiwan_ids = taiwan_stock_ids()
     CSV_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     with CSV_OUTPUT.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=columns)
         writer.writeheader()
-        for key in sorted(rows, key=lambda item: (rows[item]["stock_name"].casefold(), -item[1], item[0])):
+        for key in sorted(
+        rows,
+        key=lambda item: (
+                1 if (
+                    norm(rows[item]["stock"]) in taiwan_ids
+                    if taiwan_ids
+                    else rows[item]["stock"].isdigit()
+                ) else 0,
+                rows[item]["stock_name"].casefold(),
+                -item[1],
+                item[0],
+            ),
+        ):
             row = rows[key]
             output = {"stock": row["stock"], "stock_name": row["stock_name"], "year": row["year"], "generated_at": generated_at}
             for q in range(1, 5):
