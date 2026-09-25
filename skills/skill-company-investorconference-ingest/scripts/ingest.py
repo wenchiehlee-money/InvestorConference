@@ -166,6 +166,7 @@ KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
         ("transcript", "https://investors.arm.com/static-files/2ef5e3bf-f276-4a46-a4a2-2aadccd6710b"),
     ],
     ("ASML", "2026", "2"): [
+        ("report_en", "https://ourbrand.asml.com/asset/ffeb8813-403b-49df-83c0-01aae7533dd6/Financial-statements-US-GAAP-Q2-2026.pdf"),
         ("ir_en", "https://ourbrand.asml.com/asset/9078cf4d-91fd-4dd9-a5d5-d1caab6dc046/2026_07_15_Presentation-Investor-Relations-Q2-2026.pdf"),
         ("transcript", "https://ourbrand.asml.com/asset/1fd3908a-0381-47b5-9b69-a3094f656651/2026_07_15-ASML-Transcript-investor-call-Q2-2026.pdf"),
     ],

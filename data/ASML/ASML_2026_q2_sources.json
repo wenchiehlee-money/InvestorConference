@@ -1,0 +1,33 @@
+{
+  "stock_id": "ASML",
+  "company": "ASML Holding N.V.",
+  "event_type": "財報",
+  "year": "2026",
+  "quarter": "2",
+  "sources": [
+    {
+      "source_type": "official US GAAP financial-statements PDF",
+      "source_url": "https://ourbrand.asml.com/asset/ffeb8813-403b-49df-83c0-01aae7533dd6/Financial-statements-US-GAAP-Q2-2026.pdf",
+      "local_path": "data/ASML/ASML_2026_q2_report_en.pdf",
+      "sha256": "71717aab1e6c76eaac0eb64d2c54f02954d0e162429d4f3b7fca4e188375cf3f",
+      "size_bytes": 1364488,
+      "notes": "Official ASML Q2 2026 US GAAP financial statements; paired matrix F/X source."
+    },
+    {
+      "source_type": "official investor presentation PDF",
+      "source_url": "https://ourbrand.asml.com/asset/9078cf4d-91fd-4dd9-a5d5-d1caab6dc046/2026_07_15_Presentation-Investor-Relations-Q2-2026.pdf",
+      "local_path": "data/ASML/ASML_2026_q2_ir_en.pdf",
+      "sha256": "5b3e05ace2b6d760e16d1ec0b84ca68db68961d4f5ead229516860333e4cdc88",
+      "size_bytes": 832285,
+      "notes": "Official ASML Q2 2026 investor presentation; paired matrix I/M source."
+    },
+    {
+      "source_type": "official investor-call transcript PDF",
+      "source_url": "https://ourbrand.asml.com/asset/1fd3908a-0381-47b5-9b69-a3094f656651/2026_07_15-ASML-Transcript-investor-call-Q2-2026.pdf",
+      "local_path": "data/ASML/ASML_2026_q2_transcript.pdf",
+      "sha256": "4d091fc8d1e3e7d48c941537b321c23ca2f14d6df69ffd4480e338c3c13d3719",
+      "size_bytes": 200351,
+      "notes": "Supplemental official transcript; not used as F/X."
+    }
+  ]
+}
