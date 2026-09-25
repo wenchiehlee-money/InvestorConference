@@ -49,6 +49,7 @@ CALENDAR_PERIOD_OVERRIDES = {
     ("ARM", 2027, 1): (2026, 2),
     ("MU", 2026, 3): (2026, 2),
     ("ORCL", 2026, 4): (2026, 1),
+    ("QCOM", 2026, 1): (2026, 1),
     ("SNDK", 2026, 4): (2026, 2),
 }
 
@@ -362,7 +363,7 @@ def write(rows, digest_sources):
         "",
         "This view normalizes non-Taiwan source fiscal-quarter keys into calendar `2026 Q1–Q4` periods so they can be compared directly with Taiwan stocks. The source/fiscal quarter identity remains available in the canonical data and repository files.",
         "",
-        "Each quarter contains `I/M/F/X` cells in that order.",
+        "Each quarter contains `I/M/F/X/D` cells in that order. `D` may be `D-` when the digest has source gaps.",
         "",
         "|Stock|2026 Q1|2026 Q2|2026 Q3|2026 Q4|",
         "|---|---|---|---|---|",
@@ -372,7 +373,7 @@ def write(rows, digest_sources):
         quarter_cells = []
         for quarter in range(1, 5):
             cell = row.get(quarter, {})
-            values = [cell.get(field, "") for field in ("I", "M", "F", "X")]
+            values = [cell.get(field, "") for field in ("I", "M", "F", "X", "D")]
             quarter_cells.append("<br>".join(value for value in values if value) or "—")
         lines.append(f"|{row['stock_name']}|" + "|".join(quarter_cells) + "|")
     MD_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
