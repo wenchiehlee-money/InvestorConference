@@ -359,6 +359,10 @@ python skills/skill-company-investorconference-ingest/scripts/fetch_official_ir_
 # 完成指定季度後重建 matrix / README
 python skills/skill-company-investorconference-ingest/scripts/ingest.py \
   <TICKER> <FISCAL_YEAR> <FISCAL_QUARTER> --update-readme
+
+# 只補抓官方 PDF，避免在材料健康批次中重抓長篇音訊
+python skills/skill-company-investorconference-ingest/scripts/ingest.py \
+  <TICKER> <FISCAL_YEAR> <FISCAL_QUARTER> --materials-only
 ```
 
 批次完成後，對每個非台股 ticker 輸出一行 `calendar_period`, `I`, `M`, `F`, `X`, `missing_reason`。沒有 `F` 的 `X`、只有 transcript 的季度、以及只有 `I/M` 的季度都必須進入 TODO/issue 清單，而不是被歸類為「資料不存在」。

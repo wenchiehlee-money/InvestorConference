@@ -2154,6 +2154,24 @@ def ingest_from_todo(auto_push: bool = False) -> None:
     update_readme()
 
 
+def ingest_official_materials_only(stock_id: str, year: str, quarter: str) -> None:
+    """Fetch quarter PDFs without redownloading conference audio.
+
+    This is the efficient path for the material-health queue when A/S/G are
+    already known or intentionally handled separately.  PDF acquisition still
+    uses the same official-source map and validation as normal ingestion.
+    """
+    save_dir = Path("tmp")
+    save_dir.mkdir(exist_ok=True)
+    print(f"=== Official materials only: {stock_id} {year} Q{quarter} ===")
+    pdf_paths = download_pdfs(stock_id, year, quarter, save_dir)
+    if not pdf_paths:
+        print("[PDF] No official quarter PDFs found.")
+        return
+    for path in pdf_paths:
+        print(f"[PDF] Ready for IR PDF-to-MD staging: {path.name}")
+
+
 # ── README Generator ─────────────────────────────────────────────────────────
 
 def update_readme() -> None:
@@ -3645,10 +3663,16 @@ if __name__ == "__main__":
         "--auto-todo", action="store_true",
         help="Scan raw_event_upcoming_earnings.csv and ingest any missing past events",
     )
+    parser.add_argument(
+        "--materials-only", action="store_true",
+        help="Fetch mapped official quarter PDFs without downloading audio/transcripts",
+    )
     args = parser.parse_args()
 
     if args.auto_todo:
         ingest_from_todo(auto_push=args.push)
+    elif args.materials_only and args.stock_id and args.year and args.quarter:
+        ingest_official_materials_only(args.stock_id, args.year, args.quarter)
     elif args.sync_durations:
         sync_all_audio_durations(INVESTOR_CONFERENCE_REPO)
     elif args.update_readme:

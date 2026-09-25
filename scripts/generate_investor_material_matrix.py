@@ -223,9 +223,9 @@ def build():
                 cell["S"] = linked("S", IC_BLOB + f"data/{code}/{path.name}")
             elif lower.endswith("_gt.srt"):
                 cell["G"] = linked("G", IC_BLOB + f"data/{code}/{path.name}")
-            elif lower.endswith(("_ir.pdf", "_ir_en.pdf")):
+            elif lower.endswith(("_ir.pdf", "_ir_en.pdf", "_performance_review.pdf")):
                 cell["I"] = linked("I", IC_BLOB + f"data/{code}/{path.name}")
-            elif lower.endswith(("_ir.md", "_ir_en.md")):
+            elif lower.endswith(("_ir.md", "_ir_en.md", "_performance_review.md")):
                 cell["M"] = linked("M", IC_BLOB + f"data/{code}/{path.name}")
             elif lower.endswith("_report_en.pdf") or lower.endswith("_financial_tables.pdf"):
                 cell["F"] = linked("F", IC_BLOB + f"data/{code}/{path.name}")
