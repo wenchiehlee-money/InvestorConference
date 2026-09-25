@@ -26,6 +26,14 @@ def norm(value):
     return re.sub(r"[^A-Z0-9]", "", value.upper())
 
 
+def canonical_stock(value):
+    """Use exchange-qualified symbols consistently for Hong Kong listings."""
+    normalized = norm(value)
+    if re.fullmatch(r"\d{4}HK", normalized):
+        return f"{normalized[:4]}.HK"
+    return value
+
+
 def names():
     result = {}
     stock_map = ROOT / "StockID_TWSE_TPEX.csv"
@@ -80,7 +88,10 @@ def linked(label, url):
 
 def ensure(rows, code, year, quarter, display):
     canonical_code = norm(code)
-    row = rows.setdefault((canonical_code, year), {"stock": code, "stock_name": display or code, "year": year})
+    row = rows.setdefault(
+        (canonical_code, year),
+        {"stock": canonical_stock(code), "stock_name": display or code, "year": year},
+    )
     row.setdefault(quarter, {field: "" for field in FIELDS})
     return row[quarter]
 
