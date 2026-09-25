@@ -195,6 +195,10 @@ KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
     ("MRVL", "2027", "2"): [
         ("report_en", "https://d1io3yog0oux5.cloudfront.net/_66d73b48265f58a017235898e12a0df5/marvell/news/2026-08-27_Marvell_Technology_Inc_Reports_Second_Quarter_of_1031.pdf"),
     ],
+    ("HPQ", "2026", "3"): [
+        ("report_en", "https://s203.q4cdn.com/918857832/files/content_files/Q3-26_HP-Inc_Earnings-Press-Release.pdf"),
+        ("ir_en", "https://s203.q4cdn.com/918857832/files/content_files/Q3-26_HP-Inc_Earnings-Presentation.pdf"),
+    ],
     ("TSM", "2026", "2"): [
         ("transcript", "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf"),
     ],

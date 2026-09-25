@@ -75,6 +75,8 @@ GlobalFoundries 的季度結果頁同時列出 earnings release、earnings prese
 
 Marvell 的季度頁會同時提供 `Earnings Release PDF`、`Financial and Business Results PDF` 與 `Additional Earnings Information PDF`。`Earnings Release PDF` 應標準化為 `*_report_en.pdf/md`，作為 `F/X`；營運簡報則維持 `*_performance_review.pdf/md`，作為 `I/M`。不能因為其他財務 PDF 已存在就跳過 earnings-release PDF。
 
+HP Inc. 的 earnings event page 會明確分開 `Results Press Release` 與 `Results Presentation`。前者標準化為 `*_report_en.pdf/md`（`F/X`），後者標準化為 `*_ir_en.pdf/md`（`I/M`）；兩個連結都必須以同一個 fiscal-quarter event page 驗證，不能只抓最新一份文件。
+
 因此，像 `2382_2026_q2_ir.pdf` / `_ir_en.pdf` 這類從 `238220260813M001.pdf` / `E001.pdf` 取得的檔案，應描述為「MOPS 法說會附件 / investor-conference presentation deck」。即使內容包含 Q2 財務結果，也不是 MOPS repo 的財報文件。相反地，README `財報` row 連到 `wenchiehlee-investment/MOPS/downloads/.../202602_2382_AI1.pdf` 這類檔案時，才是財報事件材料。
 
 ### 來源層級與衝突處理
