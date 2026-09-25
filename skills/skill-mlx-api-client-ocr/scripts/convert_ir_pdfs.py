@@ -104,7 +104,8 @@ def convert_pdf_to_md(pdf_path, md_path):
 
 def main():
     print("=== Converting Investor Presentation PDFs to Markdown (via skills/skill-mlx-api-client-ocr) ===")
-    targets = set(sys.argv[1:])
+    replace_existing = "--replace" in sys.argv[1:]
+    targets = {arg for arg in sys.argv[1:] if arg != "--replace"}
     data_dir = REPO_ROOT / "data"
     company_dirs = [d for d in data_dir.iterdir() if is_company_dir(d)]
     if targets:
@@ -123,7 +124,7 @@ def main():
                 md_path = c_dir / f"{file.stem}.md"
 
                 # Check if MD already exists
-                if md_path.exists():
+                if md_path.exists() and not replace_existing:
                     skipped_count += 1
                     continue
 

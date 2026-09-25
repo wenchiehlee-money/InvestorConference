@@ -26,6 +26,22 @@
       "sha256": "a01f6bd87c7fa0dcb562493dda7348a1a37d017b4a4b5edb39b915b45688237e",
       "local_path": "data/GOOGL/GOOGL_2026_q2_report_en.md",
       "notes": "Official SEC EDGAR filing; event evidence for Alphabet 2026 Q2 financial results."
+    },
+    {
+      "source_type": "official earnings release PDF",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf",
+      "local_path": "data/GOOGL/GOOGL_2026_q2_report_en.pdf",
+      "sha256": "65f35a2e9c287112121f736321c7526d603ba8e0dae27acac56c7d7357602aa8",
+      "size_bytes": 140593,
+      "notes": "Official Alphabet earnings-release PDF; paired matrix F/X source."
+    },
+    {
+      "source_type": "official investor presentation PDF",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-slides.pdf",
+      "local_path": "data/GOOGL/GOOGL_2026_q2_ir_en.pdf",
+      "sha256": "a1d9b335cf1d1c3d405f44fc061e0773bf6d9f471932ff9843b7b411990e65a3",
+      "size_bytes": 2149527,
+      "notes": "Official Alphabet Q2 2026 earnings slides; paired matrix I/M source."
     }
   ]
 }

@@ -56,15 +56,18 @@ def target_pdfs(data_dir: Path, prefix: str) -> list[Path]:
 
 
 def stage_tmp_pdfs(repo: Path, data_dir: Path, prefix: str) -> list[Path]:
-    """Move IR PDFs left in tmp/ by ingest.py into data/<stock>/ for OCR."""
+    """Move quarter PDFs left in tmp/ by ingest.py into data/<stock>/ for OCR.
+
+    This includes both conference presentation PDFs (I/M) and official
+    financial-results PDFs (F/X).  The latter used to remain in tmp/ and
+    could therefore never become a matrix F cell.
+    """
     tmp_dir = repo / "tmp"
     staged: list[Path] = []
     if not tmp_dir.is_dir():
         return staged
 
     for src in sorted(tmp_dir.glob(f"{prefix}*.pdf")):
-        if "ir" not in src.stem.lower() and "presentation" not in src.stem.lower() and "deck" not in src.stem.lower():
-            continue
         dest = data_dir / src.name
         if dest.exists():
             src.unlink()

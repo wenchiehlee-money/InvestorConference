@@ -174,6 +174,10 @@ KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
         ("ir_en", "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Earnings-Presentation-Q2-2026.pdf"),
         ("transcript", "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf"),
     ],
+    ("GOOGL", "2026", "2"): [
+        ("report_en", "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf"),
+        ("ir_en", "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-slides.pdf"),
+    ],
     ("MU", "2026", "3"): [
         ("ir_en", "https://micron.gcs-web.com/static-files/2354ecda-77a0-4ddd-8462-a631eb491356"),
         ("transcript", "https://micron.gcs-web.com/static-files/631b1a32-5537-46ae-8f40-82e42fc79dfe"),
