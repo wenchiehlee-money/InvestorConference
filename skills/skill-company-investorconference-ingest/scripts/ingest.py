@@ -203,6 +203,10 @@ KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
         ("report_en", "https://investor.nvidia.com/files/doc_financials/2027/Q227/Q2FY27-CFO-Commentary.pdf"),
         ("ir_en", "https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q227/NVDA-F2Q27-Quarterly-Presentation-final-1.pdf"),
     ],
+    ("QCOM", "2026", "3"): [
+        ("report_en", "https://s204.q4cdn.com/645488518/files/doc_financials/2026/q3/FY2026-3rd-Quarter-Earnings-Release.pdf"),
+        ("ir_en", "https://s204.q4cdn.com/645488518/files/doc_financials/2026/q3/FY2026-3rd-Quarter-Earnings-Presentation_7-29-26_Final.pdf"),
+    ],
     ("TSM", "2026", "2"): [
         ("transcript", "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf"),
     ],

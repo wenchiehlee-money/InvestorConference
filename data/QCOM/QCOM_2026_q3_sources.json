@@ -1,0 +1,26 @@
+{
+  "stock_id": "QCOM",
+  "company": "Qualcomm Incorporated",
+  "event_type": "財報",
+  "year": "2026",
+  "quarter": "3",
+  "calendar_period": "2026 Q2",
+  "sources": [
+    {
+      "source_type": "official Qualcomm earnings release PDF",
+      "source_url": "https://s204.q4cdn.com/645488518/files/doc_financials/2026/q3/FY2026-3rd-Quarter-Earnings-Release.pdf",
+      "local_path": "data/QCOM/QCOM_2026_q3_report_en.pdf",
+      "sha256": "06ed949865b5e2a5b7645b409090d91584f698ffcfa20d19e0badeeee01c62bf",
+      "size_bytes": 222446,
+      "notes": "Official Qualcomm FY2026 Q3 earnings release for the quarter ended June 28, 2026; paired matrix F/X source."
+    },
+    {
+      "source_type": "official Qualcomm earnings presentation PDF",
+      "source_url": "https://s204.q4cdn.com/645488518/files/doc_financials/2026/q3/FY2026-3rd-Quarter-Earnings-Presentation_7-29-26_Final.pdf",
+      "local_path": "data/QCOM/QCOM_2026_q3_ir_en.pdf",
+      "sha256": "1143dfde333b7474afbc316971685e70e660b088f586cac54a072534359bc490",
+      "size_bytes": 2919792,
+      "notes": "Official Qualcomm FY2026 Q3 earnings presentation; paired matrix I/M source. Markdown has four TODO:OCR pages pending Mac-mini OCR availability."
+    }
+  ]
+}
