@@ -273,20 +273,20 @@ _[51m 25s]_
 Joining us on the call today for your questions. A replay will be available on our investor relations website for at least three months. We appreciate your interest in Amazon and look forward to speaking with you again next quarter.
 At a glance
 Insights from the latest news and reports
-7 sites
+10 sites
 insights_auto
-Amazon Beats EPS and Revenue Estimates:Amazon reported a massive beat with a reported revenue of $200,606,000,000 versus the estimated $196,619,189,040, alongside a reported adjusted EPS of $5.75 compared to the estimated 1.819.
+Amazon Tops Revenue and EPS Estimates:Amazon reported a substantial earnings beat for Q2 2026, with an adjusted EPS of $5.75 compared to the estimated $1.819, and revenue reaching $200.606 billion against expectations of $196.619 billion.
 insights_auto
-AWS Achieves Record-Breaking Growth Surge:Amazon Web Services (AWS) revenue grew 36.7% year-over-year to $42.2 billion, marking its fastest growth in 18 quarters and accelerating for the fifth straight quarter.
+AWS Growth Reaches 18-Quarter High:Amazon Web Services revenue surged 36.7% year-over-year to $42.2 billion, handily beating the 31% expansion Wall Street projected and marking its fastest growth rate in 18 quarters.
 insights_auto
-Capital Expenditures Raised Significantly on Demand:Amazon increased its 2026 capital expenditures guidance to approximately $220 billion to build out its infrastructure and support overwhelming demand for generative AI and AWS workloads.
+Capital Expenditure Guidance Raised Higher:Management dramatically raised its 2026 cash CapEx plan from $200 billion to approximately $220 billion to fund expanding data center infrastructure and high-demand AI capacity.
 insights_auto
-Anthropic Gain Inflates Net Income Figure:The company's bottom-line performance included a massive $53.4 billion non-operating, pre-tax gain primarily driven by the valuation of its investment in AI startup Anthropic.
+Anthropic Gain Inflates Net Income:The reported GAAP net income of $62.6 billion was heavily boosted by a $53.4 billion non-operating, pre-tax mark-to-market gain from Amazon's equity stake investment in AI startup Anthropic.
 insights_auto
-Advertising Segment Maintains Rapid Momentum:Amazon's advertising services revenue jumped 26% year-over-year to $19.8 billion, establishing itself as a high-margin growth engine alongside its cloud business.
+Strong Advertising and Retail Momentum:Amazon’s advertising segment climbed 26% year-over-year to $19.8 billion, while retail segments were aided by the strategic shift of Prime Day into the second quarter.
 insights_auto
-Strong Retail Acceleration and Market Reaction:Total revenue crossed the $200 billion mark for the first time, aided by the Prime Day shift into Q2, which caused Amazon shares to surge over 9% in after-hours trading.
+Shares Surge on Strong Results:Amazon stock climbed over 9% in extended trading immediately following the earnings release as investors responded positively to accelerating cloud demand and transparency in infrastructure returns.
 search_spark
-How much does the $53.4 billion Anthropic gain distort Amazon's core operating profitability margins for Q2 2026?
+How sustainable is the accelerating growth of AWS given the competitive landscape from Microsoft Azure and Google Cloud?
 search_spark
-Will the raised $220 billion capital expenditure plan impact Amazon's free cash flow recovery over the next few quarters?
+Will Amazon's negative free cash flow reverse as the heavy CapEx investments into AI capacity begin to mature?

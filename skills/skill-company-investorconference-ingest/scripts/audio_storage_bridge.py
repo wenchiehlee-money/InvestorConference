@@ -96,6 +96,7 @@ def upload_and_update_manifest(repo: Path, audio_path: Path):
 
 # Keep old name as alias so existing ingest.py calls still work
 def upload_to_gdrive_and_update_manifest(repo: Path, stock_id: str, audio_path: Path):
+    """Backward-compatible alias; audio is uploaded to GitHub Releases, not GDrive."""
     url, manifest_path = upload_and_update_manifest(repo, audio_path)
     return url, manifest_path
 

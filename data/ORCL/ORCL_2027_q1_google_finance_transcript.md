@@ -352,20 +352,20 @@ _[51m 6s]_
 Thank you. This concludes today's conference. We would like to thank you all for your participation today. You may now disconnect.
 At a glance
 Insights from the latest news and reports
-9 sites
+10 sites
 insights_auto
-Oracle Beats Estimates on Top Line:For Q1 2027, Oracle reported total revenue of $19.345 billion, beating the estimated revenue of $19.129 billion, while reported adjusted EPS stood at $1.92, ahead of Wall Street consensus expectations.
+Oracle Beats Earnings and Revenue:Oracle exceeded fiscal Q1 2027 expectations, reporting a revenue of $19.345 billion against the estimated $19.129 billion and an adjusted EPS of $1.92 compared to estimates of $1.74.
 insights_auto
-Cloud Infrastructure Revenue More Than Doubles:Oracle's key growth metric, Cloud Infrastructure (IaaS) revenue, surged 121% year-over-year to $7.4 billion, demonstrating accelerating demand for AI workloads compared to prior quarters.
+Cloud Infrastructure Drives Unprecedented Acceleration:Oracle Cloud Infrastructure (OCI) revenue surged 121% year-over-year to $7.4 billion, accelerating from the 93% growth seen in the previous quarter and pushing total cloud revenues to $11.6 billion.
 insights_auto
-Full-Year Profit Outlook Revised Upward:Oracle raised its fiscal year 2027 non-GAAP EPS guidance to $8.10 and expects total full-year revenue to reach at least $90 billion, driven by accelerated infrastructure capacity and strong execution.
+Full-Year Guidance Upgraded Significantly:Oracle raised its full-year fiscal 2027 revenue guidance to at least $90 billion, supported by explosive demand for AI capacity and massive momentum in booking new AI cloud contracts.
 insights_auto
-Backlog Reaches Record Highs on AI Demand:The company's Remaining Performance Obligations (RPO) jumped to a record $664 billion, fueled by booking more than $30 billion in additional AI cloud contracts during the quarter.
+Remaining Performance Obligations Hit Records:The company's Remaining Performance Obligations (RPO) jumped to $664 billion, fueled by booking more than $30 billion in new AI cloud contracts during the quarter.
 insights_auto
-Aggressive Capex Pushes Cash Flow Negative:Massive data center and AI expansion investments required $28.5 billion in capital expenditures, driving Oracle's free cash flow for the first quarter into negative territory at $5.4 billion.
+Heavy CapEx Pressures Cash Flow:Oracle's capital expenditures reached $28 billion for the quarter, which pushed free cash flow into negative territory at negative $5 billion as the company aggressively builds out data centers.
 insights_auto
-Positive Market Reaction Following Results:Oracle shares jumped over 5% in extended trading immediately after the report, as investors reacted favorably to the cloud infrastructure acceleration and raised corporate outlook.
+Stock Climbs on Upward Revisions:Oracle shares jumped 4% to 7% in extended trading immediately following the stronger-than-expected top- and bottom-line delivery and robust outlook metrics.
 search_spark
-How does Oracle plan to manage infrastructure supply constraints to meet its elevated fiscal 2027 revenue guidance?
+How does Oracle plan to mitigate the supply constraints and high capital costs associated with its aggressive data center footprint expansion?
 search_spark
-What impact will the negative free cash flow and high capital expenditure program have on Oracle's long-term debt profile?
+What portion of Oracle's $664 billion RPO backlog is expected to convert into realized revenue over the next fiscal year?
