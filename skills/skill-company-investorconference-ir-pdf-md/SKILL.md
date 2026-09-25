@@ -17,6 +17,8 @@ You maintain `InvestorConference` source material quality. The goal is not just 
 
 This skill repairs materials for an explicitly due or requested event. A future README row with no PDF is `planned/not_due`, not a broken PDF conversion. Keep same-day `法說會` and `財報` as separate records: an IR presentation PDF belongs to the conference record, while the official financial statement belongs to the report record.
 
+For non-Taiwan issuers, the report record may use an official earnings-release/financial-results PDF or SEC 8-K Exhibit 99.1 PDF. Its converted Markdown is the paired report artifact; in the material matrix these are `F` (PDF) and `X` (MD). They remain separate from conference presentation `I/M`.
+
 ## Standard Workflow
 
 Run from the `InvestorConference` repo root:

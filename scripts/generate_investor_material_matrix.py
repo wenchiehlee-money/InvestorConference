@@ -130,6 +130,10 @@ def build():
                 cell["I"] = linked("I", IC_BLOB + f"data/{code}/{path.name}")
             elif lower.endswith(("_ir.md", "_ir_en.md")):
                 cell["M"] = linked("M", IC_BLOB + f"data/{code}/{path.name}")
+            elif lower.endswith("_report_en.pdf") or lower.endswith("_financial_tables.pdf"):
+                cell["F"] = linked("F", IC_BLOB + f"data/{code}/{path.name}")
+            elif lower.endswith("_report_en.md") or lower.endswith("_financial_tables.md"):
+                cell["X"] = linked("X", IC_BLOB + f"data/{code}/{path.name}")
             audio_key = f"{norm(code)}_{year}_q{quarter}"
             if (norm(code), year, quarter) in conference_catalog and audio_key in manifest and audio_key not in invalid_audio:
                 cell["A"] = linked("A", manifest[audio_key])
