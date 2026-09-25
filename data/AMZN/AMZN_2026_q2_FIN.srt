@@ -1,0 +1,788 @@
+[METADATA]
+Source: AMZN_2026_q2_exp11
+Language: zh
+---
+(00:00.000) 謝謝您的待機。
+(00:08.710) 現在,所有參賽者都在聽聽的模式中。
+(00:12.040) 在播出後,我們會進行問答和回答的會議。
+(00:16.510) and for opening remarks,
+(00:18.110) 為了開場的聲明,我會把通知傳給投資者的副總理,
+(00:21.190) Mr. Dave Files. Thank you,
+(00:24.090) sir. Please go ahead.
+(01:26.800) 您將看到這些不障礙的計劃
+(02:34.040) 行業收益額為$27.5億
+(02:36.540) 每年增加43%
+(02:38.560) Q2是Amazon的另一個非常強勢的季度
+(02:42.410) 我開始是AWS
+(02:44.030) 現在正在增加
+(02:44.890) 我會分享數據
+(02:46.290) 我們認為正在發生的事情
+(02:47.630) 和我們對ROIC的規則
+(02:50.930) 有興趣
+(02:51.130) 尤其是在接下來的幾年中
+(02:54.040) 首先是數據
+(02:55.310) 收益增加了36.7%
+(02:57.910) 每年增加了5個季度
+(03:00.470) 我們最快的收益增加了18個季度
+(03:02.830) 在AWS的現時成本比例
+(03:05.890) 我們在每年每季度增加了
+(03:10.290) 達到我們最大增長的
+(03:13.390) And our backlog stands at $496 billion
+(03:16.610) growing triple digits year over year
+(03:29.020) if it was a standalone company
+(03:34.310) of over 25 billion dollars
+(03:35.970) 增長了一年一年的三維碼比率
+(03:38.290) Our AI revenue run rate
+(03:40.620) 升級了大約一半
+(03:42.780) has now also over 25 billion dollars
+(03:45.760) 增長了一年一年的三維碼比率
+(03:47.940) Customers choose AWS
+(03:50.390) 是因為我們提供最廣泛的功能
+(03:52.470) they want their AI inference
+(03:54.530) 在他們的其他程序和資料附近
+(03:57.050) 而更多的屬於AWS
+(03:59.510) 而不是任何其他地方
+(04:02.290) and operational performance
+(04:03.430) We're seeing strong growth
+(04:08.460) what we call core,
+(04:20.030) 這就是AWS 的優點
+(04:24.930) 提供了30-40%的比其他選項的價值
+(04:29.070) You need a place to store this AI data
+(04:31.770) and to run vector databases
+(04:32.970) and to run vector databases
+(04:36.670) 因為我們的功能是最廣泛的
+(04:39.410) 並且是最能用的
+(04:42.250) 我們感覺相似於AI stack的上下層
+(04:46.300) 我們有一個特別的提供
+(04:49.550) As we've been saying for 18 months now
+(04:52.060) 技術上的技術家
+(04:55.820) not the really big frontier models
+(04:57.600) 而是小型的模式
+(05:00.520) 這比我們的Sagemaker AI 服務更容易
+(05:05.220) 客戶也需要
+(05:09.670) and that's what Amazon Bedrock provides
+(05:11.950) Bedrock不僅提供最佳的主要模型選擇
+(05:15.650) 以高效率的表現
+(05:20.070) 它也在增長的速度上也在增長
+(05:23.110) 除了主要模型建設和供應服務
+(05:27.210) 客戶需要更容易建立、運行和擴展的項目
+(05:30.750) 例如,即使你已經建立了一個項目
+(05:33.550) you have a lot of muck to worry about
+(05:38.550) memory so it holds context
+(05:42.970) tools and data to connect to
+(05:53.690) it's why we've built Bedrock Agent Corp
+(05:59.750) And our teams keep iterating
+(06:01.890) Recently adding features like policies
+(06:29.900) coding agents are a good example
+(06:32.360) and there are several successful ones
+(06:34.640) including Cloud Code, Codex
+(06:36.580) and our own spec-driven Kiro
+(06:38.260) 其中有50%比其他更有價值性,並在每個月的使用率上升了一倍。
+(06:43.730) 另一個這些業務是Amazon Quick,
+(06:47.370) an intelligent AI work companion
+(06:51.690) 通過電子電腦、日記、地址、地址和定屬工作坊。
+(06:54.350) 通過電子電腦、日記、地址、地址和定屬工作坊。
+(06:56.610) unlike other offerings in this space
+(07:12.990) and then it takes action
+(07:20.440) in Q2 we made Quick even more capable
+(07:26.590) to run continuously in the background
+(07:57.630) and Southwest Airlines all using it
+(07:59.750) 都在使用它
+(08:03.350) our call center service
+(08:04.790) and AWS Transform
+(08:06.430) 這些服務器
+(08:09.070) 增長得更快
+(08:11.770) 我更興奮的一個問題
+(08:14.330) 越來越強大
+(08:17.530) and technical applications
+(08:18.790) many of which humans haven't found
+(08:21.190) 這當然是
+(08:23.750) that protect important data
+(08:25.270) We recently released AWS Continuum
+(08:28.410) AWS Continuum
+(08:33.070) code vulnerabilities
+(08:37.700) the team already has
+(08:41.820) continuum uses agents
+(08:47.400) reasoning through questions like
+(08:49.400) Is the affected component deployed?
+(08:51.480) Is it reachable?
+(08:52.640) Is it in a production path?
+(08:54.720) And what's the impact if it's exploited?
+(08:56.920) if it's exploited
+(08:59.500) in a sandbox
+(09:31.680) Gigawatt的承諾
+(09:32.600) 和Tranium
+(09:33.300) 增加的AI公司
+(09:35.760) 也在承諾Tranium
+(09:37.460) 包括Neurorobotics和Odyssey
+(09:41.060) 也在承諾
+(09:41.940) 像12Labs、Dekart、Poolside
+(09:45.000) Karakuri、Metagenomy
+(09:47.480) Netto AI和Splash Music
+(09:49.820) 以及更大的公司
+(09:50.860) 例如Uber和Pinterest
+(09:52.040) 都在承諾Tranium
+(09:53.340) Graviton使用了
+(09:55.600) 我們的98%的
+(09:56.640) 最高1000EC2顧客
+(09:58.700) 他們的收入承諾
+(10:00.470) 增加了
+(10:01.230) nearly three times quarter over quarter
+(10:03.030) 而Graviton 5的成長是Graviton 4比Graviton 2快
+(10:06.570) as Graviton 4 did
+(10:07.970) 我們還繼續與NVIDIA合作
+(10:12.110) 我們將繼續使AWS成為NVIDIA的最佳車
+(10:15.430) 因為我們有NVIDIA的顧客
+(10:17.430) for as long as we can foresee
+(10:18.790) 我們相信顧客需要選擇
+(10:21.980) 選擇是對於顧客、競爭
+(10:24.730) and driving the cost of inference down
+(10:27.270) which customers care deeply about
+(10:28.890) 我們很關心這點
+(10:32.870) Earlier this year,
+(10:34.050) Earlier this year,
+(10:38.810) 大部分的投資是AI和AWS的
+(10:42.640) 在這種費用和高度上
+(10:47.820) I'll explain why.
+(10:48.900) 我會解釋為什麼
+(10:56.290) These have different capital cycles.
+(11:30.100) We won't spend the capital
+(11:30.940) For servers and networking equipment
+(11:33.200) 平均上,這項投資需要三年多,
+(11:35.740) To break even on that investment
+(11:37.200) The servers currently have a useful life
+(11:39.890) Of at least five to six years
+(11:41.410) And most of our AI capacity these days
+(11:44.330) 在最多五年程度上,
+(11:46.970) 這意味著我們在兩到三年內
+(11:50.320) On the servers and networking equipment
+(11:54.460) 也值得提到,
+(11:58.260) 在我們已經做了有意義的進步,
+(12:00.580) 我們已經做了很重要的進步,
+(12:02.340) 並且找到方法來延長這種器材的有用性生活,
+(12:06.020) without sacrificing customer experience
+(12:08.060) So for our data centers
+(12:10.630) which have 30 plus year useful lives
+(12:12.990) 我們應該得到最少五到六世紀的設備經濟,
+(12:16.790) like I explained earlier
+(12:18.030) 正如我剛才解釋的,
+(12:20.900) having even better overall economics
+(12:22.760) because we don't have to repeat
+(12:24.220) 因為我們不必重複
+(12:26.720) This means in the short term
+(12:28.920) when demand is necessitating
+(12:30.860) 那麼多數研究中心在同時建設
+(12:33.420) 我們可以開始兌換它們
+(12:35.780) 我們會花很多CAPEX
+(12:37.640) 和遇到兌換兌換兌換
+(12:39.180) 直到這些數研究中心來到網上
+(12:41.860) 可以被兌換
+(12:42.640) 我們可以在這些伺服器中
+(12:44.840) 用了幾年
+(12:45.600) 那是我們幾年之內
+(12:47.430) 而資金增長
+(12:49.080) 會把增長的CAPEX增長
+(12:51.220) 加速
+(12:51.280) 這會發生在某個時刻
+(12:52.460) 結果資金
+(12:54.180) 兌換兌換
+(12:55.760) 和投資的資金
+(12:57.040) 是非常豐富的
+(12:58.460) 我們做過這些
+(12:59.380) 在第一陣子的
+(13:28.620) 去遮擋全領域的需求
+(13:31.800) Dynamic will also be true in 2027 too
+(13:34.380) 實際上
+(13:38.280) 在2028年是令人感到震驚的
+(13:41.670) in using inference at scale
+(13:42.910) in their current production applications
+(13:44.390) We long believed AWS could become
+(13:47.280) AWS可以成為
+(13:49.280) 收入商
+(13:51.480) and very possibly be a trillion dollar
+(13:54.100) annual revenue business for us in time
+(13:56.020) 在我們的時間中
+(13:58.320) and return on invested capital
+(13:59.760) I'll now turn to stores
+(14:01.940) 我們加入了
+(14:07.720) 我們還增加了
+(14:14.140) 現在我們有
+(14:17.720) 價格低於$10
+(14:28.860) where customers shop millions of deals
+(14:42.990) across perishables and non-perishables
+(14:50.750) Same day orders with perishables
+(14:52.900) average over 3x more units per order
+(14:55.460) and fresh groceries now make up
+(15:00.020) We grew the number of new customers
+(15:03.150) for Amazon Pharmacy by more than 2x
+(15:05.430) in the first six months of the year
+(15:13.700) so far this year in out-of-pocket costs
+(15:16.160) up more than 400% year over year
+(15:18.760) We continue speeding up overall delivery
+(15:21.950) 我們提供了整體的送貨
+(15:24.370) 客戶的計算速度
+(15:26.290) 我們提供了億多的產品
+(15:30.160) 達到40倍的選擇
+(15:34.300) 同時我們的同時送貨
+(15:37.390) 全球上我們達到
+(15:49.040) Amazon Now,
+(15:49.880) Amazon Now,
+(15:58.100) and several major cities in Egypt in Q2
+(16:04.120) and over 250 cities and towns globally
+(16:09.570) with over 80% growth and growth sales
+(16:12.050) and units sold quarter over quarter
+(16:17.690) Amazon Now
+(16:21.100) 所以任何公司都可以移動、銷售和達成
+(16:51.780) 通過功能類似的價值額和自動購買
+(16:55.520) 在這12個月內使用了它
+(16:57.860) and engagement accelerated in Q2
+(17:00.300) with active users nearly doubling
+(17:02.400) 使用者幾乎變異
+(17:05.640) We also expanded Amazon Lens
+(17:08.380) 讓客戶可以拍攝任何他們看到的東西
+(17:10.820) 並且立即找到
+(17:13.540) to 10 additional countries
+(17:15.440) 現在在全球21個國家中有的產品
+(17:18.580) Moving on to Amazon Ads
+(17:20.810) 我們看到我們的產品的增長
+(17:23.390) generating $19.8 billion of revenue
+(18:29.000) 來進行全項項目的
+(18:34.540) 和目標設定的時間
+(18:40.220) 我們將在今年新的11個國家中增加了6%的費用供應價值和6%的費用供應價值
+(18:50.510) Starting with entertainment,
+(19:09.650) 優優獨播劇
+(19:37.680) 優優獨播劇場——YoYo Television Series Exclusive
+(20:21.880) 謝謝,Andy
+(20:31.240) 20%的增加每年
+(20:32.720) 除了外國交易的影響
+(20:35.040) 這些結果包括
+(20:36.640) Q2的首次日期變化
+(20:39.340) 在我們最大的國家中
+(20:40.920) 包括美國
+(20:42.060) 在Q2我們報道了
+(20:44.480) 全球生產收益
+(20:45.500) 為$27.5億
+(20:47.260) 這包括了
+(20:49.110) 兩項減少資金的利潤
+(20:51.790) 大約$1.2億
+(20:53.730) 在這一季
+(20:55.450) 首先,我們收到
+(20:56.490) 大約$600億的
+(20:59.310) 免費資金
+(20:59.530) 這包括了
+(21:01.140) 我們的南美國組織
+(21:02.560) 南美國的部分中
+(21:06.420) second
+(21:11.660) related to the change
+(21:16.080) subject to derivative accounting
+(21:17.960) This primarily impacts the AWS segment
+(21:21.460) the AWS segment
+(21:27.120) certain terms in these contracts
+(21:31.940) Derivatives are measured at fair value
+(21:38.610) will create unrealized gains and losses
+(21:40.770) recorded within operating expenses
+(21:42.590) on our statements of operations
+(21:51.200) Moving on to our segment results
+(21:53.860) In the North America segment
+(21:58.840) an increase of 16% year over year
+(22:01.840) 國際級別的收入是$42.2億
+(22:05.840) and increased to 15% year-over-year
+(22:08.800) excluding the impact of foreign exchange
+(22:10.900) 世界上的收入是17%每年
+(22:14.910) 首發仍然是我們的重要基礎
+(22:18.100) 而我們的二維碼每年的協議增長
+(22:20.920) 反映了我們的提供的價值
+(22:23.400) 我們看到了我們的客戶的經驗
+(22:26.540) that drive our customer experience
+(22:27.840) 包括新的選擇
+(22:31.920) Shifting to profitability
+(22:34.200) 轉換到利益
+(22:41.660) 國際業務額
+(22:48.980) 在我們的承受系統中
+(22:54.500) 減少購物距離
+(23:00.240) 我們在進行
+(23:03.800) 這兩項進行在我們的行業中
+(23:06.720) 已經是十年來的一項
+(23:10.860) 我們預期將會
+(23:14.680) like Cardinal and Sparrow in 2026
+(23:17.520) 再次減少我們的機械和自動化
+(23:21.820) 即使我們面對
+(23:24.700) 中東的戰爭
+(23:28.040) 從中東亞的衝突
+(23:50.620) that was implemented in April.
+(24:04.640) and progress may not always be linear
+(24:06.700) we take a deliberate approach
+(24:08.360) we take a deliberate approach
+(24:10.620) in our cost to serve
+(24:11.840) Moving to the AWS segment
+(24:14.220) revenue is $42.2 billion
+(24:16.640) up 36.7% year-over-year
+(24:20.020) driven by both core and AI services
+(24:22.380) AWS現在有169億美元的年份收益率
+(24:26.080) of $169 billion
+(24:27.460) 客戶繼續增加了 cloud 移動
+(24:31.120) 並升級了AWS的 core 服務
+(24:33.960) and increasingly
+(24:56.950) 並帶來更多的需求
+(25:07.730) 專注力
+(25:11.420) optimize server capacity
+(25:13.400) 並幫助我們發揮更有效的
+(25:15.840) using our lower cost custom silicon
+(25:18.340) and custom network gear
+(25:20.140) Now turning to our cash Capex
+(25:23.020) which is $53.1 billion in Q2
+(25:26.370) 這專門關於AWS和Generative AI
+(25:29.720) 我們會繼續做出重要的投資,
+(25:32.620) 我們將繼續做出
+(25:35.620) especially in generative AI
+(25:37.480) 因為我們認為它是一個巨大的機會,
+(26:13.210) 由於供應商通常購買和支付相關的債務
+(26:16.690) 在我們遇到債務費增加的情況下
+(26:20.800) 我們大多數吸收了這些費用
+(26:22.660) 而不是轉移到客戶身上
+(26:24.520) 您可以看到我們在過去一年內的價格非常穩定
+(26:29.820) 我們的產品價格平均達14%低於其他賣家
+(26:33.500) 根據第三者研究公司Profitero
+(26:36.860) 我們發現了一個限定的情況
+(26:40.820) 我們可以查出我們將具體的 import charges 轉賬給客戶
+(26:44.780) and when we receive those refunds
+(26:47.120) 我們會適當地與客戶聯繫
+(26:49.520) and automatically issue refunds to them
+(26:52.020) otherwise like other large retailers
+(26:54.610) 使用的資金繼續投資在客戶身上的低價
+(26:58.670) I'll finish with our financial guidance
+(27:01.840) Q3的線性銷售預期在197億美元和202億美元之間
+(27:07.880) 我將提出兩個領域
+(27:32.020) third quarter 2026 year over year growth
+(28:20.620) 我們會繼續努力與我們的商業,並以持續發展與豐富的價值與價值。
+(28:27.220) 這就是我們的企業中唯一能夠保持持有價值的方式。
+(28:31.240) 我們將繼續進行您的問論。
+(28:33.980) 謝謝您的關注。
+(28:39.540) 現在我們將開啟問論。
+(28:42.080) 請您請每位電話人員只訂閱一個問題。
+(28:45.360) 如果您想問一個問題,請按下1號的小鈴鐺。
+(29:29.780) 我們可以談談AWS的39%的駕駛額和2Q的行業額嗎?
+(29:34.710) 以及我們應該如何考慮生產能力?
+(29:37.250) 然後,Andy,
+(29:38.690) Bedrock的擁擠力很強,
+(29:40.850) 客戶在前一季比較多,
+(29:44.990) 但當你考慮到全數額的提供,
+(29:48.550) Amazon需要自己的主要模式向前走嗎?
+(29:52.090) 謝謝。
+(29:52.910) Doug,
+(29:54.250) 讓我開始第一個問題。
+(29:56.570) 是的,
+(29:57.090) 是的,
+(30:03.310) 尤其是在我們的生產的大小上
+(30:06.660) You're seeing,
+(30:07.420) despite the large investments,
+(30:08.960) 但是AWS的成長仍然很強,
+(30:11.360) 我們每年有650個基礎點
+(30:15.360) 520個基礎點除了我提到的資金增長
+(30:20.660) 我們之前說過這些基礎會變化
+(30:23.720) 它們基於許多因素
+(30:25.220) 包括投資水平
+(30:26.660) 混合產品
+(30:28.100) 混合AI versus non-AI
+(30:30.140) 但我會說
+(30:31.220) 你所看到的利潤
+(30:31.800) 從AWS上不是隨意的
+(30:34.200) 它是由於
+(30:35.400) 職業效率增長
+(30:36.780) 供應設施
+(30:38.640) 我們從Q2來說
+(30:41.180) 而且我們總是
+(30:43.260) 專注管理我們的固定費用
+(30:44.980) 所以再一次
+(30:45.900) 它們會變異
+(30:46.440) 但是每年有很強的
+(30:48.040) 表現
+(30:49.200) 我們會接受
+(30:51.100) 我只要再提一件
+(30:53.850) 我再回顧一下我剛才所說的,
+(30:55.210) 我剛才的開頭評論中,
+(30:57.710) 我們看到AI企業在我們之前看到的核心企業前面的同樣的缺陷路循環。
+(31:07.220) 我們看到的速度有點前面,所以我們很高興。
+(31:10.860) 對於Bedrock和我們的自己的附近模式的問題
+(31:41.360) and the open models as well
+(31:42.480) and we have all of them in Bedrock
+(31:44.800) and it's one of the many reasons
+(31:46.200) why Bedrock is growing so quickly
+(31:47.940) if you're a company
+(31:49.540) 在建立重要的AI應用
+(31:52.580) you want to make sure
+(31:53.960) that you have the ability
+(31:54.940) to use all the available models
+(31:56.740) 所有的可用模組
+(31:58.340) at different times
+(31:59.180) at different times
+(32:00.980) 都會有相似的能力
+(32:02.800) and you want that leading selection
+(32:05.660) with the right price performance
+(32:07.980) 對於管理和安全
+(32:10.360) 而且不像Bedrock所提供的那種服務
+(32:13.360) And we use those models as well
+(32:15.420) 說到這些
+(32:19.420) And we're doing it for a few reasons
+(32:21.500) 第一個原因是
+(32:25.600) Cost for our own consumer applications
+(32:28.590) 但我們還在盡力向客戶下降費用
+(32:31.910) And having a player like ourselves
+(32:35.480) 我們總是集中在盡力去
+(32:38.640) 和對客戶的艱難
+(32:41.400) 我們會盡力
+(32:43.280) 將這些模型
+(32:44.160) 幫助讓客戶更加有價值
+(32:44.780) 我們也許也能夠
+(32:48.970) 更加具有控制
+(32:49.970) 患者專注的模型
+(32:52.330) 我們幫助我們的
+(32:54.270) 外地客戶
+(32:55.450) 以和我們商務的
+(32:56.790) 內部客戶
+(32:58.070) 定位在重要的重要性點
+(33:00.620) 我們希望這些模型
+(33:01.580) 能儘可能的列設
+(33:03.220) 讓我們有 sna !
+(33:04.440) 我認為
+(33:06.740) 我們在我們的
+(33:08.160) 在接下來的幾年裡,你將會有至少一半多個模型,
+(33:12.660) 他們都會相比較好,他們都會在Bedrock裡面,
+(33:16.180) 其中一個將會是我們的。
+(33:22.860) 謝謝,接下來的問題來自 Justin Post
+(33:26.580) 與Bank of America,請您繼續問問題。
+(33:30.920) 非常好,謝謝。
+(33:32.040) 我正在討論AdaVis的速度,
+(33:34.680) 這是否由於在廣場裡面發生了很多費用?
+(33:39.800) 您們在GigaWatt上的數量比較開放,
+(33:44.900) 您能給我們多少幫助
+(33:47.740) 在第二季度和第一季度之間
+(33:49.920) 以及您認為的二十七季度
+(33:51.740) 謝謝
+(33:51.920) 我認為
+(33:54.330) 我們看到這麼大的增長有許多原因
+(33:58.890) 我們非常高興
+(34:00.450) 第五季度迅速迅速
+(34:03.150) 最大迅速是十八季度
+(34:07.000) 我認為這有許多原因
+(34:09.780) 我認為第一點
+(34:11.840) 第一個原因是
+(34:21.340) 而且因為它有最強的
+(34:26.420) 而且因為
+(34:32.760) 帶進來生產
+(34:36.040) 有很多工作和數據, 而它更加屬於AWS與其他地方。
+(34:38.980) 我認為這裡有幾個其他事情在進行,在核心方面。
+(34:43.740) 我認為AI的增長明顯在很快的程度中,
+(34:47.160) 我們談到的,在此時,
+(34:52.380) 但是核心企業也在很快的程度中增長。
+(34:56.230) 我認為這裡有至少兩個事情有用。
+(34:59.850) 一是更多企業在建立轉化計劃
+(35:06.730) to move from on-premises to the cloud
+(35:08.970) 記得,
+(35:09.590) 85%的國際經濟費用仍然在地圖上,
+(35:14.670) 這個規則將在接下來的十到二十年內轉換。
+(35:17.690) 你會看到越來越多的企業在移動和建設計劃來移動到地圖上。
+(35:23.030) 我們將獲得華盛頓的那些,包括我剛才提到的能力和優勢。
+(35:28.460) 然後,AI在這麼快速增長時,它正在連接它的核心。
+(35:34.600) alongside of it
+(35:35.940) and that's because the post-training
+(35:38.640) and the reinforcement learning
+(35:39.800) and all the energetic tool use
+(35:41.780) is being driven on CPU and core
+(35:44.650) 而由於CPU和Graviton之間的主要設備
+(35:48.990) 使AWS成為更有吸引力的選擇
+(35:51.410) so yes we're adding a lot of capacity
+(35:53.610) but there are a lot of other reasons
+(35:55.250) why it's growing
+(35:56.150) I expect that we will
+(35:58.330) we're on pace with the capacity build
+(36:00.630) that we talked about a few quarters ago
+(36:02.430) where we said we expect to have
+(36:12.150) and we continue to be on that track
+(36:13.790) Thank you
+(36:20.100) Thank you.
+(36:22.800) with Morgan Stanley
+(36:24.020) Please proceed with your question
+(36:25.960) Thanks for taking my questions
+(36:28.240) I have two
+(36:29.260) I have two.
+(36:34.110) 傳媒和網絡投資之間的顏色,只是問的是,你
+(36:38.700) 問題是,如果您在2027年,您看出未來的需求,
+(36:44.720) 您是否已經到了一個時候,您將能夠開始
+(36:47.340) 在2027年下輕鬆地花錢?
+(36:51.180) 還是太遲了?
+(36:53.780) 您仍然必須要開放新的數據中心
+(36:55.700) 在兩三四年內?
+(36:58.100) 如果您在2027年,這是第一個問題。
+(37:00.660) 第二個問題,在過去的90天之內,
+(37:03.300) 所以公司在某些程度上曾經公開宣佈在某些程度上在第三者數據中在賣Tranium
+(37:08.890) 您是如何認為您能在這方面做到的
+(37:11.710) 以及您對於這方面的ROIC和核心AWS費用
+(37:15.590) 在第一個問題上,我們現在有那麼多需求
+(37:22.510) 除了我們在2026年所談到的
+(37:26.510) 在2027年,我們增加了大量的能量
+(37:32.160) 正如我剛才提到的數分
+(37:33.760) 大部分都被保留了,
+(37:39.180) 所以我覺得這是一個很有用的方法,
+(37:46.450) 現在的需求和執行線,
+(37:53.110) 在一個端端的準備,AI研究室正在消耗數量
+(38:00.250) 還有幾個成功的計算機應用,例如Claude Code和ChatGPT
+(38:28.730) 有些會用語言,但大多數都不會用語言,而這將在長期內改變得非常明顯。
+(38:38.760) 在我看來,
+(38:40.340) 這將是最大的細節,
+(38:42.040) 在生產業務、企業業和新生產業業業的生產業和新生產業業的生產業。
+(38:49.820) 也將被建立。
+(38:59.190) 我認為這將改變每個我們知道的客戶經驗
+(39:02.210) 我認為這將發生很多
+(39:15.590) 我們所見到的現時的AI醫學研究計劃
+(39:20.230) 但是我們面前有很多需求
+(39:22.090) 我們將在這項經營中投資
+(39:24.790) 以繼續成為今天我們的重要市場領導
+(39:28.410) 我們認為,正如我剛才提到的
+(39:31.010) AWS有可能成為一億美元的資金經營
+(39:34.730) 我們希望繼續成為這些領導
+(39:37.870) 關於購賣Tranium的問題
+(39:40.870) 我們很興奮在Chips的經營中發生什麼
+(39:47.790) 在目前為止有超過25億美元的年度收益
+(39:51.630) 我們認為我們的主要價值表現器
+(39:56.330) 在互聯網上的Tranium
+(39:58.650) 以及在CPU上的Graviton中
+(40:01.710) 我們有多年多Gigawatt的承諾
+(40:06.390) 從兩個最大的互聯網
+(40:07.890) Anthropic和OpenAI
+(40:09.510) 以及更多的公司
+(40:11.750) 如我所說的
+(40:12.490) 使用Tranium的開發評論
+(40:13.390) 使用Tranium是興奮的
+(40:16.250) and promising
+(40:16.670) and we have
+(40:18.460) we just have
+(40:19.920) an incredible amount
+(40:20.780) of demand for Tranium
+(40:22.160) so there are a lot of customers
+(40:24.520) who are very excited
+(40:25.480) about using it
+(40:26.200) in the form
+(40:26.660) that we're providing right now
+(40:27.840) we do have an increasing
+(40:28.960) number of customers
+(40:29.940) who are interested
+(40:30.700) in us providing
+(40:31.460) the Tranium chips to them
+(40:32.740) separate from
+(40:34.240) even from our cloud
+(40:36.020) and we're actively
+(40:37.900) having those conversations
+(40:39.060) and exploring
+(40:39.800) and I expect
+(40:40.440) there's a real chance
+(40:41.140) we'll do that in the future
+(40:42.020) thank you
+(40:47.470) the next question
+(40:48.210) comes from the line
+(40:48.890) of Colin and Sebastian
+(40:49.810) with Baird
+(40:50.970) Please proceed with your question
+(40:52.800) Yeah good afternoon
+(40:54.660) Thanks very much
+(40:55.420) Andy is it fair to say
+(40:57.160) that there's a more concerted effort
+(40:58.540) into the application layer
+(41:00.860) with key reform
+(41:02.370) and I guess more broadly
+(41:03.930) plans for workplace productivity tools
+(41:06.610) and do you see those
+(41:08.070) as providing a boost
+(41:09.640) to the broader platform offering
+(41:11.820) from infrastructure on up
+(41:13.700) and then Brian
+(41:15.160) I mean just given the demand signals
+(41:16.660) you guys are both talking about
+(41:18.180) and plans for additional capacity
+(41:19.980) what are your current thoughts
+(41:21.480) on sources of capital
+(41:22.680) for the build out
+(41:23.540) over the next couple of years.
+(41:25.220) Thank you.
+(41:27.000) Hi, Colin.
+(41:28.000) Let me take your second question first.
+(41:30.870) You've seen us issue debt this year.
+(41:33.210) We have a lot of options available to us
+(41:36.050) as we continue to fund this growth
+(41:38.070) that we're seeing in AWS.
+(41:40.430) 所以我們將繼續看待所有選項
+(41:43.010) 並且在正確的時間中決定選擇
+(41:46.110) but nothing to share today.
+(41:48.840) And your first question, Colin,
+(41:51.760) we see a very substantial opportunity
+(41:55.280) both for our customers and for AWS
+(42:01.460) 一些這些是我們的顧客所說的,
+(42:06.640) 他們希望他們有的,
+(42:09.020) 他們想用的一些,
+(42:12.940) to ourselves inside Amazon
+(42:14.840) 所以
+(42:20.580) is an example of that
+(42:21.680) Amazon Quick是一個非常有趣的例子,
+(42:23.880) 例如,
+(42:24.240) 我們有很多人在公司裡想要一個真正的智能智能助理來幫助他們工作。
+(42:34.360) 首先,我們是一個非常文字化的文化。
+(42:39.780) 當他們得到文件時,
+(42:41.840) 人們不需要每個文件都讀得很仔細,
+(42:54.140) through these agents
+(42:55.830) and that's really how
+(42:57.090) Amazon Quick started
+(42:58.230) was to do research
+(43:00.090) to do business intelligence
+(43:01.450) to do summarization
+(43:02.910) and then we had so many people
+(43:05.170) inside the company using it
+(43:06.870) that they said
+(43:08.030) can't you actually find a way
+(43:09.530) to make it much more productive
+(43:10.710) and easier for us
+(43:11.990) to manage our email
+(43:13.490) to manage our Slack communications
+(43:15.270) to manage our calendar
+(43:16.810) and to use all those things together
+(43:19.110) and that's really this next
+(43:21.050) instantiation of Amazon Quick
+(43:22.790) and as I mentioned
+(43:23.690) 正如我提到的開放評論中
+(43:29.350) 也僅僅是Amazon的外交企業的運營,
+(43:38.090) 我們看到了各種各樣的需要。
+(43:45.690) 就是我們的電話中心服務,
+(43:51.310) 以及很多主要公司和健康企業企業
+(43:54.990) continues to grow very quickly
+(43:56.850) AWS Transform
+(44:00.990) is super useful for enterprises
+(44:03.630) 然後我們剛剛發佈的最新的
+(44:06.970) Continuum
+(44:12.320) 談論AI現在
+(44:14.220) 只是所有的聲音
+(44:20.040) with the most current powerful models
+(44:22.100) and so Continuum really allows them
+(44:24.960) to use those models productively
+(44:30.720) 在他們的研發中
+(44:33.840) 這些都是他們的第一個設備
+(44:36.360) they all have very high promise
+(44:37.800) they all have very high promise
+(44:40.020) for customers and our business
+(44:41.260) for customers and our business
+(44:42.500) Thank you
+(44:47.920) Next question comes from the line of
+(44:51.040) with Oppenheimer and Company
+(44:53.020) Please proceed with your question
+(44:54.820) Jason, your line is now live.
+(45:02.000) Okay,
+(45:02.420) Okay,
+(45:13.220) Please proceed with your question.
+(45:16.660) Thanks so much, Tim, if I may.
+(45:18.720) 如果我能請問一下
+(45:25.540) 您給我們的級度增加的評論
+(45:30.240) 那RPO數字和那大幅增長
+(45:38.030) 我認為您已經談論了27年
+(45:40.290) but maybe at least qualitatively,
+(45:42.450) 詳細介紹RPO的28年和超過的價值
+(45:46.670) 第二個關於的問題是
+(45:54.460) 您能否談論您的價格策略
+(46:02.160) 您的長期期間的合約
+(46:07.480) Thank you.
+(46:09.550) 對,
+(46:09.830) 我先說一下背景數據,
+(46:13.070) 對您的說法來說,
+(46:15.930) 它在繼續增長的程度上非常大,
+(46:18.830) 我認為這是一個重新再次的反映客戶對AWS使用的很興奮,
+(46:24.870) 無論是對Core或AI來說。
+(46:30.270) 我們知道背景數據的確,所以這些都被我們的CAPEX預測計算了。
+(46:39.280) 經過時間,我期待我們將繼續與客戶策劃更多的協議。
+(46:44.060) 正如我剛才所說,我們將追求繼續成為我們的重要市場領導項目的機會。
+(46:51.700) 第二個問題是關於供應鏈的漲值。
+(46:59.170) 我認為你策劃的大部分的協議,除了...
+(47:04.050) 您的需求有一定的量,那是在需求中的需求,
+(47:08.630) 那是在需求中的需求,
+(47:10.190) 但是,您知道,大多數是您簽署的協議和協議,
+(47:14.530) 您簽署的協議,
+(47:18.120) 您知道,那些將會是價值,
+(47:20.920) 那些將會是我們所持有的協議和協議,
+(47:24.480) 您簽署的新協議,
+(47:26.820) 您總是要考慮您的費用,
+(47:30.340) 以及您最終建立的價值,
+(47:32.840) 您和您的客戶同意的價值,
+(47:34.360) 我認為現在沒有任何企業在世界上
+(47:38.600) 都不認為現在的貨幣價格是漲的
+(47:40.620) 包括記錄器、硬盤、SSD
+(47:44.040) 謝謝
+(47:49.770) 我們的最後一個問題
+(47:51.630) 來自Erik Sheridan
+(47:53.490) 與Goldman Sachs
+(47:54.990) 請請繼續
+(47:56.160) 謝謝你提出這個問題
+(47:59.460) 讓我們轉移到商業行業
+(48:01.640) 當您談論您的一些計劃
+(48:05.060) 談論您的一些計劃
+(48:05.220) 例如快速商業
+(48:06.880) 廣泛的供應
+(48:11.040) 您可以談談您從消費者
+(48:14.260) 在這些服務的執行率和總的花費趨勢上的執行率
+(48:20.090) 以及在哪些國家或地區
+(48:22.990) where you're seeing different outcomes
+(48:24.810) 當你開發和計算一些這些服務
+(48:27.090) Thanks so much
+(48:27.950) Yeah,
+(48:28.570) 謝謝你
+(48:36.520) 我們正在生產的每天食材和飽飯品的數量
+(48:45.280) 我認為這有關我們的更廣泛選擇
+(48:51.680) 也有關我們在過去兩三年間的達到的達到的速度
+(48:57.660) 當您能夠給人們達到的東西
+(48:59.620) 當您有我們做的那麼廣泛選擇
+(49:02.040) 更廣泛選擇
+(49:07.180) 人們會更加關心你的購物購買和購物訪問
+(49:14.660) 我們一直在談論餐飲,
+(49:20.880) 去年,
+(49:31.260) 那些是不破壞的,
+(49:32.380) 你知道,
+(49:33.140) 中間的屋子,
+(49:34.240) 你會找到在餐廳店中,
+(49:36.140) 你會有食物和食物,
+(49:37.740) 美容品和藥物,
+(49:40.140) 一大部分是我們的全食品市場,
+(49:44.240) 呃,
+(49:44.960) 生產,
+(49:45.700) 是其中一位企業的主要生產者。
+(49:48.780) 如果您看看全食品市場的地區增長,
+(49:53.330) that Whole Foods markets are in
+(49:54.810) 它們的增長比較明顯地增長了相似的生產者,
+(49:58.330) 而利潤向來也繼續向上。
+(50:02.390) 我們也發現了一個新的模式,
+(50:06.030) in urban settings
+(50:07.190) it's off to an amazing start
+(50:08.550) that we're expanding very rapidly
+(50:10.050) and then we always knew
+(50:13.390) 如果我們想服務
+(50:15.830) 我們想服務的數量的客戶
+(50:17.990) 我們必須找個辦法
+(50:22.170) 以一個很重要的方式
+(50:26.010) 我們在這個電話中談論了幾年
+(50:28.190) 我們終於找到一個
+(50:32.510) 我們現在能夠提供
+(50:36.070) 我們現在可以在美國的2300多個城市中提供同一天的死亡物品。
+(50:42.960) If you look in those cities
+(50:44.820) 9 of the top 10 best sellers
+(50:47.220) in those geographies are perishables
+(50:50.080) 你知道,每個月的死亡者的活動量,從今年開始增加了50%,
+(50:57.250) and for same day orders with perishables
+(51:02.670) 因此,我們正在看到非常重要的推廣在我們的每天食材和我們的食物。
+(51:09.800) 我們並沒有嘗試其他業務的業務
+(51:12.540) 在購物部門的其他體制上
+(51:14.780) but we've hit on something
+(51:16.620) with same day perishables
+(51:18.200) in our same day facilities
+(51:19.420) that's changing the trajectory
+(51:21.000) of our everyday essentials business
+(51:22.560) joining us on the call today
+(51:26.720) and for your questions
+(51:27.460) a replay will be available
+(51:29.040) on our investor relations website
+(51:30.460) for at least three months
+(51:31.540) we appreciate your interest in Amazon
+(51:33.380) 我們期待下週再與您
