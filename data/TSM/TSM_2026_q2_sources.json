@@ -1,0 +1,26 @@
+{
+  "stock_id": "TSM",
+  "company": "Taiwan Semiconductor Manufacturing Company Limited",
+  "event_type": "財報",
+  "year": "2026",
+  "quarter": "2",
+  "calendar_period": "2026 Q2",
+  "sources": [
+    {
+      "source_type": "official TSMC Financial Statements PDF",
+      "source_url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/114aaca0fea2050e96b91fffbab9ed04ba09cd92/FS.pdf",
+      "local_path": "data/TSM/TSM_2026_q2_report_en.pdf",
+      "sha256": "a55d6aca73ba6246385d885fbb41a4efa55c92033cb644b48fda671814e0754f",
+      "size_bytes": 127130,
+      "notes": "Official TSMC Q2 2026 consolidated financial statements; paired matrix F/X source. Bytes match the verified 2330-scoped copy."
+    },
+    {
+      "source_type": "official TSMC Presentation Material PDF",
+      "source_url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/0e4d9625c9ef46521afd54002f835e45a9035043/2Q26%20Presentation%20(E).pdf",
+      "local_path": "data/TSM/TSM_2026_q2_ir_en.pdf",
+      "sha256": "a2dbf6db578b2e20f515924538a265caade3eb958f90d835612c011a669529f9",
+      "size_bytes": 568181,
+      "notes": "Official TSMC Q2 2026 investor presentation; paired matrix I/M source. Complete embedded text layer; no OCR TODO."
+    }
+  ]
+}
