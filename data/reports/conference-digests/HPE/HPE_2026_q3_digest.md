@@ -8,6 +8,8 @@
 | 市場模板 | US |
 | 產業模板 | enterprise infrastructure / AI networking / servers |
 | Correlation Mode | tw_readthrough |
+| 法說會日期 | 2026-09-02 |
+| 財報日期 | 2026-09-02 |
 | 市場預期來源 | Google Finance transcript insights；revenue consensus $11.994B、non-GAAP EPS consensus $0.937；其餘 repo-only |
 | 資料來源 | `HPE_2026_q3_report_en.md`, `HPE_2026_q3_financial_tables.md`, `HPE_2026_q3_performance_review.md`, `HPE_2026_q3_google_finance_transcript.md`, `HPE_2026_q3_GT.srt` |
 | 字幕來源 | GT candidate: `Review-Level=conservative_from_FIN`, `Audio-Checked=none`；重大數字以官方 report / financial tables 為準 |

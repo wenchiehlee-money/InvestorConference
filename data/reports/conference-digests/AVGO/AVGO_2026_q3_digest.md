@@ -8,6 +8,8 @@
 | 市場模板 | US |
 | 產業模板 | AI semiconductor / custom XPU / networking / infrastructure software |
 | Correlation Mode | tw_readthrough |
+| 法說會日期 | 2026-09-02 |
+| 財報日期 | 2026-09-02 |
 | 市場預期來源 | Google Finance transcript insights；revenue consensus $29.36B、non-GAAP EPS consensus $3.24；Q4 revenue consensus $35.03B 僅作輔助 |
 | 資料來源 | `AVGO_2026_q3_report_en.md`, `AVGO_2026_q3_google_finance_transcript.md`, `AVGO_2026_q3_GT.srt` |
 | 字幕來源 | GT candidate: `Review-Level=conservative_from_FIN`, `Audio-Checked=none`；重大數字以 SEC 8-K Exhibit 99.1 report 為準 |

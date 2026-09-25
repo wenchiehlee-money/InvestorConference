@@ -4,6 +4,8 @@
 | :--- | :--- |
 | 股票代碼 | DELL |
 | 季度 | 2027 Q2 / Dell FY2027 Q2 |
+| 法說會日期 | 2026-09-01 |
+| 財報日期 | 2026-09-01 |
 | 分析模式 | repo_only |
 | 市場模板 | US |
 | 產業模板 | hardware / AI server / enterprise infrastructure |

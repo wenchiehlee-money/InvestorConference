@@ -4,6 +4,8 @@
 | :--- | :--- |
 | 股票代碼 | QCOM |
 | 季度 | 2026 Q1 / Qualcomm FY2026 Q2 call |
+| 法說會日期 | 2026-04-29 |
+| 財報日期 | 2026-04-29 |
 | 分析模式 | repo_only + limited external cross-check |
 | 市場模板 | US |
 | 產業模板 | fabless semiconductor / smartphone AP / auto / IoT / data center AI |

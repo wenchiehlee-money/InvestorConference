@@ -5,6 +5,8 @@
 | 股票代碼 | GOOGL / GOOG |
 | 公司 | Alphabet Inc. |
 | 季度 | 2026 Q2；期間截至 2026-06-30；公告日 2026-07-22 |
+| 法說會日期 | 2026-07-22 |
+| 財報日期 | 2026-07-22 |
 | 分析模式 | repo-only；official SEC release + secondary call transcript |
 | 市場模板 | US mega-cap technology / advertising / cloud |
 | 產業模板 | Internet platform、cloud、AI infrastructure |

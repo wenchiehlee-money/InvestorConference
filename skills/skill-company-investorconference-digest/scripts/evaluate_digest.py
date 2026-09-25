@@ -37,6 +37,8 @@ REQUIRED_PATTERNS = [
 
 WARN_PATTERNS = [
     ("資料來源 metadata", r"資料來源"),
+    ("法說會日期 metadata", r"法說會日期"),
+    ("財報日期 metadata", r"財報日期"),
     ("分析模式 metadata", r"分析模式"),
     ("市場預期來源 metadata", r"市場預期來源"),
     ("資料品質 Issue metadata", r"資料品質 Issue"),

@@ -21,6 +21,37 @@ IC_BLOB = "https://github.com/wenchiehlee-money/InvestorConference/blob/main/"
 IC_RELEASE = "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/"
 MOPS_BLOB = "https://github.com/wenchiehlee-investment/MOPS/blob/main/"
 
+# Fiscal-year starts used to map non-Taiwan source keys to the calendar
+# quarter convention used by Taiwan stocks.  The mapping is intentionally
+# calendar-quarter based (the same convention as the shared fiscal-quarter
+# resolver), while the original matrix still preserves source keys.
+NON_TW_FISCAL_START_MONTH = {
+    "AAPL": 10,
+    "ARM": 4,
+    "AVGO": 11,
+    "DELL": 2,
+    "HPE": 11,
+    "HPQ": 11,
+    "MRVL": 2,
+    "MSFT": 7,
+    "MU": 9,
+    "NVDA": 2,
+    "QCOM": 10,
+    "SNDK": 7,
+    "0992HK": 4,
+}
+
+# A few source keys were created before the fiscal-quarter resolver was
+# deployed, or use an issuer-specific announcement cycle.  These are the
+# verified calendar-period identities for the current material set.
+CALENDAR_PERIOD_OVERRIDES = {
+    ("DELL", 2026, 1): (2026, 1),
+    ("ARM", 2027, 1): (2026, 2),
+    ("MU", 2026, 3): (2026, 2),
+    ("ORCL", 2026, 4): (2026, 1),
+    ("SNDK", 2026, 4): (2026, 2),
+}
+
 
 def norm(value):
     return re.sub(r"[^A-Z0-9]", "", value.upper())
@@ -86,6 +117,56 @@ def linked(label, url):
     return f"[{label}]({url})"
 
 
+def calendar_period(code, year, quarter, taiwan_ids):
+    key = (norm(code), year, quarter)
+    if key in CALENDAR_PERIOD_OVERRIDES:
+        return CALENDAR_PERIOD_OVERRIDES[key]
+    normalized = norm(code)
+    if normalized in taiwan_ids or normalized.isdigit() or normalized not in NON_TW_FISCAL_START_MONTH:
+        return year, quarter
+    start_month = NON_TW_FISCAL_START_MONTH[normalized]
+    fiscal_start_calendar_quarter = (start_month - 1) // 3 + 1
+    calendar_quarter = (quarter + fiscal_start_calendar_quarter - 2) % 4 + 1
+    calendar_year = year - 1 if calendar_quarter >= fiscal_start_calendar_quarter else year
+    return calendar_year, calendar_quarter
+
+
+def calendar_view(rows, taiwan_ids, target_year=2026):
+    result = {}
+    for (code, source_year), row in rows.items():
+        for source_quarter in range(1, 5):
+            source_cell = row.get(source_quarter, {})
+            year, quarter = calendar_period(code, source_year, source_quarter, taiwan_ids)
+            if year != target_year or norm(code) in taiwan_ids or norm(code).isdigit():
+                continue
+            key = (code, year)
+            output = result.setdefault(
+                key,
+                {"stock": row["stock"], "stock_name": row["stock_name"], "year": year},
+            )
+            cell = output.setdefault(quarter, {field: "" for field in FIELDS})
+            for field in FIELDS:
+                if source_cell.get(field):
+                    cell[field] = source_cell[field]
+    return result
+
+
+def source_url(token, code):
+    """Resolve a digest source token to the repository URL when possible."""
+    token = token.strip()
+    if token.startswith("http://") or token.startswith("https://"):
+        return token
+    if token.startswith("../MOPS/"):
+        return MOPS_BLOB + token.removeprefix("../MOPS/")
+    if token.startswith("data/"):
+        return IC_BLOB + token
+    if token == "audio_metadata.json":
+        return IC_BLOB + token
+    if "/" not in token:
+        return IC_BLOB + f"data/{code}/{token}"
+    return None
+
+
 def ensure(rows, code, year, quarter, display):
     canonical_code = norm(code)
     row = rows.setdefault(
@@ -100,6 +181,7 @@ def build():
     stock_names = names()
     conference_catalog = conference_keys()
     rows = {}
+    digest_sources = []
     manifest = {}
     manifest_path = ROOT / "audio_manifest.json"
     if manifest_path.exists():
@@ -157,6 +239,17 @@ def build():
             digest_url = IC_BLOB + f"data/reports/conference-digests/{code}/{path.name}"
             # The final D/D- label is assigned after MOPS F/X collection below.
             cell["D"] = linked("D-", digest_url)
+            source_line = next(
+                (line for line in path.read_text(encoding="utf-8", errors="replace").splitlines()
+                 if line.startswith("| 資料來源 |")),
+                "",
+            )
+            tokens = re.findall(r"`([^`]+)`", source_line)
+            sources = []
+            for token in tokens:
+                url = source_url(token, code)
+                sources.append((token, url))
+            digest_sources.append((norm(code), display, event[1], event[2], digest_url, sources))
 
     downloads = MOPS_ROOT / "downloads"
     if downloads.exists():
@@ -183,10 +276,10 @@ def build():
                 continue
             label = "D" if all(cell.get(field) for field in required_before_gt) else "D-"
             cell["D"] = re.sub(r"^\[(?:D|D-)\]", f"[{label}]", digest)
-    return rows
+    return rows, digest_sources
 
 
-def write(rows):
+def write(rows, digest_sources):
     columns = ["stock", "stock_name", "year", "generated_at"] + [f"q{q}_{field}" for q in range(1, 5) for field in FIELDS]
     generated_at = datetime.now(timezone.utc).isoformat()
     taiwan_ids = taiwan_stock_ids()
@@ -240,12 +333,53 @@ def write(rows):
         "|**Total populated cells**|—|" + "|".join(str(totals[q][field]) for q in range(1, 5) for field in FIELDS) + "|",
         "",
         "The total row counts populated stock-quarter cells in each quarter column. The `D` column contains either `D` or `D-`: `D` has all pre-G materials (`A/S/I/M/F/X`); `D-` still has one or more pre-G material gaps. `G` is generated after digest review. `F`/`X` are quarter-level financial-report cells; table (22) separately counts individual MOPS PDF/MD artifacts, so its artifact total is not mathematically interchangeable with this quarter matrix.",
+        "",
+        "## Digest source provenance",
+        "",
+        "This generated table records the source tokens explicitly listed in each digest's `資料來源` field. It is the provenance view for what the digest actually read; it is not an additional material flag column.",
+        "",
+        "|Stock|Year|Quarter|Digest|Sources explicitly listed by the digest|",
+        "|---|---:|---:|---|---|",
     ])
+    for code, display, year, quarter, digest_url, sources in sorted(
+        digest_sources, key=lambda item: (item[1].casefold(), -item[2], item[3])
+    ):
+        source_cells = []
+        for token, url in sources:
+            label = Path(token).name or token
+            source_cells.append(f"[{label}]({url})" if url else f"`{token}`")
+        digest_value = rows.get((code, year), {}).get(quarter, {}).get("D", "[D]")
+        digest_label = re.match(r"^\[([^]]+)\]", digest_value)
+        label = digest_label.group(1) if digest_label else "D"
+        lines.append(
+            f"|{display}|{year}|Q{quarter}|[{label}]({digest_url})|" + "<br>".join(source_cells) + "|"
+        )
+
+    calendar_rows = calendar_view(rows, taiwan_ids)
+    lines.extend([
+        "",
+        "## Non-Taiwan stocks — calendar-period view",
+        "",
+        "This view normalizes non-Taiwan source fiscal-quarter keys into calendar `2026 Q1–Q4` periods so they can be compared directly with Taiwan stocks. The source/fiscal quarter identity remains available in the canonical data and repository files.",
+        "",
+        "Each quarter contains `I/M/F/X` cells in that order.",
+        "",
+        "|Stock|2026 Q1|2026 Q2|2026 Q3|2026 Q4|",
+        "|---|---|---|---|---|",
+    ])
+    for key in sorted(calendar_rows, key=lambda item: calendar_rows[item]["stock_name"].casefold()):
+        row = calendar_rows[key]
+        quarter_cells = []
+        for quarter in range(1, 5):
+            cell = row.get(quarter, {})
+            values = [cell.get(field, "") for field in ("I", "M", "F", "X")]
+            quarter_cells.append("<br>".join(value for value in values if value) or "—")
+        lines.append(f"|{row['stock_name']}|" + "|".join(quarter_cells) + "|")
     MD_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     MD_OUTPUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":
-    table = build()
-    write(table)
-    print(f"wrote {len(table)} stock-year rows to {CSV_OUTPUT}")
+    table, provenance = build()
+    write(table, provenance)
+    print(f"wrote {len(table)} stock-year rows and {len(provenance)} digest provenance rows to {CSV_OUTPUT}")

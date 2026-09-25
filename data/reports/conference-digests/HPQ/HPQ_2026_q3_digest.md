@@ -5,6 +5,8 @@
 | 股票代碼 | HPQ |
 | 公司 | HP Inc. |
 | 季度 | FY2026 Q3；期間截至 2026-07-31；公告日 2026-08-26 |
+| 法說會日期 | 2026-08-26 |
+| 財報日期 | 2026-08-26 |
 | 分析模式 | repo-only；official earnings-result digest |
 | 市場模板 | US hardware / printing / services |
 | 產業模板 | PC、印刷與耗材 |

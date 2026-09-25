@@ -5,6 +5,8 @@
 | 股票代碼 | MRVL |
 | 公司 | Marvell Technology, Inc. |
 | 季度 | FY2027 Q2（季末 2026-08-01，公告/法說會 2026-08-27） |
+| 法說會日期 | 2026-08-27 |
+| 財報日期 | 2026-08-27 |
 | 分析模式 | US earnings digest；官方 earnings release + financial/business results PDF + additional earnings PDF；repo-only |
 | 資料來源 | `data/MRVL/MRVL_2027_q2_report_en.md`, `data/MRVL/MRVL_2027_q2_performance_review.md`, `data/MRVL/MRVL_2027_q2_financial_tables.md`, `data/MRVL/MRVL_2027_q2_sources.json` |
 | 市場預期來源 | repo-only；未取得 FactSet/Yahoo sell-side consensus，核心預期差以公司前次 outlook、Q2 實績與本季 guidance delta 判讀 |
