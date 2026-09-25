@@ -151,12 +151,15 @@ def build():
                 continue
             cell = ensure(rows, code, event[1], event[2], display)
             digest_url = IC_BLOB + f"data/reports/conference-digests/{code}/{path.name}"
-            # Digest precedes GT generation.  D- means the digest exists but FIN
-            # is still missing, so it cannot yet support FIN review -> GT.
-            if not existing.get("S"):
-                cell["D"] = linked("D-", digest_url)
+            # Digest precedes GT generation.  Keep report-only digests separate
+            # from conference digests whose audio exists but FIN is pending.
+            if existing.get("A") and not existing.get("S"):
+                label = "D-"
+            elif not existing.get("A") and not existing.get("S"):
+                label = "D-report"
             else:
-                cell["D"] = linked("D", digest_url)
+                label = "D"
+            cell["D"] = linked(label, digest_url)
 
     downloads = MOPS_ROOT / "downloads"
     if downloads.exists():
@@ -208,7 +211,7 @@ def write(rows):
         "Each row is one stock/year; each quarter occupies eight compact columns.",
         "Every populated cell links to the artifact that was verified.",
         "",
-        "`A` audio · `S` FIN.srt · `G` GT.srt · `I` IR presentation PDF · `M` IR presentation MD · `F` financial-report PDF · `X` financial-report MD · `D` digest with FIN available · `D-` digest with FIN still missing (both use the existing `D` column). Digest precedes GT generation, so missing `G` does not downgrade `D`.",
+        "`A` audio · `S` FIN.srt · `G` GT.srt · `I` IR presentation PDF · `M` IR presentation MD · `F` financial-report PDF · `X` financial-report MD · `D` conference digest with FIN available · `D-` conference audio exists but FIN is missing · `D-report` report-only digest without conference audio/FIN (all use the existing `D` column). Digest precedes GT generation, so missing `G` does not downgrade `D`.",
         "",
         "|Stock|Year|" + "|".join(FIELDS * 4) + "|",
         "|---|---:|" + "|".join(["---"] * 32) + "|",
@@ -227,7 +230,7 @@ def write(rows):
     lines.extend([
         "|**Total populated cells**|—|" + "|".join(str(totals[q][field]) for q in range(1, 5) for field in FIELDS) + "|",
         "",
-        "The total row counts populated stock-quarter cells in each quarter column. The `D` column contains either `D` or `D-`: `D` has FIN available; `D-` still needs FIN before GT review. `G` is generated after digest review. `F`/`X` are quarter-level financial-report cells; table (22) separately counts individual MOPS PDF/MD artifacts, so its artifact total is not mathematically interchangeable with this quarter matrix.",
+        "The total row counts populated stock-quarter cells in each quarter column. The `D` column contains `D`, `D-`, or `D-report`: `D` has FIN available; `D-` needs FIN before GT review; `D-report` is a report-only digest. `G` is generated after digest review. `F`/`X` are quarter-level financial-report cells; table (22) separately counts individual MOPS PDF/MD artifacts, so its artifact total is not mathematically interchangeable with this quarter matrix.",
     ])
     MD_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     MD_OUTPUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
