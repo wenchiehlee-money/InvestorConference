@@ -39,7 +39,11 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          sudo apt-get update && sudo apt-get install -y ffmpeg
+          if ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+          fi
+          ffmpeg -version | head -1
           pip3 install -q requests playwright yt-dlp python-dotenv
           python3 -m playwright install chromium --with-deps 2>/dev/null || \
           python3 -m playwright install chromium
