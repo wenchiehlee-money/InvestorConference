@@ -225,6 +225,11 @@ KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
         ("ir_en", "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/0e4d9625c9ef46521afd54002f835e45a9035043/2Q26%20Presentation%20(E).pdf"),
         ("transcript", "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf"),
     ],
+    ("AVGO", "2026", "2"): [
+        # Broadcom FY2026 Q2 ended 2026-05-03, which is calendar 2026 Q2.
+        ("report_en", "https://investors.broadcom.com/node/64371/pdf"),
+        ("ir_en", "https://investors.broadcom.com/static-files/602c2fd3-89a0-436f-b638-4890f20feda7"),
+    ],
     ("AVGO", "2026", "3"): [
         # Broadcom publishes the earnings release as a PDF node and the
         # quarter-specific investor deck in Events & Presentations.
