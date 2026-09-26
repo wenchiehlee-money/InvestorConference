@@ -16,9 +16,13 @@ on:
         required: true
         default: '4'
       push:
-        description: 'Commit & push audio after download'
+        description: 'Commit & push downloaded materials after ingest'
         type: boolean
         default: true
+      materials_only:
+        description: 'Fetch mapped official PDFs only; skip audio/transcript discovery'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -59,11 +63,19 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           PUSH_FLAG=${{ inputs.push == true && '--push' || '' }}
-          python3 skills/skill-company-investorconference-ingest/scripts/ingest.py \
-            "${{ inputs.stock_id }}" \
-            "${{ inputs.year }}" \
-            "${{ inputs.quarter }}" \
-            $PUSH_FLAG
+          if [ "${{ inputs.materials_only }}" = "true" ]; then
+            python3 skills/skill-company-investorconference-ingest/scripts/ingest.py \
+              "${{ inputs.stock_id }}" \
+              "${{ inputs.year }}" \
+              "${{ inputs.quarter }}" \
+              --materials-only
+          else
+            python3 skills/skill-company-investorconference-ingest/scripts/ingest.py \
+              "${{ inputs.stock_id }}" \
+              "${{ inputs.year }}" \
+              "${{ inputs.quarter }}" \
+              $PUSH_FLAG
+          fi
 
       - name: Collect outputs
         id: collect
@@ -87,6 +99,26 @@ jobs:
           done
 
           echo "asset_dir=$ASSET_DIR" >> "$GITHUB_OUTPUT"
+
+      - name: Commit official materials
+        if: inputs.materials_only == true && inputs.push == true
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          pdfs=(tmp/${STEM}_*.pdf)
+          if [ ${#pdfs[@]} -eq 0 ]; then
+            echo "No official PDFs downloaded; nothing to commit."
+            exit 0
+          fi
+          mkdir -p "data/${{ inputs.stock_id }}"
+          cp "${pdfs[@]}" "data/${{ inputs.stock_id }}/"
+          git add "data/${{ inputs.stock_id }}"/*.pdf
+          if git diff --cached --quiet; then
+            echo "No new official PDF changes."
+          else
+            git commit -m "feat: add ${{ inputs.stock_id }} ${{ inputs.year }} Q${{ inputs.quarter }} official materials"
+            git push origin main
+          fi
 
       - name: Verify outputs
         run: |
