@@ -7,6 +7,7 @@
 | Event | 2026 Q2 financial results |
 | Filing | SEC Form 8-K accession 0000050863-26-000155 |
 | Source URL | https://www.sec.gov/Archives/edgar/data/50863/000005086326000155/q226earningsrelease.htm |
+| source_url | https://www.sec.gov/Archives/edgar/data/50863/000005086326000155/q226earningsrelease.htm |
 | Retrieved At | 2026-07-24T04:43:31.227785+00:00 |
 | SHA256 | 5793462254cf215b58c508b426a914e3264b8044e623b7433f7e51696caf7e7a |
 
