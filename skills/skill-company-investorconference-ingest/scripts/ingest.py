@@ -259,6 +259,7 @@ KNOWN_US_DIRECT_BY_QUARTER = {
 # Official webcast replay pages when no direct downloadable audio URL is available.
 KNOWN_US_WEBCASTS_BY_QUARTER = {
     ("NVDA", "2027", "2"): "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-2nd-Quarter-FY27-Financial-Results/default.aspx",  # Q2FY27 results call 2026-08-26 2pm PT
+    ("AVGO", "2026", "2"): "https://edge.media-server.com/mmc/p/xxmn2vvv",  # Q2FY26 results call 2026-06-03
     ("DELL", "2026", "1"): "https://event.webcasts.com/starthere.jsp?ei=1747660&tp_key=82c5169428",  # Q1FY27 results call 2026-05-28
     ("DELL", "2027", "2"): "https://event.webcasts.com/starthere.jsp?ei=1747682&tp_key=d94d9a0909",  # Q2FY27 results call 2026-09-01
     ("HPE", "2026", "3"): "https://event.choruscall.com/mediaframe/webcast.html?webcastid=ycWBiZdW",  # Q3FY26 results call 2026-09-02
@@ -3652,8 +3653,13 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
     else:
         # Check quarter-specific direct URL first (choruscall VOD / YouTube etc.)
         direct_us_url = KNOWN_US_DIRECT_BY_QUARTER.get((stock_id.upper(), year, quarter))
+        webcast_us_url = KNOWN_US_WEBCASTS_BY_QUARTER.get((stock_id.upper(), year, quarter))
         if direct_us_url:
             target_url = direct_us_url
+        elif webcast_us_url:
+            # Prefer a verified quarter-specific official webcast before
+            # secondary Google Finance/Quartr discovery.
+            target_url = webcast_us_url
         else:
             ir_url = KNOWN_US_IR.get(stock_id.upper())
             if ir_url:
