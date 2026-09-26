@@ -52,7 +52,10 @@ def is_company_dir(path):
     name = path.name
     if name in (".git", ".github", ".claude", "__pycache__", "definitions", "spec", "tmp", "tools", "web", "logs", "scripts", "skills"):
         return False
-    return name.isdigit() or (name.isupper() and name.isalpha())
+    # Accept exchange-qualified symbols such as 0981.HK as well as the
+    # historical numeric/ticker directory names.
+    normalized = name.replace(".", "")
+    return normalized.isdigit() or (normalized.isupper() and normalized.isalnum())
 
 def is_valid_pdf(pdf_path):
     try:
