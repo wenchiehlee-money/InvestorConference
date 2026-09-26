@@ -7,9 +7,9 @@ https://www.google.com/finance/beta/quote/SIMO:NASDAQ?tab=earnings
 
 ---
 
-Silicon Motion delivered a record Q2 2026, with non-GAAP revenue up 32% sequentially and 127% year-over-year to $451 million, beating the guided $393 million-$411 million range. EPS reached $2.43. Performance was driven by exceptional growth across core markets, including Ferri automotive, enterprise boot drives, and embedded eMMC/UFS.
+Silicon Motion delivered a record Q2 2026, achieving revenue of $451 million, up 32% sequentially and 127% year-over-year, significantly beating the guided range of $393 million to $411 million. Non-GAAP gross margin exceeded guidance at 50.2%, driven by a favorable product mix and new product introductions across its core markets.
 Highlights
-Silicon Motion delivered a record Q2 2026, with non-GAAP revenue up 32% sequentially and 127% year-over-year to $451 million, beating the guided $393 million-$411 million range. EPS reached $2.43. Performance was driven by exceptional growth across core markets, including Ferri automotive, enterprise boot drives, and embedded eMMC/UFS.
+Silicon Motion delivered a record Q2 2026, achieving revenue of $451 million, up 32% sequentially and 127% year-over-year, significantly beating the guided range of $393 million to $411 million. Non-GAAP gross margin exceeded guidance at 50.2%, driven by a favorable product mix and new product introductions across its core markets.
 Expand highlights
 [Operator Instructions]
 Good day, thank you for standing by. Welcome to the Silicon Motion Technology Corporation Second Quarter 2026 Earnings Conference Call. At this time, all participants are in listen-only mode. After the speaker's presentation, there will be a question-and-answer session. At which time, if you wish to ask a question, you will need to press star one one on your telephone keypad. Please be advised that today's conference is being recorded. This conference call contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934, as amended. Such forward-looking statements include, without limitation, statements regarding trends in the semiconductor industry and our future results of operations, financial condition, and business prospects.
@@ -406,16 +406,16 @@ At a glance
 Insights from the latest news and reports
 6 sites
 insights_auto
-Silicon Motion Tops Q2 Projections:Silicon Motion delivered strong results for Q2 2026, reporting an Adjusted EPS of $3.99 compared to the estimated $2.107, and a revenue of $451.001 million, which beat expectations of $404.127 million.
+Silicon Motion Beats Financial Expectations:Silicon Motion delivered a stellar performance for Q2 2026, reporting an Adjusted EPS of $3.99 which substantially beat the estimated $2.107, alongside reported revenues of $451.001 million that topped expectations of $404.128 million.
 insights_auto
-Strong Gains Across Key Segments:The company's Ferri and Boot Drive solutions grew by a stellar 1,690% to 1,695% year over year, while SSD controller sales rose 50% to 55% compared to the prior-year period.
+Strong Demand Drives Core KPIs:The company's non-GAAP gross margin hit 50.2%, outperforming its prior guidance range of 48.5% to 49.5%, while sales of SSD controllers expanded 50% to 55% year-over-year.
 insights_auto
-Management Doubles Full-Year Revenue Outlook:Silicon Motion raised its guidance, forecasting Q3 2026 revenue between $519 million and $541 million, and now expects full-year 2026 revenue to more than double compared to 2025.
+Upgraded Near-Term and Annual Guidance:Management projected robust Q3 2026 revenue of $519 million to $541 million and expects full-year revenue to more than double year-over-year, marking a significant upward revision.
 insights_auto
-Strategic Expansion into AI Infrastructure:Management highlighted a major structural transformation from a consumer NAND controller supplier into a broader provider of AI infrastructure and enterprise storage solutions.
+Explosive Specialized Storage Solutions Growth:Ferri automotive and enterprise boot-drive solutions achieved massive momentum, scaling up to represent approximately 30% of total company revenue compared to just 4% in the prior year.
 insights_auto
-Gross Margins Exceed Previous Forecasts:The company reported a non-GAAP gross margin of 50.2%, which surpassed its internal guidance range of 48.5% to 49.5% due to a highly favorable product mix and new product rollouts.
+AI Shifts Boost Product Ramps:The commercial production ramp of the MonTitan enterprise SSD controller secured two Tier 1 customers, with five additional customers anticipated to onboard in the second half of 2026.
 search_spark
-What factors are driving the massive year-over-year acceleration in the Ferri and Boot Drive segments?
+How does the ongoing customer adoption of the MonTitan enterprise SSD controller impact Silicon Motion's long-term margin targets?
 search_spark
-How will the ongoing enterprise customer ramp for MonTitan controllers impact profit margins through the end of 2026?
+What specific infrastructure demand or risks in the automotive and AI sectors could affect the high growth rate of Ferri storage solutions?

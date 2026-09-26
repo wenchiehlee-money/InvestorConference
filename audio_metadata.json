@@ -723,5 +723,15 @@
     "source": "google_finance_quartr",
     "source_url": "https://www.google.com/finance/beta/quote/QCOM:NASDAQ?tab=earnings",
     "status": "ok"
+  },
+  "SIMO_2026_q2": {
+    "checked_at": "2026-09-26",
+    "duration_sec": 3267.84,
+    "file": "data/SIMO/SIMO_2026_q2.m4a",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/SIMO_2026_q2.m4a",
+    "sha256": "7d1e8a896d3a541fe633db02c24d27adddc6423199872ff3f4a50c3e8be60260",
+    "size_bytes": 51511060,
+    "source": "local_file",
+    "status": "ok"
   }
 }
