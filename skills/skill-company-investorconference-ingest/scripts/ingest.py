@@ -225,6 +225,10 @@ KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
         ("ir_en", "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/0e4d9625c9ef46521afd54002f835e45a9035043/2Q26%20Presentation%20(E).pdf"),
         ("transcript", "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf"),
     ],
+    ("INTC", "2026", "2"): [
+        ("report_en", "https://d1io3yog0oux5.cloudfront.net/_3ccf9cf30376bf77bbb27f582e51d00d/intel/db/887/9266/earnings_release/Q2+2026+Earnings+Release.pdf"),
+        ("ir_en", "https://d1io3yog0oux5.cloudfront.net/_3ccf9cf30376bf77bbb27f582e51d00d/intel/db/887/9266/earnings_presentation/Q2+2026+Earnings+Deck.pdf"),
+    ],
     ("AVGO", "2026", "2"): [
         # Broadcom FY2026 Q2 ended 2026-05-03, which is calendar 2026 Q2.
         ("report_en", "https://investors.broadcom.com/node/64371/pdf"),
@@ -260,6 +264,7 @@ KNOWN_US_DIRECT_BY_QUARTER = {
 KNOWN_US_WEBCASTS_BY_QUARTER = {
     ("NVDA", "2027", "2"): "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-2nd-Quarter-FY27-Financial-Results/default.aspx",  # Q2FY27 results call 2026-08-26 2pm PT
     ("AVGO", "2026", "2"): "https://edge.media-server.com/mmc/p/xxmn2vvv",  # Q2FY26 results call 2026-06-03
+    ("INTC", "2026", "2"): "https://edge.media-server.com/mmc/p/rdz8ppwz/",  # Q2 2026 results call 2026-07-23
     ("DELL", "2026", "1"): "https://event.webcasts.com/starthere.jsp?ei=1747660&tp_key=82c5169428",  # Q1FY27 results call 2026-05-28
     ("DELL", "2027", "2"): "https://event.webcasts.com/starthere.jsp?ei=1747682&tp_key=d94d9a0909",  # Q2FY27 results call 2026-09-01
     ("HPE", "2026", "3"): "https://event.choruscall.com/mediaframe/webcast.html?webcastid=ycWBiZdW",  # Q3FY26 results call 2026-09-02
