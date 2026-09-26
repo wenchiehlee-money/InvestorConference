@@ -245,6 +245,7 @@ KNOWN_US_IR = {
 # Quarter-specific direct audio URLs for US stocks (choruscall VOD / YouTube / etc.)
 # Keys use (ticker, year, quarter) matching expected_quarter() convention.
 KNOWN_US_DIRECT_BY_QUARTER = {
+    ("ASML", "2026", "1"): "https://d38unk532qwege.cloudfront.net/69dfa14d941a39af300d7433/7121b643-89f8-4ea5-8f39-ca43459db9b3-hls.m3u8",  # ASML official Q1 2026 investor call replay
     ("QCOM", "2025", "4"): "https://vodchoruscall.akamaized.net/07452/qualcomm/qualcomm260204.mp4",  # Q1FY26 call 2026-02-04
     ("QCOM", "2026", "1"): "https://vodchoruscall.akamaized.net/07452/qualcomm/qualcomm260429.mp4",  # Q2FY26 call 2026-04-29
 }
@@ -1721,16 +1722,25 @@ def download_audio(source: str, output_path: Path,
         and "files.quartr.com" in source.lower()
         and ".m3u8" in source.lower()
     )
-    is_direct_media = is_quartr_hls or (
+    is_official_hls = (
+        source.startswith(("http://", "https://"))
+        and ".m3u8" in source.lower()
+    )
+    is_direct_media = is_quartr_hls or is_official_hls or (
         source.startswith(("http://", "https://"))
         and re.search(r"\.(?:mp4|m4a|mp3|wav)(?:[?#].*)?$", source, re.I)
         and "playlist.m3u8" not in source.lower()
     )
     if is_direct_media:
+        audio_output_args = (
+            ["-map", "0:a:0", "-c:a", "copy"]
+            if is_official_hls
+            else ["-vn", "-c:a", "aac", "-b:a", "128k"]
+        )
         ffmpeg_cmd = [
             "ffmpeg", "-y", "-nostdin", "-hide_banner", "-loglevel", "warning",
             "-i", source,
-            "-vn", "-c:a", "aac", "-b:a", "128k",
+            *audio_output_args,
             str(output_path),
         ]
         print(f"[ffmpeg] {' '.join(ffmpeg_cmd)}")
@@ -1738,7 +1748,7 @@ def download_audio(source: str, output_path: Path,
         # playlist and segments are publicly reachable, but a complete call
         # can legitimately take longer than the short timeout used for a
         # single MP4/PDF-like media object.
-        ffmpeg_timeout = 600 if is_quartr_hls else 120
+        ffmpeg_timeout = 600 if (is_quartr_hls or is_official_hls) else 120
         try:
             result = subprocess.run(
                 ffmpeg_cmd,
