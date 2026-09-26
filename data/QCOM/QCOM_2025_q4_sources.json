@@ -1,0 +1,10 @@
+{
+  "symbol": "QCOM",
+  "fiscal_year": 2025,
+  "fiscal_quarter": 4,
+  "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000084/qcom092825erex991.htm",
+  "source_type": "official_sec_html",
+  "retrieved_at": "2026-09-26",
+  "accession": "0000804328-25-000084",
+  "notes": "Official SEC Exhibit 99.1 HTML financial-results filing; mapped to calendar 2025 Q4 in the existing matrix convention."
+}
