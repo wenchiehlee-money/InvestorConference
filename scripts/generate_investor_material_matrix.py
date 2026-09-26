@@ -59,6 +59,9 @@ OFFICIAL_UNAVAILABLE = {
 }
 
 CALENDAR_PERIOD_OVERRIDES = {
+    # AAPL_2026_q1 is the issuer-labeled FY2026 Q2 release and belongs to
+    # calendar Q1 2026 in the shared matrix.
+    ("AAPL", 2026, 1): (2026, 1),
     ("DELL", 2026, 1): (2026, 1),
     ("ARM", 2027, 1): (2026, 2),
     ("MU", 2026, 3): (2026, 2),
