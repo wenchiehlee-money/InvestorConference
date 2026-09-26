@@ -1,0 +1,10 @@
+{
+  "symbol": "ARM",
+  "fiscal_year": 2027,
+  "fiscal_quarter": 1,
+  "source_url": "https://investors.arm.com/node/8356/html",
+  "source_type": "official_sec_6k_html",
+  "retrieved_at": "2026-09-26",
+  "accession": "0001973239-26-000027",
+  "notes": "Official Arm Form 6-K HTML containing Exhibit 99.1 earnings press release and Exhibit 99.2 shareholder letter; mapped to calendar 2026 Q2."
+}
