@@ -1,0 +1,11 @@
+{
+  "symbol": "AVGO",
+  "source_year": 2026,
+  "source_quarter": 2,
+  "fiscal_period": "FY2026 Q2",
+  "calendar_period": "2026 Q1",
+  "source_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+  "source_type": "official_ir_html",
+  "retrieved_at": "2026-09-26",
+  "notes": "Broadcom FY2026 Q2 ended 2026-05-03; mapped to calendar 2026 Q1 under the existing matrix convention."
+}
