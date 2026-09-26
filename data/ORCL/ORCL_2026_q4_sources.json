@@ -1,0 +1,12 @@
+{
+  "symbol": "ORCL",
+  "source_year": 2026,
+  "source_quarter": 4,
+  "fiscal_period": "FY2026 Q4",
+  "calendar_period": "2026 Q2",
+  "source_url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/",
+  "sec_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-20260610.htm",
+  "source_type": "official_ir_html",
+  "retrieved_at": "2026-09-26",
+  "notes": "Oracle FY2026 Q4 ended 2026-05-31 and was announced 2026-06-10; mapped to calendar 2026 Q2."
+}
