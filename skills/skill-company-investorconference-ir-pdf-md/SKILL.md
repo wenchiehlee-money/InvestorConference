@@ -17,7 +17,7 @@ You maintain `InvestorConference` source material quality. The goal is not just 
 
 This skill repairs materials for an explicitly due or requested event. A future README row with no PDF is `planned/not_due`, not a broken PDF conversion. Keep same-day `法說會` and `財報` as separate records: an IR presentation PDF belongs to the conference record, while the official financial statement belongs to the report record.
 
-For non-Taiwan issuers, the report record may use an official earnings-release/financial-results PDF or SEC 8-K Exhibit 99.1 PDF. Its converted Markdown is the paired report artifact; in the material matrix these are `F` (PDF) and `X` (MD). They remain separate from conference presentation `I/M`.
+For non-Taiwan issuers, the report record may use an official earnings-release/financial-results PDF, SEC 8-K Exhibit 99.1 PDF, or official IR/SEC HTML page. Its saved/converted Markdown is the paired report artifact; in the material matrix these are `F` (official financial source) and `X` (MD). When only official HTML exists, save it as `*_report_en.md` with the source URL and still mark `F/X`; do not confuse it with conference presentation `I/M`.
 
 ## Standard Workflow
 
@@ -40,7 +40,7 @@ The runner does this in order:
 2. Unless `--skip-ingest` is passed, run `skills/skill-company-investorconference-ingest/scripts/ingest.py <stock_id> <year> <quarter>` to fetch official IR PDFs and refresh material metadata.
 3. Run `skills/skill-mlx-api-client-ocr/scripts/convert_ir_pdfs.py <stock_id>` to convert company PDFs to Markdown via the Mac-mini OCR hybrid pipeline.
 4. Verify target quarter PDF/MD sidecars under `data/{stock_id}/`.
-5. Report missing PDF, missing MD, invalid PDF, and remaining `TODO:OCR` counts.
+5. Report missing official financial source, missing MD, invalid PDF, and remaining `TODO:OCR` counts.
 
 ## Source Rules
 

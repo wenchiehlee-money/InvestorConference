@@ -65,7 +65,7 @@ Ingest 不得只信任 MOPS 查詢結果的第一個影音檔。部分公司或 
 | MOPS 法說會附件 | `t100sb07_1` 法說會/受邀法說公告附件，常見檔名 `{stock}{YYYYMMDD}{M/E}001.pdf` | `法說會` / `受邀法說` | `data/{stock}/{stock}_{year}_q{quarter}_ir.pdf`、`_ir_en.pdf` | 法說會簡報、presentation deck、營運/財務結果簡報；可支援 digest 與 GT 校正 | 不得稱為「財報」或用來滿足 `財報` row 的 statutory financial report 缺口 |
 | MOPS repo 財報文件 | `../MOPS` 或 `wenchiehlee-investment/MOPS/downloads/...`，常見檔名 `{YYYYQQ}_{stock}_AI1.pdf`、`AIA.pdf` | `財報` | README 外部連結或後續落檔為 report/financial statement 類材料 | 財報事件的一級財務文件、GoodInfo 尚未更新時的財務數字來源 | 不得用來滿足 `法說會` row 的音檔/法說會附件缺口；除非同一來源明確也是法說會簡報 |
 
-對非台灣股票，`F/X` 也代表官方財務結果材料，不限於 MOPS：`F` 是公司 IR 的 earnings-release / financial-results PDF、SEC 8-K Exhibit 99.1 或 SEC/公司 financial-tables PDF；`X` 是同一份 PDF 的 Markdown 轉檔。若官方只有 HTML/Markdown 而沒有可驗證的 PDF，可以保留官方 HTML/Markdown 作為補充證據，但不得填 `F`；只有對應 PDF 的 Markdown 才能填 `X`。這些是財報材料，不能與 `I/M`（IR presentation PDF/MD）混用；第三方 transcript 不得填入 `F/X`。
+對非台灣股票，`F/X` 也代表官方財務結果材料，不限於 MOPS：`F` 是公司 IR 的 earnings-release / financial-results PDF、SEC 8-K Exhibit 99.1 或 SEC/公司 financial-tables PDF；`X` 是同一份來源的 Markdown 轉檔。若官方只提供 HTML/web page 而沒有 PDF，仍可將官方頁面保存為可追溯的 Markdown sidecar，並同時填 `F/X`；不得因缺少 PDF 自動標成 `-`。HTML 轉 MD 時必須保留官方 URL、公司、季度、公告日期與來源類型。這些是財報材料，不能與 `I/M`（IR presentation PDF/MD）混用；第三方 transcript 不得填入 `F/X`。
 
 Broadcom 等 IR CDN 可能對 Python `requests` 回傳 HTTP 403，但同一個公開 PDF 可由 `curl` 取得。下載器只對 403 啟用 `curl` fallback，並強制檢查 `%PDF-` magic bytes；HTML challenge 或錯誤頁會被拒絕。Broadcom earnings 還必須檢查官方 Events & Presentations archive：有日期的 `Company Presentation`（例如 `20260902 Broadcom_Company_Overview.pdf`）才可作該季 `I`，earnings-release PDF 才是 `F`，兩者不可混用。
 
@@ -334,15 +334,15 @@ Downstream consumers should prefer this official CSV over `../ConceptStocks` pro
 | :--- | :--- | :--- |
 | `I` | 官方 IR presentation / investor deck PDF，例如 `*_ir_en.pdf` | earnings release、10-Q、transcript |
 | `M` | `I` 的同一份 PDF 轉成 Markdown，例如 `*_ir_en.md` | transcript、SEC HTML、另一份 financial-results MD |
-| `F` | 官方 earnings release、financial-results、financial tables 或 SEC exhibit PDF | 只有 HTML/MD、transcript、digest |
-| `X` | `F` 的同一份 PDF 轉成 Markdown，例如 `*_report_en.md` 或 `*_financial_tables.md` | 只有 SEC URL、第三方摘要、沒有 PDF 對應的 MD |
+| `F` | 官方 earnings release、financial-results、financial tables、SEC exhibit PDF，或已核實的官方 HTML/web page | 第三方 transcript、digest |
+| `X` | `F` 的同一份官方來源保存/轉成 Markdown，例如 `*_report_en.md` 或 `*_financial_tables.md` | 第三方摘要、未核實 URL |
 
 必要的配對規則：
 
 - `I` 沒有 `M` 時，必須建立 `TODO: convert I PDF to MD`，不能因 PDF 可讀就補填 M。
 - `M` 沒有同 stem 的 `I` 時，必須降級為 orphan MD，不能填 `M`。
 - `X` 沒有同一季度/同一來源的 `F` 時，保留 `X` 但必須在 sources sidecar 標為 `pdf_missing`；matrix 不得假裝 F 存在。
-- `F` PDF 轉檔含 `TODO:OCR` 時，F 可存在但 X 必須標為 incomplete，並建立 OCR TODO；不能把 partial MD 當成完整 X。
+- `F` PDF 轉檔含 `TODO:OCR` 時，F 可存在但 X 必須標為 incomplete，並建立 OCR TODO；不能把 partial MD 當成完整 X。官方 HTML/web page 轉成 MD 時沒有 PDF OCR 要求，但必須保留來源 URL 與完整可讀內容。
 - `I/M` 與 `F/X` 必須分別記錄 source URL、source type、SHA-256；兩組檔案即使來自同一個 IR page，也不能互相滿足。
 
 建議的落檔名稱：
@@ -358,7 +358,7 @@ data/{TICKER}/{TICKER}_{FY}_{q}_10q.md
 data/{TICKER}/{TICKER}_{FY}_{q}_sources.json
 ```
 
-`10q.md`、`8k.md` 等 SEC snapshot 必須在 `sources.json` 指向 accession 與原始 SEC URL；若要成為 matrix 的 `X`，應同時保存對應的官方 filing PDF snapshot，並使用 `report_en` 或 `financial_tables` 的標準命名。未經對應 PDF 驗證的 SEC Markdown 只能作 provenance/source evidence。
+`10q.md`、`8k.md` 等 SEC snapshot 必須在 `sources.json` 指向 accession 與原始 SEC URL；若官方只發布 HTML，該 SEC HTML 可轉存為 `report_en.md`，並在 `sources.json` 明確標記 `source_type: official_sec_html`，此時 matrix 可填 `F/X`，不必虛構 PDF。
 
 #### 4. 每季度完成 gate
 
@@ -370,8 +370,8 @@ data/{TICKER}/{TICKER}_{FY}_{q}_sources.json
 [ ] SEC filing index checked when applicable
 [ ] I: presentation PDF present or explicit not-published
 [ ] M: presentation PDF converted, no TODO:OCR
-[ ] F: official financial-results PDF present
-[ ] X: matching financial-results Markdown present, no TODO:OCR
+[ ] F: official financial-results PDF present, or official HTML/web page captured
+[ ] X: matching official financial-results Markdown present, with source URL and no unresolved extraction gap
 [ ] transcript/audio classified as supplemental, never used as I/M/F/X
 [ ] sources.json has URLs, source types, dates/accession, sha256, and missing-material notes
 [ ] README and investor_material_matrix regenerated
