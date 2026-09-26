@@ -1,0 +1,11 @@
+{
+  "symbol": "AAPL",
+  "source_year": 2026,
+  "source_quarter": 2,
+  "fiscal_period": "FY2026 Q1",
+  "calendar_period": "2026 Q1",
+  "source_url": "https://www.apple.com/newsroom/2026/01/apple-reports-first-quarter-results/",
+  "source_type": "official_ir_html",
+  "retrieved_at": "2026-09-26",
+  "notes": "Apple fiscal Q1 2026 ended 2025-12-27 and maps to calendar 2026 Q1 under the matrix convention."
+}
