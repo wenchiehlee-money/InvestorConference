@@ -7,9 +7,9 @@ https://www.google.com/finance/beta/quote/TSM:NYSE?tab=earnings
 
 ---
 
-TSMC reported strong Q2 2026 results with advanced technologies (7nm and below) accounting for 77% of wafer revenue. Advanced 2nm process technology contributed 3% of wafer revenue, while 3nm and 5nm processes generated 30% and 33% respectively. High-Performance Computing (HPC) grew 20% sequentially to represent 66% of total revenue.
+TSMC reported strong Q2 2026 results with revenue reaching $40.2B, driven by high demand for leading-edge technologies. Advanced nodes (7nm and below) comprised 77% of wafer revenue. For Q3 2026, TSMC expects revenue between $44.6B and $45.8B, representing a 12% sequential and 37% year-over-year increase at the midpoint.
 Highlights
-TSMC reported strong Q2 2026 results with advanced technologies (7nm and below) accounting for 77% of wafer revenue. Advanced 2nm process technology contributed 3% of wafer revenue, while 3nm and 5nm processes generated 30% and 33% respectively. High-Performance Computing (HPC) grew 20% sequentially to represent 66% of total revenue.
+TSMC reported strong Q2 2026 results with revenue reaching $40.2B, driven by high demand for leading-edge technologies. Advanced nodes (7nm and below) comprised 77% of wafer revenue. For Q3 2026, TSMC expects revenue between $44.6B and $45.8B, representing a 12% sequential and 37% year-over-year increase at the midpoint.
 Expand highlights
 
 **Jeff Su, Director of Investor Relations, TSMC**
@@ -666,20 +666,18 @@ _[1h 9m 11s]_
 Okay. Thank you. Thank you, C.C. Thank you, Wendell. Thank you, everyone. This does conclude our Q&A session. Before we conclude today's conference, please be advised that the replay of the conference will be accessible within 30 minutes from now. The transcript will become available 24 hours from now, both are going to be available through our website, again, at www.tsmc.com. If some of you were not able to ask your question, please feel free to reach out to TSMC IR, and we will follow up with you. Thank you, everyone, for joining us today. We hope everyone continues to stay well. Have a good summer, and we hope you'll join us again next quarter. Thank you and have a good day
 At a glance
 Insights from the latest news and reports
-9 sites
+7 sites
 insights_auto
-TSMC Tops Earnings and Revenue Estimates:Taiwan Semiconductor Manufacturing Company reported a solid beat for Q2 2026, with an adjusted EPS of NT$27.25 over the estimated NT$3.887 and revenue reaching NT$1,270.38 billion against expectations of NT$1,264.41 billion.
+TSMC Tops Financial Projections Soundly:Taiwan Semiconductor Manufacturing Company reported a solid beat for Q2 2026, posting a reported adjusted EPS of NT$27.25 against an estimated 3.887, and a reported revenue of NT$1,270,380,250,000 against an estimated NT$1,264,406,455,660.
 insights_auto
-Advanced Technologies Drive Revenue Mix:Advanced technologies defined as 7-nanometer and below dominated performance by accounting for 77% of total wafer revenue, with the 5nm process taking a 33% share and 3nm contributing 30%.
+Advanced Manufacturing Nodes Drive Profitability:Advanced technologies utilizing 7-nanometer processes and below accounted for 77% of total wafer revenue, propelling the gross margin up 150 basis points sequentially to a remarkable 67.7%.
 insights_auto
-Full Year Revenue Guidance Raised:Management increased its full-year 2026 revenue growth outlook to slightly above 40% year-over-year in U.S. dollar terms, an upward adjustment from the previously projected growth of over 30%.
+Upward Revision in Forward Guidance:Management raised its full-year 2026 revenue growth outlook to slightly above 40% year-over-year in U.S. dollar terms and increased the 2026 capital expenditure budget to a range of $60 billion to $64 billion.
 insights_auto
-Robust Capital Expenditure Upgrades:Driven by intense AI-fueled demand, TSMC lifted its 2026 capital budget to a record range of $60 billion to $64 billion from its prior guidance of $52 billion to $56 billion.
+HPC Segment Remains Prime Catalyst:High-Performance Computing (HPC) expanded 20% quarter-over-quarter, capturing 66% of total revenue as artificial intelligence demand remains a persistent tailwind.
 insights_auto
-U.S. Manufacturing Footprint Multiplied:The company announced an additional $100 billion investment to expand its manufacturing facilities in Arizona, demonstrating heightened long-term conviction in global AI market trends.
-insights_auto
-HPC Leads While Smartphones Decline:High-Performance Computing surged 20% quarter-over-quarter to constitute 66% of total revenue, effectively offsetting a 4% sequential dip in smartphone platform sales.
+Massive Strategic Infrastructure Expansion Confirmed:Reflecting multi-year confidence in the AI megatrend, TSMC announced an additional $100 billion investment to construct roughly four more semiconductor fabrication facilities in Arizona.
 search_spark
-How will the anticipated gross margin dilution from the 2-nanometer node and overseas fabs impact profitability in the second half of 2026?
+How will the increased 2026 capital budget affect TSMC's free cash flow and dividend payout scalability?
 search_spark
-What specific demand signals from major clients like Nvidia and Apple prompted the significant raise in full-year revenue and CapEx guidance?
+What impact will overseas manufacturing expansion in Arizona have on long-term gross margin dilution?
