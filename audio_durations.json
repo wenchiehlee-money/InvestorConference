@@ -88,6 +88,7 @@
   "data/AAPL/AAPL_2026_q3.m4a": 3627,
   "data/AMD/AMD_2026_q2.m4a": 3598,
   "data/AMZN/AMZN_2026_q2.m4a": 3097,
+  "data/ARM/ARM_2027_q1.m4a": 2795,
   "data/ASML/ASML_2026_q1.m4a": 3579,
   "data/ASML/ASML_2026_q2.m4a": 716,
   "data/AVGO/AVGO_2026_q3.m4a": 3488,
@@ -101,6 +102,5 @@
   "data/QCOM/QCOM_2025_q4.mp4": 2705,
   "data/QCOM/QCOM_2026_q1.m4a": 2721,
   "data/QCOM/QCOM_2026_q3.m4a": 2441,
-  "data/SIMO/SIMO_2026_q2.m4a": 3267,
-  "data/ARM/ARM_2027_q1.m4a": 2795
+  "data/SIMO/SIMO_2026_q2.m4a": 3267
 }
