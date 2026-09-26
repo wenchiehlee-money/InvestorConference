@@ -48,6 +48,12 @@ NON_TW_FISCAL_START_MONTH = {
 # page was checked for that quarter and no qualifying document was published;
 # it is a status marker, not a populated material cell.
 OFFICIAL_UNAVAILABLE = {
+    # SMIC's official 2026 financial-summary page lists the Q2 webcast
+    # announcement and earnings release, but no separate presentation.
+    ("0981HK", 2026, 2): {
+        "I": "https://www.smics.com/en/site/company_financialSummary?year=2026",
+        "M": "https://www.smics.com/en/site/company_financialSummary?year=2026",
+    },
     ("MSFT", 2026, 4): {
         "I": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
         "M": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
