@@ -163,6 +163,7 @@ KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
     ],
     ("ARM", "2027", "1"): [
         ("report_en", "https://investors.arm.com/static-files/d8db20bd-7b96-486a-b99b-23315627d1ec"),
+        ("ir_en", "https://investors.arm.com/static-files/776b641e-a309-448a-bdc7-a13daf110eb5"),
         ("transcript", "https://investors.arm.com/static-files/2ef5e3bf-f276-4a46-a4a2-2aadccd6710b"),
     ],
     ("ASML", "2026", "2"): [
