@@ -209,6 +209,20 @@ def ensure(rows, code, year, quarter, display):
     return row[quarter]
 
 
+def is_official_html_report_md(path):
+    """Return true only for an MD sidecar that records an official source URL."""
+    try:
+        head = path.read_text(encoding="utf-8", errors="replace")[:4000].lower()
+    except OSError:
+        return False
+    if "source:" not in head and "source_url" not in head:
+        return False
+    return any(domain in head for domain in (
+        "sec.gov/archives/", "investor.", "investors.",
+        "ir.", "company",
+    ))
+
+
 def build():
     stock_names = names()
     conference_catalog = conference_keys()
@@ -247,7 +261,13 @@ def build():
             elif lower.endswith("_report_en.pdf") or lower.endswith("_financial_tables.pdf"):
                 cell["F"] = linked("F", IC_BLOB + f"data/{code}/{path.name}")
             elif lower.endswith("_report_en.md") or lower.endswith("_financial_tables.md"):
-                cell["X"] = linked("X", IC_BLOB + f"data/{code}/{path.name}")
+                md_url = IC_BLOB + f"data/{code}/{path.name}"
+                cell["X"] = linked("X", md_url)
+                # Official HTML/SEC pages may be the only durable financial
+                # artifact. In that case the same audited MD sidecar is both
+                # the official financial source (F) and its Markdown form (X).
+                if not cell.get("F") and is_official_html_report_md(path):
+                    cell["F"] = linked("F", md_url)
             audio_key = f"{norm(code)}_{year}_q{quarter}"
             if (norm(code), year, quarter) in conference_catalog and audio_key in manifest and audio_key not in invalid_audio:
                 cell["A"] = linked("A", manifest[audio_key])
@@ -360,7 +380,7 @@ def write(rows, digest_sources):
         "The CSV retains source fiscal-year keys for provenance. Each row is one stock/calendar-year; each quarter occupies eight compact columns.",
         "Every populated cell links to the artifact that was verified.",
         "",
-        "`A` audio · `S` FIN.srt · `G` GT.srt · `I` IR presentation PDF · `M` IR presentation MD · `F` financial-report PDF · `X` financial-report MD · `-` official source checked but no qualifying document published (not counted as material) · `D` digest with all pre-G materials (`A/S/I/M/F/X`) · `D-` digest with one or more pre-G materials missing. Digest precedes GT generation, so missing `G` does not downgrade `D`.",
+        "`A` audio · `S` FIN.srt · `G` GT.srt · `I` IR presentation PDF · `M` IR presentation MD · `F` official financial-report source (PDF or official HTML) · `X` financial-report MD · `-` official source checked but no qualifying document published (not counted as material) · `D` digest with all pre-G materials (`A/S/I/M/F/X`) · `D-` digest with one or more pre-G materials missing. Digest precedes GT generation, so missing `G` does not downgrade `D`.",
         "",
         "|Stock|Year|" + "|".join(FIELDS * 4) + "|",
         "|---|---:|" + "|".join(["---"] * 32) + "|",
