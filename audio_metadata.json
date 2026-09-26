@@ -627,6 +627,16 @@
     "source_url": "https://www.google.com/finance/beta/quote/AMD:NASDAQ?tab=earnings",
     "status": "ok"
   },
+  "ASML_2026_q1": {
+    "checked_at": "2026-09-26",
+    "duration_sec": 3579.819,
+    "file": "data/ASML/ASML_2026_q1.m4a",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/ASML_2026_q1.m4a",
+    "sha256": "bcc05ab777de1fa88d0cf13d1c7f69eced4acf555be9db488a8f57172319200c",
+    "size_bytes": 42455711,
+    "source": "local_file",
+    "status": "ok"
+  },
   "ASML_2026_q2": {
     "checked_at": "2026-09-25",
     "duration_sec": 716.715,
