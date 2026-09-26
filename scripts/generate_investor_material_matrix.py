@@ -48,10 +48,6 @@ NON_TW_FISCAL_START_MONTH = {
 # page was checked for that quarter and no qualifying document was published;
 # it is a status marker, not a populated material cell.
 OFFICIAL_UNAVAILABLE = {
-    ("AAPL", 2026, 3): {
-        "I": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
-        "M": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
-    },
     ("MSFT", 2026, 4): {
         "I": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
         "M": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",

@@ -1,0 +1,10 @@
+{
+  "symbol": "AAPL",
+  "source_year": 2026,
+  "source_quarter": 3,
+  "calendar_period": "2026 Q3",
+  "source_url": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+  "source_type": "official_ir_html_financial_statements_pdf",
+  "retrieved_at": "2026-09-26",
+  "notes": "Apple official financial-results webpage links to FY26_Q3_Consolidated_Financial_Statements.pdf; existing PDF/MD remain the F/X artifacts. I/M is blank because this is not an IR presentation."
+}

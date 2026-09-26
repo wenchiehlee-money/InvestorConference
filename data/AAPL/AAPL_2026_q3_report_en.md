@@ -1,5 +1,8 @@
 <!-- mac-mini-ocr:hybrid-base source="AAPL_2026_q3_report_en.pdf" extractor="pypdf" generated="2026-09-26" -->
 
+- source_url: https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/
+- source_type: official_ir_html_financial_statements_pdf
+
 # AAPL_2026_q3_report_en.pdf（文字層抽取，必要頁面以 Mac-mini OCR 補轉錄）
 
 <!-- PAGE:1 -->
