@@ -10,7 +10,7 @@ description: 投資人說明會/財報事件材料蒐集 Ingest 模組（支援�
 ## ⚙️ 核心功能
 1. **智慧影音下載 (Smart Ingest)**：自動檢測美股/台股市場，解析 webcast 影音網址或透過 YouTube 尋找，並藉由 `yt-dlp` 下載音檔。
 2. **材料蒐集與落檔**：保存音檔、IR PDF/Markdown、第三方逐字稿、Yahoo/AlphaSpread/AlphaMemo 等可用來源。若產生機器字幕，僅視為 `*_FIN.srt` 初稿。
-3. **美股 earnings-call 材料支援**：對所有非台灣 ticker，依照季度解析結果蒐集 earnings release、prepared remarks、IR presentation、performance review/deck、financial tables、transcript PDF/HTML 與 SEC 10-Q/10-K/8-K；Yahoo/Google Finance/AlphaSpread 僅作 discovery 或 transcript 補充，不得成為官方材料的終點。
+3. **美股 earnings-call 材料支援**：對所有非台灣 ticker，依照季度解析結果蒐集 earnings release、prepared remarks、IR presentation、performance review/deck、financial tables、transcript PDF/HTML 與 SEC 10-Q/10-K/8-K；Yahoo/Google Finance/AlphaSpread 僅作 discovery 或 transcript 補充；其中 Google Finance/Quartr 若已用瀏覽器確認精確季度，且取得可重現的 presentation 或完整 earnings-call transcript，可作為 conference-material 的 I/M 證據，但仍不得填入 F/X，也不得冒充 FIN.srt 的 S。
 4. **簡報 OCR 與文字層提取**：批次處理各公司 PDF 簡報，必要時透過 Mac-mini 高精度 OCR API 補齊圖表數值。
 5. **README、Manifest 與音檔 metadata 自動同步**：維護 `audio_manifest.json`、`audio_durations.json`、`audio_metadata.json` 與 README.md 表格。
 
@@ -92,7 +92,7 @@ Ingest 必須把來源分成兩層，且不得讓二級來源覆蓋一級來源�
 | 層級 | 來源 | 可用用途 | 限制 |
 | :--- | :--- | :--- | :--- |
 | 一級來源 | 公司 IR 官網、公司正式 replay/webcast、公司正式 PDF、MOPS/TWSE 官方公告、SEC filing（美股） | 決定季度、日期、檔案類型、是否為正式公司材料；落檔與 README metadata 的主依據 | 若一級來源彼此衝突，必須保留衝突紀錄並降信心，不得靜默覆蓋 |
-| 二級來源 | Google Finance earnings tab / Quartr、FinmoConf、AlphaSpread、Yahoo Finance transcript、AlphaMemo、第三方法說會索引或摘要平台 | 發現資料、補逐字稿、補 speaker/Q&A、交叉驗證、產生候選來源清單 | 不得覆蓋一級來源的季度/日期/檔案類型；不得單獨作為官方音檔或官方簡報判定 |
+| 二級來源 | Google Finance earnings tab / Quartr、FinmoConf、AlphaSpread、Yahoo Finance transcript、AlphaMemo、第三方法說會索引或摘要平台 | 發現資料、補逐字稿、補 speaker/Q&A、交叉驗證、產生候選來源清單；其中已用瀏覽器確認精確季度的 Quartr presentation 或完整 transcript 可作 conference-material `I/M` | 不得覆蓋一級來源的季度/日期/檔案類型；Quartr `I/M` 仍不得宣稱為公司官方來源，也不得填入 `F/X` 或 `S` |
 
 #### Google Finance earnings tab secondary fallback
 
@@ -106,7 +106,7 @@ Google Finance earnings data is rendered and historical rows are lazy-loaded; a 
 2. Use Selenium only as a documented fallback when Playwright cannot start or the target page is incompatible; do not switch between tools silently. Record the tool, browser executable, URL, and failure reason in the ingest log.
 3. Install/repair the runtime before classifying a source as unavailable: `pip install playwright` and `python -m playwright install chromium`, or use the verified system Chromium path.
 4. For a historical quarter, render the page, locate the exact `Previous reports` quarter row, open its `Documents and forms` control, and verify the quarter label before accepting any PDF, media manifest, or transcript. The page's main panel may remain on the newest quarter.
-5. Google Finance/Quartr remains a secondary source. Its audio/transcript may populate conference evidence, but its 8-K/10-Q or presentation links do not automatically become official `F/X` or `I/M`; official PDF provenance and the same-PDF Markdown sidecar are still required for those flags.
+5. Google Finance/Quartr remains a secondary source for provenance, but a quarter-confirmed Quartr presentation or complete earnings-call transcript may populate conference-material `I/M`. It must retain the Google Finance page URL, captured Quartr URL, exact quarter label, and source type. It still cannot populate `F/X` or `S`; official financial-report provenance remains required for `F/X`, and FIN.srt remains required for `S`.
 
 A browser failure, missing Playwright runtime, or a page that only shows the newest quarter must be recorded as `not verified`; it must not be converted to the matrix `-` indicator.
 
@@ -121,14 +121,14 @@ A browser failure, missing Playwright runtime, or a page that only shows the new
 4. 僅接受可重現的 Quartr media manifest 或音檔 URL，例如 `files.quartr.com/.../master.m3u8` 或 `/streams/YYYY-MM-DD/.../playlists.m3u8`；不得用 segment、chunk、`part_*.ts` 或中間實作 URL。
 5. 若 URL 含會議日期（例如 `/streams/2026-07-30/...`），日期必須落在目標季度的法說會窗口。
 6. 下載後仍要通過 checksum、duration、duplicate gate；成功時 `audio_metadata.json` 必須記錄 `source: google_finance_quartr`、Google Finance page `source_url`、實際 `captured_media_url` 與 secondary-source note。
-7. Google/Quartr 只能補音檔、逐字稿與 discovery metadata；README 的季度、日期、事件類型與官方 PDF 判定仍以一級來源為準。
+7. Google/Quartr 可補音檔、逐字稿與 conference-material I/M；README 的季度、日期與事件類型仍以一級來源為準。Quartr transcript/presentation 不得填入 F/X，也不得改寫 S；必須在 sidecar 保存 secondary-source provenance。
 8. Quartr `master.m3u8` 是完整長篇 HLS 會議串流；即使 playlist 與 segments 可正常 HTTP 200，也可能超過短下載 timeout。實作對 Quartr HLS 使用最長 600 秒的 ffmpeg/yt-dlp timeout；timeout 只代表本次下載未完成，不得標記為 `not_published` 或誤判為需要註冊。
 
 ### ffmpeg runtime prerequisite
 
 The ingestion skill must reuse the `ffmpeg` already provided by the runtime; it must not install packages during a local ingestion run. Before starting audio extraction, verify `command -v ffmpeg` and fail with a clear prerequisite error if it is absent. GitHub Actions may install `ffmpeg` only when the ephemeral runner does not already provide it (`command -v ffmpeg || apt-get install ...`).
 
-**逐字稿（transcript）**：同一個 earnings tab 頁面通常也內嵌 Quartr 提供的完整逐字稿（含講者姓名/職稱與時間戳記，從開場到 Q&A 到 operator 結束語）。`fetch_google_finance_transcript(stock_id, year, quarter, stem, save_dir)` 會捲動該頁面觸發逐字稿區塊 lazy-load、以同一個 `Fiscal Q{N} {Year}` 文字比對確認季度，再存成 `{stem}_google_finance_transcript.md`（清除 UI 雜訊如 `music_history`/`Listen from here`，保留講者標題與時間戳）。這個檔案的地位等同 `_yahoo_transcript.md`／`_alphaspread_transcript.md`：只是補充來源，數字與引言仍以公司 IR/SEC filing 及官方音檔為準；`ingest_earnings_audio()` 的 `done()` 已將它接在 AlphaSpread/Yahoo transcript 之後、都沒有結果時自動嘗試一次。
+**逐字稿（transcript）**：同一個 earnings tab 頁面通常也內嵌 Quartr 提供的完整逐字稿（含講者姓名/職稱與時間戳記，從開場到 Q&A 到 operator 結束語）。`fetch_google_finance_transcript(stock_id, year, quarter, stem, save_dir)` 會捲動該頁面觸發逐字稿區塊 lazy-load、以同一個 `Fiscal Q{N} {Year}` 文字比對確認季度，再存成 `{stem}_google_finance_transcript.md`（清除 UI 雜訊如 `music_history`/`Listen from here`，保留講者標題與時間戳）。若頁面明確確認目標季度，這個完整 Quartr transcript 可作 conference-material 的 I/M（I 與 M 可連到同一個 transcript artifact），但不能作 F/X 或 FIN.srt 的 S；sidecar 必須記錄 Google Finance page、captured Quartr URL 與季度文字。`ingest_earnings_audio()` 的 `done()` 已將它接在 AlphaSpread/Yahoo transcript 之後、都沒有結果時自動嘗試一次。
 
 若一級與二級來源衝突，例如第三方索引把公司官方 `2026 Q2` 法說會標成 `2026Q3`：
 
@@ -299,11 +299,12 @@ Downstream consumers should prefer this official CSV over `../ConceptStocks` pro
 | Earnings release / report | `{Ticker}_{Year}_q{N}_report_en.pdf/md` | GAAP 財務數字第一來源 |
 | Performance review / deck | `{Ticker}_{Year}_q{N}_performance_review.pdf/md` 或 `_ir_en` | 管理層簡報、guidance、segment 資訊 |
 | Financial tables | `{Ticker}_{Year}_q{N}_financial_tables.pdf/md` | GAAP/non-GAAP reconciliation、現金流、資產負債表 |
-| Third-party transcript | `{Ticker}_{Year}_q{N}_yahoo_transcript.md` / `_alphaspread_transcript.md` | speaker、Q&A、英文術語校正補充 |
+| Google Finance/Quartr conference artifact | `{Ticker}_{Year}_q{N}_google_finance_transcript.md`、`_quartr_transcript.md` 或對應的 `_google_finance_presentation.pdf/md`、`_quartr_presentation.pdf/md` | 精確季度已驗證後可作 conference-material `I/M`；必須保存 Google Finance 頁面、Quartr URL、季度文字與來源類型 |
+| Third-party transcript | `{Ticker}_{Year}_q{N}_yahoo_transcript.md` / `_alphaspread_transcript.md` | speaker、Q&A、英文術語校正補充；除非符合前述 Google Finance/Quartr 季度驗證規則，否則不可填 `I/M` |
 | SEC filing link/file | `{Ticker}_{Year}_q{N}_10q.md` 或 metadata link | 10-Q/10-K 交叉驗證（若可得） |
 
 > [!CAUTION]
-> 美股第三方 transcript 只能作補充來源。若 Yahoo/AlphaSpread 與公司 IR、earnings release 或 SEC filing 衝突，digest 應以公司文件與可驗證音訊為準。
+> 一般美股第三方 transcript 只能作補充來源。Google Finance/Quartr 若已用瀏覽器確認精確季度，完整 transcript 或 presentation 可填 conference-material `I/M`，但仍不是 `F/X` 或 `S`；若與公司 IR、earnings release 或 SEC filing 衝突，digest 應以一級來源為準。
 
 ### 🇺🇸 美股 deterministic ingest workflow
 
@@ -324,7 +325,7 @@ Downstream consumers should prefer this official CSV over `../ConceptStocks` pro
 | 2 | 公司 IR PDF/HTML 直接連結 | `I/M` 或 `F/X` | 先分類文件，不可把 earnings release 當 presentation |
 | 3 | SEC submissions/company filing index | 8-K Exhibit 99.1、10-Q、10-K、earnings release exhibit | 保存 accession、filing date、period of report、原始 URL；使用 SEC 官方內容作交叉驗證 |
 | 4 | 官方 webcast/replay | audio、官方 transcript | 驗證季度文字與會議日期後才落檔 |
-| 5 | Google Finance/Quartr、Yahoo、AlphaSpread | audio/transcript/discovery URL | 僅補音訊、逐字稿或找線索；不得取代官方 `I/M/F/X` |
+| 5 | Google Finance/Quartr、Yahoo、AlphaSpread | audio/transcript/discovery URL | 精確季度驗證後，Quartr presentation/transcript 可作 conference-material `I/M`；不得取代 `F/X`，也不得取代 `S` |
 
 每一層都必須記錄「已查過但沒有目標季度材料」；不能只記錄成功下載的來源。若公司 IR 被 Cloudflare/Akamai 擋住，依本 skill 的 Playwright/chrome-devtools fallback 重試，不得直接標記 unavailable。
 
@@ -332,8 +333,8 @@ Downstream consumers should prefer this official CSV over `../ConceptStocks` pro
 
 | Flag | 必須存在 | 不可用來替代 |
 | :--- | :--- | :--- |
-| `I` | 官方 IR presentation / investor deck PDF，例如 `*_ir_en.pdf` | earnings release、10-Q、transcript |
-| `M` | `I` 的同一份 PDF 轉成 Markdown，例如 `*_ir_en.md` | transcript、SEC HTML、另一份 financial-results MD |
+| `I` | 官方 IR presentation / investor deck PDF，例如 `*_ir_en.pdf`；或已用 Google Finance/Quartr 精確確認季度的 presentation/transcript artifact | earnings release、10-Q、一般未驗證 transcript |
+| `M` | `I` 的同一份 PDF 轉成 Markdown，例如 `*_ir_en.md`；Quartr transcript-only artifact 可用同一份完整 MD 同時作 I/M | 未確認季度的 transcript、SEC HTML、financial-results MD |
 | `F` | 官方 earnings release、financial-results、financial tables、SEC exhibit PDF，或已核實的官方 HTML/web page | 第三方 transcript、digest |
 | `X` | `F` 的同一份官方來源保存/轉成 Markdown，例如 `*_report_en.md` 或 `*_financial_tables.md` | 第三方摘要、未核實 URL |
 
@@ -372,7 +373,7 @@ data/{TICKER}/{TICKER}_{FY}_{q}_sources.json
 [ ] M: presentation PDF converted, no TODO:OCR
 [ ] F: official financial-results PDF present, or official HTML/web page captured
 [ ] X: matching official financial-results Markdown present, with source URL and no unresolved extraction gap
-[ ] transcript/audio classified as supplemental, never used as I/M/F/X
+[ ] unverified transcript/audio classified as supplemental; quarter-confirmed Quartr presentation/transcript may be used as I/M, never F/X or S
 [ ] sources.json has URLs, source types, dates/accession, sha256, and missing-material notes
 [ ] README and investor_material_matrix regenerated
 ```
@@ -397,7 +398,7 @@ python skills/skill-company-investorconference-ingest/scripts/ingest.py \
   <TICKER> <FISCAL_YEAR> <FISCAL_QUARTER> --materials-only
 ```
 
-批次完成後，對每個非台股 ticker 輸出一行 `calendar_period`, `I`, `M`, `F`, `X`, `missing_reason`。沒有 `F` 的 `X`、只有 transcript 的季度、以及只有 `I/M` 的季度都必須進入 TODO/issue 清單，而不是被歸類為「資料不存在」。
+批次完成後，對每個非台股 ticker 輸出一行 `calendar_period`, `I`, `M`, `F`, `X`, `missing_reason`。沒有 `F` 的 `X`、只有未驗證 transcript 的季度，以及仍缺 I/M 的季度都必須進入 TODO/issue 清單；已用瀏覽器確認精確季度的 Quartr presentation/transcript 可列為 I/M，不應再被歸類為「資料不存在」。
 
 ## Audio storage boundary
 

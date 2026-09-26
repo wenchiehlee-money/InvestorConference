@@ -17,7 +17,7 @@ You maintain `InvestorConference` source material quality. The goal is not just 
 
 This skill repairs materials for an explicitly due or requested event. A future README row with no PDF is `planned/not_due`, not a broken PDF conversion. Keep same-day `法說會` and `財報` as separate records: an IR presentation PDF belongs to the conference record, while the official financial statement belongs to the report record.
 
-For non-Taiwan issuers, the report record may use an official earnings-release/financial-results PDF, SEC 8-K Exhibit 99.1 PDF, or official IR/SEC HTML page. Its saved/converted Markdown is the paired report artifact; in the material matrix these are `F` (official financial source) and `X` (MD). When only official HTML exists, save it as `*_report_en.md` with the source URL and still mark `F/X`; do not confuse it with conference presentation `I/M`.
+For non-Taiwan issuers, the report record may use an official earnings-release/financial-results PDF, SEC 8-K Exhibit 99.1 PDF, or official IR/SEC HTML page. Its saved/converted Markdown is the paired report artifact; in the material matrix these are `F` (official financial source) and `X` (MD). When only official HTML exists, save it as `*_report_en.md` with the source URL and still mark `F/X`; do not confuse it with conference presentation `I/M`. A quarter-confirmed Google Finance/Quartr presentation or complete earnings-call transcript may instead be saved as conference evidence and marked `I/M`, with secondary-source provenance; it must never be marked `F/X` or `S`.
 
 ## Standard Workflow
 

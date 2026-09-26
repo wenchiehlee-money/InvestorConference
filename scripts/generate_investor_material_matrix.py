@@ -219,6 +219,15 @@ def ensure(rows, code, year, quarter, display):
     return row[quarter]
 
 
+def is_quartr_conference_md(path):
+    """Return true for a quarter-confirmed Google Finance/Quartr MD artifact."""
+    try:
+        head = path.read_text(encoding="utf-8", errors="replace")[:5000].lower()
+    except OSError:
+        return False
+    return "google finance" in head and "quartr" in head
+
+
 def is_official_html_report_md(path):
     """Return true only for an MD sidecar that records an official source URL."""
     try:
@@ -264,8 +273,15 @@ def build():
                 cell["S"] = linked("S", IC_BLOB + f"data/{code}/{path.name}")
             elif lower.endswith("_gt.srt"):
                 cell["G"] = linked("G", IC_BLOB + f"data/{code}/{path.name}")
+            elif lower.endswith(("_google_finance_presentation.pdf", "_quartr_presentation.pdf")):
+                # A quarter-confirmed Quartr presentation is conference evidence.
+                # It is secondary-source I only; it is never financial-report F.
+                cell["I"] = linked("I", IC_BLOB + f"data/{code}/{path.name}")
             elif lower.endswith(("_ir.pdf", "_ir_en.pdf", "_performance_review.pdf")):
                 cell["I"] = linked("I", IC_BLOB + f"data/{code}/{path.name}")
+            elif lower.endswith(("_google_finance_presentation.md", "_quartr_presentation.md")):
+                if is_quartr_conference_md(path):
+                    cell["M"] = linked("M", IC_BLOB + f"data/{code}/{path.name}")
             elif lower.endswith(("_ir.md", "_ir_en.md", "_performance_review.md")):
                 cell["M"] = linked("M", IC_BLOB + f"data/{code}/{path.name}")
             elif lower.endswith("_report_en.pdf") or lower.endswith("_financial_tables.pdf"):
@@ -278,6 +294,13 @@ def build():
                 # the official financial source (F) and its Markdown form (X).
                 if not cell.get("F") and is_official_html_report_md(path):
                     cell["F"] = linked("F", md_url)
+            elif lower.endswith(("_google_finance_transcript.md", "_quartr_transcript.md")):
+                # A browser-confirmed Quartr transcript is conference evidence.
+                # Per policy it may populate I/M, but never F/X or FIN.srt S.
+                if is_quartr_conference_md(path):
+                    md_url = IC_BLOB + f"data/{code}/{path.name}"
+                    cell["I"] = linked("I", md_url)
+                    cell["M"] = linked("M", md_url)
             audio_key = f"{norm(code)}_{year}_q{quarter}"
             if (norm(code), year, quarter) in conference_catalog and audio_key in manifest and audio_key not in invalid_audio:
                 cell["A"] = linked("A", manifest[audio_key])
