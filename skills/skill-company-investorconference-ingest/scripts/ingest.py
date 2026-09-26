@@ -179,6 +179,10 @@ KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
         ("report_en", "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf"),
         ("ir_en", "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-slides.pdf"),
     ],
+    ("GOOGL", "2026", "1"): [
+        ("report_en", "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q1/2026q1-alphabet-earnings-release.pdf"),
+        ("ir_en", "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q1/2026q1-alphabet-earnings-slides.pdf"),
+    ],
     ("AMZN", "2026", "2"): [
         ("report_en", "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q2/earnings-result/AMZN-Q2-2026-Earnings-Release.pdf"),
         ("ir_en", "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q2/presentation/Webslides_Q226.pdf"),
@@ -1086,10 +1090,11 @@ def scrape_google_finance_earnings_audio(stock_id: str, year: str, quarter: str)
     print(f"[Google-Finance] Secondary discovery: {source_url}")
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(
-                headless=True,
-                args=["--no-sandbox", "--disable-setuid-sandbox"],
-            )
+            launch_kwargs = {"headless": True, "args": ["--no-sandbox", "--disable-setuid-sandbox"]}
+            browser_path = shutil.which("chromium") or shutil.which("chromium-browser") or shutil.which("google-chrome")
+            if browser_path:
+                launch_kwargs["executable_path"] = browser_path
+            browser = p.chromium.launch(**launch_kwargs)
             page = browser.new_page(user_agent=UA)
             page.on("response", on_response)
             page.goto(source_url, wait_until="domcontentloaded", timeout=45000)
@@ -1178,7 +1183,11 @@ def fetch_google_finance_transcript(stock_id: str, year: str, quarter: str, stem
     body_text = ""
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-setuid-sandbox"])
+            launch_kwargs = {"headless": True, "args": ["--no-sandbox", "--disable-setuid-sandbox"]}
+            browser_path = shutil.which("chromium") or shutil.which("chromium-browser") or shutil.which("google-chrome")
+            if browser_path:
+                launch_kwargs["executable_path"] = browser_path
+            browser = p.chromium.launch(**launch_kwargs)
             page = browser.new_page(user_agent=UA)
             page.goto(source_url, wait_until="domcontentloaded", timeout=45000)
             page.wait_for_timeout(3000)

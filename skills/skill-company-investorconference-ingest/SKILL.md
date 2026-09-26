@@ -98,6 +98,18 @@ Ingest 必須把來源分成兩層，且不得讓二級來源覆蓋一級來源�
 
 若公司 IR、官方 webcast/replay 與 MOPS/TWSE 都沒有取得音檔，Ingest 可把 Google Finance earnings tab 當作二級 discovery fallback，例如 `https://www.google.com/finance/beta/quote/2382:TPE?tab=earnings`（台股，固定 `:TPE` 後綴）或 `https://www.google.com/finance/beta/quote/AVGO:NASDAQ?tab=earnings`（美股，交易所後綴依 ticker 而異）。這個來源常由 Quartr 提供文件、逐字稿或 HLS replay audio，可補足 README 中暫列 `無` 的音檔缺口。
 
+### Google Finance browser requirement (verified)
+
+Google Finance earnings data is rendered and historical rows are lazy-loaded; a static `curl`/`requests` response is not sufficient to conclude that audio or a transcript is absent. The maintained browser order is:
+
+1. Use Playwright first. Launch Chromium with `--no-sandbox`; if the repository-managed Playwright browser is unavailable, use an installed `chromium`, `chromium-browser`, or `google-chrome` executable via `executable_path`.
+2. Use Selenium only as a documented fallback when Playwright cannot start or the target page is incompatible; do not switch between tools silently. Record the tool, browser executable, URL, and failure reason in the ingest log.
+3. Install/repair the runtime before classifying a source as unavailable: `pip install playwright` and `python -m playwright install chromium`, or use the verified system Chromium path.
+4. For a historical quarter, render the page, locate the exact `Previous reports` quarter row, open its `Documents and forms` control, and verify the quarter label before accepting any PDF, media manifest, or transcript. The page's main panel may remain on the newest quarter.
+5. Google Finance/Quartr remains a secondary source. Its audio/transcript may populate conference evidence, but its 8-K/10-Q or presentation links do not automatically become official `F/X` or `I/M`; official PDF provenance and the same-PDF Markdown sidecar are still required for those flags.
+
+A browser failure, missing Playwright runtime, or a page that only shows the newest quarter must be recorded as `not verified`; it must not be converted to the matrix `-` indicator.
+
 > [!NOTE]
 > 美股 ticker 沒有像台股 `:TPE` 這種固定後綴，需要逐一在 `ingest.py` 的 `KNOWN_US_GOOGLE_FINANCE_EXCHANGE` 登記 `{ticker: exchange}`（例如 `AVGO: NASDAQ`、`HPE: NYSE`）才會啟用；未登記的 ticker，`scrape_google_finance_earnings_audio()` / `fetch_google_finance_transcript()` 會直接回傳空結果，不會猜測交易所或假造候選網址。新增一個美股 ticker 前，必須先手動打開該頁面確認交易所後綴正確、且頁面能顯示目標 `Fiscal Q{N} {Year}` 文字，才可登記。已驗證：AVGO FY2026 Q3、HPE FY2026 Q3（2026-09-04 ingest）。
 
