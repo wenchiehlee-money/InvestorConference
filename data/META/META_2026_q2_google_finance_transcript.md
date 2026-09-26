@@ -7,9 +7,9 @@ https://www.google.com/finance/beta/quote/META:NASDAQ?tab=earnings
 
 ---
 
-Meta reported strong Q2 2026 results with total revenue up 28% year-over-year to $60.8 billion, beating estimates of $60.29 billion. Family of Apps ad revenue reached $59.4 billion (up 27%), driven by a 14% increase in ad impressions and a 12% increase in average price per ad. Family of Apps other revenue crossed $1 billion, growing 73% year-over-year.
+Meta reported strong Q2 2026 results with total revenue up 28% year-over-year to $60.8 billion, beating estimates of $60.29 billion. Net income reached $15.8 billion with GAAP EPS of $6.18, slightly below the estimated $7.40, impacted by $2.4 billion in legal charges and $1.2 billion in severance expenses.
 Highlights
-Meta reported strong Q2 2026 results with total revenue up 28% year-over-year to $60.8 billion, beating estimates of $60.29 billion. Family of Apps ad revenue reached $59.4 billion (up 27%), driven by a 14% increase in ad impressions and a 12% increase in average price per ad. Family of Apps other revenue crossed $1 billion, growing 73% year-over-year.
+Meta reported strong Q2 2026 results with total revenue up 28% year-over-year to $60.8 billion, beating estimates of $60.29 billion. Net income reached $15.8 billion with GAAP EPS of $6.18, slightly below the estimated $7.40, impacted by $2.4 billion in legal charges and $1.2 billion in severance expenses.
 Expand highlights
 [Operator Instructions]
 My name is Krista, and I will be your conference operator today. At this time, I would like to welcome everyone to Meta's second quarter 2026 earnings conference call. All lines have been placed on mute to prevent any background noise. After the speaker's remarks, there will be a question and answer session. If you would like to ask a question, please press star, then the number one on your telephone keypad. To withdraw your question, again, press star one. We ask that you limit yourself to one question, and this call will be recorded. Thank you very much. Chad Heaton, Meta's Vice President of Finance, you may begin.
@@ -332,20 +332,20 @@ _[1h 3m 5s]_
 This concludes today's conference call. Thank you for your participation. You may now disconnect.
 At a glance
 Insights from the latest news and reports
-7 sites
+11 sites
 insights_auto
-Meta Beats Revenue, Misses EPS Estimates:Meta Platforms reported Q2 2026 revenue of $60.801 billion, slightly exceeding the estimated $60.287 billion, but reported an Adjusted EPS of $6.18, missing the consensus estimate of $7.398 due to rising costs.
+Meta Reports Revenue Beat and EPS Miss:For Q2 2026, Meta Platforms reported revenue of $60.80 billion, surpassing the estimated $60.29 billion, but delivered a reported adjusted EPS of $6.18, falling short of the estimated 7.398 due to escalating costs.
 insights_auto
-Ad Monetization and User Engagement Strong:The company's core Family of Apps segment saw robust engagement with daily active people averaging 3.60 billion, while advertising revenue was driven by a 14% year-over-year increase in ad impressions and a 12% rise in average price per ad.
+Strong Ad Performance Anchors Core Engagement:Ad impressions rose 14% year-over-year alongside a 12% increase in the average price per ad, while core engagement hit 3.60 billion Family Daily Active People, driven by Instagram reaching 2 billion daily active users.
 insights_auto
-Guidance Lean Soft and Capex Shifted:Meta issued Q3 2026 revenue guidance of $61 billion to $64 billion, which falls slightly below consensus expectations at the midpoint, while lifting the floor of its full-year capital expenditure guidance range to $130 billion.
+Full-Year Spending Outlook Narrowed and Raised:Meta narrowed its 2026 capital expenditure guidance to a range of $130 billion to $145 billion, increasing the lower bound from its prior estimate of $125 billion to fund continued artificial intelligence infrastructure expansion.
 insights_auto
-Massive Legal and Severance Charges Hit:Total operating expenses surged 55% year-over-year to $42.03 billion, severely compressing margins, heavily impacted by $2.40 billion in legal proceedings charges and $1.18 billion in severance expenses.
+Surging Infrastructure Costs Squeeze Cash Flow:Capital expenditures surged to $31.08 billion for the quarter, which severely impacted profitability and compressed free cash flow down to $784 million compared to $8.5 billion in the prior-year period.
 insights_auto
-Heavy AI Investments Crush Free Cash Flow:Capital expenditures accelerated dramatically to $31.08 billion for the quarter to fund AI infrastructure, causing free cash flow to drop significantly down to $784 million.
+Legal Charges and Restructuring Weigh Heavily:Total operating expenses jumped 55% year-over-year to $42.03 billion, heavily weighed down by a $2.40 billion legal-proceedings charge and $1.18 billion in severance costs from a major headcount reduction.
 insights_auto
-Market Reaction Tumbles Post-Earnings:Meta's shares tumbled nearly 10% in extended trading immediately following the earnings release as investors prioritized profitability and margin compression over the top-line revenue beat.
+Market Recoils Over Capital Spending Growth:Meta's shares tumbled roughly 8% to 10% in extended trading following the report, as investors penalized the company for margin compression and a massive capital expenditure blueprint despite robust top-line advertising growth.
 search_spark
-How does Meta plan to stabilize its operating margins amidst continuing high infrastructure investments for artificial intelligence?
+How does Meta plan to monetize its extensive AI infrastructure investments to offset rising depreciation and capital expenditures?
 search_spark
-What specific near-term timelines does management project for AI monetization strategies to offset surging capital expenditures?
+What specific societal harm lawsuits or regulatory challenges are driving Meta's multi-billion dollar legal charges?
