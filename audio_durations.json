@@ -96,6 +96,7 @@
   "data/DELL/DELL_2027_q2.m4a": 3596,
   "data/GOOGL/GOOGL_2026_q2.m4a": 3723,
   "data/HPE/HPE_2026_q3.m4a": 3850,
+  "data/INTC/INTC_2026_q2.m4a": 3524,
   "data/META/META_2026_q2.m4a": 3790,
   "data/MSFT/MSFT_2026_q4.m4a": 3858,
   "data/NVDA/NVDA_2027_q2.m4a": 3570,
@@ -104,6 +105,5 @@
   "data/QCOM/QCOM_2026_q1.m4a": 2721,
   "data/QCOM/QCOM_2026_q3.m4a": 2441,
   "data/SIMO/SIMO_2026_q2.m4a": 3267,
-  "data/TSM/TSM_2026_q2.m4a": 4189,
-  "data/INTC/INTC_2026_q2.m4a": 3524
+  "data/TSM/TSM_2026_q2.m4a": 4189
 }
