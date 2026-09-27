@@ -78,7 +78,8 @@ CALENDAR_PERIOD_OVERRIDES = {
     ("NVDA", 2027, 2): (2026, 3),
     ("ORCL", 2026, 4): (2026, 2),
     ("QCOM", 2026, 1): (2026, 1),
-    ("QCOM", 2026, 3): (2026, 3),
+    # Qualcomm FY2026 Q3 ended 2026-06-28, so it belongs to calendar 2026 Q2.
+    ("QCOM", 2026, 3): (2026, 2),
     ("SNDK", 2026, 4): (2026, 2),
 }
 
