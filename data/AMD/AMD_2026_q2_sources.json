@@ -1,0 +1,39 @@
+{
+  "ticker": "AMD",
+  "fiscal_year": "2026",
+  "fiscal_quarter": "2",
+  "event_date": "2026-08-04",
+  "fiscal_period_end": "2026-06-27",
+  "sources": [
+    {
+      "source_type": "SEC 8-K / official earnings filing PDF",
+      "source_url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000121/0000002488-26-000121.pdf",
+      "retrieved_at": "2026-09-27T15:43:34Z",
+      "sha256": "f9b75d46c92501f78c0443a3cb312547a943c9888cbfc1171f2e01330634f3bf",
+      "local_file": "data/AMD/AMD_2026_q2_report_en.pdf"
+    },
+    {
+      "source_type": "Company IR earnings presentation PDF",
+      "source_url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000121/attachments/AMD%20Q2%202026%20Earnings%20Slides%20FINAL.pdf",
+      "retrieved_at": "2026-09-27T15:43:34Z",
+      "sha256": "03b4979e433ba82ce5c477df881c9767507b6bc738f59e5e9a7e7da5ba7c1739",
+      "local_file": "data/AMD/AMD_2026_q2_performance_review.pdf"
+    }
+  ],
+  "audio_source": {
+    "source_type": "Quartr transcript-page audio",
+    "source_url": "https://stockanalysis.com/stocks/amd/transcripts/660937-q2-2026/",
+    "captured_media_url": "https://files.quartr.com/audio-files/9129a35ef22546c5e10a1ce5d2046cf4-2026-08-04-22-04-17.mpeg?ref=U0E=",
+    "page_confirmed_label": "Earnings Call: Q2 2026",
+    "retrieved_at": "2026-09-27T15:43:34Z",
+    "duration_sec": 3598.333,
+    "sha256": "f280c1732f3988c14c244656ab3d20739e7d06767b8ad4cdb8d31ad793a69d4d",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/AMD_2026_q2.m4a",
+    "local_file": "data/AMD/AMD_2026_q2.m4a"
+  },
+  "quarter_mapping": {
+    "calendar_year": 2026,
+    "calendar_quarter": 2,
+    "basis": "AMD fiscal 2026 Q2 ended 2026-06-27."
+  }
+}

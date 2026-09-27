@@ -615,17 +615,14 @@
     "status": "ok"
   },
   "AMD_2026_q2": {
-    "captured_media_url": "https://files.quartr.com/audio-files/019fcef3-6c16-7577-b31d-447e9f180ea2/master.m3u8?ref=R29vZ2xl",
-    "checked_at": "2026-09-05",
-    "duration_sec": 3598.357,
+    "source": "quartr",
+    "source_url": "https://stockanalysis.com/stocks/amd/transcripts/660937-q2-2026/",
+    "captured_media_url": "https://files.quartr.com/audio-files/9129a35ef22546c5e10a1ce5d2046cf4-2026-08-04-22-04-17.mpeg?ref=U0E=",
+    "duration_sec": 3598.333,
     "file": "data/AMD/AMD_2026_q2.m4a",
-    "note": "Secondary source discovery: Google Finance earnings tab exposed Quartr replay audio; company IR/MOPS/TWSE sources remain primary.",
     "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/AMD_2026_q2.m4a",
-    "sha256": "d0aacf0c686704c1946bdb1f4a475eff8ce51f82335133ee64123bc1801a0924",
-    "size_bytes": 54634024,
-    "source": "google_finance_quartr",
-    "source_url": "https://www.google.com/finance/beta/quote/AMD:NASDAQ?tab=earnings",
-    "status": "ok"
+    "sha256": "f280c1732f3988c14c244656ab3d20739e7d06767b8ad4cdb8d31ad793a69d4d",
+    "size_bytes": 41623343
   },
   "AMZN_2026_q2": {
     "captured_media_url": "https://files.quartr.com/audio-files/019fb513-b018-7229-87ab-05b73b4818fa/master.m3u8?ref=R29vZ2xl",
