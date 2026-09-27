@@ -1,0 +1,39 @@
+{
+  "ticker": "NVDA",
+  "fiscal_year": "2027",
+  "fiscal_quarter": "1",
+  "event_date": "2026-05-20",
+  "fiscal_period_end": "2026-04-26",
+  "sources": [
+    {
+      "source_type": "SEC Exhibit 99.1 official filing HTML",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27pr.htm",
+      "retrieved_at": "2026-09-27T16:06:31Z",
+      "sha256": "c3c8443903d4a022c00717bf8cb4dd7fa60a60339620a64243d66188f7e20936",
+      "local_file": "data/NVDA/NVDA_2027_q1_report_en.md"
+    },
+    {
+      "source_type": "Company IR quarterly presentation PDF",
+      "source_url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q127/NVDA-F1Q27-Quarterly-Presentation-FINAL.pdf",
+      "retrieved_at": "2026-09-27T16:06:31Z",
+      "sha256": "1a5e03959643eebe566a996a68e71e66d527bde8029e18cc8dcfc00c9be047e3",
+      "local_file": "data/NVDA/NVDA_2027_q1_ir_en.pdf"
+    }
+  ],
+  "audio_source": {
+    "source_type": "Quartr transcript-page audio",
+    "source_url": "https://stockanalysis.com/stocks/nvda/transcripts/568907-q1-2027/",
+    "captured_media_url": "https://files.quartr.com/audio-files/8f7a0d6ecfd611a4ff8ebf5a0ee5a285-2026-05-20-22-04-35.mpeg?ref=U0E=",
+    "page_confirmed_label": "Earnings Call: Q1 2027",
+    "retrieved_at": "2026-09-27T16:06:31Z",
+    "duration_sec": 3586.861,
+    "sha256": "f483f91a0583ae8ec785aff2ead34c21a00313c79eab53d00ca654e896f09c03",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/NVDA_2027_q1.m4a",
+    "local_file": "data/NVDA/NVDA_2027_q1.m4a"
+  },
+  "quarter_mapping": {
+    "calendar_year": 2026,
+    "calendar_quarter": 2,
+    "basis": "NVIDIA FY2027 Q1 ended 2026-04-26."
+  }
+}

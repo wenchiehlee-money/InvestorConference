@@ -913,5 +913,15 @@
     "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/MRVL_2027_q1.m4a",
     "sha256": "46a81a516bf54b1a88dc0a34f494e4d48ae3cd80ccc868cde4098972a3b3835f",
     "size_bytes": 44968885
+  },
+  "NVDA_2027_q1": {
+    "source": "quartr",
+    "source_url": "https://stockanalysis.com/stocks/nvda/transcripts/568907-q1-2027/",
+    "captured_media_url": "https://files.quartr.com/audio-files/8f7a0d6ecfd611a4ff8ebf5a0ee5a285-2026-05-20-22-04-35.mpeg?ref=U0E=",
+    "duration_sec": 3586.861,
+    "file": "data/NVDA/NVDA_2027_q1.m4a",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/NVDA_2027_q1.m4a",
+    "sha256": "f483f91a0583ae8ec785aff2ead34c21a00313c79eab53d00ca654e896f09c03",
+    "size_bytes": 43684608
   }
 }
