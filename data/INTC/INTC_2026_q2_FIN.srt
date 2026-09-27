@@ -1,0 +1,891 @@
+[METADATA]
+Source: INTC_2026_q2_exp11
+Language: zh
+---
+(00:31.210) Vice President, Investor Relations
+(00:32.670) Please go ahead, sir
+(00:33.650) Thank you, Jonathan
+(00:35.560) Thank you Jonathan
+(00:37.660) By now, you should have received a copy
+(00:42.870) Both are available on our
+(00:45.870) intc.com
+(00:47.670) For those joining us online today
+(00:50.080) This presentation is also available
+(00:53.460) I am joined today by our CEO, Lip Bu Tan
+(00:57.300) and our CFO, David Zinsner
+(00:59.720) Lip Bu will open up with comments
+(01:14.420) 在我們開始之前,請注意今天的評論中有關於我們目前看到的環境上的向前看的指示。
+(01:54.300) 包括適切的復合
+(02:00.340) With that, let me turn it over to Lipu.
+(02:03.400) 謝謝John,大家早上好
+(02:07.280) Q2是另一個成績的一個半段
+(02:11.650) 收入、收入平均、利息共同分額
+(02:18.180) 這代表了
+(02:26.030) Our core message is simple
+(02:40.750) 我們在15個月前發佈的行業執行執行執行計劃開始展示明顯的結果
+(02:49.570) 今天,我們在15年以上的經濟增長中看到最強大的成本增長
+(02:56.580) 我們的文化轉換繼續
+(03:00.910) 我們的組織已經在更高的效率上行業,
+(03:07.750) 移動更快,
+(03:09.700) 決定更好的決定,
+(03:11.900) 和與客戶繼續接近
+(03:16.060) 我們的最近的宣傳
+(03:34.290) 我們還繼續
+(03:40.640) 我們的求求
+(03:57.140) 企業正面臨
+(04:06.580) silicon wafers,
+(04:08.120) memory,
+(04:09.290) and subscripts.
+(04:10.790) 這些缺點將繼續存在未來
+(04:23.160) 與三個計劃上重要的資產
+(04:27.970) 我們的X86 CPU企業
+(04:34.290) and our vast wafer foundry network.
+(04:39.310) As AI expands from training to inference
+(05:06.370) and as Dave will discuss in more detail
+(05:10.710) 我們將大量增加投資,以支持這種增長需求的目標。
+(05:15.130) 來支持這種增長需求的目標。
+(05:18.730) 讓我先談談Intel Foundry。
+(05:23.500) 我的信心在我們的Foundry Procedure Routemap上
+(05:28.160) 增加了一年之後。
+(05:33.800) 我更加信心在Intel Foundry的
+(05:38.530) 競爭性和獨特的價值承諾上。
+(05:43.250) intel foundry
+(05:44.670) During Q2,
+(05:47.260) our factories across Intel 7,
+(05:51.300) Intel 3,
+(05:58.900) driven by improving yields,
+(06:27.740) including Penta Lake and Wildcat Lake.
+(06:38.820) 18A的成功的軟件容量
+(06:54.100) We also began rich production of 18AP,
+(07:00.130) 提供更多的表現
+(07:11.760) 將18AP
+(07:18.120) Looking beyond 18A,
+(07:22.450) 我非常鼓勵我們的進步在Intel 14A上。
+(07:27.390) Default Density和Transistor Performance都是18A的發展。
+(07:35.120) PDK 0.5 is now complete,
+(07:39.750) and PDK 0.9 is on track for October
+(07:44.540) We continue to build out and validate
+(08:20.320) power,
+(08:21.160) density,
+(08:22.230) cost,
+(08:23.270) and schedule.
+(08:43.380) And we make the decision in Q2
+(08:52.900) Lastly,
+(08:53.840) on advanced packaging,
+(08:57.360) EMIP-T的客戶利益仍然非常高。
+(09:03.370) Technology is compelling,
+(09:05.490) 提供了進展AI 芹蘭解決方案的能力,
+(09:11.540) 但這不可能以今天的主流提供。
+(09:16.200) 我們繼續持有增長的EMP backlog,
+(09:21.390) 收益和可靠性,
+(09:26.140) 我們將舉動計劃,
+(09:36.980) 轉到英特爾產品,
+(09:41.290) 我們最近改名了我們的PC商務為我們的 client computing and physical AI group,
+(09:50.390) 或CCPG。
+(09:53.250) 我們做了這些事,以認識AI的增長機會的機會。
+(09:59.920) 我興奮地看到這份努力引起新增強的領導。
+(10:05.400) Driving this effort
+(10:06.900) In our core PC client segment
+(10:10.430) Intel 18A is now in volume production
+(10:19.020) Our factory output continues to increase
+(10:22.940) Sequentially every month
+(10:25.300) The successful high volume RAM of 18A
+(10:30.880) For our internal products
+(10:32.700) Provides important validation
+(10:35.640) As Intel foundry engage
+(10:49.430) 但看到這機會
+(10:55.640) 我們的數據中心AI群組提供了固定的區域,
+(11:02.680) 需求增加在客戶和企業中,
+(11:07.110) 使客戶更加認識CPU在全球的重要角色,
+(11:21.090) Q2年度的企業增長是最強的,
+(11:28.130) 而Zeon 6繼續是Intel的歷史上最快速的傳播產品,
+(11:35.320) 反映了更好的執行和強勁的客戶需求。
+(11:41.300) 字幕志願者 楊棟樑
+(11:52.050) 我們的最高目標是
+(12:03.100) even as we work to improve
+(12:07.910) We also extended
+(12:19.890) Samba Nova. We are pleased
+(12:33.350) Lastly,
+(12:34.290) 最後,我們繼續進行穩定的進展
+(12:41.420) 我們的收入在幾乎三次年度中增長
+(13:02.700) Our unique assets in end-to-end design,
+(13:08.120) 包括我們的IP簽證,
+(13:17.180) 都將贏得了這種快速增長的空間。
+(13:35.530) 我們最近宣佈與Fortinet合作的安裝設備是我們的A6計劃中的一個強勁的步驟。
+(13:49.130) 我們在前面看來,我很興奮看到新的英特爾形成。
+(13:56.940) 我們在行動中有更大的速度、負擔性和客戶集中。
+(14:04.030) 在未來的重要工作中,我們的優先重點是明顯的,
+(14:10.270) Leverage on our x86 computing franchise
+(14:14.960) to strengthen our product leadership
+(14:18.080) and establish Intel Foundry
+(14:26.450) Intel is uniquely positioned to benefit
+(14:30.590) from the overwhelming demand for compute
+(14:34.930) as the entire industry continues a rapid
+(14:39.180) 繼續持續運行運行的運行設施。
+(14:43.300) We are the only company that can design,
+(14:48.080) manufacturing,
+(14:49.280) manufacture,
+(14:53.500) 從全面的目標、傳統的CPU和GPU,
+(15:06.480) As we increasingly move from compute
+(15:17.200) our advanced packaging
+(15:26.640) Our strategy is clear
+(15:36.600) Our strategy is showing earlier results.
+(15:41.060) 我相信英特爾能夠幫助定義下來的數學時代。
+(15:47.480) 我希望感謝世界各地的職員,
+(15:53.540) discipline,
+(15:54.730) hard work every day,
+(15:56.730) and also thanks our many customers,
+(15:59.880) partners,
+(16:01.180) 和供應商為他們的持續信任於英特爾
+(16:05.700) With that,
+(16:07.080) 以此來說
+(16:14.420) Thank you Lipu
+(16:16.700) We delivered another strong quarter
+(16:18.940) 由於執行的執行嚴格的需求和專業
+(16:21.480) that resulted in upside to our supply
+(16:23.840) Second quarter revenue was $16.1 billion
+(16:27.420) $1.8億以上我們的指示中央
+(16:30.660) 以及共同來說,
+(16:33.720) grew greater than 70% year over year
+(16:36.040) including record data center growth
+(16:38.080) 提供了大約70%的收益
+(16:41.240) 值得注意的是
+(16:45.120) for wafer routes in the quarter
+(16:50.050) 減弱了
+(16:58.920) 最大的缺點是
+(17:05.740) 我們提供了
+(17:13.040) stronger gross margins,
+(17:14.660) and solid operating leverage.
+(17:16.220) Q2 operating cash flow was $7 billion
+(17:20.520) 是7億美元
+(17:23.820) 在一個強劣的位置
+(17:28.260) 我們的Q2成果
+(17:33.730) 的持續進展
+(17:37.160) and staying closer to our customers
+(17:39.240) Moving to segment results
+(17:42.080) CCPG revenue was $8.9 billion
+(17:46.020) 上升了15%
+(17:49.700) The client TAM continued to hold up well
+(17:53.000) 儘管有廣泛的部件限制
+(17:56.100) Our AIPC revenue grew 26% sequentially
+(18:00.300) 並且現在代表了
+(18:03.700) 此外,我們看到了
+(18:08.140) 現在代表了
+(18:11.820) CCPG的行業利潤
+(18:17.110) 26% of revenue
+(18:47.240) 使用最高價值的
+(18:51.460) 主要計算能力
+(18:57.920) 40多個互聯網組織
+(19:05.310) 和遊戲目標的設計上
+(19:08.990) CCPG也介紹了
+(19:13.370) 是新一代的產品
+(19:17.950) an additional vector for growth
+(19:20.100) On the commercial side,
+(19:22.040) activations for our market leading
+(19:27.020) 500% over the last four quarters,
+(19:29.220) underpinning that manageability
+(19:41.830) but our AI-driven market prospects
+(19:45.300) don't stop there
+(19:51.060) CCPG展示了這個成熟的機會,
+(19:54.720) 以130枚系列3的設計賽賽賽賽賽賽賽,
+(19:58.860) 包括規模設備和控制對摩托工藝的設計賽賽賽賽賽賽賽賽賽賽賽賽賽賽賽賽賽賽。
+(20:04.850) DCAI的收益是6.3億美元,
+(20:07.990) 成績增加了24%,
+(20:09.730) 也許是5.9%年度,
+(20:12.330) 並且是預期預期的預期。
+(20:14.900) 結果從超級工室和業務中的強迫增長來源。
+(20:19.200) 我們也繼續看到我們的為目的建造的
+(20:23.150) SILICON產品線上有強勁的運動,
+(20:27.730) 逐漸增長,
+(20:35.620) 40%的收益,
+(20:40.160) 並降低行業費用。
+(20:47.610) 名字叫 Clearwater Forest
+(20:54.760) 與Samba Nova與Foxconn的合作伙伴
+(21:00.600) 進行重新擴展並提供新的控制器和準備產品
+(21:07.500) 並提供Data Center、Enterprise和Telco的服務
+(21:11.360) 從10到200Gigabit Ethernet的程序
+(21:16.540) 轉移到Intel Foundry
+(21:18.340) 5.8 億美元的收入
+(21:20.780) 逐漸上升6%
+(21:21.820) 輕輕的調整了高級發電量
+(21:23.800) 因而受到強勁增長
+(21:25.400) 在Intel 18A的發電量上
+(21:27.100) 因此出現了超過25%的達到目標
+(21:29.760) 並且達到超過50%的廣告率
+(21:32.180) 外部的發電量
+(21:34.090) 在這一季額為293億美元
+(21:36.510) Intel發電量
+(21:39.270) 在Q2的運作率是2.1億美元
+(21:42.010) 並且348億美元
+(21:44.050) 是廣告率的優勢
+(21:45.930) 因為高級的收益
+(21:46.850) 並且提高了車車時間
+(21:47.750) 因此Intel 4.3和18A
+(21:52.150) drove improved wafer costs
+(21:53.730) Progress on 18A has been very good
+(21:56.790) Intel Foundry has driven down
+(21:58.990) the cost of our primary Panther Lake SKU
+(22:01.090) by roughly 50% year-to-date
+(22:09.310) Within the quarter
+(22:12.110) Within the quarter
+(22:15.090) 在我們的期望之下
+(22:19.250) and met critical milestones
+(22:20.850) towards delivering the 0.9 PDK
+(22:23.210) for Intel 14A in October
+(22:25.190) 我們進行了Q2的投資
+(22:29.150) to prepare for risk production in 2027
+(22:31.830) and committed high volume ramps in 2028
+(22:35.050) Now turning to guidance
+(22:37.610) 目前,客戶繼續在
+(22:41.250) AI 計算機上的
+(22:46.310) Industry-wide supply constraints
+(22:48.890) across wafers, memory and substrates
+(22:51.430) 仍然是我們的客戶面臨的主要挑戰,
+(22:54.110) 以支援AI基礎建設
+(22:56.630) 我們的波波輸出
+(22:58.570) 超過了90天前的
+(23:02.170) 大型軟件的預期
+(23:02.290) 而Q3到目前為止
+(23:04.250) 18A的收益
+(23:05.150) 正在4月中旬的目標前方
+(23:06.710) 儘管這次的強勢執行
+(23:10.300) 和我們進入了4月中旬的
+(23:13.380) 正在強勢執行和正在進入了4月中旬的
+(23:13.680) 供應仍然非常固定
+(23:14.680) 並且我們的供應增長的
+(23:15.640) 近期等線性
+(23:16.480) 更加靠近Q3和Q4
+(23:21.200) 尤其是服務員
+(23:22.580) 從市場觀點來看
+(23:29.470) 並且將全年份的低低數字數值率降低,
+(23:32.990) 影響了增長的記憶價值和限制。
+(23:36.280) 這在企業的同伴和第三者的預測上是正在合作的。
+(23:40.660) At the same time,
+(23:45.210) 並且鼓勵 Edge 開發的前途變強,
+(23:48.070) provide us with some positive offsets
+(23:50.230) 我們的目標為服務CPU需求
+(23:55.110) 我們將預期
+(24:02.850) 以2028年延續的激勵
+(24:10.730) At the midpoint of $16.3 billion,
+(24:13.600) we forecast gross margin of 42%,
+(24:16.640) a tax rate of 11%,
+(24:18.720) and EPS of $0.38,
+(24:20.600) all on a non-GAAP basis.
+(24:22.740) We continue to tightly manage
+(24:29.590) and we expect non-controlling interest
+(24:37.960) and be approximately $1.1 billion
+(24:43.040) Turning to Capex
+(24:45.900) Due to strong customer demand signals
+(24:50.390) and now expect our Capex
+(24:54.460) 比起我們的期望,年度進入了大量的增長。
+(24:58.180) 我們也在嚴厲的銷售我們的商業,
+(25:02.570) 加速我們的清潔房的建立,
+(25:05.040) 並在保持物質和記憶的供應。
+(25:09.280) 因此,我們預測了2027年的費用,
+(25:13.300) 將在2026年的水平上超過了,
+(25:16.220) 並且將大部分的費用都在美國的網絡上。
+(25:20.480) 實際上,我們從2021年至2026年看來,
+(25:24.200) 美國的總金融工具和空間
+(25:27.640) is approaching $100 billion
+(25:29.670) 比任何其他微軟公司的時間線上
+(25:34.350) 我們繼續努力
+(25:39.470) with customer demand
+(25:48.680) The client TAM is unfolding as expected
+(25:51.240) 而伺服器電腦需求繼續向外流出現
+(25:55.700) Emerging markets in physical AI,
+(26:12.560) 我們的顧客最重要的需要
+(26:15.560) 並且為我們的股東提供長期價值
+(26:18.400) 以此為例
+(26:21.920) Thank you, Dave
+(26:24.160) Thank you, Dave.
+(26:28.070) 並且給我們一個簡單的追溯
+(26:31.410) 以此為例
+(26:34.950) 當然
+(26:39.320) It's from Milius Research
+(26:40.680) Your question, please
+(26:41.600) Hey guys, thanks a lot and Corder
+(26:45.110) I wanted to ask about the Capex increase
+(26:47.710) 今年增加了3億元
+(26:52.350) 這對你的基礎顧客
+(26:57.320) 是否意味著您收到14A或18AP的硬幣
+(27:05.540) 還有是否意味著您可以分辨這兩個項目
+(27:10.120) 謝謝
+(27:10.600) 好,讓我先寫下來
+(27:15.840) CAPEX是非常廣泛的
+(27:17.880) 它將包括領域化配套
+(27:20.200) 正如我們談到的LIFT
+(27:21.260) 我們很興奮的
+(27:22.100) 我們的領域化配套
+(27:24.520) 所以我們將在這方面投資
+(27:29.000) 前端是比包裝設施更昂貴,
+(27:33.640) 所以它會向前端傾斜,
+(27:37.020) 但無論如何,
+(27:37.680) 它們都會對我們很重要。
+(27:41.200) 對於客戶來說,
+(27:43.060) 我只能說,
+(27:43.680) 這些增加的投資是我們的信心信息,
+(27:48.760) 在我們所有的商務組中的客戶中。
+(27:52.160) 我們感到非常有信心
+(27:58.180) 我們現在有信號
+(28:07.580) 我們將展示
+(28:12.840) 我們的所有企業
+(28:17.300) Litboo,
+(28:18.040) I think,
+(28:18.440) has beaten that into us,
+(28:19.600) 我們將將CAPEX
+(28:26.160) You know,
+(28:26.700) these fabs that we're building,
+(28:28.620) obviously,
+(28:29.060) you know,
+(28:30.720) initially,
+(28:31.460) you know,
+(28:33.940) from a cash flow perspective,
+(28:34.880) are net cash out.
+(28:36.420) 你知道
+(28:41.560) 尤其是現在,我們正在移動到一個模式,我們將這些過程繼續持續持續。
+(28:49.440) 這些回報非常明顯。
+(28:51.900) 實際上,我們正在看到這種情況在Intel 10.7今天,根據我們在此過程中的時間。
+(28:58.600) Ben,你有一個快速的追溯嗎?
+(29:01.340) 是的,你好,謝謝。
+(29:02.720) 您的競爭者今天談論了2030年來增加CPU的TAM到220億
+(29:09.550) 我相信是45%或其他很高的CPU
+(29:15.170) 您能不能評論一下這一點
+(29:17.110) 您是否看到同樣的情況
+(29:18.630) 您認為那數字或增長率和您的能力能夠達到這種增長率
+(29:24.370) 謝謝
+(29:24.590) 對,我意味著不放出數字
+(29:27.320) 我意味著我們明顯認識這是一個強大的市場
+(29:34.120) Litbooth在過去談論過CPU和GPU的比例
+(29:39.860) 我們現在認為我們在這段時間內已經在傳播中
+(29:44.040) 最終可能會更多的傳播到CPU上
+(29:46.880) 所以我認為這個市場很棒
+(29:50.380) 我們認為我們在市場上有很強的位置
+(29:53.780) 有機會在這個市場中獲得很大的參與
+(29:57.580) 股市會變得大
+(30:01.820) can actually predict exactly the number
+(30:05.400) I'm not sure they can
+(30:09.860) in terms of the level of spend
+(30:13.700) and the visibility we've gotten
+(30:17.500) Certainly and our next question
+(30:22.100) from Morgan Stanley
+(30:29.440) what do you think happens
+(30:32.480) you know,
+(30:33.640) you have fabs now,
+(30:34.500) which would seem to be an advantage,
+(30:35.660) 你認為這一年能夠幫助KING SHARE
+(30:37.920) 然後你認為接下來的五年
+(30:40.020) you know,
+(30:41.020) 你的競爭對AMDE和ARM
+(30:43.780) just how are you,
+(30:44.520) how are you guys thinking about,
+(30:46.140) you know,
+(30:46.840) the prospects for regaining lost share?
+(30:49.030) 是的,我可以先開始
+(30:53.050) So I think clearly it's a good question.
+(30:55.150) 我認為我剛才提到的
+(30:58.210) 並且與CPU和GPU有關的嚴格智慧和影響
+(31:03.710) the ratio of parity CPU and GPU.
+(31:07.370) And so I think the demand is strong
+(31:09.340) 現在的挑戰是如何增長我們的供應
+(31:13.180) and to meet the customer requirement.
+(31:16.520) But saying that clearly on the surface,
+(31:21.020) I think we have a strong roadmap,
+(31:23.780) we have clear water forest,
+(31:25.740) diamond rapid,
+(31:27.020) and also coral rapid with SMT involved,
+(31:32.040) 所以我們繼續努力
+(31:37.440) 我們很重要的
+(31:45.020) 多圓圈也會在高速公路上進行
+(31:48.100) 所以我們在以上的部分
+(31:51.640) 我認為您的第二個問題
+(31:56.720) 我們知道手臂是一個很好的夥伴
+(31:59.500) 我們在那裡有很強烈的運動力
+(32:03.220) Renee和Masa都是我的好朋友
+(32:06.840) 我們專注不僅僅是ARM基礎CPU
+(32:11.000) and also on the ASIC foundry side
+(32:13.560) they can be a great partner and customer
+(32:15.760) and especially in the IP front
+(32:17.420) 所以我們對此比較好
+(32:20.460) We have a strong product roadmap
+(32:23.260) Some area we are still behind
+(32:25.580) But we are catching up very fast
+(32:27.120) 但是我們很快就能夠取得到
+(32:29.960) And we are putting major effort into it
+(32:32.640) And the time will tell
+(32:33.960) And the time will tell
+(32:38.630) Yeah, thank you
+(32:39.690) Just separately on the Capex
+(32:45.830) Or are you kind of more clear on that?
+(32:50.270) 您如何認為您是如何分擔在內部和基層上的關係中?
+(32:57.130) 是否有一個關節可以為我們證明,
+(32:59.090) 即是對外客戶來說有多少?
+(33:02.720) 是的,我們有一個投資優勢。
+(33:04.780) 現在,我們認為,
+(33:06.280) 大部分投資優勢是AMIC,
+(33:08.460) 也就是投資費用。
+(33:10.740) 現在,我們正在經營在低級數字數字數數的數字數數的數量中,
+(33:15.620) 雖然我們在進步中,
+(33:17.600) 我認為我們將開始看到這個變得更大
+(33:19.640) 在關於粗糙性的方面
+(33:21.200) 在最後一天
+(33:21.840) 這是一個時間的事情
+(33:23.660) 但在最後一天
+(33:24.380) 我們將得到$0.35
+(33:27.320) 從投資稅率上
+(33:28.900) 我們在美國投資的所有東西
+(33:30.540) 如我所說
+(33:31.080) 在我準備的評論中
+(33:32.840) 我們的資金的大部分
+(33:34.840) 是專注於美國
+(33:36.980) 所以這應該是很重要的
+(33:39.160) 但正如我所說
+(33:39.720) 這會成為一個拖延因素
+(33:41.200) 因為我們要建造工廠
+(33:43.820) 然後我們可以開始
+(33:44.740) 在工廠上拖延稅率
+(33:45.680) 皆是好 forced on the factory.
+(33:46.780) And then we have to get it.
+(33:48.200) Y'know.
+(33:48.620) Once we're putting the tools,
+(33:49.440) And it's got all the
+(33:50.260) way to production ready before
+(33:51.880) we can claim any sort
+(33:53.020) of credits on the tools.
+(33:54.880) And so you know,
+(33:55.540) and then you know of course
+(33:56.400) you have to file it with
+(33:57.590) with the IRS.
+(33:58.730) So there's there's a
+(33:59.870) bit of a delay from the time
+(34:01.410) you spent to the time
+(34:02.270) you get it back.
+(34:02.810) But yes, there is a gross to net.
+(34:05.190) I think you know
+(34:06.130) from an investment
+(34:06.710) perspective,
+(34:08.450) you know not sure we
+(34:09.710) look at it exactly that way.
+(34:11.110) And we really look at
+(34:11.950) how many wafer starts
+(34:13.110) we want in a given node
+(34:14.490) and we invest to the
+(34:18.690) 我們有一個觀點
+(34:25.170) 我們將把這些數字 放在我們的購物中心
+(34:32.010) 當然我們仍然保持審慎
+(34:38.390) 在配件方面
+(34:42.190) 所以我們已經知道我們需要把這些提升上去
+(34:45.290) 這部分是我們的內部工程機構,但是我們也需要從賣家來獲取物資
+(34:51.580) 而且在獲取物資之前,我們有些要求要提前提供資產
+(34:59.300) 所以我們現在可能要更快地投資,以為我們能夠準備好
+(35:04.140) 謝謝,Jonathan,我們還有一個問題嗎?
+(35:07.600) 當然,我們的下一個問題來自Bernstein Research的Stacey Raskin
+(35:13.000) 謝謝大家帶來我的問題
+(35:16.300) 我想問問客戶,我認為大家的感覺是,
+(35:20.320) 數據中心的力量會很強,我感到驚訝,
+(35:24.500) 我認為您談到的貨幣持續很好,
+(35:27.820) 我認為您在推廣Panther和其他新產品,
+(35:30.240) 但我認為,這是所有價值的供應力,
+(35:35.910) 還是有其他事情在發生?
+(35:38.450) 我認為您可以說明您對客戶的期望,
+(35:41.390) 顧客的期望是在第二半期間
+(35:42.970) 與最後市場相比
+(35:44.710) 似乎會變得更糟糕
+(35:47.830) 當我們進入Q3和Q4期間
+(35:51.780) 顧客的期望顯然超過了
+(35:53.020) 我認為它大多數是ASP
+(35:55.480) 有些是混合性的
+(35:57.740) 有些是我們自己的
+(36:01.020) 相似相似的改變
+(36:02.160) 在ASP上
+(36:03.740) 我們認為我們看到了
+(36:05.960) 我們的價值上的增加
+(36:07.620) 我們需要將這些
+(36:08.980) 轉移到最後的客戶
+(36:10.520) 當你看到一年之內
+(36:13.700) 它在2025年有很好的因素
+(36:18.700) 所以它在這方面有點出現了
+(36:21.740) 當然,在費用方面的記錄
+(36:28.920) 但是我們的混合有點強化
+(36:36.020) I'd say as we look into next quarter
+(36:38.980) probably on a revenue basis
+(36:40.840) it's going to be kind of flattish for us
+(36:43.860) overall CCPG is likely to be up a bit
+(36:47.880) 但我認為它會被推動的是
+(36:50.520) and client will be flattish
+(36:51.820) underlying that the market is softer
+(36:54.760) I mean they are
+(36:55.440) 我認為市場在市場中的記錄動力上是比較困難的,
+(37:00.100) 所以我們認為它會在半月內下降,
+(37:05.080) 但是因為它們的供應比CPU的供應比較穩定
+(37:11.000) 我們很可能會看到一些在Q3的CPU進行建築
+(37:14.440) 然後在Q4 我認為我們會開始經營我們自己的生意
+(37:18.880) 我們需要這些CPU
+(37:21.820) 因為我們需要Data Center的CPU
+(37:24.600) 我們不能符合Lithu所提到的需求
+(37:27.720) 所以我們會從CPU和Data Center進行大量的生產
+(37:35.060) 我們要盡全力去找出我們的能耐用和需求之間的很大差別
+(37:41.240) Stacey, 你有一個關注嗎?
+(37:43.720) 我有, 謝謝
+(37:44.660) 您談到客戶的產品價值
+(37:47.800) 那些價值是什麼, 它們有多大
+(37:50.250) 如果我看起來, 您的價值價值是在下跌的
+(37:54.770) 如果我拿出價值價值, 這意味著價值價值價值實際上下跌嗎?
+(38:00.790) 好, 讓我解釋一下
+(38:02.630) 對不起, Stacey, 你在談論我們的價值價值價值
+(38:06.890) You talked about inventory charges
+(38:09.650) The margins in the
+(38:10.790) Oh
+(38:11.770) Sorry
+(38:14.950) We took
+(38:16.070) We had some
+(38:17.870) Products where they weren't
+(38:23.330) And it just
+(38:24.630) Made better economic sense for us to try
+(38:26.610) To pivot more to some of
+(38:28.670) Our other products and not
+(38:30.150) Complete them given the challenges
+(38:32.410) Around match set so given
+(38:34.490) It was somewhat stranded inventory
+(39:03.170) 所以這將把價格減少了一些,以為我們要提高保險,
+(39:09.050) 為何我們認為事情會平均。
+(39:11.310) 但最終,兩者都會變成風雨,
+(39:14.650) 因此,當18a的成長增加了更多,
+(39:19.390) 我們期望Panther Lake的價格增加,
+(39:23.830) 他們將超過公司平均線,
+(39:25.850) 這將幫助提升價格。
+(39:29.830) 當然,我們在增加價格增加的時間中,
+(39:32.930) 我認為 雖然有很多大規模
+(40:04.200) 謝謝,Stacey。Jonathan,我們有下一個問題嗎?
+(40:09.260) 當然,我們的下一個問題來自UBS的Timothy Curry。你的問題,請。
+(40:15.300) 謝謝。Dave,你發表了一個評論,說在這週末,有很多能量在網上進行,所以我認為這意味著Q4的收益是一個很大的步驟。
+(40:20.620) 所以我認為這意味著
+(40:25.240) 如果我假認你仍然在下貨市場中
+(40:28.760) 至少在上個季度
+(40:32.580) 是一個相似的數量,那它就會似乎意味著Q4會變得很大。
+(40:37.680) 這是對的方法嗎?您可以提供一些看法嗎?
+(40:41.120) 當然,我們只會提供一半,這就是我的正常反應。
+(40:45.120) 那說起,是的,當然,如果我們能夠開始看到產品增長或供應增長,
+(40:51.160) 到了第三季和第四季的末段,我們會期待那種升值。
+(40:55.520) I would point out that
+(41:03.340) I think the team internally
+(41:10.580) but they have done a very good job
+(41:19.060) 他們能夠做到的
+(41:20.700) 但是我們的供應是與我們內部生產的汽車的混合,
+(41:25.960) 加上傳輸配件,
+(41:29.450) 例如核心,
+(41:30.610) 我們有汽車,
+(41:31.890) 我們有記憶。
+(41:33.110) 因此,所有這些東西都為我們帶來一些觸碰點。
+(41:36.730) 實際上,我認為在一些這些領域中,這些是我們的供應鏈上最受挑戰的部分。
+(41:41.720) 在我們的供應鏈上
+(41:43.420) 所以我們正在努力去改善
+(41:45.460) 雖然前端的波波
+(41:47.640) 能夠比較正確
+(41:49.600) 在我們的改善上
+(41:50.960) 但有些波波比較小
+(41:52.080) 因此我們開始看到
+(41:54.120) 三季期末的
+(41:54.800) 某些封閉
+(41:55.340) 因此我們在這一季
+(41:59.600) 比較平均
+(42:00.040) 但在四季期末
+(42:02.500) Tim,你有一個追溯問題嗎?
+(42:04.290) I do,
+(42:05.380) yeah,
+(42:05.580) Dave,
+(42:05.900) 我有,對,Dave
+(42:10.940) based on the guidance,
+(42:12.380) it kind of falls back to the low 50s,
+(42:14.900) 這些跌幅在你說的40%到60%之間
+(42:18.620) 這是對的方式來想嗎?
+(42:24.960) 謝謝
+(42:31.200) 每個季度都會有不同的運行循環
+(42:34.360) 無論你是在低端的範圍
+(42:39.360) 或是在高端的範圍
+(42:41.240) 或是在中間的範圍
+(42:45.770) Thank you Jim
+(42:47.870) Jonathan can we have the next question
+(42:49.050) Jonathan 接下來的問題
+(42:52.390) from Bank of America Securities
+(42:53.930) Your question please
+(42:54.690) Thanks for taking my question
+(42:57.530) Lipu you mentioned increased confidence
+(42:59.970) 更加的信心
+(43:02.430) and I'm curious
+(43:02.990) 我非常想問 當這種信心被與客戶的宣告重新提高時
+(43:08.250) 您計劃要提高CAPEX的價值
+(43:12.290) 我們將期待下年的CAPEX增加多少
+(43:23.280) Thank you so much for the question.
+(43:32.420) So first of all,
+(43:33.760) I think for the 18A,
+(43:36.960) I think we have this 18AP,
+(43:39.440) it's in the risk production now,
+(43:42.320) 並且我們將在今年末前準備營業生產。
+(43:46.300) Clearly,
+(43:47.100) we see a 5% enhanced performance,
+(43:49.680) and then 18A,
+(43:51.740) 然後18A的年份和營業生產,我們認為我們開始看到強勢,
+(43:55.550) I think we're starting to see strong,
+(43:59.140) 在Pentalic上,我們可以看到,在幅度和幅度上
+(44:03.380) 但我們先專注於14a
+(44:05.540) 14a的PDK是0.5完整,
+(44:09.220) 而14a的0.9是在4月中旬上市
+(44:14.980) 這是一個非常重要的項目
+(44:17.470) 我看到256SRAM的年份
+(44:23.280) 和 前期的 負重性 和 表現
+(44:26.720) I put a very tough schedule for my team
+(44:29.140) They all met and I see that
+(44:30.900) And then risk production for 14A
+(44:33.500) Will be second half of 2027
+(44:41.200) So I think all the engagement
+(44:43.600) The customer, the feedback
+(44:44.920) Have been very positive
+(44:46.440) Tremendous demand for our own products
+(44:49.300) And also external
+(44:50.620) Foundry customer engagement
+(44:52.360) 這給我的信心
+(44:54.060) 當他們開始看到0.9%的PTK
+(44:57.280) 他們開始感到興奮
+(44:59.740) 他們想要做什麼樣的產品
+(45:02.940) 我們可以給予他們多少能耐力
+(45:05.740) 所以這些是很正確的示範
+(45:08.120) 他們很認真地往前走
+(45:10.760) 所以我剛才提到
+(45:12.500) 我不會投入CAPEX
+(45:14.220) 除非我看到業務表現
+(45:16.220) IP是準備服務客戶
+(45:19.080) 還有客戶聯繫
+(45:20.880) The level engagement I see
+(45:26.560) So Dave
+(45:27.180) So Dave.
+(45:31.210) Just unpack Capex so it's clear
+(45:37.330) 所以我們在空間上是很好的地方
+(45:40.350) 當然還有一些投資來協助一些工廠
+(45:45.280) But it's relatively modest
+(45:47.800) 所以我們實際上是所有的CAPEX或大多數的CAPEX美元
+(45:50.820) at this point is tooling
+(45:53.400) we'll increase tooling in 26
+(45:57.100) by 40% relative to 25
+(46:00.720) so we're investing a significant amount
+(46:02.960) in tooling
+(46:03.740) and it's where you might expect
+(46:04.760) it's Intel 3
+(46:05.540) it's 18E
+(46:06.320) it'll be 18AP
+(46:09.200) 我意圖沒有提到2027年的數據
+(46:13.620) because we're still working out
+(46:16.540) 我們正在研究這些數字的具體細節
+(46:19.300) and typically
+(46:20.260) 通常在這個業務中,你會發布這個數字,你知道,在年初的最初,但是我希望
+(46:27.420) 給投資者至少一個位置,以期待這個數字會上升,但是你必須
+(46:31.880) 和我相處,我認為我們需要一個半月或兩個月才能確定這個數字,然後你知道,
+(46:38.080) 它會去哪裡,如我所說,它會去兩個地方,你知道,我們在投資
+(46:41.580) 所有我們的業務組,無論是內部或外部,然後,你知道,我們
+(46:48.660) 我們將以全面的觀點
+(46:53.980) 我們將建立一個合適的能量
+(46:57.980) Vec, do you have a quick follow-up?
+(47:00.380) Yes, thank you, John
+(47:01.900) 是的,謝謝John
+(47:05.920) 您在這些投資的後半年和下年期間計劃中,
+(47:10.360) 您是如何認為資產項目的成績,
+(47:13.100) 您認為您所看到的成績在CPU方面的商業中是否足夠資產很多這些投資,
+(47:25.540) Yeah, it's a good question, Vivek.
+(47:26.920) 是的,
+(47:31.020) We have over $30 billion of cash.
+(47:32.840) We have a $10 billion revolver.
+(47:34.540) So we've got $40 billion of liquidity.
+(47:37.740) 這讓我們能夠解鎖
+(47:45.300) 我們想要做的
+(47:47.340) 顯然來說
+(47:49.160) 投資和利潤
+(47:51.740) 都在增長
+(47:54.440) 這很幫助我們
+(47:55.700) 在投資投資流量上
+(47:57.360) 幫助我們
+(47:58.480) 進行生產
+(48:01.320) 另外
+(48:01.880) 我們有大概
+(48:04.340) 10億美元的
+(48:06.160) 非核心資產
+(48:08.040) 仍然能夠用在
+(48:09.700) 投資平臺上
+(48:11.820) 雖然我們沒有
+(48:12.760) 我們沒有急於做任何事情
+(48:16.720) 這在我們需要的情況下是有用的
+(48:20.520) 我們也看到我們的客戶願意與我們投資
+(48:27.040) 我們從客戶中得到的額外支付
+(48:30.940) 這幫助我們解鎖了我們所需要的空間
+(48:35.780) 那說來,如果我們非常成功
+(48:40.120) 我們必須向資產市場提供更多的投資
+(48:51.780) 如果我們需要這樣做,我們肯定會將股票的價值提高
+(48:56.660) 謝謝Vivek,Jonathan,我們還有一個問題嗎?
+(48:59.340) 當然,我們的下一個問題來自CJ Muse的Catcher Fitzgerald
+(49:04.190) 您的問題,請
+(49:05.110) 好,早上好,謝謝您提出的問題
+(49:08.220) 再回顧前面的問題
+(49:10.000) 我認為你不想提供更多的評論
+(49:12.740) 但我很好奇我們應該怎麼討論
+(49:15.200) 企業的收益恢復的形狀
+(49:18.520) 在這一年和接下來的金額上
+(49:22.140) 而作為一部分
+(49:23.460) 我們應該怎麼討論
+(49:25.460) 從一個組成員和ASP的角度
+(49:28.980) 在第二半的二十六年和二十七年中
+(49:34.690) 是的,我認為,我們正在駕駛,
+(50:07.710) 因為這是我們的軟件
+(50:12.460) 我們看到了非常大的需求
+(50:15.380) 在實際上,
+(50:20.700) Granite Rapids is extremely tight
+(50:23.880) 接觸過程非常完善
+(50:28.780) 因此,我們在過去的時間內在建立能量
+(50:33.720) You know it will be a little bit chunky
+(50:36.080) 但我認為總體來說,我們計劃了這一年和下年的intel 3很好的範圍。
+(50:43.660) 我所說的挑戰是,我們不僅要在前端擴展空間,我們還要在後端擴展空間。
+(50:52.440) 這就涉及到硬的地方,例如核酸物。
+(50:56.960) 所以,我們正在努力擴展這一點。
+(50:59.200) 我認為他們在最初半年做了很好的工作
+(51:02.140) getting more capacity
+(51:04.220) but more work to be done to drive that
+(51:06.780) to the levels that we would need
+(51:09.540) 我認為當我們在整個市場上討論市場
+(51:14.540) 我們從一個成員的角度來看
+(51:16.160) 我們從一個成員的角度來看
+(51:20.240) 明顯,這些組織正在獲得更高的平均核心價值,
+(51:27.480) 這種市場在核心價值每個核心價值上,
+(51:31.600) 因此,當您獲得更多核心價值,您會更容易獲得更多核心價值上升。
+(51:38.640) 因此,這將絕對是這家公司的收益增長的一部分,
+(51:43.100) 這給我們一些真正的信心
+(51:49.960) 的增長率領域
+(51:53.280) 會是多個數字的
+(51:54.860) I do,
+(51:56.270) 我有 Jon 謝謝
+(51:59.390) 我認為你今天不想
+(52:02.430) 但我感興趣的是
+(52:06.410) you know,
+(52:07.250) meeting customer needs as well as,
+(52:09.230) you know,
+(52:09.670) your desired,
+(52:10.310) you know,
+(52:11.550) free cash flow goals.
+(52:13.670) 您應該在這方面解釋什麼,
+(52:19.010) you know,
+(52:19.670) 以想想我們的CAPEX是否正確,
+(52:24.050) or no,
+(52:24.710) you know,
+(52:25.450) 訂閱的那種合約與客戶,你只是要建立它
+(52:27.870) you're just going to build it?
+(52:30.890) 我 mean, no, we're going to be more thoughtful around it. I would say
+(52:33.950) 我會說
+(52:55.480) 但我們可能會
+(53:00.300) particularly with third parties
+(53:02.440) 這可能會
+(53:08.060) 讓投資成為一個更好的數字
+(53:13.420) 有更大的挑戰
+(53:17.160) 所以我認為
+(53:21.320) 在增長率上
+(53:24.580) 這些產品的供應和價值組織
+(53:25.920) 我們知道當我們在這些組織中投資
+(53:31.900) 這些組織的生活時間是相當重要的
+(53:36.600) 並且幾乎是一個很好的ROIC
+(53:39.240) 我們會投資
+(53:41.220) 我們只會非常小心地
+(53:44.060) 在顧客的承諾前方做出投資
+(53:48.680) 我認為這是LiPo最大的改變
+(53:51.020) 與LiPo的交易,直到我們知道我們的顧客,我們不想
+(53:56.180) 投入大量的資金,您知道,您可以讀到現在,雖然我們明年
+(54:01.120) 應該有很大的信心,但我們的顧客或我們不會
+(54:05.060) 將POs放在今天,CJ,謝謝你非常多,Jonathan,我們有時間
+(54:09.560) 一個最後的問題,當然,我們今天的最後的問題來自
+(54:13.690) 亞倫·瑞克斯的團隊,請問您的問題,是的,謝謝你
+(54:19.520) 謝謝您提出的問題
+(54:23.860) 我認為
+(54:28.840) 的生產率
+(54:35.050) 您剛才提到FordNet
+(54:56.150) 我們有一個特別的機會,
+(55:05.170) and also we have a strong IP portfolio
+(55:10.640) in terms of radical integration
+(55:18.030) so they can really drive the leadership
+(55:24.230) 加上我們的
+(55:31.830) for a lot of purpose
+(55:38.010) and so I think one example
+(55:43.930) 我們很明顯地在提供新世紀的安全處理處理器
+(55:48.490) 以更高的表現
+(55:50.730) 當然,我們也認識到Intel的IPU
+(55:54.050) 他們提供了一些高級的機器
+(55:56.650) 這是一個非常大的機會
+(55:58.610) 所以我認為我所提到的
+(55:59.890) 是3X的增長,在一年到一年的增長上
+(56:03.890) 所以我認為這是一個很好的機會
+(56:05.790) 然後另一個部分,Dave,你想進入嗎?
+(56:08.890) 什麼問題?
+(56:09.790) 增長率
+(56:11.250) ASIC
+(56:12.830) 我會說今天我們大概是在2億美元的運行率上
+(56:18.650) 或至少在2億美元的運行率上
+(56:20.730) 我們認為在未來不太遠的未來
+(56:23.630) 我們會在4億美元的運行率上
+(56:25.390) 所以我認為這可能給你一個很好的理解
+(56:29.510) 我們認為像Lipu所說的100億美元的TAM
+(56:33.680) 我們認為我們值得一個很好的部分
+(56:36.060) 根據我們的IP策略和我們所持有的
+(56:39.780) 所以請注意
+(56:41.080) 所以請留意。
+(56:43.890) Yeah, I do. Thanks, John.
+(56:45.550) 你知道,有很多事情在發生,包括記憶,記憶 hierarchy 和建築改變等等。
+(56:51.010) 有些最近的消息,例如Intel的自己的發展工作
+(56:53.590) Intel and its own development work.
+(56:55.390) 我認為有一個技術叫做Z-Angle的記憶
+(56:58.090) There's a cross-batch memory.
+(57:00.090) 所以我非常想問,你認為在這些建築物中
+(57:03.330) 記憶的角色和計算機的角色,你認為
+(57:06.090) and scaling compute,
+(57:07.470) does Intel serve a bigger role in that?
+(57:10.170) 在記憶中,是否有更多的內部發展和機會?
+(57:15.030) Yeah, good question.
+(57:16.050) I think a couple of things.
+(57:17.070) 首先,記憶變成了大量的供應限制挑戰。
+(57:22.250) 我們與三個大量的記憶賣家合作,
+(57:26.350) 這非常重要,為我們的客戶服務非常重要。
+(57:30.310) 接下來,您應該記得,
+(57:35.190) 最近,我們邀請了肖基利來與我們聯繫。
+(57:39.270) he used to be the CEO of SK Hynix
+(57:41.550) and clearly memory
+(57:43.090) it becomes a bottleneck
+(57:44.870) a lot of AI infrastructure
+(57:46.170) and pinpoint for customer
+(57:47.750) and we also looking at
+(57:49.750) how are the area
+(57:50.690) that we can integrate
+(57:52.190) compute and the memory
+(57:54.130) and also how the stacking
+(57:55.990) and then how can we use the memory
+(57:58.390) more utilization more efficiently
+(58:01.050) so I think there's a lot of area
+(58:03.050) we are working on
+(58:04.230) stay tuned
+(58:05.090) and we will work on that
+(58:06.590) I will keep you guys posted
+(58:07.750) with that
+(58:11.200) I think my closing remark
+(58:14.100) with that
+(58:15.060) I want to thank everyone
+(58:16.640) for joining us today
+(58:17.860) we make good progress
+(58:19.440) this quarter
+(58:20.420) on our journey
+(58:21.560) to transform Intel
+(58:22.600) the new Intel
+(58:23.560) but we still have a lot to do
+(58:26.080) ahead of us
+(58:27.060) and looking forward
+(58:28.140) to see many of you
+(58:29.360) throughout the quarter
+(58:30.680) and provide additional
+(58:32.500) update in October
+(58:34.300) Thank you
+(58:37.780) Ladies and gentlemen
+(58:38.640) for your participation
+(58:39.320) in today's conference
+(58:40.360) This does conclude the program
+(58:41.860) You may now disconnect
+(58:43.100) Good day
