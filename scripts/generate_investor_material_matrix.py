@@ -75,7 +75,13 @@ CALENDAR_PERIOD_OVERRIDES = {
     ("AVGO", 2026, 2): (2026, 2),
     ("AVGO", 2026, 3): (2026, 3),
     ("HPE", 2026, 3): (2026, 3),
+    # HPE FY2026 Q2 ended 2026-04-30 (calendar 2026 Q2).
+    ("HPE", 2026, 2): (2026, 2),
     ("HPQ", 2026, 3): (2026, 3),
+    # HPQ FY2026 Q2 was reported 2026-05-27 (calendar 2026 Q2).
+    ("HPQ", 2026, 2): (2026, 2),
+    # Marvell FY2027 Q1 was reported 2026-05-27 (calendar 2026 Q2).
+    ("MRVL", 2027, 1): (2026, 2),
     ("MRVL", 2027, 2): (2026, 3),
     ("MU", 2026, 3): (2026, 2),
     ("NVDA", 2027, 2): (2026, 3),
