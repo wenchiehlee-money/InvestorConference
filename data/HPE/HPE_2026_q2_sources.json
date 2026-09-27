@@ -1,0 +1,46 @@
+{
+  "ticker": "HPE",
+  "fiscal_year": "2026",
+  "fiscal_quarter": "2",
+  "event_date": "2026-06-01",
+  "fiscal_period_end": "2026-04-30",
+  "sources": [
+    {
+      "source_type": "Company IR earnings press release PDF",
+      "source_url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q2-2026/q2-2026-earnings-press-release.pdf",
+      "retrieved_at": "2026-09-27T15:28:22Z",
+      "sha256": "faf3e34f3bba6efe7dc85281e833e430b2192a397862030870391f1ac549f0d2",
+      "local_file": "data/HPE/HPE_2026_q2_report_en.pdf"
+    },
+    {
+      "source_type": "Company IR earnings presentation PDF",
+      "source_url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q2-2026/q2-2026-earnings-presentation.pdf",
+      "retrieved_at": "2026-09-27T15:28:22Z",
+      "sha256": "fa6dd9801459efd148e8a2122c9132ec28a70ebb815db1615219cd01913c1f2f",
+      "local_file": "data/HPE/HPE_2026_q2_performance_review.pdf"
+    },
+    {
+      "source_type": "Company IR earnings-call transcript PDF",
+      "source_url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q2-2026/q2-2026-transcript.pdf",
+      "retrieved_at": "2026-09-27T15:28:22Z",
+      "sha256": "08947d9f8759931f2e32c7071d195bd5270e983914a1b47bab4955a9d05d66fc",
+      "local_file": "data/HPE/HPE_2026_q2_transcript.pdf"
+    }
+  ],
+  "audio_source": {
+    "source_type": "Quartr transcript-page audio",
+    "source_url": "https://quartr.com/events/hewlett-packard-enterprise-co-hpe-q2-2026_592596",
+    "captured_media_url": "https://files.quartr.com/audio-files/d769426275585041fff981358f91a846-2026-06-01-22-24-19.mpeg?ref=U0E=",
+    "page_confirmed_label": "Earnings Call: Q2 2026",
+    "retrieved_at": "2026-09-27T15:28:22Z",
+    "duration_sec": 3910.39,
+    "sha256": "2fe8edb02f316729ec3d5af89683f2e03e2146676bb3e7fa660236cc70079334",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/HPE_2026_q2.m4a",
+    "local_file": "data/HPE/HPE_2026_q2.m4a"
+  },
+  "quarter_mapping": {
+    "calendar_year": 2026,
+    "calendar_quarter": 2,
+    "basis": "HPE fiscal 2026 Q2 ended 2026-04-30."
+  }
+}
