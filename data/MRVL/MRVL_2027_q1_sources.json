@@ -1,0 +1,39 @@
+{
+  "ticker": "MRVL",
+  "fiscal_year": "2027",
+  "fiscal_quarter": "1",
+  "event_date": "2026-05-27",
+  "fiscal_period_end": "2026-05-02",
+  "sources": [
+    {
+      "source_type": "Company IR earnings release PDF",
+      "source_url": "https://d1io3yog0oux5.cloudfront.net/_6b3a348c4b3086f910c6504b5c8068c0/marvell/news/2026-05-27_Marvell_Technology_Inc_Reports_First_Quarter_of_1023.pdf",
+      "retrieved_at": "2026-09-27T15:57:39Z",
+      "sha256": "046864f07720243f7ba10d2155c415b2778318931402d4a4031c4f9c223835f9",
+      "local_file": "data/MRVL/MRVL_2027_q1_report_en.pdf"
+    },
+    {
+      "source_type": "Company IR financial and business results PDF",
+      "source_url": "https://d1io3yog0oux5.cloudfront.net/_6b3a348c4b3086f910c6504b5c8068c0/marvell/db/3734/35382/presentation/2026_05_27_Marvell_Q1_FY27_financial_business_results_FINAL.pdf",
+      "retrieved_at": "2026-09-27T15:57:39Z",
+      "sha256": "5da3ab45b58a82eff29964b840a6eaf2067d397c0bb7e863d573d6db5a444998",
+      "local_file": "data/MRVL/MRVL_2027_q1_performance_review.pdf"
+    }
+  ],
+  "audio_source": {
+    "source_type": "Quartr transcript-page audio",
+    "source_url": "https://stockanalysis.com/stocks/mrvl/transcripts/583849-q1-2027/",
+    "captured_media_url": "https://files.quartr.com/audio-files/96ce6a315a2fe3cf5cf3d074ef253021-2026-05-27-21-55-19.mpeg?ref=U0E=",
+    "page_confirmed_label": "Earnings Call: Q1 2027",
+    "retrieved_at": "2026-09-27T15:57:39Z",
+    "duration_sec": 3656.629,
+    "sha256": "46a81a516bf54b1a88dc0a34f494e4d48ae3cd80ccc868cde4098972a3b3835f",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/MRVL_2027_q1.m4a",
+    "local_file": "data/MRVL/MRVL_2027_q1.m4a"
+  },
+  "quarter_mapping": {
+    "calendar_year": 2026,
+    "calendar_quarter": 2,
+    "basis": "Marvell FY2027 Q1 ended 2026-05-02."
+  }
+}
