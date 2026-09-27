@@ -873,5 +873,18 @@
     "source": "google_finance_quartr",
     "source_url": "https://www.google.com/finance/beta/quote/ORCL:NYSE?tab=earnings",
     "status": "ok"
+  },
+  "DELL_2027_q1": {
+    "captured_media_url": "https://files.quartr.com/audio-files/5e46e1b3f632311ad68e9645a1e3f320-2026-05-28-21-36-59.mpeg?ref=U0E=",
+    "checked_at": "2026-09-27",
+    "duration_sec": 3598.05,
+    "file": "data/DELL/DELL_2027_q1.m4a",
+    "note": "Quartr audio for Dell FY2027 Q1; exact quarter confirmed by Dell official event page and Quartr event index.",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/DELL_2027_q1.m4a",
+    "sha256": "6fedb4ef2771497a00008e8bac3acde9e37fd8b18ab647329485c0f038fe5c8e",
+    "size_bytes": 53251318,
+    "source": "quartr",
+    "source_url": "https://quartr.com/events/dell-technologies-inc-dell-q1-2027_3g0NIUfB",
+    "status": "ok"
   }
 }

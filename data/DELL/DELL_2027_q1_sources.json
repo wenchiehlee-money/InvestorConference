@@ -1,0 +1,41 @@
+{
+  "stock_id": "DELL",
+  "company": "Dell Technologies",
+  "event_type": "財報／法說會",
+  "year": "2027",
+  "quarter": "1",
+  "calendar_period": "2026 Q2",
+  "event_url": "https://investors.delltechnologies.com/events/event-details/dell-technologies-fiscal-year-2027-first-quarter-results",
+  "sources": [
+    {
+      "source_type": "official Dell earnings release PDF",
+      "source_url": "https://investors.delltechnologies.com/static-files/ef369f17-2b83-4fd4-9a37-6b6ab53ac9c5",
+      "local_path": "data/DELL/DELL_2027_q1_report_en.pdf",
+      "sha256": "0a60bbfa65e80025d2f50e55b00b9f6784b148e31b2320200a7671423a670b7f",
+      "size_bytes": 443979,
+      "notes": "FY2027 Q1 ended May 1, 2026; financial-report F/X source."
+    },
+    {
+      "source_type": "official Dell financial tables PDF",
+      "source_url": "https://investors.delltechnologies.com/static-files/05af7a65-5059-4955-a4b3-7f79494b664c",
+      "local_path": "data/DELL/DELL_2027_q1_financial_tables.pdf",
+      "sha256": "e8e41fb7b68d730f9c966f1213adb1838cd30aaf3a4a6ad745b57f7e9e30cb9e",
+      "size_bytes": 306225
+    },
+    {
+      "source_type": "official Dell performance review PDF",
+      "source_url": "https://investors.delltechnologies.com/static-files/a75bf8cc-b60f-4f72-8413-2e4090e46f93",
+      "local_path": "data/DELL/DELL_2027_q1_performance_review.pdf",
+      "sha256": "da1d4a31fb5e6fa588ff0a3915d48b4e52d28f59c0a4a778fe87a5c74b17410f",
+      "size_bytes": 1172461,
+      "notes": "Conference presentation/performance review; I/M source."
+    },
+    {
+      "source_type": "official Dell transcript PDF",
+      "source_url": "https://investors.delltechnologies.com/static-files/b63ffff9-b729-403b-a231-c6af05667759",
+      "local_path": "data/DELL/DELL_2027_q1_transcript.pdf",
+      "sha256": "2e2a251d50608284f6e3ca91e1d71cd39152a214e4bafd8b66cdd240d90fc5c2",
+      "size_bytes": 370371
+    }
+  ]
+}
