@@ -376,7 +376,7 @@
 | HPE Hewlett Packard Enterprise Co. 慧與科技 | 2026 Q1 / Q2FY2026 | 法說會 |  | 無 | - | - | - | [EN](data/HPE/HPE_2026_q1_performance_review.md) | - | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
 | HPQ | 2026 Q1 / Q2FY2026 | 法說會 |  | 無 | - | - | - | [EN](data/HPQ/HPQ_2026_q1_ir_en.pdf) ([MD](data/HPQ/HPQ_2026_q1_ir_en.md)) | - | [↗](https://finance.yahoo.com/quote/HPQ/financials/) |
 | INTC | 2026 Q1 | 法說會 |  | 無 | - | - | - | [EN](data/INTC/INTC_2026_q1_ir_en.pdf) ([MD](data/INTC/INTC_2026_q1_ir_en.md)) | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
-| INTC | 2026 Q2 | 法說會 |  | [Webcast](https://edge.media-server.com/mmc/p/rdz8ppwz/) | - | - | - | [EN](data/INTC/INTC_2026_q2_ir_en.pdf) ([MD](data/INTC/INTC_2026_q2_ir_en.md)) | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
+| INTC | 2026 Q2 | 法說會 |  | [58.7 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/INTC_2026_q2.m4a) | - | - | - | [EN](data/INTC/INTC_2026_q2_ir_en.pdf) ([MD](data/INTC/INTC_2026_q2_ir_en.md)) | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
 | MRVL | 2027 Q2 | 法說會 |  | 無 | - | - | - | [EN](data/MRVL/MRVL_2027_q2_performance_review.md) | [📊](data/reports/conference-digests/MRVL/MRVL_2027_q2_digest.md) | [↗](https://finance.yahoo.com/quote/MRVL/financials/) |
 | MU Micron Technology 美光 | 2026 Q1 | 財報 |  | - | - | - | - | [EN](data/MU/MU_2026_q1_report_en.md) | - | [↗](https://finance.yahoo.com/quote/MU/financials/) |
 | ORCL Oracle Corporation 甲骨文 | 2026 Q1 | 法說會 |  | 無 | - | - | - | [EN](data/ORCL/ORCL_2026_q1_ir_en.pdf) ([MD](data/ORCL/ORCL_2026_q1_ir_en.md)) | - | [↗](https://finance.yahoo.com/quote/ORCL/financials/) |
