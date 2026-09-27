@@ -171,9 +171,12 @@ The ingestion skill must reuse the `ffmpeg` already provided by the runtime; it 
 4. 若 browser download 成功，應以本地官方檔案更新 README；若只取得外部 registration form，不得產生音檔、FIN 或 GT。
 5. 若需要提交姓名/email 才能取得 replay 或 webcast，必須先取得使用者明確同意與使用者提供的資料；不得使用假個資自動送出公司表單。
 6. 使用者提供的姓名、email、公司、職稱等表單欄位必須存放在 ignored `.env` 或執行環境變數中；不得寫入 tracked script、README、metadata、issue、commit message 或 log artifact。執行前需用 `git check-ignore -v .env` 或等效方式確認不會被提交。
-7. 若 Playwright 只能取得 PDF 但不能取得 audio/replay，仍應落檔 PDF/MD，並在 sidecar metadata 記錄 audio 缺口。
-8. 若 webcast backend 只回傳 live playlist，但 playlist 回 404/403/HTML、player 已切到 `wordCardType=picture` 或結束圖、或 `/live` 端點沒有媒體內容，不得建立 `.m4a`、FIN 或 GT；必須在 sidecar 記錄已測試的 playlist、player fallback、HTTP status、content-type 與結論。
-9. Live 結束後若使用者回報官方頁面更新，必須重新檢查一級來源的季度頁、歷史材料頁與 audio-webcast/replay 頁，而不只重查原 live channel。若官方頁新增 `watch?v=...`、`replay`、`線上會議視訊重播` 等入口，需用 headed/persistent Playwright 開啟 replay 頁並擷取 network 中實際 HLS/DASH/media URL；只有 manifest 與 segment 均為 HTTP 200 且 content-type 正確時，才可用 ffmpeg/yt-dlp 抽出音檔並更新 release asset、`audio_manifest.json`、`audio_metadata.json`、README 與 sidecar。
+7. 若使用者已明確授權以目前提供的資料完成註冊，且環境中已有 `WEBCAST_REGISTRATION_NAME`、`WEBCAST_REGISTRATION_EMAIL`、`WEBCAST_REGISTRATION_COMPANY`、`WEBCAST_REGISTRATION_TITLE` 等欄位，才可用同一個 Playwright context 填寫官方 registration form。先確認表單網域與法說會季度，再提交；不得自行推測、補造或替換個人資料。若缺少必要欄位、要求 email OTP/驗證連結、付費帳戶或額外同意，必須停止並報告阻塞，不得繞過驗證。
+8. Registration 成功後，必須在同一個 browser context 重新開啟官方 replay、確認頁面標題／季度／會議日期，並擷取實際 HLS/DASH/media URL；只有 playlist 與 segments 通過 HTTP status、content-type、完整性與季度日期檢查，才可用 ffmpeg 下載。registration cookie/session 只留在 ignored 的本機 browser profile 或執行環境，不得寫入 repo、GitHub Release、`audio_metadata.json` 或 log。
+9. 若 webcast 平台要求每次重新註冊，仍須逐次使用同一組已授權環境資料並重新驗證季度；不得把一次註冊結果推套到其他公司或季度。若註冊後只有投影片、摘要或登入頁而沒有 replay media，維持 A 空白並記錄 audio gap。
+10. 若 Playwright 只能取得 PDF 但不能取得 audio/replay，仍應落檔 PDF/MD，並在 sidecar metadata 記錄 audio 缺口。
+11. 若 webcast backend 只回傳 live playlist，但 playlist 回 404/403/HTML、player 已切到 `wordCardType=picture` 或結束圖、或 `/live` 端點沒有媒體內容，不得建立 `.m4a`、FIN 或 GT；必須在 sidecar 記錄已測試的 playlist、player fallback、HTTP status、content-type 與結論。
+12. Live 結束後若使用者回報官方頁面更新，必須重新檢查一級來源的季度頁、歷史材料頁與 audio-webcast/replay 頁，而不只重查原 live channel。若官方頁新增 `watch?v=...`、`replay`、`線上會議視訊重播` 等入口，需用 headed/persistent Playwright 開啟 replay 頁並擷取 network 中實際 HLS/DASH/media URL；只有 manifest 與 segment 均為 HTTP 200 且 content-type 正確時，才可用 ffmpeg/yt-dlp 抽出音檔並更新 release asset、`audio_manifest.json`、`audio_metadata.json`、README 與 sidecar。
 
 可重用下載工具：
 
