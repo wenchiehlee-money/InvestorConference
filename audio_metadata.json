@@ -789,6 +789,19 @@
     "source_url": "https://www.google.com/finance/beta/quote/MSFT:NASDAQ?tab=earnings",
     "status": "ok"
   },
+  "MU_2026_q3": {
+    "captured_media_url": "https://static.events.q4inc.com/edited-recordings/580144984/59a96b19-11a7-4cc6-9a14-78d53bafd1ef.mp4",
+    "checked_at": "2026-09-27",
+    "duration_sec": 3544.967,
+    "file": "data/MU/MU_2026_q3.m4a",
+    "note": "Official Micron fiscal Q3 2026 webcast; Q4 guest registration completed using authorized existing webcast profile data; recording downloaded with browser session headers.",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/MU_2026_q3.m4a",
+    "sha256": "84d77c7e2ba74b20458f2525695b26e9c7ff57b030c61c983fa7b95304b79e7b",
+    "size_bytes": 56998787,
+    "source": "official_webcast_registered",
+    "source_url": "https://micron.gcs-web.com/events/event-details/microns-third-quarter-2026-financial-call",
+    "status": "ok"
+  },
   "NVDA_2027_q2": {
     "checked_at": "2026-08-30",
     "duration_sec": 3570.457,
