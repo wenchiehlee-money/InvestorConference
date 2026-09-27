@@ -673,6 +673,19 @@
     "source": "local_file",
     "status": "ok"
   },
+  "AVGO_2026_q2": {
+    "captured_media_url": "https://media.main.pro2.mas.media-server.com/d7972de60f1d4b18abfb6d52b9f399a2/cwvy94uu_en_enc1_audio_part1.m3u8",
+    "checked_at": "2026-09-27",
+    "duration_sec": 3309.284,
+    "file": "data/AVGO/AVGO_2026_q2.m4a",
+    "note": "Official Broadcom Q2 2026 webcast; registration completed in Playwright using authorized existing webcast profile data; AES-HLS captured after registration.",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/AVGO_2026_q2.m4a",
+    "sha256": "5c6adc0e34ec512b824cdb0dd9598a8b9d5a22ac94c27b3a1ee6722bec9ca6bd",
+    "size_bytes": 43684264,
+    "source": "official_webcast_registered",
+    "source_url": "https://edge.media-server.com/mmc/p/xxmn2vvv/",
+    "status": "ok"
+  },
   "AVGO_2026_q3": {
     "captured_media_url": "https://files.quartr.com/audio-files/01a06437-d6d2-7154-a575-4b4fe260af9f/master.m3u8?ref=R29vZ2xl",
     "checked_at": "2026-09-04",
