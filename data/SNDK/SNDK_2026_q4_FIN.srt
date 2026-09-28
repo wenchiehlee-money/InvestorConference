@@ -1,0 +1,916 @@
+[METADATA]
+Source: SNDK_2026_q4_exp11
+Language: zh
+---
+(00:27.970) 請點擊2
+(00:31.770) 請留意這次活動正在錄製
+(01:06.910) MARKET TRENDS AND OPPORTUNITIES
+(01:08.490) AND OUR FUTURE FINANCIAL RESULTS
+(01:10.230) 我們不必要更新這些指摘
+(01:13.460) 請關注我們的年度報告
+(01:17.370) AND OUR OTHER FILINGS WITH THE SEC
+(01:19.090) 為了更多的資訊
+(01:35.080) are included in the written materials
+(01:42.240) Thanks, Ivan
+(01:43.810) Good afternoon
+(01:45.010) and thank you for joining
+(01:46.170) and thank you for joining
+(01:48.770) As we close fiscal year 26
+(02:02.530) have established a stronger foundation
+(02:04.830) through technology leadership
+(02:07.150) longer term customer partnerships
+(02:13.990) 這些能夠綜合地位我們的成長、增長和股份回報的下一個階段。
+(02:22.870) 在過去一年內,我們增強了我們的股票,
+(02:33.720) 建立了數據中心作為一個重要的增長架構,
+(02:36.660) Deepened Customer Relationships
+(02:39.450) Through Multi-Year Partnerships
+(02:41.410) Enabled by our New Business Models
+(02:43.430) Our NBMs
+(02:45.110) With Momentum
+(02:46.210) Continuing to Build During the Quarter
+(02:48.030) We Reinforced Our Supply Chain
+(02:50.650) And Transformed Our Business Model
+(02:52.990) With a Net Cash Balance Sheet
+(02:55.050) And a Capital Allocation Framework
+(02:57.480) Designed to Generate
+(02:59.120) Growing and Durable Free Cash Flow
+(03:01.540) To Reinvest in the Business
+(03:16.190) each above the high end of our guidance,
+(03:24.180) We are encouraged by this progress,
+(03:26.180) And believe the long-term earnings power
+(03:32.400) Will become increasingly evident
+(03:37.820) underlying our performance
+(03:44.210) the era of inference
+(03:45.790) AI is fundamentally a memory-centric
+(03:48.860) storage-intensive problem
+(03:50.890) 它是為NAND的需求規則重新形成
+(03:54.510) the shift to inference in agentic AI
+(03:57.280) is generating data at a scale
+(03:59.240) that is redefining storage requirements
+(04:01.600) every AI interaction creates content
+(04:05.340) that must be stored, retrieved
+(04:07.620) and served at low latency
+(04:09.140) and each of these steps
+(04:43.360) Years in advance
+(04:52.510) while giving Sandisk clearer visibility
+(04:59.940) And more durable cash flow generation
+(05:15.210) 提供專業主導的 performance, density, and power efficiency across both TLC and QLC
+(05:26.020) hybrid wafer bonding,
+(05:59.020) 的收入平臺
+(06:08.780) 一年前
+(06:13.910) 我們的數字
+(06:19.870) and is our fastest growing end market
+(06:22.650) 我們的技術領導也遠遠超過了數據中心
+(06:27.240) Edge仍然是Sandisk的大和籌計重要的結尾市
+(06:31.530) spanning smartphones, PCs, tablets
+(06:34.420) 以及一個扭曲了數據的使用情況
+(06:38.880) 包括自動車,機器,和手機的Agentic AI
+(06:44.300) 近期,PC和手機都在過程中的調整中
+(06:50.190) 需求正在轉移到AI設計計劃和高級設備
+(06:54.450) 尤其是在手機上
+(06:58.840) 在PC市場中,OEMs在增長收入和增長市值
+(07:03.540) 在更富裕的混合中,反映了高級設計計劃的需求
+(07:11.440) CALENDAR YEAR 27
+(07:13.560) AND OVER THE LONGER TERM
+(07:15.120) ON DEVICE AI
+(07:16.180) RICHER CONTENT
+(07:17.900) AND ENTIRELY NEW FORM FACTORS
+(07:20.260) WILL CONTINUE TO EXPAND
+(07:21.380) THE ROLE OF HIGH PERFORMANCE FLASH
+(07:23.260) AT THE EDGE
+(07:24.820) OUR ABILITY TO DELIVER
+(07:26.200) HIGH PERFORMANCE
+(07:27.100) DENSITY
+(07:28.280) AND POWER EFFICIENCY
+(07:29.720) POSITIONS US WELL
+(07:31.320) AS THESE PLATFORMS EVOLVE
+(07:33.120) AND WE EXPECT INCREASES
+(07:35.040) IN CONTENT PER DEVICE
+(07:36.420) THROUGH FUTURE REFRESH CYCLES
+(07:39.880) SANDIS GLOBAL CONSUMER PRESENCE
+(07:41.960) REMAINS A MEANINGFUL
+(07:43.080) differentiator within the industry
+(07:44.660) giving us a unique connection
+(07:46.760) with end users and channel partners
+(07:48.860) we continue to invest behind the brand
+(07:51.630) sharpen our go-to-market capabilities
+(07:53.840) and innovate around the products
+(07:56.240) capabilities and experiences
+(07:58.120) that consumers value
+(08:00.120) our ability to innovate at this level
+(08:03.240) is enabled by our operational excellence
+(08:05.260) Sandisk manages the entire value chain
+(08:08.520) from the design of the NANDi
+(08:10.830) through front-end wafer manufacturing
+(08:13.090) and some of the largest fab complexes
+(08:28.530) This end-to-end integration,
+(08:48.650) 優優獨播劇場——YoYo Television Series Exclusive
+(08:54.040) 從技術路線的
+(08:59.700) 生產力到高級的貨幣增長
+(09:05.420) 這是一個組織的優勢
+(09:11.780) 與我們的新商務模式的更新,
+(09:16.430) 並進行更深入我們的金融表現和指導。
+(09:21.240) Thank you, David.
+(09:22.140) 謝謝,David。
+(09:27.200) 我們的金融表現和指導
+(09:31.520) 我們認為我們能夠創造
+(09:37.890) Our new business models or NBMs reflect
+(09:51.440) Our revenue growth,
+(09:53.120) margin expansion,
+(09:54.300) margin expansion,
+(10:04.750) Since announcing five NBMs
+(10:10.970) three NBMs with new customers,
+(10:17.390) These extensions reflect
+(10:24.240) One of the five signed deals
+(10:31.320) In total, we now have NBMs
+(11:42.760) The remaining performance obligation,
+(11:45.740) or RPO,
+(11:46.940) was $59.8 billion
+(11:49.720) and would be $91.1 billion,
+(11:53.400) including the two NBMs
+(12:03.760) Each one of our NBMs
+(12:14.900) which are intended to protect Zendesk
+(12:23.650) 這些資金和金融基礎
+(12:33.520) For each of the existing deals,
+(12:36.110) 金融保證
+(12:40.170) 所以金融保證和
+(12:47.870) 是建立在明確的
+(13:00.070) 總體來說,我們很滿意我們所找到的8個顧客,
+(13:04.990) 因為他們增強了我們的策略合作。
+(13:07.980) 我們期望這些關係持續多年,
+(13:11.630) 並且讓我們的顧客繼續繼續建立
+(13:14.450) 他們的最後顧客的特殊產品。
+(13:17.110) 以後,我們將繼續高度選擇
+(13:20.830) 預測額外的MVMs。
+(13:23.070) 我們在尋找的主要特殊性
+(13:24.470) 是我們僅僅僅僅僅僅僅僅僅僅僅僅僅僅僅僅僅僅,
+(13:30.550) Growing Volume Requirements
+(13:32.740) and Attractive Financials
+(13:34.700) that enable us to invest in the business
+(13:36.760) while generating a sustainable return
+(13:39.620) to our shareholders
+(13:40.460) We will be patient in these evaluations
+(13:43.040) With that update
+(13:44.990) With that update
+(13:47.470) Revenue for the fourth quarter
+(13:50.900) was $8,965 million
+(13:53.660) of 51% sequentially
+(13:56.440) and 372% year over year
+(13:59.500) Revenue came in above the guidance range
+(14:14.740) one-third from higher volumes
+(14:35.270) of 48% sequentially
+(14:37.330) consumer revenue was $556 million
+(14:41.810) down 32% quarter to quarter
+(14:48.070) to serving all three end markets
+(14:51.330) to maximize long-term value creation
+(14:53.890) for the full fiscal year 2026
+(14:58.040) revenue reached $20,248 million
+(15:02.520) of 175% year-over-year
+(15:19.080) 優優獨播劇場——YoYo Television Series Exclusive
+(15:43.700) up from 78.4% in the prior quarter,
+(15:47.320) and 26.4% in the prior year.
+(16:01.380) representing 5.4% of revenue,
+(16:23.200) Nongap Operating Margin was 79.2%,
+(16:28.600) off from 70.9% in the prior quarter.
+(16:32.480) Nongap EPS was $39.25,
+(16:36.310) off from $23.41 in the prior quarter,
+(16:40.250) and $0.29 in the prior year.
+(17:21.320) During the quarter,
+(17:23.440) we repurchased 2,
+(17:25.180) 836,
+(17:26.660) 836,
+(17:31.300) Moving on to free cash flow.
+(18:04.150) This excludes $1,
+(18:13.240) We close the quarter with $4,
+(18:22.780) With that, let's move on to guidance.
+(18:42.200) Looking further ahead,
+(18:51.860) 在這段時間內,我們期望Data Center的總共費用量
+(19:07.820) 我們的客戶的需求比我們的供應更快
+(19:12.380) 因此,我們期望BITS在2027年計算日之外的計算日中的價格
+(19:36.250) 我們期望非鐵路線執行的收入
+(19:42.700) 我們繼續投資在新發展和R&D
+(19:46.300) 並且有高額的收入
+(19:50.640) 我們期望第一季度的非鐵路線執行
+(19:56.360) 以155億美元的全面抵抗
+(20:00.300) 這裡是一些額外的觀點
+(20:04.420) 為了計算
+(20:12.880) Premierly as we run Big 8 and Big 10
+(20:15.580) Yet our investment relative to revenue
+(20:25.440) consistent with current levels
+(20:27.140) to support our NBMs
+(20:29.280) and account for higher component costs
+(20:39.650) Moving on to capital allocation
+(21:21.320) Thank you, Luis
+(21:23.240) Thank you, Luis.
+(21:30.840) We delivered record financial results,
+(21:47.240) The value of our technology,
+(22:01.020) As we enter fiscal year 2027,
+(22:03.320) we do so with a balanced,
+(22:08.340) edge,
+(22:08.880) and consumer,
+(22:09.820) edge,
+(22:18.510) 我們有專業主導NAND技術
+(22:23.480) 與持續的創新
+(22:28.240) 我們也在投資
+(22:31.480) 在高級電池
+(22:34.980) 在高級電池
+(22:45.040) and an active capital return program
+(22:47.800) the result is a durable growth model
+(22:50.620) a valuable franchise
+(22:52.180) and a business built to generate
+(22:54.800) substantial increasing cash flow
+(24:01.940) 80% margin range
+(24:03.440) I know there's a lot of puts and takes
+(24:04.900) with regard to pricing
+(24:05.880) I was wondering if you can talk about
+(24:07.740) whether it's in that ballpark
+(24:10.860) or if it's kind of trending
+(24:12.920) actually more towards the guidance
+(24:14.480) for the next quarter
+(24:15.460) 我認為是80%以上的
+(24:18.420) and then I have
+(24:20.800) my follow up is with regard to buybacks
+(24:24.580) 如果我們只約5億每個月
+(24:28.220) I know the authorization isn't this big
+(24:31.400) 但是如果你承諾買5.5億,你做到過去的四季度,那是你市場價值的10%。
+(24:40.660) 這是我們應該考慮的買回量嗎?還是太早了?謝謝。
+(24:48.710) 讓我來說第二個問題,然後Louise可以說第一個問題。
+(24:53.050) So we plan to be,
+(24:54.490) you know,
+(24:55.630) we're walking into the buyback program,
+(24:57.550) our second authorization now,
+(24:59.590) 你現在看到我們
+(25:02.930) 我們在第一季度
+(25:06.910) 現在我們再次執行
+(25:09.770) 我們期望在我們執行的
+(25:15.000) 這項計劃中
+(25:20.650) 你知道,Ben
+(25:25.220) 股份
+(25:29.080) really working very very deeply
+(25:33.860) with our largest customers
+(25:41.620) 我們感覺非常好
+(25:47.010) and I'll just speak personally
+(25:51.390) I am thrilled to be at this point
+(26:02.430) But Luis can talk about the margin
+(26:04.290) Ben, not to pick a specific number
+(26:07.470) but we do expect to be around 80%
+(26:11.110) As you know, there is some upside
+(26:13.760) As prices continue to go up
+(26:15.740) 我們也會掌握一些這些下降
+(26:17.740) 但是我們覺得我們做的工作非常好
+(26:21.060) we'll talk more about the MBMs I'm sure
+(26:24.270) But you've seen there are not a lot
+(26:26.150) 他們是我們做的非常有意義的商業
+(26:28.970) 有8位我們的設計顧客,所以我們感到非常高興。
+(26:31.590) So we feel very good about that
+(26:33.110) Thanks a lot guys, appreciate it
+(26:36.210) Sure thing, thanks Ben
+(26:37.190) 接下來的問題來自馬克·努曼與貝恩斯汀。請問。
+(26:43.340) Please go ahead
+(26:44.400) Hi, thanks for taking the question
+(26:48.050) For your Q4, I don't think you've given
+(26:52.140) Obviously Q4 strong results
+(26:53.900) 我認為您沒有給出價值增長的分佈,
+(27:00.300) you've given some numbers for the year
+(27:02.820) so we've got some pretty good estimate
+(27:04.820) 但我問您能否給出一些清楚的解釋,
+(27:08.980) on what's in there for Q4 for volume
+(27:12.860) and also in the Q1 guide
+(27:16.340) particularly for the Q1 guide
+(27:18.940) 看起來比預測的比較輕
+(27:26.120) 股價的價格可能有點跌
+(27:55.420) 而二三來自於價格
+(27:58.200) 當然,您對於我們和其他人的比擬,
+(28:01.880) 我們有不同的時機,
+(28:04.940) 您需要在幾個半月內
+(28:09.380) to really understand where we are
+(28:10.940) 以確定我們在哪裡,
+(28:14.100) if you look at Q1 we expect both
+(28:17.370) the growth to come from both
+(28:19.070) bid growth and modest price increases
+(28:21.630) 所以我們期望他們兩個人
+(28:23.840) 會幫助我們的利潤增長
+(28:26.400) 非常感謝
+(28:29.830) 馬克
+(28:31.120) 接下來的問題
+(28:34.300) 是從David Gibson
+(28:35.980) 與MST
+(28:37.080) 請問
+(28:38.080) 非常感謝
+(28:41.310) 兩個問題
+(28:43.110) 我只是在問
+(28:43.910) NVIDIA的
+(28:45.150) Context Memory CMX standard
+(28:47.130) 和他們的
+(28:48.470) Storage Next的計劃
+(28:49.950) 是否有機會
+(28:51.320) 讓產品來
+(28:52.680) 然後第二個
+(28:54.350) 你前一天宣佈
+(28:55.730) Global Standard
+(28:56.710) 與SK Hynix
+(28:57.910) HBF
+(28:58.810) 我只是在問
+(28:59.890) 我們在多遠的地方
+(29:03.810) Are we one, two, three years away?
+(29:06.150) That's my question.
+(29:07.090) Thank you.
+(29:08.860) So, David, sure.
+(29:11.460) 所以,你看,現在有很多創新在進行,
+(29:15.380) in inference memory architectures,
+(29:17.320) 我們認為是很棒的,非常健康的。
+(29:19.640) There's a lot of different ideas.
+(29:21.360) 我們將進入這個
+(29:24.040) at our analyst day,
+(29:28.240) and kind of how you dimensionalize it.
+(29:30.280) 分辨成分辨
+(29:33.280) 我們認為
+(29:37.680) 存儲是非常重要的
+(29:40.960) we showed some stuff in our FMS keynote
+(29:44.400) just a couple of hours ago
+(29:45.860) about how when you use HBF
+(29:48.000) how we simulate performance
+(29:49.340) and maybe break through some bottlenecks
+(29:52.020) 我們認為有大量的創新正在發生
+(29:56.150) as we scale inference
+(29:57.930) 非常大的機會
+(30:00.670) 我們認為我們的目標是
+(30:05.300) 因為他們將是將來的建築
+(30:09.700) 都會提供很多好的想法
+(30:12.920) 我們將與他們一起研究
+(30:19.760) for what they're optimizing for
+(30:21.780) and these are really where our NBMs
+(30:26.100) in that we have NBMs with
+(30:48.620) As their deployment architecture changes
+(30:57.580) So there's a lot of good ideas out there
+(31:04.180) We know we're a super innovative company
+(31:06.920) 我們認為這並不提供任何機會
+(31:09.400) Now, on your second question
+(31:11.000) HPF is something that we announced
+(31:14.890) almost a year and a half ago now
+(31:17.230) 它非常注重這個整體的想法
+(31:19.650) 就是印爾文化會需要
+(31:23.830) 我們覺得很高興
+(31:26.950) We'll tell you a little more about
+(31:29.560) where we're at specifically next week
+(31:32.340) But we feel very good about
+(31:34.040) deep conversations with customers
+(31:45.740) talking about the technology
+(31:47.400) and how they could use it
+(31:48.780) So we'll have more to say as we progress
+(31:51.540) 與技術進行運輸和發佈日期和其他
+(31:56.560) 但是從我們一年半前來看
+(31:59.980) 這是一個想法
+(32:01.100) 很多研究和工作
+(32:03.980) 我們認為這是一個很好的想法
+(32:06.020) 現在我們已經距離了巨大的距離
+(32:09.000) 我們下週再談談
+(32:10.020) 好的 太棒了
+(32:14.130) 非常感謝
+(32:14.710) 謝謝 謝謝David
+(32:15.830) 接下來的問題來自
+(32:19.930) Goldman Sachs的Jim Schneider
+(32:21.510) 請問
+(32:22.070) 晚上好 謝謝您提出我的問題
+(32:25.850) 你已經簽署的NBM的結構
+(32:30.290) and the ones you may intend to sign
+(32:32.070) 你對於想要看到的
+(32:35.970) 與EGE、
+(32:42.270) 以及其他項目的混合
+(32:47.570) 你會想要看到
+(32:51.650) Yeah,
+(32:52.210) Jim,
+(33:00.490) right?
+(33:01.090) right?
+(33:16.410) year-over-year growth.
+(33:22.590) so we want customers that grow with us
+(33:25.050) and we want attractive financials
+(33:28.950) so that's the criteria
+(33:30.290) but we're not close to any segment
+(33:32.330) as I mentioned
+(33:34.200) we sign deals with customers
+(33:35.980) across data center and edge
+(33:37.640) and we feel great about that
+(33:39.540) in terms of the hyperscalers
+(33:44.700) and talking about specific agreements
+(33:47.120) I think it's not in our interest
+(33:49.820) 在談論特定合約
+(33:52.080) but we feel great about each of them
+(33:54.180) they are as David said
+(33:55.360) long term relationships
+(33:56.460) that get into a level of details
+(33:58.840) that we've never had before
+(34:00.060) from a technology
+(34:01.020) from a commercial point of view
+(34:02.660) and we believe that these relationships
+(34:04.620) will last many many years
+(34:06.380) so Jim just a few more comments on that
+(34:09.760) from my perspective
+(34:10.540) so first of all
+(34:11.660) you know we really started this journey
+(34:14.150) just two plus quarters ago
+(34:16.590) here we are with
+(34:18.710) you know a little bit more than 50%
+(34:21.990) of our supply for fiscal year 27
+(34:24.890) which we're a month in now
+(34:26.670) is already committed
+(34:28.260) we understand the financials
+(34:30.140) we understand exactly where it's going
+(34:32.260) we already have POs
+(34:34.100) for the year
+(34:36.290) from those customers
+(34:39.310) in FY28
+(34:40.990) that steps up to two thirds
+(34:43.650) roughly two thirds of our supply
+(34:46.100) is already committed
+(34:47.220) we understand what the mix is
+(34:49.500) we understand what the economics are
+(34:51.320) 所以我們感覺我們剛剛在這裡做了很大的進步。
+(34:55.900) On, you know, taking
+(34:58.560) 你知道,一年前我們談論了三個月的這家公司的視力,
+(35:03.180) And now we're talking over four years
+(35:06.340) 我們的金融與混合性的理解,
+(35:10.660) 我們在世界中的一些最令人驚喜的公司與我們合作。
+(35:14.460) 所以我們感覺到這裡是很好的地方。
+(35:17.200) And we'll continue to talk to customers
+(35:20.940) 我認為一件最有趣的事
+(35:24.640) 是我們的最大客戶已經回來
+(35:28.770) 想要更多
+(35:32.030) 這是一個非常非常執行的
+(35:34.710) especially in the data center
+(35:36.810) so we feel good about where we're at
+(35:42.030) 但是我們現在在談論
+(35:46.450) 我們將從這裡選擇如何進行更多的談論
+(35:49.970) 但是我們絕對還在深入談論
+(35:54.430) Thank you
+(35:57.020) 謝謝
+(36:02.800) 我認為您已經完成了
+(36:06.800) 您已經完成了
+(36:13.920) On sort of an ongoing basis
+(36:16.120) 談談貸款的概念
+(36:19.700) If you consider that
+(36:22.280) Yeah
+(36:24.650) 是的
+(36:27.850) As what we've talked since day one
+(36:30.070) 第一點是繼續投資在生意上
+(36:33.050) And although that's a generic statement
+(36:35.870) You've seen us do that, right?
+(36:37.870) Through our OPEX, through our Capex
+(36:39.710) Through investments in NANIA
+(36:41.090) Through our JV extension
+(36:46.270) 更加持續在任何情況下
+(36:49.190) So we'll continue to do that
+(36:51.170) 我已經談到一些數據
+(36:53.410) some of the requirements
+(36:54.210) to continue to invest in the business
+(36:56.030) Priority number two that we've talked
+(36:58.910) which is frankly completed
+(37:00.110) was to get a good cash balance
+(37:02.630) which we've done
+(37:03.490) and to get rid of our TLB
+(37:05.550) which is also done
+(37:06.550) So that priority number two
+(37:08.310) we feel very good of where we are
+(37:10.510) And then really our role as a company
+(37:13.190) is to return cash to our shareholders
+(37:14.930) We believe that at this point in time
+(37:17.720) and things may change
+(37:18.780) We believe that the best way to do it
+(37:23.040) 將錢轉移到股東
+(37:26.460) 所以我們在上個季
+(37:30.480) 我們會繼續這種旅程
+(37:33.320) 我們會把您更新
+(37:36.840) more tax efficient
+(37:42.340) Thank you
+(37:44.170) Thanks Jim
+(37:45.740) Thanks Jim
+(37:50.190) Please go ahead
+(37:51.210) Please go ahead
+(37:54.340) I have two questions
+(37:56.100) First, with pricing up modestly
+(37:58.100) sequentially, can you help me understand
+(37:59.860) why gross margins are guided lower
+(38:01.580) and then bigger picture
+(38:03.620) the challenge for semi-investors is
+(38:06.060) moving less of a focus on margin and
+(38:08.040) EPS revisions, but rather buying
+(38:09.960) into the durability of this cycle
+(38:12.380) So, can you focus on
+(38:14.020) 所以 你能否集中在
+(38:15.840) of MVMs
+(38:17.240) and that today's supply is limited
+(38:20.180) and that will drive a durable
+(38:21.920) and elongated cycle
+(38:23.260) Thanks so much
+(38:24.180) So I'll start and Luis can add on
+(38:28.630) CJ,我覺得你已經回答了你第二個問題
+(38:31.230) with your second question
+(38:32.250) 我們集中在幾個方面,而不是隻有一項
+(38:34.950) not just one
+(38:35.670) durability is a big piece of it
+(38:38.370) 我們想獲得我們的產品的平均回報
+(38:41.420) I think mid 80s gross margin
+(38:44.820) I would characterize as a fair return
+(38:46.540) and then we want to increase visibility
+(38:48.810) and durability of the franchise
+(38:50.210) we want to get this kind of
+(38:54.550) It doesn't work for anybody
+(38:56.450) in 23 we were having
+(39:01.010) and we want to
+(39:06.030) plan better and they can plan better
+(39:08.090) and so we're executing
+(39:13.150) we're committing
+(39:22.860) which Ben said earlier
+(39:24.240) we guided to about 80% gross margin
+(39:30.280) and then there's all kinds of things
+(39:32.360) that happen in their mix
+(39:33.460) that happen in their mix
+(39:35.600) it's a fairly complicated business
+(39:37.580) so when you put that on top of
+(39:40.680) half the supply is committed for FY27
+(39:43.580) FY27的供應是承諾的,
+(39:46.080) which we're thrilled with quite frankly
+(39:47.740) because the amount of
+(39:48.820) because the amount of
+(39:55.370) 我們將再次解釋這件事的原因
+(40:00.180) 為什麼我們有信心
+(40:06.320) There's lots of reasons for that
+(40:08.220) 第一
+(40:14.170) 他們對我們做了金融承諾
+(40:16.790) 如果他們不跟隨他們的承諾
+(40:19.730) 我認為16.5億美元的平均價值
+(40:23.310) 在我們的平均價值上會流傳到我們的平均價值上
+(40:25.530) 我們坦白說,我們從來沒有期望看到這些錢
+(40:27.530) 只是為了合作利益
+(40:29.230) 但如果有些黑豬豬活動發生
+(40:32.410) 公司需要在他們的利益上做事
+(40:35.250) 也許有些事情會發生
+(40:37.050) 更重要的是,我們與我們的客戶
+(40:41.300) 在一個很不同的層面上談恢復
+(40:44.840) 我們正在與CFOs、CEOs
+(40:50.560) of the largest companies in the world
+(40:53.220) this used to be quite frankly
+(40:55.950) just a supply chain conversation
+(40:57.750) every quarter
+(40:59.310) price negotiation 7 by 24
+(41:02.850) the business has turned into
+(41:06.290) a highly strategic
+(41:07.430) Sandisk has incredible products
+(41:12.830) that allow them, our customers
+(41:15.110) to build incredible infrastructure
+(41:17.590) to serve the world
+(41:18.790) with things like inference
+(41:21.540) We're just getting started on scaling
+(41:24.520) 作為一個在技術業界
+(41:29.380) for 35 or 40 years now
+(41:31.080) at quite frankly a very high level
+(41:33.300) the level of customer engagement we have
+(41:36.920) is as high as any technology franchise
+(41:39.940) I've ever been a part of
+(41:41.320) It's incredible
+(41:42.200) And so we believe that
+(41:45.200) 我們向我們的客戶
+(41:48.910) to our customers
+(41:51.240) Their demand continues to grow
+(41:53.500) 我認為
+(41:56.090) I think I said it before
+(41:57.110) we've already have customers coming back
+(41:58.750) for the second round of NBMs
+(42:01.930) you know a quarter in
+(42:03.130) and so that gives us
+(42:05.760) an enormous amount of conviction
+(42:07.840) 這部品牌
+(42:12.270) 我們現在有
+(42:15.170) at economics
+(42:16.830) which are extremely attractive
+(42:19.190) and we're really looking forward to
+(42:35.680) Please go ahead
+(42:36.980) Great, thank you
+(42:39.060) Great, thank you
+(42:44.700) 您能否解釋一下您的想法和
+(42:51.180) seem to be focused more there
+(42:52.460) seem to be focused more there
+(42:57.420) 或者說我們應該怎麼認為
+(42:58.880) 您的決定製度和CAPEX
+(43:01.300) 是的
+(43:03.500) 所以Joe
+(43:04.460) 基本上我們繼續承諾
+(43:07.520) 在高級團隊中增長
+(43:08.740) 並且我們在那一層上花錢
+(43:11.880) 為什麼我們的美元
+(43:14.120) 從一年到另一年
+(43:16.320) 是因為當您從一年到另一年
+(43:19.160) 您首先會取得最簡單的
+(43:21.680) 或者最便宜的轉移
+(43:24.920) 然後您會繼續
+(43:26.800) 做更貴的轉移
+(43:28.620) 尤其是在我們在前一年的FAPS失敗時
+(43:33.140) we had some tools that could be reused
+(43:35.680) 我們在這方面有很好的費用
+(43:39.240) so we're very good
+(43:40.440) 所以我們非常好
+(43:43.340) 我們認為這是對的計劃
+(43:45.340) that allows us to provide the big growth
+(43:48.140) 我們認為在市場上是持續性的
+(43:50.760) and we haven't changed that position
+(43:53.180) 現在這一年
+(43:57.240) it will be a little bit lower
+(43:58.720) I mentioned mid-teens
+(44:00.100) as we continue to build capabilities
+(44:01.860) for the new business models
+(44:03.620) 我們需要建立
+(44:06.320) just to make sure that
+(44:07.640) we're always delivering on time
+(44:09.120) so that mid to high teens
+(44:11.120) which is our ongoing number
+(44:12.760) will be a little bit lower for 2027
+(44:15.240) OK, so if we think about a $500 billion
+(44:19.710) kind of industry number for next year
+(44:22.600) do you think you would
+(44:24.670) between the different puts and takes
+(44:26.650) kind of hold segment share
+(44:28.410) relative to that
+(44:31.200) Yes, that is correct
+(44:32.580) It's always our goal, Joe
+(44:33.900) Okay, great, thank you
+(44:37.000) Thank you
+(44:37.950) Thank you
+(44:44.310) Please go ahead
+(44:45.290) Yes, thank you
+(45:06.960) In the absence of LTAs,
+(45:13.400) Thank you.
+(45:20.080) Would you mind repeating that one, Carl?
+(45:22.420) I'll do the consumer one first, Carl,
+(45:25.760) so
+(45:33.550) It's kind of an interesting business
+(45:34.610) because in normal times
+(45:37.490) you can move pricing and consumer around
+(45:40.170) 比起其他市場,但在這種市場,其他市場移動得那麼快,
+(45:42.730) but in these kind of markets
+(45:43.970) where the other ones are moving so fast
+(45:45.470) 它很難將消費者移動得那麼快。
+(45:48.700) so there's no doubt
+(45:50.040) 所以,沒有疑問,我們正在尋找哪裡是正確的平衡點,
+(45:54.440) 為了價格和價格的量,以及所有這種問題。
+(45:57.500) 對於消費者來說,那是比一些企業市場有更長的過程。
+(46:00.080) and that's a little longer process
+(46:05.440) 路易斯,你有什麼想要說嗎?
+(46:07.940) 是的,您可以想象,消費者市場的價值也上升了,
+(46:12.680) 而這對TAM的影響也有影響。
+(46:16.420) 我們非常高興有這家公司,經營非常好。
+(46:20.220) 我們非常高興有我們的市場股份,
+(46:23.420) 並且我們繼續努力推動這家公司。
+(46:32.210) Yes, Luis
+(46:49.890) 而在LTA的缺乏之外
+(46:56.350) Thank you
+(46:57.460) 謝謝
+(47:06.530) 如果你問
+(47:13.600) is that what you are asking, Carl?
+(47:16.640) Oh, no.
+(47:17.420) Yeah,
+(47:17.960) Oh no
+(47:34.350) 如果問題是他們的需求,
+(47:37.570) 我非常感激他們的信任和信任,
+(47:42.150) 因為這些數字,
+(47:44.810) 我認為他們正在保持積極性,
+(47:46.890) 因為他們對我們發表了信任,
+(47:47.890) 當他們進入後,
+(47:50.010) 他們會增加他們的數字,
+(47:50.950) 你知道,
+(47:51.370) 只是幾個月後簽下協議。
+(47:53.470) 非常好,謝謝。
+(47:57.120) 謝謝,Carl。
+(47:58.120) 接下來的問題是由亞倫·瑞克斯與威爾斯巴戈的。請進行。
+(48:03.230) 請進行
+(48:08.830) 我想問
+(48:13.570) 您們一直提到
+(48:15.630) 4年以上
+(48:24.390) 您的觀點是如何變化?
+(48:28.890) Thank you.
+(48:29.590) Thank you.
+(48:36.640) I think if you're saying
+(48:42.990) when does
+(48:48.120) at the price they want
+(48:54.500) 您問的問題有很多,
+(48:58.660) because we take this very seriously
+(49:04.320) is to understand what is demand
+(49:05.760) is to understand what is demand
+(49:07.660) 5, 10 years from now
+(49:09.360) and when the business is transacted
+(49:13.090) on a quarterly basis
+(49:14.490) it's very difficult to do
+(49:17.260) and it's very difficult to get wrong
+(49:19.820) and if you get it wrong
+(49:22.190) the implications are kind of tragic
+(49:25.330) we saw that in 23
+(49:29.380) right now we're seeing
+(49:31.360) maybe people didn't anticipate
+(49:35.070) is as available as they thought
+(50:05.420) it's not going to get matched
+(50:19.400) And how do we get those aligned
+(50:26.600) Over the last couple of quarters
+(50:28.000) As I said earlier
+(50:39.450) 所以我認為我們正在做出非常大的進步
+(50:43.460) and we're going to follow our customers
+(50:45.710) 這就是最簡單的方法
+(50:49.890) we have customers
+(50:50.650) 我們有客戶
+(50:55.160) that are just incredibly large customers
+(50:58.460) 他們將給我們
+(51:02.960) As I say sometimes they need NAND
+(51:06.880) We build NAND
+(51:08.020) It's a match made in heaven
+(51:26.590) Thank you
+(51:29.170) 謝謝
+(51:34.760) Please go ahead
+(51:35.760) Hey good afternoon guys
+(51:37.310) I have two questions
+(51:38.490) I want to ask on edge
+(51:40.150) obviously the PC smartphone markets
+(51:43.190) are probably going to be down
+(51:45.830) for most people in the back half year
+(51:47.490) how are you thinking about that segment
+(51:48.930) 我認為你能否說出
+(51:50.550) you're seeing
+(51:51.490) 你正在看到的強化
+(51:53.350) so what is going well
+(51:56.110) and how do you think about
+(51:57.710) the markets that will be down
+(52:00.330) over the next few quarters
+(52:03.220) yeah I mean they're great markets
+(52:05.420) first of all
+(52:06.180) again I've said this before
+(52:07.360) this is one of the great things
+(52:36.860) 但是在明年我們看到
+(52:39.580) 我們看到智能電腦下降
+(52:45.240) so we see the market adjusting this year
+(52:49.280) 然後下年再次迴歸整個XBIT增長。
+(52:56.290) 因此,
+(53:01.610) 我認為這很快就會發生。
+(53:06.210) 這是很快發生的
+(53:10.200) 我嘗試瞭解
+(53:14.320) I just want to understand,
+(53:15.020) 我只是想了解
+(53:19.380) you know,
+(53:19.740) capping,
+(53:20.180) you know,
+(53:21.060) leading to the modest growth in ASB?
+(53:23.060) 還有其他因素
+(53:28.060) 有任何影響?
+(53:32.760) They are good margins.
+(53:34.420) If you look at where we come from,
+(53:39.720) 從22.7到86.5
+(53:43.850) 所以我們認為
+(53:45.150) 我們在轉移平均線
+(53:46.930) 我們認為
+(53:47.490) 這是一種最重要的計劃
+(53:49.390) 來駕駛公司的金融健康
+(53:50.690) 現在如果你看到
+(53:53.040) 你所問的數據
+(53:57.500) 有些混亂
+(53:59.750) guide的高線是85
+(54:03.230) 所以它是比我們剛才印刷的
+(54:07.310) 我們在做一些
+(54:09.030) 如果您想要在成本費用和其他方面
+(54:12.790) and when we factor all of that in
+(54:14.670) 我們相信
+(54:18.530) is somewhere between 83% and 85%
+(54:20.750) So slightly down, slightly up
+(54:23.610) from what we printed this quarter
+(54:25.670) driven by all these factors
+(54:27.730) Thank you
+(54:28.250) Thank you
+(54:34.160) The next question comes from Wamsi Mohan
+(54:37.280) with Bank of America
+(54:38.340) Please go ahead
+(54:39.600) That was kind of timely to go to one
+(54:42.340) - 我想問你一個問題
+(54:45.480) - 我會問一個兩個問題
+(54:49.760) - 你的企業預測是
+(54:56.610) NAND企業增長至500.27億
+(55:00.770) - 從300.26億
+(55:02.330) - 我們知道在一個月內
+(55:05.270) - 企業預測的增長
+(55:06.290) - 並不是很明顯
+(55:07.930) - 以企業預測來說
+(55:09.870) 所以我們在2027年期間期望的價值正常化是什麼呢?
+(55:18.690) 這是第一部分,第二部分是,在這個企業的增長中,
+(55:24.180) 您的預測是,您會將企業在行業上增長,
+(55:29.980) 還是將企業在市場上增長?謝謝。
+(55:35.120) 我們想和市場增長,我們計劃和市場增長。
+(55:40.440) I mean,
+(55:42.930) Wamsi,
+(55:43.750) 我們在轉移我們的生產品到更加預期的生產品。
+(55:49.860) 我們正在工作,
+(55:55.580) 因此,
+(56:03.500) You know,
+(56:04.420) 我們繼續看到
+(56:12.580) I mean customers
+(56:18.560) 所以
+(56:23.810) we're going to grow with the market
+(56:26.430) and as we grow with the market
+(56:31.920) 我們有我們的Bit Growth Plans
+(56:35.780) as Luis said
+(56:41.830) 這將有影響在近期的增長
+(56:45.130) 但是我們繼續看到一個非常強強的市場
+(56:48.780) and it gives us this opportunity
+(56:50.000) to both continue to drive
+(56:55.280) 這家公司的重要成果
+(56:58.320) 並且增長我們的視線
+(57:01.160) very significantly
+(57:02.960) Thanks, Bobzi
+(57:08.120) 下一個問題來自
+(57:12.850) Please go ahead
+(57:13.910) Please go ahead
+(57:17.610) Thanks for squeezing me in here
+(57:24.490) Can you just remind us
+(57:27.210) how you're thinking about it
+(57:29.790) I'm here at FMS
+(57:33.380) Has your views or dialogue changed
+(57:38.800) as it relates to
+(57:43.580) Thank you.
+(57:44.060) Yeah,
+(57:44.640) it continues to mature,
+(57:48.200) I would say,
+(57:49.440) I would say,
+(57:51.760) because it's use case dependent
+(57:58.580) how it's going to be used,
+(58:00.780) how do you configure the system,
+(58:02.240) how do you configure the system.
+(58:07.240) And you'll hear more of that next week
+(58:09.780) 但是我們繼續更加自信於NAND的要求
+(58:13.050) On the requirements for NAND
+(58:15.670) As AI gets more sophisticated
+(58:19.880) Models get bigger
+(58:21.220) Context lengths get longer
+(58:22.760) 而Agentech就是這些大變化
+(58:26.340) On top of that
+(58:27.360) So we continue to get more bullish
+(58:30.200) On the requirements for NAND
+(58:31.680) And again this is why
+(58:33.300) 我再次回顧同樣的主題
+(58:34.940) This is why it's so important
+(58:36.120) To stay close to our customers
+(58:37.320) 因為我現在非常信心
+(58:44.120) 這不是供應商
+(58:48.960) 所提供的方式
+(58:52.420) And that is very very difficult
+(58:54.940) 要去做這些
+(58:59.280) 你必須要明白使用情況
+(59:01.280) And that's different for each provider
+(59:04.330) So again,
+(59:06.400) 這是我們為何要一直與我們的客戶相接近的原因,
+(59:09.520) why we're increasing our visibility,
+(59:11.600) 因為我們需要非常接近這些建築學討論論點。
+(59:16.900) They're evolving very quickly
+(59:22.720) Again,
+(59:23.160) 我們看到我們的客戶在只有一半之後,
+(59:34.460) 所以,
+(59:34.980) 它繼續是一個很複雜的數據,
+(59:42.930) 我們將試圖將它詳細地分析下週,
+(59:45.430) 以我們的看法來看,
+(59:46.850) 並且它繼續是一個非常強烈的故事,
+(59:51.490) 並且越來越強烈。
+(60:02.850) with Mizuho
+(60:35.900) 對於企業增長
+(60:43.450) on some of those nodes just yet
+(60:45.670) and some of that technology
+(60:47.230) but we'll keep you updated on that
+(60:49.150) 我們非常感激這個技術
+(60:51.390) Big 10 is a great node
+(60:52.970) we just announced it I think last week
+(60:55.860) or last couple of weeks
+(60:56.900) or last couple of weeks
+(60:59.180) and we're very, it's great
+(61:01.040) 很棒
+(61:03.540) next week as well
+(61:04.970) in high bandwidth flash
+(61:07.040) we continue to have deep engagements
+(61:09.120) both with cloud customers
+(61:10.580) and device customers
+(61:11.540) about using that technology
+(61:12.980) as an inference platform
+(61:16.690) look we grow
+(61:18.540) BJ we grow through nodal transitions
+(61:20.420) I mean our technology is so productive
+(61:24.120) 我們可以增長在我們所談的市場率超過的轉移轉變。
+(61:28.420) we're talking about
+(61:29.160) just through nodal transitions
+(61:30.280) so that's the way we grow
+(61:33.000) if we're going to speed up
+(61:35.100) or slow down nodal transitions
+(61:36.720) 這仍然需要很長時間,但是這是我們總是看待的事情,
+(61:39.580) but that's something we always look at
+(61:41.120) 並且讓我們總是在市場上的位置上
+(61:44.630) with where the market's at
+(61:45.730) 這就結束了我們的問答節目
+(61:51.980) I would like to turn the conference
+(61:53.640) back over to Ivan Donaldson
+(61:55.240) for any closing remarks
+(61:56.240) Yeah, I'd just like to say thank you
+(61:59.330) to everyone for joining the call today
+(62:00.530) 今天的聯絡
+(62:03.230) throughout the quarter
+(62:03.910) The conference has now concluded
+(62:08.290) 謝謝您的參與
+(62:10.610) You may now disconnect
