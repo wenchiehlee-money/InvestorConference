@@ -1,0 +1,712 @@
+[METADATA]
+Source: MU_2026_q3_exp11
+Language: zh
+---
+(00:00.700) Ladies and gentlemen,
+(00:01.820) thank you for joining us,
+(00:03.780) 並歡迎您參與MICRON TECHNOLOGY的三季度的2026年金融會議。
+(00:11.610) 在今天的準備聲明後,我們將舉行一個問答與質疑的會議。
+(00:17.340) 網上網路觀看者們,請留意,您將能夠進行視頻進行進行進行進行進行進行進行進行。
+(00:25.500) I will now hand the conference over
+(00:32.570) Sacha, please go ahead.
+(01:36.160) 與SEC的更多資訊
+(01:56.640) 謝謝Satya
+(02:11.400) enabling the AI era
+(02:12.800) Our data center revenue exceeded
+(02:14.960) $25 billion in fiscal Q3
+(02:17.940) or an annualized run rate
+(02:20.140) of over $100 billion
+(02:21.640) Our data center SSG revenue
+(02:24.800) exceeded $5 billion
+(02:26.480) more than doubling sequentially
+(02:29.650) DRAM and NAND industry demand
+(02:31.710) continues to significantly exceed
+(02:33.750) industry supply
+(02:34.730) We expect tight conditions
+(02:37.540) to persist beyond calendar 2027
+(02:40.080) as a result of AI-driven demand
+(02:42.860) across all segments
+(02:47.110) We are excited to announce
+(02:50.540) that we have now signed
+(02:51.940) 16 strategic customer agreements
+(02:54.440) or SCAs
+(02:55.600) which we expect will fundamentally
+(02:57.750) transform our business model
+(02:59.730) 記憶工業的結構已經被AI的發展而造成了細節轉化。
+(03:03.610) by the proliferation of AI
+(03:05.310) We are only in the early innings
+(03:08.140) of the significant innovation
+(03:09.520) and productivity
+(03:10.600) that can be unleashed in every part
+(03:13.640) of the global economy over time
+(03:23.370) high-end PCs,
+(03:24.710) and new consumer devices,
+(03:26.190) as well as in automotive,
+(03:28.090) industrial applications,
+(03:29.470) and robotics.
+(03:35.100) as well as fully autonomous vehicles,
+(03:42.600) 關於供應,
+(03:45.720) 我們的客戶認為,
+(03:48.220) 供應缺陷在記錄和存儲中會需要相當的時間進行改善。
+(03:54.610) 即使我們期望企業供應在2028年逐漸改善,
+(03:59.690) 我們目前並沒有看到記錄供應將能夠與增長需求提升。
+(04:07.920) 記錄企業供應增長是依靠明顯的 greenfield fab 傳輸。
+(04:14.130) 這些綠色項目的項目是大、複雜和耐用的。
+(04:19.600) 此外,
+(04:21.020) 這些項目的速度被幾個因素限制了,
+(04:23.960) 包括世界各地的FAB建築工程的長期休息時間,
+(04:29.390) 複雜的業務與執行業務、複雜的制定,
+(04:33.720) 包括允許和增加能源的需要。
+(04:38.040) Memory Process Technology,
+(04:41.250) 記憶過程技術,
+(05:02.000) HBM的增長和每次新世代的增長,
+(05:10.660) In NAND,
+(05:11.200) NAND中,
+(05:16.450) and overall limited clean room space
+(05:22.320) These factors taken together
+(05:30.580) despite our comprehensive efforts
+(05:34.540) AI systems are powered by GPU,
+(05:38.480) ASIC,
+(05:55.240) 這將帶來更多的細節記憶 hierarchy
+(06:05.530) 這也將記憶的角色
+(06:11.790) Strong long-term demand growth,
+(06:15.370) structurally constrained supply growth,
+(06:17.610) and memory's strategic importance
+(06:31.050) MICRON在我們的業界中是一個新的類別
+(06:42.880) 我們很高興地宣佈
+(06:49.660) consumer and auto market segments.
+(06:53.310) 這些SCA將加快我們的商業模式的轉變
+(06:56.890) 增加技術和創新合作協議
+(06:59.990) 並提供客戶的供應保證
+(07:05.660) 通常,這些協議會在2026年期間至2030年期間有5年期間的協議。
+(07:14.030) 自動化協議通常有3年期間的協議。
+(07:17.760) 這16個協議則代表約20%我們的D-RAM量和這段期間的1 3%我們的NAND量。
+(07:27.460) 這些自動化協議包括4個非常大的客戶和3箇中小型客戶。
+(07:35.020) The remaining agreements
+(07:44.480) When completed,
+(07:47.040) we expect approximately half or more
+(07:56.920) Our customer value are U.S. supply plans
+(08:25.400) 幾乎所有的SCA,
+(08:27.800) 包括固定價值或沒有與其相關的價值鏈連接的價值鏈連接的價值鏈連接的價值鏈連接的價值鏈連接的價值鏈連接。
+(08:58.740) of our revenue
+(09:21.150) For our SCAs with price bands,
+(09:27.340) well above our peak quarterly margins
+(09:50.610) margins,
+(09:51.770) margins,
+(09:59.040) Under the SEAs we have signed so far,
+(10:03.010) 我們將預計收入金錢和相關金融承諾的$22億
+(10:10.480) 這更展示了這個新的商業模式的客戶承諾
+(10:17.410) Mark will provide additional details.
+(10:32.780) We provide committed DRAM,
+(10:36.190) including HPM as appropriate,
+(10:43.310) In a period of significant shortage
+(10:57.670) drive growth,
+(10:58.970) drive growth,
+(11:22.440) AI的不可置疑的充足的耐性和能量,低級度和低能量,
+(11:31.400) memory product mix shifts,
+(11:33.500) 和生產程序技術的決定
+(11:36.320) 全都增加了企業的記憶和儲存路線的複雜性
+(11:42.000) Micron正在建立自己的技術領域
+(11:46.150) 我們的1Gamma DRAM 和 G9 NAND 領域都在順暢地延伸
+(11:51.900) 在Micron的歷史中成為了最高重量的領域
+(11:57.000) 我們的新世代 DRAM 和 NAND 領域的發展也在順暢地進行
+(12:03.240) 並正在第二半的2027年期間進行重量生產
+(12:35.540) 我們在我們的產品
+(12:41.530) high capacity DDR and LP server DRAM,
+(12:45.050) data center SSD,
+(12:46.640) PC,
+(12:47.380) 以及自動產品的股票。
+(12:52.220) 我們期望未來的記錄需求將繼續向高性能
+(13:01.930) Transitions like LP5 to LP6,
+(13:05.420) DDR5 to DDR6,
+(13:08.130) 和HVM的新生產
+(13:13.870) This trend,
+(13:14.550) 和前年有著
+(13:18.690) 增長
+(13:25.280) 我們的客戶SCA提供了適合價值的獎勵
+(13:32.740) 轉到我們的端端市場,AI正在帶來不可預期增長的數據中心,
+(13:41.000) 在2026年期間,
+(13:41.700) 工業數據中心的D-RAM和NAND購物價格預期預期超過兩年前的兩倍。
+(13:49.320) Agentic AI是一個極端的重新形成數據中心的數據,
+(13:54.250) 傳輸的工具,
+(14:18.870) 以輸入C
+(14:28.120) 我們計算的是
+(14:38.540) 使客戶專注於
+(14:42.120) amid a very tight allocation of memory
+(14:44.920) In NAND, AI context memory storage
+(14:48.670) and HDD displacement opportunities
+(14:56.740) PC and smartphone industry revenue
+(14:58.720) is expected to grow
+(15:00.280) despite unit volume declines
+(15:09.600) Agentic AI Platforms,
+(15:12.720) such as OpenClaw and NemoClaw,
+(15:14.760) elevate the value of edge devices,
+(15:17.220) enabling improved tokenomics,
+(15:19.920) greater privacy and latency,
+(15:22.030) 和更有效的AI組織
+(15:27.620) Over time,
+(15:28.320) 過去的時間
+(15:38.140) 在PC和手機上
+(15:45.820) L2 Plus和其上層車,
+(15:51.900) 有超過5倍的平均車的記錄和存儲內容。
+(15:56.660) L2 Plus和其上層車的混合,
+(16:03.540) and is expected to exceed 40% by 2030.
+(16:07.500) 平均自動記錄和存儲內容,
+(16:21.580) In robotics,
+(16:22.280) continued advances in simulation,
+(16:25.340) foundation models,
+(16:26.860) 以及聯合圖表和設備的數據
+(16:32.240) 這創造了高級的內容充滿的機會
+(16:37.020) 以高級的圖表、低級的記憶和存儲
+(16:41.320) inference and control.
+(16:43.710) 人工智能機器持有10倍的記憶量
+(16:49.270) and we expect a sustained,
+(16:51.090) substantial,
+(16:51.810) substantial,
+(16:57.430) Now turning to our market outlook,
+(17:00.950) 我們現在期望
+(17:09.640) In DRAM,
+(17:11.500) 在2020年期間的NAND傳送量
+(17:19.500) slightly above our prior outlook.
+(17:22.220) In NAND,
+(17:24.140) In NAND,
+(17:54.170) 提供了更多的信心,
+(17:58.670) 提供了更多信心。
+(18:03.360) 達到發電機的
+(18:07.580) fab tool installation and ramp
+(18:10.230) 以及工具更改和更新,以提升生產能力。
+(18:14.020) Recently,
+(18:20.690) 支持我們的EUV的增長,
+(18:35.320) 這包括我們的重要投資在美國的主要DM製造
+(18:41.160) 以及我們的ID.1和ID.2發佈在 Idaho
+(18:47.980) 以及我們的第一個新約FAB圖片
+(18:51.820) 在今年1月中間分開
+(18:54.720) ID.1在中期2027年中期期間
+(19:01.960) ID.2在2028年中期期間
+(19:05.860) 我們最近推出了第一個
+(19:08.530) 1α DDR4技術的生產點
+(19:12.770) 在我們的Megasys Virginia FAB
+(19:14.790) 這將帶來我們的能力
+(19:16.900) 支持我們的客戶的舊產品需要
+(19:29.010) 我們期望能夠支持有意義的產品發佈,
+(19:33.570) 在2027年中,
+(19:36.800) in mid-calendar 2027
+(19:39.000) 在前半年中,
+(19:42.860) Adding to the existing fab
+(19:46.000) 我們已經開始建立一個相似的第二個清潔室
+(19:48.760) second clean room at this site
+(19:51.120) 在這個地方
+(19:55.560) 我們的建築活動
+(20:02.460) 其他設施中
+(20:07.360) 我們的新加坡
+(20:12.740) 我們期望
+(20:19.450) HVM包裝能力
+(20:23.830) 2021年年初的第一半
+(20:29.780) 並且會適合市場環境
+(20:35.930) 我現在將計劃轉到Mark
+(20:42.070) 謝謝Sanjay
+(20:47.550) 大家早上好
+(20:53.250) 我們的結果和今天的目標
+(21:04.180) 和我們的商業的組織力量
+(21:06.740) 我們已經進行了16個
+(21:13.080) 競爭客戶協議
+(21:20.110) 根據金融管理標準
+(21:23.360) 我們正在宣佈
+(21:30.040) RPO在前期Q3的結束
+(21:34.620) 我們目前進入的SCA,
+(21:38.920) 包括其中一個在Q3末後實施的,
+(21:43.020) RPO is approximately $100 billion
+(21:52.980) 並且反映了相當適合的預算。
+(22:03.580) As such,
+(22:11.670) As Sanjay mentioned,
+(22:14.500) 桑傑提到,
+(22:23.820) 這些承諾的大部分,
+(22:27.330) approximately $18 billion,
+(22:29.760) will be in the form of cash deposits
+(22:31.920) When all targeted SCAs are completed,
+(22:36.280) 我們預期有相當高的SCA客戶投資和相關的承諾。
+(23:18.080) robust ROI for the company over time.
+(23:55.120) up 343% year over year,
+(23:58.600) and represented 76% of total revenue.
+(24:02.320) of total revenue
+(24:07.680) Bit shipments were up
+(24:12.300) Prices increased
+(24:17.020) driven by tight industry conditions
+(24:20.040) and favorable mix
+(24:26.290) up 361% year over year
+(24:29.750) and represented 24% of total revenue
+(24:32.930) Sequentially, NAND revenue increased 99%
+(24:38.240) Bit 發送率增加了
+(24:43.040) 價格增加了
+(24:47.660) driven by tight NAND industry conditions
+(27:23.290) Fiscal Q3的收益額為$1.5億
+(27:25.650) 上升$97億
+(27:28.080) 每個月的一半
+(27:29.720) 這次的平均增長
+(27:32.270) 是由於比較高的
+(27:33.130) 公司的強勢表現
+(27:36.050) 我們生產的行業收益額
+(27:40.890) 是Fiscal Q3的$33.7億
+(27:42.750) 結果是行業收益額
+(27:46.310) 是81.2%
+(27:48.230) 上升了12%平均
+(27:50.620) 而54%每年
+(27:53.880) Fiscal Q3的稅務額為$5.1億
+(27:59.120) on an effective tax rate of 14.9%
+(28:02.820) non-GAAP diluted earnings per share
+(28:08.190) in fiscal Q3 was $25.11
+(28:11.170) up 106% sequentially
+(28:20.100) in fiscal Q3
+(28:21.930) operating cash flows were $25.4 billion
+(28:25.370) capital expenditures were $7.1 billion
+(28:30.070) 結果是$18.3億的現金流通費
+(28:34.670) fiscal Q3 free cash flow
+(28:39.020) was a quarterly record for the company
+(28:40.720) Tending inventory for fiscal Q3
+(28:45.560) was $8.6 billion
+(28:47.320) with days of inventory at 120
+(28:50.420) DRAM inventories are very tight
+(28:54.590) and below 120 days
+(29:02.220) of $30.2 billion at quarter end
+(29:05.640) During fiscal Q3
+(29:08.320) we reduced debt by $4.4 billion
+(29:10.820) including a cash tender offer
+(29:13.880) 減少了4.3億美元的年紀額
+(29:17.140) The weighted average maturity
+(29:36.930) 在今年中,我們收到三大基金銀行的升級,包括了BBB+,
+(29:58.750) 即使我們增加技術和需要的資金資金投資
+(30:02.850) Now turning to guidance
+(30:09.010) Now turning to guidance.
+(30:15.780) Plus or minus $1 billion
+(30:18.600) Gross margin to be approximately 86%
+(30:35.830) 我們期望EPS為一份共存價值的$31,
+(30:40.120) Plus or minus $1
+(30:59.080) 並以R&D增長,
+(31:21.250) MICRON繼續投資在我們的全球目標上
+(31:29.020) 來解決客戶需求
+(31:30.660) 作為記錄,我們的CAPEX是
+(31:34.280) 預期的政府資金
+(31:36.300) 在Q4年度,我們預期CAPEX
+(31:41.150) 將達到約10億美元
+(31:42.730) 並將全年度的2026年度的資金
+(31:46.800) 達到約27億美元
+(31:49.300) 我們預期在2027年度的CAPEX
+(31:55.740) 在Q4年度的Fiscal Q4層面
+(32:02.950) from construction Capex
+(32:19.440) From December 9, 2026
+(32:23.440) 2026,
+(32:27.980) we intend to increase our capital return
+(32:46.740) I'll now turn it over to Sanjay to close
+(32:49.960) Thank you Mark
+(32:51.330) AI has elevated the value of memory
+(32:54.320) the value of memory
+(32:58.400) product,
+(33:02.840) in this tight industry environment
+(33:04.990) MICRON的策略顧客協議
+(33:07.400) 正在舉行一個充滿興奮的時代
+(33:09.720) 我們期望這些SCA
+(33:12.210) 能夠嚴重增長
+(33:15.590) MICRON的金融表現的持續性和預測性
+(33:18.970) 並且加速我們的商業模式的轉變
+(33:22.510) 我感謝MICRON世界各地的團隊
+(33:26.560) 他們的不斷的集中在所有方面
+(33:30.360) 在這次新的AI時代中
+(33:34.840) 他們將將MICRON作為領導人,
+(33:40.660) we will now open for questions.
+(33:49.440) 我們現在將開始問問答題
+(33:57.180) If you would like to ask a question,
+(34:03.600) press star 1 again.
+(34:12.670) Your line is open, please go ahead
+(34:18.600) Sanjay,我認為我們都在嘗試瞭解
+(34:21.660) 在下降價格的情況下,有多少人被鎖在了
+(34:26.960) And there were two things you said
+(34:28.500) And there were two things you said.
+(34:32.500) 所以這就像20億美元一年的價格
+(34:37.220) 在下降價格的價格下,就是在你剛剛指示的運行率下
+(34:39.960) 所以,這說明在層價上不太會有那麼多的收入,
+(34:43.950) 但是您也說了,40%的收入將會在這些SEA裡面移動。
+(34:48.130) 您可以雙擊這些,並幫助我們在層價情況下,
+(34:54.410) 您能幫助我們想想,多少月的收入將會被保證?
+(34:58.910) 我們指出,
+(35:13.670) But again, as Mark noted in his remarks,
+(35:16.990) 馬克思認我們預期預期的收益預期會比這些更高。
+(35:21.400) 在層次價位上,我們的利潤層次價位,
+(35:27.420) 投資級別和投資級別的價格都在過去的任何時候都高於最高價格的價格。
+(35:32.400) 在過去的任何時間中,
+(35:38.160) 整體來說,
+(35:40.980) 約20%的D-RAM和約30%的NAND費用都在這些SCA裡面提供了。
+(35:51.760) 這將帶來約25%的利潤,
+(35:57.460) 您可以在這些協議中預算。
+(36:01.060) So again,
+(36:02.050) 所以,在樓價上,RTO是一個交易計劃
+(36:07.850) but we fully expect
+(36:14.430) got it
+(36:18.470) Mark,
+(36:19.150) how much of the August quarter revenue,
+(36:22.690) for example,
+(36:23.310) will be flowing under an SDA?
+(36:42.060) Tim,
+(36:42.740) so you'll see a disclosure in the queue,
+(36:59.690) So,
+(37:00.210) for example,
+(37:02.280) for those that closed within Q3,
+(37:06.390) you'll see an RPO of 5 billion,
+(37:11.770) over 5 billion,
+(37:13.050) over 5 billion,
+(37:20.000) And,
+(37:20.420) yeah,
+(37:20.960) 那些是Sanjay所提到的
+(37:25.900) you know,
+(37:27.620) automotive agreements.
+(37:28.640) 現在,
+(37:29.100) 在第四季度,
+(37:30.760) 如桑傑所提到的,
+(37:34.200) 您將看到在14個協議中的16個協議中,
+(37:43.260) 有14個協議中的14個協議中,
+(37:43.260) 將有100億美元。
+(37:45.620) 然後接下來的12個月
+(37:53.100) 所以你會看到
+(38:00.060) And,
+(38:00.900) you know,
+(38:01.700) keep in mind this RPO number,
+(38:03.460) you know,
+(38:05.120) 這是一個
+(38:12.590) So you're looking at a minimum number
+(38:16.060) 這很重要,我們明確認識,這並不代表我們認為會發生的事。
+(38:21.900) 還有,每個季度,這個RPO數字會改變。
+(38:27.040) 它會改變根據增加的合約。
+(38:31.080) 它可能會改變增加的價格承諾。
+(38:35.820) 它會改變根據輸出的價格承諾,
+(38:46.890) 所以您將獲得很多增加的報告
+(38:50.670) This is all under ASC 606
+(38:54.050) I know it's something that we
+(38:55.610) it's not a heavy standard
+(38:57.950) typically in some of our reporting
+(39:00.530) but this feature of RPO you will see
+(39:04.480) 我還想要強調
+(39:09.220) that even at the floor price
+(39:10.840) and eventually we anticipate
+(39:15.240) about 40% of our revenue
+(39:17.340) 在這種RPO關係的承諾之下
+(39:24.590) 即使在桌面價格上
+(39:28.190) 我們預期桌面價格
+(39:30.420) 會超過前期桌面價格
+(39:37.510) 好的 謝謝
+(39:39.020) 您的下一個問題
+(39:43.770) 來自Joseph Moore的網絡
+(39:46.290) 與Morgan Stanley的網絡
+(39:48.070) 您的網絡打開了
+(39:48.990) 請繼續
+(39:49.510) 我還想問一下LTA
+(40:03.400) where if people cancel,
+(40:05.120) you would have access to cash,
+(40:06.240) like if it's not revenue,
+(40:14.200) if there is one?
+(40:18.770) Joe,
+(40:19.510) on the deposits,
+(40:21.950) 所以我們提到我們有22億的投資和金融承諾
+(40:41.140) 18億左右的那些是錢
+(40:46.490) We'll receive those deposits.
+(40:48.890) 我們在第三季度收穫了約400多億元
+(40:57.210) 我們在第四季度收穫了約10億元
+(41:02.510) And these will be seen,
+(41:13.720) It will not affect free cash flow
+(41:16.560) 他們會被我們執行,
+(41:28.080) And as those agreements are satisfied
+(41:31.640) 這些支付會在時間內
+(41:35.650) 但在協議中的後半部分會受到重大影響。
+(41:40.940) 有22億和18億
+(41:45.920) So roughly the 4 billion of others
+(41:49.160) is letters of credit.
+(42:19.510) commitment by the customers
+(42:22.400) and a reflection of the fact
+(42:27.040) that we have a binding agreement
+(42:29.440) and these are take or pay agreements
+(42:32.120) and we hold the cash
+(42:36.940) 這也是我們共同承諾的承諾,
+(42:39.720) to perform under these agreements
+(42:43.990) now this is good for Micron of course
+(42:48.340) these agreements
+(42:50.450) 我們能夠在我們的需求上得到明顯的顯示
+(42:56.120) 我們能夠堅定地做出我們的投資
+(42:59.430) 大型資產投資
+(43:01.050) 更接近技術關係
+(43:05.690) 這對客戶來說是很好的
+(43:07.550) 因為他們有供應確認
+(43:08.950) 他們有領導技術
+(43:12.070) 所以在我們的看法上
+(43:13.590) 這是個贏贏
+(43:14.270) 我們很高興
+(43:17.560) 和合同的 nature of the agreements and the impact they have on the business and
+(43:32.180) 謝謝您的所有關注
+(43:40.200) 和Kantor Fitzgerald
+(43:47.040) 早上好
+(43:51.620) 你認為這些現金投資是否有用於CAPEX?
+(43:57.000) 我認為當你在週四的CHIPS Act結束後,
+(44:04.520) 你會否想要投資現金?
+(44:06.180) 你會否加入現金?
+(44:19.140) CJ, it's unrestricted
+(44:37.330) Not in the near term
+(44:38.810) I think we of course are going to have
+(44:42.370) what we do is adequate liquidity
+(44:45.620) to support the operation of the business
+(44:49.610) that would include over time
+(44:52.830) returning the deposits as customers
+(44:57.330) 業務人員和MICRON執行計劃
+(45:01.860) 這當然是很重要的
+(45:07.190) 然後我們會保持利率
+(45:10.610) 以滿足我們認為
+(45:15.080) 業務人員的投資
+(45:16.220) 我們有很多
+(45:17.460) 我們有很多大型計劃
+(45:20.210) 來提供供應
+(45:21.970) 還有R&D計劃
+(45:25.310) 所以,
+(45:26.170) 你也知道,
+(45:28.760) 我再次強調,
+(45:29.840) 你也知道,
+(45:31.280) 客戶,
+(45:31.900) 你也知道,
+(45:32.840) 我剛才提到的,
+(45:33.760) 他們將得到這個回報支付,
+(45:37.320) 呃,
+(45:38.380) 在最後一半,
+(45:39.910) 最後一半的協議,
+(45:41.850) 完美的,
+(45:44.840) 呃,
+(45:45.360) 然後,
+(45:45.440) 也許是HPM的收入的繼續,
+(45:48.180) 你可不可以 kind of share how you're thinking about both your market share and perhaps total revenues into calendar twenty-six,
+(45:55.280) and you know,
+(45:56.320) 是否有預期在CALENDAR-27中
+(45:58.800) 您能夠在D5上得到的預期比較接近?
+(46:04.760) 還是會在D5上永遠低於D5的位置?
+(46:10.840) Thanks so much
+(46:11.440) So with respect to HBM
+(46:14.550) 首先,我們非常高興
+(46:27.510) HBM市場的股份,我們計劃性地選擇它接近我們的D-RAM股份
+(46:35.340) 這是重要的,
+(46:37.300) 因為HBM的交易比率,
+(46:40.400) 它消耗了,
+(46:41.440) 如您所知,
+(46:42.080) 很大的量量的煙霧
+(46:45.450) 並加強了企業的非HBM供應
+(46:49.090) in the industry
+(46:50.320) so targeting our HBM share
+(46:53.800) close to our DRAM share
+(46:55.560) strategically enables us
+(46:58.080) to supply our diversified end markets
+(47:00.620) customers across all end markets
+(47:03.830) 數字中心
+(47:08.990) the markets that need non-HBM supply
+(47:13.060) 關於您的問題關於明年的價格,
+(47:18.870) We are really not commenting on pricing
+(47:22.770) but certainly HBM is a product
+(47:25.730) 麥克風有一個強烈的領導位置,
+(47:29.010) We have demonstrated tremendous success
+(47:32.230) now with HBM 3E 8 high
+(47:34.730) HBM 3E 12 high
+(47:36.810) and now with HBM 4
+(47:38.310) and a strong roadmap ahead
+(47:40.530) of strong confidence
+(47:43.970) in our ability to execute to that
+(47:46.330) 這是一個比較高價的產品,與非HVM的產品比較高價的產品。
+(47:54.870) 它是一個非常重要的產品,對整個AI系統來說,從數據中心到極端。
+(48:01.930) 所以,從設計上來說,它是一個非常重要的產品。
+(48:05.670) 它也提供了ROI的產品。
+(48:09.740) 謝謝。
+(48:12.600) 你的下一位問題來自Vivek Arya
+(48:21.270) Your line is open. Please go ahead.
+(48:25.240) Thanks for taking my question.
+(48:26.540) Thanks for taking my question.
+(48:33.440) 我非常想知道
+(48:41.980) $100 billion,
+(48:43.380) 100 billion dollars,
+(48:56.380) 您有否給我們足夠的雞蛋糕
+(49:04.760) So our large customers include,
+(49:09.780) you know,
+(49:10.980) data center,
+(49:11.580) 以及您所提到的大型和中小顧客
+(49:16.620) you know,
+(49:17.600) and of course,
+(49:18.900) including our smaller customers,
+(49:20.620) 他們通過Data Center Consumer
+(49:26.460) 我們已經給您了色彩
+(49:34.380) of course,
+(49:36.040) you know,
+(49:37.500) generally have a ceiling price,
+(49:40.660) have a price band,
+(49:41.880) which has a floor as well as a ceiling,
+(49:45.120) 樓層在CQ2價格層上設立
+(49:51.880) CQ2的價格級別在FQ3和FQ4的指導上顯示出的價格級別。
+(50:05.100) 這些價格級別也提供了層層價格級別,
+(50:12.470) 在公司歷史上,
+(50:17.050) at any past cycle in companies' history
+(50:26.550) these are multi-year agreements
+(50:33.750) to demand customer commitments
+(50:39.150) including cash deposits
+(50:43.450) 在前一段時間的詳細詳細詳細詳細的談論中
+(51:14.020) 他們的模型是27、28之類的
+(51:16.560) 他們應該在中70年代
+(51:21.580) 在你現在的位置之間
+(51:24.140) 應該在平均平均平均的
+(51:25.100) 平均平均區域中
+(51:25.320) 如果您能夠
+(51:25.780) 我們能夠握手
+(51:26.760) 如何討論平均平均區域
+(51:28.780) 在近期期間的86%以外
+(51:30.780) 並且在長期期間
+(51:32.320) 如何討論平均平均區域
+(51:35.500) 在近期期間的86%以外
+(51:35.820) 如何討論平均平均區域
+(51:38.910) 是的
+(51:39.100) Vivek,
+(51:40.730) so vivek we're we're not
+(51:47.200) but we are at margin levels that,
+(51:50.720) as we've talked about before,
+(51:54.590) 增長價值
+(52:03.210) 所以,但是說到這一點,我們看到,如我們所說的,我們更新了我們的觀點
+(52:10.680) 關於市場狀況,
+(52:13.110) 我們期望市場能夠保持緊密遠離2027年
+(52:20.170) You know,
+(52:20.930) we also have,
+(52:22.170) you know,
+(52:24.100) is very much appreciated
+(52:31.920) the value that it brings
+(52:37.650) you know,
+(52:41.440) 因此,
+(52:42.600) 我們的繼續購買BITS的設置,
+(52:46.520) 例如Data Center和EDGE的高性能應用設備,
+(52:54.330) 將會有幫助在價格中和價格增長中較勞,
+(53:10.800) have done these SCAs with
+(53:13.890) and then also as we've talked about
+(53:16.290) we will get additional volume
+(53:20.850) starting mid-year materially
+(53:24.290) beginning mid-year 27
+(53:27.970) that will grow into 28
+(53:29.930) 28,
+(53:35.350) 但是,那些架架的吸收是在發生的。
+(53:41.370) and so over time,
+(53:44.280) we'll get that operating leverage.
+(53:50.560) 所以,我認為我們感到很高興,
+(53:55.580) Micron's technology position
+(53:58.840) world class product portfolio
+(54:01.700) you can see we're operating very well
+(54:04.360) and all those are supportive of
+(54:08.800) continuing to deliver a strong financial
+(54:12.200) 您的最後一個問題來自T.D. Cowan的Krish Sankar的網絡上
+(54:22.780) Your line is open, please go ahead
+(54:25.190) 謝謝你提出的問題
+(54:27.680) 我告訴他們
+(54:28.480) Sanjay
+(54:29.040) 或Mark
+(54:30.120) 恭喜你
+(54:31.120) 做出了很棒的結果
+(54:31.960) 在LTA的測試價格上
+(54:34.960) 你提到前一季
+(54:36.460) 你的前一季
+(54:37.980) 股價
+(54:38.320) 在60%
+(54:39.880) 62%的級別
+(54:41.120) 如果我試試
+(54:42.600) 把64GB的
+(54:45.540) D-RAM
+(54:46.220) 的價格
+(54:46.620) 我可以得到
+(54:48.190) $700的價格
+(54:49.290) 比起今天的$1500
+(54:50.530) 這就讓你
+(54:52.110) 以$10-12
+(54:53.010) 的GIGABYTE
+(54:54.850) 作為測試價
+(54:55.850) as the floor
+(55:00.700) Is that the range we should think about
+(55:04.500) i.e. low teams to mid $20 a gigabyte
+(55:17.040) but I just want to note again
+(55:19.020) 我所說的價格線在層層上會超過我們過去過去過去的高位。
+(55:23.920) 會超過我們經歷過的高位
+(55:30.890) 在過程中的高位
+(55:32.790) 所以超過了
+(55:33.350) 但我們當然不會進入
+(55:36.770) 價格關係的具體評價
+(55:39.530) 最後就是
+(55:41.270) 這些SCA
+(55:42.750) 真的幫助我們提供
+(55:45.530) 視力、強力和持久性的需求
+(55:49.590) for us and they absolutely
+(55:51.770) fundamentally
+(55:53.190) accelerate our financial
+(55:57.030) performance and
+(55:57.990) financial the business
+(55:59.690) 最高的成本
+(56:03.600) Sanjay and just a quick follow up
+(56:05.320) 對,非常有幫助,Sanjay。
+(56:07.500) grow low to mid 20s
+(56:09.080) and probably in the 20%
+(56:11.580) range this year and clearly
+(56:13.480) we are undersupplied in both. Is there
+(56:15.580) a way to quantify what happens
+(56:17.420) in 2027? Is there a way to say
+(56:19.100) is the undersupply going to be
+(56:23.280) 2027年是否會重新重新增長
+(56:24.700) 還是要如何想辦法
+(56:25.420) 在2027年中
+(56:28.600) 對供應期限的缺陷
+(56:30.140) 有什麼看法
+(56:30.160) 我們看到2027年
+(56:32.540) 整體的硬性很強
+(56:34.660) 我們說了
+(56:35.060) 我們看到硬性
+(56:35.900) 繼續在2027年以來
+(56:39.960) 很努力地提升供應
+(56:42.200) 但我們和您分享了
+(56:43.260) 我們知道
+(56:44.180) 需要多長時間
+(56:45.340) 提升供應的增長
+(56:47.160) 需要的增長
+(56:48.600) 為了支持客戶的需求
+(56:50.740) 增加流動力的增加,
+(56:52.440) 以及,當然,
+(56:53.320) 科技的轉變和他們給的少數幣減少,
+(56:58.140) 以及HBM的貿易比率
+(57:00.680) 也受到極大的壓力,
+(57:02.040) 包括整體供應增長。
+(57:04.700) 所以供應,
+(57:06.620) 即使是在2028年,
+(57:09.610) 當供應逐漸增加,
+(57:15.390) 我們看到,
+(57:16.510) 我們可以看到,需求將繼續持續增長
+(57:21.290) 因為這些AI趨勢是非常長期的趨勢
+(57:25.570) AI仍然在很早期的階段中
+(57:29.010) 整個加密貨幣經濟需要更多的記憶
+(57:34.310) 在這裡,AI系統的表現
+(57:37.480) 實際上是非常限制於記憶能力
+(57:41.530) and memory performance
+(57:44.670) memory bandwidth
+(57:45.930) so the demand for memory
+(57:48.870) is as the compute demand grows
+(57:52.030) and our customers look at
+(57:53.810) a tremendous transformation opportunity
+(57:57.190) that is ahead of them
+(57:58.490) and continue to make investments
+(58:01.410) like they have never made before
+(58:03.290) to build this infrastructure
+(58:04.790) to build this infrastructure
+(58:08.270) memory is at the center of it
+(58:11.070) and this is a strategic asset
+(58:12.870) and access to memory supply
+(58:14.470) is obviously a critical priority
+(58:16.990) as you can see
+(58:18.170) in the multi-year agreements
+(58:20.710) 我們的顧客也結束了。
+(58:24.670) I mean those agreements
+(58:25.870) reflect the confidence
+(58:28.700) in the growth of the demand
+(58:29.960) so we are working hard
+(58:31.440) to bring up supply
+(58:32.180) but we see tightness persisting
+(58:34.980) beyond 2027
+(58:36.280) Thank you very much
+(58:39.080) I really appreciate it
+(58:40.080) This concludes today's call
+(58:45.180) 感謝您的參與
