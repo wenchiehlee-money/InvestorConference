@@ -1,0 +1,758 @@
+[METADATA]
+Source: ORCL_2026_q4_exp11
+Language: zh
+---
+(00:00.020) 我現在想把會議交給肯·邦先生。請你進場,先生。
+(00:03.540) 謝謝,莉莎。大家早上好。
+(00:06.880) 歡迎來到歐盟四季度和2026年度的利息會議。
+(00:12.080) 今天在會議上的是前行政務司司長麥克斯西利亞、前行政務司司長克雷·麥格爾克、前行金融司司長希拉里·馬克森。
+(00:15.600) Chief Executive Officer Clay McGurk,
+(00:20.540) A copy of the press release,
+(00:25.780) tables,
+(00:28.340) from the Investor Relations website.
+(00:46.880) As a reminder,
+(01:03.070) from statements being made today
+(01:04.590) As a result, we caution you
+(01:10.140) 我們也鼓勵您去看我們最新的報告
+(01:13.160) 包括我們的10K和10Q
+(01:16.260) 以及任何合法的改革
+(01:19.900) or these forward-looking statements
+(01:21.800) 以新的資訊或未來的事項為目的
+(01:23.880) 在請問之前
+(01:27.310) 我們會開始準備準備的評論
+(01:34.380) 今天很高興與您一起在這裡
+(01:38.480) 我會有幾個想法
+(01:41.700) 我花了全世界的事業
+(01:44.960) 在公司中使用科技和數據
+(01:48.340) 來引發轉變
+(01:53.060) 我相信
+(01:57.160) 是在實際上的
+(02:01.880) 從 infra structure
+(02:06.540) Oracle understands that intersection
+(02:09.940) 並且現在專門為我們看見的最重要的技術轉變中的一個最重要的轉變。
+(02:17.680) 非常少公司可以幫助客戶在整個技術組成,
+(02:23.050) 從AI 工作彙報的 cloud 基礎,
+(02:26.550) 到他們的業務執行的 mission critical 應用。
+(02:30.370) Oracle can do both
+(02:32.280) 加上這是一家公司
+(02:34.120) 有深入的技術 expertise
+(02:35.540) 分別的技術
+(02:37.360) 和長期的歷史
+(02:39.180) 幫助客戶
+(02:40.320) 將技術 創新
+(02:41.800) 轉移到 tangible business value
+(02:44.620) 現在我只在這裡兩個月
+(02:47.290) 我看到的一切
+(02:48.890) 都能強化我的信心
+(02:50.550) 在公司的策略
+(02:52.210) 行動和未來的機會上
+(02:55.440) 我很興奮要成為團隊
+(02:57.240) 我期待幫助Oracle
+(02:59.040) 賺錢在我們面前
+(03:01.920) 帶來投資和股市價值的回報
+(03:05.240) and as we pursue these opportunities
+(03:08.370) 專注於專業資金投資
+(03:11.660) maintaining a strong balance sheet
+(03:14.120) 以及保持我們的投資級的信用率
+(03:17.580) 這讓我們來看看Q4和年度的26個結果
+(03:22.990) 正如Kent所說
+(03:26.020) to accompany our earnings call
+(03:27.700) so you can follow along with the numbers
+(03:29.500) and key comments we'll make today
+(03:31.360) in terms of Q4
+(03:33.730) it was a record quarter
+(03:35.750) driven by strengths
+(03:36.870) in both our cloud infrastructure
+(03:38.570) and cloud apps business
+(03:40.430) revenue was 19.2 billion
+(03:43.420) up 21% in U.S. dollars
+(03:46.680) cloud infrastructure revenue
+(03:47.940) grew 93%
+(03:49.840) reflecting strong demand
+(03:51.560) for both AI workloads
+(03:53.040) and our database services
+(03:54.740) and cloud apps was up double digit
+(03:57.260) at plus 10%
+(03:58.700) and Michael Clay will give more detail
+(04:01.000) on these businesses in just a moment
+(04:03.100) 我們的非加密貨幣的生產收益
+(04:10.180) 由於我們的增長成本
+(04:13.970) Our operating margin increased slightly,
+(04:16.310) with our gross margin declining,
+(04:18.310) 由於我們的數據服務
+(04:25.090) This was more than offset in the quarter
+(05:03.690) non-GAAP operating income
+(05:08.770) Our non-GAAP EPS
+(05:15.180) including one-time gains on investment.
+(05:19.780) Excluding these gains
+(05:25.300) For the full year
+(05:43.480) driven by operating efficiency.
+(06:41.660) future revenue growth
+(06:42.880) all supported by long-term
+(06:45.300) contractual customer commitments
+(06:46.940) and reflects the strong customer demand
+(06:49.700) we see across both AI infrastructure
+(06:52.100) and cloud service
+(06:53.200) more detail on our RTO
+(06:56.550) we expect 12% to be recognized
+(06:59.190) in the next 12 months
+(07:00.410) and another C4 percent
+(07:15.360) on our outlook for fiscal year 27 and Q1
+(07:20.490) Thank you Hilary and welcome to Oracle
+(07:23.370) So I'm going to cover our cloud apps
+(07:25.190) and cloud database business
+(07:26.430) in a bit more detail
+(07:27.570) 表達了很好的效果,而且做的都做得很好。
+(07:31.110) 我們在技術行業中,是對技術生產的一個最有趣的時刻。
+(07:36.000) 我們的顧客現在專注於如何用AI來運輸自己的生產。
+(07:40.620) 他們想用AI來增加通能,增加客戶服務,
+(07:45.240) 並且創造實用的獲得供應項目。
+(07:48.350) 因為他們可以做得很快,而且在他們的存在的預算中。
+(07:53.440) Oracle的特別優點就是,我們達到的應用,
+(07:57.130) 應用,數據, infrastructure
+(08:28.370) 這些專業主要的供應方式可以理解、決定和執行工作的過程中
+(08:36.780) 所以,唯一最快速、最便宜的和最有效率的方式
+(08:43.080) 就是使用Oracle的應用程序
+(08:47.060) 因為每三個月
+(08:54.230) 這是專業設計中的大改變
+(09:00.270) And you can see it in our Q4 results
+(09:01.910) Oracle Cloud應用程序
+(09:05.830) which was up 10%
+(09:07.590) 這率是10%
+(09:11.830) 在公司中
+(09:15.440) over 300 in Fusion alone
+(09:18.020) X-Alarm執行了
+(09:21.860) 來管理行動
+(09:25.490) Westfield Insurance
+(09:28.370) and Vireus Bank
+(09:31.330) Just to name a few
+(09:33.060) all of these customers
+(09:37.450) That also comes with AI built right in
+(09:41.090) in Q4 we also continued
+(09:45.130) at the United States Department
+(09:47.350) of Veterans Affairs
+(09:50.920) and in early June
+(09:55.500) 在澳大利亞
+(09:58.910) Serving 29,000 clinicians
+(10:00.790) 和美國的500萬的捐贈人員
+(10:04.550) 而在我們的Q4選舉中
+(10:07.920) 美國政府的人員管理部
+(10:11.330) 今天宣佈了
+(10:12.610) 以阿爾加羅克爾為FusionHCM的
+(10:16.440) 公司聯合獎
+(10:16.460) 這當然是我們在
+(10:19.620) FY27的應用企業中
+(10:22.040) 很大的開始
+(10:22.140) 除了在我們的應用企業中
+(10:24.370) 談論AI的談論
+(10:26.390) 我還在和我們的客戶
+(10:29.750) 進行非常有趣的談論
+(10:33.030) 這些資源已經存在在俄羅羅的圖表中
+(10:40.660) For many enterprises
+(10:49.180) Oracle's full stack offerings
+(10:57.700) This is why Claro
+(11:01.300) 我們在美國選擇了OCI,
+(11:02.740) 業務服務應用程序,
+(11:04.920) 以及我們的AI數據平臺,
+(11:06.920) 為這周的30億訂閱者提供了客戶服務。
+(11:12.120) 英國國際醫療服務計劃與商務計劃。
+(11:30.260) Again, just to name a few.
+(11:39.360) Here are just two examples.
+(11:40.820) the Oracle AI agent memory
+(11:49.740) Oracle deep data security
+(11:54.220) at the database level
+(11:57.720) it limits precisely
+(12:06.840) all of these innovations
+(12:12.090) our partner's clouds,
+(12:13.810) and in our customers' environments.
+(12:31.210) 一例,一家企業使用一大系列的Oracle技術和Vodafone的技術,
+(12:36.460) we turn to us and Q4
+(12:41.640) Vodafone selected OCI dedicated region
+(12:45.420) and their data centers
+(12:49.140) and a partner cloud
+(12:53.910) 或者在某些情況下達60%迅速
+(12:57.050) 最終,我們正在與我們的客戶合作
+(13:00.030) 以達到在他們的AI預算中的快速的ROI
+(13:03.500) 為此,我們正在簡單地
+(13:05.140) 如何讓客戶使用和付費
+(13:07.360) Agentic的技術
+(13:08.700) 我們的新的Agentic價格
+(13:10.910) 與客戶的價值聯繫
+(13:12.890) 現在,我們的AI新技術
+(13:15.170) 在我們的核心應用程序中
+(13:17.810) 繼續被加入,沒有額外的費用
+(13:20.830) 然而,客戶也可以購買
+(13:24.230) in a simple, predictable way
+(13:28.470) by purchasing bundles of tokens
+(13:30.630) that can be used
+(13:31.610) cross their application suites
+(13:33.370) We're also introducing
+(13:35.340) outcome-based commercial models
+(13:37.560) that align pricing directly
+(13:39.360) to the value derived
+(13:40.520) For example, interview agents
+(13:43.710) that are priced based on
+(13:45.130) the number of candidates screened
+(13:46.770) or hospitality up-sale agents
+(13:49.180) priced on the percentage
+(13:50.760) of end-consumer up-sale transactions
+(13:53.680) In Q4, we started
+(13:56.760) 我們的Token Bundle有限度的拆卸,有33個客戶,例如Aion Services Corporation和Liberty Energy,
+(14:04.230) 有免費的Token,有提供更高的理論和Models。
+(14:09.500) 這些都幫助我們的客戶控制他們的費用,並且合作在他們的花錢中,以提供的價值。
+(14:17.060) 我將將這些提供傳達到Clay。
+(14:19.860) 謝謝,Mike。
+(14:21.130) 好的,你剛才聽到我們的Applications和Database Business的東西。
+(14:27.050) and they continue to impress us
+(14:42.660) ok
+(14:50.420) we created OCI as the most highly secure
+(15:08.680) 我們聯合OCI和Fusion的功能
+(15:14.400) We architect across data center design
+(15:19.760) 以達到最有效
+(15:23.300) 產品的產品
+(15:27.600) 這是因為我們知道
+(15:32.740) 他們自己能夠
+(15:45.130) the technology we've created
+(15:46.750) the technology we've created,
+(15:51.300) hardware, networks and cloud regions
+(15:53.740) to ensure we are always the best place
+(16:08.040) 我們看到的一切都顯示
+(16:12.440) 同時與我們之前提到的30%至40%的平均線
+(16:16.330) OCI應該成為一個非常大的和非常有利的商業
+(16:20.430) 這些信息被支持的原因是
+(16:25.030) 我們在這一季簽訂了AI產業項目的67億美元
+(16:29.470) 大部分的合同是
+(16:32.870) 這增加了我們的混合
+(16:38.500) 這些項目的平均線和我們的其他項目的平均線
+(16:43.170) 都沒有分別
+(16:51.000) design, delivery and operation
+(16:56.180) Q4 finalizes an impressive FY26
+(17:02.480) 我們的達到的速度
+(17:04.480) with our FY27 Q1 delivery
+(17:08.000) approaching 1BW
+(17:12.120) there will be many winners in AAM
+(17:24.370) 我們的基礎是非常多元
+(17:26.650) 我們一直在與客戶合作
+(17:29.850) 在Q4中
+(17:35.520) 從Q4中收穫了35,000個GPU
+(17:41.760) 這不代表8%的GPU是相同的
+(17:44.860) 大部分GPU自己
+(17:49.400) Our global GPU utilization rate is 97.5%
+(17:54.050) It's also clear that AI is here to stay
+(17:57.020) AI在多層層上提供價值
+(17:59.700) 但最明顯的就是人工智能
+(18:01.940) 這是一個地方
+(18:06.040) 人工智能工具
+(18:09.660) 我們看到沒有慢下
+(18:12.560) 這些功能
+(18:16.180) 和我們與他們合作的夥伴
+(18:19.520) 是非常大的
+(18:23.000) Okay, now, before I end,
+(18:27.160) 和我們看到的所有資產的重要增長
+(18:30.650) To begin, let's look at Abilene, Texas.
+(18:33.850) 阿波林,德克斯今天達到42%的總容量
+(18:37.750) 還有35%的容量將在接下來的90天內達到
+(18:41.790) 剩餘的容量將達到剩餘的一半
+(18:44.350) Moving forward to Shackleford, Texas.
+(18:46.730) We contracted this in August of 2025.
+(18:53.340) I'm sorry first half of calendar year 27
+(18:56.130) 115 megawatts of power capacity
+(19:00.110) more than one month ahead of schedule.
+(19:05.940) we contracted this in September of 2025.
+(19:19.590) We look at Saline, Michigan.
+(19:21.370) We contracted this in October of 2025.
+(19:24.670) 客戶送貨開始在2027年的第二半。
+(19:29.080) 聯絡團是在計劃前的,在這個年份的結束前送貨。
+(19:32.800) 然後,我想在最後的位置觸碰,是華盛頓,華盛頓, Wisconsin。
+(19:38.420) 這是在2025年10月份簽署的,送貨開始在2027年的第二半。
+(19:46.430) 我認為您可以看到
+(19:52.140) 專家專家專家
+(19:54.970) and to have the privilege of doing that
+(19:56.630) at a company like Oracle
+(19:57.550) 尤其有趣的是,能夠加入我們的應用和數據基礎企業的一類的新生產者的內在觀點
+(20:00.010) of the birth of a new business
+(20:01.270) 新的商業的生長
+(20:03.250) and database businesses
+(20:04.190) 希望這些信息和數據點給你一些理解
+(20:06.640) 我們對OCI的興奮感到什麼程度,以及它將在Oracle中受到的影響
+(20:09.260) and where that's going to take Oracle
+(20:10.880) 並且,我將這些消息傳輸給Hillary
+(20:12.870) Thanks Clay
+(20:14.600) 在我們的股市年度27年和Q1規則之前
+(20:18.600) 我希望可以分享一些我們的資金期望的評論
+(20:22.260) We already mentioned throughout the call
+(20:24.360) 我們在Oracle看到的
+(20:28.960) 我們的強勁Q4結果是這樣的
+(20:32.680) 客戶需求和未來的收入的增長
+(20:37.760) 是我們在我們最新的分析日的長期金融目標中
+(20:41.860) 分享的最新的分析日
+(20:47.420) 到28%的收入增加
+(20:52.360) 為了開發這種獨特的成長機會
+(20:59.740) 資金投資計劃
+(21:03.840) 繼續投資
+(21:11.180) 這包括客戶的支付和時間影響
+(21:18.240) 所以我們的報告的價格
+(21:22.220) 重要的是,這些投資是受到承諾的客戶需求,
+(21:28.040) 在我們的記錄中,
+(21:30.300) 給予我們的長期目標的自信,
+(21:33.100) 以及我們正在投資的資金的強勁回報。
+(21:36.560) 正如Claire所說的,
+(21:38.810) 這些需求讓我們能夠獲得客戶的預算,
+(21:42.110) 並且將您自己的硬件帶來相似或更好的預算。
+(21:46.750) 為了支持我們的投資項目,
+(21:50.460) 我們期望在今年二十七年,
+(22:08.010) to our fiscal year 2027 guidance
+(22:16.880) 以預期增長和我們的總收入的增加,
+(22:22.760) 超過我們的長期觀察中的5年收入的收入,
+(22:27.740) 我們將在我們的數字中的預算中,
+(22:35.490) 在我們的數字中的預算中,
+(22:39.670) 並且將影響於混合性。
+(22:43.940) 在我們的產業中的數字中
+(22:46.360) 在我們的產業中的數字中
+(23:20.980) 在我們的數據中
+(23:38.060) In non-GAAP EPS,
+(23:39.440) we expect between $1.72 and $1.76,
+(23:43.600) up between 17% and 20% in U.S. dollars.
+(23:55.160) To fulfill customer demand
+(23:56.740) 我期待與你們一起
+(24:00.070) 在下個幾個星期和月內
+(24:02.870) And at our next Oracle Investor Day
+(24:05.310) Scheduled for October 28th in Las Vegas
+(24:07.830) 與我們的Q1
+(24:11.010) Thank you, Hilary
+(24:12.370) Thank you, Hilary
+(24:15.470) Absolutely, ladies and gentlemen
+(24:23.300) 第一個問題來自Guggenheim Securities的John DiFucci
+(24:32.580) Thank you.
+(24:35.760) 我的問題是一個我這一季都談過的問題
+(24:39.600) Clay,你提供的很多資訊,非常有用
+(24:44.140) But there's one little nuance here.
+(24:46.500) 你在這一季花了比我們期待的CAPEX比較多
+(24:50.980) 這是這個題目的主題
+(24:53.480) It adds into it.
+(24:54.500) 我們都知道
+(25:12.340) 你知道,這對很多設備公司和大型 cloud 公司來說是個問題。
+(25:18.000) 我認為這對你來說並不是太大問題,根據我的理解,
+(25:22.060) 你如何建立你的合作,但你能否解釋給投資者,
+(25:27.170) 你和最後的客戶和供應商?
+(25:34.090) 好的,是一個很好的問題,John。
+(25:36.930) 我再次想問你一遍。
+(25:39.130) 我會解釋這兩個問題。
+(25:41.570) 在我們在Q4中所見到的資金費用方面,
+(25:47.410) 我們對於我們的看法來說,
+(25:48.970) CAPEX的增加並非對於成本價值的原因,
+(25:51.950) 大多是因為時間。
+(25:54.510) 這主要是關於時間。
+(26:25.640) 當我們在一段時間內賣出東西時,我們有確定性,無論是因為價格已經被允許,
+(26:31.720) 或我們有確定性,因為我們有很多價值,無論是空間和力量的費用,
+(26:37.680) 能量費用,人口費用,結構費用,當我們知道這些費用,我們就會進行確定價值策略。
+(26:45.090) 有時候我們不知道這些費用,
+(26:46.910) 因為它在未來太遠了,
+(26:49.220) 或我們有太多供應鏈的風險,
+(26:56.960) 我們不再與我們的客戶進行平價協議
+(27:00.680) 我們有一個方法,使得那些費用被浪費
+(27:06.140) So I don't like it when costs go up
+(27:10.830) 我們的客戶不喜歡當費用上升
+(27:12.490) 坦白說,我不認為我們的供應商也不喜歡
+(27:13.990) 他們想給我們我們想要的一切
+(27:17.430) But when the costs do go up
+(27:19.370) 我們認為我們有一個非常堅強的設備
+(27:22.550) 以確保Oracle不在減少市值
+(27:27.430) 非常有用,非常有意義
+(27:32.000) 如果我能夠說一下
+(27:33.140) Hillary你剛才提到
+(27:35.400) 我會問的
+(27:36.660) 這是第二個問題
+(27:38.180) 有很多問題
+(27:39.500) 你有長期目標
+(27:41.660) 你是新的CFO
+(27:43.920) 恭喜你
+(27:45.160) 很高興有你
+(27:46.760) 但你能不能
+(27:48.430) 評價這些長期目標
+(27:54.950) I think
+(27:58.220) 我認為
+(28:00.760) I think that we're reconfirming
+(28:02.720) those long term targets
+(28:03.940) in the sense of the CAGRs
+(28:06.060) that we put into the slide today
+(28:08.400) so we feel comfortable with that
+(28:10.080) and you can see the RPO building
+(28:11.940) to the level that you can
+(28:14.120) start to have a lot of belief I think
+(28:16.260) in those long term targets
+(28:18.280) exactly
+(28:18.860) so full reconfirmation from my side
+(28:21.260) on the long term targets
+(28:22.480) 非常明確,非常感謝,很棒的工作,大家
+(28:26.730) 接下來的問題來自布拉德,德國銀行
+(28:31.950) 非常好,謝謝你提出這個問題
+(28:36.800) 和Hillary,歡迎來到Oracle
+(28:38.900) Hillary,當你來到Oracle
+(28:40.820) 從一個在另一個企業中的資金激進企業
+(28:44.440) 你如何建議投資者
+(28:47.090) 考慮Oracle的進步和收入
+(28:49.810) 在這段時間中的重大投資
+(28:51.410) 是的,所以我認為的方式
+(28:57.000) 正如我們說的,在賺錢的電話中
+(28:58.660) 我們感覺到資金的收益是對於電子設施業的收益,
+(29:00.960) 所以CPU和GPU的生產業是相當強大的。
+(29:03.660) 從回報箱的角度來看,
+(29:07.100) 我認為資金收益的收益是在投資資金的收益上。
+(29:10.200) is in return on invested capital
+(29:12.760) 我們看到的資金收益是在高20年代的穩定狀態下,
+(29:15.540) in the high 20s at a steady state
+(29:18.880) 即是在計劃上的項目上,
+(29:21.920) at the project level
+(29:23.440) 這不代表誰知道GPU不需要在長期上更改
+(29:26.460) 就像誰知道GPU不需要在長期期間更換
+(29:31.300) and things like that
+(29:31.940) just purely in the steady state
+(29:37.260) 如果我們能夠維持和提升平均
+(29:40.520) 例如你自己的硬件
+(29:42.680) the ROIC structures
+(29:44.060) ROIC的硬件的ROIC會更高
+(29:47.780) and again that backup envelope
+(29:49.460) 我只是在計算投資金額的回報,
+(29:51.960) 就是後期費用價值加上減少,
+(29:55.140) divided by gross investment
+(29:56.520) 所以是整個投資項目的項目在項目層面上。
+(29:59.700) 這可能給你一點想法,當然,我們很高興可以在下半個季度之後談論更多。
+(30:04.560) Over the next couple of quarters
+(30:05.880) That's really helpful, Hilary, thank you
+(30:12.650) Nice job to everybody, thank you
+(30:14.250) Thank you.
+(30:24.240) And also congrats on the quarter
+(30:26.220) And Hilary, welcome
+(30:27.540) and Hillary welcome
+(30:29.620) Clay and Hillary,
+(30:30.760) Clay and Hillary,
+(30:35.120) including the NeoClouds,
+(30:36.800) SpaceX,
+(30:37.460) SpaceX,
+(30:39.600) etc.,
+(30:40.840) etc.,
+(30:49.760) one,
+(30:50.000) retain customers,
+(30:51.060) renew contracts,
+(30:52.180) two,
+(30:52.680) capture new customers,
+(30:54.200) and three,
+(30:54.660) maintain or improve margins? Thank you.
+(30:57.100) 對,
+(30:57.640) 謝謝,
+(30:59.820) 謝謝馬克,
+(31:00.680) 嗯,
+(31:01.000) 看,
+(31:01.940) 我認為,
+(31:02.800) 呃,
+(31:03.740) 首先,
+(31:05.820) 我認為這是非常重要的,
+(31:07.020) 我們要專注於客戶,
+(31:08.700) 所以,
+(31:09.560) 嗯,
+(31:10.400) 很漂亮的是,
+(31:11.480) 認為你是從存在的rpo或增加的合約,
+(31:15.720) 我們在獲得的,
+(31:16.300) 是的,
+(31:16.600) 有很多,
+(31:16.960) 很多事情在市場上發生,
+(31:18.740) 但我們有一個非常龐大的許多客戶,既非常龐大,也有更小的客戶,
+(31:25.120) And what I spend all of my time doing
+(31:27.480) Is I wake up every day
+(31:30.080) Are as happy as possible with us
+(31:33.160) And that's you know
+(31:34.580) When I share the numbers for example
+(31:36.260) In the prepared remarks
+(31:38.180) 非常高的使用率,即使事情重新重新發生,它們都會立即解決
+(31:41.260) Even when things come back for renewal
+(31:42.840) They're instantly snapped up
+(31:44.600) Those are all indicators
+(31:45.900) 這些都是我們對客戶關係的指示
+(31:48.480) They're happy with the products
+(31:49.760) 他們非常滿意我們的價格,我們會允許他們
+(31:51.700) That we're charging for them
+(31:57.230) I think there's clearly several years in
+(32:03.370) 所以我認為將會有更多人試圖達到這種需求,
+(32:08.270) but I don't worry about that
+(32:09.630) 但我並不擔心這些,
+(32:12.390) at a reasonable margin profile
+(32:14.130) 我認為您已經看到我們創建了新的商業模式,
+(32:18.350) to go out and try to serve
+(32:20.730) 關於如何影響未來的恢復,我認為將來的恢復主要影響的是我們將在現在與現在之間的數年關係。
+(32:23.210) 我認為將來的更新主要影響的是
+(32:26.320) is the several years relationship
+(32:30.000) 我們在服務生產業中的基礎性。
+(32:32.380) 如果你只是買了一些東西,然後你完成了它,這不是這樣的方式,對吧?
+(32:35.960) and then you're done with it
+(32:37.200) it's not the way it works right
+(32:38.200) 這些人正在依靠我們在Oracle做的事情,就是在每天使用和維持這些巨大的框架。
+(32:40.560) 在每天都在維持這些巨大的圖層
+(32:43.220) 我們的能力做得非常好
+(32:47.120) 創造了非常有利的關係
+(32:49.840) that then ensures that renewals go well
+(32:53.400) 然後在價值圖表上,我已經在Oracle工作了12年了,我一直都在在OCI上工作。
+(33:01.020) 我可以告訴你,建立非常有效、非常安全、很穩定的、很堅定的、很堅定的圖表是不容易的。
+(33:06.520) 所以,
+(33:06.900) 我認為我們的客戶看到和感受到我們提供的價值,
+(33:12.290) 我們給予他們的幅度,
+(33:14.150) 我們提供的詳細設計。
+(33:16.930) So I think that over time,
+(33:20.500) as the market continues to mature,
+(33:23.200) 市場繼續成長
+(33:28.020) In the making made more efficient
+(33:34.520) 提高價值
+(33:37.820) 我們在過去的一年中
+(33:44.680) I do really appreciate it
+(33:47.800) Thank you
+(34:02.080) You mentioned two things as net new.
+(34:16.560) 更具體的說明是在市場上的結果基礎市場價格模式上
+(34:21.500) 呃 how do you think this reduces friction and what is this related to uh what modules
+(34:29.580) 在其他語言上
+(34:36.720) 最後您認為這會影響業務
+(34:42.490) Sure. Thanks for the question, Keith.
+(34:44.330) 所以,我們的預算基礎價格是不完全新的。
+(34:48.590) 這是我們在建築業中做的,
+(34:50.930) 基於建築價值管理,
+(34:53.850) subcontractor,
+(34:56.170) a general contractor,
+(34:56.970) a subcontractor,
+(34:58.150) cash flow,
+(34:58.950) and payments.
+(34:59.690) Also,
+(35:00.490) as I mentioned in my prepared remarks,
+(35:02.190) with hospitality,
+(35:03.030) and even in healthcare,
+(35:04.810) in our new AI-based automated agents,
+(35:08.750) 我們在原理醫生數據,在醫學傳輸中
+(35:14.490) 這就是提供服務人員所擔心的問題
+(35:18.150) 我們能否通過醫療系統
+(35:21.410) 提供更好的服務給病患者
+(35:23.610) 我們現在正在擴展這項服務
+(35:27.630) 在我們整個區域
+(35:28.590) 如您所提到
+(35:29.510) 在我們所有的服務
+(35:30.450) 包括醫療系統
+(35:33.690) 現在
+(35:35.170) 困難的地方是
+(35:37.040) 如果您沒有創造出結果
+(35:38.080) 那是一件困難的事情
+(35:40.900) 但自從我們進行了全項投資
+(35:43.780) 由於我們能夠從大型語言模式到我們的客戶取得最佳出口,
+(35:49.620) 配合我們的專業計劃和專業計劃,
+(35:53.400) 我們能夠很簡單地計算我們的客戶的出口。
+(35:57.670) 我剛才提到,我們經常聽到客戶的問題是,
+(36:01.870) 他們要花多少錢在AI上,
+(36:04.470) 以及如何很快地得到ROI。
+(36:06.670) 所以,我認為我們有一個非常獨特的利益。
+(36:09.130) 我們在電子建築生意中,
+(36:10.750) 我們有大量的LM企業訓練,
+(36:14.990) 我們有我們所有的應用生意,
+(36:18.040) 無論是橫幅或直轉的生意,
+(36:20.400) 我們自然在生產這些成果給予客戶,
+(36:23.100) 這真的給我們能夠幫助他們理解自己的AI額度,
+(36:27.160) 還能夠將這些定義到價值,
+(36:30.060) 這實際上是很容易去計算的。
+(36:33.240) I think it's a unique offering,
+(36:36.040) 它依靠我們做的全項投資
+(36:38.920) and as I mentioned,
+(36:40.340) early days,
+(36:41.040) but certainly resonating,
+(36:43.800) very,
+(36:44.360) very well with customers.
+(36:45.840) 他們很感謝這種透明性
+(36:52.640) 我還提到了Token Models
+(36:56.180) 我們在做很多的Fusion應用
+(37:02.320) 客戶如果想得到提供預算,他們想要,你聽我說,
+(37:07.060) 我們在模型中用上更多的區塊,
+(37:08.600) 我們有讓他們使用免費分配的拉伸子,
+(37:32.280) 也有很大的增長。
+(37:41.130) 從巴克利斯的問題。
+(37:50.890) 我們討論過很多AI,
+(37:55.410) 很好的能量,
+(38:14.820) 然後在應用方面,
+(38:19.520) 但是您也在電話上提到一些非常好的客戶賺取賺取,
+(38:26.120) 您可以跟我們談談您在經紀業中的觀點嗎?謝謝
+(38:31.050) 我們也會邀請Klai進場
+(38:33.790) 在應用項目上
+(38:36.870) 我們認為雙分項目的增長
+(38:39.070) 在一季度收益率的4.1億美元
+(38:43.310) 是很好的
+(38:45.130) 我們很高興
+(38:47.170) 能夠繼續雙分項目的增長
+(38:49.190) 如我所說
+(38:49.770) 在一季度收益率的雙分項目的稅率
+(38:51.930) 是16%
+(38:52.550) 所以我們的雙分項目
+(38:53.650) 在一季度收益率的稅率上
+(38:55.350) 增加了我們的信心
+(38:58.090) 至於發生的影響
+(38:59.910) 我認為
+(39:02.800) 有些人有拖延的決定運動
+(39:05.420) as customers saw through that
+(39:06.620) 但尤其是在領域執行重點系統的地方,就是我們在Oracle上玩的地方,
+(39:11.120) which is where we play at Oracle
+(39:12.600) people have quickly moved on to that
+(39:15.000) and realized that enterprise software
+(39:18.280) 互動設備
+(39:21.880) is certainly a very good approach
+(39:24.840) 並且是必須向前移動,以保護他們的商業。
+(39:27.400) and protection of their businesses
+(39:29.820) 因此,我期待我們的應用商業將繼續成為Oracle的健康貢獻者。
+(39:31.980) will continue to be
+(39:33.480) to be a healthy contributor to Oracle
+(39:35.560) as it has been
+(39:36.860) as far as database
+(39:38.660) cloud database is 29% in the quarter
+(39:41.240) with multi-cloud as I mentioned
+(39:43.120) growing even
+(39:43.620) multi-cloud revenue growing at 4x
+(39:45.660) pokings growing at 3.25x in the quarter
+(39:48.220) 而這裡是雙方電子媒體的真正的好消息
+(39:50.060) we're in early innings
+(39:52.580) very early days on multi-cloud database
+(39:54.540) we continue to unlock new regions
+(39:57.580) 以及在某些情況下,與我們的產業團隊合作,
+(40:02.480) 我們期待這個生意繼續成為一隻軟件,
+(40:05.660) 以進行進行,或以往的進行。
+(40:08.320) 我會說,最後的一件事,
+(40:10.680) 除了Multi Cloud,
+(40:12.860) 在數碼中的新產,
+(40:13.940) 我提到過,
+(40:15.680) 我們在數碼中的數碼中的數碼中的數碼中,
+(40:17.300) 例如Vector Database Surge,
+(40:21.840) 和我們在數碼中的數碼中的數碼中的功能,
+(40:27.240) Data strategy matters,
+(40:28.520) data architecture matters,
+(40:29.840) 數據的建築物重要,
+(40:33.620) which has been,
+(40:35.720) again,
+(40:36.000) also in early days,
+(40:47.040) Multi-Cloud,
+(40:47.680) you know,
+(40:49.480) all facets of database,
+(40:50.900) Oracle Cloud,
+(40:51.560) Multi-Cloud,
+(40:59.740) for our business,
+(41:01.120) this is very good.
+(41:03.850) Perfect, thank you.
+(41:04.890) perfect thank you
+(41:15.250) 我有一點可能是兩層性的,例如帶你的自己的硬件和額外費用的運動,
+(41:21.570) 可能是Klay,然後是Hillary。
+(41:23.750) 我猜Klay,對於你來說,12%的RPO現在與這些類型的交易有關,
+(41:28.150) 當你看到 pipeline 的情況下,你認為這個分別最終會怎樣?
+(41:32.170) 當你進入這些類型的交易中,尤其是在帶你的自己的硬件方面,
+(41:35.690) 你認為這些交易有什麼分別的價值?
+(41:39.030) 有的,那些包括,你知道,我猜,那是如何分辨
+(41:43.910) 對於GPU類型的交易,然後,Hillary,就為了
+(41:47.290) 然後,Hillary,我猜,你說的CAPEX有70億,
+(41:50.970) 在CAPEX中的25億元,
+(41:56.350) 所以您可以說說這個動作,
+(42:00.230) 對於您的CAPEX看法,
+(42:04.660) 是的,我開始,然後就轉到Hillary。
+(42:13.670) I can't say that today.
+(42:15.130) 我今天不能這樣說
+(42:23.100) 你會有很多不同的型號,你會有很多不同的客戶
+(42:25.380) You have a lot of different customers.
+(42:26.780) 你會有很多不同的生產模式
+(42:29.090) 所以,你知道,最終,我們可以向我們的客戶提供的一件事
+(42:36.110) We can go out and put up front capital
+(42:38.710) 然後在一個長期內,我們可以幫助購買客戶去用這些東西
+(42:43.750) But that's not the only thing we provide
+(42:46.950) and for a lot of customers
+(42:48.010) 而對很多客戶來說
+(42:50.190) What they contract with us for
+(42:52.390) is the ability to go out
+(42:53.550) and get these data centers constructed
+(42:54.770) design them properly
+(42:56.150) secure them
+(42:57.690) design networks that go inside of them
+(42:59.790) install a cloud
+(43:00.590) give the complimentary set of services
+(43:03.090) around this specific hardware
+(43:04.650) because it turns out that
+(43:05.810) 因為發現這些自動發動器的設備不是有效的 cloud, 你需要總的設備,
+(43:09.190) you need general purpose compute,
+(43:11.950) you need general purpose storage,
+(43:13.110) you need load balancers,
+(43:14.370) you need security functions,
+(43:15.450) you need identity,
+(43:16.130) 你需要所有這些東西, 才能使這些東西實用, 而Oracle 提供了所有這些東西。
+(43:18.470) and Oracle provides all of that,
+(43:20.410) 然後, 任何一個人認為這些東西很容易運作, 也很混亂。
+(43:24.810) 你不只是買一個盒子
+(43:28.670) 這些是非常複雜的框架
+(43:32.750) constant maintenance across the network,
+(43:35.230) and
+(43:35.810) 所以當你把這些都加在一起
+(43:40.760) 是你在市場上有不同的入口
+(43:44.580) 他們在幫客人找辦法
+(43:49.320) 你有不同的方法
+(43:54.940) when we do bring your own hardware
+(43:58.980) versus when we bring the capital
+(44:05.020) Evolution in this model
+(44:06.240) 在這種模式中的改變
+(44:08.640) across this entire ecosystem
+(44:11.370) Hillary
+(44:11.760) So let me just start
+(44:14.450) We sat on the call a couple of times
+(44:16.150) 說了幾次
+(44:19.290) either at or better
+(44:23.350) 所以這是經濟方面的好消息
+(44:25.990) We did introduce this quarter
+(44:28.550) 資金投資的資金投資
+(44:32.230) which I think is pretty important
+(44:34.050) 要明白我們的資金要求
+(44:36.690) 因此,
+(44:37.530) 在2027年,
+(44:40.050) 在2027年期間,
+(44:41.390) 我們預期約70億美元的資金支出
+(44:45.950) 這除了我們將收集的20-25億美元的支出
+(44:54.370) 或者有些時間差異,但是它只是與第三方生產者聯繫
+(44:59.910) 不是企業資金,只是第三方生產者
+(45:03.470) 20 to 25 billion,
+(45:05.270) the sum of those is our reported Capex,
+(45:08.330) but from a funding standpoint,
+(45:22.250) And also from an economic standpoint,
+(45:24.810) of course,
+(45:25.750) because we're collecting money up front,
+(45:27.990) so in normal cases,
+(45:29.770) we would put out the Capex amount,
+(45:31.770) 然後之後我們將捕捉錢從客戶身上。
+(45:34.730) Here,
+(45:35.170) 但是在這裡,
+(45:37.110) and actually,
+(45:37.770) 所以這不是我們的資金來支付價格數量,
+(45:41.990) or not 100% of it.
+(45:44.150) 因此,資金的回報也會更好。
+(45:50.920) Super. Thank you, Hilary.
+(45:52.080) Very helpful. Thank you all.
+(45:52.980) Thank you Hillary
+(45:54.860) So for next quarter
+(45:56.640) This is a new for everybody
+(45:58.120) We expect our Q1 fiscal year
+(46:00.560) 27 earnings results
+(46:01.780) will be announced on September 10th
+(46:04.880) Any changes in the date
+(46:06.080) will be publicly announced
+(46:07.320) Also as a reminder
+(46:09.150) Hillary brought this up earlier
+(46:10.610) But our investor day
+(46:13.170) will be held on October 28th
+(46:15.810) in Las Vegas
+(46:16.490) We look to see you all there
+(46:18.010) as part of AI world
+(46:19.450) 這次的會議的電話播放
+(46:22.110) will be available for 24 hours
+(46:23.770) on our investor relations website
+(46:25.770) and as a reminder
+(46:26.850) the slides that you saw today
+(46:28.770) will be posted up to the website shortly
+(46:31.250) thank you for joining us today
+(46:32.930) and with that
+(46:33.350) 以後我會把電話
+(46:35.410) and once again ladies and gentlemen
+(46:38.400) that does conclude today's conference
+(46:40.060) we would like to thank you all
+(46:41.380) for your participation today
+(46:42.560) you may now disconnect
