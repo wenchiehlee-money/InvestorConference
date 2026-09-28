@@ -1,0 +1,688 @@
+[METADATA]
+Source: HPQ_2026_q2_exp11
+Language: zh
+---
+(00:00.180) 大家好,
+(00:36.660) 國際財政總裁和投資人事總裁
+(01:32.050) MING PAO CANADA // MING PAO TORONTO
+(01:34.870) 請關注HP的SEC報告
+(01:36.810) 包括我們最新的FORM 10-K
+(01:39.230) HP畢竟沒有必要
+(01:41.380) 並沒有意圖更新
+(01:42.920) 任何這樣的向前看的言論
+(01:44.400) 我們還要提醒大家
+(01:46.210) 這個電話中談論的金融資訊
+(01:47.810) 是根據現在的資訊
+(01:50.550) 所提供的數據
+(01:51.570) 而可以不同於
+(01:53.250) HP的SEC報告的數據
+(01:56.510) 在這個短片中
+(01:58.510) 除非其他人特別提出
+(02:00.350) 所有比較是
+(02:01.930) 一年後的比較
+(02:03.030) 除非其他人特別提出
+(02:20.550) 而non-GAAP
+(04:12.500) For customers and shareholders
+(04:53.670) institutions,
+(04:55.340) IT infrastructure,
+(05:00.670) especially in the age of AI,
+(05:03.200) adoption growing,
+(05:18.220) context-aware intelligent systems,
+(05:21.320) HP that owns the edge,
+(05:25.360) flow context,
+(05:27.430) new orchestration layer,
+(05:29.520) local and cloud intelligence,
+(05:39.900) genic AI
+(05:48.960) 成果是
+(05:56.380) 開放的
+(05:59.480) secure software
+(06:01.180) HP is enabling the future of work
+(06:04.480) 提供工作的未來
+(06:09.260) 我們的設備和software stack
+(06:13.910) 支持這種轉化
+(06:17.890) and new AI workloads
+(06:19.590) 我們將成為了專注的智能EDGE供應商,
+(06:33.500) Edge plan increasingly
+(06:50.900) 優優獨播劇場——YoYo Television Series Exclusive
+(06:56.350) 和擴展了當地的智能能力
+(07:03.210) 全面設計系統
+(07:11.180) To showcase other software
+(07:14.440) GoodNotes, for example,
+(07:21.180) and summarization,
+(07:27.520) These are just a few examples
+(07:32.280) output,
+(07:33.340) and workflow experience
+(07:35.710) to bring data center capabilities
+(07:45.720) and compute workloads
+(07:49.860) AI stations
+(07:54.200) run inference,
+(07:55.200) token costs,
+(07:59.950) latency,
+(08:01.100) and enterprise data security
+(08:03.180) In print
+(08:11.000) quantum resistance security,
+(08:16.750) making work easier and more secure.
+(08:32.320) 也在這一週,我們介紹了HP MultiJet Fusion 1200,
+(08:56.110) 這是一個基礎性的智能層面,
+(10:54.060) 優優獨播劇場——YoYo Television Series Exclusive
+(13:19.780) we continue enrolling new suppliers
+(14:36.430) supplier relationships
+(14:43.160) and the significant opportunity ahead
+(14:47.820) 我們相信我們的繼續的集中在新創和專業行業的執行
+(14:51.500) 也將帶來持續增長和長期的股份價值
+(14:55.860) Turn it over to Karen.
+(15:02.130) 謝謝你,Bruce,大家好
+(15:04.470) 我們很滿意我們的第二季的結果
+(15:07.400) 以及我們的進步對於我們的金融承諾
+(15:11.560) We delivered solid top-line growth
+(15:17.100) and momentum in our key growth areas
+(15:19.680) and through disciplined execution
+(15:22.030) and an emphasis on what we can control
+(15:24.790) 我們也提供了EPS在我們的指導範圍之上。
+(15:32.560) on executing to the playbook
+(15:34.220) we laid out at the beginning of the year
+(15:35.960) to mitigate higher input costs
+(15:37.860) 我們在執行中,
+(15:41.900) by accelerating product reconfiguration
+(15:44.420) and qualifying lower cost components
+(15:47.010) 我們在使用低價費用的貨物
+(15:51.680) 並在形成高價費用的貨物
+(15:54.640) 最後,我們使用了
+(15:59.690) 一起,這些行動
+(16:03.580) on our operating profit in the quarter
+(16:05.560) 並且能夠達到
+(16:09.140) Now let me walk you through more details
+(16:12.260) on our second quarter performance
+(16:18.430) or 6% in constant currency
+(16:20.690) By geography,
+(16:22.790) 據地圖,亞洲和歐洲的繼續WIN11返回返回返回帶,
+(16:29.550) 以APJ持續金融增長率升為18%,
+(16:33.940) EMEA up 6%,
+(16:36.000) and Americas flat.
+(16:39.420) Gross margin was 20.9%,
+(16:41.740) up year over year,
+(16:43.060) up year over year,
+(16:59.630) with continued investment in innovation,
+(17:04.470) and people,
+(17:59.440) 最高價位的PC類型中的分享。
+(18:03.790) 包括二維碼
+(18:08.450) advanced compute solutions,
+(18:10.100) and workforce solutions.
+(18:13.450) 我們還發揮了
+(18:18.070) up 10%,
+(18:19.350) and commercial,
+(18:20.470) up 14%,
+(18:22.150) 被遷移的行動
+(18:27.490) As expected,
+(18:29.230) 商業顯示
+(18:32.430) 遷移性能
+(18:39.860) All in,
+(18:40.540) 我們將使用
+(18:45.280) with operating margins at 5.2%,
+(18:48.740) above expectations,
+(18:56.270) Print revenue was flat year over year,
+(19:01.320) as expected,
+(19:02.180) with hardware volume declines,
+(19:04.650) offset by favorable pricing and currency
+(19:07.670) Momentum and key growth areas continued,
+(19:31.920) By customer segment,
+(19:46.480) Aligned with our strategy,
+(20:15.440) 從裝置基礎和使用中
+(20:26.140) down year over year as expected
+(20:36.130) Across HP,
+(20:41.440) 全球的轉變,包括我們的轉發和輸出能力。
+(20:46.790) We are consolidating platforms,
+(20:49.270) simplifying applications,
+(20:54.520) speed innovation,
+(20:55.780) 速度創新,並更快地達到更好的客戶經驗。
+(21:00.430) 我們也在各公司各地的同樣的計劃上升級,
+(21:03.730) including in our supply chain,
+(21:05.840) go-to-market,
+(21:06.720) and customer support organizations.
+(21:10.950) 我們也在努力發展
+(21:19.070) As part of our efforts,
+(21:32.240) 我們的費用保證務仍然是重要的執行權
+(21:41.940) 和市場計劃
+(21:46.250) 我們在貨幣流量行業中
+(21:51.790) 和約800萬美元的免費貨幣流量
+(21:55.520) 我們的期望是
+(22:00.220) 我們也將近400萬美元
+(22:05.180) through dividends and share repurchase
+(22:16.990) to shareholders over time
+(22:18.450) as long as our gross leverage
+(22:20.420) remains under two times
+(22:21.800) and there aren't better
+(22:23.060) return opportunities
+(22:23.940) looking ahead
+(22:26.780) to the second half of the year
+(22:28.240) we expect to continue
+(22:30.120) to drive revenue growth
+(22:31.480) and as Bruce mentioned
+(22:33.610) we also expect
+(22:34.770) rising input costs
+(22:36.110) to put increasing pressure
+(22:37.370) on our operating margins
+(22:38.810) particularly in personal systems
+(22:41.120) so we are taking
+(22:43.320) a prudent approach
+(22:44.080) to our outlook
+(22:44.880) that said
+(22:46.910) we have a strong track record
+(22:48.550) of navigating near-term headwinds
+(22:50.590) 並且會繼續
+(22:54.130) By segment, in personal systems
+(22:57.860) we remain aligned with industry experts
+(23:04.920) for the second half of the calendar year
+(23:06.900) Against this market backdrop
+(23:52.660) for the remainder of the year.
+(23:58.520) 估計在第二半期間,
+(24:02.340) in the second half of the calendar year
+(24:04.240) 我們正在執行計劃
+(24:08.560) 在工程印刷機,
+(24:12.900) 以及在辦公室,
+(24:23.570) 透過將訂閱者增加到我們的全面計劃,
+(24:58.580) 我們正在專注地擴大解決
+(25:36.210) However, with the meaningful progress
+(25:42.410) we are now more confident
+(25:48.940) 因此
+(25:57.120) For Q3,
+(26:00.690) 我們期望
+(26:18.600) 最後
+(26:40.600) innovation and growth
+(26:43.140) as we turn to Q&A
+(26:47.060) given the current dynamics
+(26:50.060) we've invited Katen Patel
+(26:52.370) who leads personal systems to join us
+(26:54.810) similar to last quarter
+(26:56.310) so with that
+(27:00.120) and open the call for your questions
+(27:01.960) thank you
+(27:04.010) and we will now begin
+(27:06.910) to ask a question you may press star
+(27:09.410) then one on your touchtone phone
+(27:11.470) if you are using a speaker phone
+(27:13.590) 請把手機拿起來並按下鍵
+(27:16.090) 要回答您的問題
+(27:17.890) 請按下開始再按一次
+(27:19.550) 我們還要請您
+(27:21.660) 把自己限制到
+(27:22.780) 一個問題和一個繼續
+(27:24.920) 我們今天的第一位問問
+(27:26.900) 是JPMorgan的Somic Chatterjee
+(27:30.760) 請進行
+(27:31.580) 你好
+(27:33.090) 謝謝你提出我的問題
+(27:36.110) 可能第一個
+(27:37.510) PS segment的平均表現
+(27:41.330) 很強
+(27:42.310) 我知道你在談論
+(27:43.670) 我們也在談論在後半段進行的調整
+(27:46.070) 記憶價格的價格繼續上升
+(27:48.370) 如果您可以談談後半段的分析
+(27:51.850) 您所談到的價格減少
+(27:54.650) 或是您所工作的價格減少
+(27:57.190) 以及價格增長
+(27:58.650) 如果您想談談
+(28:00.790) 後半段的記憶價格增長
+(28:02.070) 您有更多空間
+(28:04.050) 去談談價格減少嗎
+(28:05.570) 還是後半段的價格
+(28:07.450) 更加受影響
+(28:08.950) 您可能需要去談談
+(28:10.410) 還有其他問題
+(28:11.050) 謝謝
+(28:11.810) Thank you
+(28:12.030) Thanks for the question, Samik
+(28:15.200) 我們談到我們繼續期望
+(28:18.360) input costs to rise in the back half
+(28:20.720) 而且我們也有低價貨品的利益
+(28:25.530) 從我們目前的貨品位置
+(28:35.460) for the balance of the year
+(28:36.720) 那說回來
+(28:42.140) 如果這些行動成功
+(28:44.670) or the environment approves
+(28:45.970) there could be some upside
+(28:47.170) I would note though
+(28:49.120) that based on what we're seeing today
+(28:50.520) we would expect Q4 to be a low point
+(28:52.900) followed by sequential improvement
+(28:55.080) into next fiscal year
+(28:57.140) and we are of course
+(28:58.940) continuing to drive cost reduction
+(29:01.900) that will continue to benefit us
+(29:05.060) in the back half
+(29:05.860) and into FY27
+(29:07.560) Correct, great
+(29:10.690) and maybe on Brent
+(29:12.150) you mentioned the increasing input cost
+(29:14.710) on that front as well
+(29:15.790) on that front as well including raisins
+(29:24.050) or are you thinking about it differently
+(29:28.630) increase in cost to the customers
+(29:30.770) Thank you
+(29:31.470) Yeah, our playbook is very similar
+(29:34.260) to what we executed in Q2
+(29:38.820) in the back half of the year and beyond
+(29:40.760) Yeah, and just to add
+(29:44.370) just to remind on the personal systems
+(29:46.720) the mitigation strategy where
+(29:48.140) We're leveraging our strong chain scale
+(29:51.540) and we demonstrated that in Q2
+(29:56.960) and strong supply relationship
+(29:58.620) 另外,我們也在導入其他貨品圖案的
+(30:01.830) across other commodity baskets
+(30:03.550) 操作行動,以及整體的供應方案設計
+(30:07.330) And lastly is about demand shaping
+(30:09.460) to optimize platforms and conflicts
+(30:11.260) 您的下一個問題
+(30:17.510) with Evercore
+(30:18.410) Please go ahead
+(30:19.610) Good afternoon everyone
+(30:22.280) Thanks for taking my question
+(30:23.160) 我認為
+(30:25.340) 可不可以幫我們想想
+(30:27.420) 我們所看到的商業力量
+(30:31.980) 和人工系統上
+(30:33.700) 能否幫助推廣運動
+(30:36.040) 與你認為是更加持久的
+(30:38.820) 下降需求
+(30:39.680) 雖然你有Windows Reefish
+(30:41.220) 和AIPC的轉換
+(30:42.380) 所以我希望你能明白
+(30:43.480) 在商業力量上
+(30:44.700) 你所看到的力量是
+(30:46.280) 推廣和下降需求
+(30:48.140) 謝謝你提出這個問題
+(30:50.610) 阿米特
+(30:52.560) 我們很高興
+(30:53.760) 在兩個數字的增長中
+(30:57.660) 而這受到資金的支援
+(31:00.430) 並且有更豐富的混合
+(31:04.570) 有提供的投資額是2-3%的收入
+(31:08.060) As we mentioned
+(31:09.040) as we mentioned,
+(31:13.100) I hope that helps
+(31:14.640) Super helpful
+(31:16.880) Just as a follow up
+(31:18.860) If I think about the back half guide
+(31:21.680) 我認為EPS的運行率大約是$0.65-$0.70一半
+(31:25.960) 這是否正確的基礎
+(31:29.100) as we think about fiscal 27
+(31:31.240) 例如EPS在$270-$275領域
+(31:34.260) perhaps fiscal 27
+(31:35.780) 或是平均領域的平均領域
+(31:38.860) 以確保EPS增長在平均領域的平均領域
+(31:41.280) versus the 26 guide
+(31:42.440) I'm going to get a little bit ahead
+(31:45.780) Yeah, thanks, Amit
+(31:47.740) 對,謝謝阿曼特
+(31:49.880) 所以是太早提供指導
+(31:53.940) But I would note that
+(31:55.420) 在Q3和Q4裡面
+(32:00.260) 我們期望
+(32:07.840) 而我們也期望
+(32:12.500) 進一步改善
+(32:19.350) Please go ahead
+(32:20.690) Please go ahead
+(32:26.490) Karen,
+(32:28.150) just maybe,
+(32:28.990) just building on Amit's question,
+(32:30.670) first question there,
+(32:31.690) first question there
+(32:40.090) just kind of given
+(32:46.430) 我的問題是,
+(32:48.290) 你今天坐在這裡,
+(32:50.870) 你如何看待視力在兩,
+(32:57.940) 三,
+(32:58.820) 四個月內?
+(33:00.020) 你剛才提到一些阿門的說明。
+(33:02.760) 我希望你能夠理解,你今天的觀點是如何看待視力,你實際上有多少視力?
+(33:08.320) 你認為這有什麼影響?
+(33:10.120) 然後再說一下,謝謝。
+(33:11.960) 謝謝,艾瑞克,很感謝。
+(33:14.220) 感謝
+(33:19.910) 合作的預期
+(33:23.790) 會下跌高級
+(33:28.210) 價格上升的環境
+(33:32.910) so we do expect unit demand to be down
+(33:36.550) 但這也要以我們所駕馭的
+(33:42.600) 增加價格、增加平均質、更高的連接
+(33:47.800) Katen, I'll let you add anything
+(33:53.480) 我們認為這件事是一個很重要的事項
+(34:01.620) and driven by two factors
+(34:02.960) 它是由於兩個因素
+(34:07.840) 這是我們看到的一個機會
+(34:11.320) But in both short run and long run
+(34:13.880) a lot of customers are moving workloads
+(34:19.660) 在AI的作用上,我們相信這是一個非常好的機會,
+(34:25.050) 以解決加密貨幣和公司收益,尤其是在高級領域中。
+(34:29.650) 我們將看到市場需求仍然強大,
+(34:32.790) 以這兩個因素為理解。
+(34:38.830) 非常好,謝謝你,
+(34:40.230) 然後,我再提一下,
+(34:42.530) 至少在一季中,
+(34:44.910) 我知道你們在一段時間的
+(34:46.990) 超級年金提供活動中,
+(34:48.930) OPEX在一季中是9%上升,
+(34:51.510) 您能不能提供一點詳細的詳細,
+(34:54.410) 是否能夠持續持續生產
+(34:56.270) 就像我們看過的第二半
+(34:59.090) 謝謝
+(34:59.470) 對 謝謝你問的
+(35:01.720) 所以我們的OPX
+(35:03.180) 我們預期的收益率是平均的
+(35:07.360) 我們繼續投資在
+(35:10.240) 創新和產品推廣
+(35:12.360) 尤其是在我們的大型汽車運營
+(35:14.360) 以及在我們的民眾
+(35:16.300) 我們還在繼續維持費用執行
+(35:19.690) 我們正在向前看
+(35:21.660) 我們會繼續期待OPX
+(35:23.980) 是平均的收益率
+(35:26.810) 我們當然還在推動
+(35:39.260) 但我們希望OPX能夠平均為成本的成本
+(35:45.200) 來自David Vogt的網站UBS
+(35:52.320) This is Brian on for David
+(35:55.560) So regarding my first one
+(35:58.900) Can you just speak to the ability
+(36:05.620) and I have a quick follow up
+(36:08.340) Thanks for the question. I'll take this.
+(36:09.880) I'll take this
+(36:18.140) And on top of it,
+(36:19.120) we have
+(36:23.780) supply,
+(36:24.220) and configuration details,
+(36:25.680) decisions in real time.
+(36:28.020) and our strategic inventory position
+(36:35.290) 在解決不同領域的重新價值
+(36:38.100) 並且增加平臺和生產能力
+(36:41.500) 復甦速度是由客戶來決定的
+(36:47.440) 從地形、線路型來決定的
+(36:49.100) 我們將調整並衡量
+(36:50.700) 來達到顧客的期望和復甦價值
+(36:53.760) 我們將繼續保持著我們的集中焦點
+(36:59.220) 明白,這很有用
+(37:00.120) 第二個問題是在於印刷
+(37:02.520) 您看到有沒有任何的購物需求
+(37:05.100) 從電子電腦到印刷硬件和供應
+(37:09.000) 您看到有關於更高的電子電腦價值
+(37:12.490) customers maybe spending less
+(37:16.070) Thank you
+(37:16.550) Thanks for the question
+(37:19.000) 現在在印刷上,我們繼續看到有比較競爭的環境,
+(37:25.500) 主要是企業在印刷上正在專注PC。
+(37:34.070) Over time, we do expect that to improve
+(37:36.550) 實際上,我們在過去的三個月內,
+(37:42.600) Which is a good sign
+(37:45.350) 我們繼續看到印刷使用趨勢依然很強。
+(37:49.250) remain pretty strong
+(37:51.110) 我們的下一個問題是
+(37:55.830) Wamsi Mohan with Bank of America
+(37:58.210) Please go ahead
+(37:59.650) Yes, thank you
+(38:02.820) 供應價值是平均的
+(38:05.580) 比您的長期期望高
+(38:08.080) 您會否認為這也會有影響電子貨品的進步?
+(38:13.120) from a channel inventory step up
+(38:18.350) 或是這完全與高品質產品的混合有關?
+(38:27.570) 您能否幫我們想想,
+(38:30.730) 您的想法會如何在一年內發展?
+(38:34.140) And I do have a follow up
+(38:35.160) Yeah thanks for the question Wamsi
+(38:37.640) 我會開始說我們的頻道貨幣
+(38:45.420) 我們的供應額是一年中僅僅碰稅,
+(38:51.160) 比我們今年的期望 以降低數字數量和正數值更好。
+(38:57.080) 這真的因為我們做了一套推廣,
+(38:59.440) 進行價格調整和股票資本的買賣,
+(39:04.740) 還幫助期貸加價。
+(39:07.550) 這些作為提升是我們的優勢,
+(39:13.480) 不過我們還沒有改變優勢,
+(39:16.240) 以降低數字數量和正數值這年稅。
+(39:21.000) 然後我們期望它們會繼續下跌
+(39:25.810) 在長期期間的低至中小數字
+(39:28.150) 當然我們集中在管理這種趨勢
+(39:31.960) 並繼續推動市場股份
+(39:33.900) 也將提供增長和訂購
+(39:36.340) 以及企業的3D
+(39:38.810) 這些是我們的主要增長區域
+(39:40.210) 我們的集中在保持強大的
+(39:45.820) 好的 謝謝Karen
+(39:46.600) 而在印刷市場上
+(39:48.300) 您提到不同的因素
+(39:51.120) 在第三季度的影響
+(39:53.520) 在印刷市場的低端
+(39:54.220) 應該我們
+(39:56.460) We expect the usual bounce back in Q4,
+(39:59.810) or will the commodity price increases,
+(40:04.410) whether it be resin or other areas,
+(40:06.970) 會否導致在Q4期間的不同的迴旋迴旋?
+(40:11.350) 您的指示中
+(40:19.300) Thank you.
+(40:20.860) 我們在今年的後半段
+(40:24.760) 我們說我們期望
+(40:46.970) but that said,
+(40:50.110) 並且,如我們所說的,我們期望印刷價值在全年全年的範圍內保持穩定。
+(40:57.510) 關於債務方面,我們正在監管政府的支付程序,
+(41:02.840) 並且它繼續進行進展。
+(41:05.210) 目前,政府並沒有準備支付
+(41:08.390) 我們類似困難的多國公司的支付。
+(41:12.070) 當然,當我們能夠支付,我們會申請支付,
+(41:15.130) 但在現在的情況下,它並沒有申請支付。
+(41:20.040) 我們接下來的問題來自阿西亞貿易商業的City。
+(41:24.040) Please go ahead
+(41:25.260) Hey, good afternoon
+(41:27.400) This is Mike Cadiz
+(41:28.420) for ASEAN Merchant at Citi
+(41:30.400) So my one question is
+(41:32.160) Are you able to give any color
+(41:34.360) on the performance by geography
+(41:37.240) and why it's perhaps more disparate
+(41:40.060) It seems that all the acceleration
+(41:42.840) was mainly from APJ
+(41:45.600) And just wanted to know
+(41:47.500) if there was any elasticity there
+(41:49.260) and why
+(41:50.080) or any other factors
+(41:51.480) that we should consider
+(41:52.260) Thank you
+(41:53.080) Yeah, thanks for the question
+(41:56.260) 我們看到這一季有很好的增長,
+(41:59.820) 包括阿米亞和APJ。
+(42:02.600) 這一季,
+(42:03.480) 有些因素受到WIN11領先的預測。
+(42:09.580) 我認為,
+(42:11.520) 目前,
+(42:12.260) 我們的安裝基礎仍然在Windows 10,
+(42:17.020) 所以我們仍然有更多的機會。
+(42:18.600) 阿米亞和APJ的增長是這樣的。
+(42:24.260) 我認為,
+(42:25.060) 我認為我們現在的Win11復興
+(42:34.540) Excellent, thank you
+(42:35.240) Geography
+(42:36.760) 我只是想說
+(42:43.580) 美國在2025年
+(42:50.040) 這種區別
+(42:55.850) 主要是因為
+(42:59.270) 我之前提到過
+(43:04.490) 你的下一個問題
+(43:09.390) Please go ahead
+(43:11.740) 謝謝大家
+(43:14.520) I really appreciate it
+(43:15.860) Hey, I was wondering, Ketan
+(43:20.530) 您提到能夠提供記錄
+(43:24.870) 您對Fiscal 27的感受
+(43:29.470) Since it begins not so long from now
+(43:32.290) 然後就有一個簡短的追溯,謝謝
+(43:34.130) 是的,您看到我們在2026年
+(43:38.620) 在安裝耳機和存儲器
+(43:40.600) 甚至CPUs
+(43:41.740) 在這個年度
+(43:42.940) 我們有很強的供應關係
+(43:44.220) 和長期協議
+(43:45.120) 我們會繼續確保
+(43:47.480) 這些事項會在2027年和以後
+(43:49.500) 再加上
+(43:51.060) 我們要繼續
+(43:52.480) 與新的供應商合作
+(43:54.720) 我們看到了更多機會
+(43:56.580) 因為我們已經與很多供應商合作
+(43:58.660) 這一年
+(43:59.140) 並且加速了
+(44:00.710) 與這些部份的供應商合作
+(44:02.910) with the right level of quality checks
+(44:06.480) so that effort we will continue to drive
+(44:08.580) we will continue to drive
+(44:13.460) it sounds like you feel pretty good
+(44:16.240) with being able to procure what you need
+(44:18.920) Yes, it's always a moving piece
+(44:20.980) 但是是的,我們在R26的情況下
+(44:24.300) 就像你所看到的那樣
+(44:28.830) 來自Catherine Murphy
+(44:33.460) Please go ahead
+(44:34.320) Thank you for the question
+(44:36.920) 我想問一下
+(44:45.520) and then just as a quick follow-up,
+(44:47.700) 是否有任何考慮
+(44:54.430) Thanks for the question, Catherine.
+(44:58.220) We are seeing a rising cost for resin
+(45:02.200) based on the oil situation right now.
+(45:06.390) 基於鋼線的增加
+(45:10.180) and it is built into our outlook.
+(45:13.170) We're not going to quantify what it is
+(45:14.770) as a proof of the bomb.
+(45:17.420) 但我們認為它是可管的
+(45:24.700) with TD Cowan.
+(45:26.040) Please go ahead.
+(45:28.740) Hi, thanks for taking my questions.
+(45:30.540) 我是斯蒂文,我是克里什的負責
+(45:32.320) I had two as well.
+(45:34.140) 我也有兩個問題
+(45:36.100) as it pertains to processors.
+(45:38.600) Just kind of curious,
+(45:39.640) just with the strength
+(45:41.380) in the data center server CPUs,
+(45:43.080) any potential ripple effects
+(45:45.420) on the CPU supply
+(45:48.500) for your procurement
+(45:51.160) in the second half of the year,
+(45:52.540) especially across the different SKUs
+(45:54.500) that you guys are focusing on?
+(45:56.080) Thanks for the question.
+(45:58.830) We have required
+(46:00.270) we need on CPUs.
+(46:02.120) 我們對於小型硬件
+(46:08.710) 我們已經在努力
+(46:11.150) 找到我們需要的供應
+(46:14.370) 那種供應修改
+(46:17.050) in terms of execution in Q2 and beyond
+(46:19.510) We are also managing price increases
+(46:21.960) 在供應供應2
+(46:25.040) on CPU pricing too
+(46:32.470) 並且能夠提供供應和價值
+(46:40.000) Got it, thank you so much for that
+(46:41.240) 我還想問一下,
+(46:43.880) 您能否提供更多的評論和評論,
+(46:46.380) 關於 Edge Compute Space的HNTech AI項目?
+(46:53.340) 我知道我們在互聯網上看到了HNTech AI的早期,
+(46:57.200) 但是剛才的評論是否專門專注於公司或客戶,
+(47:02.370) 公司或客戶
+(47:05.230) 或是一種常見的客戶
+(47:09.590) 在購買硬軟件
+(47:12.410) 可以運作的開放軟件
+(47:16.510) 與儲存模式
+(47:19.650) 無論是Copilot
+(47:22.830) Thank you so much.
+(47:23.780) Thank you.
+(47:25.660) Happening towards the end with workloads
+(47:29.680) for reasons stated by Bruce earlier.
+(47:32.800) benefits like latency,
+(47:36.650) AI和價值
+(47:40.810) 這就是HP的正確的能力和證據
+(47:47.560) 來形成AI的表現
+(47:49.420) 為了確保我們在這方面賺錢
+(47:53.760) 我們在新建AI執行平臺
+(47:57.020) 從如何系統是設計的
+(47:59.910) 來到AI工作室
+(48:02.000) AI PC和工作室
+(48:05.320) 能夠在地區 run AI模式
+(48:07.720) 我們展示了這些
+(48:10.510) 在HP Imagine前面的有趣的產品
+(48:13.830) 包括HP IQ
+(48:15.670) 包括HP IQ
+(48:20.970) 這是一個很好的機會
+(48:25.740) 也在不同的用途上工作
+(48:30.940) developer needs and creative needs
+(48:37.200) And Chris I would also add that
+(48:43.560) increased pretty substantially
+(48:48.800) as Bruce noted
+(48:49.720) as Bruce noted
+(48:56.730) Reaching 60 to 70% next fiscal year
+(49:03.620) Maybe I'll just add a few things
+(49:08.290) because we are seeing a use of Agenic
+(49:19.340) The applications are both using cloud
+(49:24.960) utilizing the edge computing
+(49:27.720) what we're seeing over time
+(49:43.080) 你的下一個問題來自Tim Long與Barkley的網絡
+(49:50.800) 謝謝
+(49:54.310) 如果我可以請問兩個問題
+(49:56.230) 我想問一下在印刷與電腦之間的計算
+(50:03.010) 如果有任何變化
+(50:04.770) 我們聽到在其他領域
+(50:06.390) 我們聽說過在其他領域中,
+(50:08.750) might push enterprises or consumers more
+(50:13.480) 對這類型的模式而言
+(50:17.600) 第二
+(50:20.760) 我認為您已經談到
+(50:24.720) 我只是很緊張
+(50:29.380) 在消費者方面
+(50:33.640) 至於第二半年
+(50:42.540) 但在訂閱方面
+(50:50.930) 尤其是在印刷中,我們的全項計劃繼續延伸,
+(50:56.780) 我們預期將它在美國未來延伸。
+(51:01.180) 實際上,訂閱給予客戶一個簡單,無壓力的經驗,
+(51:06.180) 並且有能力
+(51:10.900) 這些服務
+(51:15.680) versus a regular traditional product
+(51:20.050) Kate and I'll let you add
+(51:21.070) Kate and I'll let you add
+(51:24.340) we are working on things like Flex PC
+(51:35.020) And on price elasticity and consumer
+(51:38.970) 我們明顯會看到這一切變化
+(51:42.390) 但是我們確實期望
+(51:45.680) 低額項目的價格增加
+(51:52.400) 對,我認為
+(51:55.120) 價格增加的價格增加
+(51:56.960) 即使價格增加
+(51:59.920) 我們看到價格增加
+(52:01.970) 在低額項目的價格
+(52:03.350) 而我們看到價格增加
+(52:05.650) 在主流和高價格的價格增加
+(52:08.290) 因為主流和高價格的價格增加
+(52:13.990) 比你看到的低端的價格低
+(52:17.720) 接下來的問題是
+(52:21.460) 馬克·努曼和貝爾斯蒂爾
+(52:23.980) 請進行
+(52:24.760) 謝謝你提出我的問題
+(52:28.240) 你剛才提到
+(52:31.060) 供應器被封鎖
+(52:33.780) 我認為我聽錯了
+(52:34.740) 是以年續的HCD和記憶
+(52:37.700) 我認為我聽錯了
+(52:39.660) 您也有封鎖價格嗎
+(52:43.700) 我只是想問
+(52:44.620) 您能不能多說一點
+(52:45.680) 您的長期合同的方式
+(52:47.940) 感謝您的關注
+(53:19.570) 有什麼想要說的
+(53:27.140) 問問答案
+(53:30.360) for closing comments
+(53:31.440) Thank you all for joining us today
+(53:34.920) I'm proud of how HP executed this market
+(53:40.300) significant opportunity
+(53:47.300) Thank you to our employees
+(53:54.120) 謝謝我們的工作人員
+(54:00.800) 而我們將將您
+(54:08.680) Ladies and gentlemen
+(54:09.540) 女士們
+(54:11.380) Thank you for your participation
+(54:12.660) and you may now disconnect
