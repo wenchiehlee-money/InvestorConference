@@ -1,0 +1,646 @@
+[METADATA]
+Source: DELL_2027_q1_exp13
+Language: en
+---
+(00:00.000) Good afternoon and welcome to the fiscal year 2027 first quarter financial results conference call for Dell Technologies Inc. I'd like to inform all participants this call is being recorded at the request of Dell Technologies. This broadcast is the copyrighted property of Dell Technologies Inc. Any rebroadcast of this information in whole or part without the prior written permission of Dell Technologies is prohibited.
+(00:26.440) Following prepared remarks, we will conduct a question and answer session.
+(00:31.440) If you have a question, simply press star, then 1 on your telephone keypad at any time during the presentation.
+(00:38.800) I'd like to turn the call over to Paul France, Head of Investor Relations.
+(00:43.420) Mr. France, you may begin.
+(00:46.960) Thanks, everyone, for joining us.
+(00:49.060) With me today are Jeff Clark, David Kennedy, and Tyler Johnson.
+(00:52.520) Our earnings materials are available on our IR website, and I encourage you to review
+(00:58.060) these materials.
+(00:59.520) Also, please take some time to review the presentation, which includes additional content
+(01:05.100) to complement our discussion this afternoon.
+(01:08.740) During this call, unless otherwise indicated, all references to financial measures refer
+(01:13.240) to non-GAAP financial measures, including non-GAAP gross margin, operating expenses,
+(01:19.060) income, net income, diluted earnings per share, free cash flow, and adjusted free cash flow.
+(01:24.580) A reconciliation of these measures to their most directly comparable GAAP measures can be found
+(01:30.580) in our web deck and our press release. Growth percentages refer to year-over-year change
+(01:36.200) unless otherwise specified. Statements made during this call that relate to future results
+(01:42.000) and events are forward-looking statements based on current expectations. Actual results and events
+(01:48.560) could differ materially from those projected due to a number of risks and uncertainties
+(01:53.300) which are discussed in our web deck and our SEC filings. We assume no obligation to update
+(01:59.180) our forward-looking statements. Now, I'll turn it over to Jeff. Thanks, Paul, and thanks everyone
+(02:04.820) for joining us. What a great start to FY27. The first quarter underscored the strength and
+(02:11.040) agility of our operating model and the advantage of our broad portfolio. Our team executed very
+(02:16.620) well in a challenging environment delivering record revenue and EPS. Revenue was $43.8 billion
+(02:23.500) up 88% and earnings per share was $4.86 up 214%. Demand was stronger than we anticipated
+(02:33.400) across all lines of businesses and geographies with customers moving decisively to secure supply
+(02:39.620) across a broad range of IT needs. This drove meaningful scale, record cash generation,
+(02:45.480) and continued strong capital returns for shareholders.
+(02:49.240) Our strong performance reflects not only demand in the quarter,
+(02:52.740) but also the pace of innovation we continue to bring to market
+(02:55.760) across the full stack of PCs, compute, and storage.
+(02:59.320) We have had a strong run of announcements since our last call.
+(03:02.480) At GTC, we marked the two-year anniversary of the Dell AI factory with NVIDIA
+(03:07.740) and extended our leadership in accelerated computing.
+(03:10.380) We introduced new infrastructure across NVIDIA's VeraRubin RackScale platform, the Rubin GPU architecture, and RTX GPUs, with form factors that scale the AI factory from the largest clusters in the world to the flexibility and efficiencies enterprises need.
+(03:27.760) We also extended AI to the desktop with the new Dell Pro Max systems, supporting the GB10 and introducing the industry's first OEM desktop with GB300.
+(03:40.240) At Dell Technologies World, we built on that momentum with new desk-side server storage and data management innovations.
+(03:46.720) Our desk-side agentic AI solutions help enterprises run production-ready AI locally, supporting use cases like coding, research, and secure private assistance while keeping sensitive data and IP on-prem.
+(04:00.680) Building on strong demand of our integrated rack-scale systems where Dell is the top rack-scale infrastructure provider,
+(04:08.300) we expanded the portfolio with the launch of Dell PowerRack,
+(04:11.840) a turnkey factory-integrated solution designed to accelerate deployment across compute, networking, and storage.
+(04:18.340) In servers, our 18th generation of PowerEdge server portfolio expands support for AI, HPC, and enterprise workloads
+(04:27.480) with new air-cooled systems that improve compute density and efficiency.
+(04:32.940) On the data side, advancements in the Dell AI data platform help customers make enterprise data ready at scale
+(04:39.640) with stronger orchestration, faster indexing of unstructured data, and improved analytics performance.
+(04:47.260) We further strengthened the storage foundation for modern and AI workloads.
+(04:51.520) PowerStore Elite delivers up to 3x performance and density than prior generations with an industry-leading 6-to-1 data reduction guarantee.
+(05:01.020) Object Scales adds higher density object storage, and PowerFlex extends our exascale storage architecture with a unified approach across block, file, and object workloads.
+(05:13.220) We continue to expand the Dell AI factory ecosystem with partners including NVIDIA, Google Cloud, OpenAI, SpaceX AI, ServiceNow, Palantir, Nostral, and CrowdStrike.
+(05:26.340) For example, with Google Distributed Cloud, we are bringing Gemini models on-premises with confidential compute so customers can run AI closer to the data while meeting data residency, privacy, and sovereignty requirements.
+(05:39.980) The bottom line, Dell is expanding the AI factory from the data center to the desk side across compute, storage, networking, software, and services.
+(05:50.360) We're giving customers choice, helping them protect their data, and enabling them to move from pilots to production faster.
+(05:57.580) With that context, let me walk you through what we're seeing in the business.
+(06:01.180) Our Q1 results.
+(06:03.000) NAI.
+(06:03.540) The opportunity remains exceptionally strong, underscored by durable, broad-based demand.
+(06:09.380) In Q1, we booked $24.4 billion in AI orders and recognized $16.1 billion of AI server revenue.
+(06:19.120) We exited the quarter with a record $51.3 billion of AI backlog, and our pipeline continued to grow sequentially and remains multiples of our backlog, even after converting $24.4 billion into orders.
+(06:33.460) Demand continues to exceed supply, with memory as the primary constraint, and we expect to exit the year with meaningful backlog.
+(06:41.800) Our customer count surpassed 5,000 with growth across NeoCloud, Sovereigns, and Enterprise customers.
+(06:47.900) Our differentiated offering continues to resonate, and our expanding platforms and capabilities are supporting continued share gain.
+(06:54.760) We believe those share gains are rooted in things that have long differentiated Dell.
+(06:59.680) Strong engineering and design, the ability to deploy and install at scale, ongoing services and support, and flexibility financing and consumption options.
+(07:10.400) In AI, those advantages matter even more.
+(07:13.460) Customers are not just buying components.
+(07:15.120) they are looking for integrated solutions they can put into production quickly on infrastructure they control with the performance,
+(07:22.560) security, and data foundation their workloads require.
+(07:25.900) Moving to traditional servers, revenue is up 92% as demand remained well ahead of supply in Q1 with strength across every region.
+(07:34.560) The majority of demand was driven by large enterprise customers refreshing their compute environments
+(07:39.920) and expanding capacities to support growing workloads.
+(07:43.700) For many large customers, ensuring compute availability to modernize and grow remains their highest priority.
+(07:51.740) Customers are also increasingly focused on infrastructure density as they optimize both spend and data center space,
+(07:59.320) which is driving demand in platforms that deliver more compute capacity, greater efficiency, and better consolidation within existing footprints.
+(08:08.000) Additionally, we saw AI inference workloads driving incremental demand for traditional compute.
+(08:13.040) The majority of the installed base remains on 14th generation or older servers, reflecting the continued refresh opportunity going forward.
+(08:23.140) The memory uncertainty is driving customers to proactively secure access to infrastructure across both traditional and AI workloads over longer periods of time.
+(08:33.780) We also continued to execute the pricing and margin discipline we established in Q4.
+(08:38.940) All in, we remain confident in the demand outlook for traditional servers, and our portfolio is well positioned to capture that opportunity.
+(08:48.400) Turning to storage, revenue is up 8%, driven by continued outperformance in our Dell IP portfolio.
+(08:56.900) Dell IP delivered a record demand growth quarter, making our fifth consecutive quarter of demand growth above market.
+(09:03.980) In primary storage, we saw notable strength in PowerMax and PowerStore.
+(09:08.340) We continue to see momentum in the mid-range ecosystem, with PowerStore delivering its eighth consecutive quarter of double-digit demand growth.
+(09:16.320) And unstructured, we saw strong performance from power scale and object scale, with three consecutive quarters of growth, including double-digit in each of the last two quarters.
+(09:27.460) Dell IP Storage continues to become a larger mix of Dell Storage with its higher margins,
+(09:32.160) and as a result, storage delivered strong profitability and was a key driver of overall ISG profitability in Q1.
+(09:40.280) Turning to CSG, revenue grew 17%, and we gained share for the second consecutive quarter with broad-based demand led by large enterprise customers.
+(09:50.980) Commercial revenue grew 18%, our seventh consecutive quarter of growth, with demand up for the ninth quarter.
+(09:57.800) Large enterprise customers continue to refresh with double-digit growth across all regions.
+(10:02.460) We continue to see run-around in the refresh cycle with roughly one-third of the install base consisting of devices four years or older.
+(10:10.880) Consumer revenue is up 9%, our third consecutive quarter of demand growth, supported by continued strength in gaming.
+(10:17.340) Overall, CSG profitability improved as better expected demand drove higher attach, greater scale, along with improved consumer profitability.
+(10:27.100) In closing, Q1 was a strong start to FY27 and another proof point in the power of our operating model.
+(10:33.460) We delivered record revenue, EPS, and cash flow and continued returning capital to shareholders while executing with discipline in a challenging demand and supply environment with notable commodity constraints, particularly in DRAM and NAND.
+(10:49.640) Customers have come to rely on Dell during periods of significant disruption, and we expect that to continue over the course of the year.
+(10:56.360) Our customers are investing in AI infrastructure, modernizing compute, expanding storage, and refreshing PCs to support the next wave of workloads.
+(11:06.220) We are well positioned with our portfolio.
+(11:08.880) I am proud of the team's execution and confident in our ability to create long-term value for customers and shareholders.
+(11:15.840) With that, let me turn it over to David to walk through the financials and our outlook.
+(11:20.780) Thanks, Jeff.
+(11:21.760) we delivered a record first quarter, which positions us very well for the year.
+(11:27.500) Execution was strong across the business, from supply chain to sales to pricing,
+(11:33.220) driving record revenue, EPS and cash flow, along with continued strong shareholder returns.
+(11:40.680) Total revenue was up 88% to $43.8 billion. Gross margin dollars grew 57% to $7.9 billion.
+(11:51.760) Gross margin rate was 18.1%, driven primarily by mixed shift to AI servers, with AI revenue up nearly 9x year over year.
+(12:02.460) Excluding the impact of AI mix, gross margin rate was up.
+(12:07.060) Operating expenses were up 9% to $3.7 billion, primarily from variable compensation tied to our outperformance.
+(12:16.940) Importantly, we drove meaningful scale in the P&L, with OPEX down 610 basis points to 8.4% of revenue, the lowest level in over 20 years.
+(12:28.700) Operating income grew 154% to $4.2 billion, or 9.7% of revenue, driven by higher revenue and resilient margins across traditional servers, storage, and CSG.
+(12:43.660) Net income was up 194% to $3.2 billion, primarily driven by strong operating income.
+(12:53.800) Diluted EPS increased 214% to $4.86, a record.
+(13:01.520) Moving to ISG.
+(13:03.140) ISG revenue was a record $29 billion, up 181%, marking nine consecutive quarters of double-digit or better revenue growth.
+(13:14.540) AI server momentum remained very strong.
+(13:17.220) In the quarter, we generated $24.4 billion in orders, $16.1 billion in revenue, and ending backlog of $51.3 billion.
+(13:28.840) Traditional server and networking revenue was $8.5 billion, up 92%, and demand continues to outpace supply.
+(13:40.040) Storage revenue was $4.3 billion, up 8%, with strong demand across the Dell IP portfolio.
+(13:48.900) Execution across the Dell IP portfolio was strong, with another quarter of growth above the market.
+(13:56.100) Unstructured solutions were the fastest growing, along with strong demand across primary storage.
+(14:02.640) ISG operating income was a record $3.1 billion, up 206%, marking eight consecutive quarters of double-digit or better growth, primarily driven by higher revenue across the business.
+(14:15.440) Operating margin was 10.5%, up 80 basis points, even as AI servers grew nearly 800% euro in year.
+(14:27.140) Looking at the key drivers of margin performance, storage profitability was up, with a higher mix of Dell IP and rate expansion within the solutions.
+(14:38.140) Traditional server margins remained stable despite a high inflationary environment.
+(14:42.320) AI server profitability was in line with our mid-single-digit operating income rate target.
+(14:49.940) Taken together, these factors, along with stronger-than-expected revenue, drove meaningful scale in the P&L.
+(14:57.500) Turning to CSG, CSG revenue was up 17% to $14.6 billion.
+(15:04.240) Commercial revenue grew for the seventh consecutive quarter, up 18% to $13 billion,
+(15:10.260) while consumer revenue increased 9% to $1.6 billion.
+(15:16.600) CSG operating income was $1.2 billion, or 8% of revenue.
+(15:22.560) This performance was driven by stronger commercial revenue and mix,
+(15:27.220) which supported more higher margin peripherals.
+(15:31.380) And similar to ISG, this all drove meaningful scale in the P&L.
+(15:36.240) Looking ahead, we will continue to balance customer demand
+(15:39.340) with supply while driving scale across the business.
+(15:43.620) Moving to cash in the balance sheet, we delivered a Q1 record cash quarter
+(15:48.680) with cash flow from operations of $4.1 billion.
+(15:53.040) This was primarily driven by sequential revenue growth and higher profitability.
+(15:58.720) We ended the quarter with $14.1 billion in cash and investments,
+(16:03.600) up $0.8 billion sequentially.
+(16:05.960) Our core leverage ratio is at 1.2x.
+(16:11.120) We returned $2.1 billion to shareholders this quarter, including repurchasing 11 million shares at an average price of $147 per share and paying a dividend of approximately 63 cents per share.
+(16:26.440) Repurchase activity remains strong, and we remain committed to our shareholder return framework.
+(16:32.720) Turning to guidance.
+(16:35.060) Customers continue to prioritize their IT infrastructure needs with an increased focus on securing supply.
+(16:41.780) We expect that behavior to continue throughout the year.
+(16:45.460) For Q2, our revenue outlook is similar to Q1's performance.
+(16:49.220) At the same time, we have increased our expectations for the second half while maintaining an appropriate level of prudence,
+(16:56.320) given that we are only 90 days into the fiscal year.
+(16:59.760) From a profitability standpoint, the pricing discipline and margin stability we saw in Q4 and Q1 continue to hold.
+(17:09.080) Excluding the impact of AI mix, our gross margin outlook is better than it was 90 days ago, and we continue to expect margin rate expansion through the balance of the year.
+(17:20.080) For Q2, we expect revenue of $44 billion to $45 billion, up roughly 50% at the midpoint of $44.5 billion.
+(17:31.860) ISG is expected to grow roughly 75%, supported by $15.5 billion in AI server revenue, and CSG is expected to be up roughly 20%.
+(17:43.080) Operating expenses are expected to be down low single digits sequentially.
+(17:50.240) Operating income is expected to grow roughly 80%.
+(17:53.460) We expect sequential improvement in ISG operating income rate, while CSG operating income rates
+(18:01.040) moderates to roughly 6% as we balance demand, share, and profitability.
+(18:06.520) We anticipate a diluted share count of roughly 652 million shares.
+(18:11.540) Diluted non-GAAP earnings per share is expected to be $4.80, plus or minus $0.10, up over 100% at the midpoint.
+(18:22.240) For the full year, we expect revenue of $165 billion to $169 billion, up nearly 50% at the midpoint of $167 billion.
+(18:33.060) dollars. ISG is expected to grow roughly 80 percent, driven by 60 billion of AI server revenue
+(18:41.140) at the midpoint, or approximately 2.4x year over year. Traditional servers expect to grow just over
+(18:48.920) 60 percent, storage up mid-single digits, and CSG to grow low teens. We continue to prioritize
+(18:56.560) margin rate expansion. Excluding the impact of AI mix, our gross margin outlook is higher than it
+(19:03.220) was 90 days ago and remains up year over year. We expect operating expense dollars to be up
+(19:10.700) high single digits, driven primarily by variable compensation. At the same time, our modernization
+(19:17.820) efforts are paying off, simplifying, standardizing, automating, and enhancing our operating model with
+(19:23.960) AI, delivering significant operating leverage with OPEX as a percentage of revenue in the
+(19:29.640) single digits.
+(19:31.580) Operating income is expected to grow over 55%, with improvement both in dollars and
+(19:37.760) as a percentage of revenue.
+(19:40.380) INO is expected to be between $1.4 billion and $1.5 billion.
+(19:45.040) dollars. Diluted non-GAF earnings per share is expected to be $17.90, plus or minus 25 cents,
+(19:55.020) up roughly 75% at the midpoint. In closing, we delivered an exceptional first quarter
+(20:01.840) with record performance across revenue, EPS, and cash flow. Revenue was $43.8 billion, up 88%.
+(20:10.480) EPS grew 214% to $4.86.
+(20:16.860) We generated $4.1 billion in cash and returned $2.1 billion to shareholders.
+(20:24.160) The strength of the quarter reflects broad-based execution across the business, continued momentum in AI, and solid performance across the rest of the business.
+(20:33.580) Our portfolio and operating model continue to differentiate us in a dynamic supply environment, and we remain focused on supporting customers while driving shareholder value.
+(20:45.900) We are well positioned for the year. Thank you to the team for their strong execution, and thank you all for your time. Now I'll turn it back to Paul to begin Q&A.
+(20:55.400) Okay. Let's get to Q&A. In order to ensure we get to as many of you as possible, please ask one concise question. Let's go to the first question.
+(21:07.860) Thank you. We'll take our first question with Ben Reitzes with Mellius Research.
+(21:14.320) well uh let me say congratulations guys i don't think i've ever seen a dell quarter like this
+(21:21.480) maybe michael had one in the dorm room or something beating expectations but uh congrats to you guys
+(21:27.460) the uh question that i have is with regard to um the inherent level of real demand um when you see
+(21:37.140) something like this um you think like there could be some pull forward especially in the uh
+(21:42.840) traditional servers and the PCs, but the way you guided for the year, obviously, by
+(21:47.840) taking up the second half, you know, would imply that the pull forward doesn't have much of an
+(21:54.700) impact stealing from the rest of the year. Can you just go through the puts and takes of the
+(21:58.460) pull forwards and the major segments, please, and how you came up with still a higher second half?
+(22:03.540) Thanks. Sure. And thank you, Ben. It was a good quarter. Been here a long time. It's a
+(22:11.340) It's good quarter.
+(22:13.360) And when we look at the demand environment that we are operating in today, it's very different than historical.
+(22:20.200) We think of it as several factors that are driving demand.
+(22:24.600) Clearly what you said, there is a pull-in component.
+(22:27.040) There's a buy-ahead.
+(22:28.500) Customers want to ensure they have access to supply.
+(22:31.180) They're concerned about raising prices, and they're acting.
+(22:34.820) There's also a component of we have a large install basis.
+(22:38.020) whether that be in PCs where you have a third of the units that are four years or older.
+(22:44.480) We were lagging in a Windows 11 refresh and caught up through the quarter against historical refreshes.
+(22:51.140) And we have a large number of 14G servers in the install base that need to be upgraded as customers are moving to modernize.
+(23:00.420) Customers are upgrading their edge. They're upgrading the infrastructure.
+(23:03.240) They're looking for more capable PCs as agentic workloads make their way to the edge.
+(23:10.200) They're looking to consolidate space, power, and cooling to drive efficiency.
+(23:15.080) Our new 18G servers are a great vehicle to do that with its 13 to 1 consolidation.
+(23:21.380) And we're seeing pockets of fundamental new demand.
+(23:24.420) There's new demand driven by AI.
+(23:26.800) There's an AI drag.
+(23:28.500) There's inference.
+(23:29.740) and the agentic AI is driving a new marketplace for traditional servers that we haven't seen before.
+(23:39.040) And then I think the last two are what you would expect out of Dell are we're winning.
+(23:44.500) We're taking share in all three segments, four if I count AI servers.
+(23:49.460) So all four major businesses, PC, server, storage, AI servers, taking share, we're winning.
+(23:54.980) And then lastly, during these times of supply disruption and a lot of puts and takes in the marketplace, customers tend to come to Dell to look for a calming hand looking for help.
+(24:08.860) And we're certainly helping as many customers as we have.
+(24:11.700) That's in PCs.
+(24:13.220) That's in servers.
+(24:14.420) That's in storage.
+(24:15.900) So those are the demand levers of the demand dynamics that we see across all of the businesses.
+(24:21.040) As we look at our forward-looking pipelines, the pipelines have never been healthier.
+(24:26.440) They're actually growing at greater than historical rates, which gave us confidence to raise the guide by $27 billion of revenue for the year.
+(24:34.800) I hope that helps.
+(24:37.120) Thanks, Ben.
+(24:37.500) Thanks, Jeff.
+(24:40.040) And the next question will come from Mark Newman with Bernstein.
+(24:46.660) Thanks for taking my question, and congrats on a great quarter.
+(24:51.040) It would be great to get a bit more clarity on the breakout of growth between units and pricing, particularly for the blowout performance you had on traditional servers.
+(25:04.620) and just like adding to some of the stuff you said in the previous question,
+(25:10.440) just trying to get a better sense for how much confidence you have
+(25:15.440) that this is sustainable beyond just one or two quarters
+(25:19.100) but through this year and into next year.
+(25:21.440) Thanks very much and congrats again.
+(25:24.040) Thanks, Mark.
+(25:25.560) Very specifically, we grew units and PCs.
+(25:29.960) The last reported quarter, we grew units and consumer PCs
+(25:33.200) and commercial PCs and obviously the aggregate market. We took share. So there's a baseline of
+(25:41.520) growth there. We were already the industry leader in PC revenue. And clearly the inflationary
+(25:48.040) environment has driven up prices. And where we saw that primarily is in high price band products.
+(25:56.580) and we were the market leader in high price band and PCs, and that expanded as prices moved up.
+(26:04.440) I won't parse out the specifics, but we had a great growth quarter in units,
+(26:11.180) obviously the inflationary environment. We had the execution towards, for example,
+(26:15.760) high-end and gaming and consumer. We had high price bands and commercial PCs.
+(26:21.360) And don't forget the attached business. The attached business for us around peripherals
+(26:25.740) and around services is very healthy.
+(26:27.780) And when the base business grows,
+(26:29.960) it drags more revenue with each and every unit.
+(26:33.420) On servers, absolute server unit growth occurred.
+(26:39.620) They'll probably kick me under the table here.
+(26:41.680) We had significant unit growth in traditional servers.
+(26:46.040) And then we had the content growth.
+(26:48.880) We are continuing to see on a year-over-year basis
+(26:51.520) more cores, more DRAM,
+(26:53.700) more than they had placed in each and every server. So you have the uplift of more content,
+(26:59.000) and then obviously that content is growing as well in terms of the inflationary side.
+(27:05.140) So absolute growth in units, absolute growth in the content driven by modernization and
+(27:11.760) consolidation as customers are looking to upgrade and modernize their fleets.
+(27:16.180) And then we had the inflationary part. The other part of servers that I think is important to call
+(27:21.480) is this notion of AI drag and seeing traditional servers move and take on AI workloads.
+(27:29.320) Those AI workloads we're seeing with very dense servers making their way into the Neo clouds,
+(27:34.940) into some of the more advanced enterprise users, think semiconductor companies, big tech,
+(27:39.960) that are using it to actually drive some of the inference workloads and agentic workloads inside their environment.
+(27:47.940) So that's how I capture it.
+(27:51.480) Thanks very much. Really appreciate it.
+(27:55.680) You're welcome.
+(27:58.140) And the next question will come from Amit Daryani with Evercore.
+(28:05.300) Thanks a lot for taking my question.
+(28:07.240) Congrats on a really nice set of numbers over here from my side as well.
+(28:11.000) You know, you folks talked about maintaining an appropriate prudence, I think,
+(28:15.260) is the way you framed it, like maintaining appropriate prudence when it comes to your guide,
+(28:18.900) despite raising the back half outlook.
+(28:20.780) Look, if I sort of think about H2 versus H1 math for a second, right,
+(28:25.600) I think the guide implies 48% of the revenues this year will come in the back half of the year.
+(28:30.280) Historically, that number has been around 52%.
+(28:32.140) Can you just touch on how much of that H2 drop you're expecting right now,
+(28:36.360) which is historically is from a pull-in versus you folks are perhaps just being a bit more conservative?
+(28:41.760) And, you know, is that conservativeness coming more from lack of component availability,
+(28:46.820) or where could that level be? Thank you.
+(28:48.220) You bet, Ahmed. I'm going to lead and David's going to punch the answer home, but I'm the problem.
+(28:54.920) We have a supply issue. We are supply constrained in the second half. It is not a demand issue for us.
+(29:02.120) Yeah, I mean, that's the story here. The demand continues to outpace the supply.
+(29:07.200) That demand is broad-based, as Jeff said, so it's going beyond the GPU and there's more AI opportunities.
+(29:12.940) from a CPU perspective, traditional server, in the PC.
+(29:18.780) We continue, obviously, these are complex designs.
+(29:22.500) And as we go forward, we'll continue with operational execution
+(29:26.320) to work with our supply chain teams, our go-to-market teams,
+(29:30.020) and our product teams to really execute a matchup
+(29:33.140) to the best execution-wise, the supply that we have
+(29:36.620) with the demand shaping that we see.
+(29:38.740) The teams have obviously executed that tremendously in Q1.
+(29:41.880) we'll look to do the same as we head into the back half of the year
+(29:45.660) but the demand is there as Jeff said that's what we're looking at
+(29:49.640) we'll continue to look for more supply we would like more supply
+(29:53.500) but the team will continue to go execute and go chase the pipeline that Jeff
+(29:58.400) referenced earlier which continues to be in very healthy shape
+(30:02.260) thanks Alec thank you and we'll take a question from Wamsi Mohan with Bank of America
+(30:10.920) Yes, thank you so much. Very, very impressive set of results here. I guess if we think about the comment you made on the call, I think you said customers are prioritizing securing supply, and that is something that you expect will continue for the remainder of the year.
+(30:29.500) in this kind of an environment where you just know that the demand is extremely strong.
+(30:37.820) What's your take on the magnitude of the variation in IT budgets for this year?
+(30:46.300) And do you think that some of this is coming out of the budget for next year as well on the enterprise side?
+(30:52.520) And I'm also curious, on the traditional servers,
+(30:55.920) I think, Jeff, you mentioned how agentic AI is maybe changing the usage.
+(31:00.720) Is there a materiality of this to Tier 2 CSPs as well?
+(31:04.200) You noted enterprise strength, but kind of curious if Tier 2 CSPs could be a potential offset to maybe any change in linearity of demand at enterprise.
+(31:15.220) Thank you.
+(31:18.280) I mean, Wamsi, I can't speak to next year and budgets for customers.
+(31:22.920) I mean, clearly the longer-term conversations we're having with customers are multi-year in nature of how they secure supply to provide their growth and upgrade their infrastructure.
+(31:37.920) And the discussions are multi-year in nature, I think three, four, five years.
+(31:42.140) Those discussions are underway.
+(31:44.800) And it really is about access to supply because, quite honestly, I can't tell them what the price is going to be.
+(31:49.640) but it's arrangements and agreements that we're working with large customers to ensure
+(31:56.860) they have what they need to grow their businesses. And we saw that occur across some of the largest
+(32:04.920) enterprises around the world. And our pipelines indicate that's going to continue with the next
+(32:13.340) set of customers and the next set of customers before that, which is breaking the historical
+(32:18.720) norms of pipeline build within the quarter and the out quarters. Our pipelines are good
+(32:26.740) two quarters out. And what was really interesting about traditional servers as an example
+(32:32.120) is we saw the pipeline grow in quarter greater than historical norms. And we saw the two quarters
+(32:40.280) out pipelines grow. And it's showing more customers looking to get access to the technology.
+(32:48.500) We're seeing budgets grow.
+(32:51.380) We're seeing budgets shift.
+(32:53.900) Obviously, we're one quarter into the year.
+(32:56.380) We'll see how the second half plays out.
+(32:58.560) I think that's part of the prudence that we're trying to convey of where's the demand signal.
+(33:03.620) But the demand that we see continues to be robust.
+(33:09.600) And we in the supply chain have to go find more parts for the businesses and for our customers to fulfill that demand.
+(33:17.480) I hope that helps.
+(33:18.680) I'd add maybe a couple of things, Jeff.
+(33:20.500) I think as we talk about demand outpacing supply in that environment, we would expect to exit the year with meaningful backlog as we enter next year.
+(33:31.820) So I think that's an important point.
+(33:33.180) The other piece would be from our financing and DFS element, which, again, is a competitive advantage for us.
+(33:41.220) We're engaged with many customers who, in normal course of business, would not need to take advantage of financing offerings.
+(33:50.560) But the opportunity to partially use our facility to get as much gear in their environments in-year to manage their potential budget issues is a great way to balance that.
+(34:02.000) And we're seeing double-digit origination growth across our CSG business, our traditional server business, our storage business, as well as AI, which you'd expect.
+(34:10.780) So we're seeing different ways we can help our customers get as much technology into their environments as quick as we can.
+(34:19.420) Thank you so much.
+(34:21.440) Thanks, Wally.
+(34:22.960) And the next question will come from Catherine Murphy with Goldman Sachs.
+(34:28.940) Thank you for the question.
+(34:30.160) I was wondering if you could further talk to the raised full-year guidance for AI servers to $60 billion and where across your customer base, the 5,000 customers you mentioned, you're seeing that $10 billion of incremental opportunity for the fiscal year.
+(34:44.080) And as a follow-up, how much capacity can you support in the AI server space with your current manufacturing partners?
+(34:50.220) Thank you very much.
+(34:52.320) Yeah, look, a strong start to the year.
+(34:55.080) Catherine, $16.1 billion of shipments.
+(34:57.480) You know, 24.4 billion of orders.
+(35:00.600) Our backlog now sits at $51.3 billion.
+(35:04.540) Just 90 days into the quarter, we're raising our full-year guide by $10 billion.
+(35:10.920) You know, we'll continue to work through those deployments as we match up our supply.
+(35:16.600) Obviously, these are complex designs that we're engaged on.
+(35:20.200) We're actively involved in the technology transition as we get ready for VIA Rubin.
+(35:24.840) and obviously working with all these customer bases in relation to data center readiness
+(35:29.960) and making sure they can receive the product.
+(35:33.860) I guess as you look at our portfolio, look, it's expanding and growing across all our verticals,
+(35:39.240) whether that's neoclouds, our sovereign relationships, our enterprise customers.
+(35:44.600) You'll have heard Michael last week at Dell Tech World talk about our 5,000 customers,
+(35:49.300) which is up over 50% in the last six months.
+(35:51.920) So you can see the traction that's coming.
+(35:54.080) And I guess the other data point I'd add is as we look at our pipeline over the next five quarters, that's multiples of our backlog, and it's growing across each individual vertical there again, across neoclouds individually, sovereign individually, and the enterprise space.
+(36:10.720) So it's broad-based, and it's prevalent either geography-wise or vertical-wise.
+(36:19.100) And on capacity?
+(36:20.240) Yeah, I mean, we have the capacity.
+(36:24.840) Well, there's no capacity issue.
+(36:27.140) It's parts.
+(36:28.540) Supply.
+(36:30.320) Thanks, Matt.
+(36:31.740) Thank you.
+(36:33.840) And the next question will come from Somnik Chatterjee with J.P. Morgan.
+(36:39.560) Hi.
+(36:40.280) Thanks for taking my question, and congrats from my side as well on the strong results here.
+(36:45.020) Maybe just to focus on one specific comment that you made in your prepared remarks
+(36:49.200) where the gross margin outlook for the year X AI is better than you had 90 days ago.
+(36:56.180) If you can just flesh that out a bit more in terms of,
+(36:59.280) is that a function of price increases that you've been able to take,
+(37:03.140) or is that a function of the kind of sort of mix of products that you're now selling
+(37:07.240) or where customer demand is focused relative to what you envisioned 90 days ago?
+(37:11.200) Just curious to hear what's driving that better outlook there. Thank you.
+(37:14.340) Yeah, sure, Samik. I think it starts with our Dell IP storage portfolio. We've taken up our revenue guide not only for Q2, but also for the back half of the year.
+(37:27.260) We're seeing our Dell IP portfolio resonate in the marketplace, whether that's the unstructured product from a power store perspective in the mid-range.
+(37:36.240) All of that obviously drives from a Dell IP mix perspective, tailwinds from a margin perspective and a rate perspective.
+(37:44.340) On the other elements of the business, both CSG and traditional server, we've made the commitment to make sure we sustain our margin rates.
+(37:52.280) We see a path to that.
+(37:53.760) We will continue to manage that as we see the growth.
+(37:56.720) And you put that basket of goods together from a core business perspective, and you see the lift in the overall margin rate as a result.
+(38:05.380) Thanks, Adam.
+(38:06.020) Thank you.
+(38:07.840) And we'll take a question from Asaya Merchant with Citigroup.
+(38:14.340) Great. I'll add my congrats here, too. Thank you for taking my question. If we could just talk a little bit about the attach rates that you're seeing for the AI server, especially as you're talking about greater enterprise demand here.
+(38:29.240) You talked about 5,000 customers now that's up from where it was a quarter ago.
+(38:33.640) If you could just flesh out how you're seeing that attach rate for storage and services,
+(38:38.740) and is the recent uptick in Dell IP storage a function of attach to AI servers as well
+(38:46.760) as on services, if you could just comment on that, and how that fleshes out into the
+(38:51.560) margin outlook for AI servers?
+(38:54.100) I think I heard maintaining a mid-single-digit margin outlook for AI servers.
+(38:59.240) Thank you.
+(39:01.760) Sure, lots into the question.
+(39:04.080) We'll start with the broader topic of we are increasing the amount of storage and services that we're providing AI customers, period.
+(39:17.560) Michael made reference at Dell Technology World last week with our unstructured data solutions.
+(39:24.100) the portfolio of products and how we had won across several major customers, which I think
+(39:32.860) are important bellwethers of what's changing in the marketplace and how our products are being
+(39:39.680) perceived. We are making progress with our AI customers, neoclouds, sovereigns,
+(39:48.940) the high frequency traders, and some of the biggest technology companies in the world,
+(39:54.060) semiconductor companies in the world where we are selling more storage, more Dell IP storage,
+(40:00.220) in fact, only Dell IP storage. And you're seeing it in our work, our unstructured
+(40:06.380) portfolio of products had its best quarter in demand ever. Unstructured data is the data set
+(40:15.340) feeds the beast, so to speak, in AI. And that's where we're seeing the greatest growth and making
+(40:20.560) the most traction. If you think about the portfolio broadly, David mentioned five straight quarters
+(40:28.000) of growth of Dell IP. It's five in PowerMax. It's nine in PowerStore. It's four in PowerScale. It's
+(40:34.780) three in ObjectScale. And our data protection product is two. We are seeing the entire portfolio
+(40:41.480) gain momentum. Combination of more competitive products, products designed for the AI era. I
+(40:49.860) would point to Lightning as being an example of an AI parallel file system specifically designed
+(40:56.480) for this class of devices and customers. We're seeing increased traction. We're certified across
+(41:05.340) NVIDIA stack, which certainly is driving. We are engineering with them and how to make data ingest
+(41:12.820) and data management and the whole data estate easier for enterprises to adopt,
+(41:20.180) to accelerate their AI needs. And quite frankly, we're in an era where architecture matters more
+(41:27.380) than it ever has. I think of our PowerStore Elite product. We get real excited. We had fun with this
+(41:33.340) last week at Dell Technology World. It's got three extra performance of its predecessor,
+(41:38.020) 1.5 million IOPS, six to one data reduction by one petabyte of raw storage store six petabytes
+(41:46.820) of data. I think about it's 70% faster and reads. It's got four X more throughput.
+(41:52.740) I think about the exascale storage we built purposely for this class of customers.
+(41:58.200) I think about the rack scale architecture that Arthur talked about last week on scale where we
+(42:02.560) or on stage where we talk about the role of storage,
+(42:05.980) networking, compute coming together,
+(42:08.240) driving more performance.
+(42:10.380) I think about what's happening in the world
+(42:11.800) of data protection where architecture matters again
+(42:14.900) in 75 to 1 compression rates,
+(42:17.400) and then ultimately our fundamental architecture
+(42:19.660) that drives fewer servers and fewer SSDs
+(42:23.060) to store equivalent amounts of information
+(42:24.780) versus our competitors.
+(42:26.900) All of that is being packaged up
+(42:30.200) and presented to our entire customer set
+(42:33.640) and then specifically targeted to our AI customers.
+(42:38.040) Again, whether it's Sovereign,
+(42:39.160) whether it's a NeoCloud or an enterprise,
+(42:41.900) and we're seeing traction.
+(42:43.560) Optimistic, not claiming victory here.
+(42:45.140) We have a lot of work to do.
+(42:47.160) We're committed to the space.
+(42:49.100) If you look at the payload that we delivered at DTW last week,
+(42:52.460) it was the biggest and broadest storage payload
+(42:54.720) we've ever brought out at any given time.
+(42:58.080) And there's more to come.
+(42:59.060) using AI inside our R&D organizations,
+(43:02.280) we are delivering larger payloads
+(43:04.900) in shorter periods of time,
+(43:06.520) and storage is the primary vehicle
+(43:08.220) to deliver that through.
+(43:09.640) So I hope that gives a sense,
+(43:10.680) and obviously we're still seeing
+(43:11.660) one of the differentiators we have in the marketplace
+(43:13.800) is services, our ability to deploy service product,
+(43:18.560) keep up times greater than anyone else,
+(43:20.580) continues to be a differentiator in the marketplace,
+(43:22.760) and we'll continue to invest in that
+(43:24.240) broadly across all customers.
+(43:27.200) Thank you, Asir.
+(43:29.060) And we'll take a question from Eric Woodring with Morgan Stanley.
+(43:36.300) Hey guys.
+(43:39.840) A big congrats from me on the quarter.
+(43:41.640) Just an amazing result.
+(43:43.120) I realize we're having a lot of conversations here about sustainability, but I'd love to
+(43:49.740) maybe ask you if we could go back to last October and knowing what you know now about
+(43:55.440) the market in incremental agentic and ways that traditional servers are being used perhaps
+(44:00.840) in different ways and your ability to take share from peers.
+(44:05.120) If we went back to the October analyst day, how would you change that 7% to 9% revenue
+(44:11.940) guide and 15% plus EPS guide?
+(44:15.420) And ultimately trying to get understanding the sustainability of what you're seeing across
+(44:20.620) multiple years, which just realize you might not have numbers, but would just love your
+(44:24.180) thoughts on where maybe that 7% to 9% and 15% plus would go, knowing what you know today.
+(44:29.440) Thank you so much. Yeah, I don't think we'd work a five-year program on the Q1 earnings call,
+(44:37.340) obviously, as we kind of go through. What we'll do is obviously validate what we're seeing. We
+(44:42.440) were very keen on the back of the Q1 momentum that we see, where the growth is real, it's durable,
+(44:49.100) it's accelerating, it's more broad-based, it's expanding beyond the GPU. All of those proof
+(44:56.740) points, as they evolve and emerge, give us and gave us the confidence not only to take up our
+(45:03.380) Q2 guide, which pretty much mirror images what we did in Q1, but also look at the second half
+(45:09.800) and build out incremental guidance across every lab, whether it's PCs, server, storage, and AI,
+(45:18.020) as we do that. Jeff touched on earlier, we're always pretty confident as we look out over a
+(45:24.080) two, two and a half quarter lens in our pipeline as we do that. The other obviously dialogue there
+(45:29.940) is as we talked about an AI pipeline over the next five quarters, building out, you know,
+(45:37.340) multiples of our backlog. So all of those, again, indicate that strong reference points of a
+(45:42.880) a broader-based demand element.
+(45:45.000) And obviously core to that will be the agility for our EPS over time.
+(45:50.120) So, you know, that said, like I said earlier,
+(45:53.180) we'll look to drive meaningful backlog as we exit this year.
+(45:57.120) And I think that's where we are, Eric,
+(45:59.140) in terms of, you know, looking out on eHorizon for now.
+(46:02.080) Eric, I might add the following perspective.
+(46:07.460) I don't think applying historical models or historical views
+(46:12.160) about the market and how it's going to act are appropriate today.
+(46:19.040) We're finding new uses.
+(46:20.960) I mean, the way that I get asked this, or I would ask you this,
+(46:23.980) is what's the value of adding intelligence into every workflow,
+(46:28.840) every decision, every product, every customer interaction?
+(46:33.280) I would assert the value is pretty darn high.
+(46:37.080) And that's what's been really, I think,
+(46:39.560) the game changer since that October time is what's really happened in agentic. And what you're seeing
+(46:45.480) are new categories of TAM expanding. You had the three microprocessor leaders talk about an
+(46:54.260) expansion of CPU TAMs. Why? It's driven by agentic. What's happening in agentic?
+(47:02.120) Agentic is really the movement of AI from an advisor to an operator. It's actually going to
+(47:08.220) do something now. It's going to do something meaningful. For it to do something, that agent
+(47:12.560) needs support, just like a human needs support. That agent needs support, in this case, of a CPU.
+(47:18.060) You have all of this wonderfulness that a GPU drives, but you have this work that has to be
+(47:23.200) done around IO, around branch, retries, managing state. They're very sequential. They're very
+(47:29.820) serial in nature as a result of that. That's a workload that's for the CPU. So if you think about
+(47:35.640) this notion is that's generally called a harness. So if you think about that harness, the CPU runs
+(47:41.740) it. It's going to make those calls. It's going to manage memory. And it's in the loop in every
+(47:46.160) decision that an agent makes. We didn't know this in October. This is a completely new marketplace
+(47:52.940) that's being driven by putting intelligence in every workflow and every part of knowledge work
+(48:00.620) on the planet today, and we're just beginning. Another way to describe this is
+(48:07.120) the premium for computational capability, whether that be on the edge with a PC, smartphone,
+(48:16.780) servers running this harness, GPUs doing magical, wonderful work creating all of this great value,
+(48:25.580) just continues to grow at a rate we've never seen.
+(48:29.780) And it's pulling the rest of the ecosystem.
+(48:32.880) That's what we see.
+(48:34.500) And if I go for the trifecta here,
+(48:36.660) all of that stuff's got to be stored.
+(48:39.360) It needs high-performance storage
+(48:41.220) to be able to ultimately have a receipt
+(48:45.240) of what the agent is doing so it can be corrected.
+(48:48.580) You can understand what it did.
+(48:50.460) That's where we're at.
+(48:51.620) I don't know how we would have predicted that in October
+(48:54.620) And today I can't sit here and tell you how big the TAM is other than I know it's bigger, it's growing, and we're in the early innings of it.
+(49:03.600) Fantastic.
+(49:04.920) Amazing.
+(49:05.320) Thank you.
+(49:07.880) And the next question will come from David Vogt with UBS.
+(49:13.920) Great.
+(49:14.540) Thanks, guys, for taking my questions.
+(49:16.000) And, Jeff, I appreciate all the detail and David on servers and storage.
+(49:19.960) I want to ask a question on CSG.
+(49:21.760) obviously strong performance, taking market share. But can you expand on sort of how you drove
+(49:27.760) profitability dramatically, both sequentially and year over year? Kind of going back and thinking
+(49:32.440) through like the best margin I've seen in sort of the PC industry, it was probably not 8%. So just
+(49:38.140) given sort of the drop through, it looks like over 25% drop through. How do we think about
+(49:42.860) what's driving that? How much is price versus maybe low cost inventory? And how do we think
+(49:48.520) at the PC margins trends longer term? Do we go back to your normal historical long-term range
+(49:53.840) that you talked about at the investor day? Or just how do we think about kind of where the
+(49:57.460) market is in your competitive positioning from a pricing and margin perspective? Thanks.
+(50:02.340) Hey, look, David and I will tag team this. I think the way to look at this,
+(50:07.120) clearly we benefited from tremendous scale in the business. I mean, David made reference that the
+(50:14.940) operating expense as a percent of revenue was down, I believe, 300 basis points on a year-over-year
+(50:21.200) basis. Actually, a sequential basis. 600. Yeah, 600 on a year-over-year basis, on a sequential
+(50:26.320) basis, 300. Well, that's powerful in a business like the PC business. We also told you in our
+(50:34.800) last earnings call, we were purposely late in making a price move because we wanted to build
+(50:40.820) momentum with volume, we did. We took share in Q4. In Q1, we purposely moved the price
+(50:50.100) in earlier as we got our two Q2 costs. You know, I think about what we're doing today,
+(50:59.580) you know, we probably moved a little too early in retrospect. We saw that temper a little bit
+(51:04.100) of demand and the transactional business thinks a consumer small and medium business,
+(51:08.540) And we're looking to find the right optimum place for that, which is reflected in our go-forward guidance of operating margins for the PC business.
+(51:16.660) I mentioned we had TRU uplift.
+(51:20.620) TRU uplift drives more profit.
+(51:22.900) I mentioned that we had greater peripherals attached and service attached.
+(51:27.300) That drives profitability in the business.
+(51:29.940) That's the package.
+(51:31.280) We are not operating at COVID margins.
+(51:33.660) Far from it, in fact.
+(51:35.960) If you go back to the operating margins in that era, they were at this range or slightly better.
+(51:42.180) We're benefiting from the tremendous scale of the Dell company, a discipline in pricing,
+(51:48.800) that we're working to find the right optimum balance, particularly in that transactionally oriented side of the marketplace,
+(51:54.540) consumer, small and medium business.
+(51:56.720) Large deals are done price by deal by deal.
+(52:00.300) And we like what we're doing.
+(52:02.600) We think we don't have it perfect yet.
+(52:06.580) Still trying to find the right balance, but I'm optimistic.
+(52:15.280) And the next question comes from Tim Long with Barclays.
+(52:23.320) Thank you.
+(52:25.020) A two-parter, if I could, hopefully both quick on the more traditional enterprise business.
+(52:29.300) First, you talked a lot about storage.
+(52:32.480) Just curious, with traditional server guided to 60% for the year and storage mid-single digit,
+(52:39.640) does that mean that we could see a longer pull-through or tail to storage as we look out a little bit further?
+(52:47.020) And then secondly, you guys navigated the price increases very well.
+(52:50.660) You've touched on that as well.
+(52:52.200) Just curious, in your past history with this,
+(52:55.200) If we do get another uptick that's kind of meaningful in the next several months or quarters, does it get harder to push pricing through another time?
+(53:06.340) Or is it similar to the dynamic that you think you've seen over the last quarter or two?
+(53:12.440) Thank you.
+(53:14.500) Yeah, Tim, I guess a couple of things in there.
+(53:16.660) First, if you look at our guide for the full year, again, I go back to the dynamic that we kind of referenced earlier.
+(53:23.960) when you look at our second half growth in the plan, it's still, if you like,
+(53:29.420) inhibited by the supply that we can get.
+(53:31.680) So the demand is there.
+(53:33.220) The demand is outplacing the supply.
+(53:35.540) That applies to across our ISG business as we look at that.
+(53:39.900) The other element, and I think we discussed this 90 days ago,
+(53:43.640) as you look at our DEL IP mix in terms of our storage portfolio,
+(53:49.260) we continue to do that crossover with the historical business,
+(53:51.960) business, you know, so we get more Dell IP versus third party, you know, by the end of this year,
+(53:57.440) that stops becoming any relevant element of our bridge in relation to that. So, you know, seeing
+(54:03.240) growth in storage on a consistent basis and building that trend is something that excites
+(54:08.780) us from a P&L perspective as we move forward and as we kind of go execute that piece of it.
+(54:14.880) On the pricing side, Tim, we're repricing, it feels like every day.
+(54:21.960) And I'm sure our customers feel that pain.
+(54:25.800) Unfortunately, I don't see that changing given the world that we're living in today where you have an inflationary environment, whether it's fuel, whether it's raw materials, whether that's DRAM, whether that's NAND, CPUs.
+(54:37.680) We are living in an inflationary environment that is changing at a rate that obviously we've never seen before.
+(54:44.720) And everything that we see suggests that continues.
+(54:48.380) There'll be a point where some customers, it's enough and they'll wait it out.
+(54:53.980) And we're seeing that in some cases.
+(54:56.880) In other cases, we're seeing an acceleration, the notion that was called out earlier, where folks are trying to secure that supply now and over multiple years because it's going to be more constrained.
+(55:10.120) Okay. Thank you very much.
+(55:12.040) Thanks, Tim.
+(55:12.700) And the next question is from Simon Leopold with Raymond James.
+(55:19.400) Great. Thank you. Appreciate it. I wanted to come back to the risks and the supply constraints in
+(55:27.400) that I think everybody understands memory at this point, but I'd like to get a sense from
+(55:33.400) you as to what other elements or factors are limiting any upside beyond the memory constraint.
+(55:41.420) I'm thinking about things like printed circuit boards, et cetera.
+(55:45.480) Just help us understand sort of the rank orders.
+(55:49.140) Appreciate it.
+(55:50.780) Sure, Simon.
+(55:51.960) Yeah, I called out the three that we're spending a tremendous amount of time on.
+(56:00.100) Obviously, NAND and DRAM, microprocessors.
+(56:05.740) If you went down the list, next it's likely hard drives.
+(56:08.940) You go down the list beyond that. There's lots of things. If you look at what's happening in the semiconductor network, you're seeing utilization of the trailing nodes beginning to fill at greater rates. Leading edge node stuff is full, is fully allocated lead times are a year.
+(56:27.480) So all of those are pressure, but the most pressure comes across the four that I described in the first three primarily of RAM, NAND, CPUs, then hard drives, and then ultimately the basket of goods that sit around that.
+(56:46.140) Our supply chain has clearly worked through this. This is what we do. Never run out of parts.
+(56:54.420) Got a sales force that's out selling lots with a demand and pipeline that looks very encouraging
+(56:59.140) that we tried to convey through the call. We have our work cut out for us to work with our partners
+(57:04.200) to drive more supply, and every bit and bite matters. Every microprocessor matters, and that's
+(57:09.520) what we all try to do every day. Thanks, Simon. We'll take one more question.
+(57:13.860) We'll take our final question from Krish Sankar with TD Cowen.
+(57:21.060) Hi, thanks for taking my question, Jeff.
+(57:24.500) Again, congrats on an amazing result.
+(57:26.260) I just wanted to find out on your servers, is there a way to think about what is the
+(57:29.860) mix of x86 versus ARM and does it matter to you or is there any margin differential between
+(57:35.720) those two architectures from a Dell standpoint?
+(57:41.140) servers are x86 today or excited about the opportunity with Vera in the future, particularly
+(57:51.520) as we talk about these advanced workloads that drive increasingly more computational need,
+(57:59.680) running this harness, the CPU, managing this scaffolding around every GPU call is going to
+(58:06.060) be more performant and there'll be more choice here, more opportunity. We need the relief with
+(58:12.300) microprocessors, so we're excited about that. On the GPU side, if my memory serves me right, it's
+(58:22.200) bias towards ARM. So when you think about the big GB200, 300, obviously heading towards
+(58:30.960) Vera, you think about direct liquid cooling, the large deployments, bias towards ARM. If you think
+(58:38.380) about enterprise and air, so think B200, B300, RTX 6000 Pro, you think those, x86.
+(58:53.120) Thanks, Chris. And Jeff, we'll turn it over to you for the close.
+(58:57.300) Thanks, Paul, and thanks, everyone, for joining us today.
+(59:02.320) Q1 was an exceptional start to FY27, highlighted by strong execution across ISG and CSG and continued momentum in AI.
+(59:11.860) As we look to Q2 and into the second half, our pipeline indicates demand is not slowing but accelerating
+(59:18.100) and meaningfully outpacing supply as customers prioritize securing the infrastructure they need across AI,
+(59:25.340) traditional compute, storage, and PCs. Reflecting that strength, we raised our FY27 revenue and EPS
+(59:32.560) guidance by approximately $27 billion and $5 respectively. We are operating with discipline
+(59:39.140) in a challenging supply environment, scaling the business, and continuing to return capital to
+(59:44.380) shareholders. We feel very good about our position, our momentum, and our ability to create long-term
+(59:49.480) value. Thanks again for joining us today. And this concludes today's conference call.
+(59:56.560) We appreciate your participation.
