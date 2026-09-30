@@ -106,6 +106,16 @@ python scripts/refine_todo_ocr.py output.md --pdf path/to/report.pdf
 # 或只補指定頁：--pages 3,7
 ```
 
+### ⏱️ 服務併發與排隊限制
+
+Mac-mini OCR worker 採單一執行（single worker），請求以 FIFO 順序處理；服務最多保留 8 個等待中的請求。client 與批次腳本必須以單一路徑串行送件，不可用平行 worker 或 `xargs -P` 同時上傳，否則會收到 `503 Server busy`，並不代表 PDF 或網路故障。
+
+- 先以 `GET /health` 確認服務存活，再送 `/ocr`。
+- 收到 `503 Server busy` 或 `429` 時，等待後以 exponential backoff 重試；不要立即密集重送。
+- 每頁完成並寫回 `<!-- OCR:done ... -->` 後，才處理下一頁；中斷後依剩餘 `TODO:OCR` 頁面續跑。
+- 批次執行應限制為一個 client process；不要超過服務的 8 個等待請求上限。
+- `/health` 回傳 200 只代表 HTTP service 存活；仍須以一次單頁 `/ocr` 成功確認 worker 可用。
+
 **TODO:OCR 標記格式**（機器可讀，`refine_todo_ocr.py` 以此定位頁面）：
 
 ```html
