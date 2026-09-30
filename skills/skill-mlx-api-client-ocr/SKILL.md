@@ -7,7 +7,7 @@ description: 使用自建在 Mac-mini 上的 OCR API 服務，將 PDF 或圖片�
 
 | 項目 | 內容 |
 | :--- | :--- |
-| 版本 | 1.6.2（詳見 `metadata.json`） |
+| 版本 | 1.7.0（詳見 `metadata.json`） |
 | 來源 | https://github.com/wenchiehlee/FamilyHealthyCheck |
 | 登錄庫 | https://github.com/wenchiehlee/skills （`common/skill-mlx-api-client-ocr`） |
 | 維護者 | wenchiehlee |
@@ -24,7 +24,8 @@ skill-mlx-api-client-ocr/
 ├── metadata.json          # 機器可讀 metadata（名稱、版本、來源），供版本檢查使用
 ├── self_update.py         # 從 skills 登錄庫檢查並更新此技能的工具
 └── scripts/
-    ├── ocr_client.py      # 連線與 API 傳送客戶端腳本 (支援 CLI 與模組導入)
+    ├── ocr_client.py      # 連線與 API 傳送客戶端腳本 (支援引擎選擇與回傳計時資訊)
+    ├── benchmark_ocr_engines.py # 同頁面串行比較 Baidu / Paddle 的速度
     ├── pdf_fallback.py    # Mac-mini 離線時的本地非 OCR PDF→Markdown 退援轉換
     ├── refine_todo_ocr.py # 補轉錄 Markdown 中標記 TODO:OCR 的頁面
     ├── convert_ir_pdfs.py # 批次處理法說會簡報 PDF 轉錄工具
@@ -53,11 +54,13 @@ pip install pillow-heif
 # Mac-mini OCR API 設定
 OCR_API_URL=http://mac-mini.tail28f10.ts.net:5001/ocr
 OCR_API_KEY=<your-api-key>
+# 選用：baidu（預設）或 paddle
+OCR_ENGINE=baidu
 ```
 
 ## 📊 AI Model Usage 統計
 
-OCR 的模型使用量由 `skill-mlx-api-server` 的 `/ocr` endpoint 送出 Amplitude `llm_call`：`service=mlx-api-server`、`stage=ocr`、`provider=baidu-ocr`、`model=baidu/Unlimited-OCR`。本 client skill 的責任是讓呼叫端能正確歸因 app，因此 HTTP request 應傳 `X-App-Name`；未傳時 server 會 fallback 到 `Baidu-OCR`，但全域報表就無法看出是哪個專案消耗 OCR。
+OCR 的模型使用量由 `skill-mlx-api-server` 的 `/ocr` endpoint 送出 Amplitude `llm_call`，依請求記錄引擎和模型（Baidu Unlimited-OCR 或 PaddleOCR-VL-1.6）。請求使用 `X-App-Name` 區分專案。
 
 ## 🚀 使用方式與範例
 
@@ -67,7 +70,7 @@ OCR 的模型使用量由 `skill-mlx-api-server` 的 `/ocr` endpoint 送出 Ampl
 from scripts.ocr_client import transcribe_document_to_markdown
 
 try:
-    markdown_text = transcribe_document_to_markdown("path/to/report.pdf", dpi=200)
+    markdown_text = transcribe_document_to_markdown("path/to/report.pdf", dpi=200, engine="paddle")
     print("轉錄成功！內容摘要：")
     print(markdown_text[:500])
 except Exception as e:
@@ -79,9 +82,23 @@ except Exception as e:
 ```bash
 # 語法：python ocr_client.py <檔案路徑> [DPI，預設200]
 python scripts/ocr_client.py path/to/report.pdf > output.md
+# 或指定 Paddle：python scripts/ocr_client.py path/to/report.pdf 200 paddle
 ```
 
-### 📈 方式 C：批次處理法說會簡報 (IR PDFs)
+引擎也可用 `OCR_ENGINE=baidu` 或 `OCR_ENGINE=paddle` 設定；未指定時沿用 Baidu，維持舊呼叫相容。TODO 補頁可用 `refine_todo_ocr.py ... --engine paddle` 指定引擎，完成標記會記錄 `engine="mac-mini-paddle"` 或 `engine="mac-mini-baidu"`。
+
+### 📏 方式 C：以相同頁面比較兩引擎速度
+
+先將代表性頁面準備成一頁一檔的 PDF 或原始影像，兩個引擎會依序各跑完整批次，避免逐頁切換造成 Paddle 模型冷啟動。第一筆列為 first-request（包含模型啟動/載入），其餘列為 warm。輸出 Markdown 各自存檔，`timings.jsonl` 保留每頁引擎、成功狀態、client 總時間，以及 server 的 queue、模型就緒、render、pipeline setup、inference 與 process 時間：
+
+```bash
+python scripts/benchmark_ocr_engines.py pages/*.png --dpi 200 --out results/ocr-benchmark --first-engine baidu
+# 下一輪改成 --first-engine paddle；兩次結果分開保存
+```
+
+比較時分開呈現冷啟動與暖機頁面的中位數、p95；主要速度指標用模型 `inference_s`，端到端採 `client_elapsed_s`，並單獨檢視 `queue_wait_s`，避免把等待其他請求的時間算成引擎速度。相同 DPI、同一批頁面、固定批次順序後，再交換兩引擎的批次先後重跑一次可降低溫度/背景負載偏差。逾時頁面記錄為失敗並保留，不自動換引擎重試。辨識精度和表格結構需另外對照原始頁面評估，不能用速度推斷品質。
+
+### 📈 方式 D：批次處理法說會簡報 (IR PDFs)
 如果您需要批次處理多個投資關係相關的 PDF，可以使用 `convert_ir_pdfs.py`。此腳本會先做文字層抽取，再只對必要頁面補 OCR；Mac-mini 離線時會保留 `TODO:OCR` 標記，不會用低品質 OCR 覆蓋乾淨文字層：
 ```bash
 # 掃描全部股票資料夾進行轉換：
@@ -91,7 +108,7 @@ python scripts/convert_ir_pdfs.py
 python scripts/convert_ir_pdfs.py 2301 DELL
 ```
 
-### 🔌 方式 D：Mac-mini 離線時的退援模式與 TODO:OCR 工作流程
+### 🔌 方式 E：Mac-mini 離線時的退援模式與 TODO:OCR 工作流程
 當 Mac-mini 不在線時，可先用本地文字層抽取產生暫用 Markdown，之後再補做 OCR：
 
 ```bash
@@ -106,20 +123,6 @@ python scripts/refine_todo_ocr.py output.md --pdf path/to/report.pdf
 # 或只補指定頁：--pages 3,7
 ```
 
-### ⏱️ 服務併發與排隊限制
-
-Mac-mini OCR worker 採單一執行（single worker），請求以 FIFO 順序處理；服務最多保留 8 個等待中的請求。client 與批次腳本必須以單一路徑串行送件，不可用平行 worker 或 `xargs -P` 同時上傳，否則會收到 `503 Server busy`，並不代表 PDF 或網路故障。
-
-- 先以 `GET /health` 確認服務存活，再送 `/ocr`。
-- 收到 `503 Server busy` 或 `429` 時，等待後以 exponential backoff 重試；不要立即密集重送。
-- 每頁完成並寫回 `<!-- OCR:done ... -->` 後，才處理下一頁；中斷後依剩餘 `TODO:OCR` 頁面續跑。
-- 批次執行應限制為一個 client process；不要超過服務的 8 個等待請求上限。
-- `/health` 回傳 200 只代表 HTTP service 存活；仍須以一次單頁 `/ocr` 成功確認 worker 可用。
-
-### 💤 OCR 睡眠佇列
-
-若單頁在目前 OCR engine 反覆 timeout 或觸發 worker 異常，將 marker 改為 `TODO:OCR-SLEEP`。此狀態代表「已確認需要 OCR，但在新版 engine 可用前暫停重試」；既有 `refine_todo_ocr.py` 不會處理此 marker。新版 engine 部署後，才將 `TODO:OCR-SLEEP` 恢復為 `TODO:OCR`，並以單頁、串行方式重新排程。
-
 **TODO:OCR 標記格式**（機器可讀，`refine_todo_ocr.py` 以此定位頁面）：
 
 ```html
@@ -129,10 +132,20 @@ Mac-mini OCR worker 採單一執行（single worker），請求以 FIFO 順序�
 *   `reason=scanned-page`：該頁幾乎沒有文字層（掃描影像頁），整頁需要 OCR。
 *   `reason=embedded-images`：該頁有文字層但含內嵌圖片，且使用者明確要求 `--mark-embedded-images` 時才標記。
 *   補轉錄完成後，標記會被替換為 `<!-- OCR:done source="..." page=N date="..." -->`，OCR 結果直接取代該頁內容。
+*   Mac-mini 回傳 HTTP 504，或 client 的 OCR response read timeout 時，`refine_todo_ocr.py` 會在該頁 TODO 下方寫入／累加 `<!-- OCR:timeout page=N count=K last="..." kind="http-504|client-read-timeout" -->`，並在本機 fallback 前立即存檔。若重試後仍失敗，TODO 和 timeout 記錄都會保留；若本機 fallback 完成，`OCR:done` 標記會帶上 `mac_mini_timeouts`、最後 timeout 時間與類型，保留該頁累計次數。
 *   Mac-mini OCR API 若回傳 detector/debug 標記或 `save results` 區塊，client 會在寫檔前清理，只保留可讀 Markdown。
 *   注意：對純掃描 PDF（如掃描的健檢報告）只能先產生整頁 TODO:OCR 標記的骨架；表格與版面資訊仍需等 OCR 補轉錄後才可用。
 
-### 📸 方式 E：HEIC 圖片轉錄
+Timeout 記錄範例：
+
+```html
+<!-- TODO:OCR source="report.pdf" page=31 reason=scanned-page -->
+<!-- OCR:timeout page=31 count=2 last="2026-09-30T12:33:29+08:00" kind="http-504" -->
+```
+
+`count` 只在 server 明確回傳 `504` 或 OCR response read timeout 時增加；連線失敗和其他 HTTP 錯誤不計入。`kind` 區分 server timeout 與 client read timeout，避免把尚未確認的 server 狀態誤記為 900 秒 server timeout。
+
+### 📸 方式 F：HEIC 圖片轉錄
 
 手機（尤其 iPhone）拍攝留存的政府文件、單據常以 HEIC 格式儲存，OCR API 只吃 PDF/JPG/PNG，需先轉檔。`heic_convert.py` 會把 HEIC 轉成暫存 PNG 後再送 OCR：
 

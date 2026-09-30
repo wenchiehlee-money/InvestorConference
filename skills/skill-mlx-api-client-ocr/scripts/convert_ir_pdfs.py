@@ -52,10 +52,7 @@ def is_company_dir(path):
     name = path.name
     if name in (".git", ".github", ".claude", "__pycache__", "definitions", "spec", "tmp", "tools", "web", "logs", "scripts", "skills"):
         return False
-    # Accept exchange-qualified symbols such as 0981.HK as well as the
-    # historical numeric/ticker directory names.
-    normalized = name.replace(".", "")
-    return normalized.isdigit() or (normalized.isupper() and normalized.isalnum())
+    return name.isdigit() or (name.isupper() and name.isalpha())
 
 def is_valid_pdf(pdf_path):
     try:
@@ -107,8 +104,7 @@ def convert_pdf_to_md(pdf_path, md_path):
 
 def main():
     print("=== Converting Investor Presentation PDFs to Markdown (via skills/skill-mlx-api-client-ocr) ===")
-    replace_existing = "--replace" in sys.argv[1:]
-    targets = {arg for arg in sys.argv[1:] if arg != "--replace"}
+    targets = set(sys.argv[1:])
     data_dir = REPO_ROOT / "data"
     company_dirs = [d for d in data_dir.iterdir() if is_company_dir(d)]
     if targets:
@@ -127,7 +123,7 @@ def main():
                 md_path = c_dir / f"{file.stem}.md"
 
                 # Check if MD already exists
-                if md_path.exists() and not replace_existing:
+                if md_path.exists():
                     skipped_count += 1
                     continue
 
