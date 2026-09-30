@@ -7,7 +7,7 @@ description: 使用自建在 Mac-mini 上的 OCR API 服務，將 PDF 或圖片�
 
 | 項目 | 內容 |
 | :--- | :--- |
-| 版本 | 1.6.1（詳見 `metadata.json`） |
+| 版本 | 1.6.2（詳見 `metadata.json`） |
 | 來源 | https://github.com/wenchiehlee/FamilyHealthyCheck |
 | 登錄庫 | https://github.com/wenchiehlee/skills （`common/skill-mlx-api-client-ocr`） |
 | 維護者 | wenchiehlee |
