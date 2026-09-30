@@ -1,6 +1,6 @@
 ---
-name: conference-digest
-description: 法說會/earnings call 與財報結果 digest。當使用者要求分析台股/美股法說會、從 FIN/GT/IR/Q&A 修正 GT，或針對 README 類型=財報 的事件使用 Skills/公司財報文件/Yahoo consensus 產出 earnings-result digest 時使用；找出預期差、模型修正路徑、管理層可信度、股價影響因素，並在美股案例列出台股 read-through。同季同時有法說會與財報材料時，兩者必須合併為單一報告（財報數字優先，法說會補 guidance/Q&A/語氣），見 3.1.2。
+name: skill-company-investorconference-digest
+description: 法說會/earnings call 與財報結果 digest。當使用者要求分析台股/美股法說會、從 FIN/GT/IR/Q&A 修正 GT，或針對 README 類型=財報 的事件使用 Skills/公司財報文件/Yahoo consensus 產出 earnings-result digest 時使用；找出預期差、模型修正路徑、管理層可信度、股價影響因素，並在美股案例列出台股 read-through。
 ---
 
 # 法說會重點萃取與投資影響分析 SOP (Investor Conference Digest SOP)
@@ -77,10 +77,9 @@ description: 法說會/earnings call 與財報結果 digest。當使用者要求
 | `{StockID}_{Year}_q{N}_GT.srt` | 由 FIN 與相關材料交叉校正後的字幕；可能是人工校正版或 GT-candidate | 字幕第一優先，但需檢查 metadata/review level 與 conservative 驗收門檻 |
 | `{StockID}_{Year}_q{N}_FIN.srt` | Whisper 自動轉錄字幕 | 字幕第二優先 |
 | `{StockID}_{Year}_q{N}.md` | 音檔逐字稿 | 字幕第三優先 |
-| `{StockID}_{Year}_q{N}_ir.md` | 中文法說會簡報 | TW 財務數據補充；簡報數字通常標註 unaudited/preliminary，正式財報存在時財務硬數字以財報為準（見 3.1.2） |
-| `{StockID}_{Year}_q{N}_ir_en.md` | 英文法說會簡報 | 同上 |
+| `{StockID}_{Year}_q{N}_ir.md` | 中文法說會簡報 | 財務數據第一優先 |
+| `{StockID}_{Year}_q{N}_ir_en.md` | 英文法說會簡報 | 財務數據補充 |
 | `{StockID}_{Year}_q{N}_qa.md` | 官方 Q&A 紀錄 | Q&A 分析必讀 |
-| TW 官方合併財報：README `類型=財報` 對應的 MOPS 申報檔，直接讀取 sibling `../MOPS/downloads/{StockID}/{YYYYQQ}_{StockID}_AI1.pdf`／`_AIA.pdf`（若該 repo 已有對應 `.md` 轉檔則優先使用，不在 InvestorConference 本地重複轉檔存放；`InvestorConference/data/{StockID}/` 不需另存一份） | 公司正式（通常 audited/reviewed）合併財務報表 | TW 財務數據第一優先，優於法說會簡報（見 3.1.2） |
 | `{StockID}_{Year}_q{N}_report_en.pdf` / `.md`, `_financial_tables.pdf` / `.md` | 美股 official earnings release / SEC 8-K Exhibit 99.1 / financial tables | US 財務數據第一來源；matrix `F/X` |
 | `{StockID}_{Year}_q{N}_performance_review.md` / `_ir_en.md` | 美股簡報或 performance review | US guidance / segment 補充 |
 | `{StockID}_{Year}_q{N}_10q.md` | SEC 10-Q/10-K 摘要或連結 | US filing 交叉驗證（若可得） |
@@ -90,8 +89,7 @@ description: 法說會/earnings call 與財報結果 digest。當使用者要求
 
 ### 3.2 來源使用原則
 
-1. 財務數字以公司正式文件為第一來源：TW 若同季有官方合併財報（sibling `../MOPS` repo 的 AI1/AIA 申報檔），以財報為第一來源，`_ir.md`/`_ir_en.md` 僅作 guidance、segment、KPI 與定性補充；若無財報只有法說會簡報，才以簡報數字為準。US 優先 earnings release/report、financial tables、performance review/deck 與 SEC filing（若可得）。
-   * 若引用當下 `../MOPS` repo 尚無 `.md` 轉檔，digest 可先以 `.pdf`（或自行 PyMuPDF 抽取）為來源並在證據台帳註明，但**日後若該 MOPS 檔案已補上 `.md` 轉檔，應在下次碰觸該 digest 時把引用路徑改為 `.md`**（`.md` 版通常經過表格結構還原，較 PyMuPDF 直接抽取的原始文字層更易核對），避免 `.pdf` 引用長期留存而未同步。
+1. 財務數字以公司正式文件為第一來源：TW 優先 `_ir.md`/`_ir_en.md`；US 優先 earnings release/report、financial tables、performance review/deck 與 SEC filing（若可得）。
 2. Q&A 重要性高於 prepared remarks；Q&A 可能揭露法人真正擔心的問題、管理層未主動提到的限制與不確定性。
 3. GT 字幕優先於 FIN 字幕，但必須讀取 GT metadata/review level；若 GT 僅為 `conservative_from_FIN` 或缺 metadata，重大結論仍需回到 IR、Q&A、第三方逐字稿與音檔交叉驗證。
 4. 產生 GT 或 digest 前必須檢查 repo 根目錄 `audio_metadata.json`；若目標 stem `status` 為 `duplicate`、`invalid` 或 checksum 與其他季度相同，視為音訊錯配 Blocker/Major，不可把 FIN 時間軸視為本季音訊證據。
@@ -100,7 +98,7 @@ description: 法說會/earnings call 與財報結果 digest。當使用者要求
 
 ### 3.1.1 財報事件與 Skills 財報結果
 
-若 README 事件 `類型=財報`，**且同一 `{StockID}/{Year}/{Quarter}` 沒有可用的法說會/受邀法說材料（無音檔、無 IR 簡報、無逐字稿）**，不得要求音檔、FIN 或 GT 作為 digest 前置條件。此時 digest 類型為 `earnings_result_digest`，資料來源優先級為：
+若 README 事件 `類型=財報`，不得要求音檔、FIN 或 GT 作為 digest 前置條件。此時 digest 類型為 `earnings_result_digest`，資料來源優先級為：
 
 1. 公司正式 earnings release/report、financial tables、supplemental/performance deck、SEC filing。
 2. Skills 財報結果檔：`{StockID}_{Year}_q{N}_skills_result.md` 或 `.json`。
@@ -121,18 +119,6 @@ Repo 邊界與來源判定：
 * `../ConceptStocks`、`../Yahoo.Finance` 與 Yahoo Finance 頁面可作公司 metadata、共識資料或 discovery source；除非欄位本身來自公司/SEC 且保留來源，否則不得覆蓋公司 IR、SEC 8-K/10-Q 或正式 financial tables。
 * 若 CSV/ConceptStocks/Yahoo 季度標籤與 Alphabet IR、SEC EDGAR、公司 earnings release 等一級來源衝突，digest 必須採用一級來源並在資料品質段落記錄 root cause。
 * 對已知 US calendar-year 財報事件，digest 應檢查公告日與季度是否合理；未知 ticker 或特殊 FY 公司需保留 `QxFYyyyy` 或標示待一級來源確認。例如 `2026-07-22` 的 Alphabet 財報應為 `2026 Q2`，不是 Yahoo/CSV 可能殘留的 `FY2026 Q1`。
-
-### 3.1.2 法說會與財報同季合併規則
-
-計數與排程邊界：README 的未來 planned/not_due rows 不是 digest 缺漏，不得列入 digest eligible、pending 或 coverage rate；只有到期/過期且具備可分析材料的事件才進入 digest health 分母。`法說會` 與同日 `財報` 仍是兩筆輸入記錄，但同一公司/季度若有法說會材料，只產出一份合併 digest。
-
-台股同一 `{StockID}/{Year}/{Quarter}` 在 README 常同時出現「法說會」（或「受邀法說」）與「財報」兩筆 CSV 事件（例如同一天公告），美股則常見同日 earnings release + earnings call。這兩者**不得**產出兩份互不引用的獨立報告，必須合併為單一 digest：
-
-1. **判定規則**：只要同一 `{StockID}/{Year}/{Quarter}` 存在任一法說會/受邀法說材料（音檔、FIN/GT、IR 簡報、逐字稿），一律使用第 5.1 節「13 節研究層＋投資決策摘要」完整架構產出唯一一份 `{StockID}_{Year}_q{N}_digest.md`；不得因為同時也有 `類型=財報` 的 CSV 列，就額外另開一份 5.0 精簡版報告，也不得省略財報數字直接沿用法說會簡報數字。只有「同季完全沒有法說會/受邀法說材料」時才用 5.0 精簡架構（見 3.1.1）。
-2. **財務數字來源優先序**：硬數字（營收、毛利率、營益率、EPS、CapEx、資產負債表、現金流）優先採用官方財報（TW：MOPS AI1/AIA 合併財報；US：earnings release/10-Q/10-K/financial tables）；法說會簡報與逐字稿數字僅作 guidance、segment、KPI、管理層語氣與 Q&A 的第一來源，若簡報數字與財報有出入（例如簡報為 unaudited 估計值），以財報為準並在資料品質段落記錄差異，不得靜默採用較舊或較不正式的數字。
-3. **財報檔案不在本 repo 時仍須讀取**：TW 官方財報常只存在於 sibling `../MOPS` repo（`downloads/{StockID}/{YYYYQQ}_{StockID}_AI1.pdf`）而非 `data/{StockID}/` 底下；digest 仍須實際讀取該檔案內容（本機路徑或既有 sync 流程），並在證據台帳註明實際來源路徑；不可因為檔案不在 `InvestorConference/data/` 下就略過或只用 README 連結代替內容查證。
-4. **財報材料缺失時的降級處理**：若財報 CSV 事件存在但實際財報檔案尚未取得（README 財報列全為 `-`），digest 仍可先用法說會/簡報數字產出報告，但須在「資料品質 Issue」標示 Minor/Major「官方財報材料缺失，硬數字暫以法說會簡報為準」，並依規則 5 待補齊後修訂。
-5. **回填規則**：若 digest 產出當下只取得法說會或只取得財報其中一種材料，事後另一種材料補齊時，**必須修訂既有 digest**（更新 metadata 的資料來源、財務數字優先序、資料品質 Issue 欄位，並視需要調整 Surprise Matrix／證據台帳），而非另開一份新報告或放著不管。修訂時應在報告 metadata 加註修訂日期與變更摘要（範例見 `2412_2026_q2_digest.md` 2026-08-30 QoQ 回填的作法）。
 
 ### 3.2.1 市場共識資料來源：Yahoo.Finance consensus history
 
@@ -198,15 +184,6 @@ Digest 必須明確區分一級來源與二級來源。二級來源可以提高�
 
 `lint_sources.py` 回傳非零 exit code 代表有資料品質問題；ERROR/Blocker 會使財務結論錯誤或無法分析時，必須先處理或在報告中降信心。
 
-### 3.4.1 Digest 前置 GT gate
-
-法說會 / earnings call digest 不可在「缺 GT」時直接跳到 FIN-only digest。`find_sources.py` 或 `lint_sources.py` 若顯示目標季度缺少 `{StockID}_{Year}_q{N}_GT.srt`，必須先執行 3.5 GT 字幕生成與校正 SOP，完成以下其中一種明確結果後才可產生或更新 digest：
-
-1. 產生可用 `{StockID}_{Year}_q{N}_GT.srt`：需包含 metadata、保留 FIN timestamp / line boundary、標示 `Review-Level`、`Audio-Checked`、`Correction-Sources`、`Confidence`，並重跑 `lint_sources.py`。README 的 GT 欄與 digest metadata 必須改用 GT。
-2. 產生 `rejected_low_confidence` 判定：只有在 FIN 弱、音訊錯配、缺少足夠文字材料或無法通過 conservative gate 時使用。digest 若仍必須產出，需明確標示 `字幕來源: FIN（GT rejected_low_confidence）`，並把資料品質 issue 視為 Major/Blocker。
-3. 既有 GT 需修正：若 GT 缺 metadata、疑似只複製 FIN、或與 IR/Q&A/第三方資料衝突，先修正 GT 與 metadata，再更新 digest。
-
-因此，缺 GT 是 digest 的 pre-process trigger，不是可忽略的普通 warning。只有 README `類型=財報` 且沒有 call transcript/audio 的 earnings-result digest 可跳過 GT gate。
 
 ### 3.5 GT 字幕生成與校正 SOP
 
@@ -346,7 +323,7 @@ US digest 必須額外檢查：
 
 ### 5.0 財報結果 digest 架構
 
-適用於 README `類型=財報`，例如 `GOOGL Alphabet Inc. | 2026 Q2 | 財報 | 2026-07-22`，**且同季沒有任何法說會/受邀法說材料**。若同季存在法說會/受邀法說材料（即使只有 IR 簡報、沒有音檔），一律改用 5.1 完整架構並依 3.1.2 合併財報數字，不使用本節精簡格式。
+適用於 README `類型=財報`，例如 `GOOGL Alphabet Inc. | 2026 Q2 | 財報 | 2026-07-22`。
 
 1. 財報結果摘要：revenue/EPS、GAAP/non-GAAP、主要 beat/miss、guidance 變化、信心與缺口。
 2. Surprise Matrix：本季實績 vs Yahoo consensus/Skills workflow/company guidance；Yahoo 只支援 revenue/EPS，其餘填 `NA`。
@@ -394,15 +371,6 @@ US digest 必須額外檢查：
 | 存貨 | | | | | | | |
 
 必須分析 EPS 品質、一次性項目、匯率與業外影響、營業現金流、FCF 與淨利差異、DSO/DIO/DPO/現金轉換週期。資料不足時標示 NA。
-
-**ROE / ROA**：必須在資產負債表討論中納入 ROE、ROA，即使公司/簡報未直接揭露也要自行計算，不可省略。計算與揭露規則：
-
-1. 若公司財報/簡報直接揭露 ROE、ROA，優先採用並標示為硬數據。
-2. 若未直接揭露，digest 須自行計算並明確標示為「分析推論／digest 自行計算」（非公司揭露比率），信心最高為中：
-   * 淨利採 TTM（trailing twelve months）：`TTM淨利 = 前次年度淨利 − 去年同期截至本季之累計淨利 + 本年累計至本季之淨利`。
-   * 分母採季底股東權益（ROE）與季底總資產（ROA）；若只能取得單一期末數字而非期初期末平均值，須在報告中揭露此簡化方法論限制。
-3. 若當季分母（股東權益／總資產）因股利發放、庫藏股、重大資產處分等一次性資本結構變動而大幅波動，必須在報告中明確指出該波動對 ROE/ROA 的機械性影響，避免被誤讀為獲利能力改變。
-4. 缺乏足夠跨期數據計算 TTM 淨利時，標示 NA 並說明缺口，不可用單季淨利乘以 4 簡化計算而不揭露方法論。
 
 ### 三、財測與未來展望
 
