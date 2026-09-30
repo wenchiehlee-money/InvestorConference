@@ -391,14 +391,18 @@ Well positioned for both near-term catalysts and long-term sustainable growth
 <!-- PAGE:19 -->
 ## 第 19 頁
 
-<!-- TODO:OCR source="AVGO_2026_q1_ir_en.pdf" page=19 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="AVGO_2026_q1_ir_en.pdf" page=19 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
+
+Q&A Session
+ACADIA
+19
 
 <!-- PAGE:20 -->
 ## 第 20 頁
 
-<!-- TODO:OCR source="AVGO_2026_q1_ir_en.pdf" page=20 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="AVGO_2026_q1_ir_en.pdf" page=20 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
 
 <!-- PAGE:21 -->
 ## 第 21 頁

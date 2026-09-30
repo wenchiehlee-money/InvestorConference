@@ -251,5 +251,9 @@ Q2 FY 2026 $13,450 (1,894) (21) $15,365
 <!-- PAGE:17 -->
 ## 第 17 頁
 
-<!-- TODO:OCR source="NVDA_2027_q2_ir_en.pdf" page=17 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="NVDA_2027_q2_ir_en.pdf" page=17 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
+[NO TEXT]
+nVIDIA®
+The
+

@@ -57,8 +57,8 @@ Inc. and/or its subsidiaries. Qualcomm patents are licensed by Qualcomm Incorpor
 <!-- PAGE:3 -->
 ## 第 3 頁
 
-<!-- TODO:OCR source="QCOM_2026_q3_ir_en.pdf" page=3 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="QCOM_2026_q3_ir_en.pdf" page=3 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
 
 <!-- PAGE:4 -->
 ## 第 4 頁
@@ -240,8 +240,8 @@ Apple product revenues in FY26
 <!-- PAGE:10 -->
 ## 第 10 頁
 
-<!-- TODO:OCR source="QCOM_2026_q3_ir_en.pdf" page=10 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="QCOM_2026_q3_ir_en.pdf" page=10 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
 
 <!-- PAGE:11 -->
 ## 第 11 頁
@@ -371,8 +371,8 @@ Data Center, Automotive and IoT
 <!-- PAGE:17 -->
 ## 第 17 頁
 
-<!-- TODO:OCR source="QCOM_2026_q3_ir_en.pdf" page=17 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="QCOM_2026_q3_ir_en.pdf" page=17 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
 
 <!-- PAGE:18 -->
 ## 第 18 頁
@@ -662,8 +662,8 @@ subsidiaries. Qualcomm patents are licensed by Qualcomm Incorporated.
 <!-- PAGE:27 -->
 ## 第 27 頁
 
-<!-- TODO:OCR source="QCOM_2026_q3_ir_en.pdf" page=27 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="QCOM_2026_q3_ir_en.pdf" page=27 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
 
 <!-- PAGE:28 -->
 ## 第 28 頁

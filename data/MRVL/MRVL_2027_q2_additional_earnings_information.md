@@ -400,5 +400,8 @@ Total Net Revenue  100 %  100 %  100 %  100 %  100 %  100 %  100 %  100 %
 <!-- PAGE:11 -->
 ## 第 11 頁
 
-<!-- TODO:OCR source="MRVL_2027_q2_additional_earnings_information.pdf" page=11 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="MRVL_2027_q2_additional_earnings_information.pdf" page=11 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
+MARVELL™
+Essential technology, done right™
+

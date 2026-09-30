@@ -592,14 +592,14 @@ share $0.71 $0.06 $0.04 $0.01 $0.00 $(0.01) $0.02 $0.83
 <!-- PAGE:17 -->
 ## 第 17 頁
 
-<!-- TODO:OCR source="HPQ_2026_q3_ir_en.pdf" page=17 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="HPQ_2026_q3_ir_en.pdf" page=17 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
 
 <!-- PAGE:18 -->
 ## 第 18 頁
 
-<!-- TODO:OCR source="HPQ_2026_q3_ir_en.pdf" page=18 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="HPQ_2026_q3_ir_en.pdf" page=18 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
 
 <!-- PAGE:19 -->
 ## 第 19 頁

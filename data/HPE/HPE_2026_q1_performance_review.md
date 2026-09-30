@@ -2423,8 +2423,9 @@ information
 <!-- PAGE:4 -->
 ## 第 4 頁
 
-<!-- TODO:OCR source="HPE_2026_q1_performance_review.pdf" page=4 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="HPE_2026_q1_performance_review.pdf" page=4 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
+HPE
 
 <!-- PAGE:5 -->
 ## 第 5 頁
@@ -3337,8 +3338,8 @@ Reference endnotes slide in Appendix 2 for footnotes on this slide.
 <!-- PAGE:17 -->
 ## 第 17 頁
 
-<!-- TODO:OCR source="HPE_2026_q1_performance_review.pdf" page=17 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="HPE_2026_q1_performance_review.pdf" page=17 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
 
 <!-- PAGE:18 -->
 ## 第 18 頁
@@ -7016,8 +7017,8 @@ Leverage ratio
 <!-- PAGE:38 -->
 ## 第 38 頁
 
-<!-- TODO:OCR source="HPE_2026_q1_performance_review.pdf" page=38 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="HPE_2026_q1_performance_review.pdf" page=38 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
 
 <!-- PAGE:39 -->
 ## 第 39 頁

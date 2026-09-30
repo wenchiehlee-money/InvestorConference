@@ -333,8 +333,10 @@ Rest of WorldAsia-Pacific
 <!-- PAGE:14 -->
 ## 第 14 頁
 
-<!-- TODO:OCR source="META_2026_q1_ir_en.pdf" page=14 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="META_2026_q1_ir_en.pdf" page=14 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
+Appendix
+Meta
 
 <!-- PAGE:15 -->
 ## 第 15 頁

@@ -205,8 +205,10 @@ End Market Highlight Shareholder Return
 <!-- PAGE:6 -->
 ## 第 6 頁
 
-<!-- TODO:OCR source="GFS_2026_q1_ir_en.pdf" page=6 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="GFS_2026_q1_ir_en.pdf" page=6 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
+Key Announcements
+A
 
 <!-- PAGE:7 -->
 ## 第 7 頁
@@ -283,8 +285,10 @@ Dr. Dominik Erb, VP digital semiconductor roadmaps & operations, Bosch
 <!-- PAGE:10 -->
 ## 第 10 頁
 
-<!-- TODO:OCR source="GFS_2026_q1_ir_en.pdf" page=10 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="GFS_2026_q1_ir_en.pdf" page=10 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
+End Markets
+40
 
 <!-- PAGE:11 -->
 ## 第 11 頁
@@ -478,8 +482,11 @@ why we believe these Non-IFRS measures are useful.
 <!-- PAGE:19 -->
 ## 第 19 頁
 
-<!-- TODO:OCR source="GFS_2026_q1_ir_en.pdf" page=19 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="GFS_2026_q1_ir_en.pdf" page=19 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
+Outlook
+H
+19
 
 <!-- PAGE:20 -->
 ## 第 20 頁

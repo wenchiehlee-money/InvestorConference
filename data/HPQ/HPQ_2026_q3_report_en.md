@@ -582,8 +582,44 @@ business operations.
 <!-- PAGE:14 -->
 ## 第 14 頁
 
-<!-- TODO:OCR source="HPQ_2026_q3_report_en.pdf" page=14 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="HPQ_2026_q3_report_en.pdf" page=14 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
+hp
+HP INC. AND SUBSIDIARIES
+SEGMENT/BUSINESS UNIT INFORMATION
+(Unaudited)
+(In millions)
+|  | Nine months ended | Change (%) |  |  |
+|---|---|---|---|---|
+| July 31, 2026 | July 31, 2025 | Y/Y |  |  |
+| Net revenue:(a) |  |  |  |  |
+| Commercial PS | $ 23,575 | $ 20,467 | 15 % |  |
+| Consumer PS | 8,656 | 7,712 | 12 % |  |
+| Personal Systems | 32,231 | 28,179 | 14 % |  |
+| Supplies | 8,089 | 8,166 | (1)% |  |
+| Commercial Printing | 3,374 | 3,424 | (1)% |  |
+| Consumer Printing | 831 | 889 | (7)% |  |
+| Printing | 12,294 | 12,479 | (1)% |  |
+| Corporate Investments(b) | — | — | NM |  |
+| Total segment net revenue | 44,525 | 40,658 | 10 % |  |
+| Other(b) | (2) | (2) | NM |  |
+| Total net revenue | $ 44,523 | $ 40,656 | 10 % |  |
+| Earnings before taxes:(a) |  |  |  |  |
+| Personal Systems | $ 1,578 | $ 1,457 |  |  |
+| Printing | 2,241 | 2,286 |  |  |
+| Corporate Investments | (81) | (69) |  |  |
+| Total segment earnings from operations | 3,738 | 3,674 |  |  |
+| Corporate and unallocated cost and other | (258) | (302) |  |  |
+| Stock-based compensation expense | (389) | (432) |  |  |
+| Restructuring and other charges | (539) | (302) |  |  |
+| Acquisition and divestiture charges, net | (6) | (31) |  |  |
+| Amortization of intangible assets | (220) | (287) |  |  |
+| Certain litigation charges, net | (63) | (105) |  |  |
+| Interest and other, net(c) | (301) | (381) |  |  |
+| Total earnings before taxes | $ 1,962 | $ 1,834 |  |  |
+(a) Effective at the beginning of its first quarter of fiscal year 2026, HP realigned its business unit financial reporting to reflect the transition of the Print-as-a-Service business from Corporate Investments to Printing. HP reflected this change to its business unit information in prior reporting periods on an as-if basis which resulted in the reclassification of segment net revenue, cost of net revenue and operating expenses from the Corporate Investments segment to Supplies and Consumer Printing. The reporting change had no impact to previously reported consolidated net revenue, earnings from operations, net earnings or net earnings per share.
+(b) "NM" represents not meaningful either because the amount is too small or large to be meaningful for comparative purposes.
+(c) Nine months ended July 31, 2025 includes a gain from a single litigation matter that does not relate to HP's ongoing business operations.
 
 <!-- PAGE:15 -->
 ## 第 15 頁
@@ -694,8 +730,19 @@ Non-GAAP diluted net earnings per share $ 0.83   $ 0.86   $ 0.75
 <!-- PAGE:18 -->
 ## 第 18 頁
 
-<!-- TODO:OCR source="HPQ_2026_q3_report_en.pdf" page=18 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="HPQ_2026_q3_report_en.pdf" page=18 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
+Use of non-GAAP financial measures
+To supplement HP's condensed consolidated financial statements presented in accordance with U.S. generally accepted accounting principles ("GAAP"), HP provides net revenue on a constant currency basis, non-GAAP total operating expenses, non-GAAP operating profit, non-GAAP operating margin, non-GAAP other income and expenses, non-GAAP tax rate, non-GAAP net earnings, non-GAAP diluted net EPS, free cash flow, gross cash and net cash (debt). HP also provides forecasts of non-GAAP diluted net EPS and free cash flow.
+These non-GAAP financial measures are not computed in accordance with, or as an alternative to, GAAP financial measures. Reconciliations of these non-GAAP financial measures to the most directly comparable GAAP financial measures are included in the tables above or elsewhere in the materials accompanying this news release. HP encourages investors to review those reconciliations carefully.
+Use and economic substance of non-GAAP financial measures
+Net revenue on a constant currency basis excludes the effect of foreign currency exchange fluctuations calculated by translating current period revenues using monthly exchange rates from the comparative period and excluding any hedging impact recognized in the current period. Non-GAAP operating margin is defined to exclude the effects of any amounts relating to restructuring and other charges, acquisition and divestiture (credits) charges, net, amortization of intangible assets and certain litigation (benefits) charges, net. Non-GAAP net earnings and non-GAAP diluted net EPS consist of net earnings or diluted net EPS excluding those same charges, non-operating retirement-related (credits) charges, debt extinguishment (benefits) costs, tax adjustments and the amount of additional taxes or tax benefits associated with each non-GAAP item.
+HP's management uses these non-GAAP financial measures to evaluate HP's historical and prospective financial performance, enhance period-to-period comparability, and assess HP's performance relative to its competitors. HP's management excludes the items mentioned above because they do not believe they are reflective of ongoing operating performance.
+HP believes that providing non-GAAP financial measures in addition to the related GAAP financial measures provide investors with greater insight to the information used by HP's management in its financial and operational decision making and allows investors to see HP's results "through the eyes" of management. HP further believes that providing this information better enables HP's investors to understand HP's operating performance and financial condition and to evaluate the efficacy of the methodology and information used by HP's management to evaluate and measure such performance and financial condition. Disclosure of these non-GAAP financial measures also facilitates comparisons of HP's operating performance with the performance of other companies in HP's industry that supplement their GAAP results with non-GAAP financial measures that may be calculated in a similar manner.
+HP excludes each of those items mentioned above, which are described in further detail below:
+- Restructuring and other charges are (i) costs associated with a formal restructuring plan and are primarily related to employee separation from service and early retirement costs and related benefits, costs of real estate consolidation and other non-labor charges; and (ii) other charges, which are distinct from ongoing operational costs and primarily include: third party professional services and other non-recurring costs, including costs relating to artificial intelligence adoption and enablement and information technology rationalization efforts. Effective second quarter of fiscal 2026, other charges also include CEO transition costs, which comprises of executive hiring and retention costs.
+- Charges/ (credits) related to its acquisitions and divestitures are gains or losses on divestitures, direct expenses such as third-party professional and legal fees, integration and divestiture-related costs, as well as non-cash adjustments to the fair value of certain acquired assets such as inventory and certain compensation charges related to cash settlement of restricted stock units and performance-based restricted stock units towards acquisitions. These (credits)/ charges related to acquisitions and divestitures are inconsistent in amount and frequency and are significantly impacted by the timing and nature of HP's acquisitions or divestitures.
+- Charges relating to the amortization of intangible assets are included in HP's GAAP earnings, operating margin, net earnings and diluted net EPS. Such charges are significantly impacted by the timing and magnitude of HP's acquisitions and any related impairment charges.
 
 <!-- PAGE:19 -->
 ## 第 19 頁

@@ -631,5 +631,7 @@ Non-GAAP diluted net income per share $1.10 +/- $0.05
 <!-- PAGE:36 -->
 ## 第 36 頁
 
-<!-- TODO:OCR source="MRVL_2027_q2_financial_business_results.pdf" page=36 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="MRVL_2027_q2_financial_business_results.pdf" page=36 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
+MARVELL™
+

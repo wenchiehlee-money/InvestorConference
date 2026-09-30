@@ -227,8 +227,8 @@ Non-GAAP fully diluted earnings per share ($)1 $0.47 +/- $0.04
 <!-- PAGE:9 -->
 ## 第 9 頁
 
-<!-- TODO:OCR source="ARM_2027_q1_ir_en.pdf" page=9 reason=scanned-page -->
-> TODO:OCR - 此頁幾乎沒有可抽取的文字層，待 Mac-mini OCR 補轉錄。
+<!-- OCR:done source="ARM_2027_q1_ir_en.pdf" page=9 date="2026-09-30" engine="mac-mini" -->
+<!-- OCR_PAGE -->
 
 <!-- PAGE:10 -->
 ## 第 10 頁
