@@ -15,7 +15,7 @@ PDF_MAGIC = b"%PDF-"
 
 
 def find_mac_mini_converter(repo: Path) -> Path | None:
-    for skill_dir in ("skill-mlx-api-client-ocr", "skill-mac-mini-ocr", "mac-mini-ocr"):
+    for skill_dir in ("skill-mac-mini-ocr", "mac-mini-ocr"):
         converter = repo / "skills" / skill_dir / "scripts" / "convert_ir_pdfs.py"
         if converter.is_file():
             return converter
@@ -56,18 +56,15 @@ def target_pdfs(data_dir: Path, prefix: str) -> list[Path]:
 
 
 def stage_tmp_pdfs(repo: Path, data_dir: Path, prefix: str) -> list[Path]:
-    """Move quarter PDFs left in tmp/ by ingest.py into data/<stock>/ for OCR.
-
-    This includes both conference presentation PDFs (I/M) and official
-    financial-results PDFs (F/X).  The latter used to remain in tmp/ and
-    could therefore never become a matrix F cell.
-    """
+    """Move IR PDFs left in tmp/ by ingest.py into data/<stock>/ for OCR."""
     tmp_dir = repo / "tmp"
     staged: list[Path] = []
     if not tmp_dir.is_dir():
         return staged
 
     for src in sorted(tmp_dir.glob(f"{prefix}*.pdf")):
+        if "ir" not in src.stem.lower() and "presentation" not in src.stem.lower() and "deck" not in src.stem.lower():
+            continue
         dest = data_dir / src.name
         if dest.exists():
             src.unlink()
@@ -149,7 +146,7 @@ def main() -> int:
     ingest = repo / "skills" / "skill-company-investorconference-ingest" / "scripts" / "ingest.py"
     converter = find_mac_mini_converter(repo)
     if converter is None:
-        raise SystemExit("Cannot find skill-mlx-api-client-ocr converter under repo/skills.")
+        raise SystemExit("Cannot find skill-mac-mini-ocr converter under repo/skills.")
 
     if not args.skip_ingest:
         cmd = [sys.executable, str(ingest), stock_id, str(args.year), q]
