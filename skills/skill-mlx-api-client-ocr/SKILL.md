@@ -116,6 +116,10 @@ Mac-mini OCR worker 採單一執行（single worker），請求以 FIFO 順序�
 - 批次執行應限制為一個 client process；不要超過服務的 8 個等待請求上限。
 - `/health` 回傳 200 只代表 HTTP service 存活；仍須以一次單頁 `/ocr` 成功確認 worker 可用。
 
+### 💤 OCR 睡眠佇列
+
+若單頁在目前 OCR engine 反覆 timeout 或觸發 worker 異常，將 marker 改為 `TODO:OCR-SLEEP`。此狀態代表「已確認需要 OCR，但在新版 engine 可用前暫停重試」；既有 `refine_todo_ocr.py` 不會處理此 marker。新版 engine 部署後，才將 `TODO:OCR-SLEEP` 恢復為 `TODO:OCR`，並以單頁、串行方式重新排程。
+
 **TODO:OCR 標記格式**（機器可讀，`refine_todo_ocr.py` 以此定位頁面）：
 
 ```html
