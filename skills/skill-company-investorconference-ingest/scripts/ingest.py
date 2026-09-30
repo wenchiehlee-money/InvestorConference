@@ -156,90 +156,6 @@ KNOWN_PDF_ATTACHMENTS_BY_QUARTER = {
         ("performance_review", "https://delltechnologies.gcs-web.com/static-files/5d15be71-1d9a-45ec-8308-8987fb41084d"),
         ("transcript", "https://delltechnologies.gcs-web.com/static-files/a24f97e4-63b2-460d-a4be-44738826e8ce"),
     ],
-    ("HPE", "2026", "3"): [
-        ("report_en", "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-press-release.pdf"),
-        ("financial_tables", "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-quarterly-results.pdf"),
-        ("performance_review", "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-presentation.pdf"),
-    ],
-    ("ARM", "2027", "1"): [
-        ("report_en", "https://investors.arm.com/static-files/d8db20bd-7b96-486a-b99b-23315627d1ec"),
-        ("ir_en", "https://investors.arm.com/static-files/776b641e-a309-448a-bdc7-a13daf110eb5"),
-        ("transcript", "https://investors.arm.com/static-files/2ef5e3bf-f276-4a46-a4a2-2aadccd6710b"),
-    ],
-    ("ASML", "2026", "2"): [
-        ("report_en", "https://ourbrand.asml.com/asset/ffeb8813-403b-49df-83c0-01aae7533dd6/Financial-statements-US-GAAP-Q2-2026.pdf"),
-        ("ir_en", "https://ourbrand.asml.com/asset/9078cf4d-91fd-4dd9-a5d5-d1caab6dc046/2026_07_15_Presentation-Investor-Relations-Q2-2026.pdf"),
-        ("transcript", "https://ourbrand.asml.com/asset/1fd3908a-0381-47b5-9b69-a3094f656651/2026_07_15-ASML-Transcript-investor-call-Q2-2026.pdf"),
-    ],
-    ("ASML", "2026", "1"): [
-        ("report_en", "https://ourbrand.asml.com/asset/3f4235e1-ad38-4af8-a39b-de0d39cb71d1/Financial-statements-US-GAAP-Q1-2026.pdf"),
-        ("ir_en", "https://ourbrand.asml.com/asset/d7b914e6-fdd1-4262-b805-d80f3efcb39a/2026_04_15_Presentation-Investor-Relations-Q1-2026.pdf"),
-    ],
-    ("META", "2026", "2"): [
-        ("report_en", "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf"),
-        ("ir_en", "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Earnings-Presentation-Q2-2026.pdf"),
-        ("transcript", "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf"),
-    ],
-    ("GOOGL", "2026", "2"): [
-        ("report_en", "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf"),
-        ("ir_en", "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-slides.pdf"),
-    ],
-    ("GOOGL", "2026", "1"): [
-        ("report_en", "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q1/2026q1-alphabet-earnings-release.pdf"),
-        ("ir_en", "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q1/2026q1-alphabet-earnings-slides.pdf"),
-    ],
-    ("AMZN", "2026", "2"): [
-        ("report_en", "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q2/earnings-result/AMZN-Q2-2026-Earnings-Release.pdf"),
-        ("ir_en", "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q2/presentation/Webslides_Q226.pdf"),
-    ],
-    ("AMZN", "2026", "1"): [
-        ("report_en", "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/earnings-result/AMZN-Q1-2026-Earnings-Release.pdf"),
-        ("ir_en", "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/presentation/Webslides_Q126.pdf"),
-    ],
-    ("MU", "2026", "3"): [
-        ("report_en", "https://micron.gcs-web.com/node/50671/pdf"),
-        ("ir_en", "https://micron.gcs-web.com/static-files/2354ecda-77a0-4ddd-8462-a631eb491356"),
-        ("transcript", "https://micron.gcs-web.com/static-files/631b1a32-5537-46ae-8f40-82e42fc79dfe"),
-    ],
-    ("GFS", "2026", "2"): [
-        ("report_en", "https://investors.gf.com/node/11081/pdf"),
-        ("ir_en", "https://investors.gf.com/static-files/367dece5-f70e-4e66-9c9a-8e5ebde7810b"),
-    ],
-    ("MRVL", "2027", "2"): [
-        ("report_en", "https://d1io3yog0oux5.cloudfront.net/_66d73b48265f58a017235898e12a0df5/marvell/news/2026-08-27_Marvell_Technology_Inc_Reports_Second_Quarter_of_1031.pdf"),
-    ],
-    ("HPQ", "2026", "3"): [
-        ("report_en", "https://s203.q4cdn.com/918857832/files/content_files/Q3-26_HP-Inc_Earnings-Press-Release.pdf"),
-        ("ir_en", "https://s203.q4cdn.com/918857832/files/content_files/Q3-26_HP-Inc_Earnings-Presentation.pdf"),
-    ],
-    ("NVDA", "2027", "2"): [
-        ("report_en", "https://investor.nvidia.com/files/doc_financials/2027/Q227/Q2FY27-CFO-Commentary.pdf"),
-        ("ir_en", "https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q227/NVDA-F2Q27-Quarterly-Presentation-final-1.pdf"),
-    ],
-    ("QCOM", "2026", "3"): [
-        ("report_en", "https://s204.q4cdn.com/645488518/files/doc_financials/2026/q3/FY2026-3rd-Quarter-Earnings-Release.pdf"),
-        ("ir_en", "https://s204.q4cdn.com/645488518/files/doc_financials/2026/q3/FY2026-3rd-Quarter-Earnings-Presentation_7-29-26_Final.pdf"),
-    ],
-    ("TSM", "2026", "2"): [
-        ("report_en", "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/114aaca0fea2050e96b91fffbab9ed04ba09cd92/FS.pdf"),
-        ("ir_en", "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/0e4d9625c9ef46521afd54002f835e45a9035043/2Q26%20Presentation%20(E).pdf"),
-        ("transcript", "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf"),
-    ],
-    ("INTC", "2026", "2"): [
-        ("report_en", "https://d1io3yog0oux5.cloudfront.net/_3ccf9cf30376bf77bbb27f582e51d00d/intel/db/887/9266/earnings_release/Q2+2026+Earnings+Release.pdf"),
-        ("ir_en", "https://d1io3yog0oux5.cloudfront.net/_3ccf9cf30376bf77bbb27f582e51d00d/intel/db/887/9266/earnings_presentation/Q2+2026+Earnings+Deck.pdf"),
-    ],
-    ("AVGO", "2026", "2"): [
-        # Broadcom FY2026 Q2 ended 2026-05-03, which is calendar 2026 Q2.
-        ("report_en", "https://investors.broadcom.com/node/64371/pdf"),
-        ("ir_en", "https://investors.broadcom.com/static-files/602c2fd3-89a0-436f-b638-4890f20feda7"),
-    ],
-    ("AVGO", "2026", "3"): [
-        # Broadcom publishes the earnings release as a PDF node and the
-        # quarter-specific investor deck in Events & Presentations.
-        ("report_en", "https://investors.broadcom.com/node/64671/pdf"),
-        ("ir_en", "https://investors.broadcom.com/static-files/602c2fd3-89a0-436f-b638-4890f20feda7"),
-    ],
 }
 
 # IR portal URLs for US stocks (ticker -> IR URL)
@@ -255,7 +171,6 @@ KNOWN_US_IR = {
 # Quarter-specific direct audio URLs for US stocks (choruscall VOD / YouTube / etc.)
 # Keys use (ticker, year, quarter) matching expected_quarter() convention.
 KNOWN_US_DIRECT_BY_QUARTER = {
-    ("ASML", "2026", "1"): "https://d38unk532qwege.cloudfront.net/69dfa14d941a39af300d7433/7121b643-89f8-4ea5-8f39-ca43459db9b3-hls.m3u8",  # ASML official Q1 2026 investor call replay
     ("QCOM", "2025", "4"): "https://vodchoruscall.akamaized.net/07452/qualcomm/qualcomm260204.mp4",  # Q1FY26 call 2026-02-04
     ("QCOM", "2026", "1"): "https://vodchoruscall.akamaized.net/07452/qualcomm/qualcomm260429.mp4",  # Q2FY26 call 2026-04-29
 }
@@ -263,11 +178,8 @@ KNOWN_US_DIRECT_BY_QUARTER = {
 # Official webcast replay pages when no direct downloadable audio URL is available.
 KNOWN_US_WEBCASTS_BY_QUARTER = {
     ("NVDA", "2027", "2"): "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-2nd-Quarter-FY27-Financial-Results/default.aspx",  # Q2FY27 results call 2026-08-26 2pm PT
-    ("AVGO", "2026", "2"): "https://edge.media-server.com/mmc/p/xxmn2vvv",  # Q2FY26 results call 2026-06-03
-    ("INTC", "2026", "2"): "https://edge.media-server.com/mmc/p/rdz8ppwz/",  # Q2 2026 results call 2026-07-23
     ("DELL", "2026", "1"): "https://event.webcasts.com/starthere.jsp?ei=1747660&tp_key=82c5169428",  # Q1FY27 results call 2026-05-28
     ("DELL", "2027", "2"): "https://event.webcasts.com/starthere.jsp?ei=1747682&tp_key=d94d9a0909",  # Q2FY27 results call 2026-09-01
-    ("HPE", "2026", "3"): "https://event.choruscall.com/mediaframe/webcast.html?webcastid=ycWBiZdW",  # Q3FY26 results call 2026-09-02
 }
 
 # Quarter-specific Yahoo Finance earnings transcript pages.
@@ -286,16 +198,6 @@ KNOWN_US_STOCKS = {
     "QCOM": ("Qualcomm",   "高通"),
     "DELL": ("Dell Technologies", "戴爾科技"),
     "GOOGL": ("Alphabet Inc.", ""),
-    "AVGO": ("Broadcom Inc.", "博通"),
-    "HPE": ("Hewlett Packard Enterprise Co.", "慧與科技"),
-    "AMZN": ("Amazon.com Inc.", "亞馬遜"),
-    "ARM": ("Arm Holdings plc", "安謀"),
-    "ASML": ("ASML Holding N.V.", "艾司摩爾"),
-    "META": ("Meta Platforms Inc.", "Meta"),
-    "MU": ("Micron Technology", "美光"),
-    "ORCL": ("Oracle Corporation", "甲骨文"),
-    "SIMO": ("Silicon Motion Technology Corporation", "慧榮科技"),
-    "TSM": ("Taiwan Semiconductor Manufacturing Company Limited", "台積電"),
 }
 
 # KNOWN_US_CALENDAR_YEAR_EARNINGS, KNOWN_US_FISCAL_YEAR_START_MONTH, and
@@ -1031,45 +933,8 @@ def _is_google_finance_media_candidate(url: str) -> bool:
     return not any(token in low for token in blocked)
 
 
-# Google Finance's earnings tab identifies a US stock as "{TICKER}:{EXCHANGE}"
-# rather than a fixed suffix like TW's ":TPE" for every ticker, so US tickers need
-# an explicit per-ticker exchange lookup. Only add a ticker once its exchange has
-# been verified to resolve to a real, quarter-matching earnings tab page -- an
-# unknown/wrong exchange silently returns {} rather than fabricating a candidate.
-KNOWN_US_GOOGLE_FINANCE_EXCHANGE = {
-    "NVDA": "NASDAQ",
-    "AAPL": "NASDAQ",
-    "MSFT": "NASDAQ",
-    "TSLA": "NASDAQ",
-    "AMD": "NASDAQ",
-    "QCOM": "NASDAQ",
-    "DELL": "NYSE",
-    "GOOGL": "NASDAQ",
-    "AVGO": "NASDAQ",
-    "HPE": "NYSE",
-    "AMZN": "NASDAQ",
-    "ARM": "NASDAQ",
-    "ASML": "NASDAQ",
-    "META": "NASDAQ",
-    "MU": "NASDAQ",
-    "ORCL": "NYSE",
-    "SIMO": "NASDAQ",
-    "TSM": "NYSE",
-}
-
-
 def _google_finance_exchange_for_market(market: str) -> str | None:
     return {"TW": "TPE"}.get(market)
-
-
-def _google_finance_source_url(stock_id: str, market: str) -> str | None:
-    """Return the Google Finance earnings-tab URL for stock_id, or None if unmapped."""
-    exchange = _google_finance_exchange_for_market(market)
-    if not exchange and market == "US":
-        exchange = KNOWN_US_GOOGLE_FINANCE_EXCHANGE.get(stock_id.upper())
-    if not exchange:
-        return None
-    return f"https://www.google.com/finance/beta/quote/{stock_id}:{exchange}?tab=earnings"
 
 
 def scrape_google_finance_earnings_audio(stock_id: str, year: str, quarter: str) -> dict:
@@ -1078,13 +943,14 @@ def scrape_google_finance_earnings_audio(stock_id: str, year: str, quarter: str)
 
     Google/Quartr must not override company IR, MOPS/TWSE, or other primary sources. This
     fallback only returns a reusable media URL when the rendered page identifies the target
-    fiscal quarter and exposes a recorded audio manifest. Works for both TW (fixed :TPE
-    suffix) and US tickers registered in KNOWN_US_GOOGLE_FINANCE_EXCHANGE.
+    fiscal quarter and exposes a recorded audio manifest.
     """
     market = detect_market(stock_id)
-    source_url = _google_finance_source_url(stock_id, market)
-    if not source_url:
+    exchange = _google_finance_exchange_for_market(market)
+    if not exchange:
         return {}
+
+    source_url = f"https://www.google.com/finance/beta/quote/{stock_id}:{exchange}?tab=earnings"
     target_year, month_min, month_max = _quarter_date_window(year, quarter)
     fiscal_tokens = [
         f"Fiscal Q{quarter} {year}",
@@ -1111,11 +977,10 @@ def scrape_google_finance_earnings_audio(stock_id: str, year: str, quarter: str)
     print(f"[Google-Finance] Secondary discovery: {source_url}")
     try:
         with sync_playwright() as p:
-            launch_kwargs = {"headless": True, "args": ["--no-sandbox", "--disable-setuid-sandbox"]}
-            browser_path = shutil.which("chromium") or shutil.which("chromium-browser") or shutil.which("google-chrome")
-            if browser_path:
-                launch_kwargs["executable_path"] = browser_path
-            browser = p.chromium.launch(**launch_kwargs)
+            browser = p.chromium.launch(
+                headless=True,
+                args=["--no-sandbox", "--disable-setuid-sandbox"],
+            )
             page = browser.new_page(user_agent=UA)
             page.on("response", on_response)
             page.goto(source_url, wait_until="domcontentloaded", timeout=45000)
@@ -1173,107 +1038,6 @@ def scrape_google_finance_earnings_audio(stock_id: str, year: str, quarter: str)
             "company IR/MOPS/TWSE sources remain primary."
         ),
     }
-
-
-def fetch_google_finance_transcript(stock_id: str, year: str, quarter: str, stem: str, save_dir: Path) -> list[Path]:
-    """
-    Fetch the Quartr-provided call transcript embedded in a Google Finance earnings tab.
-
-    Same secondary-source status as scrape_google_finance_earnings_audio(): only saved
-    when the rendered page confirms the target fiscal quarter (the same
-    "Fiscal Q{quarter} {year}" token check), and never treated as a substitute for
-    company IR / SEC filings / official audio for figures or quotes.
-
-    Saves {stem}_google_finance_transcript.md, or returns [] if the page has no
-    matching transcript.
-    """
-    market = detect_market(stock_id)
-    source_url = _google_finance_source_url(stock_id, market)
-    if not source_url:
-        return []
-
-    try:
-        from playwright.sync_api import sync_playwright
-    except ImportError:
-        print("[Google-Finance] playwright not installed; skipping transcript fetch.")
-        return []
-
-    fiscal_tokens = [f"Fiscal Q{quarter} {year}", f"Q{quarter} {year} earnings", f"Q{quarter} {year} Earnings"]
-
-    print(f"[Google-Finance] Fetching transcript: {source_url}")
-    body_text = ""
-    try:
-        with sync_playwright() as p:
-            launch_kwargs = {"headless": True, "args": ["--no-sandbox", "--disable-setuid-sandbox"]}
-            browser_path = shutil.which("chromium") or shutil.which("chromium-browser") or shutil.which("google-chrome")
-            if browser_path:
-                launch_kwargs["executable_path"] = browser_path
-            browser = p.chromium.launch(**launch_kwargs)
-            page = browser.new_page(user_agent=UA)
-            page.goto(source_url, wait_until="domcontentloaded", timeout=45000)
-            page.wait_for_timeout(3000)
-            # The transcript panel lazy-loads more speaker segments as you scroll it;
-            # keep scrolling until the rendered body text stops growing.
-            prev_len, stable = 0, 0
-            for _ in range(60):
-                page.mouse.wheel(0, 2000)
-                page.wait_for_timeout(400)
-                body_text = page.locator("body").inner_text(timeout=5000)
-                if len(body_text) == prev_len:
-                    stable += 1
-                    if stable >= 5:
-                        break
-                else:
-                    stable = 0
-                prev_len = len(body_text)
-            browser.close()
-    except Exception as e:
-        print(f"[Google-Finance] Transcript browser fetch failed: {e}")
-        return []
-
-    if not any(token in body_text for token in fiscal_tokens):
-        print("[Google-Finance] Target fiscal quarter text not confirmed on transcript page; skipping.")
-        return []
-
-    start = body_text.find("Call transcript")
-    end = body_text.find("Related earnings")
-    if start == -1 or end == -1 or end <= start:
-        print("[Google-Finance] No 'Call transcript' section found.")
-        return []
-    seg = body_text[start:end]
-
-    drop_exact = {"Call transcript", "summarize_auto", "expand_more", "expand_all", "music_history", "Listen from here"}
-    speaker_re = re.compile(r"^[A-Z][A-Za-z.'\- ]+,\s.+$")
-    timestamp_re = re.compile(r"^\d+h\s*\d+m\s*\d+s$|^\d+m\s*\d+s$|^\d+s$|^\d+h\s*\d+m$|^\d+m$")
-
-    out_lines = []
-    for raw_line in seg.split("\n"):
-        line = raw_line.strip()
-        if not line or line in drop_exact:
-            continue
-        if timestamp_re.match(line):
-            out_lines.append(f"\n_[{line}]_")
-        elif speaker_re.match(line) and len(line) < 80:
-            out_lines.append(f"\n**{line}**")
-        else:
-            out_lines.append(line)
-    body = re.sub(r"\n{3,}", "\n\n", "\n".join(out_lines))
-
-    header = (
-        f"# {stock_id} Fiscal Q{quarter} {year} Earnings Call Transcript\n\n"
-        f"Source: Google Finance earnings tab (Quartr-provided transcript)\n{source_url}\n\n"
-        "> Third-party/secondary transcript source. Supplements but does not override "
-        "company IR / SEC filings / official audio for figures or quotes; cross-check "
-        "against the official press release and financial tables in this same directory.\n\n"
-        "---\n\n"
-    )
-
-    save_dir.mkdir(parents=True, exist_ok=True)
-    md_path = save_dir / f"{stem}_google_finance_transcript.md"
-    md_path.write_text(header + body + "\n", encoding="utf-8")
-    print(f"[Google-Finance] OK Saved transcript -> {md_path.name} ({len(body)} chars)")
-    return [md_path]
-
 
 def title_matches_target_quarter(title: str, year: str, quarter: str) -> bool:
     """Return True only when a media title explicitly matches the target fiscal quarter."""
@@ -1734,43 +1498,29 @@ def download_audio(source: str, output_path: Path,
         and "files.quartr.com" in source.lower()
         and ".m3u8" in source.lower()
     )
-    is_official_hls = (
-        source.startswith(("http://", "https://"))
-        and ".m3u8" in source.lower()
-    )
-    is_direct_media = is_quartr_hls or is_official_hls or (
+    is_direct_media = is_quartr_hls or (
         source.startswith(("http://", "https://"))
         and re.search(r"\.(?:mp4|m4a|mp3|wav)(?:[?#].*)?$", source, re.I)
         and "playlist.m3u8" not in source.lower()
     )
     if is_direct_media:
-        audio_output_args = (
-            ["-map", "0:a:0", "-c:a", "copy"]
-            if is_official_hls
-            else ["-vn", "-c:a", "aac", "-b:a", "128k"]
-        )
         ffmpeg_cmd = [
             "ffmpeg", "-y", "-nostdin", "-hide_banner", "-loglevel", "warning",
             "-i", source,
-            *audio_output_args,
+            "-vn", "-c:a", "aac", "-b:a", "128k",
             str(output_path),
         ]
         print(f"[ffmpeg] {' '.join(ffmpeg_cmd)}")
-        # Quartr conference calls are full-length HLS streams.  Their master
-        # playlist and segments are publicly reachable, but a complete call
-        # can legitimately take longer than the short timeout used for a
-        # single MP4/PDF-like media object.
-        ffmpeg_timeout = 600 if (is_quartr_hls or is_official_hls) else 120
         try:
             result = subprocess.run(
                 ffmpeg_cmd,
                 capture_output=True,
                 encoding="utf-8",
                 errors="replace",
-                timeout=ffmpeg_timeout,
+                timeout=30,
             )
         except subprocess.TimeoutExpired:
-            print(f"[ffmpeg] Direct media extraction timed out after {ffmpeg_timeout}s; falling back to yt-dlp.")
+            print("[ffmpeg] Direct media extraction timed out after 30s; falling back to yt-dlp.")
             output_path.unlink(missing_ok=True)
             result = None
         if output_path.exists() and output_path.stat().st_size > 0:
@@ -1799,18 +1549,7 @@ def download_audio(source: str, output_path: Path,
         cmd += ["--match-filter", f"title~='{match_title}'"]
 
     print(f"[yt-dlp] {' '.join(cmd)}")
-    try:
-        result = subprocess.run(
-            cmd,
-            capture_output=True,
-            encoding="utf-8",
-            errors="replace",
-        timeout=600 if is_quartr_hls else 180,
-        )
-    except subprocess.TimeoutExpired:
-        print("[yt-dlp] Download timed out after 90s; rejecting this media candidate.")
-        output_path.unlink(missing_ok=True)
-        return False
+    result = subprocess.run(cmd, capture_output=True, encoding="utf-8", errors="replace")
 
     if not output_path.exists() and result.stderr:
         lines = [l for l in result.stderr.splitlines() if l.strip()]
@@ -2081,31 +1820,7 @@ def download_pdfs(stock_id: str, year: str, quarter: str,
                 print(f"[PDF] OK Saved: {dest} ({dest.stat().st_size // 1024} KB)")
                 downloaded.append(dest)
             else:
-                # Some public IR CDNs return 403 to Python requests but serve
-                # the same document to curl. Retry only that public URL, then
-                # require PDF magic bytes so an HTML error page is rejected.
-                if resp.status_code == 403 and shutil.which("curl"):
-                    print(f"[PDF] requests returned 403; retrying with curl: {url}")
-                    try:
-                        subprocess.run(
-                            ["curl", "-L", "--fail", "--silent", "--show-error",
-                             "--connect-timeout", "20", "--max-time", "90",
-                             "-o", str(dest), url],
-                            check=True,
-                        )
-                        with open(dest, "rb") as f:
-                            magic = f.read(5)
-                        if magic != b"%PDF-":
-                            dest.unlink(missing_ok=True)
-                            print(f"[PDF] curl response was not a PDF: {url}")
-                        else:
-                            print(f"[PDF] OK Saved via curl: {dest} ({dest.stat().st_size // 1024} KB)")
-                            downloaded.append(dest)
-                    except Exception as curl_error:
-                        dest.unlink(missing_ok=True)
-                        print(f"[PDF] curl fallback failed: {curl_error}")
-                else:
-                    print(f"[PDF] FAILED HTTP {resp.status_code}: {url}")
+                print(f"[PDF] FAILED HTTP {resp.status_code}: {url}")
         except Exception as e:
             print(f"[PDF] FAILED Failed: {e}")
 
@@ -2194,9 +1909,9 @@ def ingest_from_todo(auto_push: bool = False) -> None:
                 if evt_date > today: continue
 
                 # Extract stock ID
-                m = re.search(r'[（(]([A-Za-z0-9_.]+)[）)]', evt_name)
+                m = re.search(r'[（(](\w+)[）)]', evt_name)
                 if not m: continue
-                stock_id = m.group(1).replace('.', '').upper()
+                stock_id = m.group(1)
 
                 # Determine year/quarter - prefer explicit info in CSV over date heuristic
                 remarks = row.get("備註", "")
@@ -2240,24 +1955,6 @@ def ingest_from_todo(auto_push: bool = False) -> None:
     update_readme()
 
 
-def ingest_official_materials_only(stock_id: str, year: str, quarter: str) -> None:
-    """Fetch quarter PDFs without redownloading conference audio.
-
-    This is the efficient path for the material-health queue when A/S/G are
-    already known or intentionally handled separately.  PDF acquisition still
-    uses the same official-source map and validation as normal ingestion.
-    """
-    save_dir = Path("tmp")
-    save_dir.mkdir(exist_ok=True)
-    print(f"=== Official materials only: {stock_id} {year} Q{quarter} ===")
-    pdf_paths = download_pdfs(stock_id, year, quarter, save_dir)
-    if not pdf_paths:
-        print("[PDF] No official quarter PDFs found.")
-        return
-    for path in pdf_paths:
-        print(f"[PDF] Ready for IR PDF-to-MD staging: {path.name}")
-
-
 # ── README Generator ─────────────────────────────────────────────────────────
 
 def update_readme() -> None:
@@ -2297,7 +1994,7 @@ def update_readme() -> None:
                         tw_company_names[sid_info.strip()] = name_info.strip()
         except Exception: pass
 
-    _TICKER = r'(?:\d{4}HK|\d{4}|[A-Z]{1,5})'
+    _TICKER = r'(?:\d{4}|[A-Z]{1,5})'
     audio_pat  = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)\.(mp3|m4a|wav|mp4)$', re.I)
     pdf_cn_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_ir\.pdf$', re.I)
     pdf_en_pat = re.compile(rf'^({_TICKER})_(\d{{4}})_q(\d)_ir_en\.pdf$', re.I)
@@ -2326,7 +2023,7 @@ def update_readme() -> None:
 
     exclude_dirs = {"web", "tmp", "tools", "spec", "definitions", ".git", ".github", "__pycache__"}
     for d in sorted((repo / "data").iterdir()):
-        if not d.is_dir() or d.name.lower() in exclude_dirs or not re.match(r'^(\d{4}HK|\d{4}|[A-Z]{1,5})$', d.name, re.I):
+        if not d.is_dir() or d.name.lower() in exclude_dirs or not re.match(r'^(\d{4}|[A-Z]{1,5})$', d.name, re.I):
             continue
         stock_id = d.name.upper() if not d.name.isdigit() else d.name
         for f in sorted(d.iterdir()):
@@ -2498,8 +2195,6 @@ def update_readme() -> None:
 
     def _get_mops_link(stock_id: str, fallback_link: str = None) -> str:
         """Return a markdown link to MOPS for TW stocks, or fallback for others."""
-        if stock_id == '0992HK':
-            return '[↗](https://finance.yahoo.com/quote/0992.HK/financials/)'
         if stock_id and stock_id.isdigit() and len(stock_id) == 4:
             # Direct link to MOPS for Taiwan stocks
             url = f"https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id={stock_id}"
@@ -2553,8 +2248,8 @@ def update_readme() -> None:
         ev_class = ev.get("類別", "")
         if ev_class in ("財報", "財報公告"):
             continue
-        m = re.search(r'[（(]([A-Za-z0-9_.]+)[）)]', ev.get("事件名稱", ""))
-        sid_pre = m.group(1).replace('.', '').upper() if m else None
+        m = re.search(r'[（(](\w+)[）)]', ev.get("事件名稱", ""))
+        sid_pre = m.group(1) if m else None
         if not sid_pre:
             continue
         y_pre, q_pre = _csv_row_yq(ev.get("事件名稱", ""), ev.get("備註", ""), ev.get("開始日期", ""))
@@ -2568,8 +2263,8 @@ def update_readme() -> None:
     for ev in upcoming_ir:
         if ev.get("類別", "") not in ("財報", "財報公告"):
             continue
-        m = re.search(r'[（(]([A-Za-z0-9_.]+)[）)]', ev.get("事件名稱", ""))
-        sid_pre = m.group(1).replace('.', '').upper() if m else None
+        m = re.search(r'[（(](\w+)[）)]', ev.get("事件名稱", ""))
+        sid_pre = m.group(1) if m else None
         if not sid_pre:
             continue
         y_pre, q_pre = _csv_row_yq(ev.get("事件名稱", ""), ev.get("備註", ""), ev.get("開始日期", ""))
@@ -2592,8 +2287,8 @@ def update_readme() -> None:
         remarks  = ev.get("備註", "")
         link1    = ev.get("Link1", "")
         # Support both numeric (2330) and alpha (TSM) IDs
-        m = re.search(r'[（(]([A-Za-z0-9_.]+)[）)]', ev_name)
-        sid = m.group(1).replace('.', '').upper() if m else None
+        m = re.search(r'[（(](\w+)[）)]', ev_name)
+        sid = m.group(1) if m else None
 
         # Prefer explicit year/quarter from CSV, but guard against stale/misclassified
         # US earnings-calendar rows. Apply the same correction to derived US call
@@ -2699,12 +2394,11 @@ def update_readme() -> None:
                 chi = tw_company_names.get(sid) or KNOWN_TW_STOCKS.get(sid, ("", ""))[1]
                 if not chi:
                     # e.g. "台積電(2330) 財報" -> "台積電"
-                    chi = re.sub(r'[（(][A-Za-z0-9_.]+[）)].*', '', ev_name).strip()
-                display_sid = "0992.HK" if sid == "0992HK" else sid
-                display_name = f"{display_sid} {chi}".strip()
+                    chi = re.sub(r'[（(]\w+[）)].*', '', ev_name).strip()
+                display_name = f"{sid} {chi}".strip()
         else:
             # Clean duplicate tickers e.g. "台積電(TSM)(TSM) 財報" -> "台積電(TSM) 財報"
-            display_name = re.sub(r'\(([A-Za-z0-9_.]+)\)\(\1\)', r'(\1)', ev_name)
+            display_name = re.sub(r'\((\w+)\)\(\1\)', r'(\1)', ev_name)
 
         def _qstr(year, q, ticker=sid):
             """Format quarter string; preserve explicit US FY labels from CSV."""
@@ -2736,8 +2430,7 @@ def update_readme() -> None:
                 audio   = _webcast_cell(ingested)
                 fin, gt = _call_transcript_cells(ingested)
                 pdf_cn_file = ingested.get("pdf_cn")
-                pdf_en_file = (ingested.get("pdf_en") or ingested.get("report_en")
-                                 or ingested.get("report_cn"))
+                pdf_en_file = ingested.get("pdf_en")
                 pdf_cn, pdf_en = _format_ir_cells(sid, pdf_cn_file, pdf_en_file)
 
             # Digests now merge 法說會/受邀法說 + 財報 into one file when both
@@ -2844,8 +2537,7 @@ def update_readme() -> None:
             display = f"{sid_up} {en}" + (f" {chi}" if chi else "")
         else:
             chi = tw_company_names.get(sid) or KNOWN_TW_STOCKS.get(sid, ("", ""))[1]
-            display_sid = "0992.HK" if sid == "0992HK" else sid
-            display = f"{display_sid} {chi}".strip()
+            display = f"{sid} {chi}".strip()
         if has_financial_report and not (has_audio or has_ir_cn or has_ir_en or has_srt):
             audio = "-"
             fin = "-"
@@ -2903,18 +2595,8 @@ def update_readme() -> None:
             seen_rows.add(row_key)
     merged = unique_merged
 
-    # Keep same-day earnings and conference rows together. The previous sort used
-    # only date, so CSV insertion order could split a stock's paired rows across
-    # unrelated companies reporting on the same day.
-    type_order = {"法說會": 0, "受邀法說": 1, "財報": 2}
-    merged.sort(key=lambda x: type_order.get(x["type"], 9))
-    merged.sort(key=lambda x: (
-        x["sid"] or x["name"], x["year"] or "", x["q"] or ""
-    ))
-    merged.sort(
-        key=lambda x: (x["date"] != "", x["date"] or ""),
-        reverse=True,
-    )
+    # Sort by date descending (newest first), then by year and quarter descending; entries without date sink to the bottom
+    merged.sort(key=lambda x: (x["date"] != "", x["date"] or "", x["year"] or "", x["q"] or ""), reverse=True)
 
     # Build README
     lines = [
@@ -3493,10 +3175,6 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
             if yahoo_url:
                 extra_paths.extend(fetch_yahoo_transcript(yahoo_url, stem, transcript_dir))
 
-        # 3. Google Finance / Quartr (Secondary & Automatic; TW or KNOWN_US_GOOGLE_FINANCE_EXCHANGE)
-        if not as_paths and not extra_paths:
-            extra_paths.extend(fetch_google_finance_transcript(stock_id, year, quarter, stem, transcript_dir))
-
         # MOPS PDFs - use conf_date discovered during audio scraping
         if _conf_date[0]:
             mops_pdfs = download_mops_pdfs(
@@ -3658,13 +3336,8 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
     else:
         # Check quarter-specific direct URL first (choruscall VOD / YouTube etc.)
         direct_us_url = KNOWN_US_DIRECT_BY_QUARTER.get((stock_id.upper(), year, quarter))
-        webcast_us_url = KNOWN_US_WEBCASTS_BY_QUARTER.get((stock_id.upper(), year, quarter))
         if direct_us_url:
             target_url = direct_us_url
-        elif webcast_us_url:
-            # Prefer a verified quarter-specific official webcast before
-            # secondary Google Finance/Quartr discovery.
-            target_url = webcast_us_url
         else:
             ir_url = KNOWN_US_IR.get(stock_id.upper())
             if ir_url:
@@ -3676,24 +3349,23 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
         if download_audio(target_url, output_path):
             return done()
 
-    # Google Finance is a secondary discovery source (TW via a fixed :TPE suffix,
-    # US tickers via KNOWN_US_GOOGLE_FINANCE_EXCHANGE). It is intentionally after
+    # Google Finance is a secondary discovery source. It is intentionally after
     # official company IR and MOPS probes, and accepted audio is tagged as secondary
-    # in audio_metadata.json for auditability. scrape_google_finance_earnings_audio()
-    # itself returns {} for any ticker without a known exchange mapping.
-    google_audio = scrape_google_finance_earnings_audio(stock_id, year, quarter)
-    google_url = google_audio.get("audio_url")
-    if google_url:
-        _audio_source_info[0] = {
-            "source": google_audio.get("provider", "google_finance_quartr"),
-            "source_url": google_audio.get("source_url"),
-            "captured_media_url": google_url,
-            "note": google_audio.get("note"),
-        }
-        print(f"\n[Google-Finance] Downloading secondary audio candidate: {google_url}")
-        if download_audio(google_url, output_path, no_check_cert=True):
-            return done()
-        print("[Google-Finance] Secondary audio download failed. Falling back to PDFs.")
+    # in audio_metadata.json for auditability.
+    if market == "TW":
+        google_audio = scrape_google_finance_earnings_audio(stock_id, year, quarter)
+        google_url = google_audio.get("audio_url")
+        if google_url:
+            _audio_source_info[0] = {
+                "source": google_audio.get("provider", "google_finance_quartr"),
+                "source_url": google_audio.get("source_url"),
+                "captured_media_url": google_url,
+                "note": google_audio.get("note"),
+            }
+            print(f"\n[Google-Finance] Downloading secondary audio candidate: {google_url}")
+            if download_audio(google_url, output_path, no_check_cert=True):
+                return done()
+            print("[Google-Finance] Secondary audio download failed. Falling back to PDFs.")
 
     pdf_paths = download_pdfs(stock_id, year, quarter, save_dir)
     # Scan save_dir for any PDFs that were downloaded by MOPS playwright scraper or other methods
@@ -3707,21 +3379,6 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
         if auto_push:
             return commit_push_files(stock_id, year, quarter, output_path, pdf_paths, [])
         return str(pdf_paths[0])
-
-    # A rendered Google Finance/Quartr page can expose a quarter-confirmed
-    # transcript even when its HLS replay cannot be extracted. Preserve that
-    # evidence instead of discarding the entire completed conference event.
-    if market == "US":
-        transcript_dir = INVESTOR_CONFERENCE_REPO / "data" / stock_id
-        transcript_paths = fetch_google_finance_transcript(
-            stock_id, year, quarter, f"{stock_id}_{year}_q{quarter}", transcript_dir
-        )
-        if transcript_paths:
-            print(
-                f"\nOK SUCCESS: saved {len(transcript_paths)} quarter-confirmed transcript(s) "
-                f"for {stock_id} {year} Q{quarter}; audio remains unavailable."
-            )
-            return str(transcript_paths[0])
 
     print(f"\nFAILED FAILED: Could not find audio or official conference attachment PDFs for {stock_id} {year} Q{quarter}")
     return None
@@ -3754,16 +3411,10 @@ if __name__ == "__main__":
         "--auto-todo", action="store_true",
         help="Scan raw_event_upcoming_earnings.csv and ingest any missing past events",
     )
-    parser.add_argument(
-        "--materials-only", action="store_true",
-        help="Fetch mapped official quarter PDFs without downloading audio/transcripts",
-    )
     args = parser.parse_args()
 
     if args.auto_todo:
         ingest_from_todo(auto_push=args.push)
-    elif args.materials_only and args.stock_id and args.year and args.quarter:
-        ingest_official_materials_only(args.stock_id, args.year, args.quarter)
     elif args.sync_durations:
         sync_all_audio_durations(INVESTOR_CONFERENCE_REPO)
     elif args.update_readme:
