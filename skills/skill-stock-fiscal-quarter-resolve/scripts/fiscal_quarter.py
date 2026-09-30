@@ -44,14 +44,12 @@ KNOWN_US_FISCAL_YEAR_START_MONTH = {
     "0992HK": 4,   # Lenovo fiscal year starts April 1 (HK listing 0992.HK)
 }
 
-# Some issuers announce results shortly after the fiscal quarter closes.  For
-# these companies, the announcement month—not the quarter-end month—is the
-# stable observable used by the event calendar.  The cycle starts at the first
-# announcement month for Q1 and wraps across the calendar year.
+# Some issuers announce results shortly after the fiscal quarter closes. For
+# these companies the announcement month is the stable event-calendar signal.
 KNOWN_US_ANNOUNCEMENT_CYCLE_START_MONTH = {
-    "ARM": 7,   # Jul/Aug 2026 announcement = FY2027 Q1
-    "MU": 12,   # Dec 2025 announcement = FY2026 Q1
-    "ORCL": 9,  # Sep 2026 announcement = FY2027 Q1
+    "ARM": 7,
+    "MU": 12,
+    "ORCL": 9,
 }
 
 # US stocks whose fiscal year equals the calendar year, but whose upstream

@@ -30,12 +30,6 @@ only needs "what fiscal quarter does this announcement date fall in" should
 not have to pull in MOPS scraping, yfinance calls, or watchlist CSV
 prerequisites the way `skill-stock-investorevent-fetch` does.
 
-## Event pairing contract
-
-The resolved fiscal year/quarter is the canonical identity used to pair a routine `法說會` with its same-quarter `財報`. It must not be used to collapse the two records: same company + same quarter may legitimately produce two catalog rows and both count as one record in their own category. Date equality is supporting evidence only, not a deduplication key.
-
-Future planned rows may carry a resolved quarter before any material exists. That is a valid `planned/not_due` state and must not be classified as an ingestion failure; health consumers decide due/not-due status separately from quarter identity.
-
 ## API
 
 ```python
@@ -68,10 +62,8 @@ resolve_fiscal_quarter("2330", "2026-07-17")
 
 For ARM, Micron, and Oracle, the resolver uses their verified earnings-
 announcement cycles because those companies announce shortly after a fiscal
-quarter closes.  This prevents stale ConceptStocks labels from turning ARM's
-July 2026 event into FY2026 Q1, Micron's June 2026 event into the wrong fiscal
-quarter, or Oracle's September 2026 event into FY2026 Q3.  ASML and Silicon
-Motion are treated as calendar-year earnings issuers.
+quarter closes. ASML and Silicon Motion are treated as calendar-year earnings
+issuers.
 
 `calendar_to_fiscal(ticker, cal_year, cal_q)` and
 `expected_us_calendar_earnings_quarter(date_str)` are exposed directly (not
