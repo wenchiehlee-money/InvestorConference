@@ -54,6 +54,12 @@ PAUSED_STOCKS = {"6902", "7722", "7705", "6123", "6720", "4114", "7708", "7737",
 PAUSED_PENDING_TO_MARK = {"2353"}
 
 OFFICIAL_UNAVAILABLE = {
+    # Amazon announced the Q1 webcast and a three-month replay window, but the
+    # official replay is no longer retrievable; no FIN.srt was published.
+    ("AMZN", 2026, 1): {
+        "A": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-to-Webcast-First-Quarter-2026-Financial-Results-Conference-Call-57c6bd583/default.aspx",
+        "S": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-to-Webcast-First-Quarter-2026-Financial-Results-Conference-Call-57c6bd583/default.aspx",
+    },
     # Alphabet's official Q1 2026 webcast is available and is registered as A;
     # the issuer transcript is a PDF, not the pipeline's FIN.srt artifact.
     ("GOOGL", 2026, 1): {
