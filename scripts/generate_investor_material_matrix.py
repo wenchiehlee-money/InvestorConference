@@ -84,7 +84,11 @@ CALENDAR_PERIOD_OVERRIDES = {
     # Marvell FY2027 Q1 was reported 2026-05-27 (calendar 2026 Q2).
     ("MRVL", 2027, 1): (2026, 2),
     ("MRVL", 2027, 2): (2026, 3),
+    # Micron FY2026 quarters are reported on the following calendar periods.
+    ("MU", 2026, 1): (2025, 4),
+    ("MU", 2026, 2): (2026, 1),
     ("MU", 2026, 3): (2026, 2),
+    ("MU", 2026, 4): (2026, 3),
     # NVIDIA FY2027 Q1 ended 2026-04-26 (calendar 2026 Q2).
     ("NVDA", 2027, 1): (2026, 2),
     ("NVDA", 2027, 2): (2026, 3),
@@ -224,8 +228,16 @@ def calendar_view(rows, taiwan_ids):
             )
             cell = output.setdefault(quarter, {field: "" for field in FIELDS})
             for field in FIELDS:
-                if source_cell.get(field):
-                    cell[field] = source_cell[field]
+                value = source_cell.get(field, "")
+                if not value:
+                    continue
+                # A verified artifact always wins over a calendar status marker
+                # when multiple source periods map to one calendar period.
+                existing = cell.get(field, "")
+                is_status = value.startswith(("[☐]", "[?]", "[-]"))
+                existing_is_status = existing.startswith(("[☐]", "[?]", "[-]"))
+                if not existing or not (not is_status and existing_is_status):
+                    cell[field] = value
     return result
 
 
