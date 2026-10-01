@@ -9,7 +9,7 @@ artifact that caused the flag to be present.
 import csv
 import json
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -409,10 +409,12 @@ def build():
             if not cell.get(field):
                 cell[field] = linked("-", url)
 
-    # Planned events remain empty until their calendar date. Once the event
-    # date has passed, expose missing expected materials as linked checkboxes
-    # so an empty cell no longer hides an overdue ingestion task.
+    # The README calendar is a due-date source, not the completeness universe.
+    # A missing calendar row must not be interpreted as proof that a material
+    # was never published. Future calendar events remain empty; past-due rows
+    # expose missing expected materials as linked checkboxes.
     today = datetime.now(ZoneInfo("Asia/Taipei")).date()
+    taiwan_ids = taiwan_stock_ids()
     expected_by_type = {
         "法說會": ("A", "S", "I", "M"),
         "受邀法說": ("A", "S", "I", "M"),
@@ -431,6 +433,44 @@ def build():
                 if not cell.get(field) and event["url"]:
                     cell[field] = linked("☐", event["url"])
 
+    # For a quarter already represented by material, a missing calendar entry
+    # is uncertainty, not proof of absence. F/X are expected for every known
+    # financial quarter; missing conference coverage is marked `?` until the
+    # event/material applicability is verified. A known conference due date
+    # turns missing A/S/I/M into `☐` instead.
+    for (code, year), row in rows.items():
+        for quarter in range(1, 5):
+            cell = row.get(quarter)
+            if not cell:
+                continue
+            event = calendar.get((code, year, quarter))
+            event_types = event["types"] if event else set()
+            if event:
+                due_date = datetime.strptime(event["date"], "%Y-%m-%d").date()
+                status_url = event["url"]
+            else:
+                calendar_year, calendar_quarter = calendar_period(code, year, quarter, taiwan_ids)
+                month = calendar_quarter * 3
+                next_month = datetime(calendar_year + 1, 1, 1) if month == 12 else datetime(calendar_year, month + 1, 1)
+                due_date = (next_month - timedelta(days=1)).date()
+                status_url = next((
+                    match.group(0)
+                    for value in cell.values()
+                    if (match := re.search(r"https?://[^)]+", value or ""))
+                ), "")
+            if due_date > today or not status_url:
+                continue
+            financial_expected = ("F", "X")
+            conference_expected = ("A", "S", "I", "M")
+            for field in financial_expected:
+                if not cell.get(field):
+                    cell[field] = linked("☐", status_url)
+            conference_due = any(event_type in {"法說會", "受邀法說"} for event_type in event_types)
+            conference_status = "☐" if conference_due else "?"
+            for field in conference_expected:
+                if not cell.get(field):
+                    cell[field] = linked(conference_status, status_url)
+
     # Classify digest cells only after every source pass has populated A/S/I/M/F/X.
     # G is deliberately excluded because it is generated after digest review.
     # `[-](...)` is an official-unavailable marker, not a material.
@@ -442,7 +482,7 @@ def build():
             if not digest:
                 continue
             label = "D" if all(
-                cell.get(field) and not cell.get(field, "").startswith(("[-]", "[☐]"))
+                cell.get(field) and not cell.get(field, "").startswith(("[-]", "[☐]", "[?]"))
                 for field in required_before_gt
             ) else "D-"
             cell["D"] = re.sub(r"^\[(?:D|D-)\]", f"[{label}]", digest)
@@ -488,7 +528,7 @@ def write(rows, digest_sources):
         "The CSV retains source fiscal-year keys for provenance. Each row is one stock/calendar-year; each quarter occupies eight compact columns.",
         "Every populated cell links to a verified artifact or the calendar source supporting its status.",
         "",
-        "`A` audio · `S` FIN.srt · `G` GT.srt · `I` IR presentation PDF · `M` IR presentation MD · `F` official financial-report source (PDF or official HTML) · `X` financial-report MD · `☐` event date reached but ingestion is pending · `-` official source checked and no qualifying document was published · empty = event not yet reached or material not applicable · `D` digest with all pre-G materials (`A/S/I/M/F/X`) · `D-` digest with one or more pre-G materials missing. Digest precedes GT generation, so missing `G` does not downgrade `D`.",
+        "`A` audio · `S` FIN.srt · `G` GT.srt · `I` IR presentation PDF · `M` IR presentation MD · `F` official financial-report source (PDF or official HTML) · `X` financial-report MD · `☐` due event/quarter reached and ingestion is pending · `?` event/material applicability is not yet verified · `-` official source checked and no qualifying document was published · empty = period not yet due or material explicitly not applicable · `D` digest with all pre-G materials (`A/S/I/M/F/X`) · `D-` digest with one or more pre-G materials missing. Digest precedes GT generation, so missing `G` does not downgrade `D`.",
         "",
         "|Stock|Year|" + "|".join(FIELDS * 4) + "|",
         "|---|---:|" + "|".join(["---"] * 32) + "|",
@@ -513,7 +553,7 @@ def write(rows, digest_sources):
             for field in FIELDS:
                 value = row.get(q, {}).get(field, "")
                 cells.append(value)
-                if value and not value.startswith(("[-]", "[☐]")):
+                if value and not value.startswith(("[-]", "[☐]", "[?]")):
                     totals[q][field] += 1
         lines.append("|" + "|".join(cells) + "|")
     lines.extend([
