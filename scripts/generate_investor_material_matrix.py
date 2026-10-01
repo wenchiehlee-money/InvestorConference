@@ -50,7 +50,7 @@ NON_TW_FISCAL_START_MONTH = {
 # it is a status marker, not a populated material cell.
 # User-directed pause list: existing unknown (`?`) statuses for these
 # companies are intentionally paused and must not be treated as active work.
-PAUSED_STOCKS = {"6902", "7722", "7705", "6123", "6720", "4114", "7708", "7737", "7736", "6918", "9914", "7732", "7712", "6997", "6442", "3653", "5274", "5274O", "6962", "7713", "2353", "7749", "6751"}
+PAUSED_STOCKS = {"6902", "7722", "7705", "6123", "6720", "4114", "7708", "7737", "7736", "6918", "9914", "7732", "7712", "6997", "6442", "3653", "5274", "5274O", "6962", "7713", "2353", "7749", "6751", "6506"}
 PAUSED_PENDING_TO_MARK = {"2353"}
 
 OFFICIAL_UNAVAILABLE = {
