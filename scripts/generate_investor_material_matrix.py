@@ -529,9 +529,7 @@ def is_paused_financial_only(row):
             continue
         match = re.match(r"^\[([^]]+)\]", value)
         labels.append(match.group(1) if match else value)
-    return bool(labels) and any(label in {"F", "X"} for label in labels) and all(
-        label in {"🚫", "F", "X"} for label in labels
-    )
+    return bool(labels) and all(label in {"🚫", "F", "X"} for label in labels)
 
 
 def write(rows, digest_sources):
