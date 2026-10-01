@@ -502,6 +502,43 @@ def build():
                 if not cell.get(field):
                     cell[field] = linked("☐", url)
 
+    # Non-Taiwan quarterly reports are also expected after fiscal-to-calendar
+    # normalization.  For an overdue mapped quarter, F/X are pending until
+    # ingested and conference applicability remains unknown (`?`) until the
+    # issuer calendar or an artifact confirms a conference.
+    calendar_deadlines = {
+        1: (5, 31),
+        2: (8, 31),
+        3: (11, 30),
+        4: (5, 31),
+    }
+    for (code, year), row in rows.items():
+        normalized = norm(code)
+        if normalized in taiwan_ids or normalized.isdigit():
+            continue
+        fallback_url = f"https://finance.yahoo.com/quote/{canonical_stock(code)}/financials/"
+        for source_quarter in range(1, 5):
+            calendar_year, calendar_quarter = calendar_period(
+                code, year, source_quarter, taiwan_ids
+            )
+            month, day = calendar_deadlines[calendar_quarter]
+            deadline_year = calendar_year if calendar_quarter < 4 else calendar_year + 1
+            deadline = datetime(deadline_year, month, day).date()
+            if deadline > today:
+                continue
+            cell = row.setdefault(source_quarter, {field: "" for field in FIELDS})
+            url = next(
+                (match.group(0) for value in cell.values()
+                 if (match := re.search(r"https?://[^)]+", value or ""))),
+                fallback_url,
+            )
+            for field in ("F", "X"):
+                if not cell.get(field):
+                    cell[field] = linked("☐", url)
+            for field in ("A", "S", "I", "M"):
+                if not cell.get(field):
+                    cell[field] = linked("?", url)
+
     # For a quarter already represented by material, a missing calendar entry
     # is uncertainty, not proof of absence. F/X are expected for every known
     # financial quarter; missing conference coverage is marked `?` until the
