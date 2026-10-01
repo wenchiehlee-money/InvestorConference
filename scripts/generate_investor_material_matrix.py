@@ -170,7 +170,7 @@ def readme_event_display(label):
     # README rows may use either ``AAPL Apple Inc.`` or
     # ``Lenovo Group Limited(0992.HK)``.  Strip only an all-caps/digit
     # ticker prefix; do not strip ordinary names such as ``Lenovo``.
-    display = re.sub(r"^(?:[A-Z]{1,6}|\d{4})(?:\.[A-Z]{1,4})?\s+", "", display)
+    display = re.sub(r"^(?:(?:[A-Z]{1,6}|\d{4})(?:\.[A-Z]{1,4})?\s+)+", "", display)
     return display.strip()
 
 
