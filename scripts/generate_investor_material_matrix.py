@@ -476,6 +476,32 @@ def build():
                 if not cell.get(field) and event["url"]:
                     cell[field] = linked("☐", event["url"])
 
+    # Taiwan statutory reports are expected every quarter.  The README calendar
+    # is incomplete for some issuers, so materialize overdue F/X placeholders
+    # from the statutory schedule even when no calendar event was listed.
+    taiwan_report_url = lambda code: (
+        f"https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id={code}"
+    )
+    quarter_deadlines = {
+        1: (5, 31),
+        2: (8, 31),
+        3: (11, 30),
+        4: (5, 31),
+    }
+    for (code, year), row in rows.items():
+        if norm(code) not in taiwan_ids and not norm(code).isdigit():
+            continue
+        for quarter, (month, day) in quarter_deadlines.items():
+            deadline_year = year if quarter < 4 else year + 1
+            deadline = datetime(deadline_year, month, day).date()
+            if deadline > today:
+                continue
+            cell = row.setdefault(quarter, {field: "" for field in FIELDS})
+            url = taiwan_report_url(code)
+            for field in ("F", "X"):
+                if not cell.get(field):
+                    cell[field] = linked("☐", url)
+
     # For a quarter already represented by material, a missing calendar entry
     # is uncertainty, not proof of absence. F/X are expected for every known
     # financial quarter; missing conference coverage is marked `?` until the
