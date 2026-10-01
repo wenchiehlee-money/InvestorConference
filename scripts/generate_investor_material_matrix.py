@@ -192,17 +192,32 @@ def conference_keys():
     return result
 
 
+def is_taiwan_code(code, taiwan_ids):
+    normalized = norm(code)
+    return (
+        normalized in taiwan_ids
+        or normalized.isdigit()
+        or (len(normalized) == 5 and normalized[:4] in taiwan_ids)
+    )
+
+
 def calendar_period(code, year, quarter, taiwan_ids):
     key = (norm(code), year, quarter)
     if key in CALENDAR_PERIOD_OVERRIDES:
         return CALENDAR_PERIOD_OVERRIDES[key]
     normalized = norm(code)
-    if normalized in taiwan_ids or normalized.isdigit() or normalized not in NON_TW_FISCAL_START_MONTH:
+    if is_taiwan_code(code, taiwan_ids) or normalized not in NON_TW_FISCAL_START_MONTH:
         return year, quarter
+    # The fiscal label is the fiscal year ending year.  Calculate the
+    # quarter end month explicitly; using only the fiscal start quarter
+    # misclassifies companies whose year starts in February, September, or
+    # November.
     start_month = NON_TW_FISCAL_START_MONTH[normalized]
-    fiscal_start_calendar_quarter = (start_month - 1) // 3 + 1
-    calendar_quarter = (quarter + fiscal_start_calendar_quarter - 2) % 4 + 1
-    calendar_year = year - 1 if calendar_quarter >= fiscal_start_calendar_quarter else year
+    start_year = year if start_month == 1 else year - 1
+    end_month_index = start_year * 12 + (start_month - 1) + quarter * 3 - 1
+    calendar_year = end_month_index // 12
+    calendar_month = end_month_index % 12 + 1
+    calendar_quarter = (calendar_month - 1) // 3 + 1
     return calendar_year, calendar_quarter
 
 
@@ -248,7 +263,7 @@ def calendar_view(rows, taiwan_ids):
             if not any(source_cell.get(field) for field in FIELDS):
                 continue
             year, quarter = calendar_period(code, source_year, source_quarter, taiwan_ids)
-            if norm(code) in taiwan_ids or norm(code).isdigit():
+            if is_taiwan_code(code, taiwan_ids):
                 continue
             key = (code, year)
             output = result.setdefault(
@@ -265,6 +280,27 @@ def calendar_view(rows, taiwan_ids):
                 existing_is_status = existing.startswith(("[☐]", "[?]", "[-]"))
                 if not existing or not (not is_status and existing_is_status):
                     cell[field] = value
+
+    # Materialize overdue calendar quarters even when the corresponding
+    # fiscal source quarter is not present yet (for example, calendar Q1 can
+    # be the prior fiscal year's Q4 for February-start issuers).
+    today = datetime.now(ZoneInfo("Asia/Taipei")).date()
+    deadlines = {1: (5, 31), 2: (8, 31), 3: (11, 30), 4: (5, 31)}
+    for (code, year), row in list(result.items()):
+        if is_taiwan_code(code, taiwan_ids):
+            continue
+        for quarter, (month, day) in deadlines.items():
+            deadline_year = year if quarter < 4 else year + 1
+            if datetime(deadline_year, month, day).date() > today:
+                continue
+            cell = row.setdefault(quarter, {field: "" for field in FIELDS})
+            url = f"https://finance.yahoo.com/quote/{canonical_stock(code)}/financials/"
+            for field in ("F", "X"):
+                if not cell.get(field):
+                    cell[field] = linked("☐", url)
+            for field in ("A", "S", "I", "M"):
+                if not cell.get(field):
+                    cell[field] = linked("?", url)
     return result
 
 
@@ -514,7 +550,7 @@ def build():
     }
     for (code, year), row in rows.items():
         normalized = norm(code)
-        if normalized in taiwan_ids or normalized.isdigit():
+        if is_taiwan_code(code, taiwan_ids):
             continue
         fallback_url = f"https://finance.yahoo.com/quote/{canonical_stock(code)}/financials/"
         for source_quarter in range(1, 5):
