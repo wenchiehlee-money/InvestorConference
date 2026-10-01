@@ -54,6 +54,11 @@ PAUSED_STOCKS = {"6902", "7722", "7705", "6123", "6720", "4114", "7708", "7737",
 PAUSED_PENDING_TO_MARK = {"2353"}
 
 OFFICIAL_UNAVAILABLE = {
+    # Alphabet's official Q1 2026 webcast is available and is registered as A;
+    # the issuer transcript is a PDF, not the pipeline's FIN.srt artifact.
+    ("GOOGL", 2026, 1): {
+        "S": "https://s206.q4cdn.com/479360582/files/doc_events/2026/Apr/29/2026_Q1_Earnings_Transcript.pdf",
+    },
     # SMIC's official 2026 financial-summary page lists the Q2 webcast
     # announcement and earnings release, but no separate presentation.
     ("0981HK", 2026, 2): {
