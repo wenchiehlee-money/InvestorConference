@@ -155,12 +155,15 @@ def readme_event_code(label, sources):
     match = re.search(r"\((([A-Za-z]{1,6}|\d{4})\.[A-Za-z]{1,4})\)", label)
     if match:
         return norm(match.group(1))
+    first = re.match(r"([^ ]+)", label)
+    if first and (re.fullmatch(r"[A-Z0-9]{1,8}(?:\.[A-Z]{1,4})?", first.group(1))
+                  or re.search(r"\d", first.group(1))):
+        return norm(first.group(1))
     for source in sources:
         match = re.search(r"/quote/([^/]+)/financials", source)
         if match:
             return norm(match.group(1))
-    match = re.match(r"([^ ]+)", label)
-    return norm(match.group(1)) if match else ""
+    return norm(first.group(1)) if first else ""
 
 
 def readme_event_display(label, code):
