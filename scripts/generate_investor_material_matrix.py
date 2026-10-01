@@ -50,7 +50,7 @@ NON_TW_FISCAL_START_MONTH = {
 # it is a status marker, not a populated material cell.
 # User-directed pause list: existing unknown (`?`) statuses for these
 # companies are intentionally paused and must not be treated as active work.
-PAUSED_STOCKS = {"6902", "7722", "7705", "6123", "6720", "4114", "7708", "7737", "7736"}
+PAUSED_STOCKS = {"6902", "7722", "7705", "6123", "6720", "4114", "7708", "7737", "7736", "6918", "9914", "7732"}
 
 OFFICIAL_UNAVAILABLE = {
     # SMIC's official 2026 financial-summary page lists the Q2 webcast
