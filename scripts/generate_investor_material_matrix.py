@@ -48,6 +48,10 @@ NON_TW_FISCAL_START_MONTH = {
 # Explicitly verified official-source gaps.  A linked `-` means the issuer
 # page was checked for that quarter and no qualifying document was published;
 # it is a status marker, not a populated material cell.
+# User-directed pause list: existing unknown (`?`) statuses for these
+# companies are intentionally paused and must not be treated as active work.
+PAUSED_STOCKS = {"6902", "7722", "7705", "6123", "6720", "4114", "7708", "7737", "7736"}
+
 OFFICIAL_UNAVAILABLE = {
     # SMIC's official 2026 financial-summary page lists the Q2 webcast
     # announcement and earnings release, but no separate presentation.
@@ -483,6 +487,17 @@ def build():
                 if not cell.get(field):
                     cell[field] = linked(conference_status, status_url)
 
+    # Convert only unknown markers for explicitly paused companies. Existing
+    # artifacts, pending checkboxes, and official-unavailable markers remain.
+    for row in rows.values():
+        if norm(row["stock"]) not in PAUSED_STOCKS:
+            continue
+        for quarter in range(1, 5):
+            for field in FIELDS:
+                value = row.get(quarter, {}).get(field, "")
+                if value.startswith("[?]"):
+                    row[quarter][field] = re.sub(r"^\[\?\]", "[🚫]", value)
+
     # Classify digest cells only after every source pass has populated A/S/I/M/F/X.
     # G is deliberately excluded because it is generated after digest review.
     # `[-](...)` is an official-unavailable marker, not a material.
@@ -494,7 +509,7 @@ def build():
             if not digest:
                 continue
             label = "D" if all(
-                cell.get(field) and not cell.get(field, "").startswith(("[-]", "[☐]", "[?]"))
+                cell.get(field) and not cell.get(field, "").startswith(("[-]", "[☐]", "[?]", "[🚫]"))
                 for field in required_before_gt
             ) else "D-"
             cell["D"] = re.sub(r"^\[(?:D|D-)\]", f"[{label}]", digest)
@@ -540,7 +555,7 @@ def write(rows, digest_sources):
         "The CSV retains source fiscal-year keys for provenance. Each row is one stock/calendar-year; each quarter occupies eight compact columns.",
         "Every populated cell links to a verified artifact or the calendar source supporting its status.",
         "",
-        "`A` audio · `S` FIN.srt · `G` GT.srt · `I` IR presentation PDF · `M` IR presentation MD · `F` official financial-report source (PDF or official HTML) · `X` financial-report MD · `☐` due event/quarter reached and ingestion is pending · `?` event/material applicability is not yet verified · `-` official source checked and no qualifying document was published · empty = period not yet due or material explicitly not applicable · `D` digest with all pre-G materials (`A/S/I/M/F/X`) · `D-` digest with one or more pre-G materials missing. Digest precedes GT generation, so missing `G` does not downgrade `D`.",
+        "`A` audio · `S` FIN.srt · `G` GT.srt · `I` IR presentation PDF · `M` IR presentation MD · `F` official financial-report source (PDF or official HTML) · `X` financial-report MD · `☐` due event/quarter reached and ingestion is pending · `?` event/material applicability is not yet verified · `🚫` explicitly paused by policy · `-` official source checked and no qualifying document was published · empty = period not yet due or material explicitly not applicable · `D` digest with all pre-G materials (`A/S/I/M/F/X`) · `D-` digest with one or more pre-G materials missing. Digest precedes GT generation, so missing `G` does not downgrade `D`.",
         "",
         "|Stock|Year|" + "|".join(FIELDS * 4) + "|",
         "|---|---:|" + "|".join(["---"] * 32) + "|",
@@ -565,7 +580,7 @@ def write(rows, digest_sources):
             for field in FIELDS:
                 value = row.get(q, {}).get(field, "")
                 cells.append(value)
-                if value and not value.startswith(("[-]", "[☐]", "[?]")):
+                if value and not value.startswith(("[-]", "[☐]", "[?]", "[🚫]")):
                     totals[q][field] += 1
         lines.append("|" + "|".join(cells) + "|")
     lines.extend([
