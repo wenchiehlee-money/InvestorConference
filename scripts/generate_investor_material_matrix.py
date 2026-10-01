@@ -516,7 +516,26 @@ def build():
     return rows, digest_sources
 
 
+def is_paused_financial_only(row):
+    """Hide rows whose only statuses are paused markers and F/X reports."""
+    values = [
+        row.get(quarter, {}).get(field, "")
+        for quarter in range(1, 5)
+        for field in FIELDS
+    ]
+    labels = []
+    for value in values:
+        if not value:
+            continue
+        match = re.match(r"^\[([^]]+)\]", value)
+        labels.append(match.group(1) if match else value)
+    return bool(labels) and any(label in {"F", "X"} for label in labels) and all(
+        label in {"🚫", "F", "X"} for label in labels
+    )
+
+
 def write(rows, digest_sources):
+    rows = {key: row for key, row in rows.items() if not is_paused_financial_only(row)}
     columns = ["stock", "stock_name", "year", "generated_at"] + [f"q{q}_{field}" for q in range(1, 5) for field in FIELDS]
     generated_dt = datetime.now(timezone.utc)
     generated_at = generated_dt.isoformat()
