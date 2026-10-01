@@ -278,7 +278,7 @@ def calendar_view(rows, taiwan_ids):
                 existing = cell.get(field, "")
                 is_status = value.startswith(("[☐]", "[?]", "[-]"))
                 existing_is_status = existing.startswith(("[☐]", "[?]", "[-]"))
-                if not existing or not (not is_status and existing_is_status):
+                if not existing or (not is_status and existing_is_status):
                     cell[field] = value
 
     # Materialize overdue calendar quarters even when the corresponding
@@ -509,7 +509,9 @@ def build():
             continue
         for event_type in event["types"]:
             for field in expected_by_type[event_type]:
-                if not cell.get(field) and event["url"]:
+                if not event["url"]:
+                    continue
+                if cell.get(field, "").startswith("[?]") or not cell.get(field):
                     cell[field] = linked("☐", event["url"])
 
     # Taiwan statutory reports are expected every quarter.  The README calendar
