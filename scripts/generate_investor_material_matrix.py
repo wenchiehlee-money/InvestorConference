@@ -59,6 +59,10 @@ OFFICIAL_UNAVAILABLE = {
     ("GOOGL", 2026, 1): {
         "S": "https://s206.q4cdn.com/479360582/files/doc_events/2026/Apr/29/2026_Q1_Earnings_Transcript.pdf",
     },
+    # Google Finance captured a secondary Q2 transcript, but no FIN.srt was published.
+    ("GOOGL", 2026, 2): {
+        "S": "https://github.com/wenchiehlee-money/InvestorConference/blob/main/data/GOOGL/GOOGL_2026_q2_google_finance_transcript.md",
+    },
     # SMIC's official 2026 financial-summary page lists the Q2 webcast
     # announcement and earnings release, but no separate presentation.
     ("0981HK", 2026, 2): {
