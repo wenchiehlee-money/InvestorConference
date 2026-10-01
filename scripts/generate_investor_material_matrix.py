@@ -150,6 +150,26 @@ def taiwan_stock_ids():
     return result
 
 
+def readme_event_code(label, sources):
+    """Extract the canonical ticker from an event label or source URL."""
+    match = re.search(r"\((([A-Za-z]{1,6}|\d{4})\.[A-Za-z]{1,4})\)", label)
+    if match:
+        return norm(match.group(1))
+    for source in sources:
+        match = re.search(r"/quote/([^/]+)/financials", source)
+        if match:
+            return norm(match.group(1))
+    match = re.match(r"([^ ]+)", label)
+    return norm(match.group(1)) if match else ""
+
+
+def readme_event_display(label):
+    """Return the issuer name without ticker and fiscal-period suffix."""
+    display = re.sub(r"\s*\([^)]*\)", "", label)
+    display = re.sub(r"\s+(?:FY)?\d{4} Q[1-4].*$", "", display)
+    return display.strip()
+
+
 def conference_keys():
     result = set()
     for line in (ROOT / "README.md").read_text(encoding="utf-8").splitlines():
@@ -158,48 +178,12 @@ def conference_keys():
         cells = [cell.strip() for cell in line.split("|")[1:-1]]
         if len(cells) < 4 or cells[2] not in {"法說會", "受邀法說"}:
             continue
-        code = re.match(r"([^ ]+)", cells[0])
         period = re.search(r"(\d{4}) Q([1-4])", cells[1])
-        if code and period:
-            result.add((norm(code.group(1)), int(period.group(1)), int(period.group(2))))
-    return result
-
-
-def event_calendar():
-    """Return README event rows keyed by source stock/year/quarter."""
-    result = {}
-    for line in (ROOT / "README.md").read_text(encoding="utf-8").splitlines():
-        if not line.startswith("|"):
-            continue
-        cells = [cell.strip() for cell in line.split("|")[1:-1]]
-        if len(cells) < 4 or cells[0] in {"公司", ":-----"}:
-            continue
-        period = re.search(r"(?:FY)?(\d{4}) Q([1-4])", cells[1])
-        event_date = cells[3]
-        code_match = re.match(r"([^ ]+)", cells[0])
         source = re.findall(r"https?://[^)]+", cells[-1])
-        if (not period or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", event_date)
-                or not code_match or cells[2] not in {"法說會", "受邀法說", "財報"}):
-            continue
-        code = norm(code_match.group(1))
-        if not code and source:
-            ticker = re.search(r"/quote/([^/]+)/financials", source[0])
-            code = norm(ticker.group(1)) if ticker else ""
-        if not code:
-            continue
-        key = (code, int(period.group(1)), int(period.group(2)))
-        entry = result.setdefault(key, {
-            "date": event_date,
-            "types": set(),
-            "url": source[0] if source else "",
-            "display": cells[0],
-        })
-        entry["types"].add(cells[2])
+        code = readme_event_code(cells[0], source)
+        if code and period:
+            result.add((code, int(period.group(1)), int(period.group(2))))
     return result
-
-
-def linked(label, url):
-    return f"[{label}]({url})"
 
 
 def calendar_period(code, year, quarter, taiwan_ids):
@@ -216,7 +200,41 @@ def calendar_period(code, year, quarter, taiwan_ids):
     return calendar_year, calendar_quarter
 
 
+def event_calendar():
+    """Return README event rows keyed by canonical stock/year/quarter."""
+    result = {}
+    for line in (ROOT / "README.md").read_text(encoding="utf-8").splitlines():
+        if not line.startswith("|"):
+            continue
+        cells = [cell.strip() for cell in line.split("|")[1:-1]]
+        if len(cells) < 4 or cells[0] in {"公司", ":-----"}:
+            continue
+        period = re.search(r"(?:FY)?(\d{4}) Q([1-4])", cells[1])
+        event_date = cells[3]
+        source = re.findall(r"https?://[^)]+", cells[-1])
+        if (not period or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", event_date)
+                or cells[2] not in {"法說會", "受邀法說", "財報"}):
+            continue
+        code = readme_event_code(cells[0], source)
+        if not code:
+            continue
+        key = (code, int(period.group(1)), int(period.group(2)))
+        entry = result.setdefault(key, {
+            "date": event_date,
+            "types": set(),
+            "url": source[0] if source else "",
+            "display": readme_event_display(cells[0]),
+        })
+        entry["types"].add(cells[2])
+    return result
+
+
+def linked(label, url):
+    return f"[{label}]({url})"
+
+
 def calendar_view(rows, taiwan_ids):
+    """Return the non-Taiwan rows normalized to calendar periods."""
     result = {}
     for (code, source_year), row in rows.items():
         for source_quarter in range(1, 5):
@@ -236,8 +254,6 @@ def calendar_view(rows, taiwan_ids):
                 value = source_cell.get(field, "")
                 if not value:
                     continue
-                # A verified artifact always wins over a calendar status marker
-                # when multiple source periods map to one calendar period.
                 existing = cell.get(field, "")
                 is_status = value.startswith(("[☐]", "[?]", "[-]"))
                 existing_is_status = existing.startswith(("[☐]", "[?]", "[-]"))
@@ -311,6 +327,9 @@ def build():
     stock_names = names()
     conference_catalog = conference_keys()
     calendar = event_calendar()
+    for (code, _year, _quarter), event in calendar.items():
+        if event["display"]:
+            stock_names[code] = event["display"]
     rows = {}
     digest_sources = []
     manifest = {}
