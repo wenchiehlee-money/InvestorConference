@@ -51,6 +51,7 @@ NON_TW_FISCAL_START_MONTH = {
 # User-directed pause list: existing unknown (`?`) statuses for these
 # companies are intentionally paused and must not be treated as active work.
 PAUSED_STOCKS = {"6902", "7722", "7705", "6123", "6720", "4114", "7708", "7737", "7736", "6918", "9914", "7732", "7712", "6997", "6442", "3653", "5274", "5274O", "6962", "7713", "2353"}
+PAUSED_PENDING_TO_MARK = {"2353"}
 
 OFFICIAL_UNAVAILABLE = {
     # SMIC's official 2026 financial-summary page lists the Q2 webcast
@@ -495,8 +496,8 @@ def build():
         for quarter in range(1, 5):
             for field in FIELDS:
                 value = row.get(quarter, {}).get(field, "")
-                if value.startswith("[?]"):
-                    row[quarter][field] = re.sub(r"^\[\?\]", "[🚫]", value)
+                if value.startswith("[?]") or (norm(row["stock"]) in PAUSED_PENDING_TO_MARK and value.startswith("[☐]")):
+                    row[quarter][field] = re.sub(r"^\[(?:\?|☐)\]", "[🚫]", value)
 
     # Classify digest cells only after every source pass has populated A/S/I/M/F/X.
     # G is deliberately excluded because it is generated after digest review.
