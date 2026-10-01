@@ -163,14 +163,13 @@ def readme_event_code(label, sources):
     return norm(match.group(1)) if match else ""
 
 
-def readme_event_display(label):
-    """Return the issuer name without ticker and fiscal-period suffix."""
+def readme_event_display(label, code):
+    """Return the issuer name without its exact ticker or fiscal suffix."""
     display = re.sub(r"\s*\([^)]*\)", "", label)
     display = re.sub(r"\s+(?:FY)?\d{4} Q[1-4].*$", "", display)
-    # README rows may use either ``AAPL Apple Inc.`` or
-    # ``Lenovo Group Limited(0992.HK)``.  Strip only an all-caps/digit
-    # ticker prefix; do not strip ordinary names such as ``Lenovo``.
-    display = re.sub(r"^(?:(?:[A-Z]{1,6}|\d{4})(?:\.[A-Z]{1,4})?\s+)+", "", display)
+    first = re.match(r"([^ ]+)", display)
+    if first and norm(first.group(1)) == code:
+        display = display[first.end():].strip()
     return display.strip()
 
 
@@ -227,7 +226,7 @@ def event_calendar():
             "date": event_date,
             "types": set(),
             "url": source[0] if source else "",
-            "display": readme_event_display(cells[0]),
+            "display": readme_event_display(cells[0], code),
         })
         entry["types"].add(cells[2])
     return result
@@ -332,7 +331,8 @@ def build():
     conference_catalog = conference_keys()
     calendar = event_calendar()
     for (code, _year, _quarter), event in calendar.items():
-        if event["display"]:
+        existing = stock_names.get(code, "").strip()
+        if event["display"] and (not existing or norm(existing) == code):
             stock_names[code] = event["display"]
     rows = {}
     digest_sources = []
