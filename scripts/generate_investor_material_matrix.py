@@ -106,6 +106,8 @@ CALENDAR_PERIOD_OVERRIDES = {
     # Dell FY2027 Q1 ended 2026-05-01 (calendar 2026 Q2).
     ("DELL", 2027, 1): (2026, 2),
     ("DELL", 2027, 2): (2026, 3),
+    # Arm FY2026 Q3 was reported on 2026-02-04 and belongs to calendar 2026 Q1.
+    ("ARM", 2026, 3): (2026, 1),
     ("ARM", 2027, 1): (2026, 2),
     ("AVGO", 2026, 2): (2026, 2),
     ("AVGO", 2026, 3): (2026, 3),
