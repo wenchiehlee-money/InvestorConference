@@ -83,6 +83,16 @@ OFFICIAL_UNAVAILABLE = {
         "I": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
         "M": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
     },
+    # Apple announced the Q1 2026 call and states that its webcast replay is
+    # available for approximately two weeks only. No FIN.srt or IR
+    # presentation was published for this event; retain the official page as
+    # provenance for each linked `-` status.
+    ("AAPL", 2026, 1): {
+        "A": "https://www.apple.com/uk/newsroom/2026/01/apple-reports-first-quarter-results/",
+        "S": "https://www.apple.com/uk/newsroom/2026/01/apple-reports-first-quarter-results/",
+        "I": "https://www.apple.com/uk/newsroom/2026/01/apple-reports-first-quarter-results/",
+        "M": "https://www.apple.com/uk/newsroom/2026/01/apple-reports-first-quarter-results/",
+    },
 }
 
 CALENDAR_PERIOD_OVERRIDES = {
