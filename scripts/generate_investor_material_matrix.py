@@ -54,6 +54,10 @@ PAUSED_STOCKS = {"6902", "7722", "7705", "6123", "6720", "4114", "7708", "7737",
 PAUSED_PENDING_TO_MARK = {"2353"}
 
 OFFICIAL_UNAVAILABLE = {
+    # AMD publishes a transcript PDF for Q1 2026, but it is not the pipeline's FIN.srt artifact; the official webcast remains separately ingestible.
+    ("AMD", 2026, 1): {
+        "S": "https://github.com/wenchiehlee-money/InvestorConference/blob/main/data/AMD/AMD_2026_q1_transcript.pdf",
+    },
     # Amazon announced the Q1 webcast and a three-month replay window, but the
     # official replay is no longer retrievable; no FIN.srt was published.
     ("AMZN", 2026, 1): {
