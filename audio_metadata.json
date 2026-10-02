@@ -651,6 +651,19 @@
     "source_url": "https://www.google.com/finance/beta/quote/AMZN:NASDAQ?tab=earnings",
     "status": "ok"
   },
+  "ARM_2026_q3": {
+    "captured_media_url": "https://files.quartr.com/audio-files/971df-2026-02-04-10-59-52.mpeg?ref=U3RvY2tBbmFseXNpcw==",
+    "checked_at": "2026-10-02",
+    "duration_sec": 2647.42,
+    "file": "data/ARM/ARM_2026_q3.m4a",
+    "note": "Secondary StockAnalysis/Quartr audio for Arm Holdings Q3 FYE26, reported 2026-02-04; official IR webcast page and transcript confirm the same event.",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/ARM_2026_q3.m4a",
+    "sha256": "8a96d3c4025ffcc782d060c7fc99e22195fc0d5e4a2a4bc2df1fae414a0ba3af",
+    "size_bytes": 40145152,
+    "source": "stockanalysis_quartr",
+    "source_url": "https://stockanalysis.com/stocks/arm/transcripts/411181-q3-2026/",
+    "status": "ok"
+  },
   "ARM_2027_q1": {
     "captured_media_url": "https://files.quartr.com/audio-files/019fafe3-fc71-70d9-aee0-f5947ffd638f/master.m3u8?ref=R29vZ2xl",
     "checked_at": "2026-09-27",
