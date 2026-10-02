@@ -343,7 +343,7 @@
 | WDC Western Digital | FY2026 Q2 | 法說會 | 2026-01-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/WDC/financials/) |
 | MSFT Microsoft 微軟 | FY2026 Q2 | 財報 | 2026-01-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MSFT/financials/) |
 | WDC Western Digital | FY2026 Q2 | 財報 | 2026-01-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/WDC/financials/) |
-| AAPL Apple 蘋果 | FY2026 Q1 | 法說會 | 2026-01-29 | [無（官方 replay 約保留兩週）](https://www.apple.com/uk/newsroom/2026/01/apple-reports-first-quarter-results/) | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
+| AAPL Apple 蘋果 | FY2026 Q1 | 法說會 | 2026-01-29 | [57.6 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/AAPL_2026_q1.m4a) | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
 | AAPL Apple 蘋果 | FY2026 Q1 | 財報 | 2026-01-29 | - | - | - | - | [EN](data/AAPL/AAPL_2026_q1_report_en.pdf) ([MD](data/AAPL/AAPL_2026_q1_report_en.md)) | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
 | META Meta Platforms Inc. | 2025 Q4 | 法說會 | 2026-01-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/META/financials/) |
 | META Meta Platforms Inc. | 2025 Q4 | 財報 | 2026-01-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/META/financials/) |
