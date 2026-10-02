@@ -101,6 +101,8 @@ CALENDAR_PERIOD_OVERRIDES = {
     ("AAPL", 2026, 1): (2026, 1),
     # Apple FY2026 Q3 ended in June 2026 and belongs to calendar 2026 Q2.
     ("AAPL", 2026, 3): (2026, 2),
+    # Dell FY2026 Q4 ended 2026-01-30 (calendar 2026 Q1).
+    ("DELL", 2026, 4): (2026, 1),
     # Dell FY2026 Q1 ended 2025-05-02 (calendar 2025 Q2).
     ("DELL", 2026, 1): (2025, 2),
     # Dell FY2027 Q1 ended 2026-05-01 (calendar 2026 Q2).
@@ -463,6 +465,17 @@ def build():
             audio_key = f"{norm(code)}_{year}_q{quarter}"
             if (norm(code), year, quarter) in conference_catalog and audio_key in manifest and audio_key not in invalid_audio:
                 cell["A"] = linked("A", manifest[audio_key])
+
+    # Release-only audio is still valid evidence. Some recently ingested
+    # conference recordings are intentionally kept out of the working tree
+    # and stored only as GitHub Release assets; represent them in the matrix
+    # even when no local quarter file exists yet.
+    for code, year, quarter in conference_catalog:
+        audio_key = f"{norm(code)}_{year}_q{quarter}"
+        if audio_key not in manifest or audio_key in invalid_audio:
+            continue
+        cell = ensure(rows, code, year, quarter, stock_names.get(norm(code), code))
+        cell["A"] = linked("A", manifest[audio_key])
 
     digest_root = ROOT / "data" / "reports" / "conference-digests"
     for company_dir in digest_root.iterdir() if digest_root.exists() else []:
