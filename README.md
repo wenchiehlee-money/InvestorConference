@@ -248,7 +248,7 @@
 | WDC Western Digital | 2026 Q1 | 法說會 | 2026-05-06 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/WDC/financials/) |
 | 8454 富邦媒 | 2026 Q1 | 財報 | 2026-05-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8454) |
 | WDC Western Digital | 2026 Q1 | 財報 | 2026-05-06 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/WDC/financials/) |
-| AMD AMD 超微 | 2026 Q1 | 法說會 | 2026-05-05 | 無 | [📄](data/AMD/AMD_2026_q1_transcript.pdf) | - | - | [EN](data/AMD/AMD_2026_q1_ir_en.pdf) ([MD](data/AMD/AMD_2026_q1_ir_en.md)) | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
+| AMD AMD 超微 | 2026 Q1 | 法說會 | 2026-05-05 | [60.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/AMD_2026_q1.m4a) | [📄](data/AMD/AMD_2026_q1_transcript.pdf) | - | - | [EN](data/AMD/AMD_2026_q1_ir_en.pdf) ([MD](data/AMD/AMD_2026_q1_ir_en.md)) | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
 | 3034 聯詠 | 2026 Q1 | 財報 | 2026-05-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | 3034 聯詠 | 2026 Q1 | 法說會 | 2026-05-05 | 無 | - | - | [中](data/3034/3034_2026_q1_ir.pdf) ([MD](data/3034/3034_2026_q1_ir.md)) | [EN](data/3034/3034_2026_q1_ir_en.pdf) ([MD](data/3034/3034_2026_q1_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | AMD AMD 超微 | 2026 Q1 | 財報 | 2026-05-05 | - | - | - | - | [Tables](data/AMD/AMD_2026_q1_financial_tables.pdf) ([MD](data/AMD/AMD_2026_q1_financial_tables.md)) | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
