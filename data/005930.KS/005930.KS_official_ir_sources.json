@@ -2,8 +2,8 @@
   "symbol": "005930.KS",
   "source_url": "https://www.samsung.com/global/ir/financial-information/earnings-release/",
   "source_type": "official_ir_discovery",
-  "retrieved_at": "2026-09-27 08:25:41 CST",
-  "sha256": "9b02afaa1dea9bd4fcd2e109c860ac96ebf4509fa40a244504f83608f42b83ff",
+  "retrieved_at": "2026-10-03 08:22:11 CST",
+  "sha256": "02d6a8959da11cab84006e11a0f5fa6ee9907668e6b0680b47b942fede3a9fa1",
   "notes": "Discovery only; PDF/table parser still required before writing normalized quarterly rows.",
   "links": [
     {
