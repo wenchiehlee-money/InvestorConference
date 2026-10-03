@@ -169,7 +169,7 @@ def transcribe_document_to_markdown(
 ) -> str | dict:
     """
     將本地的 PDF 或圖片發送到 Mac-mini OCR API 進行轉錄，並回傳 Markdown 文本。
-    
+
     :param file_path: 本地檔案路徑 (PDF 或圖片)
     :param dpi: PDF 渲染解析度，預設 200
     :param clean: 是否清除 Mac-mini OCR 回傳中的 detector/debug 標記，預設 True
@@ -250,11 +250,11 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python ocr_client.py <file_path> [dpi] [baidu|paddle]", file=sys.stderr)
         sys.exit(1)
-        
+
     file_p = sys.argv[1]
     dpi_val = int(sys.argv[2]) if len(sys.argv) > 2 else 200
     engine_val = sys.argv[3] if len(sys.argv) > 3 else None
-    
+
     try:
         result = transcribe_document_to_markdown(file_p, dpi_val, engine=engine_val)
         print(result)
