@@ -614,6 +614,19 @@
     "source_url": "https://www.google.com/finance/beta/quote/AAPL:NASDAQ?tab=earnings",
     "status": "ok"
   },
+  "7722_2026_q2": {
+    "captured_media_url": "https://www.youtube.com/watch?v=PheojY8G5qg",
+    "checked_at": "2026-10-03",
+    "duration_sec": 3891,
+    "file": "data/7722/7722_2026_q2.m4a",
+    "note": "Official LINE Pay investor-conference webcast for 2026-08-18; company IR page links the YouTube recording and the event date matches the 2026 Q2 conference event.",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/7722_2026_q2.m4a",
+    "sha256": "c0fad666050526f8da9286cb078575501455fcb464fe9570ef4aac97d54040dc",
+    "size_bytes": 62967231,
+    "source": "official_company_youtube",
+    "source_url": "https://pay.line.me/portal/tw/ipo/financial-info/conference",
+    "status": "ok"
+  },
   "AAPL_2026_q1": {
     "captured_media_url": "https://casti.fyi/audio/144ea3762732432e8ec37a1d/77f02186-02ab-4d4e-8263-a3d5acb63d2f.mp3",
     "checked_at": "2026-10-02",
