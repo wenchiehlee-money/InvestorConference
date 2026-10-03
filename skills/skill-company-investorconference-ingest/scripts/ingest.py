@@ -79,6 +79,7 @@ KNOWN_TW_DIRECT_AUDIO_BY_QUARTER = {
     ("7722", "2026", "2"): "https://www.youtube.com/watch?v=PheojY8G5qg",  # LINEPAY official 2026-08-18 webcast
     ("8272", "2026", "2"): "https://www.youtube.com/watch?v=vRa6iNzycZE",  # 全景軟體 official 2026-08-13 webcast
     ("2451", "2026", "2"): "https://www.youtube.com/watch?v=58x4SDIcB9s",  # 創見 official 2026-04-08 webcast
+    ("6996", "2026", "1"): "https://www.youtube.com/watch?v=o0oJA-5caDg",  # TPEx official 2026-05-21 performance presentation
 }
 
 # JS-rendered IR pages: need Playwright to intercept network or scan DOM for video URLs

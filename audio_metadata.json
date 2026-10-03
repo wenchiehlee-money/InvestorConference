@@ -627,6 +627,19 @@
     "source": "local_file",
     "status": "ok"
   },
+  "6996_2026_q1": {
+    "captured_media_url": "https://www.youtube.com/watch?v=o0oJA-5caDg",
+    "checked_at": "2026-10-03",
+    "duration_sec": 821,
+    "file": "data/6996/6996_2026_q1.m4a",
+    "note": "Official TPEx webcast for the 2026-05-21 performance presentation; event date and title identify 6996 力領科技. This belongs to calendar 2026 Q1, not the 2026-09-22 Q2 event.",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/6996_2026_q1.m4a",
+    "sha256": "52b66562acfc8a3afcee1774b862d1444b3ac7be58eb6bc4d5f383e6e01cc4db",
+    "size_bytes": 13283043,
+    "source": "official_tpex_youtube",
+    "source_url": "https://www.forcelead.com.tw/zh/index-zh/investor/financial-calendar/conference/",
+    "status": "ok"
+  },
   "8272_2026_q2": {
     "captured_media_url": "https://www.youtube.com/watch?v=vRa6iNzycZE",
     "checked_at": "2026-10-03",
