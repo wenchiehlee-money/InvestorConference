@@ -614,6 +614,19 @@
     "source_url": "https://www.google.com/finance/beta/quote/AAPL:NASDAQ?tab=earnings",
     "status": "ok"
   },
+  "8272_2026_q2": {
+    "captured_media_url": "https://www.youtube.com/watch?v=vRa6iNzycZE",
+    "checked_at": "2026-10-03",
+    "duration_sec": 2061.54,
+    "file": "data/8272/8272_2026_q2.m4a",
+    "note": "Official Changingtec investor-relations page links the 2026-08-13 conference recording; YouTube title and upload date match the event.",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/8272_2026_q2.m4a",
+    "sha256": "8d383556260b63bf2e3adbcfab70ac8aa53fbc8617c3cb21873f1b38f0a6c729",
+    "size_bytes": 33340898,
+    "source": "official_company_youtube",
+    "source_url": "https://www.changingtec.com/investor_presentation.html",
+    "status": "ok"
+  },
   "7722_2026_q2": {
     "captured_media_url": "https://www.youtube.com/watch?v=PheojY8G5qg",
     "checked_at": "2026-10-03",

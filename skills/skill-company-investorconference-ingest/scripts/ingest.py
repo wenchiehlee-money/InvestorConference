@@ -77,6 +77,7 @@ KNOWN_TW_DIRECT_AUDIO_BY_QUARTER = {
     ("2458", "2025", "4"): "http://irconference.twse.com.tw/2458_162_20260303_ch.mp4",
     ("3034", "2026", "2"): "https://youtu.be/sV7X5TFEPxo",  # 聯詠 2026Q2 official VIDEO redirect from Novatek IR page
     ("7722", "2026", "2"): "https://www.youtube.com/watch?v=PheojY8G5qg",  # LINEPAY official 2026-08-18 webcast
+    ("8272", "2026", "2"): "https://www.youtube.com/watch?v=vRa6iNzycZE",  # 全景軟體 official 2026-08-13 webcast
 }
 
 # JS-rendered IR pages: need Playwright to intercept network or scan DOM for video URLs
