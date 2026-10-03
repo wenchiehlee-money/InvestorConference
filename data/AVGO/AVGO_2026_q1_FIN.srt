@@ -1,0 +1,640 @@
+[METADATA]
+Source: AVGO_2026_q1_exp13
+Language: en
+---
+(00:00.000) Welcome to Broadcom Inc.'s first quarter fiscal year 2026 financial results conference call. At this time, for opening remarks and introductions, I would like to turn the call over to Ji Yoo, head of investor relations of Broadcom Inc.
+(00:15.000) Thank you, Operator, and good afternoon, everyone.
+(00:19.480) Joining me on today's call are Hawk Tan, President and CEO, Kirsten Spears, Chief Financial
+(00:26.040) Officer, Charlie Kawas, President, Semiconductor Solutions Group, and Ram Balaga, President,
+(00:33.580) Infrastructure Software Group.
+(00:36.080) Broadcom distributed a press release and financial tables after the market closed describing
+(00:41.600) our financial performance for the first quarter fiscal year 2026. If you did not receive a
+(00:47.420) copy, you may obtain the information from the Investors section of Broadcom's website
+(00:52.160) at Broadcom.com. This conference call is being webcast live and an audio replay of the call
+(00:59.480) can be accessed for one year through the Investors section of Broadcom's website. During the
+(01:05.660) prepared comments, Hawk and Kirsten will be providing details of our first quarter fiscal
+(01:10.940) year 2026 results, guidance for our second quarter of fiscal year 2026, as well as commentary
+(01:18.720) regarding the business environment.
+(01:20.820) We'll take questions after the end of our prepared comments.
+(01:26.200) Please refer to our press release today and our recent filings with the SEC for information
+(01:31.200) on the specific risk factors that could cause our actual results to differ materially from
+(01:36.140) the forward-looking statements made on this call.
+(01:39.920) In addition to U.S. GAAP reporting, Broadcom reports certain financial measures on a non-GAAP
+(01:45.680) basis.
+(01:46.680) A reconciliation between GAAP and non-GAAP measures is included in the table attached
+(01:53.240) to today's press release.
+(01:56.340) Comments made during today's call will primarily refer to our non-GAAP financial results.
+(02:02.820) I will now turn the call over to Hawk.
+(02:06.480) Thank you, Chi, and thank you everyone for joining us today.
+(02:11.920) In our fiscal Q1 2026, total revenue reached a record $19.3 billion, and that's up 29%
+(02:24.500) year-on-year, and exceeding our guidance on the back of better-than-expected growth in
+(02:31.240) AI semiconductors.
+(02:34.380) This top-line strength translated into exceptional profitability with Q1 consolidated adjusted
+(02:42.260) EBITDA hitting a record $13.1 billion, which is 68% of revenue.
+(02:52.340) These figures demonstrate that our scale continues to drive significant operating leverage.
+(03:03.440) Now we expect this momentum to accelerate as our custom AIXPUs hit their next phase
+(03:13.520) of deployment among our five customers.
+(03:19.320) So looking ahead to next quarter Q2 26, we're guiding for consolidated revenue of approximately
+(03:27.940) $22 billion, which represents 47% year-on-year growth.
+(03:35.920) Let me now give you more color on our semiconductor business.
+(03:40.720) In Q1, revenue was a record $12.5 billion, as year-on-year growth accelerated to 52%.
+(03:49.760) This robust growth was driven by AI semiconductor revenue, which grew 106% year-on-year to $8.4 billion, way above our outlook.
+(04:04.760) In Q2, this momentum accelerates and we expect semiconductor revenue to be $14.8 billion, up 76% year-on-year.
+(04:19.760) Driving this is AI revenue growth, which will accelerate very sharply to 140% year-on-year to $10.7 billion.
+(04:33.920) Now, our custom accelerator business grew 140% year-on-year in Q1.
+(04:42.600) This momentum continues in Q2.
+(04:45.380) The RAM of custom AI accelerators across all our five customers is progressing very well.
+(04:57.120) For Google, we continue our trajectory of growth in 26 with strong demand for the seven-generation Ironwood TPU.
+(05:08.460) In 2027 and beyond, we expect to see even stronger demand from next generations of TPU.
+(05:20.900) For entropic, we are off to a very good start in 2026 for 1 gigawatt of TPU compute.
+(05:30.560) And for 27, this demand is expected to surge in excess of 3 gigawatts of compute.
+(05:42.080) Our XPU franchise, I should add, extends beyond TPUs.
+(05:47.560) Now, contrary to recent analyst reports, Meta's custom accelerator MTIA roadmap is alive and
+(06:01.160) well.
+(06:02.160) We're shipping now, and in fact, for the next generation XPUs, we will scale to multiple
+(06:10.460) gigawatts in 27 and beyond.
+(06:17.540) Rounding off for customers 4 and 5, we see strong shipments this year,
+(06:25.380) and which we expect to more than double in 2027. We also now have a sixth customer.
+(06:35.860) We expect OpenAI to deploy in volume their first generation XPU in 2027 at over 1 gigawatt of
+(06:47.060) compute capacity. Let me take a second to emphasize our collaboration with these
+(06:55.880) six customers to develop AIXPUs is deep, strategic, and multi-year. We bring to the
+(07:05.420) partnerships, each of them unmatched technology in studies, silicon design,
+(07:13.900) process technology, advanced packaging, and networking to enable each of these
+(07:22.700) customers to achieve optimal performance for their differentiated LLM workloads.
+(07:30.020) We have the track record to deliver these XPUs and high volumes at an
+(07:38.660) accelerated time to market with very high yields and beyond technology we
+(07:47.480) provide multi-year supply agreements as our customers scale up deployment of
+(07:54.500) their compute infrastructure our ability to assure supply in these times of
+(08:02.420) of constrained capacity in leading edge wafers,
+(08:07.380) in high bandwidth memory and substrates,
+(08:11.140) ensures the durability of our partnerships.
+(08:15.540) And we have fully secured capacity of these components
+(08:21.920) for 26 through 28.
+(08:27.640) Consistent now with the strong outlook for our XPUs,
+(08:31.740) Demand for AI networking is accelerating.
+(08:37.300) Q1 AI networking revenue grew 60% year on year
+(08:43.780) and represented one third of total AI revenue.
+(08:49.440) In Q2, we project AI networking to accelerate a lot more
+(08:57.400) and grow to 40% of total AI revenue.
+(09:01.740) We are clearly gaining share in networking.
+(09:07.100) Let me explain.
+(09:09.200) In scale-out, our first-to-market Tomahawk 6 switch at 100 terabit per second,
+(09:16.880) as well as our 200 G30s, are capturing demand from hyperscalers,
+(09:24.660) whether they use XPUs or GPUs this year.
+(09:28.240) This lead will extend in 27 with our next generation Tomahawk 7 featuring double the performance.
+(09:38.820) Meanwhile, in scale up, as cluster sizes and our customers expand, we are uniquely positioned
+(09:51.260) to enable these customers to stay on direct attached copper through our 200G service.
+(10:00.540) As we next step up to 400 G-Cities in 2028, our XPU customers will likely continue to
+(10:12.720) stay on direct attached copper.
+(10:15.980) And this is a huge advantage as the alternative of going to optical is more expensive and
+(10:24.880) requires significantly more power.
+(10:29.480) Reflecting the foregoing factors, our visibility in 2027 has dramatically improved.
+(10:41.660) Today, in fact, we have line of sight to achieve AI revenue from chips, just chips, in excess of $100 billion in 2027.
+(10:59.480) We have also secured the supply chain required to achieve this.
+(11:08.560) Now, turning to non-AI semiconductors, Q1 revenue of $4.1 billion was flat year-on-year, in line with guidance.
+(11:19.480) Enterprise networking, broadband, server storage revenues were up year-on-year, offset by a seasonal decline in wireless.
+(11:28.120) In Q2, we forecast non-AI semiconductor revenue to be approximately $4.1 billion, up 4% from
+(11:39.820) a year ago.
+(11:42.580) Let me now talk about our infrastructure software segment.
+(11:46.740) Q1 infrastructure software revenue of $6.8 billion was in line with our guidance, up
+(11:54.660) 1% year-on-year.
+(11:56.740) For Q2, we forecast infrastructure software revenue to be approximately $7.2 billion,
+(12:04.740) up 9% year-on-year.
+(12:07.740) VMware revenue grew 13% year-on-year.
+(12:13.520) Bookings continued to be strong, and total contract value booked in Q1 exceeded $9.2
+(12:21.020) sustaining an ARR annual recurring revenue growth of 19% year upon year.
+(12:34.180) Let me reinforce that this growth in our infrastructure software business reflects our focus and investments
+(12:43.520) in foundational infrastructure.
+(12:47.520) And our infrastructure software is not disrupted by AI.
+(12:55.200) In fact, VMware Cloud Foundation, VCF, is the essential software layer in data centers
+(13:04.460) integrating CPUs, GPUs, storage, and networking into a common high-performance private cloud
+(13:13.900) environment.
+(13:14.900) As the permanent abstraction layer between AI software and physical chips, silicon, VCF cannot be disintermediated or replaced.
+(13:30.220) It allows enterprises, in fact, to scale complex generative AI workloads effectively with agility that hardware alone cannot provide.
+(13:41.680) we are confident that the growth in generative and agentic AI will create
+(13:48.880) the need for more VMware not less. So in summary let me put it all together for
+(13:58.240) Q2 2026 we expect consolidated revenue growth to accelerate to 47% year-on-year
+(14:08.060) and reach approximately $22 billion.
+(14:12.340) And we expect adjusted EBITDA to be approximately 68% of revenue.
+(14:21.840) So with that, let me turn the call over to Kirsten.
+(14:25.820) Thank you, Hawk.
+(14:27.240) Let me now provide additional detail on our Q1 financial performance.
+(14:32.060) Consolidated revenue was a record $19.3 billion for the quarter, up 29% from a year ago.
+(14:40.620) Gross margin was 77% of revenue in the quarter.
+(14:45.240) Consolidated operating expenses were $2 billion, of which $1.5 billion was R&D.
+(14:51.220) Q1 operating income was a record $12.8 billion, up 31% from a year ago.
+(14:56.720) Operating margin increased 50 basis points year-over-year to 66.4% on favorable operating leverage.
+(15:05.960) Adjusted EBITDA of $13.1 billion, or 68% of revenue, was above our guidance of 67%.
+(15:13.160) Now let's go into detail for our two segments, starting with semiconductors.
+(15:18.980) Revenue for our semiconductor solution segment was a record $12.5 billion,
+(15:23.640) with growth accelerating to 52% year-on-year driven by AI.
+(15:29.580) Semiconductor revenue represented 65% of total revenue in the quarter.
+(15:34.660) Gross margin for our semiconductor solution segment was up 30 basis points year-on-year to approximately 68%.
+(15:42.080) Operating expenses of $1.1 billion reflected increased investment in R&D for leading-edge AI semiconductors
+(15:50.060) and represented 8% of revenue.
+(15:52.380) Semiconductor operating margin of 60% was up 260 basis points year-on-year reflecting strong operating leverage.
+(16:01.960) Now moving on to infrastructure software.
+(16:05.780) Revenue for infrastructure software of $6.8 billion was up 1% year-on-year and represented 35% of revenue.
+(16:13.600) Gross margin for infrastructure software was 93% in the quarter and operating
+(16:19.420) expenses were $979 million in the quarter. Q1 software operating margin was
+(16:25.780) up 190 basis points year-on-year to 78%.
+(16:31.620) Moving on to cash flow. Free cash flow in the quarter was $8 billion and
+(16:36.880) represented 41% of revenue. We spent $250 million on capital expenditures.
+(16:43.280) We ended the first quarter with inventory of $3 billion as we continued to secure components to support strong AI demand.
+(16:52.560) Our days of inventory on hand were 68 days in Q1 compared to 58 days in Q4 in anticipation of accelerating AI semiconductor growth.
+(17:02.900) Turning to capital allocation, in Q1 we paid stockholders $3.1 billion of cash dividends
+(17:09.080) based on a quarterly common stock cash dividend of 65 cents per share.
+(17:14.380) During the quarter, we repurchased 7.8 billion, or approximately 23 million shares of common stock.
+(17:22.280) In total in Q1, we returned 10.9 billion to shareholders through dividends and share repurchases.
+(17:29.900) In Q2, we expect the non-GAAP diluted share count to be approximately 4.94 billion shares,
+(17:36.840) excluding the impact of potential share repurchases. We ended the first quarter
+(17:41.920) with 14.2 billion of cash. Today we are announcing our Board of Directors has
+(17:47.880) authorized an additional 10 billion for our share repurchase program effective
+(17:52.160) through the end of calendar year 2026. Now moving on to guidance. Our guidance
+(17:58.080) for Q2 is for consolidated revenue of 22 billion up 47% year-on-year. We
+(18:04.840) forecast semiconductor revenue of approximately 14.8 billion, up 76% year-on-year. Within this,
+(18:13.000) we expect Q2 AI semiconductor revenue of 10.7 billion, up approximately 140% year-on-year.
+(18:21.620) We expect infrastructure software revenue of approximately 7.2 billion, up 9% year-on-year.
+(18:28.700) For your modeling purposes, we expect consolidated gross margin to be flat sequentially at 77%.
+(18:35.520) We expect Q2 adjusted EBITDA to be approximately 68%.
+(18:40.600) We expect the non-GAAP tax rate for Q2 in fiscal year 2026 to be approximately 16.5%
+(18:47.640) due to the impact of the global minimum tax and the geographic mix of income compared to that of fiscal year 25.
+(18:55.220) That concludes my prepared remarks.
+(18:57.380) Operator, please open up the call for questions.
+(19:00.380) Thank you.
+(19:02.380) To ask a question, you will need to press star 1-1 on your telephone.
+(19:07.380) To withdraw your question, press star 1-1 again.
+(19:11.380) Due to time restraints, we ask that you please limit yourself to one question.
+(19:15.380) Please stand by while we compile the Q&A roster.
+(19:23.380) And our first question will come from the line of Blaine Curtis with Jefferies.
+(19:27.540) Your line is open.
+(19:29.100) Hey, good afternoon, and thanks for taking my question.
+(19:32.000) It's just a clarification on the question.
+(19:34.760) Just clarification, Hawk, on the greater than $100 billion.
+(19:39.300) I think you said AI chips.
+(19:40.540) I just want to make sure you're clarifying the difference between the ASICs and networking
+(19:43.980) and didn't know how RAC revenue fits in there.
+(19:47.180) And then the question, you know, I think the biggest overhang on the group here is that,
+(19:51.160) you know, you grew roughly double in the quarter AI. I think that's what, you know,
+(19:55.120) kind of Cloud Capex is growing this year. I'm just kind of curious your perspective.
+(19:58.880) You know, I think given the outlook that you have for 27, you should be a share gainer. I'm just
+(20:03.940) kind of curious your perspective in terms of the pessimism that investors kind of think of that the
+(20:10.140) hyperscalers need to get a return on investment in this year or next year, or if not the year after.
+(20:16.080) I'm just kind of curious your perspective, how you factor that into your outlook.
+(20:21.160) Well, what we see, what we have seen over the last few months and continue to see even more is, and it's really not so much talking about hyperscalers.
+(20:35.140) are our customers' blend is limited to those few players out there, and some of them are
+(20:44.380) hyperscalers, some of them are not hyperscalers, but they all have one thing in common, which
+(20:50.900) is to create LLMs, productize it, and generate platforms, be it for enterprise consumption
+(21:00.680) in code assistance or agentic AI, albeit for consumer subscription that we know about,
+(21:10.860) whatever it is, is that few prospects and many of whom are customers now, who are creating
+(21:18.680) this, whether it's generative AI, agentic AI, but creating a platform.
+(21:26.360) That's our customer.
+(21:27.800) And with respect to each of those guys, we are seeing stronger and stronger demand for
+(21:37.560) compute capacity.
+(21:40.180) For training, which is something they do need constantly, but what is very, very interesting
+(21:46.560) and surprising to us is very much for inference in order to productize the LLMs, the latest
+(21:56.180) LLMs they create and monetize it.
+(21:59.960) And that inference is driving a substantial amount of compute capacity, which is great
+(22:07.740) for us because these players, these five, six customers of ours are on the path to creating
+(22:18.260) their own custom accelerators and beyond that, their own design architecture of networking
+(22:30.540) clusters of those custom accelerators.
+(22:35.880) I think we're going to see demand keeps picking up as we've heard announcements in the past
+(22:42.380) six months.
+(22:44.060) Now, to clarify your first part, Blaine, when I say we forecast, we have a line of sight
+(22:54.020) that our revenue in 27 will be significantly in excess of $100 billion, I'm focusing on
+(23:03.300) the fact that these are pretty much all based on chips, whether they are XPUs, whether they
+(23:10.780) They are switch chips, DSPs.
+(23:14.300) These are silicon content we're talking about.
+(23:19.080) Thanks so much.
+(23:20.900) One moment for our next question.
+(23:24.420) And that will come from the line of Harlan Sir with J.P. Morgan.
+(23:28.060) Your line is open.
+(23:29.960) Yeah, good afternoon.
+(23:30.800) Thank you for taking my question, and congratulations to the team on the strong results.
+(23:35.160) Hawk, you know, there's been a lot of noise around CSPs and hyperscalers embarking on their own internal XPU, TPU design efforts, right?
+(23:43.520) We call it CLT or customer-owned tooling.
+(23:46.760) This is not a new dynamic with ASICs, right?
+(23:48.920) I think the Broadcom team has been through this CLT competitive dynamic before over the 30 years, right, that you've been a leader in the ASIC industry.
+(23:58.820) And very few of these CLT initiatives have ever been successful.
+(24:01.860) Now on AI, some of these CLT initiatives are coming to the market now, but it looks like they're at least 2x less performant than your current generation solutions, 2x less complex in terms of chip design complexity, packaging complexity, IP.
+(24:17.400) So maybe just a quick two-part question.
+(24:20.000) Hawk, one for you is, given your visibility into next year, do you see these CLT science
+(24:26.280) projects taking any meaningful TPU, XPU share from Broadcom?
+(24:31.340) And then maybe the second quick question for either you or Charlie is, given that Broadcom's
+(24:35.940) TPU, XPU programs from a performance complexity IP perspective are 12 to 18 months ahead of
+(24:42.920) any of these CLT programs, how does the Broadcom team widen this GAAP?
+(24:47.180) further well that's a great question and you know it it fits into that I purposely took the time in
+(24:56.720) my net in my opening remarks just to say that when any of our any I guess hyperscaler or LLM developer
+(25:08.960) tries to create, become self-sufficient entirely in creating what you call a customer-owned
+(25:17.140) tooling or COT model, they face tremendous challenges.
+(25:23.460) One is technology, which is technology as it relates to creating the silicon chips,
+(25:33.140) particularly in XPUs, that they need to do the computing and that they needed to optimize
+(25:41.100) and run the train and inference on the workloads they produce on the LLM.
+(25:47.380) It's the standard technology we talked about comes from different dimensions.
+(25:54.360) You need the best silicon design team around.
+(25:58.140) You need cutting edge, really cutting edge studies, very advanced packaging, and just
+(26:07.360) as much you need to understand how to network clusters of them together.
+(26:13.260) We've been doing this for 20 years, more than 20 years in silicon.
+(26:21.240) In this particular space today in generative AI, if you're trying to, as an LLM player,
+(26:29.640) to do your own chip, you cannot afford to have a chip that is just good enough.
+(26:35.900) You need the best chips that is around because you're competing against other LLM players.
+(26:44.420) And most of all, you're also competing against NVIDIA,
+(26:47.980) who is by no means letting down their guard.
+(26:52.700) They are producing better and better chips with every passing generation.
+(26:57.740) So you have to, as an LLM, trying to establish your platform in the world,
+(27:03.360) have to create chips that are better than, if not competitive,
+(27:07.280) with not just NVIDIA, but all the other platform players
+(27:12.940) that you're competing against.
+(27:14.220) And for that, you really need our belief, and we see that firsthand, a partner in silicon with the best technology, IP, and execution around.
+(27:29.000) And very modestly, I would say we are by far way out there.
+(27:35.180) And we will not see competition in COT for many years to come.
+(27:41.640) It will come eventually, but we're still a long way off because the race which we see continues.
+(27:50.380) And one thing I add in there that is particularly unique to us, when you create the silicon,
+(27:57.560) you really have to get it up and running in high volume in production very quickly, time to market.
+(28:06.380) We are very, very experienced in doing that.
+(28:10.300) anybody can design a chip in a lab that works well.
+(28:15.080) Can you produce 100,000 of those chips quickly
+(28:18.480) at yields that you can afford?
+(28:23.260) And we don't see too many players in the world that can do that.
+(28:26.820) Charlie?
+(28:27.420) I think you covered it very well, Hawk.
+(28:31.660) Thank you, Hawk. Thank you, Charlie.
+(28:34.780) One moment for our next question.
+(28:36.660) and that will come from the line of Ross Seymour with Deutsche Bank. Your line is open.
+(28:43.460) Hi, thanks for having me ask a question. Huck, in your script, you leaned a little bit more into
+(28:48.080) the networking differentiation than you have in the past. So I guess kind of a short-term and a
+(28:52.280) longer-term question. The short-term is what's driving that up to 40% of the AI revenues?
+(28:57.500) And the longer-term question is, is that percentage mix in that $100 billion plus,
+(29:03.120) Is that changing now?
+(29:05.340) What sort of leadership do you expect to maintain in that business,
+(29:09.240) whether it's scale out or scale up?
+(29:11.820) And is your leadership position there helping on your XPU side
+(29:16.020) as you can optimize across both the compute and the networking sides?
+(29:21.880) Well, let's address the first part of that fairly complex question first.
+(29:26.280) Yes, in networking, especially with the new generation of GPUs, XPUs that are coming out
+(29:36.040) there, we're running at 200 gigabit out there in terms of bandwidth.
+(29:45.760) And the Tomahawk 6 that we introduced over six months ago, closer to nine months ago,
+(29:54.760) the only one out there and our customers and the hyperscalers wants to run with
+(30:02.080) the best networking and with the most bandwidth out there for their clusters so
+(30:06.720) we are seeing huge demand for this only 100 terabit per second switch out there
+(30:17.140) so that's driving a lot of a demand and couple that with running bandwidth
+(30:24.320) on scaling out optical transceivers at 1.6 terabit we are again the only play
+(30:33.020) out there doing DSP at 1.6 terabit that combination is driving I would say the
+(30:42.800) growth of our networking components even faster then our XPUs are growing which
+(30:49.580) is already pretty remarkable.
+(30:51.740) So that's what you're saying.
+(30:53.580) But at some point, I would think these things will settle down, though we're not slowing
+(30:58.520) down the pace because, as I said, next year in 27, we'll launch next generation Tomahawk
+(31:04.820) 7 2X performance, and we'll probably be by far the first out there, and then we'll continue
+(31:11.060) to sustain that momentum.
+(31:15.340) But at the end of the day, to answer your question, yeah, I expect as a composition of our total AI revenue in any quarter, that we'll be ranging between probably 33% to 40% AI networking components.
+(31:34.040) Great. Thanks, Hock.
+(31:35.540) Thanks.
+(31:36.860) One moment for our next question.
+(31:40.260) And that will come from the line of CJ Muse with Cancer Fitzgerald. Your line is open.
+(31:45.340) Yeah, good afternoon.
+(31:47.380) Thank you for taking the question.
+(31:48.960) I'm curious, how are you thinking about the move to disaggregate, pre-fill, and decode
+(31:54.600) from the GPU ecosystem and the impact of custom silicon demand?
+(31:59.120) Are you seeing any potential changes in sort of the relative mix between GPUs and customer
+(32:04.400) silicon?
+(32:05.400) I'm not sure I fully understand your question, CJ.
+(32:12.700) Could you clarify what it means to segregate?
+(32:15.940) Sure.
+(32:16.780) You know, pushing off workloads to CPX for pre-fill
+(32:21.620) and working off of Grok for decode
+(32:25.820) and, you know, having that disaggregated kind of world.
+(32:31.420) And does that put, you know, any pressure in terms of the demand for custom
+(32:36.240) versus going with, you know, a full GPU stack?
+(32:40.780) Okay.
+(32:41.040) I get what you mean.
+(32:43.280) That word disaggregation kind of threw me off.
+(32:46.120) In a way what you're really saying is how is the architecture of AI accelerator, be
+(32:56.260) it GPU or XPU, evolving as workloads start to evolve?
+(33:04.340) And that's what we are seeing very much in particular.
+(33:08.540) The one size fits all of a general purpose GPU gets you only that far.
+(33:16.020) It can still keep going on because you can still run different workloads,
+(33:20.440) like you run mixture of experts, even though you want to run mixture of experts
+(33:26.220) with sparse cores to be very effective.
+(33:30.320) You hear the term.
+(33:31.120) But in a GPU, you're designed for dense matrix multiplication.
+(33:35.940) So, you do it with software kernels, but it's not as effective as you'd hard-code it in
+(33:43.380) silicon, and make those XPUs purposely designed to be much more performing for mixture of
+(33:56.440) expert workloads, say.
+(33:58.700) The same applies for inference.
+(34:01.280) What that drives down to is you start to see designs of XPUs become much more customized
+(34:11.500) for particular workloads of particular LLM customers of ours.
+(34:18.340) The design starts to depart from what is the traditional standard GPU design, which is
+(34:26.060) That's why, as we always indicated before, XPUs will eventually be more the choice, simply
+(34:35.600) because it will allow flexibility in making designs that work with particular workloads,
+(34:44.160) one for training even and one for inference.
+(34:46.760) And as you say, one perhaps will be better at pre-filling and one to be better at post-training
+(34:53.300) or reinforced learning or test time scaling.
+(34:56.480) You can tweak your GPUs towards the XPU, sorry, Freudian slip,
+(35:03.440) to a particular kind of workload LLM that you want.
+(35:08.320) And we're seeing that.
+(35:09.380) We're seeing that roadmap in all our five customers.
+(35:19.600) One moment for our next question.
+(35:23.300) And that will come from the line of Timothy Arcuri with UBS.
+(35:27.980) Your line is open.
+(35:30.620) Thanks a lot.
+(35:31.500) I had just a question on sort of the puts and takes on gross margin
+(35:35.820) as you begin to ship these racks.
+(35:37.680) I mean, obviously it's going to pull the blended margin down,
+(35:40.320) but I'm wondering if there's any guardrails you can give us on this.
+(35:43.200) It seems like the racks are maybe 45%, 50% gross margin.
+(35:46.640) So I guess should we think about that pulling gross margin down
+(35:50.080) like 500 basis points roughly as these racks begin to ship?
+(35:52.860) And I guess part of that, Hock, is there some floor to the gross margin below which you wouldn't be willing to do more racks? Thanks.
+(36:02.880) I hate to tell you that. You must be a bit hallucinating.
+(36:07.100) Our gross margin is solidly at the number Kirsten reports.
+(36:13.140) We will not be affected by the gross margin and by more and more AI products going out.
+(36:19.900) We have gotten our yields, we have gotten our costs to the point where the model we
+(36:26.180) have in AI will be fairly consistent with the models we have in the rest of the semiconductor
+(36:34.140) business.
+(36:35.140) Kirsten?
+(36:36.140) Kirsten Stilwell- I would agree with that.
+(36:37.520) I think on further study, relative to even comments that I did make last quarter, the
+(36:44.260) in fact, relative to our overall mix is actually not going to be substantial at all. So I wouldn't
+(36:52.480) worry about it. Okay. Thank you so much. One moment for our next question. And that will come
+(37:02.500) from the line of Stacey Raskon with Bernstein. Your line is open. Hi, guys. Thanks for taking
+(37:08.840) my question. I don't know if this is for Hock or Kirsten, but I wanted to dig in a little more to
+(37:14.160) this substantially more than 100 billion next year. I'm trying to just count up the gigawatts.
+(37:19.360) I counted, I don't know, eight or nine. You have three from Anthropic, one from OpenAI,
+(37:25.820) so that's four. You said Meta was multiple, so at least two. That gets you to six. Google,
+(37:30.700) I figure, should be bigger than Meta, so at least three. That's nine. And then you got a few others.
+(37:36.660) I thought that your content per gigawatt was sort of calling it a $20 billion per gigawatt range.
+(37:44.160) I guess what I'm asking is, is my math around the gigawatts you plan to ship in 27 correct?
+(37:49.040) And how do I think about your content per gigawatt as that ships?
+(37:53.460) Maybe it will be, quote, unquote, substantially more than 100 billion.
+(37:58.200) Stacy, you have a very interesting perspective, and I got to admire you for that.
+(38:02.480) But you're right.
+(38:03.660) You can look at it as gigawatts, which is the right way to look at it instead of dollars,
+(38:08.580) because that's how we sell our chips.
+(38:10.120) So you have to realize, depending on our LLM customer, our six customers now, sorry, not five, six, the dollars per gigawatt, chip dollars varies, sometimes quite dramatically.
+(38:29.600) It does vary, but you're right.
+(38:33.200) It's not far from the dollars you're talking about, and if you look at it by gigawatt in
+(38:39.140) 27, we are seeing it getting close to 10 gigawatts.
+(38:47.840) Got it.
+(38:51.540) That's very helpful.
+(38:52.540) Thank you.
+(38:53.540) Sure.
+(38:54.540) And our next question that will come from the line of Ben Rietzis with Mellius Research.
+(39:01.900) Your line is open.
+(39:03.900) Hey, thanks.
+(39:05.780) Hach, great to be speaking with you.
+(39:08.720) Wanted to ask you about your commentary about supply visibility on those four major components
+(39:14.780) through 2028.
+(39:15.780) A, how did you do it?
+(39:18.380) is probably the you know you're the first one to kind of go out through the 28 time frame
+(39:24.700) and secondly um after this astounding growth in 2027 for your ai business do you have enough
+(39:32.300) visibility to grow quite a bit in 2028 based on the supply that you see in that kind of commentary
+(39:38.540) Thanks a lot.
+(39:39.540) The best answer is, yeah, you're right.
+(39:45.300) We anticipate this sharp accelerated growth.
+(39:50.740) Now nobody could anticipate the rate of growth is showing, but we kind of anticipate a large
+(39:55.760) part of it, I guess, for longer than six months.
+(40:03.500) We were early in being able to lock up tea glass, infamous tea glass you all heard about.
+(40:11.080) We were very early.
+(40:13.580) We've locked up substrates.
+(40:17.400) We have worked on our good partners on the rest of the stuff we talked about.
+(40:25.440) And so the answer to your question is, it's somewhat anticipation early and the fact that
+(40:32.560) we have very good partners out there in these key components.
+(40:39.780) What else can I say except that yes.
+(40:42.380) Charlie, you want to add anything?
+(40:43.800) Yeah, just maybe a couple of quick ones.
+(40:45.520) I think you covered that piece really well.
+(40:47.900) I think, Ben, the other piece that's really important, as Auk said,
+(40:52.480) we build custom silicon for six customers.
+(40:55.160) We have very deep strategic multi-year engagement with them.
+(40:58.960) They share with us, because of this custom capability,
+(41:01.420) exactly what they anticipate at least over the next two to three years, sometimes four years.
+(41:07.620) And so because of that, that's exactly why we went and secured all the elements Hawk talked about.
+(41:13.960) And when we secure this, it requires investments with these partners,
+(41:18.380) sometimes developing not just more capacity but the right technology and capacity for that.
+(41:23.600) So we have to go secure it for multiple years.
+(41:26.880) And you're right, we're probably the first one to secure that up to 28,
+(41:30.960) or beyond.
+(41:32.840) Can you grow in 28 with what you see in supply?
+(41:35.740) Sorry to sneak that in.
+(41:37.180) Yes.
+(41:40.840) Thank you.
+(41:45.140) Our next question, that will come from the line of Vivek Arya
+(41:48.560) with Bank of America Securities.
+(41:50.340) Your line is open.
+(41:52.660) Thanks for taking my question.
+(41:53.800) Hawk, I just wanted to first clarify,
+(41:56.820) the Anthropic project you're doing,
+(41:58.480) the $20 billion or so for a gigawatt this year,
+(42:00.960) how much of that is chips and how much of that is kind of racks?
+(42:04.880) I just wanted to understand when you say $100 billion in chips,
+(42:08.100) is there a distinction between chips versus your rack scale projects?
+(42:12.220) Because just that project is supposed to triple next year.
+(42:15.280) And then my question is, you know, your AI business is transitioning
+(42:18.360) from kind of one large customer that was, you know,
+(42:21.920) where you had kind of exclusive partnership
+(42:25.120) to now multiple customers who are using multiple suppliers.
+(42:30.120) So how do you get the visibility and the confidence about, you know,
+(42:35.040) how your share will progress at these multiple customers?
+(42:39.140) Because, you know, it's a very kind of fragmented engagement that they have
+(42:43.520) across a whole range of cloud service providers.
+(42:46.360) So what are you doing to ensure that, you know, you have solid visibility
+(42:51.140) and, you know, the right market share at this fragmented set of customers
+(42:57.420) who are using multiple suppliers?
+(42:59.400) Vivek, you have to understand one thing about, first as Charlie correctly put down, very nicely, we only have very few customers, to be precise, six. For the volume we are driving, the revenue we are driving, we only have just six.
+(43:20.460) Prior to that, even less recently.
+(43:25.420) And number two, also have to understand with the dollars each of them spend and the criticality
+(43:34.060) of the nature of what they are embarking on.
+(43:37.440) And that's why I throw out this term.
+(43:40.040) META has MTIA.
+(43:42.900) That's the Custom Accelerator Program.
+(43:49.520) To them, as to every one of my customers in this space, it's a strategic play.
+(43:58.060) It's not optionality.
+(44:01.440) To them, long term, short term, medium term is strategic, extremely strategic.
+(44:09.200) They don't stop and they are very clear, each of them, on where they want to position these
+(44:19.120) custom silicon within the trajectory of the LLM development and the trajectory of how
+(44:29.740) they develop inference for productizing those LLMs.
+(44:35.520) That part we have very clear visibility.
+(44:39.300) Anything else on GPU, using new cloud, using cloud business, these are all transactional
+(44:48.640) and optionality.
+(44:50.300) So you have to display, you point out very correctly, it seems very confusing.
+(44:56.100) Trust me, not for us, nor those customers we have.
+(45:00.060) They're very strategic, they're very targeted, and they know exactly what they're building
+(45:05.160) up and how much capacity they want to build up each year.
+(45:11.040) And the only thing they think about is can they do it faster.
+(45:15.060) Otherwise, it's very strategic and targeted on a projected roadmap.
+(45:20.280) Anything else you see in the mix is pure, I call it, opportunistic for these guys, the optionality.
+(45:29.500) So it's very clear.
+(45:33.300) On the clarification hook, entropic racks versus chips.
+(45:37.220) Thank you.
+(45:38.460) I'd rather not answer that, but we're okay.
+(45:42.020) As Kirsten said, we're good on our dollars.
+(45:45.060) And Monty.
+(45:46.600) Thank you.
+(45:51.560) Our next question, that will come from the line of Tom O'Malley with Barclays.
+(45:55.680) Your line is open.
+(45:58.760) Hey guys, thanks for taking my questions.
+(46:00.240) I have one for Hawk and one for Charlie.
+(46:01.680) So Hawk, I know you're very specific in particular about what you put in the preamble.
+(46:05.520) And you noted that customers are staying at direct attached copper through 400 gig 30s.
+(46:09.820) Is there any reason you're pointing that out in particular,
+(46:12.280) especially as a leading pioneer in CPO?
+(46:14.620) And then on Charlie's side, as you're adding more customers here,
+(46:18.000) I would imagine customers with design ASICs with you are going to use scale-up Ethernet.
+(46:21.460) Maybe talk about scale-up protocols and how you see Ethernet developing there as well.
+(46:26.520) Okay.
+(46:27.320) No, I'm just highlighting the fact that we are networking.
+(46:33.320) Our technology is really very, very uniquely positioning us to help our customers,
+(46:42.760) and more than our customers.
+(46:44.040) Even customers using general purpose GPUs, not just XPUs, which is that if you are trying
+(46:57.040) to create LLMs and creating your own AI data centers and designing it, architecting it,
+(47:04.700) you truly want larger and larger domains or clusters, and you really want to connect XPUs
+(47:12.940) to XP use directly where you can.
+(47:17.160) And the best way to do that is use direct attached copper.
+(47:21.180) That's the lowest latency, lowest power, and lowest cost.
+(47:26.320) So you want to keep doing that,
+(47:28.500) especially in scale up as long as possible.
+(47:32.440) In scaling out, we're past that.
+(47:35.640) We use optical.
+(47:37.780) That's fine.
+(47:38.660) But I'm talking about scaling up in a rack,
+(47:41.340) in a cluster domain.
+(47:42.960) You really want to use direct attached copper
+(47:44.800) as long as you can.
+(47:46.680) And we are still, based on our technology
+(47:49.540) that Broadcom has, especially on connecting
+(47:54.460) XPU to XPU or even GPU to GPU,
+(47:58.320) we can do it with copper.
+(48:00.420) And we can push the envelope from 100 gig to 200 gig
+(48:05.840) to even to 400 gig.
+(48:07.500) We have 30s now running 400G that can drive distance on a rack to run copper.
+(48:15.180) All I'm trying to say is you don't need to go run into some bright, shiny objects called CPO.
+(48:21.940) Even as we are the lead in CPOs.
+(48:25.120) CPOs will come in its time.
+(48:28.540) Not this year.
+(48:30.080) Maybe not next year.
+(48:31.580) But in its time.
+(48:33.620) Charlie?
+(48:34.200) Yeah.
+(48:34.520) Well said, Hawk.
+(48:36.080) And on the question of Ethernet, with the debut of the cloud,
+(48:41.820) Ethernet became the de facto standard in every cloud for the last two decades.
+(48:46.980) If you look at the debut of the back-end networks, as Hawk articulated,
+(48:54.460) there was two years ago a big fight about what protocol should be used to achieve the latency,
+(49:00.340) the scale necessary on scale-out.
+(49:02.720) And the industry at the time, 24 months ago, was not clear.
+(49:06.680) We were clear.
+(49:07.720) We were very clear, actually, about what the answer should be.
+(49:10.940) And again, because of the deep engagements with our partners, they made it very clear to all of us and the industry, GPU or XPU, that Ethernet is the scale-out of choice.
+(49:21.640) Checkmark.
+(49:22.260) Today, everyone is talking about scaling out with Ethernet.
+(49:26.000) Now, when it comes to scale up, yes, exactly like what happened three, four years ago on scale up now,
+(49:33.720) what's the right answer for this?
+(49:35.240) And what we're hearing consistently and what we're seeing is the right answer is Ethernet.
+(49:41.400) And as you know, last year we've announced with multiple hyperscalers
+(49:46.460) and many of our peers in the semiconductor industry that Ethernet scale up is the right choice.
+(49:52.700) That's what we believe will happen.
+(49:54.300) Time will tell, but a lot of the XPU designs we're doing, we're being asked to scale up through Ethernet, and we're happy to enable that.
+(50:04.480) Thank you both.
+(50:07.200) Thank you.
+(50:08.220) And our next question, that will come from the line of Jim Schneider with Goldman Sachs.
+(50:12.880) Your line is open.
+(50:16.560) Good afternoon.
+(50:17.560) Thanks for taking my question.
+(50:18.700) Hawk, it was helpful to hear you discuss the progress of your other full custom XPU engagements
+(50:25.800) outside of TPUs.
+(50:28.380) As we look into next year, is it fair to assume that those are mostly targeting inference
+(50:35.020) applications or not?
+(50:36.680) And then could you maybe qualitatively speak to either the performance or cost advantages
+(50:42.940) relative to GPUs that is giving those customers the ability to forecast in such a large scale?
+(50:50.580) Thank you.
+(50:51.560) Thanks.
+(50:53.120) It's, you know, most of our customers begin with inference simply because that tends to be,
+(51:03.660) you know, that tends to be the easiest path to start on.
+(51:08.320) Not necessarily from anything else than the fact that when you do inference, it's less
+(51:17.280) compute.
+(51:18.280) But also then the question is, do you need this general purpose, massive, dense matrix
+(51:24.720) multiplication GPUs when you can do it more efficiently, effectively with customs inference
+(51:32.940) silicon XPUs that do the job better or just as well much cheaper cost, lower power.
+(51:41.880) And that's what we find these customers starting with.
+(51:45.000) But they are now in training, and many of our XPUs are used both in training as well
+(51:52.320) as inference.
+(51:53.160) And by the way, they are interchangeable.
+(51:55.320) Just a GPU can be used not just for training, which they are perhaps more perfectly suited
+(52:02.260) to but it can be used for inference while we think is our experience are used
+(52:07.420) for both and we're seeing that going on but we also think very rapidly more for
+(52:13.900) those customers who are much more matured in the progression I talked
+(52:18.380) about in their journey towards complete XPU that they will start to develop two
+(52:25.120) chips each year simultaneously one for training one for inference to be
+(52:33.000) specialized why because what we're seeing very clearly for this player LLM
+(52:38.360) places you do the training to get to achieve a higher level of intelligence
+(52:44.520) smarts for your LLM so great you get yourself a great LLM state-of-the-art or
+(52:50.920) or more. Now you've got to productize it, which means inference. Well, you can't then
+(52:57.040) decide at that time you've got your model going as the best, because if you decide then
+(53:03.860) to do your inference productization, it'll take you a year at least to productize, at
+(53:09.100) which time somebody else is going to create an LLM better than yours. So there's a leap
+(53:14.720) of faith here that when you do training to create the next level of super intelligence
+(53:21.600) in your LLM, you have to be investing simultaneously in inference, both in terms of the chip and
+(53:32.240) the capacity.
+(53:34.080) So our visibility is really coming out better and better as we find those six customers
+(53:42.500) get more matured in their progression towards better and better LLMs.
+(53:49.680) So yeah, that is the trend we are seeing.
+(53:54.000) It's not happening to all our six customers yet, but we are seeing a majority of them
+(54:00.480) headed in that way right now.
+(54:03.720) Thank you.
+(54:08.340) One moment for our next question.
+(54:12.500) And that will come from the line of Joshua Buckhalter with TD Cowan.
+(54:17.320) Your line is open.
+(54:19.200) Hey, guys.
+(54:19.900) Thanks for taking my question and congrats on the results.
+(54:23.040) I appreciate all the details on the expectations for deployments at specific customers.
+(54:28.200) I was hoping you could just maybe reflect on how visibility has changed over the last one to two quarters that gave you the confidence to give us more details.
+(54:36.560) And then on a specific one, you mentioned greater than a gigawatt for open AI in 2027.
+(54:43.360) With that deal being for 10 gigawatts through 2029, that implies a pretty sharp inflection, I guess, in 2028.
+(54:50.600) Is that the right way to think about it, and was that sort of always the plan?
+(54:53.440) Thank you.
+(54:54.880) Yes.
+(54:55.320) Yes, well, as you all seen and you all know in this generative AI race that we are in
+(55:03.820) now, and I shouldn't use the word race, let's call it progression among the few players
+(55:12.500) we see here.
+(55:13.760) I mean, it's a competition.
+(55:16.980) Each is trying to create an LLM better than the other and more tailored for specific purpose,
+(55:24.540) Be they enterprise, be they consumer, be they search, each one is trying to create it more
+(55:32.540) and more.
+(55:34.040) And all of that requires not just training, which is important to keep improving your
+(55:42.580) LLM models, but inference for productization and monetization of your LLMs.
+(55:51.440) And we are getting, and probably call it the fact that we've been engaged with some of
+(55:55.580) them now for more than a couple of years.
+(56:00.460) We're getting better and better visibility as they have more and more confidence that
+(56:06.040) the XPUs they are working on with us is achieving what they're getting at.
+(56:11.880) As they get the sense that the XPUs they are working on with the software, with the algorithms
+(56:19.220) they needed, that they are having more confidence that this XPU silicon is what they need.
+(56:28.620) And they work and it gets better and better.
+(56:30.660) And it gets better, we get more visibility as Charlie puts up perfectly.
+(56:34.900) Because at the end of the day, we only have six guys to work on.
+(56:38.680) And these six guys are all, as I said, look at XPUs and AI in a very strategic manner.
+(56:48.020) They don't think one generation at a time.
+(56:51.280) They think multiple generations, multiple years.
+(56:56.340) And in spite of all the hubris, noise out there on what's available, they think very
+(57:06.020) long term on how they deploy the XPUs they develop with us.
+(57:14.000) How they deploy in achieving better and better LLMs that they want to create, and more than
+(57:20.920) that, how they deploy in monetizing.
+(57:24.300) So we are part of their strategic roadmap.
+(57:31.120) We are not in just optionality of, oh, shall I use a GPU?
+(57:39.420) Shall I use it in the cloud because I need to train for six months?
+(57:43.440) No, this is more than that.
+(57:45.340) The investment these guys are making are long-term,
+(57:49.120) and it's great to be part of that long-term roadmap
+(57:52.620) as opposed to a transactional roadmap.
+(57:55.360) And the noise, as I answered an earlier question,
+(57:58.760) is there's a lot of noise that makes up short-term transactions
+(58:03.180) with what is long-term strategic positioning of our business and our product.
+(58:10.840) And to sum it all, I think our business in XPUs is a strategic, sustainable play for all the six customers we have today.
+(58:27.900) Thank you.
+(58:29.620) Thank you. That is all the time we have for Q&A today.
+(58:33.140) I would now like to turn the call back over to GU for any closing remarks.
+(58:37.020) Thank you, Cherie. Broadcom currently plans to report its earnings for the second quarter
+(58:42.660) of fiscal year 2026 after the close of market on Wednesday, June 3rd, 2026. A public webcast
+(58:50.360) of Broadcom's earnings conference call will follow at 2 p.m. Pacific. That will conclude
+(58:55.240) our earnings call today. Thank you all for joining. Cherie, you may end the call.
+(59:00.660) This concludes today's program. Thank you all for participating. You may now disconnect.
