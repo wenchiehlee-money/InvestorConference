@@ -30,6 +30,9 @@ load_dotenv()
 
 SAVE_RESULTS_MARKER = "===============save results:==============="
 
+OCR_ENDPOINT = "http://mac-mini.tail28f10.ts.net:5001/ocr"
+OCR_HEALTH_URL = "http://mac-mini.tail28f10.ts.net:5001/health"
+
 HTML_TABLE_RE = re.compile(r"<table\b.*?</table>", re.IGNORECASE | re.DOTALL)
 
 
@@ -46,6 +49,37 @@ class OCRRequestError(RuntimeError):
         super().__init__(message)
         self.status_code = status_code
         self.timeout_kind = timeout_kind
+
+
+def check_ocr_server_live(timeout: float = 5.0) -> dict:
+    """Check the unauthenticated Mac-mini health endpoint before OCR upload."""
+    try:
+        response = requests.get(OCR_HEALTH_URL, timeout=timeout)
+    except requests.exceptions.Timeout as exc:
+        raise OCRRequestError(
+            f"OCR server live check timed out after {timeout}s: {exc}",
+            timeout_kind="health-check-timeout",
+        ) from exc
+    except requests.exceptions.RequestException as exc:
+        raise OCRRequestError(f"OCR server live check failed: {exc}") from exc
+
+    try:
+        payload = response.json()
+    except ValueError:
+        payload = {}
+
+    if response.status_code != 200:
+        raise OCRRequestError(
+            f"OCR server live check failed ({response.status_code}): "
+            f"{response.text or 'no response body'}",
+            status_code=response.status_code,
+        )
+    if payload.get("status") != "ok":
+        raise OCRRequestError(
+            f"OCR server is not ready: {payload or 'missing status=ok'}",
+            status_code=response.status_code,
+        )
+    return payload
 
 
 def _html_table_to_markdown(html: str) -> str:
@@ -144,7 +178,7 @@ def transcribe_document_to_markdown(
     :raises FileNotFoundError: 當檔案不存在時拋出
     :raises RuntimeError: 當 API 請求失敗、超時或網路錯誤時拋出
     """
-    api_url = os.getenv("OCR_API_URL", "http://mac-mini.tail28f10.ts.net:5001/ocr")
+    api_url = OCR_ENDPOINT
     api_key = os.getenv("OCR_API_KEY")
     engine = (engine or os.getenv("OCR_ENGINE", "baidu")).strip().lower()
     if engine not in {"baidu", "paddle"}:
@@ -156,6 +190,8 @@ def transcribe_document_to_markdown(
     path_obj = Path(file_path)
     if not path_obj.exists():
         raise FileNotFoundError(f"File not found: {file_path}")
+
+    check_ocr_server_live()
 
     headers = {
         "X-API-Key": api_key
