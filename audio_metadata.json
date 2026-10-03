@@ -614,6 +614,19 @@
     "source_url": "https://www.google.com/finance/beta/quote/AAPL:NASDAQ?tab=earnings",
     "status": "ok"
   },
+  "2451_2026_q2": {
+    "captured_media_url": "https://www.youtube.com/watch?v=58x4SDIcB9s",
+    "checked_at": "2026-10-03",
+    "duration_sec": 3582.82,
+    "file": "data/2451/2451_2026_q2.m4a",
+    "note": "Official Transcend investor-relations conference page links the 2026-04-08 Chinese recording; YouTube title and upload date match the event.",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2451_2026_q2.m4a",
+    "sha256": "cf45dd9b0d1b589f41388c45591c7e36347379ac52cdad283f76892760d54e33",
+    "size_bytes": 57943559,
+    "source": "official_company_youtube",
+    "source_url": "https://web.transcend.com.tw/about/conference",
+    "status": "ok"
+  },
   "8272_2026_q2": {
     "captured_media_url": "https://www.youtube.com/watch?v=vRa6iNzycZE",
     "checked_at": "2026-10-03",
