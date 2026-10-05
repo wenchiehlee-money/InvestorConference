@@ -92,23 +92,6 @@ Ingest 必須把來源分成兩層，且不得讓二級來源覆蓋一級來源�
 6. 下載後仍要通過 checksum、duration、duplicate gate；成功時 `audio_metadata.json` 必須記錄 `source: google_finance_quartr`、Google Finance page `source_url`、實際 `captured_media_url` 與 secondary-source note。
 7. Google/Quartr 只能補音檔、逐字稿與 discovery metadata；README 的季度、日期、事件類型與官方 PDF 判定仍以一級來源為準。
 
-#### Podcast／earnings-call aggregator audio fallback
-
-Apple Podcasts、Spotify、Castify、EarningsCall、Quartr 等平台可能長期保留非台灣公司的法說會音訊；它們可作為二級 audio discovery，但不能因搜尋結果或頁面摘要就直接視為可用音檔。
-
-使用規則：
-
-1. 先確認 episode/feed 的 ticker、公司、FY 年度、Q1–Q4 與法說會日期完全符合目標事件；只寫「earnings call」或只符合公司名稱不足以認領季度。
-2. 優先使用公開 RSS `enclosure` 或平台明確提供的可重現 media URL；必須取得 HTTP 200、正確的 `audio/*` content-type、非 HTML challenge，並檢查 MP3/M4A/MP4 magic bytes。
-3. 必須下載完整檔案並以實際 media parser／ffprobe 驗證 duration。RSS 宣告長度或搜尋摘要只能作 metadata，不能代替檔案驗證。
-4. RSS duration 與實際 duration 若差異明顯，先標記 `status: duration_metadata_mismatch` 並進行獨立交叉驗證；不能只因 RSS metadata 錯誤就拒絕音檔。若逐字稿／官方 call 結尾時間軸與音檔尾端一致，音檔可接受；若音檔在逐字稿結尾前中斷、HTTP Range 顯示檔案不完整，才標記 `status: rejected_truncated`。
-5. 必須排除 AI commentary、podcast summary、分析節目與只播放摘要的內容；這些不能填 `A`，也不能產生 FIN/GT。
-6. 若平台要求登入、付費或授權 API，不能繞過登入、破解播放器或猜測 media URL；只能使用合法取得的 session/API 權限。若沒有可重現 media URL，保留 discovery URL，不建立音檔。
-7. 通過驗證的第三方完整 call audio 可作二級材料供 digest／FIN 使用；`audio_metadata.json` 必須記錄 `source`（例如 `castify_podcast` 或 `earningscall`）、feed/page URL、captured media URL、RSS metadata、實際 duration、checksum 與 secondary-source note。它不能宣稱公司官方 replay 仍可取得。
-8. 只有通過 checksum、duration、duplicate gate 的完整檔案才可轉成 canonical `.m4a`、上傳 GitHub Release `audio-files`；不得進 Git、Git LFS 或 Google Drive。若 repository 的矩陣把 `A` 定義為「可驗證的完整 conference audio」，可填 `A`，但 provenance 必須保留二級來源標記；`S` 仍需 FIN.srt，第三方 transcript 不得自動變成 `S`。
-
-實例：Apple AAPL Q1 2026 的 RSS 顯示 `1:10:46`，但 enclosure 實際可下載並播放 `57:36`；獨立 transcript 的最後內容時間點為 `00:56:55` 且是正式 call 結語，因此應標記 duration metadata mismatch，不能誤判為截斷。
-
 若一級與二級來源衝突，例如第三方索引把公司官方 `2026 Q2` 法說會標成 `2026Q3`：
 
 1. README、manifest、metadata 必須以一級來源為準。

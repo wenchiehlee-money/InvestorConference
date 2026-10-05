@@ -16,10 +16,6 @@ from pathlib import Path
 from urllib.parse import urljoin
 from audio_storage_bridge import upload_and_update_manifest, get_audio_link_for_readme
 
-# Prefer the installed CLI, but fall back to the current Python environment.
-# This keeps user-installed yt-dlp usable when ~/.local/bin is not on PATH.
-YTDLP_CMD = [shutil.which("yt-dlp")] if shutil.which("yt-dlp") else [sys.executable, "-m", "yt_dlp"]
-
 # Suppress InsecureRequestWarning for MOPS (Taiwan gov site SSL quirks on Windows)
 warnings.filterwarnings("ignore", message="Unverified HTTPS request")
 
@@ -76,10 +72,6 @@ KNOWN_TW_DIRECT_AUDIO_BY_QUARTER = {
     ("2301", "2025", "4"): "https://www.liteon.com/upload/media/video_over_20mb/IR%20conference/4Q25%E5%AE%98%E7%B6%B2%E4%B8%AD%E6%96%87%E5%BD%B1%E7%89%87.mp4",
     ("2458", "2025", "4"): "http://irconference.twse.com.tw/2458_162_20260303_ch.mp4",
     ("3034", "2026", "2"): "https://youtu.be/sV7X5TFEPxo",  # 聯詠 2026Q2 official VIDEO redirect from Novatek IR page
-    ("7722", "2026", "2"): "https://www.youtube.com/watch?v=PheojY8G5qg",  # LINEPAY official 2026-08-18 webcast
-    ("8272", "2026", "2"): "https://www.youtube.com/watch?v=vRa6iNzycZE",  # 全景軟體 official 2026-08-13 webcast
-    ("2451", "2026", "2"): "https://www.youtube.com/watch?v=58x4SDIcB9s",  # 創見 official 2026-04-08 webcast
-    ("6996", "2026", "1"): "https://www.youtube.com/watch?v=o0oJA-5caDg",  # TPEx official 2026-05-21 performance presentation
 }
 
 # JS-rendered IR pages: need Playwright to intercept network or scan DOM for video URLs
@@ -1242,7 +1234,7 @@ def scrape_playwright_direct_ir(stock_id: str, ir_url: str, year: str, quarter: 
         for yt_url, _ in yt_candidates:
             try:
                 r = subprocess.run(
-                    YTDLP_CMD + [ "--get-title", "--no-warnings", yt_url],
+                    ["yt-dlp", "--get-title", "--no-warnings", yt_url],
                     capture_output=True, encoding="utf-8", errors="replace", timeout=15,
                 )
                 title = r.stdout.strip()
@@ -1281,7 +1273,7 @@ def scrape_ir_site(ir_url: str, year: str, quarter: str) -> str | None:
             check_url = f"https://www.youtube.com/watch?v={vid_id}"
             try:
                 r = subprocess.run(
-                    YTDLP_CMD + [ "--get-title", "--no-warnings", check_url],
+                    ["yt-dlp", "--get-title", "--no-warnings", check_url],
                     capture_output=True, encoding="utf-8", errors="replace", timeout=10,
                 )
                 title = r.stdout.strip()
@@ -1541,8 +1533,8 @@ def download_audio(source: str, output_path: Path,
                 print(f"[ffmpeg] {line}")
         print("[ffmpeg] Direct media extraction failed. Falling back to yt-dlp...")
 
-    cmd = YTDLP_CMD + [
-        source,
+    cmd = [
+        "yt-dlp", source,
         "--extract-audio",
         "--audio-format", "m4a",
         "--audio-quality", "0",
@@ -3237,7 +3229,7 @@ def ingest_earnings_audio(stock_id: str, year: str, quarter: str,
                 # Try to get conf_date for MOPS PDF lookup
                 try:
                     r = subprocess.run(
-                        YTDLP_CMD + [ "--get-description", "--no-warnings", search_query],
+                        ["yt-dlp", "--get-description", "--no-warnings", search_query],
                         capture_output=True, text=True, timeout=10
                     )
                     # Look for date like 2025/11/06 or 2026/02/06
