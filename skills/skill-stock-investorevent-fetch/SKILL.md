@@ -47,7 +47,7 @@ skill if they look stale.
 The calendar is an inventory of event records, not an ingestion-health table:
 
 - Keep same-day `法說會` and `財報` as separate records (`1 + 1`). Never deduplicate them by date; pair them through the same company/fiscal-quarter identity.
-- A future calendar row with no material is `planned/not_due`, not `Broken`. Downstream health monitors must exclude future/not-due rows from Healthy/Warning/Broken denominators until the event is due or explicitly requested.
+- A future calendar row with no material is `planned/not_due`, not `Broken`. Downstream health monitors must exclude future/not-due rows from Healthy/Warning/Broken denominators until their due date or until material collection is explicitly requested.
 - A paired `財報` row remains a report record even when its date equals the `法說會` date. `pdf_only` is reserved for standalone report events with no conference/audio/transcript signal.
 
 ## Standard Workflow
