@@ -6,6 +6,9 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----------:|:----:|
+| AMD AMD 超微 | 2026 Q3 | 法說會 | 2026-11-03 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
+| 2344 華邦電 | 2026 Q3 | 財報 | 2026-11-03 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2344) |
+| AMD AMD 超微 | 2026 Q3 | 財報 | 2026-11-03 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
 | 2454 聯發科 | 2026 Q3 | 財報 | 2026-10-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | AAPL Apple 蘋果 | FY2026 Q4 | 法說會 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
 | AAPL Apple 蘋果 | FY2026 Q4 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
