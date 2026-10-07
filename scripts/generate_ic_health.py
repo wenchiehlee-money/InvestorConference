@@ -24,7 +24,7 @@ def is_company_dir(path):
     # Exclude non-stock directories
     if name in (".git", ".github", ".claude", "__pycache__", "definitions", "spec", "tmp", "tools", "web", "logs", "scripts"):
         return False
-    return name.isalnum()
+    return bool(re.fullmatch(r"[A-Za-z0-9]+(?:\.[A-Za-z0-9]+)?", name))
 
 def pdf_md_status(comp_dir, files):
     """Classify presentation PDF -> MD conversion quality for an event.
@@ -180,7 +180,7 @@ def main():
     has_digest_count = 0
     digest_eligible_count = 0
 
-    audio_conference_keys = set()
+    audio_conference_keys = set(audio_keys)
     pdf_only_report_keys = set()
     
     pdf_only_healthy_count = 0
@@ -209,8 +209,6 @@ def main():
         # Known invalid or duplicate/placeholder audio files (remote state)
         invalid_audios = {
             "qcom_2025_q4",    # remote release URL returns 404
-            "2454_2026_q1",    # duplicate of 2454_2025_q4 on remote
-            "7765_2026_q1",    # duplicate of 7765_2025_q4 on remote
         }
         
         # Check if we have successfully downloaded the true audio locally (>1MB)

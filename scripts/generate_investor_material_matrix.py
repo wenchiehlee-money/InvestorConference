@@ -548,7 +548,7 @@ def build():
             match = re.match(r"^(.+?)_(\d{4})_[qQ]([1-4])$", key)
             if match:
                 manifest[f"{norm(match.group(1))}_{match.group(2)}_q{match.group(3)}"] = url
-    invalid_audio = {f"{norm(s)}_{y}_q{q}" for s, y, q in (("qcom", 2025, 4), ("2454", 2026, 1), ("7765", 2026, 1))}
+    invalid_audio = {f"{norm(s)}_{y}_q{q}" for s, y, q in (("qcom", 2025, 4),)}
 
     data_root = ROOT / "data"
     for company_dir in data_root.iterdir():
