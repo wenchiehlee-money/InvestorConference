@@ -6,14 +6,22 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----------:|:----:|
+| ARM Arm Holdings plc | FY2027 Q2 | 法說會 | 2026-11-04 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ARM/financials/) |
+| ARM Arm Holdings plc | FY2027 Q2 | 財報 | 2026-11-04 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ARM/financials/) |
+| QCOM Qualcomm 高通 | FY2026 Q4 | 法說會 | 2026-11-04 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/QCOM/financials/) |
+| QCOM Qualcomm 高通 | FY2026 Q4 | 財報 | 2026-11-04 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/QCOM/financials/) |
+| 2412 中華電 | 2026 Q3 | 法說會 | 2026-11-04 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2412) |
+| 2412 中華電 | 2026 Q3 | 財報 | 2026-11-04 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2412) |
+| 3661 世芯-KY | 2026 Q3 | 財報 | 2026-11-04 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3661) |
 | AMD AMD 超微 | 2026 Q3 | 法說會 | 2026-11-03 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
 | 2344 華邦電 | 2026 Q3 | 財報 | 2026-11-03 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2344) |
 | AMD AMD 超微 | 2026 Q3 | 財報 | 2026-11-03 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
+| AAPL Apple 蘋果 | FY2026 Q4 | 法說會 | 2026-11-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
+| AAPL Apple 蘋果 | FY2026 Q4 | 財報 | 2026-11-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
 | 2454 聯發科 | 2026 Q3 | 財報 | 2026-10-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
-| AAPL Apple 蘋果 | FY2026 Q4 | 法說會 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
-| AAPL Apple 蘋果 | FY2026 Q4 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
 | AMZN Amazon.com Inc. | 2026 Q3 | 法說會 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMZN/financials/) |
 | SIMO Silicon Motion Technology Corporation | 2026 Q3 | 法說會 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/SIMO/financials/) |
+| INTC Intel Corporation | 2026 Q3 | 法說會 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
 | 2395 研華 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2395) |
 | 7769 鴻勁 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7769) |
 | AMZN Amazon.com Inc. | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMZN/financials/) |
@@ -21,6 +29,7 @@
 | 3711 日月光投控 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3711) |
 | 3443 創意 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3443) |
 | SIMO Silicon Motion Technology Corporation | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/SIMO/financials/) |
+| INTC Intel Corporation | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
 | MSFT Microsoft 微軟 | FY2027 Q1 | 法說會 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MSFT/financials/) |
 | MSFT Microsoft 微軟 | FY2027 Q1 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MSFT/financials/) |
 | GOOGL Alphabet Inc. | 2026 Q3 | 法說會 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/GOOGL/financials/) |
@@ -35,8 +44,6 @@
 | GOOGL Alphabet Inc. | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/GOOGL/financials/) |
 | 3035 智原 | 2026 Q3 | 財報 | 2026-10-27 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3035) |
 | 5274O 信驊 | 2026 Q3 | 財報 | 2026-10-26 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/5274.TWO/financials/) |
-| INTC Intel Corporation | 2026 Q3 | 法說會 | 2026-10-22 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
-| INTC Intel Corporation | 2026 Q3 | 財報 | 2026-10-22 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
 | 2354 鴻準 | 2026 Q3 | 財報 | 2026-10-21 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2354) |
 | TSM Taiwan Semiconductor Manufacturing Company Limited | 2026 Q3 | 法說會 | 2026-10-15 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/TSM/financials/) |
 | 2330 台積電 | 2026 Q3 | 法說會 | 2026-10-15 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
