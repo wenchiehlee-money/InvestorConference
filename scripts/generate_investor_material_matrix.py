@@ -6,6 +6,7 @@ human-readable view of the same rows.  Each populated cell is a link to the
 artifact that caused the flag to be present.
 """
 
+import calendar
 import csv
 import json
 import re
@@ -18,6 +19,7 @@ MOPS_ROOT = ROOT.parent / "MOPS"
 CSV_OUTPUT = ROOT / "data" / "investor_material_matrix.csv"
 MD_OUTPUT = ROOT / "docs" / "investor_material_matrix.md"
 FIELDS = ("A", "S", "G", "I", "M", "F", "X", "D")
+COVERAGE_YEARS = tuple(range(2020, 2027))
 IC_BLOB = "https://github.com/wenchiehlee-money/InvestorConference/blob/main/"
 IC_RELEASE = "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/"
 MOPS_BLOB = "https://github.com/wenchiehlee-investment/MOPS/blob/main/"
@@ -92,6 +94,24 @@ OFFICIAL_UNAVAILABLE = {
         "S": "https://www.apple.com/uk/newsroom/2026/01/apple-reports-first-quarter-results/",
         "I": "https://www.apple.com/uk/newsroom/2026/01/apple-reports-first-quarter-results/",
         "M": "https://www.apple.com/uk/newsroom/2026/01/apple-reports-first-quarter-results/",
+    },
+    ("AAPL", 2026, 2): {
+        "A": "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
+    },
+    ("0981HK", 2026, 1): {
+        "A": "https://github.com/wenchiehlee-money/InvestorConference/blob/main/data/0981.HK/0981HK_2026_q1_report_en.pdf",
+        "I": "https://github.com/wenchiehlee-money/InvestorConference/blob/main/data/0981.HK/0981HK_2026_q1_report_en.pdf",
+        "M": "https://github.com/wenchiehlee-money/InvestorConference/blob/main/data/0981.HK/0981HK_2026_q1_report_en.md",
+    },
+    ("GFS", 2026, 3): {
+        "A": "https://github.com/wenchiehlee-money/InvestorConference/blob/main/data/GFS/GFS_2026_q3_report_en.md",
+        "I": "https://github.com/wenchiehlee-money/InvestorConference/blob/main/data/GFS/GFS_2026_q3_report_en.md",
+        "M": "https://github.com/wenchiehlee-money/InvestorConference/blob/main/data/GFS/GFS_2026_q3_report_en.md",
+    },
+    ("ORCL", 2026, 3): {
+        "A": "https://github.com/wenchiehlee-money/InvestorConference/blob/main/data/ORCL/ORCL_2026_q3_report_en.md",
+        "I": "https://github.com/wenchiehlee-money/InvestorConference/blob/main/data/ORCL/ORCL_2026_q3_report_en.md",
+        "M": "https://github.com/wenchiehlee-money/InvestorConference/blob/main/data/ORCL/ORCL_2026_q3_report_en.md",
     },
 }
 
@@ -338,15 +358,8 @@ def calendar_view(rows, taiwan_ids):
 
 
 def markdown_rows(rows, taiwan_ids):
-    """Return the rows used by Markdown, with non-Taiwan periods normalized."""
-    result = {}
-    calendar_rows = calendar_view(rows, taiwan_ids)
-    for key, row in rows.items():
-        code = norm(row["stock"])
-        if code in taiwan_ids or code.isdigit():
-            result[key] = row
-    result.update(calendar_rows)
-    return result
+    """Return the complete source-separated coverage rectangle for Markdown."""
+    return rows
 
 
 def source_url(token, code):
@@ -396,6 +409,122 @@ def is_official_html_report_md(path):
         "sec.gov/archives/", "investor.", "investors.",
         "ir.", "company",
     ))
+
+
+def coverage_universe():
+    """Load the declared source populations for the full coverage rectangle."""
+    universe = []
+    stock_map = ROOT / "StockID_TWSE_TPEX.csv"
+    with stock_map.open(encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle):
+            code = norm(row.get("代號", ""))
+            name = (row.get("名稱") or code).strip()
+            if code:
+                universe.append({"source": "TWSE_TPEX", "source_id": code, "stock": code, "stock_name": name})
+    metadata_path = ROOT / "data" / "ConceptStocks" / "raw_conceptstock_company_metadata.csv"
+    with metadata_path.open(encoding="utf-8-sig", newline="") as handle:
+        seen = set()
+        for row in csv.DictReader(handle):
+            ticker = norm(row.get("Ticker", ""))
+            source_id = (row.get("Ticker") or "-").strip()
+            if not ticker:
+                ticker = norm((row.get("公司名稱") or "OPENAI").split()[0]) or "OPENAI"
+            cik = (row.get("CIK") or "").strip()
+            identity = f"cik:{cik}" if cik and cik != "-" else f"ticker:{source_id}"
+            if identity in seen:
+                continue
+            seen.add(identity)
+            universe.append({
+                "source": "ConceptStocks",
+                "source_id": source_id,
+                "stock": ticker,
+                "stock_name": (row.get("公司名稱") or ticker).strip(),
+            })
+    return universe
+
+
+def add_months(value, months):
+    month_index = value.year * 12 + value.month - 1 + months
+    year, month_zero = divmod(month_index, 12)
+    month = month_zero + 1
+    day = min(value.day, calendar.monthrange(year, month)[1])
+    return value.replace(year=year, month=month, day=day)
+
+
+def all_quarters_three_months_past_due(row, taiwan_ids, today):
+    """Return true only when every quarter due date is at least 3 months past."""
+    code = row["stock"]
+    year = int(row["year"])
+    deadlines = {1: (5, 31), 2: (8, 31), 3: (11, 30), 4: (5, 31)}
+    for source_quarter in range(1, 5):
+        if is_taiwan_code(code, taiwan_ids):
+            calendar_year, calendar_quarter = year, source_quarter
+        else:
+            calendar_year, calendar_quarter = calendar_period(
+                code, year, source_quarter, taiwan_ids
+            )
+        month, day = deadlines[calendar_quarter]
+        due_year = calendar_year if calendar_quarter < 4 else calendar_year + 1
+        due = datetime(due_year, month, day).date()
+        if add_months(due, 3) > today:
+            return False
+    return True
+
+
+def expand_to_coverage_universe(rows):
+    """Materialize every source/company/year/quarter slot and overlay observed cells."""
+    universe = coverage_universe()
+    source_by_stock = {(item["source"], item["stock"]): item for item in universe}
+    source_for_stock = {}
+    for item in universe:
+        source_for_stock.setdefault(item["stock"], item["source"])
+    expanded = {}
+    for item in universe:
+        for year in COVERAGE_YEARS:
+            key = (item["source"], item["stock"], year)
+            expanded[key] = {
+                "source": item["source"],
+                "source_id": item["source_id"],
+                "stock": item["stock"],
+                "stock_name": item["stock_name"],
+                "year": year,
+            }
+            for quarter in range(1, 5):
+                expanded[key][quarter] = {field: "" for field in FIELDS}
+    for (_code, year), row in rows.items():
+        code = norm(row.get("stock", ""))
+        source = source_for_stock.get(code)
+        if not source or year not in COVERAGE_YEARS:
+            continue
+        key = (source, code, year)
+        if key not in expanded:
+            continue
+        for quarter in range(1, 5):
+            if quarter in row:
+                expanded[key][quarter].update(row[quarter])
+    taiwan_ids = taiwan_stock_ids()
+    today = datetime.now(ZoneInfo("Asia/Taipei")).date()
+    for row in expanded.values():
+        values = [
+            row.get(quarter, {}).get(field, "")
+            for quarter in range(1, 5)
+            for field in FIELDS
+        ]
+        paused = norm(row["stock"]) in PAUSED_STOCKS
+        no_materials = all(not value for value in values)
+        overdue_without_materials = no_materials and all_quarters_three_months_past_due(
+            row, taiwan_ids, today
+        )
+        if paused:
+            row["visibility"] = "hidden"
+            row["hide_reason"] = "paused_stock_policy"
+        elif overdue_without_materials:
+            row["visibility"] = "hidden"
+            row["hide_reason"] = "all_materials_unavailable"
+        else:
+            row["visibility"] = "visible"
+            row["hide_reason"] = ""
+    return expanded
 
 
 def build():
@@ -685,6 +814,7 @@ def build():
                 for field in required_before_gt
             ) else "D-"
             cell["D"] = re.sub(r"^\[(?:D|D-)\]", f"[{label}]", digest)
+    rows = expand_to_coverage_universe(rows)
     return rows, digest_sources
 
 
@@ -705,8 +835,7 @@ def is_paused_financial_only(row):
 
 
 def write(rows, digest_sources):
-    rows = {key: row for key, row in rows.items() if not is_paused_financial_only(row)}
-    columns = ["stock", "stock_name", "year", "generated_at"] + [f"q{q}_{field}" for q in range(1, 5) for field in FIELDS]
+    columns = ["source", "source_id", "stock", "stock_name", "year", "visibility", "hide_reason", "generated_at"] + [f"q{q}_{field}" for q in range(1, 5) for field in FIELDS]
     generated_dt = datetime.now(timezone.utc)
     generated_at = generated_dt.isoformat()
     updated_label = generated_dt.astimezone(ZoneInfo("Asia/Taipei")).strftime("Updated: %Y-%m-%d %H:%M CST")
@@ -718,17 +847,14 @@ def write(rows, digest_sources):
         for key in sorted(
         rows,
         key=lambda item: (
-                1 if (
-                    norm(rows[item]["stock"]) in taiwan_ids
-                    or rows[item]["stock"].isdigit()
-                ) else 0,
+                rows[item]["source"],
                 rows[item]["stock_name"].casefold(),
-                -item[1],
-                item[0],
+                -item[2],
+                item[1],
             ),
         ):
             row = rows[key]
-            output = {"stock": row["stock"], "stock_name": row["stock_name"], "year": row["year"], "generated_at": generated_at}
+            output = {"source": row["source"], "source_id": row["source_id"], "stock": row["stock"], "stock_name": row["stock_name"], "year": row["year"], "visibility": row["visibility"], "hide_reason": row["hide_reason"], "generated_at": generated_at}
             for q in range(1, 5):
                 for field in FIELDS:
                     output[f"q{q}_{field}"] = row.get(q, {}).get(field, "")
@@ -744,27 +870,33 @@ def write(rows, digest_sources):
         "The CSV retains source fiscal-year keys for provenance. Each row is one stock/calendar-year; each quarter occupies eight compact columns.",
         "Every populated cell links to a verified artifact or the calendar source supporting its status.",
         "",
+        "## Scope definition",
+        "",
+        "The target full-coverage universe is the separate union of the source rows in `StockID_TWSE_TPEX.csv` (142 rows) and `data/ConceptStocks/raw_conceptstock_company_metadata.csv` (23 company rows), expanded across calendar years 2020–2026 and Q1–Q4.",
+        "This gives 3,976 TWSE/TPEX source-row-quarter slots (142 × 7 × 4) plus 644 ConceptStocks company-row-quarter slots (23 × 7 × 4), for **4,620 source-row-quarter slots** in total.",
+        "The two source populations remain separate: do not merge `2330` with `TSM`. Within ConceptStocks, one company identity (CIK/Ticker) is one company row; MU is deduplicated to one row, while any valid concept memberships are retained in that row. The source label and original identifier must remain visible in any expanded coverage table.",
+        f"The generated matrix now materializes {len(rows)} source/company-year rows × 4 quarters = {len(rows) * 4} source/company-year-quarter slots. Observed materials are left-joined onto this full rectangle; an empty slot is retained rather than deleted.",
+        "Hide rule: filter `visibility == hidden` and inspect `hide_reason`. `paused_stock_policy` hides explicitly paused companies; `all_materials_unavailable` hides a company-year row only when all 32 quarterly material cells are empty and every quarter due date is at least three calendar months past. Empty rows before that threshold remain visible. Hidden rows remain in the CSV and can be reactivated without changing the universe.",
+        "A company or year may be hidden or marked low priority for current work, but remains in the full universe. Empty means the period is not yet due or not planned; hidden/low-priority is not permanent exclusion.",
+        "",
         "`A` audio · `S` FIN.srt · `G` GT.srt · `I` IR presentation PDF · `M` IR presentation MD · `F` official financial-report source (PDF or official HTML) · `X` financial-report MD · `☐` due event/quarter reached and ingestion is pending · `?` event/material applicability is not yet verified · `🚫` explicitly paused by policy · `-` official source checked and no qualifying document was published · empty = period not yet due or material explicitly not applicable · `D` digest with all pre-G materials (`A/S/I/M/F/X`) · `D-` digest with one or more pre-G materials missing. Digest precedes GT generation, so missing `G` does not downgrade `D`.",
         "",
-        "|Stock|Year|" + "|".join(FIELDS * 4) + "|",
-        "|---|---:|" + "|".join(["---"] * 32) + "|",
+        "|Source|Source ID|Stock|Year|Visibility|Hide reason|" + "|".join(FIELDS * 4) + "|",
+        "|---|---|---|---:|---|---|" + "|".join(["---"] * 32) + "|",
     ]
     totals = {q: {field: 0 for field in FIELDS} for q in range(1, 5)}
     display_rows = markdown_rows(rows, taiwan_ids)
     for key in sorted(
         display_rows,
         key=lambda item: (
-            1 if (
-                norm(display_rows[item]["stock"]) in taiwan_ids
-                or norm(display_rows[item]["stock"]).isdigit()
-            ) else 0,
+            display_rows[item]["source"],
             display_rows[item]["stock_name"].casefold(),
-            -item[1],
-            item[0],
+            -item[2],
+            item[1],
         ),
     ):
         row = display_rows[key]
-        cells = [row["stock_name"], str(row["year"])]
+        cells = [row["source"], row["source_id"], row["stock_name"], str(row["year"]), row["visibility"], row["hide_reason"]]
         for q in range(1, 5):
             for field in FIELDS:
                 value = row.get(q, {}).get(field, "")
@@ -773,7 +905,7 @@ def write(rows, digest_sources):
                     totals[q][field] += 1
         lines.append("|" + "|".join(cells) + "|")
     lines.extend([
-        "|**Total populated cells**|—|" + "|".join(str(totals[q][field]) for q in range(1, 5) for field in FIELDS) + "|",
+        "|**Total populated cells**|—|—|—|—|—|" + "|".join(str(totals[q][field]) for q in range(1, 5) for field in FIELDS) + "|",
         "",
         "The total row counts populated stock-quarter cells in each quarter column. The `D` column contains either `D` or `D-`: `D` has all pre-G materials (`A/S/I/M/F/X`); `D-` still has one or more pre-G material gaps. `G` is generated after digest review. `F`/`X` are quarter-level financial-report cells; table (22) separately counts individual MOPS PDF/MD artifacts, so its artifact total is not mathematically interchangeable with this quarter matrix.",
         "",
