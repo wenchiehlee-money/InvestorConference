@@ -864,6 +864,12 @@ def write(rows, digest_sources):
                     output[f"q{q}_{field}"] = row.get(q, {}).get(field, "")
             writer.writerow(output)
 
+    universe = coverage_universe()
+    universe_counts = {
+        "TWSE_TPEX": sum(item["source"] == "TWSE_TPEX" for item in universe),
+        "ConceptStocks": sum(item["source"] == "ConceptStocks" for item in universe),
+    }
+    quarter_slots = len(universe) * len(COVERAGE_YEARS) * 4
     lines = [
         "# Investor material matrix",
         "",
@@ -876,8 +882,8 @@ def write(rows, digest_sources):
         "",
         "## Scope definition",
         "",
-        "The target full-coverage universe is the separate union of the source rows in `StockID_TWSE_TPEX.csv` (142 rows) and `data/ConceptStocks/raw_conceptstock_company_metadata.csv` (23 company rows), expanded across calendar years 2020–2026 and Q1–Q4.",
-        "This gives 3,976 TWSE/TPEX source-row-quarter slots (142 × 7 × 4) plus 644 ConceptStocks company-row-quarter slots (23 × 7 × 4), for **4,620 source-row-quarter slots** in total.",
+        f"The target full-coverage universe is the separate union of the source rows in `StockID_TWSE_TPEX.csv` ({universe_counts['TWSE_TPEX']} rows) and `data/ConceptStocks/raw_conceptstock_company_metadata.csv` ({universe_counts['ConceptStocks']} company rows), expanded across calendar years 2020–2026 and Q1–Q4.",
+        f"This gives {universe_counts['TWSE_TPEX'] * len(COVERAGE_YEARS) * 4} TWSE/TPEX source-row-quarter slots ({universe_counts['TWSE_TPEX']} × 7 × 4) plus {universe_counts['ConceptStocks'] * len(COVERAGE_YEARS) * 4} ConceptStocks company-row-quarter slots ({universe_counts['ConceptStocks']} × 7 × 4), for **{quarter_slots} source-row-quarter slots** in total.",
         "The two source populations remain separate: do not merge `2330` with `TSM`. Within ConceptStocks, one company identity (CIK/Ticker) is one company row; MU is deduplicated to one row, while any valid concept memberships are retained in that row. The source label and original identifier must remain visible in any expanded coverage table.",
         f"The generated matrix now materializes {len(rows)} source/company-year rows × 4 quarters = {len(rows) * 4} source/company-year-quarter slots. Observed materials are left-joined onto this full rectangle; an empty slot is retained rather than deleted.",
         "Hide rule: the full CSV retains `visibility` and `hide_reason`; the Markdown view omits rows with `hide_reason = all_materials_unavailable` and does not display hide columns. `paused_stock_policy` applies only from 2020 through the current year; future years are not automatically paused. `all_materials_unavailable` applies only when all 32 quarterly material cells are empty and every quarter due date is at least three calendar months past. Empty rows before that threshold remain in the full CSV.",
