@@ -20,6 +20,7 @@ CSV_OUTPUT = ROOT / "data" / "investor_material_matrix.csv"
 MD_OUTPUT = ROOT / "docs" / "investor_material_matrix.md"
 FIELDS = ("A", "S", "G", "I", "M", "F", "X", "D")
 COVERAGE_YEARS = tuple(range(2020, 2027))
+PAUSED_POLICY_START_YEAR = 2020
 IC_BLOB = "https://github.com/wenchiehlee-money/InvestorConference/blob/main/"
 IC_RELEASE = "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/"
 MOPS_BLOB = "https://github.com/wenchiehlee-investment/MOPS/blob/main/"
@@ -510,7 +511,10 @@ def expand_to_coverage_universe(rows):
             for quarter in range(1, 5)
             for field in FIELDS
         ]
-        paused = norm(row["stock"]) in PAUSED_STOCKS
+        paused = (
+            norm(row["stock"]) in PAUSED_STOCKS
+            and PAUSED_POLICY_START_YEAR <= int(row["year"]) <= today.year
+        )
         no_materials = all(not value for value in values)
         overdue_without_materials = no_materials and all_quarters_three_months_past_due(
             row, taiwan_ids, today
@@ -876,7 +880,7 @@ def write(rows, digest_sources):
         "This gives 3,976 TWSE/TPEX source-row-quarter slots (142 × 7 × 4) plus 644 ConceptStocks company-row-quarter slots (23 × 7 × 4), for **4,620 source-row-quarter slots** in total.",
         "The two source populations remain separate: do not merge `2330` with `TSM`. Within ConceptStocks, one company identity (CIK/Ticker) is one company row; MU is deduplicated to one row, while any valid concept memberships are retained in that row. The source label and original identifier must remain visible in any expanded coverage table.",
         f"The generated matrix now materializes {len(rows)} source/company-year rows × 4 quarters = {len(rows) * 4} source/company-year-quarter slots. Observed materials are left-joined onto this full rectangle; an empty slot is retained rather than deleted.",
-        "Hide rule: the full CSV retains `visibility` and `hide_reason`; the Markdown view omits rows with `hide_reason = all_materials_unavailable` and does not display hide columns. `all_materials_unavailable` applies only when all 32 quarterly material cells are empty and every quarter due date is at least three calendar months past. Empty rows before that threshold remain in the full CSV.",
+        "Hide rule: the full CSV retains `visibility` and `hide_reason`; the Markdown view omits rows with `hide_reason = all_materials_unavailable` and does not display hide columns. `paused_stock_policy` applies only from 2020 through the current year; future years are not automatically paused. `all_materials_unavailable` applies only when all 32 quarterly material cells are empty and every quarter due date is at least three calendar months past. Empty rows before that threshold remain in the full CSV.",
         "A company or year may be hidden or marked low priority for current work, but remains in the full universe. Empty means the period is not yet due or not planned; hidden/low-priority is not permanent exclusion.",
         "",
         "`A` audio · `S` FIN.srt · `G` GT.srt · `I` IR presentation PDF · `M` IR presentation MD · `F` official financial-report source (PDF or official HTML) · `X` financial-report MD · `☐` due event/quarter reached and ingestion is pending · `?` event/material applicability is not yet verified · `🚫` explicitly paused by policy · `-` official source checked and no qualifying document was published · empty = period not yet due or material explicitly not applicable · `D` digest with all pre-G materials (`A/S/I/M/F/X`) · `D-` digest with one or more pre-G materials missing. Digest precedes GT generation, so missing `G` does not downgrade `D`.",
