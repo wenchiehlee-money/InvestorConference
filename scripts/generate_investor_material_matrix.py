@@ -876,16 +876,19 @@ def write(rows, digest_sources):
         "This gives 3,976 TWSE/TPEX source-row-quarter slots (142 × 7 × 4) plus 644 ConceptStocks company-row-quarter slots (23 × 7 × 4), for **4,620 source-row-quarter slots** in total.",
         "The two source populations remain separate: do not merge `2330` with `TSM`. Within ConceptStocks, one company identity (CIK/Ticker) is one company row; MU is deduplicated to one row, while any valid concept memberships are retained in that row. The source label and original identifier must remain visible in any expanded coverage table.",
         f"The generated matrix now materializes {len(rows)} source/company-year rows × 4 quarters = {len(rows) * 4} source/company-year-quarter slots. Observed materials are left-joined onto this full rectangle; an empty slot is retained rather than deleted.",
-        "Hide rule: filter `visibility == hidden` and inspect `hide_reason`. `paused_stock_policy` hides explicitly paused companies; `all_materials_unavailable` hides a company-year row only when all 32 quarterly material cells are empty and every quarter due date is at least three calendar months past. Empty rows before that threshold remain visible. Hidden rows remain in the CSV and can be reactivated without changing the universe.",
+        "Hide rule: the full CSV retains `visibility` and `hide_reason`; the Markdown view omits rows with `hide_reason = all_materials_unavailable` and does not display hide columns. `all_materials_unavailable` applies only when all 32 quarterly material cells are empty and every quarter due date is at least three calendar months past. Empty rows before that threshold remain in the full CSV.",
         "A company or year may be hidden or marked low priority for current work, but remains in the full universe. Empty means the period is not yet due or not planned; hidden/low-priority is not permanent exclusion.",
         "",
         "`A` audio · `S` FIN.srt · `G` GT.srt · `I` IR presentation PDF · `M` IR presentation MD · `F` official financial-report source (PDF or official HTML) · `X` financial-report MD · `☐` due event/quarter reached and ingestion is pending · `?` event/material applicability is not yet verified · `🚫` explicitly paused by policy · `-` official source checked and no qualifying document was published · empty = period not yet due or material explicitly not applicable · `D` digest with all pre-G materials (`A/S/I/M/F/X`) · `D-` digest with one or more pre-G materials missing. Digest precedes GT generation, so missing `G` does not downgrade `D`.",
         "",
-        "|Source|Source ID|Stock|Year|Visibility|Hide reason|" + "|".join(FIELDS * 4) + "|",
-        "|---|---|---|---:|---|---|" + "|".join(["---"] * 32) + "|",
+        "|Source|Source ID|Stock|Year|" + "|".join(FIELDS * 4) + "|",
+        "|---|---|---|---:|" + "|".join(["---"] * 32) + "|",
     ]
     totals = {q: {field: 0 for field in FIELDS} for q in range(1, 5)}
-    display_rows = markdown_rows(rows, taiwan_ids)
+    display_rows = {
+        key: row for key, row in markdown_rows(rows, taiwan_ids).items()
+        if row.get("hide_reason") != "all_materials_unavailable"
+    }
     for key in sorted(
         display_rows,
         key=lambda item: (
@@ -896,7 +899,7 @@ def write(rows, digest_sources):
         ),
     ):
         row = display_rows[key]
-        cells = [row["source"], row["source_id"], row["stock_name"], str(row["year"]), row["visibility"], row["hide_reason"]]
+        cells = [row["source"], row["source_id"], row["stock_name"], str(row["year"])]
         for q in range(1, 5):
             for field in FIELDS:
                 value = row.get(q, {}).get(field, "")
@@ -905,7 +908,7 @@ def write(rows, digest_sources):
                     totals[q][field] += 1
         lines.append("|" + "|".join(cells) + "|")
     lines.extend([
-        "|**Total populated cells**|—|—|—|—|—|" + "|".join(str(totals[q][field]) for q in range(1, 5) for field in FIELDS) + "|",
+        "|**Total populated cells**|—|—|—|" + "|".join(str(totals[q][field]) for q in range(1, 5) for field in FIELDS) + "|",
         "",
         "The total row counts populated stock-quarter cells in each quarter column. The `D` column contains either `D` or `D-`: `D` has all pre-G materials (`A/S/I/M/F/X`); `D-` still has one or more pre-G material gaps. `G` is generated after digest review. `F`/`X` are quarter-level financial-report cells; table (22) separately counts individual MOPS PDF/MD artifacts, so its artifact total is not mathematically interchangeable with this quarter matrix.",
         "",
