@@ -127,7 +127,7 @@ jobs:
           ls -lh "${{ steps.collect.outputs.asset_dir }}"
 
       - name: Upload outputs
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ env.STEM }}
           path: ${{ steps.collect.outputs.asset_dir }}
