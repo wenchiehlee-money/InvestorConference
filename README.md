@@ -6,6 +6,11 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----------:|:----:|
+| 2474 可成 | 2026 Q3 | 財報 | 2026-11-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2474) |
+| 2353 宏碁 | 2026 Q3 | 財報 | 2026-11-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2353) |
+| 2345 智邦 | 2026 Q3 | 財報 | 2026-11-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2345) |
+| 2458 義隆 | 2026 Q3 | 財報 | 2026-11-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2458) |
+| 8454 富邦媒 | 2026 Q3 | 財報 | 2026-11-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8454) |
 | ARM Arm Holdings plc | FY2027 Q2 | 法說會 | 2026-11-04 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ARM/financials/) |
 | ARM Arm Holdings plc | FY2027 Q2 | 財報 | 2026-11-04 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ARM/financials/) |
 | QCOM Qualcomm 高通 | FY2026 Q4 | 法說會 | 2026-11-04 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/QCOM/financials/) |
@@ -40,8 +45,8 @@
 | 2303 聯電 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2303) |
 | 2383 台光電 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2383) |
 | 2308 台達電 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
-| 2337 旺宏 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2337) |
 | GOOGL Alphabet Inc. | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/GOOGL/financials/) |
+| 2337 旺宏 | 2026 Q3 | 財報 | 2026-10-27 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2337) |
 | 3035 智原 | 2026 Q3 | 財報 | 2026-10-27 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3035) |
 | 5274O 信驊 | 2026 Q3 | 財報 | 2026-10-26 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/5274.TWO/financials/) |
 | 2354 鴻準 | 2026 Q3 | 財報 | 2026-10-21 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2354) |
