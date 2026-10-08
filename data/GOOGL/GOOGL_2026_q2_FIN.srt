@@ -1,0 +1,1001 @@
+[METADATA]
+Source: GOOGL_2026_q2_exp11
+Language: zh
+---
+(00:00.000) 歡迎大家,謝謝您在Alphabet的第二季度的2026領域會議上站在我身旁。
+(01:29.880) Hi everyone, thanks for joining us
+(01:33.480) We have exciting momentum
+(01:34.660) alphabet revenue grew 24% year over year
+(01:38.490) our AI investments are redefining
+(01:43.980) our momentum starts with search
+(01:49.350) across AI overviews and AI mode
+(01:56.120) and YouTube ads grew 13%
+(01:59.020) cloud revenue grew 82%
+(02:04.920) and AI solutions
+(02:29.330) First, AI
+(02:39.680) We are seeing tons of demand
+(02:42.660) Gemini Flash series
+(02:46.180) We also launched Gemini 3.5 Flash Cyber
+(02:50.040) which I'm really excited about
+(02:51.400) Paired with our CodeMender agent
+(02:53.660) it finds and fixes vulnerabilities
+(02:56.100) and delivers performance at the frontier
+(02:58.560) comparable to far bigger cyber models
+(03:01.330) Gemini 3.5 Pro is currently in testing
+(03:04.990) and our team is already building
+(03:08.790) the next generation of models
+(03:13.260) 我們在前面的目標上
+(03:21.670) to strong token usage
+(03:23.890) and we continue to be supply constrained
+(03:26.570) a sign of momentum and rapid adoption
+(03:28.910) and rapid adoption
+(03:33.310) with our models
+(03:35.870) Our model APIs are now processing
+(03:38.940) 大約有22億加密貨幣
+(03:41.680) 剛才是一季前的16億加密貨幣
+(03:45.020) 此外,這一季我們推出了Omni
+(03:48.780) 它能讓用戶從任何進度中創造任何東西
+(03:51.740) 從視頻開始
+(03:52.760) 自IoT推出的5月
+(03:54.920) 有40%的增加
+(03:56.820) 使用戶在Gemini應用程序上
+(03:58.360) 創造視頻
+(03:59.080) 我們Gemma的開放模組
+(04:02.980) 有足夠小的處理器
+(04:04.440) 非常受歡迎
+(04:06.000) 這些模組已被下載
+(04:08.350) 超過900萬次
+(04:39.320) 在三個月內
+(04:42.500) through model-driven refactoring
+(04:43.900) Model Driven Refactory
+(04:50.870) Starting with search
+(04:58.320) and driving growth in queries
+(04:59.480) As a big football fan
+(05:09.880) in moments that matter
+(05:11.040) in moments that matter
+(05:20.290) 不斷的搜索經驗中
+(05:23.930) 與網絡的最佳能力
+(05:28.290) 在搜索中
+(05:31.850) 我們的AI化功能
+(05:36.060) 增長搜索使用
+(05:42.780) And just like AI overviews
+(05:47.640) in search queries overall
+(05:48.800) in search queries overall
+(05:51.500) to websites every week
+(05:52.900) through AI features in search
+(05:55.200) As we serve more of these queries
+(05:58.350) we have continued to drive efficiencies
+(06:07.440) to its lowest level since launch
+(06:13.390) Philip will also talk more about
+(06:16.640) how we are innovating the ads experience
+(06:18.980) Next, the Gemini app
+(06:22.060) 現在有950 億個月的活動用戶
+(06:25.120) 每週活動用戶在去年的每週增加
+(06:27.980) Users love new agentic features
+(06:30.340) like Daily Brief
+(06:31.400) and our personalized agent Gemini Spark
+(06:33.520) 現在在美國和國際上都在使用
+(06:37.050) 我們在這種驚人的旅行中
+(06:40.770) at an incredible clip
+(06:42.010) On to YouTube
+(06:43.680) Month after month
+(06:45.000) when a big event happens in the world
+(06:46.660) The World Turns to YouTube
+(06:47.920) It's been incredible to see
+(06:50.200) that over 1.7 billion unique viewers
+(06:52.500) globally watched
+(06:53.720) World Cup related videos on YouTube
+(06:56.120) during the FIFA World Cup 2026
+(06:58.360) We're also bringing the power
+(07:00.890) of conversational AI
+(07:01.910) directly into the YouTube experience
+(07:03.590) Ask YouTube uses our Gemini models
+(07:06.350) to let people ask complex questions
+(07:08.130) about individual videos
+(07:09.390) get quick takeaways
+(07:11.070) and jump straight to moments
+(07:12.610) in those videos
+(07:13.490) The early engagement is encouraging
+(07:15.940) More than 140 million users
+(07:18.420) Engage with Ask YouTube
+(07:20.420) on the watch page in June 2026
+(07:22.360) and we are bringing that
+(07:24.480) Ask experience to the wider search
+(07:26.560) experience on YouTube
+(07:27.880) Next, Cloud
+(07:29.990) Next, Cloud
+(07:33.680) consisting of chips, models
+(07:35.740) data, security and agent platforms
+(07:37.980) all designed to work together
+(07:39.940) Gemini continues to be a key
+(07:42.260) driver of growth and is deeply
+(07:44.520) integrated across all of our
+(07:46.460) Cloud products, including
+(08:00.390) 我們的產品分析
+(08:19.930) We are driving growth with partners
+(08:23.080) 在Google Cloud市場上的交易
+(08:25.860) growing over seven times year over year
+(08:28.660) One of the strongest parts of our growth
+(08:31.460) comes from the rapid adoption
+(08:32.720) of our Gemini Enterprise Platform
+(08:34.360) 運行企業的快速擴展
+(08:37.960) to build agents and automate processes
+(08:39.860) connectivity to enterprise systems
+(08:42.480) cost management and governance tools
+(08:45.180) In Q2, Agent Development Kit
+(08:48.060) our framework for building and deploying
+(08:49.980) enterprise AI agents
+(08:51.460) reach nearly 70 million total downloads
+(08:54.740) As I said, nearly 90% of Fortune 100
+(08:58.310) are using Gemini Enterprise
+(08:59.930) We have customers like PepsiCo
+(09:02.360) for AI and analytics solutions
+(09:03.900) Intel to streamline core processes
+(09:06.380) HSBC for wealth management
+(09:08.740) Wealth Canada for customer engagement
+(09:10.900) Macy's for commerce experiences
+(09:16.270) More broadly, Gemini is transforming
+(09:19.200) how millions of businesses use AI
+(09:21.480) to build custom agents
+(09:22.620) 準備計劃 提升資產保險 管理客戶關係 調整數據分析 實際合作和更多
+(09:31.640) 這一切都在使用我們的資產資源的增長中
+(09:35.790) 近500個 cloud 客戶在去年每個月都處理了超過1 億的資產
+(09:41.340) 使用是更深入的
+(09:44.610) 在過去 12 個月內
+(09:47.090) 超過 2,000 個企業
+(09:48.830) 用了超過 100 億的資產
+(09:51.650) 100 billion tokens
+(09:56.540) which is differentiated
+(10:00.420) cyber response prioritization with Viz,
+(10:03.120) AI automated scanning,
+(10:04.800) code remediation,
+(10:06.520) and monitoring.
+(10:08.360) Today, 90% of Fortune 100
+(10:13.150) Nearly 90% of Viz customers
+(10:17.550) And we have seen a more than 45%
+(10:22.070) quarter-over-quarter increase
+(10:26.890) 在45%左右的增加中
+(10:31.630) 我們將使用的技術是基於經濟化的
+(10:35.210) 例如摩根·史丹利
+(10:38.120) 例如TELUS
+(10:41.430) software companies such as Atlassian
+(10:43.850) and several government agencies
+(10:45.630) 我們將使用新的Google AI Threat Defense
+(10:48.470) 我們非常興奮地帶來新的
+(10:51.670) 資料模型和研究器
+(10:54.950) 防止AI Threats
+(10:58.930) 我們提供了Google和NVIDIA的
+(11:04.010) from Google and NVIDIA
+(11:06.870) and TPU 80 and 80i
+(11:09.370) which deliver strong price performance
+(11:11.210) 再加上我們提供了三個特別的產品
+(11:14.880) First, our Virgo network
+(11:17.800) 它是設計以達到
+(11:21.080) 它能讓客戶將1萬萬個AI軟件
+(11:29.310) Second,
+(11:30.680) Second,
+(11:33.100) PyTorch,
+(11:33.940) VLLM,
+(11:34.700) and SG-LAN,
+(11:35.620) and SG-LAN,
+(11:39.660) And third,
+(11:40.890) And third,
+(11:48.880) We are seeing strong growth in demand
+(11:55.990) 新世代AI建築家,包括Cacao,
+(11:59.420) 德國博士團隊,
+(12:02.540) 法醫學公司,例如Pfizer和Rosh,
+(12:05.620) 和維生素和宇宙智能公司,例如World Labs。
+(12:09.220) 我們繼續投資在誠信公司,
+(12:13.440) 並以內部努力帶來傳統AI研究到現實世界。
+(12:18.000) 我們看到了我們其他企業的激勵。
+(12:21.030) Vemo introduced its newest vehicle
+(12:24.120) Ohio to public riders
+(12:25.720) 這是最新的車
+(12:29.680) 並將迎迎更多駕駛者
+(12:32.660) 在下個月內
+(12:36.500) and we continue to grow our presence
+(12:39.100) 通過合作與
+(12:42.320) In health and drug discovery
+(12:44.780) Isomorphic Labs raised over $2 billion
+(12:47.880) to power its AI drug design engine
+(13:14.840) 在搜索
+(13:56.040) 這直接影響了我們的公司的公司
+(13:58.580) 我們繼續推進Gemini的發展
+(14:01.590) across our entire ads infrastructure
+(14:06.190) 公司的質量
+(14:10.530) First, ads quality
+(14:12.740) 公司的質量
+(14:17.450) 使我們找到更重要的賣家
+(14:20.690) previously difficult to monetize
+(14:22.650) 我們搜索項目的核心引擎
+(14:27.340) 與使用者提供立即的用途,
+(14:29.920) 並且為宣傳者提供尺寸高度的價值。
+(14:32.780) GEMINI完全超越了這種能力。
+(14:36.580) 我們使用GEMINI的傳輸理論
+(14:38.460) 來解決更長的、更詳細的詢問。
+(14:42.560) 例如買賣產品,
+(14:44.160) 我們提供了20%的改善,
+(14:46.220) 以顯示高級關鍵產品,
+(14:47.900) 幫助買賣者立即找到最適合的產品。
+(14:51.300) 第二,宣傳技術。
+(14:53.420) 例如AI Max。
+(14:54.440) Take AI Max
+(15:00.500) It's out of beta
+(15:05.100) Those who adopt our AI-powered campaigns
+(15:09.140) see an average of 15% more conversions
+(15:15.550) AAA Auto Club Enterprises
+(15:19.870) 並掌握了增加的細節保險搜索
+(15:23.390) 這帶來了17%的改善和轉移的增長
+(15:27.350) and an 11% decrease in cost per lead
+(15:30.410) 我們看到了我們的Generative AI創造工具的強化
+(15:34.140) 這讓創造發展更容易
+(15:37.900) 實際上,我們的半個S&B顧客
+(15:42.300) to create or optimize their creatives
+(15:44.780) Third, new AI user experiences
+(15:47.660) 在Io,我們展示瞭如何搜索,包括AI overviews和AI mode,作為一個聯繫的經驗。
+(15:52.740) Works as one connected experience
+(15:55.040) As you saw from our results
+(15:57.360) 如您所見的結果,我們的實際系統的表現是很穩定的。
+(16:00.460) 我們繼續被鼓勵在AI overviews上顯示AI overviews的評測表現上,
+(16:04.000) On queries that show AI overviews
+(16:06.280) 儘管我們已經延伸了AI overviews到更多市場評測。
+(16:10.160) Across AI overviews and AI mode
+(16:18.800) Within AI mode
+(16:23.870) For text ads, we improve performance
+(16:29.580) Direct offers is gaining momentum
+(16:34.780) 將會發生特別提供在旅行計劃中。
+(16:37.740) 在最新的經驗中,
+(16:40.720) 明顯地標明瞭贊助鏈的內容,
+(16:44.640) is showing early user traction
+(16:46.780) Looking at commerce
+(16:48.950) 看著商業。
+(16:51.570) 與商業業合作,
+(16:55.610) as the new standard for agente commerce
+(16:57.970) merchants are rapidly adopting UCP
+(17:01.210) with Target and Steve Madden now live
+(17:03.510) 而新成員們也加入了UCP購物和食品科技協會,以幫助控制他們的目標。
+(17:07.470) to help steer its vision
+(17:08.810) we also announced universal card
+(17:14.400) 從不同的商店加購物品並在一個單擊中購買。
+(17:17.940) now on to YouTube
+(17:19.800) as a FIFA preferred platform partner
+(17:25.720) As Sundar mentioned,
+(17:40.730) FIFA Channel Takeover,
+(17:48.230) and of course,
+(17:52.930) More broadly,
+(17:54.600) on YouTube,
+(17:55.720) on YouTube,
+(18:07.760) 用AI來運行與品牌的想要時刻
+(18:12.980) 品牌繼續與Youtube製作者合作
+(18:16.640) Cate Spade 通過一種第一式的YouTube Creator Campaign 與創作者Eli Thuman和Hannah Milosz協調,
+(18:25.540) 使用YouTube的多個模型視頻,品牌創造了3.25%的品牌升級和購買目標。
+(18:33.220) 這種獨特的交易和商業行動,讓YouTube成為了一種超級全面的平臺。
+(18:39.660) SMB 繼續增加我們的直接反應增長,通過企業像DemandGen。
+(18:44.100) 他們以AI來增加視覺故事,在YouTube、短片、現在的Google Maps中,
+(18:50.220) 以傳輸高價商業在美國和歐洲,
+(18:53.950) 外國品牌Arteryx使用DemandGen以達成更好的回報,
+(18:59.470) compared to other paid channels
+(19:01.410) 在YouTube上的兌換,我們在我們的主要目標中,
+(19:07.380) in the living room
+(19:12.840) with the launch of buy with google pay
+(20:13.550) 中文字幕——YK
+(20:17.030) 更多的企業能夠利用Google的AI組織的聯合性能力
+(20:21.330) booking holdings擴展了一個多年線路線的承諾
+(20:25.340) 並與我們的AI線路線組織專業
+(20:29.020) 也將Google的AI技術提供了新的客戶經驗
+(20:33.400) 例如在開門桌上的專業餐廳
+(20:35.780) 幫助餐廳被髮掘
+(20:37.940) 並訂閱在最重要的時刻
+(20:40.220) 總結
+(20:41.340) 我想感謝所有Googlers
+(20:43.060) 為我們的成功和我們的客戶和夥伴的貢獻
+(20:48.160) 阿娜,
+(21:18.260) 到你了
+(21:20.690) up 24% or 23% in constant currency
+(21:30.710) Tech was $16.2 billion up 10%
+(21:35.220) 上升10%
+(21:40.960) driven by increases in depreciation
+(21:43.410) 負擔
+(21:47.930) 向客戶的銷售
+(21:51.600) 主要是為了YouTube
+(21:57.060) R&D expenses increased by 32%
+(22:00.940) 由於負擔
+(22:04.400) as well as depreciation
+(22:06.140) Sales and marketing expenses were up 18%
+(22:12.600) and search and compensation
+(22:14.080) And G&A expenses increased 24%
+(22:17.840) primarily driven by compensation
+(22:27.660) and operating margin was 34%
+(22:47.090) primarily due to the unrealized gains
+(22:51.210) We generated strong operating cash flow
+(22:57.410) 以及12個月內的185.7億美元
+(23:01.700) CAPEX在第二季度生產了44.9億美元
+(23:05.910) with the vast majority of the spend
+(23:08.730) to support our investments in AI
+(23:10.850) Approximately 60% of our investment
+(23:15.540) was in servers
+(23:25.190) driven by our investments in Capex
+(23:42.570) Long term debt was $98.2 billion
+(23:45.870) And as mentioned in our press release
+(23:48.680) 我們的總統會議員
+(23:54.120) 每個股份的22元
+(24:27.290) 優優獨播劇場——YoYo Television Series Exclusive
+(25:27.850) 字幕志願者 楊茜茜
+(25:29.990) driven primarily by GCP
+(25:31.950) which grew faster than cloud overall
+(25:34.330) Core GCP
+(25:38.440) were all important drivers of growth
+(25:40.640) 我們也開始了
+(25:46.930) for the first time in Q2
+(25:54.820) Cloud operating income was $8.8 billion
+(25:58.730) more than tripling year over year
+(26:01.070) 企業收入增加
+(26:06.000) to 35.6%
+(26:08.520) Google Cloud的背景
+(26:14.160) 在第二季中達到514億美元
+(26:17.600) 這次的背景
+(26:21.930) 專業AI提供
+(26:25.970) from a broad mix of customers
+(26:27.950) 我們期待認識
+(27:05.060) at the current spot rates
+(27:05.620) at the current spot rates
+(27:38.970) we're seeing significant demand
+(27:41.790) which we expect to drive strong growth
+(27:44.270) as I mentioned earlier
+(27:45.980) we started delivering TPU system
+(27:47.980) to customer data centers
+(27:50.220) we continue to expect to recognize
+(27:52.440) a relatively small portion
+(27:54.760) of the revenues
+(27:57.860) ramping as we exit 2026
+(28:00.340) We anticipate the vast majority
+(28:03.750) of the revenues from these agreements
+(28:09.930) we plan to expand the use
+(28:14.250) as a bridging strategy
+(28:17.670) This strategy allows us
+(28:21.410) and capture greater overall value
+(28:23.510) However, it will create
+(28:27.010) as we utilize this capacity
+(28:28.330) As we utilize this capacity
+(28:35.400) to $195 to $205 billion
+(28:39.660) 從我們之前預測的180到190億美元
+(28:43.700) 增長的範圍主要是由於
+(28:46.970) 能夠達到增長需求的加速和達到增長需求
+(28:50.390) 如我們之前分享過
+(28:52.650) 我們繼續期望我們的卡特克斯
+(28:54.590) 在2027年增長的程度上增大
+(28:56.750) 我們將在更多的時間內提供更多的詳細
+(28:59.830) 在費用方面
+(29:02.080) 我們將繼續加大技術資源的增長
+(29:05.400) 我們將繼續加大技術資源
+(29:09.720) and related data center operations costs
+(29:12.360) such as energy
+(29:12.980) We also expect to continue hiring
+(29:15.750) in key investment areas
+(29:16.710) such as AI and cloud
+(29:17.710) and we are investing in marketing
+(29:19.920) to support our AI products
+(29:24.440) will remain under pressure
+(29:25.620) driven by our investments
+(29:26.960) in technical infrastructure
+(29:28.080) which enables us to capitalize
+(29:30.300) on the AI opportunity
+(29:31.260) and continue to drive attractive returns
+(29:33.800) Q2 represented another strong quarter
+(29:37.890) Our teams continue to deliver
+(29:39.920) impressive innovation
+(29:54.340) Thank you
+(30:15.220) 更多的時間和Genei的產品和工具在市場上的投資繼續上升
+(30:20.940) 您能不能給我們一些看法
+(30:22.920) 您的看法是Genei的整體的ROIC機會的尺寸和ROIC的時間變化
+(30:31.260) 現在和一年前的情況
+(30:33.320) 然後阿納
+(30:34.740) 您說了很多關於供應能力的限制
+(30:37.600) 有一個類似的問題
+(30:39.120) 關於傳輸的CAPEX
+(30:40.820) 您的計算哲學
+(30:42.480) 以及您的傳輸的限制
+(30:45.940) 你認為在2027年要花出正確的金額來封鎖這種限量嗎?
+(30:55.330) 謝謝你,Brian,這是一個很好的問題。
+(30:58.670) 我認為,我們在非常早期,
+(31:06.070) 在我們的核心資訊商業中,
+(31:11.470) In our core information businesses,
+(31:13.290) just the possibilities,
+(31:21.010) 你的能力
+(31:29.050) 你可以想象
+(31:34.370) 所以這些都看起來
+(31:42.090) 同樣的,在企業方面,您可以看到我們的需求,
+(31:49.350) 這在我們的增長率上顯示,等等。
+(31:52.570) 在我討論的討論中,許多總裁,許多企業,
+(31:58.590) 他們都仍然仍然在幾乎刺破了這裡所可能的早期階段。
+(32:05.220) 因此,我認為,我們曾經談論到 cloud 本身,你知道,非常少,你知道,
+(32:11.200) 整體工作人員和企業的百分比都變成了 cloud 。現在想想,
+(32:16.120) 工作人員的百分比是否真的能夠產生AI 和AI 。
+(32:20.780) 呃,它再次感覺很早。所以,我認為,你知道,從 ROIC 的角度來看,
+(32:26.400) 我認為,呃,你知道,呃,我們正在採取一個全數項的方式,呃,我們正在看到
+(32:31.840) momentum across
+(32:33.460) consumers and enterprises
+(32:35.080) and developers and so on
+(32:36.700) so it feels like
+(32:37.960) if anything over the past year
+(32:39.780) we've gotten more bullish
+(32:41.000) on the opportunities ahead
+(32:42.060) I'll turn it over to Anant
+(32:43.320) Thanks for the question
+(32:45.620) on how do we think about
+(32:47.440) forward looking Capex
+(32:48.840) in the context of
+(32:51.260) supply constraints
+(32:52.460) so we're still in a
+(32:53.660) supply constrained environment
+(32:54.700) I think we've said this now
+(32:55.960) for multiple quarters in a row
+(32:58.820) and we are seeing
+(33:00.040) very strong demand
+(33:01.140) both from external
+(33:06.070) 我們的目標是投資,
+(33:33.850) 我們是在供應圍繞的環境中,所以我們很努力去做這些事。
+(33:39.530) 我們有利用全項設施的方式,
+(33:42.530) 所以我們能夠使用技術性能力,
+(33:45.250) 技術性能力在我們的技術基礎設施中,
+(33:50.690) 使我們能夠達到更多的計算。但只要我們看到這些有吸引力的機會去投資,我們會繼續投資。
+(34:32.500) 謝謝大家
+(34:33.940) 關於繼續發展領導模式的能力
+(34:38.240) 然後關於關於你的投資計劃
+(34:42.340) 和你對這部分生產業的關鍵
+(34:46.300) 然後不僅是關於最近的資金和債券提升
+(34:50.090) 你能幫助我們明白
+(34:51.610) 你認為最好的資金組織
+(34:54.070) 和你認為債券的費用
+(34:56.780) 謝謝Doug
+(35:00.560) 謝謝,傑克。
+(35:07.660) and it's fiercely moving forward
+(35:11.800) 向前移動。
+(35:14.300) it feels dynamic
+(35:15.760) we've had clearly frontier models
+(35:20.460) frontier models
+(35:24.240) there are areas where we've acknowledged
+(35:27.660) where we have acknowledged
+(35:31.340) is an example of that
+(35:33.580) and I think the teams
+(35:36.200) with 3.6 Flash
+(35:38.500) Flash is our workhorse model,
+(35:42.110) and we see tremendous demand for it
+(35:44.870) 但它總的來說是表現費用、費用、質量、廣泛性等的一部分
+(35:49.090) cost, reliability, latency etc
+(35:51.530) and we've incorporated Gemini and Flash
+(35:56.190) 尤其是在我們整體的解決方案中
+(35:58.790) 無論是資源安全、數據分析
+(36:02.550) 如果你想想一個項目的區域
+(36:04.150) 例如客戶服務
+(36:05.090) 你需要很好的聲音質量
+(36:07.130) 你需要直播
+(36:08.330) 你需要有能力去理解這些
+(36:10.490) 或如果你是一個專業服務公司
+(36:12.950) 你需要高品質的總結
+(36:14.810) 內容生產 等等
+(36:17.470) 所以Flash做得非常好
+(36:19.850) 在這些方面
+(36:20.810) 在專業語言上
+(36:22.650) 我們在交易
+(36:26.810) 3.6 flash for example,
+(36:28.750) compared to 3.5 flash,
+(36:31.290) 在DeepSuite上跳過10分之一的標準
+(36:37.690) and it is more token efficient doing so.
+(36:40.950) So we are clearly using it internally,
+(36:43.310) 我們在測試它
+(36:47.130) 所以我們看到了6周後的進步
+(36:53.310) 從前面的版本到新版本
+(36:56.370) In terms of the Frontier
+(36:58.510) We are both very committed
+(37:01.150) 和非常自信地在前鏈上
+(37:04.730) For the next generation of Frontier
+(37:08.160) 我們將需要更大的基礎模式
+(37:11.680) We are now training Gemini 4
+(37:15.120) And we are being very ambitious with it
+(37:18.440) I am very excited by the progress
+(37:21.280) I'm seeing internally on Gemini 4
+(37:23.880) and I'm confident
+(37:25.820) people will be pleased
+(37:27.360) when we are putting it outside
+(37:29.000) but we will need Gemini 4
+(37:31.120) as a larger base model
+(37:32.220) to compete at that frontier level
+(37:34.320) and so we are focused on
+(37:35.540) executing on that well
+(37:37.020) And on the question
+(37:38.960) regarding our capital structure
+(37:40.280) and recent equity and debt raise
+(37:42.480) so as we think about
+(37:44.020) our investment needs
+(37:45.240) and as I said
+(37:46.560) we look at the next year
+(37:47.760) and multiple years out
+(37:49.200) we first look at
+(37:51.520) 我們可以支持多少
+(37:53.320) 根據從行業來看的錢
+(37:56.480) 而如您所看到的結果
+(37:57.700) 今天我們繼續生產
+(38:00.340) 非常健康的
+(38:01.400) 從行業來看的很強的錢
+(38:03.580) 所以這是我們第一個
+(38:04.280) 資源的資金
+(38:05.460) 然後我們看看債務
+(38:06.900) 最最近我們做了
+(38:08.080) 利潤提高
+(38:08.860) 而我們的債務
+(38:12.200) 在過去12個月之內
+(38:14.720) 如果您看過一年
+(38:15.340) 我們有約16億
+(38:18.130) 而我們走到
+(38:19.110) 約100億美元
+(38:20.630) 所以我們在這個股份上增長了。
+(38:23.030) so we're expanding that portfolio
+(38:24.190) but we also want to make sure
+(38:26.250) we have a resilient
+(38:27.170) not just growth outlook
+(38:29.050) but also resilient balance sheet
+(38:31.010) and a strong balance sheet
+(38:32.070) healthy balance sheet
+(38:33.050) which is the rationale behind
+(38:36.470) expanding into the equity markets
+(38:38.350) at this point we're not planning
+(38:40.370) to go back to the equity markets
+(38:41.730) with the exception of
+(38:43.010) as you recall
+(38:44.230) part of our equity offering
+(38:45.450) was the ATM or at the market offering
+(38:48.670) that we will do
+(38:49.670) 我們會盡力去解決SBC的貨幣基金或貸款問題
+(38:52.490) 這會有期間的影響
+(38:55.630) 但是我們看待這三個角度
+(38:58.470) 從行業費用、債務、財產和負荷
+(39:03.530) 以保證我們繼續保持健康的平衡基金
+(39:08.850) 謝謝
+(39:11.260) 接下來的問題是由Erik Sheridan
+(39:16.820) 與Bulman Sachs
+(39:18.440) 您的電話現在打開
+(39:19.520) 謝謝您的提問
+(39:22.770) 有兩個問題,如果我可以, both on TPUs.
+(39:25.570) Sundar,
+(40:23.570) In terms of allocating TPUs,
+(40:27.250) look,
+(40:27.570) look,
+(40:36.830) 在所有事情上都能夠與AGI發展
+(40:40.810) 但以外的需求為基礎
+(40:45.830) even for most cloud customers
+(40:48.650) we are using both TPUs and GPUs
+(40:54.110) mainly for serving our models
+(40:56.550) so think Vertex AI, Gemini Enterprise
+(40:59.310) the momentum we see
+(41:00.950) so we are using it
+(41:01.910) or agentic workloads etc
+(41:04.890) so we are using it for those purposes
+(41:11.910) we are balancing it by
+(41:20.850) 或在其他數據中
+(41:26.650) 所以我們使用這些
+(41:31.950) 並確保我們能夠
+(41:37.590) 並且在服務
+(41:41.450) and our enterprise business
+(41:42.810) in terms of first party models
+(41:44.230) and in terms of revenue recognition
+(41:47.520) and how we look at the TPU system sales
+(41:50.280) TPU系統的銷售
+(41:54.180) in the prepared remarks
+(41:55.860) they would be then reflected
+(41:57.560) in the cloud backlog
+(41:59.400) now the vast majority of the 514 billion
+(42:02.920) of cloud backlog
+(42:03.900) is the GCP agreements
+(42:05.920) but the TPU system sales
+(42:08.160) are reflected in that backlog
+(42:09.780) 我們開始建立設備,以為能夠賣出這些系統。
+(42:14.220) 因此,
+(42:17.760) Because we built ahead
+(42:19.060) 因為我們在前面建立,
+(42:21.780) 然後當我們開始達成銷售時,
+(42:24.320) 通常就是當我們開始認識收入,
+(42:26.620) 這一週是一個小量的總項,
+(42:31.940) 這個總項會繼續升級到2026年,
+(42:35.460) 但你會看到大多數收入從這個協議中來到2027年。
+(42:39.220) 來到2027年
+(42:41.520) 您的下一個問題來自
+(42:48.120) Ross Sandler
+(42:49.460) 與Barclays
+(42:50.140) 您的計劃現在開放
+(42:51.360) 回到AI模型的戰爭
+(42:57.090) 正在發生
+(42:57.590) 我只想問一下
+(43:00.030) 模型發佈的速度
+(43:03.150) 以及你能否
+(43:05.020) 可能速度上升
+(43:06.740) Gemini的發佈模型
+(43:10.460) 我們都看到
+(43:11.680) 第三者組織
+(43:13.940) 與SpaceX的交易
+(43:15.930) 我們還在做什麼
+(43:17.520) 去快速推出模型
+(43:20.110) 您剛才提到的flash模型
+(43:26.360) 對您來說是很成功的
+(43:29.560) 您認為這就是市場的
+(43:31.890) 正確的端端
+(43:32.990) 以下模型的低費端端
+(43:38.070) 是怎樣的
+(43:40.260) 您有什麼想法
+(43:40.840) 如何看到這些變化
+(43:44.660) 謝謝Ross
+(43:45.840) 我說兩件事
+(43:47.420) 首先
+(43:50.700) 我們真的在討論
+(43:53.380) We want to make sure for our customers
+(43:55.760) 在不同的價值點上提供最好的模特
+(44:03.580) So you will see us
+(44:05.780) 但我們很重要的是
+(44:10.780) 以及很高價的模特
+(44:16.440) 這就是為什麼我們有閃光燈
+(44:26.030) On the speed of model releases
+(44:27.910) 我認為您將看到我們繼續逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐漸逐
+(44:33.270) Obviously you've seen us come
+(44:35.230) We announced 3.5 flash at IO
+(44:38.290) We have followed that up at 3.6 flash
+(44:45.410) 我們將在未來的一個課程中
+(44:48.050) 我們很注重地
+(44:52.110) It's a very ambitious effort
+(44:54.430) 我們想在Gemini 4出現的時候
+(44:57.570) 在Gemini 4出現的時候
+(45:01.310) 在前面的陣地上
+(45:05.390) 但我們還在創建一個基礎
+(45:08.650) 在這方面
+(45:12.150) at subsequent model releases
+(45:16.470) 所以,
+(45:16.830) 在我們的路線中,
+(45:24.010) 我們在建造Gemini 4的項目中,
+(45:25.890) 準備著準備和推出模特,
+(45:32.020) 您的下一個問題來自Michael Nathanson,您的網絡正在打開。
+(45:37.100) 謝謝您,我希望您能夠聽到我的問題。
+(45:40.680) 總統,您在這次的電話中提到模特的主要主要主要主要重點是什麼?
+(45:47.060) to this new model war
+(45:50.090) what is your strategic advantages
+(45:53.050) that fuel your business
+(45:54.850) that even if everyone gets
+(45:56.050) to the same type of model capabilities
+(45:58.190) what gives you the edge
+(45:59.990) to keep growing like you're doing
+(46:01.400) and then not
+(46:02.380) back to Eric's question
+(46:03.740) anything you can tell about
+(46:05.240) the margin impact
+(46:07.140) on TPUs going forward
+(46:09.080) is it incremental margin
+(46:10.780) to the core cloud margin
+(46:12.520) or is it a lower margin
+(46:14.100) from the group
+(46:14.660) Thanks
+(46:15.100) Look Michael
+(46:17.950) I mean first of all
+(46:19.170) 有很多層次在我們提供的解決方案
+(46:24.610) 我認為這部分是我們的全數項目的價值
+(46:28.110) 客戶來到我們提供解決方案
+(46:30.790) 所以如果您在資產安全或數據分析中
+(46:35.390) 人們在提供解決方案
+(46:38.590) 在那些解決方案中的模型中
+(46:39.810) 人們在那些解決方案中提供解決方案
+(46:42.070) 所以在資產
+(46:43.930) 人們在使用Chronicle和Viz
+(46:48.250) and with our upcoming CodeMender product
+(46:50.810) CodeMender product,
+(46:56.010) or take data analytics
+(46:57.790) people are bringing
+(47:03.590) putting it all together
+(47:04.970) putting it all together
+(47:08.190) with Gemini Enterprise
+(47:09.190) 所以模型在這些解決方案中是一種材料
+(47:13.830) 所以我認為記住這一點
+(47:15.430) 然後,即使您僅僅是在一個比較模型化的消費區域中,
+(47:21.580) 您知道,人們,您知道,您知道,
+(47:24.920) WATLUX的模型越來越成為結構固定的系統,對不對?
+(47:30.680) 工作流程,專業工作流程,
+(47:32.980) 並且為了發揮所有這些,您的能力不僅是帶來您需要訓練和服務的數據,
+(47:40.720) 您的數據質量,您的環境,您的能力繼續改善,
+(47:45.240) 給客戶帶來的安靜感
+(47:49.160) that all the data they have
+(47:50.940) their data, their trajectories
+(47:52.800) are confidential to them
+(47:54.900) 都對他們都很自信
+(47:58.500) 他們能夠安排、服務
+(48:02.080) in a secure way
+(48:03.000) and manage it and provision it and so on
+(48:05.500) so these are big end-to-end things
+(48:08.460) 這就是我們全球的網路商業
+(48:11.300) is focused on building it
+(48:13.800) And we are seeing demand
+(48:17.800) And so obviously having our own models
+(48:24.160) and bring an integrated offering
+(48:26.180) but we will also provide other models
+(48:29.680) as part of these solutions
+(48:33.580) and take a whole full stack approach
+(48:38.020) And on the TPU margins
+(48:40.590) we don't break out margins
+(48:44.310) or infrastructure component
+(48:45.870) and certainly there are benefits
+(48:50.230) but the way to think about it is
+(48:51.670) but the way to think about it is
+(48:54.030) so it expands the opportunities
+(48:55.870) by providing solutions to customers
+(49:02.150) 但總體上,如果您考慮到加密貨幣的平均性,顯然是一個非常精彩的平均性增長達35.6%。
+(49:08.350) to 35.6%
+(49:10.070) 這一季,
+(49:14.330) across the business
+(49:15.210) and leveraging growth in the top line
+(49:17.730) and as you think about Q3
+(49:19.730) and through the remainder of the year
+(49:29.890) and Q3 is a bridging strategy
+(49:35.390) that capacity
+(49:36.350) given the cost of that capacity
+(49:37.870) 他將在 cloud 上的運作缺點上
+(49:41.830) and then the last item we mentioned
+(49:44.470) 在過去的事件中,WiZ的聯合合創造了在2026年的近期期間有關獲得的風險。
+(49:57.700) 接下來的問題來自馬克·史穆勒克與伯恩斯汀。您的電話已經打開了。
+(50:03.820) 對,謝謝您提出問題。
+(50:06.040) 在這些三個人的商業計劃中,
+(50:08.660) 是否有一個特別的目標,
+(50:12.220) 在哪裡的限制是最嚴厲的,
+(50:14.520) 或者是非常廣泛的?
+(50:15.720) 我認為,回過頭來,在討論與企業之間的資金提供的能力,
+(50:20.580) 這些變化是否有所改變?
+(50:22.200) 是否有方法來描述您現在在討論與搜索與模擬訓練與GCP之間的互動?
+(50:30.640) 謝謝
+(50:30.980) 馬克,我可以評論一下。
+(50:34.020) 在分析中,我認為我們開始的基礎是
+(50:40.800) AGI的繼續發展在前沿區域的發展。
+(50:46.060) 顯然,前沿區域的前沿區域的基礎
+(50:48.980) 僅僅基於模型前沿區域的移動。
+(50:51.180) 因此,我們以這個為基礎來開始。
+(50:53.620) 除此之外,我們當然希望
+(50:57.020) 以我們的核心產品領域為主,
+(51:00.000) 例如搜索、YouTube,等等,
+(51:01.680) 以及加密貨幣
+(51:03.240) 在加密貨幣中,我們將嘗試把數據精心地
+(51:06.960) 用於我們的模特兒服務
+(51:11.750) 例如Vertex和Gemini Enterprise
+(51:15.590) 以及我們最主要的解決方案
+(51:18.250) 例如數據分析和資源保險等
+(51:20.770) 所以我們在數據分析中
+(51:23.710) 對於我們的主要的產品服務
+(51:24.670) 包括客戶和企業
+(51:25.710) 我們的數據是最主要的
+(51:28.170) 我們將在此討論的方案中
+(51:31.450) I think on the bridge deal
+(51:34.370) the main thing I would say is
+(51:35.810) look there are on the margin
+(51:41.710) on cloud
+(51:43.530) who we are trying to support them
+(51:46.390) through this extraordinary moment
+(51:47.830) and the incremental opportunities
+(51:51.190) they are bringing to us
+(51:52.610) while a short term cost
+(51:55.600) over a few months may be very high
+(51:57.200) in the lifetime of the deal
+(51:59.180) as we bring more capacity on
+(52:01.040) is highly ROI positive, right?
+(52:03.580) so those are factors
+(52:06.500) So are you willing to take up front
+(52:10.540) six month deal
+(52:14.380) in what is a multi-year opportunity
+(52:16.600) where the margins and the returns
+(52:18.540) are very, very attractive
+(52:19.620) over that multi-year horizon?
+(52:21.820) So hopefully that gives some color
+(52:23.180) 帶來一些顏色
+(52:30.090) Ron Josie with Steady
+(52:33.270) Your line is now open.
+(52:34.510) 好 謝謝你提到這個問題
+(52:37.250) 我可能會稍微改變主題
+(52:38.370) 然後問你一些關於
+(52:39.970) 從搜索和YouTube的角度來看
+(52:43.450) 以我們的AI搜索的更大的信號
+(52:46.050) 然後你提到YouTube的強力
+(52:47.530) 請你解釋一下
+(52:48.390) Google的更大的 personalization
+(52:52.730) 和targeting
+(52:53.390) 是如何使得Google的搜索
+(52:55.210) 我們經常聽到的問題是
+(52:57.310) Google的大小和規模
+(52:59.030) 仍然在增長17%
+(53:00.570) 有什麼原因
+(53:01.510) 使它在搜索中的搜索率
+(53:02.810) 增加了很高的程度
+(53:03.730) 謝謝
+(53:04.350) Thank you.
+(53:09.560) Yes, thank you so much for the question.
+(53:11.400) Look, our 17% year-over-year growth rate
+(53:14.720) in the Q2 search and other revenues
+(53:17.100) 非常受到很多我們的商業工作的影響
+(53:19.480) working well together
+(53:20.360) and very, very deep Gemini integration.
+(53:24.500) Maybe to zoom out for a second,
+(53:25.920) 所有的重要線條
+(53:28.440) 賣出的商業貢獻了最大的貢獻
+(53:30.700) 貢獻了非常有意義的貢獻
+(53:32.540) 從貢獻到科技、媒體娛樂等
+(53:36.600) 我認為非常重要的是
+(53:38.920) Gemini超越了我們的能力
+(53:41.620) 這關於您的問題的關鍵
+(53:43.740) 要明白人們在尋找什麼
+(53:45.980) 並適合正確的產品
+(53:47.640) 所以我們正在使用Gemini模型
+(53:49.120) 在整個產品資源中
+(53:51.780) 無論是產品質量
+(53:52.900) 宣傳工具
+(53:54.200) 產品和新的AI經驗
+(53:55.960) 我們真的深入地
+(53:59.060) 將Gemini進入客戶的工具
+(54:01.420) 以使宣傳公司更有效率
+(54:03.120) 這也在這方面
+(54:04.180) 然後我們有我們的
+(54:05.800) AI力量宣傳公司
+(54:06.800) 例如AI Max
+(54:07.600) 能夠讓媒體人更加改善
+(54:09.420) 並找到更多的機會
+(54:10.720) 除了關於標題
+(54:11.520) 這也是我們的能力
+(54:13.460) 更加深入地目
+(54:15.340) AI Max繼續擋住
+(54:18.340) 我們所提到的
+(54:18.900) 億多的網絡新聞搜索
+(54:20.620) 以前並沒有能夠
+(54:21.440) 實際上賺錢
+(54:22.200) 而在YouTube上
+(54:25.460) 在高級的股市增長
+(54:27.820) 是由直接反應
+(54:29.380) 和品牌公司的增長
+(54:30.860) 我之前也分享過
+(54:31.680) 我們繼續看到
+(54:33.200) 很多在生活中的
+(54:35.260) 豐富的股票
+(54:37.540) 在我們前面的品牌方面
+(54:39.600) 在直接回應方面
+(54:40.920) 需求和保險
+(54:42.620) 仍然是非常有趣的機會
+(54:44.460) 這當然有目標
+(54:48.620) 而且我們繼續
+(54:50.040) 嚴厲地創新
+(54:51.480) 在住宅中的購物項目方面
+(54:53.460) 這也會幫助我們
+(54:55.940) 提升供應力
+(54:56.560) 你的下一個問題
+(55:04.120) 來自肯·格羅斯基
+(55:05.980) 和威爾斯巴爾戈
+(55:07.100) 您的電話現在打開
+(55:08.320) 謝謝你
+(55:10.120) 兩個問題
+(55:11.240) 兩個問題
+(55:18.900) 從27年到25年和26年來看,
+(55:30.430) 我非常緊張地在問您如何想要未來投資的回報,
+(55:39.570) 第二,你認為維吾爾的關鍵因素是什麼?
+(55:47.810) 當你認為維吾爾的關鍵因素是什麼,
+(55:51.600) 我認為你已經很深入地談論這些問題,
+(55:54.600) 但你認為維吾爾的關鍵因素是什麼?
+(56:01.920) 在什麼情況下,維吾爾在阿富汗外面活著有什麼意義?
+(56:06.030) 謝謝
+(56:06.210) 肯,你第一個問題,如果我明白你,
+(56:14.950) you know we are working of a discipline
+(56:21.310) obviously you know we
+(56:27.780) you know we reflect that
+(56:36.480) 看到回報
+(56:40.220) 我認為我們的投資價值
+(56:44.540) I think to the first question I answered
+(56:47.200) 我們看到了很強的需求指數
+(56:51.780) including long term deals
+(56:55.100) the existing deals which we have
+(56:57.160) which are renewing
+(56:58.710) 在以往的流行性上
+(57:03.940) 我們正在用這些東西
+(57:07.840) 因此,我認為,如果有任何事情,
+(57:11.280) 運動性看起來比我們大約一年以前更健康。
+(57:15.580) 因此,這就是讓我們有自信地進行這些投資。
+(57:20.180) 在VEMO上,我認為我們非常集中在執行和調整VEMO。
+(57:25.880) 我們設置了我們的企業結構,
+(57:30.560) 並且給了團隊很多支持。
+(57:33.560) Alphabet has continued
+(57:40.860) and invest in the business
+(57:48.600) 我們的專注是在長期時間內計劃和調整
+(57:53.280) I think it's all hugely valuable
+(58:02.280) 這就是我們專注的
+(58:03.720) 非常感謝
+(58:06.120) 我們的最後一個問題
+(58:10.180) 來自Shrita Kajuria
+(58:11.840) 與Woof Research
+(58:13.100) 您的電話現在打開
+(58:14.660) 好的 謝謝你提出我的問題
+(58:18.500) 我可以問你兩個問題嗎
+(58:21.080) 第一個是TPU的長期策略
+(58:23.560) 長期策略上
+(58:25.140) 是否合理認為
+(58:26.020) 在TPU的銷售程度下
+(58:28.080) 你會建立一家
+(58:29.000) 用晶片商務商業
+(58:30.560) 和一個設計組合
+(58:31.600) 第二個是
+(58:33.660) 在YouTube的收入
+(58:34.880) 根據如何強大的
+(58:38.380) 與YouTube的增長率增長能夠帶來的一些因素
+(58:43.380) 謝謝
+(58:47.990) 我先回答第一個問題
+(58:50.530) 然後Philip可以詳細談論YouTube的營業增長
+(58:53.630) 第一個問題是關於TPU
+(58:58.630) 我認為我們已經有很長時間與TPU合作
+(59:07.020) for a while
+(59:08.240) you know
+(59:08.980) a lot of our cloud serving
+(59:10.440) is done on TPUs
+(59:12.840) and we are also seeing
+(59:14.920) strong demand
+(59:15.900) for TPUs
+(59:17.920) as standalone systems
+(59:19.620) from other customers
+(59:21.340) and so we'll
+(59:23.380) you know
+(59:23.840) obviously the industry
+(59:24.700) has constraints too
+(59:26.640) so we have to plan
+(59:28.080) and we allocate
+(59:28.760) on a forward looking basis
+(59:29.980) along the principles
+(59:30.800) I spoke about earlier
+(59:32.320) so I don't want to project out
+(59:34.160) too far into the future there
+(59:35.540) but I do think
+(59:37.960) 我們將根據我們看到的機會和我們看到的需求,
+(59:45.600) 和存在的障礙,以及我們對前線模型發展的需求,
+(59:51.320) 確保我們能夠服務我們的消費商業和企業。
+(59:58.980) Philip,您想要加上YouTube的監製嗎?
+(60:02.880) 是的,非常感謝您的介紹。
+(60:08.110) 我剛才提到Youtube Ads Revenue Growth的執行者。
+(60:12.270) 我認為我們在這裡看我們的Ads Roadmap的時候,
+(60:16.650) 我們很興奮地看著很多東西。
+(60:17.430) 在品牌上,我們看到在居住室中聯繫的電視頻道。
+(60:22.110) 我們在建立工具來幫助宣傳者找到創作者,
+(60:25.770) 在屏幕上調整幅度幅度,然後測試結果。
+(60:28.830) 我們在Youtube專門推出的新與迴歸創作者節目。
+(60:34.690) 我們看到有機會進行直接反應,尤其是與DemandGen,DemandGen和Shorts所提到的,
+(60:40.610) 這仍然是一個非常有趣的機會,以增加我們的基礎,以較小和中級推廣者,
+(60:46.270) 在更多的直線,短線視頻中,實際上,這是很重要的,
+(60:50.730) 它會創造更多的機會,並增加了整體的推廣效果。
+(60:57.070) 因此,我認為我們將繼續看到很多創新和直接反應,
+(61:01.630) 包括在客戶房間的買賣項目,
+(61:05.310) 再次,我們提到這些項目使得市場強勁。
+(61:09.030) 我們在Brandcast上宣佈了幾個其他項目。
+(61:12.190) 我們宣佈了Google Pay的買賣項目,
+(61:14.250) 以使得CTV觀眾能夠直接在他們的電視上完成購物,
+(61:18.250) 以兩個點擊的方式,
+(61:19.050) 這是一個非常有趣的機會。
+(61:21.030) 過去一段時間,
+(61:21.550) 我們宣佈了Affiliate Partnership Boost,
+(61:23.170) to drive incremental sales
+(61:24.950) and the creator earnings
+(61:27.210) obviously from YouTube
+(61:28.450) shopping affiliate commissions
+(61:30.230) so overall
+(61:30.990) like frankly
+(61:32.310) very very exciting times
+(61:33.610) Thanks Sundar
+(61:35.860) Thanks Vlad
+(61:36.400) Thank you
+(61:40.640) and that concludes our question
+(61:41.780) and answer session for today
+(61:43.180) I'd like to turn the conference
+(61:44.580) back over to Jim Friedland
+(61:45.780) for any further remarks
+(61:46.700) Thanks everyone
+(61:49.030) for joining us today
+(61:49.970) We look forward to speaking
+(61:51.370) with you again
+(61:52.010) on our third quarter
+(61:53.090) 2026 call
+(61:54.310) Thank you
+(61:55.030) and have a good evening
+(61:55.910) Thank you everyone
+(61:59.250) This concludes today's conference call
+(62:00.970) Thank you for participating
+(62:02.190) You may now disconnect
