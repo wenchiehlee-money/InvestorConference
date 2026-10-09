@@ -6,6 +6,9 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----------:|:----:|
+| 2884 玉山金 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2884) |
+| 2449 京元電子 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2449) |
+| 6669 緯穎 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6669) |
 | 2474 可成 | 2026 Q3 | 財報 | 2026-11-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2474) |
 | 2353 宏碁 | 2026 Q3 | 財報 | 2026-11-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2353) |
 | 2345 智邦 | 2026 Q3 | 財報 | 2026-11-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2345) |
@@ -25,7 +28,6 @@
 | AAPL Apple 蘋果 | FY2026 Q4 | 財報 | 2026-11-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
 | 2454 聯發科 | 2026 Q3 | 財報 | 2026-10-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | AMZN Amazon.com Inc. | 2026 Q3 | 法說會 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMZN/financials/) |
-| SIMO Silicon Motion Technology Corporation | 2026 Q3 | 法說會 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/SIMO/financials/) |
 | INTC Intel Corporation | 2026 Q3 | 法說會 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
 | 2395 研華 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2395) |
 | 7769 鴻勁 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7769) |
@@ -33,12 +35,13 @@
 | 2360 致茂 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2360) |
 | 3711 日月光投控 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3711) |
 | 3443 創意 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3443) |
-| SIMO Silicon Motion Technology Corporation | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/SIMO/financials/) |
 | INTC Intel Corporation | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
 | MSFT Microsoft 微軟 | FY2027 Q1 | 法說會 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MSFT/financials/) |
 | MSFT Microsoft 微軟 | FY2027 Q1 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MSFT/financials/) |
+| SIMO Silicon Motion Technology Corporation | 2026 Q3 | 法說會 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/SIMO/financials/) |
 | GOOGL Alphabet Inc. | 2026 Q3 | 法說會 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/GOOGL/financials/) |
 | META Meta Platforms Inc. | 2026 Q3 | 法說會 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/META/financials/) |
+| SIMO Silicon Motion Technology Corporation | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/SIMO/financials/) |
 | 2301 光寶科 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | 2379 瑞昱 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2379) |
 | META Meta Platforms Inc. | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/META/financials/) |
@@ -189,7 +192,7 @@
 | 2337 旺宏 | 2026 Q2 | 財報 | 2026-07-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2337) |
 | 2337 旺宏 | 2026 Q2 | 法說會 | 2026-07-28 | 無 | - | - | [中](data/2337/2337_2026_q2_ir.pdf) ([MD](data/2337/2337_2026_q2_ir.md)) | [EN](data/2337/2337_2026_q2_ir_en.pdf) ([MD](data/2337/2337_2026_q2_ir_en.md)) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2337) |
 | 3035 智原 | 2026 Q2 | 財報 | 2026-07-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3035) |
-| GOOGL Alphabet Inc. | 2026 Q2 | 法說會 | 2026-07-22 | [62.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/GOOGL_2026_q2.m4a) | - | - | - | [EN](data/GOOGL/GOOGL_2026_q2_ir_en.pdf) ([MD](data/GOOGL/GOOGL_2026_q2_ir_en.md)) | [📊](data/reports/conference-digests/GOOGL/GOOGL_2026_q2_digest.md) | [↗](https://finance.yahoo.com/quote/GOOGL/financials/) |
+| GOOGL Alphabet Inc. | 2026 Q2 | 法說會 | 2026-07-22 | [62.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/GOOGL_2026_q2.m4a) | [📝](data/GOOGL/GOOGL_2026_q2_FIN.srt) | - | - | [EN](data/GOOGL/GOOGL_2026_q2_ir_en.pdf) ([MD](data/GOOGL/GOOGL_2026_q2_ir_en.md)) | [📊](data/reports/conference-digests/GOOGL/GOOGL_2026_q2_digest.md) | [↗](https://finance.yahoo.com/quote/GOOGL/financials/) |
 | GOOGL Alphabet Inc. | 2026 Q2 | 財報 | 2026-07-22 | - | - | - | - | [EN](data/GOOGL/GOOGL_2026_q2_report_en.pdf) ([MD](data/GOOGL/GOOGL_2026_q2_report_en.md)) | [📊](data/reports/conference-digests/GOOGL/GOOGL_2026_q2_digest.md) | [↗](https://finance.yahoo.com/quote/GOOGL/financials/) |
 | 2330 台積電 | 2026 Q2 | 財報 | 2026-07-16 | - | - | - | - | [EN](data/2330/2330_2026_q2_earnings_release.pdf) ([MD](data/2330/2330_2026_q2_earnings_release.md)) | [📊](data/reports/conference-digests/2330/2330_2026_q2_digest.md) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 2330 台積電 | 2026 Q2 | 法說會 | 2026-07-16 | [70.4 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2330_2026_q2.m4a) | [📝](data/2330/2330_2026_q2_FIN.srt) | - | [中](data/2330/2330_2026_q2_ir.pdf) ([MD](data/2330/2330_2026_q2_ir.md)) | [EN](data/2330/2330_2026_q2_ir_en.pdf) ([MD](data/2330/2330_2026_q2_ir_en.md)) | [📊](data/reports/conference-digests/2330/2330_2026_q2_digest.md) | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
