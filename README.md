@@ -6,6 +6,9 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----------:|:----:|
+| 2382 廣達 | 2026 Q3 | 財報 | 2026-11-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
+| 2357 華碩 | 2026 Q3 | 財報 | 2026-11-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
+| 3034 聯詠 | 2026 Q3 | 財報 | 2026-11-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | 5269 祥碩 | 2026 Q3 | 財報 | 2026-11-09 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=5269) |
 | 2308 台達電 | 2026 Q3 | 法說會 | 2026-11-07 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | 2884 玉山金 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2884) |
@@ -42,18 +45,20 @@
 | MSFT Microsoft 微軟 | FY2027 Q1 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MSFT/financials/) |
 | SIMO Silicon Motion Technology Corporation | 2026 Q3 | 法說會 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/SIMO/financials/) |
 | GOOGL Alphabet Inc. | 2026 Q3 | 法說會 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/GOOGL/financials/) |
-| META Meta Platforms Inc. | 2026 Q3 | 法說會 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/META/financials/) |
+| 2303 聯電 | 2026 Q3 | 法說會 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2303) |
 | SIMO Silicon Motion Technology Corporation | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/SIMO/financials/) |
 | 2301 光寶科 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | 2379 瑞昱 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2379) |
-| META Meta Platforms Inc. | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/META/financials/) |
 | 2303 聯電 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2303) |
 | 2383 台光電 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2383) |
 | 2308 台達電 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | GOOGL Alphabet Inc. | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/GOOGL/financials/) |
+| 3035 智原 | 2026 Q3 | 法說會 | 2026-10-27 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3035) |
 | 2337 旺宏 | 2026 Q3 | 財報 | 2026-10-27 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2337) |
 | 3035 智原 | 2026 Q3 | 財報 | 2026-10-27 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3035) |
 | 5274O 信驊 | 2026 Q3 | 財報 | 2026-10-26 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/5274.TWO/financials/) |
+| META Meta Platforms Inc. | 2026 Q3 | 法說會 | 2026-10-21 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/META/financials/) |
+| META Meta Platforms Inc. | 2026 Q3 | 財報 | 2026-10-21 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/META/financials/) |
 | 2354 鴻準 | 2026 Q3 | 財報 | 2026-10-21 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2354) |
 | TSM Taiwan Semiconductor Manufacturing Company Limited | 2026 Q3 | 法說會 | 2026-10-15 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/TSM/financials/) |
 | 2330 台積電 | 2026 Q3 | 法說會 | 2026-10-15 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
@@ -62,7 +67,7 @@
 | ASML ASML Holding N.V. | 2026 Q3 | 法說會 | 2026-10-14 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ASML/financials/) |
 | ASML ASML Holding N.V. | 2026 Q3 | 財報 | 2026-10-14 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ASML/financials/) |
 | 2408 南亞科 | 2026 Q3 | 財報 | 2026-10-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2408) |
-| 2408 南亞科 | 2026 Q3 | 法說會 | 2026-10-12 | [55.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2408_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2408) |
+| 2408 南亞科 | 2026 Q3 | 法說會 | 2026-10-12 | [55.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2408_2026_q3.m4a) | [📝](data/2408/2408_2026_q3_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2408) |
 | 2317 鴻海 | 2026 Q3 | 法說會 | 2026-10-01 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2317 鴻海 | 2026 Q3 | 財報 | 2026-10-01 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | MU Micron Technology | FY2026 Q4 | 法說會 | 2026-09-30 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MU/financials/) |
