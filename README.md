@@ -6,6 +6,11 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----------:|:----:|
+| 3045 台灣大 | 2026 Q3 | 法說會 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
+| 3045 台灣大 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
+| 2376 技嘉 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2376) |
+| 2603 長榮 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2603) |
+| 2324 仁寶 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
 | 4938 和碩 | 2026 Q3 | 財報 | 2026-11-11 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=4938) |
 | 3653 健策 | 2026 Q3 | 財報 | 2026-11-11 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3653) |
 | 2347 聯強 | 2026 Q3 | 財報 | 2026-11-11 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2347) |
@@ -64,7 +69,7 @@
 | META Meta Platforms Inc. | 2026 Q3 | 財報 | 2026-10-21 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/META/financials/) |
 | 2354 鴻準 | 2026 Q3 | 財報 | 2026-10-21 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2354) |
 | TSM Taiwan Semiconductor Manufacturing Company Limited | 2026 Q3 | 法說會 | 2026-10-15 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/TSM/financials/) |
-| 2330 台積電 | 2026 Q3 | 法說會 | 2026-10-15 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
+| 2330 台積電 | 2026 Q3 | 法說會 | 2026-10-15 | [24.7 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2330_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 2330 台積電 | 2026 Q3 | 財報 | 2026-10-15 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | TSM Taiwan Semiconductor Manufacturing Company Limited | 2026 Q3 | 財報 | 2026-10-15 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/TSM/financials/) |
 | ASML ASML Holding N.V. | 2026 Q3 | 法說會 | 2026-10-14 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ASML/financials/) |
