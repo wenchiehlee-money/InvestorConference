@@ -11,6 +11,7 @@
 | NVDA NVIDIA 輝達 | FY2027 Q3 | 財報 | 2026-11-17 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
 | 3665 貿聯-KY | 2026 Q3 | 財報 | 2026-11-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3665) |
 | 3045 台灣大 | 2026 Q3 | 法說會 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
+| 7765 中華資安 | 2026 Q3 | 法說會 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7765) |
 | 3045 台灣大 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
 | 2376 技嘉 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2376) |
 | 2603 長榮 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2603) |
