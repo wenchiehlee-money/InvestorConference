@@ -2,7 +2,7 @@
   "symbol": "0992.HK",
   "source_url": "https://investor.lenovo.com/en/financial/key_fin_data.php",
   "source_type": "official_ir_html_key_financials",
-  "retrieved_at": "2026-10-27 09:05:42 CST",
+  "retrieved_at": "2026-10-28 09:32:14 CST",
   "sha256": "dbc528f919198992f6faf9d35164b38ecf0af764d5cb5c4dcb41aea393fe2560",
   "notes": "Parsed Lenovo quarterly key financial table."
 }
