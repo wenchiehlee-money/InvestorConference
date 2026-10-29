@@ -55,7 +55,7 @@
 | 2308 台達電 | 2026 Q3 | 法說會 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | AMZN Amazon.com Inc. | 2026 Q3 | 法說會 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMZN/financials/) |
 | INTC Intel Corporation | 2026 Q3 | 法說會 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
-| 2379 瑞昱 | 2026 Q3 | 法說會 | 2026-10-29 | [48.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2379_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2379) |
+| 2379 瑞昱 | 2026 Q3 | 法說會 | 2026-10-29 | [47.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2379_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2379) |
 | 2395 研華 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2395) |
 | 7769 鴻勁 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7769) |
 | AMZN Amazon.com Inc. | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMZN/financials/) |
