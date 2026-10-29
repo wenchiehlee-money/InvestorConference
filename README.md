@@ -62,6 +62,7 @@
 | 2360 致茂 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2360) |
 | 2360 致茂 | 2026 Q3 | 法說會 | 2026-10-29 | [36.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2360_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2360) |
 | 3711 日月光投控 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3711) |
+| 3711 日月光投控 | 2026 Q3 | 法說會 | 2026-10-29 | [60.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3711_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3711) |
 | 3443 創意 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3443) |
 | INTC Intel Corporation | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
 | MSFT Microsoft 微軟 | FY2027 Q1 | 法說會 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MSFT/financials/) |
