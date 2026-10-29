@@ -1,0 +1,474 @@
+[METADATA]
+Source: 2360_2026_q3_exp11
+Language: zh
+---
+(00:54.600) and the product mix
+(01:00.690) After the financial update
+(01:05.650) followed by the Q&A section
+(01:07.630) 所有的課程資料
+(01:13.240) from the company website
+(01:16.700) Good afternoon, this is Lawrence
+(01:22.590) This is Lawrence.
+(01:30.620) 第三 quarter revenue was 17.9 billion,
+(01:40.880) 上升了33.5%每季度和180%每年。
+(01:46.880) 增長主要是由於持續的強勁在我們的測試器商業中。
+(01:54.820) Growth margin was 58%,
+(01:57.360) slightly lower than the last quarter,
+(01:59.950) mainly due to a different product mix.
+(02:03.000) 部分的混合變化來自於我們的中國充電器銷售項目這一季的利潤
+(02:10.620) G&A的收入也更高
+(02:15.400) 這主要是因為所有工作人員的增加利潤
+(02:19.320) 以認識他們這一年對我們的強勁表現的貢獻
+(02:25.870) 即使是G&A的收入低和收入高
+(02:31.320) 行業率仍然強
+(02:35.660) Operating income was $7.2 billion,
+(02:39.770) up 288% year over year,
+(02:43.310) with operating margin of 40%.
+(02:48.710) Net income was $5.78 billion,
+(02:52.910) up 11% from the previous quarter,
+(02:56.840) with EPS of 13.34%.
+(03:03.190) 如果我們除了資金賺取,
+(03:06.150) 我們的平均收益增長為大約21%每個月。
+(03:12.720) 這就影響了額外收益增長的強化。
+(03:21.250) 第一九個月的收益是43.3億,
+(03:34.830) 每年增加120%。
+(03:37.570) Growth margin was 60%,
+(03:41.840) operating income was 17.2 billion,
+(03:45.860) 177年度,40%的平均。
+(03:52.190) 總收入是14.6億,
+(04:01.290) Again,
+(04:02.840) if we exclude capital gain,
+(04:04.900) 我們的年收益會增加大約138%一年之內,
+(04:10.780) 這顯示了我們的核心商業的強勢。
+(04:19.970) Into the balance sheet,
+(04:30.420) we remain a strong financial position.
+(04:33.060) Shareholders' equity was $39.4 billion,
+(04:38.240) 並且我們維持了末期的資金位置。
+(04:43.180) 強勁的收益也從ROE到54%和ROA到34%
+(04:53.380) 設定了兩個的平均高
+(04:55.820) 在收入上,
+(04:59.360) 我們創造了6.2億的行業收入
+(05:04.600) 和6.8億的免費收入
+(05:09.210) 總體來說,我們達到一個強勁的收入
+(06:59.980) Full Year of 2025 Sales
+(07:17.970) 這些結果表明了科羅馬的強勢市場的
+(07:23.210) Including Optical Transceiver and CPO
+(07:29.270) 我們期望在2027年
+(07:38.360) 我們期望的投資運行
+(07:44.170) And now we can turn over to Q&A section.
+(08:01.670) Sorry,
+(08:02.310) So right now we are,
+(09:22.700) OK,
+(09:23.220) 好的,我不知道你目前是如何定義市場的,
+(09:26.930) but I think insertion 1,
+(09:28.670) 2,
+(09:42.770) And then Insertion 4.0 we are so player,
+(09:56.070) 我們可能會有另一位客戶來到派對浪明年
+(10:01.350) 我猜第一個人已經知道的是NVIDIA
+(10:06.530) 第二個是Marvel
+(10:08.510) Marvel已經提出了明年會在派對浪前移動
+(10:16.740) 然後我們也在擔任C3
+(10:20.120) 還有沒有其他第二個源頭
+(10:22.280) 到目前為止,我們的技術是100%自家制造的
+(10:32.960) 我的第二個問題是,
+(10:34.740) 我們如何認為CPU測試有可能的價值變化,
+(10:40.870) 例如,
+(10:41.210) 在未來的世代中,
+(10:43.080) 因為我問這個,
+(10:44.340) 因為我相信有些市場討論,
+(10:47.060) 例如,
+(10:51.100) 在未來的世代中,
+(10:52.140) 例如,
+(10:53.340) 在未來的世代中,
+(10:54.200) 例如,
+(10:54.400) 在未來的世代中,
+(10:55.340) 例如,
+(10:55.440) 在未來的世代中,
+(10:55.860) 例如,
+(10:55.860) 在未來的世代中,
+(10:55.920) 例如,
+(10:58.380) 在未來的世代中,
+(11:00.240) 例如,
+(11:00.600) 在未來的世代中,
+(11:03.920) 會否造成我們的供應鏈?
+(11:07.080) 或許二次的加密貨幣會否
+(11:11.180) 做一點點少,
+(11:13.430) 並加強二次加密貨幣的價值?
+(11:19.510) 我們沒有提到二次加密貨幣,
+(11:22.150) 但我們聽說
+(11:25.220) 二次加密貨幣可能會被刪除。
+(11:31.940) 如果這樣的話,
+(11:33.420) 我們可能會增加三次加密貨幣的需求。
+(11:38.020) 那麼,我們會否期待
+(11:45.190) 我們會有更多的機會
+(11:47.360) 如果這樣的情況發生
+(11:50.820) 根據最近的客戶信息
+(11:54.420) 他們非常關注
+(11:56.330) 3.0
+(11:58.310) 他們認為
+(11:58.950) 這是一個重要的因素
+(12:01.120) 讓我們的CPU成功
+(12:03.280) 最後
+(12:08.740) 我想問
+(12:09.600) 我們能否得到更新
+(12:11.460) 我們的新產品
+(12:13.420) 例如
+(12:13.740) 手提軟件和燒焊
+(12:16.240) 我們會做什麼進步
+(12:17.640) 到最後一年
+(12:19.860) 您想來手提軟件
+(12:22.020) 還是燒焊第一
+(12:24.440) I need to make things more,
+(12:45.990) because as you can see,
+(12:51.510) Because as you could see,
+(12:57.390) not the old set.
+(12:58.770) 然後我們已經有他們的專業
+(13:04.190) 然後有幾個人已經參與了
+(13:09.160) 而燒滅其實我們會有第一個客戶
+(13:13.330) 就是CSP
+(13:14.330) 然後下年我們會添加
+(13:17.960) 另一類的HPC製作者
+(13:20.640) 我們相信燒滅的過程
+(13:22.890) 將會逐漸改變
+(13:24.470) 從今天的燒滅到燒滅
+(13:27.070) 這就是將來的價值移動
+(13:31.500) 因為燒滅的尺寸
+(13:33.770) 將會逐漸改變
+(13:35.210) Thank you very much
+(13:42.340) Thank you
+(14:18.350) 對於AT&S大企業來說,
+(14:21.430) 它來自於AI的貢獻,
+(14:26.100) 以及在AI方面來說,
+(14:28.360) 例如充電器。
+(14:29.620) 而對於微軟企業來說,
+(14:31.480) 我們能夠提供更詳細的分析,
+(14:33.960) 例如SLT與Metrology與Photonics。
+(14:38.520) 因為您經常被問到
+(14:43.810) 微軟企業的分析,
+(14:45.350) 每次您發生瘟疫,
+(14:48.380) 為了保護我們的客戶,
+(14:50.420) 因為我們已經簽署了NDA
+(14:52.740) 我們不允許執行破壞
+(14:55.010) 然而,測試器和ATS
+(14:59.260) 我認為今年我們有約60%到70%
+(15:02.520) 是關於AI能力的
+(15:05.010) 我們認為這個美元
+(15:06.570) 我們的貢獻
+(15:07.750) 在這個年度
+(15:10.590) 美元會繼續
+(15:13.640) 根據我們目前的預測
+(15:16.780) 我們確實有信心
+(15:20.480) Semi-conductor sectors,
+(15:22.960) 我們已經列出了兩個最大駕駛,
+(15:26.140) 然後,
+(15:32.460) Photonic sectors,
+(15:35.150) due to the transceivers and CPOs,
+(15:38.710) 它們的成長是四倍相比上年。
+(15:46.630) 第二個是從處理者來看,就是比上年的處理者變弱。
+(15:54.860) Now handlers, system level testers.
+(15:56.480) 對不起
+(15:56.900) 非常清楚
+(16:01.440) 我認為只是一個簡單的繼續
+(16:03.900) 因為上週NVIDIA在波蘭
+(16:06.780) 在它的GTC上
+(16:08.280) 他們說了
+(16:08.700) 它們的OZ夥伴的CPU能量
+(16:12.530) 將在下年多於15次增長
+(16:14.710) 那如何傳達到
+(16:17.650) 您的機會
+(16:19.610) 對您的公司的CPU貢獻
+(16:22.750) 那很好
+(16:25.740) 很期待
+(16:26.760) 我認為我們已經
+(16:28.570) 只能向
+(16:29.250) Ping Session peers
+(16:31.520) 對
+(16:35.860) I think also very quickly
+(16:38.290) there seems to be some of the
+(16:41.060) mix change
+(16:42.780) 特別是在前幾個月,
+(16:45.000) previous few quarters because
+(16:46.820) you mentioned that one of the factors
+(16:48.680) 一個的因素是
+(16:50.800) in the near term would probably
+(16:52.980) be the China battery customer business
+(16:54.540) should we continue to see
+(16:56.800) that kind of negative offset
+(16:58.560) I think from the margins perspective
+(17:00.040) 我認為從供應者的角度來看,
+(17:02.820) or how should we think about the
+(17:04.780) 整體的業務狀況
+(17:06.240) 對於您的不同業務階段
+(17:09.360) 進行的這一年
+(17:10.400) 對於充電銷售
+(17:13.250) 根據我們目前的計劃
+(17:16.150) 我認為第三季度是最高的
+(17:17.850) 而下個季度是比第三季度低
+(17:21.560) 但是因為有些人
+(17:22.620) 被推出了第一季度
+(17:26.800) 好的
+(17:27.060) 被推出了第一季度
+(17:28.640) 下個季度
+(17:28.980) 明白
+(17:29.260) 因為客戶
+(17:30.700) 謝謝
+(17:39.360) 我說了
+(17:40.680) 輛車的延遲
+(17:41.520) 所以我認為
+(17:43.240) 對,大約一三三分之三,將在下半年推到第一季度。
+(17:50.490) 在前面的收益項目中,您提到的,
+(17:53.170) 在第二季度這一季,與第一季度這一季相比,
+(18:00.490) 您認為,在這一季度,我們將對於這一季度的年份的高級增長期質率,
+(18:06.550) 應該有什麼預期,
+(18:10.850) 或是從您的基建和外地客人來說,
+(18:18.410) 對於這一季度的年份的預期,
+(18:28.580) 應該有什麼預期,
+(18:30.700) 或是從您的基建和外地客人來說,
+(18:30.700) for next year
+(18:33.080) based on our current order on hand
+(18:35.000) OK
+(18:37.390) And just a very quick follow up
+(18:40.450) before jumping back to the queries
+(18:42.150) On your system level testing business
+(18:44.890) it's doubling this year
+(18:46.630) looking into 2027
+(18:49.600) how should we think about
+(18:51.670) the growth momentum
+(18:53.410) because the applications
+(18:56.070) are being diversified into
+(18:58.430) for example
+(18:59.490) the chipsets like networking switch CPUs
+(19:02.230) 我們應該如何計劃增長在2027年?
+(19:06.920) 我認為,從第四季度到第一季度下年,
+(19:13.640) 大多數我們的客戶的能耐用程序
+(19:17.580) are related to inverse markets
+(19:20.770) 包括你能談論的所有東西
+(19:24.210) like CPU, LPU, CPU, ASIC
+(19:30.290) 並且不僅是Google
+(19:34.650) which is we already have order on hand
+(19:39.590) 明白
+(19:40.390) 所以這種駕駛會很快出現
+(19:46.490) 這是你需要考慮的主要原因
+(19:52.420) 為什麼需要考慮GDR的問題
+(19:55.700) 還是有其他因素
+(19:57.740) 關於你的GDR計劃
+(20:01.480) GDR計劃的計劃
+(20:24.100) 因為你能得到的GDR
+(20:27.310) 可能是你目前的現金位置的價值
+(20:30.980) 所以我只是想問
+(20:32.240) 是否關於核心傳輸或是我們應該知道的任何事情
+(20:37.280) 我們目前沒有得到太多詳細的詳細
+(20:53.360) 好的,謝謝你,我先回到樓上
+(21:00.150) 好的,謝謝
+(21:10.260) 你好,我是Jennifer
+(21:12.260) 我想問一個關於三季度的問題
+(21:19.760) 關於投資線,我正在問
+(21:22.600) I'm just wondering
+(21:28.180) and also the contribution
+(21:32.310) 我們在第三季度發送的價值
+(21:51.980) 是低了一個百分點的百分點
+(21:56.080) 我只是在問
+(22:03.400) 是否有方法來算出
+(22:15.320) 我覺得你可以考慮
+(22:24.080) 我們有的其他領域是比之前的股價強大
+(22:30.970) 所以其實我們的混合股價比我們的22%和23%低
+(22:36.450) 所以我們總是儘量保持股價約60%
+(22:48.600) 我認為我們會有這種結構
+(22:53.140) Okay, got it
+(23:06.700) 在第一季度可能會下降
+(23:10.560) 所以是否很怕
+(23:17.480) 我一定不會用回覆這個詞
+(23:20.340) 我認為還是要看問題
+(23:25.570) 基於計算
+(23:34.110) Okay, okay, got it.
+(23:35.870) Then on the system level test
+(23:41.310) besides not just Google
+(23:44.270) also NVIDIA
+(23:45.710) Is there any significant customers
+(23:47.830) that we should be aware
+(23:50.170) that should drive your revenue growth
+(23:53.520) for SLT in 2027?
+(23:55.320) Recently we have a new customer
+(24:05.680) that's including Marvell and Bluecom
+(24:10.000) So these two customers in 2027
+(24:17.010) should become how significant
+(24:32.200) OK,
+(24:32.760) but how about in absolute,
+(24:38.460) you know,
+(24:39.680) a mix or dollar turn?
+(24:42.300) OK, got it
+(24:48.930) Then lastly, on the ATC handler
+(24:52.490) 有沒有任何方法可以幫助我們想象如何,
+(25:04.230) I have a contribution
+(25:12.870) I'm pretty much sure about that
+(25:15.240) Because customers already place order
+(25:20.570) Okay, fair
+(25:24.260) All right, thank you
+(25:25.260) 這不是早期的接種
+(25:28.130) 謝謝
+(25:40.340) If you would like to ask the question
+(25:42.000) Thank you
+(25:42.820) Next one, Alex Wong, Bernstein
+(25:45.950) Go ahead, please
+(25:46.870) Hi, Lawrence and Jennifer
+(25:49.820) This is Alex from Bernstein
+(25:51.500) And my first question is about CPU
+(26:06.560) What's the bottleneck of the expansion?
+(26:09.740) 我們預計將在今年底結束
+(26:18.910) 我們已經獲得了第一季度的P.O
+(26:23.230) 我們的客戶已經給了我們明年的預測
+(26:26.550) 我需要說明一下
+(26:33.870) which is spectrum,
+(26:34.730) 32 dice.
+(26:40.640) Right. Say,
+(26:42.100) for example,
+(26:42.560) 比如說,如果你的發行額是100,
+(26:45.480) 那你將來的生產項目會是多少?
+(26:52.340) Let me tell you this,
+(27:00.950) if I have to compare the units,
+(27:03.710) the testing equipment unit by quantity
+(27:09.200) mass production versus payroll,
+(27:14.800) I would say at least four or five times,
+(27:18.220) But I'm not allowed to tell you exactly
+(27:24.740) 但一旦市場能夠轉移到價值,
+(27:28.240) 根據目前的預測,
+(27:30.770) 是的,
+(27:31.630) 甚至有多次相比。
+(27:34.750) 我明白。
+(27:38.370) 這4-5次,您意味著在一年內,對嗎?
+(27:42.390) 當然。
+(27:44.250) 我說的是預測。
+(27:46.570) 嗯嗯。
+(27:47.350) 我明白。
+(27:47.830) 當然,如果您說明年我們的總預測,肯定是更多。
+(27:53.850) 記住,我們有兩個客戶。
+(27:55.730) 馬威爾已經找到客戶了
+(27:59.940) 所以他們會開始
+(28:00.780) 根據他們的計劃
+(28:02.580) 第一三季度
+(28:03.800) 是在第四季度
+(28:05.180) 移動到全面生產
+(28:06.160) 我明白
+(28:10.610) 你把CPU放在一旁
+(28:12.710) 我認為企業也在談論
+(28:15.210) CPC的測試機會
+(28:18.150) 來年
+(28:18.970) 備用的銀銀
+(28:20.290) 不確定
+(28:21.390) 銀銀有任何參與
+(28:22.790) 是的
+(28:24.440) 但CPC是
+(28:26.530) 系統級測試
+(28:27.570) OK SLT
+(28:29.770) And if anything
+(28:31.090) that will happen
+(28:32.030) in second half next year
+(28:33.130) I assume
+(28:33.490) Second half next year
+(28:37.030) Yeah for revenue contribution
+(28:39.500) Oh I
+(28:41.910) We can't provide any
+(28:43.850) some kind of financial
+(28:44.870) guidance
+(28:46.510) However
+(28:47.250) We could talk about that later
+(28:50.100) Once we finish
+(28:51.320) wrap our budget
+(28:52.500) Yeah
+(28:53.990) Sure
+(28:56.270) Networking communication
+(28:57.870) actually come with a full spec
+(28:59.710) CPO CPC
+(29:01.430) NPC,Transceiver, MPO
+(29:05.600) 我明白
+(29:08.290) 接下來我們來談談能力測試
+(29:12.840) HVDC Power Rack的測試用戶的營業成本是什麼?
+(29:21.590) 根據現時的項目,我認為能夠持續到明年
+(29:28.660) 它能夠持續到明年嗎?
+(29:33.650) 是的
+(29:34.620) OK,
+(29:35.260) my last question about gross margin,
+(29:40.170) 我知道你不太會詢問股市額
+(29:43.690) 剛才的投資者的問題
+(29:47.070) 這一季的投資增長
+(29:54.650) 是否也被費用了
+(30:03.860) Not really, just a part of mix
+(30:06.440) Okay, I see
+(30:08.310) All right, thank you
+(30:10.040) Thank you
+(30:11.000) We are now in question and answers
+(30:14.880) Ask the question on your key
+(30:23.930) Morgan, go ahead please
+(30:27.100) Hi Jennifer and Lawrence
+(30:29.760) Yes
+(30:30.260) Thank you for taking my question
+(30:33.180) My first question is about
+(30:34.760) since we're not allowed
+(30:39.700) but maybe can we talk about
+(30:44.960) 對於ATS和Semi和Photonics之間的分析
+(30:49.900) 在2027年之後,這是我的第一個問題
+(30:52.360) 你意味著每個領域都要進行分析嗎?
+(30:59.320) 我認為
+(31:01.980) 我喜歡最大的增長
+(31:04.600) 是的,我們能否分析它們,因為我們不允許提供數據
+(31:10.120) 是的,我認為20世紀是非常保證的
+(31:19.200) 是的,然後系統級測試者
+(31:25.550) I see
+(31:29.910) I'm wondering like since
+(31:31.650) Clients are placing a lot of big orders
+(31:35.390) And we are also waiting like new clients
+(31:43.600) Especially for AI power testing and CPO
+(31:47.460) Is the lead time like lengthening
+(31:53.360) current market situation
+(32:02.500) however semiconductor need to match
+(32:06.940) 所以很難給你很正常的領域時間
+(32:14.140) 從我們在看的領域觀點上
+(32:18.820) 至少是第二半二十七
+(32:21.540) Is that the right way to interpret it
+(32:25.580) 某些因素可以看上去一整年
+(32:28.130) I see
+(32:31.580) 我的最後的問題是關於可能的價格升級或價格調整
+(32:36.480) 我們有沒有開始將價格調整進行第三季度
+(32:44.360) 或者我們的計劃是什麼
+(32:46.880) 是的,當然,我們在談論價格
+(32:54.350) 對不起,
+(32:56.150) 我有一點關於價格調整
+(33:07.130) 是否主要是為了表達原材料的費用,
+(33:12.850) 或是為了表達我們的計算流程的費用?
+(33:19.850) 我可以說是兩個問題。
+(33:30.160) 那麼,
+(33:30.720) Joke,
+(33:39.780) 你有沒有完成你的問題?
+(33:42.340) 是的,非常感謝。
+(33:44.100) Thank you very much.
+(33:45.780) From the website,
+(33:52.420) First question is
+(34:02.800) what are the gross margin trends?
+(34:05.990) Corporate average
+(34:15.090) And then second question,
+(34:18.320) With total growth margin
+(34:23.340) I would say
+(34:24.960) would third quarter growth margin
+(34:27.660) be higher quarter on quarter
+(34:34.860) no, it's similar
+(34:36.700) not very much change
+(34:37.940) and next one is
+(34:41.300) what are the reasons
+(34:43.260) for third quarter margin below the first
+(34:45.660) I would say the first three quarter
+(34:48.580) we still maintain only 2% difference
+(34:51.060) compared to last year
+(34:52.360) but operating margin is much higher
+(34:53.940) than last year first three quarter
+(34:55.600) And then last question
+(35:00.070) company current view on the developing
+(35:09.850) impact for company called business
+(35:15.460) The last question is not very clear
+(35:35.130) So probably we can talk about that later
+(35:39.520) And I see there's no more questions
+(35:46.890) Yes, thank you Jennifer
+(35:49.460) And ladies and gentlemen
+(35:51.210) we thank you for your participation
+(35:54.990) They were within an hour
+(35:58.460) www.chroma.com.tw
+(36:01.600) investor.com.tw
