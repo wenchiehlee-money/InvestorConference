@@ -74,6 +74,7 @@
 | 2379 瑞昱 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2379) |
 | 2303 聯電 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2303) |
 | 2383 台光電 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2383) |
+| 2383 台光電 | 2026 Q3 | 法說會 | 2026-10-28 | 無 | - | - | [中](data/2383/2383_2026_q3_ir.pdf) | [EN](data/2383/2383_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2383) |
 | 2308 台達電 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | GOOGL Alphabet Inc. | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/GOOGL/financials/) |
 | 3035 智原 | 2026 Q3 | 法說會 | 2026-10-27 | [72.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3035_2026_q3.m4a) | [📝](data/3035/3035_2026_q3_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3035) |
