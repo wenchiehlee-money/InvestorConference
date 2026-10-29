@@ -69,7 +69,7 @@
 | MSFT Microsoft 微軟 | FY2027 Q1 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MSFT/financials/) |
 | SIMO Silicon Motion Technology Corporation | 2026 Q3 | 法說會 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/SIMO/financials/) |
 | GOOGL Alphabet Inc. | 2026 Q3 | 法說會 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/GOOGL/financials/) |
-| 2303 聯電 | 2026 Q3 | 法說會 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2303) |
+| 2303 聯電 | 2026 Q3 | 法說會 | 2026-10-28 | [59.4 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2303_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2303) |
 | SIMO Silicon Motion Technology Corporation | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/SIMO/financials/) |
 | 2379 瑞昱 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2379) |
 | 2303 聯電 | 2026 Q3 | 財報 | 2026-10-28 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2303) |
