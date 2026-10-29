@@ -6,6 +6,7 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----------:|:----:|
+| 2881 富邦金 | 2026 Q3 | 財報 | 2026-11-26 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2881) |
 | HPQ HP Inc. | FY2026 Q4 | 法說會 | 2026-11-24 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPQ/financials/) |
 | HPQ HP Inc. | FY2026 Q4 | 財報 | 2026-11-24 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPQ/financials/) |
 | 2891 中信金 | 2026 Q3 | 財報 | 2026-11-20 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2891) |
@@ -25,7 +26,6 @@
 | 2357 華碩 | 2026 Q3 | 財報 | 2026-11-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
 | 3034 聯詠 | 2026 Q3 | 財報 | 2026-11-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | 5269 祥碩 | 2026 Q3 | 財報 | 2026-11-09 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=5269) |
-| 2308 台達電 | 2026 Q3 | 法說會 | 2026-11-07 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | 8299 群聯 | 2026 Q3 | 法說會 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8299) |
 | 2884 玉山金 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2884) |
 | 2449 京元電子 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2449) |
@@ -52,9 +52,10 @@
 | 2301 光寶科 | 2026 Q3 | 法說會 | 2026-10-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | 2454 聯發科 | 2026 Q3 | 財報 | 2026-10-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | 2301 光寶科 | 2026 Q3 | 財報 | 2026-10-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
+| 2308 台達電 | 2026 Q3 | 法說會 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
 | AMZN Amazon.com Inc. | 2026 Q3 | 法說會 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMZN/financials/) |
 | INTC Intel Corporation | 2026 Q3 | 法說會 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/INTC/financials/) |
-| 2379 瑞昱 | 2026 Q3 | 法說會 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2379) |
+| 2379 瑞昱 | 2026 Q3 | 法說會 | 2026-10-29 | [48.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2379_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2379) |
 | 2395 研華 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2395) |
 | 7769 鴻勁 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7769) |
 | AMZN Amazon.com Inc. | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMZN/financials/) |
