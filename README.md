@@ -61,6 +61,7 @@
 | 2379 瑞昱 | 2026 Q3 | 法說會 | 2026-10-29 | [47.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2379_2026_q3.m4a) | [📝](data/2379/2379_2026_q3_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2379) |
 | 2395 研華 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2395) |
 | 7769 鴻勁 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7769) |
+| 7769 鴻勁 | 2026 Q3 | 法說會 | 2026-10-29 | [67.6 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/7769_2026_q3.m4a) | - | - | - | [EN](data/7769/7769_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7769) |
 | AMZN Amazon.com Inc. | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMZN/financials/) |
 | 2360 致茂 | 2026 Q3 | 財報 | 2026-10-29 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2360) |
 | 2360 致茂 | 2026 Q3 | 法說會 | 2026-10-29 | [36.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2360_2026_q3.m4a) | [📝](data/2360/2360_2026_q3_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2360) |
