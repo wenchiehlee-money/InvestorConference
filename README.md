@@ -52,7 +52,7 @@
 | AAPL Apple 蘋果 | FY2026 Q4 | 法說會 | 2026-11-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
 | AAPL Apple 蘋果 | FY2026 Q4 | 財報 | 2026-11-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
 | 2454 聯發科 | 2026 Q3 | 法說會 | 2026-10-30 | [63.9 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2454_2026_q3.m4a) | - | - | [中](data/2454/2454_2026_q3_ir.pdf) | [EN](data/2454/2454_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
-| 2301 光寶科 | 2026 Q3 | 法說會 | 2026-10-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
+| 2301 光寶科 | 2026 Q3 | 法說會 | 2026-10-30 | 無 | - | - | [中](data/2301/2301_2026_q3_ir.pdf) | [EN](data/2301/2301_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | 2454 聯發科 | 2026 Q3 | 財報 | 2026-10-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
 | 2301 光寶科 | 2026 Q3 | 財報 | 2026-10-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2301) |
 | 2308 台達電 | 2026 Q3 | 法說會 | 2026-10-29 | [61.3 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2308_2026_q3.m4a) | - | - | [中](data/2308/2308_2026_q3_ir.pdf) | [EN](data/2308/2308_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2308) |
