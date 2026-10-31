@@ -2,8 +2,8 @@
   "symbol": "005930.KS",
   "source_url": "https://www.samsung.com/global/ir/financial-information/earnings-release/",
   "source_type": "official_ir_discovery",
-  "retrieved_at": "2026-10-28 09:32:14 CST",
-  "sha256": "f7aaf624b73c4ad28f46d6e33dc59e8e51a92bf0e6d417bc8353a35e19d3589f",
+  "retrieved_at": "2026-10-31 08:44:38 CST",
+  "sha256": "76336ba7ab527a9d8561249cba387223006770022b2dfd7b11611731c132a686",
   "notes": "Discovery only; PDF/table parser still required before writing normalized quarterly rows.",
   "links": [
     {
@@ -24,6 +24,10 @@
     },
     {
       "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_2Q_conference_eng.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "//images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_3Q_conference_eng.pdf",
       "text": "PDF"
     },
     {
@@ -160,10 +164,6 @@
     },
     {
       "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2017_2Q_Earnings_Release_Samsung_Electronics.pdf",
-      "text": "PDF"
-    },
-    {
-      "href": "//images.samsung.com/is/content/samsung/p5/global/ir/docs/2017_3Q_Earnings_Release_Samsung_Electronics.pdf",
       "text": "PDF"
     }
   ]
