@@ -12,6 +12,8 @@
 | DELL Dell Technologies 戴爾科技 | FY2027 Q3 | 財報 | 2026-11-24 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/DELL/financials/) |
 | HPQ HP Inc. | FY2026 Q4 | 法說會 | 2026-11-24 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPQ/financials/) |
 | HPQ HP Inc. | FY2026 Q4 | 財報 | 2026-11-24 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPQ/financials/) |
+| HPE Hewlett Packard Enterprise Co. | FY2026 Q4 | 法說會 | 2026-11-23 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
+| HPE Hewlett Packard Enterprise Co. | FY2026 Q4 | 財報 | 2026-11-23 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
 | 2891 中信金 | 2026 Q3 | 財報 | 2026-11-20 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2891) |
 | NVDA NVIDIA 輝達 | FY2027 Q3 | 法說會 | 2026-11-17 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
 | NVDA NVIDIA 輝達 | FY2027 Q3 | 財報 | 2026-11-17 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
@@ -22,6 +24,7 @@
 | 2376 技嘉 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2376) |
 | 2603 長榮 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2603) |
 | 2324 仁寶 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
+| 2382 廣達 | 2026 Q3 | 法說會 | 2026-11-11 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
 | 4938 和碩 | 2026 Q3 | 財報 | 2026-11-11 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=4938) |
 | 3653 健策 | 2026 Q3 | 財報 | 2026-11-11 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3653) |
 | 2347 聯強 | 2026 Q3 | 財報 | 2026-11-11 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2347) |
@@ -34,8 +37,8 @@
 | 2449 京元電子 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2449) |
 | 6669 緯穎 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6669) |
 | 8454 富邦媒 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8454) |
+| 2474 可成 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2474) |
 | 2458 義隆 | 2026 Q3 | 法說會 | 2026-11-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2458) |
-| 2474 可成 | 2026 Q3 | 財報 | 2026-11-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2474) |
 | 2353 宏碁 | 2026 Q3 | 財報 | 2026-11-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2353) |
 | 2345 智邦 | 2026 Q3 | 財報 | 2026-11-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2345) |
 | 2458 義隆 | 2026 Q3 | 財報 | 2026-11-05 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2458) |
@@ -48,6 +51,7 @@
 | 3661 世芯-KY | 2026 Q3 | 財報 | 2026-11-04 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3661) |
 | AMD AMD 超微 | 2026 Q3 | 法說會 | 2026-11-03 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
 | 2344 華邦電 | 2026 Q3 | 財報 | 2026-11-03 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2344) |
+| 2344 華邦電 | 2026 Q3 | 法說會 | 2026-11-03 | [85.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2344_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2344) |
 | AMD AMD 超微 | 2026 Q3 | 財報 | 2026-11-03 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
 | AAPL Apple 蘋果 | FY2026 Q4 | 法說會 | 2026-11-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
 | AAPL Apple 蘋果 | FY2026 Q4 | 財報 | 2026-11-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
