@@ -1,0 +1,407 @@
+[METADATA]
+Source: 2412_2026_q3_exp13
+Language: en
+---
+(00:00.000) Good afternoon, ladies and gentlemen. Welcome to Chunghwa Telecom conference call for the company's third quarter 2026 operating results.
+(00:09.080) During the presentation, all lines will be on listen-only mode. When the briefing is finished, directions for submitting your questions will be given in the question and answer session.
+(00:19.920) For your information, this conference call is now being broadcasted live over the internet.
+(00:26.600) Webcast replay will be available within an hour after the conference is finished.
+(00:31.340) Please visit the CHT IR website, www.cht.com.tw, slash IR, under the IR calendar section.
+(00:41.840) Now, I would like to turn it over to Ms. Angela Tsai, the Vice President of Finance.
+(00:46.560) Thank you. Ms. Tsai, please go ahead.
+(00:49.920) Thank you. I'm Angela Tsai, Vice President of Finance at Chongha Telecom.
+(00:55.300) Welcome to our third quarter 2026 earnings conference call.
+(00:58.880) Joining me today are Chongha's President Rongxi Ling and our Chief Financial Officer, Audrey Xu.
+(01:05.780) During today's call, management will begin by sharing our recent strategic achievements
+(01:11.000) and providing an overview of our third quarter business results.
+(01:14.880) This will be followed by a discussion of our segment performance and financial highlights.
+(01:21.100) We will then open the floor for questions and answers.
+(01:24.920) Please turn to slide two to review our disclaimers and forward-looking statement disclosures.
+(01:30.760) Now I will turn the call over to our president.
+(01:33.480) President Lin, please go ahead.
+(01:35.960) Thank you, Angela, and hello, everyone.
+(01:38.640) Welcome to our third quarter 2026 results conference call.
+(01:43.200) To begin with, we are proud to report excellent performance in the third quarter.
+(01:49.120) Our revenue, operation income, net income, EBITDA, and EPS all beat the upper ends of our guidance
+(01:56.680) and hit their highest level for any third quarter since 2009.
+(02:04.080) We are satisfied with our continuous leadership in Taiwan's more and fixed broadband markets
+(02:10.620) And even more pleased to highlight that our ICT revenue alone reached its highest third quarter level since 2021.
+(02:22.100) Our asset revitalization efforts have also paid off, contributing a one-off gain in the third quarter and validating the soundness of our policy.
+(02:33.700) With all these achievements, we are quite confident that we will exceed our four years forecast.
+(02:40.620) While delivering solid third quarter performance, we also continue to lay the foundation for the future growth.
+(02:49.220) For standalone 5G network deployment, we continue to upgrade our best station with population coverage expected to exceed 50% by the end of 2026.
+(03:03.580) primarily in metropolitan areas and along high-speed rail roads,
+(03:10.320) with nationwide coverage to follow in 2027.
+(03:15.100) Consumers are expected to experience no slicing from the functionality in 2027.
+(03:24.300) In addition, we sustained our continuous AI-related deployment
+(03:29.900) across all fronts of our business.
+(03:32.840) Earlier today, we announced an expanded collaboration with Google to broaden our AI-enabled services and accelerate consumer AI adoption, which we expect to enhance the digital services we offer to customers and strengthen our long-term growth positioning.
+(03:55.560) On the enterprise front, in addition to our existing AIDC service, we are also expanding our AI-related business through new ventures.
+(04:09.860) China Telecom's Invent AI, which we sponsored years ago, has already gained traction with its Gen AI governance and agent hub services.
+(04:27.300) We have seen increasing demand from the financial and public sectors and have begun to generate revenue.
+(04:36.120) Following this success, we took another step forward in AI by establishing
+(04:42.960) Songho Telecom's Intelligent Vision Intelligence and HAI Technologies.
+(04:52.980) These strategic moves lay the foundation for our future growth in the AI area.
+(05:02.300) Finally, we are delighted to report that our ESG-related achievement.
+(05:08.620) First, we began one of the first companies worldwide to obtain BSI's AI Mark of Trust,
+(05:17.240) validating our AI governance against international standards and strengthen stakeholder trust.
+(05:25.220) We were also recognized globally for our leadership in sustainability, telecommunication services, and 5G innovation by Time magazine at the front of the survey.
+(05:37.420) domestically we are again named among the taiwan top 100 company preferred by foreign
+(05:47.520) institutional investors and received multiple honors for digital transformation
+(05:53.960) from our business review this achievement reflect our continued progress and leadership across
+(06:02.060) key areas. Now let's move on to our third quarter of 2026 results.
+(06:10.980) Please turn to page 5 for our success in Taiwan's mobile market. In the third quarter,
+(06:18.440) our market share continued to outperform peers across all metrics. Our mobile revenue market
+(06:25.580) share climbed to a record high of 41.2%, while our subscriber market share rose to 39.9%,
+(06:36.700) according to our telecom regulator. Particularly, our revenue share continued to exceed our
+(06:45.040) subscriber share, reflecting the premium quality of our subscriber base in the industry.
+(06:51.320) Our 5G performance was equally impressive.
+(06:55.740) In the third quarter, our 5G market share in Taiwan reached 39.4%, maintaining number one status.
+(07:05.560) In addition, our 5G penetration rate among smartphone users increased to 49.6% as of September,
+(07:15.700) and we anticipate it will surpass 50% by year-end.
+(07:22.780) The average monthly fee uplift from 5G migration remains stable at 40%,
+(07:29.780) and our post-pay trend rate is set at a low level of 0.41%, reflecting strong customer loyalty.
+(07:39.540) As a result, we are glad to see a nearly 3% year-over-year revenue increase in our mobile service in the third quarter due to a growing 5G adoption, mostly driven by the high-end smartphone sales, and the increased roaming revenue, which delivered an 18% increase year-over-year in the third quarter.
+(08:06.500) Meanwhile, PostPay output increased by 2% of NT$11, sustaining the growth trajectory.
+(08:20.860) Let's move on to slide 6 for our fixed broadband business update.
+(08:25.940) In the third quarter, our fixed broadband revenue and subscriber number increased by 3% and 0.7%, respectively.
+(08:36.500) driven by our success in promoting speed upgrade.
+(08:41.880) In the third quarter, sign-off of 300 megabits per second and above
+(08:47.680) maintained double-digit growth at 14.4% year-over-year,
+(08:54.380) while sign-off of 1 gigabit per second and above increased by 42% year-over-year,
+(09:06.500) Accordingly, signs up of 300 Mbps and above reached 43% of our total fixed broadband customer base, serving as a strong driver to spearhead fixed broadband business.
+(09:24.400) As a result, our fixed broadband revenue posted a 3% increase year-over-year in the third quarter,
+(09:33.120) while the APU rose by 1.6% of $80.12 year-over-year.
+(09:39.640) We expect the growth dynamics to continue alongside the ongoing digital demand.
+(09:46.460) Page 7 highlights the performance of our million subscriber customer services.
+(09:55.140) In the third quarter, signs up of our multiple play offering, which integrate our mobile fixed broadband and Wi-Fi services,
+(10:05.620) continued their upward trend and grew 13% year over year.
+(10:11.840) driving up our overall telecom revenue growth.
+(10:19.820) Notably, our Wi-Fi penetration among fixed broadband subscribers reached 58%,
+(10:28.520) accelerating the popularity of the smartphone environment for customers.
+(10:35.680) For our video business in the third quarter, thanks to the broadcast of FIFA World Cup in June and the Asian Games in September, our video subscriber number steadily maintained above 3 million, serving as one of the key revenue contributors in our custom business.
+(10:59.180) Our success in content investment came not only from sports, but also from us.
+(11:08.000) For the upcoming 63rd Golden Host Awards in Taiwan, we have received the largest number of nominations in the telecom industry this year.
+(11:21.940) Recognizing the quality of our content selection, we are happy to provide appealing content to our customers and look forward to related returns in the future.
+(11:38.560) Meanwhile, our digital services continue to expand.
+(11:43.560) Our consumer cybersecurity service maintained over 1 million subscribers and delivered 12% year-over-year growth, supported by rising demand for digital security.
+(11:58.580) The number of transacting users of our direct carrier billing, or DCB, increased by 5% year over year.
+(12:10.500) We are also seeing DCB used for a broader range of purposes beyond gaming, including AI tools and social media,
+(12:21.360) which we believe will help diversify our revenue stream and support future growth.
+(12:28.580) Slide 8 illustrates the key development in our enterprise ICT business.
+(12:37.220) With the group collaboration, our ICT revenue in the third quarter increased 19% year over year.
+(12:46.880) Driven by continued expansion of emerging services, the group's recurring ICT revenue also rose by 19% year over year,
+(12:57.060) demonstrating strong momentum across major service lines, such as IDC cybersecurity and cloud services.
+(13:06.000) In particular, we saw AI-related subscriptions make a positive contribution to our international public cloud service revenue in the third quarter.
+(13:18.040) Among our core ICT service pillars, cloud, IDC, cybersecurity, and AIoT service delivered a strong year-over-year growth of 45%, 26%, 22%, and 14%, respectively.
+(13:37.440) In the third quarter, cloud and cybersecurity revenue growth was primarily driven by transportation and financial projects.
+(13:46.580) While IDC revenue achieved its 10th consecutive quarter of year-over-year growth supported by installation projects for high-tech companies, additionally, AIOT revenue grew steadily on the back of increased delivery of smart cities and smart building projects.
+(14:11.100) We are particularly excited to share that our cumulative ICT order intake by September had already surpassed 1.4 times the four-year 2025 level, with the third-quarter order intake up 84%.
+(14:35.460) year-over-year, mainly driven by large government-related projects
+(14:40.920) as well as AIDC installation for enterprise customers.
+(14:45.240) Taking a closer look, during the quarter,
+(14:50.260) we secured several smart surveillance and smart transportation projects
+(14:55.660) thanks to our outstanding self-developed AI-driven image recognition technology.
+(15:02.920) Also, we leverage our decentralized identity and blockchain technology to help build a government-led digital one-lead platform, which enables users to integrate multiple digital potentials on smartphones, while also demonstrating cross-border interoperability identity verification, such as for international driving licenses.
+(15:29.800) We look forward to related opportunities ahead.
+(15:34.000) Slide 9 highlights the excellent performance of our international subsidiaries and the
+(15:43.500) continued progress in global expansion.
+(15:47.680) In the third quarter, our international subsidiaries delivered an 8% year-over-year revenue increase.
+(15:56.100) The United States market surged 27% due to the completion of AI supply chain equipment deployment in California.
+(16:06.880) Meanwhile, Southeast Asia revenue rose 3%, supported by ongoing construction projects in Vietnam.
+(16:15.180) Alongside the solid growth of our overseas ICT business, our network resilience business continues its upward trajectory.
+(16:27.340) A 9.8% year-over-year lift in the satellite-related revenue highlights this expansion,
+(16:36.200) fueled by emerging demand for secure and diversified connectivity.
+(16:41.360) Furthermore, by September, our cumulative satellite-related wins from the government's joint procurement system has reached over $80 million, $250 million, paving the way for upcoming revenue contributions.
+(17:02.540) Another key growth deliver for the network resilience business was the international private list circuit, or IPLC.
+(17:12.680) IPLC revenue grew 33% year-over-year, and the SCC2 and APRICOR submarine cable system steadily generated a recurring revenue stream.
+(17:27.220) Additionally, our new branch in Guatemala officially launched in October to serve as
+(17:35.220) a regional base for ICT service expansion across Central and South America.
+(17:41.460) Building on this momentum, we secured a data center construction project from the Guatemala
+(17:48.980) government, marking a meaningful milestone in our regional growth roadmap.
+(17:54.460) At the same time, we continue to deepen our relationship with Taiwanese enterprise expanding overseas, securing follow-on ICD opportunities in Japan and the United States,
+(18:13.780) as well as capturing ICD projects from sports tech companies in Thailand in the third quarter.
+(18:25.300) This encouraging win and strong performance concludes a productive third quarter for our global business development.
+(18:34.480) Now let's move on to page 10 for the financial performance of our three business groups.
+(18:46.440) In the third quarter, our core telecom business remained strong.
+(18:53.720) Growth in the mobile services, fixed broadband, and handset sales drove consumer business groups' revenue up.
+(19:03.100) 6.3% year-over-year, while income before tax increased by 1.4%,
+(19:11.600) partially offset by higher-cost France sports broadcasting rights.
+(19:18.440) Enterprise business group revenue increased 8.2% year-over-year,
+(19:23.880) supported by robust ICT performance and continued growth in mobile and fixed broadband services,
+(19:33.100) However, income before tax declined slightly due to the group's higher cost associated with strong ICT revenue growth
+(19:42.680) plus the increased seasonal personal related expense alongside continued investment in talent retention.
+(19:51.720) In terms of our international business group, its revenue increased by a solid 6.6%,
+(19:58.680) while income before tax grew by 12.2% year-over-year.
+(20:04.860) Despite a decline in ICT revenue due to a high comparison base resulting from a one-off project recognized last year,
+(20:14.440) strong contributions from IPOC continued to drive IBG's revenue and profitability growth.
+(20:23.420) That concludes the business overview for the third quarter.
+(20:26.900) Now I would like to hand the call over to Audrey for financial updates.
+(20:34.720) Thank you, President, and good afternoon, everyone.
+(20:38.680) I'm pleased to walk you through our financial results for the third quarter of 2026.
+(20:45.380) Now please turn to slide 12.
+(20:48.220) We delivered strong results in the third quarter.
+(20:51.700) Consolidated revenue reached NT $67.59 billion, up 16.7% year-over-year.
+(21:02.900) Income from operations rose 27.1%, and net income grew 29.5%, bringing EPS to NT $1.57.
+(21:15.380) Both revenue and EPS were the highest we have ever recorded for our third quarter.
+(21:23.320) Let me highlight the three key drivers behind our revenue growth.
+(21:28.260) First, we recognized a one-time contribution from our subsidiary's asset revitalization project.
+(21:36.400) Second, product sales grew strongly.
+(21:39.420) This was driven by higher handset average selling price and volumes, increased sales of 3C products and accessories, and solid contribution from Zhonghua precision tests on the back of robust AI-related demand.
+(21:57.680) Third, our core telecom business continues to grow steadily, and ICT service maintains strong momentum, as the President highlighted earlier.
+(22:07.660) Now, turn to profitability. You will note that income from operations grew faster than revenue. This reflected the three things, the one-time contribution, stronger earnings at Zhonghua Precision Test, and the continued resilience of our core telecom operations.
+(22:27.660) operations. EBITDA increased 16.1% to NT25.66 billion, representing an EBITDA margin of 37.97%.
+(22:41.380) Let me now turn to our year-to-date performance. For the first nine months, revenue increased 10.8%
+(22:50.800) year-over-year to $188.95 billion NT dollars.
+(22:57.280) Income from operations rose 12.3% to $41.74 billion,
+(23:03.740) and net income grew 12.1% to $32.97 billion.
+(23:11.300) EPS was $4.25 NT dollars compared with $3.79 NT dollars a year ago.
+(23:18.700) EBITDA increased 7.8% to $72.48 billion.
+(23:25.480) So overall, the results reflect solid execution across our business.
+(23:31.160) They reinforce our confidence in meeting and potentially exceeding our four-year guidance.
+(23:38.300) Please turn to slide 13 for an overview of our balance sheet.
+(23:43.020) As of September 30, 2026, total assets stood at NT$527 billion, down 1.7% from the end of 2025.
+(23:56.540) This was primarily because depreciation exceeded capital expenditures, as well as the continual amortization of our 4G and 5G spectrum license.
+(24:08.460) On the liability side, total liability decreased by 1.7% from year-end 2025.
+(24:17.300) This decrease primarily reflected the repayment of maturing debt during the period.
+(24:23.980) Our debt ratio remained stable at 25.19%.
+(24:29.140) Our balance sheet remained sound.
+(24:32.180) The current ratio stood at 135.78%, and our net debt-to-EBITDA ratio was zero.
+(24:42.100) This provides us with ample financial flexibility to support future growth.
+(24:49.040) Please turn to slide 14 for our cash flow summary for the first nine months of 2026.
+(24:55.420) Net cash provided by operating activities increased 9.6%.
+(25:01.420) year-over-year to only $49.84 billion, primarily reflecting improved profitability during the period.
+(25:11.980) Capital expenditures totaled only $16.17 billion, down 6.5% year-over-year.
+(25:20.580) Mobile Capex decreased 4.5%, mainly reflecting the timing of network investments,
+(25:27.120) while non-mobile Capex declined 7.4%, primarily due to higher comparison phase last year.
+(25:36.160) Free cash flow increased 19.6% year-over-year to $33.67 billion.
+(25:45.240) This provides us with financial flexibility to support continuing network investment, business growth, and shareholder returns.
+(25:53.340) Finally, please turn to slide 15 for our performance highlights and guidance.
+(26:01.040) We deliver strong third quarter results with revenue exceeding our expectations.
+(26:07.860) This performance was supported by steady growth in our core telecom business, continued momentum
+(26:14.100) in ICT service, strong and expected product sales, and a one-time contribution from our
+(26:20.880) subsidiary asset revitalization project. Revenue growth outpaced the increase in operating costs
+(26:29.960) and expenses, which strengthened our profitability. As a result, all of our major financial metrics
+(26:38.100) exceeded the upper end of our third quarter guidance. This includes revenue, income from
+(26:45.340) operations, net income, EPS, and EBITDA.
+(26:50.220) This concludes our financial review.
+(26:52.940) We will now be happy to take your questions.
+(26:57.120) Yes, thank you.
+(26:58.840) Ladies and gentlemen, we will now begin the question and answer session.
+(27:03.360) If you have a question for any of today's speakers, please press star key and number
+(27:08.720) one on your telephone keypad, and you will enter the queue.
+(27:11.920) After you are announced, please ask your question.
+(27:16.460) And when you are speaking, please be louder or closer to the microphone.
+(27:20.160) If you find that your question has been answered before it is your turn to speak, please press
+(27:25.860) star key and number two to cancel the question.
+(27:29.600) And you are also welcome to send questions via chat box on the webcast page.
+(27:34.360) We'll begin with the questions from Telephone Y and then move to the queries from the web
+(27:38.560) page.
+(27:39.560) Thank you.
+(27:41.920) We have our first question, Ranjan Sharma of J.P. Morgan.
+(27:46.440) Go ahead, please.
+(27:49.020) Hi, good afternoon, and thank you for the presentation.
+(27:52.040) Two questions, please.
+(27:54.700) Firstly, on the 19% year-on-year growth in your ICT business,
+(28:00.040) can you please help us understand how much of the growth is from recurring revenues
+(28:04.080) and how much is from revenues recorded at a point in time
+(28:07.880) and the sources of those revenues?
+(28:10.400) The second is on the asset revitalization initiative, if you can help us understand
+(28:19.840) what are the key strategies that you have and how much revenue should we expect from
+(28:24.380) these initiatives over the next year or so.
+(28:27.380) Thank you.
+(28:28.380) Hello, Ranjan.
+(28:29.380) Hello, Ranjan. According to our ICT revenue, we don't disclose the breakdown for how much
+(28:45.020) percentage for the recurring revenue and how much percentage for the one-time. But actually,
+(28:51.620) I can say that for the absolute number, the project, the one-time project revenue is still larger than the recurring revenue.
+(29:03.020) That's because, you know, sometimes we will receive a pretty large project, you know, which contributes a lot of revenue.
+(29:12.160) But we continue to see the recurring revenue continue to increase year over year.
+(29:19.500) So that's a good part, a good thing for our ICT business.
+(29:30.240) Okay.
+(29:31.140) Hi, Brunchan.
+(29:32.700) Let me add some to the asset revitalization.
+(29:37.240) So this quarter, we did have a one-time recognition from the asset revitalization from our subsidiary.
+(29:48.140) So our subsidiary, Light Era Development Company, built a residential project in Taoyuan.
+(29:56.600) So usually, as you know, that under IFI 16, so revenue from residential project is usually recognized when units are delivered to buyers.
+(30:08.620) So most of the contribution will be recognized in the third quarter.
+(30:13.700) And so, asset revitalization is an ongoing effort, but the time and the size of each
+(30:22.040) project are very hard to predict.
+(30:25.380) But we should say that this – so we do not expect a contribution of similar size in the
+(30:31.660) near term.
+(30:32.660) Thank you.
+(30:33.660) If I can have a quick follow-up, please.
+(30:39.660) Can I have a quick follow-up, please?
+(30:43.000) Sure.
+(30:43.380) On the ICT business, the project-based revenues that you are seeing growth in,
+(30:51.040) is it coming from IDC, cyber, or cloud, please?
+(30:55.080) Yeah, it mainly comes from IDC services and cloud.
+(31:02.540) Cloud, particularly, we see the growth from the international public cloud, okay?
+(31:08.380) And then the cybersecurity, because we also provide subscription-based cybersecurity services, so it also contributes the recurring revenue.
+(31:19.880) Okay. Thank you very much.
+(31:23.620) Thank you.
+(31:24.940) If you would like to ask a question, please press star key and number one on your telephone keypad.
+(31:30.720) Thank you.
+(31:38.380) Okay, we received one question from our internet platform.
+(31:43.480) That is, why the decrease of the income before tax of the EBG, and how is the future outlook?
+(31:56.000) Yeah.
+(32:01.060) Thank you for the question.
+(32:02.940) So the slight decline in profits in enterprise-based SGMA was mainly due to two factors.
+(32:12.140) So first, our four-year earnings are tracking above expectations,
+(32:17.580) so we accrue higher performance bonus in the third quarter, so including a catch-up adjustment.
+(32:23.260) So this is the timing effect, not a structural change.
+(32:26.360) And second, our ICT business grew strongly, and ICT projects generally, as you know, carry lower margins than telecom services because they include equipment and construction costs.
+(32:40.060) So this just reflects a change in revenue.
+(32:42.480) So going forward, we will focus on improving project margins and as recurring revenue continues to grow.
+(32:53.300) So, we expect our ICT margin to improve.
+(33:09.400) Ladies and gentlemen, we are now in question and answer session.
+(33:13.060) If you would like to ask a question, please press star 1 on your telephone keypad.
+(33:18.060) Thank you.
+(33:23.300) Next one, Sigrid Chu of JP Morgan.
+(33:31.740) Go ahead, please.
+(33:32.740) Thank you, management.
+(33:33.740) Thank you very much for the presentation and the opportunity for questions.
+(33:39.860) I just want to dive a little bit deeper on your ICT side.
+(33:44.300) For current hour ICT revenue, could you kindly provide the percentage of hardware sales versus
+(33:51.940) service revenue within our enterprise and international ICT segment? And secondly,
+(33:58.260) is it possible for management to give us a breakdown of different project types? For example,
+(34:05.220) out of our total ICT contract value, how much percentage comes from
+(34:10.820) cloud idc cyber security and aiot thank you
+(34:27.300) hi uh secret uh thank you for your questions for uh your first question is about the hardware
+(34:32.740) how much you know i are ict revenues from the hardware sales and how much you know for the
+(34:39.300) service, revenue.
+(34:40.960) Currently, we don't
+(34:43.080) disclose this kind of segment,
+(34:45.380) but going forward, we will try to
+(34:47.000) give you more colors.
+(34:49.420) But actually, when we do the
+(34:51.040) I can explain that when we
+(34:53.060) do the project,
+(34:55.340) most of the time, the project
+(34:57.340) may comprise two
+(34:59.260) revenue streams,
+(35:01.960) including the
+(35:02.900) hardware sales and including the service.
+(35:05.560) That's why we try to gain
+(35:07.140) the pilot
+(35:08.280) contracts from the industry leader.
+(35:12.480) Because if we get the pilot contract, then we can do
+(35:17.240) the add-on or the follow-up services.
+(35:20.580) And maybe this kind of services is on a
+(35:24.640) recurring basis, just like the
+(35:27.040) servicing revenue. So we don't disclose
+(35:32.200) the breakdown, but I think
+(35:34.840) we will try to, you know,
+(35:37.580) we can try to, you know, give you more colors
+(35:40.240) later. And for the
+(35:42.240) contract value
+(35:43.840) breakdown of different
+(35:45.920) project types, okay,
+(35:47.840) how much from cloud?
+(35:50.900) Yeah, just like we don't
+(35:52.020) disclose this kind of
+(35:53.940) breakdown, but I can say
+(35:55.600) we can see that for the
+(35:57.880) cloud services, now we
+(36:00.040) see, you know,
+(36:02.280) a lot of, you know, enterprises
+(36:04.180) they will use the, we have our own cloud brand.
+(36:08.880) It's called HiBrand.
+(36:09.880) It's a high cloud.
+(36:11.420) It's mainly for the SMC companies.
+(36:14.060) But for the large companies, we see a lot of, you know,
+(36:18.280) more in adoption of international public cloud.
+(36:23.760) So you can see from the presentation for this quarter,
+(36:27.640) our cloud revenue increased like 45%, right?
+(36:30.520) That's part of the results.
+(36:35.520) So I'm not sure if this is helpful.
+(36:40.520) Thank you.
+(36:43.520) Thank you very much. That's very helpful.
+(36:46.520) Maybe let me just follow up on the margin profile for our ICT business.
+(36:52.520) Is it possible for you to comment on the margin profile of different project types?
+(36:58.520) If you can't disclose the absolute number, that's fine.
+(37:01.620) Maybe just a packing order of which type of project actually contribute to higher ICT margin.
+(37:08.540) And then in terms of the overall ICT margin trajectory going forward,
+(37:14.280) I want to understand a bit more on management's thoughts on how to improve the ICT margin going forward.
+(37:21.460) Thank you.
+(37:28.520) Okay. Sigrid, thank you for your question. And I think that I understand your interest
+(37:43.580) in a more detailed breakdown about the individual element. But first of all, I just want to
+(37:53.340) share more about the underlying behind the ICT in our company. So the main reason is
+(38:03.460) that most of our business is delivered as a total solution. So in many cases, a single
+(38:09.300) project usually includes several elements at the same time, such as hardware, software,
+(38:15.300) system integration, cloud, cybersecurity, and IDC service. So for example, when we have
+(38:23.340) government agency or a high-tech company build a new platform, we may provide the equipment,
+(38:32.860) the cloud infrastructure, or their cybersecurity protection, and also the ongoing maintenance
+(38:38.860) and operation service all under one contract. So our customers value us as a one-stop partner
+(38:46.260) that can take the responsibility for this entire solution, not just the individual component.
+(38:52.540) So this is actually one of our key competitive advantages because few players in Taiwan can combine network, data center, cloud, cybersecurity capabilities the way we can.
+(39:05.240) But it also means that splitting the revenue into separate categories will not fully reflect how the business works.
+(39:14.060) So I think that this is quite crucial for you to understand the total solutions business model behind our ICT.
+(39:28.120) The margin.
+(39:38.100) So IDC and cybersecurity are two of our most profitable ICT service.
+(39:45.860) So they are many, both are many recurring service.
+(39:49.580) So many customers, we sign long-term contracts, so they give us stable and predictable revenue.
+(39:56.020) So in IDC, as you know, we basically have a very strong market leadership in Taiwan,
+(40:03.260) and this gives us a very good niche in the margin.
+(40:09.740) So in cybersecurity, our value also comes from our own expertise and experience,
+(40:14.560) not just from reselling the hardware.
+(40:17.040) So the margins are also quite solid.
+(40:26.020) Great, thank you.
+(40:31.020) Thank you.
+(40:36.580) To ask a question, you may press star 1 on your telephone keypad.
+(40:40.680) Thank you.
+(40:43.680) Okay, we have one more question from our internet platform that's about contract
+(40:55.780) liability?
+(41:05.100) The contract liability in the balance sheet usually represents the prepaid revenue from
+(41:18.980) the customers.
+(41:21.620) So it usually represents the future revenue and also the secure revenue.
+(41:28.700) So as we mentioned, as our president mentioned earlier, that you can see we already secure a huge amount of the order taking.
+(41:41.600) Some of them have been reflected in the contract liability.
+(41:47.440) Okay, in terms of the AIDC contribution, I think, yeah, there will be more and more recurring
+(41:58.940) revenue coming from our AIDC as we, you know, roll out more capacity and the occupancy rates
+(42:07.820) will increase from our AIDC.
+(42:10.520) One more question is about the GPU.
+(42:17.100) Is it about 100 or 200?
+(42:19.360) Actually, Chongha Telecom, we have our GPU resources.
+(42:24.680) And if our clients want to rent the GPU resources from us, it's okay.
+(42:30.420) But most of the time, our clients, they can also use their GPU resources in the AIDC.
+(42:39.380) Yeah.
+(42:40.520) Okay, so I think that the question is about also very interesting in the contract liability.
+(42:54.220) So thank you for this question.
+(42:56.800) So most of our contract liability, as I just mentioned, let me emphasize again, they are
+(43:04.580) related to ICT projects.
+(43:07.080) So going forward, we expect recurring revenue to play a larger role, especially as our,
+(43:13.640) like, Loompin and AIDC came online.
+(43:18.420) This AIDC will serve confirmed customers under long-term contracts, which will bring stable
+(43:24.400) recurring revenue.
+(43:27.780) As for leasing computing power, our current focus is on AIDC infrastructure service.
+(43:36.720) So, we will continue to evaluate other business models based on market demand.
+(43:57.060) Ladies and gentlemen, we are now in question and answer session.
+(44:00.760) If you would like to ask a question, please press star key and number one on the keypad.
+(44:05.660) Thank you.
+(44:06.720) You may press Start 1 on your telephone keypad if you would like to ask a question.
+(44:36.720) So thank you for the question.
+(44:51.020) So now there's another question.
+(44:53.140) Do you have plans to help enterprise customer deploy AI models such as Gemari in their own data center?
+(45:00.600) And how is the level of interest from Taiwanese enterprises?
+(45:04.840) So thank you for the question.
+(45:06.300) from Kevin. So we are seeing strong interest from Taiwanese enterprise, especially in the
+(45:13.200) financial and public sectors. So many of them want to use advanced AI model, but they also need to
+(45:20.020) get sensitive data with their own involvement or within Taiwan. So this is where we can help.
+(45:27.260) So we can combine our AIDC and IDC facilities, private cloud and network capability to host
+(45:35.200) AI models in a secure, local environment.
+(45:39.620) And our subsidiary, CHT Invent AI, also provides AI governance and an agent hub service to
+(45:48.600) help enterprise deploy and manage AI safely.
+(45:52.120) So building on our expanding collaboration with Google, we will continue to explore more
+(45:59.220) ways to bring advanced AI models to our enterprise customers.
+(46:05.200) If you would like to ask a question, you may press star key and number one on your keypad.
+(46:34.640) Thank you.
+(46:41.640) If there are no further questions, I will turn it back over to President Lin.
+(46:45.640) Thank you.
+(46:58.640) Okay. Thank you very much for your participation. Bye-bye.
+(47:04.640) Thank you, President Lin.
+(47:06.060) Ladies and gentlemen, we thank you for your participation in Chungha Telecom's conference.
+(47:11.500) There will be a webcast replay within an hour.
+(47:14.360) Please visit www.cht.com.tw slash IR under the IR calendar section.
+(47:22.400) You may now disconnect.
+(47:23.980) Thank you again.
+(47:25.060) Bye.
