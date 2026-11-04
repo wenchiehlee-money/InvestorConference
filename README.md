@@ -50,10 +50,10 @@
 | QCOM Qualcomm 高通 | FY2026 Q4 | 財報 | 2026-11-04 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/QCOM/financials/) |
 | 2412 中華電 | 2026 Q3 | 法說會 | 2026-11-04 | [47.4 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2412_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2412) |
 | 2412 中華電 | 2026 Q3 | 財報 | 2026-11-04 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2412) |
-| AMD AMD 超微 | 2026 Q3 | 法說會 | 2026-11-03 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
+| AMD AMD 超微 | 2026 Q3 | 法說會 | 2026-11-03 | 無 | - | - | - | [EN](data/AMD/AMD_2026_q3_ir_en.pdf) | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
 | 2344 華邦電 | 2026 Q3 | 財報 | 2026-11-03 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2344) |
 | 2344 華邦電 | 2026 Q3 | 法說會 | 2026-11-03 | [85.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2344_2026_q3.m4a) | [📝](data/2344/2344_2026_q3_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2344) |
-| AMD AMD 超微 | 2026 Q3 | 財報 | 2026-11-03 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
+| AMD AMD 超微 | 2026 Q3 | 財報 | 2026-11-03 | - | - | - | - | [Tables](data/AMD/AMD_2026_q3_financial_tables.pdf) | - | [↗](https://finance.yahoo.com/quote/AMD/financials/) |
 | AAPL Apple 蘋果 | FY2026 Q4 | 法說會 | 2026-11-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
 | AAPL Apple 蘋果 | FY2026 Q4 | 財報 | 2026-11-02 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AAPL/financials/) |
 | 2454 聯發科 | 2026 Q3 | 法說會 | 2026-10-30 | [63.9 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2454_2026_q3.m4a) | - | - | [中](data/2454/2454_2026_q3_ir.pdf) | [EN](data/2454/2454_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2454) |
