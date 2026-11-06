@@ -42,6 +42,7 @@
 | 6669 緯穎 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6669) |
 | 8454 富邦媒 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8454) |
 | 2474 可成 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2474) |
+| 2474 可成 | 2026 Q3 | 法說會 | 2026-11-06 | 無 | - | - | [中](data/2474/2474_2026_q3_ir.pdf) | [EN](data/2474/2474_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2474) |
 | 3661 世芯-KY | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3661) |
 | 2458 義隆 | 2026 Q3 | 法說會 | 2026-11-05 | 無 | - | - | [中](data/2458/2458_2026_q3_ir.pdf) | [EN](data/2458/2458_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2458) |
 | 6285 啟碁 | 2026 Q3 | 法說會 | 2026-11-05 | 無 | - | - | [中](data/6285/6285_2026_q3_ir.pdf) | [EN](data/6285/6285_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6285) |
