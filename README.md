@@ -18,6 +18,8 @@
 | 2891 中信金 | 2026 Q3 | 財報 | 2026-11-20 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2891) |
 | NVDA NVIDIA 輝達 | FY2027 Q3 | 法說會 | 2026-11-17 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
 | NVDA NVIDIA 輝達 | FY2027 Q3 | 財報 | 2026-11-17 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
+| 6669 緯穎 | 2026 Q3 | 法說會 | 2026-11-17 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6669) |
+| 3014 聯陽 | 2026 Q3 | 法說會 | 2026-11-16 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3014) |
 | 3665 貿聯-KY | 2026 Q3 | 財報 | 2026-11-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3665) |
 | 3045 台灣大 | 2026 Q3 | 法說會 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
 | 7765 中華資安 | 2026 Q3 | 法說會 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7765) |
@@ -31,6 +33,7 @@
 | 4938 和碩 | 2026 Q3 | 財報 | 2026-11-11 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=4938) |
 | 3653 健策 | 2026 Q3 | 財報 | 2026-11-11 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3653) |
 | 2347 聯強 | 2026 Q3 | 財報 | 2026-11-11 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2347) |
+| 2480 敦陽科 | 2026 Q3 | 法說會 | 2026-11-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2480) |
 | 2382 廣達 | 2026 Q3 | 財報 | 2026-11-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
 | 2357 華碩 | 2026 Q3 | 財報 | 2026-11-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
 | 5269 祥碩 | 2026 Q3 | 財報 | 2026-11-09 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=5269) |
