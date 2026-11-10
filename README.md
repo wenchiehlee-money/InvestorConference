@@ -38,6 +38,7 @@
 | 2480 敦陽科 | 2026 Q3 | 法說會 | 2026-11-10 | 無 | - | - | [中](data/2480/2480_2026_q3_ir.pdf) | [EN](data/2480/2480_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2480) |
 | 2382 廣達 | 2026 Q3 | 財報 | 2026-11-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
 | 5269 祥碩 | 2026 Q3 | 財報 | 2026-11-09 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=5269) |
+| 5269 祥碩 | 2026 Q3 | 法說會 | 2026-11-09 | [61.9 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/5269_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=5269) |
 | 8299 群聯 | 2026 Q3 | 法說會 | 2026-11-06 | 無 | - | - | [中](data/8299/8299_2026_q3_ir.pdf) | [EN](data/8299/8299_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=8299) |
 | 3034 聯詠 | 2026 Q3 | 法說會 | 2026-11-06 | 無 | - | - | [中](data/3034/3034_2026_q3_ir.pdf) | [EN](data/3034/3034_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | 3034 聯詠 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
