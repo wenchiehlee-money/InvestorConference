@@ -793,6 +793,16 @@
     "source_url": "https://www.google.com/finance/beta/quote/5269:TPE?tab=earnings",
     "status": "ok"
   },
+  "6231_2026_q3": {
+    "checked_at": "2026-11-11",
+    "duration_sec": 3088.107,
+    "file": "data/6231/6231_2026_q3.m4a",
+    "release_url": "https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/6231_2026_q3.m4a",
+    "sha256": "2469c1c9ac049fc2577b379ea040a944df5200a8f24544c154df05894d6ee958",
+    "size_bytes": 98384807,
+    "source": "local_file",
+    "status": "ok"
+  },
   "6996_2026_q1": {
     "captured_media_url": "https://www.youtube.com/watch?v=o0oJA-5caDg",
     "checked_at": "2026-10-03",
