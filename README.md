@@ -38,7 +38,7 @@
 | 6231 系微 | 2026 Q3 | 法說會 | 2026-11-11 | [51.5 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/6231_2026_q3.m4a) | - | - | [中](data/6231/6231_2026_q3_ir.pdf) | [EN](data/6231/6231_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6231) |
 | 3653 健策 | 2026 Q3 | 財報 | 2026-11-11 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3653) |
 | 2347 聯強 | 2026 Q3 | 財報 | 2026-11-11 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2347) |
-| 2480 敦陽科 | 2026 Q3 | 法說會 | 2026-11-10 | 無 | - | - | [中](data/2480/2480_2026_q3_ir.pdf) | [EN](data/2480/2480_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2480) |
+| 2480 敦陽科 | 2026 Q3 | 法說會 | 2026-11-10 | [44.9 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2480_2026_q3.m4a) | - | - | [中](data/2480/2480_2026_q3_ir.pdf) | [EN](data/2480/2480_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2480) |
 | 2382 廣達 | 2026 Q3 | 財報 | 2026-11-10 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2382) |
 | 5269 祥碩 | 2026 Q3 | 財報 | 2026-11-09 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=5269) |
 | 5269 祥碩 | 2026 Q3 | 法說會 | 2026-11-09 | [61.9 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/5269_2026_q3.m4a) | [📝](data/5269/5269_2026_q3_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=5269) |
