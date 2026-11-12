@@ -30,7 +30,7 @@
 | 3045 台灣大 | 2026 Q3 | 法說會 | 2026-11-12 | [26.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3045_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
 | 7765 中華資安 | 2026 Q3 | 法說會 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7765) |
 | 4938 和碩 | 2026 Q3 | 法說會 | 2026-11-12 | [53.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/4938_2026_q3.m4a) | - | - | [中](data/4938/4938_2026_q3_ir.pdf) | [EN](data/4938/4938_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=4938) |
-| 2357 華碩 | 2026 Q3 | 法說會 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
+| 2357 華碩 | 2026 Q3 | 法說會 | 2026-11-12 | [82.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2357_2026_q3.m4a) | - | - | [中](data/2357/2357_2026_q3_ir.pdf) | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
 | 3045 台灣大 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
 | 2324 仁寶 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
 | 2357 華碩 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
