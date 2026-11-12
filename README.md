@@ -121,7 +121,7 @@
 | ASML ASML Holding N.V. | 2026 Q3 | 財報 | 2026-10-14 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ASML/financials/) |
 | 2408 南亞科 | 2026 Q3 | 財報 | 2026-10-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2408) |
 | 2408 南亞科 | 2026 Q3 | 法說會 | 2026-10-12 | [55.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2408_2026_q3.m4a) | [📝](data/2408/2408_2026_q3_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2408) |
-| 2317 鴻海 | 2026 Q3 | 法說會 | 2026-10-01 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
+| 2317 鴻海 | 2026 Q3 | 法說會 | 2026-10-01 | [85.3 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2317_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2317 鴻海 | 2026 Q3 | 財報 | 2026-10-01 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | MU Micron Technology | FY2026 Q4 | 法說會 | 2026-09-30 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MU/financials/) |
 | MU Micron Technology | FY2026 Q4 | 財報 | 2026-09-30 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MU/financials/) |
