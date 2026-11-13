@@ -25,12 +25,13 @@
 | 3014 聯陽 | 2026 Q3 | 法說會 | 2026-11-16 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3014) |
 | 2376 技嘉 | 2026 Q3 | 法說會 | 2026-11-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2376) |
 | 3665 貿聯-KY | 2026 Q3 | 財報 | 2026-11-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3665) |
+| 3665 貿聯-KY | 2026 Q3 | 法說會 | 2026-11-13 | [61.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3665_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3665) |
 | 2376 技嘉 | 2026 Q3 | 財報 | 2026-11-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2376) |
-| 2603 長榮 | 2026 Q3 | 財報 | 2026-11-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2603) |
 | 3045 台灣大 | 2026 Q3 | 法說會 | 2026-11-12 | [26.2 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3045_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
 | 7765 中華資安 | 2026 Q3 | 法說會 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=7765) |
 | 4938 和碩 | 2026 Q3 | 法說會 | 2026-11-12 | [53.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/4938_2026_q3.m4a) | - | - | [中](data/4938/4938_2026_q3_ir.pdf) | [EN](data/4938/4938_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=4938) |
 | 2357 華碩 | 2026 Q3 | 法說會 | 2026-11-12 | [82.0 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2357_2026_q3.m4a) | - | - | [中](data/2357/2357_2026_q3_ir.pdf) | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
+| 2603 長榮 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2603) |
 | 3045 台灣大 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3045) |
 | 2324 仁寶 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
 | 2357 華碩 | 2026 Q3 | 財報 | 2026-11-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2357) |
@@ -121,7 +122,7 @@
 | ASML ASML Holding N.V. | 2026 Q3 | 財報 | 2026-10-14 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ASML/financials/) |
 | 2408 南亞科 | 2026 Q3 | 財報 | 2026-10-12 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2408) |
 | 2408 南亞科 | 2026 Q3 | 法說會 | 2026-10-12 | [55.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2408_2026_q3.m4a) | [📝](data/2408/2408_2026_q3_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2408) |
-| 2317 鴻海 | 2026 Q3 | 法說會 | 2026-10-01 | [85.3 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2317_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
+| 2317 鴻海 | 2026 Q3 | 法說會 | 2026-10-01 | [85.3 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2317_2026_q3.m4a) | [📝](data/2317/2317_2026_q3_FIN.srt) | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | 2317 鴻海 | 2026 Q3 | 財報 | 2026-10-01 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2317) |
 | MU Micron Technology | FY2026 Q4 | 法說會 | 2026-09-30 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MU/financials/) |
 | MU Micron Technology | FY2026 Q4 | 財報 | 2026-09-30 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MU/financials/) |
