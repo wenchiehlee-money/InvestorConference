@@ -1,0 +1,961 @@
+[METADATA]
+Source: 2317_2026_q3_exp13
+Language: en
+---
+(00:00.000) The event was great.
+(00:01.000) Not only did we get to know the latest technology,
+(00:03.000) but we also had the opportunity to host the Green Paper Museum.
+(00:06.000) We were able to let everyone know that Hon Hai has launched new technologies.
+(00:10.000) This year, I have been particularly impressed by two new models.
+(00:14.000) Model A Plus and Model K Plus.
+(00:18.000) They are so different from what we have seen so far.
+(00:21.000) I'm really excited about it.
+(00:23.000) Three main things that I was impressed during the exhibition.
+(00:27.000) The first one was the part of the biomedical centers.
+(00:31.760) I have never seen to that depth how a data center works.
+(00:36.860) And the last one was the usage of batteries.
+(00:57.000) I found really interesting this Honhai Tech Day because I didn't know about that it's
+(01:05.240) Foxconn is such a big company manufacturer and that is involved in every core industry
+(01:13.640) that is developing right now.
+(01:15.120) Yeah, glad to be here on this year's Honhai Tech Day.
+(01:18.240) It was very important to see how AI data center technology is similar to what we in automotive.
+(01:25.800) impressive and hopefully we are here next year as well.
+(01:33.800) Hello everyone, I'm Kristen.
+(01:35.800) In addition to the technology and partnerships we just saw,
+(01:39.800) this year's Tech Day also welcomed Videolands, the king of night market,
+(01:43.800) and an EVA-Air VIP lounge,
+(01:45.800) adding food and hospitality experiences alongside industry networking.
+(01:50.800) The future of technology also depends on the next generation.
+(01:55.800) For the first time, the first floor tech education pavilion featured five themed zones and 15
+(02:07.480) career experiences.
+(02:09.200) Through stories, games, and hand-on activities, children learned about AI, electric vehicles,
+(02:15.500) smart manufacturing, and sustainability.
+(02:18.800) Now let's step inside the tech education pavilion and see how children are exploring the future.
+(02:25.800) The school has a large number of students.
+(03:53.800) On the Red Sea Technology Day this year, we specially invited the children of the AI Robot Society of Pianxiang National High School,
+(04:01.200) which is supported by the Red Sea Education Foundation, to come to the scene with their learning results.
+(04:06.300) We hope that everyone can see their ability and confidence to get in touch with more technology applications,
+(04:11.300) and open their imagination of the future to see a bigger future.
+(04:15.300) Let the children and the public know what technology is currently being applied in life,
+(04:21.800) and what products are available in Hong Kong.
+(04:30.940) It's great.
+(04:32.400) We can experience a lot of things
+(04:35.480) about cars and milk.
+(04:43.240) I like cars, animals and ecology.
+(05:21.800) From technology integration across industries to inspiring the next generation, the two-day event
+(05:30.200) attracted more than 15,000 visits. The two films we just watched show different sides of this year's
+(05:37.100) Honghai Tech Day. In smart manufacturing, Foxconn and NVIDIA are studying the intelligent assembly
+(05:43.180) of GB300 test trays. The research focuses on precision tasks such as busbar assembly and
+(05:49.280) and multi-connector insertion, with continued progress toward meeting industrial deployment requirements.
+(05:55.120) In AI system integration, Foxconn showcased innovations for the NVIDIA Vera Rubin platform
+(06:01.760) and AI Rack integration solutions at the 2026 OCP Global Summit.
+(06:07.680) The display highlighted the integration of computing, high-speed interconnects,
+(06:13.280) power delivery, and liquid cooling.
+(06:15.840) FIT Tech Day brought together global industry leaders under the theme
+(06:21.360) Light at Scale. The event focused on optical communications in the AI era,
+(06:26.160) exploring next-generation data center interconnect technologies and their deployment at scale.
+(06:31.600) In automotive equipment, Foxconn and Mitsubishi Electric reached an agreement to form a strategic
+(06:38.640) alliance and jointly operate an automotive equipment business. Under the agreement,
+(06:44.800) Foxconn's investment subsidiary plans to acquire a 50% stake in Mitsubishi Electric Mobility.
+(06:52.160) The transfer remains subject to contractual conditions and regulatory approvals,
+(06:57.120) with completion expected on 1 October 2027. Beyond automotive equipment, Foxconn's technology
+(07:04.160) partnerships are also extending into long-term care. Foxconn is working with Xiangbao Group to
+(07:09.360) to conduct smart care pilots at three sites,
+(07:12.380) Bao Xiling in Taoyuan,
+(07:13.740) Taiyuan Xiangbao, and Yide Daycare Center.
+(07:16.500) The pilots combine smart wearables,
+(07:18.580) AI computing, and cloud age integration
+(07:21.540) to explore how technology can support caregivers
+(07:24.300) and older adults in their daily routines.
+(07:26.820) Next, we turn to industry discussions at Semicon Taiwan.
+(07:30.580) At Semicon Taiwan 2026
+(07:33.080) and its related technology forums,
+(07:35.540) the group shared perspectives
+(07:37.140) on the development of AI infrastructure,
+(07:39.800) Chairman Yang Liu discussed
+(07:41.200) international industry collaboration.
+(07:43.600) At IDF Taiwan Business Group,
+(07:45.360) General Manager Bob Chen explored
+(07:47.400) how to expand AI infrastructure
+(07:49.860) from the chip level to the system level.
+(07:52.580) Alongside technology exchanges,
+(07:54.780) Foxconn continued to develop its manufacturing footprint.
+(07:58.420) The group announced an investment
+(08:00.040) in Baipu Industrial Park in Kaohsiung,
+(08:02.380) with plans for a new production base for key AI products.
+(08:06.000) In energy storage, three leading service partners in Taiwan joined forces with Foxconn to develop integrated solutions.
+(08:13.060) The collaboration brings together locally produced battery cells, system integrators, contract manufacturing of equipment, and system integration capabilities.
+(08:25.100) Product certification, mass production preparations and the start of commercial supply are expected in the first half of 2027.
+(08:36.000) From business developments, we now turn to sustainability.
+(08:41.240) Foxconn's new energy project at the Ho-Fi Industrial Park in Kaohsiung
+(08:44.700) has achieved LEED Gold certification.
+(08:46.700) Sustainability features were incorporated into the four-storey office building
+(08:51.200) from the planning stage, including energy efficiency, water conservation,
+(08:55.200) ecological landscaping, and a healthy indoor environment.
+(08:58.700) Energy costs are more than 50% lower than the baseline,
+(09:02.700) while indoor water use has been reduced by over 40%.
+(09:05.700) In Ocean Focus Initiative, Foxconn participated as a sustainability partner in the Miniboat 2 launch.
+(09:12.700) Two students prepared miniboats, equipped with positioning and ocean observation systems, set sail to collect data.
+(09:20.700) The initiative connects ocean education and restoration with open data, showing how technology and shared information can support ocean governance.
+(09:29.700) Beyond the hands-on experiences at the Tech Education Pavilion, AI education is also reaching
+(09:35.600) into schools.
+(09:36.940) The Hong Hai Education Foundation partnered with National Taiwan Normal University to
+(09:41.440) train senior high school and vocational school teachers in AI education.
+(09:45.580) The program provides an 18-week course framework, teaching materials and hands-on support, helping
+(09:51.100) teachers move from using AI to teaching it, and bring the courses into their classrooms.
+(09:55.960) The 2026 Foxconn Wales Scholarship Program also continues to support young people pursuing
+(10:02.180) their education.
+(10:03.700) Each selected student in the college and university category, including masters and doctoral students,
+(10:10.160) can receive $50,000 New Taiwan Dollars for the academic year.
+(10:14.480) The funding helps ease financial pressures so students can focus on learning and their
+(10:18.520) future goals.
+(10:19.840) Finally, we turn to honors and recognition.
+(10:24.000) The group received recognition for leadership, research, product design, talent development,
+(10:30.200) and sustainability.
+(10:31.960) Chairman Yang Liu received a 2026 CEO Image Award for Public Relations Excellence.
+(10:39.400) He was also recognized at Dailyview's annual Online Reputation Award for his positive online
+(10:44.440) reputation and influence as a corporate leader.
+(10:47.460) Cathy Yang was again named to Fortune's Most Powerful Women Asia 2026 list, marking
+(10:53.560) her second consecutive year of recognition. Foxconn also received HR Asia's Best Companies
+(10:59.080) to Work for in Asia Award in Taiwan, alongside four special honors. These recognize talent
+(11:05.000) development, technology-enabled HR, workplace sustainability, and diversity, equity, and
+(11:11.640) inclusion. In sustainability and talent development, Foxconn received honors in both of
+(11:18.040) Commonwealth's Corporate Sustainability and Talent Sustainability Awards.
+(11:23.000) The group ranked second among large manufacturing companies in each award.
+(11:27.400) In Product Design, FIT received the Red Dot Design Award for its FITOP modular optical
+(11:33.120) transceiver architecture.
+(11:35.140) Its modular, reusable design addresses the rapid upgrade cycles and high-speed transmission
+(11:40.360) needs of AI data centers.
+(11:42.640) The group's Satoyama Environmental Education Initiative also earned gold at the 2026 Taiwan
+(11:50.740) Sustainability Action Awards, recognizing its work in biodiversity and environmental
+(11:56.760) education.
+(11:57.760) In research, the Honghai Research Institute and National Yangmingqiao Tong University
+(12:03.320) received a 2026 FutureTech Award for next-generation silicon photonics communications technology
+(12:10.200) designed for AI data centers.
+(12:12.460) the Onghai Research Institute's quantum computing research has reached another milestone.
+(12:17.780) Two studies by an international team that included Quantum Computing Institute director
+(12:23.200) Xie Minshu, researcher Michael De Oliveira, and interns Lin-Ping Chun and Adam Wills were
+(12:30.140) selected for FOCS 2026, the IEEE Symposium on Foundations of Computer Science.
+(12:38.700) According to Foxconn, among the Taiwan research institutions represented by papers selected
+(12:44.580) for this year's conference, the Honghai Research Institute was the only one.
+(12:49.900) The achievement highlights the Institute's progress in fundamental research, from Honghai
+(12:55.580) Tech Day to industry partnerships, sustainability and the group's achievements.
+(13:00.680) That concludes this edition of Foxconn Global Highlights.
+(13:04.180) Thank you to our investors for your continued interest in Foxconn.
+(13:08.480) And thank you for watching.
+(13:10.140) See you next time.
+(13:38.480) you
+(14:08.480) Thank you.
+(16:08.480) This time, we have six issues, including the review of the third quarter of 2026, the fourth quarter, which is the year-round outlook, the year-round outlook of 2027, the progress of the important business, the highlights of the day, and the recent major events.
+(16:21.940) Before we move on to the financial figures, I would like to share with you the key points of this quarter.
+(16:28.120) First, the third quarter and the previous three quarters of the business interests have grown 64% and 65%.
+(16:36.080) Next, we will look at the fourth quarter, where the industry will be strongly improved and year-on-year improved.
+(16:41.940) We have completely upgraded the four major products to the full-year outlook for 2026.
+(16:47.120) Third, we are optimistic about the outlook for 2027.
+(16:51.240) We expect that there will be a high growth in the AI infrastructure, and the market share will increase further.
+(16:57.480) Fourth, we will use the experience of managing talent, funds, and supply chain accumulated over the past 50 years
+(17:04.020) and maintain the position of the industrial leader through the four core advantages.
+(17:08.220) Now, let's welcome David, the Finance Minister, to explain the financial performance of the third quarter.
+(17:13.900) Thank you.
+(17:15.460) Thank you, Kristen.
+(17:17.900) Thank you, investment pioneers and media friends.
+(17:29.260) Hello, everyone.
+(17:30.760) Next, I will report on the financial performance of the third quarter of 2020.
+(17:36.360) Please look at the sixth page of the report.
+(17:39.360) The third quarter of 2020, the third quarter of the financial performance,
+(17:41.740) the third quarter of the financial performance,
+(17:44.000) 博物貨幣3.02兆元,較去年同級成長46%,較第二季成長19%,創下歷年單季的新高,顯示集團業務規模持續的擴大。
+(17:58.360) 毛利率6.02%,較去年同級下降0.33個百分點,主要受到產品組合及原物料價格上漲的影響。
+(18:09.000) However, as revenue scale expands, the net profit amount still reaches 1,815 billion yuan,
+(18:15.740) which is 39% of the annual profit,
+(18:17.720) which shows a continuous improvement in the creative ability of net profit.
+(18:21.840) What is more important is that the third-year profit rate reached 3.83%,
+(18:28.140) which increased 0.40% of the same period last year.
+(18:33.200) The profit reached 1,154 billion yuan,
+(18:36.220) 年增64%
+(18:38.220) 季增22%
+(18:39.980) 創下歷年單季的新高
+(18:42.760) 成長幅度也高於營收及毛利
+(18:46.180) 這也代表
+(18:47.740) 義務規模擴大
+(18:49.360) 營運效率提升
+(18:50.720) 加上費用率下降
+(18:52.600) 也發揮營運槓桿的效益
+(18:55.660) 讓營業利益成長高於營收
+(18:58.660) 接著看業外的部分
+(19:01.400) 本季業外獲利為34億元
+(19:05.040) 較去年同期減少約130億元
+(19:08.360) 主要是投資收益減少
+(19:11.280) 淨利息支出及匯兌成本增加
+(19:14.000) 加上去年同期有資產儲分的利益
+(19:17.440) 其中投資收益較去年同期減少約53億元
+(19:21.720) 主要受部分投資標的股價波動的影響
+(19:25.740) 淨利息支出增加約33億元
+(19:28.880) 這是支持業務擴張所需的資金成本
+(19:32.120) 但也同時帶動同期營業利益增加448億元。
+(19:38.400) 本季有效稅率為23.4%,
+(19:42.120) 稅後淨利為775億元,
+(19:44.660) 年增34%,
+(19:46.460) 季增29%,
+(19:48.180) EPS為5.51元,
+(19:51.240) 較去年同期增加1.36元。
+(19:54.660) 總結第三季,
+(19:56.080) 營收、營業利益、稅後淨利及每股盈餘
+(19:59.280) 都創下歷年單季新高
+(20:02.720) 接下來請各位看簡報第七頁
+(20:06.180) 2026年前三季累計損益表
+(20:09.160) 前三季營收達新臺幣7.66兆元
+(20:13.780) 年增39%
+(20:15.940) 營業利益2858億元
+(20:19.180) 年增65%
+(20:20.760) 稅後淨利1874億元
+(20:24.000) 年增30%
+(20:25.360) 每股盈餘13.35元
+(20:28.620) 年增29%
+(20:30.560) 營業利益成長明顯高於營收
+(20:33.780) 代表規模擴大的同時
+(20:35.900) 獲利能力也在提升
+(20:37.800) 前三季毛利率為6.10%
+(20:42.400) 較去年同期下降0.18個百分點
+(20:45.620) 主要受原物料價格上漲的影響
+(20:48.620) 但毛利金額仍成長35%
+(20:51.580) 另一方面
+(20:53.260) 營業利益率提升至3.73%
+(20:57.400) The increase of 0.57% in the same period last year
+(21:01.500) reflects the expansion of the operating scale,
+(21:03.800) the improvement of the cost efficiency,
+(21:05.340) and the continued performance of the scale economy.
+(21:09.180) In terms of business,
+(21:10.460) the total profit of the first three seasons was 180 million yuan,
+(21:12.760) which decreased by 35.7 billion yuan in the same period last year,
+(21:15.840) mainly due to investment revenue, interest and exchange rate factors,
+(21:19.680) plus the higher interest of the asset group in the same period last year.
+(21:22.740) Although the loss of business was reduced,
+(21:24.280) the overall profit was still driven by the industry and continued to grow.
+(21:27.400) 前三季有效稅率為24.2%,較去年同期略增,主要是指公司獲利成長,預估盈餘匯回的所得稅提列也跟著增加。
+(21:41.400) 前三季累計ROE為10.44%,較去年同期提升1.66個百分點,顯示獲利成長也帶動股東權益報酬率改善。
+(21:52.400) 回顧前三季,我們的業務規模,本業獲利效率及股東權益報酬都持續提升。
+(22:01.400) 接下來請看簡報第八頁,資產不再表。
+(22:05.900) 截至2022年9月底,賬上現金與定期存款合計約1.45兆元,流動性充足,能彈性支持我們的業務成長及策略投資。
+(22:19.400) The current capital gain is 21.5 billion yuan,
+(22:23.240) which was reduced by about 1,124 billion yuan last year.
+(22:26.740) This is mainly due to the growth of AI business,
+(22:28.840) which has driven the demand for operating capital,
+(22:30.740) and the capital expenditure that has been expanded in the future.
+(22:34.740) The current capital reduction period for the third quarter is 40 days,
+(22:38.340) which was improved by three days last year,
+(22:40.940) and the impact of the control tools of the British and European accounts was eliminated by 48 days,
+(22:44.340) which was also improved by two days last year.
+(22:46.740) This shows that while business grows rapidly,
+(22:50.140) the management of operating funds and cash transfer efficiency are also improved.
+(22:54.800) From the operating model,
+(22:56.460) Red Sea has the characteristics of low risk.
+(23:00.620) First, we mainly serve large companies in the world.
+(23:04.980) These companies have strong market status and financial strength,
+(23:09.800) which helps to reduce our credit risk of receivables.
+(23:11.900) 其次,採購與生產主要依客戶訂單需求及產品規格安排,存貨也透過客戶承諾或合約安排,降低公司承擔的風險。
+(23:26.900) The capital investment part is very carefully invested in the demand, orderability, and production planning of ECO,
+(23:35.740) and continues to evaluate the efficiency and recovery, and even the payback we talked about,
+(23:41.560) to reduce the risk of production and investment
+(23:56.480) 帶動應付賬款增加及營運所需的短期借款增加。
+(24:01.240) 整體而言,我們維持充足的現金及合理的資本結構,
+(24:06.720) 支持成長的同時也保有長期財務的韌性及策略彈性。
+(24:13.020) 最後請各位看簡報第九頁現金流量表。
+(24:16.780) 今年前三季營業活動現金流量為淨流出1257億元,
+(24:21.780) 主要是業務快速成長
+(24:24.180) 營收賬款及存貨增加
+(24:26.720) 帶動移運資金需求
+(24:28.620) 前三季資本支出達1617億
+(24:32.420) 較去年同期增加43%
+(24:35.780) 比我們前次法人說明會的30%以上
+(24:40.960) 是匹配的
+(24:43.240) 主要用於AI的相關業務
+(24:46.180) 產能擴充及全球的佈局
+(24:48.120) 支持我們持續的成長
+(24:50.380) 因此前三季自由現金流為近流出2874億元
+(24:56.660) 較去年同期增加流出1251億元
+(25:00.500) 總結來說
+(25:02.660) 鴻海正處於業務快速成長及資本投入的階段
+(25:07.080) 營運資金與資本支出增加會影響短期的現金流
+(25:12.620) 但是我們會維持充足的流動性
+(25:16.400) 提升營運資金週轉效率
+(25:18.560) to control the capital expenditure and recovery time,
+(25:22.560) and to turn investment into future profits and cash flow,
+(25:28.360) creating a profit higher than capital costs,
+(25:32.260) and supporting sustainable growth with quality.
+(25:35.060) This is the brief report of the third quarter of the financial report in 2026.
+(25:39.760) Next, we will hand over the floor to Chairman Liu.
+(25:43.760) Thank you, David.
+(25:45.260) Hello, everyone.
+(25:46.160) It's been a long time.
+(25:46.620) Hello, everyone.
+(25:48.620) Today is the first time we have arranged this physical Dharma meeting
+(25:54.620) and we have a more direct interaction with everyone.
+(25:58.620) So I am very happy to be able to be here and be able to see everyone
+(26:03.620) and have a direct interaction with everyone.
+(26:05.620) I also welcome all of you who participated online
+(26:09.620) to join us in this meeting in the future.
+(26:14.620) We also plan to take action on a yearly basis
+(26:19.620) to share with you the recent developments of our group
+(26:24.620) and the outlook for the coming year.
+(26:32.620) Let me first summarize the results of our third quarter.
+(26:38.620) The third quarter revenue has created a new high for the first quarter of the year.
+(26:44.620) No matter the season or year,
+(26:46.620) the growth has been strong.
+(26:50.620) The overall performance is better than expected.
+(26:54.620) Among the four major products,
+(26:56.620) cloud-based products are in demand
+(26:58.620) from the AI server.
+(27:01.620) The actual growth is better than
+(27:04.620) the optimistic expectation.
+(27:07.620) The revenue ratio has also been
+(27:09.620) increased by 54%.
+(27:13.620) This reflects the most important growth and motivation of AI server,
+(27:19.620) which will always optimize our revenue and customer structure.
+(27:24.620) In terms of profit, the third quarter's profit was 1 billion yuan for the first quarter.
+(27:32.620) At the same time, the last profit and the share price of each share have created a new high for the quarter.
+(27:41.620) More importantly, the growth rate of business interests is higher than that of revenue.
+(27:46.620) This means that the growth driven by AI has continued to reflect on the improvement of the profit of our red sea industry.
+(27:55.620) This is also the result of our transformation.
+(28:01.620) This means that while the scale continues to expand,
+(28:07.620) the ability to generate profit must also be increased.
+(28:12.620) With the continuous advancement of AI products and technologies,
+(28:16.620) we will continue to deepen the ability to optimize and integrate,
+(28:20.620) and enhance the value of Honghai in the customer industry,
+(28:25.620) so that growth can be established on the basis of more competitiveness,
+(28:30.620) to create long-term stability for shareholders
+(28:33.700) and to continue to pay back.
+(28:37.700) In the next four seasons,
+(28:40.820) overall,
+(28:42.540) AI operations will continue to grow,
+(28:46.460) and ICT products will enter the traditional wave season.
+(28:51.780) So it is expected that the fourth season's revenue
+(28:53.660) will be strong growth in season to season, year to year.
+(28:59.620) 其中在雲端網絡產品
+(29:02.540) 隨著新一代AI伺服器機櫃的出貨
+(29:06.480) 預計第四季AI伺服器營收
+(29:10.160) 將會持續的激增
+(29:12.380) 通用伺服器將維持溫和的成長
+(29:17.320) 帶動雲端網絡產品
+(29:20.120) 季對季顯著的成長
+(29:23.000) 年對年則是強勁的成長
+(29:27.080) 消費智能產品方面進入到第四季出貨的高峰
+(29:32.300) 加上目前產品需求不錯
+(29:35.800) 出貨的價格也提高了
+(29:38.960) 預期季對季年對年都會是強勁的成長
+(29:47.220) 在電腦終端產品上面
+(29:50.400) 持續受到記憶體等供應緊張的影響
+(29:54.580) 預期季對季將略為衰退
+(29:58.700) 但也因為部分零組件的價格的提高
+(30:02.720) 也帶動了我們出貨價格的上漲
+(30:06.340) 和去年同期相比
+(30:08.860) 營收方面則將是顯著的成長
+(30:13.360) 在原件以及其他產品的類別上
+(30:17.320) 主要業務相關的零組件出貨的增加
+(30:21.340) So, the growth of this product category will be significant.
+(30:27.340) In terms of the year-round outlook,
+(30:30.340) the current energy efficiency is better than the August French Conference.
+(30:36.340) So, we are fully optimistic about the four major products.
+(30:42.340) Overall, the overall operating performance this year is almost higher than previously expected.
+(30:50.340) We expect this trend to continue until next year.
+(30:56.840) In the past few seasons,
+(30:58.240) we have shared with you some important financial indicators.
+(31:02.940) We are particularly concerned about
+(31:05.140) how much real-estate profits can Honghai make
+(31:07.940) with the rapid development of AI business.
+(31:12.640) First, let's look at ROE.
+(31:15.840) This is a very important indicator for us.
+(31:18.440) In the era of consumer intelligence and computer-centred products,
+(31:23.940) our ROE is roughly less than 10%.
+(31:29.940) Since the cloud products became the largest source of revenue last year,
+(31:35.940) our ROE has exceeded 11%.
+(31:39.940) This year, the first three seasons have reached 10.44%.
+(32:14.940) This answer is of course a yes.
+(32:17.700) So we have already started to discuss
+(32:20.480) the next stage of setting higher ROE targets.
+(32:25.040) We hope to continue to create better returns for our shareholders.
+(32:31.300) Next, I would like to share with you some progress in the ability of the company to generate profits.
+(32:35.440) The contribution of the AI server
+(32:40.200) also reflects the performance of the group.
+(32:43.080) From 2024 to 2025,
+(32:46.240) the growth of business interests in the first three seasons
+(32:51.280) is not only higher than the profit,
+(32:53.780) but also the GAAP between the leading companies is getting bigger.
+(32:59.540) In the first three seasons of this year,
+(33:01.540) the profit increased by 65%
+(33:06.640) and the growth by 39%
+(33:10.680) It reflects our continuous improvement in vertical integration, automation, and operating efficiency,
+(33:17.440) and the increase in scale efficiency
+(33:20.580) which makes the core productivity continuously stronger.
+(33:24.980) This result also reflects our performance in terms of profit-benefit ratio.
+(33:30.840) Although the increase in the number of orders
+(33:33.640) has a lot of impact on the productivity ratio,
+(33:37.040) the profit-benefit ratio of the first three seasons this year
+(33:40.680) the interest rate has increased to 3.73%
+(33:45.980) which is significantly higher than the 3.16% level last year.
+(33:52.780) It is also much higher than the 3% baseline we set.
+(33:58.980) Next, I would like to talk about another very important financial indicator,
+(34:02.780) which is EBITDA.
+(34:05.080) The attention of the capital market to corporate cash flow
+(34:08.680) 比過去任何時候都更高
+(34:11.920) 特別是隨著AI基礎設施的投資的規模越來越大
+(34:17.200) 投資人不只是關心企業能夠創造多少營收
+(34:23.020) 多少獲利
+(34:24.560) 也更關心這些成長能不能帶來足夠的現金流
+(34:29.740) 來支持我們未來持續擴張的需求
+(34:33.440) 所以在這裡我想用AVIDA來衡量
+(34:37.980) we have accumulated the ability to create cash flow in this industry.
+(34:43.300) First of all, in 2025,
+(34:45.300) Hohai's EBITDA will be nearly 3,570 billion yuan.
+(34:50.900) Compared to 2020,
+(34:52.660) it has grown more than twice as much.
+(34:57.500) This represents the expansion of AI business scale.
+(35:00.680) The trend of cash growth created in this industry is very obvious.
+(35:06.000) 如果以今年來看,我們累計前三季的EBITDA已經超過了去年全年的總數,
+(35:14.520) 達到了3692億,年增1236億,成長了50.3%,
+(35:26.460) 高於同期資本支出的43%的增幅。
+(35:36.000) The second key point is that the GAAP between EBITDA and capital expenditure plus cash encouragement is gradually expanding.
+(35:46.000) This means that with the growth of AI business, the cash created by the industry is not only enough to pay the future needs of capital expenditure,
+(35:56.000) and continue to raise cash to encourage and return to our shareholders,
+(36:01.000) and further strengthen our financial system
+(36:06.000) to provide the flexibility of future development of the financial system.
+(36:12.000) Next, I would like to share some of my views on the year of 2027.
+(36:17.000) From the current customer needs,
+(36:21.000) we are still very confident about the next year's operations.
+(36:25.000) I believe it will continue to grow.
+(36:28.380) However, in addition to the development of the industry itself,
+(36:31.460) there are also several external variables
+(36:33.280) that are worth our continued attention.
+(36:38.520) From the perspective of AI and consumer electronics supply chain,
+(36:42.900) currently in the chip, memory,
+(36:46.140) and some key components supply and supply,
+(36:49.320) it is a challenge that the entire industry faces.
+(37:22.620) and the change in inflation, interest rates, and exchange rates
+(37:29.620) can affect the company's transportation costs, investment decisions, and global supply chain layout.
+(37:37.620) In the face of these external changes, the management capability of the company itself becomes more important.
+(37:45.620) Honghai has become a global leader in the supply chain industry
+(37:52.120) because we have accumulated the core advantages of managing people, money, and supply chain.
+(38:02.120) This is also a very important reason for us to look forward to the future.
+(38:06.620) The outside world is very familiar with Honghai's supply chain management capabilities,
+(38:11.120) But in fact, we have a strong competitive advantage in managing global talent and capital management.
+(38:20.120) On this year's Science Day, I also shared a few figures with you
+(38:26.120) to let you know more about the development and design skills of Honghai.
+(38:31.120) We all know that we have about 1 million employees.
+(38:36.120) We are not aware that there are more than 120,000 engineers in the world.
+(38:44.600) The field of professional development covers system design,
+(38:47.900) development of components, and manufacturing-related technology.
+(38:52.320) The number of patents obtained in the world is close to 2,492.
+(38:59.680) Currently, there are about 2.5 million effective patents.
+(39:06.120) 以去年為例,我們執行了900多個NPI,也就是新產品導入的專案。
+(39:16.560) 其中超過一半都是透過ODM或是JDM的模式,由集團設計製造出來的產品。
+(39:27.560) These numbers show that Hohai is not just a assembly plant,
+(39:34.160) but has the ability to fully develop, design, manufacture, and build,
+(39:41.240) and can provide customers with highly integrated system design and manufacturing services.
+(39:50.340) When it comes to money, which is the management of funds,
+(39:53.380) we have always emphasized a very important principle,
+(39:56.960) That is, long-term, long-term, short-term, short-term.
+(40:01.360) Long-term investment needs long-term funds to support it.
+(40:06.520) Short-term supply needs, through short-term funds,
+(40:11.500) flexible transfer, make funds more efficient.
+(40:16.960) Our debt ratio is about 64%.
+(40:20.600) It reflects our stable financial structure.
+(40:24.340) 未來還會透過發行公司債來籌資的空間。
+(40:36.480) 我們也會運用股權相關的工具。
+(40:41.340) 現階段,以可轉換公司債為主,
+(40:46.180) 兼顧我們籌資的必別的多元性還有資金的成本。
+(40:52.560) In addition to borrowing money,
+(40:57.120) short-term funds can also be used to manage cash flow
+(41:02.520) to increase the efficiency of our operating funds.
+(41:08.460) The increase in the price of new AI machines
+(41:13.260) is a big challenge for the management of funds in enterprises.
+(41:18.560) This is not only the demand on the capital scale,
+(41:22.560) but also whether it can effectively manage
+(41:26.260) the entire production cycle.
+(41:29.760) From assisting customers to purchasing key components,
+(41:33.760) arranging stock,
+(41:35.460) to the completion of production and delivery.
+(41:38.960) This kind of capital management advantage
+(41:40.660) allows us to master the AI business
+(41:44.360) that is bigger and more valuable in the growing stage.
+(41:48.560) I think we should talk about supply chain management.
+(41:54.560) It is the ability to integrate both top and bottom.
+(41:58.560) Whether it is mobile phones, PCs, or the most popular AI devices,
+(42:05.560) we are not just assembling and verifying.
+(42:11.560) We can create at least half of the zero-sum components.
+(42:17.600) Half of them.
+(42:18.880) This is where we can create value for our customers.
+(42:24.200) Time to market and time to cost.
+(42:26.900) On the one hand, we shorten the time from product development to mass production,
+(42:32.200) so that customers can quickly push their products into the market.
+(42:37.120) On the other hand, it can optimize our cost structure to improve our product competitiveness.
+(42:46.120) To have such a complete vertical integration capability,
+(42:51.120) the precision processing technology is also a very critical part.
+(42:55.120) Our four major metal processing capabilities have covered five different levels of manufacturing precision.
+(43:05.120) For example, the precision of the precision module can reach 2 microns.
+(43:11.120) The optical lens and the optical communication components
+(43:15.120) can reach a precision of less than 1 micron.
+(43:23.120) The next generation of AI devices
+(43:25.120) will have higher requirements for the optical connection
+(43:29.120) and the high requirement of micro-glial components.
+(43:35.520) The long-term technology and manufacturing capabilities
+(43:41.120) have become key core advantages
+(43:45.120) for future AI key components.
+(43:48.520) That's all I wanted to share with you.
+(43:51.520) Next, James will explain some important development of the industry.
+(43:56.320) James.
+(43:57.120) Thank you, Chairman.
+(43:58.920) Next, I will explain our recent view on AI.
+(44:03.840) In the third quarter, the business of GPU and ASIC AI
+(44:06.700) has continued to grow,
+(44:09.620) leading AI machines to achieve a high double-digit increase.
+(44:14.920) New generation machines have also begun to be exported.
+(44:17.560) With the increase in automation,
+(44:18.940) the yield rate of production has reached a very high level.
+(44:23.320) In addition, the market share of machines in the new generation
+(44:26.760) 也比上一代來得提升
+(44:29.060) 所以我們預期第四季AI機櫃的出貨量
+(44:32.340) 將維持季對季高雙位數成長
+(44:35.520) 也會帶動AI伺服器營收持續的激增
+(44:39.200) 符合我們對於AI業務逐季成長的預期
+(44:43.200) 展望2027年
+(44:46.040) 主要雲端網路服務供應商
+(44:48.800) 仍然會持續擴大AI投資
+(44:51.160) 目前還處在一個快速擴張的階段
+(44:54.340) We will also closely monitor the progress of the AI information center.
+(44:59.840) Based on the current orders and customer needs,
+(45:03.840) we are confident that AI machine delivery in 2027
+(45:08.840) can maintain high double-digit growth.
+(45:11.840) In addition to expanding delivery,
+(45:14.840) we will also use a diverse AI solution
+(45:17.840) to meet the needs of different types of customers.
+(45:20.840) The large-scale CSP will still be our main customer,
+(45:24.440) but we also expect to add more NeoClouds next year,
+(45:28.540) which will help us further improve the market share of AI server systems.
+(45:33.540) Next, I will explain the latest progress of 3.0 and 3.3.
+(45:37.540) First, electric vehicles.
+(45:39.040) Through strategic alliance with 30 Electric,
+(45:41.740) we have enhanced the technology and software capabilities of electric vehicles.
+(45:45.940) As for the car models that cooperate with 30,
+(45:48.540) and has started to deliver new vehicles.
+(45:51.240) In terms of digital health,
+(45:52.540) we continue to promote multi-modal medical models
+(45:54.940) with Beirong
+(45:57.040) to promote AI applications in the medical field.
+(46:00.940) This year, the important progress of robots
+(46:03.240) is that our own robots
+(46:05.040) are starting to be introduced into the production line of US and Taiwan's AI
+(46:12.100) and we are also launching a smart platform for robots to accelerate model training and deployment.
+(46:14.740) In addition to internal applications,
+(46:16.540) our nuclear company is also accelerating the mass production capacity of giant robots.
+(46:22.380) In the three core technologies,
+(46:24.480) we first introduced 800 v direct power technology
+(46:27.740) into the construction of the data center.
+(46:30.140) Our autonomous model also continues to strengthen the ability to understand local knowledge.
+(46:35.600) Two overseas semiconductor wind farms are also being built.
+(46:39.300) Japan's gold and silver factories are approaching full capacity.
+(46:41.700) The order is also still available until next year.
+(46:45.300) The 1,200-hp carbon-fiber-powered MCUs are also certified and manufactured.
+(46:51.100) In the new generation of communications,
+(46:53.200) we have extended the satellite technology to communication modules,
+(46:56.100) antenna and terminal products.
+(46:59.000) In terms of the three smart platforms,
+(47:01.000) the smart-made Genesis platform is scheduled to start operating in December.
+(47:05.900) AI Agent is also continuing to be introduced.
+(47:09.300) As for the smart electric vehicles,
+(47:10.700) We are planning to launch the EEA architecture for our customers next year.
+(47:15.700) The smart city, CityGBT, has also introduced 13 cases in Taiwan.
+(47:20.700) It is currently helping the Beining Province in Vietnam to launch the plan for the next five years.
+(47:25.700) Next, I will introduce the 7th Red Sea Technology Day that we just held two weeks ago.
+(47:32.700) This year's scale is new and there are more customers and partners attending the event.
+(47:37.700) The opening day attracted more than 1.3 million people.
+(47:43.040) The Chairman has shared the core priorities of Red Sea.
+(47:46.240) Many partners have also come to the scene
+(47:48.900) to share the trend of AI and new generation of electric mobility.
+(47:53.660) This year, we have nine major exhibition areas,
+(47:55.440) and the number of exhibitions is more than four times that of the year.
+(47:57.860) The largest exhibition area is the AI Token Factory.
+(48:01.140) The complete presentation of Red Sea's integration capabilities
+(48:04.660) from L1 to L12 in AI.
+(48:06.500) We also demonstrated 20 key technologies for precision processing for the first time.
+(48:11.500) In the field of electric vehicles, we launched three new
+(48:20.740) and light-weighted commercial goods cards.
+(48:21.740) Currently, we have already collected 12 reference vehicles.
+(48:22.740) This year, we have expanded our discussion with international partners, such as Google and
+(48:26.740) Morgan Stanley.
+(48:27.740) This is the first time that we have held a special technology exchange, and it is also
+(49:05.740) and technology development and scale-up applications.
+(49:10.140) In Kaohsiung, we also announced the establishment of a new generation of AI key products.
+(49:15.740) We also demonstrated the results of space technology applications in southern Taiwan.
+(49:20.540) We also allowed AI to enter the first phase of long-term development
+(49:23.540) and started the implementation of three major fields.
+(49:26.340) In addition, we also created smart services for public-private companies and the brain.
+(49:29.540) This is a part of the government's work in the smart city.
+(50:33.140) I will ask questions after the report.
+(50:36.140) First, I would like to ask you about your vision for the year 2027.
+(50:41.140) You mentioned that the supply of the
+(50:54.380) Thank you.
+(51:24.380) The growth of the industry is still very strong,
+(51:28.380) but other ICT products may be affected by the supply of memory and other things.
+(51:36.380) The cost of building a new building will be affected.
+(51:41.380) The performance will be different.
+(51:44.380) In terms of the four major product categories,
+(51:48.380) cloud, network, and cloud,
+(51:51.380) In terms of product types, cloud products are the main growth motivation for the year.
+(51:59.380) The global CSP will continue to expand its capital expenditure next year,
+(52:07.380) and will further drive the demand for AI servers and high-speed internet devices,
+(52:14.380) bringing us more opportunities to grow.
+(52:18.380) The net-based products have already exceeded 50% this year,
+(52:23.720) and the net-based products will exceed 60% in the next 3 to 5 years.
+(52:31.820) In terms of consumer smart products,
+(52:35.340) the main customers are mainly high-end products,
+(52:39.880) so the shortcomings of supply chains such as memory are relatively limited.
+(52:45.320) 加上客戶持續有新產品開發
+(52:48.540) 以及規格升級的需求
+(52:51.520) 所以我們預期
+(52:52.820) 2027年消費智能產品的整體表現
+(52:57.460) 會是相對的穩定
+(52:59.740) 我們對PC的市場的看法相對的審慎
+(53:05.160) 除了記憶體供應緊張
+(53:07.580) 零組件的價格上漲
+(53:10.860) will affect the price of end-of-life products
+(53:15.760) and the desire of consumers to change their machines.
+(53:19.140) In addition, the overseas project of customers
+(53:23.240) will enter into production next year
+(53:26.240) and the stage of delivery.
+(53:28.320) In addition, as our new models start to commercialize,
+(53:33.160) we expect the relevant revenue of electric vehicles
+(53:35.760) to continue to grow.
+(53:37.740) In summary, we are very confident that in 2027,
+(53:44.140) the operating performance of the Group will maintain a double-digit growth.
+(53:49.500) AI is the most important growth engine.
+(53:53.140) ICT will have a stable performance.
+(53:57.740) At the same time, we will continue to improve the proportion of supply of zero components
+(54:03.740) to improve our productivity.
+(54:06.740) That's all.
+(54:36.740) and the response measures in the management of cash flow.
+(54:39.780) What is your view on free cash flow this year?
+(54:43.500) Thank you.
+(54:46.280) The profit-making interest rate of the three seasons of the previous year reached 3.73%,
+(54:51.240) while the 3.16% of the same-year profit increased by 0.57%,
+(54:56.200) showing continuous improvement in profit-making ability.
+(54:59.200) This year's profit-making interest rate
+(55:01.280) is expected to be higher than last year's 3.2%.
+(55:06.400) From the medium- to long-term perspective,
+(55:08.400) the improvement of AI software performance and unit price,
+(55:11.200) cost of the components and complexity of the products have also increased.
+(55:15.200) We will optimize the scale of the product combination,
+(55:18.200) automate the scale of the economy,
+(55:20.200) and optimize the integration of key components,
+(55:23.400) to improve the efficiency and productivity of the operation.
+(55:26.900) The long-term profit-benefit ratio
+(55:29.400) has not changed more than 3% of the goal.
+(55:33.200) In terms of the trading model,
+(55:35.200) we will continue to negotiate with customers,
+(55:37.700) including the collaboration model within Consumon,
+(55:40.700) to strengthen customer demand and cooperation efficiency,
+(55:44.400) to reduce the use of operating funds,
+(55:46.900) and to increase capital efficiency.
+(55:50.700) Fund management will cooperate with business growth,
+(55:53.300) and to follow the principle of short-term and long-term.
+(55:56.300) As mentioned earlier,
+(55:58.100) operating cash flows and competitive financing tools
+(56:02.600) to meet the funding needs at different times.
+(56:05.960) At the same time, we will also strengthen the management of receivables,
+(56:09.500) stock and payment accounts,
+(56:12.440) and improve cash circulation efficiency,
+(56:14.560) and through cash flow prediction and capital expenditure control,
+(56:19.840) to ensure business expansion and financial stability.
+(56:23.740) As the rapid growth of AI business,
+(56:26.160) revenue and profit increase,
+(56:28.440) the same expansion of high-end retail accessories, stock and receivables,
+(56:33.400) as well as the expansion of capital and capital investment needed for expansion.
+(56:38.440) However, the current cash expenditure is the necessary investment to master the AI infrastructure of the business.
+(56:45.740) Behind these, there are clear orders and long-term needs of TR1 customers.
+(56:53.700) So we not only look at the growth of revenue and profit,
+(56:57.480) We also value the efficiency of cash transfers, capital expenditure,
+(57:01.580) and the need of customers,
+(57:03.580) the orderability and the thorough arrangement of project progress,
+(57:07.980) so that the investment of funds can be converted into future operating benefits.
+(57:13.280) As for the full-year free cash flow in 2020-2026,
+(57:17.280) whether it can maintain the same rate,
+(57:19.380) it still needs to be determined by the fourth quarter of the export and the payment progress,
+(57:24.480) and the actual implementation of capital expenditure.
+(57:28.320) We will continue to improve the cash flow of operations,
+(57:31.640) and strictly control the demand for capital expenditure and operations.
+(57:35.780) In addition to driving revenue and profit,
+(57:37.780) AI business growth will also gradually turn into
+(57:42.380) real cash flow and shareholder value.
+(57:44.780) That's all.
+(57:46.440) Thank you, Mr. Tsai.
+(57:47.440) Now we will open for questions.
+(57:49.880) Please ask two questions at a time.
+(57:54.140) Now we will move to Q&A session.
+(57:56.660) English question is also welcome.
+(58:24.140) AI data center infrastructure build up.
+(58:54.140) are all on track.
+(58:56.540) That's my first question. Thank you.
+(58:59.580) Okay, please go ahead, Mr. Tong.
+(59:05.220) Laura, thank you.
+(59:08.500) In the past few years, we've all been on video.
+(59:11.980) We've only heard your voice, not seen your people.
+(59:14.540) This is the first time we've seen your people.
+(59:17.260) I think that every year,
+(59:51.940) financial reports, you can see the growth profit margin,
+(59:58.500) which is very good.
+(60:01.940) So, the clients we met,
+(60:06.340) because of their business needs,
+(60:10.900) the drive to make a profit is still very strong.
+(60:16.180) As for the manufacturing of the machines,
+(60:20.260) traditional solutions.
+(60:25.060) The first is automation.
+(60:30.340) The second is the vertical integration of our group.
+(60:36.420) So that the machines and the server
+(60:41.620) can be more and more automated.
+(60:46.260) So the problems that the traditional servers have encountered in the past
+(60:51.260) have now been greatly reduced.
+(60:55.260) So it looks like it will only get better and better.
+(60:59.260) In the future, it looks like
+(61:02.260) the data center site is ready to deploy the machine.
+(61:10.260) That is something we need to observe.
+(61:14.260) especially after the election.
+(61:17.060) What will it look like?
+(61:20.460) Honestly, I don't know.
+(61:22.660) We need to keep observing.
+(61:24.460) Okay?
+(61:25.460) Okay, that's your first question.
+(61:29.060) Thank you, Chairman.
+(61:30.660) The second question is also something I'd like to ask.
+(61:32.260) We saw it from the Science Day,
+(61:33.860) and Chairman just mentioned
+(61:35.260) the progress we've made in the optical field.
+(61:37.860) I know that Honghai is also leading the industry
+(61:41.860) 也有開發出這個CPU的Switch已經出貨。
+(61:45.900) 那想要了解一下說,
+(61:47.580) 這個部分在明年我們怎麼看它的成長性?
+(61:50.360) 那對於我們在垂直整合上面,
+(61:52.660) 它會帶來怎麼樣的一個幫助?
+(61:54.440) 因為這可能是明後年之後往後看,
+(61:57.420) 是一個很大的一個新的一個技術的發展。
+(62:01.420) 謝謝。
+(62:01.820) 對,我想在CPU的部分,
+(62:04.360) 因為這個在這個LLM,
+(62:11.520) the demand for memory bandwidth is increasing.
+(62:16.520) The model is getting bigger and bigger.
+(62:18.520) So the trend of electricity turning into light
+(62:24.520) will not change.
+(62:27.520) The reason is that the demand is there.
+(62:30.520) Next, we will solve the related engineering problems.
+(62:35.520) These engineering problems, from the light source
+(62:38.520) to the light source connector, to the light source and electricity converter,
+(62:45.520) and so on.
+(62:50.520) These are the strengths of the Red Sea.
+(62:54.520) As mentioned earlier,
+(62:57.520) we can achieve a micro-level of precision processing,
+(63:05.520) 微米級的機密加工能力。
+(63:08.760) 在過去,機密加工能力可能對於手機的要求是有限的。
+(63:21.640) 但是對於光,尤其光要能夠對準,
+(63:26.000) 那個機密加工能力是相對要求很高的。
+(63:31.720) 尤其是有那麼多根光纖,
+(63:34.660) to be aligned in such a small area.
+(63:38.660) This is a technology.
+(63:40.660) This technology is just right.
+(63:43.660) It can fully show the ability of the Red Sea Group
+(63:48.660) to do super-secure processing.
+(63:52.660) So in this respect,
+(63:54.660) on the one hand,
+(63:56.660) the trend of electricity turning into light,
+(64:00.660) I don't think this will change.
+(64:05.660) As for the super-precision processing needed for electronic light,
+(64:10.660) and the ability to integrate with paper,
+(64:13.660) the Honghai Group has all of these.
+(64:17.660) This time, our Technology Day
+(64:23.660) and the entire Cable to the CPU switch.
+(64:33.660) All of them are capable of providing this.
+(64:40.660) So, in this respect, for the Red Sea Group,
+(64:44.660) we are very optimistic about the growth opportunities.
+(64:51.660) That's all.
+(64:53.660) I will open it up to our big shareholder, Jack, to ask questions.
+(65:02.660) Later, because of the time, we will let the reporters ask questions.
+(65:09.660) We will follow up with Randy later.
+(65:11.660) So, we will let everyone prepare first.
+(65:14.660) Hello, Chairman and Director.
+(65:16.660) I am Jack from BlackRock.
+(65:17.660) I would like to ask the first question.
+(65:49.660) In the development of models,
+(65:53.460) and in the development of models,
+(65:57.700) they are constantly expanding their own chip,
+(66:01.920) which is the investment of ASIC.
+(66:07.160) We have seen a lot of this in the news.
+(66:12.260) It is said that
+(66:15.660) to develop an ASIC
+(66:18.660) takes about 9 months.
+(66:20.660) Remember that.
+(66:22.660) In 9 months, it can turn from a spec to an ASIC.
+(66:27.660) In addition, the application of AI
+(66:32.660) is gradually expanding from model training to inference.
+(66:38.660) So the ASIC needs are growing very rapidly.
+(66:42.660) We are working with major CSP companies and customers
+(66:51.660) to work on different aspects of the ASIC project.
+(66:56.660) We value these projects very much.
+(66:59.660) They may bring long-term growth and added value.
+(67:03.660) ASIC has many different types of projects.
+(67:10.660) There are many needs for customization.
+(67:16.660) From the structure of the system, to the design of the motherboard,
+(67:22.660) to the power supply, or the cooling and heating,
+(67:27.660) or the connection of the high speed, to the entire cabinet.
+(67:32.660) There are many needs for customization.
+(67:37.660) This is exactly what Red Sea can do to play an important role in our vertical integration.
+(67:46.660) This is also a very important reason why many ASIC CSP manufacturers are here to cooperate with us.
+(68:01.660) We hope that as ASIC grows,
+(68:06.660) we will not only increase assembly,
+(68:10.160) but also continue to increase parts.
+(68:17.160) As for the growth of GPU and ASIC,
+(68:22.160) we saw that in the third quarter,
+(68:25.660) the output of ASIC AI server was 1.5 times higher than that of GPU AI.
+(68:35.660) It grew by about 70%.
+(68:40.660) We believe that both will continue to grow in 2027.
+(68:45.660) GPU AI will still be the mainstream in the market
+(68:49.660) in terms of large-scale model training and general operation.
+(69:53.660) consignment.
+(70:23.660) in terms of the efficiency of the funds.
+(70:26.500) So, that's the difference.
+(70:29.200) Thank you, Chairman.
+(70:30.600) I have a question.
+(70:32.660) We mentioned that in addition to AI investment,
+(70:34.400) we also have investments in electric vehicles.
+(70:37.600) Think about investing in the 30 electric vehicles.
+(70:39.960) The investment in mobile
+(70:44.100) and the current demand for AI is still strong.
+(70:46.600) Will the investment in electric vehicles
+(70:48.860) cause the phenomenon of self-pollution?
+(70:53.300) I think we will continue to invest in electric vehicles.
+(71:00.420) But the ratio of investment and AI
+(71:05.580) will be relatively small.
+(71:09.780) We have been observing the development of the EV industry.
+(71:18.660) We hope to choose the right time.
+(71:22.220) We are ready to enter the market of EV,
+(71:29.220) and to enter the market of EV on a large scale.
+(71:32.220) As for our cooperation with Shining,
+(71:38.220) it is a long-term investment.
+(71:42.220) We hope that through this strategic long-term investment,
+(71:48.220) to help us develop and grow our group.
+(71:54.520) Although we are doing well in terms of growth,
+(71:59.960) we hope to find a second or third source of growth
+(72:08.120) from the perspective of the future.
+(72:09.760) EB is obviously one of the options.
+(72:14.180) Of course, he also knows that robots will also be one of them.
+(72:23.520) Thank you.
+(72:24.320) That's all.
+(72:25.380) Next, let's have Mr. Guan from Kansai Business.
+(72:29.720) Hello, Chairman and Chairman James.
+(72:31.440) I'm from Kansai Business.
+(72:32.440) I have two questions.
+(72:34.280) As Chairman mentioned,
+(72:36.180) after the election,
+(72:37.620) the international situation has become a little uncertain.
+(72:41.540) and some markets are also concerned about the cash flow of CSP customers.
+(72:47.940) So, as a personal comment,
+(72:50.240) do you see any signs of customers slowing down their investment in AI?
+(72:56.340) And you mentioned energy efficiency.
+(72:58.540) Can you please explain energy efficiency to the Chairman?
+(73:01.740) The second question is that the folding machine for each department has been exported.
+(73:06.340) And there was some discussion about the energy efficiency.
+(73:10.140) Can you also talk about the current situation of the folding machine?
+(73:15.340) Is it stable or can it be improved?
+(73:19.240) And how is the sales of the whole phone of the American client this year compared to last year?
+(73:26.740) Thank you.
+(73:29.340) Regarding the problem of the folding machine,
+(73:32.740) because it involves special customers and special products,
+(73:37.940) We would not recommend it.
+(73:40.940) As for its status,
+(73:45.940) please attend the legal meeting of Apple's clients.
+(73:54.940) Regarding the first question,
+(73:57.940) AI demand is constantly increasing.
+(74:07.940) This demand comes from the user.
+(74:11.940) We divide the user into four categories.
+(74:15.940) The first category is Model Maker.
+(74:19.940) The second category is CSP.
+(74:23.940) The third category is government.
+(74:31.240) The fourth category is enterprise.
+(74:34.200) We see that most of the users
+(74:37.560) are from model makers and CSPs.
+(74:47.920) government and companies are thinking about how to use AI.
+(74:57.920) Our company is also using AI as our top strategy.
+(75:11.920) So, these needs we see are from the middle class,
+(75:20.920) and they are very strong.
+(75:22.920) These needs drive us to see CSP,
+(75:27.920) or to see the needs of the companies that provide good performance,
+(75:36.920) such as Neocloud.
+(75:38.920) We don't see any decline in demand.
+(75:50.920) As for the election and the changes in the industry,
+(75:56.920) I think there is a limited impact in the short term.
+(76:04.920) But for long-term impact, we will continue to observe.
+(76:12.220) Short-term impact includes the fact that the data center has already made an order
+(76:21.820) and has decided on the cost of the construction.
+(76:58.020) We need to observe how much it will have an impact on the long term.
+(77:04.520) That's all.
+(77:06.020) Thank you for your time.
+(77:08.020) Randy.
+(77:15.020) Thank you.
+(77:16.020) My first question about your high double-digit shipment guidance,
+(77:21.020) both for Q4 and then also for 2027.
+(77:26.020) For Q4, I'm curious, you have the high double digit, but cloud and networking, you put the significant growth rather than strong growth.
+(77:36.840) So if you could talk about the factors, whether more mix of ASIC, more consignment, or I think earlier the question was asked about transition on the high ASP GPU racks.
+(77:49.480) So that's on the fourth quarter.
+(77:51.120) And then for 2027, you also have high double digit AI shipment growth.
+(77:57.440) For that, we know Rubin ASP should be up like high double digit, almost doubling.
+(78:04.740) So what does that imply for revenue outlook for the AI server business?
+(78:12.960) Yeah, I think that the first reason is the more consignment business.
+(78:17.200) And the consignment model not just apply for ASIC only.
+(78:23.080) It probably also apply to some of the GPU-like solutions.
+(78:27.740) So I think that the biggest, I mean,
+(78:29.700) inference reason will come from the consignment.
+(78:33.720) And so even consider that,
+(78:35.700) we still expect the growth in terms of unit,
+(78:39.860) the high double-digit growth in terms of the rack-level unit.
+(78:44.720) Again, we don't see any kind of a transition plan for our new product manufacturing.
+(78:53.160) So that would be the answer to your question.
+(78:56.840) Okay, good.
+(78:59.020) Second question I want to ask on the margins.
+(79:01.320) I think originally you were thinking a bit of seasonality for margin from a high first
+(79:05.520) half base.
+(79:07.100) Your margin expanded further in third quarter.
+(79:10.100) I think first just looking to fourth quarter, how do you see the swing factors to sustain
+(79:15.620) the good margin performance?
+(79:18.360) And then as we look to 2027 and we move to these higher ASP racks, you mentioned long
+(79:25.420) term a 3 percent target.
+(79:27.980) But do you think there's enough vertical integration opportunities that the more near term into
+(79:32.400) next year you can sustain these higher levels in the upper 3.5 to 4 percent range?
+(79:40.100) In terms of margin, not only we will work on the product mix, but also we're working
+(79:54.660) on very aggressively on vertical integration part of it.
+(80:00.660) Just give you a number, rough idea about how much improvement that we have done in the
+(80:06.620) last year, this year versus last year.
+(80:11.500) In terms of the vertical integration components-wise,
+(80:16.560) last year we did about $1.3 trillion.
+(80:20.900) This year we are doing more than $1.6 trillion,
+(80:26.800) with the margin higher than 15%.
+(80:32.080) So the more we do the components,
+(80:35.960) the more margin on the average will go higher.
+(80:41.400) So that's part of it.
+(80:43.580) We are putting a lot of efforts in that, especially,
+(80:47.260) as I mentioned, for the ASIC compute tray or ASIC rack.
+(81:01.280) a lot of customization needed, especially
+(81:08.240) with customized components.
+(81:11.160) So that's good for us.
+(81:13.760) So we are seeing that with all these efforts,
+(81:17.400) we're definitely above 3%.
+(81:24.580) It's very much achievable.
+(81:27.840) But next year, we're expecting high double-digit growth in terms of revenue, as we mentioned.
+(81:35.780) So how we're going to keep up with this high revenue growth is a challenge for us.
+(81:47.260) So we work very hard.
+(81:51.580) Thank you.
+(81:57.840) Okay, let's have Mr. Tsai add more.
+(81:59.040) Okay, in addition to Chairman mentioned the components,
+(82:04.040) virtual integration contribute to our margin.
+(82:06.840) Another key point is if talking about the operating margin,
+(82:11.640) you should be looking to our OpEx control.
+(82:15.040) Okay, that kind of scale or economic benefit.
+(82:20.340) Okay, I give this comment, need to open it to you.
+(82:54.840) Thank you.
+(83:24.840) you
+(84:54.840) Thank you.
