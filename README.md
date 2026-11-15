@@ -23,7 +23,7 @@
 | NVDA NVIDIA 輝達 | FY2027 Q3 | 財報 | 2026-11-17 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
 | 6669 緯穎 | 2026 Q3 | 法說會 | 2026-11-17 | 無 | - | - | [中](data/6669/6669_2026_q3_ir.pdf) | [EN](data/6669/6669_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6669) |
 | 3014 聯陽 | 2026 Q3 | 法說會 | 2026-11-16 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3014) |
-| 2376 技嘉 | 2026 Q3 | 法說會 | 2026-11-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2376) |
+| 2376 技嘉 | 2026 Q3 | 法說會 | 2026-11-13 | [62.4 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2376_2026_q3.m4a) | - | - | [中](data/2376/2376_2026_q3_ir.pdf) | [EN](data/2376/2376_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2376) |
 | 3665 貿聯-KY | 2026 Q3 | 財報 | 2026-11-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3665) |
 | 3665 貿聯-KY | 2026 Q3 | 法說會 | 2026-11-13 | [61.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3665_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3665) |
 | 2376 技嘉 | 2026 Q3 | 財報 | 2026-11-13 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2376) |
