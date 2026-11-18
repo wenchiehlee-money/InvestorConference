@@ -52,7 +52,7 @@
 | 3034 聯詠 | 2026 Q3 | 法說會 | 2026-11-06 | [49.8 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/3034_2026_q3.m4a) | [📝](data/3034/3034_2026_q3_FIN.srt) | - | [中](data/3034/3034_2026_q3_ir.pdf) | [EN](data/3034/3034_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | 3034 聯詠 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3034) |
 | 2884 玉山金 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2884) |
-| 2884 玉山金 | 2026 Q3 | 法說會 | 2026-11-06 | 無 | - | - | [中](data/2884/2884_2026_q3_ir.pdf) | [EN](data/2884/2884_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2884) |
+| 2884 玉山金 | 2026 Q3 | 法說會 | 2026-11-06 | [21.3 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2884_2026_q3.m4a) | - | - | [中](data/2884/2884_2026_q3_ir.pdf) | [EN](data/2884/2884_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2884) |
 | 2449 京元電子 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2449) |
 | 2449 京元電子 | 2026 Q3 | 法說會 | 2026-11-06 | 無 | - | - | [中](data/2449/2449_2026_q3_ir.pdf) | [EN](data/2449/2449_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2449) |
 | 6669 緯穎 | 2026 Q3 | 財報 | 2026-11-06 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6669) |
