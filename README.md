@@ -12,7 +12,7 @@
 | AVGO Broadcom Inc. | FY2026 Q4 | 財報 | 2026-12-09 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AVGO/financials/) |
 | 2881 富邦金 | 2026 Q3 | 財報 | 2026-11-30 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2881) |
 | 2882 國泰金 | 2026 Q3 | 財報 | 2026-11-27 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2882) |
-| 2324 仁寶 | 2026 Q3 | 受邀法說 | 2026-11-26 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
+| 2324 仁寶 | 2026 Q3 | 受邀法說 | 2026-11-26 | 無 | - | - | [中](data/2324/2324_2026_q3_ir.pdf) | [EN](data/2324/2324_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2324) |
 | DELL Dell Technologies 戴爾科技 | FY2027 Q3 | 法說會 | 2026-11-24 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/DELL/financials/) |
 | DELL Dell Technologies 戴爾科技 | FY2027 Q3 | 財報 | 2026-11-24 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/DELL/financials/) |
 | HPQ HP Inc. | FY2026 Q4 | 法說會 | 2026-11-24 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPQ/financials/) |
