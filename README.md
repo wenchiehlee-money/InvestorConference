@@ -22,7 +22,6 @@
 | 3231 緯創 | 2026 Q3 | 受邀法說 | 2026-11-24 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=3231) |
 | HPE Hewlett Packard Enterprise Co. | FY2026 Q4 | 法說會 | 2026-11-23 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
 | HPE Hewlett Packard Enterprise Co. | FY2026 Q4 | 財報 | 2026-11-23 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
-| 2354 鴻準 | 2026 Q3 | 受邀法說 | 2026-11-20 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2354) |
 | 2891 中信金 | 2026 Q3 | 財報 | 2026-11-20 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2891) |
 | 2356 英業達 | 2026 Q3 | 法說會 | 2026-11-18 | 無 | - | - | [中](data/2356/2356_2026_q3_ir.pdf) | [EN](data/2356/2356_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2356) |
 | NVDA NVIDIA 輝達 | FY2027 Q3 | 法說會 | 2026-11-17 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
@@ -123,6 +122,7 @@
 | META Meta Platforms Inc. | 2026 Q3 | 法說會 | 2026-10-21 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/META/financials/) |
 | META Meta Platforms Inc. | 2026 Q3 | 財報 | 2026-10-21 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/META/financials/) |
 | 2354 鴻準 | 2026 Q3 | 財報 | 2026-10-21 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2354) |
+| 2354 鴻準 | 2026 Q3 | 法說會 | 2026-10-21 | 無 | - | - | [中](data/2354/2354_2026_q3_ir.pdf) | [EN](data/2354/2354_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2354) |
 | TSM Taiwan Semiconductor Manufacturing Company Limited | 2026 Q3 | 法說會 | 2026-10-15 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/TSM/financials/) |
 | 2330 台積電 | 2026 Q3 | 法說會 | 2026-10-15 | [24.7 min](https://github.com/wenchiehlee-money/InvestorConference/releases/download/audio-files/2330_2026_q3.m4a) | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
 | 2330 台積電 | 2026 Q3 | 財報 | 2026-10-15 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2330) |
