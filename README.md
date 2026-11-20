@@ -6,6 +6,8 @@
 
 | 公司 | 季度 | 類型 | 法說日期 | 音檔 | FIN | GT | IR (TW) | IR (EN) | Digest(TW) | MOPS |
 |:-----|:----:|:----:|:--------:|-----:|:---:|:--:|:-------:|:-------:|:----------:|:----:|
+| MU Micron Technology, Inc. | FY2027 Q1 | 法說會 | 2026-12-17 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MU/financials/) |
+| MU Micron Technology, Inc. | FY2027 Q1 | 財報 | 2026-12-17 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/MU/financials/) |
 | ORCL Oracle Corporation | FY2027 Q2 | 法說會 | 2026-12-14 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ORCL/financials/) |
 | ORCL Oracle Corporation | FY2027 Q2 | 財報 | 2026-12-14 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/ORCL/financials/) |
 | AVGO Broadcom Inc. | FY2026 Q4 | 法說會 | 2026-12-09 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/AVGO/financials/) |
@@ -22,7 +24,7 @@
 | HPE Hewlett Packard Enterprise Co. | FY2026 Q4 | 財報 | 2026-11-23 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/HPE/financials/) |
 | 2354 鴻準 | 2026 Q3 | 受邀法說 | 2026-11-20 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2354) |
 | 2891 中信金 | 2026 Q3 | 財報 | 2026-11-20 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2891) |
-| 2356 英業達 | 2026 Q3 | 法說會 | 2026-11-18 | - | - | - | - | - | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2356) |
+| 2356 英業達 | 2026 Q3 | 法說會 | 2026-11-18 | 無 | - | - | [中](data/2356/2356_2026_q3_ir.pdf) | [EN](data/2356/2356_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=2356) |
 | NVDA NVIDIA 輝達 | FY2027 Q3 | 法說會 | 2026-11-17 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
 | NVDA NVIDIA 輝達 | FY2027 Q3 | 財報 | 2026-11-17 | - | - | - | - | - | - | [↗](https://finance.yahoo.com/quote/NVDA/financials/) |
 | 6669 緯穎 | 2026 Q3 | 法說會 | 2026-11-17 | 無 | - | - | [中](data/6669/6669_2026_q3_ir.pdf) | [EN](data/6669/6669_2026_q3_ir_en.pdf) | - | [↗](https://mops.twse.com.tw/mops/web/t100sb07_1?step=1&firstin=1&co_id=6669) |
